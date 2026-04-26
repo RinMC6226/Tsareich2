@@ -273,6 +273,8 @@
  CZE_ONLY_fascism_DEF: "ボヘミア帝国"
  CZE_ONLY_communism: "チェコ人民共和国"
  CZE_ONLY_communism_DEF: "チェコ人民共和国"
+ CZE_GER_puppet: "ボヘミア王国"
+ CZE_GER_puppet_DEF: "ボヘミア王国"
  HUN_EMPIRE_neutrality: "オーストリア＝ハンガリー"
  HUN_EMPIRE_fascism: "オーストリア＝ハンガリー帝国"
  HUN_EMPIRE_democratic: "ドナウ連邦"

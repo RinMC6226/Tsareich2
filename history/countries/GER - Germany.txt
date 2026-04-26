@@ -1,6 +1,8 @@
 ﻿
 capital = 64 # Berlin/Brandeburg
 
+puppet = CZE
+
 if = {
 	limit = {
 		NOT = {
