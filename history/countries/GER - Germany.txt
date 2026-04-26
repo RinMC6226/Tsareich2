@@ -93,7 +93,7 @@ if = {
 		has_dlc = "By Blood Alone"
 	}
 	set_technology = {
-					photo_reconnaisance = 1
+		photo_reconnaisance = 1
 	}
 }
 

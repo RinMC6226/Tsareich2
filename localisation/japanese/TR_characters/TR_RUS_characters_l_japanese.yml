@@ -1,0 +1,95 @@
+﻿l_japanese:
+ # 国家指導者
+ RUS_tsar_vladimir_kirillovich: "ウラジーミル3世"
+ RUS_tsar_vsevolod_ivanovich: "フセヴォロド1世"
+ RUS_metropolitan_meletius: "府主教メレティウス"
+
+ # 陸軍指揮官・顧問
+ RUS_georgy_zhukov: "ゲオルギー・ジューコフ"
+ RUS_konstantin_rokossovsky: "コンスタンティン・ロコソフスキー"
+ RUS_aleksandr_vasilevsky: "アレクサンドル・ヴァシレフスキー"
+ RUS_boris_shaposhnikov: "ボリス・シャポシニコフ"
+ RUS_nikolay_vatutin: "ニコライ・ヴァトゥーチン"
+ RUS_ivan_konev: "イワン・コーネフ"
+ RUS_semyon_timoshenko: "セミョン・チモシェンコ"
+ RUS_ivan_chernyakhovsky: "イワン・チェルニャホフスキー"
+ RUS_issa_pliyev: "イッサ・プリエフ"
+ RUS_leonid_govorov: "レオニード・ゴヴォロフ"
+ RUS_grigory_kulik: "グリゴリー・クリク"
+ RUS_kirill_meretskov: "キリル・メレツコフ"
+ RUS_filipp_golikov: "フィリップ・ゴリコフ"
+ RUS_andrey_yeryomenko: "アンドレイ・エリョーメンコ"
+ RUS_georgy_zakharov: "ゲオルギー・ザハロフ"
+ RUS_yakov_cherevichenko: "ヤコフ・チェレヴィチェンコ"
+ RUS_maks_reyter: "マクス・レイテル"
+ RUS_nikandr_chibisov: "ニカンドル・チビソフ"
+ RUS_vasily_kuznetsov: "ワシーリー・クズネツォフ"
+ RUS_ivan_fedyuninsky: "イワン・フェジュニンスキー"
+ RUS_maksim_purkayev: "マクシム・プルカーエフ"
+ RUS_kuzma_galitsky: "クズマ・ガリツキー"
+ RUS_markian_popov: "マルキアン・ポポフ"
+ RUS_nikolay_berzarin: "ニコライ・ベルザリン"
+ RUS_aleksandr_gorbatov: "アレクサンドル・ゴルバトフ"
+ RUS_kirill_moskalenko: "キリル・モスカレンコ"
+ RUS_dmitry_lelyushenko: "ドミトリー・レリュシェンコ"
+ RUS_andrey_grechko: "アンドレイ・グレチコ"
+ RUS_rodion_malinovsky: "ロディオン・マリノフスキー"
+ RUS_vasily_chuykov: "ワシーリー・チュイコフ"
+ RUS_aleksandr_cherepanov: "アレクサンドル・チェレパノフ"
+
+ # 海軍指揮官・顧問
+ RUS_filipp_oktyabrsky: "フィリップ・オクチャブルスキー"
+ RUS_sergey_gorshkov: "セルゲイ・ゴルシコフ"
+ RUS_gordey_levchenko: "ゴルデイ・レフチェンコ"
+ RUS_arseny_golovko: "アルセニー・ゴロフコ"
+ RUS_vladimir_kasatonov: "ウラジーミル・カサトノフ"
+ RUS_ivan_yumashev: "イワン・ユマシェフ"
+ RUS_nikolay_kuznetsov: "ニコライ・クズネツォフ"
+ RUS_vladimir_tributs: "ウラジーミル・トリブツ"
+
+ # 空軍顧問
+ RUS_stepan_krasovsky: "ステパン・クラソフスキー"
+ RUS_sergey_khudyakov: "セルゲイ・フジャコフ"
+ RUS_konstantin_vershinin: "コンスタンティン・ヴェルシニン"
+ RUS_sergey_rudenko: "セルゲイ・ルデンコ"
+ RUS_aleksandr_golovanov: "アレクサンドル・ゴロヴァノフ"
+ RUS_aleksandr_novikov: "アレクサンドル・ノヴィコフ"
+ RUS_pavel_zhigarev: "パーヴェル・ジガレフ"
+
+ # NSB追加キャラクター
+ RUS_vasily_korzh: "ワシーリー・コルジュ"
+ RUS_sidor_kovpak: "シドル・コフパク"
+ RUS_lev_dovator: "レフ・ドヴァトル"
+ RUS_pavel_rybalko: "パーヴェル・リバルコ"
+
+ # 白軍・帝政派指揮官
+ RUS_anton_denikin: "アントン・デニキン"
+ RUS_pyotr_krasnov: "ピョートル・クラスノフ"
+ RUS_konstantin_nechayev: "コンスタンティン・ネチャーエフ"
+ RUS_vladimir_kosmin: "ウラジーミル・コスミン"
+ RUS_aleksandr_rodzyanko: "アレクサンドル・ロジャンコ"
+ RUS_andrey_shkuro: "アンドレイ・シュクロ"
+ RUS_grigory_semyonov: "グリゴリー・セミョーノフ"
+
+ # 正教会関係者
+ RUS_patriarch_sergy: "総主教セルギー"
+ RUS_metropolitan_anastasy: "府主教アナスタシー"
+ RUS_metropolitan_nikolay: "府主教ニコライ"
+ RUS_metropolitan_aleksy: "府主教アレクシー"
+
+ # 亡命者・政治顧問
+ RUS_anastasy_vonsyatsky: "アナスタシー・ヴォンシャツキー"
+ RUS_nikolay_ustryalov: "ニコライ・ウストリャロフ"
+ RUS_aleksandr_kazembek: "アレクサンドル・カゼムベク"
+ RUS_aleksandr_prokofyev_seversky: "アレクサンドル・プロコフィエフ＝セヴェルスキー"
+ RUS_vyacheslav_tkachyov: "ヴャチェスラフ・トカチョフ"
+ RUS_yan_nagursky: "ヤン・ナグルスキー"
+ RUS_vasily_yanchenko: "ワシーリー・ヤンチェンコ"
+
+ # 科学者
+ RUS_igor_kurchatov: "イーゴリ・クルチャトフ"
+ RUS_abram_ioffe: "アブラム・ヨッフェ"
+ RUS_sergey_korolyov: "セルゲイ・コロリョフ"
+ RUS_boris_stechkin: "ボリス・ステチキン"
+ RUS_arkady_nazarov: "アルカジー・ナザロフ"
+ RUS_vladimir_kotelnikov: "ウラジーミル・コテルニコフ"

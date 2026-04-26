@@ -15,7 +15,7 @@ ideas = {
 			modifier = {
 				consumer_goods_expected_value = 0.50
 				production_speed_buildings_factor = -0.35
-				production_factory_max_efficiency_factor = -0.35
+				production_factory_max_efficiency_factor = -0.2
 				local_resources_factor = 0.15
 				factory_energy_consumption = -0.25
 			}
