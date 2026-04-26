@@ -85,6 +85,74 @@ FRN = {
 	color = HSV { 0.90 0.62 0.48 }
 	color_ui = HSV { 0.90 0.46 0.64 }
 }
+SEN = {
+	color = rgb { 88 122 62 }
+	color_ui = rgb { 126 156 94 }
+}
+MRT = {
+	color = rgb { 102 112 60 }
+	color_ui = rgb { 142 152 92 }
+}
+MLI = {
+	color = rgb { 116 106 54 }
+	color_ui = rgb { 156 144 84 }
+}
+GNA = {
+	color = rgb { 92 86 48 }
+	color_ui = rgb { 132 124 76 }
+}
+VOL = {
+	color = rgb { 118 82 56 }
+	color_ui = rgb { 156 118 84 }
+}
+IVO = {
+	color = rgb { 132 94 54 }
+	color_ui = rgb { 170 132 82 }
+}
+NGR = {
+	color = rgb { 128 72 52 }
+	color_ui = rgb { 166 108 80 }
+}
+CHA = {
+	color = rgb { 108 72 66 }
+	color_ui = rgb { 146 106 96 }
+}
+TUN = {
+	color = rgb { 138 94 66 }
+	color_ui = rgb { 176 128 96 }
+}
+ALG = {
+	color = rgb { 118 104 70 }
+	color_ui = rgb { 154 138 100 }
+}
+SIE = {
+	color = rgb { 86 96 62 }
+	color_ui = rgb { 124 134 92 }
+}
+MOR = {
+	color = rgb { 124 86 72 }
+	color_ui = rgb { 160 120 102 }
+}
+LBA = {
+	color = rgb { 150 126 62 }
+	color_ui = rgb { 186 160 92 }
+}
+EGY = {
+	color = rgb { 170 156 58 }
+	color_ui = rgb { 204 188 88 }
+}
+ERI = {
+	color = rgb { 152 74 54 }
+	color_ui = rgb { 188 108 82 }
+}
+SOM = {
+	color = rgb { 96 158 164 }
+	color_ui = rgb { 132 190 196 }
+}
+DJI = {
+	color = rgb { 88 122 168 }
+	color_ui = rgb { 122 156 202 }
+}
 SWI = {
 	color = rgb { 224 5 5 }
 	color_ui = rgb { 193 81 81 }
@@ -345,13 +413,13 @@ XSM = {
 }
 
 LBA = {
-	color = rgb { 200 180 90 }
-	color_ui = rgb { 200 180 90 }
+	color = rgb { 150 126 62 }
+	color_ui = rgb { 186 160 92 }
 }
 
 EGY = {
-	color = rgb { 230 230 70 }
-	color_ui = rgb { 230 230 70 }
+	color = rgb { 170 156 58 }
+	color_ui = rgb { 204 188 88 }
 }
 
 PAL = {
