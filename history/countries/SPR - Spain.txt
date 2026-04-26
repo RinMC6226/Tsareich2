@@ -62,9 +62,9 @@ if = {
 	recruit_character = SPR_manuel_azana
 
 	set_popularities = {
-		democratic = 47
-		fascism = 46
-		communism = 7
+		democratic = 0
+		fascism = 0
+		communism = 100
 	}
 }
 
@@ -103,10 +103,10 @@ if = {
 		SPA_garrison_control_cost_calculation = yes
 	}
 	set_popularities = {
-		democratic = 41
-		fascism = 37
-		communism = 7
-		neutrality = 15
+		democratic = 0
+		fascism = 0
+		communism = 100
+		neutrality = 0
 	}
 	create_dynamic_country = {
 	    original_tag = SPR
@@ -327,7 +327,7 @@ if = {
 }
 
 set_politics = {
-	ruling_party = democratic
+	ruling_party = communism
 	last_election = "1933.2.16"
 	election_frequency = 36
 	elections_allowed = yes
@@ -357,15 +357,15 @@ set_stability = 0.5
 		complete_national_focus = production_effort
 
 		set_politics = {
-			ruling_party = fascism
+			ruling_party = communism
 			last_election = "1934.3.26"
 			election_frequency = 60
 			elections_allowed = no
 		}
 		set_popularities = {
-			democratic = 22
-			fascism = 76
-			communism = 2
+			democratic = 0
+			fascism = 0
+			communism = 100
 		}
 	}
 
@@ -416,15 +416,16 @@ set_stability = 0.5
 			remove_unit_leader_trait = trait_SPA_nationalist_sympathies
 		}
 		set_politics = {
-			ruling_party = neutrality
+			ruling_party = communism
 			last_election = "1934.3.26"
 			election_frequency = 60
 			elections_allowed = no
 		}
 		set_popularities = {
-			democratic = 17
-			neutrality = 38
-			fascism = 45
+			democratic = 0
+			neutrality = 0
+			fascism = 0
+			communism = 100
 		}
 	}
 	
