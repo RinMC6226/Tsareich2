@@ -9,7 +9,8 @@ state = {
 
 	history = {
 
-		owner = FRA
+		owner = MRT
+		controller = MRT
 		add_core_of = MRT
 
 		buildings = {

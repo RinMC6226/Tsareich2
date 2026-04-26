@@ -1,4 +1,5 @@
-﻿capital = 542
+capital = 542
+set_cosmetic_tag = BLP
 
 oob = "BOT_1936"
 

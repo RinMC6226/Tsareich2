@@ -12,6 +12,22 @@ capital = 64 # Berlin/Brandeburg
 
 puppet = CZE
 
+set_autonomy = {
+	target = DSW
+	autonomous_state = autonomy_puppet
+	freedom_level = 0
+}
+set_autonomy = {
+	target = DOA
+	autonomous_state = autonomy_puppet
+	freedom_level = 0
+}
+set_autonomy = {
+	target = DWA
+	autonomous_state = autonomy_puppet
+	freedom_level = 0
+}
+
 # ------------------------------------------------------------
 # 2. Orders of battle
 # ------------------------------------------------------------

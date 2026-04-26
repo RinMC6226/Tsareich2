@@ -12,7 +12,8 @@ state = {
 
 	history = {
 
-		owner = ENG
+		owner = DWA
+		controller = DWA
 		add_core_of = GHA
 
 		victory_points = {

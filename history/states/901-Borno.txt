@@ -6,7 +6,8 @@ state = {
 
 	history = {
 
-		owner = ENG
+		owner = DWA
+		controller = DWA
 		add_core_of = NGA
 		add_core_of = SOK
 

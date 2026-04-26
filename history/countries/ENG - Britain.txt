@@ -1,5 +1,16 @@
 capital = 126
 
+set_autonomy = {
+	target = BOT
+	autonomous_state = autonomy_puppet
+	freedom_level = 0
+}
+set_autonomy = {
+	target = FRN
+	autonomous_state = autonomy_puppet
+	freedom_level = 0
+}
+
 if = {
 	limit = {
 		NOT = {

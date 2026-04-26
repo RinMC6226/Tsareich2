@@ -1,4 +1,9 @@
 capital = 195
+set_autonomy = {
+	target = FIN
+	autonomous_state = autonomy_puppet
+	freedom_level = 0
+}
 set_stability = 0.75
 set_war_support = 0.28
 
