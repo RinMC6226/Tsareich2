@@ -1,0 +1,48 @@
+bookmarks = {
+	bookmark = {
+		name = "GATHERING_STORM_NAME"
+		desc = "GATHERING_STORM_DESC"
+		date = 1936.1.1.12
+		picture = "GFX_select_date_1936"
+		default_country = "GER"
+		default = yes
+
+
+		GER = {
+			history = "GER_GATHERING_STORM_DESC"
+			ideology = neutrality
+			available = { has_dlc = "Gotterdammerung" }
+			focuses = {
+				GER_glory_to_the_imperial_army
+				GER_the_peoples_victory
+			}
+		}
+
+
+
+		GER = {
+			history = "GER_GATHERING_STORM_DESC"
+			ideology = neutrality
+			available = { NOT = { has_dlc = "Gotterdammerung" } }
+			focuses = {
+				GER_revive_the_kaiserreich
+				GER_reestablish_free_elections
+			}
+		}
+
+		RUS = {
+			history = "RUS_GATHERING_STORM_DESC"
+			ideology = neutrality
+			ideas = {
+				rural_economy
+				volunteer_only
+				export_focus
+			}
+		}
+
+		effect = {
+			randomize_weather = 22345 # <- Obligatory in every bookmark !
+			#123 = { rain_light = yes }
+		}
+	}
+}
