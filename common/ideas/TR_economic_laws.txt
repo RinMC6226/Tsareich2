@@ -1,0 +1,27 @@
+ideas = {
+	economy = {
+		law = yes
+		use_list_view = yes
+		
+		rural_economy = {
+			picture = GER_recovering_economy #仮
+			allowed = {
+				always = no
+			}
+			allowed_to_remove = {
+				always = no
+			}
+			removal_cost = -1
+			modifier = {
+				consumer_goods_expected_value = 0.50
+				production_speed_buildings_factor = -0.35
+				production_factory_max_efficiency_factor = -0.35
+				local_resources_factor = 0.15
+				factory_energy_consumption = -0.25
+			}
+			ai_will_do = {
+				factor = 0
+			}
+		}
+	}
+}

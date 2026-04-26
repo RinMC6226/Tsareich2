@@ -1,5 +1,4 @@
-capital = 219
-
+capital = 195
 set_stability = 0.75
 set_war_support = 0.28
 
@@ -21,7 +20,8 @@ set_popularities = {
 }
 
 add_ideas = {
-	early_mobilization
-	limited_conscription
+	rural_economy
+	volunteer_only
 	export_focus
 }
+
