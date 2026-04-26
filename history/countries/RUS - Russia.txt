@@ -1,12 +1,10 @@
 capital = 219
 
-set_stability = 0.5
-set_war_support = 0.7
+set_stability = 0.75
+set_war_support = 0.28
 
 set_research_slots = 3
-set_convoys = 900
-set_stability = 0.64
-set_war_support = 0.3
+set_convoys = 450
 
 set_politics = {
 	ruling_party = neutrality
@@ -20,4 +18,10 @@ set_popularities = {
 	democratic = 10
 	neutrality = 85
 	fascism = 0
+}
+
+add_ideas = {
+	early_mobilization
+	limited_conscription
+	export_focus
 }

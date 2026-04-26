@@ -1,0 +1,34 @@
+state={
+	id=1047
+	name="STATE_1047"
+	provinces={
+		6389 
+	}
+	history={
+		owner = RUS
+		add_core_of = GER
+		add_core_of = SHL
+		add_core_of = PRE
+		buildings = {
+		6389 = {
+				naval_base = 8	
+		}
+		infrastructure = 3
+		arms_factory = 0
+		dockyard = 1
+		air_base = 4
+		}
+		victory_points = {
+		6389 10 # Kiel
+		}
+	}
+
+	
+	manpower=1025130
+	buildings_max_level_factor=-0.5
+	state_category = large_city
+	local_supplies=0
+	
+
+	
+}

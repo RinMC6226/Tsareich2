@@ -1047,7 +1047,7 @@ RCO = {
 	color = rgb { 115 115 115 }
 	color_ui = rgb { 122 145 93 }
 }
-RUS = {
+REK = {
 	color = rgb { 115 115 115 }
 	color_ui = rgb { 122 145 93 }
 }
@@ -1209,4 +1209,7 @@ HBC = {
 }
 
 
-
+RUS = {
+	color = rgb { 45 99 59 }
+	color_ui = rgb { 122 145 93 }
+}
