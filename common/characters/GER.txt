@@ -84,7 +84,7 @@ characters = {
 		name = GER_wilhelm_ii
 		portraits = {
 			civilian = {
-				large = GFX_portrait_ger_wilhelm_ii
+				large = GFX_portrait_TR_GER_wilhelm_ii
 			}	
 		}
 		country_leader = {

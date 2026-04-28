@@ -753,8 +753,7 @@ set_popularities = {
 recruit_character = ITA_benito_mussolini
 recruit_character = ITA_grand_council
 recruit_character = ITA_vittorio_emanuele_iii
-recruit_character = ITA_ferruccio_parri
-recruit_character = ITA_palmiro_togliatti
+	recruit_character = ITA_antonio_gramsci
 recruit_character = ITA_rodolfo_graziani
 recruit_character = ITA_pietro_badoglio
 recruit_character = ITA_emilio_de_bono
@@ -779,6 +778,8 @@ recruit_character = ITA_prince_umberto
 recruit_character = ITA_alessandro_pirzio_biroli
 recruit_character = ITA_carlo_vecchiarelli
 recruit_character = ITA_mario_robotti
+
+promote_character = ITA_antonio_gramsci
 recruit_character = ITA_ettore_baldassarre
 recruit_character = ITA_amedeo_guillet
 recruit_character = ITA_annibale_bergonzoli
@@ -860,7 +861,6 @@ recruit_character = ITA_alcide_de_gasperi
 recruit_character = ITA_comitato_di_liberazione_nazionale
 recruit_character = ITA_papa_pio_xi
 recruit_character = ITA_papa_pio_xii
-recruit_character = ITA_antonio_gramsci
 
 recruit_character = ITA_haile_selassie_gugsa_doppleganger
 recruit_character = ITA_abba_jofir_doppleganger

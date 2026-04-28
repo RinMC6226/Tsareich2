@@ -13,6 +13,23 @@ characters = {
                                                                                                                   
 
 
+	RUS_nicholas_ii = {
+		name = RUS_nicholas_ii
+		portraits = {
+			civilian = {
+				large = "GFX_portrait_TR_RUS_nicholas_ii"
+			}
+		}
+		country_leader = {
+			ideology = despotism
+			expire = "1953.3.1.1"
+			id = -1
+			traits = {
+				emperor_and_autocrat_of_all_the_russias
+			}
+		}
+	}
+
 	RUS_tsar_vladimir_kirillovich = {
 		name = RUS_tsar_vladimir_kirillovich
 		portraits = {

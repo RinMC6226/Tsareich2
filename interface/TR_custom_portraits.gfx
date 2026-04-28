@@ -1,0 +1,26 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_portrait_TR_GER_wilhelm_ii"
+		texturefile = "gfx/leaders/GER/wilhelm_ii.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_TR_RUS_nicholas_ii"
+		texturefile = "gfx/leaders/RUS/nicholas_ii.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_TR_FRA_alfred_rosmer"
+		texturefile = "gfx/leaders/FRA/alfred_rosmer.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_TR_ITA_antonio_gramsci"
+		texturefile = "gfx/leaders/ITA/antonio_gramsci.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_TR_SPR_francisco_largo_caballero"
+		texturefile = "gfx/leaders/SPA/francisco_largo_caballero.dds"
+	}
+}

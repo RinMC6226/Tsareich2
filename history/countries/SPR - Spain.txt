@@ -24,7 +24,6 @@ if = {
 		}
 	}
 	recruit_character = SPR_niceto_alcala_zamora
-	recruit_character = SPR_jose_diaz
 	recruit_character = SPR_alejandro_lerroux
 	recruit_character = SPA_francisco_franco
 	recruit_character = SPR_jose_asensio_torrado
@@ -60,6 +59,8 @@ if = {
 	recruit_character = SPR_francisco_largo_caballero
 	recruit_character = SPA_karl_pius_von_habsburg
 	recruit_character = SPR_manuel_azana
+
+	promote_character = SPR_francisco_largo_caballero
 
 	set_popularities = {
 		democratic = 0
@@ -154,7 +155,6 @@ if = {
 		SPR_national_strikes_3
 	}
 	recruit_character = SPR_niceto_alcala_zamora
-	recruit_character = SPR_jose_diaz
 	recruit_character = SPA_jose_antonio_primo_de_rivera
 	recruit_character = SPR_manuel_fal_conde
 	recruit_character = SPR_vicente_rojo_lluch
@@ -245,6 +245,8 @@ if = {
 	recruit_character = SPA_mauricio_de_sivatte
 	recruit_character = SPA_karl_pius_von_habsburg
 	recruit_character = SPR_manuel_azana
+
+	promote_character = SPR_francisco_largo_caballero
 	165 = {
 		add_dynamic_modifier = { modifier = autonomous_state }
 	}

@@ -37,6 +37,7 @@ add_ideas = {
 
 #キャラ
 
+recruit_character = RUS_nicholas_ii
 recruit_character = RUS_aleksandr_vasilevsky
 recruit_character = RUS_aleksandr_golovanov
 recruit_character = RUS_aleksandr_gorbatov

@@ -13,7 +13,8 @@ state = {
 
 	history = {
 
-		owner = FRA
+		owner = GER
+		controller = GER
 		add_core_of = VIN
 
 		buildings = {
