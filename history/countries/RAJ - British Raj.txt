@@ -205,7 +205,6 @@ if = {
 		RAJ_risk_of_famine
 	}
 
-	add_to_tech_sharing_group = commonwealth_research
 }
 
 if = {
@@ -238,8 +237,6 @@ if = {
 }
 
 set_convoys = 20
-
-set_cosmetic_tag = RAJ_UK # British Raj
 
 640 = { #Mandalay
 	add_dynamic_modifier = { modifier = dense_rural_infrastructure }

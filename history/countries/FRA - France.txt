@@ -65,19 +65,7 @@ if = {
 			has_dlc = "Man the Guns"
 		}
 	}
-	set_autonomy = {
-		target = SYR
-		autonomous_state = autonomy_colony
-		freedom_level = 0.5
-	}
-	set_autonomy = {
-		target = LEB
-		autonomous_state = autonomy_colony
-		freedom_level = 0.5
-	}
 	else = {
-		puppet = SYR
-		puppet = LEB
 	}
 }
 
@@ -414,16 +402,16 @@ set_convoys = 300
 
 
 set_politics = {
-	ruling_party = democratic
+	ruling_party = communism
 	last_election = "1932.5.1"
 	election_frequency = 48
-	elections_allowed = yes
+	elections_allowed = no
 }
 set_popularities = {
-	democratic = 64
-	fascism = 1
-	neutrality = 15
-	communism = 20
+	democratic = 0
+	fascism = 0
+	neutrality = 0
+	communism = 100
 }
 
 add_ideas = {
@@ -441,7 +429,7 @@ give_guarantee = YUG
 give_guarantee = ROM
 
 recruit_character = FRA_philippe_petain
-recruit_character = FRA_maurice_thorez
+recruit_character = FRA_alfred_rosmer
 recruit_character = FRA_pierre_laval
 recruit_character = FRA_edouard_daladier
 recruit_character = FRA_jean_de_lattre_de_tassigny
@@ -509,6 +497,8 @@ recruit_character = FRA_louis_renault
 recruit_character = FRA_henri_edmond_fouche
 recruit_character = FRA_joseph_bethenod
 
+promote_character = FRA_alfred_rosmer
+
 if = {
 	limit = {
 		OR = {
@@ -561,7 +551,6 @@ if = {
 		nationalities = { FRA }
 	}
 
-	recruit_character = FRA_rene_nicod
 }
 
 ### VARIANTS ###

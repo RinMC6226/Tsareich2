@@ -18,6 +18,11 @@ INS_HOL = {
     color_ui = rgb { 255 179 96 }
 }
 
+BLP = {
+	color = rgb { 201 56 93 }
+	color_ui = rgb { 255 73 121 }
+}
+
 HUN_EMPIRE = {
 	color = rgb { 194 198 215 }
 	color_ui = rgb { 255 255 255 }
@@ -1040,6 +1045,11 @@ FIN_finnish_democratic_republic = {
 	#color_ui = rgb { 234 180 174 }
 }
 
+FIN_RUS = {
+	color = rgb { 92 132 106 }
+	color_ui = rgb { 162 185 144 }
+}
+
 SWE_greater_nordic_reich_tag = {
 	color = rgb { 7 10 92 }
 	color_ui = rgb { 7 10 92 }
@@ -1827,3 +1837,7 @@ JAP_pacific_union = {
 	color_ui = rgb { 230 184 0 }
 }
 
+CZE_GER_puppet = {	
+	color = rgb { 115 115 115 }
+	color_ui = rgb { 122 145 93 }
+}

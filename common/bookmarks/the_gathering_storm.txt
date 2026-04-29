@@ -1,0 +1,126 @@
+bookmarks = {
+	bookmark = {
+		name = "GATHERING_STORM_NAME"
+		desc = "GATHERING_STORM_DESC"
+		date = 1936.1.1.12
+		picture = "GFX_select_date_1936"
+		default_country = "SPR"
+		default = yes
+
+		SPR = {
+			history = "SPR_GATHERING_STORM_DESC"
+			ideology = communism
+			ideas = {
+				SPR_military_disloyalty
+				SPR_political_violence
+				SPR_national_strikes_3
+			}
+			focuses = {
+				SPR_masters_of_our_own_fate
+				SPR_the_anti_fascist_workers_revolution
+				SPR_the_stalinist_doctrine
+			}
+		}
+
+		ITA = {
+			history = "ITA_GATHERING_STORM_DESC"
+			ideology = communism
+			ideas = {
+				vittorio_emanuele
+				vittoria_mutilata
+				partial_economic_mobilisation
+			}
+			focuses = {
+				ITA_il_sol_dell_avvenire
+				ITA_italian_socialism
+				ITA_industrial_socialization
+			}
+		}
+
+		FRA = {
+			history = "FRA_GATHERING_STORM_DESC"
+			ideology = communism
+			ideas = {
+				FRA_victors_of_wwi
+				FRA_disjointed_government
+				FRA_protected_by_the_maginot_line
+			}
+			focuses = {
+				FRA_invite_communist_ministers
+				FRA_strengthen_the_unions
+				FRA_freedom_front
+			}
+		}
+
+		GER = {
+			history = "GER_GATHERING_STORM_DESC"
+			ideology = neutrality
+			available = { has_dlc = "Gotterdammerung" }
+			ideas = {
+				GER_army_1936_fake_ns
+				GER_airforce_fake_ns
+			}
+			focuses = {
+				GER_glory_to_the_imperial_army
+				GER_the_peoples_victory
+				GER_reestablish_free_elections
+			}
+		}
+
+		GER = {
+			history = "GER_GATHERING_STORM_DESC"
+			ideology = neutrality
+			available = { NOT = { has_dlc = "Gotterdammerung" } }
+			ideas = {
+				GER_army_1936_fake_ns
+				GER_airforce_fake_ns
+			}
+			focuses = {
+				GER_revive_the_kaiserreich
+				GER_reestablish_free_elections
+				GER_oppose_hitler
+			}
+		}
+
+		RUS = {
+			history = "RUS_GATHERING_STORM_DESC"
+			ideology = neutrality
+			ideas = {
+				rural_economy
+				volunteer_only
+				export_focus
+			}
+			focuses = {
+				army_effort
+				industrial_effort
+				extra_tech_slot
+			}
+		}
+
+		ENG = {
+			history = "ENG_GATHERING_STORM_DESC"
+			ideology = democracy
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+		
+		USA = {
+			history = "USA_GATHERING_STORM_DESC"
+			ideology = democracy
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+
+		"---" = {
+			history = "OTHER_GATHERING_STORM_DESC"
+		}
+
+		effect = {
+			randomize_weather = 22345
+		}
+	}
+}

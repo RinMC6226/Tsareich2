@@ -5,7 +5,8 @@ state={
 	state_category = pastoral
 
 	history={
-		owner = ENG
+		owner = DOA
+		controller = DOA
 		buildings = {
 			infrastructure = 1
 

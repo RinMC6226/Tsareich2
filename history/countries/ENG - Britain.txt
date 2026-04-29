@@ -1,5 +1,16 @@
 capital = 126
 
+set_autonomy = {
+	target = BOT
+	autonomous_state = autonomy_puppet
+	freedom_level = 0
+}
+set_autonomy = {
+	target = FRN
+	autonomous_state = autonomy_puppet
+	freedom_level = 0
+}
+
 if = {
 	limit = {
 		NOT = {
@@ -257,11 +268,6 @@ if = {
 		autonomous_state = autonomy_integrated_puppet
 	}
 	set_autonomy = {
-		target = RAJ
-		autonomous_state = autonomy_colony
-		freedom_level = 0.35
-	}
-	set_autonomy = {
 		target = OMA
 		autonomous_state = autonomy_colony
 		freedom_level = 0.35
@@ -286,39 +292,14 @@ if = {
 		autonomous_state = autonomy_dominion
 		freedom_level = 0.2
 	}
-	set_autonomy = {
-		target = BRM
-		autonomous_state = autonomy_colony
-		freedom_level = 0.2
-	}
 	#set_autonomy = {
 	#	target = EGY
 	#	autonomous_state = autonomy_dominion
 	#	freedom_level = 0.2
 	#}
-	set_autonomy = {
-		target = PAL
-		autonomous_state = autonomy_integrated_puppet
-		freedom_level = 0.5
-	}
-	set_autonomy = {
-		target = JOR
-		autonomous_state = autonomy_dominion
-		freedom_level = 0.2
-	}
-	set_autonomy = {
-		target = KUW
-		autonomous_state = autonomy_integrated_puppet
-		freedom_level = 0.5
-	}
-
 	else = {
 		puppet = MAL
-		puppet = RAJ
-		puppet = JOR
-		puppet = PAL
 		#puppet = EGY
-		puppet = KUW
 		puppet = OMA
 	}
 }
@@ -593,12 +574,12 @@ set_politics = {
 	ruling_party = democratic
 	last_election = "1935.11.14"
 	election_frequency = 48
-	elections_allowed = yes ##suspended through duration of war, which is handled via event
+	elections_allowed = yes
 }
 set_popularities = {
-	democratic = 97
-	fascism = 2
-	communism = 1
+	democratic = 100
+	fascism = 0
+	communism = 0
 }
 
 
@@ -619,16 +600,15 @@ add_to_faction = AST
 add_to_faction = NZL
 add_to_faction = SAF
 
-give_military_access = RAJ
-add_to_faction = RAJ		# Must be after puppet
 add_to_faction = MAL
 
 #give_guarantee = CZE
 
-# Order matters - here Chamberlain becomes starting leader
+# Order matters - Churchill is the starting leader in this setup
 recruit_character = ENG_oswald_mosley
 recruit_character = ENG_stanley_baldwin
 recruit_character = ENG_winston_churchill
+promote_character = ENG_winston_churchill
 recruit_character = ENG_harry_pollitt
 recruit_character = ENG_alan_brooke
 recruit_character = ENG_bernard_montgomery

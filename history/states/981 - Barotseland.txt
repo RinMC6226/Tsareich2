@@ -12,7 +12,8 @@ state = {
 
 	history = {
 
-		owner = ENG
+		owner = FRN
+		controller = FRN
 		add_core_of = ZAM
 		add_core_of = BAR
 

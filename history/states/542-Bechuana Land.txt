@@ -11,7 +11,8 @@ state={
 	}
 
 	history={
-		owner = ENG
+		owner = BOT
+		controller = BOT
 		buildings = {
 			infrastructure = 1
 		}

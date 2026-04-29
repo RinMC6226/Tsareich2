@@ -9,7 +9,8 @@ state = {
 
 	history = {
 
-		owner = FRA
+		owner = MLI
+		controller = MLI
 		add_core_of = MLI
 
 		buildings = {

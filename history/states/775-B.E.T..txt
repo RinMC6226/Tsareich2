@@ -9,7 +9,8 @@ state = {
 
 	history = {
 
-		owner = FRA
+		owner = CHA
+		controller = CHA
 		add_core_of = CHA
 
 		buildings = {

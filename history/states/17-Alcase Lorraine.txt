@@ -9,7 +9,7 @@ state={
 	resources={
 		steel=28 # was: 48
 	}
-
+	
 	history={
 		owner = FRA
 		victory_points = {
@@ -24,6 +24,9 @@ state={
 			air_base = 5
 		}
 		add_core_of = FRA
+	
+		set_demilitarized_zone = yes
+
 	}
 
 	provinces={
