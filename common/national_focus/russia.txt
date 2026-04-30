@@ -1,0 +1,39 @@
+focus_tree = {
+	id = russian_focus
+	
+	country = {
+		factor = 0
+		
+		modifier = {
+			add = 10
+			tag = RUS
+		}
+	}
+
+	initial_show_position = {
+		x = 76
+		y = 0
+	}
+
+	focus = {
+		id = RUS_avoided_assassinate
+		icon = GFX_focus_usa_reestablish_the_gold_standard
+		
+		mutually_exclusive = { focus = }
+		x = 30
+		y = 0
+		cost = 0
+
+		available = {
+			always = no
+		}
+
+		search_filters = { FOCUS_FILTER_POLITICAL FOCUS_FILTER_INDUSTRY FOCUS_FILTER_STABILITY FOCUS_FILTER_POLITICAL_CHARACTER }
+
+		completion_reward = {
+			add_country_leader_trait = RUS_reactional_tsar
+			custom_effect_tooltip = RUS_tooltip_avoided_assassinate
+		}
+	}
+
+}
