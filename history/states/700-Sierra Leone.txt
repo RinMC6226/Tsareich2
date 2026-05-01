@@ -10,8 +10,8 @@ state={
 	
 	history=
 	{
-		owner = SIE
-		controller = SIE
+		owner = ENG
+		controller = ENG
 		add_core_of = SIE
 		victory_points = {
 			2038 1 

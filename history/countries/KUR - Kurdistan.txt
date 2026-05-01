@@ -1,5 +1,8 @@
 ﻿capital = 800
 
+set_cosmetic_tag = KUR_RUS
+
+
 set_research_slots = 2
 
 add_ideas = {
@@ -123,17 +126,17 @@ set_grand_doctrine = new_strategic_destruction
 
 # There were many Kurdish uprisings in Iraq, Iran, and Turkey in the 20th century, it's difficult to define a "ruling party". Democratic has been chosen since the Dersim Rebellion is the closest uprising to HoI's start date.
 set_politics = {
-	ruling_party = democratic
+	ruling_party = neutrality
 	last_election = "1935.2.8"
 	election_frequency = 48
-	elections_allowed = yes
+	elections_allowed = no
 }
 
 set_popularities = {
-	democratic = 40
-	communism = 25
-	fascism = 30
-	neutrality = 5
+	democratic = 0
+	communism = 0
+	fascism = 0
+	neutrality = 100
 }
 
 # Qazi Muhammad was leader of the short-lived Marxist uprising in Iranian Kurdistan
@@ -168,3 +171,4 @@ recruit_character = KUR_acas
 recruit_character = KUR_awt
 recruit_character = KUR_kamuran_ali_bedirxan
 recruit_character = KUR_aco2
+promote_character = KUR_mahmud_barzanji

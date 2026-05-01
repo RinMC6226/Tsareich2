@@ -1,0 +1,4 @@
+graphical_culture = chinese_gfx
+graphical_culture_2d = chinese_2d
+
+color = rgb { 40 40 140 }

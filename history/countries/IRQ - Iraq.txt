@@ -1,5 +1,8 @@
 ﻿capital = 291 # Baghdad
 
+set_cosmetic_tag = IRQ_RUS
+
+
 oob = "IRQ_1936"
 
 if = {

@@ -6,10 +6,9 @@ state = {
 	}
 
 	history = {
-		owner = XSM
-		add_core_of = XSM
-		add_core_of = CHI
-		add_core_of = PRC
+		owner = XIC
+		controller = XIC
+		add_core_of = XIC
 
 		buildings = {
 			infrastructure = 2
@@ -31,8 +30,7 @@ state = {
 				}
 				XIC = { transfer_state = PREV }
 				add_core_of = XIC
-				add_core_of = GSM
-				remove_core_of = XSM
+				add_core_of = XIC
 			}
 		}
 
@@ -43,7 +41,7 @@ state = {
 						has_dlc = "Waking the Tiger"
 					}
 				}
-				CHI = {
+				KMT = {
 					transfer_state = PREV
 				}
 			}
@@ -53,8 +51,8 @@ state = {
 				}
 				remove_core_of = XIC
 			}		
-			owner = CHI
-			controller = CHI
+			owner = XIC
+			controller = XIC
 		}
 	}
 

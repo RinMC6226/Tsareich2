@@ -1,5 +1,7 @@
 ﻿capital = 328 # Hsingking
 
+set_cosmetic_tag = MAN_RUS
+
 set_variable = { MAN_state_shintoism_surrender_limit = 0 }
 set_variable = { MAN_state_shintoism_war_support_factor = 0 }
 set_variable = { MAN_state_shintoism_pocket_penalty = 0 }

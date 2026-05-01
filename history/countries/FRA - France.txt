@@ -1,4 +1,15 @@
-﻿capital = 16 # Paris/Ile de France
+﻿set_autonomy = {
+	 target = AOC
+	 autonomous_state = autonomy_puppet
+	 freedom_level = 0
+}
+set_autonomy = {
+	 target = ALG
+	 autonomous_state = autonomy_puppet
+	 freedom_level = 0
+}
+
+capital = 16 # Paris/Ile de France
 
 if = {
 	limit = {

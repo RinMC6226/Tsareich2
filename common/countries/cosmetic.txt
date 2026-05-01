@@ -1,4 +1,4 @@
-MAL_UK = {
+﻿MAL_UK = {
     color = rgb { 201 56 93 }
     color_ui = rgb { 255 73 121 }
 }
@@ -1050,6 +1050,31 @@ FIN_RUS = {
 	color_ui = rgb { 162 185 144 }
 }
 
+KOR_RUS = {
+	color = rgb { 92 132 106 }
+	color_ui = rgb { 162 185 144 }
+}
+
+MAN_RUS = {
+	color = rgb { 92 132 106 }
+	color_ui = rgb { 162 185 144 }
+}
+
+FOR_JAP = {
+	color = hsv { 0.05 0.3 1 }
+	color_ui = hsv { 0.05 0.25 1.2 }
+}
+
+ALG_FRA = {
+	color = HSV { 0.0 0.66 0.80 }
+	color_ui = HSV { 0.0 0.54 0.92 }
+}
+
+TUN_PRINCIPALITY = {
+	color = rgb { 162 138 74 }
+	color_ui = rgb { 196 170 102 }
+}
+
 SWE_greater_nordic_reich_tag = {
 	color = rgb { 7 10 92 }
 	color_ui = rgb { 7 10 92 }
@@ -1840,4 +1865,29 @@ JAP_pacific_union = {
 CZE_GER_puppet = {	
 	color = rgb { 115 115 115 }
 	color_ui = rgb { 122 145 93 }
+}
+
+SYR_GER = {
+	color = rgb { 115 115 115 }
+	color_ui = rgb { 122 145 93 }
+}
+
+IRQ_RUS = {
+	color = rgb { 92 132 106 }
+	color_ui = rgb { 162 185 144 }
+}
+
+ARM_RUS = {
+	color = rgb { 92 132 106 }
+	color_ui = rgb { 162 185 144 }
+}
+
+KUR_RUS = {
+	color = rgb { 92 132 106 }
+	color_ui = rgb { 162 185 144 }
+}
+
+CYP_RUS = {
+	color = rgb { 92 132 106 }
+	color_ui = rgb { 162 185 144 }
 }

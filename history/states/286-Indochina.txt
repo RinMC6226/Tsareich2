@@ -11,8 +11,8 @@ state={
 
 	history={
 		
-		owner = GER
-		controller = GER
+		owner = DAS
+		controller = DAS
 		add_core_of = VIN
 		add_core_of = CHM
 

@@ -12,7 +12,8 @@ state = {
 
 	history = {
 
-		owner = FIN
+		owner = RUS
+		controller = RUS
 		add_core_of = FIN
 		add_core_of = SMI
 

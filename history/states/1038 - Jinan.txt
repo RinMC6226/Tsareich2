@@ -11,17 +11,17 @@ state = {
 	
 	history = {
 
-		owner = CHI
-		add_core_of = CHI
-		add_core_of = PRC
+		owner = BYG
+		controller = BYG
+		add_core_of = BYG
 
 		1936.1.1 = {
 			IF = {
 				limit = {
 					has_dlc = "No Compromise, No Surrender"
 				}
-				transfer_state_to = SND
-				add_core_of = SND
+				transfer_state_to = BYG
+				add_core_of = BYG
 			}
 		}
 
@@ -45,7 +45,7 @@ state = {
 					has_dlc = "No Compromise, No Surrender" 
 				}
 			}	
-			owner = CHI
+			owner = BYG
 			controller = JAP		
 		}
 	}

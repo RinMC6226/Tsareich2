@@ -7,8 +7,8 @@ state={
 	state_category = pastoral
 
 	history={
-		owner = GER
-		controller = GER
+		owner = USA
+		controller = USA
 		add_core_of = CAY
 		buildings = {
 			infrastructure = 1

@@ -11,8 +11,6 @@ state={
 
 		owner = XSM
 		add_core_of = XSM
-		add_core_of = CHI
-		add_core_of = PRC
 
 		victory_points = {
 			4783 1 # Ejin Banner
@@ -27,9 +25,7 @@ state={
 				limit = {
 					has_dlc = "No Compromise, No Surrender" 
 				}
-				NXM = { transfer_state = PREV }
-				add_core_of = NXM
-				remove_core_of = XSM
+				add_core_of = XSM
 			}
 		}
 
@@ -40,7 +36,7 @@ state={
 						has_dlc = "Waking the Tiger" 
 					}
 				}
-				CHI = {
+				KMT = {
 					transfer_state = PREV
 				}
 			}

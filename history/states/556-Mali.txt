@@ -6,8 +6,8 @@ state={
 	state_category=rural
 
 	history={
-		owner = MLI
-		controller = MLI
+		owner = AOC
+		controller = AOC
 		add_core_of = MLI
 		victory_points = {
 			4927 1 

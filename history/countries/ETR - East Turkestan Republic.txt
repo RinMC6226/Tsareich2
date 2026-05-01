@@ -1,0 +1,28 @@
+capital = 618
+
+set_research_slots = 1
+set_convoys = 0
+
+set_politics = {
+	ruling_party = democratic
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = yes
+}
+
+set_popularities = {
+	fascism = 0
+	democratic = 100
+	communism = 0
+	neutrality = 0
+}
+
+create_country_leader = {
+	name = "Mahmud Muhiti"
+	desc = ""
+	picture = GFX_portrait_generic_china_political_leader
+	ideology = liberalism
+	traits = {
+		#
+	}
+}

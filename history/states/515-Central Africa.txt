@@ -9,8 +9,8 @@ state = {
 
 	history = {
 
-		owner = NGR
-		controller = NGR
+		owner = AOC
+		controller = AOC
 		add_core_of = NGR
 
 	}

@@ -11,9 +11,8 @@ state={
 
 	history={
 		owner = MAN
-		add_core_of = CHI
+		controller = MAN
 		add_core_of = MAN
-		add_core_of = PRC
 		buildings = {
 			infrastructure = 2
 			arms_factory = 2

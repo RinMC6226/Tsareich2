@@ -6,7 +6,7 @@ state={
 	state_category = wasteland
 
 	history={
-		owner = SPR
+		owner = MOR
 		add_core_of = WES
 		buildings = {
 			infrastructure = 1
@@ -17,6 +17,7 @@ state={
 		victory_points = {
 			8038 1
 		}
+		set_demilitarized_zone = yes
 	}
 	
 	provinces={

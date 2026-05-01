@@ -13,8 +13,6 @@ state = {
 
 		owner = GER
 		controller = GER
-		add_core_of = CHI
-		add_core_of = PRC
 
 		victory_points = {
 			11981 1 # Fort-Bayard

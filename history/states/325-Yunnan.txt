@@ -8,8 +8,6 @@ state={
 	history={
 		owner = YUN
 		add_core_of = YUN
-		add_core_of = CHI
-		add_core_of = PRC
 
 		victory_points = {
 			1319 10 # Kunming
@@ -40,7 +38,7 @@ state={
 						has_dlc = "Waking the Tiger" 
 					}
 				}
-				CHI = {
+				KMT = {
 					transfer_state = PREV
 				}
 			}

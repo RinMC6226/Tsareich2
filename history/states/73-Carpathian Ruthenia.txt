@@ -7,7 +7,8 @@ state = {
 	
 	history = {
 		
-		owner = SLO
+		owner = HUN
+		controller = HUN
 
 		buildings = {
 			infrastructure = 3

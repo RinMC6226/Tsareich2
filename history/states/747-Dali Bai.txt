@@ -10,8 +10,6 @@ state = {
 
 		owner = YUN
 		add_core_of = YUN
-		add_core_of = CHI
-		add_core_of = PRC
 
 		victory_points = {
 			7965 3 # Dali 
@@ -32,7 +30,7 @@ state = {
 					}
 
 				}
-				CHI = {
+				KMT = {
 					transfer_state = PREV
 
 				}

@@ -6,8 +6,8 @@ state={
 	
 	state_category = pastoral
 	history={
-		owner = GNA
-		controller = GNA
+		owner = AOC
+		controller = AOC
 		add_core_of = GNA
 		victory_points = {
 			1909 1 

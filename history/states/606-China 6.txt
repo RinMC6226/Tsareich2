@@ -7,9 +7,9 @@ state={
 
 	history={
 
-		owner = CHI
-		add_core_of = CHI
-		add_core_of = PRC
+		owner = BYG
+		controller = BYG
+		add_core_of = BYG
 
 		buildings = {
 			infrastructure = 2 #was 4

@@ -1,3 +1,15 @@
+﻿set_autonomy = {
+	target = CYP
+	autonomous_state = autonomy_puppet
+	freedom_level = 0
+}
+
+set_autonomy = {
+	target = IRQ
+	autonomous_state = autonomy_puppet
+	freedom_level = 0
+}
+
 capital = 195
 set_autonomy = {
 	target = FIN
@@ -6,6 +18,16 @@ set_autonomy = {
 }
 set_autonomy = {
 	target = STC
+	autonomous_state = autonomy_puppet
+	freedom_level = 0
+}
+set_autonomy = {
+	target = MAN
+	autonomous_state = autonomy_puppet
+	freedom_level = 0
+}
+set_autonomy = {
+	target = KOR
 	autonomous_state = autonomy_puppet
 	freedom_level = 0
 }
@@ -35,7 +57,7 @@ add_ideas = {
 	export_focus
 }
 
-#キャラ
+#郢ｧ・ｭ郢晢ｽ｣郢晢ｽｩ
 
 recruit_character = RUS_nicholas_ii
 recruit_character = RUS_aleksandr_vasilevsky

@@ -12,7 +12,8 @@ state = {
 	
 	history = {
 		
-		owner = SLO
+		owner = HUN
+		controller = HUN
 
 		buildings = {
 			infrastructure = 2
@@ -26,8 +27,8 @@ state = {
 		}
 
 		1939.3.14 = {
-			owner = SLO
-			controller = SLO
+			owner = HUN
+			controller = HUN
 		}
 	}
 

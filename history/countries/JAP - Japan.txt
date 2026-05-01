@@ -632,6 +632,12 @@ set_autonomy = {
 	autonomous_state = autonomy_wtt_imperial_protectorate
 }
 
+set_autonomy = {
+	target = FOR
+	autonomous_state = autonomy_puppet
+	freedom_level = 0
+}
+
 
 # Setup Politics 
 set_politics = {

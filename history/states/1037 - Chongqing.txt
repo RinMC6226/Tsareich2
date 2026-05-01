@@ -6,9 +6,8 @@ state = {
 
 	history = {
 
-		owner = CHI
-		add_core_of = CHI
-		add_core_of = PRC
+		owner = KMT
+		add_core_of = KMT
 
 		buildings = {
 			infrastructure = 2 #was 3
@@ -42,8 +41,8 @@ state = {
 				}
 				remove_core_of = SIC
 			}	
-			owner = CHI
-			controller = CHI
+			owner = KMT
+			controller = KMT
 		}
 
 		1939.1.1 = {

@@ -1,3 +1,14 @@
+﻿set_autonomy = {
+	target = SYR
+	autonomous_state = autonomy_puppet
+	freedom_level = 0
+}
+
+set_autonomy = {
+	target = DAS
+	autonomous_state = autonomy_puppet
+	freedom_level = 0
+}
 # ============================================================
 # German Reich / Tsareich2 1936 setup
 # ============================================================
@@ -423,7 +434,7 @@ if = {
 	## 1936 Start ##
 	# Light Cruisers #
 	create_equipment_variant = {
-		name = "Königsberg"
+		name = "Kﾃｶnigsberg"
 		type = light_cruiser_1
 		parent_version = 0
 		upgrades = {
@@ -588,7 +599,7 @@ if = {
 		obsolete = yes
 	}
 	create_equipment_variant = {
-		name = "Zerstörer 1934"
+		name = "Zerstﾃｶrer 1934"
 		type = ship_hull_light_2
 		name_group = GER_DD_HISTORICAL
 		parent_version = 0
@@ -605,7 +616,7 @@ if = {
 		obsolete = yes
 	}
 	create_equipment_variant = {
-		name = "Zerstörer 1934A"
+		name = "Zerstﾃｶrer 1934A"
 		type = ship_hull_light_2
 		name_group = GER_DD_HISTORICAL
 		parent_version = 0
@@ -644,7 +655,7 @@ if = {
 		}
 	}
 	create_equipment_variant = {
-		name = "Königsberg"
+		name = "Kﾃｶnigsberg"
 		type = ship_hull_cruiser_1
 		name_group = GER_CL_HISTORICAL
 		parent_version = 0

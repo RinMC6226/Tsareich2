@@ -9,8 +9,8 @@ state = {
 
 	history = {
 
-		owner = MRT
-		controller = MRT
+		owner = AOC
+		controller = AOC
 		add_core_of = MRT
 
 		buildings = {

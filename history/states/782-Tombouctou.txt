@@ -9,8 +9,8 @@ state = {
 
 	history = {
 
-		owner = MLI
-		controller = MLI
+		owner = AOC
+		controller = AOC
 		add_core_of = MLI
 
 		buildings = {

@@ -11,9 +11,9 @@ state = {
 
 	history = {
 
-		owner = CHI
-		add_core_of = PRC
-		add_core_of = CHI
+		owner = XIC
+		controller = XIC
+		add_core_of = XIC
 		1936.1.1 = {
 			IF = {
 				limit = {
@@ -31,8 +31,8 @@ state = {
 				}
 				remove_core_of = XIC
 			}		
-			owner = CHI
-			controller = CHI
+			owner = XIC
+			controller = XIC
 		}
 
 		victory_points = {

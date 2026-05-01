@@ -10,8 +10,6 @@ state = {
 
 		owner = XSM
 		add_core_of = XSM
-		add_core_of = CHI
-		add_core_of = PRC
 
 		victory_points = {
 			5193 1 # Minsien
@@ -39,8 +37,8 @@ state = {
 				}
 				remove_core_of = SIC
 			}		
-			owner = CHI
-			controller = CHI
+			owner = KMT
+			controller = KMT
 		}
 
 	}

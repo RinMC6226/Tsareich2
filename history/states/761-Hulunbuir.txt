@@ -11,9 +11,8 @@ state={
 	history = {
 
 		owner = MAN
-		add_core_of = CHI
+		controller = MAN
 		add_core_of = MAN
-		add_core_of = PRC
 
 		victory_points = {
 			10612 1 # Manzhouli

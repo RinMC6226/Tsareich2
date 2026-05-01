@@ -12,9 +12,9 @@ state={
 
 	history = {
 
-		owner = CHI
-		add_core_of = CHI
-		add_core_of = PRC
+		owner = BYG
+		controller = BYG
+		add_core_of = BYG
 
 		victory_points = {
 			4190 3 # Shijiazhuang
@@ -25,8 +25,8 @@ state={
 				limit = {
 					has_dlc = "No Compromise, No Surrender"
 				}
-				transfer_state_to = HBC
-				add_core_of = HBC
+				transfer_state_to = BYG
+				add_core_of = BYG
 			}
 		}
 		
@@ -35,7 +35,7 @@ state={
 		}
 
 		1938.10.25 = {
-			owner = CHI
+			owner = BYG
 			controller = JAP
 		}
 	}

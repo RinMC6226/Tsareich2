@@ -11,7 +11,8 @@ state = {
 
 	history = {
 
-		owner = JAP
+		owner = KOR
+		controller = KOR
 		add_core_of = KOR
 
 		buildings = {
@@ -23,7 +24,7 @@ state = {
 		}
 
 		victory_points = {
-			10115 1 # Seishū
+			10115 1 # Seishﾅｫ
 		}
 
 		victory_points = {
@@ -31,11 +32,11 @@ state = {
 		}
 
 		victory_points = {
-			4126 1 # Zenshū
+			4126 1 # Zenshﾅｫ
 		}
 
 		victory_points = {
-			10110 1 # Kōshū
+			10110 1 # Kﾅ行hﾅｫ
 		}
 
 	}

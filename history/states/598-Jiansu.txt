@@ -7,9 +7,9 @@ state={
 
 	history={
 
-		owner = CHI
-		add_core_of = CHI
-		add_core_of = PRC
+		owner = BYG
+		controller = BYG
+		add_core_of = BYG
 
 		victory_points = {
 			1029 2 # Donghai
