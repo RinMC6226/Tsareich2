@@ -15,8 +15,8 @@ state={
 
 		add_core_of = PAK
 		add_core_of = BLC
-		owner = PAK
-		controller = PAK
+		owner = KLT
+		controller = KLT
 
 		victory_points = {
 			12774 1 # Gwadar

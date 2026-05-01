@@ -12,8 +12,8 @@ state={
 		victory_points = {
 			12763 3
 		}
-		owner = PAK
-		controller = PAK
+		owner = AFG
+		controller = AFG
 		buildings = {
 			infrastructure = 1
 			air_base = 1

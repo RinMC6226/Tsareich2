@@ -1,4 +1,4 @@
-﻿MAL_UK = {
+MAL_UK = {
     color = rgb { 201 56 93 }
     color_ui = rgb { 255 73 121 }
 }
@@ -1311,10 +1311,9 @@ LGF_UNIFIED = {
 	color = rgb { 205 69 69 }
 	color_ui = rgb { 205 69 69 }
 }
-
 COG_belgian_congo = {
-	color = rgb { 0 71 179 }
-	color_ui = rgb { 0 31 77 }
+	color = rgb { 193 171 8 }
+	color_ui = rgb { 251 222 10 }
 }
 
 HUN_GREATER = {
@@ -1890,4 +1889,9 @@ KUR_RUS = {
 CYP_RUS = {
 	color = rgb { 92 132 106 }
 	color_ui = rgb { 162 185 144 }
+}
+
+AST_AUSTRALASIA = {
+	color = rgb { 57 97 143 }
+	color_ui = rgb { 74 126 186 }
 }

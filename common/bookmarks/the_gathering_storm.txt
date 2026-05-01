@@ -99,7 +99,7 @@ bookmarks = {
 
 		ENG = {
 			history = "ENG_GATHERING_STORM_DESC"
-			ideology = democracy
+			ideology = democratic
 			ideas = {
 			}
 			focuses = {
@@ -108,7 +108,7 @@ bookmarks = {
 		
 		USA = {
 			history = "USA_GATHERING_STORM_DESC"
-			ideology = democracy
+			ideology = democratic
 			ideas = {
 			}
 			focuses = {

@@ -1421,12 +1421,6 @@ characters = {
 			defense_skill = 1
 			planning_skill = 1
 			logistics_skill = 2
-			allowed = {
-				original_tag = RUS
-			}
-			available = {
-				original_tag = RUS
-			}
 		}
 	}
 
@@ -1445,12 +1439,6 @@ characters = {
 			defense_skill = 2
 			planning_skill = 2
 			logistics_skill = 3
-			allowed = {
-				original_tag = RUS
-			}
-			available = {
-				original_tag = RUS
-			}
 		}
 	}
 
@@ -1469,12 +1457,6 @@ characters = {
 			defense_skill = 1
 			planning_skill = 1
 			logistics_skill = 1
-			allowed = {
-				original_tag = RUS
-			}
-			available = {
-				original_tag = RUS
-			}
 		}
 	}
 
@@ -1493,12 +1475,6 @@ characters = {
 			defense_skill = 2
 			planning_skill = 1
 			logistics_skill = 2
-			allowed = {
-				original_tag = RUS
-			}
-			available = {
-				original_tag = RUS
-			}
 		}
 	}
 
@@ -1519,12 +1495,6 @@ characters = {
 			defense_skill = 1
 			planning_skill = 4
 			logistics_skill = 2
-			allowed = {
-				original_tag = RUS
-			}
-			available = {
-				original_tag = RUS
-			}
 		}
 	}
 
@@ -1704,12 +1674,6 @@ characters = {
 			planning_skill = 1
 			logistics_skill = 3
 			legacy_id = 0
-			allowed = {
-				original_tag = RUS
-			}
-			available = {
-				original_tag = RUS
-			}
 		}
 
 		advisor = {

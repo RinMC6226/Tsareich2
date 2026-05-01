@@ -12,7 +12,9 @@ state={
 	}
 
 	history={
-		owner = RAJ
+		owner = DRV
+		controller = DRV
+		add_core_of = DRV
 		add_core_of = MYS
 		victory_points = {
 			8011 10

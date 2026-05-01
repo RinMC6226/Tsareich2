@@ -11,8 +11,8 @@ state={
 	}
 
 	history={
-		owner = PAK
-		controller = PAK
+		owner = AFG
+		controller = AFG
 		buildings = {
 		}
 		add_core_of = NWF

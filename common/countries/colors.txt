@@ -138,8 +138,8 @@ LBA = {
 	color_ui = rgb { 196 170 102 }
 }
 EGY = {
-	color = rgb { 64 122 72 }
-	color_ui = rgb { 96 158 104 }
+	color = rgb { 48 125 79 }
+	color_ui = rgb { 92 163 116 }
 }
 ERI = {
 	color = rgb { 166 88 68 }
@@ -194,8 +194,8 @@ IRE = {
 	color_ui = rgb { 104 207 117 }
 }
 HUN = {
-	color = rgb { 249 126 98 }
-	color_ui = rgb { 255 164 127 }
+	color = rgb { 232 114 88 }
+	color_ui = rgb { 242 150 116 }
 }
 AFG = {
 	color = rgb { 64 160 167 }
@@ -390,6 +390,10 @@ RAJ = {
 	color = rgb { 226  135  40 }
 	color_ui = rgb { 226  135  40 }
 }
+IND = {
+	color = rgb { 226 135 40 }
+	color_ui = rgb { 226 135 40 }
+}
 
 CRO = {
 	color = rgb { 230  70  180 }
@@ -400,15 +404,13 @@ PRC = {
 	color = rgb { 245 12 55 }
 	color_ui = rgb { 178 34 60 }
 }
-
 GXC = {
-	color = rgb { 71 113 97 }
-	color_ui = rgb { 71 113 97 }
+	color = rgb { 52 116 132 }
+	color_ui = rgb { 82 150 168 }
 }
-
 SHX = {
-	color = rgb { 82  2  15 }
-	color_ui = rgb { 101  30  41 }
+	color = rgb { 108 78 54 }
+	color_ui = rgb { 140 106 80 }
 }
 
 XSM = {
@@ -434,6 +436,16 @@ BYG = {
 GUI = {
 	color = rgb { 201 122 52 }
 	color_ui = rgb { 232 162 92 }
+}
+
+MRA = {
+	color = rgb { 204 118 0 }
+	color_ui = rgb { 204 118 0 }
+}
+
+DRV = {
+	color = rgb { 95 38 38 }
+	color_ui = rgb { 95 38 38 }
 }
 
 PAL = {
@@ -549,6 +561,10 @@ ZIM = {
 BOT = {
 	color = rgb { 11 132 112 }
 	color_ui = rgb { 11 132 112 }
+}
+BAN = {
+	color = rgb { 24 126 96 }
+	color_ui = rgb { 76 170 140 }
 }
 PAK = {
 	color = rgb { 0 102 0  }
@@ -1187,8 +1203,12 @@ PSH = {
 	color_ui = rgb { 31 138 31 }
 }
 KLT = {
-	color = rgb { 0 171 0 }
-	color_ui = rgb { 0 171 0 }	
+	color = rgb { 40 110 118 }
+	color_ui = rgb { 72 142 150 }
+}
+KAS = {
+	color = rgb { 122 71 94 }
+	color_ui = rgb { 156 98 122 }
 }
 ASY = {
 	color = rgb { 128 0 96 }
@@ -1272,8 +1292,8 @@ GSM = {
 	color_ui = rgb { 12 26 39 }
 }
 GDC = {
-	color = rgb { 45 134 89 }
-	color_ui = rgb { 25 77 51 }
+	color = rgb { 46 118 156 }
+	color_ui = rgb { 74 152 194 }
 }
 KHM = {
 	color = rgb { 153 102 51 }
@@ -1288,12 +1308,12 @@ SND = {
 	color_ui = rgb { 153 61 0 } 
 }
 SIC = {
-	color = rgb { 0 96 128 }
-	color_ui = rgb { 0 77 102 } 
+	color = rgb { 86 112 74 }
+	color_ui = rgb { 118 146 102 }
 }
 XIC = {
-	color = rgb { 43 92 181 }
-	color_ui = rgb { 45 100 190 } 
+	color = rgb { 166 124 64 }
+	color_ui = rgb { 196 152 90 }
 }
 
 RNG = {

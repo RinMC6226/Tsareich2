@@ -12,7 +12,9 @@ state={
 	state_category=rural
 	local_supplies=0.000
 	history={
-		owner = RAJ
+		owner = DRV
+		controller = DRV
+		add_core_of = DRV
 		buildings = {
 			infrastructure = 2
 		}
