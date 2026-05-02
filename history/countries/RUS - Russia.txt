@@ -55,6 +55,11 @@ add_ideas = {
 	rural_economy
 	volunteer_only
 	export_focus
+	RUS_memory_of_greatwar
+	RUS_1935_military_badget
+	RUS_army_greatwar
+	RUS_poland_badget
+	RUS_finland_badget
 }
 
 #郢ｧ・ｭ郢晢ｽ｣郢晢ｽｩ
