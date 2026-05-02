@@ -46,7 +46,6 @@ IF = {
 	limit = {
 		has_dlc = "No Compromise, No Surrender"
 	}
-	create_faction_from_template = faction_template_usa_commonwealth
 }
 
 set_research_slots = 4

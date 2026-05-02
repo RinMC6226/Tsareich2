@@ -268,11 +268,6 @@ if = {
 		autonomous_state = autonomy_integrated_puppet
 	}
 	set_autonomy = {
-		target = OMA
-		autonomous_state = autonomy_colony
-		freedom_level = 0.35
-	}
-	set_autonomy = {
 		target = CAN
 		autonomous_state = autonomy_dominion
 		freedom_level = 0.4
@@ -292,15 +287,8 @@ if = {
 		autonomous_state = autonomy_dominion
 		freedom_level = 0.2
 	}
-	#set_autonomy = {
-	#	target = EGY
-	#	autonomous_state = autonomy_dominion
-	#	freedom_level = 0.2
-	#}
 	else = {
 		puppet = MAL
-		#puppet = EGY
-		puppet = OMA
 	}
 }
 
@@ -583,7 +571,7 @@ set_popularities = {
 }
 
 
-create_faction_from_template = faction_template_allies
+create_faction_from_template = faction_template_commonwealth
 IF= {
 	limit = {
 		has_dlc = "No Compromise, No Surrender"
@@ -599,7 +587,7 @@ add_to_faction = CAN
 add_to_faction = AST
 add_to_faction = NZL
 add_to_faction = SAF
-
+add_to_faction = JAP
 add_to_faction = MAL
 
 #give_guarantee = CZE

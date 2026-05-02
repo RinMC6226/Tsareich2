@@ -425,6 +425,11 @@ set_popularities = {
 	communism = 100
 }
 
+create_faction_from_template = faction_template_international
+add_to_faction = FRA
+add_to_faction = SPR
+add_to_faction = ITA
+
 add_ideas = {
 	FRA_victors_of_wwi
 	FRA_disjointed_government
