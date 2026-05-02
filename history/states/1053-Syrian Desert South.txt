@@ -1,0 +1,25 @@
+state = {
+	id = 1053
+	name = "STATE_1053"
+	manpower = 160000
+
+	state_category = wasteland
+
+	history = {
+		owner = IRQ
+		controller = IRQ
+
+		victory_points = {
+			1549 1
+		}
+		victory_points = {
+			6883 1
+		}
+	}
+
+	provinces = {
+		901 10882 1549 1578 1634 1606 6883
+	}
+
+	local_supplies = 4.0
+}

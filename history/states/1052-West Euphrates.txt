@@ -1,0 +1,23 @@
+state = {
+	id = 1052
+	name = "STATE_1052"
+	state_category = rural
+	manpower = 160000
+
+	resources = {
+		oil = 1
+	}
+
+	history = {
+		owner = SAU
+		controller = SAU
+		add_core_of = SAU
+	}
+
+	provinces = {
+		1631 4951
+	}
+
+	buildings_max_level_factor = 1.000
+	local_supplies = 0.000
+}

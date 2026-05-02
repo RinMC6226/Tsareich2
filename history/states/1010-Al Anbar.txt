@@ -14,10 +14,13 @@ state = {
 		victory_points = {
 			12413 1 # Rumadiyah
 		}
+		victory_points = {
+			3795 2 # Tikrit
+		}
 	}
 
 	provinces = {
-		1631 4951 12413 
+		3795 12372 12413 12839
 	}
 	
 	buildings_max_level_factor = 1.000

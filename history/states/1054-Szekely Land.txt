@@ -1,0 +1,24 @@
+state = {
+	id = 1054
+	name = "STATE_1054"
+	manpower = 690000
+
+	state_category = rural
+
+	history = {
+
+		owner = HUN
+		controller = HUN
+		add_core_of = HUN
+
+		buildings = {
+			infrastructure = 2
+		}
+	}
+
+	provinces = {
+		3696 3709 713 9687 746 
+	}
+
+	local_supplies = 4.0 
+}

@@ -21,10 +21,6 @@ state = {
 		victory_points = {
 			7994 1 # Karbala 
 		}
-		victory_points = {
-			3795 2 # Tikrit 
-		}
-
 		buildings = {
 			infrastructure = 3 #was: 5
 			arms_factory = 1
@@ -35,7 +31,7 @@ state = {
 	}
 
 	provinces = {
-		2097 3795 7994 10876 12046 12839 12855 
+		2097 7994 10876 12046 12855 
 	}
 
 	local_supplies = 6.0 
