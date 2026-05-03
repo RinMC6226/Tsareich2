@@ -1,6 +1,5 @@
 ﻿capital = 206 #Minsk
 
-oob = "BLR_1936"
 
 set_research_slots = 3
 

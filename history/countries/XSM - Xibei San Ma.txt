@@ -36,9 +36,7 @@ IF = {
 	limit = {
 		has_dlc = "No Compromise, No Surrender"
 	}
-	set_oob = "XSM_1936_sea"
 	else = {
-		set_oob = "XSM_1936"
 	}
 }
 
@@ -185,7 +183,6 @@ if = {
 		closed_economy
 	}
 
-	oob = "XSM_1939"
 	
 	set_technology = {
 		#doctrines

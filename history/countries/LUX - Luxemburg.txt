@@ -1,6 +1,5 @@
 ﻿capital = 8 # Luxembourg City
 
-oob = "LUX_1936"
 
 # Starting tech
 set_technology = {
@@ -66,7 +65,6 @@ recruit_character = LUX_felix_of_luxembourg
 	complete_national_focus = construction_effort
 	complete_national_focus = production_effort
 	
-	oob = "LUX_1939"
 
 	set_technology = {
 		tech_recon = 1

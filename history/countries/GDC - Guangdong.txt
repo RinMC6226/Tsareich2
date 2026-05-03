@@ -20,11 +20,9 @@ set_variable = { RNG_state_shintoism_research_speed_factor = 0 }
 set_variable = { RNG_state_shintoism_recruitable_population_factor = 0 }
 set_variable = { RNG_state_shintoism_political_power_gain = 0 }
 
-oob = "GDC_1936_sea"
 
 if = {
 	limit = { has_dlc = "By Blood Alone" }
-		set_air_oob = "GDC_1936_air_bba"
 		set_technology = {
 			iw_small_airframe = 1
 			engines_1 = 1
@@ -33,7 +31,6 @@ if = {
 			bba_early_transport_plane = 1
 		}
 	else = {
-		set_air_oob = "GDC_1936_air_legacy"
 		set_technology = {
 			early_fighter = 1
 			early_bomber = 1

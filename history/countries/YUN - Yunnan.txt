@@ -24,9 +24,7 @@ IF = {
 	limit = {
 		has_dlc = "No Compromise, No Surrender"
 	}
-	set_oob = "YUN_1936_sea"
 	else = {
-		set_oob = "YUN_1936"
 	}
 }
 
@@ -139,7 +137,6 @@ if = {
 		}
 	}
 	
-	oob = "YUN_1939"
 
 	set_technology = {
 

@@ -1,6 +1,5 @@
 ﻿capital = 608 # Beiping
 
-oob = "HBC_1936_sea"
 
 set_stability = 0.6
 set_war_support = 0.35

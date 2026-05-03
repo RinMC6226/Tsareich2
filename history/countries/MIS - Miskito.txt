@@ -1,6 +1,5 @@
 ﻿capital = 317 #Nicaragua
 
-oob = "CHL_1936"
 
 ### CORES = 312, 317
 

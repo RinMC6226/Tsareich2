@@ -1,6 +1,5 @@
 ﻿capital = 311 #Belize
 
-oob = "CHL_1936"
 
 ### CORES = 311
 

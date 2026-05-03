@@ -24,9 +24,7 @@ IF = {
 	limit = {
 		has_dlc = "No Compromise, No Surrender"
 	}
-	set_oob = "GXC_1936_sea"
 	else = {
-		set_oob = "GXC_1936"
 	}
 } 
 
@@ -85,7 +83,6 @@ if = {
 
 1939.1.1 = {
 	
-	oob = "GXC_1939"
 
 	add_political_power = 1198
 	add_command_power = 100

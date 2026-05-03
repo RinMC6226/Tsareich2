@@ -4,9 +4,7 @@ IF = {
 	limit = {
 		has_dlc = "No Compromise, No Surrender"
 	}
-	set_oob = "CHI_1936_sea"
 	else = {
-		set_oob = "CHI_1936"
 	}
 	if = {
 		limit = {
@@ -64,14 +62,11 @@ IF = {
 }
 if = {
 	limit = { has_dlc = "Man the Guns" }
-		set_naval_oob = "CHI_1936_naval_mtg"
 	else = {
-		set_naval_oob = "CHI_1936_naval_legacy"
 	}
 }
 if = {
 	limit = { has_dlc = "By Blood Alone" }
-		set_air_oob = "CHI_1936_air_bba"
 		set_technology = {
 			iw_small_airframe = 1
 			aa_lmg = 1
@@ -80,7 +75,6 @@ if = {
 			bba_early_transport_plane = 1
 		}
 	else = {
-		set_air_oob = "CHI_1936_air_legacy"
 		set_technology = {
 			early_fighter = 1
 			early_bomber = 1
@@ -705,7 +699,6 @@ set_convoys = 40
 		limit = {
 			has_dlc = "No Compromise, No Surrender"
 		}
-		set_oob = "CHI_1939_sea"
 		
 		complete_national_focus = CHI_dang_guo 							
 		complete_national_focus = CHI_promote_the_national_currency 		
@@ -795,7 +788,6 @@ set_convoys = 40
 			free_trade
 			CHI_military_affairs_commission
 		}
-		set_oob = "CHI_1939"
 	}
 	
 	set_global_flag = fall_of_nanjing
@@ -807,16 +799,12 @@ set_convoys = 40
 	
 	if = {
 		limit = { has_dlc = "By Blood Alone" }
-			set_air_oob = "CHI_1939_air_bba"
 		else = {
-			set_air_oob = "CHI_1939_air_legacy"
 		}
 	}
 	if = {
 		limit = { has_dlc = "Man the Guns" }
-			set_naval_oob = "CHI_1939_naval_mtg"
 		else = {
-			set_naval_oob = "CHI_1939_naval_legacy"
 		}
 	}
 	set_technology = {

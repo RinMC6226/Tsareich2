@@ -1,6 +1,5 @@
 ﻿capital = 300 #Montevideo
 
-oob = "CHL_1936"
 
 ### CORES = 300, 945, 946
 

@@ -28,7 +28,6 @@ set_variable = { CHI_ma_clique_collective_conscription_factor = 0 }
 set_variable = { CHI_ma_clique_collective_cavalry_defence_factor = 0 }
 set_variable = { CHI_ma_clique_collective_army_core_defence_factor = 0 }
 
-oob = "NXM_1936_sea" 
 
 set_stability = 0.5
 set_war_support = 0.5

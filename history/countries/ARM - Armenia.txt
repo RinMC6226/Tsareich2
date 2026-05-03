@@ -3,7 +3,6 @@
 set_cosmetic_tag = ARM_RUS
 
 
-oob = "AZR_1936"
 
 set_research_slots = 3
 

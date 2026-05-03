@@ -1,11 +1,8 @@
 ﻿capital = 275
 
-oob = "SAF_1936"
 if = {
 	limit = { has_dlc = "By Blood Alone" }
-		set_air_oob = "SAF_1936_air_bba"
 	else = {
-		set_air_oob = "SAF_1936_air_legacy"
 		set_technology = {
 			early_fighter = 1
 			cv_early_fighter = 1
@@ -86,12 +83,9 @@ if = {
 
 	add_political_power = 1198
 	add_command_power = 100
-	oob = "SAF_1939"
 	if = {
 		limit = { has_dlc = "By Blood Alone" }
-			set_air_oob = "SAF_1939_air_bba"
 		else = {
-			set_air_oob = "SAF_1939_air_legacy"
 		}
 	}
 	if = {

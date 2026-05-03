@@ -2,7 +2,6 @@
 
 set_cosmetic_tag = KOR_RUS
 
-oob = "KOR_1936"
 
 # Starting tech
 set_technology = {

@@ -24,9 +24,7 @@ IF = {
 	limit = {
 		has_dlc = "No Compromise, No Surrender"
 	}
-	set_oob = "SIK_1936_sea"
 	else = {
-		set_oob = "SIK_1936"
 	}
 }
 
@@ -172,7 +170,6 @@ if = {
 
 	}
 	
-	oob = "SIK_1939"
 	set_technology = {
 
 		#electronics

@@ -1,6 +1,5 @@
 ﻿capital = 995 # Rangoon
 
-oob = "BRM_1936"
 
 # Starting tech
 set_technology = {
@@ -34,7 +33,6 @@ recruit_character = BRM_fascist_guy
 
 
 1939.1.1 = {
-	oob = "BRM_1939"
 	#generic focuses
 	complete_national_focus = army_effort
 	complete_national_focus = equipment_effort
