@@ -124,7 +124,7 @@ PixelShader =
 			}
 			glowAlpha = saturate( glowAlpha );
 			glowOpacity = saturate( glowOpacity );
-			vSample.rgb = lerp( vSample.rgb, float3( 1.0f, 1.0f, 1.0f ), glowAlpha * 0.82f );
+			vSample.rgb = lerp( vSample.rgb, float3( 1.0f, 1.0f, 1.0f ), glowAlpha * 0.85f );
 			vSample.a = saturate( vSample.a + glowOpacity * Transp_OffsetX.x );
 			return vSample;
 		}

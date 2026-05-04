@@ -1,25 +1,18 @@
-
 state={
 	id=340
 	name="STATE_340"
-	manpower = 1077853
 	resources={
-		chromium=39 # was: 54
+		chromium=19
 	}
-
+	
 	state_category = town
 
 	history={
-		owner = STC
-		controller = STC
+		owner = TUR
+		controller = TUR
 		buildings = {
-			infrastructure = 2
+			infrastructure = 1
 			industrial_complex = 1
-			dockyard = 1
-		}
-		
-		victory_points = {
-			947 10
 		}
 		victory_points = {
 			9799 5
@@ -28,8 +21,11 @@ state={
 	}
 
 	provinces={
-		785 947 3786 3851 6864 6912 9799 9887 11778 11867 
+		785 3786 9799 11778 13382 13383 
 	}
 
-	local_supplies=0.0 
+	manpower=538926
+	buildings_max_level_factor=1
+	state_category=town
+	local_supplies=0
 }

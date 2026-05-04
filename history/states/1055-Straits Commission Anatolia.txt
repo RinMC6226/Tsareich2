@@ -1,0 +1,31 @@
+state={
+	id=1055
+	name="STATE_1055"
+	resources={
+		chromium=22
+		steel=1
+		coal=1
+	}
+	provinces={
+		6864 9887 6912 11867 947 3851 11811
+	}
+	manpower=538927
+	buildings_max_level_factor=1
+	state_category=town
+	history={
+		owner = STC
+		controller = STC
+		add_core_of = TUR
+		buildings = {
+			infrastructure = 1
+			dockyard = 1
+		}
+		victory_points = {
+			11811 1 
+		}
+		victory_points = {
+			947 10
+		}
+	}
+	local_supplies=0
+}
