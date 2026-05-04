@@ -1,4 +1,27 @@
-﻿set_autonomy = {
+﻿
+
+capital = 195
+set_autonomy = {
+	target = FIN
+	autonomous_state = autonomy_puppet
+	freedom_level = 0
+}
+set_autonomy = {
+	target = STC
+	autonomous_state = autonomy_puppet
+	freedom_level = 0
+}
+set_autonomy = {
+	target = MAN
+	autonomous_state = autonomy_puppet
+	freedom_level = 0
+}
+set_autonomy = {
+	target = KOR
+	autonomous_state = autonomy_puppet
+	freedom_level = 0
+}
+set_autonomy = {
 	target = CYP
 	autonomous_state = autonomy_puppet
 	freedom_level = 0
@@ -22,27 +45,7 @@ set_autonomy = {
 	freedom_level = 0
 }
 
-capital = 195
-set_autonomy = {
-	target = FIN
-	autonomous_state = autonomy_puppet
-	freedom_level = 0
-}
-set_autonomy = {
-	target = STC
-	autonomous_state = autonomy_puppet
-	freedom_level = 0
-}
-set_autonomy = {
-	target = MAN
-	autonomous_state = autonomy_puppet
-	freedom_level = 0
-}
-set_autonomy = {
-	target = KOR
-	autonomous_state = autonomy_puppet
-	freedom_level = 0
-}
+
 set_stability = 0.75
 set_war_support = 0.28
 
@@ -55,6 +58,8 @@ set_politics = {
 	election_frequency = 48
 	elections_allowed = no
 }
+
+set_oob = "RUS_1936"
 
 set_popularities = {
 	communism = 5
