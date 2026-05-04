@@ -12,15 +12,9 @@ state={
 		victory_points = {
 			6813 3
 		}
-		victory_points = {
-			11746 5 
-		}
 		buildings = {
 			infrastructure = 2
 			industrial_complex = 1
-			11746 = {
-				naval_base = 3
-			}
 		}
 		add_core_of = TUR
 		add_claim_by = KUR
@@ -30,7 +24,7 @@ state={
 		coal=2
 	}
 	provinces={
-		6813 7620 9912 11746 13390 
+		6813 7620 9912 13390 
 	}
 	manpower=1081781
 	buildings_max_level_factor=1
