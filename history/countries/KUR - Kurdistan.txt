@@ -1,4 +1,4 @@
-﻿capital = 800
+﻿capital = 350
 
 set_cosmetic_tag = KUR_RUS_AUTONOMY
 
