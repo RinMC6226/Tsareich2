@@ -4,7 +4,7 @@ state={
 	provinces={
 		11829
 	}
-	manpower=521138
+	manpower=135921
 	state_category=city
 	history={
 		owner = STC

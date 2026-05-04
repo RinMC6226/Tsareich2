@@ -1886,6 +1886,11 @@ KUR_RUS = {
 	color_ui = rgb { 113 130 101 }
 }
 
+KUR_RUS_AUTONOMY = {
+	color = rgb { 64 92 74 }
+	color_ui = rgb { 113 130 101 }
+}
+
 CYP_RUS = {
 	color = rgb { 64 92 74 }
 	color_ui = rgb { 113 130 101 }

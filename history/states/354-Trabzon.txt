@@ -8,10 +8,16 @@ state={
 		owner = ARM
 		
 		victory_points = {
-			9932 15
+			9932 3
 		}
 		victory_points = {
 			3979 3 
+		}
+		victory_points = {
+			9868 1
+		}
+		victory_points = {
+			11853 15
 		}
 		buildings = {
 			infrastructure = 2
@@ -24,7 +30,7 @@ state={
 	}
 
 	provinces={
-		789 3714 3979 6976 6991 9886 9932 11753 11853 
+		789 3714 3979 6976 6991 9868 9886 9932 9954 11753 11853 13396 
 	}
 	manpower=1031129
 	buildings_max_level_factor=1
