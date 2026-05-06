@@ -1,4 +1,4 @@
-﻿capital = 955 # Rawson, Chubut
+capital = 955 # Rawson, Chubut
 
 
 ### Starting technologies ###
@@ -60,16 +60,16 @@ IF = {
 }
 
 set_politics = {
-	ruling_party = neutrality
+	ruling_party = right
 	last_election = "1932.10.30"
 	election_frequency = 72  #but 4 years after this one in 1938.
 	elections_allowed = no
 }
 set_popularities = {
-	democratic = 20
-	communism = 10
-	fascism = 0
-	neutrality = 70
+	center = 20
+	left = 10
+	far_right = 0
+	right = 70
 }
 
 

@@ -1,4 +1,4 @@
-﻿capital = 148 
+capital = 148 
 
 #oob = ""
 
@@ -65,23 +65,23 @@ set_grand_doctrine = grand_battleplan
 }
 
 set_politics = {
-	ruling_party = neutrality
+	ruling_party = right
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = yes
 }
 set_popularities = {
-	neutrality = 78
-	democratic = 10
-	fascism = 2
-	communism = 10
+	right = 78
+	center = 10
+	far_right = 2
+	left = 10
 }
 
 create_country_leader = {
 	name = SMI_communism_council
 	picture = GFX_portrait_SMI_sami_council
 	expire = "1965.1.1"
-	ideology = marxism
+	ideology = orthodox_marxism
 }
 
 create_country_leader = {
@@ -102,5 +102,5 @@ create_country_leader = {
 	name = SMI_fascism_council
 	picture = GFX_portrait_SMI_sami_council
 	expire = "1965.1.1"
-	ideology = fascism_ideology
+	ideology = far_right_ideology
 }

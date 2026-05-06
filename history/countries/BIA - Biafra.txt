@@ -1,4 +1,4 @@
-﻿capital = 900 # Benue
+capital = 900 # Benue
 
 #oob = "COG_1936"
 
@@ -53,16 +53,16 @@ set_convoys = 0
 #}
 
 set_politics = {
-	ruling_party = democratic
+	ruling_party = center
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = yes
 }
 set_popularities = {
-	neutrality = 40
-	democratic = 55
-	communism = 5
-	fascism = 0
+	right = 40
+	center = 55
+	left = 5
+	far_right = 0
 }
 
 recruit_character = BIA_akenzua_ii

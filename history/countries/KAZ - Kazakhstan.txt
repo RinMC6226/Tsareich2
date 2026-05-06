@@ -1,4 +1,4 @@
-﻿capital = 586 #Almaty
+capital = 586 #Almaty
 
 
 set_research_slots = 3
@@ -86,8 +86,8 @@ if = {
 }
 
 set_popularities = {
-	democratic = 60
-	communism = 40
+	center = 60
+	left = 40
 }
 
 create_country_leader = {
@@ -95,7 +95,7 @@ create_country_leader = {
 	desc = ""
 	picture = GFX_portrait_Nikolay_Aleksandrovich_Skvortsov
 	expire = "1953.3.1"
-	ideology = stalinism
+	ideology = vanguard_communism
 	traits = {
 		
 	}

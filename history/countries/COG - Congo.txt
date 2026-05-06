@@ -1,4 +1,4 @@
-﻿capital = 295 # Leopoldville/Kinshaasa
+capital = 295 # Leopoldville/Kinshaasa
 
 
 # Starting tech
@@ -77,7 +77,7 @@ IF = {
 	set_variable = { BEL.COG_belgian_congo_colonial_dynamic_modifier_cic_to_overlord_factor = 0.0 }
 	set_variable = { BEL.COG_belgian_congo_colonial_dynamic_modifier_mic_to_overlord_factor = 0.0 }
 
-	# The Armée Nationale Congolaise Modifier
+	# The Armee Nationale Congolaise Modifier
 	set_variable = { COG_armee_nationale_congolaise_modifier_army_leader_cost_factor = 0 }
 	set_variable = { COG_armee_nationale_congolaise_modifier_acclimatization_hot_climate_gain_factor = 0.0 }
 	set_variable = { COG_armee_nationale_congolaise_modifier_command_power_gain_mult = 0.0 }
@@ -160,14 +160,14 @@ IF = {
 
 # Setup 1936 politics 
 set_politics = {
-	ruling_party = neutrality
+	ruling_party = right
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
 }
 set_popularities = {
-	neutrality = 80
-	democratic = 20
+	right = 80
+	center = 20
 }
 
 ### The 1939 Scenario ###
@@ -199,16 +199,16 @@ set_popularities = {
 
 		# Ideology and Politics 
 		set_politics = {
-			ruling_party = neutrality
+			ruling_party = right
 			last_election = "1936.1.1"
 			election_frequency = 48
 			elections_allowed = no
 		}
 		set_popularities = {
-			neutrality = 70
-			democratic = 25
-			fascism = 0
-			communism = 5
+			right = 70
+			center = 25
+			far_right = 0
+			left = 5
 		}
 
 		add_political_power = 600

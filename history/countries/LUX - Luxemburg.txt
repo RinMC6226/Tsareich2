@@ -1,4 +1,4 @@
-﻿capital = 8 # Luxembourg City
+capital = 8 # Luxembourg City
 
 
 # Starting tech
@@ -107,23 +107,23 @@ set_grand_doctrine = new_strategic_destruction
 }
 
 set_politics = {
-	ruling_party = democratic
+	ruling_party = center
 	last_election = "1934.6.3"
 	election_frequency = 36
 	elections_allowed = yes
 }
 
 set_popularities = {
-	democratic = 70
-	neutrality = 15
-	fascism = 12
-	communism = 3
+	center = 70
+	right = 15
+	far_right = 12
+	left = 3
 }
 
 1939.1.1 = {
 
 	set_politics = {
-		ruling_party = democratic
+		ruling_party = center
 		last_election = "1937.6.6"
 		election_frequency = 36
 		elections_allowed = yes

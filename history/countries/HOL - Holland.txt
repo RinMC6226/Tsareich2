@@ -1,4 +1,4 @@
-﻿capital = 7
+capital = 7
 
 if = {
 	limit = { has_dlc = "Man the Guns" }
@@ -275,15 +275,15 @@ set_grand_doctrine = new_strategic_destruction
 }
 
 set_politics = {
-	ruling_party = democratic
+	ruling_party = center
 	last_election = "1933.4.26"
 	election_frequency = 48
 	elections_allowed = yes
 }
 set_popularities = {
-	democratic = 93
-	fascism = 4
-	communism = 3
+	center = 93
+	far_right = 4
+	left = 3
 }
 
 set_convoys = 150
@@ -458,7 +458,7 @@ if = {
 		obsolete = yes
 	}
 	create_equipment_variant = {
-		name = "Soerabaja Class"				# represents Soerabaja (De Zeven Provinciën) and Jacob van Heemskerck 
+		name = "Soerabaja Class"				# represents Soerabaja (De Zeven Provincien) and Jacob van Heemskerck 
 		type = ship_hull_cruiser_coastal_defense_ship
 		name_group = HOL_CA_HISTORICAL
 		parent_version = 0

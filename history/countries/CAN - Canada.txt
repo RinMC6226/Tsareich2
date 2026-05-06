@@ -1,4 +1,4 @@
-﻿capital = 276
+capital = 276
 
 if = {
 	limit = {
@@ -281,16 +281,16 @@ set_grand_doctrine = new_operational_integrity
 }
 
 set_politics = {
-	ruling_party = democratic
+	ruling_party = center
 	last_election = "1935.10.14"
 	election_frequency = 60
 	elections_allowed = yes
 }
 
 set_popularities = {
-	democratic = 98
-	fascism = 1
-	communism = 1
+	center = 98
+	far_right = 1
+	left = 1
 }
 
 set_convoys = 100

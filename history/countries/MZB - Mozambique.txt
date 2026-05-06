@@ -1,4 +1,4 @@
-﻿capital = 544
+capital = 544
 
 
 # Starting tech
@@ -66,20 +66,20 @@ set_grand_doctrine = grand_battleplan
 	}
 }
 set_politics = {
-	ruling_party = neutrality
+	ruling_party = right
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
 }
 set_popularities = {
-	neutrality = 100
+	right = 100
 }
 
 create_country_leader = {
 	name = "Eduardo Tsonga"
 	picture = GFX_portrait_Eduardo_Tsonga
 	expire = "1965.1.1"
-	ideology = despotism
+	ideology = authoritarian_conservatism
 	traits = {
 		#
 	}

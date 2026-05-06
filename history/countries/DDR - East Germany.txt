@@ -169,16 +169,16 @@ set_grand_doctrine = new_battlefield_support
 }
 
 set_politics = {
-	ruling_party = communism
+	ruling_party = left
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = yes
 
 }
 set_popularities = {
-	democratic = 30
-	fascism = 10
-	communism = 60
+	center = 30
+	far_right = 10
+	left = 60
 }
 
 add_ideas = {
@@ -189,7 +189,7 @@ create_country_leader = {
 	desc = ""
 	picture = GFX_portrait_Jake_Richter
 	expire = "1965.1.1"
-	ideology = fascism_ideology
+	ideology = far_right_ideology
 	traits = {
 		political_dancer		
 	}
@@ -210,7 +210,7 @@ create_country_leader = {
 	desc = "POLITICS_WILHELM_PIECK_DESC"	 
 	picture = GFX_portrait_Wilhelm_Pieck
 	expire = "1965.1.1"
-	ideology = stalinism
+	ideology = vanguard_communism
 	traits = {
 		#stalins_puppet # This will now be added in on_actions if SOV releases the country as a puppet via action or war conference
 		exiled # He left in 1933 so he should still be exiled
@@ -222,7 +222,7 @@ create_country_leader = {
 #	desc = "POLITICS_OTTO_WELS_DESC"
 #	picture = "Portrait_Germany_Adolf_Hitler.dds"
 #	expire = "1939.1.16"
-#	ideology = socialism
+#	ideology = social_democracy
 #	traits = {
 #		exiled
 #		union_man
@@ -230,11 +230,11 @@ create_country_leader = {
 #}
 #
 #create_country_leader = {
-#	name = "Ernst Thälmann"
+#	name = "Ernst Thﾃ､lmann"
 #	desc = "POLITICS_ERNST_THALMANN_DESC"
 #	picture = "Portrait_Germany_Adolf_Hitler.dds"
 #	expire = "1956.1.1"
-#	ideology = stalinism
+#	ideology = vanguard_communism
 #	traits = {
 #		assassination_survivor
 #		stalins_puppet
@@ -262,7 +262,7 @@ if = {
 	}
 
 	create_equipment_variant = {
-		name = "Königsberg Class"
+		name = "Kﾃｶnigsberg Class"
 		type = ship_hull_cruiser_2
 		name_group = GER_CL_HISTORICAL
 		parent_version = 0
@@ -291,7 +291,7 @@ if = {
 			not = { has_dlc = "Man the Guns" }
 		}
 	create_equipment_variant = {
-		name = "Königsberg Class"
+		name = "Kﾃｶnigsberg Class"
 		type = light_cruiser_1
 		parent_version = 0
 		upgrades = {
@@ -336,7 +336,7 @@ if = {
 			}
 			# Destroyer #
 			create_equipment_variant = {
-				name = "Zerstörer 1936"
+				name = "Zerstﾃｶrer 1936"
 				type = destroyer_2
 				parent_version = 0
 				upgrades = {
@@ -367,7 +367,7 @@ if = {
 				has_dlc = "Man the Guns"
 			}
 			create_equipment_variant = {
-				name = "Zerstörer 1936 Class"
+				name = "Zerstﾃｶrer 1936 Class"
 				type = ship_hull_light_2
 				name_group = GER_DD_HISTORICAL
 				parent_version = 0

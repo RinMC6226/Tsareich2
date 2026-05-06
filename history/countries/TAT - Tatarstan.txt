@@ -1,4 +1,4 @@
-﻿capital = 249 #Kazan
+capital = 249 #Kazan
 
 #oob = "TAT_1936"
 
@@ -84,16 +84,16 @@ if = {
 	}
 }
 set_politics = {
-	ruling_party = democratic
+	ruling_party = center
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = yes
 }
 
 set_popularities = {
-	democratic = 70
-	fascism = 10
-	communism = 20
+	center = 70
+	far_right = 10
+	left = 20
 }
 
 

@@ -21,7 +21,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = despotism
+			ideology = authoritarian_conservatism
 			expire = "1953.3.1.1"
 			id = -1
 			traits = {
@@ -38,7 +38,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = despotism
+			ideology = authoritarian_conservatism
 			expire = "1953.3.1.1"
 			id = -1
 			traits = {
@@ -55,7 +55,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = despotism
+			ideology = authoritarian_conservatism
 			expire = "1953.3.1.1"
 			id = -1
 		}
@@ -72,7 +72,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = despotism
+			ideology = authoritarian_conservatism
 			expire = "1953.3.1.1"
 			id = -1
 			traits = {
@@ -1507,8 +1507,8 @@ characters = {
 		}
 		allowed_civil_war = {
 			OR = {
-				has_government = neutrality 
-				has_government = fascism
+				is_right_ideology = yes 
+				is_far_right_ideology = yes
 			}
 		}
 
@@ -1539,8 +1539,8 @@ characters = {
 		}
 		allowed_civil_war = {
 			OR = {
-				has_government = neutrality 
-				has_government = fascism
+				is_right_ideology = yes 
+				is_far_right_ideology = yes
 			}
 		}
 		advisor = {
@@ -1570,8 +1570,8 @@ characters = {
 		}
 		allowed_civil_war = {
 			OR = {
-				has_government = neutrality 
-				has_government = fascism
+				is_right_ideology = yes 
+				is_far_right_ideology = yes
 			}
 		}
 
@@ -1602,8 +1602,8 @@ characters = {
 		}
 		allowed_civil_war = {
 			OR = {
-				has_government = neutrality 
-				has_government = fascism
+				is_right_ideology = yes 
+				is_far_right_ideology = yes
 			}
 		}
 
@@ -1634,8 +1634,8 @@ characters = {
 		}
 		allowed_civil_war = {
 			OR = {
-				has_government = neutrality 
-				has_government = fascism
+				is_right_ideology = yes 
+				is_far_right_ideology = yes
 			}
 		}
 
@@ -1703,8 +1703,8 @@ characters = {
 		}
 		allowed_civil_war = {
 			OR = {
-				has_government = neutrality 
-				has_government = fascism
+				is_right_ideology = yes 
+				is_far_right_ideology = yes
 			}
 		}
 
@@ -1735,8 +1735,8 @@ characters = {
 		}
 		allowed_civil_war = {
 			OR = {
-				has_government = neutrality 
-				has_government = fascism
+				is_right_ideology = yes 
+				is_far_right_ideology = yes
 			}
 		}
 
@@ -1767,8 +1767,8 @@ characters = {
 		}
 		allowed_civil_war = {
 			OR = {
-				has_government = neutrality 
-				has_government = fascism
+				is_right_ideology = yes 
+				is_far_right_ideology = yes
 			}
 		}
 		advisor = {
@@ -1799,8 +1799,8 @@ characters = {
 		}
 		allowed_civil_war = {
 			OR = {
-				has_government = neutrality 
-				has_government = fascism
+				is_right_ideology = yes 
+				is_far_right_ideology = yes
 			}
 		}
 
@@ -1831,8 +1831,8 @@ characters = {
 		}
 		allowed_civil_war = {
 			OR = {
-				has_government = neutrality 
-				has_government = fascism
+				is_right_ideology = yes 
+				is_far_right_ideology = yes
 			}
 		}
 		
@@ -1863,8 +1863,8 @@ characters = {
 		}
 		allowed_civil_war = {
 			OR = {
-				has_government = neutrality 
-				has_government = fascism
+				is_right_ideology = yes 
+				is_far_right_ideology = yes
 			}
 		}
 		

@@ -1,4 +1,4 @@
-﻿capital = 3
+capital = 3
 
 if = {
 	limit = { has_dlc = "By Blood Alone" }
@@ -362,15 +362,15 @@ set_grand_doctrine = new_strategic_destruction
 }
 
 set_politics = {
-	ruling_party = democratic
+	ruling_party = center
 	last_election = "1935.10.27"
 	election_frequency = 48
 	elections_allowed = yes
 }
 set_popularities = {
-	democratic = 96
-	fascism = 2
-	communism = 2
+	center = 96
+	far_right = 2
+	left = 2
 }
 
 #1939.1.1 = {

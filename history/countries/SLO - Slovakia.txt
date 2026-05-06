@@ -1,4 +1,4 @@
-﻿capital = 70
+capital = 70
 
 
 
@@ -133,13 +133,13 @@ set_grand_doctrine = new_battlefield_support
 }
 
 set_politics = {
-	ruling_party = fascism
+	ruling_party = far_right
 	last_election = "1933.3.5"
 	election_frequency = 48
 	elections_allowed = no
 }
 set_popularities = {
-	democratic = 5
-	fascism = 90
-	communism = 5
+	center = 5
+	far_right = 90
+	left = 5
 }

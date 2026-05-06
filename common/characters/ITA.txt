@@ -18,7 +18,7 @@ characters = {
 		}
 
 		country_leader = {
-			ideology = fascism_ideology
+			ideology = far_right_ideology
 			traits = { il_duce }
 			expire = "1965.1.1.1"
 			id = -1
@@ -47,7 +47,7 @@ characters = {
 		}
 
 		country_leader = {
-			ideology = fascism_ideology
+			ideology = far_right_ideology
 			traits = { the_grand_council }
 			expire = "1965.1.1.1"
 			id = -1
@@ -96,7 +96,7 @@ characters = {
 		}
 
 		country_leader = {
-			ideology = marxism
+			ideology = syndicalism
 			expire = "1965.1.1.1"
 			id = -1
 		}
@@ -115,7 +115,7 @@ characters = {
 		}
 
 		country_leader = {
-			ideology = socialism
+			ideology = social_democracy
 			traits = { resistance_leader }
 			expire = "1965.1.1.1"
 			id = -1
@@ -132,7 +132,7 @@ characters = {
 		}
 
 		country_leader = {
-			ideology = despotism
+			ideology = authoritarian_conservatism
 			traits = { the_soldier_king }
 			expire = "1965.1.1.1"
 			id = -1
@@ -171,7 +171,7 @@ characters = {
 				ITA_is_italian_tag = yes
 			}
 			available = {
-				has_government = fascism
+				is_far_right_ideology = yes
 			}
 			traits = {
 				grand_battle_plan_expert
@@ -189,7 +189,7 @@ characters = {
 			planning_skill = 2
 			logistics_skill = 1
 			legacy_id = 0
-			visible = { has_government = fascism }
+			visible = { is_far_right_ideology = yes }
 		}
 	}
 
@@ -334,7 +334,7 @@ characters = {
 				if = {
 					limit = { has_dlc = "By Blood Alone" }
 					OR = {
-						NOT = { has_government = communism }
+						NOT = { is_left_bloc = yes }
 						has_completed_focus = ITA_common_ground
 					}
 				}
@@ -427,7 +427,7 @@ characters = {
 			planning_skill = 1
 			logistics_skill = 1
 			legacy_id = 0
-			visible = { has_government = fascism }
+			visible = { is_far_right_ideology = yes }
 		}
 	}
 
@@ -448,7 +448,7 @@ characters = {
 			planning_skill = 1
 			logistics_skill = 1
 			legacy_id = 0
-			visible = { has_government = fascism }
+			visible = { is_far_right_ideology = yes }
 		}
 	}
 
@@ -529,7 +529,7 @@ characters = {
 				ITA_is_italian_tag = yes
 			}
 			available = {
-				has_government = fascism
+				is_far_right_ideology = yes
 			}
 			traits = {
 				army_infantry_2
@@ -548,7 +548,7 @@ characters = {
 			planning_skill = 1
 			logistics_skill = 1
 			legacy_id = 0
-			visible = { has_government = fascism }
+			visible = { is_far_right_ideology = yes }
 		}
 	}
 
@@ -569,7 +569,7 @@ characters = {
 			planning_skill = 1
 			logistics_skill = 1
 			legacy_id = 0
-			visible = { has_government = fascism }
+			visible = { is_far_right_ideology = yes }
 		}
 	}
 
@@ -630,7 +630,7 @@ characters = {
 			planning_skill = 1
 			logistics_skill = 1
 			legacy_id = 0
-			visible = { has_government = fascism }
+			visible = { is_far_right_ideology = yes }
 		}
 	}
 
@@ -651,7 +651,7 @@ characters = {
 			planning_skill = 1
 			logistics_skill = 1
 			legacy_id = 0
-			visible = { has_government = fascism }
+			visible = { is_far_right_ideology = yes }
 		}
 	}
 
@@ -775,7 +775,7 @@ characters = {
 			planning_skill = 1
 			logistics_skill = 1
 			legacy_id = 0
-			visible = { has_government = fascism }
+			visible = { is_far_right_ideology = yes }
 		}
 	}
 
@@ -836,7 +836,7 @@ characters = {
 			planning_skill = 2
 			logistics_skill = 2
 			legacy_id = 0
-			visible = { has_government = fascism }
+			visible = { is_far_right_ideology = yes }
 		}
 	}
 
@@ -880,7 +880,7 @@ characters = {
 			legacy_id = 0
 			visible = {
 				has_completed_focus = ITA_army_leaders
-				NOT = { has_government = communism }
+				NOT = { is_left_bloc = yes }
 			}
 		}
 	}
@@ -1124,7 +1124,7 @@ characters = {
 				ITA_is_italian_tag = yes
 			}
 			available = {
-				has_government = fascism
+				is_far_right_ideology = yes
 			}
 			traits = { naval_theorist }
 		}
@@ -1137,7 +1137,7 @@ characters = {
 			maneuvering_skill = 3
 			coordination_skill = 1
 			legacy_id = 0
-			visible = { has_government = fascism }
+			visible = { is_far_right_ideology = yes }
 		}
 	}
 
@@ -1159,7 +1159,7 @@ characters = {
 			coordination_skill = 1
 			legacy_id = 0
 			visible = {
-				#has_government = fascism
+				#is_far_right_ideology = yes
 				#has_completed_focus = ITA_supermarina #Maybe Escort focus? Or maybe available from start
 			} 
 		}
@@ -1341,7 +1341,7 @@ characters = {
 				ITA_is_italian_tag = yes
 			}
 			available = {
-				has_government = fascism
+				is_far_right_ideology = yes
 			}
 			traits = {
 				navy_chief_naval_aviation_1
@@ -1492,7 +1492,7 @@ characters = {
 				ITA_is_italian_tag = yes
 			}
 			available = {
-				has_government = fascism
+				is_far_right_ideology = yes
 			}
 			traits = {
 				air_tactical_bombing_2
@@ -1520,7 +1520,7 @@ characters = {
 				ITA_is_italian_tag = yes
 			}
 			available = {
-				has_government = fascism
+				is_far_right_ideology = yes
 			}
 			traits = {
 				air_air_combat_training_2
@@ -1548,7 +1548,7 @@ characters = {
 				ITA_is_italian_tag = yes
 			}
 			available = {
-				has_government = fascism
+				is_far_right_ideology = yes
 			}
 			traits = {
 				air_bomber_interception_2
@@ -1576,7 +1576,7 @@ characters = {
 				ITA_is_italian_tag = yes
 			}
 			available = {
-				has_government = fascism
+				is_far_right_ideology = yes
 			}
 			traits = {
 				navy_naval_air_defense_1
@@ -1605,8 +1605,8 @@ characters = {
 			}
 			available = {
 				OR = {
-					has_government = fascism
-					has_government = neutrality
+					is_far_right_ideology = yes
+					is_right_ideology = yes
 				}
 				NOT = { has_completed_focus = ITA_disband_the_blackshirts }
 				has_completed_focus = ITA_army_leaders
@@ -2073,8 +2073,8 @@ characters = {
 			}
 			available = {
 				OR = {
-					has_government = fascism
-					has_government = neutrality
+					is_far_right_ideology = yes
+					is_right_ideology = yes
 					if = {
 						limit = {
 							has_dlc = "By Blood Alone"
@@ -2115,7 +2115,7 @@ characters = {
 				ITA_is_italian_tag = yes
 			}
 			available = {
-				has_government = fascism
+				is_far_right_ideology = yes
 				NOT = { has_completed_focus = ITA_pact_of_steel }
 				if = {
 					limit = {
@@ -2200,13 +2200,13 @@ characters = {
 						has_dlc = "By Blood Alone"
 					}
 					OR = {
-						has_government = fascism
+						is_far_right_ideology = yes
 						has_completed_focus = ITA_utilize_the_blackshirts
 						has_completed_focus = ITA_cooperate_with_moderates
 					}
 				}
 				else = {
-					has_government = fascism
+					is_far_right_ideology = yes
 				}
 			}
 			traits = {
@@ -2328,7 +2328,7 @@ characters = {
 			}
 			do_effect = {
 				NOT = {
-					has_government = fascism 
+					is_far_right_ideology = yes 
 				}
 			}
 			ai_will_do = {
@@ -2403,7 +2403,7 @@ characters = {
 			available = {
 				OR = {
 					AND = {
-						has_government = democratic
+						is_center_bloc = yes
 						has_completed_focus = ITA_army_leaders
 					}
 					has_completed_focus = ITA_meritocracy
@@ -2430,8 +2430,8 @@ characters = {
 				OR = {
 					AND = {
 						OR = {
-							has_government = democratic
-							has_government = neutrality
+							is_center_bloc = yes
+							is_right_ideology = yes
 						}
 						has_completed_focus = ITA_army_leaders
 					}
@@ -2514,7 +2514,7 @@ characters = {
 					has_completed_focus = ITA_monarchia_d_italia
 					AND = {
 						has_completed_focus = ITA_common_ground
-						has_government = democratic
+						is_center_bloc = yes
 					}
 				}
 			}
@@ -2672,7 +2672,7 @@ characters = {
 			}
 			do_effect = {
 				NOT = {
-					has_government = democratic 
+					is_center_bloc = yes 
 				}
 			}
 			ai_will_do = {
@@ -2721,7 +2721,7 @@ characters = {
 					has_completed_focus = ITA_disband_the_blackshirts
 					AND = {
 						has_completed_focus = ITA_common_ground
-						has_government = democratic
+						is_center_bloc = yes
 					}
 				}
 				NOT = { 
@@ -2765,7 +2765,7 @@ characters = {
 					has_completed_focus = ITA_christian_democracy
 					AND = {
 						has_completed_focus = ITA_common_ground
-						has_government = democratic
+						is_center_bloc = yes
 					}
 				}
 			}
@@ -2804,7 +2804,7 @@ characters = {
 					has_completed_focus = ITA_italian_socialism
 					AND = {
 						has_completed_focus = ITA_common_ground
-						has_government = communism
+						is_left_bloc = yes
 					}
 				}
 			}
@@ -2916,8 +2916,8 @@ characters = {
 					ITA_is_in_liberation_war = yes
 				}
 				OR = {
-					has_government = communism
-					has_government = democratic
+					is_left_bloc = yes
+					is_center_bloc = yes
 				}
 			}
 		}
@@ -2946,8 +2946,8 @@ characters = {
 					ITA_is_in_liberation_war = yes
 				}
 				OR = {
-					has_government = communism
-					has_government = democratic
+					is_left_bloc = yes
+					is_center_bloc = yes
 				}
 			}
 		}
@@ -3001,8 +3001,8 @@ characters = {
 					ITA_is_in_liberation_war = yes
 				}
 				OR = {
-					has_government = communism
-					has_government = democratic
+					is_left_bloc = yes
+					is_center_bloc = yes
 				}
 			}
 		}
@@ -3026,10 +3026,10 @@ characters = {
 			}
 			available = {
 				OR = {
-					has_government = communism
+					is_left_bloc = yes
 					AND = {
 						has_completed_focus = ITA_common_ground
-						has_government = democratic
+						is_center_bloc = yes
 					}
 				}
 			}
@@ -3057,8 +3057,8 @@ characters = {
 					ITA_is_in_liberation_war = yes
 				}
 				OR = {
-					has_government = communism
-					has_government = democratic
+					is_left_bloc = yes
+					is_center_bloc = yes
 				}
 			}
 		}
@@ -3094,7 +3094,7 @@ characters = {
 			}
 			do_effect = {
 				NOT = {
-					has_government = communism 
+					is_left_bloc = yes 
 				}
 			}
 			ai_will_do = {
@@ -3127,7 +3127,7 @@ characters = {
 				OR = {
 					has_completed_focus = ITA_the_popular_front
 					AND = {
-						has_government = democratic
+						is_center_bloc = yes
 						has_completed_focus = ITA_common_ground
 					}
 				}
@@ -3155,7 +3155,7 @@ characters = {
 			logistics_skill = 1
 			legacy_id = 0
 			visible = {
-				has_government = communism
+				is_left_bloc = yes
 			}
 		}
 	}
@@ -3170,7 +3170,7 @@ characters = {
 		}
 
 		country_leader = {
-			ideology = marxism
+			ideology = orthodox_marxism
 			traits = { conservative_communist }
 			expire = "1965.1.1.1"
 			id = -1
@@ -3234,7 +3234,7 @@ characters = {
 		}
 
 		country_leader = {
-			ideology = stalinism
+			ideology = vanguard_communism
 			traits = { staunch_anti_fascist }
 			expire = "1965.1.1.1"
 			id = -1
@@ -3295,7 +3295,7 @@ characters = {
 				OR = {
 					has_completed_focus = ITA_the_popular_front
 					AND = {
-						has_government = democratic
+						is_center_bloc = yes
 						has_completed_focus = ITA_common_ground
 					}
 				}
@@ -3335,7 +3335,7 @@ characters = {
 						OR = {
 							has_completed_focus = ITA_the_popular_front
 							AND = {
-								has_government = democratic
+								is_center_bloc = yes
 								has_completed_focus = ITA_common_ground
 							}
 						}

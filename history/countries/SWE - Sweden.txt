@@ -1,4 +1,4 @@
-﻿capital = 141	
+capital = 141	
 
 #add_opinion_modifier = { target = GER modifier = GER_SWE_historic_trade_Partners } CUT
 if = {
@@ -267,30 +267,30 @@ set_grand_doctrine = new_strategic_destruction
 }
 
 set_politics = {
-	ruling_party = democratic
+	ruling_party = center
 	last_election = "1932.9.18"
 	election_frequency = 48
 	elections_allowed = yes
 }
 set_popularities = {
-	democratic = 75
-	neutrality = 14
-	communism = 8
-	fascism = 3
+	center = 75
+	right = 14
+	left = 8
+	far_right = 3
 }
 
 1939.1.1 = {
 	set_politics = {
-		ruling_party = democratic
+		ruling_party = center
 		last_election = "1936.9.20"
 		election_frequency = 48
 		elections_allowed = yes
 	}
 	set_popularities = {
-		democratic = 85
-		neutrality = 10
-		communism = 4
-		fascism = 1
+		center = 85
+		right = 10
+		left = 4
+		far_right = 1
 	}
 }
 
@@ -399,7 +399,7 @@ if = {
 	limit = { has_dlc = "Man the Guns" }
 	# Submarines #
 	create_equipment_variant = {
-		name = "Hajen Class"					# represents Hajen and Bävern classes	
+		name = "Hajen Class"					# represents Hajen and Bavern classes	
 		type = ship_hull_submarine_1
 		name_group = SWE_SS_HISTORICAL
 		parent_version = 0
@@ -435,7 +435,7 @@ if = {
 	}
 	# Destroyers #
 	create_equipment_variant = {
-		name = "Örnen Class"					# torpedo boats		
+		name = "Ornen Class"					# torpedo boats		
 		type = ship_hull_light_1
 		name_group = SWE_DD_HISTORICAL
 		parent_version = 0
@@ -452,7 +452,7 @@ if = {
 		obsolete = yes
 	}
 	create_equipment_variant = {
-		name = "Ehrensköld Class"				# represents Ehrensköld	and Klas Horn classes
+		name = "Ehrenskold Class"				# represents Ehrenskold	and Klas Horn classes
 		type = ship_hull_light_1
 		name_group = SWE_DD_HISTORICAL
 		parent_version = 0
@@ -486,7 +486,7 @@ if = {
 		obsolete = yes
 	}
 	create_equipment_variant = {
-		name = "Göteborg Class"	
+		name = "Goteborg Class"	
 		type = ship_hull_light_2
 		name_group = SWE_DD_HISTORICAL
 		parent_version = 0
@@ -522,7 +522,7 @@ if = {
 		obsolete = yes
 	}
 	create_equipment_variant = {
-		name = "Äran Class"				
+		name = "Aran Class"				
 		type = ship_hull_cruiser_coastal_defense_ship
 		name_group = SWE_CA_HISTORICAL
 		parent_version = 0
@@ -618,7 +618,7 @@ if = {
 			obsolete = yes
 		}
 		create_equipment_variant = {
-			name = "Sjölejonet Class"				
+			name = "Sjolejonet Class"				
 			type = ship_hull_submarine_2
 			name_group = SWE_SS_HISTORICAL
 			parent_version = 0
@@ -736,13 +736,13 @@ if = {
 	#activate_mission = SWE_BoP_election_countdown
 
 	set_party_name = {
-		ideology = communism
+		ideology = left
 		name = SWE_aat_communism_party
 		long_name = SWE_aat_communism_party_long
 	}
 
 	set_party_name = {
-		ideology = neutrality
+		ideology = right
 		name = SWE_aat_hogern
 		long_name = SWE_aat_hogern_long
 	}

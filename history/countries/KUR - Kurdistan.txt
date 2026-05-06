@@ -1,4 +1,4 @@
-﻿capital = 350
+capital = 350
 
 set_cosmetic_tag = KUR_RUS_AUTONOMY
 
@@ -126,17 +126,17 @@ set_grand_doctrine = new_strategic_destruction
 
 # There were many Kurdish uprisings in Iraq, Iran, and Turkey in the 20th century, it's difficult to define a "ruling party". Democratic has been chosen since the Dersim Rebellion is the closest uprising to HoI's start date.
 set_politics = {
-	ruling_party = neutrality
+	ruling_party = right
 	last_election = "1935.2.8"
 	election_frequency = 48
 	elections_allowed = no
 }
 
 set_popularities = {
-	democratic = 0
-	communism = 0
-	fascism = 0
-	neutrality = 100
+	center = 0
+	left = 0
+	far_right = 0
+	right = 100
 }
 
 # Qazi Muhammad was leader of the short-lived Marxist uprising in Iranian Kurdistan
@@ -145,7 +145,7 @@ recruit_character = KUR_qazi_muhamad
 # Sheikh Mahmud Barzanji was King of Kurdistan from 1922-1924 and Sheikh of a Sufi family the "Barzanjis"
 recruit_character = KUR_mahmud_barzanji
 
-# Ihsan Nuri was the generalissimo who led the Ararat Rebellion and was pivotal in forming the Xoybûn with his experience as one of the Young Turks
+# Ihsan Nuri was the generalissimo who led the Ararat Rebellion and was pivotal in forming the Xoybun with his experience as one of the Young Turks
 recruit_character = KUR_ishan_nuri
 
 # Seyid Riza was a religious leader in Turkish Kurdistan and was the leader of the Dersim Rebellion in 1937

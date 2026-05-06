@@ -59,7 +59,7 @@ characters={
 				}
 			}
 			country_leader={
-				ideology=stalinism
+				ideology=vanguard_communism
 				expire="1965.1.1.1"
 				id=-1
 			}
@@ -117,7 +117,7 @@ characters={
 		}
 
 		country_leader={
-			ideology=falangism
+			ideology=third_position
 			traits={ sins_of_the_father }
 			expire="1965.1.1.1"
 			id=-1
@@ -132,7 +132,7 @@ characters={
 			}
 		}
 		country_leader={
-			ideology=despotism
+			ideology=authoritarian_conservatism
 			traits={ jefe }
 			expire="1965.1.1.1"
 			id=-1
@@ -225,12 +225,12 @@ characters={
 				}
 				visible = {
 					NOT = {
-						has_government = fascism
+						is_far_right_ideology = yes
 					}
 				}
 				available = {
 					NOT = {
-						has_government = fascism
+						is_far_right_ideology = yes
 					}
 				}
 				traits = {
@@ -299,12 +299,12 @@ characters={
 				}
 				visible = {
 					NOT = {
-						has_government = fascism
+						is_far_right_ideology = yes
 					}
 				}
 				available = {
 					NOT = {
-						has_government = fascism
+						is_far_right_ideology = yes
 					}
 				}
 				traits = {
@@ -338,10 +338,10 @@ characters={
 				original_tag = SPR
 			}
 			visible = {
-				has_government = fascism
+				is_far_right_ideology = yes
 			}
 			available = {
-				has_government = fascism
+				is_far_right_ideology = yes
 			}
 			traits = {
 				air_warfare_theorist
@@ -598,10 +598,10 @@ characters={
 					custom_trigger_tooltip = {
 						tooltip = spr_franco_unavailable_tooltip
 						OR = {
-							has_government = fascism
+							is_far_right_ideology = yes
 							AND = {
 								NOT = {
-									has_government = communism
+									is_left_bloc = yes
 								}
 								NOT = {
 									any_country_with_original_tag = {
@@ -609,7 +609,7 @@ characters={
 										NOT = {
 											tag = root
 										}
-										has_government = fascism
+										is_far_right_ideology = yes
 									}
 								}
 							}
@@ -626,7 +626,7 @@ characters={
 			}
 	
 			country_leader={
-				ideology=fascism_ideology
+				ideology=ultranationalism
 				expire="1965.1.1.1"
 				id=-1
 			}
@@ -756,10 +756,10 @@ characters={
 					original_tag = SPR
 				}
 				visible = {
-					has_government = fascism
+					is_far_right_ideology = yes
 				}
 				available = {
-					has_government = fascism
+					is_far_right_ideology = yes
 				}
 				traits = {
 					army_chief_offensive_2
@@ -856,10 +856,10 @@ characters={
 					original_tag = SPR
 				}
 				visible = {
-					has_government = fascism
+					is_far_right_ideology = yes
 				}
 				available = {
-					has_government = fascism
+					is_far_right_ideology = yes
 				}
 				traits = {
 					air_chief_reform_2
@@ -891,10 +891,10 @@ characters={
 				original_tag = SPR
 			}
 			visible = {
-				has_government = fascism
+				is_far_right_ideology = yes
 			}
 			available = {
-				has_government = fascism
+				is_far_right_ideology = yes
 			}
 			traits = {
 				army_logistics_2
@@ -980,10 +980,10 @@ characters={
 					original_tag = SPR
 				}
 				visible = {
-					has_government = fascism
+					is_far_right_ideology = yes
 				}
 				available = {
-					has_government = fascism
+					is_far_right_ideology = yes
 				}
 				traits = {
 					army_infantry_2
@@ -1103,10 +1103,10 @@ characters={
 					original_tag = SPR
 				}
 				visible = {
-					has_government = fascism
+					is_far_right_ideology = yes
 				}
 				available = {
-					has_government = fascism
+					is_far_right_ideology = yes
 				}
 				
 				traits = {
@@ -1124,7 +1124,7 @@ characters={
 			}
 		}
 		#country_leader = {
-		#	ideology = despotism
+		#	ideology = authoritarian_conservatism
 		#	traits = { carlist_habsburg_pretender }
 		#	expire="1965.1.1.1"
 		#	id = -1
@@ -1220,10 +1220,10 @@ characters={
 					original_tag = SPR
 				}
 				visible = {
-					has_government = fascism
+					is_far_right_ideology = yes
 				}
 				available = {
-					has_government = fascism
+					is_far_right_ideology = yes
 				}
 				traits = {
 					army_chief_old_guard
@@ -1299,12 +1299,12 @@ characters={
 				}
 				visible = {
 					NOT = {
-						has_government = fascism
+						is_far_right_ideology = yes
 					}
 				}
 				available = {
 					NOT = {
-						has_government = fascism
+						is_far_right_ideology = yes
 					}
 				}
 				traits = {
@@ -1382,10 +1382,10 @@ characters={
 					original_tag = SPR
 				}
 				visible = {
-					has_government = fascism
+					is_far_right_ideology = yes
 				}
 				available = {
-					has_government = fascism
+					is_far_right_ideology = yes
 				}
 				traits = {
 					navy_chief_old_guard
@@ -1604,10 +1604,10 @@ characters={
 					original_tag = SPR
 				}
 				visible = {
-					has_government = fascism
+					is_far_right_ideology = yes
 				}
 				available = {
-					has_government = fascism
+					is_far_right_ideology = yes
 				}
 				traits = {
 					air_air_combat_training_3
@@ -1748,12 +1748,12 @@ characters={
 			}
 			visible = {
 				NOT = {
-					has_government = fascism
+					is_far_right_ideology = yes
 				}
 			}
 			available = {
 				NOT = {
-					has_government = fascism
+					is_far_right_ideology = yes
 				}
 			}
 			traits = {
@@ -1827,10 +1827,10 @@ characters={
 					original_tag = SPR
 				}
 				visible = {
-					has_government = fascism
+					is_far_right_ideology = yes
 				}
 				available = {
-					has_government = fascism
+					is_far_right_ideology = yes
 				}
 				traits = {
 					army_chief_defensive_2
@@ -1906,12 +1906,12 @@ characters={
 				}
 				visible = {
 					NOT = {
-						has_government = fascism
+						is_far_right_ideology = yes
 					}
 				}
 				available = {
 					NOT = {
-						has_government = fascism
+						is_far_right_ideology = yes
 					}
 				}
 				traits = {
@@ -1939,10 +1939,10 @@ characters={
 				original_tag = SPR
 			}
 			visible = {
-				has_government = fascism
+				is_far_right_ideology = yes
 			}
 			available = {
-				has_government = fascism
+				is_far_right_ideology = yes
 			}
 			traits = {
 				navy_chief_decisive_battle_2
@@ -1972,10 +1972,10 @@ characters={
 				original_tag = SPR
 			}
 			visible = {
-				has_government = fascism
+				is_far_right_ideology = yes
 			}
 			available = {
-				has_government = fascism
+				is_far_right_ideology = yes
 			}
 			traits = {
 				navy_chief_reform_2
@@ -2008,12 +2008,12 @@ characters={
 			}
 			visible = {
 				NOT = {
-					has_government = fascism
+					is_far_right_ideology = yes
 				}
 			}
 			available = {
 				NOT = {
-					has_government = fascism
+					is_far_right_ideology = yes
 				}
 			}
 			
@@ -2214,12 +2214,12 @@ characters={
 			}
 			visible = {
 				NOT = {
-					has_government = fascism
+					is_far_right_ideology = yes
 				}
 			}
 			available = {
 				NOT = {
-					has_government = fascism
+					is_far_right_ideology = yes
 				}
 			}
 			traits = {
@@ -2251,10 +2251,10 @@ characters={
 				original_tag = SPR
 			}
 			visible = {
-				has_government = fascism
+				is_far_right_ideology = yes
 			}
 			available = {
-				has_government = fascism
+				is_far_right_ideology = yes
 			}
 			traits = {
 				air_strategic_bombing_2
@@ -2439,10 +2439,10 @@ characters={
 				original_tag = SPR
 			}
 			visible = {
-				has_government = fascism
+				is_far_right_ideology = yes
 			}
 			available = {
-				has_government = fascism
+				is_far_right_ideology = yes
 			}
 			traits = {
 				air_chief_ground_support_2
@@ -2474,12 +2474,12 @@ characters={
 			}
 			visible = {
 				NOT = {
-					has_government = fascism
+					is_far_right_ideology = yes
 				}
 			}
 			available = {
 				NOT = {
-					has_government = fascism
+					is_far_right_ideology = yes
 				}
 			}
 			traits = {
@@ -2552,12 +2552,12 @@ characters={
 				}
 				visible = {
 					NOT = {
-						has_government = fascism
+						is_far_right_ideology = yes
 					}
 				}
 				available = {
 					NOT = {
-						has_government = fascism
+						is_far_right_ideology = yes
 					}
 				}
 				traits = {
@@ -2631,12 +2631,12 @@ characters={
 				}
 				visible = {
 					NOT = {
-						has_government = fascism
+						is_far_right_ideology = yes
 					}
 				}
 				available = {
 					NOT = {
-						has_government = fascism
+						is_far_right_ideology = yes
 					}
 				}
 				traits = {
@@ -2816,12 +2816,12 @@ characters={
 				}
 				visible = {
 					NOT = {
-						has_government = fascism
+						is_far_right_ideology = yes
 					}
 				}
 				available = {
 					NOT = {
-						has_government = fascism
+						is_far_right_ideology = yes
 					}
 				}
 				traits = {
@@ -3113,12 +3113,12 @@ characters={
 				}
 				visible = {
 					NOT = {
-						has_government = fascism
+						is_far_right_ideology = yes
 					}
 				}
 				available = {
 					NOT = {
-						has_government = fascism
+						is_far_right_ideology = yes
 					}
 				}
 				traits = {
@@ -3598,7 +3598,7 @@ characters={
 					}
 					original_tag = SPR
 					NOT = {
-						has_government = fascism 
+						is_far_right_ideology = yes 
 					}
 				}
 				traits = {
@@ -3680,7 +3680,7 @@ characters={
 					}
 					original_tag = SPR
 					NOT = {
-						has_government = fascism 
+						is_far_right_ideology = yes 
 					}
 				}
 				traits = {
@@ -3775,7 +3775,7 @@ characters={
 					}
 					original_tag = SPR
 					NOT = {
-						has_government = fascism 
+						is_far_right_ideology = yes 
 					}
 				}
 				available = {
@@ -3959,7 +3959,7 @@ characters={
 				}
 			}
 			country_leader={
-				ideology=marxism
+				ideology=syndicalism
 				expire="1965.1.1.1"
 				id=-1
 			}
@@ -4018,7 +4018,7 @@ characters={
 				}
 			}
 			country_leader={
-				ideology=marxism
+				ideology=syndicalism
 				expire="1965.1.1.1"
 				id=-1
 			}
@@ -4032,7 +4032,7 @@ characters={
 					}
 					original_tag = SPR
 					NOT = {
-						has_government = fascism 
+						is_far_right_ideology = yes 
 					}
 				}
 				traits = {
@@ -4376,7 +4376,7 @@ characters={
 			allowed = {
 				NOT = { has_dlc = "La Resistance" }
 				original_tag = SPR
-				has_government = fascism
+				is_far_right_ideology = yes
 			}
 			traits = {
 				prince_of_terror 
@@ -4398,7 +4398,7 @@ characters={
 			allowed = {
 				NOT = { has_dlc = "La Resistance" }
 				original_tag = SPR
-				has_government = fascism
+				is_far_right_ideology = yes
 			}
 			traits = {
 				compassionate_gentleman 
@@ -4420,7 +4420,7 @@ characters={
 			allowed = {
 				NOT = { has_dlc = "La Resistance" }
 				original_tag = SPR
-				has_government = fascism
+				is_far_right_ideology = yes
 			}
 			traits = {
 				war_industrialist 

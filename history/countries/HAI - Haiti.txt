@@ -1,4 +1,4 @@
-﻿capital = 318
+capital = 318
 
 
 # Starting tech
@@ -6,7 +6,7 @@ set_technology = {
 	infantry_weapons = 1
 }
 
-recruit_character = HAI_sténio_vincent
+recruit_character = HAI_stenio_vincent
 recruit_character = HAI_jacques_roumain
 recruit_character = HAI_vilbrum_soulouque
 recruit_character = HAI_jacques_soulouque
@@ -80,11 +80,11 @@ set_grand_doctrine = new_strategic_destruction
 }
 
 set_politics = {
-	ruling_party = democratic
+	ruling_party = center
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
 }
 set_popularities = {
-	democratic = 100
+	center = 100
 }

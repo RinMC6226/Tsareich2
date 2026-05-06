@@ -1,4 +1,4 @@
-﻿capital = 1035 # Nanjing
+capital = 1035 # Nanjing
 
 IF = {
 	limit = {
@@ -345,9 +345,9 @@ IF = {
 		has_dlc = "No Compromise, No Surrender"
 	}
 	set_popularities = {
-		neutrality = 91
-		fascism = 2
-		communism = 7
+		right = 91
+		far_right = 2
+		left = 7
 	}
 	#set_autonomy = {
 	#	target = SND
@@ -585,7 +585,7 @@ IF = {
 
 	ELSE = {
 		set_popularities = {
-			neutrality = 100
+			right = 100
 		}
 
 		add_ideas = {
@@ -860,7 +860,7 @@ add_mastery = {
 }
 
 set_politics = {
-	ruling_party = neutrality
+	ruling_party = right
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no

@@ -1,4 +1,4 @@
-﻿capital = 475 #Chiapas
+capital = 475 #Chiapas
 
 
 ### CORES = 313, 475, 476, 474
@@ -49,16 +49,16 @@ IF = {
 }
 
 set_politics = {
-	ruling_party = neutrality
+	ruling_party = right
 	last_election = "1934.2.11"
 	election_frequency = 48
 	elections_allowed = yes
 }
 set_popularities = {
-	democratic = 15
-	communism = 5
-	neutrality = 80
-	fascism = 0
+	center = 15
+	left = 5
+	right = 80
+	far_right = 0
 }
 
 

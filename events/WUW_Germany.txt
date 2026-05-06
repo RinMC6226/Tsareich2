@@ -215,10 +215,10 @@ country_event = { #Charlie Brown and Franz Stigler incident (GER)
 	trigger = {
 		date > 1943.12.20
 		original_tag = GER
-		has_government = fascism
+		is_far_right_ideology = yes
 		any_country = {
 			original_tag = USA
-			has_government = democratic
+			is_center_bloc = yes
 			has_war_with = ROOT
 			has_deployed_air_force_size = {
 				size > 0
@@ -243,7 +243,7 @@ country_event = { #Charlie Brown and Franz Stigler incident (GER)
 		add_war_support = 0.03
 
 		add_popularity = {
-			ideology = democratic
+			ideology = center
 			popularity = 0.05
 		}	
 	}
@@ -255,7 +255,7 @@ country_event = { #Charlie Brown and Franz Stigler incident (GER)
 		}
 
 		add_popularity = {
-			ideology = fascism
+			ideology = far_right
 			popularity = 0.05
 		}	
 
@@ -505,7 +505,7 @@ country_event = {
 		IF = {
 			limit = {
 				FROM = {
-					has_government = fascism
+					is_far_right_ideology = yes
 				}
 			}
 			add_timed_idea = {
@@ -516,7 +516,7 @@ country_event = {
 		ELSE_IF = {
 			limit = {
 				FROM = {
-					has_government = democratic
+					is_center_bloc = yes
 				}
 			}
 			add_timed_idea = {
@@ -527,7 +527,7 @@ country_event = {
 		ELSE_IF = {
 			limit = {
 				FROM = {
-					has_government = neutrality
+					is_right_ideology = yes
 				}
 			}
 			add_timed_idea = {
@@ -596,7 +596,7 @@ country_event = { #FROM has foiled our influencing efforts
 				IF = {
 					limit = {
 						ROOT = {
-							has_government = fascism
+							is_far_right_ideology = yes
 						}
 					}
 					remove_ideas = {
@@ -606,7 +606,7 @@ country_event = { #FROM has foiled our influencing efforts
 				ELSE_IF = {
 					limit = {
 						ROOT = {
-							has_government = democratic
+							is_center_bloc = yes
 						}
 					}
 					remove_ideas = {
@@ -616,7 +616,7 @@ country_event = { #FROM has foiled our influencing efforts
 				ELSE_IF = {
 					limit = {
 						ROOT = {
-							has_government = neutrality
+							is_right_ideology = yes
 						}
 					}
 					remove_ideas = {
@@ -1152,11 +1152,11 @@ country_event = { #FROM wants a tech sharing group
 				OR = {
 					AND = {
 						original_tag = GER
-						has_government = fascism
+						is_far_right_ideology = yes
 					}
 					AND = {
 						original_tag = JAP
-						has_government = fascism
+						is_far_right_ideology = yes
 					}
 				}
 			}
@@ -1218,11 +1218,11 @@ country_event = { #FROM agrees to the tech sharing group
 					OR = {
 						AND = {
 							original_tag = GER
-							has_government = fascism
+							is_far_right_ideology = yes
 						}
 						AND = {
 							original_tag = JAP
-							has_government = fascism
+							is_far_right_ideology = yes
 						}
 					}
 				}
@@ -4057,7 +4057,7 @@ country_event = {
 		IF = {
 			limit = {
 				FROM = {
-					has_government = democratic
+					is_center_bloc = yes
 				}
 			}
 			add_timed_idea = {
@@ -4068,7 +4068,7 @@ country_event = {
 		ELSE_IF = {
 			limit = {
 				FROM = {
-					has_government = neutrality
+					is_right_ideology = yes
 				}
 			}
 			add_timed_idea = {
@@ -4315,7 +4315,7 @@ country_event = { #The Civil War broke out
 
 		start_civil_war = {
 			ideology = ROOT
-			ruling_party = communism
+			ruling_party = left
 			size = 0.5 #since this triggers when the country goes over 50% communism
 			capital = var:ROOT.temp_capital
 		}
@@ -4323,7 +4323,7 @@ country_event = { #The Civil War broke out
 		every_country = {
 			limit = {
 				original_tag = ROOT
-				has_government = communism
+				is_left_bloc = yes
 			}
 
 			add_to_array = { GER.started_communist_cw_here = THIS }
@@ -4370,7 +4370,7 @@ country_event = { #The Civil War broke out
 		}
 
 		start_civil_war = {
-			ideology = communism
+			ideology = left
 			ruling_party = ROOT
 			size = 0.5 #since this triggers when the country goes over 50% communism
 			capital = var:ROOT.temp_capital
@@ -4379,7 +4379,7 @@ country_event = { #The Civil War broke out
 		every_country = {
 			limit = {
 				original_tag = ROOT
-				has_government = communism
+				is_left_bloc = yes
 			}
 
 			add_to_array = { GER.started_communist_cw_here = THIS }
@@ -4483,28 +4483,28 @@ country_event = { #Germany insists Austria hold a referendum to join them
 			base = 5
 			modifier = {
 				factor = 2
-				has_government = communism
+				is_left_bloc = yes
 				FROM = {
-					has_government = communism
+					is_left_bloc = yes
 				}
 			}
 			modifier = {
 				factor = 2
-				has_government = communism
+				is_left_bloc = yes
 				FROM = {
 					has_completed_focus = GER_proletarian_dictatorship
 				}
 			}
 			modifier = {
 				factor = 2
-				has_government = democratic
+				is_center_bloc = yes
 				FROM = {
-					has_government = democratic #Just in case the player has done something wacky
+					is_center_bloc = yes #Just in case the player has done something wacky
 				}
 			}
 			modifier = {
 				factor = 3
-				has_government = democratic
+				is_center_bloc = yes
 				FROM = {
 					has_completed_focus = GER_legacy_of_the_spartacus_league
 				}
@@ -4736,7 +4736,7 @@ country_event = { #Germany demands integration
 			IF = {
 				limit = {
 					SOV = {
-						has_government = communism
+						is_left_bloc = yes
 					}
 				}
 
@@ -4800,7 +4800,7 @@ country_event = { #Germany demands integration
 			IF = {
 				limit = {
 					SOV = {
-						has_government = communism 
+						is_left_bloc = yes 
 					}
 				}
 
@@ -5239,7 +5239,7 @@ country_event = { #SOV wants Ulbricht in charge
 			add_country_leader_role = {
 				promote_leader = yes
 				country_leader = {
-					ideology = leninism
+					ideology = vanguard_communism
 					expire = 1965.1.1
 					traits = { GER_staunch_stalinist_leader } 
 				}
@@ -5296,7 +5296,7 @@ country_event = { #Ger replaces Thalman
 					add_country_leader_role = {
 						promote_leader = yes
 						country_leader = {
-							ideology = leninism
+							ideology = vanguard_communism
 							expire = 1965.1.1
 							traits = { GER_staunch_stalinist_leader } 
 						}
@@ -6020,7 +6020,7 @@ country_event = {
 			IF = {
 				limit = {
 					FROM = {
-						has_government = fascism
+						is_far_right_ideology = yes
 					}
 				}
 				add_ideas = GER_align_romania
@@ -6028,7 +6028,7 @@ country_event = {
 			ELSE_IF = {
 				limit = {
 					FROM = {
-						has_government = neutrality
+						is_right_ideology = yes
 					}
 				}
 				add_ideas = GER_align_romania_unaligned
@@ -6036,7 +6036,7 @@ country_event = {
 			ELSE_IF = {
 				limit = {
 					FROM = {
-						has_government = democratic
+						is_center_bloc = yes
 					}
 				}
 				add_ideas = GER_align_romania_democratic
@@ -6289,7 +6289,7 @@ country_event = {
 			IF = {
 				limit = {
 					FROM = {
-						has_government = democratic
+						is_center_bloc = yes
 					}
 				}
 				FROM = {
@@ -6843,7 +6843,7 @@ country_event = {
 		custom_effect_tooltip = generic_skip_one_line_tt
 		
 		FROM = {
-			# FROM gives us the land ☆*:.｡.o(≧▽≦)o.｡.:*☆
+			# FROM gives us the land 笘・:.・｡.o(竕ｧ笆ｽ竕ｦ)o.・｡.:*笘・
 			country_event = { 
 				id = wuw_GER_weltpolitik.2
 				days = 1
@@ -6892,7 +6892,7 @@ country_event = {
 		custom_effect_tooltip = generic_skip_one_line_tt
 
 		FROM = {
-			# FROM denies us the land 。：゜(；´∩｀；)゜：。
+			# FROM denies us the land 縲ゑｼ壹・(・崢ｴ竏ｩ・・・繧懶ｼ壹・
 			country_event = { 
 				id = wuw_GER_weltpolitik.3
 				days = 1
@@ -7195,7 +7195,7 @@ country_event = {
 		}		
 
 		FROM = {
-			# FROM rejects the deal 。：゜(；´∩｀；)゜：。
+			# FROM rejects the deal 縲ゑｼ壹・(・崢ｴ竏ｩ・・・繧懶ｼ壹・
 			country_event = { 
 				id = wuw_GER_weltpolitik.6
 				days = 1
@@ -7892,15 +7892,15 @@ country_event = {
 				COG = {
 					drop_cosmetic_tag = yes
 					set_politics = {
-						ruling_party = democratic
+						ruling_party = center
 						elections_allowed = yes
 					}	
 					add_popularity = {
-						ideology = democratic
+						ideology = center
 						popularity = 0.25
 					}	
 					add_popularity = {
-						ideology = communism
+						ideology = left
 						popularity = 0.1
 					}	 
 				}
@@ -7920,7 +7920,7 @@ country_event = {
 
 			COG = {
 				set_party_name = {
-					ideology = neutrality
+					ideology = right
 					long_name = house_of_agua_rosada_long
 					name = house_of_agua_rosada
 				}
@@ -7929,7 +7929,7 @@ country_event = {
 					character =  COG_pedro_vii_alfonso
 					promote_leader = yes
 					country_leader = {
-						ideology = despotism
+						ideology = authoritarian_conservatism
 						expire = "1969.1.1.1"
 						traits = { manikongo_of_kongo } 
 					}
@@ -7989,7 +7989,7 @@ country_event = {
 		custom_effect_tooltip = generic_skip_one_line_tt
 		
 		FROM = {
-			# FROM gives us the land ☆*:.｡.o(≧▽≦)o.｡.:*☆
+			# FROM gives us the land 笘・:.・｡.o(竕ｧ笆ｽ竕ｦ)o.・｡.:*笘・
 			country_event = { 
 				id = wuw_GER_weltpolitik.13
 				days = 1
@@ -8053,7 +8053,7 @@ country_event = {
 		custom_effect_tooltip = generic_skip_one_line_tt
 
 		FROM = {
-			# FROM denies us the land 。：゜(；´∩｀；)゜：。
+			# FROM denies us the land 縲ゑｼ壹・(・崢ｴ竏ｩ・・・繧懶ｼ壹・
 			country_event = { 
 				id = wuw_GER_weltpolitik.14
 				days = 1
@@ -8536,7 +8536,7 @@ country_event = {
 
 ### CHINESE OVERTURES EVENTS ###
 
-# Germany Sends us Arms and Materials - event for CHI (any country which is LITERALLY china) (＞▽＜)b OK!!
+# Germany Sends us Arms and Materials - event for CHI (any country which is LITERALLY china) (・樞命・・b OK!!
 country_event = { 
 	id = wuw_GER_chinese_diplomacy.1 
 	title = wuw_GER_chinese_diplomacy.1.t
@@ -8605,7 +8605,7 @@ country_event = {
 	}
 }
 
-# Germany Offers Industrial Aid in Exchange for Resource Rights - event for CHI (any country which is LITERALLY china) (＞▽＜)b OK!!
+# Germany Offers Industrial Aid in Exchange for Resource Rights - event for CHI (any country which is LITERALLY china) (・樞命・・b OK!!
 country_event = { 
 	id = wuw_GER_chinese_diplomacy.2
 	title = wuw_GER_chinese_diplomacy.2.t
@@ -8641,7 +8641,7 @@ country_event = {
 		custom_effect_tooltip = generic_skip_one_line_tt	
 
 		FROM = {
-			# FROM Accepts our Offer （｡>‿‿<｡ ）
+			# FROM Accepts our Offer ・茨ｽ｡>窶ｿ窶ｿ<・｡ ・・
 			country_event = { 
 				id = wuw_GER_chinese_diplomacy.3
 				days = 2
@@ -8658,7 +8658,7 @@ country_event = {
 		}		
 		
 		FROM = {
-			# FROM Refuses our Offer ｢(ﾟﾍﾟ)
+			# FROM Refuses our Offer ・｢(・滂ｾ搾ｾ・
 			country_event = { 
 				id = wuw_GER_chinese_diplomacy.4
 				days = 2
@@ -8709,7 +8709,7 @@ country_event = {
 	}
 }
 
-# The Sino-German Joint Research Program - event for CHI (any country which is LITERALLY china) (＞▽＜)b OK!!
+# The Sino-German Joint Research Program - event for CHI (any country which is LITERALLY china) (・樞命・・b OK!!
 country_event = { 
 	id = wuw_GER_chinese_diplomacy.5
 	title = wuw_GER_chinese_diplomacy.5.t
@@ -8725,7 +8725,7 @@ country_event = {
 		}	
 
 		FROM = {
-			# FROM Accepts our Offer (و ˃̵ᴗ˂̵)و
+			# FROM Accepts our Offer (ﾙ・ﾋξｵ盒陵のｵ)ﾙ・
 			country_event = { 
 				id = wuw_GER_chinese_diplomacy.6
 				days = 2
@@ -8756,7 +8756,7 @@ country_event = {
 		}		
 		
 		FROM = {
-			# FROM Refuses our Offer ¯\(ツ)/¯
+			# FROM Refuses our Offer ﾂｯ\(繝・/ﾂｯ
 			country_event = { 
 				id = wuw_GER_chinese_diplomacy.7
 				days = 2
@@ -8836,7 +8836,7 @@ country_event = {
 				limit = {
 					BEL = {
 						NOT = {
-							has_government = fascism
+							is_far_right_ideology = yes
 						}
 					}
 				}
@@ -8867,7 +8867,7 @@ country_event = {
 				limit = {
 					BEL = {
 						NOT = {
-							has_government = fascism
+							is_far_right_ideology = yes
 						}
 					}
 				}
@@ -8893,7 +8893,7 @@ country_event = {
 		trigger = {
 			BEL = {
 				NOT = {
-					has_government = fascism
+					is_far_right_ideology = yes
 				}
 			}
 		}
@@ -8959,7 +8959,7 @@ country_event = {
 				limit = {
 					HOL = {
 						NOT = {
-							has_government = fascism
+							is_far_right_ideology = yes
 						}
 					}
 				}
@@ -8991,14 +8991,14 @@ country_event = {
 				}
 				AUS_arthur_seyss-inquart = {
 					remove_country_leader_role = {
-						ideology = nazism
+						ideology = racial_supremacism
 					}	
 				}
 				add_country_leader_role = {
 					character = AUS_arthur_seyss-inquart
 					promote_leader = yes
 					country_leader = {
-						ideology = nazism
+						ideology = racial_supremacism
 						expire = 1954.1.1
 						traits = { GER_reichskommissar_trait } 
 					}
@@ -9012,14 +9012,14 @@ country_event = {
 				}
 				AUS_edmund_glaise_horstenau = {
 					remove_country_leader_role = {
-						ideology = nazism
+						ideology = racial_supremacism
 					}	
 				}
 				add_country_leader_role = {
 					character = AUS_edmund_glaise_horstenau
 					promote_leader = yes
 					country_leader = {
-						ideology = nazism
+						ideology = racial_supremacism
 						expire = 1954.1.1
 						traits = { GER_reichskommissar_trait } 
 					}
@@ -9034,7 +9034,7 @@ country_event = {
 				limit = {
 					HOL = {
 						NOT = {
-							has_government = fascism
+							is_far_right_ideology = yes
 						}
 					}
 				}
@@ -9060,7 +9060,7 @@ country_event = {
 		trigger = {
 			HOL = {
 				NOT = {
-					has_government = fascism
+					is_far_right_ideology = yes
 				}
 			}
 		}
@@ -9193,7 +9193,7 @@ country_event = {
 				limit = {
 					NOR = {
 						NOT = {
-							has_government = fascism
+							is_far_right_ideology = yes
 						}
 					}
 				}
@@ -9324,7 +9324,7 @@ country_event = {
 				add_country_leader_role = {
 					promote_leader = yes
 					country_leader = {
-						ideology = nazism
+						ideology = racial_supremacism
 						expire = 1960.1.1
 						traits = { GER_reichskommissar_trait } 
 					}
@@ -9361,7 +9361,7 @@ country_event = {
 								exists = yes
 							}
 							NOT = {
-								has_government = fascism
+								is_far_right_ideology = yes
 							}
 						}
 					}
@@ -9393,7 +9393,7 @@ country_event = {
 				limit = {
 					BLR = {
 						NOT = {
-							has_government = fascism
+							is_far_right_ideology = yes
 						}
 					}
 				}
@@ -9419,7 +9419,7 @@ country_event = {
 		trigger = {
 			BLR = {
 				NOT = {
-					has_government = fascism
+					is_far_right_ideology = yes
 				}
 			}
 		}
@@ -9432,7 +9432,7 @@ country_event = {
 				add_country_leader_role = {
 					promote_leader = yes
 					country_leader = {
-						ideology = nazism
+						ideology = racial_supremacism
 						expire = "1965.3.1"
 						traits = { GER_reichskommissar_trait } 
 					}
@@ -9528,7 +9528,7 @@ country_event = {
 				add_country_leader_role = {
 					promote_leader = yes
 					country_leader = {
-						ideology = nazism
+						ideology = racial_supremacism
 						expire = 1960.1.1
 						traits = { GER_reichskommissar_trait } 
 					}
@@ -9610,7 +9610,7 @@ country_event = {
 					add_country_leader_role = {
 						promote_leader = yes
 						country_leader = {
-							ideology = nazism
+							ideology = racial_supremacism
 							expire = 1960.1.1
 							traits = { GER_reichskommissar_trait } 
 						}
@@ -9648,7 +9648,7 @@ country_event = {
 					add_country_leader_role = {
 						promote_leader = yes
 						country_leader = {
-							ideology = nazism
+							ideology = racial_supremacism
 							expire = 1960.1.1
 							traits = { GER_reichskommissar_trait } 
 						}
@@ -9734,7 +9734,7 @@ country_event = {
 				limit = {
 					SOV = {
 						NOT = {
-							has_government = fascism
+							is_far_right_ideology = yes
 						}
 					}
 				}
@@ -9765,7 +9765,7 @@ country_event = {
 				limit = {
 					SOV = {
 						NOT = {
-							has_government = fascism
+							is_far_right_ideology = yes
 						}
 					}
 				}
@@ -9791,7 +9791,7 @@ country_event = {
 		trigger = {
 			SOV = {
 				NOT = {
-					has_government = fascism
+					is_far_right_ideology = yes
 				}
 			}
 		}
@@ -9804,7 +9804,7 @@ country_event = {
 				add_country_leader_role = {
 					promote_leader = yes
 					country_leader = {
-						ideology = nazism
+						ideology = racial_supremacism
 						expire = 1960.1.1
 						traits = { GER_reichskommissar_trait } 
 					}
@@ -10020,7 +10020,7 @@ country_event = {
 					add_country_leader_role = {
 						promote_leader = yes
 						country_leader = {
-							ideology = nazism
+							ideology = racial_supremacism
 							expire = 1960.1.1
 							traits = { GER_reichskommissar_trait } 
 						}
@@ -10036,7 +10036,7 @@ country_event = {
 					add_country_leader_role = {
 						promote_leader = yes
 						country_leader = {
-							ideology = nazism
+							ideology = racial_supremacism
 							expire = 1960.1.1
 							traits = { GER_reichskommissar_trait } 
 						}
@@ -10352,7 +10352,7 @@ country_event = {
 				limit = {
 					POL = {
 						NOT = {
-							has_government = fascism
+							is_far_right_ideology = yes
 						}
 					}
 				}
@@ -10383,7 +10383,7 @@ country_event = {
 				limit = {
 					POL = {
 						NOT = {
-							has_government = fascism
+							is_far_right_ideology = yes
 						}
 					}
 				}
@@ -10409,7 +10409,7 @@ country_event = {
 		trigger = {
 			POL = {
 				NOT = {
-					has_government = fascism
+					is_far_right_ideology = yes
 				}
 			}
 		}
@@ -10420,12 +10420,12 @@ country_event = {
 		GEN = {
 			POL_boleslaw_piasecki = {
 				remove_country_leader_role = {
-					ideology = falangism
+					ideology = third_position
 				}	
 				add_country_leader_role = {
 					promote_leader = yes
 					country_leader = {
-						ideology = falangism
+						ideology = third_position
 						expire = 1960.1.1
 						traits = { unruly_falangist_marionette } 
 					}
@@ -10444,7 +10444,7 @@ country_event = {
 	}
 }
 
-# A Leader for the Böhmen-Mähren - event for GER
+# A Leader for the Bﾃｶhmen-Mﾃ､hren - event for GER
 country_event = { 
 	id = wuw_GER_reichskommissariats.13
 	title = wuw_GER_reichskommissariats.13.t
@@ -10458,7 +10458,7 @@ country_event = {
 					CZE = {
 						NOT = {
 							AND = {
-								has_government = fascism
+								is_far_right_ideology = yes
 								exists = yes
 							}
 						}
@@ -10517,7 +10517,7 @@ country_event = {
 					add_country_leader_role = {
 						promote_leader = yes
 						country_leader = {
-							ideology = nazism
+							ideology = racial_supremacism
 							expire = 1960.1.1
 							traits = { GER_reichsprotektor_trait } 
 						}
@@ -10534,7 +10534,7 @@ country_event = {
 					add_country_leader_role = {
 						promote_leader = yes
 						country_leader = {
-							ideology = nazism
+							ideology = racial_supremacism
 							expire = 1960.1.1
 							traits = { GER_reichsprotektor_trait } 
 						}
@@ -10549,7 +10549,7 @@ country_event = {
 					CZE = {
 						NOT = {
 							AND = {
-								has_government = fascism
+								is_far_right_ideology = yes
 								exists = yes
 							}
 						}
@@ -10578,7 +10578,7 @@ country_event = {
 			CZE = {
 				NOT = {
 					AND = {
-						has_government = fascism
+						is_far_right_ideology = yes
 						exists = yes
 					}
 				}
@@ -10591,12 +10591,12 @@ country_event = {
 		RKH = {
 			CZE_jaroslav_krejchi = {
 				remove_country_leader_role = {
-					ideology = nazism
+					ideology = racial_supremacism
 				}	
 				add_country_leader_role = {
 					promote_leader = yes
 					country_leader = {
-						ideology = nazism
+						ideology = racial_supremacism
 						expire = 1960.1.1
 						traits = { GER_reichsprotektor_trait } 
 					}
@@ -10653,12 +10653,12 @@ country_event = {
 				limit = {
 					SPR = {
 						NOT = {
-							has_government = fascism
+							is_far_right_ideology = yes
 						}
 					}
 					SPA = {
 						NOT = {
-							has_government = fascism
+							is_far_right_ideology = yes
 						}
 					}
 				}
@@ -10692,7 +10692,7 @@ country_event = {
 				limit = {
 					SPR = {
 						NOT = {
-							has_government = fascism
+							is_far_right_ideology = yes
 						}
 					}
 				}
@@ -10718,12 +10718,12 @@ country_event = {
 		trigger = {
 			SPR = {
 				NOT = {
-					has_government = fascism
+					is_far_right_ideology = yes
 				}
 			}
 			SPA = {
 				NOT = {
-					has_government = fascism
+					is_far_right_ideology = yes
 				}
 			}
 		}
@@ -10736,7 +10736,7 @@ country_event = {
 				add_country_leader_role = {
 					promote_leader = yes
 					country_leader = {
-						ideology = nazism
+						ideology = racial_supremacism
 						expire = 1960.1.1
 						traits = { GER_reichskommissar_trait } 
 					}
@@ -10770,7 +10770,7 @@ country_event = {
 					CRO = {
 						OR = {
 							NOT = {
-								has_government = fascism
+								is_far_right_ideology = yes
 							}
 							exists = no
 						}
@@ -10838,12 +10838,12 @@ country_event = {
 				}
 				HUN_franz_friedrich = {
 					remove_country_leader_role = {
-						ideology = nazism
+						ideology = racial_supremacism
 					}
 					add_country_leader_role = {
 						promote_leader = yes
 						country_leader = {
-							ideology = nazism
+							ideology = racial_supremacism
 							expire = 1960.1.1
 							traits = { GER_reichskommissar_trait } 
 						}
@@ -10854,12 +10854,12 @@ country_event = {
 			ELSE = {
 				GER_georghans_reinhardt = {
 					remove_country_leader_role = {
-						ideology = nazism
+						ideology = racial_supremacism
 					}
 					add_country_leader_role = {
 						promote_leader = yes
 						country_leader = {
-							ideology = nazism
+							ideology = racial_supremacism
 							expire = 1960.1.1
 							traits = { GER_reichskommissar_trait } 
 						}
@@ -10876,7 +10876,7 @@ country_event = {
 					CRO = {
 						OR = {
 							NOT = {
-								has_government = fascism
+								is_far_right_ideology = yes
 							}
 							exists = no
 						}
@@ -10905,25 +10905,25 @@ country_event = {
 			CRO = {
 				OR = {
 					NOT = {
-						has_government = fascism
+						is_far_right_ideology = yes
 					}
 					exists = no
 				}
 			}
 		}
 		ai_chance = {
-			base = ´45
+			base = ﾂｴ45
 		}		
 		
 		RKC = {
 			CRO_ante_pavelic = {
 				remove_country_leader_role = {
-					ideology = nazism
+					ideology = racial_supremacism
 				}
 				add_country_leader_role = {
 					promote_leader = yes
 					country_leader = {
-						ideology = nazism
+						ideology = racial_supremacism
 						expire = 1960.1.1
 						traits = { GER_reichskommissar_trait } 
 					}
@@ -10972,7 +10972,7 @@ country_event = {
 	}
 }
 
-# A Leader for Großbritannien - event for GER
+# A Leader for Groﾃ歟ritannien - event for GER
 country_event = { 
 	id = wuw_GER_reichskommissariats.16
 	title = wuw_GER_reichskommissariats.16.t
@@ -10987,7 +10987,7 @@ country_event = {
 					ENG = {
 						OR = {
 							NOT = {
-								has_government = fascism
+								is_far_right_ideology = yes
 							}
 							exists = no
 						}
@@ -11043,12 +11043,12 @@ country_event = {
 				}
 				HES_philipp_of_hesse = {
 					remove_country_leader_role = {
-						ideology = nazism
+						ideology = racial_supremacism
 					}
 					add_country_leader_role = {
 						promote_leader = yes
 						country_leader = {
-							ideology = nazism
+							ideology = racial_supremacism
 							expire = 1960.1.1
 							traits = { GER_reichskommissar_trait } 
 						}
@@ -11058,12 +11058,12 @@ country_event = {
 			ELSE = {
 				GER_otto_strasser = {
 					remove_country_leader_role = {
-						ideology = nazism
+						ideology = racial_supremacism
 					}
 					add_country_leader_role = {
 						promote_leader = yes
 						country_leader = {
-							ideology = nazism
+							ideology = racial_supremacism
 							expire = 1960.1.1
 							traits = { GER_reichskommissar_trait } 
 						}
@@ -11080,7 +11080,7 @@ country_event = {
 					ENG = {
 						OR = {
 							NOT = {
-								has_government = fascism
+								is_far_right_ideology = yes
 							}
 							exists = no
 						}
@@ -11109,25 +11109,25 @@ country_event = {
 			ENG = {
 				OR = {
 					NOT = {
-						has_government = fascism
+						is_far_right_ideology = yes
 					}
 					exists = no
 				}
 			}
 		}
 		ai_chance = {
-			base = ´45
+			base = ﾂｴ45
 		}		
 		
 		RGB = {
 			ENG_oswald_mosley = {
 				remove_country_leader_role = {
-					ideology = nazism
+					ideology = racial_supremacism
 				}
 				add_country_leader_role = {
 					promote_leader = yes
 					country_leader = {
-						ideology = nazism
+						ideology = racial_supremacism
 						expire = 1960.1.1
 						traits = { GER_reichskommissar_trait } 
 					}
@@ -11281,7 +11281,7 @@ country_event = {
 
 	}
 
-	option = { # It should be incorporated into Böhmen-Mähren
+	option = { # It should be incorporated into Bﾃｶhmen-Mﾃ､hren
 		name = wuw_GER_reichskommissariats.17.c
 		trigger = {
 			AND = {
@@ -11408,7 +11408,7 @@ country_event = {
 					SAF = {
 						NOT = {
 							AND = {
-								has_government = fascism
+								is_far_right_ideology = yes
 								exists = yes
 							}
 						}
@@ -11442,7 +11442,7 @@ country_event = {
 					SAF = {
 						NOT = {
 							AND = {
-								has_government = fascism
+								is_far_right_ideology = yes
 								exists = yes
 							}
 						}
@@ -11470,7 +11470,7 @@ country_event = {
 		trigger = {
 			SAF = {
 				NOT = {
-					has_government = fascism
+					is_far_right_ideology = yes
 				}
 			}
 		}
@@ -11481,12 +11481,12 @@ country_event = {
 		RKA = {
 			SAF_d_f_malan = {
 				remove_country_leader_role = {
-					ideology = nazism
+					ideology = racial_supremacism
 				}	
 				add_country_leader_role = {
 					promote_leader = yes
 					country_leader = {
-						ideology = nazism
+						ideology = racial_supremacism
 						expire = 1960.1.1
 						traits = { GER_reichskommissar_trait } 
 					}
@@ -11528,7 +11528,7 @@ country_event = {
 					BRA = {
 						NOT = {
 							AND = {
-								has_government = fascism
+								is_far_right_ideology = yes
 								exists = yes
 							}
 						}
@@ -11556,12 +11556,12 @@ country_event = {
 		RKV = {
 			GER_adolf_friedrich_von_mecklenburg = {
 				remove_country_leader_role = {
-					ideology = nazism
+					ideology = racial_supremacism
 				}	
 				add_country_leader_role = {
 					promote_leader = yes
 					country_leader = {
-						ideology = nazism
+						ideology = racial_supremacism
 						expire = 1960.1.1
 						traits = { GER_reichskommissar_trait } 
 					}
@@ -11577,7 +11577,7 @@ country_event = {
 					SAF = {
 						NOT = {
 							AND = {
-								has_government = fascism
+								is_far_right_ideology = yes
 								exists = yes
 							}
 						}
@@ -11606,7 +11606,7 @@ country_event = {
 			BRA = {
 				NOT = {
 					AND = {
-						has_government = fascism
+						is_far_right_ideology = yes
 						exists = yes
 					}
 				}
@@ -11619,12 +11619,12 @@ country_event = {
 		RKV = {
 			BRA_plinio_salgado = {
 				remove_country_leader_role = {
-					ideology = nazism
+					ideology = racial_supremacism
 				}	
 				add_country_leader_role = {
 					promote_leader = yes
 					country_leader = {
-						ideology = nazism
+						ideology = racial_supremacism
 						expire = 1960.1.1
 						traits = { GER_reichskommissar_trait } 
 					}
@@ -11691,7 +11691,7 @@ country_event = {
 					PRU = {
 						NOT = {
 							AND = {
-								has_government = fascism
+								is_far_right_ideology = yes
 								exists = yes
 							}
 						}
@@ -11700,7 +11700,7 @@ country_event = {
 				PRU = {
 					set_nationality = {
 					    target_country = RAN
-					    character = PRU_Óscar_benavides
+					    character = PRU_ﾃ都car_benavides
 					}
 				}
 			}
@@ -11708,7 +11708,7 @@ country_event = {
 				CHL = {
 					set_nationality = {
 					    target_country = RAN
-					    character = CHL_jorge_gonzález_von_marées
+					    character = CHL_jorge_gonzﾃ｡lez_von_marﾃｩes
 					}
 				}
 			}
@@ -11733,12 +11733,12 @@ country_event = {
 				}
 				MEK_christian_louis = {
 					remove_country_leader_role = {
-						ideology = nazism
+						ideology = racial_supremacism
 					}	
 					add_country_leader_role = {
 						promote_leader = yes
 						country_leader = {
-							ideology = nazism
+							ideology = racial_supremacism
 							expire = 1960.1.1
 							traits = { GER_reichskommissar_trait } 
 						}
@@ -11748,12 +11748,12 @@ country_event = {
 			ELSE = {
 				GER_rolf_carls = {
 					remove_country_leader_role = {
-						ideology = nazism
+						ideology = racial_supremacism
 					}	
 					add_country_leader_role = {
 						promote_leader = yes
 						country_leader = {
-							ideology = nazism
+							ideology = racial_supremacism
 							expire = 1960.1.1
 							traits = { GER_reichskommissar_trait } 
 						}
@@ -11771,7 +11771,7 @@ country_event = {
 					PRU = {
 						NOT = {
 							AND = {
-								has_government = fascism
+								is_far_right_ideology = yes
 								exists = yes
 							}
 						}
@@ -11780,7 +11780,7 @@ country_event = {
 				RAN = {
 					set_nationality = {
 					    target_country = PRU
-					    character = PRU_Óscar_benavides
+					    character = PRU_ﾃ都car_benavides
 					}
 				}
 			}
@@ -11788,7 +11788,7 @@ country_event = {
 				RAN = {
 					set_nationality = {
 					    target_country = CHL
-					    character = CHL_jorge_gonzález_von_marées
+					    character = CHL_jorge_gonzﾃ｡lez_von_marﾃｩes
 					}
 				}
 			}
@@ -11816,20 +11816,20 @@ country_event = {
 					PRU = {
 						NOT = {
 							AND = {
-								has_government = fascism
+								is_far_right_ideology = yes
 								exists = yes
 							}
 						}
 					}
 				}
-				PRU_Óscar_benavides = {
+				PRU_ﾃ都car_benavides = {
 					remove_country_leader_role = {
-						ideology = nazism
+						ideology = racial_supremacism
 					}	
 					add_country_leader_role = {
 						promote_leader = yes
 						country_leader = {
-							ideology = nazism
+							ideology = racial_supremacism
 							expire = 1960.1.1
 							traits = { GER_reichskommissar_trait } 
 						}
@@ -11837,14 +11837,14 @@ country_event = {
 				}
 			}
 			ELSE = {
-				CHL_jorge_gonzález_von_marées = {
+				CHL_jorge_gonzﾃ｡lez_von_marﾃｩes = {
 					remove_country_leader_role = {
-						ideology = nazism
+						ideology = racial_supremacism
 					}	
 					add_country_leader_role = {
 						promote_leader = yes
 						country_leader = {
-							ideology = nazism
+							ideology = racial_supremacism
 							expire = 1960.1.1
 							traits = { GER_reichskommissar_trait } 
 						}
@@ -11927,7 +11927,7 @@ country_event = {
 					MEX = {
 						NOT = {
 							AND = {
-								has_government = fascism
+								is_far_right_ideology = yes
 								exists = yes
 							}
 						}
@@ -11961,12 +11961,12 @@ country_event = {
 				}
 				SAX_george_of_saxony = {
 					remove_country_leader_role = {
-						ideology = nazism
+						ideology = racial_supremacism
 					}	
 					add_country_leader_role = {
 						promote_leader = yes
 						country_leader = {
-							ideology = nazism
+							ideology = racial_supremacism
 							expire = 1960.1.1
 							traits = { GER_reichskommissar_trait } 
 						}
@@ -11976,12 +11976,12 @@ country_event = {
 			ELSE = {
 				GER_gunther_lutjens = {
 					remove_country_leader_role = {
-						ideology = nazism
+						ideology = racial_supremacism
 					}	
 					add_country_leader_role = {
 						promote_leader = yes
 						country_leader = {
-							ideology = nazism
+							ideology = racial_supremacism
 							expire = 1960.1.1
 							traits = { GER_reichskommissar_trait } 
 						}
@@ -11999,7 +11999,7 @@ country_event = {
 					MEX = {
 						NOT = {
 							AND = {
-								has_government = fascism
+								is_far_right_ideology = yes
 								exists = yes
 							}
 						}
@@ -12029,7 +12029,7 @@ country_event = {
 			MEX = {
 				NOT = {
 					AND = {
-						has_government = fascism
+						is_far_right_ideology = yes
 						exists = yes
 					}
 				}
@@ -12042,12 +12042,12 @@ country_event = {
 		RCO = {
 			MEX_salvador_abascal = {
 				remove_country_leader_role = {
-					ideology = nazism
+					ideology = racial_supremacism
 				}	
 				add_country_leader_role = {
 					promote_leader = yes
 					country_leader = {
-						ideology = nazism
+						ideology = racial_supremacism
 						expire = 1960.1.1
 						traits = { GER_reichskommissar_trait } 
 					}
@@ -12138,7 +12138,7 @@ country_event = {
 					USA = {
 						NOT = {
 							AND = {
-								has_government = fascism
+								is_far_right_ideology = yes
 								exists = yes
 							}
 						}
@@ -12180,12 +12180,12 @@ country_event = {
 				}
 				HUN_franz_anton_bach = {
 					remove_country_leader_role = {
-						ideology = nazism
+						ideology = racial_supremacism
 					}	
 					add_country_leader_role = {
 						promote_leader = yes
 						country_leader = {
-							ideology = nazism
+							ideology = racial_supremacism
 							expire = 1960.1.1
 							traits = { GER_reichskommissar_trait } 
 						}
@@ -12195,12 +12195,12 @@ country_event = {
 			ELSE = {
 				GER_alfred_jodl = {
 					remove_country_leader_role = {
-						ideology = nazism
+						ideology = racial_supremacism
 					}	
 					add_country_leader_role = {
 						promote_leader = yes
 						country_leader = {
-							ideology = nazism
+							ideology = racial_supremacism
 							expire = 1960.1.1
 							traits = { GER_reichskommissar_trait } 
 						}
@@ -12218,7 +12218,7 @@ country_event = {
 					USA = {
 						NOT = {
 							AND = {
-								has_government = fascism
+								is_far_right_ideology = yes
 								exists = yes
 							}
 						}
@@ -12248,7 +12248,7 @@ country_event = {
 			USA = {
 				NOT = {
 					AND = {
-						has_government = fascism
+						is_far_right_ideology = yes
 						exists = yes
 					}
 				}
@@ -12261,12 +12261,12 @@ country_event = {
 		REK = {
 			USA_william_dudley_pelley = {
 				remove_country_leader_role = {
-					ideology = nazism
+					ideology = racial_supremacism
 				}	
 				add_country_leader_role = {
 					promote_leader = yes
 					country_leader = {
-						ideology = nazism
+						ideology = racial_supremacism
 						expire = 1960.1.1
 						traits = { GER_reichskommissar_trait } 
 					}
@@ -12503,7 +12503,7 @@ country_event = {
 					SWI = {
 						NOT = {
 							AND = {
-								has_government = fascism
+								is_far_right_ideology = yes
 								exists = yes
 							}
 						}
@@ -12530,7 +12530,7 @@ country_event = {
 					IRQ = {
 						NOT = {
 							AND = {
-								has_government = fascism
+								is_far_right_ideology = yes
 								exists = yes
 							}
 						}
@@ -12562,7 +12562,7 @@ country_event = {
 					SWI = {
 						NOT = {
 							AND = {
-								has_government = fascism
+								is_far_right_ideology = yes
 								exists = yes
 							}
 						}
@@ -12570,12 +12570,12 @@ country_event = {
 				}
 				SWI_robert_tobler = {
 					remove_country_leader_role = {
-						ideology = nazism
+						ideology = racial_supremacism
 					}	
 					add_country_leader_role = {
 						promote_leader = yes
 						country_leader = {
-							ideology = nazism
+							ideology = racial_supremacism
 							expire = 1960.1.1
 							traits = { GER_reichskommissar_trait } 
 						}
@@ -12585,12 +12585,12 @@ country_event = {
 			ELSE = {
 				GER_walter_model = {
 					remove_country_leader_role = {
-						ideology = nazism
+						ideology = racial_supremacism
 					}	
 					add_country_leader_role = {
 						promote_leader = yes
 						country_leader = {
-							ideology = nazism
+							ideology = racial_supremacism
 							expire = 1960.1.1
 							traits = { GER_reichskommissar_trait } 
 						}
@@ -12608,7 +12608,7 @@ country_event = {
 					IRQ = {
 						NOT = {
 							AND = {
-								has_government = fascism
+								is_far_right_ideology = yes
 								exists = yes
 							}
 						}
@@ -12638,7 +12638,7 @@ country_event = {
 			IRQ = {
 				NOT = {
 					AND = {
-						has_government = fascism
+						is_far_right_ideology = yes
 						exists = yes
 					}
 				}
@@ -12651,12 +12651,12 @@ country_event = {
 		RAR = {
 			IRQ_rashid_ali_algaylani = {
 				remove_country_leader_role = {
-					ideology = nazism
+					ideology = racial_supremacism
 				}	
 				add_country_leader_role = {
 					promote_leader = yes
 					country_leader = {
-						ideology = nazism
+						ideology = racial_supremacism
 						expire = 1960.1.1
 						traits = { GER_reichskommissar_trait } 
 					}
@@ -12674,7 +12674,7 @@ country_event = {
 					SWI = {
 						NOT = {
 							AND = {
-								has_government = fascism
+								is_far_right_ideology = yes
 								exists = yes
 							}
 						}
@@ -12707,7 +12707,7 @@ country_event = {
 	}
 }
 
-# A Leader for Großhindustan - event for GER
+# A Leader for Groﾃ殄industan - event for GER
 country_event = { 
 	id = wuw_GER_reichskommissariats.25
 	title = wuw_GER_reichskommissariats.25.t
@@ -12722,7 +12722,7 @@ country_event = {
 					WUR = {
 						NOT = {
 							AND = {
-								has_government = neutrality
+								is_right_ideology = yes
 								exists = yes
 							}
 						}
@@ -12749,7 +12749,7 @@ country_event = {
 					RAJ = {
 						NOT = {
 							AND = {
-								has_government = fascism
+								is_far_right_ideology = yes
 								exists = yes
 							}
 						}
@@ -12780,7 +12780,7 @@ country_event = {
 					WUR = {
 						NOT = {
 							AND = {
-								has_government = neutrality
+								is_right_ideology = yes
 								exists = yes
 							}
 						}
@@ -12788,12 +12788,12 @@ country_event = {
 				}
 				WUR_philipp_albrecht = {
 					remove_country_leader_role = {
-						ideology = nazism
+						ideology = racial_supremacism
 					}	
 					add_country_leader_role = {
 						promote_leader = yes
 						country_leader = {
-							ideology = nazism
+							ideology = racial_supremacism
 							expire = 1960.1.1
 							traits = { GER_reichskommissar_trait } 
 						}
@@ -12803,12 +12803,12 @@ country_event = {
 			ELSE = {
 				GER_alfred_saalwachter = {
 					remove_country_leader_role = {
-						ideology = nazism
+						ideology = racial_supremacism
 					}	
 					add_country_leader_role = {
 						promote_leader = yes
 						country_leader = {
-							ideology = nazism
+							ideology = racial_supremacism
 							expire = 1960.1.1
 							traits = { GER_reichskommissar_trait } 
 						}
@@ -12826,7 +12826,7 @@ country_event = {
 					RAJ = {
 						NOT = {
 							AND = {
-								has_government = fascism
+								is_far_right_ideology = yes
 								exists = yes
 							}
 						}
@@ -12856,7 +12856,7 @@ country_event = {
 			RAJ = {
 				NOT = {
 					AND = {
-						has_government = fascism
+						is_far_right_ideology = yes
 						exists = yes
 					}
 				}
@@ -12869,12 +12869,12 @@ country_event = {
 		RHD = {
 			RAJ_v_d_savarkar = {
 				remove_country_leader_role = {
-					ideology = nazism
+					ideology = racial_supremacism
 				}	
 				add_country_leader_role = {
 					promote_leader = yes
 					country_leader = {
-						ideology = nazism
+						ideology = racial_supremacism
 						expire = 1960.1.1
 						traits = { GER_reichskommissar_trait } 
 					}
@@ -12891,7 +12891,7 @@ country_event = {
 					WUR = {
 						NOT = {
 							AND = {
-								has_government = neutrality
+								is_right_ideology = yes
 								exists = yes
 							}
 						}
@@ -12947,7 +12947,7 @@ country_event = {
 					CHI = {
 						NOT = {
 							AND = {
-								has_government = fascism
+								is_far_right_ideology = yes
 								exists = yes
 							}
 						}
@@ -12976,12 +12976,12 @@ country_event = {
 			
 			GER_franz_ritter_von_epp = {
 				remove_country_leader_role = {
-					ideology = nazism
+					ideology = racial_supremacism
 				}	
 				add_country_leader_role = {
 					promote_leader = yes
 					country_leader = {
-						ideology = nazism
+						ideology = racial_supremacism
 						expire = 1960.1.1
 						traits = { GER_reichskommissar_trait } 
 					}
@@ -12999,7 +12999,7 @@ country_event = {
 					CHI = {
 						NOT = {
 							AND = {
-								has_government = fascism
+								is_far_right_ideology = yes
 								exists = yes
 							}
 						}
@@ -13029,7 +13029,7 @@ country_event = {
 			CHI = {
 				NOT = {
 					AND = {
-						has_government = fascism
+						is_far_right_ideology = yes
 						exists = yes
 					}
 				}
@@ -13042,12 +13042,12 @@ country_event = {
 		ROA = {
 			CHI_wang_jingwei = {
 				remove_country_leader_role = {
-					ideology = nazism
+					ideology = racial_supremacism
 				}	
 				add_country_leader_role = {
 					promote_leader = yes
 					country_leader = {
-						ideology = nazism
+						ideology = racial_supremacism
 						expire = 1960.1.1
 						traits = { GER_reichskommissar_trait } 
 					}
@@ -13120,7 +13120,7 @@ country_event = {
 					AST = {
 						NOT = {
 							AND = {
-								has_government = fascism
+								is_far_right_ideology = yes
 								exists = yes
 							}
 						}
@@ -13159,12 +13159,12 @@ country_event = {
 				}
 				POL_pavel_bermondt_avalov = {
 					remove_country_leader_role = {
-						ideology = nazism
+						ideology = racial_supremacism
 					}	
 					add_country_leader_role = {
 						promote_leader = yes
 						country_leader = {
-							ideology = nazism
+							ideology = racial_supremacism
 							expire = 1960.1.1
 							traits = { GER_reichskommissar_trait } 
 						}
@@ -13174,12 +13174,12 @@ country_event = {
 			ELSE = {
 				GER_werner_von_fritsch = {
 					remove_country_leader_role = {
-						ideology = nazism
+						ideology = racial_supremacism
 					}	
 					add_country_leader_role = {
 						promote_leader = yes
 						country_leader = {
-							ideology = nazism
+							ideology = racial_supremacism
 							expire = 1960.1.1
 							traits = { GER_reichskommissar_trait } 
 						}
@@ -13197,7 +13197,7 @@ country_event = {
 					AST = {
 						NOT = {
 							AND = {
-								has_government = fascism
+								is_far_right_ideology = yes
 								exists = yes
 							}
 						}
@@ -13227,7 +13227,7 @@ country_event = {
 			AST = {
 				NOT = {
 					AND = {
-						has_government = fascism
+						is_far_right_ideology = yes
 						exists = yes
 					}
 				}
@@ -13240,12 +13240,12 @@ country_event = {
 		RAA = {
 			AST_eric_campbell = {
 				remove_country_leader_role = {
-					ideology = nazism
+					ideology = racial_supremacism
 				}	
 				add_country_leader_role = {
 					promote_leader = yes
 					country_leader = {
-						ideology = nazism
+						ideology = racial_supremacism
 						expire = 1960.1.1
 						traits = { GER_reichskommissar_trait } 
 					}
@@ -13359,7 +13359,7 @@ country_event = {
 		}
 
 		add_popularity = {
-			ideology = neutrality
+			ideology = right
 			popularity = 0.1
 		}	
 
@@ -13373,7 +13373,7 @@ country_event = {
 	}
 }
 
-# Ernst Thälmann Liberated from Prison - event for GER (the non-fascist side)
+# Ernst Thﾃ､lmann Liberated from Prison - event for GER (the non-fascist side)
 country_event = {
 	id = wuw_GER_civil_war.2
 	title = wuw_GER_civil_war.2.t
@@ -13439,7 +13439,7 @@ country_event = {
 		}
 		
 		add_popularity = {
-			ideology = neutrality
+			ideology = right
 			popularity = 0.05
 		}	
 
@@ -13465,7 +13465,7 @@ country_event = {
 		}
 
 		add_popularity = {
-			ideology = democratic
+			ideology = center
 			popularity = 0.05
 		}	
 
@@ -13616,12 +13616,12 @@ country_event = {
 		hidden_effect = {
 			SIL = {
 				delete_unit_template_and_units = {
-					division_template = "Polska Organizacja Wojskowa Górnego Śląska"
+					division_template = "Polska Organizacja Wojskowa Gﾃｳrnego ﾅ嗟ﾄ・ka"
 					disband = yes #if yes, will refund equipment/manpower.
 				}
 
 				division_template = {
-				    name = "Polska Organizacja Wojskowa Górnego Śląska"
+				    name = "Polska Organizacja Wojskowa Gﾃｳrnego ﾅ嗟ﾄ・ka"
 				    is_locked = yes
 				    division_names_group = POL_INF_01
 				    priority = 0
@@ -13635,12 +13635,12 @@ country_event = {
 				} 
 
 				delete_unit_template_and_units = {
-					division_template = "Ferajn Gůrnoślůnzokůw Rebels"
+					division_template = "Ferajn Gﾅｯrnoﾅ嬪ﾅｯnzokﾅｯw Rebels"
 					disband = yes #if yes, will refund equipment/manpower.
 				}
 
 				division_template = {
-				    name = "Ferajn Gůrnoślůnzokůw Rebels"
+				    name = "Ferajn Gﾅｯrnoﾅ嬪ﾅｯnzokﾅｯw Rebels"
 				    is_locked = yes
 				    division_names_group = POL_INF_01
 				    priority = 0
@@ -13667,27 +13667,11 @@ country_event = {
 				is_owned_and_controlled_by = SIL
 			}
 			create_unit = {
-			    division = "name = \"1. Polska Organizacja Wojskowa Górnego Śląska\" division_template = \"Polska Organizacja Wojskowa Górnego Śląska\" start_experience_factor = 0.5 start_equipment_factor = 0.9"
+			    division = "name = \"1. Polska Organizacja Wojskowa Gﾃｳrnego ﾅ嗟ﾄ・ka\" division_template = \"Polska Organizacja Wojskowa Gﾃｳrnego ﾅ嗟ﾄ・ka\" start_experience_factor = 0.5 start_equipment_factor = 0.9"
 			    owner = SIL 
 			}
 			create_unit = {
-			    division = "name = \"2. Polska Organizacja Wojskowa Górnego Śląska\" division_template = \"Polska Organizacja Wojskowa Górnego Śląska\" start_experience_factor = 0.5 start_equipment_factor = 0.8"
-			    owner = SIL 
-			}
-		}
-
-		random_state = {
-			limit = {
-				OR = {
-					state = 66
-					state = 67
-					state = 762
-					state = 74
-				}
-				is_owned_and_controlled_by = SIL
-			}
-			create_unit = {
-			    division = "name = \"3. Polska Organizacja Wojskowa Górnego Śląska\" division_template = \"Polska Organizacja Wojskowa Górnego Śląska\" start_experience_factor = 0.5 start_equipment_factor = 0.7"
+			    division = "name = \"2. Polska Organizacja Wojskowa Gﾃｳrnego ﾅ嗟ﾄ・ka\" division_template = \"Polska Organizacja Wojskowa Gﾃｳrnego ﾅ嗟ﾄ・ka\" start_experience_factor = 0.5 start_equipment_factor = 0.8"
 			    owner = SIL 
 			}
 		}
@@ -13703,11 +13687,27 @@ country_event = {
 				is_owned_and_controlled_by = SIL
 			}
 			create_unit = {
-			    division = "name = \"1. Ferajn Gůrnoślůnzokůw Rebels\" division_template = \"Ferajn Gůrnoślůnzokůw Rebels\" start_experience_factor = 0.5 start_equipment_factor = 0.4"
+			    division = "name = \"3. Polska Organizacja Wojskowa Gﾃｳrnego ﾅ嗟ﾄ・ka\" division_template = \"Polska Organizacja Wojskowa Gﾃｳrnego ﾅ嗟ﾄ・ka\" start_experience_factor = 0.5 start_equipment_factor = 0.7"
+			    owner = SIL 
+			}
+		}
+
+		random_state = {
+			limit = {
+				OR = {
+					state = 66
+					state = 67
+					state = 762
+					state = 74
+				}
+				is_owned_and_controlled_by = SIL
+			}
+			create_unit = {
+			    division = "name = \"1. Ferajn Gﾅｯrnoﾅ嬪ﾅｯnzokﾅｯw Rebels\" division_template = \"Ferajn Gﾅｯrnoﾅ嬪ﾅｯnzokﾅｯw Rebels\" start_experience_factor = 0.5 start_equipment_factor = 0.4"
 			    owner = SIL 
 			}
 			create_unit = {
-			    division = "name = \"2. Ferajn Gůrnoślůnzokůw Rebels\" division_template = \"Ferajn Gůrnoślůnzokůw Rebels\" start_experience_factor = 0.5 start_equipment_factor = 0.5"
+			    division = "name = \"2. Ferajn Gﾅｯrnoﾅ嬪ﾅｯnzokﾅｯw Rebels\" division_template = \"Ferajn Gﾅｯrnoﾅ嬪ﾅｯnzokﾅｯw Rebels\" start_experience_factor = 0.5 start_equipment_factor = 0.5"
 			    owner = SIL 
 			}
 		}
@@ -13803,22 +13803,22 @@ country_event = { #Communist civil war starts
 
 		set_variable = {
 			var = GER_total_anti_com_size #used to calculate how big portion of the army that is NOT supporting the communists
-			value = party_popularity@democratic #democratic support
+			value = party_popularity@center #democratic support
 		}
 		
 		add_to_variable = {
 			var = GER_total_anti_com_size
-			value = party_popularity@fascism #adds fascist support to variable
+			value = party_popularity@far_right #adds fascist support to variable
 		}
 		
 		add_to_variable = {
 			var = GER_total_anti_com_size
-			value = party_popularity@neutrality #adds non-aligned support to variable
+			value = party_popularity@right #adds non-aligned support to variable
 		}
 
 		start_civil_war = {
-			ideology = neutrality
-			ruling_party = communism
+			ideology = right
+			ruling_party = left
 			size = GER_total_anti_com_size
 			states = all  #these will be filtered, not to worry!
 			states_filter = { #only states that do not have this modifier goes to non-communist
@@ -13895,7 +13895,7 @@ country_event = { #Communist civil war starts
 						has_dynamic_modifier = { modifier = GER_proletariat_uprising_modifier }
 						AND = {
 							controller = {
-								has_government = communism
+								is_left_bloc = yes
 								original_tag = GER
 							}
 						}
@@ -13904,7 +13904,7 @@ country_event = { #Communist civil war starts
 				random_select_amount = 3
 
 				create_unit = {
-					division = "division_template =\"Roter Frontkämpferbund Division\" start_experience_factor = 0.2 start_equipment_factor = 0.7"
+					division = "division_template =\"Roter Frontkﾃ､mpferbund Division\" start_experience_factor = 0.2 start_equipment_factor = 0.7"
 					owner = PREV
 					count = 2
 				}
@@ -13930,9 +13930,9 @@ country_event = { #Communist civil war starts
 	#	}
 #
 	#	start_civil_war = {
-	#		ideology = communism
-	#		ruling_party = neutrality
-	#		size = party_popularity@communism
+	#		ideology = left
+	#		ruling_party = right
+	#		size = party_popularity@left
 	#		#capital = <state_id> # Optional. Capital of Revolt country
 	#		states = all  #these will be filtered, not to worry!
 	#		states_filter = { #only states that have this modifier goes to Communists
@@ -14063,11 +14063,11 @@ country_event = {
 		IF = {
 			limit = {
 				NOT = {
-					has_government = neutrality
+					is_right_ideology = yes
 				}
 			}
 			set_politics = {
-				ruling_party = neutrality
+				ruling_party = right
 				elections_allowed = no
 			}	
 		}
@@ -14076,7 +14076,7 @@ country_event = {
 			add_country_leader_role = {
 				promote_leader = yes
 				country_leader = {
-					ideology = despotism
+					ideology = authoritarian_conservatism
 					expire = "1965.1.1.1"
 					traits = { GER_high_admiral } 
 				}
@@ -14249,8 +14249,8 @@ country_event = {
 		original_tag = GER
 		GER = {
 			OR = {
-				has_government = neutrality
-				has_government = fascism
+				is_right_ideology = yes
+				is_far_right_ideology = yes
 			}
 		}
 		AND = {
@@ -14269,7 +14269,7 @@ country_event = {
 		}
 		has_war_with = SOV
 		SOV = {
-			has_government = communism
+			is_left_bloc = yes
 		}
 	}
 
@@ -14540,8 +14540,8 @@ country_event = {
 		original_tag = GER
 		GER = {
 			OR = {
-				has_government = neutrality
-				has_government = fascism
+				is_right_ideology = yes
+				is_far_right_ideology = yes
 			}
 		}
 		AND = {
@@ -14556,8 +14556,8 @@ country_event = {
 		}
 		SOV = {
 			OR = {
-				has_government = communism
-				has_government = democratic
+				is_left_bloc = yes
+				is_center_bloc = yes
 			}
 		}
 		NOT = {
@@ -15072,7 +15072,7 @@ country_event = { #GER pressure country to drop the monroe doctrine
 			}
 			modifier = {
 				factor = 0.2
-				democratic > 0.5
+				center > 0.5
 			}
 		}
 
@@ -15130,7 +15130,7 @@ country_event = { #GER pressure country to drop the monroe doctrine
 			base = 1
 			modifier = {
 				factor = 5
-				fascism < 0.5
+				far_right < 0.5
 			}
 		}
 
@@ -15155,21 +15155,21 @@ country_event = { #GER or USA tries to sway our ideology
 				OR = {
 					AND = {
 						FROM = {
-							has_government = fascism
+							is_far_right_ideology = yes
 						}
-						fascism > 0.2
+						far_right > 0.2
 					}
 					AND = {
 						FROM = {
-							has_government = communism
+							is_left_bloc = yes
 						}
-						communism > 0.2
+						left > 0.2
 					}
 					AND = {
 						FROM = {
-							has_government = democratic
+							is_center_bloc = yes
 						}
-						democratic > 0.2
+						center > 0.2
 					}
 				}
 			}
@@ -15178,7 +15178,7 @@ country_event = { #GER or USA tries to sway our ideology
 		IF = {
 			limit = {
 				FROM = {
-					has_government = fascism
+					is_far_right_ideology = yes
 				}
 			}
 			add_timed_idea = {
@@ -15190,7 +15190,7 @@ country_event = { #GER or USA tries to sway our ideology
 		ELSE_IF = {
 			limit = {
 				FROM = {
-					has_government = communism
+					is_left_bloc = yes
 				}
 			}
 			add_timed_idea = {
@@ -15202,7 +15202,7 @@ country_event = { #GER or USA tries to sway our ideology
 		ELSE_IF = {
 			limit = {
 				FROM = {
-					has_government = democratic
+					is_center_bloc = yes
 				}
 			}
 			add_timed_idea = {
@@ -15253,7 +15253,7 @@ country_event = { #USA pressures country to adhere to the Doctrine
 			}
 			modifier = {
 				factor = 0.2
-				democratic > 0.5
+				center > 0.5
 			}
 		}
 
@@ -15305,7 +15305,7 @@ country_event = { #USA pressures country to adhere to the Doctrine
 			base = 1
 			modifier = {
 				factor = 5
-				fascism > 0.5
+				far_right > 0.5
 			}
 		}
 
@@ -15376,7 +15376,7 @@ country_event = { #GER incresed demands to drop the doctrine
 			}
 			modifier = {
 				factor = 10
-				fascism < 0.25
+				far_right < 0.25
 			}
 		}
 
@@ -16299,11 +16299,11 @@ country_event = {
 			puppet = FROM
 			IF = {
 				limit = {
-					has_government = neutrality
+					is_right_ideology = yes
 				}
 				FROM = {
 					set_party_name = {
-						ideology = neutrality
+						ideology = right
 						name = LIT_von_urach_party
 						long_name = LIT_von_urach_party
 					}
@@ -16393,20 +16393,20 @@ country_event = {
 				character =  FIN_prince_wolfgang_von_hesse
 				promote_leader = yes
 				country_leader = {
-					ideology = despotism
+					ideology = authoritarian_conservatism
 					expire = "1965.1.1.1"
 					traits = { crown_prince_of_finland personal_agenda_von_hesse }
 				}
 			}
 
 			set_party_name = {
-				ideology = neutrality
+				ideology = right
 				long_name = FIN_neutrality_party_monarchist_long
 				name = FIN_neutrality_party_monarchist
 			}
 
 			add_popularity = {
-				ideology = neutrality
+				ideology = right
 				popularity = 0.1
 			}
 
@@ -16474,20 +16474,20 @@ country_event = {
 				character =  FIN_prince_wolfgang_von_hesse
 				promote_leader = yes
 				country_leader = {
-					ideology = despotism
+					ideology = authoritarian_conservatism
 					expire = "1965.1.1.1"
 					traits = { crown_prince_of_finland personal_agenda_von_hesse }
 				}
 			}
 
 			set_party_name = {
-				ideology = neutrality
+				ideology = right
 				long_name = FIN_neutrality_party_monarchist_long
 				name = FIN_neutrality_party_monarchist
 			}
 
 			add_popularity = {
-				ideology = neutrality
+				ideology = right
 				popularity = 0.1
 			}
 
@@ -17424,7 +17424,7 @@ country_event = {
 		IF = {
 			limit = {
 				FROM = {
-					has_government = neutrality
+					is_right_ideology = yes
 				}
 			}
 			set_cosmetic_tag = OTT_UNIFIED
@@ -17562,7 +17562,7 @@ country_event = { # FROM accepts our faction invitation - event for GER
 			custom_effect_tooltip = generic_skip_one_line_tt
 			IF = {
 				limit = {
-					has_government = neutrality
+					is_right_ideology = yes
 				}
 				FROM = {
 					set_cosmetic_tag = OTT_UNIFIED
@@ -17710,7 +17710,7 @@ country_event = { #The Civil War broke out (Monarchist)
 
 		start_civil_war = {
 			ideology = ROOT
-			ruling_party = neutrality
+			ruling_party = right
 			size = 0.4 # since this triggers when the country goes over 50% neutrality
 			capital = var:ROOT.temp_capital
 		}
@@ -17736,7 +17736,7 @@ country_event = { #The Civil War broke out (Monarchist)
 		}
 
 		start_civil_war = {
-			ideology = neutrality
+			ideology = right
 			ruling_party = ROOT
 			size = 0.5 # since this triggers when the country goes over 50% neutrality
 			capital = var:ROOT.temp_capital
@@ -17768,7 +17768,7 @@ country_event = { #The Civil War broke out (Democratic)
 
 		start_civil_war = {
 			ideology = ROOT
-			ruling_party = democratic
+			ruling_party = center
 			size = 0.4 # since this triggers when the country goes over 50% democratic
 			capital = var:ROOT.temp_capital
 		}
@@ -17794,7 +17794,7 @@ country_event = { #The Civil War broke out (Democratic)
 		}
 
 		start_civil_war = {
-			ideology = democratic
+			ideology = center
 			ruling_party = ROOT
 			size = 0.5 # since this triggers when the country goes over 50% democratic
 			capital = var:ROOT.temp_capital
@@ -17826,7 +17826,7 @@ country_event = { #The Civil War broke out (Fascist)
 
 		start_civil_war = {
 			ideology = ROOT
-			ruling_party = fascism
+			ruling_party = far_right
 			size = 0.4 # since this triggers when the country goes over 50% fascism
 			capital = var:ROOT.temp_capital
 		}
@@ -17852,7 +17852,7 @@ country_event = { #The Civil War broke out (Fascist)
 		}
 
 		start_civil_war = {
-			ideology = fascism
+			ideology = far_right
 			ruling_party = ROOT
 			size = 0.5 # since this triggers when the country goes over 50% fascism
 			capital = var:ROOT.temp_capital
@@ -18119,7 +18119,7 @@ country_event = { # [FROM.GetNameDefCap] Accepts our offer - event for GER
 
 	is_triggered_only = yes
 
-	option = { # We are grateful for their naiveté
+	option = { # We are grateful for their naivetﾃｩ
 		name = wuw_GER_realpolitik.34.a  
 
 		effect_tooltip = {
@@ -18735,7 +18735,7 @@ country_event = {
 		IF = {
 			limit = {
 				FROM = {
-					has_government = neutrality
+					is_right_ideology = yes
 				}
 			}
 
@@ -18769,7 +18769,7 @@ country_event = {
 				AUS_ernst_rudiger_starhemberg = {
 
 					remove_country_leader_trait = {
-						ideology = despotism
+						ideology = authoritarian_conservatism
 						trait = anti_communist 
 					}
 
@@ -18780,13 +18780,13 @@ country_event = {
 			}
 
 			set_party_name = {
-				ideology = neutrality 
+				ideology = right 
 				long_name = AUS_neutrality_herrenhaus_long
 				name = AUS_neutrality_herrenhaus
 			}
 
 			set_party_name = {
-				ideology = fascism
+				ideology = far_right
 				long_name = AUS_fascism_vaterlandische_front_long
 				name = AUS_fascism_vaterlandische_front
 			}
@@ -18894,7 +18894,7 @@ country_event = {
 		ELSE_IF = {
 			limit = {
 				FROM = {
-					has_government = democratic
+					is_center_bloc = yes
 				}
 			}
 
@@ -20506,7 +20506,7 @@ country_event = {
 
 		has_dlc = "Gotterdammerung"
 
-		has_government = democratic
+		is_center_bloc = yes
 	}
 
 	mean_time_to_happen = { days = 1 }
@@ -20533,7 +20533,7 @@ country_event = {
 		add_political_power = 50
 
 		add_popularity = {
-			ideology = democratic
+			ideology = center
 			popularity = 0.05
 		}	
 		
@@ -20546,14 +20546,14 @@ country_event = {
 		}
 		
 		set_politics = {
-			ruling_party = neutrality
+			ruling_party = right
 			elections_allowed = no
 			last_election = "1937.6.5"
 			election_frequency = 48
 		}
 
 		add_popularity = {
-			ideology = neutrality
+			ideology = right
 			popularity = 0.5
 		}	
 		
@@ -20566,7 +20566,7 @@ country_event = {
 		}
 		
 		add_popularity = {
-			ideology = democratic
+			ideology = center
 			popularity = -0.35
 		}	
 		
@@ -20620,7 +20620,7 @@ country_event = {
 }
 
 
-#Göring wants to launch the Blitz
+#Gﾃｶring wants to launch the Blitz
 country_event = {
 	id = wuw_GER_the_battle_of_britain.01
 	title = wuw_GER_the_battle_of_britain.01.t
@@ -20629,7 +20629,7 @@ country_event = {
 
 	trigger = {
 		original_tag = GER
-		has_government = fascism
+		is_far_right_ideology = yes
 		has_dlc = "Gotterdammerung"
 		FRA = { 
 			OR = {
@@ -20673,7 +20673,7 @@ country_event = {
 			days = 180
 		}
 	}
-	option = { #Göring is promising too much
+	option = { #Gﾃｶring is promising too much
 		name = wuw_GER_the_battle_of_britain.01.b
 				
 		add_political_power = -25
@@ -20765,7 +20765,7 @@ country_event = {
 		}
 
 		set_politics = { 
-			ruling_party = democratic 
+			ruling_party = center 
 			elections_allowed = yes 
 		}
 
@@ -20792,7 +20792,7 @@ country_event = {
 		}
 
 		set_politics = {
-			ruling_party = democratic
+			ruling_party = center
 			elections_allowed = yes
 			last_election = "1933.3.5"
 			election_frequency = 48
@@ -20803,7 +20803,7 @@ country_event = {
 			add_country_leader_role = {
 				promote_leader = yes
 				country_leader = {
-					ideology = socialism
+					ideology = social_democracy
 					expire = 1965.1.1
 					traits = { GER_staunch_social_democrat } 
 				}
@@ -20835,14 +20835,14 @@ country_event = { #Spartacus leader election
 			character = GER_heinrich_brandler
 			promote_leader = yes
 			country_leader = {
-				ideology = leninism
+				ideology = vanguard_communism
 				expire = 1965.1.1
 				traits = { GER_pragmatic_trade_unionist } 
 			}
 		}
 	}
 
-	option = { #Keep Thälmann
+	option = { #Keep Thﾃ､lmann
 		name = wuw_GER_german_politics.02.b
 		trigger = {
 			has_country_flag = GER_thalmann_freed_from_prison_flag
@@ -20869,7 +20869,7 @@ country_event = { #Spartacus leader election
 			character = GER_otto_grotewohl
 			promote_leader = yes
 			country_leader = {
-				ideology = marxism
+				ideology = orthodox_marxism
 				expire = 1965.1.1
 				traits = { GER_pragmatic_socialist } 
 			}
@@ -20989,12 +20989,12 @@ country_event = {
 		# Base Conditions for Germany, basically you must lead the Axis and be in WW2
 		original_tag = GER
 		is_subject = no
-		has_government = fascism
+		is_far_right_ideology = yes
 		is_faction_leader = yes
 
 		# Base Conditions for Hungary, basically they must have Horthy as their leader and be "available" to be puppeted
 		HUN = {
-			has_government = neutrality
+			is_right_ideology = yes
 			is_in_faction_with = ROOT
 			is_subject = no
 			has_country_leader = {
@@ -21048,7 +21048,7 @@ country_event = {
 
 	fire_only_once = yes
 
-	# Demand his subservience to the Führer
+	# Demand his subservience to the Fﾃｼhrer
 	option = {
 		name =  GER_operation_panzerfaust_events.01.a
 		# AI will always choose this one
@@ -21188,7 +21188,7 @@ country_event = {
 		FROM = {
 			add_trait = {
 			    character = HUN_ferenc_szalasi
-			    ideology = nazism
+			    ideology = racial_supremacism
 			    trait = HUN_nemzetvezeto_trait
 			}
 		}
@@ -21415,7 +21415,7 @@ country_event = {
 
 		add_trait = {
 		    character = HUN_ferenc_szalasi
-		    ideology = nazism
+		    ideology = racial_supremacism
 		    trait = HUN_nemzetvezeto_trait
 		}
 
@@ -21433,7 +21433,7 @@ country_event = {
 			character = HUN_geza_lakatos
 			promote_leader = yes
 			country_leader = {
-				ideology = oligarchism
+				ideology = authoritarian_democracy
 				expire = "1965.1.1"
 				traits = { generallissimo desperate_gambit } 
 			}
@@ -21739,7 +21739,7 @@ country_event = {
 # ADVISOR ORDER
 # 1 = TODT
 # 2 = SPEER
-# 3 = GÖRING
+# 3 = Gﾃ乏ING
 # 4 = HIMMLER
 # 5 = GOEBBELS
 # 6 = HESS
@@ -21970,10 +21970,10 @@ country_event = {
 
 		ai_chance = {
 			base = 1
-			modifier = { #Himmler & Göring are more likely to replace Hitler
+			modifier = { #Himmler & Gﾃｶring are more likely to replace Hitler
 				add = 2
 				OR = {
-					check_variable = { GER_ascended_advisor_1 = 3 } #Göring
+					check_variable = { GER_ascended_advisor_1 = 3 } #Gﾃｶring
 					check_variable = { GER_ascended_advisor_1 = 4 } #Himmler
 				}
 			}
@@ -21986,7 +21986,7 @@ country_event = {
 			add_country_leader_role = {
 				character =  GER_fritz_todt
 				country_leader = {
-					ideology = nazism
+					ideology = racial_supremacism
 					expire = 1965.1.1
 					traits = { GER_todt_fuhrer } 
 				}
@@ -22000,7 +22000,7 @@ country_event = {
 			add_country_leader_role = {
 				character =  GER_albert_speer
 				country_leader = {
-					ideology = nazism
+					ideology = racial_supremacism
 					expire = 1965.1.1
 					traits = { GER_speer_fuhrer } 
 				}
@@ -22014,7 +22014,7 @@ country_event = {
 			add_country_leader_role = {
 				character =  GER_hermann_goring
 				country_leader = {
-					ideology = nazism
+					ideology = racial_supremacism
 					expire = 1965.1.1
 					traits = { GER_goring_fuhrer } 
 				}
@@ -22032,7 +22032,7 @@ country_event = {
 				add_country_leader_role = {
 					character =  GER_heinrich_himmler
 					country_leader = {
-						ideology = nazism
+						ideology = racial_supremacism
 						expire = 1965.1.1
 						traits = { GER_himmler_fuhrer_abwehr } 
 					}
@@ -22043,7 +22043,7 @@ country_event = {
 				add_country_leader_role = {
 					character =  GER_heinrich_himmler
 					country_leader = {
-						ideology = nazism
+						ideology = racial_supremacism
 						expire = 1965.1.1
 						traits = { GER_himmler_fuhrer_ss } 
 					}
@@ -22062,7 +22062,7 @@ country_event = {
 				add_country_leader_role = {
 					character =  GER_joseph_goebbels
 					country_leader = {
-						ideology = nazism
+						ideology = racial_supremacism
 						expire = 1965.1.1
 						traits = { GER_goebbels_fuhrer_no_lar } 
 					}
@@ -22073,7 +22073,7 @@ country_event = {
 				add_country_leader_role = {
 					character =  GER_joseph_goebbels
 					country_leader = {
-						ideology = nazism
+						ideology = racial_supremacism
 						expire = 1965.1.1
 						traits = { GER_goebbels_fuhrer } 
 					}
@@ -22092,7 +22092,7 @@ country_event = {
 				add_country_leader_role = {
 					character =  GER_rudolf_hess
 					country_leader = {
-						ideology = nazism
+						ideology = racial_supremacism
 						expire = 1965.1.1
 						traits = { GER_hess_fuhrer_no_aat } 
 					}
@@ -22103,7 +22103,7 @@ country_event = {
 				add_country_leader_role = {
 					character =  GER_rudolf_hess
 					country_leader = {
-						ideology = nazism
+						ideology = racial_supremacism
 						expire = 1965.1.1
 						traits = { GER_hess_fuhrer } 
 					}
@@ -22118,7 +22118,7 @@ country_event = {
 			add_country_leader_role = {
 				character =  GER_martin_bormann
 				country_leader = {
-					ideology = nazism
+					ideology = racial_supremacism
 					expire = 1965.1.1
 					traits = { GER_bormann_fuhrer } 
 				}
@@ -22146,10 +22146,10 @@ country_event = {
 
 		ai_chance = {
 			base = 1
-			modifier = { #Himmler & Göring are more likely to replace Hitler
+			modifier = { #Himmler & Gﾃｶring are more likely to replace Hitler
 				add = 2
 				OR = {
-					check_variable = { GER_ascended_advisor_2 = 3 } #Göring
+					check_variable = { GER_ascended_advisor_2 = 3 } #Gﾃｶring
 					check_variable = { GER_ascended_advisor_2 = 4 } #Himmler
 				}
 			}
@@ -22162,7 +22162,7 @@ country_event = {
 			add_country_leader_role = {
 				character =  GER_fritz_todt
 				country_leader = {
-					ideology = nazism
+					ideology = racial_supremacism
 					expire = 1965.1.1
 					traits = { GER_todt_fuhrer } 
 				}
@@ -22176,7 +22176,7 @@ country_event = {
 			add_country_leader_role = {
 				character =  GER_albert_speer
 				country_leader = {
-					ideology = nazism
+					ideology = racial_supremacism
 					expire = 1965.1.1
 					traits = { GER_speer_fuhrer } 
 				}
@@ -22190,7 +22190,7 @@ country_event = {
 			add_country_leader_role = {
 				character =  GER_hermann_goring
 				country_leader = {
-					ideology = nazism
+					ideology = racial_supremacism
 					expire = 1965.1.1
 					traits = { GER_goring_fuhrer } 
 				}
@@ -22208,7 +22208,7 @@ country_event = {
 				add_country_leader_role = {
 					character =  GER_heinrich_himmler
 					country_leader = {
-						ideology = nazism
+						ideology = racial_supremacism
 						expire = 1965.1.1
 						traits = { GER_himmler_fuhrer_abwehr } 
 					}
@@ -22219,7 +22219,7 @@ country_event = {
 				add_country_leader_role = {
 					character =  GER_heinrich_himmler
 					country_leader = {
-						ideology = nazism
+						ideology = racial_supremacism
 						expire = 1965.1.1
 						traits = { GER_himmler_fuhrer_ss } 
 					}
@@ -22238,7 +22238,7 @@ country_event = {
 				add_country_leader_role = {
 					character =  GER_joseph_goebbels
 					country_leader = {
-						ideology = nazism
+						ideology = racial_supremacism
 						expire = 1965.1.1
 						traits = { GER_goebbels_fuhrer_no_lar } 
 					}
@@ -22249,7 +22249,7 @@ country_event = {
 				add_country_leader_role = {
 					character =  GER_joseph_goebbels
 					country_leader = {
-						ideology = nazism
+						ideology = racial_supremacism
 						expire = 1965.1.1
 						traits = { GER_goebbels_fuhrer } 
 					}
@@ -22268,7 +22268,7 @@ country_event = {
 				add_country_leader_role = {
 					character =  GER_rudolf_hess
 					country_leader = {
-						ideology = nazism
+						ideology = racial_supremacism
 						expire = 1965.1.1
 						traits = { GER_hess_fuhrer_no_aat } 
 					}
@@ -22279,7 +22279,7 @@ country_event = {
 				add_country_leader_role = {
 					character =  GER_rudolf_hess
 					country_leader = {
-						ideology = nazism
+						ideology = racial_supremacism
 						expire = 1965.1.1
 						traits = { GER_hess_fuhrer } 
 					}
@@ -22294,7 +22294,7 @@ country_event = {
 			add_country_leader_role = {
 				character =  GER_martin_bormann
 				country_leader = {
-					ideology = nazism
+					ideology = racial_supremacism
 					expire = 1965.1.1
 					traits = { GER_bormann_fuhrer } 
 				}
@@ -22322,10 +22322,10 @@ country_event = {
 
 		ai_chance = {
 			base = 1
-			modifier = { #Himmler & Göring are more likely to replace Hitler
+			modifier = { #Himmler & Gﾃｶring are more likely to replace Hitler
 				add = 2
 				OR = {
-					check_variable = { GER_ascended_advisor_3 = 3 } #Göring
+					check_variable = { GER_ascended_advisor_3 = 3 } #Gﾃｶring
 					check_variable = { GER_ascended_advisor_3 = 4 } #Himmler
 				}
 			}
@@ -22338,7 +22338,7 @@ country_event = {
 			add_country_leader_role = {
 				character =  GER_fritz_todt
 				country_leader = {
-					ideology = nazism
+					ideology = racial_supremacism
 					expire = 1965.1.1
 					traits = { GER_todt_fuhrer } 
 				}
@@ -22352,7 +22352,7 @@ country_event = {
 			add_country_leader_role = {
 				character =  GER_albert_speer
 				country_leader = {
-					ideology = nazism
+					ideology = racial_supremacism
 					expire = 1965.1.1
 					traits = { GER_speer_fuhrer } 
 				}
@@ -22366,7 +22366,7 @@ country_event = {
 			add_country_leader_role = {
 				character =  GER_hermann_goring
 				country_leader = {
-					ideology = nazism
+					ideology = racial_supremacism
 					expire = 1965.1.1
 					traits = { GER_goring_fuhrer } 
 				}
@@ -22384,7 +22384,7 @@ country_event = {
 				add_country_leader_role = {
 					character =  GER_heinrich_himmler
 					country_leader = {
-						ideology = nazism
+						ideology = racial_supremacism
 						expire = 1965.1.1
 						traits = { GER_himmler_fuhrer_abwehr } 
 					}
@@ -22395,7 +22395,7 @@ country_event = {
 				add_country_leader_role = {
 					character =  GER_heinrich_himmler
 					country_leader = {
-						ideology = nazism
+						ideology = racial_supremacism
 						expire = 1965.1.1
 						traits = { GER_himmler_fuhrer_ss } 
 					}
@@ -22414,7 +22414,7 @@ country_event = {
 				add_country_leader_role = {
 					character =  GER_joseph_goebbels
 					country_leader = {
-						ideology = nazism
+						ideology = racial_supremacism
 						expire = 1965.1.1
 						traits = { GER_goebbels_fuhrer_no_lar } 
 					}
@@ -22425,7 +22425,7 @@ country_event = {
 				add_country_leader_role = {
 					character =  GER_joseph_goebbels
 					country_leader = {
-						ideology = nazism
+						ideology = racial_supremacism
 						expire = 1965.1.1
 						traits = { GER_goebbels_fuhrer } 
 					}
@@ -22444,7 +22444,7 @@ country_event = {
 				add_country_leader_role = {
 					character =  GER_rudolf_hess
 					country_leader = {
-						ideology = nazism
+						ideology = racial_supremacism
 						expire = 1965.1.1
 						traits = { GER_hess_fuhrer_no_aat } 
 					}
@@ -22455,7 +22455,7 @@ country_event = {
 				add_country_leader_role = {
 					character =  GER_rudolf_hess
 					country_leader = {
-						ideology = nazism
+						ideology = racial_supremacism
 						expire = 1965.1.1
 						traits = { GER_hess_fuhrer } 
 					}
@@ -22470,7 +22470,7 @@ country_event = {
 			add_country_leader_role = {
 				character =  GER_martin_bormann
 				country_leader = {
-					ideology = nazism
+					ideology = racial_supremacism
 					expire = 1965.1.1
 					traits = { GER_bormann_fuhrer } 
 				}
@@ -22513,7 +22513,7 @@ country_event = {
 	}
 }
 
-# INTRIGUE - Todt-Speer-Göring ME focuses
+# INTRIGUE - Todt-Speer-Gﾃｶring ME focuses
 country_event = {
 	id = GER_inner_circle.03
 	title = GER_inner_circle.03.t
@@ -22552,7 +22552,7 @@ country_event = {
 	immediate = {
 		hidden_effect = {
 			set_country_flag = GER_inner_circle_event_pending_flag
-			if = { #Göring prevails
+			if = { #Gﾃｶring prevails
 				limit = {
 					has_shine_effect_on_focus = GER_plenipotentiary_of_the_four_year_plan
 				}
@@ -22583,9 +22583,9 @@ country_event = {
 				check_variable = { GER_intrigue_character = 2 } #Speer
 				GER_is_historical_ai = yes
 			}
-			modifier = { #Göring is preferred for Alt-Fascist plan
+			modifier = { #Gﾃｶring is preferred for Alt-Fascist plan
 				add = 100
-				check_variable = { GER_intrigue_character = 3 } #Göring
+				check_variable = { GER_intrigue_character = 3 } #Gﾃｶring
 				GER_is_alt_fascist_ai = yes
 			}
 		}
@@ -22689,8 +22689,8 @@ country_event = {
 
 		ai_chance = {
 			base = 1
-			modifier = { #Göring is preferred for Alt-Fascist plan - Choosing someone else only delays the country leader change
-				factor = 0.1 #Leaving non-0 so that there's fallback if for some reason Göring is not there
+			modifier = { #Gﾃｶring is preferred for Alt-Fascist plan - Choosing someone else only delays the country leader change
+				factor = 0.1 #Leaving non-0 so that there's fallback if for some reason Gﾃｶring is not there
 				GER_is_alt_fascist_ai = yes
 			}
 		}
@@ -22968,8 +22968,8 @@ country_event = {
 				add = 100
 				GER_is_historical_ai = yes
 			}
-			modifier = { #Göring is preferred for Alt-Fascist plan - Choosing someone else only delays the country leader change
-				factor = 0.1 #Leaving non-0 so that there's fallback if for some reason Göring is not there
+			modifier = { #Gﾃｶring is preferred for Alt-Fascist plan - Choosing someone else only delays the country leader change
+				factor = 0.1 #Leaving non-0 so that there's fallback if for some reason Gﾃｶring is not there
 				GER_is_alt_fascist_ai = yes
 			}
 		}
@@ -23238,12 +23238,12 @@ country_event = {
 		}
 	}
 
-	option = { # Favor Göring
+	option = { # Favor Gﾃｶring
 		name = GER_inner_circle.03.d
 
 		ai_chance = {
 			base = 1
-			modifier = { #Göring is preferred for Alt-Fascist plan
+			modifier = { #Gﾃｶring is preferred for Alt-Fascist plan
 				add = 100
 				GER_is_alt_fascist_ai = yes
 			}
@@ -23276,7 +23276,7 @@ country_event = {
 					CHARACTER_3 = GER_albert_speer
 				}
 			}
-			else = { #Göring is not ascended (search for an open slot or replace Intrigue Character)
+			else = { #Gﾃｶring is not ascended (search for an open slot or replace Intrigue Character)
 				if = { #There is an open slot for Ascending Advisor, seize it!
 					limit = {
 						OR = { #Only need to check for two positions but this way is the same trigger in all places in this event
@@ -23352,7 +23352,7 @@ country_event = {
 					CHARACTER_3 = GER_albert_speer
 				}
 			}
-			else = { #Göring is not ascended (search for an open slot or replace Intrigue Character)
+			else = { #Gﾃｶring is not ascended (search for an open slot or replace Intrigue Character)
 				if = { #There is an open slot for Ascending Advisor, seize it!
 					limit = {
 						OR = { #Only need to check for two positions but this way is the same trigger in all places in this event
@@ -23428,7 +23428,7 @@ country_event = {
 					CHARACTER_3 = GER_albert_speer
 				}
 			}
-			else = { #Göring is not ascended (search for an open slot or replace Intrigue Character)
+			else = { #Gﾃｶring is not ascended (search for an open slot or replace Intrigue Character)
 				if = { #There is an open slot for Ascending Advisor, seize it!
 					limit = {
 						OR = { #Only need to check for two positions but this way is the same trigger in all places in this event
@@ -23553,7 +23553,7 @@ country_event = {
 			limit = {
 				NOT = { has_completed_focus = GER_autonomous_organization_todt }
 				NOT = { check_variable = { GER_industrialist_prevailed = 2 } } #Speer Prevailed in the Industrialist Intrigue
-				NOT = { check_variable = { GER_industrialist_prevailed = 3 } } #Göring Prevailed in the Industrialist Intrigue
+				NOT = { check_variable = { GER_industrialist_prevailed = 3 } } #Gﾃｶring Prevailed in the Industrialist Intrigue
 			}
 			activate_shine_on_focus = GER_autonomous_organization_todt
 			set_country_flag = { flag = GER_autonomous_organization_todt_in_progress_flag days = @inner_circle_time_tier_2_flag value = 1 }
@@ -23564,7 +23564,7 @@ country_event = {
 				NOT = { has_completed_focus = GER_wunderwaffe }
 				NOT = { has_shine_effect_on_focus = GER_wunderwaffe } #Speer is working on this already
 				NOT = { check_variable = { GER_industrialist_prevailed = 2 } } #Speer Prevailed in the Industrialist Intrigue
-				NOT = { check_variable = { GER_industrialist_prevailed = 3 } } #Göring Prevailed in the Industrialist Intrigue
+				NOT = { check_variable = { GER_industrialist_prevailed = 3 } } #Gﾃｶring Prevailed in the Industrialist Intrigue
 			}
 			activate_shine_on_focus = GER_wunderwaffe
 			set_country_flag = { flag = GER_wunderwaffe_in_progress_flag days = @inner_circle_time_tier_3_flag value = 1 }
@@ -23675,7 +23675,7 @@ country_event = {
 			limit = {
 				NOT = { has_completed_focus = GER_plenipotentiary_of_armaments }
 				NOT = { check_variable = { GER_industrialist_prevailed = 1 } } #Todt Prevailed in the Industrialist Intrigue
-				NOT = { check_variable = { GER_industrialist_prevailed = 3 } } #Göring Prevailed in the Industrialist Intrigue
+				NOT = { check_variable = { GER_industrialist_prevailed = 3 } } #Gﾃｶring Prevailed in the Industrialist Intrigue
 			}
 			activate_shine_on_focus = GER_plenipotentiary_of_armaments
 			set_country_flag = { flag = GER_plenipotentiary_of_armaments_in_progress_flag days = @inner_circle_time_tier_2_flag value = 1 }
@@ -23686,7 +23686,7 @@ country_event = {
 				NOT = { has_completed_focus = GER_wunderwaffe }
 				NOT = { has_shine_effect_on_focus = GER_wunderwaffe } #Todt is working on this already
 				NOT = { check_variable = { GER_industrialist_prevailed = 1 } } #Todt Prevailed in the Industrialist Intrigue
-				NOT = { check_variable = { GER_industrialist_prevailed = 3 } } #Göring Prevailed in the Industrialist Intrigue
+				NOT = { check_variable = { GER_industrialist_prevailed = 3 } } #Gﾃｶring Prevailed in the Industrialist Intrigue
 			}
 			activate_shine_on_focus = GER_wunderwaffe
 			set_country_flag = { flag = GER_wunderwaffe_in_progress_flag days = @inner_circle_time_tier_3_flag value = 1 }
@@ -23767,7 +23767,7 @@ country_event = {
 #  # #  # #  #  #  #  # #  # 
  ##   ##  #  # ### #  #  ##  
 
-# GÖRING - Start work on Focus
+# Gﾃ乏ING - Start work on Focus
 country_event = {
 	id = GER_inner_circle_goring.01
 
@@ -23814,12 +23814,12 @@ country_event = {
 			country_event = { id = GER_inner_circle_goring.02 days = @inner_circle_time_tier_3 }
 		}
 		else = { #Debug logs
-			#log = "SOMETHING WENT WRONG WITH GÖRING's FOCUS BRANCH - Cannot start new focus"
+			#log = "SOMETHING WENT WRONG WITH Gﾃ乏ING's FOCUS BRANCH - Cannot start new focus"
 		}
 	}
 }
 
-# GÖRING - Complete Focus
+# Gﾃ乏ING - Complete Focus
 country_event = {
 	id = GER_inner_circle_goring.02
 
@@ -23873,7 +23873,7 @@ country_event = {
 			clr_country_flag = GER_integration_of_puppet_economies_in_progress_flag
 		}
 		else = { #Debug logs
-			#log = "SOMETHING WENT WRONG WITH GÖRING's FOCUS BRANCH - Cannot complete focus"
+			#log = "SOMETHING WENT WRONG WITH Gﾃ乏ING's FOCUS BRANCH - Cannot complete focus"
 		}
 	}
 }

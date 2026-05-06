@@ -1,4 +1,4 @@
-﻿
+
 
 capital = 195
 set_autonomy = {
@@ -48,7 +48,7 @@ set_research_slots = 3
 set_convoys = 450
 
 set_politics = {
-	ruling_party = neutrality
+	ruling_party = right
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
@@ -57,10 +57,10 @@ set_politics = {
 set_oob = "RUS_1936"
 
 set_popularities = {
-	communism = 5
-	democratic = 10
-	neutrality = 85
-	fascism = 0
+	left = 5
+	center = 10
+	right = 85
+	far_right = 0
 }
 
 add_ideas = {
@@ -127,7 +127,7 @@ set_technology = { # mod
 	infantry_weapons = 1
 	gw_artillery = 1
 	basic_train = 1
-	#なんで軽戦車研究されるの?
+	#�Ȃ�Ōy��Ԍ���������?
 
 
 	#air
@@ -147,7 +147,7 @@ set_technology = { # mod
 
 }
 
-#郢ｧ・ｭ郢晢ｽ｣郢晢ｽｩ
+#繧�E�繝｣繝ｩ
 
 recruit_character = RUS_nicholas_ii
 recruit_character = RUS_aleksandr_vasilevsky

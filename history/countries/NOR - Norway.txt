@@ -1,4 +1,4 @@
-﻿capital = 110 # Oslo
+capital = 110 # Oslo
 
 
 if = {
@@ -288,29 +288,29 @@ set_grand_doctrine = new_strategic_destruction
 
 
 set_politics = {
-	ruling_party = democratic
+	ruling_party = center
 	last_election = "1933.10.16"
 	election_frequency = 36
 	elections_allowed = yes
 }
 set_popularities = {
-	democratic = 96
-	fascism = 2
-	communism = 2
+	center = 96
+	far_right = 2
+	left = 2
 }
 
 1939.1.1 = {
 	set_politics = {
-		ruling_party = democratic
+		ruling_party = center
 		last_election = "1936.10.19"
 		election_frequency = 36
 		elections_allowed = yes
 	}
 	set_popularities = {
-		democratic = 84
-		fascism = 2
-		communism = 2
-		neutrality = 12
+		center = 84
+		far_right = 2
+		left = 2
+		right = 12
 	}
 }
 
@@ -351,7 +351,7 @@ if = {
 		}
 	}
 	create_equipment_variant = {
-		name = "Frøya Class"								# minelayer		
+		name = "Froya Class"								# minelayer		
 		type = ship_hull_light_1
 		parent_version = 0
 		modules = {

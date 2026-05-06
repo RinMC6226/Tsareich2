@@ -1,0 +1,311 @@
+defined_text = {
+	name = GetRulingIdeologySubtype
+	text = {
+		trigger = { has_country_leader_ideology = orthodox_marxism }
+		localization_key = orthodox_marxism
+	}
+	text = {
+		trigger = { has_country_leader_ideology = vanguard_communism }
+		localization_key = vanguard_communism
+	}
+	text = {
+		trigger = { has_country_leader_ideology = international_communism }
+		localization_key = international_communism
+	}
+	text = {
+		trigger = { has_country_leader_ideology = national_communism }
+		localization_key = national_communism
+	}
+	text = {
+		trigger = { has_country_leader_ideology = agrarian_communism }
+		localization_key = agrarian_communism
+	}
+	text = {
+		trigger = { has_country_leader_ideology = left_communism }
+		localization_key = left_communism
+	}
+	text = {
+		trigger = { has_country_leader_ideology = council_communism }
+		localization_key = council_communism
+	}
+	text = {
+		trigger = { has_country_leader_ideology = anarcho_communism }
+		localization_key = anarcho_communism
+	}
+	text = {
+		trigger = { has_country_leader_ideology = revolutionary_syndicalism }
+		localization_key = revolutionary_syndicalism
+	}
+	text = {
+		trigger = { has_country_leader_ideology = anarcho_syndicalism }
+		localization_key = anarcho_syndicalism
+	}
+	text = {
+		trigger = { has_country_leader_ideology = democratic_socialism }
+		localization_key = democratic_socialism
+	}
+	text = {
+		trigger = { has_country_leader_ideology = reformist_socialism }
+		localization_key = reformist_socialism
+	}
+	text = {
+		trigger = { has_country_leader_ideology = syndicalism }
+		localization_key = syndicalism
+	}
+	text = {
+		trigger = { has_country_leader_ideology = guild_socialism }
+		localization_key = guild_socialism
+	}
+	text = {
+		trigger = { has_country_leader_ideology = market_socialism }
+		localization_key = market_socialism
+	}
+	text = {
+		trigger = { has_country_leader_ideology = agrarian_socialism }
+		localization_key = agrarian_socialism
+	}
+	text = {
+		trigger = { has_country_leader_ideology = christian_socialism }
+		localization_key = christian_socialism
+	}
+	text = {
+		trigger = { has_country_leader_ideology = labourism }
+		localization_key = labourism
+	}
+	text = {
+		trigger = { has_country_leader_ideology = libertarian_socialism }
+		localization_key = libertarian_socialism
+	}
+	text = {
+		trigger = { has_country_leader_ideology = utopian_socialism }
+		localization_key = utopian_socialism
+	}
+	text = {
+		trigger = { has_country_leader_ideology = social_democracy }
+		localization_key = social_democracy
+	}
+	text = {
+		trigger = { has_country_leader_ideology = social_liberalism }
+		localization_key = social_liberalism
+	}
+	text = {
+		trigger = { has_country_leader_ideology = progressivism }
+		localization_key = progressivism
+	}
+	text = {
+		trigger = { has_country_leader_ideology = fabian_socialism }
+		localization_key = fabian_socialism
+	}
+	text = {
+		trigger = { has_country_leader_ideology = ethical_socialism }
+		localization_key = ethical_socialism
+	}
+	text = {
+		trigger = { has_country_leader_ideology = radical_liberalism }
+		localization_key = radical_liberalism
+	}
+	text = {
+		trigger = { has_country_leader_ideology = popular_front }
+		localization_key = popular_front
+	}
+	text = {
+		trigger = { has_country_leader_ideology = social_catholicism }
+		localization_key = social_catholicism
+	}
+	text = {
+		trigger = { has_country_leader_ideology = labour_zionism }
+		localization_key = labour_zionism
+	}
+	text = {
+		trigger = { has_country_leader_ideology = popularism }
+		localization_key = popularism
+	}
+	text = {
+		trigger = { has_country_leader_ideology = centrism }
+		localization_key = centrism
+	}
+	text = {
+		trigger = { has_country_leader_ideology = liberalism }
+		localization_key = liberalism
+	}
+	text = {
+		trigger = { has_country_leader_ideology = classical_liberalism }
+		localization_key = classical_liberalism
+	}
+	text = {
+		trigger = { has_country_leader_ideology = radicalism }
+		localization_key = radicalism
+	}
+	text = {
+		trigger = { has_country_leader_ideology = republicanism }
+		localization_key = republicanism
+	}
+	text = {
+		trigger = { has_country_leader_ideology = liberal_democracy }
+		localization_key = liberal_democracy
+	}
+	text = {
+		trigger = { has_country_leader_ideology = agrarianism }
+		localization_key = agrarianism
+	}
+	text = {
+		trigger = { has_country_leader_ideology = secularism }
+		localization_key = secularism
+	}
+	text = {
+		trigger = { has_country_leader_ideology = moderatism }
+		localization_key = moderatism
+	}
+	text = {
+		trigger = { has_country_leader_ideology = national_liberalism }
+		localization_key = national_liberalism
+	}
+	text = {
+		trigger = { has_country_leader_ideology = conservatism }
+		localization_key = conservatism
+	}
+	text = {
+		trigger = { has_country_leader_ideology = liberal_conservatism }
+		localization_key = liberal_conservatism
+	}
+	text = {
+		trigger = { has_country_leader_ideology = conservative_liberalism }
+		localization_key = conservative_liberalism
+	}
+	text = {
+		trigger = { has_country_leader_ideology = christian_democracy }
+		localization_key = christian_democracy
+	}
+	text = {
+		trigger = { has_country_leader_ideology = conservative_democracy }
+		localization_key = conservative_democracy
+	}
+	text = {
+		trigger = { has_country_leader_ideology = paternalistic_conservatism }
+		localization_key = paternalistic_conservatism
+	}
+	text = {
+		trigger = { has_country_leader_ideology = ordoliberalism }
+		localization_key = ordoliberalism
+	}
+	text = {
+		trigger = { has_country_leader_ideology = constitutional_monarchism }
+		localization_key = constitutional_monarchism
+	}
+	text = {
+		trigger = { has_country_leader_ideology = national_conservatism }
+		localization_key = national_conservatism
+	}
+	text = {
+		trigger = { has_country_leader_ideology = progressive_conservatism }
+		localization_key = progressive_conservatism
+	}
+	text = {
+		trigger = { has_country_leader_ideology = social_conservatism }
+		localization_key = social_conservatism
+	}
+	text = {
+		trigger = { has_country_leader_ideology = traditional_conservatism }
+		localization_key = traditional_conservatism
+	}
+	text = {
+		trigger = { has_country_leader_ideology = authoritarian_conservatism }
+		localization_key = authoritarian_conservatism
+	}
+	text = {
+		trigger = { has_country_leader_ideology = authoritarian_democracy }
+		localization_key = authoritarian_democracy
+	}
+	text = {
+		trigger = { has_country_leader_ideology = integralism }
+		localization_key = integralism
+	}
+	text = {
+		trigger = { has_country_leader_ideology = legitimism }
+		localization_key = legitimism
+	}
+	text = {
+		trigger = { has_country_leader_ideology = conservative_revolutionism }
+		localization_key = conservative_revolutionism
+	}
+	text = {
+		trigger = { has_country_leader_ideology = right_populism }
+		localization_key = right_populism
+	}
+	text = {
+		trigger = { has_country_leader_ideology = right_libertarianism }
+		localization_key = right_libertarianism
+	}
+	text = {
+		trigger = { has_country_leader_ideology = religious_conservatism }
+		localization_key = religious_conservatism
+	}
+	text = {
+		trigger = { has_country_leader_ideology = third_position }
+		localization_key = third_position
+	}
+	text = {
+		trigger = { has_country_leader_ideology = racial_supremacism }
+		localization_key = racial_supremacism
+	}
+	text = {
+		trigger = { has_country_leader_ideology = militarism }
+		localization_key = militarism
+	}
+	text = {
+		trigger = { has_country_leader_ideology = chauvinism }
+		localization_key = chauvinism
+	}
+	text = {
+		trigger = { has_country_leader_ideology = ultranationalism }
+		localization_key = ultranationalism
+	}
+	text = {
+		trigger = { has_country_leader_ideology = restorationism }
+		localization_key = restorationism
+	}
+	text = {
+		trigger = { has_country_leader_ideology = religious_fundamentalism }
+		localization_key = religious_fundamentalism
+	}
+	text = {
+		trigger = { has_country_leader_ideology = theocracy }
+		localization_key = theocracy
+	}
+	text = {
+		trigger = { has_country_leader_ideology = futurism }
+		localization_key = futurism
+	}
+	text = {
+		trigger = { has_country_leader_ideology = feudalism }
+		localization_key = feudalism
+	}
+	text = {
+		trigger = { has_government = far_left }
+		localization_key = far_left
+	}
+	text = {
+		trigger = { has_government = left }
+		localization_key = left
+	}
+	text = {
+		trigger = { has_government = center_left }
+		localization_key = center_left
+	}
+	text = {
+		trigger = { has_government = center }
+		localization_key = center
+	}
+	text = {
+		trigger = { has_government = center_right }
+		localization_key = center_right
+	}
+	text = {
+		trigger = { has_government = right }
+		localization_key = right
+	}
+	text = {
+		trigger = { has_government = far_right }
+		localization_key = far_right
+	}
+}

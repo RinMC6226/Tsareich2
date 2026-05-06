@@ -1,4 +1,4 @@
-﻿capital = 333 #Kuching
+capital = 333 #Kuching
 
 # Starting tech
 set_technology = {
@@ -55,14 +55,14 @@ set_grand_doctrine = new_strategic_destruction
 }
 
 set_politics = {
-	ruling_party = neutrality
+	ruling_party = right
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
 }
 set_popularities = {
-	democratic = 10
-	fascism = 5
-	communism = 5
-	neutrality = 80
+	center = 10
+	far_right = 5
+	left = 5
+	right = 80
 }

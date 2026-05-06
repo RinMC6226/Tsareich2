@@ -8,7 +8,7 @@ faction_template_generic = {
 		always = no # Fallback template, should not be selectable 
 	}
 	available = {
-		has_government = democratic
+		is_center_bloc = yes
 	}
 
 	goals = {
@@ -71,7 +71,7 @@ faction_template_defensive_democratic = {
 		always = yes 
 	}
 	available = {
-		has_government = democratic
+		is_center_bloc = yes
 	}
 
 	goals = {
@@ -106,14 +106,14 @@ faction_template_anti_communist = {
 	visible = {
 		always = yes 
 		any_other_country = {
-			has_government = communism
+			is_left_bloc = yes
 			is_on_same_continent_as = ROOT
 		}
 	}
 	available = {
-		NOT = { has_government = communism }
+		NOT = { is_left_bloc = yes }
 		any_other_country = {
-			has_government = communism
+			is_left_bloc = yes
 			is_on_same_continent_as = ROOT
 		}
 	}
@@ -151,14 +151,14 @@ faction_template_anti_fascist = {
 	visible = {
 		always = yes 
 		any_other_country = {
-			has_government = fascism
+			is_far_right_ideology = yes
 			is_on_same_continent_as = ROOT
 		}
 	}
 	available = {
-		NOT = { has_government = fascism }
+		NOT = { is_far_right_ideology = yes }
 		any_other_country = {
-			has_government = fascism
+			is_far_right_ideology = yes
 			is_on_same_continent_as = ROOT
 		}
 	}
@@ -194,14 +194,14 @@ faction_template_regional_anti_communist = {
 	visible = {
 		always = yes 
 		any_other_country = {
-			has_government = communism
+			is_left_bloc = yes
 			is_on_same_continent_as = ROOT
 		}
 	}
 	available = {
-		NOT = { has_government = communism }
+		NOT = { is_left_bloc = yes }
 		any_other_country = {
-			has_government = communism
+			is_left_bloc = yes
 			is_on_same_continent_as = ROOT
 		}
 	}
@@ -237,14 +237,14 @@ faction_template_regional_anti_democratic = {
 	visible = {
 		always = yes 
 		any_other_country = {
-			has_government = democratic
+			is_center_bloc = yes
 			is_on_same_continent_as = ROOT
 		}
 	}
 	available = {
-		NOT = { has_government = democratic }
+		NOT = { is_center_bloc = yes }
 		any_other_country = {
-			has_government = democratic
+			is_center_bloc = yes
 			is_on_same_continent_as = ROOT
 		}
 	}
@@ -277,8 +277,8 @@ faction_template_regional = {
 	# color = { 255 0 255 }
 	can_leader_join_other_factions = yes
 	visible = {
-		NOT = { has_government = communism }
-		NOT = { has_government = fascism }
+		NOT = { is_left_bloc = yes }
+		NOT = { is_far_right_ideology = yes }
 		NOT = { capital_scope = { is_on_continent = europe } } # There is a European one so no need to use the generic one there
 	}
 
@@ -317,7 +317,7 @@ faction_template_world_revolution = {
 		always = yes 
 	}
 	available = {
-		has_government = communism 
+		is_left_bloc = yes 
 	}
 
 	goals = {
@@ -512,12 +512,12 @@ faction_template_european_unity = {
 			is_on_continent = europe
 		}
 		NOT = {
-			has_government = fascism 
+			is_far_right_ideology = yes 
 		}
 	}
 	available = {
 		NOT = {
-			has_government = fascism 
+			is_far_right_ideology = yes 
 		}
 	}
 	
@@ -551,7 +551,7 @@ faction_template_european_dominance = {
 		capital_scope = {
 			is_on_continent = europe
 		}
-		has_government = fascism
+		is_far_right_ideology = yes
 	}
 	
 	goals = {
@@ -583,7 +583,7 @@ faction_template_european_dominance_monarchist = {
 		capital_scope = {
 			is_on_continent = europe
 		}
-		has_government = neutrality
+		is_right_ideology = yes
 	}
 	
 	goals = {

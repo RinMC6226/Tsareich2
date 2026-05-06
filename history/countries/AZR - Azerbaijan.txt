@@ -1,4 +1,4 @@
-﻿capital = 229 #Baku
+capital = 229 #Baku
 
 
 set_research_slots = 3
@@ -87,9 +87,9 @@ if = {
 }
 
 set_popularities = {
-	democratic = 30
-	communism = 40
-	neutrality = 30
+	center = 30
+	left = 40
+	right = 30
 }
 
 create_country_leader = {
@@ -97,7 +97,7 @@ create_country_leader = {
 	desc = ""
 	picture = GFX_portrait_Mir_Jafar_Baghirov
 	expire = "1953.3.1"
-	ideology = stalinism
+	ideology = vanguard_communism
 	traits = {
 		
 	}

@@ -1,4 +1,4 @@
-﻿capital = 202 #Kiev
+capital = 202 #Kiev
 
 
 set_research_slots = 3
@@ -84,9 +84,9 @@ if = {
 }
 
 set_popularities = {
-	democratic = 20
-	fascism = 30
-	communism = 50
+	center = 20
+	far_right = 30
+	left = 50
 }
 
 recruit_character = UKR_mykhailo_omelianovych_pavlenko

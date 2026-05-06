@@ -1,4 +1,4 @@
-﻿set_autonomy = {
+set_autonomy = {
 	 target = AOC
 	 autonomous_state = autonomy_puppet
 	 freedom_level = 0
@@ -401,16 +401,16 @@ set_convoys = 300
 
 
 set_politics = {
-	ruling_party = communism
+	ruling_party = left
 	last_election = "1932.5.1"
 	election_frequency = 48
 	elections_allowed = no
 }
 set_popularities = {
-	democratic = 0
-	fascism = 0
-	neutrality = 0
-	communism = 100
+	center = 0
+	far_right = 0
+	right = 0
+	left = 100
 }
 
 create_faction_from_template = faction_template_international
@@ -538,7 +538,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = "René Joyeuse"
+		name = "Rene Joyeuse"
 		GFX = GFX_portrait_rene_joyeuse
 		traits = { operative_infiltrator operative_commando }
 		bypass_recruitment = no
@@ -689,7 +689,7 @@ if = {
 		icon = "GFX_FRA_light_plane_2_medium"
 	}
 	create_equipment_variant = {
-		name = "Latécoère 296" #
+		name = "Latecoere 296" #
 		type = small_plane_naval_bomber_airframe_0
 		modules = {
 			fixed_main_weapon_slot = torpedo_mounting
@@ -923,7 +923,7 @@ if = {
 		obsolete = yes
 	}
 	create_equipment_variant = {
-		name = "Chacal Class"				# represents Chacal, Guépard, Agile, and Vauquelin classes
+		name = "Chacal Class"				# represents Chacal, Guepard, Agile, and Vauquelin classes
 		type = ship_hull_light_1
 		name_group = FRA_DD_HISTORICAL
 		parent_version = 0
@@ -990,7 +990,7 @@ if = {
 		obsolete = yes
 	}
 	create_equipment_variant = {
-		name = "Émile Bertin Class"					# minelaying cruiser
+		name = "Emile Bertin Class"					# minelaying cruiser
 		type = ship_hull_cruiser_1
 		name_group = FRA_CL_HISTORICAL
 		parent_version = 0
@@ -1007,7 +1007,7 @@ if = {
 		}
 	}
 	create_equipment_variant = {
-		name = "La Galissonnière Class"
+		name = "La Galissonniere Class"
 		type = ship_hull_cruiser_1
 		name_group = FRA_CL_HISTORICAL
 		parent_version = 0
@@ -1043,7 +1043,7 @@ if = {
 		obsolete = yes
 	}
 	create_equipment_variant = {
-		name = "Algérie Class"
+		name = "Algerie Class"
 		type = ship_hull_cruiser_1
 		name_group = FRA_CA_HISTORICAL
 		parent_version = 0
@@ -1141,7 +1141,7 @@ if = {
 		}
 	# Carriers #
 	create_equipment_variant = {
-		name = "Béarn Class"
+		name = "Bearn Class"
 		type = ship_hull_carrier_conversion_bb
 		name_group = FRA_CV_HISTORICAL
 		parent_version = 0

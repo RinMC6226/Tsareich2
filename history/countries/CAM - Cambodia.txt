@@ -1,4 +1,4 @@
-﻿capital = 741
+capital = 741
 
 
 set_research_slots = 3
@@ -97,22 +97,22 @@ if = {
 }
 
 set_politics = {
-	ruling_party = democratic
+	ruling_party = center
 	last_election = "1933.2.16"
 	election_frequency = 36
 	elections_allowed = yes
 }
 
 set_popularities = {
-	democratic = 40
-	communism = 25
-	neutrality = 35
+	center = 40
+	left = 25
+	right = 35
 }
 
 
 #non standard english alphabet character
 #create_country_leader = {
-#	name = "Sisowath Youtévong"
+#	name = "Sisowath Youtevong"
 #	desc = ""
 #	picture = GFX_portrait_Sisowath_Youtevong
 #	expire = "1953.3.1"

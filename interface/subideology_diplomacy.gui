@@ -1,0 +1,20 @@
+guiTypes = {
+	containerWindowType = {
+		name = "subideology_diplomacy_window"
+		position = { x = 258 y = 135 }
+		size = { width = 255 height = 60 }
+		clipping = no
+
+		instantTextboxType = {
+			name = "subideology_name"
+			position = { x = 5 y = 20 }
+			font = "hoi_16mbs"
+			text = "[FROM.GetRulingIdeologySubtype]"
+			maxWidth = 245
+			maxHeight = 20
+			fixedsize = yes
+			format = left
+			alwaystransparent = yes
+		}
+	}
+}

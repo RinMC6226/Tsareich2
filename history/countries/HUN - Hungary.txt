@@ -1,4 +1,4 @@
-﻿capital = 43 # Budapest (Northern Hungary)
+capital = 43 # Budapest (Northern Hungary)
 
 IF = {
 	limit = {
@@ -57,7 +57,7 @@ IF = {
 		has_dlc = "Gotterdammerung"
 	}
 	set_party_name = {
-	    ideology = fascism
+	    ideology = far_right
 	    long_name = HUN_national_socialist_party_long
 	    name = HUN_national_socialist_party
 	}
@@ -214,7 +214,7 @@ IF = {
 		}
 	}
 	create_equipment_variant = {
-		name = "Weiss WM-10 Ölyv"
+		name = "Weiss WM-10 Olyv"
 		type = small_plane_airframe_0
 		modules = {
 			fixed_main_weapon_slot = light_mg_2x
@@ -330,15 +330,15 @@ add_opinion_modifier = {
 
 # SETUP HUNGARIAN POLITICS
 set_politics = {
-	ruling_party = neutrality
+	ruling_party = right
 	last_election = "1935.3.31"
 	election_frequency = 48
 	elections_allowed = yes
 }
 set_popularities = {
-	democratic = 25
-	fascism = 31
-	neutrality = 44
+	center = 25
+	far_right = 31
+	right = 44
 }
 
 # RECRUITING HUNGARIAN CHARACTERS
@@ -502,15 +502,15 @@ add_breakthrough_progress = {
 		}
 
 		set_politics = {
-			ruling_party = fascism
+			ruling_party = far_right
 			last_election = "1939.5.29"
 			election_frequency = 48
 			elections_allowed = yes
 		}
 		set_popularities = {
-			democratic = 27
-			fascism = 70
-			communism = 3
+			center = 27
+			far_right = 70
+			left = 3
 		}
 
 		IF = {
@@ -572,16 +572,16 @@ add_breakthrough_progress = {
 		}
 
 		set_politics = {
-			ruling_party = neutrality
+			ruling_party = right
 			last_election = "1935.3.31"
 			election_frequency = 48
 			elections_allowed = no
 		}
 		set_popularities = {
-			neutrality = 74
-			democratic = 2
-			fascism = 24
-			communism = 0
+			right = 74
+			center = 2
+			far_right = 24
+			left = 0
 		}
 
 		IF = {

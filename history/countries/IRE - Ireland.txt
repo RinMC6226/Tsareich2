@@ -1,4 +1,4 @@
-﻿capital = 113
+capital = 113
 
 
 set_research_slots = 3
@@ -13,7 +13,7 @@ set_technology = {
 
 set_convoys = 10
 
-recruit_character = IRE_Éamon_de_valera
+recruit_character = IRE_Eamon_de_valera
 recruit_character = IRE_eoin_oduffy
 recruit_character = IRE_james_larkin
 recruit_character = IRE_william_norton
@@ -86,20 +86,20 @@ set_grand_doctrine = new_strategic_destruction
 }
 
 set_politics = {
-	ruling_party = democratic
+	ruling_party = center
 	last_election = "1933.1.24"
 	election_frequency = 48
 	elections_allowed = yes
 }
 set_popularities = {
-	democratic = 98
-	fascism = 1
-	communism = 1
+	center = 98
+	far_right = 1
+	left = 1
 }
 
 1939.1.1 = {
 	set_politics = {
-		ruling_party = democratic
+		ruling_party = center
 		last_election = "1938.6.17"
 		election_frequency = 48
 		elections_allowed = yes

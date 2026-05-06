@@ -1,4 +1,4 @@
-﻿capital = 46
+capital = 46
 
 if = {
 	limit = {
@@ -288,7 +288,7 @@ set_grand_doctrine = new_operational_integrity
 			desc = "POLITICS_CAROL_II_DESC"
 			picture = GFX_Portrait_romania_Carol_II			
 			expire = "1965.1.1"
-			ideology = despotism
+			ideology = authoritarian_conservatism
 			traits = {
 				hedonist
 				camarilla_leader
@@ -335,30 +335,30 @@ set_grand_doctrine = new_operational_integrity
 }
 
 set_politics = {
-	ruling_party = democratic
+	ruling_party = center
 	last_election = "1933.12.20"
 	election_frequency = 48
 	elections_allowed = yes
 }
 set_popularities = {
-	democratic = 60
-	fascism = 18
-	communism = 2
-	neutrality = 20
+	center = 60
+	far_right = 18
+	left = 2
+	right = 20
 }
 
 1939.1.1 = {
 	set_politics = {
-		ruling_party = neutrality
+		ruling_party = right
 		last_election = "1939.7.15"
 		election_frequency = 48
 		elections_allowed = no
 	}
 	set_popularities = {
-		democratic = 20
-		fascism = 35
-		communism = 2
-		neutrality = 43
+		center = 20
+		far_right = 35
+		left = 2
+		right = 43
 	}
 }
 ### VARIANTS ###

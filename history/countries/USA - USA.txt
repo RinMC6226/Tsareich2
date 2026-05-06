@@ -1,4 +1,4 @@
-﻿capital = 361 # Washington DC
+capital = 361 # Washington DC
 
 
 starting_train_buffer = 5
@@ -393,16 +393,22 @@ set_convoys = 700
 
 
 set_politics = {
-	ruling_party = democratic
+	ruling_party = center_right
 	last_election = "1932.11.8"
 	election_frequency = 48
 	elections_allowed = yes
 }
 set_popularities = {
-	democratic = 99
-	communism = 1
+	far_left = 1.0
+	left = 0
+	center_left = 42.5
+	center = 0
+	center_right = 54.0
+	right = 0
+	far_right = 2.5
 }
-set_party_name = { ideology = democratic long_name = USA_republican_party name = USA_republican_party }
+set_party_name = { ideology = center_left long_name = USA_democratic_party name = USA_democratic_party }
+set_party_name = { ideology = center_right long_name = USA_republican_party name = USA_republican_party }
 
 add_ideas = {
 	undisturbed_isolation
@@ -421,12 +427,13 @@ set_autonomy = {
 
 1939.1.1 = {
 	set_politics = {
-		ruling_party = democratic
+		ruling_party = center_right
 		last_election = "1936.11.3"
 		election_frequency = 48
 		elections_allowed = yes
 	}
-	set_party_name = { ideology = democratic long_name = USA_republican_party name = USA_republican_party }
+	set_party_name = { ideology = center_left long_name = USA_democratic_party name = USA_democratic_party }
+	set_party_name = { ideology = center_right long_name = USA_republican_party name = USA_republican_party }
 }
 
 recruit_character = USA_earl_browder

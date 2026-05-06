@@ -1,4 +1,4 @@
-﻿capital = 516 #Taymyr
+capital = 516 #Taymyr
 
 #oob = "TAY_1936"
 
@@ -87,17 +87,17 @@ if = {
 	}
 }
 set_politics = {
-	ruling_party = democratic
+	ruling_party = center
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = yes
 }
 
 set_popularities = {
-	democratic = 70
-	fascism = 0
-	communism = 20
-	neutrality = 10
+	center = 70
+	far_right = 0
+	left = 20
+	right = 10
 }
 
 

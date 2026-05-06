@@ -1,4 +1,4 @@
-﻿capital = 47
+capital = 47
 
 if = {
 	limit = { has_dlc = "Man the Guns" }
@@ -185,10 +185,10 @@ set_convoys = 10
 			days = 730
 		}
 		set_popularities = {
-			democratic = 10
-			fascism = 22
-			communism = 26
-			neutrality = 42
+			center = 10
+			far_right = 22
+			left = 26
+			right = 42
 		}
 		
 		create_country_leader = {
@@ -202,7 +202,7 @@ set_convoys = 10
 			}
 		}
 	
-		set_party_name = { ideology = neutrality long_name = GRE_metaxas_party_long name = GRE_metaxas_party }
+		set_party_name = { ideology = right long_name = GRE_metaxas_party_long name = GRE_metaxas_party }
 	
 		set_variable = { var = GRE_debt_to_the_ifc_britain_var value = 5 }
 		set_variable = { var = GRE_debt_to_the_ifc_france_var value = 5 }
@@ -312,16 +312,16 @@ set_grand_doctrine = new_strategic_destruction
 }
 
 set_politics = {
-	ruling_party = neutrality
+	ruling_party = right
 	last_election = "1935.6.9"
 	election_frequency = 7
 	elections_allowed = yes # none after offset 1
 }
 set_popularities = {
-	democratic = 43
-	fascism = 2
-	communism = 17
-	neutrality = 38
+	center = 43
+	far_right = 2
+	left = 17
+	right = 38
 }
 
 set_stability = 0.72

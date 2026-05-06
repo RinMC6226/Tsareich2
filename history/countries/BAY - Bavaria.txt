@@ -141,17 +141,17 @@ set_grand_doctrine = new_battlefield_support
 }
 
 set_politics = {
-	ruling_party = neutrality
+	ruling_party = right
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = yes
 
 }
 set_popularities = {
-	neutrality = 70
-	democratic = 0
-	fascism = 5
-	communism = 25
+	right = 70
+	center = 0
+	far_right = 5
+	left = 25
 }
 
 add_ideas = {

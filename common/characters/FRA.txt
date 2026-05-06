@@ -22,7 +22,7 @@ characters={
 			}
 		}
 		country_leader={
-			ideology=socialism
+			ideology=social_democracy
 			traits={ stout_defender }
 			expire="1965.1.1.1"
 			id=-1
@@ -97,7 +97,7 @@ characters={
 		}
 		
 		country_leader={
-			ideology=stalinism
+			ideology=vanguard_communism
 			expire="1965.1.1.1"
 			id=-1
 		}
@@ -112,7 +112,7 @@ characters={
 			}
 		}
 		country_leader={
-			ideology=marxism
+			ideology=orthodox_marxism
 			expire="1965.1.1.1"
 		}
 	}
@@ -125,7 +125,7 @@ characters={
 			}
 		}
 		country_leader={
-			ideology=marxism
+			ideology=syndicalism
 			expire="1965.1.1.1"
 			id=-1
 		}
@@ -1304,7 +1304,7 @@ characters={
 			}
 		}
 		country_leader = {
-			ideology = fascism_ideology
+			ideology = far_right_ideology
 			traits = { fascist_corporatist }
 			expire = "1949.1.1.12"
 			id = -1
@@ -1365,7 +1365,7 @@ characters={
 			}
 		}
 		#country_leader = {
-		#	ideology = fascism_ideology
+		#	ideology = far_right_ideology
 		#	traits = {  }
 		#	expire = "1949.1.1.12"
 		#	id = -1
@@ -1378,8 +1378,8 @@ characters={
 			}
 			available  = {
 				OR = {
-					has_government = fascism
-					has_government = neutrality
+					is_far_right_ideology = yes
+					is_right_ideology = yes
 				}
 			}
 			cost = 150
@@ -1578,8 +1578,8 @@ characters={
 			}
 			available  = {
 				OR = {
-					has_government = fascism
-					has_government = neutrality
+					is_far_right_ideology = yes
+					is_right_ideology = yes
 				}
 			}
 			cost = 150

@@ -1,4 +1,4 @@
-﻿capital = 311
+capital = 311
 
 #oob = ""
 
@@ -68,16 +68,16 @@ set_grand_doctrine = grand_battleplan
 	}
 }
 set_politics = {
-	ruling_party = democratic
+	ruling_party = center
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = yes
 }
 set_popularities = {
-	democratic = 75
-	fascism = 1
-	communism = 1
-	neutrality = 23
+	center = 75
+	far_right = 1
+	left = 1
+	right = 23
 }
 #create_country_leader = {
 #	
@@ -93,15 +93,15 @@ set_popularities = {
 
 1939.1.1 = {
 	set_politics = {
-		ruling_party = democratic
+		ruling_party = center
 		last_election = "1936.1.1"
 		election_frequency = 48
 		elections_allowed = yes
 	}
 	set_popularities = {
-		democratic = 75
-		fascism = 1
-		communism = 1
-		neutrality = 23
+		center = 75
+		far_right = 1
+		left = 1
+		right = 23
 	}
 }

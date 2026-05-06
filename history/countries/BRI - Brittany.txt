@@ -1,4 +1,4 @@
-﻿capital = 14
+capital = 14
 
 #oob = ""
 
@@ -238,37 +238,37 @@ set_grand_doctrine = new_operational_integrity
 	}
 }
 set_politics = {
-	ruling_party = neutrality
+	ruling_party = right
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = yes
 }
 set_popularities = {
-	democratic = 20
-	fascism = 40
-	communism = 10
-	neutrality = 30
+	center = 20
+	far_right = 40
+	left = 10
+	right = 30
 }
 
 create_country_leader = {
 	name = "Yann-Morvan Gefflot"
 	picture = GFX_portrait_Yann_Morvan_Gefflot
 	expire = "1965.1.1"
-	ideology = stalinism
+	ideology = vanguard_communism
 }
 
 create_country_leader = {
 	name = "Morvan Marchal"
 	picture = GFX_portrait_Morvan_Marchal
 	expire = "1965.1.1"
-	ideology = socialism
+	ideology = social_democracy
 }
 
 create_country_leader = {
 	name = "Olier Mordrel"
 	picture = GFX_portrait_Olier_Mordrel
 	expire = "1965.1.1"
-	ideology = nazism
+	ideology = racial_supremacism
 }
 
 create_country_leader = {

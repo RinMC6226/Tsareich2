@@ -1,4 +1,4 @@
-﻿capital = 37
+capital = 37
 
 if = {
 	limit = { has_dlc = "Arms Against Tyranny" }
@@ -290,7 +290,7 @@ if = {
 	set_variable = { DEN_sovaernet_naval_critical_score_chance = 0 }
 	set_variable = { DEN_sovaernet_improvement_tracker_var = 0 } #To improve the icon
 	
-	#FLYVEVÅBNET
+	#FLYVEVABNET
 	set_variable = { DEN_flyvevabnet_air_bombing_targetting = 0 }
 	set_variable = { DEN_flyvevabnet_ace_generation_chance = 0 }
 	set_variable = { DEN_flyvevabnet_strategic_bomber = 0 }
@@ -389,16 +389,16 @@ if = {
 		has_dlc = "Arms Against Tyranny"
 	}
 	set_politics = {
-		ruling_party = democratic
+		ruling_party = center
 		last_election = "1935.10.22"
 		election_frequency = 42
 		elections_allowed = yes
 	}
 	set_popularities = {
-		democratic = DEN_democratic_popularity
-		fascism = DEN_fascism_popularity
-		communism = DEN_communism_popularity
-		neutrality = DEN_neutrality_popularity
+		center = DEN_democratic_popularity
+		far_right = DEN_fascism_popularity
+		left = DEN_communism_popularity
+		right = DEN_neutrality_popularity
 	}
 
 	store_core_states_on_game_start = yes
@@ -408,13 +408,13 @@ if = {
 		NOT = { has_dlc = "Arms Against Tyranny" }
 	}
 	set_popularities = {
-		democratic = 94
-		fascism = 1
-		communism = 2
-		neutrality = 3
+		center = 94
+		far_right = 1
+		left = 2
+		right = 3
 	}
 	set_politics = {
-		ruling_party = democratic
+		ruling_party = center
 		last_election = "1935.10.22"
 		election_frequency = 48
 		elections_allowed = yes
@@ -427,7 +427,7 @@ if = {
 			has_dlc = "Arms Against Tyranny"
 		}
 		set_politics = {
-			ruling_party = democratic
+			ruling_party = center
 			last_election = "1939.4.3"
 			election_frequency = 42
 			elections_allowed = yes
@@ -438,7 +438,7 @@ if = {
 			NOT = { has_dlc = "Arms Against Tyranny" }
 		}
 		set_politics = {
-			ruling_party = democratic
+			ruling_party = center
 			last_election = "1939.10.22"
 			election_frequency = 48
 			elections_allowed = yes

@@ -1,4 +1,4 @@
-﻿capital = 455
+capital = 455
 
 # Starting tech
 set_technology = {
@@ -76,16 +76,16 @@ set_grand_doctrine = new_strategic_destruction
 
 
 set_politics = {
-	ruling_party = neutrality
+	ruling_party = right
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
 }
 set_popularities = {
-	democratic = 25
-	fascism = 20
-	communism = 5
-	neutrality = 50
+	center = 25
+	far_right = 20
+	left = 5
+	right = 50
 }
 
 recruit_character = JOR_abdullah_bin_al_hussein
@@ -104,7 +104,7 @@ create_country_leader = {
 	name = "Saeed Ahmadi"
 	desc = ""
 	picture = GFX_portrait_Saeed_Ahmadi
-	ideology = fascism_ideology
+	ideology = far_right_ideology
 	traits = {
 		#
 	}
@@ -114,7 +114,7 @@ create_country_leader = {
 	name = "Fu'ad Nassar"
 	desc = ""
 	picture = GFX_portrait_Fuad_Nassar
-	ideology = leninism
+	ideology = vanguard_communism
 	traits = {
 		#
 	}

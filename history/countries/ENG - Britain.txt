@@ -545,15 +545,19 @@ if = {
 }
 
 set_politics = {
-	ruling_party = democratic
+	ruling_party = center_right
 	last_election = "1935.11.14"
 	election_frequency = 48
 	elections_allowed = yes
 }
 set_popularities = {
-	democratic = 100
-	fascism = 0
-	communism = 0
+	far_left = 0.3
+	left = 0
+	center_left = 38.0
+	center = 8.2
+	center_right = 50.5
+	right = 1.0
+	far_right = 2.0
 }
 
 

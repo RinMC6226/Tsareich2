@@ -1,4 +1,4 @@
-﻿capital = 49
+capital = 49
 
 if = {
 	limit = {
@@ -252,7 +252,7 @@ if = {
 	add_command_power = 100
 
 	set_politics = {
-		ruling_party = neutrality
+		ruling_party = right
 		last_election = "1939.2.8"
 		election_frequency = 60
 		elections_allowed = yes
@@ -444,13 +444,13 @@ set_grand_doctrine = new_strategic_destruction
 }
 
 set_politics = {
-	ruling_party = neutrality
+	ruling_party = right
 	last_election = "1935.2.8"
 	elections_allowed = yes
 }
 set_popularities = {
-	democratic = 6
-	neutrality = 94
+	center = 6
+	right = 94
 }
 
 set_convoys = 20
@@ -611,7 +611,7 @@ if = {
 	limit = { has_dlc = "Man the Guns" }
 	# Submarines #
 	create_equipment_variant = {
-		name = "Birinci Inönü Class"				
+		name = "Birinci Inonu Class"				
 		type = ship_hull_submarine_1
 		name_group = TUR_SS_HISTORICAL
 		parent_version = 0

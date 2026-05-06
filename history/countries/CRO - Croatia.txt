@@ -1,4 +1,4 @@
-﻿capital = 109
+capital = 109
 
 set_research_slots = 2
 
@@ -86,15 +86,15 @@ set_grand_doctrine = new_strategic_destruction
 	}
 }
 set_politics = {
-	ruling_party = fascism
+	ruling_party = far_right
 	last_election = "1935.6.9"
 	election_frequency = 12
 	elections_allowed = no # none after offset 1
 }
 set_popularities = {
-	democratic = 15
-	fascism = 75
-	communism = 10
+	center = 15
+	far_right = 75
+	left = 10
 }
 
 recruit_character = CRO_ante_pavelic

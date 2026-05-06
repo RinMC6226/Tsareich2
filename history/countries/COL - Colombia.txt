@@ -1,4 +1,4 @@
-﻿capital = 306
+capital = 306
 
 if = {
 	limit = { has_dlc = "Man the Guns" }
@@ -42,8 +42,8 @@ if = {
 	}
 }
 
-recruit_character = COL_alfonso_lópez_pumarejo
-recruit_character = COL_mariano_ospina_pérez
+recruit_character = COL_alfonso_lopez_pumarejo
+recruit_character = COL_mariano_ospina_perez
 recruit_character = COL_gustavo_rojas_pinilla
 recruit_character = COL_david_de_vidal
 recruit_character = COL_isidoro_sotomayor
@@ -137,32 +137,32 @@ set_grand_doctrine = new_strategic_destruction
 
 set_convoys = 5
 set_politics = {
-	ruling_party = democratic
+	ruling_party = center
 	last_election = "1934.2.11"
 	election_frequency = 48
 	elections_allowed = yes
 }
 set_popularities = {
-	democratic = 99
-	communism = 1
+	center = 99
+	left = 1
 }
 
 
 1939.1.1 = {
 	set_politics = {
-		ruling_party = democratic
+		ruling_party = center
 		last_election = "1938.5.1"
 		election_frequency = 48  
 		elections_allowed = yes
 	}
 
 	set_popularities = {
-		democratic = 100
+		center = 100
 	}
 
 	recruit_character = COL_eduardo_santos
 	promote_character = COL_eduardo_santos
-	retire_character = COL_alfonso_lópez_pumarejo
+	retire_character = COL_alfonso_lopez_pumarejo
 }
 
 

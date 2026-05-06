@@ -1,4 +1,4 @@
-﻿capital = 303
+capital = 303
 
 if = {
 	limit = { has_dlc = "By Blood Alone" }
@@ -46,10 +46,10 @@ if = {
 	}
 }
 
-recruit_character = PRU_Óscar_benavides
-recruit_character = PRU_sebastián_lynch
-recruit_character = PRU_hilarión_lynch
-recruit_character = PRU_santiago_ruíztagle
+recruit_character = PRU_Oscar_benavides
+recruit_character = PRU_sebastian_lynch
+recruit_character = PRU_hilarion_lynch
+recruit_character = PRU_santiago_ruiztagle
 recruit_character = PRU_rafael_escardo
 recruit_character = PRU_alberto_lopez_flores
 recruit_character = PRU_oscar_gilardi
@@ -144,20 +144,20 @@ set_grand_doctrine = new_strategic_destruction
 }
 
 set_politics = {
-	ruling_party = fascism
+	ruling_party = far_right
 	last_election = "1931.10.11"
 	election_frequency = 96
 	elections_allowed = yes
 }
 set_popularities = {
-	democratic = 49
-	fascism = 51
+	center = 49
+	far_right = 51
 }
 
 1939.1.1 = {
 	recruit_character = PRU_manuel_prado_ugarteche
 	promote_character = PRU_manuel_prado_ugarteche
-	retire_character = PRU_Óscar_benavides
+	retire_character = PRU_Oscar_benavides
 }
 
 

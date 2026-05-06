@@ -1,4 +1,4 @@
-﻿capital = 231 #Tbilisi
+capital = 231 #Tbilisi
 
 
 set_research_slots = 3
@@ -87,10 +87,10 @@ IF = {
 }
 
 set_popularities = {
-	democratic = 40
-	communism = 40
-	fascism = 10
-	neutrality = 10
+	center = 40
+	left = 40
+	far_right = 10
+	right = 10
 }
 
 recruit_character = GEO_noe_zhordania

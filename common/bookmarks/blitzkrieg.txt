@@ -9,7 +9,7 @@ bookmarks = {
 
 		SPR = {
 			history = "SPR_GATHERING_STORM_DESC"
-			ideology = communism
+			ideology = left
 			ideas = {
 				SPR_military_disloyalty
 				SPR_political_violence
@@ -24,7 +24,7 @@ bookmarks = {
 
 		ITA = {
 			history = "ITA_GATHERING_STORM_DESC"
-			ideology = communism
+			ideology = left
 			ideas = {
 				vittorio_emanuele
 				vittoria_mutilata
@@ -39,7 +39,7 @@ bookmarks = {
 
 		FRA = {
 			history = "FRA_GATHERING_STORM_DESC"
-			ideology = communism
+			ideology = left
 			ideas = {
 				FRA_victors_of_wwi
 				FRA_disjointed_government
@@ -55,7 +55,7 @@ bookmarks = {
 
 		GER = {
 			history = "GER_GATHERING_STORM_DESC"
-			ideology = neutrality
+			ideology = right
 			available = { has_dlc = "Gotterdammerung" }
 			ideas = {
 				GER_army_1936_fake_ns
@@ -70,7 +70,7 @@ bookmarks = {
 
 		GER = {
 			history = "GER_GATHERING_STORM_DESC"
-			ideology = neutrality
+			ideology = right
 			available = { NOT = { has_dlc = "Gotterdammerung" } }
 			ideas = {
 				GER_army_1936_fake_ns
@@ -85,7 +85,7 @@ bookmarks = {
 
 		RUS = {
 			history = "RUS_GATHERING_STORM_DESC"
-			ideology = neutrality
+			ideology = right
 			ideas = {
 				rural_economy
 				volunteer_only
@@ -100,7 +100,7 @@ bookmarks = {
 
 		ENG = {
 			history = "ENG_GATHERING_STORM_DESC"
-			ideology = democratic
+			ideology = center
 			ideas = {
 			}
 			focuses = {
@@ -109,7 +109,7 @@ bookmarks = {
 		
 		USA = {
 			history = "USA_GATHERING_STORM_DESC"
-			ideology = democratic
+			ideology = center
 			ideas = {
 			}
 			focuses = {

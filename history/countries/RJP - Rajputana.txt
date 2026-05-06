@@ -1,4 +1,4 @@
-﻿capital = 433 #Rajasthan
+capital = 433 #Rajasthan
 
 
 set_research_slots = 2
@@ -45,16 +45,16 @@ if = {
 	recruit_character = RAJ_umed_singh
 }
 set_politics = {
-	ruling_party = neutrality
+	ruling_party = right
 	last_election = "1934.2.11"
 	election_frequency = 48
 	elections_allowed = yes
 }
 set_popularities = {
-	democratic = 30
-	communism = 5
-	neutrality = 60
-	fascism = 5
+	center = 30
+	left = 5
+	right = 60
+	far_right = 5
 }
 
 

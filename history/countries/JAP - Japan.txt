@@ -1,4 +1,4 @@
-﻿capital = 282 # Tokyo/Kanto
+capital = 282 # Tokyo/Kanto
 
 # Starting Stats
 set_stability = 0.2 # Was one of the countries in roughest internal shape at this point in time, coup happens not even 2 months into the game
@@ -635,16 +635,16 @@ set_autonomy = {
 
 # Setup Politics 
 set_politics = {
-	ruling_party = neutrality
+	ruling_party = right
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = yes
 }
 set_popularities = {
-	fascism = 35
-	neutrality = 40
-	democratic = 23
-	communism = 2
+	far_right = 35
+	right = 40
+	center = 23
+	left = 2
 }
 
 
@@ -884,23 +884,23 @@ JAP_isoroku_yamamoto = {
 	}
 
 	set_party_name = {
-		ideology = democratic
+		ideology = center
 		long_name = JAP_minseito_party_long
 		name = JAP_minseito_party
 	}
 
 	# Setup Politics 
 	set_politics = {
-		ruling_party = neutrality
+		ruling_party = right
 		last_election = "1938.1.1"
 		election_frequency = 48
 		elections_allowed = yes
 	}
 	set_popularities = {
-		fascism = 45
-		neutrality = 45
-		democratic = 10
-		communism = 0
+		far_right = 45
+		right = 45
+		center = 10
+		left = 0
 	}
 
 	set_autonomy = {
@@ -2110,7 +2110,7 @@ create_equipment_variant = {
 }	
 
 create_equipment_variant = {
-	name = "Kaichū IV Class"
+	name = "Kaich? IV Class"
 	type = ship_hull_submarine_1
 	design_team = mio:JAP_sasebo_naval_arsenal_organization
 	parent_version = 0

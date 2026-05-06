@@ -1,4 +1,4 @@
-﻿capital = 84
+capital = 84
 
 set_research_slots = 3
 
@@ -63,7 +63,7 @@ if = {
 }
 
 set_politics = {
-	ruling_party = democratic
+	ruling_party = center
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = yes
@@ -81,9 +81,9 @@ create_country_leader = {
 }
 
 set_popularities = {
-	democratic = 33
-	neutrality = 33
-	communism = 34
+	center = 33
+	right = 33
+	left = 34
 }
 
 recruit_character = TRA_pot

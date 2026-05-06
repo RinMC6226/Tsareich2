@@ -1,4 +1,4 @@
-﻿capital = 311 #Belize
+capital = 311 #Belize
 
 
 ### CORES = 311
@@ -49,16 +49,16 @@ IF = {
 }
 
 set_politics = {
-	ruling_party = neutrality
+	ruling_party = right
 	last_election = "1934.2.11"
 	election_frequency = 48
 	elections_allowed = yes
 }
 set_popularities = {
-	democratic = 15
-	communism = 10
-	neutrality = 70
-	fascism = 5
+	center = 15
+	left = 10
+	right = 70
+	far_right = 5
 }
 
 

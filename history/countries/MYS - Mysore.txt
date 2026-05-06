@@ -1,4 +1,4 @@
-﻿capital = 425 #mysore
+capital = 425 #mysore
 
 
 set_research_slots = 2
@@ -77,16 +77,16 @@ if = {
 }
 
 set_politics = {
-	ruling_party = neutrality
+	ruling_party = right
 	last_election = "1934.2.11"
 	election_frequency = 48
 	elections_allowed = yes
 }
 set_popularities = {
-	democratic = 20
-	communism = 15
-	neutrality = 60
-	fascism = 5
+	center = 20
+	left = 15
+	right = 60
+	far_right = 5
 }
 
 

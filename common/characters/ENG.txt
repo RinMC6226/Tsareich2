@@ -33,8 +33,8 @@ characters={
 						original_tag = RAJ
 					}
 					OR = {
-						has_government = neutrality
-						has_government = democratic
+						is_right_ideology = yes
+						is_center_bloc = yes
 					}
 				}
 			}
@@ -115,7 +115,7 @@ characters={
 		}
 		
 		country_leader={
-			ideology=fascism_ideology
+			ideology=ultranationalism
 			traits={ champion_of_peace_1 economic_reformer }
 			expire="1965.1.1.1"
 			id=-1
@@ -168,7 +168,7 @@ characters={
 		}
 		
 		country_leader={
-			ideology=leninism
+			ideology=vanguard_communism
 			traits={ staunch_stalinist }
 			expire="1965.1.1.1"
 			id=-1
@@ -1196,7 +1196,7 @@ characters={
 			idea_token = ENG_jfc_fuller
 			ledger = army
 			available = {
-				has_government = fascism
+				is_far_right_ideology = yes
 			}
 			allowed = {
 				original_tag = ENG

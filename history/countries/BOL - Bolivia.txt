@@ -1,4 +1,4 @@
-﻿capital = 302
+capital = 302
 
 every_core_state = {
 	ROOT = {
@@ -44,16 +44,16 @@ IF = {
 		has_dlc = "Trial of Allegiance"
 	}
 	set_politics = {
-		ruling_party = democratic
+		ruling_party = center
 		last_election = "1934.11.11"
 		election_frequency = 72
 		elections_allowed = yes
 	}
 	set_popularities = {
-		neutrality = 32
-		democratic = 54
-		communism = 12
-		fascism = 2
+		right = 32
+		center = 54
+		left = 12
+		far_right = 2
 	}
 
 	recruit_character = BOL_jose_luis_tejada_sorzano
@@ -78,14 +78,14 @@ IF = {
 
 	ELSE = {
 		set_politics = {
-			ruling_party = neutrality
+			ruling_party = right
 			last_election = "1934.11.11"
 			election_frequency = 72
 			elections_allowed = yes
 		}
 
 		set_popularities = {
-			neutrality = 100
+			right = 100
 		}
 
 		recruit_character = BOL_jose_luis_tejada_sorzano
@@ -176,13 +176,13 @@ set_grand_doctrine = new_strategic_destruction
 	}
 
 	set_politics = {
-		ruling_party = neutrality
+		ruling_party = right
 		last_election = "1934.11.11"
 		election_frequency = 72
 		elections_allowed = yes
 	}
 
 	set_popularities = {
-		neutrality = 100
+		right = 100
 	}
 }

@@ -1,4 +1,4 @@
-﻿capital = 10
+capital = 10
 
 if = {
 	limit = { has_dlc = "Man the Guns" }
@@ -331,24 +331,24 @@ set_grand_doctrine = new_strategic_destruction
 set_convoys = 10
 
 set_politics = {
-	ruling_party = neutrality
+	ruling_party = right
 	last_election = "1935.9.8"
 	election_frequency = 36
 	elections_allowed = no
 }
 set_popularities = {
-	democratic = 32
-	fascism = 11
-	communism = 19
-	neutrality = 38
+	center = 32
+	far_right = 11
+	left = 19
+	right = 38
 }
 
 1939.1.1 = {
 	set_popularities = {
-		democratic = 13
-		fascism = 7
-		communism = 2
-		neutrality = 78
+		center = 13
+		far_right = 7
+		left = 2
+		right = 78
 	}
 }
 

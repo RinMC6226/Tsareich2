@@ -1,4 +1,4 @@
-﻿capital = 277
+capital = 277
 
 
 IF = {
@@ -265,16 +265,16 @@ set_grand_doctrine = new_strategic_destruction
 }
 
 set_politics = {
-	ruling_party = neutrality
+	ruling_party = right
 	last_election = "1934.7.1"
 	election_frequency = 72
 	elections_allowed = yes
 }
 set_popularities = {
-	democratic = 18
-	fascism = 20
-	communism = 9
-	neutrality = 53
+	center = 18
+	far_right = 20
+	left = 9
+	right = 53
 }
 
 ### VARIANTS ###
@@ -290,7 +290,7 @@ IF = {
 		obsolete = yes
 	}
 	create_equipment_variant = {
-		name = "Nicolás Bravo Class"
+		name = "Nicolas Bravo Class"
 		type = destroyer_1
 		upgrades = {
 			ship_torpedo_upgrade = 1
@@ -304,7 +304,7 @@ IF = {
 	limit = { has_dlc = "Man the Guns" }
 	# Destroyers #
 	create_equipment_variant = {
-		name = "Nicolás Bravo Class"			
+		name = "Nicolas Bravo Class"			
 		type = ship_hull_light_1
 		name_group = MEX_DD_HISTORICAL
 		parent_version = 0

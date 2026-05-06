@@ -1,4 +1,4 @@
-﻿capital = 305
+capital = 305
 
 
 # Starting tech
@@ -17,10 +17,10 @@ if = {
 	}
 }
 
-recruit_character = ECU_federico_páez
+recruit_character = ECU_federico_paez
 recruit_character = ECU_juan_toro
-recruit_character = ECU_andrés_guilarte
-recruit_character = ECU_josé_la_mar
+recruit_character = ECU_andres_guilarte
+recruit_character = ECU_jose_la_mar
 recruit_character = ECU_cosme_renella_barbatto
 recruit_character = ECU_benigno_andrade_flores
 recruit_character = ECU_uriarte_fanquil_del_ponte
@@ -98,17 +98,17 @@ set_grand_doctrine = new_strategic_destruction
 }
 
 set_politics = {
-	ruling_party = democratic
+	ruling_party = center
 	last_election = "1933.12.15"
 	election_frequency = 84
 	elections_allowed = yes
 }
 set_popularities = {
-	democratic = 100
+	center = 100
 }
 
 1939.1.1 = {
 	recruit_character = ECU_aurelio_mosquera
 	promote_character = ECU_aurelio_mosquera
-	retire_character = ECU_federico_páez
+	retire_character = ECU_federico_paez
 }

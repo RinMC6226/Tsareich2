@@ -1,4 +1,4 @@
-﻿capital = 474 #Cancún, Yucatan
+capital = 474 #Cancun, Yucatan
 
 
 ### CORES = 474
@@ -42,16 +42,16 @@ IF = {
 }
 
 set_politics = {
-	ruling_party = democratic
+	ruling_party = center
 	last_election = "1934.2.11"
 	election_frequency = 48
 	elections_allowed = yes
 }
 set_popularities = {
-	democratic = 60
-	communism = 30
-	neutrality = 10
-	fascism = 0
+	center = 60
+	left = 30
+	right = 10
+	far_right = 0
 }
 
 

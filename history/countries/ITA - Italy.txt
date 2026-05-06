@@ -1,4 +1,4 @@
-﻿capital = 2 # Rome
+capital = 2 # Rome
 
 if = {
 	limit = {
@@ -480,7 +480,7 @@ if = {
 	}
 
 	add_popularity = {
-		ideology = neutrality
+		ideology = right
 		popularity = 0.05
 	}
 
@@ -491,7 +491,7 @@ if = {
 	YUG = {
 		add_opinion_modifier = { target = ITA modifier = ita_diplomacy_focus }
 		add_popularity = {
-			ideology = fascism
+			ideology = far_right
 			popularity = 0.07
 		}
 	}
@@ -501,7 +501,7 @@ if = {
 	BUL = {
 		add_opinion_modifier = { target = ITA modifier = ita_diplomacy_focus }
 		add_popularity = {
-			ideology = fascism
+			ideology = far_right
 			popularity = 0.07
 		}
 	}
@@ -637,16 +637,16 @@ add_mastery = {
 set_convoys = 200
 
 set_politics = {
-	ruling_party = communism
+	ruling_party = left
 	last_election = "1934.3.26"
 	election_frequency = 60
 	elections_allowed = no
 }
 set_popularities = {
-	democratic = 0
-	fascism = 0
-	communism = 100
-	neutrality = 0
+	center = 0
+	far_right = 0
+	left = 100
+	right = 0
 }
 
 recruit_character = ITA_benito_mussolini

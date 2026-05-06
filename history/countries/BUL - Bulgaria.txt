@@ -1,4 +1,4 @@
-﻿capital = 48
+capital = 48
 
 #TROOPS
 if = {
@@ -10,12 +10,12 @@ set_convoys = 5 #VANILLA & DLC
 
 #You don't want Bulgarian party names? Just remove these lines
 set_party_name = { # DLC
-	ideology = communism
+	ideology = left
 	name = BUL_communism_party_bulgarian
 	long_name = BUL_communism_party_bulgarian_long
 }
 set_party_name = { # DLC
-	ideology = fascism
+	ideology = far_right
 	name = BUL_fascism_party_bulgarian
 	long_name = BUL_fascism_party_bulgarian_long
 }
@@ -27,7 +27,7 @@ if = { #DLC
 
 	#You don't want Bulgarian party names? Just remove these lines
 	set_party_name = { # DLC
-		ideology = democratic
+		ideology = center
 		name = BUL_democratic_party_bftb
 		long_name = BUL_democratic_party_bftb_bulgarian_long
 	}	
@@ -186,10 +186,10 @@ if = { #DLC
 
 	#DLC POLIICS
 	set_popularities = { #DLC
-		democratic = 10
-		fascism = 30
-		neutrality = 55
-		communism = 5
+		center = 10
+		far_right = 30
+		right = 55
+		left = 5
 	}
 
 	recruit_character = BUL_boris_iii
@@ -270,7 +270,7 @@ if = { #DLC
 
 	#RULING PARTY
 	set_politics = { #DLC
-		ruling_party = neutrality
+		ruling_party = right
 		last_election = "1935.1.22"
 		election_frequency = 48
 		elections_allowed = no
@@ -284,12 +284,12 @@ if = { #DLC
 
 		#POLITICS
 		set_popularities = { #VANILLA
-			democratic = 5
-			fascism = 35
-			neutrality = 60
+			center = 5
+			far_right = 35
+			right = 60
 		}
 		set_politics = { #VANILLA
-			ruling_party = neutrality
+			ruling_party = right
 			last_election = "1931.6.21"
 			election_frequency = 48
 			elections_allowed = no
@@ -351,12 +351,12 @@ if = {
 	
 	#POLIICS
 	set_popularities = { #VANILLA & DLC //  # Will get +7 from Italian focus: Potential Allies in the Balkans
-		democratic = 5
-		fascism = 35
-		neutrality = 60
+		center = 5
+		far_right = 35
+		right = 60
 	}
 	set_politics = { #VANILLA & DLC
-		ruling_party = neutrality
+		ruling_party = right
 		last_election = "1938.3.27"
 		election_frequency = 48
 		elections_allowed = no

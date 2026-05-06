@@ -1,4 +1,4 @@
-﻿capital = 275
+capital = 275
 
 if = {
 	limit = { has_dlc = "By Blood Alone" }
@@ -177,15 +177,15 @@ set_grand_doctrine = new_strategic_destruction
 
 set_convoys = 25
 set_politics = {
-	ruling_party = democratic
+	ruling_party = center
 	last_election = "1933.5.17"
 	election_frequency = 60
 	elections_allowed = yes
 }
 set_popularities = {
-	democratic = 75
-	fascism = 20
-	communism = 5
+	center = 75
+	far_right = 20
+	left = 5
 }
 
 recruit_character = SAF_j_b_m_hertzog
@@ -213,13 +213,13 @@ recruit_character = SAF_abram_fischer
 
 1939.1.1 = {
 	set_politics = {
-		ruling_party = democratic
+		ruling_party = center
 		last_election = "1938.5.18"
 		election_frequency = 60
 		elections_allowed = yes
 	}
 	set_popularities = {
-		democratic = 100
+		center = 100
 	}
 
 	#retire_character = SAF_j_b_m_hertzog

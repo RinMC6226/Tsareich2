@@ -1,4 +1,4 @@
-﻿capital = 500
+capital = 500
 
 
 every_core_state = {
@@ -141,27 +141,27 @@ IF = {
 	add_dynamic_modifier = { modifier = BRA_aftermath_of_the_coup }
 
 	set_politics = {
-		ruling_party = democratic
+		ruling_party = center
 		last_election = "1934.7.17"
 		election_frequency = 48
 		elections_allowed = yes
 	}
 
 	set_popularities = {
-		democratic = 50
-		neutrality = 25
-		fascism = 15
-		communism = 10
+		center = 50
+		right = 25
+		far_right = 15
+		left = 10
 	}
 
 	set_party_name = {
-		ideology = neutrality
+		ideology = right
 		name = BRA_military_party
 		long_name = BRA_military_party_long
 	}
 
 	set_party_name = {
-		ideology = democratic
+		ideology = center
 		name = BRA_provisional_government
 		long_name = BRA_provisional_government_long
 	}
@@ -231,16 +231,16 @@ IF = {
 		}
 	}
 	set_politics = {
-		ruling_party = democratic
+		ruling_party = center
 		last_election = "1934.7.17"
 		election_frequency = 48
 		elections_allowed = yes
 	}
 	set_popularities = {
-		democratic = 50
-		neutrality = 25
-		fascism = 15
-		communism = 10
+		center = 50
+		right = 25
+		far_right = 15
+		left = 10
 	}
 }
 ###############################################################################
@@ -434,13 +434,13 @@ set_convoys = 40
 
 1939.1.1 = {
 	set_politics = {
-		ruling_party = neutrality
+		ruling_party = right
 		last_election = "1934.7.17"
 		election_frequency = 48
 		elections_allowed = no
 	}
 	set_popularities = {
-		neutrality = 100
+		right = 100
 	}
 }
 
@@ -501,7 +501,7 @@ IF = {
 		obsolete = yes
 	}
 	create_equipment_variant = {
-		name = "Humaytá Class"
+		name = "Humayta Class"
 		type = ship_hull_submarine_2
 		name_group = BRA_SS_HISTORICAL
 		parent_version = 0

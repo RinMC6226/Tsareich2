@@ -1,4 +1,4 @@
-﻿capital = 300
+capital = 300
 
 every_core_state = {
 	ROOT = {
@@ -148,7 +148,7 @@ set_convoys = 15
 
 1939.1.1 = {
 	set_politics = {
-		ruling_party = democratic
+		ruling_party = center
 		last_election = "1938.3.28"
 		election_frequency = 48
 		elections_allowed = yes
@@ -237,16 +237,16 @@ set_grand_doctrine = new_strategic_destruction
 }
 
 set_politics = {
-	ruling_party = neutrality
+	ruling_party = right
 	last_election = "1934.4.19"
 	election_frequency = 48
 	elections_allowed = yes
 }
 set_popularities = {
-	democratic = 44
-	neutrality = 53
-	communism = 3
-	fascism = 0
+	center = 44
+	right = 53
+	left = 3
+	far_right = 0
 }
 
 1939.1.1 = {

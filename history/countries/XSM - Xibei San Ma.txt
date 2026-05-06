@@ -1,4 +1,4 @@
-﻿capital = 754 #Was 604, but should be Xining
+capital = 754 #Was 604, but should be Xining
 
 set_variable = { XSM_the_military_governor_army_core_attack_factor = 0 }
 set_variable = { XSM_the_military_governor_supply_combat_penalties_on_core_factor = 0 }
@@ -219,11 +219,11 @@ set_grand_doctrine = new_strategic_destruction
 }
 
 set_politics = {
-	ruling_party = neutrality
+	ruling_party = right
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
 }
 set_popularities = {
-	neutrality = 100
+	right = 100
 }

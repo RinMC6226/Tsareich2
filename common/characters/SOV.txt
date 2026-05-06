@@ -24,7 +24,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = stalinism
+			ideology = vanguard_communism
 			traits = { stalin_heart_of_steel }
 			expire = "1953.3.1.1"
 			id = -1
@@ -40,7 +40,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = despotism
+			ideology = authoritarian_conservatism
 			expire = "1953.3.1.1"
 			id = -1
 		}
@@ -56,7 +56,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = despotism
+			ideology = authoritarian_conservatism
 			expire = "1953.3.1.1"
 			id = -1
 			traits = {
@@ -72,7 +72,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = despotism
+			ideology = authoritarian_conservatism
 			expire = "1953.3.1.1"
 			id = -1
 		}
@@ -89,7 +89,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = despotism
+			ideology = authoritarian_conservatism
 			expire = "1953.3.1.1"
 			id = -1
 			traits = {
@@ -142,7 +142,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = despotism
+			ideology = authoritarian_conservatism
 			expire = "1953.3.1.1"
 			id = -1
 			traits = {
@@ -891,7 +891,7 @@ characters = {
 			visible = {
 				has_global_flag = lokot_autonomy_has_been_established_flag
 				NOT = {
-					has_government = communism
+					is_left_bloc = yes
 				}
 				NOT = {
 					has_global_flag = lokot_autonomy_has_been_crushed_flag
@@ -918,7 +918,7 @@ characters = {
 			visible = {
 				has_global_flag = lokot_autonomy_has_been_established_flag
 				NOT = {
-					has_government = communism
+					is_left_bloc = yes
 				}
 				NOT = {
 					has_global_flag = lokot_autonomy_has_been_crushed_flag
@@ -2142,7 +2142,7 @@ characters = {
 				SOV_advisor_is_aligned_right = yes 
 				SOV_advisor_is_aligned_centre = yes 
 			}
-			has_government = communism
+			is_left_bloc = yes
 		}
 
 		advisor = {
@@ -2187,7 +2187,7 @@ characters = {
 				SOV_advisor_is_aligned_right = yes 
 				SOV_advisor_is_aligned_centre = yes 
 			}
-			has_government = communism
+			is_left_bloc = yes
 		}
 
 		advisor = {
@@ -2235,7 +2235,7 @@ characters = {
 			}
 		}
 		allowed_civil_war = {
-				has_government = communism
+				is_left_bloc = yes
 			}
 
 		advisor = {
@@ -2268,7 +2268,7 @@ characters = {
 			}
 		}
 		allowed_civil_war = {
-				has_government = communism
+				is_left_bloc = yes
 			}
 
 		advisor = {
@@ -2318,7 +2318,7 @@ characters = {
 					}
 				}
 			}
-			has_government = communism
+			is_left_bloc = yes
 		}
 
 		advisor = {
@@ -2369,7 +2369,7 @@ characters = {
 					}
 				}
 			}
-			has_government = communism
+			is_left_bloc = yes
 		}
 
 		advisor = {
@@ -2405,7 +2405,7 @@ characters = {
 			}
 			allowed_civil_war = {
 				original_tag = SOV
-				has_government = communism
+				is_left_bloc = yes
 				NOT = { tag = SOV }
 			}
 			name = SOV_lavrenty_beriya
@@ -2458,7 +2458,7 @@ characters = {
 			allowed_civil_war = {
 				original_tag = SOV
 				NOT = { tag = SOV }
-				has_government = communism
+				is_left_bloc = yes
 			}
 			name = SOV_lavrenty_beriya
 			portraits = {
@@ -2515,7 +2515,7 @@ characters = {
 				SOV_advisor_is_aligned_right = yes 
 				SOV_advisor_is_aligned_centre = yes 
 			}
-			has_government = communism
+			is_left_bloc = yes
 		}
 
 		advisor = {
@@ -2556,7 +2556,7 @@ characters = {
 			}
 		}
 		allowed_civil_war = {
-			has_government = communism
+			is_left_bloc = yes
 		}
 
 		advisor = {
@@ -2590,7 +2590,7 @@ characters = {
 			}
 		}
 		allowed_civil_war = {
-			has_government = communism
+			is_left_bloc = yes
 		}
 
 		advisor = {
@@ -2630,11 +2630,11 @@ characters = {
 			OR = {
 				AND = {
 					tag = SOV 
-					has_government = communism
+					is_left_bloc = yes
 				}
 				AND = {
 					SOV_is_exiles = yes 
-					has_government = communism 
+					is_left_bloc = yes 
 				}
 			}
 		}
@@ -2716,11 +2716,11 @@ characters = {
 			OR = {
 				AND = {
 					tag = SOV 
-					has_government = communism
+					is_left_bloc = yes
 				}
 				AND = {
 					SOV_is_exiles = yes 
-					has_government = communism 
+					is_left_bloc = yes 
 				}
 			}
 		}
@@ -2778,11 +2778,11 @@ characters = {
 			OR = {
 				AND = {
 					tag = SOV 
-					has_government = communism
+					is_left_bloc = yes
 				}
 				AND = {
 					SOV_is_exiles = yes 
-					has_government = communism 
+					is_left_bloc = yes 
 				}
 			}
 		}
@@ -2849,7 +2849,7 @@ characters = {
 				}
 				AND = {
 					SOV_is_exiles = yes 
-					has_government = communism 
+					is_left_bloc = yes 
 				}
 			}
 		}
@@ -2914,7 +2914,7 @@ characters = {
 				}
 				AND = {
 					SOV_is_exiles = yes 
-					has_government = communism 
+					is_left_bloc = yes 
 				}
 			}
 		}
@@ -2970,11 +2970,11 @@ characters = {
 			OR = {
 				AND = {
 					tag = SOV 
-					has_government = communism
+					is_left_bloc = yes
 				}
 				AND = {
 					SOV_is_exiles = yes 
-					has_government = communism 
+					is_left_bloc = yes 
 				}
 			}
 		}
@@ -3037,7 +3037,7 @@ characters = {
 				}
 				AND = {
 					SOV_is_exiles = yes 
-					has_government = communism 
+					is_left_bloc = yes 
 				}
 			}
 
@@ -3100,7 +3100,7 @@ characters = {
 				}
 				AND = {
 					SOV_is_exiles = yes 
-					has_government = communism 
+					is_left_bloc = yes 
 				}
 			}
 		}
@@ -3153,11 +3153,11 @@ characters = {
 			OR = {
 				AND = {
 					tag = SOV 
-					has_government = communism
+					is_left_bloc = yes
 				}
 				AND = {
 					SOV_is_exiles = yes 
-					has_government = communism 
+					is_left_bloc = yes 
 				}
 			}
 		}
@@ -3202,7 +3202,7 @@ characters = {
 			}
 		}
 		allowed_civil_war = {
-			has_government = communism
+			is_left_bloc = yes
 		}
 
 		advisor = {
@@ -3251,11 +3251,11 @@ characters = {
 			OR = {
 				AND = {
 					tag = SOV 
-					has_government = communism
+					is_left_bloc = yes
 				}
 				AND = {
 					SOV_is_exiles = yes 
-					has_government = communism 
+					is_left_bloc = yes 
 				}
 			}
 		}
@@ -3317,11 +3317,11 @@ characters = {
 			OR = {
 				AND = {
 					tag = SOV 
-					has_government = communism
+					is_left_bloc = yes
 				}
 				AND = {
 					SOV_is_exiles = yes 
-					has_government = communism 
+					is_left_bloc = yes 
 				}
 			}
 		}
@@ -3385,7 +3385,7 @@ characters = {
 				}
 				AND = {
 					SOV_is_exiles = yes 
-					has_government = communism
+					is_left_bloc = yes
 				}
 			}
 		}
@@ -3439,8 +3439,8 @@ characters = {
 		}
 		allowed_civil_war = {
 			OR = {
-				has_government = neutrality 
-				has_government = fascism
+				is_right_ideology = yes 
+				is_far_right_ideology = yes
 			}
 		}
 
@@ -3474,8 +3474,8 @@ characters = {
 		}
 		allowed_civil_war = {
 			OR = {
-				has_government = neutrality 
-				has_government = fascism
+				is_right_ideology = yes 
+				is_far_right_ideology = yes
 			}
 		}
 		advisor = {
@@ -3508,8 +3508,8 @@ characters = {
 		}
 		allowed_civil_war = {
 			OR = {
-				has_government = neutrality 
-				has_government = fascism
+				is_right_ideology = yes 
+				is_far_right_ideology = yes
 			}
 		}
 
@@ -3543,8 +3543,8 @@ characters = {
 		}
 		allowed_civil_war = {
 			OR = {
-				has_government = neutrality 
-				has_government = fascism
+				is_right_ideology = yes 
+				is_far_right_ideology = yes
 			}
 		}
 
@@ -3578,8 +3578,8 @@ characters = {
 		}
 		allowed_civil_war = {
 			OR = {
-				has_government = neutrality 
-				has_government = fascism
+				is_right_ideology = yes 
+				is_far_right_ideology = yes
 			}
 		}
 
@@ -3695,8 +3695,8 @@ characters = {
 		}
 		allowed_civil_war = {
 			OR = {
-				has_government = neutrality 
-				has_government = fascism
+				is_right_ideology = yes 
+				is_far_right_ideology = yes
 			}
 		}
 
@@ -3727,8 +3727,8 @@ characters = {
 		}
 		allowed_civil_war = {
 			OR = {
-				has_government = neutrality 
-				has_government = fascism
+				is_right_ideology = yes 
+				is_far_right_ideology = yes
 			}
 		}
 
@@ -3780,8 +3780,8 @@ characters = {
 		}
 		allowed_civil_war = {
 			OR = {
-				has_government = neutrality 
-				has_government = fascism
+				is_right_ideology = yes 
+				is_far_right_ideology = yes
 			}
 		}
 		advisor = {
@@ -3823,8 +3823,8 @@ characters = {
 		}
 		allowed_civil_war = {
 			OR = {
-				has_government = neutrality 
-				has_government = fascism
+				is_right_ideology = yes 
+				is_far_right_ideology = yes
 			}
 		}
 
@@ -3866,8 +3866,8 @@ characters = {
 		}
 		allowed_civil_war = {
 			OR = {
-				has_government = neutrality 
-				has_government = fascism
+				is_right_ideology = yes 
+				is_far_right_ideology = yes
 			}
 		}
 		
@@ -3909,8 +3909,8 @@ characters = {
 		}
 		allowed_civil_war = {
 			OR = {
-				has_government = neutrality 
-				has_government = fascism
+				is_right_ideology = yes 
+				is_far_right_ideology = yes
 			}
 		}
 		
@@ -3967,7 +3967,7 @@ characters = {
 			}
 
 			country_leader = {
-				ideology = fascism_ideology
+				ideology = far_right_ideology
 				traits = { fascist_orchestrator }
 				expire = "1953.3.1.1"
 				id = -1
@@ -4016,7 +4016,7 @@ characters = {
 				}
 				do_effect = {
 					NOT = {
-						has_government = fascism 
+						is_far_right_ideology = yes 
 					}
 				}
 				ai_will_do = {
@@ -4038,7 +4038,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = socialism
+			ideology = social_democracy
 			expire = "1953.3.1.1"
 			id = -1
 		}
@@ -4076,7 +4076,7 @@ characters = {
 			}
 			do_effect = {
 				NOT = {
-					has_government = democratic 
+					is_center_bloc = yes 
 				}
 			}
 			ai_will_do = {

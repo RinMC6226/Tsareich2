@@ -1,4 +1,4 @@
-﻿capital = 721 #Dili
+capital = 721 #Dili
 
 # Starting tech
 set_technology = {
@@ -55,14 +55,14 @@ set_grand_doctrine = new_strategic_destruction
 }
 
 set_politics = {
-	ruling_party = democratic
+	ruling_party = center
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
 }
 set_popularities = {
-	democratic = 70
-	fascism = 5
-	communism = 10
-	neutrality = 15
+	center = 70
+	far_right = 5
+	left = 10
+	right = 15
 }

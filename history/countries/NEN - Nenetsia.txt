@@ -1,4 +1,4 @@
-﻿capital = 825 #Naryan-Mar
+capital = 825 #Naryan-Mar
 
 #oob = "NEN_1936"  # Troops should probably not be able to use nen
 
@@ -84,17 +84,17 @@ if = {
 	}
 }
 set_politics = {
-	ruling_party = democratic
+	ruling_party = center
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = yes
 }
 
 set_popularities = {
-	democratic = 50
-	fascism = 0
-	communism = 20
-	neutrality = 30
+	center = 50
+	far_right = 0
+	left = 20
+	right = 30
 }
 
 

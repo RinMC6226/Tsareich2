@@ -1,4 +1,4 @@
-﻿capital = 4 # Vienna
+capital = 4 # Vienna
 
 IF = {
 	limit = {
@@ -277,17 +277,17 @@ IF = {
 
 
 set_politics = {
-	ruling_party = neutrality
+	ruling_party = right
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
 }
 
 set_popularities = {
-	neutrality = 48
-	fascism = 50
-	democratic = 1
-	communism = 1
+	right = 48
+	far_right = 50
+	center = 1
+	left = 1
 }
 
 set_stability = 0.50

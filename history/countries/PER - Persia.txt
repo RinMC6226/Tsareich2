@@ -1,4 +1,4 @@
-﻿capital = 266
+capital = 266
 
 if = {
 	limit = { has_dlc = "By Blood Alone" }
@@ -39,7 +39,7 @@ IF = {
 	}
 	## This is a placeholder name until the player picks a fascist party to form
 	set_party_name = {
-		ideology = fascism
+		ideology = far_right
 		name = PER_ultra_nationalists
 		long_name = PER_ultra_nationalists_long
 	}
@@ -335,14 +335,14 @@ set_grand_doctrine = new_strategic_destruction
 
 set_convoys = 10
 set_politics = {
-	ruling_party = neutrality
+	ruling_party = right
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
 }
 set_popularities = {
-	democratic = PER_democratic_popularity
-	fascism = PER_fascism_popularity
-	communism = PER_communism_popularity
-	neutrality = PER_neutrality_popularity
+	center = PER_democratic_popularity
+	far_right = PER_fascism_popularity
+	left = PER_communism_popularity
+	right = PER_neutrality_popularity
 }

@@ -6,6 +6,11 @@ characters={
 				large=GFX_portrait_USA_franklin_delano_roosevelt
 			}
 		}
+		country_leader={
+			ideology=social_liberalism
+			expire="1965.1.1.1"
+			id=-1
+		}
 	}
 
 	USA_frank_knox={
@@ -30,7 +35,7 @@ characters={
 			}
 		}
 		country_leader={
-			ideology=fascism_ideology
+			ideology=ultranationalism
 			expire="1965.1.1.1"
 			id=-1
 		}
@@ -57,7 +62,7 @@ characters={
 			}
 		}
 		country_leader={
-			ideology=oligarchism
+			ideology=authoritarian_democracy
 			traits={ financial_expert }
 			expire="1953.1.1.12"
 			id=-1
@@ -144,7 +149,7 @@ characters={
 			}
 		}
 		country_leader={
-			ideology=marxism
+			ideology=orthodox_marxism
 			expire="1965.1.1.1"
 			id=-1
 		}
@@ -1470,7 +1475,7 @@ characters={
 			}
 		}
 		allowed_civil_war = {
-			has_government = communism
+			is_left_bloc = yes
 		}
 	}
 

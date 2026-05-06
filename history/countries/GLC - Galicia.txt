@@ -1,4 +1,4 @@
-﻿capital = 171
+capital = 171
 
 #oob = ""
 
@@ -63,22 +63,22 @@ set_grand_doctrine = grand_battleplan
 	}
 }
 set_politics = {
-	ruling_party = democratic
+	ruling_party = center
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = yes
 }
 set_popularities = {
-	democratic = 93
-	fascism = 3
-	communism = 4
+	center = 93
+	far_right = 3
+	left = 4
 }
 
 create_country_leader = {
-	name = "Fuco Gómez"
+	name = "Fuco Gomez"
 	picture = GFX_portrait_Fuco_Gomez
 	expire = "1965.1.1"
-	ideology = marxism
+	ideology = orthodox_marxism
 }
 
 create_country_leader = {
@@ -89,10 +89,10 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Vicente Martínez Risco"
+	name = "Vicente Martinez Risco"
 	picture = GFX_portrait_Vicente_Martinez_Risco
 	expire = "1965.1.1"
-	ideology = fascism_ideology
+	ideology = far_right_ideology
 }
 
 create_country_leader = {

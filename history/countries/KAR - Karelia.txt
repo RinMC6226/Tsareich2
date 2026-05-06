@@ -1,4 +1,4 @@
-﻿capital = 216 #Olonets (Petrozavodsk)
+capital = 216 #Olonets (Petrozavodsk)
 
 #oob = "KAR_1936"
 
@@ -88,17 +88,17 @@ if = {
 }
 
 set_politics = {
-	ruling_party = democratic
+	ruling_party = center
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = yes
 }
 
 set_popularities = {
-	democratic = 50
-	fascism = 10
-	communism = 40
-	neutrality = 0
+	center = 50
+	far_right = 10
+	left = 40
+	right = 0
 }
 
 recruit_character = KAR_peteris_irklis

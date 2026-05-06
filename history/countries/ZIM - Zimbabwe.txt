@@ -1,4 +1,4 @@
-﻿capital = 545
+capital = 545
 
 
 # Starting tech
@@ -67,20 +67,20 @@ set_grand_doctrine = grand_battleplan
 }
 
 set_politics = {
-	ruling_party = neutrality
+	ruling_party = right
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = yes
 }
 set_popularities = {
-	neutrality = 100
+	right = 100
 }
 
 create_country_leader = {
 	name = " Marcus James Hugins"
 	picture = GFX_portrait__Marcus_James_Hugins
 	expire = "1965.1.1"
-	ideology = nazism
+	ideology = racial_supremacism
 	traits = { 
 		prince_of_terror
 	}

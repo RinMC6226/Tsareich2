@@ -1,4 +1,4 @@
-﻿capital = 1043 # Pailingmiao
+capital = 1043 # Pailingmiao
 
 
 set_technology = {
@@ -134,7 +134,7 @@ IF = {
 		add_country_leader_role = {
 			promote_leader = yes
 			country_leader = {
-				ideology = despotism
+				ideology = authoritarian_conservatism
 				expire = "1965.1.1.1"
 				traits = { MEN_borjigin_descendant } 
 			}
@@ -168,12 +168,12 @@ IF = {
 }
 
 set_politics = {
-	ruling_party = neutrality
+	ruling_party = right
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
 }
 set_popularities = {
-	fascism = 50
-	neutrality = 50
+	far_right = 50
+	right = 50
 }

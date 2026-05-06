@@ -1,4 +1,4 @@
-﻿capital = 6 # Brussels
+capital = 6 # Brussels
 
 IF = {
 	limit = { 
@@ -507,7 +507,7 @@ IF = {
 		}
 
 		set_party_name = {
-			ideology = democratic
+			ideology = center
 			long_name = BEL_democratic_party_long
 			name = BEL_democratic_party
 		}
@@ -600,29 +600,29 @@ set_grand_doctrine = new_strategic_destruction
 
 
 set_politics = {
-	ruling_party = democratic
+	ruling_party = center
 	last_election = "1936.1.1" #Was 1932.11.27 but changed to allow for Government Resigns focus to simulate this election.
 	election_frequency = 48
 	elections_allowed = yes
 }
 
 set_popularities = {
-	democratic = 83
-	fascism = 11
-	communism = 6
+	center = 83
+	far_right = 11
+	left = 6
 }
 
 1939.1.1 = {
 	set_politics = {
-		ruling_party = democratic
+		ruling_party = center
 		last_election = "1939.4.2"
 		election_frequency = 48
 		elections_allowed = yes
 	}
 	set_popularities = {
-		democratic = 87
-		fascism = 8
-		communism = 5
+		center = 87
+		far_right = 8
+		left = 5
 	}
 }
 

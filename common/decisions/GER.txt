@@ -96,7 +96,7 @@ GER_mefo_bills_category = {
 		icon = ger_mefo_bills
 
 		available = {
-			#NOT = { has_government = democratic }
+			#NOT = { is_center_bloc = yes }
 			#GER_can_delay_mefo_payment = yes #TODO_DANNE Remove this trigger entirely
 			has_political_power > 0
 			hidden_trigger = { always = no }
@@ -1467,7 +1467,7 @@ GER_price_controls_cat = {
 			modifier = {
 				factor = 0
 				is_historical_focus_on = yes 
-				has_government = fascism
+				is_far_right_ideology = yes
 			}
 		}
 
@@ -2314,7 +2314,7 @@ GER_fortify_the_vaterland_cat = {
 			every_state = {
 				limit = { 
 					state_is_fully_controlled_by_ROOT_subject_or_faction_member = yes
-					OR = { #From Finnmark to Västergötland
+					OR = { #From Finnmark to Vﾃ､stergﾃｶtland
 						state = 925
 						state = 924
 						state = 144
@@ -2342,7 +2342,7 @@ GER_fortify_the_vaterland_cat = {
 			every_state = {
 				limit = { 
 					state_is_fully_controlled_by_ROOT_subject_or_faction_member = yes
-					OR = { #From Finnmark to Västergötland
+					OR = { #From Finnmark to Vﾃ､stergﾃｶtland
 						state = 925
 						state = 924
 						state = 144
@@ -3413,10 +3413,10 @@ GER_case_anton_category = {
 		available = {
 			original_tag = GER
 			has_war = yes
-			has_government = fascism
+			is_far_right_ideology = yes
 			any_country_with_original_tag = {
 				original_tag_to_check = FRA
-				has_government = fascism
+				is_far_right_ideology = yes
 				OR = {
 					is_subject_of = GER
 					has_focus_tree = vichy_french_focus
@@ -3458,10 +3458,10 @@ GER_case_anton_category = {
 
 		visible = {
 			original_tag = GER
-			has_government = fascism
+			is_far_right_ideology = yes
 			any_country_with_original_tag = {
 				original_tag_to_check = FRA
-				has_government = fascism
+				is_far_right_ideology = yes
 				OR = {
 					is_subject_of = GER
 					has_focus_tree = vichy_french_focus
@@ -3483,7 +3483,7 @@ GER_case_anton_category = {
 				random_other_country = {
 					limit = {
 						original_tag = FRA
-						has_government = fascism
+						is_far_right_ideology = yes
 						OR = {
 							is_subject_of = GER
 							has_focus_tree = vichy_french_focus
@@ -12485,19 +12485,19 @@ political_actions = {
 
 		visible = {		
 			has_completed_focus = GER_democratic_shield
-			ROOT = { has_government = democratic }
+			ROOT = { is_center_bloc = yes }
 		}
 
 		fire_only_once = yes
 
 		available = {
 			has_completed_focus = GER_democratic_shield
-			ROOT = { has_government = democratic }
+			ROOT = { is_center_bloc = yes }
 		}
 
 		target_trigger = {
 			FROM = {
-				has_government = democratic
+				is_center_bloc = yes
 				is_subject = no
 				AND = {
 					has_war = yes
@@ -12592,14 +12592,14 @@ political_actions = {
 
 		visible = {
 			has_war = no
-			has_government = neutrality
+			is_right_ideology = yes
 			has_country_flag = backed_down_netherlands_kaiser
 		}
 
 		complete_effect = {
 			add_stability = -0.10
 			add_popularity = { 
-				ideology = neutrality 
+				ideology = right 
 				popularity = -0.05 
 			}
 			custom_effect_tooltip = reinstate_wilhelm_iv_succession_rights_tt
@@ -12630,7 +12630,7 @@ political_actions = {
 
 		visible = {
 			has_war = no
-			has_government = neutrality
+			is_right_ideology = yes
 			has_country_flag = reinstated_wilhelm_iv_succession_rights
 		}
 
@@ -12702,7 +12702,7 @@ political_actions = {
 		}
 
 		visible = {
-			has_government = neutrality
+			is_right_ideology = yes
 		}
 
 		complete_effect = {
@@ -12744,7 +12744,7 @@ foreign_politics = {
 
 		visible = {
 			has_war = no
-			has_government = neutrality
+			is_right_ideology = yes
 			OR = {
 				has_completed_focus = GER_ally_the_shade
 				has_completed_focus = GER_anglo_germanic_defense_pact
@@ -12812,7 +12812,7 @@ foreign_politics = {
 			HUN = {
 				has_character = HUN_franz_anton_bach
 			}
-			has_government = fascism
+			is_far_right_ideology = yes
 			NOT = { 
 				has_global_flag = GER_installed_bach_as_leader_of_hun_flag 
 			}
@@ -12836,7 +12836,7 @@ foreign_politics = {
 				set_global_flag = GER_installed_bach_as_leader_of_hun_flag
 				HUN = {
 					set_party_name = {
-						ideology = fascism
+						ideology = far_right
 						long_name = HUN_volksbund_party_long
 						name = HUN_volksbund_party
 					}	
@@ -12844,7 +12844,7 @@ foreign_politics = {
 					    character = HUN_franz_anton_bach
 					    promote_leader = yes
 					    country_leader = {
-					        ideology = nazism
+					        ideology = racial_supremacism
 					        expire = "1965.1.1.1"
 					        traits = { nazi_sympathizer volksgruppenfurher_der_volksbund }
 					    }
@@ -13013,7 +13013,7 @@ special_projects = {
 			factor = 5
 			modifier = {
 				factor = 2
-				NOT = { has_government = fascism } 
+				NOT = { is_far_right_ideology = yes } 
 			}
 		}
 		cancel_trigger = { NOT = { has_global_flag = GER_heavy_water_production_underway } } #can be removed via intelligence ops
@@ -13319,13 +13319,13 @@ GER_aid_hun_rom_democratic_civil_war = {
 
 		available = {
 			HUN = {
-				NOT = { has_government = democratic }
+				NOT = { is_center_bloc = yes }
 				NOT = { has_war_with = GER }
 				has_civil_war = yes
 				exists = yes
 				any_enemy_country = {
 					original_tag = HUN
-					has_government = democratic
+					is_center_bloc = yes
 				}
 			}
 		}
@@ -13342,7 +13342,7 @@ GER_aid_hun_rom_democratic_civil_war = {
 			HUN = {
 				has_civil_war = yes
 			}
-			GER = { has_government = democratic }
+			GER = { is_center_bloc = yes }
 		}
 
 		complete_effect = {
@@ -13354,7 +13354,7 @@ GER_aid_hun_rom_democratic_civil_war = {
 				random_country = {
 					limit = {
 						original_tag = HUN
-						has_government = democratic
+						is_center_bloc = yes
 						has_war_with = HUN
 					}
 					GER = { add_to_faction = PREV }
@@ -13363,7 +13363,7 @@ GER_aid_hun_rom_democratic_civil_war = {
 			random_country = {
 				limit = {
 					original_tag = HUN
-					has_government = democratic
+					is_center_bloc = yes
 					has_war_with = HUN
 				}
 				GER = { add_to_war = { targeted_alliance = PREV enemy = HUN hostility_reason = asked_to_join } }
@@ -13377,13 +13377,13 @@ GER_aid_hun_rom_democratic_civil_war = {
 
 		available = {
 			ROM = {
-				NOT = { has_government = democratic }
+				NOT = { is_center_bloc = yes }
 				NOT = { has_war_with = GER }
 				has_civil_war = yes
 				exists = yes
 				any_enemy_country = {
 					original_tag = ROM
-					has_government = democratic
+					is_center_bloc = yes
 				}
 			}
 		}
@@ -13400,7 +13400,7 @@ GER_aid_hun_rom_democratic_civil_war = {
 			ROM = {
 				has_civil_war = yes
 			}
-			GER = { has_government = democratic }
+			GER = { is_center_bloc = yes }
 		}
 
 		complete_effect = {
@@ -13412,7 +13412,7 @@ GER_aid_hun_rom_democratic_civil_war = {
 				random_country = {
 					limit = {
 						original_tag = ROM
-						has_government = democratic
+						is_center_bloc = yes
 						has_war_with = ROM
 					}
 					GER = { add_to_faction = PREV }
@@ -13421,7 +13421,7 @@ GER_aid_hun_rom_democratic_civil_war = {
 			random_country = {
 				limit = {
 					original_tag = ROM
-					has_government = democratic
+					is_center_bloc = yes
 					has_war_with = ROM
 				}
 				GER = { add_to_war = { targeted_alliance = PREV enemy = ROM hostility_reason = asked_to_join } }
@@ -13446,20 +13446,20 @@ GER_austro_hungarian_empire = {
 		available = {
 			AUS = {
 				OR = {
-					has_government = neutrality
-					neutrality > 0.4
+					is_right_ideology = yes
+					right > 0.4
 				}
 			}
 			HUN = {
 				OR = {
-					has_government = neutrality
-					neutrality > 0.4
+					is_right_ideology = yes
+					right > 0.4
 				}
 			}
 			CZE = {
 				OR = {
-					has_government = neutrality
-					neutrality > 0.4
+					is_right_ideology = yes
+					right > 0.4
 					exists = no
 				}
 			}
@@ -13472,10 +13472,10 @@ GER_austro_hungarian_empire = {
 						has_completed_focus = GER_rekindle_imperial_sentiment_ww
 						has_completed_focus = GER_rekindle_imperial_sentiment
 					}
-					has_government = neutrality
+					is_right_ideology = yes
 				}
 				TUR = {
-					has_government = neutrality
+					is_right_ideology = yes
 					has_completed_focus = TUR_press_the_austro_hungarian_claim
 				}
 			}
@@ -13773,7 +13773,7 @@ GER_reich_labor_service_cat = {
 
 		highlight_states = {
 			highlight_state_targets = {
-				state = 763 #Königsberg
+				state = 763 #Kﾃｶnigsberg
 				state = 5 #Ermland-Masuren
 				state = 66 #Niederschlesien
 				state = 67 #Oberschlesien
@@ -13799,7 +13799,7 @@ GER_reich_labor_service_cat = {
 			every_core_state = {
 				limit = {
 					OR = {
-						state = 763 #Königsberg
+						state = 763 #Kﾃｶnigsberg
 						state = 5 #Ermland-Masuren
 						state = 66 #Niederschlesien
 						state = 67 #Oberschlesien
@@ -13851,7 +13851,7 @@ GER_reich_labor_service_cat = {
 			highlight_state_targets = {
 				state = 64 #Brandenburg
 				state = 65 #Sachsen
-				state = 60 #Thüringen
+				state = 60 #Thﾃｼringen
 				state = 68 #Ostmark
 			}
 		}
@@ -13872,7 +13872,7 @@ GER_reich_labor_service_cat = {
 					OR = {
 						state = 64 #Brandenburg
 						state = 65 #Sachsen
-						state = 60 #Thüringen
+						state = 60 #Thﾃｼringen
 						state = 68 #Ostmark
 					}
 				}
@@ -13917,7 +13917,7 @@ GER_reich_labor_service_cat = {
 
 		highlight_states = {
 			highlight_state_targets = {
-				state = 50 #Württemberg
+				state = 50 #Wﾃｼrttemberg
 				state = 978 #Baden
 				state = 52 #Oberbayern
 				state = 53 #Niederbayern
@@ -13939,7 +13939,7 @@ GER_reich_labor_service_cat = {
 			every_core_state = {
 				limit = {
 					OR = {
-						state = 50 #Württemberg
+						state = 50 #Wﾃｼrttemberg
 						state = 978 #Baden
 						state = 52 #Oberbayern
 						state = 53 #Niederbayern
@@ -14354,7 +14354,7 @@ GER_rebuild_the_nation_cat = {
 
 		highlight_states = {
 			highlight_state_targets = {
-				state = 763 #Königsberg
+				state = 763 #Kﾃｶnigsberg
 				state = 5 #Ermland-Masuren
 				state = 66 #Niederschlesien
 				state = 67 #Oberschlesien
@@ -14380,7 +14380,7 @@ GER_rebuild_the_nation_cat = {
 			every_core_state = {
 				limit = {
 					OR = {
-						state = 763 #Königsberg
+						state = 763 #Kﾃｶnigsberg
 						state = 5 #Ermland-Masuren
 						state = 66 #Niederschlesien
 						state = 67 #Oberschlesien
@@ -14433,7 +14433,7 @@ GER_rebuild_the_nation_cat = {
 			highlight_state_targets = {
 				state = 64 #Brandenburg
 				state = 65 #Sachsen
-				state = 60 #Thüringen
+				state = 60 #Thﾃｼringen
 				state = 68 #Ostmark
 			}
 		}
@@ -14454,7 +14454,7 @@ GER_rebuild_the_nation_cat = {
 					OR = {
 						state = 64 #Brandenburg
 						state = 65 #Sachsen
-						state = 60 #Thüringen
+						state = 60 #Thﾃｼringen
 						state = 68 #Ostmark
 					}
 				}
@@ -14500,7 +14500,7 @@ GER_rebuild_the_nation_cat = {
 
 		highlight_states = {
 			highlight_state_targets = {
-				state = 50 #Württemberg
+				state = 50 #Wﾃｼrttemberg
 				state = 978 #Baden
 				state = 52 #Oberbayern
 				state = 53 #Niederbayern
@@ -14522,7 +14522,7 @@ GER_rebuild_the_nation_cat = {
 			every_core_state = {
 				limit = {
 					OR = {
-						state = 50 #Württemberg
+						state = 50 #Wﾃｼrttemberg
 						state = 978 #Baden
 						state = 52 #Oberbayern
 						state = 53 #Niederbayern
@@ -14588,14 +14588,14 @@ GER_influence_countries_cat = {
 					is_in_faction = no
 					is_in_faction_with = ROOT
 				}
-				NOT = { has_government = fascism }
-				fascism < 50
+				NOT = { is_far_right_ideology = yes }
+				far_right < 50
 			}
 		}
 
 		target_root_trigger =  {
 			has_completed_focus = GER_influence_the_baltics
-			has_government = fascism
+			is_far_right_ideology = yes
 		}
 
 		fire_only_once = no
@@ -14671,14 +14671,14 @@ GER_influence_countries_cat = {
 					is_in_faction = no
 					is_in_faction_with = ROOT
 				}
-				NOT = { has_government = fascism }
-				fascism < 50
+				NOT = { is_far_right_ideology = yes }
+				far_right < 50
 			}
 		}
 
 		target_root_trigger =  {
 			has_completed_focus = GER_utilize_the_nordliche_gesellschaft
-			has_government = fascism
+			is_far_right_ideology = yes
 		}
 
 		fire_only_once = no
@@ -14754,14 +14754,14 @@ GER_influence_countries_cat = {
 					is_in_faction = no
 					is_in_faction_with = ROOT
 				}
-				NOT = { has_government = fascism }
-				fascism < 50
+				NOT = { is_far_right_ideology = yes }
+				far_right < 50
 			}
 		}
 
 		target_root_trigger =  {
 			has_completed_focus = GER_influence_the_benelux
-			has_government = fascism
+			is_far_right_ideology = yes
 		}
 
 		fire_only_once = no
@@ -14837,8 +14837,8 @@ GER_influence_countries_cat = {
 					is_in_faction = no
 					is_in_faction_with = ROOT
 				}
-				NOT = { has_government = fascism }
-				fascism < 50
+				NOT = { is_far_right_ideology = yes }
+				far_right < 50
 			}
 		}
 
@@ -14847,7 +14847,7 @@ GER_influence_countries_cat = {
 				has_completed_focus = GER_influence_the_middle_east
 				has_completed_focus = GER_german_hegemony_in_the_middle_east
 			}
-			has_government = fascism
+			is_far_right_ideology = yes
 		}
 
 		fire_only_once = no
@@ -14923,14 +14923,14 @@ GER_influence_countries_cat = {
 					is_in_faction = no
 					is_in_faction_with = ROOT
 				}
-				NOT = { has_government = democratic }
-				democratic < 50
+				NOT = { is_center_bloc = yes }
+				center < 50
 			}
 		}
 
 		target_root_trigger =  {
 			has_completed_focus = GER_german_hegemony_in_the_middle_east
-			has_government = democratic
+			is_center_bloc = yes
 		}
 
 		fire_only_once = no
@@ -15006,14 +15006,14 @@ GER_influence_countries_cat = {
 					is_in_faction = no
 					is_in_faction_with = ROOT
 				}
-				NOT = { has_government = neutrality }
-				neutrality < 50
+				NOT = { is_right_ideology = yes }
+				right < 50
 			}
 		}
 
 		target_root_trigger =  {
 			has_completed_focus = GER_german_hegemony_in_the_middle_east
-			has_government = neutrality
+			is_right_ideology = yes
 		}
 
 		fire_only_once = no
@@ -15089,14 +15089,14 @@ GER_influence_countries_cat = {
 					is_in_faction = no
 					is_in_faction_with = ROOT
 				}
-				NOT = { has_government = neutrality }
-				neutrality < 50
+				NOT = { is_right_ideology = yes }
+				right < 50
 			}
 		}
 
 		target_root_trigger =  {
 			has_completed_focus = GER_sway_the_balkans
-			has_government = neutrality
+			is_right_ideology = yes
 		}
 
 		fire_only_once = no
@@ -15172,14 +15172,14 @@ GER_influence_countries_cat = {
 					is_in_faction = no
 					is_in_faction_with = ROOT
 				}
-				NOT = { has_government = democratic }
-				democratic < 50
+				NOT = { is_center_bloc = yes }
+				center < 50
 			}
 		}
 
 		target_root_trigger =  {
 			has_completed_focus = GER_sway_the_balkans
-			has_government = democratic
+			is_center_bloc = yes
 		}
 
 		fire_only_once = no
@@ -15257,14 +15257,14 @@ GER_influence_countries_cat = {
 					is_in_faction = no
 					is_in_faction_with = ROOT
 				}
-				NOT = { has_government = fascism }
-				fascism < 50
+				NOT = { is_far_right_ideology = yes }
+				far_right < 50
 			}
 		}
 
 		target_root_trigger =  {
 			has_completed_focus = GER_sway_the_balkans
-			has_government = fascism
+			is_far_right_ideology = yes
 		}
 
 		fire_only_once = no
@@ -17126,7 +17126,7 @@ GER_weltpolitik_cat = {
 					    owner = ROOT
 					}
 					create_unit = {
-					    division = "name = \"Askari Schutztruppe 'Lomé'\" division_template = \"Askari Schutztruppe\" start_experience_factor = 0.2 start_equipment_factor = 0.8"
+					    division = "name = \"Askari Schutztruppe 'Lomﾃｩ'\" division_template = \"Askari Schutztruppe\" start_experience_factor = 0.2 start_equipment_factor = 0.8"
 					    owner = ROOT
 					}
 				}
@@ -17750,7 +17750,7 @@ GER_weltpolitik_cat = {
 					    owner = ROOT
 					}
 					create_unit = {
-					    division = "name = \"Askari Schutztruppe 'Lüderitz'\" division_template = \"Askari Schutztruppe\" start_experience_factor = 0.2 start_equipment_factor = 0.8"
+					    division = "name = \"Askari Schutztruppe 'Lﾃｼderitz'\" division_template = \"Askari Schutztruppe\" start_experience_factor = 0.2 start_equipment_factor = 0.8"
 					    owner = ROOT
 					}
 				} 
@@ -18304,7 +18304,7 @@ GER_weltpolitik_cat = {
 		}
 	}
 
-	# Recruit Schutztruppen in Nördliche Salomonen (Asian Schutztruppe)
+	# Recruit Schutztruppen in Nﾃｶrdliche Salomonen (Asian Schutztruppe)
 	GER_train_schutztruppe_in_nordlische_salomonen = {
 		icon = GFX_decision_generic_prepare_civil_war
 		allowed = {
@@ -18615,7 +18615,7 @@ GER_weltpolitik_cat = {
 			}
 			modifier = {
 				factor = 2
-				has_government = democratic
+				is_center_bloc = yes
 			}
 		}
 	}
@@ -18694,7 +18694,7 @@ GER_weltpolitik_cat = {
 			}
 			modifier = {
 				factor = 2
-				has_government = democratic
+				is_center_bloc = yes
 			}
 		}
 	}
@@ -18959,8 +18959,8 @@ GER_realpolitik_cat = {
 		available = {
 			is_subject = no
 			OR = {
-				has_government = neutrality
-				has_government = democratic
+				is_right_ideology = yes
+				is_center_bloc = yes
 			}
 			AUS = {
 				NOT = {
@@ -18990,7 +18990,7 @@ GER_realpolitik_cat = {
 					IF = {
 						limit = {
 							ROOT = {
-								has_government = democratic
+								is_center_bloc = yes
 							}
 						}
 						add_timed_idea = {
@@ -19001,7 +19001,7 @@ GER_realpolitik_cat = {
 					ELSE_IF = {
 						limit = {
 							ROOT = {
-								has_government = neutrality
+								is_right_ideology = yes
 							}
 						}
 						add_timed_idea = {
@@ -19120,7 +19120,7 @@ GER_realpolitik_cat = {
 
 			IF = {
 				limit = {
-					has_government = neutrality
+					is_right_ideology = yes
 				}
 				set_autonomy = { 
 					target = UBD 
@@ -19129,7 +19129,7 @@ GER_realpolitik_cat = {
 			}
 			ELSE_IF = {
 				limit = {
-					has_government = democratic
+					is_center_bloc = yes
 				}
 				set_autonomy = { 
 					target = UBD 
@@ -19325,7 +19325,7 @@ GER_realpolitik_cat = {
 
 			IF = {
 				limit = {
-					has_government = neutrality
+					is_right_ideology = yes
 				}
 				set_autonomy = { 
 					target = UKR 
@@ -19334,7 +19334,7 @@ GER_realpolitik_cat = {
 			}
 			ELSE_IF = {
 				limit = {
-					has_government = democratic
+					is_center_bloc = yes
 				}
 				set_autonomy = { 
 					target = UKR 
@@ -19399,7 +19399,7 @@ GER_realpolitik_cat = {
 					add_country_leader_role = {
 						promote_leader = yes
 						country_leader = {
-							ideology = despotism
+							ideology = authoritarian_conservatism
 							expire = 1965.1.1
 							traits = { POL_cossack_king } 
 						}
@@ -19480,7 +19480,7 @@ GER_realpolitik_cat = {
 
 			IF = {
 				limit = {
-					has_government = neutrality
+					is_right_ideology = yes
 				}
 				set_autonomy = { 
 					target = GEO 
@@ -19489,7 +19489,7 @@ GER_realpolitik_cat = {
 			}
 			ELSE_IF = {
 				limit = {
-					has_government = democratic
+					is_center_bloc = yes
 				}
 				set_autonomy = { 
 					target = GEO 
@@ -19717,7 +19717,7 @@ GER_realpolitik_cat = {
 
 			IF = {
 				limit = {
-					has_government = neutrality
+					is_right_ideology = yes
 				}
 				set_autonomy = { 
 					target = BLR 
@@ -19726,7 +19726,7 @@ GER_realpolitik_cat = {
 			}
 			ELSE_IF = {
 				limit = {
-					has_government = democratic
+					is_center_bloc = yes
 				}
 				set_autonomy = { 
 					target = BLR 
@@ -19848,7 +19848,7 @@ GER_realpolitik_cat = {
 
 			IF = {
 				limit = {
-					has_government = neutrality
+					is_right_ideology = yes
 					BEL = {
 						NOT = {
 							is_subject_of = ROOT
@@ -19863,7 +19863,7 @@ GER_realpolitik_cat = {
 			}
 			ELSE_IF = {
 				limit = {
-					has_government = democratic
+					is_center_bloc = yes
 					BEL = {
 						NOT = {
 							is_subject_of = ROOT
@@ -19984,7 +19984,7 @@ GER_realpolitik_cat = {
 
 			IF = {
 				limit = {
-					has_government = neutrality
+					is_right_ideology = yes
 					BRI = {
 						NOT = {
 							is_subject_of = ROOT
@@ -19999,7 +19999,7 @@ GER_realpolitik_cat = {
 			}
 			ELSE_IF = {
 				limit = {
-					has_government = democratic
+					is_center_bloc = yes
 					BRI = {
 						NOT = {
 							is_subject_of = ROOT
@@ -20133,7 +20133,7 @@ GER_realpolitik_cat = {
 
 			IF = {
 				limit = {
-					has_government = neutrality
+					is_right_ideology = yes
 					WLS = {
 						NOT = {
 							is_subject_of = ROOT
@@ -20148,7 +20148,7 @@ GER_realpolitik_cat = {
 			}
 			ELSE_IF = {
 				limit = {
-					has_government = democratic
+					is_center_bloc = yes
 					WLS = {
 						NOT = {
 							is_subject_of = ROOT
@@ -20297,7 +20297,7 @@ GER_realpolitik_cat = {
 
 			IF = {
 				limit = {
-					has_government = neutrality
+					is_right_ideology = yes
 					SCO = {
 						NOT = {
 							is_subject_of = ROOT
@@ -20312,7 +20312,7 @@ GER_realpolitik_cat = {
 			}
 			ELSE_IF = {
 				limit = {
-					has_government = democratic
+					is_center_bloc = yes
 					SCO = {
 						NOT = {
 							is_subject_of = ROOT
@@ -20795,7 +20795,7 @@ GER_proletarian_revolution_cat = {
 
 			add_stability = decreased_stability
 			add_popularity = {
-				ideology = communism
+				ideology = left
 				popularity = increased_communist_support
 			}
 
@@ -20894,7 +20894,7 @@ GER_volkskommissariats_cat = {
 
 		target_trigger = {
 			FROM = {
-				has_government = communism
+				is_left_bloc = yes
 				any_home_area_neighbor_country = {
 					original_tag = GER
 				}
@@ -21096,8 +21096,8 @@ GER_spreading_the_red_flame_cat = {
 			FROM = {
 				is_subject = no
 				is_major = no
-				NOT = { has_government = communism }
-				NOT = { has_government = fascism }
+				NOT = { is_left_bloc = yes }
+				NOT = { is_far_right_ideology = yes }
 				has_civil_war = no
 				NOT = {
 					has_idea = GER_communist_influence
@@ -21188,8 +21188,8 @@ GER_spreading_the_red_flame_cat = {
 			FROM = {
 				is_subject = no
 				is_major = no
-				NOT = { has_government = communism }
-				NOT = { has_government = fascism }
+				NOT = { is_left_bloc = yes }
+				NOT = { is_far_right_ideology = yes }
 				has_civil_war = no
 				NOT = {
 					has_idea = GER_communist_influence
@@ -21279,8 +21279,8 @@ GER_spreading_the_red_flame_cat = {
 			FROM = {
 				is_subject = no
 				is_major = no
-				NOT = { has_government = communism }
-				NOT = { has_government = fascism }
+				NOT = { is_left_bloc = yes }
+				NOT = { is_far_right_ideology = yes }
 				has_civil_war = no
 				NOT = {
 					has_idea = GER_communist_influence
@@ -21351,8 +21351,8 @@ GER_spreading_the_red_flame_cat = {
 			FROM = {
 				is_subject = no
 				is_major = no
-				NOT = { has_government = communism }
-				NOT = { has_government = fascism }
+				NOT = { is_left_bloc = yes }
+				NOT = { is_far_right_ideology = yes }
 				has_civil_war = no
 				NOT = {
 					has_idea = GER_communist_influence
@@ -21417,7 +21417,7 @@ GER_spreading_the_red_flame_cat = {
 
 		target_trigger = {
 			FROM = {
-				has_government = communism
+				is_left_bloc = yes
 				has_civil_war = yes
 			}
 		}
@@ -21478,7 +21478,7 @@ GER_spreading_the_red_flame_cat = {
 		target_trigger = {
 			FROM = {
 				NOT = { has_war_with = ROOT }
-				has_government = communism 
+				is_left_bloc = yes 
 				is_subject = no
 				has_civil_war = no
 				has_country_flag = GER_spurred_communist_cw_flag
@@ -21526,7 +21526,7 @@ GER_spreading_the_red_flame_cat = {
 
 		target_trigger = {
 			FROM = {
-				has_government = communism
+				is_left_bloc = yes
 				has_civil_war = no
 				any_core_state = {
 					is_fully_controlled_by = FROM
@@ -21990,7 +21990,7 @@ GER_anti_colonialism_category = {
 			}
 			modifier = {
 				factor = 2
-				has_government = communism
+				is_left_bloc = yes
 			}
 		}
 	}
@@ -22099,7 +22099,7 @@ GER_the_fading_eagle_category = {
 		} 
 	
 		available = {
-			has_government = fascism
+			is_far_right_ideology = yes
 			ALB = {
 				is_in_faction_with = ROOT
 				is_subject = no
@@ -22159,7 +22159,7 @@ GER_the_fading_eagle_category = {
 		} 
 	
 		available = {
-			has_government = fascism
+			is_far_right_ideology = yes
 			MNT = {
 				is_in_faction_with = ROOT
 				is_subject = no
@@ -22219,7 +22219,7 @@ GER_the_fading_eagle_category = {
 		} 
 	
 		available = {
-			has_government = fascism
+			is_far_right_ideology = yes
 			CRO = {
 				is_in_faction_with = ROOT
 				is_subject = no
@@ -22279,7 +22279,7 @@ GER_the_fading_eagle_category = {
 		} 
 	
 		available = {
-			has_government = fascism
+			is_far_right_ideology = yes
 			SER = {
 				is_in_faction_with = ROOT
 				is_subject = no
@@ -22339,7 +22339,7 @@ GER_the_fading_eagle_category = {
 		} 
 	
 		available = {
-			has_government = fascism
+			is_far_right_ideology = yes
 			BOS = {
 				is_in_faction_with = ROOT
 				is_subject = no
@@ -22399,7 +22399,7 @@ GER_the_fading_eagle_category = {
 		} 
 	
 		available = {
-			has_government = fascism
+			is_far_right_ideology = yes
 			HRZ = {
 				is_in_faction_with = ROOT
 				is_subject = no
@@ -22459,7 +22459,7 @@ GER_the_fading_eagle_category = {
 		} 
 	
 		available = {
-			has_government = fascism
+			is_far_right_ideology = yes
 			MAC = {
 				is_in_faction_with = ROOT
 				is_subject = no
@@ -22519,7 +22519,7 @@ GER_the_fading_eagle_category = {
 		} 
 	
 		available = {
-			has_government = fascism
+			is_far_right_ideology = yes
 			SLV = {
 				is_in_faction_with = ROOT
 				is_subject = no
@@ -22579,7 +22579,7 @@ GER_the_fading_eagle_category = {
 		} 
 	
 		available = {
-			has_government = fascism
+			is_far_right_ideology = yes
 			KOS = {
 				is_in_faction_with = ROOT
 				is_subject = no

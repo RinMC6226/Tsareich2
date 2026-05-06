@@ -1,4 +1,4 @@
-﻿capital = 615
+capital = 615
 
 set_variable = { CHI_warlord_army_political_power_gain = 0 }
 set_variable = { CHI_warlord_army_army_core_attack_factor = 0 }
@@ -169,11 +169,11 @@ set_grand_doctrine = new_strategic_destruction
 }
 
 set_politics = {
-	ruling_party = neutrality
+	ruling_party = right
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
 }
 set_popularities = {
-	neutrality = 100
+	right = 100
 }

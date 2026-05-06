@@ -1,4 +1,4 @@
-﻿capital = 313
+capital = 313
 
 
 # Starting tech
@@ -17,7 +17,7 @@ if = {
 
 recruit_character = GUA_jorge_ubico
 recruit_character = GUA_justo_arbenz
-recruit_character = GUA_máximo_arbenz
+recruit_character = GUA_maximo_arbenz
 recruit_character = GUA_diego_barahona
 recruit_character = GUA_jorge_torriello_garrido
 recruit_character = GUA_carlos_diaz_de_leon
@@ -88,12 +88,12 @@ set_grand_doctrine = new_strategic_destruction
 }
 
 set_politics = {
-	ruling_party = neutrality
+	ruling_party = right
 	last_election = "1931.2.8"
 	election_frequency = 48
 	elections_allowed = no
 }
 set_popularities = {
-	democratic = 30
-	neutrality = 70
+	center = 30
+	right = 70
 }

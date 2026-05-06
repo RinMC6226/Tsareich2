@@ -1,4 +1,4 @@
-﻿capital = 267
+capital = 267
 
 if = {
 	limit = {
@@ -208,17 +208,17 @@ IF = {
 	}
 
 	set_politics = {
-		ruling_party = neutrality
+		ruling_party = right
 		last_election = "1936.1.1"
 		election_frequency = 48
 		elections_allowed = no
 	}
 	
 	set_popularities = {
-		fascism = 10
-		communism = 0
-		democratic = 15
-		neutrality = 75
+		far_right = 10
+		left = 0
+		center = 15
+		right = 75
 	}
 	set_war_support = 0.1
 
@@ -280,16 +280,16 @@ IF = {
 	recruit_character = AFG_muhammed_nowroz
 	
 	set_politics = {
-		ruling_party = neutrality
+		ruling_party = right
 		last_election = "1936.1.1"
 		election_frequency = 48
 		elections_allowed = no
 	}
 	
 	set_popularities = {
-		fascism = 15
-		communism = 10
-		neutrality = 75
+		far_right = 15
+		left = 10
+		right = 75
 	}
 
 	### Techs ###
@@ -415,15 +415,15 @@ IF = {
 
 1939.1.1 = {
 	set_politics = {
-		ruling_party = neutrality
+		ruling_party = right
 		last_election = "1936.1.1"
 		election_frequency = 48
 		elections_allowed = no
 	}
 	set_popularities = {
-		fascism = 20
-		communism = 10
-		neutrality = 70
+		far_right = 20
+		left = 10
+		right = 70
 	}
 }
 

@@ -1,4 +1,4 @@
-﻿capital = 206 #Minsk
+capital = 206 #Minsk
 
 
 set_research_slots = 3
@@ -91,10 +91,10 @@ if = {
 }
 
 set_popularities = {
-	democratic = 15
-	neutrality = 20
-	communism = 60
-	fascism = 5
+	center = 15
+	right = 20
+	left = 60
+	far_right = 5
 }
 
 recruit_character = BLR_adam_stankievic

@@ -265,7 +265,7 @@ set_grand_doctrine = grand_battleplan
 
 
 set_politics = {
-	ruling_party = neutrality
+	ruling_party = right
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
@@ -273,15 +273,15 @@ set_politics = {
 IF = {
 	limit = { has_dlc = "By Blood Alone" }
 	set_popularities = {
-		neutrality = 70
-		fascism = 20 
-		democratic = 5
-		communism = 5
+		right = 70
+		far_right = 20 
+		center = 5
+		left = 5
 	}
 }
 IF = {
 	limit = { NOT = { has_dlc = "By Blood Alone" } }
 	set_popularities = {
-		neutrality = 100
+		right = 100
 	}
 }

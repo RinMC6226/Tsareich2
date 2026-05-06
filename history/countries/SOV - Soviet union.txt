@@ -1,4 +1,4 @@
-﻿
+
 ####
 #### NO STEP BACK
 ####
@@ -6,12 +6,12 @@
 
 #You don't want Russian party names? Just remove these lines
 set_party_name = {
-	ideology = communism
+	ideology = left
 	long_name = SOV_communism_party_russian_long
 	name = SOV_communism_party_russian
 }
 set_party_name = {
-	ideology = fascism
+	ideology = far_right
 	long_name = SOV_fascism_party_russian_long
 	name = SOV_fascism_party_russian
 }
@@ -1029,7 +1029,7 @@ add_ideas = {
 	add_state_claim = 146 #KARELIA (FIN)
 	#add_state_claim = 147 #SALLA (FIN) # Claim removed from MR pact (AAT)
 	#add_state_claim = 722 #PETSAMO (FIN) # Claim removed from MR pact (AAT)
-	add_state_claim = 13 #PÄRNU (EST)
+	add_state_claim = 13 #PARNU (EST)
 	add_state_claim = 191 #TARTU (EST)
 	add_state_claim = 811 #SAAREMAA (EST)
 	add_state_claim = 813 #VIRUMAA (EST)
@@ -1290,15 +1290,15 @@ add_mastery = {
 set_convoys = 50
 
 set_politics = {
-	ruling_party = communism
+	ruling_party = left
 	last_election = "1933.7.1"
 	election_frequency = 48
 	elections_allowed = no
 }
 set_popularities = {
-	democratic = 10
-	fascism = 2
-	communism = 88
+	center = 10
+	far_right = 2
+	left = 88
 }
 
 if = {

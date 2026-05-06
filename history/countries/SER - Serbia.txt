@@ -1,4 +1,4 @@
-﻿capital = 107
+capital = 107
 
 
 set_research_slots = 3
@@ -161,21 +161,21 @@ set_grand_doctrine = new_strategic_destruction
 set_convoys = 0
 
 set_politics = {
-	ruling_party = neutrality
+	ruling_party = right
 	last_election = "1936.1.1"
 	election_frequency = 36
 	elections_allowed = yes
 }
 set_popularities = {
-	democratic = 20
-	fascism = 30
-	communism = 20
-	neutrality = 30
+	center = 20
+	far_right = 30
+	left = 20
+	right = 30
 }
 
 1939.1.1 = {
 	set_politics = {
-		ruling_party = neutrality
+		ruling_party = right
 		last_election = "1939.1.1"
 		election_frequency = 36
 		elections_allowed = yes
@@ -199,7 +199,7 @@ create_country_leader = {
 	desc = ""
 	picture = GFX_portrait_Milan_Nedic
 	expire = "1965.1.1"
-	ideology = fascism_ideology
+	ideology = far_right_ideology
 	traits = {
 		#
 	}
@@ -221,7 +221,7 @@ create_country_leader = {
 	desc = ""
 	picture = GFX_portrait_Zivorad_Jovanovic
 	expire = "1965.1.1"
-	ideology = leninism
+	ideology = vanguard_communism
 	traits = {
 		#
 	}

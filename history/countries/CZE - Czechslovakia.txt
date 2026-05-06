@@ -1,4 +1,4 @@
-﻿capital = 9
+capital = 9
 
 set_cosmetic_tag = CZE_GER_puppet
 
@@ -109,17 +109,17 @@ IF = {
 set_research_slots = 3
 
 set_politics = {
-	ruling_party = neutrality
+	ruling_party = right
 	last_election = "1935.5.19"
 	election_frequency = 60
 	elections_allowed = no
 }
 
 set_popularities = {
-	democratic = 0
-	neutrality = 100
-	fascism = 0
-	communism = 0
+	center = 0
+	right = 100
+	far_right = 0
+	left = 0
 }
 
 if = {

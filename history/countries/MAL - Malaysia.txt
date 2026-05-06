@@ -1,4 +1,4 @@
-﻿capital = 336 #Kuala Lumpur
+capital = 336 #Kuala Lumpur
 
 
 set_research_slots = 3
@@ -116,9 +116,9 @@ if = {
 }
 
 set_popularities = {
-	democratic = 33
-	communism = 33
-	neutrality = 34
+	center = 33
+	left = 33
+	right = 34
 }
 
 

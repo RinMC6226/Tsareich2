@@ -1,4 +1,4 @@
-﻿capital = 301 #Asuncion
+capital = 301 #Asuncion
 
 
 ### CORES = 301, 688, 957, 510, 504, 944, 503, 502
@@ -50,16 +50,16 @@ IF = {
 
 
 set_politics = {
-	ruling_party = neutrality
+	ruling_party = right
 	last_election = "1934.2.11"
 	election_frequency = 48
 	elections_allowed = yes
 }
 set_popularities = {
-	democratic = 20
-	communism = 15
-	neutrality = 60
-	fascism = 5
+	center = 20
+	left = 15
+	right = 60
+	far_right = 5
 }
 
 

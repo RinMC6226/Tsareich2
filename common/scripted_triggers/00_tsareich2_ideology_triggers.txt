@@ -1,0 +1,72 @@
+is_far_left_ideology = {
+	has_government = far_left
+}
+
+is_left_ideology = {
+	has_government = left
+}
+
+is_center_left_ideology = {
+	has_government = center_left
+}
+
+is_center_ideology = {
+	has_government = center
+}
+
+is_center_right_ideology = {
+	has_government = center_right
+}
+
+is_right_ideology = {
+	has_government = right
+}
+
+is_far_right_ideology = {
+	has_government = far_right
+}
+
+is_left_bloc = {
+	OR = {
+		has_government = far_left
+		has_government = left
+	}
+}
+
+is_center_bloc = {
+	OR = {
+		has_government = center_left
+		has_government = center
+		has_government = center_right
+	}
+}
+
+is_right_bloc = {
+	OR = {
+		has_government = right
+		has_government = far_right
+	}
+}
+
+is_former_communist_bloc = {
+	OR = {
+		has_government = far_left
+		has_government = left
+	}
+}
+
+is_former_democratic_bloc = {
+	OR = {
+		has_government = center_left
+		has_government = center
+		has_government = center_right
+	}
+}
+
+is_former_neutrality_bloc = {
+	has_government = right
+}
+
+is_former_fascist_bloc = {
+	has_government = far_right
+}

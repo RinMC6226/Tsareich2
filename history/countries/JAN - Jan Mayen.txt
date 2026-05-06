@@ -1,4 +1,4 @@
-﻿capital = 914
+capital = 914
 
 if = {
 	limit = { has_aat = yes }
@@ -62,15 +62,15 @@ set_grand_doctrine = new_strategic_destruction
 
 
 set_politics = {
-	ruling_party = neutrality
+	ruling_party = right
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
 }
 set_popularities = {
-	democratic = 0
-	fascism = 0
-	communism = 0
-	neutrality = 100
+	center = 0
+	far_right = 0
+	left = 0
+	right = 100
 }
 add_research_slot = 2

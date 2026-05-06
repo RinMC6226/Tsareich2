@@ -1,4 +1,4 @@
-﻿capital = 827 #Nalchik
+capital = 827 #Nalchik
 
 #oob = "KBK_1936"
 
@@ -84,17 +84,17 @@ if = {
 	}
 }
 set_politics = {
-	ruling_party = democratic
+	ruling_party = center
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = yes
 }
 
 set_popularities = {
-	democratic = 70
-	fascism = 30
-	communism = 0
-	neutrality = 0
+	center = 70
+	far_right = 30
+	left = 0
+	right = 0
 }
 
 

@@ -1,4 +1,4 @@
-﻿set_autonomy = {
+set_autonomy = {
 	target = SYR
 	autonomous_state = autonomy_puppet
 	freedom_level = 0
@@ -238,16 +238,16 @@ set_war_support = 0.3
 # 7. Politics
 # ------------------------------------------------------------
 set_politics = {
-	ruling_party = neutrality
+	ruling_party = right
 	last_election = "1933.3.5"
 	election_frequency = 48
 	elections_allowed = no
 }
 set_popularities = {
-	democratic = 15
-	fascism = 0
-	communism = 5
-	neutrality = 80
+	center = 15
+	far_right = 0
+	left = 5
+	right = 80
 }
 
 create_faction_from_template = faction_template_imperial_alliance
@@ -433,7 +433,7 @@ if = {
 	## 1936 Start ##
 	# Light Cruisers #
 	create_equipment_variant = {
-		name = "Kﾃｶnigsberg"
+		name = "Königsberg"
 		type = light_cruiser_1
 		parent_version = 0
 		upgrades = {
@@ -598,7 +598,7 @@ if = {
 		obsolete = yes
 	}
 	create_equipment_variant = {
-		name = "Zerstﾃｶrer 1934"
+		name = "Zerstörer 1934"
 		type = ship_hull_light_2
 		name_group = GER_DD_HISTORICAL
 		parent_version = 0
@@ -615,7 +615,7 @@ if = {
 		obsolete = yes
 	}
 	create_equipment_variant = {
-		name = "Zerstﾃｶrer 1934A"
+		name = "Zerstörer 1934A"
 		type = ship_hull_light_2
 		name_group = GER_DD_HISTORICAL
 		parent_version = 0
@@ -654,7 +654,7 @@ if = {
 		}
 	}
 	create_equipment_variant = {
-		name = "Kﾃｶnigsberg"
+		name = "Königsberg"
 		type = ship_hull_cruiser_1
 		name_group = GER_CL_HISTORICAL
 		parent_version = 0

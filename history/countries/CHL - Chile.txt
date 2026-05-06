@@ -1,4 +1,4 @@
-﻿capital = 279
+capital = 279
 
 IF = {
 	limit = { 
@@ -144,9 +144,9 @@ IF = {
 		}
 	}
 	recruit_character = CHL_arturo_alessandri
-	recruit_character = CHL_jorge_gonzález_von_marées
+	recruit_character = CHL_jorge_gonzalez_von_marees
 	recruit_character = CHL_carlos_contreras_labarca
-	recruit_character = CHL_escudero_oscar_otárola
+	recruit_character = CHL_escudero_oscar_otarola
 	recruit_character = CHL_domingo_blanco # not in the dlc
 	recruit_character = CHL_julio_allard_pinto
 	recruit_character = CHL_gustavo_silva # not in the dlc
@@ -170,10 +170,10 @@ IF = {
 			has_dlc = "Trial of Allegiance"
 		}
 		recruit_character = CHL_arturo_alessandri
-		recruit_character = CHL_jorge_gonzález_von_marées
+		recruit_character = CHL_jorge_gonzalez_von_marees
 		recruit_character = CHL_carlos_contreras_labarca
 		recruit_character = CHL_pedro_aguirre_cerda
-		recruit_character = CHL_escudero_oscar_otárola
+		recruit_character = CHL_escudero_oscar_otarola
 		recruit_character = CHL_julio_allard_pinto
 		recruit_character = CHL_jose_luis_sanchez_besa
 		recruit_character = CHL_marmaduke_grove
@@ -275,16 +275,16 @@ set_country_flag = monroe_doctrine
 set_convoys = 50
 
 set_politics = {
-	ruling_party = democratic
+	ruling_party = center
 	last_election = "1932.10.30"
 	election_frequency = 72  #but 4 years after this one in 1938.
 	elections_allowed = yes
 }
 set_popularities = {
-	democratic = 80
-	communism = 10
-	fascism = 7
-	neutrality = 3
+	center = 80
+	left = 10
+	far_right = 7
+	right = 3
 }
 
 # Setting up 1939 oobs and focuses
@@ -409,16 +409,16 @@ set_grand_doctrine = new_strategic_destruction
 # Setting up 1939 Politics
 1939.1.1 = {
 	set_politics = {
-		ruling_party = democratic
+		ruling_party = center
 		last_election = "1938.10.25"
 		election_frequency = 48
 		elections_allowed = yes
 	}
 
 	set_popularities = {
-		democratic = 80
-		communism = 10
-		fascism = 10
+		center = 80
+		left = 10
+		far_right = 10
 	}
 
 	IF = {
@@ -438,7 +438,7 @@ set_grand_doctrine = new_strategic_destruction
 			    character = CHL_pedro_aguirre_cerda
 			    promote_leader = yes
 			    country_leader = {
-			        ideology = socialism
+			        ideology = social_democracy
 			        expire = "1965.1.1.1"
 			        traits = { JUNO_gobernar_es_educar }
 			    }
@@ -455,7 +455,7 @@ IF = {
 	limit = { NOT = { has_dlc = "Man the Guns" } }
 	### Ship Variants ###
 	create_equipment_variant = {
-		name = "Capitán O'Brien Class"
+		name = "Capitan O'Brien Class"
 		type = submarine_1
 		upgrades = {
 			ship_reliability_upgrade = 1
@@ -491,7 +491,7 @@ IF = {
 		obsolete = yes
 	}
 	create_equipment_variant = {
-		name = "Capitán O'Brien Class"				
+		name = "Capitan O'Brien Class"				
 		type = ship_hull_submarine_1
 		name_group = CHL_SS_HISTORICAL
 		parent_version = 0

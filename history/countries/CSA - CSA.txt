@@ -1,4 +1,4 @@
-﻿capital = 361
+capital = 361
 
 
 set_research_slots = 3
@@ -195,15 +195,15 @@ set_convoys = 100
 
 
 set_politics = {
-	ruling_party = democratic
+	ruling_party = center
 	last_election = "1932.11.8"
 	election_frequency = 48
 	elections_allowed = yes
 }
 set_popularities = {
-	democratic = 80
-	fascism = 10
-	communism = 10
+	center = 80
+	far_right = 10
+	left = 10
 }
 
 add_ideas = {
@@ -215,14 +215,14 @@ add_ideas = {
 
 1939.1.1 = {
 	set_politics = {
-		ruling_party = democratic
+		ruling_party = center
 		last_election = "1936.11.3"
 		election_frequency = 48
 		elections_allowed = yes
 	}
 	set_popularities = {
-		democratic = 99
-		communism = 1
+		center = 99
+		left = 1
 	}
 }
 
@@ -231,7 +231,7 @@ create_country_leader = {
 	desc = "POLITICS_WILLIAM_DUDLEY_PELLEY_DESC"
 	picture = GFX_portrait_William_Dudley_Pelley
 	expire = "1965.1.1"
-	ideology = fascism_ideology
+	ideology = far_right_ideology
 	traits = {
 		
 	}

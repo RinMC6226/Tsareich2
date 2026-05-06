@@ -1,4 +1,4 @@
-﻿capital = 307
+capital = 307
 
 
 # Starting tech
@@ -19,7 +19,7 @@ if = {
 	}
 }
 
-recruit_character = VEN_eleazar_lópez_contreras
+recruit_character = VEN_eleazar_lopez_contreras
 recruit_character = VEN_juan_bautista_fuenmayor
 recruit_character = VEN_luis_figueroa
 recruit_character = VEN_patricio_franco
@@ -102,13 +102,13 @@ set_grand_doctrine = new_strategic_destruction
 
 set_convoys = 10
 set_politics = {
-	ruling_party = fascism
+	ruling_party = far_right
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
 }
 set_popularities = {
-	democratic = 5
-	fascism = 80
-	communism = 15
+	center = 5
+	far_right = 80
+	left = 15
 }

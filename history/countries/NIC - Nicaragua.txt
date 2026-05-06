@@ -1,4 +1,4 @@
-﻿capital = 317
+capital = 317
 
 
 # Starting tech
@@ -19,9 +19,9 @@ if = {
 }
 
 recruit_character = NIC_juan_bautista_sacasa
-recruit_character = NIC_anastasio_somoza_garcía
+recruit_character = NIC_anastasio_somoza_garcia
 recruit_character = NIC_francisco_leiva
-recruit_character = NIC_josé_francisco_leiva
+recruit_character = NIC_jose_francisco_leiva
 recruit_character = NIC_joel_garcia_zaldana
 recruit_character = NIC_toribio_fermin
 recruit_character = NIC_augusto_caraval_antonio
@@ -92,21 +92,21 @@ set_grand_doctrine = new_strategic_destruction
 }
 
 set_politics = {
-	ruling_party = neutrality
+	ruling_party = right
 	last_election = "1934.11.8"
 	election_frequency = 48
 	elections_allowed = no
 }
 set_popularities = {
-	democratic = 15
-	fascism = 5
-	communism = 10
-	neutrality = 70
+	center = 15
+	far_right = 5
+	left = 10
+	right = 70
 }
 
 1939.1.1 = {
 	set_politics = {
-		ruling_party = neutrality
+		ruling_party = right
 		last_election = "1936.12.8"
 		election_frequency = 48
 		elections_allowed = no

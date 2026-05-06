@@ -1,4 +1,4 @@
-﻿capital = 162
+capital = 162
 
 set_research_slots = 3
 set_stability = 0.5
@@ -101,17 +101,17 @@ IF = {
 set_convoys = 60
 
 set_politics = {
-	ruling_party = neutrality
+	ruling_party = right
 	last_election = "1934.3.26"
 	election_frequency = 60
 	elections_allowed = no
 }
 
 set_popularities = {
-	democratic = 30
-	fascism = 5
-	communism = 5
-	neutrality = 60
+	center = 30
+	far_right = 5
+	left = 5
+	right = 60
 }
 
 recruit_character = TOS_joseph_ferdinand_von_habsburg
