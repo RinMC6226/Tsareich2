@@ -9,14 +9,10 @@ state = {
 		owner = SAU
 		controller = SAU
 		add_core_of = SAU
-
-		victory_points = {
-			11976 1 # Ma'an
-		}
 	}
 
 	provinces = {
-		11976 4603 4562
+		4603 4562
 	}
 
 	local_supplies = 0.0

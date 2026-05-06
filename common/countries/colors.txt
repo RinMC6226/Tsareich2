@@ -66,8 +66,8 @@ ROM = {
 	color_ui = rgb { 178 178 84 }
 }
 YUG = {
-	color = rgb { 48 54 96 }
-	color_ui = rgb { 64 72 124 }
+	color = rgb { 50 51 88 }
+	color_ui = rgb { 66 67 115 }
 }
 DSW = {
 	color = rgb { 80 80 80 }
@@ -419,7 +419,7 @@ XSM = {
 }
 
 STC = {
-	color = rgb { 64 92 74 }
+	color = rgb { 46 48 112 }
 	color_ui = rgb { 113 130 101 }
 }
 

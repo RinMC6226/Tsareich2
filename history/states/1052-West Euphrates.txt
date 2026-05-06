@@ -14,8 +14,8 @@ state = {
 		add_core_of = SAU
 	}
 
-	provinces = {
-		1631 4951
+	provinces={
+		1631 4951 13399 
 	}
 
 	buildings_max_level_factor = 1.000

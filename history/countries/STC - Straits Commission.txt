@@ -16,3 +16,5 @@ set_popularities = {
 	communism = 0
 	neutrality = 100
 }
+
+GER = { add_to_faction = STC }

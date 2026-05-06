@@ -4,7 +4,7 @@ state={
 	provinces={
 		9833 
 	}
-	manpower = 521138
+	manpower = 741185
 	resources={
 		#chromium=45 # was: 84
 		#steel = 10 # was: 20

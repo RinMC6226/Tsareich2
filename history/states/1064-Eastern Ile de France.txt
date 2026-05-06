@@ -1,0 +1,29 @@
+state = {
+	id = 1064
+	name = "STATE_1064"
+	manpower = 897127
+
+	state_category = metropolis
+
+	history = {
+		owner = FRA
+		add_core_of = FRA
+
+		buildings = {
+			9523 = {
+				landmark_eiffel_tower = {
+					level = 1
+					allowed = {
+						has_dlc = "Gotterdammerung"
+					}
+				}
+			}
+		}
+	}
+
+	provinces = {
+		6547 9507 9523 9725
+	}
+
+	local_supplies = 0.0
+}
