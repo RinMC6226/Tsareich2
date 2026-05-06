@@ -660,3 +660,195 @@ RUS_CAR_01 = {
 	1007 = { "1ya Turkestanskaya Kazach'ya Div." }
 	}
 }
+
+RUS_INF_04 = {
+	name = "Rifle Division"
+
+	for_countries = {
+		RUS
+	}
+
+	can_use = {
+		always = yes
+	}
+
+	division_types = {
+		"infantry"
+	}
+
+	fallback_name = "%dya Strelkovaya Diviziya"
+
+	ordered = {
+		1 = { "%dya Strelkovaya Diviziya" }
+		2 = { "%dya Strelkovaya Diviziya" }
+		3 = { "%dya Strelkovaya Diviziya" }
+		4 = { "%dya Strelkovaya Diviziya" }
+		5 = { "%dya Strelkovaya Diviziya" }
+		6 = { "%dya Strelkovaya Diviziya" }
+		7 = { "%dya Strelkovaya Diviziya" }
+		8 = { "%dya Strelkovaya Diviziya" }
+		9 = { "%dya Strelkovaya Diviziya" }
+		10 = { "%dya Strelkovaya Diviziya" }
+		11 = { "%dya Strelkovaya Diviziya" }
+		12 = { "%dya Strelkovaya Diviziya" }
+		13 = { "%dya Strelkovaya Diviziya" }
+		14 = { "%dya Strelkovaya Diviziya" }
+		15 = { "%dya Strelkovaya Diviziya" }
+		16 = { "%dya Strelkovaya Diviziya" }
+		17 = { "%dya Strelkovaya Diviziya" }
+		18 = { "%dya Strelkovaya Diviziya" }
+		19 = { "%dya Strelkovaya Diviziya" }
+		20 = { "%dya Strelkovaya Diviziya" }
+		21 = { "%dya Strelkovaya Diviziya" }
+		22 = { "%dya Strelkovaya Diviziya" }
+		23 = { "%dya Strelkovaya Diviziya" }
+		24 = { "%dya Strelkovaya Diviziya" }
+		25 = { "%dya Strelkovaya Diviziya" }
+		26 = { "%dya Strelkovaya Diviziya" }
+		27 = { "%dya Strelkovaya Diviziya" }
+		28 = { "%dya Strelkovaya Diviziya" }
+		29 = { "%dya Strelkovaya Diviziya" }
+		30 = { "%dya Strelkovaya Diviziya" }
+		31 = { "%dya Strelkovaya Diviziya" }
+		32 = { "%dya Strelkovaya Diviziya" }
+		33 = { "%dya Strelkovaya Diviziya" }
+		34 = { "%dya Strelkovaya Diviziya" }
+		35 = { "%dya Strelkovaya Diviziya" }
+		36 = { "%dya Strelkovaya Diviziya" }
+		37 = { "%dya Strelkovaya Diviziya" }
+		38 = { "%dya Strelkovaya Diviziya" }
+		39 = { "%dya Strelkovaya Diviziya" }
+		40 = { "%dya Strelkovaya Diviziya" }
+		41 = { "%dya Strelkovaya Diviziya" }
+		42 = { "%dya Strelkovaya Diviziya" }
+		43 = { "%dya Strelkovaya Diviziya" }
+		44 = { "%dya Strelkovaya Diviziya" }
+		45 = { "%dya Strelkovaya Diviziya" }
+		46 = { "%dya Strelkovaya Diviziya" }
+		47 = { "%dya Strelkovaya Diviziya" }
+		48 = { "%dya Strelkovaya Diviziya" }
+		49 = { "%dya Strelkovaya Diviziya" }
+		50 = { "%dya Strelkovaya Diviziya" }
+		51 = { "%dya Strelkovaya Diviziya" }
+		52 = { "%dya Strelkovaya Diviziya" }
+		53 = { "%dya Strelkovaya Diviziya" }
+		54 = { "%dya Strelkovaya Diviziya" }
+		55 = { "%dya Strelkovaya Diviziya" }
+		56 = { "%dya Strelkovaya Diviziya" }
+		57 = { "%dya Strelkovaya Diviziya" }
+		58 = { "%dya Strelkovaya Diviziya" }
+		59 = { "%dya Strelkovaya Diviziya" }
+		60 = { "%dya Strelkovaya Diviziya" }
+		61 = { "%dya Strelkovaya Diviziya" }
+		62 = { "%dya Strelkovaya Diviziya" }
+		63 = { "%dya Strelkovaya Diviziya" }
+		64 = { "%dya Strelkovaya Diviziya" }
+		65 = { "%dya Strelkovaya Diviziya" }
+		66 = { "%dya Strelkovaya Diviziya" }
+		67 = { "%dya Strelkovaya Diviziya" }
+		68 = { "%dya Strelkovaya Diviziya" }
+		69 = { "%dya Strelkovaya Diviziya" }
+		70 = { "%dya Strelkovaya Diviziya" }
+		71 = { "%dya Strelkovaya Diviziya" }
+		72 = { "%dya Strelkovaya Diviziya" }
+		73 = { "%dya Strelkovaya Diviziya" }
+		74 = { "%dya Strelkovaya Diviziya" }
+		75 = { "%dya Strelkovaya Diviziya" }
+		76 = { "%dya Strelkovaya Diviziya" }
+		77 = { "%dya Strelkovaya Diviziya" }
+		78 = { "%dya Strelkovaya Diviziya" }
+		79 = { "%dya Strelkovaya Diviziya" }
+		80 = { "%dya Strelkovaya Diviziya" }
+		81 = { "%dya Strelkovaya Diviziya" }
+		82 = { "%dya Strelkovaya Diviziya" }
+		83 = { "%dya Strelkovaya Diviziya" }
+		84 = { "%dya Strelkovaya Diviziya" }
+		85 = { "%dya Strelkovaya Diviziya" }
+		86 = { "%dya Strelkovaya Diviziya" }
+		87 = { "%dya Strelkovaya Diviziya" }
+		88 = { "%dya Strelkovaya Diviziya" }
+		89 = { "%dya Strelkovaya Diviziya" }
+		90 = { "%dya Strelkovaya Diviziya" }
+		91 = { "%dya Strelkovaya Diviziya" }
+		92 = { "%dya Strelkovaya Diviziya" }
+		93 = { "%dya Strelkovaya Diviziya" }
+		94 = { "%dya Strelkovaya Diviziya" }
+		95 = { "%dya Strelkovaya Diviziya" }
+		96 = { "%dya Strelkovaya Diviziya" }
+		97 = { "%dya Strelkovaya Diviziya" }
+		98 = { "%dya Strelkovaya Diviziya" }
+		99 = { "%dya Strelkovaya Diviziya" }
+		100 = { "%dya Strelkovaya Diviziya" }
+	}
+}
+
+RUS_ARM_01 = {
+	name = "Tank Division"
+
+	for_countries = {
+		RUS
+	}
+
+	can_use = {
+		always = yes
+	}
+
+	division_types = {
+		"armor"
+	}
+
+	fallback_name = "%dya Tankovaya Diviziya"
+
+	ordered = {
+		1 = { "%dya Tankovaya Diviziya" }
+		2 = { "%dya Tankovaya Diviziya" }
+		3 = { "%dya Tankovaya Diviziya" }
+		4 = { "%dya Tankovaya Diviziya" }
+		5 = { "%dya Tankovaya Diviziya" }
+		6 = { "%dya Tankovaya Diviziya" }
+		7 = { "%dya Tankovaya Diviziya" }
+		8 = { "%dya Tankovaya Diviziya" }
+		9 = { "%dya Tankovaya Diviziya" }
+		10 = { "%dya Tankovaya Diviziya" }
+		11 = { "%dya Tankovaya Diviziya" }
+		12 = { "%dya Tankovaya Diviziya" }
+		13 = { "%dya Tankovaya Diviziya" }
+		14 = { "%dya Tankovaya Diviziya" }
+		15 = { "%dya Tankovaya Diviziya" }
+		16 = { "%dya Tankovaya Diviziya" }
+		17 = { "%dya Tankovaya Diviziya" }
+		18 = { "%dya Tankovaya Diviziya" }
+		19 = { "%dya Tankovaya Diviziya" }
+		20 = { "%dya Tankovaya Diviziya" }
+		21 = { "%dya Tankovaya Diviziya" }
+		22 = { "%dya Tankovaya Diviziya" }
+		23 = { "%dya Tankovaya Diviziya" }
+		24 = { "%dya Tankovaya Diviziya" }
+		25 = { "%dya Tankovaya Diviziya" }
+		26 = { "%dya Tankovaya Diviziya" }
+		27 = { "%dya Tankovaya Diviziya" }
+		28 = { "%dya Tankovaya Diviziya" }
+		29 = { "%dya Tankovaya Diviziya" }
+		30 = { "%dya Tankovaya Diviziya" }
+		31 = { "%dya Tankovaya Diviziya" }
+		32 = { "%dya Tankovaya Diviziya" }
+		33 = { "%dya Tankovaya Diviziya" }
+		34 = { "%dya Tankovaya Diviziya" }
+		35 = { "%dya Tankovaya Diviziya" }
+		36 = { "%dya Tankovaya Diviziya" }
+		37 = { "%dya Tankovaya Diviziya" }
+		38 = { "%dya Tankovaya Diviziya" }
+		39 = { "%dya Tankovaya Diviziya" }
+		40 = { "%dya Tankovaya Diviziya" }
+		41 = { "%dya Tankovaya Diviziya" }
+		42 = { "%dya Tankovaya Diviziya" }
+		43 = { "%dya Tankovaya Diviziya" }
+		44 = { "%dya Tankovaya Diviziya" }
+		45 = { "%dya Tankovaya Diviziya" }
+		46 = { "%dya Tankovaya Diviziya" }
+		47 = { "%dya Tankovaya Diviziya" }
+		48 = { "%dya Tankovaya Diviziya" }
+		49 = { "%dya Tankovaya Diviziya" }
+		50 = { "%dya Tankovaya Diviziya" }
+	}
+}
