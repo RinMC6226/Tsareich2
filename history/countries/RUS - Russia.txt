@@ -147,6 +147,53 @@ set_technology = { # mod
 
 }
 
+
+################
+#STATE MODIFIER#
+################
+		826 = { add_dynamic_modifier = { modifier = RUS_registration_issue } }
+		231 = { add_dynamic_modifier = { modifier = RUS_registration_issue } }
+		229 = { add_dynamic_modifier = { modifier = RUS_registration_issue } }
+		230 = { add_dynamic_modifier = { modifier = RUS_registration_issue } }
+		1058 = { add_dynamic_modifier = { modifier = RUS_registration_issue } }
+		587 = { add_dynamic_modifier = { modifier = RUS_registration_issue } }
+		823 = { add_dynamic_modifier = { modifier = RUS_registration_issue } }
+		584 = { add_dynamic_modifier = { modifier = RUS_registration_issue } }
+		832 = { add_dynamic_modifier = { modifier = RUS_registration_issue } }
+		831 = { add_dynamic_modifier = { modifier = RUS_registration_issue } }
+		830 = { add_dynamic_modifier = { modifier = RUS_registration_issue } }
+		585 = { add_dynamic_modifier = { modifier = RUS_registration_issue } }
+		405 = { add_dynamic_modifier = { modifier = RUS_registration_issue } }
+		732 = { add_dynamic_modifier = { modifier = RUS_registration_issue } }
+		586 = { add_dynamic_modifier = { modifier = RUS_registration_issue } }
+		404 = { add_dynamic_modifier = { modifier = RUS_registration_issue } }
+		402 = { add_dynamic_modifier = { modifier = RUS_registration_issue } }
+		881 = { add_dynamic_modifier = { modifier = RUS_registration_issue } }
+		589 = { add_dynamic_modifier = { modifier = RUS_registration_issue } }
+		588 = { add_dynamic_modifier = { modifier = RUS_registration_issue } }
+		590 = { add_dynamic_modifier = { modifier = RUS_registration_issue } }
+		583 = { add_dynamic_modifier = { modifier = RUS_registration_issue } }
+		407 = { add_dynamic_modifier = { modifier = RUS_registration_issue } }
+		406 = { add_dynamic_modifier = { modifier = RUS_registration_issue } }
+		233 = { add_dynamic_modifier = { modifier = RUS_registration_issue } }
+		827 = { add_dynamic_modifier = { modifier = RUS_registration_issue } }
+		828 = { add_dynamic_modifier = { modifier = RUS_registration_issue } }
+		821 = { add_dynamic_modifier = { modifier = RUS_registration_issue } }
+		232 = { add_dynamic_modifier = { modifier = RUS_registration_issue } }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 #繧�E�繝｣繝ｩ
 
 recruit_character = RUS_nicholas_ii
