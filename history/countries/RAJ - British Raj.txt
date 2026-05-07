@@ -1,4 +1,11 @@
-capital = 439
+﻿capital = 439
+set_party_name = { ideology = far_left long_name = GEN_far_left_party_long name = GEN_far_left_party }
+set_party_name = { ideology = left long_name = GEN_left_party_long name = GEN_left_party }
+set_party_name = { ideology = center_left long_name = GEN_center_left_party_long name = GEN_center_left_party }
+set_party_name = { ideology = center long_name = GEN_center_party_long name = GEN_center_party }
+set_party_name = { ideology = center_right long_name = GEN_center_right_party_long name = GEN_center_right_party }
+set_party_name = { ideology = right long_name = GEN_right_party_long name = GEN_right_party }
+set_party_name = { ideology = far_right long_name = GEN_far_right_party_long name = GEN_far_right_party }
 if = {
 	limit = {
 		has_dlc = "Graveyard of Empires"
@@ -441,7 +448,7 @@ if = {
 #}
 
 every_owned_state = {
-	limit = { NOT = { state = 992 } } #province of Áden
+	limit = { NOT = { state = 992 } } #province of ﾃ‥en
 	ROOT = {
 		add_to_array = { array = owned_states_at_game_start value = PREV }
 	}
@@ -644,3 +651,4 @@ if = {
 	set_variable = { RAJ_congress_decision_cost_increment = 25 }
 
 }
+

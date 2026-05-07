@@ -1,4 +1,11 @@
-capital = 336 #Kuala Lumpur
+﻿capital = 336 #Kuala Lumpur
+set_party_name = { ideology = far_left long_name = GEN_far_left_party_long name = GEN_far_left_party }
+set_party_name = { ideology = left long_name = GEN_left_party_long name = GEN_left_party }
+set_party_name = { ideology = center_left long_name = GEN_center_left_party_long name = GEN_center_left_party }
+set_party_name = { ideology = center long_name = GEN_center_party_long name = GEN_center_party }
+set_party_name = { ideology = center_right long_name = GEN_center_right_party_long name = GEN_center_right_party }
+set_party_name = { ideology = right long_name = GEN_right_party_long name = GEN_right_party }
+set_party_name = { ideology = far_right long_name = GEN_far_right_party_long name = GEN_far_right_party }
 
 
 set_research_slots = 3
@@ -170,4 +177,5 @@ set_cosmetic_tag = MAL_UK # British Malaya
 set_grand_doctrine = grand_battleplan
 set_grand_doctrine = new_fleet_in_being
 set_grand_doctrine = new_strategic_destruction
+
 

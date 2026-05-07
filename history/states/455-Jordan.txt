@@ -10,6 +10,14 @@ state = {
 		controller = SYR
 		add_core_of = SYR
 
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			4115 = {
+				naval_base = 1
+			}
+		}
+
 		victory_points = {
 			11976 1 # Ma'an
 		}
@@ -17,20 +25,9 @@ state = {
 			7151 2 # Amman
 		}
 	}
-	
-	buildings = {
-		infrastructure = 2
-		industrial_complex = 1
-		4115 = {
-			naval_base = 1
-		}
-	}
 
-	provinces={
+	provinces = {
 		4017 4115 4574 4591 7001 7151 7170 10089 11976
 	}
-	manpower=932000
-	buildings_max_level_factor=1
-	state_category=rural
-	local_supplies=0
+	local_supplies = 0
 }

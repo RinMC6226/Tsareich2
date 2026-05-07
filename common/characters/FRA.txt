@@ -1,4 +1,4 @@
-characters={
+﻿characters={
 	FRA_pierre_laval={ #Democratic Leader
 		name=FRA_pierre_laval
 		portraits={
@@ -85,7 +85,7 @@ characters={
 			}
 			do_effect  = {
 				not  = {
-					has_government  = communism 
+					has_government  = left 
 				}
 			}
 			on_add  = {
@@ -1286,7 +1286,7 @@ characters={
 			}
 			do_effect  = {
 				NOT  = {
-					has_government  = democratic 
+					has_government  = center 
 				}
 			}
 			ai_will_do  = {
@@ -1304,7 +1304,7 @@ characters={
 			}
 		}
 		country_leader = {
-			ideology = far_right_ideology
+			ideology = ultranationalism
 			traits = { fascist_corporatist }
 			expire = "1949.1.1.12"
 			id = -1
@@ -1335,7 +1335,7 @@ characters={
 			}
 			do_effect  = {
 				NOT  = {
-					has_government  = fascism 
+					has_government  = far_right 
 				}
 			}
 			on_add  = {
@@ -1365,7 +1365,7 @@ characters={
 			}
 		}
 		#country_leader = {
-		#	ideology = far_right_ideology
+		#	ideology = ultranationalism
 		#	traits = {  }
 		#	expire = "1949.1.1.12"
 		#	id = -1
@@ -1409,7 +1409,7 @@ characters={
 			}
 			available  = {
 				has_completed_focus  = FRA_confirm_eastern_commitments 
-				has_government  = democratic 
+				has_government  = center 
 			}
 			cost  = 75.000
 			traits  = {
@@ -1438,7 +1438,7 @@ characters={
 			}
 			available  = {
 				has_completed_focus  = FRA_buy_time 
-				has_government  = democratic 
+				has_government  = center 
 			}
 			cost  = 75.000
 			traits  = {
@@ -1479,8 +1479,8 @@ characters={
 						has_completed_focus = FRA_orleanist_restoration 
 					}
 					OR  = {
-						has_government  = fascism 
-						has_government  = neutrality 
+						has_government  = far_right 
+						has_government  = right 
 					}
 				}
 			}
@@ -1518,7 +1518,7 @@ characters={
 			available  = {
 				OR = {
 					has_completed_focus  = FRA_national_regeneration 
-					has_government  = fascism 
+					has_government  = far_right 
 				}
 			}
 			cost  = 75.000
@@ -1548,7 +1548,7 @@ characters={
 			}
 			available  = {
 				not  = {
-					has_government  = communism 
+					has_government  = left 
 				}
 			}
 			cost  = 150.000
@@ -2022,3 +2022,4 @@ characters={
 		}
 	}
 }
+

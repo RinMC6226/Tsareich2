@@ -9335,3 +9335,156 @@ XIC = {
 	surnames = { Zhao Wu Sun Ma Hu Peng Dong Ye Lü Tian Jiang Wei Ting Shen Fang Jin Qiu }
 	callsigns = { }
 }
+IND = {
+	male = {
+		names = { Rajesh Vikram Arjun Pratap Mohan Anand Ravi Subhash Kiran }
+	}
+	female = {
+		names = { Asha Lakshmi Indira Meera Savitri Kamala Nirmala }
+	}
+	surnames = { Singh Patel Bose Rao Das Mukherjee Sharma Iyer Khan }
+	callsigns = { }
+}
+
+ETR = {
+	male = {
+		names = { Isa Yusuf Abdul Rahman Osman Karim Salim }
+	}
+	female = {
+		names = { Amina Fatima Zuleika Safiya Maryam }
+	}
+	surnames = { Khan Beg Qadir Rahman Yusuf Ali }
+	callsigns = { }
+}
+
+RUS = {
+	male = {
+		names = { Ivan Nikolai Sergei Mikhail Dmitri Pavel Alexei Fyodor }
+	}
+	female = {
+		names = { Anna Maria Olga Tatiana Natalia Elena Sofia }
+	}
+	surnames = { Romanov Petrov Sokolov Smirnov Orlov Volkov Kuznetsov }
+	callsigns = { }
+}
+
+KMT = {
+	male = {
+		names = { Wang Li Zhang Liu Chen Huang Liang Luo Zhu Hu }
+	}
+	female = {
+		names = { Lan Mei Lihua Qingling Mingzhu Yuying Xiurong }
+	}
+	surnames = { Zhao Wu Sun Ma Hu Peng Dong Tian Jiang Shen }
+	callsigns = { }
+}
+
+BYG = {
+	male = {
+		names = { Wang Li Zhang Liu Chen Huang Liang Luo Zhu Hu }
+	}
+	female = {
+		names = { Lan Mei Lihua Qingling Mingzhu Yuying Xiurong }
+	}
+	surnames = { Zhao Wu Sun Ma Hu Peng Dong Tian Jiang Shen }
+	callsigns = { }
+}
+
+GUI = {
+	male = {
+		names = { Wang Li Zhang Liu Chen Huang Liang Luo Zhu Hu }
+	}
+	female = {
+		names = { Lan Mei Lihua Qingling Mingzhu Yuying Xiurong }
+	}
+	surnames = { Zhao Wu Sun Ma Hu Peng Dong Tian Jiang Shen }
+	callsigns = { }
+}
+
+DOA = {
+	male = {
+		names = { Karl Wilhelm Heinrich Hans Otto Ernst Friedrich }
+	}
+	female = {
+		names = { Anna Marta Emma Elsa Greta Johanna }
+	}
+	surnames = { Muller Schmidt Schneider Weber Wagner Hoffmann }
+	callsigns = { }
+}
+
+DSW = {
+	male = {
+		names = { Karl Wilhelm Heinrich Hans Otto Ernst Friedrich }
+	}
+	female = {
+		names = { Anna Marta Emma Elsa Greta Johanna }
+	}
+	surnames = { Muller Schmidt Schneider Weber Wagner Hoffmann }
+	callsigns = { }
+}
+
+DWA = {
+	male = {
+		names = { Karl Wilhelm Heinrich Hans Otto Ernst Friedrich }
+	}
+	female = {
+		names = { Anna Marta Emma Elsa Greta Johanna }
+	}
+	surnames = { Muller Schmidt Schneider Weber Wagner Hoffmann }
+	callsigns = { }
+}
+
+AOC = {
+	male = {
+		names = { Kofi Kwame Kojo Mensah Yao Amadou Sekou }
+	}
+	female = {
+		names = { Ama Adjoa Awa Mariam Fatou Abena }
+	}
+	surnames = { Mensah Diallo Traore Keita Cisse Camara Kouyate }
+	callsigns = { }
+}
+
+MRA = {
+	male = {
+		names = { Shivaji Rajaram Baji Rao Madhav Narayan Vishwas }
+	}
+	female = {
+		names = { Lakshmi Savitri Radha Meera Parvati }
+	}
+	surnames = { Bhonsle Deshpande Patil Shinde Rao Kulkarni }
+	callsigns = { }
+}
+
+DRA = {
+	male = {
+		names = { Arul Kumar Rajan Subramanian Muthu Ravi Ganesan }
+	}
+	female = {
+		names = { Meena Lakshmi Kavitha Valli Devi }
+	}
+	surnames = { Pillai Nair Iyer Mudaliar Chettiar Reddy }
+	callsigns = { }
+}
+
+FRN = {
+	male = {
+		names = { John Peter Edward Michael Arthur Henry George }
+	}
+	female = {
+		names = { Mary Elizabeth Margaret Anne Sarah Joan }
+	}
+	surnames = { Smith Jones Taylor Brown Wilson Evans Roberts }
+	callsigns = { }
+}
+
+STC = {
+	male = {
+		names = { John Peter Edward Michael Arthur Henry George }
+	}
+	female = {
+		names = { Mary Elizabeth Margaret Anne Sarah Joan }
+	}
+	surnames = { Smith Jones Taylor Brown Wilson Evans Roberts }
+	callsigns = { }
+}

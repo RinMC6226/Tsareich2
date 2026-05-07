@@ -1,4 +1,12 @@
-capital = 9
+﻿capital = 9
+
+set_party_name = { ideology = far_left long_name = GEN_far_left_party_long name = GEN_far_left_party }
+set_party_name = { ideology = left long_name = GEN_left_party_long name = GEN_left_party }
+set_party_name = { ideology = center_left long_name = GEN_center_left_party_long name = GEN_center_left_party }
+set_party_name = { ideology = center long_name = GEN_center_party_long name = GEN_center_party }
+set_party_name = { ideology = center_right long_name = GEN_center_right_party_long name = GEN_center_right_party }
+set_party_name = { ideology = right long_name = GEN_right_party_long name = GEN_right_party }
+set_party_name = { ideology = far_right long_name = GEN_far_right_party_long name = GEN_far_right_party }
 
 set_cosmetic_tag = CZE_GER_puppet
 
@@ -56,7 +64,7 @@ recruit_character = CZE_vojtyech_luzha
 recruit_character = CZE_josef_shnejdarek
 recruit_character = CZE_richard_tesarzhik
 recruit_character = CZE_sergej_vojcechovsky
-recruit_character = CZE_frantishek_havlik
+#recruit_character = CZE_frantishek_havlik
 recruit_character = CZE_rudolf_viest
 recruit_character = CZE_alois_vicherek
 recruit_character = CZE_antonin_hasal
@@ -234,4 +242,5 @@ if = {
 		CZE_fortification_focus
 	}
 }
+
 

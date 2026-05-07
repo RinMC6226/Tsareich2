@@ -1,4 +1,12 @@
-capital = 315
+﻿capital = 315
+
+set_party_name = { ideology = far_left long_name = GEN_far_left_party_long name = GEN_far_left_party }
+set_party_name = { ideology = left long_name = GEN_left_party_long name = GEN_left_party }
+set_party_name = { ideology = center_left long_name = GEN_center_left_party_long name = GEN_center_left_party }
+set_party_name = { ideology = center long_name = GEN_center_party_long name = GEN_center_party }
+set_party_name = { ideology = center_right long_name = GEN_center_right_party_long name = GEN_center_right_party }
+set_party_name = { ideology = right long_name = GEN_right_party_long name = GEN_right_party }
+set_party_name = { ideology = far_right long_name = GEN_far_right_party_long name = GEN_far_right_party }
 
 
 # Starting tech
@@ -18,7 +26,7 @@ if = {
 	}
 }
 
-recruit_character = CUB_jose_agripino_barnet
+#recruit_character = CUB_jose_agripino_barnet
 recruit_character = CUB_guillermo_cabral
 recruit_character = CUB_wenceslao_carmona
 recruit_character = CUB_gregorio_morales
@@ -109,3 +117,4 @@ set_popularities = {
 	promote_character = CUB_federico_laredo_bru
 	retire_character = CUB_jose_agripino_barnet
 }
+

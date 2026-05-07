@@ -1,4 +1,11 @@
-capital = 616 # Ningxia
+﻿capital = 616 # Ningxia
+set_party_name = { ideology = far_left long_name = GEN_far_left_party_long name = GEN_far_left_party }
+set_party_name = { ideology = left long_name = GEN_left_party_long name = GEN_left_party }
+set_party_name = { ideology = center_left long_name = GEN_center_left_party_long name = GEN_center_left_party }
+set_party_name = { ideology = center long_name = GEN_center_party_long name = GEN_center_party }
+set_party_name = { ideology = center_right long_name = GEN_center_right_party_long name = GEN_center_right_party }
+set_party_name = { ideology = right long_name = GEN_right_party_long name = GEN_right_party }
+set_party_name = { ideology = far_right long_name = GEN_far_right_party_long name = GEN_far_right_party }
 
 set_variable = { CHI_warlord_army_political_power_gain = 0 }
 set_variable = { CHI_warlord_army_army_core_attack_factor = 0 }

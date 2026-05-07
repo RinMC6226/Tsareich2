@@ -1,4 +1,12 @@
-capital = 303
+﻿capital = 303
+
+set_party_name = { ideology = far_left long_name = GEN_far_left_party_long name = GEN_far_left_party }
+set_party_name = { ideology = left long_name = GEN_left_party_long name = GEN_left_party }
+set_party_name = { ideology = center_left long_name = GEN_center_left_party_long name = GEN_center_left_party }
+set_party_name = { ideology = center long_name = GEN_center_party_long name = GEN_center_party }
+set_party_name = { ideology = center_right long_name = GEN_center_right_party_long name = GEN_center_right_party }
+set_party_name = { ideology = right long_name = GEN_right_party_long name = GEN_right_party }
+set_party_name = { ideology = far_right long_name = GEN_far_right_party_long name = GEN_far_right_party }
 
 if = {
 	limit = { has_dlc = "By Blood Alone" }
@@ -46,10 +54,10 @@ if = {
 	}
 }
 
-recruit_character = PRU_Oscar_benavides
-recruit_character = PRU_sebastian_lynch
-recruit_character = PRU_hilarion_lynch
-recruit_character = PRU_santiago_ruiztagle
+#recruit_character = PRU_Oscar_benavides
+#recruit_character = PRU_sebastian_lynch
+#recruit_character = PRU_hilarion_lynch
+#recruit_character = PRU_santiago_ruiztagle
 recruit_character = PRU_rafael_escardo
 recruit_character = PRU_alberto_lopez_flores
 recruit_character = PRU_oscar_gilardi
@@ -57,7 +65,7 @@ recruit_character = PRU_felipe_tudela
 recruit_character = PRU_eduardo_cantabria_gomez
 recruit_character = PRU_ernesto_scroth
 recruit_character = PRU_luis_ramirez_ortiz
-recruit_character = PRU_oscar_benavides_larrea
+#recruit_character = PRU_oscar_benavides_larrea
 recruit_character = PRU_manuel_odria_amoretti
 recruit_character = PRU_luis_navarrete
 recruit_character = PRU_paul_de_beaudiez
@@ -217,3 +225,4 @@ if = {
 		}
 	}
 }
+

@@ -1,4 +1,11 @@
-capital = 580 #Khanty-Mansiysk (Tobolsk state) 
+﻿capital = 580 #Khanty-Mansiysk (Tobolsk state) 
+set_party_name = { ideology = far_left long_name = GEN_far_left_party_long name = GEN_far_left_party }
+set_party_name = { ideology = left long_name = GEN_left_party_long name = GEN_left_party }
+set_party_name = { ideology = center_left long_name = GEN_center_left_party_long name = GEN_center_left_party }
+set_party_name = { ideology = center long_name = GEN_center_party_long name = GEN_center_party }
+set_party_name = { ideology = center_right long_name = GEN_center_right_party_long name = GEN_center_right_party }
+set_party_name = { ideology = right long_name = GEN_right_party_long name = GEN_right_party }
+set_party_name = { ideology = far_right long_name = GEN_far_right_party_long name = GEN_far_right_party }
 
 #oob = "OVO_1936"
 
@@ -99,6 +106,7 @@ set_popularities = {
 	left = 0
 	right = 30
 }
+
 
 
 

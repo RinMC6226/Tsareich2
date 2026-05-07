@@ -1,4 +1,12 @@
-capital = 279
+﻿capital = 279
+
+set_party_name = { ideology = far_left long_name = GEN_far_left_party_long name = GEN_far_left_party }
+set_party_name = { ideology = left long_name = GEN_left_party_long name = GEN_left_party }
+set_party_name = { ideology = center_left long_name = GEN_center_left_party_long name = GEN_center_left_party }
+set_party_name = { ideology = center long_name = GEN_center_party_long name = GEN_center_party }
+set_party_name = { ideology = center_right long_name = GEN_center_right_party_long name = GEN_center_right_party }
+set_party_name = { ideology = right long_name = GEN_right_party_long name = GEN_right_party }
+set_party_name = { ideology = far_right long_name = GEN_far_right_party_long name = GEN_far_right_party }
 
 IF = {
 	limit = { 
@@ -144,9 +152,9 @@ IF = {
 		}
 	}
 	recruit_character = CHL_arturo_alessandri
-	recruit_character = CHL_jorge_gonzalez_von_marees
+#	recruit_character = CHL_jorge_gonzalez_von_marees
 	recruit_character = CHL_carlos_contreras_labarca
-	recruit_character = CHL_escudero_oscar_otarola
+#	recruit_character = CHL_escudero_oscar_otarola
 	recruit_character = CHL_domingo_blanco # not in the dlc
 	recruit_character = CHL_julio_allard_pinto
 	recruit_character = CHL_gustavo_silva # not in the dlc
@@ -170,10 +178,10 @@ IF = {
 			has_dlc = "Trial of Allegiance"
 		}
 		recruit_character = CHL_arturo_alessandri
-		recruit_character = CHL_jorge_gonzalez_von_marees
+#		recruit_character = CHL_jorge_gonzalez_von_marees
 		recruit_character = CHL_carlos_contreras_labarca
 		recruit_character = CHL_pedro_aguirre_cerda
-		recruit_character = CHL_escudero_oscar_otarola
+#		recruit_character = CHL_escudero_oscar_otarola
 		recruit_character = CHL_julio_allard_pinto
 		recruit_character = CHL_jose_luis_sanchez_besa
 		recruit_character = CHL_marmaduke_grove
@@ -593,3 +601,4 @@ IF = {
 		}
 	}
 }
+

@@ -1,4 +1,4 @@
-characters = {
+﻿characters = {
 	
 
   ####    ####   #    #  #    #  #####  #####   #   #      #       ######    ##    #####   ######  #####    ####  
@@ -18,7 +18,7 @@ characters = {
 		}
 
 		country_leader = {
-			ideology = far_right_ideology
+			ideology = ultranationalism
 			traits = { il_duce }
 			expire = "1965.1.1.1"
 			id = -1
@@ -47,7 +47,7 @@ characters = {
 		}
 
 		country_leader = {
-			ideology = far_right_ideology
+			ideology = ultranationalism
 			traits = { the_grand_council }
 			expire = "1965.1.1.1"
 			id = -1
@@ -3601,3 +3601,4 @@ characters = {
 		}
 	}
 }
+

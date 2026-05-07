@@ -1,4 +1,12 @@
-capital = 318
+﻿capital = 318
+
+set_party_name = { ideology = far_left long_name = GEN_far_left_party_long name = GEN_far_left_party }
+set_party_name = { ideology = left long_name = GEN_left_party_long name = GEN_left_party }
+set_party_name = { ideology = center_left long_name = GEN_center_left_party_long name = GEN_center_left_party }
+set_party_name = { ideology = center long_name = GEN_center_party_long name = GEN_center_party }
+set_party_name = { ideology = center_right long_name = GEN_center_right_party_long name = GEN_center_right_party }
+set_party_name = { ideology = right long_name = GEN_right_party_long name = GEN_right_party }
+set_party_name = { ideology = far_right long_name = GEN_far_right_party_long name = GEN_far_right_party }
 
 
 # Starting tech
@@ -6,7 +14,7 @@ set_technology = {
 	infantry_weapons = 1
 }
 
-recruit_character = HAI_stenio_vincent
+#recruit_character = HAI_stenio_vincent
 recruit_character = HAI_jacques_roumain
 recruit_character = HAI_vilbrum_soulouque
 recruit_character = HAI_jacques_soulouque
@@ -88,3 +96,4 @@ set_politics = {
 set_popularities = {
 	center = 100
 }
+

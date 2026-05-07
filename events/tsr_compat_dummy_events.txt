@@ -1,0 +1,40 @@
+add_namespace = BBA_switzerland
+add_namespace = GOE_RAJ_partition
+add_namespace = GOE_RAJ
+add_namespace = CHL_political_events
+add_namespace = usa
+add_namespace = JUNO_brazil_events
+add_namespace = AAT_finland_political
+add_namespace = SEA_japan_popup_events
+add_namespace = BBA_ethiopia_balance_of_power_events
+add_namespace = SEA_border_incidents_events
+add_namespace = MUN_czech_bop
+add_namespace = BBA_italy_missiolinis
+add_namespace = MUN_czech
+add_namespace = NSB_soviet_paranoia_system_events
+add_namespace = BBA_SWI_annual_election
+add_namespace = DOD_romania
+
+country_event = { id = BBA_switzerland.99 hidden = yes is_triggered_only = yes immediate = { } }
+country_event = { id = GOE_RAJ_partition.1 hidden = yes is_triggered_only = yes immediate = { } }
+country_event = { id = GOE_RAJ.32 hidden = yes is_triggered_only = yes immediate = { } }
+country_event = { id = CHL_political_events.95 hidden = yes is_triggered_only = yes immediate = { } }
+country_event = { id = usa.50 hidden = yes is_triggered_only = yes immediate = { } }
+country_event = { id = usa.51 hidden = yes is_triggered_only = yes immediate = { } }
+country_event = { id = JUNO_brazil_events.153 hidden = yes is_triggered_only = yes immediate = { } }
+country_event = { id = AAT_finland_political.2 hidden = yes is_triggered_only = yes immediate = { } }
+country_event = { id = SEA_japan_popup_events.10 hidden = yes is_triggered_only = yes immediate = { } }
+country_event = { id = SEA_japan_popup_events.14 hidden = yes is_triggered_only = yes immediate = { } }
+country_event = { id = BBA_ethiopia_balance_of_power_events.50 hidden = yes is_triggered_only = yes immediate = { } }
+country_event = { id = SEA_border_incidents_events.1 hidden = yes is_triggered_only = yes immediate = { } }
+country_event = { id = MUN_czech_bop.1 hidden = yes is_triggered_only = yes immediate = { } }
+country_event = { id = BBA_italy_missiolinis.11 hidden = yes is_triggered_only = yes immediate = { } }
+country_event = { id = MUN_czech.6 hidden = yes is_triggered_only = yes immediate = { } }
+country_event = { id = NSB_soviet_paranoia_system_events.1 hidden = yes is_triggered_only = yes immediate = { } }
+country_event = { id = MUN_czech.5 hidden = yes is_triggered_only = yes immediate = { } }
+country_event = { id = BBA_italy_missiolinis.31 hidden = yes is_triggered_only = yes immediate = { } }
+country_event = { id = BBA_SWI_annual_election.0 hidden = yes is_triggered_only = yes immediate = { } }
+country_event = { id = BBA_switzerland.2 hidden = yes is_triggered_only = yes immediate = { } }
+country_event = { id = DOD_romania.81 hidden = yes is_triggered_only = yes immediate = { } }
+country_event = { id = BBA_italy_missiolinis.41 hidden = yes is_triggered_only = yes immediate = { } }
+country_event = { id = BBA_italy_missiolinis.0 hidden = yes is_triggered_only = yes immediate = { } }

@@ -1,0 +1,32 @@
+
+is_enemy_ideology = {
+	OR = {
+		AND = {
+			OR = { has_government = far_left has_government = left }
+			ROOT = {
+				OR = {
+					has_government = far_right
+					OR = { has_government = center_left has_government = center has_government = center_right }
+				}
+			}
+		}
+		AND = {
+			OR = { has_government = center_left has_government = center has_government = center_right }
+			ROOT = {
+				OR = {
+					OR = { has_government = far_left has_government = left }
+					has_government = far_right
+				}
+			}
+		}
+		AND = {
+			has_government = far_right
+			ROOT = {
+				OR = {
+					OR = { has_government = center_left has_government = center has_government = center_right }
+					OR = { has_government = far_left has_government = left }
+				}
+			}
+		}
+	}
+}

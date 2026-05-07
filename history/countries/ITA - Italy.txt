@@ -1,4 +1,12 @@
-capital = 2 # Rome
+﻿capital = 2 # Rome
+
+set_party_name = { ideology = far_left long_name = GEN_far_left_party_long name = GEN_far_left_party }
+set_party_name = { ideology = left long_name = GEN_left_party_long name = GEN_left_party }
+set_party_name = { ideology = center_left long_name = GEN_center_left_party_long name = GEN_center_left_party }
+set_party_name = { ideology = center long_name = GEN_center_party_long name = GEN_center_party }
+set_party_name = { ideology = center_right long_name = GEN_center_right_party_long name = GEN_center_right_party }
+set_party_name = { ideology = right long_name = GEN_right_party_long name = GEN_right_party }
+set_party_name = { ideology = far_right long_name = GEN_far_right_party_long name = GEN_far_right_party }
 
 if = {
 	limit = {
@@ -761,10 +769,10 @@ recruit_character = ITA_comitato_di_liberazione_nazionale
 recruit_character = ITA_papa_pio_xi
 recruit_character = ITA_papa_pio_xii
 
-recruit_character = ITA_haile_selassie_gugsa_doppleganger
-recruit_character = ITA_abba_jofir_doppleganger
-recruit_character = ITA_hailu_tekle_haymanot_doppleganger
-recruit_character = ITA_seyoum_mengesha_doppleganger
+#recruit_character = ITA_haile_selassie_gugsa_doppleganger
+#recruit_character = ITA_abba_jofir_doppleganger
+#recruit_character = ITA_hailu_tekle_haymanot_doppleganger
+#recruit_character = ITA_seyoum_mengesha_doppleganger
 
 recruit_character = ITA_robert_longhi
 recruit_character = ITA_mario_castoldi
@@ -1646,3 +1654,4 @@ if = {
 		}
 	}
 }
+

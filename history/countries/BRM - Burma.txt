@@ -1,4 +1,11 @@
-capital = 995 # Rangoon
+﻿capital = 995 # Rangoon
+set_party_name = { ideology = far_left long_name = GEN_far_left_party_long name = GEN_far_left_party }
+set_party_name = { ideology = left long_name = GEN_left_party_long name = GEN_left_party }
+set_party_name = { ideology = center_left long_name = GEN_center_left_party_long name = GEN_center_left_party }
+set_party_name = { ideology = center long_name = GEN_center_party_long name = GEN_center_party }
+set_party_name = { ideology = center_right long_name = GEN_center_right_party_long name = GEN_center_right_party }
+set_party_name = { ideology = right long_name = GEN_right_party_long name = GEN_right_party }
+set_party_name = { ideology = far_right long_name = GEN_far_right_party_long name = GEN_far_right_party }
 
 
 # Starting tech
@@ -87,5 +94,6 @@ recruit_character = BRM_ne_win
 recruit_character = BRM_ba_maw
 recruit_character = BRM_u_nu
 recruit_character = BRM_myat_phaya_lat
+
 
 

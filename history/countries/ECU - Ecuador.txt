@@ -1,4 +1,12 @@
-capital = 305
+﻿capital = 305
+
+set_party_name = { ideology = far_left long_name = GEN_far_left_party_long name = GEN_far_left_party }
+set_party_name = { ideology = left long_name = GEN_left_party_long name = GEN_left_party }
+set_party_name = { ideology = center_left long_name = GEN_center_left_party_long name = GEN_center_left_party }
+set_party_name = { ideology = center long_name = GEN_center_party_long name = GEN_center_party }
+set_party_name = { ideology = center_right long_name = GEN_center_right_party_long name = GEN_center_right_party }
+set_party_name = { ideology = right long_name = GEN_right_party_long name = GEN_right_party }
+set_party_name = { ideology = far_right long_name = GEN_far_right_party_long name = GEN_far_right_party }
 
 
 # Starting tech
@@ -17,10 +25,10 @@ if = {
 	}
 }
 
-recruit_character = ECU_federico_paez
+#recruit_character = ECU_federico_paez
 recruit_character = ECU_juan_toro
-recruit_character = ECU_andres_guilarte
-recruit_character = ECU_jose_la_mar
+#recruit_character = ECU_andres_guilarte
+#recruit_character = ECU_jose_la_mar
 recruit_character = ECU_cosme_renella_barbatto
 recruit_character = ECU_benigno_andrade_flores
 recruit_character = ECU_uriarte_fanquil_del_ponte
@@ -29,7 +37,7 @@ recruit_character = ECU_jorge_escobedo_duarte
 recruit_character = ECU_carlos_hidalgo_garcia
 recruit_character = ECU_luis_cabrera_sevilla
 recruit_character = ECU_ramon_baquerizo_davila
-recruit_character = ECU_federico_paez_chiriboaga
+#recruit_character = ECU_federico_paez_chiriboaga
 recruit_character = ECU_gustavo_becerra_paz
 recruit_character = ECU_juan_bayardo_tobar
 recruit_character = ECU_ramon_moran_valverde

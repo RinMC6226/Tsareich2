@@ -1,4 +1,4 @@
-set_autonomy = {
+﻿set_autonomy = {
 	target = SYR
 	autonomous_state = autonomy_puppet
 	freedom_level = 0
@@ -19,7 +19,14 @@ set_autonomy = {
 # ------------------------------------------------------------
 # 1. Capital and subjects
 # ------------------------------------------------------------
-capital = 64 # Berlin/Brandeburg
+capital = 64 # Berlin/Brandeburg
+set_party_name = { ideology = far_left long_name = GEN_far_left_party_long name = GEN_far_left_party }
+set_party_name = { ideology = left long_name = GEN_left_party_long name = GEN_left_party }
+set_party_name = { ideology = center_left long_name = GEN_center_left_party_long name = GEN_center_left_party }
+set_party_name = { ideology = center long_name = GEN_center_party_long name = GEN_center_party }
+set_party_name = { ideology = center_right long_name = GEN_center_right_party_long name = GEN_center_right_party }
+set_party_name = { ideology = right long_name = GEN_right_party_long name = GEN_right_party }
+set_party_name = { ideology = far_right long_name = GEN_far_right_party_long name = GEN_far_right_party }
 
 puppet = CZE
 
@@ -433,7 +440,7 @@ if = {
 	## 1936 Start ##
 	# Light Cruisers #
 	create_equipment_variant = {
-		name = "Königsberg"
+		name = "Kﾃｶnigsberg"
 		type = light_cruiser_1
 		parent_version = 0
 		upgrades = {
@@ -598,7 +605,7 @@ if = {
 		obsolete = yes
 	}
 	create_equipment_variant = {
-		name = "Zerstörer 1934"
+		name = "Zerstﾃｶrer 1934"
 		type = ship_hull_light_2
 		name_group = GER_DD_HISTORICAL
 		parent_version = 0
@@ -615,7 +622,7 @@ if = {
 		obsolete = yes
 	}
 	create_equipment_variant = {
-		name = "Zerstörer 1934A"
+		name = "Zerstﾃｶrer 1934A"
 		type = ship_hull_light_2
 		name_group = GER_DD_HISTORICAL
 		parent_version = 0
@@ -654,7 +661,7 @@ if = {
 		}
 	}
 	create_equipment_variant = {
-		name = "Königsberg"
+		name = "Kﾃｶnigsberg"
 		type = ship_hull_cruiser_1
 		name_group = GER_CL_HISTORICAL
 		parent_version = 0
@@ -946,4 +953,5 @@ if = {
 		icon = "GFX_GER_naval_bomber1_medium"
 	}
 }
+
 

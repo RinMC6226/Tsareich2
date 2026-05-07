@@ -1,4 +1,4 @@
-characters={
+﻿characters={
 	ENG_winston_churchill={
 		name=ENG_winston_churchill
 		portraits={
@@ -17,7 +17,7 @@ characters={
 					limit = {
 						original_tag = ENG
 					}
-					has_government  = neutrality 
+					has_government  = right 
 					has_completed_focus  = ENG_the_kings_party 
 					if  = {
 						limit  = {
@@ -99,7 +99,7 @@ characters={
 			slot = political_advisor
 			idea_token = ENG_oswald_mosley
 			available  = {
-				has_government  = neutrality 
+				has_government  = right 
 				has_completed_focus  = ENG_the_kings_party 
 			}
 			allowed  = {
@@ -143,7 +143,7 @@ characters={
 					limit  = {
 						has_dlc = "Man the Guns"
 					}
-					has_government  = communism 
+					has_government  = left 
 				}
 				if  = {
 					limit  = {
@@ -159,7 +159,7 @@ characters={
 			}
 			do_effect  = {
 				NOT = {
-					has_government  = communism 
+					has_government  = left 
 				}
 			}
 			ai_will_do  = {
@@ -1692,7 +1692,7 @@ characters={
 			}
 			do_effect  = {
 				NOT = {
-					has_government  = democratic 
+					has_government  = center 
 				}
 			}
 			ai_will_do  = {
@@ -1719,7 +1719,7 @@ characters={
 					limit  = {
 						has_dlc = "Man the Guns"
 					}
-					has_government  = fascism 
+					has_government  = far_right 
 				}
 				if  = {
 					limit  = {
@@ -1735,7 +1735,7 @@ characters={
 			}
 			do_effect  = {
 				NOT = {
-					has_government  = fascism 
+					has_government  = far_right 
 				}
 			}
 			ai_will_do  = {
@@ -1762,7 +1762,7 @@ characters={
 					NOT = {
 						has_completed_focus  = ENG_no_further_appeasement 
 					}
-					has_government  = democratic 
+					has_government  = center 
 				}
 			}
 			allowed  = {
@@ -1883,7 +1883,7 @@ characters={
 			slot = political_advisor
 			idea_token = ENG_mary_sophia_allen
 			available  = {
-				has_government  = fascism 
+				has_government  = far_right 
 			}
 			allowed  = {
 				original_tag  = ENG
@@ -1909,7 +1909,7 @@ characters={
 			slot = political_advisor
 			idea_token = ENG_george_orwell
 			available  = {
-				has_government  = communism 
+				has_government  = left 
 				if  = {
 					limit  = {
 						has_dlc = "Man the Guns"
@@ -1945,7 +1945,7 @@ characters={
 			idea_token = ENG_sylvia_pankhurst
 			available  = {
 				OR = {
-					has_government  = communism 
+					has_government  = left 
 					SWE_refuge_for_revolutionaries_trigger = yes
 				}
 			}
@@ -2002,7 +2002,7 @@ characters={
 			slot = political_advisor
 			idea_token = ENG_david_lloyd_george
 			available  = {
-				has_government  = neutrality 
+				has_government  = right 
 				has_completed_focus  = ENG_the_kings_party 
 			}
 			allowed  = {
@@ -2297,7 +2297,7 @@ characters={
 			slot = political_advisor
 			idea_token = ENG_corgis_1
 			available  = {
-				has_government  = neutrality 
+				has_government  = right 
 				has_completed_focus  = ENG_the_kings_party 
 				has_country_leader  = {
 					name = "Elizabeth II"
@@ -2334,7 +2334,7 @@ characters={
 			slot = political_advisor
 			idea_token = ENG_corgis_2
 			available  = {
-				has_government  = neutrality 
+				has_government  = right 
 				has_completed_focus  = ENG_the_kings_party 
 				has_country_leader  = {
 					name = "Elizabeth II"
@@ -2371,7 +2371,7 @@ characters={
 			slot = political_advisor
 			idea_token = ENG_corgis_3
 			available  = {
-				has_government  = neutrality 
+				has_government  = right 
 				has_completed_focus  = ENG_the_kings_party 
 				has_country_leader  = {
 					name = "Elizabeth II"
@@ -2598,3 +2598,4 @@ characters={
 		}
 	}
 }
+

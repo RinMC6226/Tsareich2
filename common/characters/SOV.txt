@@ -1,4 +1,4 @@
-# Aleksandra Kollontay has an unsed portrait
+﻿# Aleksandra Kollontay has an unsed portrait
 # Viktor Baydalakov has an unused portrait
 
 characters = {
@@ -3967,7 +3967,7 @@ characters = {
 			}
 
 			country_leader = {
-				ideology = far_right_ideology
+				ideology = ultranationalism
 				traits = { fascist_orchestrator }
 				expire = "1953.3.1.1"
 				id = -1
@@ -4228,3 +4228,4 @@ characters = {
 
 
 }
+
