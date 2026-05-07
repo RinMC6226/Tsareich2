@@ -1,0 +1,10 @@
+RUS_registration_issue = { #State Modifier
+	enable = { always = yes }
+	remove_trigger = {
+
+	}
+
+	icon = GFX_modifiers_conscription_exemptions_granted
+	
+	local_manpower = -0.85
+}
