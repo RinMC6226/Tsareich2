@@ -1,4 +1,4 @@
-
+﻿
 
 capital = 195
 set_autonomy = {
@@ -57,11 +57,22 @@ set_politics = {
 set_oob = "RUS_1936"
 
 set_popularities = {
-	left = 5
-	center = 10
-	right = 85
-	far_right = 0
+	far_left = 1
+	left = 4
+	center_left = 10
+	center = 20
+	center_right = 16
+	right = 47
+	far_right = 2
 }
+
+set_party_name = { ideology = far_left long_name = RUS_far_left_party_long name = RUS_far_left_party }
+set_party_name = { ideology = left long_name = RUS_left_party_long name = RUS_left_party }
+set_party_name = { ideology = center_left long_name = RUS_center_left_party_long name = RUS_center_left_party }
+set_party_name = { ideology = center long_name = RUS_center_party_long name = RUS_center_party }
+set_party_name = { ideology = center_right long_name = RUS_center_right_party_long name = RUS_center_right_party }
+set_party_name = { ideology = right long_name = RUS_right_party_long name = RUS_right_party }
+set_party_name = { ideology = far_right long_name = RUS_far_right_party_long name = RUS_far_right_party }
 
 add_ideas = {
 	rural_economy
@@ -127,7 +138,7 @@ set_technology = { # mod
 	infantry_weapons = 1
 	gw_artillery = 1
 	basic_train = 1
-	#�Ȃ�Ōy��Ԍ���������?
+	#なんで軽戦車研究されるの?
 
 
 	#air
@@ -147,9 +158,15 @@ set_technology = { # mod
 
 }
 
-#繧�E�繝｣繝ｩ
+#郢ｧ・ｭ郢晢ｽ｣郢晢ｽｩ
 
 recruit_character = RUS_nicholas_ii
+recruit_character = RUS_nestor_makhno
+recruit_character = RUS_julius_martov
+recruit_character = RUS_alexander_kerensky
+recruit_character = RUS_pavel_milyukov
+recruit_character = RUS_alexander_guchkov
+recruit_character = RUS_nikolai_markov
 recruit_character = RUS_aleksandr_vasilevsky
 recruit_character = RUS_aleksandr_golovanov
 recruit_character = RUS_aleksandr_gorbatov
@@ -209,4 +226,5 @@ recruit_character = RUS_vasily_korzh
 recruit_character = RUS_sidor_kovpak
 recruit_character = RUS_lev_dovator
 recruit_character = RUS_pavel_rybalko
+
 

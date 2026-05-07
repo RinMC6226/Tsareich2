@@ -15,6 +15,36 @@ spriteTypes = {
 	}
 
 	spriteType = {
+		name = "GFX_portrait_TR_RUS_nestor_makhno"
+		texturefile = "gfx/leaders/RUS/nestor_makhno.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_TR_RUS_julius_martov"
+		texturefile = "gfx/leaders/RUS/julius_martov.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_TR_RUS_alexander_kerensky"
+		texturefile = "gfx/leaders/RUS/alexander_kerensky.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_TR_RUS_pavel_milyukov"
+		texturefile = "gfx/leaders/RUS/pavel_milyukov.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_TR_RUS_alexander_guchkov"
+		texturefile = "gfx/leaders/RUS/alexander_guchkov.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_TR_RUS_nikolai_markov"
+		texturefile = "gfx/leaders/RUS/nikolai_markov.dds"
+	}
+
+	spriteType = {
 		name = "GFX_portrait_TR_FRA_alfred_rosmer"
 		texturefile = "gfx/leaders/FRA/alfred_rosmer.dds"
 	}

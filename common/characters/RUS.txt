@@ -106,6 +106,90 @@ characters = {
 		}	
 	}
 
+	RUS_nestor_makhno = {
+		name = RUS_nestor_makhno
+		portraits = {
+			civilian = {
+				large = "GFX_portrait_TR_RUS_nestor_makhno"
+			}
+		}
+		country_leader = {
+			ideology = anarcho_communism
+			expire = "1953.3.1.1"
+			id = -1
+		}
+	}
+
+	RUS_julius_martov = {
+		name = RUS_julius_martov
+		portraits = {
+			civilian = {
+				large = "GFX_portrait_TR_RUS_julius_martov"
+			}
+		}
+		country_leader = {
+			ideology = democratic_socialism
+			expire = "1953.3.1.1"
+			id = -1
+		}
+	}
+
+	RUS_alexander_kerensky = {
+		name = RUS_alexander_kerensky
+		portraits = {
+			civilian = {
+				large = "GFX_portrait_TR_RUS_alexander_kerensky"
+			}
+		}
+		country_leader = {
+			ideology = social_democracy
+			expire = "1953.3.1.1"
+			id = -1
+		}
+	}
+
+	RUS_pavel_milyukov = {
+		name = RUS_pavel_milyukov
+		portraits = {
+			civilian = {
+				large = "GFX_portrait_TR_RUS_pavel_milyukov"
+			}
+		}
+		country_leader = {
+			ideology = liberalism
+			expire = "1953.3.1.1"
+			id = -1
+		}
+	}
+
+	RUS_alexander_guchkov = {
+		name = RUS_alexander_guchkov
+		portraits = {
+			civilian = {
+				large = "GFX_portrait_TR_RUS_alexander_guchkov"
+			}
+		}
+		country_leader = {
+			ideology = constitutional_monarchism
+			expire = "1953.3.1.1"
+			id = -1
+		}
+	}
+
+	RUS_nikolai_markov = {
+		name = RUS_nikolai_markov
+		portraits = {
+			civilian = {
+				large = "GFX_portrait_TR_RUS_nikolai_markov"
+			}
+		}
+		country_leader = {
+			ideology = ultranationalism
+			expire = "1953.3.1.1"
+			id = -1
+		}
+	}
+
 	RUS_georgy_zhukov = {
 		name = RUS_georgy_zhukov
 
