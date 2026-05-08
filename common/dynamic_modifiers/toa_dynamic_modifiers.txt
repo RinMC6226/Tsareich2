@@ -641,7 +641,7 @@ BRA_weak_government = { #NATIONAL SPIRIT
 	icon = GFX_idea_FRA_scw_intervention_republicans_focus
 	stability_factor = BRA_weak_government_stability_factor
 	political_power_factor = BRA_weak_government_pp_factor
-	neutrality_drift = BRA_weak_government_neutrality_factor
+	right_drift = BRA_weak_government_neutrality_factor
 	command_power_gain_mult = BRA_weak_government_command_power_factor
 }
 
@@ -649,20 +649,20 @@ BRA_aftermath_of_the_coup = { #NATIONAL SPIRIT
 	enable = { always = yes }
 	icon = GFX_idea_trotskyite_plot
 	stability_factor = BRA_coup_stability_factor
-	communism_drift = BRA_coup_communism_factor
-	democratic_drift = BRA_coup_democratic_factor
-	fascism_drift = BRA_coup_fascism_factor
-	neutrality_drift = BRA_coup_neutrality_factor
+	far_left_drift = BRA_coup_communism_factor
+	center_drift = BRA_coup_democratic_factor
+	far_right_drift = BRA_coup_fascism_factor
+	right_drift = BRA_coup_neutrality_factor
 }
 
 BRA_estado_novo_modifier = { #NATIONAL SPIRIT
 	enable = { always = yes }
 	icon = GFX_idea_BRA_estado_novo
 	stability_factor = BRA_estado_novo_stability_factor
-	neutrality_drift = BRA_estado_novo_neutrality_factor
-	communism_drift = BRA_estado_novo_communism_factor
-	democratic_drift = BRA_estado_novo_democratic_factor
-	fascism_drift = BRA_estado_novo_fascism_factor
+	right_drift = BRA_estado_novo_neutrality_factor
+	far_left_drift = BRA_estado_novo_communism_factor
+	center_drift = BRA_estado_novo_democratic_factor
+	far_right_drift = BRA_estado_novo_fascism_factor
 	production_speed_buildings_factor = BRA_estado_novo_production_speed_buildings_factor
 	war_support_factor = BRA_estado_novo_war_support_factor
 	conscription_factor = BRA_estado_novo_recruitable_population_factor
@@ -680,10 +680,10 @@ BRA_estado_moderno_modifier = { #NATIONAL SPIRIT
 	enable = { always = yes }
 	icon = GFX_idea_BRA_estado_moderno
 	stability_factor = BRA_estado_moderno_stability_factor
-	neutrality_drift = BRA_estado_moderno_neutrality_factor
-	communism_drift = BRA_estado_moderno_communism_factor
-	democratic_drift = BRA_estado_moderno_democratic_factor
-	fascism_drift = BRA_estado_moderno_fascism_factor
+	right_drift = BRA_estado_moderno_neutrality_factor
+	far_left_drift = BRA_estado_moderno_communism_factor
+	center_drift = BRA_estado_moderno_democratic_factor
+	far_right_drift = BRA_estado_moderno_fascism_factor
 	production_speed_buildings_factor = BRA_estado_moderno_production_speed_buildings_factor
 	war_support_factor = BRA_estado_moderno_war_support_factor
 	conscription_factor = BRA_estado_moderno_recruitable_population_factor
@@ -711,8 +711,8 @@ ARG_corruption_crackdown_modifier = { #NATIONAL SPIRIT
 	icon = GFX_idea_great_depression 
 	stability_factor = ARG_corruption_crackdown_stability_factor
 	production_factory_max_efficiency_factor = ARG_corruption_crackdown_production_factory_max_efficiency_factor
-	neutrality_drift = ARG_corruption_crackdown_neutrality_factor
-	fascism_drift = ARG_corruption_crackdown_fascism_factor
+	right_drift = ARG_corruption_crackdown_neutrality_factor
+	far_right_drift = ARG_corruption_crackdown_fascism_factor
 	war_support_factor = ARG_corruption_crackdown_war_support_factor
 }
 
@@ -721,8 +721,8 @@ ARG_anti_corruption_modifier = { #NATIONAL SPIRIT
 	icon = GFX_idea_great_depression 
 	stability_factor = ARG_anti_corruption_stability_factor
 	production_factory_max_efficiency_factor = ARG_anti_corruption_production_factory_max_efficiency_factor
-	neutrality_drift = ARG_anti_corruption_neutrality_factor
-	democratic_drift = ARG_anti_corruption_democratic_factor
+	right_drift = ARG_anti_corruption_neutrality_factor
+	center_drift = ARG_anti_corruption_democratic_factor
 	war_support_factor = ARG_anti_corruption_war_support_factor
 }
 
@@ -739,11 +739,11 @@ ARG_international_loan_modifier = {
 ARG_growing_nationalism_modifier = {
 	enable = { always = yes }
 	icon = GFX_idea_ARG_growing_nationalism_modifier
-	fascism_drift = ARG_growing_nationalism_fascism_drift
+	far_right_drift = ARG_growing_nationalism_fascism_drift
 	conscription_factor = ARG_growing_nationalism_recruitable_population_factor
 	stability_factor = ARG_growing_nationalism_stability_factor
 	war_support_factor = ARG_growing_nationalism_war_support_factor
-	democratic_drift = ARG_growing_nationalism_democratic_drift
+	center_drift = ARG_growing_nationalism_democratic_drift
 	political_power_factor = ARG_growing_nationalism_political_power_factor
 }
 

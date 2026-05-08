@@ -1,4 +1,4 @@
-﻿# Division template historical names system. Is a new method of naming the divisions based on the names-group assigned to it's template.
+# Division template historical names system. Is a new method of naming the divisions based on the names-group assigned to it's template.
 # If we run out of all historical names, the names will be assigned in the old way.
 #
 # Each group has a made up tag. Use it if you want to append more, or replace existing names with the extra txt files (modding).
@@ -1554,7 +1554,7 @@ SOV_CAV_02 = #COSSACK CAVALRY
 		OR = {
 			AND = {
 				tag = SOV
-				has_completed_focus = SOV_restore_cossack_units
+				always = no # Tsareich2: disabled missing focus reference SOV_restore_cossack_units
 			}
 			tag = UKR
 		}
@@ -1862,7 +1862,7 @@ SOV_INF_03 =
 	for_countries = { SOV }
 
 	can_use = { 
-		has_completed_focus = SOV_the_eyes_fear
+		always = no # Tsareich2: disabled missing focus reference SOV_the_eyes_fear
 		always = yes
 	}
 

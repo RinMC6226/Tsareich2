@@ -1,0 +1,236 @@
+is_literally_china = {
+	OR = {
+		original_tag = CHI
+		original_tag = PRC
+		original_tag = GXC
+		original_tag = YUN
+		original_tag = SHX
+		original_tag = XSM
+		original_tag = SIK
+		original_tag = GDC
+		original_tag = SND
+		original_tag = SIC
+		original_tag = NXM
+		original_tag = GSM
+		original_tag = XIC
+		original_tag = KHM
+		original_tag = KUM
+		original_tag = RNG
+		original_tag = HBC
+	}
+}
+
+is_literally_china_not_prc = {
+	OR = {
+		original_tag = CHI
+		original_tag = GXC
+		original_tag = YUN
+		original_tag = SHX
+		original_tag = XSM
+		original_tag = SIK
+		original_tag = GDC
+		original_tag = SND
+		original_tag = SIC
+		original_tag = NXM
+		original_tag = GSM
+		original_tag = XIC
+		original_tag = KHM
+		original_tag = KUM
+		original_tag = RNG
+		original_tag = HBC
+	}
+}
+
+GER_is_RKU_state = {
+	OR = {
+		state = 93
+		state = 137
+		state = 192
+		state = 193
+		state = 196
+		state = 197
+		state = 198
+		state = 199
+		state = 200
+		state = 201
+		state = 202
+		state = 203
+		state = 221
+		state = 225
+		state = 226
+		state = 227
+		state = 228
+		state = 259
+		state = 834
+	}
+}
+
+GER_is_RKO_state = {
+	OR = {
+		state = 11
+		state = 12
+		state = 13
+		state = 94
+		state = 95
+		state = 96
+		state = 189
+		state = 190
+		state = 191
+		state = 194
+		state = 204
+		state = 206
+		state = 784
+		state = 808
+		state = 809
+		state = 810
+		state = 811
+		state = 812
+		state = 813
+		state = 814
+		state = 815
+	}
+}
+
+wuw_HUN_does_not_have_trianon = {
+	custom_trigger_tooltip = {
+		tooltip = wuw_HUN_does_not_have_trianon_tt
+		NOT = {
+			OR = {
+				has_idea = HUN_treaty_of_triannon
+				has_idea = HUN_treaty_of_triannon_aat
+				has_idea = HUN_treaty_of_triannon_wuw
+				has_idea = HUN_treaty_of_triannon_aat_wuw
+				has_idea = HUN_treaty_of_triannon_2
+				has_idea = HUN_treaty_of_triannon_3
+				has_idea = HUN_treaty_of_triannon_wuw_no_army_exp_debuff
+				has_idea = HUN_treaty_of_triannon_aat_wuw_no_army_exp_debuff
+				has_idea = HUN_treaty_of_triannon_wuw_no_air_debuff
+				has_idea = HUN_treaty_of_triannon_aat_wuw_no_air_debuff
+				has_idea = HUN_treaty_of_triannon_wuw_no_air_or_army_debuff
+				has_idea = HUN_treaty_of_triannon_aat_wuw_no_air_or_army_debuff
+			}
+		}
+	}
+}
+
+JAP_army_faction_is_not_subdued = {
+	custom_trigger_tooltip = {
+		tooltip = JAP_army_faction_is_not_subdued_tt
+		NOT = {
+			has_idea = JAP_army_faction_tier_1_equal_navy
+			has_idea = JAP_army_faction_tier_1_lesser_1
+			has_idea = JAP_army_faction_tier_1_lesser_2
+			has_idea = JAP_army_faction_tier_1_lesser_3
+			has_idea = JAP_army_faction_tier_1
+		}
+	}
+}
+
+PHI_SEA = {
+	original_tag = PHI
+	has_dlc = "No Compromise, No Surrender"
+}
+
+NOR_prep_his_mod_remove_trigger = {
+	NOR = {
+		OR = {
+			NOT = { owns_state = PREV }
+			AND = {
+				has_war = no
+				has_capitulated = yes
+				exists = no
+			}
+		}
+	}
+}
+
+NOR_AAT = {
+	original_tag = NOR
+	has_dlc = "Arms Against Tyranny"
+}
+
+NOR_prep_fasc_mod_remove_trigger = {
+	NOR = {
+		OR = {
+			NOT = { owns_state = PREV }
+			AND = {
+				has_war = no
+				has_capitulated = yes
+				exists = no
+			}
+		}
+	}
+}
+
+GER_is_RKG_state = {
+	OR = {
+		state = 110
+		state = 142
+		state = 143
+		state = 144
+		state = 920
+		state = 921
+		state = 922
+		state = 923
+		state = 924
+		state = 925
+	}
+}
+
+GER_is_RKN_state = {
+	OR = {
+		state = 5
+		state = 6
+		state = 7
+		state = 8
+		state = 9
+		state = 10
+		state = 85
+		state = 186
+		state = 187
+		state = 188
+		state = 205
+		state = 207
+		state = 208
+		state = 809
+		state = 810
+		state = 811
+		state = 812
+		state = 813
+		state = 814
+		state = 815
+	}
+}
+
+ITA_is_northern_designer = {
+	custom_trigger_tooltip = {
+		tooltip = ITA_northern_designer_tt
+		hidden_trigger = {
+			always = yes
+		}
+	}
+}
+
+WTT_is_chinese_country = {
+	is_literally_china = yes
+}
+
+CHI_northern_mandate_states = {
+	always = no
+}
+
+CHI_southern_mandate_states = {
+	always = no
+}
+
+CHI_greater_game_states = {
+	always = no
+}
+
+has_air_academy = {
+	always = no
+}
+
+GER_naval_interest_trigger = {
+	always = no
+}

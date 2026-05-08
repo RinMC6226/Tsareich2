@@ -70,8 +70,8 @@ types = {
 
 		visible = {
 			OR = {
-				has_completed_focus = PRC_raid_weapon_depots
-				has_completed_focus = PRC_raiding_parties
+				always = no # Tsareich2: disabled missing focus reference PRC_raid_weapon_depots
+				always = no # Tsareich2: disabled missing focus reference PRC_raiding_parties
 			}
 		}
 
@@ -496,7 +496,7 @@ types = {
 		fire_only_once = no
 	
 		visible = {
-			has_completed_focus = PRC_know_the_enemy
+			always = no # Tsareich2: disabled missing focus reference PRC_know_the_enemy
 			NOT = {
 				has_country_flag = {
 					flag = PRC_probe_border_defenses_flag

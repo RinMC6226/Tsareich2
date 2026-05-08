@@ -136,7 +136,7 @@ AFG_amanullah_insurection_modifier = {
 	icon = GFX_idea_generic_fascism_drift_bonus	
 	
 	stability_factor = AFG_amanullah_modifier_stability_factor
-	fascism_drift = AFG_amanullah_modifier_fascism_drift
+	far_right_drift = AFG_amanullah_modifier_fascism_drift
 	army_core_defence_factor = AFG_amanullah_modifier_core_defense_factor
 	army_core_attack_factor = AFG_amanullah_modifier_core_attack_factor
 
@@ -171,7 +171,7 @@ AFG_1923_constitution_modifier = {
 	# = 0
 	production_factory_max_efficiency_factor = AFG_1923_const_modifier_production_factory_max_efficiency_factor
 	# = 0
-	fascism_drift = 0.03 
+	far_right_drift = 0.03 
 	army_core_defence_factor = 0.1 		
 	army_core_attack_factor = 0.05  	
 	
@@ -212,7 +212,7 @@ idea_RAJ_independence_movement = { #STATE MODIFIER
 	resistance_activity = RAJ_resistance_activity_independence_movement
 	resistance_target  = RAJ_resistance_target_independence_movement
 	autonomy_gain = RAJ_autonomy_gain_independence_movement
-	communism_drift = RAJ_communism_drift_independence_movement
+	far_left_drift = RAJ_communism_drift_independence_movement
 
 }
 
@@ -527,9 +527,9 @@ PER_opposition_modifier = {
 	research_speed_factor = PER_opposition_research_speed_factor
 	stability_factor = PER_opposition_stability_factor
 	conscription_factor = PER_opposition_conscription_factor
-	fascism_drift  = PER_opposition_fascism_drift 
-	communism_drift = PER_opposition_communism_drift
-	democratic_drift = PER_opposition_democratic_drift
+	far_right_drift  = PER_opposition_fascism_drift 
+	far_left_drift = PER_opposition_communism_drift
+	center_drift = PER_opposition_democratic_drift
 	army_core_defence_factor = PER_army_core_defence_factor
 	army_core_attack_factor = PER_army_core_attack_factor
 }

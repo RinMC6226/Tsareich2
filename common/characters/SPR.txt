@@ -1,4 +1,4 @@
-﻿characters = {
+characters = {
 	SPR_niceto_alcala_zamora={
 		instance = {
 			allowed = {
@@ -104,7 +104,7 @@
 				}
 			}
 			available = {
-				has_completed_focus = SPA_primo_de_rivera_prisoner_exchange
+				always = no # Tsareich2: disabled missing focus reference SPA_primo_de_rivera_prisoner_exchange
 				custom_trigger_tooltip = {
 					tooltip = SPA_not_republican_spain_tt
 					NOT = { tag = SPD }
@@ -273,8 +273,8 @@
 				}
 				available = {
 					NOT = {
-						has_completed_focus = SPR_masters_of_our_own_fate 
-						has_completed_focus = SPR_communists_in_the_government 
+						always = no # Tsareich2: disabled missing focus reference SPR_masters_of_our_own_fate
+						always = no # Tsareich2: disabled missing focus reference SPR_communists_in_the_government
 					}
 					custom_trigger_tooltip = {
 						tooltip = SPR_not_nationalist_spain_tt
@@ -292,8 +292,8 @@
 					modifier = {
 						factor = 0.000
 						OR = {
-							has_completed_focus = SPA_a_great_spain 
-							has_completed_focus = SPR_hinder_nkvd_interference 
+							always = no # Tsareich2: disabled missing focus reference SPA_a_great_spain
+							always = no # Tsareich2: disabled missing focus reference SPR_hinder_nkvd_interference
 						}
 					}
 				}

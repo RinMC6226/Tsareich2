@@ -31,8 +31,8 @@ types = {
 
 		visible = {
 			OR = {
-				has_completed_focus = AUS_second_brothers_war
-				has_completed_focus = AUS_deal_with_the_german_threat
+				always = no # Tsareich2: disabled missing focus reference AUS_second_brothers_war
+				always = no # Tsareich2: disabled missing focus reference AUS_deal_with_the_german_threat
 			}
 		}
 
@@ -1158,11 +1158,11 @@ types = {
 			OR = {
 				AND = {
 					original_tag = GER
-					has_completed_focus = GER_amerikabomber
+					always = no # Tsareich2: disabled missing focus reference GER_amerikabomber
 				}
 				AND = {
 					original_tag = JAP
-					has_completed_focus = JAP_project_z_bomber_project
+					always = no # Tsareich2: disabled missing focus reference JAP_project_z_bomber_project
 				}
 			}
 		}
@@ -1481,7 +1481,7 @@ types = {
 		fire_only_once = yes
 
 		visible = {
-			has_completed_focus = GER_strike_eastward
+			always = no # Tsareich2: disabled missing focus reference GER_strike_eastward
 		}
 
 		show_target = {
@@ -1786,7 +1786,7 @@ types = {
 				limit = {
 					has_dlc = "No Compromise, No Surrender"
 				}
-				has_completed_focus = CHI_bring_the_war_home
+				always = no # Tsareich2: disabled missing focus reference CHI_bring_the_war_home
 			}
 		}
 
@@ -2019,7 +2019,7 @@ types = {
 		fire_only_once = yes
 
 		visible = {
-			has_completed_focus = CHI_bring_the_war_home
+			always = no # Tsareich2: disabled missing focus reference CHI_bring_the_war_home
 		}
 
 		show_target = {
@@ -2312,7 +2312,7 @@ types = {
 		fire_only_once = yes
 
 		visible = {
-			has_completed_focus = CHI_bring_the_war_home
+			always = no # Tsareich2: disabled missing focus reference CHI_bring_the_war_home
 		}
 
 		show_target = {
@@ -2605,7 +2605,7 @@ types = {
 		fire_only_once = yes
 
 		visible = {
-			has_completed_focus = CHI_bring_the_war_home
+			always = no # Tsareich2: disabled missing focus reference CHI_bring_the_war_home
 		}
 
 		show_target = {
@@ -2903,7 +2903,7 @@ types = {
 		fire_only_once = yes
 
 		visible = {
-			has_completed_focus = JAP_nanshin_ron
+			always = no # Tsareich2: disabled missing focus reference JAP_nanshin_ron
 		}
 
 		show_target = {
@@ -2918,7 +2918,7 @@ types = {
 
 		launchable = {
 			OR = {
-				has_completed_focus = JAP_strike_the_southern_road
+				always = no # Tsareich2: disabled missing focus reference JAP_strike_the_southern_road
 				has_war_with = USA
 			}
 		}
@@ -3311,7 +3311,7 @@ types = {
 		}
 		visible = {
 			CZE = {
-				has_completed_focus = CZE_airlift_soviet_support
+				always = no # Tsareich2: disabled missing focus reference CZE_airlift_soviet_support
 				NOT = {
 					has_war_with = ROOT
 				}
@@ -3322,7 +3322,7 @@ types = {
 		}
 		available = {	#only for tooltip purposes, for SOV to understand why this is showing
 			CZE = {
-				has_completed_focus = CZE_airlift_soviet_support
+				always = no # Tsareich2: disabled missing focus reference CZE_airlift_soviet_support
 			}
 		}
 

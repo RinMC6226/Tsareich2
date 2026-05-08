@@ -80,7 +80,7 @@ check_has_focus_tree_to_switch_to_fascism = {
 		AND = {
 			tag = SAF
 			has_dlc = "Together for Victory"
-			has_completed_focus = SAF_south_africa_first
+			always = no # Tsareich2: disabled missing focus reference SAF_south_africa_first
 		}
 	}
 	NOT = {
@@ -111,9 +111,9 @@ check_has_focus_tree_to_switch_to_fascism = {
 		AND = {
 			original_tag = SPR
 			OR = {
-				has_completed_focus = SPA_the_phalanx_ascendant
-				has_completed_focus = SPA_supremacy_of_the_communion
-				has_completed_focus = SPR_the_popular_front
+				always = no # Tsareich2: disabled missing focus reference SPA_the_phalanx_ascendant
+				always = no # Tsareich2: disabled missing focus reference SPA_supremacy_of_the_communion
+				always = no # Tsareich2: disabled missing focus reference SPR_the_popular_front
 			}
 			has_dlc = "La Resistance"
 		}

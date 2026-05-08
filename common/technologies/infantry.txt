@@ -530,7 +530,7 @@ technologies = {
 			modifier = {
 				factor = 5
 				tag = GER
-				has_completed_focus = GER_fallschirmjager
+				always = no # Tsareich2: disabled missing focus reference GER_fallschirmjager
 			}
 		}
 	}

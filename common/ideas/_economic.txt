@@ -203,7 +203,7 @@ ideas = {
 					NOT = {
 						has_idea = war_economy
 					}
-					has_completed_focus = GUAY_coup_detat
+					always = no # Tsareich2: disabled missing focus reference GUAY_coup_detat
 				}
    			}
 		}

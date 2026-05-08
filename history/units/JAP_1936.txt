@@ -1,4 +1,4 @@
-﻿division_template = {
+division_template = {
 	name = "Hohei Shidan" 			# (Square) Infantry Division - 4 infantry regiments (3k men each), 1 field artillery regiment - abstracted into infantry,
 	division_names_group = JAP_INF_01
 									# 1 engineering regiment, 1 recon regiment
@@ -690,7 +690,6 @@ instant_effect = {
 		requested_factories = 3
 		progress = 0.1
 		efficiency = 50
-		industrial_manufacturer = mio:JAP_kokura_arsenal_organization
 	}
 
 	add_equipment_production = {
@@ -701,7 +700,6 @@ instant_effect = {
 		requested_factories = 1
 		progress = 0.3
 		efficiency = 50
-		industrial_manufacturer = mio:JAP_nagoya_arsenal_organization
 	}
 
 	add_equipment_production = {
@@ -712,7 +710,6 @@ instant_effect = {
 		requested_factories = 1
 		progress = 0.4
 		efficiency = 50
-		industrial_manufacturer = mio:JAP_osaka_army_arsenal_artillery_organization
 	}
 
 	add_equipment_production = {
@@ -723,7 +720,6 @@ instant_effect = {
 		requested_factories = 1
 		progress = 0.5
 		efficiency = 50
-		industrial_manufacturer = mio:JAP_nissan_organization
 	}
 
 	add_equipment_production = {

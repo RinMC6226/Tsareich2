@@ -22,7 +22,7 @@ faction_manifest_defense_of_democracy = {
 				min = @manifest_fulfilled_value
 	
 				modifier = { 
-					democratic_drift_from_guarantees = 0.05
+					center_drift = 0.05
 					can_guarantee_other_ideologies = 1
 				}
 			}
@@ -49,7 +49,7 @@ faction_manifest_defense_of_democracy_allies = {
 				min = @manifest_fulfilled_value
 	
 				modifier = { 
-					democratic_drift_from_guarantees = 0.08
+					center_drift = 0.08
 					can_guarantee_other_ideologies = 1
 				}
 			}
@@ -67,7 +67,7 @@ faction_manifest_containment_of_communism = {
 		completed_amount_collection = collection:world_non_communist_states
 		
 		scale = {
-			communism_drift = -0.08
+			far_left_drift = -0.08
 		}
 		
 		progress_sections = {
@@ -93,7 +93,7 @@ faction_manifest_suppress_regional_fascism = {
 		completed_amount_collection = collection:non_fascist_controlled_states_on_my_continent
 		
 		scale = {
-			fascism_drift = -0.08
+			far_right_drift = -0.08
 		}
 		
 		progress_sections = {
@@ -146,7 +146,7 @@ faction_manifest_suppress_regional_communism = {
 		completed_amount_collection = collection:non_communist_controlled_states_on_my_continent
 		
 		scale = {
-			communism_drift = -0.05
+			far_left_drift = -0.05
 		}
 		
 		progress_sections = {
@@ -171,7 +171,7 @@ faction_manifest_suppress_regional_democracy = {
 		completed_amount_collection = collection:non_democratic_controlled_states_on_my_continent
 		
 		scale = {
-			democratic_drift = -0.05
+			center_drift = -0.05
 		}
 		
 		progress_sections = {
@@ -230,7 +230,7 @@ faction_manifest_spread_of_communism = {
 		}
 		
 		scale = {
-			communism_drift = 0.1
+			far_left_drift = 0.1
 		}
 		
 		progress_sections = {
@@ -702,7 +702,7 @@ faction_manifest_suppress_asian_communism = {
 		completed_amount_collection = collection:non_communist_or_capitulated_countries_asia
 		
 		scale = {
-			communism_drift = -0.05
+			far_left_drift = -0.05
 		}
 		
 		progress_sections = {
@@ -1031,7 +1031,7 @@ faction_manifest_security_through_expansion = {
 				min = @manifest_fulfilled_value
 	
 				modifier = {
-					communism_drift_from_guarantees = 0.10
+					far_left_drift = 0.10
 					can_guarantee_other_ideologies = 1
 					generate_wargoal_tension = -0.15
 				}			
@@ -1061,7 +1061,7 @@ faction_manifest_an_iron_curtain = {
 				min = 0 # WAD
 	
 				modifier = {
-					communism_drift_from_guarantees = 0.12
+					far_left_drift = 0.12
 					can_guarantee_other_ideologies = 1
 					generate_wargoal_tension = -0.15
 				}
@@ -1069,3 +1069,4 @@ faction_manifest_an_iron_curtain = {
 		}
 	}
 }
+

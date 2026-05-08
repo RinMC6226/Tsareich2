@@ -1,4 +1,4 @@
-﻿# Division template historical names system. Is a new method of naming the divisions based on the names-group assigned to it's template.
+# Division template historical names system. Is a new method of naming the divisions based on the names-group assigned to it's template.
 # If we run out of all historical names, the names will be assigned in the old way.
 #
 # Each group has a made up tag. Use it if you want to append more, or replace existing names with the extra txt files (modding).
@@ -1053,7 +1053,7 @@ ENG_MNT_02 = {
 			tag = ENG
 			AND = {
 				tag = RAJ
-				has_completed_focus = RAJ_indian_gurkhas
+				always = no # Tsareich2: disabled missing focus reference RAJ_indian_gurkhas
 			}
 		}
 	}
@@ -1190,7 +1190,7 @@ ENG_COL_01 = {
 
 	can_use = {
 		NOT = {
-			has_completed_focus = ENG_decolonization
+			always = no # Tsareich2: disabled missing focus reference ENG_decolonization
 		}
 	}
 

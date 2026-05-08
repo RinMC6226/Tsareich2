@@ -1,0 +1,27 @@
+SP_create_variant_of_habakkuk_for_production_line = {
+	set_temp_variable = { tsr_sp_create_variant_of_habakkuk_placeholder = 0 }
+}
+
+ITA_add_basic_light_flamethrower_template = {
+	set_temp_variable = { tsr_ita_add_basic_light_flamethrower_template_placeholder = 0 }
+}
+
+SP_create_variant_based_on_country_assault_engineer = {
+	set_temp_variable = { tsr_sp_create_variant_based_on_country_assault_engineer_placeholder = 0 }
+}
+
+SP_create_variant_based_on_country_improved_small_airframe_rocket_engine = {
+	set_temp_variable = { tsr_sp_create_variant_based_on_country_improved_small_airframe_rocket_engine_placeholder = 0 }
+}
+
+bathe_in_hellfire_nuclear = {
+	set_temp_variable = { tsr_bathe_in_hellfire_nuclear_placeholder = 0 }
+}
+
+PHI_cobalt_sea_achievement = {
+	set_temp_variable = { tsr_phi_cobalt_sea_achievement_placeholder = 0 }
+}
+
+bathe_in_hellfire_thermonuclear = {
+	set_temp_variable = { tsr_bathe_in_hellfire_thermonuclear_placeholder = 0 }
+}

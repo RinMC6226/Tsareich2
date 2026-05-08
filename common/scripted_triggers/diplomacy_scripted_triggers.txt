@@ -193,7 +193,7 @@ DIPLOMACY_RELEASE_NATION_ENABLE_TRIGGER = {
 			}
 			has_dlc = "Death or Dishonor"
 			original_tag = YUG
-			NOT = { has_completed_focus = YUG_reunite_the_kingdom }
+			NOT = { always = no }
 		}
 		custom_trigger_tooltip = {
 			tooltip = RULE_ALLOW_RELEASE_NATIONS_NOT_YUGOSLAVIA_TOOLTIP
@@ -253,8 +253,8 @@ DIPLOMACY_RELEASE_NATION_ENABLE_TRIGGER = {
 			original_tag = CHL
 			NOT = { 
 				OR = {
-					has_completed_focus = CHL_crusade_against_imperialism 
-					has_completed_focus = CHL_endorse_the_constitution
+					always = no # Tsareich2: disabled missing focus reference CHL_crusade_against_imperialism
+					always = no # Tsareich2: disabled missing focus reference CHL_endorse_the_constitution
 				}
 			}
 		}
@@ -279,16 +279,16 @@ DIPLOMACY_RELEASE_NATION_ENABLE_TRIGGER = {
 			original_tag = CAN
 			NOT = { 
 				OR = {
-					has_completed_focus = CAN_forced_quebec_conscription 
-					has_completed_focus = CAN_compromise_with_quebec
+					always = no # Tsareich2: disabled missing focus reference CAN_forced_quebec_conscription
+					always = no # Tsareich2: disabled missing focus reference CAN_compromise_with_quebec
 				}
 			}
 		}
 		custom_trigger_tooltip = {
 			tooltip = RULE_ALLOW_RELEASE_NATIONS_NOT_QUEBEC_TOOLTIP
 			OR = {
-				has_completed_focus = CAN_forced_quebec_conscription
-				has_completed_focus = CAN_compromise_with_quebec
+				always = no # Tsareich2: disabled missing focus reference CAN_forced_quebec_conscription
+				always = no # Tsareich2: disabled missing focus reference CAN_compromise_with_quebec
 			}
 		}
 	}
@@ -627,7 +627,7 @@ DIPLOMACY_RELEASE_NATION_ENABLE_TRIGGER = {
 			has_dlc = "By Blood Alone"
 			original_tag = ITA
 			FROM = { tag = PAP }
-			has_completed_focus = ITA_seek_papal_support
+			always = no # Tsareich2: disabled missing focus reference ITA_seek_papal_support
 		}
 		custom_trigger_tooltip = {
 			tooltip = RULE_ALLOW_RELEASE_NATIONS_ITALY_PAP_TOOLTIP
@@ -656,9 +656,9 @@ DIPLOMACY_RELEASE_NATION_ENABLE_TRIGGER = {
 			}
 			has_dlc = "La Resistance"
 			original_tag = SPR
-			has_completed_focus = SPR_masters_of_our_own_fate
+			always = no # Tsareich2: disabled missing focus reference SPR_masters_of_our_own_fate
 			NOT = {
-				has_completed_focus = SPR_the_anti_fascist_workers_revolution
+				always = no # Tsareich2: disabled missing focus reference SPR_the_anti_fascist_workers_revolution
 			}
 		}
 		custom_trigger_tooltip = {
@@ -680,8 +680,8 @@ DIPLOMACY_RELEASE_NATION_ENABLE_TRIGGER = {
 		custom_trigger_tooltip = {
 			tooltip = RULE_ALLOW_RELEASE_NATIONS_SOVIET_TOOLTIP
 			OR = {
-				has_completed_focus = SOV_autonomous_soviet_republics
-				has_completed_focus = SOV_reconvene_the_zemsky_sobor
+				always = no # Tsareich2: disabled missing focus reference SOV_autonomous_soviet_republics
+				always = no # Tsareich2: disabled missing focus reference SOV_reconvene_the_zemsky_sobor
 			}
 		}
 	}
@@ -705,8 +705,8 @@ DIPLOMACY_RELEASE_NATION_ENABLE_TRIGGER = {
 					SOV_is_soviet_republic_tag_strict = no
 				}
 				OR = {
-					has_completed_focus = SOV_autonomous_soviet_republics
-					has_completed_focus = SOV_reconvene_the_zemsky_sobor
+					always = no # Tsareich2: disabled missing focus reference SOV_autonomous_soviet_republics
+					always = no # Tsareich2: disabled missing focus reference SOV_reconvene_the_zemsky_sobor
 				}
 			}
 		}
@@ -793,8 +793,8 @@ DIPLOMACY_RELEASE_NATION_ENABLE_TRIGGER = {
 				SOV_is_soviet_republic_tag_strict = yes
 			}
 			NOT = {
-				has_completed_focus = SOV_autonomous_soviet_republics
-				has_completed_focus = SOV_reconvene_the_zemsky_sobor
+				always = no # Tsareich2: disabled missing focus reference SOV_autonomous_soviet_republics
+				always = no # Tsareich2: disabled missing focus reference SOV_reconvene_the_zemsky_sobor
 			}
 		}
 		if = {
@@ -809,8 +809,8 @@ DIPLOMACY_RELEASE_NATION_ENABLE_TRIGGER = {
 		custom_trigger_tooltip = {
 			tooltip = RULE_ALLOW_RELEASE_NATIONS_SOVIET_TOOLTIP
 			OR = {
-				has_completed_focus = SOV_autonomous_soviet_republics
-				has_completed_focus = SOV_reconvene_the_zemsky_sobor
+				always = no # Tsareich2: disabled missing focus reference SOV_autonomous_soviet_republics
+				always = no # Tsareich2: disabled missing focus reference SOV_reconvene_the_zemsky_sobor
 			}
 		}
 	}
@@ -1568,13 +1568,13 @@ DIPLOMACY_SEND_VOLUNTEERS_ENABLE_TRIGGER = {
 				NOT = { tag = SPC }
 				FROM = {
 					tag = SPC
-					has_completed_focus = SPR_regional_defense_council_of_aragon
+					always = no # Tsareich2: disabled missing focus reference SPR_regional_defense_council_of_aragon
 				}
 				NOT = { 
 					AND = {
 						tag = ETH 
 						ETH = {
-							has_completed_focus = ETH_support_spain
+							always = no # Tsareich2: disabled missing focus reference ETH_support_spain
 						}
 					}
 				}
@@ -1600,13 +1600,13 @@ DIPLOMACY_SEND_VOLUNTEERS_ENABLE_TRIGGER = {
 				NOT = { tag = SPC }
 				FROM = {
 					tag = SPC
-					has_completed_focus = SPR_regional_defense_council_of_aragon
+					always = no # Tsareich2: disabled missing focus reference SPR_regional_defense_council_of_aragon
 				}
 				NOT = { 
 					AND = {
 						tag = ETH 
 						ETH = {
-							has_completed_focus = ETH_support_spain
+							always = no # Tsareich2: disabled missing focus reference ETH_support_spain
 						}
 					}
 				}
@@ -1627,19 +1627,19 @@ DIPLOMACY_SEND_VOLUNTEERS_ENABLE_TRIGGER = {
 				tooltip = RULE_VOLUNTEERS_PORTUGAL_SCW_TT
 				NOT = {
 					AND = {
-						has_completed_focus = POR_support_the_spanish_republic
+						always = no # Tsareich2: disabled missing focus reference POR_support_the_spanish_republic
 						FROM = { NOT = { tag = SPD } }
 					}
 				}
 				NOT = {
 					AND = {
-						has_completed_focus = POR_support_the_spanish_nationalists
+						always = no # Tsareich2: disabled missing focus reference POR_support_the_spanish_nationalists
 						FROM = { NOT = { tag = SPA } }
 					}
 				}
 				NOT = {
 					AND = {
-						has_completed_focus = POR_support_a_spanish_monarchy_in_the_war
+						always = no # Tsareich2: disabled missing focus reference POR_support_a_spanish_monarchy_in_the_war
 						FROM = { NOT = { tag = SPB } }
 					}
 				}
@@ -1658,13 +1658,13 @@ DIPLOMACY_SEND_VOLUNTEERS_ENABLE_TRIGGER = {
 				tooltip = RULE_VOLUNTEERS_BULGARIA_SCW_TT
 				NOT = {
 					AND = {
-						has_completed_focus = BUL_the_spanish_struggle
+						always = no # Tsareich2: disabled missing focus reference BUL_the_spanish_struggle
 						FROM = { NOT = { tag = SPD } }
 					}
 				}
 				NOT = {
 					AND = {
-						has_completed_focus = BUL_support_the_spanish_coup
+						always = no # Tsareich2: disabled missing focus reference BUL_support_the_spanish_coup
 						FROM = { NOT = { tag = SPA } }
 					}
 				}
@@ -1685,7 +1685,7 @@ DIPLOMACY_SEND_VOLUNTEERS_ENABLE_TRIGGER = {
 				tooltip = RULE_VOLUNTEERS_BULGARIA_SCW_TT
 				NOT = {
 					AND = {
-						has_completed_focus = BUL_the_spanish_struggle
+						always = no # Tsareich2: disabled missing focus reference BUL_the_spanish_struggle
 						FROM = {
 							NOT = { OR = { has_government = far_left has_government = left } }
 							NOT = { OR = { has_government = center_left has_government = center has_government = center_right } }
@@ -1694,7 +1694,7 @@ DIPLOMACY_SEND_VOLUNTEERS_ENABLE_TRIGGER = {
 				}
 				NOT = {
 					AND = {
-						has_completed_focus = BUL_support_the_spanish_coup
+						always = no # Tsareich2: disabled missing focus reference BUL_support_the_spanish_coup
 						FROM = {
 							NOT = { has_government = far_right }
 							NOT = { OR = { has_government = center_right has_government = right } }
@@ -1712,9 +1712,9 @@ DIPLOMACY_SEND_VOLUNTEERS_ENABLE_TRIGGER = {
 			custom_trigger_tooltip = {
 				tooltip = RULE_VOLUNTEERS_SOVIET_CHINA_SUPPORT_CHOSEN_ONE_TT
 				OR = {
-					has_completed_focus = SOV_the_gobi_gambit
-					has_completed_focus = SOV_two_red_flags
-					has_completed_focus = SOV_support_the_kuomintang
+					always = no # Tsareich2: disabled missing focus reference SOV_the_gobi_gambit
+					always = no # Tsareich2: disabled missing focus reference SOV_two_red_flags
+					always = no # Tsareich2: disabled missing focus reference SOV_support_the_kuomintang
 					FROM = {
 						tag = SIK
 						has_war_with = KHM
@@ -1723,19 +1723,19 @@ DIPLOMACY_SEND_VOLUNTEERS_ENABLE_TRIGGER = {
 				}
 				NOT = {
 					AND = {
-						has_completed_focus = SOV_the_gobi_gambit
+						always = no # Tsareich2: disabled missing focus reference SOV_the_gobi_gambit
 						FROM = { NOT = { tag = SIK } }
 					}
 				}
 				NOT = {
 					AND = {
-						has_completed_focus = SOV_two_red_flags
+						always = no # Tsareich2: disabled missing focus reference SOV_two_red_flags
 						FROM = { NOT = { tag = PRC } }
 					}
 				}
 				NOT = {
 					AND = {
-						has_completed_focus = SOV_support_the_kuomintang
+						always = no # Tsareich2: disabled missing focus reference SOV_support_the_kuomintang
 						FROM = { NOT = { tag = CHI } }
 					}
 				}
@@ -1770,7 +1770,7 @@ DIPLOMACY_SEND_VOLUNTEERS_ENABLE_TRIGGER = {
 				OR = {
 					NOT = { has_completed_focus = SOV_covert_support_for_spanish_poum }
 					AND = {
-						has_completed_focus = SOV_covert_support_for_spanish_poum
+						always = no # Tsareich2: disabled missing focus reference SOV_covert_support_for_spanish_poum
 						NOT = { has_global_flag = SPR_anarchist_uprising_flag }
 					}
 				}
@@ -1801,10 +1801,10 @@ DIPLOMACY_SEND_VOLUNTEERS_ENABLE_TRIGGER = {
 				original_tag = SOV
 				OR = { has_government = far_left has_government = left }
 				FROM = { original_tag = SPR }
-				has_completed_focus = SOV_covert_support_for_spanish_poum
-				NOT = { has_completed_focus = SOV_coup_detat }
+				always = no # Tsareich2: disabled missing focus reference SOV_covert_support_for_spanish_poum
+				NOT = { always = no }
 				has_global_flag = SPR_anarchist_uprising_flag
-				SPC = { has_completed_focus = SPR_the_anti_fascist_workers_revolution }
+				SPC = { always = no }
 			}
 			custom_trigger_tooltip = {
 				tooltip = RULE_VOLUNTEERS_SOVIET_SCW_COVERT_POUM_TT
@@ -1820,10 +1820,10 @@ DIPLOMACY_SEND_VOLUNTEERS_ENABLE_TRIGGER = {
 				original_tag = SOV
 				OR = { has_government = far_left has_government = left }
 				FROM = { original_tag = SPR }
-				has_completed_focus = SOV_covert_support_for_spanish_poum
-				has_completed_focus = SOV_coup_detat
+				always = no # Tsareich2: disabled missing focus reference SOV_covert_support_for_spanish_poum
+				always = no # Tsareich2: disabled missing focus reference SOV_coup_detat
 				has_global_flag = SPR_anarchist_uprising_flag
-				SPC = { has_completed_focus = SPR_the_anti_fascist_workers_revolution }
+				SPC = { always = no }
 			}
 			custom_trigger_tooltip = {
 				tooltip = RULE_VOLUNTEERS_SOVIET_SCW_POUM_TT
@@ -1927,13 +1927,13 @@ DIPLOMACY_SEND_VOLUNTEERS_ENABLE_TRIGGER = {
 					AND = {
 						tag = ETH 
 						ETH = {
-							has_completed_focus = ETH_support_spain
+							always = no # Tsareich2: disabled missing focus reference ETH_support_spain
 						}
 					}
 				}
 				FROM = {
 					tag = SPC
-					has_completed_focus = SPR_regional_defense_council_of_aragon
+					always = no # Tsareich2: disabled missing focus reference SPR_regional_defense_council_of_aragon
 	}
 			}
 			custom_trigger_tooltip = {

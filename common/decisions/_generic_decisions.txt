@@ -115,17 +115,17 @@ political_actions = {
 			modifier = {
 				factor = 0 
 				tag = ICE
-				has_completed_focus = ICE_not_our_king
+				always = no # Tsareich2: disabled missing focus reference ICE_not_our_king
 				NOT = { has_completed_focus = ICE_break_with_the_crown }
 			}
 			modifier = {
 				factor = 0 
 				tag = GER
-				has_completed_focus = GER_oppose_hitler_ww
+				always = no # Tsareich2: disabled missing focus reference GER_oppose_hitler_ww
 				NOT = { 
 					OR = {
-						has_completed_focus = GER_the_peoples_victory 
-						has_completed_focus = GER_monarchist_sentiment 
+						always = no # Tsareich2: disabled missing focus reference GER_the_peoples_victory
+						always = no # Tsareich2: disabled missing focus reference GER_monarchist_sentiment
 					}
 				}
 			}
@@ -158,7 +158,7 @@ economy_decisions = {
 			controls_state = 28
 			if = {
 				limit = {
-					FRA = { has_completed_focus = FRA_extend_the_maginot_line }
+					FRA = { always = no }
 				}
 				controls_state = 18
 				controls_state = 29
@@ -191,7 +191,7 @@ economy_decisions = {
 			}
 			if = {
 				limit = {
-					FRA = { has_completed_focus = FRA_extend_the_maginot_line }
+					FRA = { always = no }
 				}
 				18 = {
 					set_building_level = {
@@ -578,7 +578,7 @@ propaganda_efforts = {
 				}
 				threat > 0.25
 				#has_tech = radio
-				has_completed_focus = BRA_radio_nacional
+				always = no # Tsareich2: disabled missing focus reference BRA_radio_nacional
 			}
 			ELSE = {
 				threat > 0.25
@@ -592,7 +592,7 @@ propaganda_efforts = {
 				}
 				threat > 0.25
 				#has_tech = radio
-				has_completed_focus = AFG_establish_radio_networks
+				always = no # Tsareich2: disabled missing focus reference AFG_establish_radio_networks
 			}
 			ELSE = {
 				threat > 0.25
@@ -1716,8 +1716,8 @@ war_measures = {
         				original_tag = PRC
         			}
         			NOT = { 
-        				has_completed_focus = PRC_holding_half_the_sky
-        				has_completed_focus = PRC_promote_womens_suffrage
+        				always = no # Tsareich2: disabled missing focus reference PRC_holding_half_the_sky
+        				always = no # Tsareich2: disabled missing focus reference PRC_promote_womens_suffrage
         			}
         		}
 			}
@@ -1729,7 +1729,7 @@ war_measures = {
         			has_idea = tot_economic_mobilisation
 					has_idea = totaler_krieg_economy
 				}
-				NOT = { has_completed_focus = GER_womens_rights_and_equality }
+				NOT = { always = no }
 			}
 			else_if = {
 				limit = {
@@ -1739,7 +1739,7 @@ war_measures = {
 					has_idea = tot_economic_mobilisation
 					has_idea = national_defense_state
 				}
-				NOT = { has_completed_focus = JAP_democratic_women_in_the_workforce }
+				NOT = { always = no }
 			}
             OR = {
                 AND = {
@@ -1770,7 +1770,7 @@ war_measures = {
             	limit = {
             		original_tag = GER
             	}
-            	NOT = { has_completed_focus = GER_womens_rights_and_equality }
+            	NOT = { always = no }
             }
         }
         cost = 100
@@ -1786,7 +1786,7 @@ war_measures = {
         				NOT = { has_idea = tot_economic_mobilisation }
         				NOT = { has_idea = totaler_krieg_economy }
         			}
-        			has_completed_focus = GER_womens_rights_and_equality
+        			always = no # Tsareich2: disabled missing focus reference GER_womens_rights_and_equality
         		}
             }
             else_if = {
@@ -2063,7 +2063,7 @@ foreign_politics = {
 			NOT = {
 				AND = {
 					original_tag = SPR
-					has_completed_focus = SPR_regional_defense_council_of_aragon
+					always = no # Tsareich2: disabled missing focus reference SPR_regional_defense_council_of_aragon
 				}
 			}
 		}

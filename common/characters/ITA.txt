@@ -1,4 +1,4 @@
-﻿characters = {
+characters = {
 	ITA_benito_mussolini = {
 		name = ITA_benito_mussolini
 		portraits = {
@@ -23,7 +23,7 @@
 			logistics_skill=1
 			legacy_id=0
 			visible = {
-				has_completed_focus = ITA_capo_supremo
+				always = no # Tsareich2: disabled missing focus reference ITA_capo_supremo
 			}
 		}
 	}
@@ -174,10 +174,10 @@
 			}
 			available = {
 				OR = {
-					has_completed_focus = ITA_revoke_the_acerbo_law
-					has_completed_focus = ITA_disband_the_blackshirts
+					always = no # Tsareich2: disabled missing focus reference ITA_revoke_the_acerbo_law
+					always = no # Tsareich2: disabled missing focus reference ITA_disband_the_blackshirts
 					AND = {
-						has_completed_focus = ITA_common_ground
+						always = no # Tsareich2: disabled missing focus reference ITA_common_ground
 						is_center_bloc = yes
 					}
 				}
@@ -232,11 +232,11 @@
 				OR = {
 					AND = {
 						OR = {
-							has_completed_focus = ITA_unite_the_opposition
-							has_completed_focus = ITA_defy_the_duce
+							always = no # Tsareich2: disabled missing focus reference ITA_unite_the_opposition
+							always = no # Tsareich2: disabled missing focus reference ITA_defy_the_duce
 						}
-						NOT = { has_completed_focus = ITA_culto_del_duce }
-						NOT = { has_completed_focus = ITA_convene_the_grand_council }
+						NOT = { always = no }
+						NOT = { always = no }
 						NOT = { 
 							has_country_leader = {
 								character = ITA_palmiro_togliatti
@@ -291,11 +291,11 @@
 			}
 			available = {
 				OR = {
-					has_completed_focus = ITA_the_abyssinian_fiasco
-					has_completed_focus = ITA_defy_the_duce
+					always = no # Tsareich2: disabled missing focus reference ITA_the_abyssinian_fiasco
+					always = no # Tsareich2: disabled missing focus reference ITA_defy_the_duce
 				}
-				NOT = { has_completed_focus = ITA_culto_del_duce }
-				NOT = { has_completed_focus = ITA_convene_the_grand_council }
+				NOT = { always = no }
+				NOT = { always = no }
 				NOT = { 
 					has_country_leader = {
 						character = ITA_sandro_pertini

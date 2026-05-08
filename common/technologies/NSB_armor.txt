@@ -193,7 +193,7 @@ technologies = {
 				if = { #Italian templates
 					limit = {
 						original_tag = ITA
-						has_completed_focus = ITA_italian_tankettes
+						always = no # Tsareich2: disabled missing focus reference ITA_italian_tankettes
 					}
 					ITA_add_improved_light_tank_templates = yes
 				}
@@ -330,14 +330,14 @@ technologies = {
 			if = { #Italian templates
 				limit = {
 					original_tag = ITA
-					has_completed_focus = ITA_italian_tankettes
+					always = no # Tsareich2: disabled missing focus reference ITA_italian_tankettes
 				}
 				ITA_add_improved_light_tank_templates = yes
 			}
 			IF = { #Hungarian templates
 				limit = {
 					original_tag = HUN
-					has_completed_focus = wuw_HUN_the_toldi
+					always = no # Tsareich2: disabled missing focus reference wuw_HUN_the_toldi
 				}
 				#38M Toldi
 				create_equipment_variant = {
@@ -659,7 +659,7 @@ technologies = {
 			modifier = {
 				factor = 15.0
 				tag = GER
-				has_completed_focus = GER_advanced_panzer_research
+				always = no # Tsareich2: disabled missing focus reference GER_advanced_panzer_research
 				has_tech_bonus = {
 				    category = cat_medium_armor
 				}
@@ -669,7 +669,7 @@ technologies = {
 				factor = 0.5
 				tag = GER
 				NOT = {
-					has_completed_focus = GER_advanced_panzer_research
+					always = no # Tsareich2: disabled missing focus reference GER_advanced_panzer_research
 				}
 			}
 
@@ -718,8 +718,8 @@ technologies = {
 				limit = {
 					original_tag = ITA
 					OR = {
-						has_completed_focus = ITA_end_fiat_ansaldo_duopoly
-						has_completed_focus = ITA_modernize_ansaldo_facilities
+						always = no # Tsareich2: disabled missing focus reference ITA_end_fiat_ansaldo_duopoly
+						always = no # Tsareich2: disabled missing focus reference ITA_modernize_ansaldo_facilities
 					}
 				}
 				ITA_add_improved_medium_tank_templates = yes
@@ -727,7 +727,7 @@ technologies = {
 			IF = { #Hungarian templates
 				limit = {
 					original_tag = HUN
-					has_completed_focus = wuw_HUN_the_turan
+					always = no # Tsareich2: disabled missing focus reference wuw_HUN_the_turan
 				}
 				#40M Turán
 				create_equipment_variant = {
@@ -753,7 +753,7 @@ technologies = {
 			IF = { #Hungarian templates
 				limit = {
 					original_tag = HUN
-					has_completed_focus = wuw_HUN_assault_gun_focus
+					always = no # Tsareich2: disabled missing focus reference wuw_HUN_assault_gun_focus
 				}
 				# 40M Nimród
 				create_equipment_variant = {
@@ -873,14 +873,14 @@ technologies = {
 			if = { #Italian templates
 				limit = {
 					original_tag = ITA
-					has_completed_focus = ITA_ferrea_mole_ferreo_cuore
+					always = no # Tsareich2: disabled missing focus reference ITA_ferrea_mole_ferreo_cuore
 				}
 				ITA_add_advanced_medium_tank_templates = yes
 			}
 			IF = { #Hungarian templates
 				limit = {
 					original_tag = HUN
-					has_completed_focus = wuw_HUN_the_turan
+					always = no # Tsareich2: disabled missing focus reference wuw_HUN_the_turan
 				}
 				#43M Turán III
 				create_equipment_variant = {
@@ -906,7 +906,7 @@ technologies = {
 			IF = { #Hungarian templates
 				limit = {
 					original_tag = HUN
-					has_completed_focus = wuw_HUN_assault_gun_focus
+					always = no # Tsareich2: disabled missing focus reference wuw_HUN_assault_gun_focus
 				}
 				# 43M Zrínyi
 				create_equipment_variant = {
@@ -950,7 +950,7 @@ technologies = {
 				factor = 5.0
 				tag = GER
 				date > "1942.6.1"
-				has_completed_focus = GER_expand_kummersdorfs_capacity
+				always = no # Tsareich2: disabled missing focus reference GER_expand_kummersdorfs_capacity
 				has_tech_bonus = {
 				    category = cat_medium_armor
 				}
@@ -1154,8 +1154,8 @@ technologies = {
 				limit = {
 					original_tag = ITA
 					OR = {
-						has_completed_focus = ITA_end_fiat_ansaldo_duopoly
-						has_completed_focus = ITA_modernize_ansaldo_facilities
+						always = no # Tsareich2: disabled missing focus reference ITA_end_fiat_ansaldo_duopoly
+						always = no # Tsareich2: disabled missing focus reference ITA_modernize_ansaldo_facilities
 					}
 				}
 				ITA_add_improved_heavy_tank_templates = yes
@@ -1190,7 +1190,7 @@ technologies = {
 			modifier = {
 				factor = 5.0
 				tag = GER
-				has_completed_focus = GER_expand_kummersdorfs_capacity
+				always = no # Tsareich2: disabled missing focus reference GER_expand_kummersdorfs_capacity
 				has_tech_bonus = {
 				    category = cat_heavy_armor
 				}
@@ -1233,7 +1233,7 @@ technologies = {
 			if = { #Italian templates
 				limit = {
 					original_tag = ITA
-					has_completed_focus = ITA_ferrea_mole_ferreo_cuore
+					always = no # Tsareich2: disabled missing focus reference ITA_ferrea_mole_ferreo_cuore
 				}
 				ITA_add_advanced_heavy_tank_templates = yes
 			}
@@ -1329,19 +1329,19 @@ technologies = {
 				}
 				if = {
 					limit = {
-						has_completed_focus = ITA_capo_supremo
+						always = no # Tsareich2: disabled missing focus reference ITA_capo_supremo
 					}
 					ITA_add_il_duce_sh_tank_template_and_production = yes
 				}
 				else_if = {
 					limit = {
-						has_completed_focus = ITA_modern_musculus
+						always = no # Tsareich2: disabled missing focus reference ITA_modern_musculus
 					}
 					ITA_add_modern_musculus_sh_tank_template_and_production = yes
 				}
 				else_if = {
 					limit = {
-						has_completed_focus = ITA_a_time_for_war
+						always = no # Tsareich2: disabled missing focus reference ITA_a_time_for_war
 					}
 					ITA_add_hand_of_god_sh_tank_template_and_production = yes
 				}
@@ -1350,14 +1350,13 @@ technologies = {
 			IF = { #Japanese templates
 				limit = {
 					original_tag = JAP
-					has_completed_focus = JAP_the_ultimate_tank
+					always = no # Tsareich2: disabled missing focus reference JAP_the_ultimate_tank
 				}
 				#O-I
 				create_equipment_variant = {
 					name = "O-I"
 					type = super_heavy_tank_chassis_1
 					parent_version = 0
-					design_team = mio:JAP_mitsubishi_heavy_industries_organization
 					modules = {
 						main_armament_slot = tank_super_heavy_cannon
 						turret_type_slot = tank_super_heavy_four_man_tank_turret

@@ -181,8 +181,8 @@ ideas = {
 
 			modifier = {
 				trade_opinion_factor = 0.25
-				democratic_acceptance = -300
-				communism_acceptance = 100
+				center_acceptance = -300
+				far_left_acceptance = 100
 				#custom_modifier_tooltip = SOV_shocked_by_surprise_attack_cant_join_factions_tt
 			}
 		}
@@ -197,7 +197,7 @@ ideas = {
 
 			modifier = {
 				operative_slot = 1
-				communism_acceptance = -15
+				far_left_acceptance = -15
 			}
 		}
 		
@@ -215,7 +215,7 @@ ideas = {
 
 			
 			modifier = {
-				fascism_drift = 0.1
+				far_right_drift = 0.1
 			}
 		}
 		MTG_TEST_NAVAL_IDEA = { #MTG_TODO_GABRIEL: remove before shipping
@@ -248,7 +248,7 @@ ideas = {
 			
 			modifier = {
 				#justify_war_goal_time = -0.25
-				communism_drift = 0.1
+				far_left_drift = 0.1
 			}
 		}
 
@@ -265,8 +265,8 @@ ideas = {
 			picture = generic_fascism_drift_bonus
 			
 			modifier = {
-				fascism_drift = 0.1
-				fascism_acceptance = 65
+				far_right_drift = 0.1
+				far_right_acceptance = 65
 			}
 		}
 
@@ -283,8 +283,8 @@ ideas = {
 			picture = generic_fascism_drift_bonus
 			
 			modifier = {
-				fascism_drift = 0.25
-				fascism_acceptance = 150
+				far_right_drift = 0.25
+				far_right_acceptance = 150
 				drift_defence_factor = -0.25
 
 			}
@@ -304,8 +304,8 @@ ideas = {
 			picture = generic_communism_drift_bonus
 			
 			modifier = {
-				communism_drift = 0.1
-				communism_acceptance = 85
+				far_left_drift = 0.1
+				far_left_acceptance = 85
 			}
 		}
 
@@ -323,8 +323,8 @@ ideas = {
 			picture = generic_democratic_drift_bonus
 			
 			modifier = {
-				democratic_drift = 0.1
-				democratic_acceptance = 85
+				center_drift = 0.1
+				center_acceptance = 85
 			}
 		}
 		
@@ -340,8 +340,8 @@ ideas = {
 			picture = generic_pp_unity_bonus
 			
 			modifier = {
-				neutrality_drift = 0.1
-				neutrality_acceptance = 85
+				right_drift = 0.1
+				right_acceptance = 85
 			}
 		}
 
@@ -360,8 +360,8 @@ ideas = {
 			picture = generic_fascism_drift_bonus
 			
 			modifier = {
-				fascism_drift = 0.1
-				fascism_acceptance = 35
+				far_right_drift = 0.1
+				far_right_acceptance = 35
 			}
 		}
 		
@@ -379,8 +379,8 @@ ideas = {
 			picture = generic_communism_drift_bonus
 			
 			modifier = {
-				communism_drift = 0.1
-				communism_acceptance = 35
+				far_left_drift = 0.1
+				far_left_acceptance = 35
 			}
 		}
 
@@ -398,8 +398,8 @@ ideas = {
 			picture = generic_democratic_drift_bonus
 			
 			modifier = {
-				democratic_drift = 0.1
-				democratic_acceptance = 35
+				center_drift = 0.1
+				center_acceptance = 35
 			}
 		}
 
@@ -417,8 +417,8 @@ ideas = {
 			picture = generic_pp_unity_bonus
 			
 			modifier = {
-				neutrality_drift = 0.1
-				neutrality_acceptance = 35
+				right_drift = 0.1
+				right_acceptance = 35
 			}
 		}
 		
@@ -464,8 +464,8 @@ ideas = {
 			
 			modifier = {
 				custom_modifier_tooltip = GER_dimantle_faction_tt
-				communism_acceptance = 100
-				fascism_acceptance = 100
+				far_left_acceptance = 100
+				far_right_acceptance = 100
 			}
 		}
 		
@@ -483,7 +483,7 @@ ideas = {
 			picture = generic_communism_drift_bonus
 			
 			modifier = {
-				communism_drift = 0.1
+				far_left_drift = 0.1
 			}
 		}
 		# from decision
@@ -501,7 +501,7 @@ ideas = {
 			picture = generic_communism_drift_bonus
 			
 			modifier = {
-				communism_drift = 0.1
+				far_left_drift = 0.1
 				research_speed_factor = 0.035
 			}
 		}
@@ -538,7 +538,7 @@ ideas = {
 			picture = generic_fascism_drift_bonus
 			
 			modifier = {
-				fascism_drift = 0.1
+				far_right_drift = 0.1
 				experience_gain_army = 0.1
 			}
 		}
@@ -557,7 +557,7 @@ ideas = {
 			picture = generic_democratic_drift_bonus
 			
 			modifier = {
-				democratic_drift = 0.1
+				center_drift = 0.1
 				stability_factor = 0.1
 			}
 		}
@@ -574,7 +574,7 @@ ideas = {
 			picture = generic_pp_unity_bonus
 			
 			modifier = {
-				neutrality_drift = 0.1
+				right_drift = 0.1
 				mobilization_speed = 0.15
 			}
 		}
@@ -610,7 +610,7 @@ ideas = {
 			picture = generic_pp_unity_bonus
 
 			modifier = {
-				democratic_drift = -0.02
+				center_drift = -0.02
 			}
 		}
 	
@@ -886,7 +886,7 @@ ideas = {
 			}
 
 			modifier = {
-				communism_drift = -0.05
+				far_left_drift = -0.05
 			}
 		}
 
@@ -903,7 +903,7 @@ ideas = {
 			}
 
 			modifier = {
-				fascism_drift = -0.05
+				far_right_drift = -0.05
 			}
 		}
 
@@ -1643,3 +1643,4 @@ ideas = {
 	}
 
 }
+

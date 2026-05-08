@@ -598,7 +598,7 @@ big_entente = {
 	
 	happened = {
 		is_faction_leader = yes
-		has_completed_focus = FRA_strengthen_the_little_entente		
+		always = no # Tsareich2: disabled missing focus reference FRA_strengthen_the_little_entente
 		all_state = {
 			OR = {
 				NOT = { is_core_of = GER }
@@ -676,7 +676,7 @@ brains = {
 	}
 	
 	happened = {
-		has_completed_focus = CAN_send_in_the_zombies
+		always = no # Tsareich2: disabled missing focus reference CAN_send_in_the_zombies
 	}
 }
 
@@ -716,10 +716,10 @@ our_words_are_backed = {
 			limit = {
 				has_dlc = "Graveyard of Empires"
 			}
-			has_completed_focus = RAJ_purna_swaraj
+			always = no # Tsareich2: disabled missing focus reference RAJ_purna_swaraj
 		}
 		else = {
-			has_completed_focus = RAJ_quit_india_movement
+			always = no # Tsareich2: disabled missing focus reference RAJ_quit_india_movement
 		}
 		has_country_flag = achievement_has_dropped_nuke
 	}
@@ -756,7 +756,7 @@ crusader_kings_2 = {
 	}
 	
 	happened = {
-		has_completed_focus = SAF_anti_colonialist_crusade
+		always = no # Tsareich2: disabled missing focus reference SAF_anti_colonialist_crusade
 		has_country_flag = SAF_released_ANG
 		has_country_flag = SAF_released_MZB
 		has_country_flag = SAF_released_ZIM
@@ -1479,8 +1479,8 @@ hail_to_the_qing = {
 		custom_trigger_tooltip = {
 			tooltip = MAN_has_completed_claim_the_mandate_of_heaven_focus
 			OR = {
-				has_completed_focus = MAN_claim_the_mandate_of_heaven
-				has_completed_focus = MAN_tsr_claim_the_mandate_of_heaven
+				always = no # Tsareich2: disabled missing focus reference MAN_claim_the_mandate_of_heaven
+				always = no # Tsareich2: disabled missing focus reference MAN_tsr_claim_the_mandate_of_heaven
 			}
 		}
 		
@@ -1691,10 +1691,10 @@ our_other_place_in_the_sun = {
 			limit = {
 				has_dlc = "Gotterdammerung"
 			}
-			has_completed_focus = GER_our_place_in_the_sun_ww
+			always = no # Tsareich2: disabled missing focus reference GER_our_place_in_the_sun_ww
 		}
 		ELSE = {
-			has_completed_focus = GER_our_place_in_the_sun
+			always = no # Tsareich2: disabled missing focus reference GER_our_place_in_the_sun
 		}
 		custom_trigger_tooltip = {
 			tooltip = place_in_the_sun_tt
@@ -1903,7 +1903,7 @@ last_for_a_thousand_years = {
 	}
 	
 	happened = {
-		has_completed_focus = ENG_imperial_federation
+		always = no # Tsareich2: disabled missing focus reference ENG_imperial_federation
 	}
 }
 
@@ -1920,7 +1920,7 @@ britzkrieg = {
 	}
 	
 	happened = {
-		has_completed_focus = ENG_the_kings_party
+		always = no # Tsareich2: disabled missing focus reference ENG_the_kings_party
 		is_in_faction_with = GER
 		OR = {
 			FRA = { has_capitulated = yes }
@@ -1963,7 +1963,7 @@ william_wallis = {
 	}
 	
 	happened = {
-		has_completed_focus = ENG_the_kings_party
+		always = no # Tsareich2: disabled missing focus reference ENG_the_kings_party
 		SCO = {
 			is_subject_of = ENG
 		}
@@ -1988,7 +1988,7 @@ crush_the_dream = {
 	
 	happened = {
 		has_government = communism
-		has_completed_focus = ENG_crush_the_dream
+		always = no # Tsareich2: disabled missing focus reference ENG_crush_the_dream
 		USA = {
 			is_subject_of = ENG
 		}
@@ -2009,7 +2009,7 @@ treading_the_narrow_path = {
 	
 	happened = {
 		NOT = { has_completed_focus = HOL_cave_to_the_germans }
-		has_completed_focus = HOL_the_zuiderzee_works
+		always = no # Tsareich2: disabled missing focus reference HOL_the_zuiderzee_works
 		NOT = { has_country_flag = HOL_lost_starting_state }
 		date > 1945.01.01
 	}
@@ -2057,7 +2057,7 @@ bevrijding = {
 	
 	happened = {
 		has_government = democratic
-		has_completed_focus = HOL_liberation
+		always = no # Tsareich2: disabled missing focus reference HOL_liberation
 	}
 }
 
@@ -2858,7 +2858,7 @@ nobodys_business_but_the_turks = {
 	}
 	
 	happened = {
-		has_completed_focus = TUR_return_of_the_sultan
+		always = no # Tsareich2: disabled missing focus reference TUR_return_of_the_sultan
 	}
 }
 
@@ -3050,7 +3050,7 @@ balkan_problem_solved = {
 	happened = {
 		has_government = communism
 		is_faction_leader = yes
-		has_completed_focus = BUL_the_unification_of_the_balkans
+		always = no # Tsareich2: disabled missing focus reference BUL_the_unification_of_the_balkans
 		custom_trigger_tooltip = {
 			tooltip = balkan_problem_solved_tt
 			all_state = {
@@ -3230,7 +3230,7 @@ master_puppeteer = {
 	}
 	
 	happened = {
-		has_completed_focus = BUL_the_fate_of_the_balkans
+		always = no # Tsareich2: disabled missing focus reference BUL_the_fate_of_the_balkans
 		count_triggers = {
 			amount = 6
 			ROM = { is_subject_of = ROOT }
@@ -3530,7 +3530,7 @@ this_achievement_is_cheesy = {
 	
 	happened = {
 		controls_state = 666
-		has_completed_focus = LAT_ostland
+		always = no # Tsareich2: disabled missing focus reference LAT_ostland
 	}
 }
 
@@ -3930,7 +3930,7 @@ poland_peasant_revolution = {
 	
 	happened = {
 		POL = { 
-			has_completed_focus = POL_organize_the_peasants_strike
+			always = no # Tsareich2: disabled missing focus reference POL_organize_the_peasants_strike
 			has_civil_war = no
 			OR = {
 				has_government = democratic
@@ -4050,7 +4050,7 @@ the_lion_king = {
 	}
 	
 	happened = {
-		has_completed_focus = ETH_the_king_of_kings
+		always = no # Tsareich2: disabled missing focus reference ETH_the_king_of_kings
 		has_country_leader = { ruling_only = yes character = ETH_haile_selassie }
 		controls_state = 546
 		controls_state = 905
@@ -4073,7 +4073,7 @@ this_time_for_africa = {
 	}
 	
 	happened = {
-		has_completed_focus = ETH_the_african_union
+		always = no # Tsareich2: disabled missing focus reference ETH_the_african_union
 		count_triggers = {
 			amount = 13
 			is_in_faction_with = SAF
@@ -4286,7 +4286,7 @@ not_today = {
 	happened = {
 		has_government = communism
 		has_country_leader = { ruling_only = yes character = ITA_antonio_gramsci }
-		has_completed_focus = ITA_il_sol_dell_avvenire
+		always = no # Tsareich2: disabled missing focus reference ITA_il_sol_dell_avvenire
 	}
 }
 
@@ -4694,12 +4694,12 @@ no_one_crosses_the_finnish_line = { #works
 
 		NOT = {
 			FIN = {
-				has_completed_focus = FIN_right_wing_policies
-				has_completed_focus = FIN_suomalainen_sosialismi
+				always = no # Tsareich2: disabled missing focus reference FIN_right_wing_policies
+				always = no # Tsareich2: disabled missing focus reference FIN_suomalainen_sosialismi
 			}
 
 			SOV = {
-				has_completed_focus = SOV_beaten_but_not_defeated
+				always = no # Tsareich2: disabled missing focus reference SOV_beaten_but_not_defeated
 			}
 		}
 		
@@ -5073,7 +5073,7 @@ the_merry_band = {
 		tag = BRA
 	}
 	happened = {
-		has_completed_focus = BRA_cangaco_coup
+		always = no # Tsareich2: disabled missing focus reference BRA_cangaco_coup
 		controls_State = 129
 		has_government = communism
 	}
@@ -5375,7 +5375,7 @@ king_of_what = {
 	}
 	happened = {
 		has_government = neutrality
-		has_completed_focus = CHL_crown_antoine_as_sovereign_king
+		always = no # Tsareich2: disabled missing focus reference CHL_crown_antoine_as_sovereign_king
 		controls_state = 16
 	}
 }
@@ -5510,11 +5510,11 @@ reconquistadors = {
 		OR = {
 			AND = {
 				tag = ARG
-				has_completed_focus = ARG_union_nacional_fascista
+				always = no # Tsareich2: disabled missing focus reference ARG_union_nacional_fascista
 			}
 			AND = {
 				tag = CHL
-				has_completed_focus = CHL_restore_the_old_kingdom
+				always = no # Tsareich2: disabled missing focus reference CHL_restore_the_old_kingdom
 			}
 		}
 		controls_state = 171
@@ -5551,7 +5551,7 @@ hispanics_of_the_world_unite = {
 		tag = CHL
 	}
 	happened = {
-		has_completed_focus = CHL_the_hispanic_alliance
+		always = no # Tsareich2: disabled missing focus reference CHL_the_hispanic_alliance
 		is_faction_leader = yes
 		set_temp_variable = { t_count = 0 }
 		if = { 
@@ -6212,8 +6212,8 @@ brentry = {
 				BEL = {
 					is_faction_leader = yes
 					OR = {
-						has_completed_focus = BEL_the_council_of_europe
-						has_completed_focus = BEL_support_the_european_project
+						always = no # Tsareich2: disabled missing focus reference BEL_the_council_of_europe
+						always = no # Tsareich2: disabled missing focus reference BEL_support_the_european_project
 					}
 					ENG = { is_in_faction_with = ROOT }
 				}
@@ -6224,7 +6224,7 @@ brentry = {
 				original_tag = AUS
 				AUS = {
 					is_faction_leader = yes
-					has_completed_focus = AUS_via_danube_to_europe
+					always = no # Tsareich2: disabled missing focus reference AUS_via_danube_to_europe
 					ENG = { is_in_faction_with = ROOT }
 				}
 			}
@@ -6233,7 +6233,7 @@ brentry = {
 				original_tag = HOL
 				HOL = {
 					is_faction_leader = yes
-					has_completed_focus = HOL_foundations_for_a_european_union
+					always = no # Tsareich2: disabled missing focus reference HOL_foundations_for_a_european_union
 					ENG = { is_in_faction_with = ROOT }
 				}
 			}
@@ -6312,7 +6312,7 @@ the_lenin_boys_are_back_in_town = {
 
 	happened = {
 		HUN = {
-			has_completed_focus = wuw_HUN_reinstate_the_lenin_boys
+			always = no # Tsareich2: disabled missing focus reference wuw_HUN_reinstate_the_lenin_boys
 			has_government = communism
 			195  = {
 				is_fully_controlled_by = HUN
@@ -6335,7 +6335,7 @@ a_great_hunger = {
 
 	happened = {
 		HUN = {
-			has_completed_focus = wuw_HUN_proclaim_greater_hungary
+			always = no # Tsareich2: disabled missing focus reference wuw_HUN_proclaim_greater_hungary
 			custom_trigger_tooltip = {
 				tooltip = a_great_hunger_tt
 				controls_state = 664
@@ -6590,7 +6590,7 @@ tsar_bomba = {
 
 	happened = {
 		SOV = {
-			has_completed_focus = SOV_romanov_reconstruction
+			always = no # Tsareich2: disabled missing focus reference SOV_romanov_reconstruction
 			has_tech = thermonuclear_bombs
 		}
 		
@@ -7424,7 +7424,7 @@ an_equivalent_exchange = {
 			tooltip = an_equivalent_exchange_tt
 			JAP = {
 				has_government = democratic
-				has_completed_focus = JAP_democratic_foreign_exchange_allocation_policy
+				always = no # Tsareich2: disabled missing focus reference JAP_democratic_foreign_exchange_allocation_policy
 				has_global_flag = achievement_JAP_capitulated_fascist_germany
 			}
 		}
@@ -7444,7 +7444,7 @@ the_sun_will_never_set = {
 
 	happened = {
 		JAP = {
-			has_completed_focus = JAP_the_eternal_kingdom
+			always = no # Tsareich2: disabled missing focus reference JAP_the_eternal_kingdom
 			all_core_state = {
 				is_fully_controlled_by = ROOT
 			}
@@ -7574,7 +7574,7 @@ the_neverending_story = {
 					tag = HBC
 				}
 				ROOT = {
-					has_completed_focus = CHI_tsr_restoration_of_the_chinese_empire
+					always = no # Tsareich2: disabled missing focus reference CHI_tsr_restoration_of_the_chinese_empire
 				}
 				all_of_scopes = {
 					array = global.PRC_starting_PRC_core_states
@@ -7798,8 +7798,8 @@ premyslids_dream = {
     }
 
     happened = {
-		has_completed_focus = CZE_proclaim_the_restoration_of_bohemia
-		has_completed_focus = CZE_the_legacy_of_ottokar
+		always = no # Tsareich2: disabled missing focus reference CZE_proclaim_the_restoration_of_bohemia
+		always = no # Tsareich2: disabled missing focus reference CZE_the_legacy_of_ottokar
     }
 }
 
@@ -7874,7 +7874,7 @@ aint_like_that_now = {
     }
 
     happened = {
-		has_completed_focus = CZE_return_to_democracy
+		always = no # Tsareich2: disabled missing focus reference CZE_return_to_democracy
     }
 }
 
@@ -7891,7 +7891,7 @@ czechoslovaustrohungarian_union = {
     }
 
     happened = {
-		has_completed_focus = CZE_balkan_union
+		always = no # Tsareich2: disabled missing focus reference CZE_balkan_union
 		HUN = {
 			is_subject_of = ROOT
 			has_idea = CZE_integration_efforts_communism

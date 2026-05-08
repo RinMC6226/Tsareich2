@@ -562,8 +562,8 @@ DEN_economic_crisis_dynamic_modifier = {
 
 	monthly_population = DEN_economic_crisis_monthly_population #-0.1
 	stability_weekly = DEN_economic_crisis_stability_weekly #-0.001
-	neutrality_drift = DEN_economic_crisis_neutrality_drift #0.02
-	democratic_drift = DEN_economic_crisis_democratic_drift #-0.05
+	right_drift = DEN_economic_crisis_neutrality_drift #0.02
+	center_drift = DEN_economic_crisis_democratic_drift #-0.05
 }
 
 DEN_industrial_capability_dynamic_modifier = {
@@ -1355,7 +1355,7 @@ NORDIC_democratic_alliance_leader_dmod = {
 
 	remove_trigger = { NORDIC_basic_joint_trigger = no }
 
-	democratic_drift = 0.025
+	center_drift = 0.025
 	production_speed_buildings_factor = 0.15
 	consumer_goods_factor = 0.2
 	research_speed_factor = NORDIC_democratic_alliance_leader_dmod_research # 0.075 
@@ -1370,7 +1370,7 @@ NORDIC_democratic_alliance_member_dmod = {
 
 	remove_trigger = { NORDIC_basic_joint_trigger = no }
 
-	democratic_drift = 0.015
+	center_drift = 0.015
 	production_speed_buildings_factor = 0.10
 	consumer_goods_factor = 0.12
 	research_speed_factor = NORDIC_democratic_alliance_member_dmod_research # 0.05 
@@ -1385,7 +1385,7 @@ NORDIC_communist_alliance_leader_dmod = {
 
 	remove_trigger = { NORDIC_basic_joint_trigger = no }
 
-	communism_drift = 0.025
+	far_left_drift = 0.025
 	weekly_manpower = 350
 	dig_in_speed_factor = -0.15
 	production_factory_max_efficiency_factor = NORDIC_communist_alliance_leader_dmod_max_eff # 0.15
@@ -1400,7 +1400,7 @@ NORDIC_communist_alliance_member_dmod = {
 
 	remove_trigger = { NORDIC_basic_joint_trigger = no }
 
-	communism_drift = 0.015
+	far_left_drift = 0.015
 	weekly_manpower = 200
 	dig_in_speed_factor = -0.10
 	production_factory_max_efficiency_factor = NORDIC_democratic_alliance_member_dmod_max_eff # 0.1
@@ -1414,13 +1414,13 @@ NORDIC_monarchist_alliance_leader_dmod = {
 
 	remove_trigger = { NORDIC_basic_joint_trigger = no }
 
-	neutrality_drift = 0.015
+	right_drift = 0.015
 	political_power_gain = 0.7
 	research_speed_factor = -0.03
 	production_factory_efficiency_gain_factor = NORDIC_monarchist_alliance_leader_dmod_prod_eff_gain # 0.25
 	production_speed_buildings_factor = NORDIC_monarchist_alliance_leader_dmod_construction # -0.1
 	army_org_factor = NORDIC_monarchist_alliance_leader_dmod_max_org # 0.2
-	fascism_drift = NORDIC_monarchist_alliance_leader_dmod_drift_defense # -0.15 
+	far_right_drift = NORDIC_monarchist_alliance_leader_dmod_drift_defense # -0.15 
 }
 
 NORDIC_monarchist_alliance_member_dmod = {	
@@ -1429,11 +1429,11 @@ NORDIC_monarchist_alliance_member_dmod = {
 
 	remove_trigger = { NORDIC_basic_joint_trigger = no }
 
-	neutrality_drift = 0.015
+	right_drift = 0.015
 	political_power_gain = 0.4
 	research_speed_factor = -0.02
 	production_factory_efficiency_gain_factor = NORDIC_monarchist_alliance_member_dmod_prod_eff_gain # 0.17
 	production_speed_buildings_factor = NORDIC_monarchist_alliance_member_dmod_construction # -0.7
 	army_org_factor = NORDIC_monarchist_alliance_member_dmod_max_org # 0.12
-	fascism_drift = NORDIC_monarchist_alliance_member_dmod_drift_defense # -0.1  
+	far_right_drift = NORDIC_monarchist_alliance_member_dmod_drift_defense # -0.1  
 }

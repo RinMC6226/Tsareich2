@@ -86,15 +86,15 @@ characters = {
 				original_tag = RUS
 			}
 			visible = {
-				has_completed_focus = SOV_beaten_but_not_defeated
+				always = no # Tsareich2: disabled missing focus reference SOV_beaten_but_not_defeated
 				NOT = {
-					has_completed_focus = SOV_the_third_rome
+					always = no # Tsareich2: disabled missing focus reference SOV_the_third_rome
 				}
 			}
 			available = {
-				has_completed_focus = SOV_the_hands_do
+				always = no # Tsareich2: disabled missing focus reference SOV_the_hands_do
 				NOT = {
-					has_completed_focus = SOV_the_third_rome
+					always = no # Tsareich2: disabled missing focus reference SOV_the_third_rome
 				}
 			}
 			traits = {
@@ -1373,7 +1373,7 @@ characters = {
 			legacy_id = 0
 			visible = {
 				NOT = { has_character_flag = SOV_exiled_flag }
-				has_completed_focus = SOV_organization_of_the_partisans
+				always = no # Tsareich2: disabled missing focus reference SOV_organization_of_the_partisans
 			}
 		}
 	}
@@ -1397,7 +1397,7 @@ characters = {
 			legacy_id = 0
 			visible = {
 				NOT = { has_character_flag = SOV_exiled_flag }
-				has_completed_focus = SOV_organization_of_the_partisans
+				always = no # Tsareich2: disabled missing focus reference SOV_organization_of_the_partisans
 			}
 		}
 	}
@@ -1421,7 +1421,7 @@ characters = {
 			legacy_id = 0
 			visible = {
 				NOT = { has_character_flag = SOV_exiled_flag }
-				has_completed_focus = SOV_restore_cossack_units
+				always = no # Tsareich2: disabled missing focus reference SOV_restore_cossack_units
 			}
 		}
 	}
@@ -1445,7 +1445,7 @@ characters = {
 			legacy_id = 0
 			visible = {
 				NOT = { has_character_flag = SOV_exiled_flag }
-				has_completed_focus = SOV_the_glory_of_the_red_army
+				always = no # Tsareich2: disabled missing focus reference SOV_the_glory_of_the_red_army
 			}
 		}
 	}

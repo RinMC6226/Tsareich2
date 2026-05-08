@@ -156,7 +156,7 @@ faction_goal_secure_north_africa = {
 		OR = {
 			FROM = { has_completed_focus = ITA_italian_irredentism }
 			any_allied_country = {
-				has_completed_focus = ITA_italian_irredentism
+				always = no # Tsareich2: disabled missing focus reference ITA_italian_irredentism
 			}
 		}
 	}
@@ -767,7 +767,7 @@ faction_goal_subjugate_the_faction = {
 	available = {
 		FROM = {
 			is_faction_leader = yes
-			has_completed_focus = CHI_from_many_to_one
+			always = no # Tsareich2: disabled missing focus reference CHI_from_many_to_one
 		}
 	}
 	completed = {
@@ -1075,8 +1075,8 @@ faction_goal_the_two_seas = {
 		modifier = {
 			add = 10
 			OR = {
-				has_completed_focus = POL_the_between_the_seas_concept
-				has_completed_focus = POL_sea_to_sea
+				always = no # Tsareich2: disabled missing focus reference POL_the_between_the_seas_concept
+				always = no # Tsareich2: disabled missing focus reference POL_sea_to_sea
 			}
 		}
 	}

@@ -4,7 +4,7 @@ MEX_INF_01 = {
 	for_countries = { MEX }
 
 	can_use = {
-		has_completed_focus = MEX_focus_antidisestablishmentarianism
+		always = no # Tsareich2: disabled missing focus reference MEX_focus_antidisestablishmentarianism
 	}
 
 	division_types = { "infantry" }
@@ -89,7 +89,7 @@ MEX_INF_03 = {
 
 	can_use = {
 		OR = {
-			has_completed_focus = MEX_focus_ejido_worker_militias
+			always = no # Tsareich2: disabled missing focus reference MEX_focus_ejido_worker_militias
 			OR = { has_government = far_left has_government = left }
 		}
 	}

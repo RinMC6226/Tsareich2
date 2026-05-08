@@ -1,4 +1,4 @@
-﻿characters = {
+characters = {
 	USA_franklin_delano_roosevelt={
 		name=USA_franklin_delano_roosevelt
 		portraits={
@@ -77,7 +77,7 @@
 					limit  = {
 						has_dlc = "Man the Guns"
 					}
-					has_completed_focus  = USA_suspend_the_presecution
+					always = no # Tsareich2: disabled missing focus reference USA_suspend_the_presecution
 					NOT  = {
 						focus_progress  = {
 							focus  = USA_neutrality_act

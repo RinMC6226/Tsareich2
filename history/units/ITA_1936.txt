@@ -1,4 +1,4 @@
-Ôªø####### Division Templates #######
+####### Division Templates #######
 division_template = { 
 	name = "Divisione di Fanteria" 
 	division_names_group = ITA_INF_01 
@@ -328,7 +328,7 @@ units = {
 	}
 
 	# Subordinate to Army
-	division = { # "1¬∞ Reggimento 'Nizza Cavalleria'" 
+	division = { # "1Åã Reggimento 'Nizza Cavalleria'" 
 		division_name = {
 			is_name_ordered = yes
 			name_order = 1
@@ -431,7 +431,7 @@ units = {
 		division_name = {
 			is_name_ordered = yes
 			name_order = 2
-		}#  "2¬∞ Reggimento 'Piemonte Cavalleria'" 
+		}#  "2Åã Reggimento 'Piemonte Cavalleria'" 
 		location = 6626 
 		division_template = "Reggimento di Cavalleria" 
 		start_experience_factor = 0.2 
@@ -780,7 +780,6 @@ instant_effect = {
 			requested_factories = 4 
 			progress = 0.1 
 			efficiency = 50 
-			industrial_manufacturer = mio:ITA_beretta_organization
 		} 
 
 		add_equipment_production = { 
@@ -792,7 +791,6 @@ instant_effect = {
 			requested_factories = 1 
 			progress = 0.3 
 			efficiency = 50
-			industrial_manufacturer = mio:ITA_brescia_arsenal_organization
 		} 
 
 		add_equipment_production = { 
@@ -804,7 +802,6 @@ instant_effect = {
 			requested_factories = 1 
 			progress = 0.4 
 			efficiency = 50
-			industrial_manufacturer = mio:ITA_fiat_organization
 		} 
 
 		add_equipment_production = { 
@@ -816,7 +813,6 @@ instant_effect = {
 			requested_factories = 2 
 			progress = 0.4 
 			efficiency = 50
-			industrial_manufacturer = mio:ITA_lancia_organization
 		} 
 	}
 } 

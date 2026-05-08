@@ -92,7 +92,7 @@ JAP_showa_statism_modifier = {
 	conscription_factor = JAP_showa_statism_conscription_factor
 	consumer_goods_factor = JAP_showa_statism_consumer_goods_factor
 	political_power_factor = JAP_showa_statism_political_power_factor
-	fascism_drift = JAP_showa_statism_fascism_drift
+	far_right_drift = JAP_showa_statism_fascism_drift
 	monthly_population = JAP_showa_statism_monthly_population
 	industrial_capacity_dockyard = JAP_showa_statism_industrial_capacity_dockyard
 	industrial_capacity_factory = JAP_showa_statism_industrial_capacity_factory
@@ -151,7 +151,7 @@ JAP_civilian_cabinet_modifier = {
 	unit_leader_as_advisor_cp_cost_factor = JAP_civilian_cabinet_unit_leader_as_advisor_cp_cost_factor
 	army_leader_start_defense_level = JAP_civilian_cabinet_army_leader_start_defense_level
 	justify_war_goal_time = JAP_civilian_cabinet_justify_war_goal_time
-	democratic_drift = JAP_civilian_cabinet_democratic_drift
+	center_drift = JAP_civilian_cabinet_democratic_drift
 
 }
 
@@ -165,7 +165,7 @@ JAP_communist_party_modifier = {
 		}
 	}
 
-	communism_drift = JAP_communist_party_communism_drift 
+	far_left_drift = JAP_communist_party_communism_drift 
 	political_power_factor = JAP_communist_party_political_power_factor
 	conscription_factor = JAP_communist_party_conscription_factor
 	research_speed_factor = JAP_communist_party_research_speed_factor
@@ -192,7 +192,7 @@ JAP_rounouha_modifier = {
 		}
 	}
 
-	communism_drift = JAP_communist_party_communism_drift 
+	far_left_drift = JAP_communist_party_communism_drift 
 	political_power_factor = JAP_communist_party_political_power_factor
 	conscription_factor = JAP_communist_party_conscription_factor
 	research_speed_factor = JAP_communist_party_research_speed_factor
@@ -746,14 +746,14 @@ CHI_inefficient_economy = {
 CHI_neglected_countryside = {
 	icon = GFX_idea_CHI_neglected_countryside
 
-	communism_drift = CHI_neglected_countryside_communism_drift
+	far_left_drift = CHI_neglected_countryside_communism_drift
 	research_speed_factor = CHI_neglected_countryside_research_speed_factor
 }
 
 CHI_the_political_tutelage_dm = {
 	icon = GFX_idea_CHI_the_political_tutelage_dm
 
-	democratic_drift = CHI_the_political_tutelage_dm_democratic_drift
+	center_drift = CHI_the_political_tutelage_dm_democratic_drift
 	production_speed_infrastructure_factor = CHI_the_political_tutelage_dm_production_speed_infrastructure_factor
 	research_speed_factor = CHI_the_political_tutelage_dm_research_speed_factor
 	faction_influence_contribution_factor = CHI_the_political_tutelage_dm_faction_influence_contribution_factor
@@ -775,7 +775,7 @@ CHI_the_political_tutelage_dm = {
 CHI_the_political_tutelage_upgraded_dm = {
 	icon = GFX_idea_CHI_the_republic_restored
 
-	democratic_drift = CHI_the_political_tutelage_dm_democratic_drift
+	center_drift = CHI_the_political_tutelage_dm_democratic_drift
 	production_speed_infrastructure_factor = CHI_the_political_tutelage_dm_production_speed_infrastructure_factor
 	research_speed_factor = CHI_the_political_tutelage_dm_research_speed_factor
 	faction_influence_contribution_factor = CHI_the_political_tutelage_dm_faction_influence_contribution_factor
@@ -903,7 +903,7 @@ CHI_blue_shirt_society = {
 
 	war_support_factor = CHI_blue_shirt_society_war_support_factor
 	stability_factor = CHI_blue_shirt_society_stability_factor
-	fascism_drift = CHI_blue_shirt_society_fascism_drift
+	far_right_drift = CHI_blue_shirt_society_fascism_drift
 	training_time_factor = CHI_blue_shirt_society_training_time_factor
 	command_power_gain_mult = CHI_blue_shirt_society_command_power_gain_mult
 	army_org_factor =  CHI_blue_shirt_society_army_org_factor
@@ -914,7 +914,7 @@ CHI_gung_ho_idea = {
 	icon = GFX_idea_CHI_initiate_gung_ho_movement
 	enable = {
 		has_war = yes 
-		has_completed_focus = CHI_initiate_the_gung_ho_movement
+		always = no # Tsareich2: disabled missing focus reference CHI_initiate_the_gung_ho_movement
 	}
 
 	war_support_factor = CHI_gung_ho_idea_war_support_factor 
@@ -1628,10 +1628,10 @@ PHI_the_great_depression_dynamic_modifier = {
 	production_speed_infrastructure_factor = PHI_the_great_depression_production_speed_infrastructure_factor
 
 	custom_modifier_tooltip = PHI_ruling_ideology_ideology_drift_tt
-	fascism_drift = PHI_ruling_ideology_ideology_drift_fascism
-	communism_drift = PHI_ruling_ideology_ideology_drift_communism
-	neutrality_drift = PHI_ruling_ideology_ideology_drift_neutrality
-	democratic_drift = PHI_ruling_ideology_ideology_drift_democratic
+	far_right_drift = PHI_ruling_ideology_ideology_drift_fascism
+	far_left_drift = PHI_ruling_ideology_ideology_drift_communism
+	right_drift = PHI_ruling_ideology_ideology_drift_neutrality
+	center_drift = PHI_ruling_ideology_ideology_drift_democratic
 }
 
 PHI_shaken_economy_dynamic_modifier = {
@@ -1653,10 +1653,10 @@ PHI_shaken_economy_dynamic_modifier = {
 	production_speed_infrastructure_factor = PHI_the_great_depression_production_speed_infrastructure_factor
 
 	custom_modifier_tooltip = PHI_ruling_ideology_ideology_drift_tt
-	fascism_drift = PHI_ruling_ideology_ideology_drift_fascism
-	communism_drift = PHI_ruling_ideology_ideology_drift_communism
-	neutrality_drift = PHI_ruling_ideology_ideology_drift_neutrality
-	democratic_drift = PHI_ruling_ideology_ideology_drift_democratic
+	far_right_drift = PHI_ruling_ideology_ideology_drift_fascism
+	far_left_drift = PHI_ruling_ideology_ideology_drift_communism
+	right_drift = PHI_ruling_ideology_ideology_drift_neutrality
+	center_drift = PHI_ruling_ideology_ideology_drift_democratic
 }
 
 PHI_recovering_economy_dynamic_modifier = {
@@ -1678,10 +1678,10 @@ PHI_recovering_economy_dynamic_modifier = {
 	production_speed_infrastructure_factor = PHI_the_great_depression_production_speed_infrastructure_factor
 
 	custom_modifier_tooltip = PHI_ruling_ideology_ideology_drift_tt
-	fascism_drift = PHI_ruling_ideology_ideology_drift_fascism
-	communism_drift = PHI_ruling_ideology_ideology_drift_communism
-	neutrality_drift = PHI_ruling_ideology_ideology_drift_neutrality
-	democratic_drift = PHI_ruling_ideology_ideology_drift_democratic
+	far_right_drift = PHI_ruling_ideology_ideology_drift_fascism
+	far_left_drift = PHI_ruling_ideology_ideology_drift_communism
+	right_drift = PHI_ruling_ideology_ideology_drift_neutrality
+	center_drift = PHI_ruling_ideology_ideology_drift_democratic
 }
 
 PHI_economic_growth_dynamic_modifier = {
@@ -1705,10 +1705,10 @@ PHI_economic_growth_dynamic_modifier = {
 	weekly_casualties_war_support = PHI_the_great_depression_weekly_casualties_war_support
 
 	custom_modifier_tooltip = PHI_ruling_ideology_ideology_drift_tt
-	fascism_drift = PHI_ruling_ideology_ideology_drift_fascism
-	communism_drift = PHI_ruling_ideology_ideology_drift_communism
-	neutrality_drift = PHI_ruling_ideology_ideology_drift_neutrality
-	democratic_drift = PHI_ruling_ideology_ideology_drift_democratic
+	far_right_drift = PHI_ruling_ideology_ideology_drift_fascism
+	far_left_drift = PHI_ruling_ideology_ideology_drift_communism
+	right_drift = PHI_ruling_ideology_ideology_drift_neutrality
+	center_drift = PHI_ruling_ideology_ideology_drift_democratic
 }
 
 PHI_pearl_of_the_orient_dynamic_modifier = {
@@ -1737,10 +1737,10 @@ PHI_pearl_of_the_orient_dynamic_modifier = {
 	navy_org_factor = PHI_the_great_depression_navy_org_factor
 
 	custom_modifier_tooltip = PHI_ruling_ideology_ideology_drift_tt
-	fascism_drift = PHI_ruling_ideology_ideology_drift_fascism
-	communism_drift = PHI_ruling_ideology_ideology_drift_communism
-	neutrality_drift = PHI_ruling_ideology_ideology_drift_neutrality
-	democratic_drift = PHI_ruling_ideology_ideology_drift_democratic
+	far_right_drift = PHI_ruling_ideology_ideology_drift_fascism
+	far_left_drift = PHI_ruling_ideology_ideology_drift_communism
+	right_drift = PHI_ruling_ideology_ideology_drift_neutrality
+	center_drift = PHI_ruling_ideology_ideology_drift_democratic
 }
 
 PHI_american_interference_dynamic_modifier = {
@@ -1757,7 +1757,7 @@ PHI_american_interference_dynamic_modifier = {
 	license_subject_master_purchase_cost = PHI_american_interference_license_subject_master_purchase_cost
 	license_production_speed = PHI_american_interference_license_production_speed	
 	research_sharing_per_country_bonus_factor = PHI_american_interference_research_sharing_per_country_bonus	
-	communism_drift = PHI_american_interference_communism ## Used in American Intervention system, is 0 by default
+	far_left_drift = PHI_american_interference_communism ## Used in American Intervention system, is 0 by default
 	production_speed_raiL_way_factor = PHI_american_interference_production_speed_rail_way_factor ## Used in American Intervention system, is 0 by default
 	command_power_gain = PHI_american_interference_command_power_gain
 	production_speed_air_base_factor = PHI_american_interference_production_speed_air_base_factor
@@ -1837,10 +1837,10 @@ PHI_japan_aligned_ideology = {
 	}
 	icon = GFX_idea_JAP_japanese_influence_growing
 	custom_modifier_tooltip = PHI_japan_aligned_ideology_tt
-	fascism_drift = PHI_japan_aligned_ideology_fascism
-	communism_drift = PHI_japan_aligned_ideology_communism
-	neutrality_drift = PHI_japan_aligned_ideology_neutrality
-	democratic_drift = PHI_japan_aligned_ideology_democratic
+	far_right_drift = PHI_japan_aligned_ideology_fascism
+	far_left_drift = PHI_japan_aligned_ideology_communism
+	right_drift = PHI_japan_aligned_ideology_neutrality
+	center_drift = PHI_japan_aligned_ideology_democratic
 }
 
 
@@ -1888,7 +1888,7 @@ PHI_philippine_resistance_movement_dynamic_modifier = {
 
 	equipment_capture_factor = 0.5
 	exiled_government_weekly_manpower = PHI_resistance_weekly_manpower	#starts at 100
-	communism_drift = PHI_resistance_communism_drift
+	far_left_drift = PHI_resistance_communism_drift
 	terrain_trait_xp_gain_factor = PHI_resistance_terrain_trait_xp_gain_factor
 	resistance_target_on_our_occupied_states = PHI_resistance_resistance_target_on_our_occupied_states
 	weekly_casualties_war_support = PHI_resistance_weekly_casualties_war_support
@@ -2054,4 +2054,5 @@ CHI_ma_clique_collective = {
 	army_core_defence_factor = CHI_ma_clique_collective_army_core_defence_factor
 
 }
+
 

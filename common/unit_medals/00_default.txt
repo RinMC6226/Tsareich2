@@ -1246,7 +1246,7 @@ unit_medals = {
 		available = {
 			should_have_chilean_medals_trigger = yes
 			NOT = {
-				has_completed_focus = CHL_avenge_the_pacification_of_araucania
+				always = no # Tsareich2: disabled missing focus reference CHL_avenge_the_pacification_of_araucania
 			}
 		}
 		frame = 2
@@ -1269,7 +1269,7 @@ unit_medals = {
 		available = {
 			should_have_chilean_medals_trigger = yes
 			NOT = {
-				has_completed_focus = CHL_avenge_the_pacification_of_araucania
+				always = no # Tsareich2: disabled missing focus reference CHL_avenge_the_pacification_of_araucania
 			}
 		}
 		frame = 3
@@ -1293,7 +1293,7 @@ unit_medals = {
 		available = {
 			should_have_chilean_medals_trigger = yes
 			NOT = {
-				has_completed_focus = CHL_avenge_the_pacification_of_araucania
+				always = no # Tsareich2: disabled missing focus reference CHL_avenge_the_pacification_of_araucania
 			}
 		}
 		frame = 4
@@ -1316,7 +1316,7 @@ unit_medals = {
 		available = {
 			should_have_chilean_medals_trigger = yes
 			NOT = {
-				has_completed_focus = CHL_avenge_the_pacification_of_araucania
+				always = no # Tsareich2: disabled missing focus reference CHL_avenge_the_pacification_of_araucania
 			}
 		}
 		frame = 5
@@ -1339,9 +1339,9 @@ unit_medals = {
 		available = {
 			should_have_chilean_medals_trigger = yes
 			NOT = {
-				has_completed_focus = CHL_avenge_the_pacification_of_araucania
+				always = no # Tsareich2: disabled missing focus reference CHL_avenge_the_pacification_of_araucania
 			}
-			has_completed_focus = CHL_crown_antoine_as_sovereign_king
+			always = no # Tsareich2: disabled missing focus reference CHL_crown_antoine_as_sovereign_king
 		}
 		frame = 6
 		icon = "GFX_medal_icon_chl"
@@ -1363,9 +1363,9 @@ unit_medals = {
 		available = {
 			should_have_chilean_medals_trigger = yes
 			NOT = {
-				has_completed_focus = CHL_avenge_the_pacification_of_araucania
+				always = no # Tsareich2: disabled missing focus reference CHL_avenge_the_pacification_of_araucania
 			}
-			has_completed_focus = CHL_crown_antoine_as_sovereign_king
+			always = no # Tsareich2: disabled missing focus reference CHL_crown_antoine_as_sovereign_king
 		}
 		frame = 7
 		icon = "GFX_medal_icon_chl"
@@ -1388,9 +1388,9 @@ unit_medals = {
 		available = {
 			should_have_chilean_medals_trigger = yes
 			NOT = {
-				has_completed_focus = CHL_avenge_the_pacification_of_araucania
+				always = no # Tsareich2: disabled missing focus reference CHL_avenge_the_pacification_of_araucania
 			}
-			has_completed_focus = CHL_crown_antoine_as_sovereign_king
+			always = no # Tsareich2: disabled missing focus reference CHL_crown_antoine_as_sovereign_king
 		}
 		frame = 8
 		icon = "GFX_medal_icon_chl"
@@ -1412,9 +1412,9 @@ unit_medals = {
 		available = {
 			should_have_chilean_medals_trigger = yes
 			NOT = {
-				has_completed_focus = CHL_avenge_the_pacification_of_araucania
+				always = no # Tsareich2: disabled missing focus reference CHL_avenge_the_pacification_of_araucania
 			}
-			has_completed_focus = CHL_crown_antoine_as_sovereign_king
+			always = no # Tsareich2: disabled missing focus reference CHL_crown_antoine_as_sovereign_king
 		}
 		frame = 9
 		icon = "GFX_medal_icon_chl"
@@ -1436,8 +1436,8 @@ unit_medals = {
 		available = {
 			should_have_chilean_medals_trigger = yes
 			OR = {
-				has_completed_focus = CHL_avenge_the_pacification_of_araucania
-				has_completed_focus = CHL_crown_antoine_as_sovereign_king
+				always = no # Tsareich2: disabled missing focus reference CHL_avenge_the_pacification_of_araucania
+				always = no # Tsareich2: disabled missing focus reference CHL_crown_antoine_as_sovereign_king
 			}
 		}
 		frame = 10
@@ -1460,7 +1460,7 @@ unit_medals = {
 		
 		available = {
 			should_have_chilean_medals_trigger = yes
-			has_completed_focus = CHL_avenge_the_pacification_of_araucania
+			always = no # Tsareich2: disabled missing focus reference CHL_avenge_the_pacification_of_araucania
 		}
 		frame = 11
 		icon = "GFX_medal_icon_chl"
@@ -1481,7 +1481,7 @@ unit_medals = {
 		
 		available = {
 			should_have_chilean_medals_trigger = yes
-			has_completed_focus = CHL_avenge_the_pacification_of_araucania
+			always = no # Tsareich2: disabled missing focus reference CHL_avenge_the_pacification_of_araucania
 		}
 		frame = 12
 		icon = "GFX_medal_icon_chl"
@@ -1536,8 +1536,8 @@ unit_medals = {
 			should_have_hungarian_medals_trigger = yes
 			NOT = {
 				OR = {
-					has_completed_focus = wuw_HUN_end_the_white_terror
-					has_completed_focus = wuw_HUN_end_the_regency
+					always = no # Tsareich2: disabled missing focus reference wuw_HUN_end_the_white_terror
+					always = no # Tsareich2: disabled missing focus reference wuw_HUN_end_the_regency
 				}
 			}
 		}
@@ -1619,7 +1619,7 @@ unit_medals = {
 		
 		available = {
 			should_have_hungarian_medals_trigger = yes
-			has_completed_focus = wuw_HUN_reinstate_the_pragmatic_sanction
+			always = no # Tsareich2: disabled missing focus reference wuw_HUN_reinstate_the_pragmatic_sanction
 		}
 		frame = 5
 		icon = "GFX_medal_icon_hun"
@@ -2104,7 +2104,7 @@ unit_medals = {
 		
 		available = { 
 			tag = YUG
-			has_completed_focus = YUG_medal_for_extreme_bravery
+			always = no # Tsareich2: disabled missing focus reference YUG_medal_for_extreme_bravery
 		}
 		frame = 1
 		icon = "GFX_medal_icon_default"

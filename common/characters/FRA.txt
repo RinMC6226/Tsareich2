@@ -1,4 +1,4 @@
-﻿characters = {
+characters = {
 	FRA_edouard_daladier={
 		name=FRA_edouard_daladier
 		portraits={
@@ -64,8 +64,8 @@
 			}
 			available  = {
 				OR = {
-					has_completed_focus  = FRA_right_wing_rhetoric 
-					has_completed_focus  = FRA_utilize_the_leagues 
+					always = no # Tsareich2: disabled missing focus reference FRA_right_wing_rhetoric
+					always = no # Tsareich2: disabled missing focus reference FRA_utilize_the_leagues
 					has_focus_tree  = vichy_french_focus
 				}
 				IF  = {
@@ -126,8 +126,8 @@
 			available  = {
 				OR = {
 					OR = {
-						has_completed_focus = FRA_integralism 
-						has_completed_focus = FRA_orleanist_restoration 
+						always = no # Tsareich2: disabled missing focus reference FRA_integralism
+						always = no # Tsareich2: disabled missing focus reference FRA_orleanist_restoration
 					}
 					OR  = {
 						has_government  = far_right 
