@@ -45,7 +45,7 @@ autonomy_state = {
 
 		if = {
 			limit = { has_dlc = "Death or Dishonor" }
-			OVERLORD = { NOT = { has_government = fascism } }
+			OVERLORD = { NOT = { has_government = far_right } }
 		}
 
 		if = {
@@ -55,11 +55,11 @@ autonomy_state = {
 
 			NOT = {
 				AND = {
-					OVERLORD = { has_government = fascism } 
+					OVERLORD = { has_government = far_right } 
 					OVERLORD = { tag = JAP } 
 				}
 				AND = {
-					OVERLORD = { has_government = neutrality } 
+					OVERLORD = { has_government = right } 
 					OVERLORD = { tag = JAP } 
 				}
 			}
@@ -72,11 +72,11 @@ autonomy_state = {
 
 			NOT = {
 				AND = {
-					OVERLORD = { has_government = fascism } 
+					OVERLORD = { has_government = far_right } 
 					OVERLORD = { tag = CHI } 
 				}
 				AND = {
-					OVERLORD = { has_government = neutrality } 
+					OVERLORD = { has_government = right } 
 					OVERLORD = { tag = CHI } 
 				}
 			}

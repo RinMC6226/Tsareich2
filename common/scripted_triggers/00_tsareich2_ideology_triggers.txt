@@ -70,3 +70,38 @@ is_former_neutrality_bloc = {
 is_former_fascist_bloc = {
 	has_government = far_right
 }
+
+check_has_focus_tree_to_switch_to_far_left = {
+	NOT = { has_government = far_left }
+	has_focus_tree = generic_focus
+}
+
+check_has_focus_tree_to_switch_to_left = {
+	NOT = { has_government = left }
+	has_focus_tree = generic_focus
+}
+
+check_has_focus_tree_to_switch_to_center_left = {
+	NOT = { has_government = center_left }
+	has_focus_tree = generic_focus
+}
+
+check_has_focus_tree_to_switch_to_center = {
+	NOT = { has_government = center }
+	has_focus_tree = generic_focus
+}
+
+check_has_focus_tree_to_switch_to_center_right = {
+	NOT = { has_government = center_right }
+	has_focus_tree = generic_focus
+}
+
+check_has_focus_tree_to_switch_to_right = {
+	NOT = { has_government = right }
+	has_focus_tree = generic_focus
+}
+
+check_has_focus_tree_to_switch_to_far_right = {
+	NOT = { has_government = far_right }
+	has_focus_tree = generic_focus
+}

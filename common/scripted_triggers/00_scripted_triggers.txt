@@ -65,10 +65,11 @@ has_ROOT_at_least_1_div_in_current_state_scope = {
 }
 
 check_has_focus_tree_to_switch_to_fascism = {
-	NOT = { tag = JAP }
-	NOT = { tag = GER }
-	NOT = { tag = MAN }
-	NOT = { tag = ITA }
+	always = no
+	#NOT = { tag = JAP }
+	#NOT = { tag = GER }
+	#NOT = { tag = MAN }
+	#NOT = { tag = ITA }
 	OR = {
 		NOT = {
 			AND = {
@@ -138,7 +139,8 @@ check_has_focus_tree_to_switch_to_fascism = {
 }
 
 check_has_focus_tree_to_switch_to_democratic = {
-	NOT = { tag = MAN }
+	always = no
+	#NOT = { tag = MAN }
 	NOT = { tag = FRA }
 	NOT = { tag = USA }
 	NOT = { tag = ENG }
@@ -181,7 +183,8 @@ check_has_focus_tree_to_switch_to_democratic = {
 }
 
 check_has_focus_tree_to_switch_to_communism = {
-	NOT = { tag = PRC }
+	always = no
+	#NOT = { tag = PRC }
 	NOT = { tag = SIK }
 	NOT = { tag = MAN }
 	NOT = { tag = SOV }

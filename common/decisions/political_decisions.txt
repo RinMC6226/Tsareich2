@@ -1,67 +1,51 @@
-fascism_on_the_rise = {
-	prepare_for_fascist_civil_war = {
+﻿far_left_on_the_rise = {
+	prepare_for_far_left_civil_war = {
 
 		icon = generic_prepare_civil_war
 
 		available = {
-			fascism > 0.1
+			far_left > 0.1
 			num_of_controlled_states > 1
 		}
 
 		visible = {
-			NOT = { has_country_flag = preparation_for_fascist_civil_war }
+			NOT = { has_country_flag = preparation_for_far_left_civil_war }
 			OR = {
-				has_idea_with_trait = fascist_demagogue
-				has_idea_with_trait = syncretic_revanchist
-				has_idea_with_trait = GER_revolutionary_nationalist_advisor
+				has_idea_with_trait = far_left_revolutionary
+				has_idea_with_trait = ambitious_union_boss
 			}
-			NOT = { has_government = fascism }
-			OR = {
-				AND = {
-					original_tag = GER
-					has_completed_focus = GER_expatriate_the_communists_ww
-					has_country_flag = GER_strasserism_relevant_in_germany_flag
-				}
-				check_has_focus_tree_to_switch_to_fascism = yes
-			}
+			NOT = { has_government = far_left }
+			check_has_focus_tree_to_switch_to_far_left = yes
 		}
-		
+
 		fire_only_once = yes
-		
+
 		cost = 50
-		
+
 		complete_effect = {
-			set_country_flag = preparation_for_fascist_civil_war
+			set_country_flag = preparation_for_far_left_civil_war
 		}
-		
+
 		ai_will_do = {
 			factor = 0
 		}
 	}
-	
-	expand_civil_fascism_support = {
+
+	expand_civil_far_left_support = {
 
 		icon = generic_civil_support
 
 		visible = {
 			OR = {
-				has_country_flag = preparation_for_fascist_civil_war
-				has_country_flag = open_up_political_discourse_fascism
+				has_country_flag = preparation_for_far_left_civil_war
+				has_country_flag = open_up_political_discourse_far_left
 			}
 			OR = {
-				has_idea_with_trait = fascist_demagogue
-				has_idea_with_trait = syncretic_revanchist
-				has_idea_with_trait = GER_revolutionary_nationalist_advisor
+				has_idea_with_trait = far_left_revolutionary
+				has_idea_with_trait = ambitious_union_boss
 			}
-			NOT = { has_government = fascism }
-			OR = {
-				AND = {
-					original_tag = GER
-					has_completed_focus = GER_expatriate_the_communists_ww
-					has_country_flag = GER_strasserism_relevant_in_germany_flag
-				}
-				check_has_focus_tree_to_switch_to_fascism = yes
-			}
+			NOT = { has_government = far_left }
+			check_has_focus_tree_to_switch_to_far_left = yes
 		}
 
 		cancel_trigger = {
@@ -69,36 +53,36 @@ fascism_on_the_rise = {
 				has_civil_war = yes
 			}
 		}
-		
+
 		fire_only_once = no
-		
+
 		cost = 25
 
 		days_remove = 30
 
 		modifier = {
-			fascism_drift = 0.02
+			far_left_drift = 0.02
 			stability_weekly = -0.03
- 			political_power_gain = -0.2
+			political_power_gain = -0.2
 		}
-		
+
 		ai_will_do = {
 			factor = 1
 		}
 	}
-	
-	army_support_for_fascist_civil_war = {
+
+	army_support_for_far_left_civil_war = {
 
 		icon = generic_army_support
 
 		visible = {
-			has_country_flag = preparation_for_fascist_civil_war
+			has_country_flag = preparation_for_far_left_civil_war
 			OR = {
-				has_idea_with_trait = fascist_demagogue
-				has_idea_with_trait = syncretic_revanchist
+				has_idea_with_trait = far_left_revolutionary
+				has_idea_with_trait = ambitious_union_boss
 			}
-			NOT = { has_government = fascism }
-			check_has_focus_tree_to_switch_to_fascism = yes
+			NOT = { has_government = far_left }
+			check_has_focus_tree_to_switch_to_far_left = yes
 		}
 
 		cancel_trigger = {
@@ -106,9 +90,9 @@ fascism_on_the_rise = {
 				has_civil_war = yes
 			}
 		}
-	
+
 		fire_only_once = no
-	
+
 		cost = 50
 
 		days_remove = 30
@@ -122,124 +106,126 @@ fascism_on_the_rise = {
 				limit = {
 					check_variable = { var = army_support_var value = 0.1 compare = less_than }
 				}
-				set_variable = { var = army_support_var value = 0.1 } 
+				set_variable = { var = army_support_var value = 0.1 }
 			}
 			if = {
 				limit = {
 					check_variable = { var = army_support_var value = 0.1 compare = greater_than_or_equals }
 				}
-				add_to_variable = { var = army_support_var value = 0.1 } 
+				add_to_variable = { var = army_support_var value = 0.1 }
 			}
-			set_country_flag = military_support_for_fascist_civil_war
+			set_country_flag = military_support_for_far_left_civil_war
 			custom_effect_tooltip = army_support_TT
 		}
-		
+
 		complete_effect = {
 		}
-		
+
 		ai_will_do = {
 			factor = 0
 		}
 	}
 
-	ensure_general_loyalty_for_fascist_civil_war = {
+	ensure_general_loyalty_for_far_left_civil_war = {
 
 		icon = generic_army_support
 
 		available = {
-			has_country_flag = military_support_for_fascist_civil_war
+			has_country_flag = military_support_for_far_left_civil_war
+			command_power > 2
 		}
 
 		visible = {
-			has_country_flag = preparation_for_fascist_civil_war
+			has_country_flag = preparation_for_far_left_civil_war
 			OR = {
-				has_idea_with_trait = fascist_demagogue
-				has_idea_with_trait = syncretic_revanchist
+				has_idea_with_trait = far_left_revolutionary
+				has_idea_with_trait = ambitious_union_boss
 			}
-			NOT = { has_government = fascism }
+			NOT = { has_government = far_left }
 			any_army_leader = {
 				is_field_marshal = no
 				NOT = { has_trait = hidden_sympathies }
 			}
-			check_has_focus_tree_to_switch_to_fascism = yes
+			check_has_focus_tree_to_switch_to_far_left = yes
 		}
-	
+
 		fire_only_once = yes
-	
+
 		cost = 50
-		
+
 		complete_effect = {
 			country_event = { id = decisions.1 }
 		}
-		
+
 		ai_will_do = {
 			factor = 0
 		}
 	}
 
-	ensure_marshal_loyalty_for_fascist_civil_war = {
+	ensure_marshal_loyalty_for_far_left_civil_war = {
 
 		icon = generic_army_support
 
 		available = {
-			has_country_flag = military_support_for_fascist_civil_war
+			has_country_flag = military_support_for_far_left_civil_war
+			command_power > 2
 		}
 
 		visible = {
-			has_country_flag = preparation_for_fascist_civil_war
+			has_country_flag = preparation_for_far_left_civil_war
 			OR = {
-				has_idea_with_trait = fascist_demagogue
-				has_idea_with_trait = syncretic_revanchist
+				has_idea_with_trait = far_left_revolutionary
+				has_idea_with_trait = ambitious_union_boss
 			}
-			NOT = { has_government = fascism }
+			NOT = { has_government = far_left }
 			any_army_leader = {
 				NOT = { has_trait = hidden_sympathies }
 			}
-			check_has_focus_tree_to_switch_to_fascism = yes
+			check_has_focus_tree_to_switch_to_far_left = yes
 			any_army_leader = {
 				is_field_marshal = yes
 				NOT = { has_unit_leader_flag = hidden_sympathies_marshal }
 			}
 		}
-	
+
 		fire_only_once = yes
-	
+
 		cost = 50
-		
+
 		complete_effect = {
 			country_event = { id = decisions.2 }
 		}
-		
+
 		ai_will_do = {
 			factor = 0
 		}
 	}
 
-	siphon_equipment_stockpiles_for_fascist_civil_war = {
+	siphon_equipment_stockpiles_for_far_left_civil_war = {
 
 		icon = generic_prepare_civil_war
 
 		available = {
-			has_country_flag = military_support_for_fascist_civil_war
+			has_country_flag = military_support_for_far_left_civil_war
 			has_equipment = { infantry_equipment > 1000 }
 			command_power > 2
 		}
 
 		visible = {
-			has_country_flag = preparation_for_fascist_civil_war
-			has_country_flag = military_support_for_fascist_civil_war
+			has_country_flag = preparation_for_far_left_civil_war
+			has_country_flag = military_support_for_far_left_civil_war
 			OR = {
-				has_idea_with_trait = fascist_demagogue
-				has_idea_with_trait = syncretic_revanchist
+				has_idea_with_trait = far_left_revolutionary
+				has_idea_with_trait = ambitious_union_boss
 			}
-			NOT = { has_government = fascism }
-			check_has_focus_tree_to_switch_to_fascism = yes
+			NOT = { has_government = far_left }
+			check_has_focus_tree_to_switch_to_far_left = yes
 		}
-	
+
 		fire_only_once = no
-	
+
 		cost = 50
-		
+
 		complete_effect = {
 			add_command_power = -2
 			add_equipment_to_stockpile = {
@@ -248,91 +234,83 @@ fascism_on_the_rise = {
 			}
 			set_country_flag = siphoned_equipment_stockpiles_for_civil_war
 		}
-		
+
 		ai_will_do = {
 			factor = 0
 		}
 	}
 
-	formulate_surprise_attack_plan_for_fascist_civil_war = {
+	formulate_surprise_attack_plan_for_far_left_civil_war = {
 
 		icon = generic_army_support
 
 		available = {
-			has_country_flag = military_support_for_fascist_civil_war
+			has_country_flag = military_support_for_far_left_civil_war
 			command_power > 2
 		}
 
 		visible = {
-			has_country_flag = preparation_for_fascist_civil_war
+			has_country_flag = preparation_for_far_left_civil_war
 			OR = {
-				has_idea_with_trait = fascist_demagogue
-				has_idea_with_trait = syncretic_revanchist
+				has_idea_with_trait = far_left_revolutionary
+				has_idea_with_trait = ambitious_union_boss
 			}
-			NOT = { has_government = fascism }
-			check_has_focus_tree_to_switch_to_fascism = yes
+			NOT = { has_government = far_left }
+			check_has_focus_tree_to_switch_to_far_left = yes
 		}
-	
+
 		fire_only_once = yes
-	
+
 		cost = 50
-		
+
 		complete_effect = {
 			add_command_power = -2
 			custom_effect_tooltip = formulate_surprise_attack_plan_for_civil_war_tt
 			set_country_flag = formulated_surprise_attack_plan_for_civil_war
 		}
-		
+
 		ai_will_do = {
 			factor = 0
 		}
 	}
-	
-	ignite_the_fascist_civil_war_single_state = {
+
+	ignite_the_far_left_civil_war_single_state = {
 		icon = generic_ignite_civil_war
-		name = ignite_the_fascist_civil_war
+		name = ignite_the_far_left_civil_war
 
 		available = {
 			has_stability < 0.5
-			fascism > 0.50
+			far_left > 0.50
 		}
 
 		visible = {
-			has_country_flag = preparation_for_fascist_civil_war
+			has_country_flag = preparation_for_far_left_civil_war
 			OR = {
-				has_idea_with_trait = fascist_demagogue
-				has_idea_with_trait = syncretic_revanchist
-				has_idea_with_trait = GER_revolutionary_nationalist_advisor
+				has_idea_with_trait = far_left_revolutionary
+				has_idea_with_trait = ambitious_union_boss
 			}
-			NOT = { has_government = fascism }
-			OR = {
-				AND = {
-					original_tag = GER
-					has_completed_focus = GER_expatriate_the_communists_ww
-					has_country_flag = GER_strasserism_relevant_in_germany_flag
-				}
-				check_has_focus_tree_to_switch_to_fascism = yes
-			}
+			NOT = { has_government = far_left }
+			check_has_focus_tree_to_switch_to_far_left = yes
 			check_variable = { num_owned_states = 1 }
 		}
-	
+
 		fire_only_once = yes
-	
+
 		cost = 50
-		
+
 		complete_effect = {
-			set_politics = { ruling_party = fascism elections_allowed = no }
-			clr_country_flag = preparation_for_fascism_civil_war
-			clr_country_flag = military_support_for_fascism_civil_war
-			clr_country_flag = civil_support_for_fascism_civil_war
+			set_politics = { ruling_party = far_left elections_allowed = no }
+			clr_country_flag = preparation_for_far_left_civil_war
+			clr_country_flag = military_support_for_far_left_civil_war
+			clr_country_flag = civil_support_for_far_left_civil_war
 		}
-		
+
 		ai_will_do = {
 			factor = 0
 		}
 	}
-	
-	ignite_the_fascist_civil_war = {
+
+	ignite_the_far_left_civil_war = {
 
 		icon = generic_ignite_civil_war
 
@@ -341,54 +319,73 @@ fascism_on_the_rise = {
 		}
 
 		visible = {
-			has_country_flag = preparation_for_fascist_civil_war
+			has_country_flag = preparation_for_far_left_civil_war
 			OR = {
-				has_idea_with_trait = fascist_demagogue
-				has_idea_with_trait = syncretic_revanchist
-				has_idea_with_trait = GER_revolutionary_nationalist_advisor
+				has_idea_with_trait = far_left_revolutionary
+				has_idea_with_trait = ambitious_union_boss
 			}
-			NOT = { has_government = fascism }
-			OR = {
-				AND = {
-					original_tag = GER
-					has_completed_focus = GER_expatriate_the_communists_ww
-					has_country_flag = GER_strasserism_relevant_in_germany_flag
-				}
-				check_has_focus_tree_to_switch_to_fascism = yes
-			}
+			NOT = { has_government = far_left }
+			check_has_focus_tree_to_switch_to_far_left = yes
 			check_variable = { num_owned_states > 1 }
 		}
-	
+
 		fire_only_once = yes
-	
+
 		cost = 50
-		
+
 		complete_effect = {
 			if = {
 				limit = {
-					has_government = democratic
+					has_government = left
 				}
 				set_variable = {
 					var = civil_war_size_var
-					value = party_popularity@democratic
+					value = party_popularity@left
 				}
 			}
-			if = {
+			else_if = {
 				limit = {
-					has_government = communism
+					has_government = center_left
 				}
 				set_variable = {
 					var = civil_war_size_var
-					value = party_popularity@communism
+					value = party_popularity@center_left
 				}
 			}
-			if = {
+			else_if = {
 				limit = {
-					has_government = neutrality
+					has_government = center
 				}
 				set_variable = {
 					var = civil_war_size_var
-					value = party_popularity@neutrality
+					value = party_popularity@center
+				}
+			}
+			else_if = {
+				limit = {
+					has_government = center_right
+				}
+				set_variable = {
+					var = civil_war_size_var
+					value = party_popularity@center_right
+				}
+			}
+			else_if = {
+				limit = {
+					has_government = right
+				}
+				set_variable = {
+					var = civil_war_size_var
+					value = party_popularity@right
+				}
+			}
+			else_if = {
+				limit = {
+					has_government = far_right
+				}
+				set_variable = {
+					var = civil_war_size_var
+					value = party_popularity@far_right
 				}
 			}
 			subtract_from_variable = {
@@ -409,35 +406,35 @@ fascism_on_the_rise = {
 				}
 			}
 			start_civil_war = {
-				ruling_party = fascism
+				ruling_party = far_left
 				ideology = ROOT
 				size = civil_war_size_var
 				keep_unit_leaders_trigger = {
 					has_trait = hidden_sympathies
 				}
 			}
-			clr_country_flag = preparation_for_fascism_civil_war
-			clr_country_flag = military_support_for_fascism_civil_war
-			clr_country_flag = civil_support_for_fascism_civil_war
+			clr_country_flag = preparation_for_far_left_civil_war
+			clr_country_flag = military_support_for_far_left_civil_war
+			clr_country_flag = civil_support_for_far_left_civil_war
 			set_country_flag = ideology_civil_war
 		}
-		
+
 		ai_will_do = {
 			factor = 0
 		}
 	}
 
-	rebuild_the_nation_fascism = {
+	rebuild_the_nation_far_left = {
 
 		icon = generic_construction
 
 		visible = {
-			has_government = fascism
+			has_government = far_left
 			has_country_flag = won_ideology_civil_war
 		}
 
 		fire_only_once = yes
-	
+
 		cost = 25
 
 		days_remove = 365
@@ -450,1383 +447,3948 @@ fascism_on_the_rise = {
 			industrial_capacity_factory = 0.1
 			industrial_capacity_dockyard = 0.1
 		}
-		
+
 		ai_will_do = {
 			factor = 200
 		}
 	}
 
-	open_up_political_discourse_fascism = {
+	open_up_political_discourse_far_left = {
 
 		icon = generic_political_discourse
 
 		available = {
-			fascism < 0.9
-			democratic < 0.9
-			communism < 0.9
-			neutrality < 0.9
+			left < 0.9
+			center_left < 0.9
+			center < 0.9
+			center_right < 0.9
+			right < 0.9
+			far_right < 0.9
 		}
 
 		visible = {
 			OR = {
-				has_idea_with_trait = fascist_demagogue
-				has_idea_with_trait = syncretic_revanchist
-				has_idea_with_trait = GER_revolutionary_nationalist_advisor
+				has_idea_with_trait = far_left_revolutionary
+				has_idea_with_trait = ambitious_union_boss
 			}
-			NOT = { has_country_flag = open_up_political_discourse_fascism }
-			NOT = { has_government = fascism }
-			OR = {
-				AND = {
-					original_tag = GER
-					has_completed_focus = GER_expatriate_the_communists_ww
-					has_country_flag = GER_strasserism_relevant_in_germany_flag
-				}
-				check_has_focus_tree_to_switch_to_fascism = yes
-			}
+			NOT = { has_country_flag = open_up_political_discourse_far_left }
+			NOT = { has_government = far_left }
+			check_has_focus_tree_to_switch_to_far_left = yes
 		}
-		
+
 		remove_trigger = {
-			has_government = fascism
+			has_government = far_left
 		}
-		
+
 		fire_only_once = yes
-		
+
 		cost = 75
-		
+
 		complete_effect = {
-			set_country_flag = open_up_political_discourse_fascism
+			set_country_flag = open_up_political_discourse_far_left
 		}
-		
+
 		ai_will_do = {
 			factor = 1
 		}
 	}
-	
-	discredit_government_fascism = {
+
+	discredit_government_far_left = {
 
 		icon = generic_political_discourse
 
 		available = {
-			fascism < 0.8
-			democratic < 0.8
-			communism < 0.8
-			neutrality < 0.8
+			left < 0.8
+			center_left < 0.8
+			center < 0.8
+			center_right < 0.8
+			right < 0.8
+			far_right < 0.8
 			OR = {
-				has_idea_with_trait = fascist_demagogue
-				has_idea_with_trait = syncretic_revanchist
-				has_idea_with_trait = GER_revolutionary_nationalist_advisor
+				has_idea_with_trait = far_left_revolutionary
+				has_idea_with_trait = ambitious_union_boss
 			}
 		}
 
 		visible = {
-			has_country_flag = open_up_political_discourse_fascism
-			NOT = { has_government = fascism }
-			OR = {
-				AND = {
-					original_tag = GER
-					has_completed_focus = GER_expatriate_the_communists_ww
-					has_country_flag = GER_strasserism_relevant_in_germany_flag
-				}
-				check_has_focus_tree_to_switch_to_fascism = yes
-			}
+			has_country_flag = open_up_political_discourse_far_left
+			NOT = { has_government = far_left }
+			check_has_focus_tree_to_switch_to_far_left = yes
 		}
-		
+
 		remove_trigger = {
-			has_government = fascism
+			has_government = far_left
 		}
-		
+
 		fire_only_once = yes
-		
+
 		cost = 50
-		
+
 		complete_effect = {
 			add_stability = -0.010
 			if = {
 				limit = {
-					has_government = democratic
+					has_government = left
 				}
 				add_popularity = {
-					ideology = democratic
+					ideology = left
 					popularity = -0.1
 				}
 			}
-			if = {
+			else_if = {
 				limit = {
-					has_government = communism
+					has_government = center_left
 				}
 				add_popularity = {
-					ideology = communism
+					ideology = center_left
 					popularity = -0.1
 				}
 			}
-			if = {
+			else_if = {
 				limit = {
-					has_government = neutrality
+					has_government = center
 				}
 				add_popularity = {
-					ideology = neutrality
+					ideology = center
+					popularity = -0.1
+				}
+			}
+			else_if = {
+				limit = {
+					has_government = center_right
+				}
+				add_popularity = {
+					ideology = center_right
+					popularity = -0.1
+				}
+			}
+			else_if = {
+				limit = {
+					has_government = right
+				}
+				add_popularity = {
+					ideology = right
+					popularity = -0.1
+				}
+			}
+			else_if = {
+				limit = {
+					has_government = far_right
+				}
+				add_popularity = {
+					ideology = far_right
 					popularity = -0.1
 				}
 			}
 		}
-		
+
 		ai_will_do = {
 			factor = 1
 		}
 	}
-	
-	hold_the_fascist_national_referendum = {
+
+	hold_the_far_left_national_referendum = {
 
 		icon = generic_political_discourse
 
 		available = {
-			fascism > 0.5
+			far_left > 0.5
 		}
 
 		visible = {
-			NOT = { has_government = fascism }
+			NOT = { has_government = far_left }
 			OR = {
-				fascism > 0.6
-				has_country_flag = open_up_political_discourse_fascism
+				far_left > 0.6
+				has_country_flag = open_up_political_discourse_far_left
 			}
-			OR = {
-				AND = {
-					original_tag = GER
-					has_completed_focus = GER_expatriate_the_communists_ww
-					has_country_flag = GER_strasserism_relevant_in_germany_flag
-				}
-				check_has_focus_tree_to_switch_to_fascism = yes
-			}
-			IF = {
-				limit = {
-					has_dlc = "Trial of Allegiance"
-				}
-				NOT = {
-					tag = ARG
-				}
-			}
+			check_has_focus_tree_to_switch_to_far_left = yes
 		}
-		
+
 		remove_trigger = {
-			has_government = fascism
+			has_government = far_left
 		}
-		
+
 		fire_only_once = yes
-		
+
 		cost = 100
-		
-		complete_effect = {
-			country_event = { id = political.18 }
-		}
-		
-		ai_will_do = {
-			factor = 210
-			modifier = {
-				fascism > 0.6
-				factor = 10
-			}
-			modifier = {
-				factor = 0
-				original_tag = DEN
-				has_dlc = "Arms Against Tyranny"
-				is_subject = yes
-			}
-		}
-	}
-}
 
-democratic_on_the_rise = {
-	prepare_for_democratic_civil_war = {
-
-		icon = generic_prepare_civil_war
-
-		available = {
-			democratic > 0.1
-			num_of_controlled_states > 1
-		}
-
-		visible = {
-			NOT = { has_country_flag = preparation_for_democratic_civil_war }
-			OR = {
-				has_idea_with_trait = democratic_reformer
-				has_idea_with_trait = social_reformer
-			}
-			NOT = { has_government = democratic }
-			check_has_focus_tree_to_switch_to_democratic = yes
-		}
-		
-		fire_only_once = yes
-		
-		cost = 50
-		
-		complete_effect = {
-			set_country_flag = preparation_for_democratic_civil_war
-		}
-		
-		ai_will_do = {
-			factor = 0
-		}
-	}
-	
-	expand_civil_democratic_support = {
-
-		icon = generic_civil_support
-
-		visible = {
-			OR = {
-				has_country_flag = preparation_for_democratic_civil_war
-				has_country_flag = open_up_political_discourse_democratic
-			}
-			OR = {
-				has_idea_with_trait = democratic_reformer
-				has_idea_with_trait = social_reformer
-			}
-			NOT = { has_government = democratic }
-			check_has_focus_tree_to_switch_to_democratic = yes
-		}
-
-		cancel_trigger = {
-			hidden_trigger = {
-				has_civil_war = yes
-			}
-		}
-		
-		fire_only_once = no
-		
-		cost = 25
-
-		days_remove = 30
-
-		modifier = {
-			democratic_drift = 0.05
-			stability_weekly = -0.003
- 			political_power_gain = -0.2
-		}
-		
-		ai_will_do = {
-			factor = 1
-		}
-	}
-	
-	army_support_for_democratic_civil_war = {
-
-		icon = generic_army_support
-
-		visible = {
-			has_country_flag = preparation_for_democratic_civil_war
-			OR = {
-				has_idea_with_trait = democratic_reformer
-				has_idea_with_trait = social_reformer
-			}
-			NOT = { has_government = democratic }
-			check_has_focus_tree_to_switch_to_democratic = yes
-		}
-
-		cancel_trigger = {
-			hidden_trigger = {
-				has_civil_war = yes
-			}
-		}
-	
-		fire_only_once = no
-	
-		cost = 50
-
-		days_remove = 30
-
-		modifier = {
-			command_power_gain = -0.2
-		}
-
-		remove_effect = {
-			if = {
-				limit = {
-					check_variable = { var = army_support_var value = 0.1 compare = less_than }
-				}
-				set_variable = { var = army_support_var value = 0.1 } 
-			}
-			if = {
-				limit = {
-					check_variable = { var = army_support_var value = 0.1 compare = greater_than_or_equals }
-				}
-				add_to_variable = { var = army_support_var value = 0.1 } 
-			}
-			set_country_flag = military_support_for_democratic_civil_war
-		}
-		
-		complete_effect = {
-		}
-		
-		ai_will_do = {
-			factor = 0
-		}
-	}
-
-	ensure_general_loyalty_for_democratic_civil_war = {
-
-		icon = generic_army_support
-
-		available = {
-			has_country_flag = military_support_for_democratic_civil_war
-			command_power > 2
-		}
-
-		visible = {
-			has_country_flag = preparation_for_democratic_civil_war
-			OR = {
-				has_idea_with_trait = democratic_reformer
-				has_idea_with_trait = social_reformer
-			}
-			NOT = { has_government = democratic }
-			any_army_leader = {
-				is_field_marshal = no
-				NOT = { has_trait = hidden_sympathies }
-			}
-			check_has_focus_tree_to_switch_to_democratic = yes
-		}
-	
-		fire_only_once = yes
-	
-		cost = 50
-		
-		complete_effect = {
-			country_event = { id = decisions.1 }
-		}
-		
-		ai_will_do = {
-			factor = 0
-		}
-	}
-
-	ensure_marshal_loyalty_for_democratic_civil_war = {
-
-		icon = generic_army_support
-
-		available = {
-			has_country_flag = military_support_for_democratic_civil_war
-			command_power > 2
-		}
-
-		visible = {
-			has_country_flag = preparation_for_democratic_civil_war
-			OR = {
-				has_idea_with_trait = democratic_reformer
-				has_idea_with_trait = social_reformer
-			}
-			NOT = { has_government = democratic }
-			any_army_leader = {
-				NOT = { has_trait = hidden_sympathies }
-			}
-			check_has_focus_tree_to_switch_to_democratic = yes
-			any_army_leader = {
-				is_field_marshal = yes
-				NOT = { has_unit_leader_flag = hidden_sympathies_marshal }
-			}
-		}
-	
-		fire_only_once = yes
-	
-		cost = 50
-		
-		complete_effect = {
-			country_event = { id = decisions.2 }
-		}
-		
-		ai_will_do = {
-			factor = 0
-		}
-	}
-
-	siphon_equipment_stockpiles_for_democratic_civil_war = {
-
-		icon = generic_prepare_civil_war
-
-		available = {
-			has_country_flag = military_support_for_democratic_civil_war
-			has_equipment = { infantry_equipment > 1000 }
-			command_power > 2
-		}
-
-		visible = {
-			has_country_flag = preparation_for_democratic_civil_war
-			has_country_flag = military_support_for_democratic_civil_war
-			OR = {
-				has_idea_with_trait = democratic_reformer
-				has_idea_with_trait = social_reformer
-			}
-			NOT = { has_government = democratic }
-			check_has_focus_tree_to_switch_to_democratic = yes
-		}
-	
-		fire_only_once = no
-	
-		cost = 50
-		
-		complete_effect = {
-			add_command_power = -2
-			add_equipment_to_stockpile = {
-				type = infantry_equipment
-				amount = -1000
-			}
-			set_country_flag = siphoned_equipment_stockpiles_for_civil_war
-		}
-		
-		ai_will_do = {
-			factor = 0
-		}
-	}
-
-	formulate_surprise_attack_plan_for_democratic_civil_war = {
-
-		icon = generic_army_support
-
-		available = {
-			has_country_flag = military_support_for_democratic_civil_war
-			command_power > 2
-		}
-
-		visible = {
-			has_country_flag = preparation_for_democratic_civil_war
-			OR = {
-				has_idea_with_trait = democratic_reformer
-				has_idea_with_trait = social_reformer
-			}
-			NOT = { has_government = democratic }
-			check_has_focus_tree_to_switch_to_democratic = yes
-		}
-	
-		fire_only_once = yes
-	
-		cost = 50
-		
-		complete_effect = {
-			add_command_power = -2
-			custom_effect_tooltip = formulate_surprise_attack_plan_for_civil_war_tt
-			set_country_flag = formulated_surprise_attack_plan_for_civil_war
-		}
-		
-		ai_will_do = {
-			factor = 0
-		}
-	}
-	
-	ignite_the_democratic_civil_war_single_state = {
-		icon = generic_ignite_civil_war
-		name = ignite_the_democratic_civil_war
-		
-		available = {
-			has_stability < 0.5
-			democratic > 0.50
-		}
-
-		visible = {
-			has_country_flag = preparation_for_democratic_civil_war
-			OR = {
-				has_idea_with_trait = democratic_reformer
-				has_idea_with_trait = social_reformer
-			}
-			NOT = { has_government = democratic }
-			check_has_focus_tree_to_switch_to_democratic = yes
-			check_variable = { num_owned_states = 1 }
-		}
-	
-		fire_only_once = yes
-	
-		cost = 50
-		
-		complete_effect = {
-			set_politics = { ruling_party = democratic elections_allowed = yes }
-			clr_country_flag = preparation_for_democratic_civil_war
-			clr_country_flag = military_support_for_democratic_civil_war
-			clr_country_flag = civil_support_for_democratic_civil_war
-		}
-		
-		ai_will_do = {
-			factor = 0
-		}
-	}
-	
-	ignite_the_democratic_civil_war = {
-
-		icon = generic_ignite_civil_war
-
-		available = {
-			has_stability < 0.5
-		}
-
-		visible = {
-			has_country_flag = preparation_for_democratic_civil_war
-			OR = {
-				has_idea_with_trait = democratic_reformer
-				has_idea_with_trait = social_reformer
-			}
-			NOT = { has_government = democratic }
-			check_has_focus_tree_to_switch_to_democratic = yes
-			check_variable = { num_owned_states > 1 }
-		}
-	
-		fire_only_once = yes
-	
-		cost = 50
-		
-		complete_effect = {
-			if = {
-				limit = {
-					has_government = fascism
-				}
-				set_variable = {
-					var = civil_war_size_var
-					value = party_popularity@fascism
-				}
-			}
-			if = {
-				limit = {
-					has_government = communism
-				}
-				set_variable = {
-					var = civil_war_size_var
-					value = party_popularity@communism
-				}
-			}
-			if = {
-				limit = {
-					has_government = neutrality
-				}
-				set_variable = {
-					var = civil_war_size_var
-					value = party_popularity@neutrality
-				}
-			}
-			subtract_from_variable = {
-				var = civil_war_size_var
-				value = army_support_var
-			}
-			if = {
-				limit = {
-					check_variable = {
-						var = civil_war_size_var
-						value = 0.3
-						compare = less_than
-					}
-				}
-				set_variable = {
-					var = civil_war_size_var
-					value = 0.3
-				}
-			}
-			start_civil_war = {
-				ruling_party = democratic
-				ideology = ROOT
-				size = civil_war_size_var
-				keep_unit_leaders_trigger = {
-					has_trait = hidden_sympathies
-				}
-			}
-			clr_country_flag = preparation_for_democratic_civil_war
-			clr_country_flag = military_support_for_democratic_civil_war
-			clr_country_flag = civil_support_for_democratic_civil_war
-		}
-		
-		ai_will_do = {
-			factor = 0
-		}
-	}
-
-	rebuild_the_nation_democratic = {
-
-		icon = generic_construction
-
-		visible = {
-			has_government = democratic
-			has_country_flag = won_ideology_civil_war
-		}
-
-		fire_only_once = yes
-	
-		cost = 25
-
-		days_remove = 365
-
-		modifier = {
-			political_power_gain = -1
-			industry_repair_factor = 0.20
-			production_speed_industrial_complex_factor = 0.1
-			production_speed_infrastructure_factor = 0.1
-			industrial_capacity_factory = 0.1
-			industrial_capacity_dockyard = 0.1
-		}
-		
-		ai_will_do = {
-			factor = 200
-		}
-	}
-
-	open_up_political_discourse_democratic = {
-
-		icon = generic_political_discourse
-
-		available = {
-			fascism < 0.9
-			democratic < 0.9
-			communism < 0.9
-			neutrality < 0.9
-		}
-
-		visible = {
-			OR = {
-				has_idea_with_trait = democratic_reformer
-				has_idea_with_trait = social_reformer
-			}
-			NOT = { has_government = democratic }
-			check_has_focus_tree_to_switch_to_democratic = yes
-		}
-		
-		remove_trigger = {
-			has_government = democratic
-		}
-		
-		fire_only_once = yes
-		
-		cost = 75
-		
-		complete_effect = {
-			set_country_flag = open_up_political_discourse_democratic
-		}
-		
-		ai_will_do = {
-			factor = 1
-		}
-	}
-	
-	discredit_government_democratic = {
-
-		icon = generic_political_discourse
-
-		available = {
-			fascism < 0.8
-			democratic < 0.8
-			communism < 0.8
-			neutrality < 0.8
-			OR = {
-				has_idea_with_trait = democratic_reformer
-				has_idea_with_trait = social_reformer
-			}
-		}
-
-		visible = {
-			has_country_flag = open_up_political_discourse_democratic
-			NOT = { has_government = democratic }
-			check_has_focus_tree_to_switch_to_democratic = yes
-		}
-		
-		remove_trigger = {
-			has_government = democratic
-		}
-		
-		fire_only_once = yes
-		
-		cost = 50
-		
-		complete_effect = {
-			add_stability = -0.010
-			if = {
-				limit = {
-					has_government = fascism
-				}
-				add_popularity = {
-					ideology = fascism
-					popularity = -0.1
-				}
-			}
-			if = {
-				limit = {
-					has_government = communism
-				}
-				add_popularity = {
-					ideology = communism
-					popularity = -0.1
-				}
-			}
-			if = {
-				limit = {
-					has_government = neutrality
-				}
-				add_popularity = {
-					ideology = neutrality
-					popularity = -0.1
-				}
-			}
-		}
-		
-		ai_will_do = {
-			factor = 1
-		}
-	}
-	
-	hold_the_democratic_national_referendum = {
-
-		icon = generic_political_discourse
-
-		available = {
-			democratic > 0.5
-		}
-
-		visible = {
-			NOT = { has_government = democratic }
-			OR = {
-				democratic > 0.6
-				has_country_flag = open_up_political_discourse_democratic
-			}
-			check_has_focus_tree_to_switch_to_democratic = yes
-			if = {
-				limit = {
-					NOR_AAT = yes 
-				}
-				original_tag = NOR 
-				has_country_flag = NOR_included_in_generic_political
-			}
-		}
-		
-		remove_trigger = {
-			has_government = democratic
-		}
-		
-		fire_only_once = yes
-		
-		cost = 100
-		
-		complete_effect = {
-			country_event = { id = political.20 }
-		}
-		
-		ai_will_do = {
-			factor = 210
-			modifier = {
-				democratic > 0.6
-				factor = 10
-			}
-			modifier = {
-				factor = 0
-				original_tag = DEN
-				has_dlc = "Arms Against Tyranny"
-				is_subject = yes
-			}
-		}
-	}
-}
-
-communism_on_the_rise = {
-	prepare_for_communist_civil_war = {
-
-		icon = generic_prepare_civil_war
-
-		available = {
-			communism > 0.1
-			num_of_controlled_states > 1
-		}
-
-		visible = {
-			NOT = { has_country_flag = preparation_for_communism_civil_war }
-			OR = {
-				has_idea_with_trait = communist_revolutionary
-				has_idea_with_trait = ambitious_union_boss
-				AND = {
-					has_idea_with_trait = ARG_communist_insurrectionist
-					original_tag = IRQ
-				}
-			}
-			NOT = { has_government = communism }
-			check_has_focus_tree_to_switch_to_communism = yes
-		}
-		
-		fire_only_once = yes
-		
-		cost = 50
-		
-		complete_effect = {
-			set_country_flag = preparation_for_communist_civil_war
-		}
-		
-		ai_will_do = {
-			factor = 0
-		}
-	}
-	
-	expand_civil_communist_support = {
-
-		icon = generic_civil_support
-
-		visible = {
-			OR = {
-				has_country_flag = preparation_for_communist_civil_war
-				has_country_flag = open_up_political_discourse_communism
-			}
-			OR = {
-				has_idea_with_trait = communist_revolutionary
-				has_idea_with_trait = ambitious_union_boss
-				AND = {
-					has_idea_with_trait = ARG_communist_insurrectionist
-					original_tag = IRQ
-				}
-			}
-			NOT = { has_government = communism }
-			check_has_focus_tree_to_switch_to_communism = yes
-		}
-
-		cancel_trigger = {
-			hidden_trigger = {
-				has_civil_war = yes
-			}
-		}
-		
-		fire_only_once = no
-		
-		cost = 25
-
-		days_remove = 30
-
-		modifier = {
-			communism_drift = 0.02
-			stability_weekly = -0.03
- 			political_power_gain = -0.2
-		}
-		
-		ai_will_do = {
-			factor = 1
-		}
-	}
-	
-	army_support_for_communist_civil_war = {
-
-		icon = generic_army_support
-
-		visible = {
-			has_country_flag = preparation_for_communist_civil_war
-			OR = {
-				has_idea_with_trait = communist_revolutionary
-				has_idea_with_trait = ambitious_union_boss
-				AND = {
-					has_idea_with_trait = ARG_communist_insurrectionist
-					original_tag = IRQ
-				}
-			}
-			NOT = { has_government = communism }
-			check_has_focus_tree_to_switch_to_communism = yes
-		}
-
-		cancel_trigger = {
-			hidden_trigger = {
-				has_civil_war = yes
-			}
-		}
-	
-		fire_only_once = no
-	
-		cost = 50
-
-		days_remove = 30
-
-		modifier = {
-			command_power_gain = -0.2
-		}
-
-		remove_effect = {
-			if = {
-				limit = {
-					check_variable = { var = army_support_var value = 0.1 compare = less_than }
-				}
-				set_variable = { var = army_support_var value = 0.1 } 
-			}
-			if = {
-				limit = {
-					check_variable = { var = army_support_var value = 0.1 compare = greater_than_or_equals }
-				}
-				add_to_variable = { var = army_support_var value = 0.1 } 
-			}
-			set_country_flag = military_support_for_communist_civil_war
-		}
-		
-		complete_effect = {
-		}
-		
-		ai_will_do = {
-			factor = 0
-		}
-	}
-
-	ensure_general_loyalty_for_communist_civil_war = {
-
-		icon = generic_army_support
-
-		available = {
-			has_country_flag = military_support_for_communist_civil_war
-			command_power > 2
-		}
-
-		visible = {
-			has_country_flag = preparation_for_communist_civil_war
-			OR = {
-				has_idea_with_trait = communist_revolutionary
-				has_idea_with_trait = ambitious_union_boss
-				AND = {
-					has_idea_with_trait = ARG_communist_insurrectionist
-					original_tag = IRQ
-				}
-			}
-			NOT = { has_government = communism }
-			any_army_leader = {
-				is_field_marshal = no
-				NOT = { has_trait = hidden_sympathies }
-			}
-			check_has_focus_tree_to_switch_to_communism = yes
-		}
-	
-		fire_only_once = yes
-	
-		cost = 50
-		
-		complete_effect = {
-			country_event = { id = decisions.1 }
-		}
-		
-		ai_will_do = {
-			factor = 0
-		}
-	}
-
-	ensure_marshal_loyalty_for_communist_civil_war = {
-
-		icon = generic_army_support
-
-		available = {
-			has_country_flag = military_support_for_communist_civil_war
-			command_power > 2
-		}
-
-		visible = {
-			has_country_flag = preparation_for_communist_civil_war
-			OR = {
-				has_idea_with_trait = communist_revolutionary
-				has_idea_with_trait = ambitious_union_boss
-				AND = {
-					has_idea_with_trait = ARG_communist_insurrectionist
-					original_tag = IRQ
-				}
-			}
-			NOT = { has_government = communism }
-			any_army_leader = {
-				NOT = { has_trait = hidden_sympathies }
-			}
-			check_has_focus_tree_to_switch_to_communism = yes
-			any_army_leader = {
-				is_field_marshal = yes
-				NOT = { has_unit_leader_flag = hidden_sympathies_marshal }
-			}
-		}
-	
-		fire_only_once = yes
-	
-		cost = 50
-		
-		complete_effect = {
-			country_event = { id = decisions.2 }
-		}
-		
-		ai_will_do = {
-			factor = 0
-		}
-	}
-
-	siphon_equipment_stockpiles_for_communist_civil_war = {
-
-		icon = generic_prepare_civil_war
-
-		available = {
-			has_country_flag = military_support_for_communist_civil_war
-			has_equipment = { infantry_equipment > 1000 }
-			command_power > 2
-		}
-
-		visible = {
-			has_country_flag = preparation_for_communist_civil_war
-			has_country_flag = military_support_for_communist_civil_war
-			OR = {
-				has_idea_with_trait = communist_revolutionary
-				has_idea_with_trait = ambitious_union_boss
-				AND = {
-					has_idea_with_trait = ARG_communist_insurrectionist
-					original_tag = IRQ
-				}
-			}
-			NOT = { has_government = communism }
-			check_has_focus_tree_to_switch_to_communism = yes
-		}
-	
-		fire_only_once = no
-	
-		cost = 50
-		
-		complete_effect = {
-			add_command_power = -2
-			add_equipment_to_stockpile = {
-				type = infantry_equipment
-				amount = -1000
-			}
-			set_country_flag = siphoned_equipment_stockpiles_for_civil_war
-		}
-		
-		ai_will_do = {
-			factor = 0
-		}
-	}
-
-	formulate_surprise_attack_plan_for_communist_civil_war = {
-
-		icon = generic_army_support
-
-		available = {
-			has_country_flag = military_support_for_communist_civil_war
-			command_power > 2
-		}
-
-		visible = {
-			has_country_flag = preparation_for_communist_civil_war
-			OR = {
-				has_idea_with_trait = communist_revolutionary
-				has_idea_with_trait = ambitious_union_boss
-				AND = {
-					has_idea_with_trait = ARG_communist_insurrectionist
-					original_tag = IRQ
-				}
-			}
-			NOT = { has_government = communism }
-			check_has_focus_tree_to_switch_to_communism = yes
-		}
-	
-		fire_only_once = yes
-	
-		cost = 50
-		
-		complete_effect = {
-			add_command_power = -2
-			custom_effect_tooltip = formulate_surprise_attack_plan_for_civil_war_tt
-			set_country_flag = formulated_surprise_attack_plan_for_civil_war
-		}
-		
-		ai_will_do = {
-			factor = 0
-		}
-	}
-	
-	ignite_the_communist_civil_war_single_state = {
-		icon = generic_ignite_civil_war
-		name = ignite_the_communist_civil_war
-
-		available = {
-			has_stability < 0.5
-			communism > 0.50
-		}
-
-		visible = {
-			has_country_flag = preparation_for_communist_civil_war
-			OR = {
-				has_idea_with_trait = communist_revolutionary
-				has_idea_with_trait = ambitious_union_boss
-				AND = {
-					has_idea_with_trait = ARG_communist_insurrectionist
-					original_tag = IRQ
-				}
-			}
-			NOT = { has_government = communism }
-			check_has_focus_tree_to_switch_to_communism = yes
-			check_variable = { num_owned_states = 1 }
-		}
-	
-		fire_only_once = yes
-	
-		cost = 50
-		
-		complete_effect = {
-			set_politics = { ruling_party = communism elections_allowed = no }
-			clr_country_flag = preparation_for_communist_civil_war
-			clr_country_flag = military_support_for_communist_civil_war
-			clr_country_flag = civil_support_for_communist_civil_war
-		}
-		
-		ai_will_do = {
-			factor = 0
-		}
-	}
-	
-	ignite_the_communist_civil_war = {
-
-		icon = generic_ignite_civil_war
-
-		available = {
-			has_stability < 0.5
-		}
-
-		visible = {
-			has_country_flag = preparation_for_communist_civil_war
-			OR = {
-				has_idea_with_trait = communist_revolutionary
-				has_idea_with_trait = ambitious_union_boss
-				AND = {
-					has_idea_with_trait = ARG_communist_insurrectionist
-					original_tag = IRQ
-				}
-			}
-			NOT = { has_government = communism }
-			check_has_focus_tree_to_switch_to_communism = yes
-			check_variable = { num_owned_states > 1 }
-		}
-	
-		fire_only_once = yes
-	
-		cost = 50
-		
-		complete_effect = {
-			if = {
-				limit = {
-					has_government = fascism
-				}
-				set_variable = {
-					var = civil_war_size_var
-					value = party_popularity@fascism
-				}
-			}
-			if = {
-				limit = {
-					has_government = democratic
-				}
-				set_variable = {
-					var = civil_war_size_var
-					value = party_popularity@democratic
-				}
-			}
-			if = {
-				limit = {
-					has_government = neutrality
-				}
-				set_variable = {
-					var = civil_war_size_var
-					value = party_popularity@neutrality
-				}
-			}
-			subtract_from_variable = {
-				var = civil_war_size_var
-				value = army_support_var
-			}
-			if = {
-				limit = {
-					check_variable = {
-						var = civil_war_size_var
-						value = 0.3
-						compare = less_than
-					}
-				}
-				set_variable = {
-					var = civil_war_size_var
-					value = 0.3
-				}
-			}
-			start_civil_war = {
-				ruling_party = communism
-				ideology = ROOT
-				size = civil_war_size_var
-				keep_unit_leaders_trigger = {
-					has_trait = hidden_sympathies
-				}				
-			}
-			clr_country_flag = preparation_for_communist_civil_war
-			clr_country_flag = military_support_for_communist_civil_war
-			clr_country_flag = civil_support_for_communist_civil_war
-		}
-		
-		ai_will_do = {
-			factor = 0
-		}
-	}
-
-	rebuild_the_nation_communism = {
-
-		icon = generic_construction
-
-		visible = {
-			has_government = communism
-			has_country_flag = won_ideology_civil_war
-		}
-
-		fire_only_once = yes
-	
-		cost = 25
-
-		days_remove = 365
-
-		modifier = {
-			political_power_gain = -1
-			industry_repair_factor = 0.20
-			production_speed_industrial_complex_factor = 0.1
-			production_speed_infrastructure_factor = 0.1
-			industrial_capacity_factory = 0.1
-			industrial_capacity_dockyard = 0.1
-		}
-		
-		ai_will_do = {
-			factor = 200
-		}
-	}
-
-	open_up_political_discourse_communist = {
-
-		icon = generic_political_discourse
-
-		available = {
-			fascism < 0.9
-			democratic < 0.9
-			communism < 0.9
-			neutrality < 0.9
-		}
-
-		visible = {
-			OR = {
-				has_idea_with_trait = communist_revolutionary
-				has_idea_with_trait = ambitious_union_boss
-				AND = {
-					has_idea_with_trait = ARG_communist_insurrectionist
-					original_tag = IRQ
-				}
-			}
-			NOT = { has_government = communism }
-			check_has_focus_tree_to_switch_to_communism = yes
-		}
-		
-		remove_trigger = {
-			has_government = communism
-		}
-		
-		fire_only_once = yes
-		
-		cost = 75
-		
-		complete_effect = {
-			set_country_flag = open_up_political_discourse_communist
-		}
-		
-		ai_will_do = {
-			factor = 1
-		}
-	}
-	
-	discredit_government_communism = {
-
-		icon = generic_political_discourse
-
-		available = {
-			fascism < 0.8
-			democratic < 0.8
-			communism < 0.8
-			neutrality < 0.8
-			OR = {
-				has_idea_with_trait = communist_revolutionary
-				has_idea_with_trait = ambitious_union_boss
-				AND = {
-					has_idea_with_trait = ARG_communist_insurrectionist
-					original_tag = IRQ
-				}
-			}
-		}
-
-		visible = {
-			has_country_flag = open_up_political_discourse_communist
-			NOT = { has_government = communism }
-			check_has_focus_tree_to_switch_to_communism = yes
-		}
-		
-		remove_trigger = {
-			has_government = communism
-		}
-		
-		fire_only_once = yes
-		
-		cost = 50
-		
-		complete_effect = {
-			add_stability = -0.010
-			if = {
-				limit = {
-					has_government = fascism
-				}
-				add_popularity = {
-					ideology = fascism
-					popularity = -0.1
-				}
-			}
-			if = {
-				limit = {
-					has_government = democratic
-				}
-				add_popularity = {
-					ideology = democratic
-					popularity = -0.1
-				}
-			}
-			if = {
-				limit = {
-					has_government = neutrality
-				}
-				add_popularity = {
-					ideology = neutrality
-					popularity = -0.1
-				}
-			}
-		}
-		
-		ai_will_do = {
-			factor = 1
-		}
-	}
-	
-	hold_the_communist_national_referendum = {
-
-		icon = generic_political_discourse
-
-		available = {
-			communism > 0.5
-		}
-
-		visible = {
-			NOT = { has_government = communism }
-			OR = {
-				communism > 0.6
-				has_country_flag = open_up_political_discourse_communist
-			}
-			check_has_focus_tree_to_switch_to_communism = yes
-		}
-		
-		remove_trigger = {
-			has_government = communism
-		}
-		
-		fire_only_once = yes
-		
-		cost = 100
-		
 		complete_effect = {
 			country_event = { id = political.19 }
 		}
-		
+
 		ai_will_do = {
 			factor = 210
 			modifier = {
-				communism > 0.6
+				far_left > 0.6
 				factor = 10
 			}
+		}
+	}
+}
+
+left_on_the_rise = {
+	prepare_for_left_civil_war = {
+
+		icon = generic_prepare_civil_war
+
+		available = {
+			left > 0.1
+			num_of_controlled_states > 1
+		}
+
+		visible = {
+			NOT = { has_country_flag = preparation_for_left_civil_war }
+			OR = {
+				has_idea_with_trait = left_reformer
+				has_idea_with_trait = ambitious_union_boss
+			}
+			NOT = { has_government = left }
+			check_has_focus_tree_to_switch_to_left = yes
+		}
+
+		fire_only_once = yes
+
+		cost = 50
+
+		complete_effect = {
+			set_country_flag = preparation_for_left_civil_war
+		}
+
+		ai_will_do = {
+			factor = 0
+		}
+	}
+
+	expand_civil_left_support = {
+
+		icon = generic_civil_support
+
+		visible = {
+			OR = {
+				has_country_flag = preparation_for_left_civil_war
+				has_country_flag = open_up_political_discourse_left
+			}
+			OR = {
+				has_idea_with_trait = left_reformer
+				has_idea_with_trait = ambitious_union_boss
+			}
+			NOT = { has_government = left }
+			check_has_focus_tree_to_switch_to_left = yes
+		}
+
+		cancel_trigger = {
+			hidden_trigger = {
+				has_civil_war = yes
+			}
+		}
+
+		fire_only_once = no
+
+		cost = 25
+
+		days_remove = 30
+
+		modifier = {
+			left_drift = 0.02
+			stability_weekly = -0.03
+			political_power_gain = -0.2
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	army_support_for_left_civil_war = {
+
+		icon = generic_army_support
+
+		visible = {
+			has_country_flag = preparation_for_left_civil_war
+			OR = {
+				has_idea_with_trait = left_reformer
+				has_idea_with_trait = ambitious_union_boss
+			}
+			NOT = { has_government = left }
+			check_has_focus_tree_to_switch_to_left = yes
+		}
+
+		cancel_trigger = {
+			hidden_trigger = {
+				has_civil_war = yes
+			}
+		}
+
+		fire_only_once = no
+
+		cost = 50
+
+		days_remove = 30
+
+		modifier = {
+			command_power_gain = -0.2
+		}
+
+		remove_effect = {
+			if = {
+				limit = {
+					check_variable = { var = army_support_var value = 0.1 compare = less_than }
+				}
+				set_variable = { var = army_support_var value = 0.1 }
+			}
+			if = {
+				limit = {
+					check_variable = { var = army_support_var value = 0.1 compare = greater_than_or_equals }
+				}
+				add_to_variable = { var = army_support_var value = 0.1 }
+			}
+			set_country_flag = military_support_for_left_civil_war
+			custom_effect_tooltip = army_support_TT
+		}
+
+		complete_effect = {
+		}
+
+		ai_will_do = {
+			factor = 0
+		}
+	}
+
+	ensure_general_loyalty_for_left_civil_war = {
+
+		icon = generic_army_support
+
+		available = {
+			has_country_flag = military_support_for_left_civil_war
+			command_power > 2
+		}
+
+		visible = {
+			has_country_flag = preparation_for_left_civil_war
+			OR = {
+				has_idea_with_trait = left_reformer
+				has_idea_with_trait = ambitious_union_boss
+			}
+			NOT = { has_government = left }
+			any_army_leader = {
+				is_field_marshal = no
+				NOT = { has_trait = hidden_sympathies }
+			}
+			check_has_focus_tree_to_switch_to_left = yes
+		}
+
+		fire_only_once = yes
+
+		cost = 50
+
+		complete_effect = {
+			country_event = { id = decisions.1 }
+		}
+
+		ai_will_do = {
+			factor = 0
+		}
+	}
+
+	ensure_marshal_loyalty_for_left_civil_war = {
+
+		icon = generic_army_support
+
+		available = {
+			has_country_flag = military_support_for_left_civil_war
+			command_power > 2
+		}
+
+		visible = {
+			has_country_flag = preparation_for_left_civil_war
+			OR = {
+				has_idea_with_trait = left_reformer
+				has_idea_with_trait = ambitious_union_boss
+			}
+			NOT = { has_government = left }
+			any_army_leader = {
+				NOT = { has_trait = hidden_sympathies }
+			}
+			check_has_focus_tree_to_switch_to_left = yes
+			any_army_leader = {
+				is_field_marshal = yes
+				NOT = { has_unit_leader_flag = hidden_sympathies_marshal }
+			}
+		}
+
+		fire_only_once = yes
+
+		cost = 50
+
+		complete_effect = {
+			country_event = { id = decisions.2 }
+		}
+
+		ai_will_do = {
+			factor = 0
+		}
+	}
+
+	siphon_equipment_stockpiles_for_left_civil_war = {
+
+		icon = generic_prepare_civil_war
+
+		available = {
+			has_country_flag = military_support_for_left_civil_war
+			has_equipment = { infantry_equipment > 1000 }
+			command_power > 2
+		}
+
+		visible = {
+			has_country_flag = preparation_for_left_civil_war
+			has_country_flag = military_support_for_left_civil_war
+			OR = {
+				has_idea_with_trait = left_reformer
+				has_idea_with_trait = ambitious_union_boss
+			}
+			NOT = { has_government = left }
+			check_has_focus_tree_to_switch_to_left = yes
+		}
+
+		fire_only_once = no
+
+		cost = 50
+
+		complete_effect = {
+			add_command_power = -2
+			add_equipment_to_stockpile = {
+				type = infantry_equipment
+				amount = -1000
+			}
+			set_country_flag = siphoned_equipment_stockpiles_for_civil_war
+		}
+
+		ai_will_do = {
+			factor = 0
+		}
+	}
+
+	formulate_surprise_attack_plan_for_left_civil_war = {
+
+		icon = generic_army_support
+
+		available = {
+			has_country_flag = military_support_for_left_civil_war
+			command_power > 2
+		}
+
+		visible = {
+			has_country_flag = preparation_for_left_civil_war
+			OR = {
+				has_idea_with_trait = left_reformer
+				has_idea_with_trait = ambitious_union_boss
+			}
+			NOT = { has_government = left }
+			check_has_focus_tree_to_switch_to_left = yes
+		}
+
+		fire_only_once = yes
+
+		cost = 50
+
+		complete_effect = {
+			add_command_power = -2
+			custom_effect_tooltip = formulate_surprise_attack_plan_for_civil_war_tt
+			set_country_flag = formulated_surprise_attack_plan_for_civil_war
+		}
+
+		ai_will_do = {
+			factor = 0
+		}
+	}
+
+	ignite_the_left_civil_war_single_state = {
+		icon = generic_ignite_civil_war
+		name = ignite_the_left_civil_war
+
+		available = {
+			has_stability < 0.5
+			left > 0.50
+		}
+
+		visible = {
+			has_country_flag = preparation_for_left_civil_war
+			OR = {
+				has_idea_with_trait = left_reformer
+				has_idea_with_trait = ambitious_union_boss
+			}
+			NOT = { has_government = left }
+			check_has_focus_tree_to_switch_to_left = yes
+			check_variable = { num_owned_states = 1 }
+		}
+
+		fire_only_once = yes
+
+		cost = 50
+
+		complete_effect = {
+			set_politics = { ruling_party = left elections_allowed = no }
+			clr_country_flag = preparation_for_left_civil_war
+			clr_country_flag = military_support_for_left_civil_war
+			clr_country_flag = civil_support_for_left_civil_war
+		}
+
+		ai_will_do = {
+			factor = 0
+		}
+	}
+
+	ignite_the_left_civil_war = {
+
+		icon = generic_ignite_civil_war
+
+		available = {
+			has_stability < 0.5
+		}
+
+		visible = {
+			has_country_flag = preparation_for_left_civil_war
+			OR = {
+				has_idea_with_trait = left_reformer
+				has_idea_with_trait = ambitious_union_boss
+			}
+			NOT = { has_government = left }
+			check_has_focus_tree_to_switch_to_left = yes
+			check_variable = { num_owned_states > 1 }
+		}
+
+		fire_only_once = yes
+
+		cost = 50
+
+		complete_effect = {
+			if = {
+				limit = {
+					has_government = far_left
+				}
+				set_variable = {
+					var = civil_war_size_var
+					value = party_popularity@far_left
+				}
+			}
+			else_if = {
+				limit = {
+					has_government = center_left
+				}
+				set_variable = {
+					var = civil_war_size_var
+					value = party_popularity@center_left
+				}
+			}
+			else_if = {
+				limit = {
+					has_government = center
+				}
+				set_variable = {
+					var = civil_war_size_var
+					value = party_popularity@center
+				}
+			}
+			else_if = {
+				limit = {
+					has_government = center_right
+				}
+				set_variable = {
+					var = civil_war_size_var
+					value = party_popularity@center_right
+				}
+			}
+			else_if = {
+				limit = {
+					has_government = right
+				}
+				set_variable = {
+					var = civil_war_size_var
+					value = party_popularity@right
+				}
+			}
+			else_if = {
+				limit = {
+					has_government = far_right
+				}
+				set_variable = {
+					var = civil_war_size_var
+					value = party_popularity@far_right
+				}
+			}
+			subtract_from_variable = {
+				var = civil_war_size_var
+				value = army_support_var
+			}
+			if = {
+				limit = {
+					check_variable = {
+						var = civil_war_size_var
+						value = 0.3
+						compare = less_than
+					}
+				}
+				set_variable = {
+					var = civil_war_size_var
+					value = 0.3
+				}
+			}
+			start_civil_war = {
+				ruling_party = left
+				ideology = ROOT
+				size = civil_war_size_var
+				keep_unit_leaders_trigger = {
+					has_trait = hidden_sympathies
+				}
+			}
+			clr_country_flag = preparation_for_left_civil_war
+			clr_country_flag = military_support_for_left_civil_war
+			clr_country_flag = civil_support_for_left_civil_war
+			set_country_flag = ideology_civil_war
+		}
+
+		ai_will_do = {
+			factor = 0
+		}
+	}
+
+	rebuild_the_nation_left = {
+
+		icon = generic_construction
+
+		visible = {
+			has_government = left
+			has_country_flag = won_ideology_civil_war
+		}
+
+		fire_only_once = yes
+
+		cost = 25
+
+		days_remove = 365
+
+		modifier = {
+			political_power_gain = -1
+			industry_repair_factor = 0.20
+			production_speed_industrial_complex_factor = 0.1
+			production_speed_infrastructure_factor = 0.1
+			industrial_capacity_factory = 0.1
+			industrial_capacity_dockyard = 0.1
+		}
+
+		ai_will_do = {
+			factor = 200
+		}
+	}
+
+	open_up_political_discourse_left = {
+
+		icon = generic_political_discourse
+
+		available = {
+			far_left < 0.9
+			center_left < 0.9
+			center < 0.9
+			center_right < 0.9
+			right < 0.9
+			far_right < 0.9
+		}
+
+		visible = {
+			OR = {
+				has_idea_with_trait = left_reformer
+				has_idea_with_trait = ambitious_union_boss
+			}
+			NOT = { has_country_flag = open_up_political_discourse_left }
+			NOT = { has_government = left }
+			check_has_focus_tree_to_switch_to_left = yes
+		}
+
+		remove_trigger = {
+			has_government = left
+		}
+
+		fire_only_once = yes
+
+		cost = 75
+
+		complete_effect = {
+			set_country_flag = open_up_political_discourse_left
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	discredit_government_left = {
+
+		icon = generic_political_discourse
+
+		available = {
+			far_left < 0.8
+			center_left < 0.8
+			center < 0.8
+			center_right < 0.8
+			right < 0.8
+			far_right < 0.8
+			OR = {
+				has_idea_with_trait = left_reformer
+				has_idea_with_trait = ambitious_union_boss
+			}
+		}
+
+		visible = {
+			has_country_flag = open_up_political_discourse_left
+			NOT = { has_government = left }
+			check_has_focus_tree_to_switch_to_left = yes
+		}
+
+		remove_trigger = {
+			has_government = left
+		}
+
+		fire_only_once = yes
+
+		cost = 50
+
+		complete_effect = {
+			add_stability = -0.010
+			if = {
+				limit = {
+					has_government = far_left
+				}
+				add_popularity = {
+					ideology = far_left
+					popularity = -0.1
+				}
+			}
+			else_if = {
+				limit = {
+					has_government = center_left
+				}
+				add_popularity = {
+					ideology = center_left
+					popularity = -0.1
+				}
+			}
+			else_if = {
+				limit = {
+					has_government = center
+				}
+				add_popularity = {
+					ideology = center
+					popularity = -0.1
+				}
+			}
+			else_if = {
+				limit = {
+					has_government = center_right
+				}
+				add_popularity = {
+					ideology = center_right
+					popularity = -0.1
+				}
+			}
+			else_if = {
+				limit = {
+					has_government = right
+				}
+				add_popularity = {
+					ideology = right
+					popularity = -0.1
+				}
+			}
+			else_if = {
+				limit = {
+					has_government = far_right
+				}
+				add_popularity = {
+					ideology = far_right
+					popularity = -0.1
+				}
+			}
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	hold_the_left_national_referendum = {
+
+		icon = generic_political_discourse
+
+		available = {
+			left > 0.5
+		}
+
+		visible = {
+			NOT = { has_government = left }
+			OR = {
+				left > 0.6
+				has_country_flag = open_up_political_discourse_left
+			}
+			check_has_focus_tree_to_switch_to_left = yes
+		}
+
+		remove_trigger = {
+			has_government = left
+		}
+
+		fire_only_once = yes
+
+		cost = 100
+
+		complete_effect = {
+			country_event = { id = political.19 }
+		}
+
+		ai_will_do = {
+			factor = 210
 			modifier = {
-				factor = 0
-				original_tag = DEN
-				has_dlc = "Arms Against Tyranny"
-				is_subject = yes
+				left > 0.6
+				factor = 10
+			}
+		}
+	}
+}
+
+center_left_on_the_rise = {
+	prepare_for_center_left_civil_war = {
+
+		icon = generic_prepare_civil_war
+
+		available = {
+			center_left > 0.1
+			num_of_controlled_states > 1
+		}
+
+		visible = {
+			NOT = { has_country_flag = preparation_for_center_left_civil_war }
+			OR = {
+				has_idea_with_trait = center_left_reformer
+				has_idea_with_trait = social_reformer
+			}
+			NOT = { has_government = center_left }
+			check_has_focus_tree_to_switch_to_center_left = yes
+		}
+
+		fire_only_once = yes
+
+		cost = 50
+
+		complete_effect = {
+			set_country_flag = preparation_for_center_left_civil_war
+		}
+
+		ai_will_do = {
+			factor = 0
+		}
+	}
+
+	expand_civil_center_left_support = {
+
+		icon = generic_civil_support
+
+		visible = {
+			OR = {
+				has_country_flag = preparation_for_center_left_civil_war
+				has_country_flag = open_up_political_discourse_center_left
+			}
+			OR = {
+				has_idea_with_trait = center_left_reformer
+				has_idea_with_trait = social_reformer
+			}
+			NOT = { has_government = center_left }
+			check_has_focus_tree_to_switch_to_center_left = yes
+		}
+
+		cancel_trigger = {
+			hidden_trigger = {
+				has_civil_war = yes
+			}
+		}
+
+		fire_only_once = no
+
+		cost = 25
+
+		days_remove = 30
+
+		modifier = {
+			center_left_drift = 0.05
+			stability_weekly = -0.003
+			political_power_gain = -0.2
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	army_support_for_center_left_civil_war = {
+
+		icon = generic_army_support
+
+		visible = {
+			has_country_flag = preparation_for_center_left_civil_war
+			OR = {
+				has_idea_with_trait = center_left_reformer
+				has_idea_with_trait = social_reformer
+			}
+			NOT = { has_government = center_left }
+			check_has_focus_tree_to_switch_to_center_left = yes
+		}
+
+		cancel_trigger = {
+			hidden_trigger = {
+				has_civil_war = yes
+			}
+		}
+
+		fire_only_once = no
+
+		cost = 50
+
+		days_remove = 30
+
+		modifier = {
+			command_power_gain = -0.2
+		}
+
+		remove_effect = {
+			if = {
+				limit = {
+					check_variable = { var = army_support_var value = 0.1 compare = less_than }
+				}
+				set_variable = { var = army_support_var value = 0.1 }
+			}
+			if = {
+				limit = {
+					check_variable = { var = army_support_var value = 0.1 compare = greater_than_or_equals }
+				}
+				add_to_variable = { var = army_support_var value = 0.1 }
+			}
+			set_country_flag = military_support_for_center_left_civil_war
+			custom_effect_tooltip = army_support_TT
+		}
+
+		complete_effect = {
+		}
+
+		ai_will_do = {
+			factor = 0
+		}
+	}
+
+	ensure_general_loyalty_for_center_left_civil_war = {
+
+		icon = generic_army_support
+
+		available = {
+			has_country_flag = military_support_for_center_left_civil_war
+			command_power > 2
+		}
+
+		visible = {
+			has_country_flag = preparation_for_center_left_civil_war
+			OR = {
+				has_idea_with_trait = center_left_reformer
+				has_idea_with_trait = social_reformer
+			}
+			NOT = { has_government = center_left }
+			any_army_leader = {
+				is_field_marshal = no
+				NOT = { has_trait = hidden_sympathies }
+			}
+			check_has_focus_tree_to_switch_to_center_left = yes
+		}
+
+		fire_only_once = yes
+
+		cost = 50
+
+		complete_effect = {
+			country_event = { id = decisions.1 }
+		}
+
+		ai_will_do = {
+			factor = 0
+		}
+	}
+
+	ensure_marshal_loyalty_for_center_left_civil_war = {
+
+		icon = generic_army_support
+
+		available = {
+			has_country_flag = military_support_for_center_left_civil_war
+			command_power > 2
+		}
+
+		visible = {
+			has_country_flag = preparation_for_center_left_civil_war
+			OR = {
+				has_idea_with_trait = center_left_reformer
+				has_idea_with_trait = social_reformer
+			}
+			NOT = { has_government = center_left }
+			any_army_leader = {
+				NOT = { has_trait = hidden_sympathies }
+			}
+			check_has_focus_tree_to_switch_to_center_left = yes
+			any_army_leader = {
+				is_field_marshal = yes
+				NOT = { has_unit_leader_flag = hidden_sympathies_marshal }
+			}
+		}
+
+		fire_only_once = yes
+
+		cost = 50
+
+		complete_effect = {
+			country_event = { id = decisions.2 }
+		}
+
+		ai_will_do = {
+			factor = 0
+		}
+	}
+
+	siphon_equipment_stockpiles_for_center_left_civil_war = {
+
+		icon = generic_prepare_civil_war
+
+		available = {
+			has_country_flag = military_support_for_center_left_civil_war
+			has_equipment = { infantry_equipment > 1000 }
+			command_power > 2
+		}
+
+		visible = {
+			has_country_flag = preparation_for_center_left_civil_war
+			has_country_flag = military_support_for_center_left_civil_war
+			OR = {
+				has_idea_with_trait = center_left_reformer
+				has_idea_with_trait = social_reformer
+			}
+			NOT = { has_government = center_left }
+			check_has_focus_tree_to_switch_to_center_left = yes
+		}
+
+		fire_only_once = no
+
+		cost = 50
+
+		complete_effect = {
+			add_command_power = -2
+			add_equipment_to_stockpile = {
+				type = infantry_equipment
+				amount = -1000
+			}
+			set_country_flag = siphoned_equipment_stockpiles_for_civil_war
+		}
+
+		ai_will_do = {
+			factor = 0
+		}
+	}
+
+	formulate_surprise_attack_plan_for_center_left_civil_war = {
+
+		icon = generic_army_support
+
+		available = {
+			has_country_flag = military_support_for_center_left_civil_war
+			command_power > 2
+		}
+
+		visible = {
+			has_country_flag = preparation_for_center_left_civil_war
+			OR = {
+				has_idea_with_trait = center_left_reformer
+				has_idea_with_trait = social_reformer
+			}
+			NOT = { has_government = center_left }
+			check_has_focus_tree_to_switch_to_center_left = yes
+		}
+
+		fire_only_once = yes
+
+		cost = 50
+
+		complete_effect = {
+			add_command_power = -2
+			custom_effect_tooltip = formulate_surprise_attack_plan_for_civil_war_tt
+			set_country_flag = formulated_surprise_attack_plan_for_civil_war
+		}
+
+		ai_will_do = {
+			factor = 0
+		}
+	}
+
+	ignite_the_center_left_civil_war_single_state = {
+		icon = generic_ignite_civil_war
+		name = ignite_the_center_left_civil_war
+
+		available = {
+			has_stability < 0.5
+			center_left > 0.50
+		}
+
+		visible = {
+			has_country_flag = preparation_for_center_left_civil_war
+			OR = {
+				has_idea_with_trait = center_left_reformer
+				has_idea_with_trait = social_reformer
+			}
+			NOT = { has_government = center_left }
+			check_has_focus_tree_to_switch_to_center_left = yes
+			check_variable = { num_owned_states = 1 }
+		}
+
+		fire_only_once = yes
+
+		cost = 50
+
+		complete_effect = {
+			set_politics = { ruling_party = center_left elections_allowed = yes }
+			clr_country_flag = preparation_for_center_left_civil_war
+			clr_country_flag = military_support_for_center_left_civil_war
+			clr_country_flag = civil_support_for_center_left_civil_war
+		}
+
+		ai_will_do = {
+			factor = 0
+		}
+	}
+
+	ignite_the_center_left_civil_war = {
+
+		icon = generic_ignite_civil_war
+
+		available = {
+			has_stability < 0.5
+		}
+
+		visible = {
+			has_country_flag = preparation_for_center_left_civil_war
+			OR = {
+				has_idea_with_trait = center_left_reformer
+				has_idea_with_trait = social_reformer
+			}
+			NOT = { has_government = center_left }
+			check_has_focus_tree_to_switch_to_center_left = yes
+			check_variable = { num_owned_states > 1 }
+		}
+
+		fire_only_once = yes
+
+		cost = 50
+
+		complete_effect = {
+			if = {
+				limit = {
+					has_government = far_left
+				}
+				set_variable = {
+					var = civil_war_size_var
+					value = party_popularity@far_left
+				}
+			}
+			else_if = {
+				limit = {
+					has_government = left
+				}
+				set_variable = {
+					var = civil_war_size_var
+					value = party_popularity@left
+				}
+			}
+			else_if = {
+				limit = {
+					has_government = center
+				}
+				set_variable = {
+					var = civil_war_size_var
+					value = party_popularity@center
+				}
+			}
+			else_if = {
+				limit = {
+					has_government = center_right
+				}
+				set_variable = {
+					var = civil_war_size_var
+					value = party_popularity@center_right
+				}
+			}
+			else_if = {
+				limit = {
+					has_government = right
+				}
+				set_variable = {
+					var = civil_war_size_var
+					value = party_popularity@right
+				}
+			}
+			else_if = {
+				limit = {
+					has_government = far_right
+				}
+				set_variable = {
+					var = civil_war_size_var
+					value = party_popularity@far_right
+				}
+			}
+			subtract_from_variable = {
+				var = civil_war_size_var
+				value = army_support_var
+			}
+			if = {
+				limit = {
+					check_variable = {
+						var = civil_war_size_var
+						value = 0.3
+						compare = less_than
+					}
+				}
+				set_variable = {
+					var = civil_war_size_var
+					value = 0.3
+				}
+			}
+			start_civil_war = {
+				ruling_party = center_left
+				ideology = ROOT
+				size = civil_war_size_var
+				keep_unit_leaders_trigger = {
+					has_trait = hidden_sympathies
+				}
+			}
+			clr_country_flag = preparation_for_center_left_civil_war
+			clr_country_flag = military_support_for_center_left_civil_war
+			clr_country_flag = civil_support_for_center_left_civil_war
+			set_country_flag = ideology_civil_war
+		}
+
+		ai_will_do = {
+			factor = 0
+		}
+	}
+
+	rebuild_the_nation_center_left = {
+
+		icon = generic_construction
+
+		visible = {
+			has_government = center_left
+			has_country_flag = won_ideology_civil_war
+		}
+
+		fire_only_once = yes
+
+		cost = 25
+
+		days_remove = 365
+
+		modifier = {
+			political_power_gain = -1
+			industry_repair_factor = 0.20
+			production_speed_industrial_complex_factor = 0.1
+			production_speed_infrastructure_factor = 0.1
+			industrial_capacity_factory = 0.1
+			industrial_capacity_dockyard = 0.1
+		}
+
+		ai_will_do = {
+			factor = 200
+		}
+	}
+
+	open_up_political_discourse_center_left = {
+
+		icon = generic_political_discourse
+
+		available = {
+			far_left < 0.9
+			left < 0.9
+			center < 0.9
+			center_right < 0.9
+			right < 0.9
+			far_right < 0.9
+		}
+
+		visible = {
+			OR = {
+				has_idea_with_trait = center_left_reformer
+				has_idea_with_trait = social_reformer
+			}
+			NOT = { has_country_flag = open_up_political_discourse_center_left }
+			NOT = { has_government = center_left }
+			check_has_focus_tree_to_switch_to_center_left = yes
+		}
+
+		remove_trigger = {
+			has_government = center_left
+		}
+
+		fire_only_once = yes
+
+		cost = 75
+
+		complete_effect = {
+			set_country_flag = open_up_political_discourse_center_left
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	discredit_government_center_left = {
+
+		icon = generic_political_discourse
+
+		available = {
+			far_left < 0.8
+			left < 0.8
+			center < 0.8
+			center_right < 0.8
+			right < 0.8
+			far_right < 0.8
+			OR = {
+				has_idea_with_trait = center_left_reformer
+				has_idea_with_trait = social_reformer
+			}
+		}
+
+		visible = {
+			has_country_flag = open_up_political_discourse_center_left
+			NOT = { has_government = center_left }
+			check_has_focus_tree_to_switch_to_center_left = yes
+		}
+
+		remove_trigger = {
+			has_government = center_left
+		}
+
+		fire_only_once = yes
+
+		cost = 50
+
+		complete_effect = {
+			add_stability = -0.010
+			if = {
+				limit = {
+					has_government = far_left
+				}
+				add_popularity = {
+					ideology = far_left
+					popularity = -0.1
+				}
+			}
+			else_if = {
+				limit = {
+					has_government = left
+				}
+				add_popularity = {
+					ideology = left
+					popularity = -0.1
+				}
+			}
+			else_if = {
+				limit = {
+					has_government = center
+				}
+				add_popularity = {
+					ideology = center
+					popularity = -0.1
+				}
+			}
+			else_if = {
+				limit = {
+					has_government = center_right
+				}
+				add_popularity = {
+					ideology = center_right
+					popularity = -0.1
+				}
+			}
+			else_if = {
+				limit = {
+					has_government = right
+				}
+				add_popularity = {
+					ideology = right
+					popularity = -0.1
+				}
+			}
+			else_if = {
+				limit = {
+					has_government = far_right
+				}
+				add_popularity = {
+					ideology = far_right
+					popularity = -0.1
+				}
+			}
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	hold_the_center_left_national_referendum = {
+
+		icon = generic_political_discourse
+
+		available = {
+			center_left > 0.5
+		}
+
+		visible = {
+			NOT = { has_government = center_left }
+			OR = {
+				center_left > 0.6
+				has_country_flag = open_up_political_discourse_center_left
+			}
+			check_has_focus_tree_to_switch_to_center_left = yes
+		}
+
+		remove_trigger = {
+			has_government = center_left
+		}
+
+		fire_only_once = yes
+
+		cost = 100
+
+		complete_effect = {
+			country_event = { id = political.20 }
+		}
+
+		ai_will_do = {
+			factor = 210
+			modifier = {
+				center_left > 0.6
+				factor = 10
+			}
+		}
+	}
+}
+
+center_on_the_rise = {
+	prepare_for_center_civil_war = {
+
+		icon = generic_prepare_civil_war
+
+		available = {
+			center > 0.1
+			num_of_controlled_states > 1
+		}
+
+		visible = {
+			NOT = { has_country_flag = preparation_for_center_civil_war }
+			OR = {
+				has_idea_with_trait = center_reformer
+				has_idea_with_trait = social_reformer
+			}
+			NOT = { has_government = center }
+			check_has_focus_tree_to_switch_to_center = yes
+		}
+
+		fire_only_once = yes
+
+		cost = 50
+
+		complete_effect = {
+			set_country_flag = preparation_for_center_civil_war
+		}
+
+		ai_will_do = {
+			factor = 0
+		}
+	}
+
+	expand_civil_center_support = {
+
+		icon = generic_civil_support
+
+		visible = {
+			OR = {
+				has_country_flag = preparation_for_center_civil_war
+				has_country_flag = open_up_political_discourse_center
+			}
+			OR = {
+				has_idea_with_trait = center_reformer
+				has_idea_with_trait = social_reformer
+			}
+			NOT = { has_government = center }
+			check_has_focus_tree_to_switch_to_center = yes
+		}
+
+		cancel_trigger = {
+			hidden_trigger = {
+				has_civil_war = yes
+			}
+		}
+
+		fire_only_once = no
+
+		cost = 25
+
+		days_remove = 30
+
+		modifier = {
+			center_drift = 0.05
+			stability_weekly = -0.003
+			political_power_gain = -0.2
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	army_support_for_center_civil_war = {
+
+		icon = generic_army_support
+
+		visible = {
+			has_country_flag = preparation_for_center_civil_war
+			OR = {
+				has_idea_with_trait = center_reformer
+				has_idea_with_trait = social_reformer
+			}
+			NOT = { has_government = center }
+			check_has_focus_tree_to_switch_to_center = yes
+		}
+
+		cancel_trigger = {
+			hidden_trigger = {
+				has_civil_war = yes
+			}
+		}
+
+		fire_only_once = no
+
+		cost = 50
+
+		days_remove = 30
+
+		modifier = {
+			command_power_gain = -0.2
+		}
+
+		remove_effect = {
+			if = {
+				limit = {
+					check_variable = { var = army_support_var value = 0.1 compare = less_than }
+				}
+				set_variable = { var = army_support_var value = 0.1 }
+			}
+			if = {
+				limit = {
+					check_variable = { var = army_support_var value = 0.1 compare = greater_than_or_equals }
+				}
+				add_to_variable = { var = army_support_var value = 0.1 }
+			}
+			set_country_flag = military_support_for_center_civil_war
+			custom_effect_tooltip = army_support_TT
+		}
+
+		complete_effect = {
+		}
+
+		ai_will_do = {
+			factor = 0
+		}
+	}
+
+	ensure_general_loyalty_for_center_civil_war = {
+
+		icon = generic_army_support
+
+		available = {
+			has_country_flag = military_support_for_center_civil_war
+			command_power > 2
+		}
+
+		visible = {
+			has_country_flag = preparation_for_center_civil_war
+			OR = {
+				has_idea_with_trait = center_reformer
+				has_idea_with_trait = social_reformer
+			}
+			NOT = { has_government = center }
+			any_army_leader = {
+				is_field_marshal = no
+				NOT = { has_trait = hidden_sympathies }
+			}
+			check_has_focus_tree_to_switch_to_center = yes
+		}
+
+		fire_only_once = yes
+
+		cost = 50
+
+		complete_effect = {
+			country_event = { id = decisions.1 }
+		}
+
+		ai_will_do = {
+			factor = 0
+		}
+	}
+
+	ensure_marshal_loyalty_for_center_civil_war = {
+
+		icon = generic_army_support
+
+		available = {
+			has_country_flag = military_support_for_center_civil_war
+			command_power > 2
+		}
+
+		visible = {
+			has_country_flag = preparation_for_center_civil_war
+			OR = {
+				has_idea_with_trait = center_reformer
+				has_idea_with_trait = social_reformer
+			}
+			NOT = { has_government = center }
+			any_army_leader = {
+				NOT = { has_trait = hidden_sympathies }
+			}
+			check_has_focus_tree_to_switch_to_center = yes
+			any_army_leader = {
+				is_field_marshal = yes
+				NOT = { has_unit_leader_flag = hidden_sympathies_marshal }
+			}
+		}
+
+		fire_only_once = yes
+
+		cost = 50
+
+		complete_effect = {
+			country_event = { id = decisions.2 }
+		}
+
+		ai_will_do = {
+			factor = 0
+		}
+	}
+
+	siphon_equipment_stockpiles_for_center_civil_war = {
+
+		icon = generic_prepare_civil_war
+
+		available = {
+			has_country_flag = military_support_for_center_civil_war
+			has_equipment = { infantry_equipment > 1000 }
+			command_power > 2
+		}
+
+		visible = {
+			has_country_flag = preparation_for_center_civil_war
+			has_country_flag = military_support_for_center_civil_war
+			OR = {
+				has_idea_with_trait = center_reformer
+				has_idea_with_trait = social_reformer
+			}
+			NOT = { has_government = center }
+			check_has_focus_tree_to_switch_to_center = yes
+		}
+
+		fire_only_once = no
+
+		cost = 50
+
+		complete_effect = {
+			add_command_power = -2
+			add_equipment_to_stockpile = {
+				type = infantry_equipment
+				amount = -1000
+			}
+			set_country_flag = siphoned_equipment_stockpiles_for_civil_war
+		}
+
+		ai_will_do = {
+			factor = 0
+		}
+	}
+
+	formulate_surprise_attack_plan_for_center_civil_war = {
+
+		icon = generic_army_support
+
+		available = {
+			has_country_flag = military_support_for_center_civil_war
+			command_power > 2
+		}
+
+		visible = {
+			has_country_flag = preparation_for_center_civil_war
+			OR = {
+				has_idea_with_trait = center_reformer
+				has_idea_with_trait = social_reformer
+			}
+			NOT = { has_government = center }
+			check_has_focus_tree_to_switch_to_center = yes
+		}
+
+		fire_only_once = yes
+
+		cost = 50
+
+		complete_effect = {
+			add_command_power = -2
+			custom_effect_tooltip = formulate_surprise_attack_plan_for_civil_war_tt
+			set_country_flag = formulated_surprise_attack_plan_for_civil_war
+		}
+
+		ai_will_do = {
+			factor = 0
+		}
+	}
+
+	ignite_the_center_civil_war_single_state = {
+		icon = generic_ignite_civil_war
+		name = ignite_the_center_civil_war
+
+		available = {
+			has_stability < 0.5
+			center > 0.50
+		}
+
+		visible = {
+			has_country_flag = preparation_for_center_civil_war
+			OR = {
+				has_idea_with_trait = center_reformer
+				has_idea_with_trait = social_reformer
+			}
+			NOT = { has_government = center }
+			check_has_focus_tree_to_switch_to_center = yes
+			check_variable = { num_owned_states = 1 }
+		}
+
+		fire_only_once = yes
+
+		cost = 50
+
+		complete_effect = {
+			set_politics = { ruling_party = center elections_allowed = yes }
+			clr_country_flag = preparation_for_center_civil_war
+			clr_country_flag = military_support_for_center_civil_war
+			clr_country_flag = civil_support_for_center_civil_war
+		}
+
+		ai_will_do = {
+			factor = 0
+		}
+	}
+
+	ignite_the_center_civil_war = {
+
+		icon = generic_ignite_civil_war
+
+		available = {
+			has_stability < 0.5
+		}
+
+		visible = {
+			has_country_flag = preparation_for_center_civil_war
+			OR = {
+				has_idea_with_trait = center_reformer
+				has_idea_with_trait = social_reformer
+			}
+			NOT = { has_government = center }
+			check_has_focus_tree_to_switch_to_center = yes
+			check_variable = { num_owned_states > 1 }
+		}
+
+		fire_only_once = yes
+
+		cost = 50
+
+		complete_effect = {
+			if = {
+				limit = {
+					has_government = far_left
+				}
+				set_variable = {
+					var = civil_war_size_var
+					value = party_popularity@far_left
+				}
+			}
+			else_if = {
+				limit = {
+					has_government = left
+				}
+				set_variable = {
+					var = civil_war_size_var
+					value = party_popularity@left
+				}
+			}
+			else_if = {
+				limit = {
+					has_government = center_left
+				}
+				set_variable = {
+					var = civil_war_size_var
+					value = party_popularity@center_left
+				}
+			}
+			else_if = {
+				limit = {
+					has_government = center_right
+				}
+				set_variable = {
+					var = civil_war_size_var
+					value = party_popularity@center_right
+				}
+			}
+			else_if = {
+				limit = {
+					has_government = right
+				}
+				set_variable = {
+					var = civil_war_size_var
+					value = party_popularity@right
+				}
+			}
+			else_if = {
+				limit = {
+					has_government = far_right
+				}
+				set_variable = {
+					var = civil_war_size_var
+					value = party_popularity@far_right
+				}
+			}
+			subtract_from_variable = {
+				var = civil_war_size_var
+				value = army_support_var
+			}
+			if = {
+				limit = {
+					check_variable = {
+						var = civil_war_size_var
+						value = 0.3
+						compare = less_than
+					}
+				}
+				set_variable = {
+					var = civil_war_size_var
+					value = 0.3
+				}
+			}
+			start_civil_war = {
+				ruling_party = center
+				ideology = ROOT
+				size = civil_war_size_var
+				keep_unit_leaders_trigger = {
+					has_trait = hidden_sympathies
+				}
+			}
+			clr_country_flag = preparation_for_center_civil_war
+			clr_country_flag = military_support_for_center_civil_war
+			clr_country_flag = civil_support_for_center_civil_war
+			set_country_flag = ideology_civil_war
+		}
+
+		ai_will_do = {
+			factor = 0
+		}
+	}
+
+	rebuild_the_nation_center = {
+
+		icon = generic_construction
+
+		visible = {
+			has_government = center
+			has_country_flag = won_ideology_civil_war
+		}
+
+		fire_only_once = yes
+
+		cost = 25
+
+		days_remove = 365
+
+		modifier = {
+			political_power_gain = -1
+			industry_repair_factor = 0.20
+			production_speed_industrial_complex_factor = 0.1
+			production_speed_infrastructure_factor = 0.1
+			industrial_capacity_factory = 0.1
+			industrial_capacity_dockyard = 0.1
+		}
+
+		ai_will_do = {
+			factor = 200
+		}
+	}
+
+	open_up_political_discourse_center = {
+
+		icon = generic_political_discourse
+
+		available = {
+			far_left < 0.9
+			left < 0.9
+			center_left < 0.9
+			center_right < 0.9
+			right < 0.9
+			far_right < 0.9
+		}
+
+		visible = {
+			OR = {
+				has_idea_with_trait = center_reformer
+				has_idea_with_trait = social_reformer
+			}
+			NOT = { has_country_flag = open_up_political_discourse_center }
+			NOT = { has_government = center }
+			check_has_focus_tree_to_switch_to_center = yes
+		}
+
+		remove_trigger = {
+			has_government = center
+		}
+
+		fire_only_once = yes
+
+		cost = 75
+
+		complete_effect = {
+			set_country_flag = open_up_political_discourse_center
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	discredit_government_center = {
+
+		icon = generic_political_discourse
+
+		available = {
+			far_left < 0.8
+			left < 0.8
+			center_left < 0.8
+			center_right < 0.8
+			right < 0.8
+			far_right < 0.8
+			OR = {
+				has_idea_with_trait = center_reformer
+				has_idea_with_trait = social_reformer
+			}
+		}
+
+		visible = {
+			has_country_flag = open_up_political_discourse_center
+			NOT = { has_government = center }
+			check_has_focus_tree_to_switch_to_center = yes
+		}
+
+		remove_trigger = {
+			has_government = center
+		}
+
+		fire_only_once = yes
+
+		cost = 50
+
+		complete_effect = {
+			add_stability = -0.010
+			if = {
+				limit = {
+					has_government = far_left
+				}
+				add_popularity = {
+					ideology = far_left
+					popularity = -0.1
+				}
+			}
+			else_if = {
+				limit = {
+					has_government = left
+				}
+				add_popularity = {
+					ideology = left
+					popularity = -0.1
+				}
+			}
+			else_if = {
+				limit = {
+					has_government = center_left
+				}
+				add_popularity = {
+					ideology = center_left
+					popularity = -0.1
+				}
+			}
+			else_if = {
+				limit = {
+					has_government = center_right
+				}
+				add_popularity = {
+					ideology = center_right
+					popularity = -0.1
+				}
+			}
+			else_if = {
+				limit = {
+					has_government = right
+				}
+				add_popularity = {
+					ideology = right
+					popularity = -0.1
+				}
+			}
+			else_if = {
+				limit = {
+					has_government = far_right
+				}
+				add_popularity = {
+					ideology = far_right
+					popularity = -0.1
+				}
+			}
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	hold_the_center_national_referendum = {
+
+		icon = generic_political_discourse
+
+		available = {
+			center > 0.5
+		}
+
+		visible = {
+			NOT = { has_government = center }
+			OR = {
+				center > 0.6
+				has_country_flag = open_up_political_discourse_center
+			}
+			check_has_focus_tree_to_switch_to_center = yes
+		}
+
+		remove_trigger = {
+			has_government = center
+		}
+
+		fire_only_once = yes
+
+		cost = 100
+
+		complete_effect = {
+			country_event = { id = political.20 }
+		}
+
+		ai_will_do = {
+			factor = 210
+			modifier = {
+				center > 0.6
+				factor = 10
+			}
+		}
+	}
+}
+
+center_right_on_the_rise = {
+	prepare_for_center_right_civil_war = {
+
+		icon = generic_prepare_civil_war
+
+		available = {
+			center_right > 0.1
+			num_of_controlled_states > 1
+		}
+
+		visible = {
+			NOT = { has_country_flag = preparation_for_center_right_civil_war }
+			OR = {
+				has_idea_with_trait = center_right_reformer
+				has_idea_with_trait = social_reformer
+			}
+			NOT = { has_government = center_right }
+			check_has_focus_tree_to_switch_to_center_right = yes
+		}
+
+		fire_only_once = yes
+
+		cost = 50
+
+		complete_effect = {
+			set_country_flag = preparation_for_center_right_civil_war
+		}
+
+		ai_will_do = {
+			factor = 0
+		}
+	}
+
+	expand_civil_center_right_support = {
+
+		icon = generic_civil_support
+
+		visible = {
+			OR = {
+				has_country_flag = preparation_for_center_right_civil_war
+				has_country_flag = open_up_political_discourse_center_right
+			}
+			OR = {
+				has_idea_with_trait = center_right_reformer
+				has_idea_with_trait = social_reformer
+			}
+			NOT = { has_government = center_right }
+			check_has_focus_tree_to_switch_to_center_right = yes
+		}
+
+		cancel_trigger = {
+			hidden_trigger = {
+				has_civil_war = yes
+			}
+		}
+
+		fire_only_once = no
+
+		cost = 25
+
+		days_remove = 30
+
+		modifier = {
+			center_right_drift = 0.05
+			stability_weekly = -0.003
+			political_power_gain = -0.2
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	army_support_for_center_right_civil_war = {
+
+		icon = generic_army_support
+
+		visible = {
+			has_country_flag = preparation_for_center_right_civil_war
+			OR = {
+				has_idea_with_trait = center_right_reformer
+				has_idea_with_trait = social_reformer
+			}
+			NOT = { has_government = center_right }
+			check_has_focus_tree_to_switch_to_center_right = yes
+		}
+
+		cancel_trigger = {
+			hidden_trigger = {
+				has_civil_war = yes
+			}
+		}
+
+		fire_only_once = no
+
+		cost = 50
+
+		days_remove = 30
+
+		modifier = {
+			command_power_gain = -0.2
+		}
+
+		remove_effect = {
+			if = {
+				limit = {
+					check_variable = { var = army_support_var value = 0.1 compare = less_than }
+				}
+				set_variable = { var = army_support_var value = 0.1 }
+			}
+			if = {
+				limit = {
+					check_variable = { var = army_support_var value = 0.1 compare = greater_than_or_equals }
+				}
+				add_to_variable = { var = army_support_var value = 0.1 }
+			}
+			set_country_flag = military_support_for_center_right_civil_war
+			custom_effect_tooltip = army_support_TT
+		}
+
+		complete_effect = {
+		}
+
+		ai_will_do = {
+			factor = 0
+		}
+	}
+
+	ensure_general_loyalty_for_center_right_civil_war = {
+
+		icon = generic_army_support
+
+		available = {
+			has_country_flag = military_support_for_center_right_civil_war
+			command_power > 2
+		}
+
+		visible = {
+			has_country_flag = preparation_for_center_right_civil_war
+			OR = {
+				has_idea_with_trait = center_right_reformer
+				has_idea_with_trait = social_reformer
+			}
+			NOT = { has_government = center_right }
+			any_army_leader = {
+				is_field_marshal = no
+				NOT = { has_trait = hidden_sympathies }
+			}
+			check_has_focus_tree_to_switch_to_center_right = yes
+		}
+
+		fire_only_once = yes
+
+		cost = 50
+
+		complete_effect = {
+			country_event = { id = decisions.1 }
+		}
+
+		ai_will_do = {
+			factor = 0
+		}
+	}
+
+	ensure_marshal_loyalty_for_center_right_civil_war = {
+
+		icon = generic_army_support
+
+		available = {
+			has_country_flag = military_support_for_center_right_civil_war
+			command_power > 2
+		}
+
+		visible = {
+			has_country_flag = preparation_for_center_right_civil_war
+			OR = {
+				has_idea_with_trait = center_right_reformer
+				has_idea_with_trait = social_reformer
+			}
+			NOT = { has_government = center_right }
+			any_army_leader = {
+				NOT = { has_trait = hidden_sympathies }
+			}
+			check_has_focus_tree_to_switch_to_center_right = yes
+			any_army_leader = {
+				is_field_marshal = yes
+				NOT = { has_unit_leader_flag = hidden_sympathies_marshal }
+			}
+		}
+
+		fire_only_once = yes
+
+		cost = 50
+
+		complete_effect = {
+			country_event = { id = decisions.2 }
+		}
+
+		ai_will_do = {
+			factor = 0
+		}
+	}
+
+	siphon_equipment_stockpiles_for_center_right_civil_war = {
+
+		icon = generic_prepare_civil_war
+
+		available = {
+			has_country_flag = military_support_for_center_right_civil_war
+			has_equipment = { infantry_equipment > 1000 }
+			command_power > 2
+		}
+
+		visible = {
+			has_country_flag = preparation_for_center_right_civil_war
+			has_country_flag = military_support_for_center_right_civil_war
+			OR = {
+				has_idea_with_trait = center_right_reformer
+				has_idea_with_trait = social_reformer
+			}
+			NOT = { has_government = center_right }
+			check_has_focus_tree_to_switch_to_center_right = yes
+		}
+
+		fire_only_once = no
+
+		cost = 50
+
+		complete_effect = {
+			add_command_power = -2
+			add_equipment_to_stockpile = {
+				type = infantry_equipment
+				amount = -1000
+			}
+			set_country_flag = siphoned_equipment_stockpiles_for_civil_war
+		}
+
+		ai_will_do = {
+			factor = 0
+		}
+	}
+
+	formulate_surprise_attack_plan_for_center_right_civil_war = {
+
+		icon = generic_army_support
+
+		available = {
+			has_country_flag = military_support_for_center_right_civil_war
+			command_power > 2
+		}
+
+		visible = {
+			has_country_flag = preparation_for_center_right_civil_war
+			OR = {
+				has_idea_with_trait = center_right_reformer
+				has_idea_with_trait = social_reformer
+			}
+			NOT = { has_government = center_right }
+			check_has_focus_tree_to_switch_to_center_right = yes
+		}
+
+		fire_only_once = yes
+
+		cost = 50
+
+		complete_effect = {
+			add_command_power = -2
+			custom_effect_tooltip = formulate_surprise_attack_plan_for_civil_war_tt
+			set_country_flag = formulated_surprise_attack_plan_for_civil_war
+		}
+
+		ai_will_do = {
+			factor = 0
+		}
+	}
+
+	ignite_the_center_right_civil_war_single_state = {
+		icon = generic_ignite_civil_war
+		name = ignite_the_center_right_civil_war
+
+		available = {
+			has_stability < 0.5
+			center_right > 0.50
+		}
+
+		visible = {
+			has_country_flag = preparation_for_center_right_civil_war
+			OR = {
+				has_idea_with_trait = center_right_reformer
+				has_idea_with_trait = social_reformer
+			}
+			NOT = { has_government = center_right }
+			check_has_focus_tree_to_switch_to_center_right = yes
+			check_variable = { num_owned_states = 1 }
+		}
+
+		fire_only_once = yes
+
+		cost = 50
+
+		complete_effect = {
+			set_politics = { ruling_party = center_right elections_allowed = yes }
+			clr_country_flag = preparation_for_center_right_civil_war
+			clr_country_flag = military_support_for_center_right_civil_war
+			clr_country_flag = civil_support_for_center_right_civil_war
+		}
+
+		ai_will_do = {
+			factor = 0
+		}
+	}
+
+	ignite_the_center_right_civil_war = {
+
+		icon = generic_ignite_civil_war
+
+		available = {
+			has_stability < 0.5
+		}
+
+		visible = {
+			has_country_flag = preparation_for_center_right_civil_war
+			OR = {
+				has_idea_with_trait = center_right_reformer
+				has_idea_with_trait = social_reformer
+			}
+			NOT = { has_government = center_right }
+			check_has_focus_tree_to_switch_to_center_right = yes
+			check_variable = { num_owned_states > 1 }
+		}
+
+		fire_only_once = yes
+
+		cost = 50
+
+		complete_effect = {
+			if = {
+				limit = {
+					has_government = far_left
+				}
+				set_variable = {
+					var = civil_war_size_var
+					value = party_popularity@far_left
+				}
+			}
+			else_if = {
+				limit = {
+					has_government = left
+				}
+				set_variable = {
+					var = civil_war_size_var
+					value = party_popularity@left
+				}
+			}
+			else_if = {
+				limit = {
+					has_government = center_left
+				}
+				set_variable = {
+					var = civil_war_size_var
+					value = party_popularity@center_left
+				}
+			}
+			else_if = {
+				limit = {
+					has_government = center
+				}
+				set_variable = {
+					var = civil_war_size_var
+					value = party_popularity@center
+				}
+			}
+			else_if = {
+				limit = {
+					has_government = right
+				}
+				set_variable = {
+					var = civil_war_size_var
+					value = party_popularity@right
+				}
+			}
+			else_if = {
+				limit = {
+					has_government = far_right
+				}
+				set_variable = {
+					var = civil_war_size_var
+					value = party_popularity@far_right
+				}
+			}
+			subtract_from_variable = {
+				var = civil_war_size_var
+				value = army_support_var
+			}
+			if = {
+				limit = {
+					check_variable = {
+						var = civil_war_size_var
+						value = 0.3
+						compare = less_than
+					}
+				}
+				set_variable = {
+					var = civil_war_size_var
+					value = 0.3
+				}
+			}
+			start_civil_war = {
+				ruling_party = center_right
+				ideology = ROOT
+				size = civil_war_size_var
+				keep_unit_leaders_trigger = {
+					has_trait = hidden_sympathies
+				}
+			}
+			clr_country_flag = preparation_for_center_right_civil_war
+			clr_country_flag = military_support_for_center_right_civil_war
+			clr_country_flag = civil_support_for_center_right_civil_war
+			set_country_flag = ideology_civil_war
+		}
+
+		ai_will_do = {
+			factor = 0
+		}
+	}
+
+	rebuild_the_nation_center_right = {
+
+		icon = generic_construction
+
+		visible = {
+			has_government = center_right
+			has_country_flag = won_ideology_civil_war
+		}
+
+		fire_only_once = yes
+
+		cost = 25
+
+		days_remove = 365
+
+		modifier = {
+			political_power_gain = -1
+			industry_repair_factor = 0.20
+			production_speed_industrial_complex_factor = 0.1
+			production_speed_infrastructure_factor = 0.1
+			industrial_capacity_factory = 0.1
+			industrial_capacity_dockyard = 0.1
+		}
+
+		ai_will_do = {
+			factor = 200
+		}
+	}
+
+	open_up_political_discourse_center_right = {
+
+		icon = generic_political_discourse
+
+		available = {
+			far_left < 0.9
+			left < 0.9
+			center_left < 0.9
+			center < 0.9
+			right < 0.9
+			far_right < 0.9
+		}
+
+		visible = {
+			OR = {
+				has_idea_with_trait = center_right_reformer
+				has_idea_with_trait = social_reformer
+			}
+			NOT = { has_country_flag = open_up_political_discourse_center_right }
+			NOT = { has_government = center_right }
+			check_has_focus_tree_to_switch_to_center_right = yes
+		}
+
+		remove_trigger = {
+			has_government = center_right
+		}
+
+		fire_only_once = yes
+
+		cost = 75
+
+		complete_effect = {
+			set_country_flag = open_up_political_discourse_center_right
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	discredit_government_center_right = {
+
+		icon = generic_political_discourse
+
+		available = {
+			far_left < 0.8
+			left < 0.8
+			center_left < 0.8
+			center < 0.8
+			right < 0.8
+			far_right < 0.8
+			OR = {
+				has_idea_with_trait = center_right_reformer
+				has_idea_with_trait = social_reformer
+			}
+		}
+
+		visible = {
+			has_country_flag = open_up_political_discourse_center_right
+			NOT = { has_government = center_right }
+			check_has_focus_tree_to_switch_to_center_right = yes
+		}
+
+		remove_trigger = {
+			has_government = center_right
+		}
+
+		fire_only_once = yes
+
+		cost = 50
+
+		complete_effect = {
+			add_stability = -0.010
+			if = {
+				limit = {
+					has_government = far_left
+				}
+				add_popularity = {
+					ideology = far_left
+					popularity = -0.1
+				}
+			}
+			else_if = {
+				limit = {
+					has_government = left
+				}
+				add_popularity = {
+					ideology = left
+					popularity = -0.1
+				}
+			}
+			else_if = {
+				limit = {
+					has_government = center_left
+				}
+				add_popularity = {
+					ideology = center_left
+					popularity = -0.1
+				}
+			}
+			else_if = {
+				limit = {
+					has_government = center
+				}
+				add_popularity = {
+					ideology = center
+					popularity = -0.1
+				}
+			}
+			else_if = {
+				limit = {
+					has_government = right
+				}
+				add_popularity = {
+					ideology = right
+					popularity = -0.1
+				}
+			}
+			else_if = {
+				limit = {
+					has_government = far_right
+				}
+				add_popularity = {
+					ideology = far_right
+					popularity = -0.1
+				}
+			}
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	hold_the_center_right_national_referendum = {
+
+		icon = generic_political_discourse
+
+		available = {
+			center_right > 0.5
+		}
+
+		visible = {
+			NOT = { has_government = center_right }
+			OR = {
+				center_right > 0.6
+				has_country_flag = open_up_political_discourse_center_right
+			}
+			check_has_focus_tree_to_switch_to_center_right = yes
+		}
+
+		remove_trigger = {
+			has_government = center_right
+		}
+
+		fire_only_once = yes
+
+		cost = 100
+
+		complete_effect = {
+			country_event = { id = political.20 }
+		}
+
+		ai_will_do = {
+			factor = 210
+			modifier = {
+				center_right > 0.6
+				factor = 10
+			}
+		}
+	}
+}
+
+right_on_the_rise = {
+	prepare_for_right_civil_war = {
+
+		icon = generic_prepare_civil_war
+
+		available = {
+			right > 0.1
+			num_of_controlled_states > 1
+		}
+
+		visible = {
+			NOT = { has_country_flag = preparation_for_right_civil_war }
+			OR = {
+				has_idea_with_trait = right_reformer
+				has_idea_with_trait = right_populist
+			}
+			NOT = { has_government = right }
+			check_has_focus_tree_to_switch_to_right = yes
+		}
+
+		fire_only_once = yes
+
+		cost = 50
+
+		complete_effect = {
+			set_country_flag = preparation_for_right_civil_war
+		}
+
+		ai_will_do = {
+			factor = 0
+		}
+	}
+
+	expand_civil_right_support = {
+
+		icon = generic_civil_support
+
+		visible = {
+			OR = {
+				has_country_flag = preparation_for_right_civil_war
+				has_country_flag = open_up_political_discourse_right
+			}
+			OR = {
+				has_idea_with_trait = right_reformer
+				has_idea_with_trait = right_populist
+			}
+			NOT = { has_government = right }
+			check_has_focus_tree_to_switch_to_right = yes
+		}
+
+		cancel_trigger = {
+			hidden_trigger = {
+				has_civil_war = yes
+			}
+		}
+
+		fire_only_once = no
+
+		cost = 25
+
+		days_remove = 30
+
+		modifier = {
+			right_drift = 0.02
+			stability_weekly = -0.03
+			political_power_gain = -0.2
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	army_support_for_right_civil_war = {
+
+		icon = generic_army_support
+
+		visible = {
+			has_country_flag = preparation_for_right_civil_war
+			OR = {
+				has_idea_with_trait = right_reformer
+				has_idea_with_trait = right_populist
+			}
+			NOT = { has_government = right }
+			check_has_focus_tree_to_switch_to_right = yes
+		}
+
+		cancel_trigger = {
+			hidden_trigger = {
+				has_civil_war = yes
+			}
+		}
+
+		fire_only_once = no
+
+		cost = 50
+
+		days_remove = 30
+
+		modifier = {
+			command_power_gain = -0.2
+		}
+
+		remove_effect = {
+			if = {
+				limit = {
+					check_variable = { var = army_support_var value = 0.1 compare = less_than }
+				}
+				set_variable = { var = army_support_var value = 0.1 }
+			}
+			if = {
+				limit = {
+					check_variable = { var = army_support_var value = 0.1 compare = greater_than_or_equals }
+				}
+				add_to_variable = { var = army_support_var value = 0.1 }
+			}
+			set_country_flag = military_support_for_right_civil_war
+			custom_effect_tooltip = army_support_TT
+		}
+
+		complete_effect = {
+		}
+
+		ai_will_do = {
+			factor = 0
+		}
+	}
+
+	ensure_general_loyalty_for_right_civil_war = {
+
+		icon = generic_army_support
+
+		available = {
+			has_country_flag = military_support_for_right_civil_war
+			command_power > 2
+		}
+
+		visible = {
+			has_country_flag = preparation_for_right_civil_war
+			OR = {
+				has_idea_with_trait = right_reformer
+				has_idea_with_trait = right_populist
+			}
+			NOT = { has_government = right }
+			any_army_leader = {
+				is_field_marshal = no
+				NOT = { has_trait = hidden_sympathies }
+			}
+			check_has_focus_tree_to_switch_to_right = yes
+		}
+
+		fire_only_once = yes
+
+		cost = 50
+
+		complete_effect = {
+			country_event = { id = decisions.1 }
+		}
+
+		ai_will_do = {
+			factor = 0
+		}
+	}
+
+	ensure_marshal_loyalty_for_right_civil_war = {
+
+		icon = generic_army_support
+
+		available = {
+			has_country_flag = military_support_for_right_civil_war
+			command_power > 2
+		}
+
+		visible = {
+			has_country_flag = preparation_for_right_civil_war
+			OR = {
+				has_idea_with_trait = right_reformer
+				has_idea_with_trait = right_populist
+			}
+			NOT = { has_government = right }
+			any_army_leader = {
+				NOT = { has_trait = hidden_sympathies }
+			}
+			check_has_focus_tree_to_switch_to_right = yes
+			any_army_leader = {
+				is_field_marshal = yes
+				NOT = { has_unit_leader_flag = hidden_sympathies_marshal }
+			}
+		}
+
+		fire_only_once = yes
+
+		cost = 50
+
+		complete_effect = {
+			country_event = { id = decisions.2 }
+		}
+
+		ai_will_do = {
+			factor = 0
+		}
+	}
+
+	siphon_equipment_stockpiles_for_right_civil_war = {
+
+		icon = generic_prepare_civil_war
+
+		available = {
+			has_country_flag = military_support_for_right_civil_war
+			has_equipment = { infantry_equipment > 1000 }
+			command_power > 2
+		}
+
+		visible = {
+			has_country_flag = preparation_for_right_civil_war
+			has_country_flag = military_support_for_right_civil_war
+			OR = {
+				has_idea_with_trait = right_reformer
+				has_idea_with_trait = right_populist
+			}
+			NOT = { has_government = right }
+			check_has_focus_tree_to_switch_to_right = yes
+		}
+
+		fire_only_once = no
+
+		cost = 50
+
+		complete_effect = {
+			add_command_power = -2
+			add_equipment_to_stockpile = {
+				type = infantry_equipment
+				amount = -1000
+			}
+			set_country_flag = siphoned_equipment_stockpiles_for_civil_war
+		}
+
+		ai_will_do = {
+			factor = 0
+		}
+	}
+
+	formulate_surprise_attack_plan_for_right_civil_war = {
+
+		icon = generic_army_support
+
+		available = {
+			has_country_flag = military_support_for_right_civil_war
+			command_power > 2
+		}
+
+		visible = {
+			has_country_flag = preparation_for_right_civil_war
+			OR = {
+				has_idea_with_trait = right_reformer
+				has_idea_with_trait = right_populist
+			}
+			NOT = { has_government = right }
+			check_has_focus_tree_to_switch_to_right = yes
+		}
+
+		fire_only_once = yes
+
+		cost = 50
+
+		complete_effect = {
+			add_command_power = -2
+			custom_effect_tooltip = formulate_surprise_attack_plan_for_civil_war_tt
+			set_country_flag = formulated_surprise_attack_plan_for_civil_war
+		}
+
+		ai_will_do = {
+			factor = 0
+		}
+	}
+
+	ignite_the_right_civil_war_single_state = {
+		icon = generic_ignite_civil_war
+		name = ignite_the_right_civil_war
+
+		available = {
+			has_stability < 0.5
+			right > 0.50
+		}
+
+		visible = {
+			has_country_flag = preparation_for_right_civil_war
+			OR = {
+				has_idea_with_trait = right_reformer
+				has_idea_with_trait = right_populist
+			}
+			NOT = { has_government = right }
+			check_has_focus_tree_to_switch_to_right = yes
+			check_variable = { num_owned_states = 1 }
+		}
+
+		fire_only_once = yes
+
+		cost = 50
+
+		complete_effect = {
+			set_politics = { ruling_party = right elections_allowed = no }
+			clr_country_flag = preparation_for_right_civil_war
+			clr_country_flag = military_support_for_right_civil_war
+			clr_country_flag = civil_support_for_right_civil_war
+		}
+
+		ai_will_do = {
+			factor = 0
+		}
+	}
+
+	ignite_the_right_civil_war = {
+
+		icon = generic_ignite_civil_war
+
+		available = {
+			has_stability < 0.5
+		}
+
+		visible = {
+			has_country_flag = preparation_for_right_civil_war
+			OR = {
+				has_idea_with_trait = right_reformer
+				has_idea_with_trait = right_populist
+			}
+			NOT = { has_government = right }
+			check_has_focus_tree_to_switch_to_right = yes
+			check_variable = { num_owned_states > 1 }
+		}
+
+		fire_only_once = yes
+
+		cost = 50
+
+		complete_effect = {
+			if = {
+				limit = {
+					has_government = far_left
+				}
+				set_variable = {
+					var = civil_war_size_var
+					value = party_popularity@far_left
+				}
+			}
+			else_if = {
+				limit = {
+					has_government = left
+				}
+				set_variable = {
+					var = civil_war_size_var
+					value = party_popularity@left
+				}
+			}
+			else_if = {
+				limit = {
+					has_government = center_left
+				}
+				set_variable = {
+					var = civil_war_size_var
+					value = party_popularity@center_left
+				}
+			}
+			else_if = {
+				limit = {
+					has_government = center
+				}
+				set_variable = {
+					var = civil_war_size_var
+					value = party_popularity@center
+				}
+			}
+			else_if = {
+				limit = {
+					has_government = center_right
+				}
+				set_variable = {
+					var = civil_war_size_var
+					value = party_popularity@center_right
+				}
+			}
+			else_if = {
+				limit = {
+					has_government = far_right
+				}
+				set_variable = {
+					var = civil_war_size_var
+					value = party_popularity@far_right
+				}
+			}
+			subtract_from_variable = {
+				var = civil_war_size_var
+				value = army_support_var
+			}
+			if = {
+				limit = {
+					check_variable = {
+						var = civil_war_size_var
+						value = 0.3
+						compare = less_than
+					}
+				}
+				set_variable = {
+					var = civil_war_size_var
+					value = 0.3
+				}
+			}
+			start_civil_war = {
+				ruling_party = right
+				ideology = ROOT
+				size = civil_war_size_var
+				keep_unit_leaders_trigger = {
+					has_trait = hidden_sympathies
+				}
+			}
+			clr_country_flag = preparation_for_right_civil_war
+			clr_country_flag = military_support_for_right_civil_war
+			clr_country_flag = civil_support_for_right_civil_war
+			set_country_flag = ideology_civil_war
+		}
+
+		ai_will_do = {
+			factor = 0
+		}
+	}
+
+	rebuild_the_nation_right = {
+
+		icon = generic_construction
+
+		visible = {
+			has_government = right
+			has_country_flag = won_ideology_civil_war
+		}
+
+		fire_only_once = yes
+
+		cost = 25
+
+		days_remove = 365
+
+		modifier = {
+			political_power_gain = -1
+			industry_repair_factor = 0.20
+			production_speed_industrial_complex_factor = 0.1
+			production_speed_infrastructure_factor = 0.1
+			industrial_capacity_factory = 0.1
+			industrial_capacity_dockyard = 0.1
+		}
+
+		ai_will_do = {
+			factor = 200
+		}
+	}
+
+	open_up_political_discourse_right = {
+
+		icon = generic_political_discourse
+
+		available = {
+			far_left < 0.9
+			left < 0.9
+			center_left < 0.9
+			center < 0.9
+			center_right < 0.9
+			far_right < 0.9
+		}
+
+		visible = {
+			OR = {
+				has_idea_with_trait = right_reformer
+				has_idea_with_trait = right_populist
+			}
+			NOT = { has_country_flag = open_up_political_discourse_right }
+			NOT = { has_government = right }
+			check_has_focus_tree_to_switch_to_right = yes
+		}
+
+		remove_trigger = {
+			has_government = right
+		}
+
+		fire_only_once = yes
+
+		cost = 75
+
+		complete_effect = {
+			set_country_flag = open_up_political_discourse_right
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	discredit_government_right = {
+
+		icon = generic_political_discourse
+
+		available = {
+			far_left < 0.8
+			left < 0.8
+			center_left < 0.8
+			center < 0.8
+			center_right < 0.8
+			far_right < 0.8
+			OR = {
+				has_idea_with_trait = right_reformer
+				has_idea_with_trait = right_populist
+			}
+		}
+
+		visible = {
+			has_country_flag = open_up_political_discourse_right
+			NOT = { has_government = right }
+			check_has_focus_tree_to_switch_to_right = yes
+		}
+
+		remove_trigger = {
+			has_government = right
+		}
+
+		fire_only_once = yes
+
+		cost = 50
+
+		complete_effect = {
+			add_stability = -0.010
+			if = {
+				limit = {
+					has_government = far_left
+				}
+				add_popularity = {
+					ideology = far_left
+					popularity = -0.1
+				}
+			}
+			else_if = {
+				limit = {
+					has_government = left
+				}
+				add_popularity = {
+					ideology = left
+					popularity = -0.1
+				}
+			}
+			else_if = {
+				limit = {
+					has_government = center_left
+				}
+				add_popularity = {
+					ideology = center_left
+					popularity = -0.1
+				}
+			}
+			else_if = {
+				limit = {
+					has_government = center
+				}
+				add_popularity = {
+					ideology = center
+					popularity = -0.1
+				}
+			}
+			else_if = {
+				limit = {
+					has_government = center_right
+				}
+				add_popularity = {
+					ideology = center_right
+					popularity = -0.1
+				}
+			}
+			else_if = {
+				limit = {
+					has_government = far_right
+				}
+				add_popularity = {
+					ideology = far_right
+					popularity = -0.1
+				}
+			}
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	hold_the_right_national_referendum = {
+
+		icon = generic_political_discourse
+
+		available = {
+			right > 0.5
+		}
+
+		visible = {
+			NOT = { has_government = right }
+			OR = {
+				right > 0.6
+				has_country_flag = open_up_political_discourse_right
+			}
+			check_has_focus_tree_to_switch_to_right = yes
+		}
+
+		remove_trigger = {
+			has_government = right
+		}
+
+		fire_only_once = yes
+
+		cost = 100
+
+		complete_effect = {
+			country_event = { id = political.21 }
+		}
+
+		ai_will_do = {
+			factor = 210
+			modifier = {
+				right > 0.6
+				factor = 10
+			}
+		}
+	}
+}
+
+far_right_on_the_rise = {
+	prepare_for_far_right_civil_war = {
+
+		icon = generic_prepare_civil_war
+
+		available = {
+			far_right > 0.1
+			num_of_controlled_states > 1
+		}
+
+		visible = {
+			NOT = { has_country_flag = preparation_for_far_right_civil_war }
+			OR = {
+				has_idea_with_trait = far_right_demagogue
+				has_idea_with_trait = syncretic_revanchist
+			}
+			NOT = { has_government = far_right }
+			check_has_focus_tree_to_switch_to_far_right = yes
+		}
+
+		fire_only_once = yes
+
+		cost = 50
+
+		complete_effect = {
+			set_country_flag = preparation_for_far_right_civil_war
+		}
+
+		ai_will_do = {
+			factor = 0
+		}
+	}
+
+	expand_civil_far_right_support = {
+
+		icon = generic_civil_support
+
+		visible = {
+			OR = {
+				has_country_flag = preparation_for_far_right_civil_war
+				has_country_flag = open_up_political_discourse_far_right
+			}
+			OR = {
+				has_idea_with_trait = far_right_demagogue
+				has_idea_with_trait = syncretic_revanchist
+			}
+			NOT = { has_government = far_right }
+			check_has_focus_tree_to_switch_to_far_right = yes
+		}
+
+		cancel_trigger = {
+			hidden_trigger = {
+				has_civil_war = yes
+			}
+		}
+
+		fire_only_once = no
+
+		cost = 25
+
+		days_remove = 30
+
+		modifier = {
+			far_right_drift = 0.02
+			stability_weekly = -0.03
+			political_power_gain = -0.2
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	army_support_for_far_right_civil_war = {
+
+		icon = generic_army_support
+
+		visible = {
+			has_country_flag = preparation_for_far_right_civil_war
+			OR = {
+				has_idea_with_trait = far_right_demagogue
+				has_idea_with_trait = syncretic_revanchist
+			}
+			NOT = { has_government = far_right }
+			check_has_focus_tree_to_switch_to_far_right = yes
+		}
+
+		cancel_trigger = {
+			hidden_trigger = {
+				has_civil_war = yes
+			}
+		}
+
+		fire_only_once = no
+
+		cost = 50
+
+		days_remove = 30
+
+		modifier = {
+			command_power_gain = -0.2
+		}
+
+		remove_effect = {
+			if = {
+				limit = {
+					check_variable = { var = army_support_var value = 0.1 compare = less_than }
+				}
+				set_variable = { var = army_support_var value = 0.1 }
+			}
+			if = {
+				limit = {
+					check_variable = { var = army_support_var value = 0.1 compare = greater_than_or_equals }
+				}
+				add_to_variable = { var = army_support_var value = 0.1 }
+			}
+			set_country_flag = military_support_for_far_right_civil_war
+			custom_effect_tooltip = army_support_TT
+		}
+
+		complete_effect = {
+		}
+
+		ai_will_do = {
+			factor = 0
+		}
+	}
+
+	ensure_general_loyalty_for_far_right_civil_war = {
+
+		icon = generic_army_support
+
+		available = {
+			has_country_flag = military_support_for_far_right_civil_war
+			command_power > 2
+		}
+
+		visible = {
+			has_country_flag = preparation_for_far_right_civil_war
+			OR = {
+				has_idea_with_trait = far_right_demagogue
+				has_idea_with_trait = syncretic_revanchist
+			}
+			NOT = { has_government = far_right }
+			any_army_leader = {
+				is_field_marshal = no
+				NOT = { has_trait = hidden_sympathies }
+			}
+			check_has_focus_tree_to_switch_to_far_right = yes
+		}
+
+		fire_only_once = yes
+
+		cost = 50
+
+		complete_effect = {
+			country_event = { id = decisions.1 }
+		}
+
+		ai_will_do = {
+			factor = 0
+		}
+	}
+
+	ensure_marshal_loyalty_for_far_right_civil_war = {
+
+		icon = generic_army_support
+
+		available = {
+			has_country_flag = military_support_for_far_right_civil_war
+			command_power > 2
+		}
+
+		visible = {
+			has_country_flag = preparation_for_far_right_civil_war
+			OR = {
+				has_idea_with_trait = far_right_demagogue
+				has_idea_with_trait = syncretic_revanchist
+			}
+			NOT = { has_government = far_right }
+			any_army_leader = {
+				NOT = { has_trait = hidden_sympathies }
+			}
+			check_has_focus_tree_to_switch_to_far_right = yes
+			any_army_leader = {
+				is_field_marshal = yes
+				NOT = { has_unit_leader_flag = hidden_sympathies_marshal }
+			}
+		}
+
+		fire_only_once = yes
+
+		cost = 50
+
+		complete_effect = {
+			country_event = { id = decisions.2 }
+		}
+
+		ai_will_do = {
+			factor = 0
+		}
+	}
+
+	siphon_equipment_stockpiles_for_far_right_civil_war = {
+
+		icon = generic_prepare_civil_war
+
+		available = {
+			has_country_flag = military_support_for_far_right_civil_war
+			has_equipment = { infantry_equipment > 1000 }
+			command_power > 2
+		}
+
+		visible = {
+			has_country_flag = preparation_for_far_right_civil_war
+			has_country_flag = military_support_for_far_right_civil_war
+			OR = {
+				has_idea_with_trait = far_right_demagogue
+				has_idea_with_trait = syncretic_revanchist
+			}
+			NOT = { has_government = far_right }
+			check_has_focus_tree_to_switch_to_far_right = yes
+		}
+
+		fire_only_once = no
+
+		cost = 50
+
+		complete_effect = {
+			add_command_power = -2
+			add_equipment_to_stockpile = {
+				type = infantry_equipment
+				amount = -1000
+			}
+			set_country_flag = siphoned_equipment_stockpiles_for_civil_war
+		}
+
+		ai_will_do = {
+			factor = 0
+		}
+	}
+
+	formulate_surprise_attack_plan_for_far_right_civil_war = {
+
+		icon = generic_army_support
+
+		available = {
+			has_country_flag = military_support_for_far_right_civil_war
+			command_power > 2
+		}
+
+		visible = {
+			has_country_flag = preparation_for_far_right_civil_war
+			OR = {
+				has_idea_with_trait = far_right_demagogue
+				has_idea_with_trait = syncretic_revanchist
+			}
+			NOT = { has_government = far_right }
+			check_has_focus_tree_to_switch_to_far_right = yes
+		}
+
+		fire_only_once = yes
+
+		cost = 50
+
+		complete_effect = {
+			add_command_power = -2
+			custom_effect_tooltip = formulate_surprise_attack_plan_for_civil_war_tt
+			set_country_flag = formulated_surprise_attack_plan_for_civil_war
+		}
+
+		ai_will_do = {
+			factor = 0
+		}
+	}
+
+	ignite_the_far_right_civil_war_single_state = {
+		icon = generic_ignite_civil_war
+		name = ignite_the_far_right_civil_war
+
+		available = {
+			has_stability < 0.5
+			far_right > 0.50
+		}
+
+		visible = {
+			has_country_flag = preparation_for_far_right_civil_war
+			OR = {
+				has_idea_with_trait = far_right_demagogue
+				has_idea_with_trait = syncretic_revanchist
+			}
+			NOT = { has_government = far_right }
+			check_has_focus_tree_to_switch_to_far_right = yes
+			check_variable = { num_owned_states = 1 }
+		}
+
+		fire_only_once = yes
+
+		cost = 50
+
+		complete_effect = {
+			set_politics = { ruling_party = far_right elections_allowed = no }
+			clr_country_flag = preparation_for_far_right_civil_war
+			clr_country_flag = military_support_for_far_right_civil_war
+			clr_country_flag = civil_support_for_far_right_civil_war
+		}
+
+		ai_will_do = {
+			factor = 0
+		}
+	}
+
+	ignite_the_far_right_civil_war = {
+
+		icon = generic_ignite_civil_war
+
+		available = {
+			has_stability < 0.5
+		}
+
+		visible = {
+			has_country_flag = preparation_for_far_right_civil_war
+			OR = {
+				has_idea_with_trait = far_right_demagogue
+				has_idea_with_trait = syncretic_revanchist
+			}
+			NOT = { has_government = far_right }
+			check_has_focus_tree_to_switch_to_far_right = yes
+			check_variable = { num_owned_states > 1 }
+		}
+
+		fire_only_once = yes
+
+		cost = 50
+
+		complete_effect = {
+			if = {
+				limit = {
+					has_government = far_left
+				}
+				set_variable = {
+					var = civil_war_size_var
+					value = party_popularity@far_left
+				}
+			}
+			else_if = {
+				limit = {
+					has_government = left
+				}
+				set_variable = {
+					var = civil_war_size_var
+					value = party_popularity@left
+				}
+			}
+			else_if = {
+				limit = {
+					has_government = center_left
+				}
+				set_variable = {
+					var = civil_war_size_var
+					value = party_popularity@center_left
+				}
+			}
+			else_if = {
+				limit = {
+					has_government = center
+				}
+				set_variable = {
+					var = civil_war_size_var
+					value = party_popularity@center
+				}
+			}
+			else_if = {
+				limit = {
+					has_government = center_right
+				}
+				set_variable = {
+					var = civil_war_size_var
+					value = party_popularity@center_right
+				}
+			}
+			else_if = {
+				limit = {
+					has_government = right
+				}
+				set_variable = {
+					var = civil_war_size_var
+					value = party_popularity@right
+				}
+			}
+			subtract_from_variable = {
+				var = civil_war_size_var
+				value = army_support_var
+			}
+			if = {
+				limit = {
+					check_variable = {
+						var = civil_war_size_var
+						value = 0.3
+						compare = less_than
+					}
+				}
+				set_variable = {
+					var = civil_war_size_var
+					value = 0.3
+				}
+			}
+			start_civil_war = {
+				ruling_party = far_right
+				ideology = ROOT
+				size = civil_war_size_var
+				keep_unit_leaders_trigger = {
+					has_trait = hidden_sympathies
+				}
+			}
+			clr_country_flag = preparation_for_far_right_civil_war
+			clr_country_flag = military_support_for_far_right_civil_war
+			clr_country_flag = civil_support_for_far_right_civil_war
+			set_country_flag = ideology_civil_war
+		}
+
+		ai_will_do = {
+			factor = 0
+		}
+	}
+
+	rebuild_the_nation_far_right = {
+
+		icon = generic_construction
+
+		visible = {
+			has_government = far_right
+			has_country_flag = won_ideology_civil_war
+		}
+
+		fire_only_once = yes
+
+		cost = 25
+
+		days_remove = 365
+
+		modifier = {
+			political_power_gain = -1
+			industry_repair_factor = 0.20
+			production_speed_industrial_complex_factor = 0.1
+			production_speed_infrastructure_factor = 0.1
+			industrial_capacity_factory = 0.1
+			industrial_capacity_dockyard = 0.1
+		}
+
+		ai_will_do = {
+			factor = 200
+		}
+	}
+
+	open_up_political_discourse_far_right = {
+
+		icon = generic_political_discourse
+
+		available = {
+			far_left < 0.9
+			left < 0.9
+			center_left < 0.9
+			center < 0.9
+			center_right < 0.9
+			right < 0.9
+		}
+
+		visible = {
+			OR = {
+				has_idea_with_trait = far_right_demagogue
+				has_idea_with_trait = syncretic_revanchist
+			}
+			NOT = { has_country_flag = open_up_political_discourse_far_right }
+			NOT = { has_government = far_right }
+			check_has_focus_tree_to_switch_to_far_right = yes
+		}
+
+		remove_trigger = {
+			has_government = far_right
+		}
+
+		fire_only_once = yes
+
+		cost = 75
+
+		complete_effect = {
+			set_country_flag = open_up_political_discourse_far_right
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	discredit_government_far_right = {
+
+		icon = generic_political_discourse
+
+		available = {
+			far_left < 0.8
+			left < 0.8
+			center_left < 0.8
+			center < 0.8
+			center_right < 0.8
+			right < 0.8
+			OR = {
+				has_idea_with_trait = far_right_demagogue
+				has_idea_with_trait = syncretic_revanchist
+			}
+		}
+
+		visible = {
+			has_country_flag = open_up_political_discourse_far_right
+			NOT = { has_government = far_right }
+			check_has_focus_tree_to_switch_to_far_right = yes
+		}
+
+		remove_trigger = {
+			has_government = far_right
+		}
+
+		fire_only_once = yes
+
+		cost = 50
+
+		complete_effect = {
+			add_stability = -0.010
+			if = {
+				limit = {
+					has_government = far_left
+				}
+				add_popularity = {
+					ideology = far_left
+					popularity = -0.1
+				}
+			}
+			else_if = {
+				limit = {
+					has_government = left
+				}
+				add_popularity = {
+					ideology = left
+					popularity = -0.1
+				}
+			}
+			else_if = {
+				limit = {
+					has_government = center_left
+				}
+				add_popularity = {
+					ideology = center_left
+					popularity = -0.1
+				}
+			}
+			else_if = {
+				limit = {
+					has_government = center
+				}
+				add_popularity = {
+					ideology = center
+					popularity = -0.1
+				}
+			}
+			else_if = {
+				limit = {
+					has_government = center_right
+				}
+				add_popularity = {
+					ideology = center_right
+					popularity = -0.1
+				}
+			}
+			else_if = {
+				limit = {
+					has_government = right
+				}
+				add_popularity = {
+					ideology = right
+					popularity = -0.1
+				}
+			}
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	hold_the_far_right_national_referendum = {
+
+		icon = generic_political_discourse
+
+		available = {
+			far_right > 0.5
+		}
+
+		visible = {
+			NOT = { has_government = far_right }
+			OR = {
+				far_right > 0.6
+				has_country_flag = open_up_political_discourse_far_right
+			}
+			check_has_focus_tree_to_switch_to_far_right = yes
+		}
+
+		remove_trigger = {
+			has_government = far_right
+		}
+
+		fire_only_once = yes
+
+		cost = 100
+
+		complete_effect = {
+			country_event = { id = political.18 }
+		}
+
+		ai_will_do = {
+			factor = 210
+			modifier = {
+				far_right > 0.6
+				factor = 10
 			}
 		}
 	}
@@ -1837,615 +4399,424 @@ political_actions = {
 
 		icon = generic_research
 
-        allowed = {
-            OR = {
-                original_tag = ENG
-                original_tag = USA
-                original_tag = FRA
-                original_tag = CAN
-                original_tag = TUR
-            }
-        }
-
-		visible = {
-            NOT = { has_government = fascism }
-            NOT = { has_government = communism }
-			is_government_in_exile = no
-		}
-
-        cost = 100
-        fire_only_once = yes
-        
-        days_remove = -1
-
-        available = {
-            GER = { NOT = { has_government = ROOT } }
-        }
-
-        modifier = {
-            special_project_speed_factor = 0.02
-            research_speed_factor = 0.05
-            stability_factor = -0.05
-        }
-
-        remove_trigger = {
-            OR = {
-                GER = { has_government = ROOT }
-                AND = {
-                    country_exists = WGR
-                    WGR = { has_government = ROOT }
-                }
-                AND = {
-                    country_exists = DDR
-                    DDR = { has_government = ROOT }
-                }
-            }
-        }
-
-        ai_will_do = {
-			base = 1
-			modifier = {
-				tag = ENG
-				has_war = no
-				date < 1937.3.1
-				factor = 0
+		allowed = {
+			OR = {
+				original_tag = ENG
+				original_tag = USA
+				original_tag = FRA
+				original_tag = CAN
+				original_tag = TUR
 			}
-			modifier = {
-				tag = FRA
-				has_war = no
-				has_government = democratic
-				factor = 5
-			}
-		}
-    }
-    give_refuge_ita = {
-
-    	icon = generic_research
-
-        allowed = {
-            OR = {
-                original_tag = ENG
-                original_tag = USA
-                original_tag = FRA
-                original_tag = CAN
-                original_tag = TUR
-            }
 		}
 
 		visible = {
-            NOT = { has_government = fascism }
-            NOT = { has_government = communism }
+			NOT = { has_government = far_right }
+			NOT = { has_government = far_left }
 			is_government_in_exile = no
-        }
-        cost = 100
-        fire_only_once = yes
-        days_remove = -1
-
-        available = {
-            ITA = { NOT = { has_government = ROOT } }
-        }
-
-        modifier = {
-        	special_project_speed_factor = 0.02
-            research_speed_factor = 0.05
-            stability_factor = -0.05
-        }
-
-        remove_trigger = {
-            ITA = { has_government = ROOT }
-        }
-        ai_will_do = {
-			base = 1
-			modifier = {
-				tag = ENG
-				has_war = no
-				date < 1937.3.1
-				factor = 0
-			}
 		}
-    }
 
-    anti_fascist_raids = {
+		cost = 100
+		fire_only_once = yes
 
-    	icon = generic_civil_support
+		days_remove = -1
 
-    	visible = {
-    		OR = {
-				NOT = { has_government = fascism }
+		available = {
+			GER = { NOT = { has_government = ROOT } }
+		}
+
+		modifier = {
+			special_project_speed_factor = 0.02
+			research_speed_factor = 0.05
+			stability_factor = -0.05
+		}
+
+		remove_trigger = {
+			OR = {
+				GER = { has_government = ROOT }
 				AND = {
-					original_tag = RAJ
-					has_idea = idea_RAJ_kingmaker	
+					country_exists = WGR
+					WGR = { has_government = ROOT }
 				}
-			}
-			IF = {
-				limit = {
-					has_dlc = "Gotterdammerung"
-					original_tag = AUS
+				AND = {
+					country_exists = DDR
+					DDR = { has_government = ROOT }
 				}
-				NOT = { has_completed_focus = AUS_reinstate_the_imperial_council }
 			}
 		}
 
-		available = {
-            fascism > 0.1
-            if = {
-				limit = {
-					tag = SPR
-				}
-				NOT = {
-					has_idea = SPR_political_violence
-				}
-			}
-			if = {
-				limit = {
-					has_aat = yes 
-					original_tag = NOR 
-				}
-				NOT = { 
-					has_idea = NOR_anti_communist_sentiment_ns
-				}
-			}
-        }
-	
-		modifier = {
-			fascism_drift = -0.05
-			stability_weekly = 0.007
-		}
-	
-		days_remove = 120
-		cost = 50
-
-		cancel_trigger = {
-			if = {
-				limit = {
-					original_tag = AUS
-				}
-				OR = {
-					has_completed_focus = AUS_clamp_down_on_dnsap
-					has_completed_focus = AUS_ban_dnsap
-					has_completed_focus = AUS_rebuild_democratic_systems
-				}
-			}
-			else = {
-				always = no
-			}
-		}
-
-		complete_effect = {
-			add_stability = -0.1
-		}
-		
-		remove_effect = {
-		}
-		
 		ai_will_do = {
-			base = 0
-			modifier = {
-				add = 1
-				tag = AUS
-				fascism > 0.45
-				is_historical_focus_on = no
-			}
-			modifier = {
-				add = 10
-				tag = AUS
-				fascism > 0.45
-				GER = { has_completed_focus = GER_reestablish_free_elections }
-			}
-			modifier = {
-				add = 10
-				tag = AUS
-				fascism > 0.45
-				has_completed_focus = liberty_ethos
-			}
-			modifier = {
-				add = 50
-				tag = AUS
-				has_dlc = "Gotterdammerung"
-				OR = {
-					has_country_flag = AUS_AI_RANDOM_ANTI_ANSCLUSS_STRESS
-					has_game_rule = {
-						rule = AUS_AI_BEHAVIOR
-						option = AUS_ANTI_ANSCLUSS_STRESS
-					}
-				}
-			}
-			modifier = {
-				factor = 0
-				original_tag = SPR
-				NOT = { has_global_flag = spanish_civil_war }
-			}
-			modifier = {
-				add = 10
-				original_tag = ITA
-				has_completed_focus = ITA_convene_the_grand_council
-				OR = {
-					ITA_is_monarchist_ai = yes
-					ITA_is_christian_democracy_ai = yes
-				}
-			}
-			modifier = {
-				add = 40
-				original_tag = ITA
-				has_completed_focus = ITA_monarchia_d_italia
-			}
+			base = 1
 		}
-    }
+	}
+	give_refuge_ita = {
 
-    anti_democratic_raids = {
+		icon = generic_research
 
-    	icon = generic_civil_support
-
-    	visible = {
-    		OR = {
-				NOT = { has_government = democratic }
-    			AND = {
-    				original_tag = RAJ
-    				has_idea = idea_RAJ_kingmaker	
-    			}
-			}
-		}
-
-		available = {
-            democratic > 0.1
-            if = {
-				limit = {
-					tag = SPR
-				}
-				NOT = {
-					has_idea = SPR_political_violence
-				}
-			}
-        }
-	
-		modifier = {
-			democratic_drift = -0.05
-			stability_weekly = 0.007
-		}
-	
-		days_remove = 120
-		cost = 50
-
-		complete_effect = {
-			add_stability = -0.1
-		}
-		
-		remove_effect = {
-		}
-		
-		ai_will_do = {
-			base = 0
-		}
-    }
-
-    anti_communist_raids = {
-
-    	icon = generic_civil_support
-
-    	visible = {
-    		OR = {
-				NOT = { has_government = communism }
-    			AND = {
-    				original_tag = RAJ
-    				has_idea = idea_RAJ_kingmaker	
-    			}
-			}
-		}
-
-		available = {
-            communism > 0.1
-            if = {
-				limit = {
-					tag = SPR
-				}
-				NOT = {
-					has_idea = SPR_political_violence
-				}
-			}
-        }
-	
-		modifier = {
-			communism_drift = -0.05
-			stability_weekly = 0.007
-		}
-	
-		days_remove = 120
-		cost = 50
-
-		complete_effect = {
-			add_stability = -0.1
-		}
-		
-		remove_effect = {
-		}
-		
-		ai_will_do = {
-			base = 0
-			modifier = { # If they have nothing else big to spend pp on, and this is avaiable, Monarchist Germany should start work on removing communist support. 
-				add = 10
-				original_tag = GER
-				OR = {
-					has_country_flag = GER_AI_RANDOM_KAISER
-					has_game_rule = {
-						rule = GER_ai_behavior
-						option = KAISER
-					}
-				}
-			}
-			modifier = { 
-				add = 5
-				has_dlc = "No Compromise, No Surrender"
-				original_tag = CHI
-				communism > 0.1
-			}
-
-		}
-    }
-
-    anti_neutrality_raids = {
-
-    	icon = generic_civil_support
-
-    	allowed = {
-    	}
-
-    	visible = {
-    		OR = { # has_focus_tree is not allwoed in the allowed trigger
-    			has_focus_tree = austro_hungarian_releasable_focus
-    			has_focus_tree = generic_focus
-    			has_idea = idea_RAJ_kingmaker
-    		}
-    		OR = {
-				NOT = { has_government = neutrality }
-    			original_tag = RAJ
-			}
-		}
-
-		available = {
-            neutrality > 0.1
-            if = {
-				limit = {
-					tag = SPR
-				}
-				NOT = {
-					has_idea = SPR_political_violence
-				}
-			}
-        }
-	
-		modifier = {
-			neutrality_drift = -0.05
-			stability_weekly = 0.007
-		}
-	
-		days_remove = 120
-		cost = 50
-
-		complete_effect = {
-			add_stability = -0.1
-		}
-		
-		remove_effect = {
-		}
-		
-		ai_will_do = {
-			factor = 0
-		}
-    }
-    
-	ban_fascist_party = {
-
-		icon = generic_civil_support
-
-		available = {
-			if = {
-				limit = {
-					has_dlc = "Graveyard of Empires"
-					original_tag = RAJ
-					has_idea = ENG_dominion_fascist_propaganda
-					
-				}
-			}
-			else = {
-				fascism < 0.2
-			}
-			IF = {
-				limit = {
-					tag = SPR
-				}
-				NOT = {
-					has_idea = SPR_political_violence
-				}
-			}
-			IF = {
-				limit = {
-					has_aat = yes 
-					original_tag = NOR 
-				}
-				NOT = {
-					has_idea = NOR_anti_communist_sentiment_ns
-				}
-			}
-			IF = {
-				limit = {
-					has_dlc = "Trial of Allegiance"
-					original_tag = CHL
-				}
-				custom_trigger_tooltip = {
-					tooltip = CHL_can_not_have_anarchy_tt
-					NOT = {
-						OR = {
-							has_idea = idea_CHL_near_anarchic_society
-							has_idea = idea_CHL_near_anarchic_society_2
-							has_idea = idea_CHL_near_anarchic_society_3
-							has_idea = idea_CHL_near_anarchic_society_4
-						}
-					}
-				}
-			}
-
-			if = {
-				limit = {
-					original_tag = RAJ
-					has_dlc = "Graveyard of Empires"
-				}
+		allowed = {
+			OR = {
+				original_tag = ENG
+				original_tag = USA
+				original_tag = FRA
+				original_tag = CAN
+				original_tag = TUR
 			}
 		}
 
 		visible = {
-			NOT = { has_government = fascism }
-			fascism > 0
-			IF = { 
-				limit = { 
-					has_dlc = "Battle for the Bosporus"	
-				}
-				NOT = { original_tag = GRE }
-			}
+			NOT = { has_government = far_right }
+			NOT = { has_government = far_left }
+			is_government_in_exile = no
+		}
 
-			IF = {
-				limit = {
-					has_dlc = "Gotterdammerung"
-					original_tag = AUS
-				}
-				NOT = { has_completed_focus = AUS_reinstate_the_imperial_council }
-			}
+		cost = 100
+		fire_only_once = yes
+		days_remove = -1
+
+		available = {
+			ITA = { NOT = { has_government = ROOT } }
+		}
+
+		modifier = {
+			special_project_speed_factor = 0.02
+			research_speed_factor = 0.05
+			stability_factor = -0.05
+		}
+
+		remove_trigger = {
+			ITA = { has_government = ROOT }
+		}
+
+		ai_will_do = {
+			base = 1
+		}
+	}
+
+	anti_far_left_raids = {
+
+		icon = generic_civil_support
+
+		visible = {
+			NOT = { has_government = far_left }
+		}
+
+		available = {
+			far_left > 0.1
+		}
+
+		modifier = {
+			far_left_drift = -0.05
+			stability_weekly = 0.007
+		}
+
+		days_remove = 120
+		cost = 50
+
+		complete_effect = {
+			add_stability = -0.1
+		}
+
+		remove_effect = {
+		}
+
+		ai_will_do = {
+			base = 0
+		}
+	}
+
+	anti_left_raids = {
+
+		icon = generic_civil_support
+
+		visible = {
+			NOT = { has_government = left }
+		}
+
+		available = {
+			left > 0.1
+		}
+
+		modifier = {
+			left_drift = -0.05
+			stability_weekly = 0.007
+		}
+
+		days_remove = 120
+		cost = 50
+
+		complete_effect = {
+			add_stability = -0.1
+		}
+
+		remove_effect = {
+		}
+
+		ai_will_do = {
+			base = 0
+		}
+	}
+
+	anti_center_left_raids = {
+
+		icon = generic_civil_support
+
+		visible = {
+			NOT = { has_government = center_left }
+		}
+
+		available = {
+			center_left > 0.1
+		}
+
+		modifier = {
+			center_left_drift = -0.05
+			stability_weekly = 0.007
+		}
+
+		days_remove = 120
+		cost = 50
+
+		complete_effect = {
+			add_stability = -0.1
+		}
+
+		remove_effect = {
+		}
+
+		ai_will_do = {
+			base = 0
+		}
+	}
+
+	anti_center_raids = {
+
+		icon = generic_civil_support
+
+		visible = {
+			NOT = { has_government = center }
+		}
+
+		available = {
+			center > 0.1
+		}
+
+		modifier = {
+			center_drift = -0.05
+			stability_weekly = 0.007
+		}
+
+		days_remove = 120
+		cost = 50
+
+		complete_effect = {
+			add_stability = -0.1
+		}
+
+		remove_effect = {
+		}
+
+		ai_will_do = {
+			base = 0
+		}
+	}
+
+	anti_center_right_raids = {
+
+		icon = generic_civil_support
+
+		visible = {
+			NOT = { has_government = center_right }
+		}
+
+		available = {
+			center_right > 0.1
+		}
+
+		modifier = {
+			center_right_drift = -0.05
+			stability_weekly = 0.007
+		}
+
+		days_remove = 120
+		cost = 50
+
+		complete_effect = {
+			add_stability = -0.1
+		}
+
+		remove_effect = {
+		}
+
+		ai_will_do = {
+			base = 0
+		}
+	}
+
+	anti_right_raids = {
+
+		icon = generic_civil_support
+
+		visible = {
+			NOT = { has_government = right }
+		}
+
+		available = {
+			right > 0.1
+		}
+
+		modifier = {
+			right_drift = -0.05
+			stability_weekly = 0.007
+		}
+
+		days_remove = 120
+		cost = 50
+
+		complete_effect = {
+			add_stability = -0.1
+		}
+
+		remove_effect = {
+		}
+
+		ai_will_do = {
+			base = 0
+		}
+	}
+
+	anti_far_right_raids = {
+
+		icon = generic_civil_support
+
+		visible = {
+			NOT = { has_government = far_right }
+		}
+
+		available = {
+			far_right > 0.1
+		}
+
+		modifier = {
+			far_right_drift = -0.05
+			stability_weekly = 0.007
+		}
+
+		days_remove = 120
+		cost = 50
+
+		complete_effect = {
+			add_stability = -0.1
+		}
+
+		remove_effect = {
+		}
+
+		ai_will_do = {
+			base = 0
+		}
+	}
+
+	ban_far_left_party = {
+
+		icon = generic_civil_support
+
+		available = {
+			far_left < 0.2
+		}
+
+		visible = {
+			NOT = { has_government = far_left }
+			far_left > 0
 		}
 
 		remove_trigger = {
 			hidden_trigger = {
-				OR = {
-					has_government = fascism
-					has_country_flag = DEN_allow_fascism_flag
-				}
+				has_government = far_left
 			}
 		}
-	
+
 		modifier = {
-			fascism_drift = -0.05
+			far_left_drift = -0.05
 		}
-	
+
 		days_remove = -1
 		cost = 100
-		
+
 		complete_effect = {
 			hidden_effect = {
 				set_temp_variable = {
 					var = ban_ideology_var
-					value = party_popularity@fascism
+					value = party_popularity@far_left
 				}
 				multiply_temp_variable = {
 					var = ban_ideology_var
 					value = -1
 				}
 				add_popularity = {
-					ideology = fascism
+					ideology = far_left
 					popularity = ban_ideology_var
 				}
 				multiply_temp_variable = {
 					var = ban_ideology_var
 					value = 0.66
 				}
-				set_country_flag = banned_fascism_flag
+				set_country_flag = banned_far_left_flag
 			}
-			remove_fascist_spirits_effect = yes
-			custom_effect_tooltip = ban_fascist_party_tt
+			custom_effect_tooltip = ban_far_left_party_tt
 			add_stability = ban_ideology_var
-			if = {
-				limit = {
-					has_idea = ENG_dominion_fascist_propaganda
-				}
-				remove_ideas = ENG_dominion_fascist_propaganda
-			}
 		}
 
 		ai_will_do = {
-			factor = 0
-			modifier = {
-				add = 50
-				tag = AUS
-				has_dlc = "Gotterdammerung"
-				OR = {
-					has_country_flag = AUS_AI_RANDOM_ANTI_ANSCLUSS_STRESS
-					has_game_rule = {
-						rule = AUS_AI_BEHAVIOR
-						option = AUS_ANTI_ANSCLUSS_STRESS
-					}
-				}
-			}
+			base = 0
 		}
 	}
 
-	ban_democratic_party = {
+	ban_left_party = {
 
 		icon = generic_civil_support
 
 		available = {
-			democratic < 0.2
-			IF = {
-				limit = {
-					tag = SPR
-				}
-				NOT = {
-					has_idea = SPR_political_violence
-				}
-			}
+			left < 0.2
 		}
 
 		visible = {
-			NOT = { has_government = democratic }
-			democratic > 0
-			IF = { 
-				limit = { 
-					has_dlc = "Battle for the Bosporus"	
-				}
-				NOT = { original_tag = GRE }
-			}
-			IF = {
-				limit = {
-					has_dlc = "Trial of Allegiance"
-				}
-				NOT = { original_tag = CHL }
-			}
+			NOT = { has_government = left }
+			left > 0
 		}
 
 		remove_trigger = {
 			hidden_trigger = {
-				OR = {
-					has_country_flag = DEN_allow_democratic_flag
-					has_government = democratic
-				}
+				has_government = left
 			}
 		}
-	
+
 		modifier = {
-			democratic_drift = -0.05
+			left_drift = -0.05
 		}
-	
+
 		days_remove = -1
 		cost = 100
-		
+
 		complete_effect = {
 			hidden_effect = {
 				set_temp_variable = {
 					var = ban_ideology_var
-					value = party_popularity@democratic
+					value = party_popularity@left
 				}
 				multiply_temp_variable = {
 					var = ban_ideology_var
 					value = -1
 				}
 				add_popularity = {
-					ideology = democratic
+					ideology = left
 					popularity = ban_ideology_var
 				}
 				multiply_temp_variable = {
 					var = ban_ideology_var
 					value = 0.66
 				}
-				set_country_flag = banned_democratic_flag				
+				set_country_flag = banned_left_flag
 			}
-			remove_democratic_spirits_effect = yes 
-			custom_effect_tooltip = ban_democratic_party_tt
+			custom_effect_tooltip = ban_left_party_tt
 			add_stability = ban_ideology_var
 		}
 
@@ -2453,452 +4824,462 @@ political_actions = {
 			base = 0
 		}
 	}
-	
-	ban_communist_party = {
+
+	ban_center_left_party = {
 
 		icon = generic_civil_support
 
 		available = {
-			communism < 0.2
-			IF = {
-				limit = {
-					tag = SPR
-				}
-				NOT = {
-					has_idea = SPR_political_violence
-				}
-			}
-			IF = {
-				limit = {
-					has_dlc = "Trial of Allegiance"
-					original_tag = CHL
-				}
-				custom_trigger_tooltip = {
-					tooltip = CHL_can_not_have_anarchy_tt
-					NOT = {
-						OR = {
-							has_idea = idea_CHL_near_anarchic_society
-							has_idea = idea_CHL_near_anarchic_society_2
-							has_idea = idea_CHL_near_anarchic_society_3
-							has_idea = idea_CHL_near_anarchic_society_4
-						}
-					}
-				}
-			}
+			center_left < 0.2
 		}
 
 		visible = {
-			NOT = { has_government = communism }
-			communism > 0
-			IF = { 
-				limit = { 
-					has_dlc = "Battle for the Bosporus"	
-				}
-				NOT = { original_tag = GRE }
-			}
+			NOT = { has_government = center_left }
+			center_left > 0
 		}
 
 		remove_trigger = {
 			hidden_trigger = {
-				OR = {
-					has_government = communism
-					has_country_flag = DEN_allow_communism_flag
-				}
+				has_government = center_left
 			}
 		}
-	
+
 		modifier = {
-			communism_drift = -0.05
+			center_left_drift = -0.05
 		}
-	
+
 		days_remove = -1
 		cost = 100
-		
+
 		complete_effect = {
 			hidden_effect = {
 				set_temp_variable = {
 					var = ban_ideology_var
-					value = party_popularity@communism
+					value = party_popularity@center_left
 				}
 				multiply_temp_variable = {
 					var = ban_ideology_var
 					value = -1
 				}
 				add_popularity = {
-					ideology = communism
+					ideology = center_left
 					popularity = ban_ideology_var
 				}
 				multiply_temp_variable = {
 					var = ban_ideology_var
 					value = 0.66
 				}
-				set_country_flag = banned_communism_flag
-				if = {#NSB -> If country has Trotskyist Revolutionary Uprisings NS, swap it with the weakened version
-					limit = {
-						has_idea = SOV_trotskyist_revolutionary_agitation
-					}
-					swap_ideas = {
-						remove_idea = SOV_trotskyist_revolutionary_agitation
-						add_idea = SOV_trotskyist_revolutionary_agitation_weakened
-					}
-				}
+				set_country_flag = banned_center_left_flag
 			}
-			remove_communist_spirits_effect = yes
-			custom_effect_tooltip = ban_communist_party_tt
+			custom_effect_tooltip = ban_center_left_party_tt
 			add_stability = ban_ideology_var
 		}
-		
+
 		ai_will_do = {
 			base = 0
-			modifier = {
-				add = 2000
-				original_tag = FIN
-				FIN_is_historical_ai = yes
-				OR = {
-					has_idea = communist_pressure
-					communism > 0.08
-				}
-				NOT = { has_completed_focus = FIN_the_lone_wolf }
-			}
 		}
 	}
 
-	ban_neutrality_party = {
+	ban_center_party = {
 
 		icon = generic_civil_support
 
-		allowed = {	
+		available = {
+			center < 0.2
 		}
 
 		visible = {
-			OR = { # has_focus_tree is not allwoed in the allowed trigger
-				has_focus_tree = austro_hungarian_releasable_focus
-				has_focus_tree = generic_focus
-			}
-			NOT = { has_government = neutrality }
-			neutrality > 0
-		}
-
-		available = {
-			neutrality < 0.2
-			IF = {
-				limit = {
-					tag = SPR
-				}
-				NOT = {
-					has_idea = SPR_political_violence
-				}
-			}
+			NOT = { has_government = center }
+			center > 0
 		}
 
 		remove_trigger = {
+			hidden_trigger = {
+				has_government = center
+			}
 		}
-	
+
 		modifier = {
-			neutrality_drift = -0.05
+			center_drift = -0.05
 		}
-	
+
 		days_remove = -1
 		cost = 100
-		
+
 		complete_effect = {
 			hidden_effect = {
 				set_temp_variable = {
 					var = ban_ideology_var
-					value = party_popularity@neutrality
+					value = party_popularity@center
 				}
 				multiply_temp_variable = {
 					var = ban_ideology_var
 					value = -1
 				}
 				add_popularity = {
-					ideology = neutrality
+					ideology = center
 					popularity = ban_ideology_var
 				}
 				multiply_temp_variable = {
 					var = ban_ideology_var
 					value = 0.66
 				}
-				set_country_flag = banned_neutrality_flag
+				set_country_flag = banned_center_flag
 			}
-			custom_effect_tooltip = ban_neutrality_party_tt
+			custom_effect_tooltip = ban_center_party_tt
 			add_stability = ban_ideology_var
 		}
-		
+
 		ai_will_do = {
 			base = 0
 		}
 	}
-	
-	institute_press_censorship_fascist_state = {
 
-		icon = generic_political_discourse
+	ban_center_right_party = {
+
+		icon = generic_civil_support
 
 		available = {
-			if = {
-				limit = {
-					tag = SPR
-				}
-				NOT = {
-					has_idea = SPR_political_violence
-				}
-			}
-			if = {
-				limit = {
-					has_dlc = "Battle for the Bosporus"
-					original_tag = BUL
-				}
-				NOT = {
-					has_country_flag = {
-						flag = BUL_freedom_of_press_flag
-						days < 365
-					}
-					focus_progress = {
-						focus = BUL_freedom_of_press
-						progress > 0
-					}
-				}
-			}
+			center_right < 0.2
 		}
 
 		visible = {
-			has_government = fascism
-			if = { 
-				limit = { 
-					has_dlc = "Battle for the Bosporus"
-				}
-				NOT = { original_tag = GRE }
+			NOT = { has_government = center_right }
+			center_right > 0
+		}
+
+		remove_trigger = {
+			hidden_trigger = {
+				has_government = center_right
 			}
 		}
-	
+
 		modifier = {
-			communism_drift = -0.01
-			fascism_drift = 0.03
-			democratic_drift = -0.01
-			neutrality_drift = -0.01
+			center_right_drift = -0.05
 		}
-	
-		days_remove = 360
-		cost = 150
-	
+
+		days_remove = -1
+		cost = 100
+
+		complete_effect = {
+			hidden_effect = {
+				set_temp_variable = {
+					var = ban_ideology_var
+					value = party_popularity@center_right
+				}
+				multiply_temp_variable = {
+					var = ban_ideology_var
+					value = -1
+				}
+				add_popularity = {
+					ideology = center_right
+					popularity = ban_ideology_var
+				}
+				multiply_temp_variable = {
+					var = ban_ideology_var
+					value = 0.66
+				}
+				set_country_flag = banned_center_right_flag
+			}
+			custom_effect_tooltip = ban_center_right_party_tt
+			add_stability = ban_ideology_var
+		}
+
 		ai_will_do = {
 			base = 0
 		}
 	}
-	
-	institute_press_censorship_democratic_state = {
 
-		icon = generic_political_discourse
+	ban_right_party = {
+
+		icon = generic_civil_support
 
 		available = {
-			if = {
-				limit = {
-					tag = SPR
-				}
-				NOT = {
-					has_idea = SPR_political_violence
-				}
-			}
-			if = {
-				limit = {
-					tag = TUR
-					has_dlc = "Battle for the Bosporus"
-				}
-				NOT = {
-					has_completed_focus = TUR_privatize_the_anadolu_agency
-				}
-			}
-			if = {
-				limit = {
-					original_tag = BUL
-					has_dlc = "Battle for the Bosporus"				
-				}
-				NOT = {
-					has_country_flag = {
-						flag = BUL_freedom_of_press_flag
-						days < 365
-					}
-					focus_progress = {
-						focus = BUL_freedom_of_press
-						progress > 0
-					}
-				}
-			}
+			right < 0.2
 		}
 
 		visible = {
-			has_government = democratic
-			if = { 
-				limit = { 
-					has_dlc = "Battle for the Bosporus"
-				}
-				NOT = { original_tag = GRE }
+			NOT = { has_government = right }
+			right > 0
+		}
+
+		remove_trigger = {
+			hidden_trigger = {
+				has_government = right
 			}
 		}
-		
+
 		modifier = {
-			communism_drift = -0.01
-			fascism_drift = -0.01
-			democratic_drift = 0.03
-			neutrality_drift = -0.01
+			right_drift = -0.05
 		}
-	
-		days_remove = 360
-		cost = 150
-	
+
+		days_remove = -1
+		cost = 100
+
+		complete_effect = {
+			hidden_effect = {
+				set_temp_variable = {
+					var = ban_ideology_var
+					value = party_popularity@right
+				}
+				multiply_temp_variable = {
+					var = ban_ideology_var
+					value = -1
+				}
+				add_popularity = {
+					ideology = right
+					popularity = ban_ideology_var
+				}
+				multiply_temp_variable = {
+					var = ban_ideology_var
+					value = 0.66
+				}
+				set_country_flag = banned_right_flag
+			}
+			custom_effect_tooltip = ban_right_party_tt
+			add_stability = ban_ideology_var
+		}
+
 		ai_will_do = {
 			base = 0
 		}
 	}
-	
-	institute_press_censorship_communist_state = {
 
-		icon = generic_political_discourse
+	ban_far_right_party = {
+
+		icon = generic_civil_support
 
 		available = {
-			if = {
-				limit = {
-					tag = SPR
-				}
-				NOT = {
-					has_idea = SPR_political_violence
-				}
-			}
-			if = {
-				limit = {
-					original_tag = BUL
-					has_dlc = "Battle for the Bosporus"
-				}
-				NOT = {
-					has_country_flag = {
-						flag = BUL_freedom_of_press_flag
-						days < 365
-					}
-					focus_progress = {
-						focus = BUL_freedom_of_press
-						progress > 0
-					}
-				}
-			}
+			far_right < 0.2
 		}
 
 		visible = {
-			has_government = communism
-			if = { 
-				limit = { 
-					has_dlc = "Battle for the Bosporus"
-				}
-				NOT = { original_tag = GRE }
+			NOT = { has_government = far_right }
+			far_right > 0
+		}
+
+		remove_trigger = {
+			hidden_trigger = {
+				has_government = far_right
 			}
 		}
-	
+
 		modifier = {
-			communism_drift = 0.03
-			fascism_drift = -0.01
-			democratic_drift = -0.01
-			neutrality_drift = -0.01
+			far_right_drift = -0.05
 		}
-	
-		days_remove = 360
-		cost = 150
-		
+
+		days_remove = -1
+		cost = 100
+
+		complete_effect = {
+			hidden_effect = {
+				set_temp_variable = {
+					var = ban_ideology_var
+					value = party_popularity@far_right
+				}
+				multiply_temp_variable = {
+					var = ban_ideology_var
+					value = -1
+				}
+				add_popularity = {
+					ideology = far_right
+					popularity = ban_ideology_var
+				}
+				multiply_temp_variable = {
+					var = ban_ideology_var
+					value = 0.66
+				}
+				set_country_flag = banned_far_right_flag
+			}
+			custom_effect_tooltip = ban_far_right_party_tt
+			add_stability = ban_ideology_var
+		}
+
 		ai_will_do = {
 			base = 0
 		}
 	}
-	
-	institute_press_censorship_neutrality_state = {
+
+	institute_press_censorship_far_left_state = {
 
 		icon = generic_political_discourse
 
-		available = {
-			if = {
-				limit = {
-					tag = SPR
-				}
-				NOT = {
-					has_idea = SPR_political_violence
-				}
-			}
-			if = {
-				limit = {
-					tag = TUR
-					has_dlc = "Battle for the Bosporus"
-				}
-				NOT = {
-					has_completed_focus = TUR_privatize_the_anadolu_agency
-				}
-			}
-			if = {
-				limit = {
-					original_tag = BUL
-					has_dlc = "Battle for the Bosporus"
-				}
-				NOT = {
-					has_country_flag = {
-						flag = BUL_freedom_of_press_flag
-						days < 365
-					}
-					focus_progress = {
-						focus = BUL_freedom_of_press
-						progress > 0
-					}
-				}
-			}
+		visible = {
+			has_government = far_left
 		}
 
-		visible = {
-			has_government = neutrality
-			if = { 
-				limit = { 
-					has_dlc = "Battle for the Bosporus"
-				}
-				NOT = { original_tag = GRE }
-			}
-		}
-	
 		modifier = {
-			communism_drift = -0.01
-			fascism_drift = -0.01
-			democratic_drift = -0.01
-			neutrality_drift = 0.03
+			far_left_drift = 0.03
+			left_drift = -0.005
+			center_left_drift = -0.005
+			center_drift = -0.005
+			center_right_drift = -0.005
+			right_drift = -0.005
+			far_right_drift = -0.005
 		}
-	
+
 		days_remove = 360
 		cost = 150
-		
+
 		ai_will_do = {
 			base = 0
-			modifier = { #Help Historical AI Finland
-				add = 10
-				has_dlc = "Arms Against Tyranny"
-				original_tag = FIN
-				FIN_is_historical_ai = yes
-				has_government = neutrality
-				NOT = { has_completed_focus = FIN_the_lone_wolf }
-				neutrality < 0.85
-			}
-			modifier = {
-				add = 1
-				has_dlc = "No Compromise, No Surrender"
-				original_tag = CHI
-				NOT = { has_completed_focus = CHI_end_military_primacy }
-				fascism > 0.1
-			}
-			modifier = {
-				add = 1.5
-				has_dlc = "No Compromise, No Surrender"
-				original_tag = CHI
-				NOT = { has_completed_focus = CHI_end_military_primacy }
-				communism > 0.1
-			}
-			modifier = {
-				add = 2.5
-				has_dlc = "No Compromise, No Surrender"
-				original_tag = CHI
-				NOT = { has_completed_focus = CHI_end_military_primacy }
-				communism > 0.25
-			}
 		}
 	}
+
+	institute_press_censorship_left_state = {
+
+		icon = generic_political_discourse
+
+		visible = {
+			has_government = left
+		}
+
+		modifier = {
+			far_left_drift = -0.005
+			left_drift = 0.03
+			center_left_drift = -0.005
+			center_drift = -0.005
+			center_right_drift = -0.005
+			right_drift = -0.005
+			far_right_drift = -0.005
+		}
+
+		days_remove = 360
+		cost = 150
+
+		ai_will_do = {
+			base = 0
+		}
+	}
+
+	institute_press_censorship_center_left_state = {
+
+		icon = generic_political_discourse
+
+		visible = {
+			has_government = center_left
+		}
+
+		modifier = {
+			far_left_drift = -0.005
+			left_drift = -0.005
+			center_left_drift = 0.03
+			center_drift = -0.005
+			center_right_drift = -0.005
+			right_drift = -0.005
+			far_right_drift = -0.005
+		}
+
+		days_remove = 360
+		cost = 150
+
+		ai_will_do = {
+			base = 0
+		}
+	}
+
+	institute_press_censorship_center_state = {
+
+		icon = generic_political_discourse
+
+		visible = {
+			has_government = center
+		}
+
+		modifier = {
+			far_left_drift = -0.005
+			left_drift = -0.005
+			center_left_drift = -0.005
+			center_drift = 0.03
+			center_right_drift = -0.005
+			right_drift = -0.005
+			far_right_drift = -0.005
+		}
+
+		days_remove = 360
+		cost = 150
+
+		ai_will_do = {
+			base = 0
+		}
+	}
+
+	institute_press_censorship_center_right_state = {
+
+		icon = generic_political_discourse
+
+		visible = {
+			has_government = center_right
+		}
+
+		modifier = {
+			far_left_drift = -0.005
+			left_drift = -0.005
+			center_left_drift = -0.005
+			center_drift = -0.005
+			center_right_drift = 0.03
+			right_drift = -0.005
+			far_right_drift = -0.005
+		}
+
+		days_remove = 360
+		cost = 150
+
+		ai_will_do = {
+			base = 0
+		}
+	}
+
+	institute_press_censorship_right_state = {
+
+		icon = generic_political_discourse
+
+		visible = {
+			has_government = right
+		}
+
+		modifier = {
+			far_left_drift = -0.005
+			left_drift = -0.005
+			center_left_drift = -0.005
+			center_drift = -0.005
+			center_right_drift = -0.005
+			right_drift = 0.03
+			far_right_drift = -0.005
+		}
+
+		days_remove = 360
+		cost = 150
+
+		ai_will_do = {
+			base = 0
+		}
+	}
+
+	institute_press_censorship_far_right_state = {
+
+		icon = generic_political_discourse
+
+		visible = {
+			has_government = far_right
+		}
+
+		modifier = {
+			far_left_drift = -0.005
+			left_drift = -0.005
+			center_left_drift = -0.005
+			center_drift = -0.005
+			center_right_drift = -0.005
+			right_drift = -0.005
+			far_right_drift = 0.03
+		}
+
+		days_remove = 360
+		cost = 150
+
+		ai_will_do = {
+			base = 0
+		}
+	}
+
 }

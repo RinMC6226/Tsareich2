@@ -49,8 +49,8 @@ autonomy_state = {
 
 	allowed = {
 		has_dlc = "Death or Dishonor"
-		OVERLORD = { has_government = fascism }
-		ROOT = { has_government = fascism }
+		OVERLORD = { has_government = far_right }
+		ROOT = { has_government = far_right }
 		if = {
 			limit = { has_dlc = "Waking the Tiger" }
 			NOT = { OVERLORD = { original_tag = JAP } }
@@ -64,11 +64,11 @@ autonomy_state = {
 
 			NOT = {
 				AND = {
-					OVERLORD = { has_government = fascism } 
+					OVERLORD = { has_government = far_right } 
 					OVERLORD = { tag = CHI } 
 				}
 				AND = {
-					OVERLORD = { has_government = neutrality } 
+					OVERLORD = { has_government = right } 
 					OVERLORD = { tag = CHI } 
 				}
 			}
