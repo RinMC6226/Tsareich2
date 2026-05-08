@@ -25,9 +25,6 @@ if = {
 	}
 }
 
-	var = iron_wolf_days_var
-	value = 100
-}
 
 IF = { 
 	limit = { has_dlc = "No Step Back" }
@@ -57,4 +54,3 @@ set_popularities = {
 	left = 15
 	right = 40
 }
-

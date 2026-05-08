@@ -24,12 +24,5 @@ set_popularities = {
 	right = 80
 }
 
-	name = "Duan Qirui"
-	desc = ""
-	picture = GFX_portrait_generic_china_political_leader
-	ideology = authoritarian_conservatism
-	traits = {
-		#
-	}
 }
 

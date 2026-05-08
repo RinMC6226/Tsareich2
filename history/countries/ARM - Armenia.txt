@@ -113,14 +113,6 @@ set_popularities = {
 	right = 100
 }
 
-	name = "Drastamat Kanayan"
-	desc = ""
-	picture = GFX_portrait_Drastamat_Kanayan
-	expire = "1953.3.1"
-	ideology = ultranationalism
-	traits = {
-		
-	}
 }
 
 	name = "Hovhannes Kajaznuni"

@@ -110,13 +110,6 @@ set_popularities = { #popularities based on 1933 election statistics.
 	right = 10
 }
 
-	name = "Albert Forster"
-	desc = ""
-	expire = "1953.3.1"
-	ideology = racial_supremacism
-	traits = {
-		
-	}
 }
 
 	name = "Arthur Brill"

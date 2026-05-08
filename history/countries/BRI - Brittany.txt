@@ -136,27 +136,7 @@ set_popularities = {
 	right = 30
 }
 
-	name = "Yann-Morvan Gefflot"
-	picture = GFX_portrait_Yann_Morvan_Gefflot
-	expire = "1965.1.1"
-	ideology = vanguard_communism
-}
 
-	name = "Morvan Marchal"
-	picture = GFX_portrait_Morvan_Marchal
-	expire = "1965.1.1"
-	ideology = social_democracy
-}
 
-	name = "Olier Mordrel"
-	picture = GFX_portrait_Olier_Mordrel
-	expire = "1965.1.1"
-	ideology = racial_supremacism
-}
 
-	name = "Maurice Duhamel"
-	picture = GFX_portrait_Maurice_Duhamel
-	expire = "1965.1.1"
-	ideology = centrism
-}
 

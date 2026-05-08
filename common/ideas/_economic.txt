@@ -31,22 +31,10 @@ ideas = {
 			}
 
 			allowed_to_remove = {
-				IF = {
-					limit = {
-						original_tag = USA
-					}
-					OR = {
-						has_war_support > 0.5
-						has_war = yes
-						has_completed_focus = USA_limited_intervention
-					}
-				}
-				ELSE = {
 					OR = {
 						has_war_support > 0.5
 						has_war = yes
 					}
-				}
 			}
 
 			cancel_if_invalid = no
@@ -77,22 +65,10 @@ ideas = {
 				factory_energy_consumption = -0.3
 			}
 			allowed_to_remove = {
-				IF = {
-					limit = {
-						original_tag = USA
-					}
-					OR = {
-						has_war_support > 0.75
-						has_war = yes
-						has_completed_focus = USA_limited_intervention
-					}
-				}
-				ELSE = {
 					OR = {
 						has_war_support > 0.75
 						has_war = yes
 					}
-				}
 			}
 
 			cancel_if_invalid = no
@@ -125,107 +101,9 @@ ideas = {
 			available = {
 				has_war_support > 0.15
 				
-				IF = {
-					limit = {
-						original_tag = HUN
-						has_dlc = "Death or Dishonor"
-						NOT = {
-							has_dlc = "Gotterdammerung"
-						}
-					}
-					IF = {
-						limit = {
-							has_dlc = "Arms Against Tyranny"
-						}
-						NOT = { has_idea = HUN_treaty_of_triannon_aat }
-					}
-					ELSE = {
-						NOT = { has_idea = HUN_treaty_of_triannon }
-					}
-				}
-				ELSE_IF = {
-					limit = {
-						original_tag = HUN
-						has_dlc = "Gotterdammerung"
-					}
-					IF = {
-						limit = {
-							has_dlc = "Arms Against Tyranny"
-						}
-						custom_trigger_tooltip = {
-							tooltip = wuw_HUN_not_has_trianon_for_laws_tt
-							NOT = { 
-								OR = {
-									has_idea = HUN_treaty_of_triannon_aat_wuw 
-									has_idea = HUN_treaty_of_triannon_aat_wuw_no_air_debuff 
-									has_idea = HUN_treaty_of_triannon_aat_wuw_no_army_exp_debuff 
-									has_idea = HUN_treaty_of_triannon_aat_wuw_no_air_or_army_debuff 
-								}
-							}
-							
-						}		
-					}
-					ELSE = {
-						custom_trigger_tooltip = {
-							tooltip = wuw_HUN_not_has_trianon_for_laws_tt
-							NOT = { 
-								OR = {
-									has_idea = HUN_treaty_of_triannon_wuw 
-									has_idea = HUN_treaty_of_triannon_wuw_no_army_exp_debuff 
-									has_idea = HUN_treaty_of_triannon_wuw_no_air_debuff 
-									has_idea = HUN_treaty_of_triannon_wuw_no_air_or_army_debuff 
-								}
-							}
-						}
-					}
-				}
 
-				if = {
-					limit = {
-						has_completed_focus = USA_limited_intervention
-						has_defensive_war = no
-					}
-					has_war_support > 0.3
-					congress_high_support_trigger = yes
-				}
-				if = {
-					limit = {
-						original_tag = TUR
-						has_dlc = "Battle for the Bosporus"
-					}
-					NOT = {
-						OR = {
-							has_active_mission = TUR_etatism_crisis_2
-							has_active_mission = TUR_etatism_crisis_3
-							has_active_mission = TUR_etatism_crisis_4
-						}
-					}
-				}
-				if = {
-					limit = {
-						original_tag = CZE
-						has_dlc = "Peace For Our Time"
-					}
-					custom_trigger_tooltip = {
-						tooltip = CZE_bop_no_industrialists_tt
-						NOT = {
-							OR = {
-								has_idea = CZE_industrialists_veto
-								has_idea = CZE_industrialists_veto_2
-							}
-						}
-					}
-				}
 			}
 			on_add = {
-				if = {
-					limit = {
-						tag = USA
-						has_completed_focus = USA_limited_intervention
-						has_defensive_war = no
-					}
-					USA_congress_large_opposition = yes
-				}
 			}
 
 			cost = 150
@@ -254,7 +132,7 @@ ideas = {
 					factor = 0 #don't even look at it if you could be taking partial mob
 				}
 				modifier = {
-					tag = ENG
+					always = no
 					has_war = no
 					date < 1937.6.1
 					factor = 0
@@ -267,88 +145,7 @@ ideas = {
 			available = {
 				has_war_support > 0.25
 
-				IF = {
-					limit = {
-						original_tag = HUN
-						has_dlc = "Death or Dishonor"
-						NOT = {
-							has_dlc = "Gotterdammerung"
-						}
-					}
-					IF = {
-						limit = {
-							has_dlc = "Arms Against Tyranny"
-						}
-						OR = {
-							has_completed_focus = HUN_secret_rearmament
-							NOT = { has_idea = HUN_treaty_of_triannon_aat }
-						}
-					}
-					ELSE = {
-						OR = {
-							has_completed_focus = HUN_secret_rearmament
-							NOT = { has_idea = HUN_treaty_of_triannon }
-						}
-					}
-				}
-				ELSE_IF = {
-					limit = {
-						original_tag = HUN
-						has_dlc = "Gotterdammerung"
-					}
-					IF = {
-						limit = {
-							has_dlc = "Arms Against Tyranny"
-						}
-						OR = {
-							has_completed_focus = wuw_HUN_secret_rearmament
-							NOT = { has_idea = HUN_treaty_of_triannon_aat_wuw }
-						}
-					}
-					ELSE = {
-						OR = {
-							has_completed_focus = wuw_HUN_secret_rearmament
-							NOT = { has_idea = HUN_treaty_of_triannon_wuw }
-						}
-					}
-				}
 
-				if = {
-					limit = {
-						has_completed_focus = USA_limited_intervention
-						has_defensive_war = no
-					}
-					has_war_support > 0.5
-					congress_high_support_trigger = yes
-				}
-				if = {
-					limit = {
-						original_tag = TUR
-						has_dlc = "Battle for the Bosporus"
-					}
-					NOT = {
-						OR = {
-							has_active_mission = TUR_etatism_crisis_1
-							has_active_mission = TUR_etatism_crisis_3
-							has_active_mission = TUR_etatism_crisis_4
-						}
-					}
-				}
-				if = {
-					limit = {
-						original_tag = CZE
-						has_dlc = "Peace For Our Time"
-					}
-					custom_trigger_tooltip = {
-						tooltip = CZE_bop_no_industrialists_tt
-						NOT = {
-							OR = {
-								has_idea = CZE_industrialists_veto
-								has_idea = CZE_industrialists_veto_2
-							}
-						}
-					}
-				}
 			}
 
 			cost = 150
@@ -364,14 +161,6 @@ ideas = {
 
 			cancel_if_invalid = no
 			on_add = {
-				if = {
-					limit = {
-						tag = USA
-						has_completed_focus = USA_limited_intervention
-						has_defensive_war = no
-					}
-					USA_congress_large_opposition = yes
-				}
 			}
 			ai_will_do = {
    				factor = 2
@@ -384,7 +173,7 @@ ideas = {
 				
 				modifier = {
 					add = 80
-					original_tag = SOV
+					always = no
 					date < 1937.1.1
 					NOT = { 
 						OR = {
@@ -395,7 +184,7 @@ ideas = {
 				}
 				
 				modifier = {
-					original_tag = SIA
+					always = no
 					NOT = { 
 						OR = {
 							has_idea = war_economy 
@@ -408,8 +197,8 @@ ideas = {
 				modifier = {
 					factor = 100
 					OR = {
-						original_tag = URG
-						original_tag = PAR
+						always = no
+						always = no
 					}
 					NOT = {
 						has_idea = war_economy
@@ -427,26 +216,6 @@ ideas = {
 				OR = {
 					has_government = far_right
 					OR = { has_government = far_left has_government = left }
-					if = {
-						limit = {
-							PHI_SEA = yes
-						}
-						if = {
-							limit = {
-								has_idea = PHI_ties_with_nationalist_spain
-							}
-							has_idea = PHI_ties_with_nationalist_spain
-						}
-						else_if = {
-							limit = {
-								has_idea = PHI_ties_with_nationalist_spain_2
-							}
-							has_idea = PHI_ties_with_nationalist_spain_2
-						}
-						else = {
-							hidden_trigger = { always = no } #NEED TO HAVE AN ALWAYS AS AN END STATEMENT IF URE USING AN IF ELSE IN AN OR STATEMENT OTHERWISE THE EVALUATION BREAKS!!
-						}
-					}
 					else = {
 						hidden_trigger = { always = no } #NEED TO HAVE AN ALWAYS AS AN END STATEMENT IF URE USING AN IF ELSE IN AN OR STATEMENT OTHERWISE THE EVALUATION BREAKS!!
 					}
@@ -462,97 +231,7 @@ ideas = {
 					}
 				}
 
-				IF = {
-					limit = {
-						original_tag = HUN
-						has_dlc = "Death or Dishonor"
-						NOT = {
-							has_dlc = "Gotterdammerung"
-						}
-					}
-					IF = {
-						limit = {
-							has_dlc = "Arms Against Tyranny"
-						}
-						NOT = { has_idea = HUN_treaty_of_triannon_aat }
-					}
-					ELSE = {
-						NOT = { has_idea = HUN_treaty_of_triannon }
-					}
-				}
-				ELSE_IF = {
-					limit = {
-						original_tag = HUN
-						has_dlc = "Gotterdammerung"
-					}
-					IF = {
-						limit = {
-							has_dlc = "Arms Against Tyranny"
-						}
-						custom_trigger_tooltip = {
-							tooltip = wuw_HUN_not_has_trianon_for_laws_tt
-							NOT = { 
-								OR = {
-									has_idea = HUN_treaty_of_triannon_aat_wuw 
-									has_idea = HUN_treaty_of_triannon_aat_wuw_no_air_debuff 
-									has_idea = HUN_treaty_of_triannon_aat_wuw_no_army_exp_debuff 
-									has_idea = HUN_treaty_of_triannon_aat_wuw_no_air_or_army_debuff 
-								}
-							}
-							
-						}		
-					}
-					ELSE = {
-						custom_trigger_tooltip = {
-							tooltip = wuw_HUN_not_has_trianon_for_laws_tt
-							NOT = { 
-								OR = {
-									has_idea = HUN_treaty_of_triannon_wuw 
-									has_idea = HUN_treaty_of_triannon_wuw_no_army_exp_debuff 
-									has_idea = HUN_treaty_of_triannon_wuw_no_air_debuff 
-									has_idea = HUN_treaty_of_triannon_wuw_no_air_or_army_debuff 
-								}
-							}
-						}
-					}
-				}
 
-				if = {
-					limit = {
-						has_completed_focus = USA_limited_intervention
-						has_defensive_war = no
-					}
-					has_war_support > 0.75
-					congress_high_support_trigger = yes
-				}
-				if = {
-					limit = {
-						original_tag = TUR
-						has_dlc = "Battle for the Bosporus"
-					}
-					NOT = {
-						OR = {
-							has_active_mission = TUR_etatism_crisis_1
-							has_active_mission = TUR_etatism_crisis_2
-							has_active_mission = TUR_etatism_crisis_4
-						}
-					}
-				}
-				if = {
-					limit = {
-						original_tag = CZE
-						has_dlc = "Peace For Our Time"
-					}
-					custom_trigger_tooltip = {
-						tooltip = CZE_bop_no_industrialists_tt
-						NOT = {
-							OR = {
-								has_idea = CZE_industrialists_veto
-								has_idea = CZE_industrialists_veto_2
-							}
-						}
-					}
-				}
 			}
 
 			cost = 150
@@ -568,14 +247,6 @@ ideas = {
 
 			cancel_if_invalid = no
 			on_add = {
-				if = {
-					limit = {
-						tag = USA
-						has_completed_focus = USA_limited_intervention
-						has_defensive_war = no
-					}
-					USA_congress_large_opposition = yes
-				}
 			}
 			ai_will_do = {
    				base = 3
@@ -612,7 +283,7 @@ ideas = {
 				modifier = {
 					# We will lose the war support after the war anyway
 					factor = 0
-					original_tag = GER
+					always = no
 					has_civil_war = yes
 					OR = { has_government = center_right has_government = right }
 				}
@@ -620,11 +291,11 @@ ideas = {
 				modifier = {
 					# They will take the focus to gain this for free, so they shouldn't spend pp on it too willy-nilly 
 					factor = 0.5
-					original_tag = JAP
+					always = no
 					OR = {
 						is_historical_focus_on = yes
-						has_country_flag = JAP_AI_RANDOM_FASCIST
-						has_country_flag = JAP_AI_RANDOM_NEUTRALITY
+						always = no
+						always = no
 					}
 
 				}
@@ -634,21 +305,6 @@ ideas = {
 		tot_economic_mobilisation = {
 
 			visible = {
-				if = {
-					limit = {
-						original_tag = GER
-					}
-					NOT = { has_completed_focus = GER_totaler_krieg }
-				}
-				if = {
-					limit = {
-						original_tag = JAP
-					}
-					NOT = { 
-						has_completed_focus = JAP_sea_national_defense_state 
-						has_completed_focus = JAP_prepare_for_the_final_war 
-					}
-				}
 			}
 
 			available = {
@@ -661,107 +317,9 @@ ideas = {
 					}
 				}
 
-				IF = {
-					limit = {
-						original_tag = HUN
-						has_dlc = "Death or Dishonor"
-						NOT = {
-							has_dlc = "Gotterdammerung"
-						}
-					}
-					IF = {
-						limit = {
-							has_dlc = "Arms Against Tyranny"
-						}
-						NOT = { has_idea = HUN_treaty_of_triannon_aat }
-					}
-					ELSE = {
-						NOT = { has_idea = HUN_treaty_of_triannon }
-					}
-				}
-				ELSE_IF = {
-					limit = {
-						original_tag = HUN
-						has_dlc = "Gotterdammerung"
-					}
-					IF = {
-						limit = {
-							has_dlc = "Arms Against Tyranny"
-						}
-						custom_trigger_tooltip = {
-							tooltip = wuw_HUN_not_has_trianon_for_laws_tt
-							NOT = { 
-								OR = {
-									has_idea = HUN_treaty_of_triannon_aat_wuw 
-									has_idea = HUN_treaty_of_triannon_aat_wuw_no_air_debuff 
-									has_idea = HUN_treaty_of_triannon_aat_wuw_no_army_exp_debuff 
-									has_idea = HUN_treaty_of_triannon_aat_wuw_no_air_or_army_debuff 
-								}
-							}
-							
-						}		
-					}
-					ELSE = {
-						custom_trigger_tooltip = {
-							tooltip = wuw_HUN_not_has_trianon_for_laws_tt
-							NOT = { 
-								OR = {
-									has_idea = HUN_treaty_of_triannon_wuw 
-									has_idea = HUN_treaty_of_triannon_wuw_no_army_exp_debuff 
-									has_idea = HUN_treaty_of_triannon_wuw_no_air_debuff 
-									has_idea = HUN_treaty_of_triannon_wuw_no_air_or_army_debuff 
-								}
-							}
-						}
-					}
-				}
 				
-				if = {
-					limit = {
-						has_completed_focus = USA_limited_intervention
-						has_defensive_war = no
-					}
-					has_war_support > 0.9
-					congress_high_support_trigger = yes
-				}
-				if = {
-					limit = {
-						original_tag = TUR
-						has_dlc = "Battle for the Bosporus"
-					}
-					NOT = {
-						OR = {
-							has_active_mission = TUR_etatism_crisis_1
-							has_active_mission = TUR_etatism_crisis_2
-							has_active_mission = TUR_etatism_crisis_3
-						}
-					}
-				}
-				if = {
-					limit = {
-						original_tag = CZE
-						has_dlc = "Peace For Our Time"
-					}
-					custom_trigger_tooltip = {
-						tooltip = CZE_bop_no_industrialists_tt
-						NOT = {
-							OR = {
-								has_idea = CZE_industrialists_veto
-								has_idea = CZE_industrialists_veto_2
-							}
-						}
-					}
-				}
 			}
 			on_add = {
-				if = {
-					limit = {
-						tag = USA
-						has_completed_focus = USA_limited_intervention
-						has_defensive_war = no
-					}
-					USA_congress_large_opposition = yes
-				}
 			}
 			ai_will_do = {
    				base = 1
@@ -792,7 +350,7 @@ ideas = {
 				modifier = {
 					factor = 0
 
-					tag = GER
+					always = no
 					NOT = { has_doctrine = last_stand }
 					has_war = yes
 					date < 1944.01.01
@@ -800,7 +358,7 @@ ideas = {
 				modifier = {
 					factor = 0
 
-					tag = SOV
+					always = no
 					has_war = yes
 					OR = {
 						has_manpower < 2000000
@@ -832,12 +390,12 @@ ideas = {
 		totaler_krieg_economy = {
 
 			visible = {
-				original_tag = GER
-				has_completed_focus = GER_totaler_krieg
+				always = no
+				always = no
 			}
 
 			available = {
-				has_completed_focus = GER_totaler_krieg
+				always = no
 				has_war_with_major = yes
 				has_war_support > 0.8
 				any_enemy_country = {
@@ -870,17 +428,17 @@ ideas = {
 			picture = JAP_national_defense_state
 
 			visible = {
-				original_tag = JAP
+				always = no
 				OR = {
-					has_completed_focus = JAP_prepare_for_the_final_war
-					has_completed_focus = JAP_sea_national_defense_state
+					always = no
+					always = no
 				}
 			}
 
 			available = {
 				OR = {
-					has_completed_focus = JAP_prepare_for_the_final_war
-					has_completed_focus = JAP_sea_national_defense_state
+					always = no
+					always = no
 				}
 				OR = {
 					has_war_with_major = yes
@@ -1065,8 +623,8 @@ ideas = {
 			allowed_to_remove = {
 				OR = {
 					has_war = yes
-					has_completed_focus = POL_integrate_gdansk_industries
-					has_completed_focus = POL_expand_gdynia_seaport
+					always = no
+					always = no
 					NOT = {
 						owns_state = 85
 						owns_state = 807
@@ -1086,21 +644,6 @@ ideas = {
 					remove_dynamic_modifier = { modifier = international_city }
 				}
 				hidden_effect = {
-					if = {
-						limit = {
-							tag = POL
-							85 = { is_demilitarized_zone = no }
-							has_civil_war = no 
-						}
-						85 = {
-							if = {
-								limit = {
-									has_dynamic_modifier = { modifier = international_city }
-								}
-								remove_dynamic_modifier = { modifier = international_city }
-							}
-						}
-					}
 				}
 			}
 			
@@ -1110,27 +653,7 @@ ideas = {
 		free_trade = {
 
 			available = {
-				if = {
-					limit = {
-						original_tag = SPR
-						has_dlc = "La Resistance"
-					}
-					NOT = { has_completed_focus = SPR_all_must_bear_the_torch }
-				}
-				if = {
-					limit = {
-						original_tag = GER
-					}
-					NOT = { has_completed_focus = GER_autarky_efforts }
-				}
 
-				if = {
-					limit = {
-						original_tag = PRC
-						has_dlc = "No Compromise, No Surrender"
-					}
-					NOT = { has_completed_focus = PRC_promote_paper_bills }
-				}
 			}
 
 			cost = 150
@@ -1156,8 +679,8 @@ ideas = {
 					factor = 300
 
 					OR = {
-						tag = PER
-						tag = IRQ
+						always = no
+						always = no
 					}
 					is_in_faction = no
 				}
@@ -1165,20 +688,20 @@ ideas = {
 				modifier = {
 					factor = 300
 
-					tag = BRA
+					always = no
 					date > 1943.1.1 # at this point we can probably cash in on rubber lack in the world
 				}
 
 				modifier = {
 					factor = 400
-					original_tag = SWE
+					always = no
 					date > 1941.6.1
 				}
 
 				# Oil for hitlers oil throne!
 				modifier = {
 					factor = 600
-					tag = ROM
+					always = no
 					is_in_faction_with = GER
 				}
    			}
@@ -1188,34 +711,7 @@ ideas = {
 
 			available = {
 
-				if = {
-					limit = {
-						original_tag = CHI
-						has_dlc = "Waking the Tiger"
-					}
-					NOT = { has_idea = CHI_nine_power_treaty }
-				}
-				if = {
-					limit = {
-						original_tag = SPR
-						has_dlc = "La Resistance"
-					}
-					NOT = { has_completed_focus = SPR_all_must_bear_the_torch }
-				}
-				if = {
-					limit = {
-						original_tag = GER
-					}
-					NOT = { has_completed_focus = GER_autarky_efforts }
-				}
 
-				if = {
-					limit = {
-						original_tag = PRC
-						has_dlc = "No Compromise, No Surrender"
-					}
-					NOT = { has_completed_focus = PRC_promote_paper_bills }
-				}
 			}
 
 
@@ -1248,12 +744,12 @@ ideas = {
 					is_in_faction = no
 					OR = {
 						# portugal and sweden are special tungsten snowflakes
-						tag = POR
-						tag = SWE
+						always = no
+						always = no
 
 						# Iraq & Iran are special oil snowflakes
-						tag = PER
-						tag = IRQ
+						always = no
+						always = no
 					}
 				}
 				modifier = {
@@ -1282,43 +778,16 @@ ideas = {
 							has_idea = partial_economic_mobilisation
 							has_idea = war_economy
 							has_idea = tot_economic_mobilisation
-							if = {
-								limit = {
-									original_tag = GER
-								}
-								has_idea = totaler_krieg_economy
-							}
 							else = {
 								hidden_trigger = { always = no } #NEED TO HAVE AN ALWAYS AS AN END STATEMENT IF URE USING AN IF ELSE IN AN OR STATEMENT OTHERWISE THE EVALUATION BREAKS!!
 							}
 						}
-					}
-					if = {
-						limit = {
-							original_tag = RAJ
-							has_dlc = "Graveyard of Empires"
-						}
-						has_completed_focus = RAJ_raise_import_duties
 					}
 					else = {
 						hidden_trigger = { always = no } #NEED TO HAVE AN ALWAYS AS AN END STATEMENT IF URE USING AN IF ELSE IN AN OR STATEMENT OTHERWISE THE EVALUATION BREAKS!!
 					}
 				}
 
-				if = {
-					limit = {
-						original_tag = CHI
-						has_dlc = "Waking the Tiger"
-					}
-					NOT = { has_idea = CHI_nine_power_treaty }
-				}
-				if = {
-					limit = {
-						original_tag = SPR
-						has_dlc = "La Resistance"
-					}
-					NOT = { has_completed_focus = SPR_all_must_bear_the_torch }
-				}
 			}
 
 			cost = 150
@@ -1372,7 +841,7 @@ ideas = {
 				}
 				modifier = { #Germany should keep its Autarkic Economy
 					factor = 0.5
-					original_tag = GER
+					always = no
 					OR = {
 						has_idea = autarkic_economy
 						has_idea = autarkic_economy_improved
@@ -1383,9 +852,9 @@ ideas = {
 
 		autarkic_economy = {
 			visible = {
-				original_tag = GER
-				has_completed_focus = GER_autarky_efforts
-				NOT = { has_completed_focus = GER_autarky_achieved }
+				always = no
+				always = no
+				NOT = { always = no }
 			}
 
 			available = {
@@ -1427,8 +896,8 @@ ideas = {
 			picture = autarkic_economy
 			name = autarkic_economy
 			visible = {
-				original_tag = GER
-				has_completed_focus = GER_autarky_achieved
+				always = no
+				always = no
 			}
 
 			available = {
@@ -1473,63 +942,17 @@ ideas = {
 
 				has_war = yes
 
-				IF = {
-					limit = {
-						NOT = {
-							original_tag = JAP
-						}
-					}
-					OR = {
-						has_government = far_right
-						OR = { has_government = far_left has_government = left }
-					}
-				}
-				ELSE_IF = {
-					limit = {
-						original_tag = JAP
-					}
-					OR = {
-						has_government = far_right
-						OR = { has_government = far_left has_government = left }
-						AND = {
-							has_completed_focus = JAP_sea_state_general_mobilization_law
-							OR = { has_government = center_right has_government = right }
-						}
-					}
-				}
 				
 				OR = {
 					has_idea = war_economy
 					has_idea = tot_economic_mobilisation
-					IF = {
-						limit = {
-							original_tag = GER
-						}
-						has_idea = totaler_krieg_economy
-					}
-					ELSE_IF = {
-						limit = {
-							original_tag = JAP
-						}
-						#has_completed_focus = JAP_sea_state_general_mobilization_law
-						has_idea = national_defense_state
-					}
-					ELSE = {
 						hidden_trigger = { always = no } #NEED TO HAVE AN ALWAYS AS AN END STATEMENT IF URE USING AN IF ELSE IN AN OR STATEMENT OTHERWISE THE EVALUATION BREAKS!!
-					}
 				}
 				OR = {
-					NOT = {	tag = SOV }
+					NOT = {	always = no }
 					NOT = { has_opinion_modifier = MR_pact }
 				}
 
-				IF = {
-					limit = {
-						original_tag = CHI
-						has_dlc = "Waking the Tiger"
-					}
-					NOT = { has_idea = CHI_nine_power_treaty }
-				}
 
 			}
 
@@ -1578,7 +1001,7 @@ ideas = {
 				}
 				modifier = { #Germany should keep its Autarkic Economy
 					factor = 0.5
-					original_tag = GER
+					always = no
 					is_in_faction = yes
 					OR = {
 						has_idea = autarkic_economy
@@ -1593,8 +1016,8 @@ ideas = {
 				always = no
 			}
 			visible = {
-				original_tag = RAJ
-				has_completed_focus = RAJ_special_economic_zones
+				always = no
+				always = no
 			}
 			available = {
 

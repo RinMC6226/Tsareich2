@@ -289,8 +289,5 @@ if = {
 	}
 }
 
-	type = train_equipment_1
-	amount = 7
-}
 
 # 1939 Start #

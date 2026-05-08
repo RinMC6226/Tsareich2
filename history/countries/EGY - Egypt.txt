@@ -50,13 +50,6 @@ set_popularities = {
 	right = 50
 }
 
-	name = "Muhammad Naguib"
-	desc = ""
-	picture = GFX_portrait_Muhammad_Naguib
-	ideology = liberalism
-	traits = {
-		#
-	}
 }
 
 	name = "Ahmed Husayn"

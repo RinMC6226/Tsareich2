@@ -4,7 +4,7 @@ ideas = {
 		use_list_view = yes
 		
 		rural_economy = {
-			picture = GER_recovering_economy #仮
+			picture = GER_recovering_economy #莉ｮ
 			allowed = {
 				always = no
 			}

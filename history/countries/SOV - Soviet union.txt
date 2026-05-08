@@ -84,13 +84,6 @@ if = {
 #UI Elements
 #Generic portraits
 set_temp_variable = { i = 0 }
-while_loop_effect = {
-	limit = {
-	}
-	add_to_temp_variable = { i = 1 }
-}
-
-
 #GOSPROYEKTSTROY
 
 #USSR ACADEMY OF SCIENCES

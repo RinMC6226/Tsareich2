@@ -24,12 +24,5 @@ set_popularities = {
 	right = 100
 }
 
-	name = "Dravidian Federal Council"
-	desc = ""
-	picture = GFX_portrait_generic_indian_political_leader
-	ideology = authoritarian_conservatism
-	traits = {
-		#
-	}
 }
 

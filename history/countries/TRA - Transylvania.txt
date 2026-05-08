@@ -75,17 +75,6 @@ set_politics = {
 	last_election = "1936.1.1"
 	election_frequency = 48
 }
-
-	name = "Iuliu Maniu"
-	desc = "POLITICS_IULIU_MANIU_DESC"
-	picture = GFX_portrait_Iuliu_Maniu
-	expire = "1965.1.1"
-	ideology = centrism
-	traits = {
-		#
-	}
-}
-
 set_popularities = {
 	center = 33
 	right = 33

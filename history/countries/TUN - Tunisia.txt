@@ -30,13 +30,3 @@ set_popularities = {
 	left = 0
 	right = 100
 }
-
-	name = "Habib Bourguiba"
-	desc = ""
-	picture = GFX_portrait_Habib_Bourguiba
-	ideology = authoritarian_conservatism
-	traits = {
-		#
-	}
-}
-

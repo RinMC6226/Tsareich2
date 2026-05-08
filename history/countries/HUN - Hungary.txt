@@ -154,9 +154,6 @@ IF = {
 
 	IF = {
 		limit = { has_dlc = "Arms Against Tyranny" }
-		add_relation_rule_override = { 
-			target = GER
-		}
 		give_market_access = GER
 	}
 
@@ -251,9 +248,9 @@ set_politics = {
 	election_frequency = 48
 }
 set_popularities = {
-	center = 25
-	far_right = 31
-	right = 44
+	center = 0
+	far_right = 0
+	right = 100
 }
 
 # RECRUITING HUNGARIAN CHARACTERS
@@ -282,8 +279,6 @@ IF = {
 
 add_breakthrough_progress = {
 	specialization = specialization_land
-	value = 0.2 # Due to Straussler
-}
 
 add_breakthrough_progress = {
 	specialization = specialization_air

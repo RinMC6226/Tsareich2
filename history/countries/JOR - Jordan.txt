@@ -46,33 +46,3 @@ set_popularities = {
 	left = 5
 	right = 50
 }
-
-
-	name = "Hashim Kheir"
-	desc = ""
-	picture = GFX_portrait_Hashim_Kheir
-	ideology = conservatism
-	traits = {
-		#
-	}
-}
-
-	name = "Saeed Ahmadi"
-	desc = ""
-	picture = GFX_portrait_Saeed_Ahmadi
-	ideology = ultranationalism
-	traits = {
-		#
-	}
-}
-
-	name = "Fu'ad Nassar"
-	desc = ""
-	picture = GFX_portrait_Fuad_Nassar
-	ideology = vanguard_communism
-	traits = {
-		#
-	}
-}
-
-

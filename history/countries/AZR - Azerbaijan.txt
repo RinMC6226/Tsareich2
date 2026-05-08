@@ -100,14 +100,6 @@ set_popularities = {
 	right = 30
 }
 
-	name = "Mir Jafar Baghirov"
-	desc = ""
-	picture = GFX_portrait_Mir_Jafar_Baghirov
-	expire = "1953.3.1"
-	ideology = vanguard_communism
-	traits = {
-		
-	}
 }
 
 	name = "Mammad Amin Rasulzade"

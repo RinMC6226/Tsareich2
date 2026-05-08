@@ -39,13 +39,6 @@ set_popularities = {
 }
 
 
-	name = "Itzhak Gaster"
-	desc = ""
-	picture = GFX_portrait_Itzhak_Gaster
-	ideology = ultranationalism
-	traits = {
-		#
-	}
 }
 
 	name = "Rudolf Szabo"

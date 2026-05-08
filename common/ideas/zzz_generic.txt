@@ -3,9 +3,7 @@ ideas = {
 	hidden_ideas = {
 		
 		league_of_nations_member_idea = { 
-			allowed = {
-				always = no
-			}
+			
 
 			allowed_civil_war = {
 				always = yes
@@ -20,9 +18,7 @@ ideas = {
 		
 
 		continuous_naval_production = {
-			allowed = {
-				always = no
-			}
+			
 
 			allowed_civil_war = {
 				always = yes
@@ -35,11 +31,8 @@ ideas = {
 			}
 		}
 
-
 		continuous_air_production = {
-			allowed = {
-				always = no
-			}
+			
 
 			allowed_civil_war = {
 				always = yes
@@ -105,8 +98,7 @@ ideas = {
 
 #		sp_multi_charge_large_caliber_gun_small_size_ns = { #MM: Used for Small version of V-3 SP. Uncomment if Code Support gets implemented 
 #			allowed = {
-#				always = no
-#			}
+#				#			}
 #
 #			allowed_civil_war = {
 #				always = yes
@@ -123,9 +115,7 @@ ideas = {
 	# Special ones that can be applied on other countries through focus system.
 	country = {
 		damage_to_naval_base_low = {
-			allowed = {
-				always = no
-			}
+			
 
 			allowed_civil_war = {
 				always = yes
@@ -141,9 +131,7 @@ ideas = {
 			}
 		}
 		damage_to_naval_base_medium = {
-			allowed = {
-				always = no
-			}
+			
 
 			allowed_civil_war = {
 				always = yes
@@ -159,9 +147,7 @@ ideas = {
 			}
 		}
 		damage_to_naval_base_high = {
-			allowed = {
-				always = no
-			}
+			
 
 			picture = POL_disjointed_industry
 
@@ -183,9 +169,7 @@ ideas = {
 
 			removal_cost = -1
 
-			allowed = {
-				always = no # Added via event
-			}
+			
 
 			#on_add = {
 			#	set_rule = { can_join_factions = no }
@@ -209,9 +193,7 @@ ideas = {
 
 			removal_cost = -1
 
-			allowed = {
-				always = no # Added via event
-			}
+			
 
 			modifier = {
 				operative_slot = 1
@@ -221,9 +203,7 @@ ideas = {
 		
 		nationalism = {
 			
-			allowed = {
-				always = no
-			}
+			
 
 			allowed_civil_war = {
 				has_government = far_right
@@ -240,9 +220,7 @@ ideas = {
 		}
 		MTG_TEST_NAVAL_IDEA = { #MTG_TODO_GABRIEL: remove before shipping
 			
-			allowed = {
-				always = no
-			}
+			
 
 			removal_cost = -1
 
@@ -258,9 +236,7 @@ ideas = {
 
 		internationalism = {
 			
-			allowed = {
-				always = no
-			}
+			
 
 			allowed_civil_war = {
 				OR = { has_government = far_left has_government = left }
@@ -278,9 +254,7 @@ ideas = {
 
 		fascist_influence = {
 			
-			allowed = {
-				always = no
-			}
+			
 
 			allowed_civil_war = {
 				has_government = far_right
@@ -298,9 +272,7 @@ ideas = {
 
 		strong_fascist_influence = {
 			name = fascist_influence
-			allowed = {
-				always = no
-			}
+			
 
 			allowed_civil_war = {
 				has_government = far_right
@@ -321,9 +293,7 @@ ideas = {
 		communist_influence = {
 			
 			
-			allowed = {
-				always = no
-			}
+			
 
 			allowed_civil_war = {
 				OR = { has_government = far_left has_government = left }
@@ -342,9 +312,7 @@ ideas = {
 		democratic_influence = {
 			
 			
-			allowed = {
-				always = no
-			}
+			
 
 			allowed_civil_war = {
 				OR = { has_government = center_left has_government = center has_government = center_right }
@@ -361,9 +329,7 @@ ideas = {
 		}
 		
 		neutrality_influence = {
-			allowed = {
-				always = no
-			}
+			
 
 			allowed_civil_war = {
 				OR = { has_government = center_right has_government = right }
@@ -383,9 +349,7 @@ ideas = {
 		fascist_influence_weak = {
 			name = fascist_influence
 
-			allowed = {
-				always = no
-			}
+			
 
 			allowed_civil_war = {
 				has_government = far_right
@@ -404,9 +368,7 @@ ideas = {
 		communist_influence_weak = {
 			name = communist_influence
 			
-			allowed = {
-				always = no
-			}
+			
 
 			allowed_civil_war = {
 				OR = { has_government = far_left has_government = left }
@@ -425,9 +387,7 @@ ideas = {
 		democratic_influence_weak = {
 			name = democratic_influence
 			
-			allowed = {
-				always = no
-			}
+			
 
 			allowed_civil_war = {
 				OR = { has_government = center_left has_government = center has_government = center_right }
@@ -446,9 +406,7 @@ ideas = {
 		neutrality_influence_weak = {
 			name = neutrality_influence
 
-			allowed = {
-				always = no
-			}
+			
 
 			allowed_civil_war = {
 				OR = { has_government = center_right has_government = right }
@@ -465,21 +423,17 @@ ideas = {
 		}
 		
 		soviet_german_friendship = {
-			allowed = {
-				always = no
-			}
+			
 
 			allowed_civil_war = {
 				OR = {
 					AND = {
-						tag = GER
 						has_government = far_right
 						SOV = {
 							OR = { has_government = far_left has_government = left }
 						}
 					}
 					AND = {
-						tag = SOV
 						OR = { has_government = far_left has_government = left }
 						GER = {
 							has_government = far_right
@@ -491,13 +445,11 @@ ideas = {
 			cancel = {
 				OR = {
 					AND = {
-						tag = GER
 						is_subject = yes
 						has_war_with = SOV
 						NOT = { is_in_faction_with = SOV }
 					}
 					AND = {
-						tag = SOV
 						is_subject = yes
 						has_war_with = GER
 						NOT = { is_in_faction_with = GER }
@@ -506,15 +458,6 @@ ideas = {
 			}
 
 			on_remove = {
-				if = {
-					limit = {
-						tag = GER
-						is_in_faction_with = SOV
-					}
-					GER = {
-						dismantle_faction = yes
-					}
-				}
 			}
 
 			removal_cost = -1
@@ -529,9 +472,7 @@ ideas = {
 		communist_pressure = {
 			
 			
-			allowed = {
-				always = no
-			}
+			
 
 			allowed_civil_war = {
 				OR = { has_government = far_left has_government = left }
@@ -549,9 +490,7 @@ ideas = {
 		socialist_education = {
 			
 			
-			allowed = {
-				always = no
-			}
+			
 
 			allowed_civil_war = {
 				OR = { has_government = far_left has_government = left }
@@ -570,9 +509,7 @@ ideas = {
 		# Secret Weapons
 		generic_secret_weapons_ns = {
 			
-			allowed = {
-				always = no
-			}
+			
 
 			allowed_civil_war = {
 				always = yes
@@ -590,9 +527,7 @@ ideas = {
 		# from decision
 		paramilitary_training = {
 			
-			allowed = {
-				always = no
-			}
+			
 
 			allowed_civil_war = {
 				has_government = far_right
@@ -611,9 +546,7 @@ ideas = {
 		nation_building = {
 			
 			
-			allowed = {
-				always = no
-			}
+			
 
 			allowed_civil_war = {
 				OR = { has_government = center_left has_government = center has_government = center_right }
@@ -630,9 +563,7 @@ ideas = {
 		}
 		
 		military_parade = {
-			allowed = {
-				always = no
-			}
+			
 
 			allowed_civil_war = {
 				OR = { has_government = center_right has_government = right }
@@ -650,9 +581,7 @@ ideas = {
 		# Generic Focus Ideas
 
 		special_forces = {
-			allowed = {
-				always = no
-			}
+			
 
 			allowed_civil_war = {
 				always = yes
@@ -670,9 +599,7 @@ ideas = {
 		collectivist_ethos_focus = {
 			
 		
-			allowed = {
-				always = no
-			}
+			
 
 			allowed_civil_war = {
 				OR = { has_government = far_left has_government = left }
@@ -690,9 +617,7 @@ ideas = {
 		liberty_ethos_focus = {
 			
 			
-			allowed = {
-				always = no
-			}
+			
 
 			allowed_civil_war = {
 				OR = { has_government = center_left has_government = center has_government = center_right }
@@ -710,9 +635,7 @@ ideas = {
 		militarism_focus = {
 			
 			
-			allowed = {
-				always = no
-			}
+			
 
 			allowed_civil_war = {
 				has_government = far_right
@@ -731,9 +654,7 @@ ideas = {
 		military_youth_focus = {
 			
 			
-			allowed = {
-				always = no
-			}
+			
 
 			allowed_civil_war = {
 				OR = {
@@ -755,9 +676,7 @@ ideas = {
 		paramilitarism_focus = {
 			
 			
-			allowed = {
-				always = no
-			}
+			
 
 			allowed_civil_war = {
 				OR = {
@@ -779,9 +698,7 @@ ideas = {
 		indoctrination_focus = {
 			
 			
-			allowed = {
-				always = no
-			}
+			
 
 			allowed_civil_war = {
 				OR = {
@@ -803,9 +720,7 @@ ideas = {
 		ideological_fanaticism_focus = {
 			
 			
-			allowed = {
-				always = no
-			}
+			
 
 			allowed_civil_war = {
 				always = yes
@@ -829,9 +744,7 @@ ideas = {
 		political_commissars_focus = {
 			
 			
-			allowed = {
-				always = no
-			}
+			
 
 			allowed_civil_war = {
 				OR = { has_government = far_left has_government = left }
@@ -849,9 +762,7 @@ ideas = {
 		neutrality_idea = {
 			
 			
-			allowed = {
-				always = no
-			}
+			
 
 			allowed_civil_war = {
 				OR = { has_government = center_right has_government = right }
@@ -878,9 +789,7 @@ ideas = {
 		deterrence = {
 			
 			
-			allowed = {
-				always = no
-			}
+			
 
 			allowed_civil_war = {
 				always = yes
@@ -900,9 +809,7 @@ ideas = {
 		}
 
 		volunteer_corps_focus = {
-			allowed = {
-				always = no
-			}
+			
 
 			allowed_civil_war = {
 				always = yes
@@ -918,9 +825,7 @@ ideas = {
 		}
 
 		foreign_expeditions_focus = {
-			allowed = {
-				always = no
-			}
+			
 
 			allowed_civil_war = {
 				always = yes
@@ -938,9 +843,7 @@ ideas = {
 		}
 
 		why_we_fight_focus = {
-			allowed = {
-				always = no
-			}
+			
 
 			allowed_civil_war = {
 				always = yes
@@ -957,9 +860,7 @@ ideas = {
 		}	
 
 		idea_political_correctness = {
-			allowed = {
-				always = no
-			}
+			
 
 			allowed_civil_war = {
 				always = yes
@@ -976,9 +877,7 @@ ideas = {
 
 		communism_banned = {
 			picture = anti_soviet_pact
-			allowed = {
-				always = no
-			}
+			
 
 			allowed_civil_war = {
 				NOT = {
@@ -995,9 +894,7 @@ ideas = {
 
 			picture = generic_fascism_banned
 
-			allowed = {
-				always = no
-			}
+			
 
 			allowed_civil_war = {
 				NOT = {
@@ -1013,9 +910,7 @@ ideas = {
 		race_for_the_bomb = {
 			
 			
-			allowed = {
-				always = no
-			}
+			
 
 			allowed_civil_war = {
 				always = yes
@@ -1038,9 +933,7 @@ ideas = {
 		race_for_the_bomb_outclassed = {
 			
 			
-			allowed = {
-				always = no
-			}
+			
 
 			allowed_civil_war = {
 				always = yes
@@ -1063,9 +956,7 @@ ideas = {
 		
 		received_attache = {
 			
-			allowed = {
-				always = no
-			}
+			
 
 			allowed_civil_war = {
 				always = yes
@@ -1080,9 +971,7 @@ ideas = {
 		}
 		draft_dodging = {
 			
-			allowed = {
-				always = no
-			}
+			
 			
 			removal_cost = -1
 
@@ -1099,9 +988,7 @@ ideas = {
 
 		draft_dodging_2 = {
 			
-			allowed = {
-				always = no
-			}
+			
 			
 			removal_cost = -1
 
@@ -1118,9 +1005,7 @@ ideas = {
 
 		draft_dodging_3 = {
 			
-			allowed = {
-				always = no
-			}
+			
 			
 			removal_cost = -1
 
@@ -1137,9 +1022,7 @@ ideas = {
 
 		strikes_1 = {
 			
-			allowed = {
-				always = no
-			}
+			
 			
 			removal_cost = -1
 
@@ -1158,9 +1041,7 @@ ideas = {
 		}
 		strikes_2 = {
 			
-			allowed = {
-				always = no
-			}
+			
 			
 			removal_cost = -1
 
@@ -1179,9 +1060,7 @@ ideas = {
 		}
 		strikes_3 = {
 			
-			allowed = {
-				always = no
-			}
+			
 			
 			removal_cost = -1
 
@@ -1200,9 +1079,7 @@ ideas = {
 		}
 		mutiny_1 = {
 			
-			allowed = {
-				always = no
-			}
+			
 			
 			removal_cost = -1
 
@@ -1222,9 +1099,7 @@ ideas = {
 		}
 		mutiny_2 = {
 			
-			allowed = {
-				always = no
-			}
+			
 			
 			removal_cost = -1
 
@@ -1244,9 +1119,7 @@ ideas = {
 		}
 		mutiny_3 = {
 			
-			allowed = {
-				always = no
-			}
+			
 			
 			removal_cost = -1
 
@@ -1268,9 +1141,7 @@ ideas = {
 		# Civil War Ideas
 		civil_war_surprise_attack_plan = {
 
-			allowed = {
-				always = no
-			}
+			
 
 			allowed_civil_war = {
 				always = yes
@@ -1287,9 +1158,7 @@ ideas = {
 
 		idea_weapons_for_the_resistance = {
 
-			allowed = {
-				always = no
-			}
+			
 
 			allowed_civil_war = {
 				always = yes
@@ -1306,12 +1175,9 @@ ideas = {
 		}	
 		MTG_naval_treaty_adherent = {
 
-			allowed = {
-				always = no
-			}
+			
 
 			allowed_civil_war = {
-				always = no
 			}
 			
 			removal_cost = -1
@@ -1326,12 +1192,9 @@ ideas = {
 		}
 		MTG_naval_treaty_adherent_reduced = {
 
-			allowed = {
-				always = no
-			}
+			
 
 			allowed_civil_war = {
-				always = no
 			}
 			
 			removal_cost = -1
@@ -1346,12 +1209,9 @@ ideas = {
 		}
 		MTG_naval_treaty_cheating = {
 			name = MTG_naval_treaty_adherent
-			allowed = {
-				always = no
-			}
+			
 
 			allowed_civil_war = {
-				always = no
 			}
 			
 			removal_cost = -1
@@ -1366,12 +1226,9 @@ ideas = {
 		}
 		MTG_naval_treaty_cheating_reduced = {
 			name = MTG_naval_treaty_adherent_reduced
-			allowed = {
-				always = no
-			}
+			
 
 			allowed_civil_war = {
-				always = no
 			}
 			
 			removal_cost = -1
@@ -1386,9 +1243,7 @@ ideas = {
 		}
 
 		organization_of_african_unity_member_idea = { 
-			allowed = {
-				always = no
-			}
+			
 
 			allowed_civil_war = {
 				always = yes
@@ -1463,57 +1318,17 @@ ideas = {
 			picture = generic_tank_manufacturer_1
 			
 			allowed = {
-				NOT = { OR = { tag = GER tag = ENG tag = SOV tag = FRA tag = ITA tag = JAP tag = USA tag = BEL tag = CZE tag = FIN tag = SLO tag = RKH } }
 				NOT = {
 					has_allowed_idea_with_traits = { idea = tank_manufacturer limit = 1 }
 				}
 				NOT = {
 					AND = {
-						OR = { tag = AST tag = SAF tag = NZL tag = CAN }
-						has_dlc = "Together for Victory"
-					}
-				}
-				NOT = {
-					AND = {
 						OR = {
 							is_literally_china = yes
-							tag = MAN
 						}
 						has_dlc = "Waking the Tiger"
 					}
 				}
-				NOT = {
-					AND = {
-						OR = { tag = MEX }
-						has_dlc = "Man the Guns"
-					}
-				}
-				NOT = {
-					AND = {
-						OR = { tag = BUL tag = GRE tag = TUR }
-						has_dlc = "Battle for the Bosporus"
-					}
-				}
-				NOT = {
-					AND = {
-						OR = { tag = ETH tag = SWI }
-						has_dlc = "By Blood Alone"
-					}
-				}
-				NOT = {
-					AND = {
-						OR = { tag = CHL tag = ARG tag = BRA }
-						has_dlc = "Trial of Allegiance"
-					}
-				}
-
-				NOT = {
-					AND = {
-						OR = { tag = HUN tag = AUS }
-						has_dlc = "Gotterdammerung"
-					}
-				}
-
 				PHI_SEA = no
 			}
 			
@@ -1537,57 +1352,11 @@ ideas = {
 			picture = generic_naval_manufacturer_1
 
 			allowed = {
-				NOT = { OR = { tag = GER tag = ENG tag = SOV tag = FRA tag = ITA tag = JAP tag = USA tag = SWE tag = HUN tag = CZE tag = FIN tag = RKH } }
 				NOT = {
 					has_allowed_idea_with_traits = { idea = naval_manufacturer limit = 1 }
 				}
 				NOT = {
 					AND = {
-						OR = { tag = AST tag = CAN tag = NZL tag = RAJ }
-						has_dlc = "Together for Victory"
-					}
-				}
-				NOT = {
-					AND = {
-						OR = { tag = CHI tag = PRC tag = MAN tag = SHX tag = XSM tag = GXC tag = YUN tag = SIK tag = MEN }
-						has_dlc = "Waking the Tiger"
-					}
-				}
-				NOT = {
-					AND = {
-						OR = { tag = MEX tag = HOL }
-						has_dlc = "Man the Guns"
-					}
-				}
-				NOT = {
-					AND = {
-						OR = { tag = SPR tag = SPA tag = SPB tag = SPC tag = SPD }
-						has_dlc = "La Resistance"
-					}
-				}
-				NOT = {
-					AND = {
-						OR = { tag = BUL tag = GRE tag = TUR }
-						has_dlc = "Battle for the Bosporus"
-					}
-				}
-				NOT = {
-					AND = {
-						OR = { tag = ETH tag = SWI }
-						has_dlc = "By Blood Alone"
-					}
-				}
-
-				NOT = {
-					AND = {
-						OR = { tag = CHL tag = ARG tag = BRA }
-						has_dlc = "Trial of Allegiance"
-					}
-				}
-
-				NOT = {
-					AND = {
-						tag = AUS 
 						has_dlc = "Gotterdammerung"
 					}
 				}
@@ -1615,57 +1384,11 @@ ideas = {
 			picture = generic_air_manufacturer_1
 
 			allowed = {
-				NOT = { OR = { tag = GER tag = ENG tag = SOV tag = FRA tag = ITA tag = JAP tag = USA tag = FIN } }
 				NOT = {
 					has_allowed_idea_with_traits = { idea = light_aircraft_manufacturer limit = 1 }
 				}
-				if = {
-					limit = {
-						has_dlc = "Death or Dishonor"
-					}
-					NOT = { tag = ROM } NOT = { tag = YUG }
-				}
 				NOT = {
 					AND = {
-						OR = { tag = CHI tag = PRC tag = MAN tag = SHX tag = XSM tag = GXC tag = YUN tag = SIK tag = MEN }
-						has_dlc = "Waking the Tiger"
-					}
-				}
-				NOT = {
-					AND = {
-						OR = { tag = MEX tag = HOL }
-						has_dlc = "Man the Guns"
-					}
-				}
-				NOT = {
-					AND = {
-						OR = { tag = SPR tag = SPA tag = SPB tag = SPC tag = SPD tag = POR}
-						has_dlc = "La Resistance"
-					}
-				}
-				NOT = {
-					AND = {
-						OR = { tag = BUL tag = GRE tag = TUR }
-						has_dlc = "Battle for the Bosporus"
-					}
-				}
-				NOT = {
-					AND = {
-						OR = { tag = ETH tag = SWI }
-						has_dlc = "By Blood Alone"
-					}
-				}
-
-				NOT = {
-					AND = {
-						OR = { tag = ARG }
-						has_dlc = "Trial of Allegiance"
-					}
-				}
-
-				NOT = {
-					AND = {
-						tag = AUS 
 						has_dlc = "Gotterdammerung"
 					}
 				}
@@ -1688,61 +1411,9 @@ ideas = {
 			picture = generic_air_manufacturer_3
 
 			allowed = {
-				NOT = { OR = { tag = GER tag = ENG tag = SOV tag = FRA tag = ITA tag = JAP tag = USA tag = ROM tag = FIN tag = SLO tag = CZE } }
 				NOT = {
 					has_allowed_idea_with_traits = { idea = medium_aircraft_manufacturer limit = 1 }
 				}
-				if = {
-					limit = {
-						has_dlc = "Death or Dishonor"
-					}
-					NOT = { tag = YUG }
-				}
-				NOT = {
-					AND = {
-						OR = { tag = CHI tag = PRC tag = MAN tag = SHX tag = XSM tag = GXC tag = YUN tag = SIK tag = MEN }
-						has_dlc = "Waking the Tiger"
-					}
-				}
-				NOT = {
-					AND = {
-						OR = { tag = MEX tag = HOL }
-						has_dlc = "Man the Guns"
-					}
-				}
-				NOT = {
-					AND = {
-						OR = { tag = SPR tag = SPA tag = SPB tag = SPC tag = SPD tag = POR }
-						has_dlc = "La Resistance"
-					}
-				}
-				NOT = {
-					AND = {
-						OR = { tag = BUL tag = GRE tag = TUR }
-						has_dlc = "Battle for the Bosporus"
-					}
-				}
-				NOT = {
-					AND = {
-						OR = { tag = ETH tag = SWI }
-						has_dlc = "By Blood Alone"
-					}
-				}
-
-				NOT = {
-					AND = {
-						OR = { tag = CHL tag = ARG }
-						has_dlc = "Trial of Allegiance"
-					}
-				}
-
-				NOT = {
-					AND = {
-						OR = { tag = HUN tag = AUS }
-						has_dlc = "Gotterdammerung"
-					}
-				}
-
 				PHI_SEA = no
 			}
 			
@@ -1761,60 +1432,9 @@ ideas = {
 			picture = generic_air_manufacturer_2
 			
 			allowed = {
-				NOT = { OR = { tag = GER tag = ENG tag = SOV tag = FRA tag = ITA tag = JAP tag = USA tag = CAN tag = ROM tag = FIN } }
 				NOT = {
 					has_allowed_idea_with_traits = { idea = heavy_aircraft_manufacturer limit = 1 }
 				}
-				if = {
-					limit = {
-						has_dlc = "Death or Dishonor"
-					}
-					NOT = { tag = YUG }
-				}
-				NOT = {
-					AND = {
-						OR = { tag = CHI tag = PRC tag = MAN tag = SHX tag = XSM tag = GXC tag = YUN tag = SIK tag = MEN }
-						
-					}
-				}
-				NOT = {
-					AND = {
-						OR = { tag = MEX tag = HOL }
-						has_dlc = "Man the Guns"
-					}
-				}
-				NOT = {
-					AND = {
-						OR = { tag = SPR tag = SPA tag = SPB tag = SPC tag = SPD tag = POR }
-						has_dlc = "La Resistance"
-					}
-				}
-				NOT = {
-					AND = {
-						OR = { tag = BUL tag = GRE tag = TUR }
-						has_dlc = "Battle for the Bosporus"
-					}
-				}
-				NOT = {
-					AND = {
-						OR = { tag = ETH tag = SWI }
-						has_dlc = "By Blood Alone"
-					}
-				}
-				NOT = {
-					AND = {
-						OR = { tag = CHL tag = ARG }
-						has_dlc = "Trial of Allegiance"
-					}
-				}
-
-				NOT = {
-					AND = {
-						OR = { tag = HUN tag = AUS }
-						has_dlc = "Gotterdammerung"
-					}
-				}
-
 				PHI_SEA = no
 			}
 			
@@ -1833,57 +1453,9 @@ ideas = {
 			picture = generic_naval_manufacturer_2
 
 			allowed = {
-				NOT = { OR = { tag = GER tag = ENG tag = SOV tag = FRA tag = ITA tag = JAP tag = USA tag = CAN tag = ROM tag = YUG tag = FIN tag = CZE tag = SLO tag = RKH } }
 				NOT = {
 					has_allowed_idea_with_traits = { idea = naval_aircraft_manufacturer limit = 1 }
 				}
-				if = {
-					limit = {
-						has_dlc = "Waking the Tiger"
-					}
-					NOT = {
-						OR = { tag = CHI tag = PRC tag = MAN tag = SHX tag = XSM tag = GXC tag = YUN tag = SIK tag = MEN }
-					}
-				}
-				NOT = {
-					AND = {
-						OR = { tag = MEX tag = HOL }
-						has_dlc = "Man the Guns"
-					}
-				}
-				NOT = {
-					AND = {
-						OR = { tag = SPR tag = SPA tag = SPB tag = SPC tag = SPD tag = POR }
-						has_dlc = "La Resistance"
-					}
-				}
-				NOT = {
-					AND = {
-						OR = { tag = BUL tag = GRE tag = TUR }
-						has_dlc = "Battle for the Bosporus"
-					}
-				}
-				NOT = {
-					AND = {
-						OR = { tag = ETH tag = SWI }
-						has_dlc = "By Blood Alone"
-					}
-				}
-
-				NOT = {
-					AND = {
-						OR = { tag = CHL tag = ARG }
-						has_dlc = "Trial of Allegiance"
-					}
-				}
-
-				NOT = {
-					AND = {
-						OR = { tag = HUN tag = AUS }
-						has_dlc = "Gotterdammerung"
-					}
-				}
-
 				PHI_SEA = no
 			}
 			
@@ -1905,86 +1477,17 @@ ideas = {
 			picture = generic_industrial_concern_1
 
 			allowed = {
-				NOT = { OR = { original_tag = GER original_tag = ENG original_tag = SOV original_tag = FRA original_tag = ITA original_tag = JAP original_tag = USA original_tag = HUN original_tag = FIN } }
 				NOT = {
 					has_allowed_idea_with_traits = { idea = industrial_concern limit = 1 }
 				}
 				NOT = {
 					AND = {
-						OR = { original_tag = CHI original_tag = PRC original_tag = MAN original_tag = SHX original_tag = XSM original_tag = GXC original_tag = YUN original_tag = SIK }
-						has_dlc = "Waking the Tiger"
-					}
-				}
-				NOT = {
-					AND = {
-						OR = { original_tag = MEX original_tag = HOL }
-						has_dlc = "Man the Guns"
-					}
-				}
-				NOT = {
-					AND = {
-						OR = { original_tag = SPR original_tag = SPA original_tag = SPB original_tag = SPC original_tag = SPD }
-						has_dlc = "La Resistance"
-					}
-				}
-				NOT = {
-					AND = {
-						OR = { original_tag = BUL original_tag = GRE original_tag = TUR }
-						has_dlc = "Battle for the Bosporus"
-					}
-				}
-				NOT = {
-					AND = {
-						original_tag = ETH
 						has_dlc = "By Blood Alone"
 					}
 				}
 				NOT = {
 					AND = {
-						OR = { original_tag = ICE original_tag = DEN }
-						has_dlc = "Arms Against Tyranny"
-					}
-				}
-				NOT = {
-					AND = {
-						original_tag = BRA
 						has_dlc = "Trial of Allegiance"
-					}
-				}
-
-				NOT = {
-					AND = {
-						OR = { original_tag = HUN original_tag = AUS original_tag = BEL original_tag = COG }
-						has_dlc = "Gotterdammerung"
-					}
-				}
-
-				NOT = {
-					AND = {
-						OR = {
-							original_tag = PER
-							original_tag = IRQ
-							original_tag = RAJ
-						}
-						has_dlc = "Graveyard of Empires"
-					}
-				}
-
-				NOT = {
-					AND = {
-						OR = {
-							original_tag = PHI
-							original_tag = SND
-							original_tag = HBC
-							original_tag = XIC
-							original_tag = GDC
-							original_tag = SIC
-							original_tag = NXM
-							original_tag = GSM
-							original_tag = KHM
-							original_tag = KUM 
-						}
-						has_dlc = "No Compromise, No Surrender"
 					}
 				}
 			}
@@ -2004,7 +1507,6 @@ ideas = {
 			picture = generic_electronics_concern_1
 
 			allowed = {
-				NOT = { OR = { original_tag = GER original_tag = ENG original_tag = SOV original_tag = FRA original_tag = ITA original_tag = JAP original_tag = USA original_tag = FIN } }
 				NOT = {
 					has_allowed_idea_with_traits = { idea = electronics_concern limit = 1 }
 				}
@@ -2012,71 +1514,18 @@ ideas = {
 					AND = {
 						has_DLC = "Waking the Tiger"
 						OR = {
-							original_tag = MAN
 							is_literally_china = yes
 						}
 					}
 				}
 				NOT = {
 					AND = {
-						OR = { original_tag = HOL original_tag = MEX }
-						has_dlc = "Man the Guns"
-					}
-				}
-				NOT = {
-					AND = {
-						OR = { original_tag = SPR original_tag = SPA original_tag = SPB original_tag = SPC original_tag = SPD }
-						has_dlc = "La Resistance"
-					}
-				}
-				NOT = {
-					AND = {
-						OR = { original_tag = BUL original_tag = GRE original_tag = TUR }
-						has_dlc = "Battle for the Bosporus"
-					}
-				}
-				NOT = {
-					AND = {
-						OR = { original_tag = ETH original_tag = SWI }
-						has_dlc = "By Blood Alone"
-					}
-				}
-				NOT = {
-					AND = {
-						OR = { original_tag = FIN original_tag = ICE original_tag = SWE }
-						has_dlc = "Arms Against Tyranny"
-					}
-				}
-				NOT = {
-					AND = {
 						has_dlc = "Trial of Allegiance"
-						original_tag = BRA
 					}
 				}
-
-				NOT = {
-					AND = {
-						OR = { original_tag = HUN original_tag = AUS original_tag = BEL original_tag = COG }
-						has_dlc = "Gotterdammerung"
-					}
-				}
-
-				NOT = {
-					AND = {
-						OR = {
-							original_tag = PER
-							original_tag = IRQ
-							original_tag = RAJ
-						}
-						has_dlc = "Graveyard of Empires"
-					}
-				}
-
 				NOT = {
 					AND = {
 #						OR = {
-							original_tag = PHI
-#						}
 						has_dlc = "No Compromise, No Surrender"
 					}
 				}
@@ -2102,45 +1551,12 @@ ideas = {
 			picture = generic_motorized_equipment_manufacturer_3
 
 			allowed = {
-				NOT = { OR = { tag = GER tag = ENG tag = SOV tag = FRA tag = ITA tag = JAP tag = USA tag = FIN } }
 				NOT = {
 					has_allowed_idea_with_traits = { idea = motorized_equipment_manufacturer limit = 1 }
 				}
 				NOT = {
 					AND = {
-						OR = { tag = CHI tag = PRC tag = MAN tag = SHX tag = XSM tag = GXC tag = YUN tag = SIK tag = MEN }
-						has_dlc = "Waking the Tiger"
-					}
-				}
-				NOT = {
-					AND = {
-						OR = { tag = HOL }
-						has_dlc = "Man the Guns"
-					}
-				}
-				NOT = {
-					AND = {
-						OR = { tag = SPR tag = SPA tag = SPB tag = SPC tag = SPD tag = POR }
-						has_dlc = "La Resistance"
-					}
-				}
-				NOT = {
-					AND = {
-						OR = { tag = BUL tag = GRE tag = TUR }
-						has_dlc = "Battle for the Bosporus"
-					}
-				}
-				NOT = {
-					AND = {
-						tag = ETH
 						has_dlc = "By Blood Alone"
-					}
-				}
-
-				NOT = {
-					AND = {
-						OR = { tag = HUN tag = AUS }
-						has_dlc = "Gotterdammerung"
 					}
 				}
 			}
@@ -2160,44 +1576,17 @@ ideas = {
 			picture = generic_infantry_equipment_manufacturer_2
 
 			allowed = {
-				NOT = { OR = { tag = GER tag = ENG tag = SOV tag = FRA tag = ITA tag = JAP tag = USA tag = HUN tag = FIN } }
 				NOT = {
 					has_allowed_idea_with_traits = { idea = infantry_equipment_manufacturer limit = 1 }
 				}
 				NOT = {
 					AND = {
-						OR = { tag = CHI tag = PRC tag = MAN tag = SHX tag = XSM tag = GXC tag = YUN tag = SIK tag = MEN }
-						has_dlc = "Waking the Tiger"
-					}
-				}
-				NOT = {
-					AND = {
-						OR = { tag = HOL }
-						has_dlc = "Man the Guns"
-					}
-				}
-				NOT = {
-					AND = {
-						OR = { tag = SPR tag = SPA tag = SPB tag = SPC tag = SPD tag = POR }
-						has_dlc = "La Resistance"
-					}
-				}
-				NOT = {
-					AND = {
-						OR = { tag = BUL tag = GRE tag = TUR }
-						has_dlc = "Battle for the Bosporus"
-					}
-				}
-				NOT = {
-					AND = {
-						tag = ETH
 						has_dlc = "By Blood Alone"
 					}
 				}
 
 				NOT = {
 					AND = {
-						tag = AUS
 						has_dlc = "Gotterdammerung"
 					}
 				}
@@ -2218,51 +1607,23 @@ ideas = {
 			picture = generic_artillery_manufacturer_2
 
 			allowed = {
-				NOT = { OR = { tag = GER tag = ENG tag = SOV tag = FRA tag = ITA tag = JAP tag = USA tag = FIN } }
 				NOT = {
 					has_allowed_idea_with_traits = { idea = artillery_manufacturer limit = 1 }
 				}
 				NOT = {
 					AND = {
-						OR = { tag = CHI tag = PRC tag = MAN tag = SHX tag = XSM tag = GXC tag = YUN tag = SIK tag = MEN }
-						has_dlc = "Waking the Tiger"
-					}
-				}
-				NOT = {
-					AND = {
-						OR = { tag = HOL }
-						has_dlc = "Man the Guns"
-					}
-				}
-				NOT = {
-					AND = {
-						OR = { tag = SPR tag = SPA tag = SPB tag = SPC tag = SPD tag = POR }
-						has_dlc = "La Resistance"
-					}
-				}
-				NOT = {
-					AND = {
-						OR = { tag = BUL tag = GRE tag = TUR }
-						has_dlc = "Battle for the Bosporus"
-					}
-				}
-				NOT = {
-					AND = {
-						tag = ETH
 						has_dlc = "By Blood Alone"
 					}
 				}
 
 				NOT = {
 					AND = {
-						tag = CHL
 						has_dlc = "Trial of Allegiance"
 					}
 				}
 
 				NOT = {
 					AND = {
-						tag = HUN
 						has_dlc = "Gotterdammerung"
 					}
 				}

@@ -27,13 +27,3 @@ set_politics = {
 set_popularities = {
 	right = 100
 }
-
-	name = "Eduardo Tsonga"
-	picture = GFX_portrait_Eduardo_Tsonga
-	expire = "1965.1.1"
-	ideology = authoritarian_conservatism
-	traits = {
-		#
-	}
-}
-

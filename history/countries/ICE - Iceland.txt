@@ -113,14 +113,6 @@ IF = {
 		}
 	}
 
-		name = "Johannes Valurson"
-		desc = ""
-		picture = GFX_portrait_Johannes_Valurson
-		expire = "1965.1.1"
-		ideology = ultranationalism
-		traits = {
-			#
-		}
 	}
 
 		name = "Haraldur Gudmunsson"

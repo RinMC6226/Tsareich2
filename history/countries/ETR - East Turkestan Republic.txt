@@ -23,12 +23,5 @@ set_popularities = {
 	right = 0
 }
 
-	name = "Mahmud Muhiti"
-	desc = ""
-	picture = GFX_portrait_generic_china_political_leader
-	ideology = liberalism
-	traits = {
-		#
-	}
 }
 

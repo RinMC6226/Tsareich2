@@ -29,13 +29,3 @@ set_popularities = {
 	left = 5
 	right = 50
 }
-
-	name = "Mohammed V"
-	desc = ""
-	picture = GFX_portrait_Mohammed_V
-	ideology = authoritarian_conservatism
-	traits = {
-		#
-	}
-}
-

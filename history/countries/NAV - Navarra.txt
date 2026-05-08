@@ -45,16 +45,3 @@ set_popularities = {
 	far_right = 3
 	left = 4
 }
-
-	name = "Ramon Ormazabal Tife"
-	picture = GFX_portrait_Ramon_Ormazabal_Tife
-	expire = "1965.1.1"
-	ideology = orthodox_marxism
-}
-
-	name = "Luis Urrengoetxea"
-	picture = GFX_portrait_Luis_Urrengoetxea
-	expire = "1965.1.1"
-	ideology = liberalism
-}
-

@@ -27,10 +27,6 @@ IF = {
 
 	
 	ELSE = {
-
-		clamp_variable = {
-		}
-
 		division_template = {
 			name = "Mongol Levy"		
 			#division_names_group = 

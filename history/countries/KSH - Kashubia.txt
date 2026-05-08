@@ -131,12 +131,5 @@ set_popularities = {
 	right = 10
 }
 
-	name = "Aleksander Majkowski"
-	desc = ""
-	expire = "1953.3.1"
-	ideology = conservatism
-	traits = {
-		
-	}
 }
 

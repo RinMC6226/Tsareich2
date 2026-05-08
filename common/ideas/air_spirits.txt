@@ -171,7 +171,7 @@ ideas = {
 		}
 		cag_night_fighting_spirit = {
 			ledger = air
-			visible = { tag = ENG }
+			visible = { always = no }
 			modifier = {
 				air_carrier_night_penalty_reduction_factor = 0.25
 				carrier_night_traffic = 0.5

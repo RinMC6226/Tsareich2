@@ -46,28 +46,8 @@ set_popularities = {
 	left = 4
 }
 
-	name = "Fuco Gomez"
-	picture = GFX_portrait_Fuco_Gomez
-	expire = "1965.1.1"
-	ideology = orthodox_marxism
-}
 
-	name = "Alfonso Daniel Castelao"
-	picture = GFX_portrait_Alfonso_Daniel_Castelao
-	expire = "1965.1.1"
-	ideology = liberalism
-}
 
-	name = "Vicente Martinez Risco"
-	picture = GFX_portrait_Vicente_Martinez_Risco
-	expire = "1965.1.1"
-	ideology = ultranationalism
-}
 
-	name = "Santiago Casares Quiroga"
-	picture = GFX_portrait_Santiago_Casares_Quiroga
-	expire = "1965.1.1"
-	ideology = centrism
-}
 
 

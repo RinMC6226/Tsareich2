@@ -58,10 +58,6 @@ if = { #########   By Blood Alone Stuff
 	####### Characters
 	
 	####### Militarry Readiness Setup
-
-	clamp_variable = {
-	}
-
 		#Active Militia Stuff
 
 

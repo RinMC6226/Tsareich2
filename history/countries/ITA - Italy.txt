@@ -1,4 +1,4 @@
-﻿capital = 2 # Rome
+capital = 2 # Rome
 
 set_party_name = { ideology = far_left long_name = GEN_far_left_party_long name = GEN_far_left_party }
 set_party_name = { ideology = left long_name = GEN_left_party_long name = GEN_left_party }
@@ -35,13 +35,6 @@ IF = {
 	}
 }
 
-add_ideas = {
-	vittorio_emanuele
-	vittoria_mutilata
-	limited_exports
-	limited_conscription
-	partial_economic_mobilisation
-}
 
 ############# MILITIA CAP ###############
 set_variable = { ITA_militias_cap = 12 } #WARNING THIS VALUE NEEDS TOP MATCH THE division_cap value for the blackshirt template in the OOB
@@ -152,7 +145,6 @@ set_variable = { ITA_military_industry_dm_industrial_capacity_dockyard = 0 }
 set_variable = { ITA_military_industry_air_equipment_upgrade_xp_cost = 0 }
 
 add_dynamic_modifier = { modifier = ITA_military_industry_dynamic_modifier }
-add_ideas = ITA_hidden_research_penalties_ns # Hidden NS to apply research penalties as part of the Military Industry Dynamic Modifier.
 
 
 #REGIO ESERCITO
@@ -403,7 +395,6 @@ if = {
 	limit = {
 		has_dlc = "Man the Guns"
 	}
-	add_ideas = MTG_naval_treaty_cheating
 }
 
 1939.1.1 = {
@@ -416,23 +407,10 @@ if = {
 		limit = {
 			has_dlc = "Man the Guns"
 		}
-		remove_ideas = MTG_naval_treaty_adherent
 		remove_naval_treaty_effect = yes
 	}
 
 	#adding ministers
-	add_ideas = {
-		ITA_giovanni_marinelli
-		ITA_giacomo_acerbo
-		emilio_de_bono
-		vittorio_ambrosio
-		fiat
-		beretta
-
-		#laws
-		partial_economic_mobilisation
-		extensive_conscription
-	}
 
 	### FOCUS TREE ###
 	unlock_national_focus = ITA_solid_progress
@@ -483,9 +461,6 @@ if = {
 
 	# Effects from The New Emperor of Ethiopia
 
-	ITA_vittorio_emanuele_iii = { 
-		add_country_leader_trait = emperor_of_ethiopia
-	}
 
 	add_popularity = {
 		ideology = right
@@ -522,8 +497,6 @@ if = {
 
 	# Effects from Albanian Occupation
 	add_named_threat = { threat = 2 name = ITA_albania_war_goal }
-	add_ideas = vittorio_emanuele_albania_ethiopia
-	ITA_vittorio_emanuele_iii = { add_country_leader_trait = king_of_albania }
 
 
 	set_technology = {
@@ -690,40 +663,16 @@ if = {
 	limit = {
 		NOT = { has_dlc = "By Blood Alone" }
 	}
-	ITA_benito_mussolini = { unit_leader_event = { id = BBA_italo_ethiopian_war_events.01 days = 14 } }  # JAN 36 - Conquer Ethiopia  - APR/JUNE 36 - (120-170 days)
 }
 
-ITA_benito_mussolini = { unit_leader_event = { id = BBA_italy_missiolinis.11 days = 185 random_days = 5 } } # JUN 36 - Conquer Ethiopia  - DEC 36 - (170 days)
 #ITA_benito_mussolini = { unit_leader_event = { id = BBA_italy_missiolinis.21 days = 370 random_days = 5 } } # JAN 37 - Pacify Ethiopia - DEC 39 - (720 days) #MM: This is now triggered after war with MTTH
-ITA_benito_mussolini = { unit_leader_event = { id = BBA_italy_missiolinis.31 days = 370 random_days = 5 } } # JAN 37 - Industrialization - DEC 37 - (350 days)
-ITA_benito_mussolini = { unit_leader_event = { id = BBA_italy_missiolinis.41 days = 735 random_days = 5 } } # JAN 38 - Increase Army - DEC 38 (350 days)
-ITA_benito_mussolini = { unit_leader_event = { id = BBA_italy_missiolinis.00 days = 1105 random_days = 5 } } # JAN 39 - Random mission dispatcher (350 days) - This event auto-triggers itself every 6 months
 # Next Missiolini is random and comes in JUN 39, next one in JUN 40.
 
 
 #CIVIL WAR SPLIT FLAGS
-ITA_set_up_character_cw_flags_effect = yes
 
 
 #PURGE FLAGS
-ITA_achille_starace = { set_character_flag = ITA_character_can_be_purged }
-ITA_renato_ricci = { set_character_flag = ITA_character_can_be_purged }
-ITA_carlo_scorza = { set_character_flag = ITA_character_can_be_purged }
-ITA_roberto_farinacci = { set_character_flag = ITA_character_can_be_purged }
-ITA_alberto_beneduce = { set_character_flag = ITA_character_can_be_purged }
-ITA_carlo_favagrossa = { set_character_flag = ITA_character_can_be_purged }
-ITA_giacomo_acerbo = { set_character_flag = ITA_character_can_be_purged }
-ITA_guido_jung = { set_character_flag = ITA_character_can_be_purged }
-ITA_serafino_mazzolini = { set_character_flag = ITA_character_can_be_purged }
-ITA_rodolfo_graziani = { set_character_flag = ITA_character_can_be_purged }
-ITA_ubaldo_soddu = { set_character_flag = ITA_character_can_be_purged }
-ITA_ugo_cavallero = { set_character_flag = ITA_character_can_be_purged }
-ITA_francesco_zingales = { set_character_flag = ITA_character_can_be_purged }
-ITA_alessandro_pirzio_biroli = { set_character_flag = ITA_character_can_be_purged }
-ITA_ettore_baldassarre = { set_character_flag = ITA_character_can_be_purged }
-ITA_annibale_bergonzoli = { set_character_flag = ITA_character_can_be_purged }
-ITA_pietro_badoglio = { set_character_flag = ITA_character_can_be_purged } 
-ITA_emilio_de_bono = { set_character_flag = ITA_character_can_be_purged }
 
 
 
@@ -731,8 +680,6 @@ if = {
 	limit = {
 		has_dlc = "La Resistance"
 	}
-	ITA_create_francesco_de_martini_operative = yes
-	ITA_create_paolo_caccia_dominioni_operative = yes
 }
 
 

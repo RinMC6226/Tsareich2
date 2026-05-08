@@ -50,22 +50,7 @@ set_popularities = {
 }
 
 
-	name = "Andreu Nin i Perez"
-	picture = GFX_portrait_Andreu_Nin_i_Perez
-	expire = "1965.1.1"
-	ideology = orthodox_marxism
-}
 
-	name = "Daniel Cardona i Civit"
-	picture = GFX_portrait_Daniel_Cardona_i_Civit
-	expire = "1965.1.1"
-	ideology = ultranationalism
-}
 
-	name = "Francesc Cambo i Batlle"
-	picture = GFX_portrait_Francesc_Cambo_i_Batlle
-	expire = "1965.1.1"
-	ideology = centrism
-}
 
 

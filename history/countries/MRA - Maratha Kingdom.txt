@@ -23,13 +23,3 @@ set_popularities = {
 	left = 0
 	right = 100
 }
-
-	name = "Shahu Regency Council"
-	desc = ""
-	picture = GFX_portrait_generic_indian_political_leader
-	ideology = authoritarian_conservatism
-	traits = {
-		#
-	}
-}
-

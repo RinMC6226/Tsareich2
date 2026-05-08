@@ -45,33 +45,3 @@ set_popularities = {
 	left = 10
 	right = 30
 }
-
-
-	name = "Pierre Gemayel"
-	desc = ""
-	picture = GFX_portrait_Pierre_Gemayel
-	ideology = ultranationalism
-	traits = {
-		#
-	}
-}
-
-	name = "Melick Yarad"
-	desc = ""
-	picture = GFX_portrait_Melick_Yarad
-	ideology = authoritarian_conservatism
-	traits = {
-		#
-	}
-}
-
-	name = "Rami Sarraff"
-	desc = ""
-	picture = GFX_portrait_Rami_Sarraff
-	ideology = vanguard_communism
-	traits = {
-		#
-	}
-}
-
-

@@ -1,4 +1,4 @@
-﻿capital = 282 # Tokyo/Kanto
+capital = 282 # Tokyo/Kanto
 
 set_party_name = { ideology = far_left long_name = GEN_far_left_party_long name = GEN_far_left_party }
 set_party_name = { ideology = left long_name = GEN_left_party_long name = GEN_left_party }
@@ -303,33 +303,11 @@ clamp_variable = {
 }
 
 ### Starting Ideas ###
-add_ideas = {
-
-	# Laws
-	limited_exports
-	limited_conscription
-	partial_economic_mobilisation
-
-	# National Spirits
-	#JAP_zaibatsus
-	JAP_militarism
-
-	#Imperial Influence Ideas
-	JAP_army_faction_tier_2_equal_navy
-	JAP_naval_faction_tier_2_equal_army
-	JAP_zaibatsu_faction_tier_2
-	JAP_government_faction_tier_2
-
-	#Hidden Ideas
-	JAP_separate_air_services
-	JAP_japanese_armor_doctrine
-}
 
 IF = {
 	limit = {
 		has_dlc = "Man the Guns"
 	}
-	add_ideas = MTG_naval_treaty_adherent
 }
 
 
@@ -456,8 +434,6 @@ set_technology = {
 	paratroopers = 1
 	gw_artillery = 1
 	bicycle_infantry = 1 # They start with it now 
-	JAP_silver_wheels = 1 # Small bicycle terrain boost 
-	JAP_lighter_tanks = 1 # Small tank terrain boost 
 	tech_military_police = 1
 
 	# Civilian Tech
@@ -609,9 +585,7 @@ IF = {
 		armored_car1 = 1
 	}
 
-	JAP_create_yoshiko_kawashima_operative = yes
 
-	JAP_create_takeo_yoshikawa_operative = yes
 
 }
 
@@ -631,7 +605,7 @@ set_convoys = 400
 
 set_autonomy = {
 	target = MAN
-	autonomous_state = autonomy_wtt_imperial_protectorate
+	autonomous_state = autonomy_puppet
 }
 
 set_autonomy = {
@@ -679,28 +653,10 @@ IF = {
 }
 
 # Tojo leads the army side of the cw, and should not be aligned
-JAP_hideki_tojo = {
-	set_character_flag = JAP_do_not_align_me_flag
-}
 
 # Do not align any scientists plz 
-JAP_yuzuru_hiraga = {
-	set_character_flag = JAP_do_not_align_me_flag
-}
-JAP_hideo_iwakuro = {
-	set_character_flag = JAP_do_not_align_me_flag
-}
-JAP_hideo_iwakuro = {
-	set_character_flag = JAP_do_not_align_me_flag
-}
-JAP_yoshitoshi_tokugawa = {
-	set_character_flag = JAP_do_not_align_me_flag
-}
 
 # Yamamoto will not join the militarists 
-JAP_isoroku_yamamoto = {
-	set_character_flag = JAP_do_not_align_me_flag
-}
 
 
 # Setup 1939 Start Date
@@ -745,7 +701,7 @@ JAP_isoroku_yamamoto = {
 
 	set_autonomy = {
 		target = MEN
-		autonomous_state = autonomy_wtt_imperial_protectorate
+		autonomous_state = autonomy_puppet
 	}
 
 	# Kodoha coup has historical outcomes
@@ -775,38 +731,11 @@ JAP_isoroku_yamamoto = {
 	}
 
 	# Adding Ideas
-	add_ideas = {
-
-		# Adding Ministers
-
-		# Civilian Advisors
-		takuo_godo
-		JAP_chikuhei_nakajima
-		JAP_heisuke_yanagawa
-
-		# Military Advisors
-		minoru_genda
-		korechika_anami
-		hajime_sugiyama
-		soemu_toyoda
-		fushimi_hiroyasu
-		yasuji_okamura
-		hitoshi_imamura
-
-		# Companies
-		tetsudou_shou
-
-		# Laws
-		tot_economic_mobilisation
-		service_by_requirement
-		closed_economy
-	}
 
 	IF = {
 		limit = {
 			has_dlc = "Man the Guns"
 		}
-		remove_ideas = MTG_naval_treaty_adherent
 	}
 
 	complete_national_focus = JAP_sea_purge_the_kodoha_faction

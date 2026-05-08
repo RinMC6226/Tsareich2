@@ -48,23 +48,3 @@ set_popularities = {
 	right = 100
 }
 
-
-	name = "Antun Saadeh"
-	desc = ""
-	picture = GFX_portrait_Antun_Saadeh
-	ideology = ultranationalism
-	traits = {
-		#
-	}
-}
-
-	name = "Khalid Bakdash"
-	desc = ""
-	picture = GFX_portrait_Khalid_Bakdash
-	ideology = vanguard_communism
-	traits = {
-		#
-	}
-}
-
-

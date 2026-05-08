@@ -100,10 +100,6 @@ IF = {
 	set_war_support = 0.1
 
 	set_stability = 0.0
-
-	clamp_variable = {
-	}
-
 	division_template = {
 		name = "Pashtun Levy"		
 		#division_names_group = 

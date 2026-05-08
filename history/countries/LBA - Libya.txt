@@ -38,13 +38,6 @@ set_popularities = {
 	right = 50
 }
 
-	name = "Bashir es Sadawi"
-	desc = ""
-	picture = GFX_portrait_Bashir_es_Sadawi
-	ideology = liberalism
-	traits = {
-		#
-	}
 }
 
 	name = "Ettore Bastico"

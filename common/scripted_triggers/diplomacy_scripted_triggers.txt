@@ -1041,7 +1041,7 @@ DIPLOMACY_REVOKE_OFFER_MILACC_ENABLE_TRIGGER = {
 			}
 		}
 		NOT = {
-			has_idea = IRQ_anglo_iraqi_treaty
+			always = no
 		}
 	}
 }
@@ -1067,7 +1067,7 @@ DIPLOMACY_REVOKE_OFFER_DOCKING_RIGHTS_ENABLE_TRIGGER = {
 			}
 		}
 		NOT = {
-			has_idea = IRQ_anglo_iraqi_treaty
+			always = no
 		}
 	}
 }
@@ -1093,7 +1093,7 @@ DIPLOMACY_REVOKE_OFFER_AIR_BASE_ACCESS_ENABLE_TRIGGER = {
 			}
 		}
 		NOT = {
-			has_idea = IRQ_anglo_iraqi_treaty
+			always = no
 		}
 	}
 }

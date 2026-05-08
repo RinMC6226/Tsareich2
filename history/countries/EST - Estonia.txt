@@ -32,13 +32,7 @@ IF = {
 	limit = { has_dlc = "No Step Back"}
 }
 
-	var = vaps_days_var
-	value = 80
-}
 
-	var = vaps_crackdown_var
-	value = 360
-}
 
 set_technology = {
 	infantry_weapons = 1

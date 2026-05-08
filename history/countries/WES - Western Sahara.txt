@@ -28,13 +28,3 @@ set_popularities = {
 	left = 5
 	right = 50
 }
-
-	name = "El-Ouali Mustapha Sayed"
-	desc = ""
-	picture = GFX_portrait_El_Ouali_Mustapha_Sayed
-	ideology = centrism
-	traits = {
-		#
-	}
-}
-

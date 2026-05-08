@@ -1,4 +1,4 @@
-﻿capital = 361 # Washington DC
+capital = 361 # Washington DC
 
 set_party_name = { ideology = far_left long_name = GEN_far_left_party_long name = GEN_far_left_party }
 set_party_name = { ideology = left long_name = GEN_left_party_long name = GEN_left_party }
@@ -60,7 +60,6 @@ set_variable = { var = representatives_total value = 435 }
 set_variable = { var = quorum_low value = 39 }
 set_variable = { var = quorum_medium value = 49 }
 set_variable = { var = quorum_high value = 58 }
-USA_recalc_congress_icon_frames = yes
 
 USA = {
 	country_event = { id = usa.50 days = 2 }
@@ -120,7 +119,6 @@ if = {
 		gwtank_chassis = 1
 		basic_light_tank_chassis = 1
 	}
-	add_ideas = bureau_of_ordnance_spirit
 }
 
 if = {
@@ -166,12 +164,10 @@ if = {
 		#improved_airplane_launcher = 1
 		basic_dp_light_battery = 1
 	}
-	add_ideas = MTG_naval_treaty_adherent
 }
 ##Monroe Doctrine - We are trying to just remove the dlc check and see what, if any, things break. Will ask QA and BETAs to test new system both with and without ToA
 #IF = {
 #	limit = { has_dlc = "Trial of Allegiance" }
-	add_ideas = USA_monroe_doctrine_enforcer
 #}
 #IF = {
 #	limit = { NOT = { has_dlc = "Trial of Allegiance" }	}
@@ -205,23 +201,6 @@ if = {
 	add_command_power = 100
 	
 	#adding ministers
-	add_ideas = {
-		USA_robert_taft
-		carl_spaatz
-		jimmy_doolittle
-		army_ordnance_department
-		general_electric
-		USA_war_department
-		USA_intervention_in_europe
-		#laws
-		isolation
-		volunteer_only
-		great_depression_3
-		new_deal
-	}
-	remove_ideas = {
-		great_depression
-	}
 
 	#focuses
 	unlock_national_focus = USA_continue_the_new_deal
@@ -236,7 +215,6 @@ if = {
 		limit = {
 			has_dlc = "Arms Against Tyranny"
 		}
-		add_ideas = USA_neutrality_act_aat
 		hidden_effect = {
 			add_relation_rule_override = {
 				can_access_market = no
@@ -245,7 +223,6 @@ if = {
 			}
 		}
 		else = {
-			add_ideas = USA_neutrality_act
 		}
 	}
 	complete_national_focus = USA_intervention_in_asia	
@@ -368,8 +345,6 @@ if = {
 			improved_heavy_battery = 1
 			advanced_dp_light_battery = 3
 		}
-		remove_ideas = MTG_naval_treaty_adherent
-		add_ideas = MTG_naval_treaty_adherent_reduced
 	}
 }
 
@@ -421,13 +396,6 @@ set_popularities = {
 set_party_name = { ideology = center_left long_name = USA_democratic_party name = USA_democratic_party }
 set_party_name = { ideology = center_right long_name = USA_republican_party name = USA_republican_party }
 
-add_ideas = {
-	undisturbed_isolation
-	great_depression
-	disarmed_nation
-	free_trade
-	home_of_the_free
-}
 
 
 # DIPLOMACY

@@ -29,13 +29,6 @@ set_popularities = {
 	right = 50
 }
 
-	name = "David Kalakaua Kawananakoa"
-	desc = ""
-	picture = GFX_portrait_David_Kalakaua_Kawananakoa
-	ideology = authoritarian_conservatism
-	traits = {
-		#
-	}
 }
 
 	name = "Joseph Poindexter"

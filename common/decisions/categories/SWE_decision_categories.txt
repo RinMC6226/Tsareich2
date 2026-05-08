@@ -33,7 +33,7 @@ SWE_hungershield_cat = {
 
 	visible = {
 		has_dlc = "Arms Against Tyranny"
-		has_idea = SWE_hungershield		
+		always = no
 	}
 }
 
