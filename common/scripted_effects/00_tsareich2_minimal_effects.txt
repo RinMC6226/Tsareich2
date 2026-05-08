@@ -25,3 +25,84 @@ PHI_cobalt_sea_achievement = {
 bathe_in_hellfire_thermonuclear = {
 	set_temp_variable = { tsr_bathe_in_hellfire_thermonuclear_placeholder = 0 }
 }
+GER_create_operative_nikolaus_ritter = {
+	set_temp_variable = { tsr_ger_create_operative_nikolaus_ritter_placeholder = 0 }
+}
+GER_create_operative_erich_gimpel = {
+	set_temp_variable = { tsr_ger_create_operative_erich_gimpel_placeholder = 0 }
+}
+GER_create_operative_fritz_duquesne = {
+	set_temp_variable = { tsr_ger_create_operative_fritz_duquesne_placeholder = 0 }
+}
+remove_naval_treaty_effect = {
+	set_temp_variable = { tsr_remove_naval_treaty_effect_placeholder = 0 }
+}
+clear_sabotaged_resources_if_necesary = {
+	set_temp_variable = { tsr_clear_sabotaged_resources_if_necesary_placeholder = 0 }
+}
+GER_amerika_bomber_focke_wulf_completion_SP_effects = {
+	set_temp_variable = { tsr_ger_amerika_bomber_focke_wulf_completion_sp_placeholder = 0 }
+}
+GER_amerika_bomber_focke_wulf_completion_MIO_effects = {
+	set_temp_variable = { tsr_ger_amerika_bomber_focke_wulf_completion_mio_placeholder = 0 }
+}
+ITA_add_improved_light_tank_templates = {
+	set_temp_variable = { tsr_ita_add_improved_light_tank_templates_placeholder = 0 }
+}
+ITA_add_improved_medium_tank_templates = {
+	set_temp_variable = { tsr_ita_add_improved_medium_tank_templates_placeholder = 0 }
+}
+ITA_add_advanced_medium_tank_templates = {
+	set_temp_variable = { tsr_ita_add_advanced_medium_tank_templates_placeholder = 0 }
+}
+ITA_add_improved_heavy_tank_templates = {
+	set_temp_variable = { tsr_ita_add_improved_heavy_tank_templates_placeholder = 0 }
+}
+ITA_add_advanced_heavy_tank_templates = {
+	set_temp_variable = { tsr_ita_add_advanced_heavy_tank_templates_placeholder = 0 }
+}
+ITA_add_il_duce_sh_tank_template_and_production = {
+	set_temp_variable = { tsr_ita_add_il_duce_sh_tank_template_and_production_placeholder = 0 }
+}
+ITA_add_modern_musculus_sh_tank_template_and_production = {
+	set_temp_variable = { tsr_ita_add_modern_musculus_sh_tank_template_and_production_placeholder = 0 }
+}
+ITA_add_hand_of_god_sh_tank_template_and_production = {
+	set_temp_variable = { tsr_ita_add_hand_of_god_sh_tank_template_and_production_placeholder = 0 }
+}
+play_warning_to_japan_effect = {
+	set_temp_variable = { tsr_play_warning_to_japan_effect_placeholder = 0 }
+}
+FIN_nokia_tires_after_tech_effect = {
+	set_temp_variable = { tsr_fin_nokia_tires_after_tech_effect_placeholder = 0 }
+}
+remove_potential_special_forces_tree = {
+	set_temp_variable = { tsr_remove_potential_special_forces_tree_placeholder = 0 }
+}
+add_potential_special_forces_tree = {
+	set_temp_variable = { tsr_add_potential_special_forces_tree_placeholder = 0 }
+}
+SP_create_variant_based_on_country_armored_engineer = {
+	set_temp_variable = { tsr_sp_create_variant_based_on_country_armored_engineer_placeholder = 0 }
+}
+SP_create_variant_based_on_country_armored_maintenance = {
+	set_temp_variable = { tsr_sp_create_variant_based_on_country_armored_maintenance_placeholder = 0 }
+}
+SP_create_variant_based_on_country_armored_signal = {
+	set_temp_variable = { tsr_sp_create_variant_based_on_country_armored_signal_placeholder = 0 }
+}
+gain_random_agency_upgrade = {
+	set_temp_variable = { tsr_gain_random_agency_upgrade_placeholder = 0 }
+}
+replace_civ_with_arms_factories = {
+	set_temp_variable = { tsr_replace_civ_with_arms_factories_placeholder = 0 }
+}
+controlled_civilian_factories_excluding_trade = {
+	set_temp_variable = { tsr_controlled_civilian_factories_excluding_trade_placeholder = 0 }
+}
+bba_get_fighter_GER_effect = {
+	set_temp_variable = { tsr_bba_get_fighter_ger_effect_placeholder = 0 }
+}
+bba_create_fighter_license_effect = {
+	set_temp_variable = { tsr_bba_create_fighter_license_effect_placeholder = 0 }
+}

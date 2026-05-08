@@ -234,3 +234,86 @@ has_air_academy = {
 GER_naval_interest_trigger = {
 	always = no
 }
+
+is_chinese_warlord = {
+	OR = {
+		original_tag = GXC
+		original_tag = YUN
+		original_tag = SHX
+		original_tag = XSM
+		original_tag = SIK
+		original_tag = GDC
+		original_tag = SND
+		original_tag = SIC
+		original_tag = NXM
+		original_tag = GSM
+		original_tag = XIC
+		original_tag = KHM
+		original_tag = KUM
+		original_tag = RNG
+		original_tag = HBC
+	}
+}
+WTT_is_chinese_warlord = {
+	is_chinese_warlord = yes
+}
+is_independent_china_or_warlord = {
+	OR = {
+		AND = {
+			is_literally_china = yes
+			is_subject = no
+		}
+		AND = {
+			is_chinese_warlord = yes
+			is_subject = no
+		}
+	}
+}
+NORDIC_basic_joint_trigger = {
+	always = no
+}
+NORDIC_is_nordic = {
+	always = no
+}
+HABSBURG_is_a_habsburg_viable_nation = {
+	always = no
+}
+fascism = {
+	has_government = far_right
+}
+communism = {
+	has_government = far_left
+}
+democratic = {
+	has_government = center
+}
+neutrality = {
+	has_government = right
+}
+has_air_force_command = {
+	always = no
+}
+ITA_is_italian_tag = {
+	original_tag = ITA
+}
+ITA_is_going_antifascist_in_bba = {
+	always = no
+}
+ITA_is_socialist_ai = {
+	always = no
+}
+SWE_refuge_for_revolutionaries_trigger = {
+	always = no
+}
+SPR_scw_in_progress = {
+	always = no
+}
+is_state_japan_wants = {
+	always = no
+}
+is_raj_or_raj_inheritor = {
+	OR = {
+		original_tag = RAJ
+		tag = RAJ
+	}
+}

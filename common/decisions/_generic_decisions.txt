@@ -650,7 +650,7 @@ propaganda_efforts = {
 			}
 			if = {
 				limit = {
-					NOT = { has_government = fascism }
+					NOT = { has_government = center_right }
 				}
 				threat > 0.5
 			}
@@ -1743,22 +1743,22 @@ war_measures = {
 			}
             OR = {
                 AND = {
-                    has_government = democratic
+                    has_government = center
                     has_war_support > 0.79
                 }
                 AND = {
-                    has_government = communism
+                    has_government = far_left
                     has_war_support > 0.79
                 }
                 AND = {
-                    has_government = fascism
+                    has_government = far_right
                     OR = {
                         has_war_support > 0.89
                         surrender_progress > 0
                     }
                 }
                 AND = {
-                    has_government = neutrality
+                    has_government = right
                     has_war_support > 0.84
                     has_stability > 0.7
                 }
@@ -1842,22 +1842,22 @@ war_measures = {
             has_war = yes
             OR = {
                 AND = {
-                    has_government = democratic
+                    has_government = center
                     has_war_support > 0.79
                 }
                 AND = {
-                    has_government = communism
+                    has_government = far_left
                     has_war_support > 0.79
                 }
                 AND = {
-                    has_government = fascism
+                    has_government = far_right
                     OR = {
                         has_war_support > 0.89
                         surrender_progress > 0
                     }
                 }
                 AND = {
-                    has_government = neutrality
+                    has_government = right
                     has_war_support > 0.84
                     has_stability > 0.7
                 }
