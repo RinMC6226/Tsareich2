@@ -9,19 +9,6 @@ set_party_name = { ideology = right long_name = GEN_right_party_long name = GEN_
 set_party_name = { ideology = far_right long_name = GEN_far_right_party_long name = GEN_far_right_party }
 
 IF = {
-	limit = {
-		has_dlc = "Gotterdammerung"
-	}
-	ELSE_IF = {
-		limit = {
-			NOT = {
-				has_dlc = "Gotterdammerung"
-			}
-		}
-	}
-}
-
-IF = {
 	limit = { has_dlc = "By Blood Alone" }
 		set_technology = {
 			iw_small_airframe = 1
@@ -55,14 +42,6 @@ IF = {
 		set_technology = {
 			transport = 1
 		}
-	}
-}
-
-### SETUP THE CORRECT POLITICAL PARTIES ###
-
-IF = {
-	limit = {
-		has_dlc = "Gotterdammerung"
 	}
 }
 
@@ -112,57 +91,6 @@ IF = {
 	set_technology = {
 		gwtank_chassis = 1
 	}
-}
-
-### SETUP NATIONAL SPIRITS NO WW ###
-IF = {
-	limit = {
-		AND = {
-			has_dlc = "Death or Dishonor"
-			NOT = {
-				has_dlc = "Gotterdammerung"
-			}
-		}
-	}
-	IF = {
-		limit = { has_dlc = "Arms Against Tyranny" }
-	}
-	IF = {
-		limit = {
-			NOT = { has_dlc = "Arms Against Tyranny" }
-		}
-	}
-}
-
-### SETUP HUNGARO-GERMAN RELATIONS AND NATIONAL SPIRITS ###
-IF = {
-	limit = {
-		AND = {
-			has_dlc = "Death or Dishonor"
-			has_dlc = "Gotterdammerung"
-		}
-	}
-
-
-	### OPINION MODIFIERS ###
-
-	GER = {
-	}
-
-	POL = {
-	}
-
-	IF = {
-		limit = { has_dlc = "Arms Against Tyranny" }
-		give_market_access = GER
-	}
-
-	IF = {
-		limit = {
-			NOT = { has_dlc = "Arms Against Tyranny" }
-		}
-	}
-
 }
 
 # The Academy of Sciences Modifier
@@ -216,79 +144,21 @@ IF = {
 		}
 		#icon = "GFX_gwtank_medium"
 	}
-
-		type = light_tank_chassis_0
-		amount = 4
-		variant_name = "Straussler V-4"
-	}
 }
-
-### AH DYNAMIC MODIFIERS ###
-
-IF = {
-	limit = {
-		has_dlc = "Gotterdammerung"
-	}
-
-	# JOINT ECONOMY SPIRIT
-
-	# JOINT INDUSTRY SPIRIT
-
-	# JOINT ARMY SPIRIT
-
-	# JOINT HUSSAR SPIRIT
-
-}
-
 
 # SETUP HUNGARIAN POLITICS
 set_politics = {
 	ruling_party = right
-	last_election = "1935.3.31"
+	last_election = "1936.1.1"
 	election_frequency = 48
+	elections_allowed = no
 }
 set_popularities = {
+	far_left = 0
+	left = 0
+	center_left = 0
 	center = 0
-	far_right = 0
+	center_right = 0
 	right = 100
+	far_right = 0
 }
-
-# RECRUITING HUNGARIAN CHARACTERS
-IF = {
-	limit = {
-		NOT = {
-			has_dlc = "Gotterdammerung"
-		}
-	}
-}
-IF = {
-	limit = {
-		has_dlc = "Gotterdammerung"
-	}
-}
-
-#Scientists always recruited
-
-
-# HIRES THE STARTING PM
-IF = {
-	limit = {
-		has_dlc = "Gotterdammerung"
-	}
-}
-
-add_breakthrough_progress = {
-	specialization = specialization_land
-
-add_breakthrough_progress = {
-	specialization = specialization_air
-	value = 0.2 # Due to Azboth Oskar
-}
-
-
-# SETUP THE 1939 SCENARIO
-
-
-
-
-

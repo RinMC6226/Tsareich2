@@ -1,5 +1,7 @@
 capital = 335 #Jakarta
 
+set_cosmetic_tag = INS_HOL # Netherlands East Indies
+
 set_party_name = { ideology = far_left long_name = GEN_far_left_party_long name = GEN_far_left_party }
 set_party_name = { ideology = left long_name = GEN_left_party_long name = GEN_left_party }
 set_party_name = { ideology = center_left long_name = GEN_center_left_party_long name = GEN_center_left_party }
@@ -61,21 +63,23 @@ if = {
 }
 
 set_convoys = 25
+
+set_politics = {
+	ruling_party = right
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
 set_popularities = {
-	center = 50
-	far_right = 10
-	left = 20
-	right = 20
+	far_left = 0
+	left = 0
+	center_left = 0
+	center = 0
+	center_right = 0
+	right = 100
+	far_right = 0
 }
 
-
-
-
-if = {
-	limit = {
-		has_dlc = "Man the Guns"
-	}
-}
 
 
 

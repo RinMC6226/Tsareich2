@@ -35,36 +35,16 @@ set_technology = {
 	tech_trucks = 1
 	fuel_silos = 1
 }
-
-IF = {
-	limit = {
-		has_dlc = "Trial of Allegiance"
-	}
-	set_politics = {
-		ruling_party = center
-		last_election = "1934.11.11"
-		election_frequency = 72
-	}
-	set_popularities = {
-		right = 32
-		center = 54
-		left = 12
-		far_right = 2
-	}
-
-
-	ELSE = {
-		set_politics = {
-			ruling_party = right
-			last_election = "1934.11.11"
-			election_frequency = 72
-		}
-
-		set_popularities = {
-			right = 100
-		}
-
-	}
+set_politics = {
+	ruling_party = center
+	last_election = "1934.11.11"
+	election_frequency = 72
+}
+set_popularities = {
+	right = 32
+	center = 54
+	left = 12
+	far_right = 2
 }
 
 
