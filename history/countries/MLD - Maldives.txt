@@ -1,4 +1,5 @@
-﻿capital = 281
+capital = 281
+
 set_party_name = { ideology = far_left long_name = GEN_far_left_party_long name = GEN_far_left_party }
 set_party_name = { ideology = left long_name = GEN_left_party_long name = GEN_left_party }
 set_party_name = { ideology = center_left long_name = GEN_center_left_party_long name = GEN_center_left_party }
@@ -16,67 +17,11 @@ set_technology = {
 
 set_convoys = 20
 
-recruit_character = MLD_ncm
-recruit_character = MLD_acd2
-recruit_character = MLD_democratic_guy
-recruit_character = MLD_fascist_guy
-recruit_character = MLD_coi
-recruit_character = MLD_ar
-recruit_character = MLD_aa2
-recruit_character = MLD_awt
-recruit_character = MLD_acgs
-recruit_character = MLD_mt
-recruit_character = MLD_nccr
-recruit_character = MLD_aco2
-recruit_character = MLD_nt
-recruit_character = MLD_communist_guy
-recruit_character = MLD_pot
-recruit_character = MLD_acas
-recruit_character = MLD_acr
-recruit_character = MLD_stc
-recruit_character = MLD_ai2
-recruit_character = MLD_ncs
 
-1939.1.1 = {
-	#generic focuses
-	complete_national_focus = army_effort
-	complete_national_focus = equipment_effort
-	complete_national_focus = motorization_effort
-	complete_national_focus = aviation_effort
-	complete_national_focus = naval_effort
-	complete_national_focus = flexible_navy
-	complete_national_focus = industrial_effort
-	complete_national_focus = construction_effort
-	complete_national_focus = production_effort
-	
-	set_technology = {
-
-		#electronics
-		electronic_mechanical_engineering = 1
-		radio = 1
-		mechanical_computing = 1
-
-		#industry
-		basic_machine_tools = 1
-		improved_machine_tools = 1
-		advanced_machine_tools = 1
-		construction1 = 1
-		construction2 = 1
-		dispersed_industry = 1
-		dispersed_industry2 = 1
-	}
-
-set_grand_doctrine = grand_battleplan
-
-	complete_special_project = {
-		project = sp:sp_air_radar
-	}
-}
 set_politics = {
 	ruling_party = center
 	last_election = "1936.1.1"
 	election_frequency = 48
-	elections_allowed = yes
 }
 set_popularities = {
 	center = 75
@@ -96,18 +41,4 @@ set_popularities = {
 #	}
 #}
 
-1939.1.1 = {
-	set_politics = {
-		ruling_party = right
-		last_election = "1936.1.1"
-		election_frequency = 48
-		elections_allowed = no
-	}	
-	set_popularities = {
-		center = 38
-		far_right = 6
-		left = 6
-		right = 50
-	}
-}
 

@@ -1,4 +1,5 @@
-﻿capital = 202 #Kiev
+capital = 202 #Kiev
+
 set_party_name = { ideology = far_left long_name = GEN_far_left_party_long name = GEN_far_left_party }
 set_party_name = { ideology = left long_name = GEN_left_party_long name = GEN_left_party }
 set_party_name = { ideology = center_left long_name = GEN_center_left_party_long name = GEN_center_left_party }
@@ -96,12 +97,6 @@ set_popularities = {
 	left = 50
 }
 
-recruit_character = UKR_mykhailo_omelianovych_pavlenko
-recruit_character = UKR_stepan_bandera
-recruit_character = UKR_nikita_krushchyov
-recruit_character = UKR_kost_levytsky
-recruit_character = IA_olga_taratuta 
-recruit_character = UKR_pavlo_shandruk 
 
 
 

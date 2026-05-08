@@ -1,4 +1,5 @@
-﻿capital = 829 #Engels
+capital = 829 #Engels
+
 set_party_name = { ideology = far_left long_name = GEN_far_left_party_long name = GEN_far_left_party }
 set_party_name = { ideology = left long_name = GEN_left_party_long name = GEN_left_party }
 set_party_name = { ideology = center_left long_name = GEN_center_left_party_long name = GEN_center_left_party }
@@ -97,7 +98,6 @@ set_politics = {
 	ruling_party = center
 	last_election = "1936.1.1"
 	election_frequency = 48
-	elections_allowed = yes
 }
 
 set_popularities = {
@@ -107,8 +107,6 @@ set_popularities = {
 	right = 0
 }
 
-recruit_character = VGE_heinrich_luft
-recruit_character = VGE_aleksander_heck
 
 
 

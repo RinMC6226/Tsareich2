@@ -1,4 +1,5 @@
-﻿capital = 271
+capital = 271
+
 set_party_name = { ideology = far_left long_name = GEN_far_left_party_long name = GEN_far_left_party }
 set_party_name = { ideology = left long_name = GEN_left_party_long name = GEN_left_party }
 set_party_name = { ideology = center_left long_name = GEN_center_left_party_long name = GEN_center_left_party }
@@ -12,8 +13,6 @@ set_party_name = { ideology = far_right long_name = GEN_far_right_party_long nam
 set_research_slots = 3
 set_stability = 0.4
 set_war_support = 0.3
-add_ideas = {
-}
 
 
 # Starting tech
@@ -120,11 +119,6 @@ set_popularities = {
 	right = 10
 }
 
-recruit_character = AOI_prince_amedeo 
-recruit_character = AOI_enrico_cerulli
-recruit_character = AOI_guglielmo_nasi
-recruit_character = AOI_ruggero_santini
-recruit_character = AOI_vincenzo_de_feo
 
 
 
@@ -177,7 +171,6 @@ if = {
 			sub_stealth_upgrade = 1
 			sub_torpedo_upgrade = 1
 		}
-		obsolete = yes
 	}
 
 	create_equipment_variant = {
@@ -200,7 +193,6 @@ if = {
 			ship_ASW_upgrade = 1
 			ship_anti_air_upgrade = 1
 		}
-		obsolete = yes
 	}
 
 	create_equipment_variant = {
@@ -223,7 +215,6 @@ if = {
 			ship_gun_upgrade = 1
 			ship_anti_air_upgrade = 1
 		}
-		obsolete = yes
 	}
 
 	create_equipment_variant = {
@@ -269,7 +260,6 @@ if = {
 			mid_2_custom_slot = empty
 			rear_1_custom_slot = ship_heavy_battery_1
 		}
-		obsolete = yes
 	}
 	create_equipment_variant = {
 		name = "Conte Di Cavour Class"
@@ -309,7 +299,6 @@ if = {
 			mid_2_custom_slot = empty
 			rear_1_custom_slot = ship_torpedo_1
 		}
-		obsolete = yes
 	}
 	create_equipment_variant = {
 		name = "Trento Class"
@@ -328,7 +317,6 @@ if = {
 			mid_2_custom_slot = ship_airplane_launcher_1
 			rear_1_custom_slot = ship_anti_air_1
 		}
-		obsolete = yes
 	}
 	create_equipment_variant = {
 		name = "Zara Class"
@@ -347,7 +335,6 @@ if = {
 			mid_2_custom_slot = ship_airplane_launcher_1
 			rear_1_custom_slot = ship_anti_air_1
 		}
-		obsolete = yes
 	}
 	create_equipment_variant = {
 		name = "Bolzano Class"
@@ -384,7 +371,6 @@ if = {
 			mid_2_custom_slot = empty
 			rear_1_custom_slot = ship_mine_layer_1
 		}
-		obsolete = yes
 	}
 	create_equipment_variant = {
 		name = "Giussano Class"
@@ -402,7 +388,6 @@ if = {
 			mid_2_custom_slot = ship_airplane_launcher_1
 			rear_1_custom_slot = ship_light_medium_battery_2
 		}
-		obsolete = yes
 	}
 	create_equipment_variant = {
 		name = "Montecuccoli Class"
@@ -458,7 +443,6 @@ if = {
 			mid_1_custom_slot = empty
 			rear_1_custom_slot = empty
 		}
-		obsolete = yes
 	}
 	create_equipment_variant = {
 		name = "Navigatori Class"			#Represents the following WWI/1920s Heavy DDs: Mirabello, (Aquila,) Leone, Navigatori
@@ -475,7 +459,6 @@ if = {
 			mid_1_custom_slot = ship_mine_layer_1
 			rear_1_custom_slot = ship_depth_charge_1
 		}
-		obsolete = yes
 	}	
 	create_equipment_variant = {
 		name = "Maestrale Class" 			#Represents the following WWI/1920s DDs: Freccia, Foglore, Mastrale, Oriani, Spica (and subclasses)
@@ -508,7 +491,6 @@ if = {
 			mid_1_custom_slot = ship_mine_layer_1
 			rear_1_custom_slot = ship_depth_charge_1
 		}
-		obsolete = yes
 	}
 	create_equipment_variant = {
 			name = "Littorio Class"
@@ -540,7 +522,6 @@ if = {
 			fixed_ship_engine_slot = sub_ship_engine_1
 			rear_1_custom_slot = empty
 		}
-		obsolete = yes
 	}	
 	create_equipment_variant = {
 		name = "Bandiera Class"
@@ -552,7 +533,6 @@ if = {
 			fixed_ship_engine_slot = sub_ship_engine_1
 			rear_1_custom_slot = ship_torpedo_sub_1
 		}
-		obsolete = yes
 	}
 	create_equipment_variant = {
 		name = "Sirena Class"
@@ -564,7 +544,6 @@ if = {
 			fixed_ship_engine_slot = sub_ship_engine_1
 			rear_1_custom_slot = empty
 		}
-		obsolete = yes
 	}
 	create_equipment_variant = {
 		name = "Calvi Class"

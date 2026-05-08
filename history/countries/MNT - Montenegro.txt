@@ -1,4 +1,5 @@
-﻿capital = 105 # Montenegro
+capital = 105 # Montenegro
+
 set_party_name = { ideology = far_left long_name = GEN_far_left_party_long name = GEN_far_left_party }
 set_party_name = { ideology = left long_name = GEN_left_party_long name = GEN_left_party }
 set_party_name = { ideology = center_left long_name = GEN_center_left_party_long name = GEN_center_left_party }
@@ -82,7 +83,6 @@ set_politics = {
 	ruling_party = center
 	last_election = "1936.1.1"
 	election_frequency = 48
-	elections_allowed = yes
 }
 
 set_popularities = {
@@ -91,9 +91,6 @@ set_popularities = {
 	left = 34
 }
 
-recruit_character = MNT_kristo_popovic
-recruit_character = MNT_blazo_jovanovic
-recruit_character = MNT_blazo_dukanovic
 
 
 

@@ -1,4 +1,5 @@
-﻿capital = 670 #today Vientiane in 1945 Luang Prabang sel proclaimed indie Laos 
+capital = 670 #today Vientiane in 1945 Luang Prabang sel proclaimed indie Laos 
+
 set_party_name = { ideology = far_left long_name = GEN_far_left_party_long name = GEN_far_left_party }
 set_party_name = { ideology = left long_name = GEN_left_party_long name = GEN_left_party }
 set_party_name = { ideology = center_left long_name = GEN_center_left_party_long name = GEN_center_left_party }
@@ -109,8 +110,5 @@ set_popularities = {
 	right = 40
 }
 
-recruit_character = LAO_sisavang_vong
-recruit_character = LAO_kou_voravong
-recruit_character = LAO_souphanouvong
 
 

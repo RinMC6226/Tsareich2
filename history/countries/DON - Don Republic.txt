@@ -1,4 +1,5 @@
-﻿capital = 218
+capital = 218
+
 set_party_name = { ideology = far_left long_name = GEN_far_left_party_long name = GEN_far_left_party }
 set_party_name = { ideology = left long_name = GEN_left_party_long name = GEN_left_party }
 set_party_name = { ideology = center_left long_name = GEN_center_left_party_long name = GEN_center_left_party }
@@ -76,7 +77,6 @@ set_politics = {
 	ruling_party = right
 	last_election = "1936.1.1"
 	election_frequency = 48
-	elections_allowed = yes
 }
 
 set_popularities = {
@@ -86,5 +86,4 @@ set_popularities = {
 	far_right = 20
 }
 
-recruit_character = DON_vladimir_sidorin
 

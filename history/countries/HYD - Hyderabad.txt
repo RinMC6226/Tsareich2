@@ -1,4 +1,5 @@
-﻿capital = 427 #East Bengal
+capital = 427 #East Bengal
+
 set_party_name = { ideology = far_left long_name = GEN_far_left_party_long name = GEN_far_left_party }
 set_party_name = { ideology = left long_name = GEN_left_party_long name = GEN_left_party }
 set_party_name = { ideology = center_left long_name = GEN_center_left_party_long name = GEN_center_left_party }
@@ -86,14 +87,12 @@ if = {
 	limit = {
 		has_dlc = "Graveyard of Empires"
 	}
-	recruit_character = RAJ_mir_osman_ali_khan
 }
 
 set_politics = {
 	ruling_party = right
 	last_election = "1934.2.11"
 	election_frequency = 48
-	elections_allowed = yes
 }
 set_popularities = {
 	center = 30

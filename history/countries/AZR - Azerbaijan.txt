@@ -1,4 +1,5 @@
-﻿capital = 229 #Baku
+capital = 229 #Baku
+
 set_party_name = { ideology = far_left long_name = GEN_far_left_party_long name = GEN_far_left_party }
 set_party_name = { ideology = left long_name = GEN_left_party_long name = GEN_left_party }
 set_party_name = { ideology = center_left long_name = GEN_center_left_party_long name = GEN_center_left_party }
@@ -99,7 +100,6 @@ set_popularities = {
 	right = 30
 }
 
-create_country_leader = {
 	name = "Mir Jafar Baghirov"
 	desc = ""
 	picture = GFX_portrait_Mir_Jafar_Baghirov
@@ -110,7 +110,6 @@ create_country_leader = {
 	}
 }
 
-create_country_leader = {
 	name = "Mammad Amin Rasulzade"
 	desc = ""
 	picture = GFX_portrait_Mammad_Amin_Rasulzade
@@ -121,7 +120,6 @@ create_country_leader = {
 	}
 }
 
-create_country_leader = {
 	name = "Gara Garabeyov"
 	desc = ""
 	picture = GFX_portrait_Gara_Garabeyov

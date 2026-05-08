@@ -1,4 +1,4 @@
-﻿capital = 9
+capital = 9
 
 set_party_name = { ideology = far_left long_name = GEN_far_left_party_long name = GEN_far_left_party }
 set_party_name = { ideology = left long_name = GEN_left_party_long name = GEN_left_party }
@@ -8,7 +8,6 @@ set_party_name = { ideology = center_right long_name = GEN_center_right_party_lo
 set_party_name = { ideology = right long_name = GEN_right_party_long name = GEN_right_party }
 set_party_name = { ideology = far_right long_name = GEN_far_right_party_long name = GEN_far_right_party }
 
-set_cosmetic_tag = CZE_GER_puppet
 
 if = {
 	limit = {
@@ -56,34 +55,7 @@ set_technology = {
 	basic_train = 1
 }
 
-recruit_character = CZE_karl_albrecht
-recruit_character = CZE_edvard_benesh
-recruit_character = CZE_jaroslav_krejchi
-recruit_character = CZE_klement_gottwald
-recruit_character = CZE_vojtyech_luzha
-recruit_character = CZE_josef_shnejdarek
-recruit_character = CZE_richard_tesarzhik
-recruit_character = CZE_sergej_vojcechovsky
 #recruit_character = CZE_frantishek_havlik
-recruit_character = CZE_rudolf_viest
-recruit_character = CZE_alois_vicherek
-recruit_character = CZE_antonin_hasal
-recruit_character = CZE_jaroslav_fajfr
-recruit_character = CZE_jan_golian
-recruit_character = CZE_karel_janousek
-recruit_character = CZE_josef_frantisek
-recruit_character = CZE_ludvik_krejci
-recruit_character = CZE_karel_vaclav_petrik
-recruit_character = CZE_karel_kuttelwascher
-recruit_character = CZE_ludvik_svoboda
-recruit_character = CZE_frantisek_havel
-recruit_character = CZE_stefan_osusky
-recruit_character = CZE_ferdinand_catlos
-recruit_character = CZE_jozef_tiso
-recruit_character = CZE_vojtech_tuka
-recruit_character = CZE_konrad_henlein
-recruit_character = CZE_gustav_husak
-recruit_character = CZE_albrecht_franz
 
 
 if = {
@@ -111,7 +83,6 @@ IF = {
 	limit = {
 		has_dlc = "La Resistance"
 	}
-	CZE_create_paul_thummel_operative = yes
 }
 
 set_research_slots = 3
@@ -134,10 +105,6 @@ if = {
 	limit = {
 		has_dlc = "Death or Dishonor"
 	}
-	add_ideas = {
-		CZE_skoda_works
-		CZE_divided_nation
-}
 	give_guarantee = YUG
 	give_guarantee = ROM
 }
@@ -161,7 +128,6 @@ if = {
 			tank_nsb_engine_upgrade = 1
 			tank_nsb_armor_upgrade = 1
 		}
-		obsolete = yes
 	}
 	create_equipment_variant = {
 		name = "LT vz. 35"
@@ -237,9 +203,6 @@ if = {
 if = {
 	limit = {
 		NOT = { has_dlc = "Death or Dishonor" }
-	}
-	add_ideas = {
-		CZE_fortification_focus
 	}
 }
 

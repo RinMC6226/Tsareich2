@@ -1,4 +1,5 @@
-﻿capital = 468 # Montreal (Saint Lawrence)
+capital = 468 # Montreal (Saint Lawrence)
+
 set_party_name = { ideology = far_left long_name = GEN_far_left_party_long name = GEN_far_left_party }
 set_party_name = { ideology = left long_name = GEN_left_party_long name = GEN_left_party }
 set_party_name = { ideology = center_left long_name = GEN_center_left_party_long name = GEN_center_left_party }
@@ -95,7 +96,6 @@ set_politics = {
 	ruling_party = center
 	last_election = "1935.10.14"
 	election_frequency = 60
-	elections_allowed = yes
 }
 
 set_popularities = {
@@ -141,7 +141,6 @@ if = {
 			mid_1_custom_slot = empty
 			rear_1_custom_slot = ship_depth_charge_1
 		}
-		obsolete = yes
 	}
 	create_equipment_variant = {
 		name = "Saguenay Class"

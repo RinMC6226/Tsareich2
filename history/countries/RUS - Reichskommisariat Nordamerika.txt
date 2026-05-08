@@ -1,4 +1,5 @@
-﻿capital = 395 # Chicago
+﻿capital = 395 # Chicago
+
 set_party_name = { ideology = far_left long_name = GEN_far_left_party_long name = GEN_far_left_party }
 set_party_name = { ideology = left long_name = GEN_left_party_long name = GEN_left_party }
 set_party_name = { ideology = center_left long_name = GEN_center_left_party_long name = GEN_center_left_party }
@@ -151,6 +152,17 @@ set_grand_doctrine = new_battlefield_support
 		project = sp:sp_air_radar
 	}
 }
+
+recruit_character = RUS_nicholas_ii
+recruit_character = RUS_tsar_vladimir_kirillovich
+recruit_character = RUS_tsar_vsevolod_ivanovich
+recruit_character = RUS_metropolitan_meletius
+recruit_character = RUS_nestor_makhno
+recruit_character = RUS_julius_martov
+recruit_character = RUS_alexander_kerensky
+recruit_character = RUS_pavel_milyukov
+recruit_character = RUS_alexander_guchkov
+recruit_character = RUS_nikolai_markov
 
 set_politics = {
 	ruling_party = far_right

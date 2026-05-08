@@ -1,4 +1,5 @@
-﻿capital = 183
+capital = 183
+
 set_party_name = { ideology = far_left long_name = GEN_far_left_party_long name = GEN_far_left_party }
 set_party_name = { ideology = left long_name = GEN_left_party_long name = GEN_left_party }
 set_party_name = { ideology = center_left long_name = GEN_center_left_party_long name = GEN_center_left_party }
@@ -7,7 +8,6 @@ set_party_name = { ideology = center_right long_name = GEN_center_right_party_lo
 set_party_name = { ideology = right long_name = GEN_right_party_long name = GEN_right_party }
 set_party_name = { ideology = far_right long_name = GEN_far_right_party_long name = GEN_far_right_party }
 
-set_cosmetic_tag = CYP_RUS
 
 
 #oob = ""
@@ -19,42 +19,6 @@ set_technology = {
 
 set_convoys = 5
 
-1939.1.1 = {
-	#generic focuses
-	complete_national_focus = army_effort
-	complete_national_focus = equipment_effort
-	complete_national_focus = motorization_effort
-	complete_national_focus = aviation_effort
-	complete_national_focus = naval_effort
-	complete_national_focus = flexible_navy
-	complete_national_focus = industrial_effort
-	complete_national_focus = construction_effort
-	complete_national_focus = production_effort
-	
-	set_technology = {
-
-		#electronics
-		electronic_mechanical_engineering = 1
-		radio = 1
-		mechanical_computing = 1
-
-		#industry
-		basic_machine_tools = 1
-		improved_machine_tools = 1
-		advanced_machine_tools = 1
-		fuel_silos = 1
-		construction1 = 1
-		construction2 = 1
-		dispersed_industry = 1
-		dispersed_industry2 = 1
-	}
-
-set_grand_doctrine = grand_battleplan
-
-	complete_special_project = {
-		project = sp:sp_air_radar
-	}
-}
 set_politics = {
 	ruling_party = right
 	last_election = "1936.1.1"

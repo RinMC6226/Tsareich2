@@ -19,7 +19,8 @@ set_autonomy = {
 # ------------------------------------------------------------
 # 1. Capital and subjects
 # ------------------------------------------------------------
-capital = 64 # Berlin/Brandeburg
+capital = 64 # Berlin/Brandeburg
+
 set_party_name = { ideology = far_left long_name = GEN_far_left_party_long name = GEN_far_left_party }
 set_party_name = { ideology = left long_name = GEN_left_party_long name = GEN_left_party }
 set_party_name = { ideology = center_left long_name = GEN_center_left_party_long name = GEN_center_left_party }
@@ -244,6 +245,11 @@ set_war_support = 0.3
 # ------------------------------------------------------------
 # 7. Politics
 # ------------------------------------------------------------
+recruit_character = GER_adolf_hitler
+recruit_character = GER_wilhelm_ii
+recruit_character = GER_konrad_adenauer
+recruit_character = GER_wilhelm_pieck
+
 set_politics = {
 	ruling_party = right
 	last_election = "1933.3.5"
@@ -266,141 +272,28 @@ add_to_faction = BEL
 # 8. Character recruitment
 # ------------------------------------------------------------
 # 8.1 Civilian and democratic/socialist figures
-recruit_character = GER_wilhelm_pieck
-recruit_character = GER_konrad_adenauer
 
 # 8.2 Army, navy, and air force commanders
-recruit_character = GER_albert_kesselring
-recruit_character = GER_alfred_jodl
-recruit_character = GER_alfred_saalwachter
-recruit_character = GER_erhard_milch
-recruit_character = GER_erich_bey
-recruit_character = GER_erich_raeder
-recruit_character = GER_erich_von_manstein
-recruit_character = GER_ernst_udet
-recruit_character = GER_ernsteberhard_hell
-recruit_character = GER_erwin_rommel
-recruit_character = GER_erwin_von_witzleben
-recruit_character = GER_ewald_von_kleist
-recruit_character = GER_fedor_von_bock
-recruit_character = GER_felix_steiner
-recruit_character = GER_ferdinand_schorner
-recruit_character = GER_franz_halder
-recruit_character = GER_friedrich_paulus
-recruit_character = GER_friedrich_schulz
-recruit_character = GER_georg_von_kuchler
-recruit_character = GER_georghans_reinhardt
-recruit_character = GER_gerd_von_rundstedt
-recruit_character = GER_gotthard_heinrici
-recruit_character = GER_gunther_lutjens
-recruit_character = GER_gunther_von_kluge
-recruit_character = GER_hasso_von_manteuffel
-recruit_character = GER_heinz_guderian
-recruit_character = GER_heisenberg
-recruit_character = GER_hermann_boehm
-recruit_character = GER_hermann_hoth
-recruit_character = GER_hugo_sperrle
-recruit_character = GER_johannes_blaskowitz
-recruit_character = GER_karl_donitz
-recruit_character = GER_kurt_student
-recruit_character = GER_ludwig_beck
-recruit_character = GER_maximilian_von_weichs
-recruit_character = GER_otto_ciliax
-recruit_character = GER_paul_hausser
-recruit_character = GER_ritter_von_greim
-recruit_character = GER_sepp_dietrich
-recruit_character = GER_viktor_schutze
-recruit_character = GER_von_braun
-recruit_character = GER_walter_kruger
-recruit_character = GER_walter_model
-recruit_character = GER_walther_von_brauchitsch
-recruit_character = GER_walther_wever
-recruit_character = GER_werner_von_fritsch
-recruit_character = GER_wilhelm_keitel
-recruit_character = GER_wilhelm_list
-recruit_character = GER_wilhelm_marschall
 
-recruit_character = GER_wilhelm_ritter_von_leeb
-recruit_character = GER_wolfram_von_richthofen
 
 # 8.3 Non-Nazi political figures and monarchists
-recruit_character = GER_julius_leber
-recruit_character = GER_hans_oster
-recruit_character = GER_theodor_heuss
-recruit_character = GER_ernst_thalmann
-recruit_character = GER_wilhelm_canaris
-recruit_character = GER_kurt_schumacher
-recruit_character = GER_wilhelm_ii
-recruit_character = GER_wilhelm_iii
-recruit_character = GER_victoria
-recruit_character = GER_august_von_mackensen
 
-recruit_character = GER_alexander_von_falkenhausen #Not visible unless recalled from China
 
 # 8.4 DLC monarchist and alternate-history figures
-recruit_character = GER_werner_von_blomberg
-recruit_character = GER_oswald_lutz
-recruit_character = GER_walther_nehring
-recruit_character = GER_hans_krebs
-recruit_character = GER_rolf_carls
-recruit_character = GER_helmuth_wilberg
-recruit_character = GER_josef_kammhuber
-recruit_character = GER_robert_knauss
-recruit_character = GER_alfred_becker
-recruit_character = GER_walter_dornberger
-recruit_character = GER_ludwig_erhard
-recruit_character = GER_paul_von_lettow_vorbeck # He is "new"
-recruit_character = GER_carl_friedrich_goerdeler
-recruit_character = GER_wilhelm_iv
 
 # 8.5 Scientists and designers
-recruit_character = GER_peter_adolf_thiessen
-recruit_character = GER_gustav_ludwig_hertz
-recruit_character = GER_eduard_grote
-recruit_character = GER_ferdinand_porsche 
-recruit_character = GER_erwin_aders
-recruit_character = GER_hermann_burkhardt
-recruit_character = GER_ulrich_gabler
-recruit_character = GER_hans_von_ohain
-recruit_character = GER_max_kramer
-recruit_character = GER_kurt_tank
-recruit_character = GER_hellmuth_walter
-recruit_character = GER_manfred_von_ardenne
-recruit_character = GER_konrad_zuse
 
 # 8.6 Gotterdammerung extra characters
 if = {
 	limit = {
 		has_dlc = "Gotterdammerung"
 	}
-	recruit_character = GER_jurgen_von_blumenthal
-	recruit_character = GER_hans_vogel
-	recruit_character = GER_adolf_friedrich_von_mecklenburg
-	recruit_character = GER_wilhelm_von_gayl
-	recruit_character = GER_andreas_hermes
-	recruit_character = GER_hans_luther
-	recruit_character = GER_hermann_erhardt
-	recruit_character = GER_dietrich_bonhoeffer
-	recruit_character = GER_oberste_heeresleitung_character
-	recruit_character = GER_walter_ulbricht
 	if = {
 		limit = {
 			has_dlc = "La Resistance"
 		}
-		recruit_character = GER_wilhelm_zaisser
 	}
-	recruit_character = GER_otto_ruhle
-	recruit_character = GER_hermann_duncker
-	recruit_character = GER_august_thalheimer
-	recruit_character = GER_heinrich_brandler
-	recruit_character = GER_bernhard_bastlein
-	recruit_character = GER_vincenz_muller
-	recruit_character = GER_hans_kahle
-	recruit_character = GER_hans_marchwitza
-	recruit_character = GER_arno_von_lenski
-	recruit_character = GER_otto_grotewohl
 
-	recruit_character = GER_henrich_focke #Heli Scientist
 }
 
 # 8.7 Artillery scientist for Gotterdammerung / No Step Back
@@ -411,7 +304,6 @@ if = {
 			has_dlc = "No Step Back"
 		}
 	}
-	recruit_character = GER_karl_heinrich_emil_becker #Artillery Scientist
 }
 
 # ------------------------------------------------------------

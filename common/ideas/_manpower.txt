@@ -217,25 +217,6 @@ ideas = {
 				}
 				if = {
 					limit = {
-						original_tag = BUL
-						has_dlc = "Battle for the Bosporus"
-					}
-					if = {
-						limit = {
-							has_dlc = "Arms Against Tyranny"
-						}
-						NOT = {
-							has_idea = BUL_army_restrictions_aat
-						}
-					}
-					else = {
-						NOT = {
-							has_idea = BUL_army_restrictions
-						}
-					}
-				}
-				if = {
-					limit = {
 						DEN_aat_is_subject = yes
 					}
 					NOT = { has_country_flag = DEN_cannot_increase_conscription_law }
@@ -330,29 +311,7 @@ ideas = {
 				OR = {
 					has_government = far_right
 					OR = { has_government = far_left has_government = left }
-					if = {
-						limit = {
-							PHI_SEA = yes
-						}
-						if = {
-							limit = {
-								has_idea = PHI_ties_with_republican_spain
-							}
-							has_idea = PHI_ties_with_republican_spain
-						}
-						else_if = {
-							limit = {
-								has_idea = PHI_ties_with_republican_spain_2
-							}
-							has_idea = PHI_ties_with_republican_spain_2
-						}
-						else = {
-							hidden_trigger = { always = no } #NEED TO HAVE AN ALWAYS AS AN END STATEMENT IF URE USING AN IF ELSE IN AN OR STATEMENT OTHERWISE THE EVALUATION BREAKS!!
-						}
-					}
-					else = {
-						hidden_trigger = { always = no } #NEED TO HAVE AN ALWAYS AS AN END STATEMENT IF URE USING AN IF ELSE IN AN OR STATEMENT OTHERWISE THE EVALUATION BREAKS!!
-					}
+					hidden_trigger = { always = no }
 					SWE_rapid_mob_manpower_law_trigger = yes 
 					if = {
 						limit = {
@@ -495,12 +454,12 @@ ideas = {
 							has_dlc = "Arms Against Tyranny"
 						}
 						NOT = {
-							has_idea = BUL_army_restrictions_aat
+							always = no
 						}
 					}
 					else = {
 						NOT = {
-							has_idea = BUL_army_restrictions
+							always = no
 						}
 					}
 				}
@@ -619,29 +578,7 @@ ideas = {
 				OR = {
 					has_government = far_right
 					OR = { has_government = far_left has_government = left }
-					if = {
-						limit = {
-							PHI_SEA = yes
-						}
-						if = {
-							limit = {
-								has_idea = PHI_ties_with_republican_spain
-							}
-							has_idea = PHI_ties_with_republican_spain
-						}
-						else_if = {
-							limit = {
-								has_idea = PHI_ties_with_republican_spain_2
-							}
-							has_idea = PHI_ties_with_republican_spain_2
-						}
-						else = {
-							hidden_trigger = { always = no } #NEED TO HAVE AN ALWAYS AS AN END STATEMENT IF URE USING AN IF ELSE IN AN OR STATEMENT OTHERWISE THE EVALUATION BREAKS!!
-						}
-					}
-					else = {
-						hidden_trigger = { always = no } #NEED TO HAVE AN ALWAYS AS AN END STATEMENT IF URE USING AN IF ELSE IN AN OR STATEMENT OTHERWISE THE EVALUATION BREAKS!!
-					}
+					hidden_trigger = { always = no }
 					SWE_rapid_mob_manpower_law_trigger = yes
 					AND = {
 						has_war = yes
@@ -766,12 +703,12 @@ ideas = {
 							has_dlc = "Arms Against Tyranny"
 						}
 						NOT = {
-							has_idea = BUL_army_restrictions_aat
+							always = no
 						}
 					}
 					else = {
 						NOT = {
-							has_idea = BUL_army_restrictions
+							always = no
 						}
 					}
 				}
@@ -1013,12 +950,12 @@ ideas = {
 							has_dlc = "Arms Against Tyranny"
 						}
 						NOT = {
-							has_idea = BUL_army_restrictions_aat
+							always = no
 						}
 					}
 					else = {
 						NOT = {
-							has_idea = BUL_army_restrictions
+							always = no
 						}
 					}
 				}
@@ -1245,12 +1182,12 @@ ideas = {
 							has_dlc = "Arms Against Tyranny"
 						}
 						NOT = {
-							has_idea = BUL_army_restrictions_aat
+							always = no
 						}
 					}
 					else = {
 						NOT = {
-							has_idea = BUL_army_restrictions
+							always = no
 						}
 					}
 				}

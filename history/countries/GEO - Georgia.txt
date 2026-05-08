@@ -1,4 +1,5 @@
-﻿capital = 231 #Tbilisi
+capital = 231 #Tbilisi
+
 set_party_name = { ideology = far_left long_name = GEN_far_left_party_long name = GEN_far_left_party }
 set_party_name = { ideology = left long_name = GEN_left_party_long name = GEN_left_party }
 set_party_name = { ideology = center_left long_name = GEN_center_left_party_long name = GEN_center_left_party }
@@ -100,12 +101,5 @@ set_popularities = {
 	right = 10
 }
 
-recruit_character = GEO_noe_zhordania
-recruit_character = GEO_kandid_charkviani
-recruit_character = GEO_george_bagration
-recruit_character = GEO_giorgi_kvinitadze
-recruit_character = GEO_shalva_maglakelidze
-recruit_character = GEO_grigol_robakidze
-recruit_character = GEO_ioseb_jughashvili
 
 

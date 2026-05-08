@@ -1,4 +1,5 @@
-﻿capital = 327 # Manila
+capital = 327 # Manila
+
 set_party_name = { ideology = far_left long_name = GEN_far_left_party_long name = GEN_far_left_party }
 set_party_name = { ideology = left long_name = GEN_left_party_long name = GEN_left_party }
 set_party_name = { ideology = center_left long_name = GEN_center_left_party_long name = GEN_center_left_party }
@@ -53,9 +54,6 @@ IF = {
 	}
 }
 
-add_ideas = {
-	
-}
 
 set_convoys = 25
 

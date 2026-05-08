@@ -1,4 +1,5 @@
-﻿capital = 64
+capital = 64
+
 set_party_name = { ideology = far_left long_name = GEN_far_left_party_long name = GEN_far_left_party }
 set_party_name = { ideology = left long_name = GEN_left_party_long name = GEN_left_party }
 set_party_name = { ideology = center_left long_name = GEN_center_left_party_long name = GEN_center_left_party }
@@ -116,70 +117,11 @@ set_research_slots = 4
 set_convoys = 50
 set_stability = 0.75
 
-1939.1.1 = {
-
-	add_political_power = 1197
-	add_command_power = 100
-	
-
-	#BUILDINGS
-	
-
-	set_technology = {
-		CAS2 = 1
-		heavy_fighter1 = 1
-		interwar_artillery = 1
-		interwar_antitank = 1
-		infantry_weapons2 = 1
-		improved_infantry_weapons = 1
-		support_weapons = 1
-		support_weapons2 = 1
-		paratroopers = 1
-
-		#doctrines
-		#air
-		#formation_flying = 1		
-		#dive_bombing = 1
-		#direct_ground_support = 1
-
-		#electronics
-		electronic_mechanical_engineering = 1
-		radio = 1
-		cavity_magnatron = 1
-		mechanical_computing = 1
-		computing_machine = 1
-		basic_encryption = 1
-		basic_decryption = 1
-
-		#industry
-		basic_machine_tools = 1
-		improved_machine_tools = 1
-		advanced_machine_tools = 1
-		construction1 = 1
-		construction2 = 1
-		construction3 = 1
-		construction4 = 1
-		dispersed_industry = 1
-		dispersed_industry2 = 1
-		dispersed_industry3 = 1
-		dispersed_industry4 = 1
-
-	}
-
-set_grand_doctrine = new_mobile_warfare
-set_grand_doctrine = new_convoy_raiding
-set_grand_doctrine = new_battlefield_support
-
-	complete_special_project = {
-		project = sp:sp_air_radar
-	}
-}
 
 set_politics = {
 	ruling_party = left
 	last_election = "1936.1.1"
 	election_frequency = 48
-	elections_allowed = yes
 
 }
 set_popularities = {
@@ -188,10 +130,7 @@ set_popularities = {
 	left = 60
 }
 
-add_ideas = {
-}
 
-create_country_leader = {
 	name = "Jake Richter"
 	desc = ""
 	picture = GFX_portrait_Jake_Richter
@@ -212,7 +151,6 @@ create_country_leader = {
 #	}
 #}
 #
-create_country_leader = {
 	name = "Wilhelm Pieck"
 	desc = "POLITICS_WILHELM_PIECK_DESC"	 
 	picture = GFX_portrait_Wilhelm_Pieck
@@ -284,7 +222,6 @@ if = {
 			mid_2_custom_slot = ship_light_medium_battery_1
 			rear_1_custom_slot = ship_mine_layer_1
 		}
-		obsolete = yes
 	}
 }
 
@@ -307,7 +244,6 @@ if = {
 			ship_gun_upgrade = 2
 			ship_anti_air_upgrade = 2
 		}
-		obsolete = yes
 	}
 	# Heavy Cruisers #
 	create_equipment_variant = {
@@ -323,72 +259,5 @@ if = {
 	}
 }
 ## 1939 Start ##
-1939.1.1 = {
-
-		if = {
-			limit = {
-				not = { has_dlc = "Man the Guns" }
-			}
-			# Submarines #
-			create_equipment_variant = {
-				name = "Type VIIA"
-				type = submarine_2
-				parent_version = 0
-				upgrades = {
-					ship_reliability_upgrade = 1
-					sub_engine_upgrade = 1
-					sub_stealth_upgrade = 1
-					sub_torpedo_upgrade = 1
-				}
-			}
-			# Destroyer #
-			create_equipment_variant = {
-				name = "Zerstﾃｶrer 1936"
-				type = destroyer_2
-				parent_version = 0
-				upgrades = {
-					ship_torpedo_upgrade = 2
-					destroyer_engine_upgrade = 2
-					ship_ASW_upgrade = 2
-					ship_anti_air_upgrade = 2
-				}
-			}
-			# Heavy Cruisers #
-			#create_equipment_variant = {
-			#	name = "Deutschland Class"
-			#	type = heavy_cruiser_1
-			#	parent_version = 0
-			#	upgrades = {
-			#		ship_reliability_upgrade = 1
-			#		ship_engine_upgrade = 1
-			#		ship_armor_upgrade = 1
-			#		ship_gun_upgrade = 2
-			#	}
-			#	obsolete = yes
-			#}
-
-		}
-
-		if = {
-			limit = {
-				has_dlc = "Man the Guns"
-			}
-			create_equipment_variant = {
-				name = "Zerstﾃｶrer 1936 Class"
-				type = ship_hull_light_2
-				name_group = GER_DD_HISTORICAL
-				parent_version = 0
-				modules = {
-					fixed_ship_battery_slot = ship_light_battery_2
-					fixed_ship_anti_air_slot = ship_anti_air_1
-					fixed_ship_fire_control_system_slot = ship_fire_control_system_0
-					fixed_ship_radar_slot = empty
-					fixed_ship_engine_slot = light_ship_engine_2
-					fixed_ship_torpedo_slot = ship_torpedo_1
-					rear_1_custom_slot = ship_depth_charge_1
-				}
-			}
-		}
-}
 
 

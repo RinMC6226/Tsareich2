@@ -1,4 +1,5 @@
-﻿capital = 741
+capital = 741
+
 set_party_name = { ideology = far_left long_name = GEN_far_left_party_long name = GEN_far_left_party }
 set_party_name = { ideology = left long_name = GEN_left_party_long name = GEN_left_party }
 set_party_name = { ideology = center_left long_name = GEN_center_left_party_long name = GEN_center_left_party }
@@ -107,7 +108,6 @@ set_politics = {
 	ruling_party = center
 	last_election = "1933.2.16"
 	election_frequency = 36
-	elections_allowed = yes
 }
 
 set_popularities = {
@@ -129,9 +129,6 @@ set_popularities = {
 #	}
 #}
 
-recruit_character = CAM_norodom_sihanouk
-recruit_character = CAM_son_ngoc_thanh
-recruit_character = CAM_tou_samouth
 
 
 

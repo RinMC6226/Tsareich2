@@ -1,4 +1,5 @@
-﻿capital = 282 # Tokyo/Kanto
+﻿capital = 282 # Tokyo/Kanto
+
 set_party_name = { ideology = far_left long_name = GEN_far_left_party_long name = GEN_far_left_party }
 set_party_name = { ideology = left long_name = GEN_left_party_long name = GEN_left_party }
 set_party_name = { ideology = center_left long_name = GEN_center_left_party_long name = GEN_center_left_party }
@@ -641,6 +642,11 @@ set_autonomy = {
 
 
 # Setup Politics 
+recruit_character = JAP_kyuichi_tokuda
+recruit_character = JAP_tetsu_katayama
+recruit_character = JAP_keisuke_okada
+recruit_character = JAP_adachi_kenzo
+
 set_politics = {
 	ruling_party = right
 	last_election = "1936.1.1"
@@ -656,127 +662,6 @@ set_popularities = {
 
 
 ### Recruiting Characters ### 
-recruit_character = JAP_tetsu_katayama
-recruit_character = JAP_kyuichi_tokuda
-recruit_character = JAP_emperor_hirohito
-recruit_character = JAP_tomoyuki_yamashita
-recruit_character = JAP_hisaichi_terauchi
-recruit_character = JAP_shunroku_hata
-recruit_character = JAP_akira_muto
-recruit_character = JAP_kanji_ishiwara
-recruit_character = JAP_shizuichi_tanaka
-recruit_character = JAP_yasuji_okamura
-recruit_character = JAP_toshizo_nishio
-recruit_character = JAP_rikichi_ando
-recruit_character = JAP_naruhiko_higashikuni
-recruit_character = JAP_seishiro_itagaki
-recruit_character = JAP_takashi_sakai
-recruit_character = JAP_kenji_doihara
-recruit_character = JAP_kenkichi_ueda
-recruit_character = JAP_shigeru_honjo
-recruit_character = JAP_yoshijiro_umezu
-recruit_character = JAP_otozo_yamada
-recruit_character = JAP_hatazo_adachi
-recruit_character = JAP_iwane_matsui
-recruit_character = JAP_sadao_araki
-recruit_character = JAP_keisuke_fujie
-recruit_character = JAP_kiichiro_higuchi
-recruit_character = JAP_masaharu_homma
-recruit_character = JAP_harukichi_hyakutake
-recruit_character = JAP_jo_iimura
-recruit_character = JAP_hitoshi_imamura
-recruit_character = JAP_masatane_kanda
-recruit_character = JAP_kuniaki_koiso
-recruit_character = JAP_isoroku_yamamoto
-recruit_character = JAP_mineichi_koga
-recruit_character = JAP_kiyoshi_hasegawa
-recruit_character = JAP_shigeyoshi_inoue
-recruit_character = JAP_nobutake_kondo
-recruit_character = JAP_takeo_takagi
-recruit_character = JAP_soemu_toyoda
-recruit_character = JAP_jisaburo_ozawa
-recruit_character = JAP_zengo_yoshida
-recruit_character = JAP_hiroaki_abe
-recruit_character = JAP_tadashige_daigo
-recruit_character = JAP_gengo_hyakutake
-recruit_character = JAP_yoshitoshi_tokugawa
-recruit_character = JAP_fushimi_hiroyasu
-recruit_character = JAP_korechika_anami
-recruit_character = JAP_mitsuo_fuchida
-recruit_character = JAP_minoru_genda
-recruit_character = JAP_tateo_kato
-recruit_character = JAP_osami_nagano
-recruit_character = JAP_torashiro_kawabe
-recruit_character = JAP_shigetaro_shimada
-recruit_character = JAP_yoshio_nishina
-recruit_character = JAP_hideo_itokawa
-recruit_character = JAP_kanin_kotohito
-recruit_character = JAP_hideki_tojo
-recruit_character = JAP_matome_ugaki
-recruit_character = JAP_nishizo_tsukahara
-recruit_character = JAP_hajime_sugiyama
-recruit_character = JAP_chuichi_nagumo
-recruit_character = JAP_hino_kumazo
-recruit_character = JAP_mitsumasa_yonai
-recruit_character = JAP_takuo_godo
-recruit_character = JAP_chiune_sugihara
-recruit_character = JAP_kingoro_hashimoto
-recruit_character = JAP_sanzo_nosaka
-recruit_character = JAP_hiroshi_oshima
-recruit_character = JAP_kijuro_shidehara
-recruit_character = JAP_kijiro_nambu
-recruit_character = JAP_keiji_fukuda
-recruit_character = JAP_jiro_horikoshi
-recruit_character = JAP_hideki_yukawa
-recruit_character = JAP_yoji_ito
-recruit_character = JAP_hideo_iwakuro
-recruit_character = JAP_yuzuru_hiraga
-recruit_character = JAP_keisuke_okada
-recruit_character = JAP_shun_akikusa
-recruit_character = JAP_koki_hirota
-recruit_character = JAP_kazushige_ugaki
-recruit_character = JAP_fumimaro_konoe
-recruit_character = JAP_senjuro_hayashi
-recruit_character = JAP_jinzaburo_masaki
-recruit_character = JAP_emperor_yasuhito
-recruit_character = JAP_tokugawa_iesato
-recruit_character = JAP_masafumi_arima
-recruit_character = JAP_tsuneyoshi_takeda
-recruit_character = JAP_yasuhiko_asaka
-recruit_character = JAP_isamu_cho
-recruit_character = JAP_hayao_tada
-recruit_character = JAP_nashimoto_morimasa
-recruit_character = JAP_michitaro_komatsubara
-recruit_character = JAP_takahashi_korekiyo
-recruit_character = JAP_naoki_hoshino
-recruit_character = JAP_koichi_kido
-recruit_character = JAP_shigenori_togo
-recruit_character = JAP_heisuke_yanagawa
-recruit_character = JAP_yosuke_matsuoka
-recruit_character = JAP_genki_abe
-recruit_character = JAP_nobusuke_kishi
-recruit_character = JAP_masatoshi_okochi
-recruit_character = JAP_shumei_okawa
-recruit_character = JAP_okinori_kaya
-recruit_character = JAP_koyata_iwasaki
-recruit_character = JAP_chikuhei_nakajima
-recruit_character = JAP_yoshisuke_aikawa
-recruit_character = JAP_kenjiro_matsumoto
-recruit_character = JAP_uzo_nishiyama
-recruit_character = JAP_gotaro_ogawa
-recruit_character = JAP_kiichiro_hiranuma
-recruit_character = JAP_yamauchi_sachiko
-recruit_character = JAP_wakatsuki_reijiro
-recruit_character = JAP_shinji_sogo
-recruit_character = JAP_jotaro_watanabe
-recruit_character = JAP_masakazu_kawabe
-recruit_character = JAP_harukichi_shimoi
-recruit_character = JAP_teijiro_toyoda
-recruit_character = JAP_chuuichi_nagumo
-recruit_character = JAP_tamon_yamaguchi
-recruit_character = JAP_toyoaki_horiuchi
-recruit_character = JAP_tadaichi_wakamatsu
-recruit_character = JAP_masanobu_tsuji
 
 
 ### DLC-SPECIFIC CHARACTERS ###
@@ -784,64 +669,12 @@ IF = {
 	limit = {
 		has_dlc = "No Compromise, No Surrender"
 	}
-	recruit_character = JAP_ichiro_hatoyama
-	recruit_character = JAP_machida_chuuji
-	recruit_character = JAP_abe_isoo
-	recruit_character = JAP_hitoshi_yamakawa
-	recruit_character = JAP_kanson_arahata
-	recruit_character = JAP_yamakawa_kikue
-	recruit_character = JAP_empress_nagako
-	recruit_character = JAP_yoshio_kodama
-	recruit_character = JAP_adachi_kenzo
-	recruit_character = JAP_seigo_nakano
-	recruit_character = JAP_saburo_aizawa
-	recruit_character = JAP_yoshiyuki_kawashima
-	recruit_character = JAP_teruzo_ando
-	recruit_character = JAP_shiro_nonaka
-	recruit_character = JAP_asaichi_isobe
-	recruit_character = JAP_yasuhide_kurihara
-	recruit_character = JAP_kiyosada_koda
-	recruit_character = JAP_takaji_muranaka
-	recruit_character = JAP_morihei_ueshiba
-	recruit_character = JAP_fukumoto_kazuo
-	recruit_character = JAP_nissho_inoue
-	recruit_character = JAP_bin_akao
-	recruit_character = JAP_yukio_ozaki
-	recruit_character = JAP_toyama_mitsuru
-	recruit_character = JAP_hajime_kawakami
-	recruit_character = JAP_osamu_shimomura
-	recruit_character = JAP_hideo_shima
-	recruit_character = JAP_ichikawa_fusae
-	recruit_character = JAP_komakichi_matsuoka
-	recruit_character = JAP_yoshio_shiga
-	recruit_character = JAP_hisachi_aso
-	recruit_character = JAP_suzuki_bunji
-	recruit_character = JAP_hakamada_satomi
-	recruit_character = JAP_noboru_yamaguchi
-	recruit_character = JAP_tsuji_jun
-	recruit_character = JAP_hiratsuka_raicho
-	recruit_character = JAP_masamichi_royama
-	recruit_character = JAP_minoru_takano
-	recruit_character = JAP_kojiro_fukushi
-	recruit_character = JAP_hotsumi_ozaki
-	recruit_character = JAP_onisaburo_deguchi
-	recruit_character = JAP_saionji_kinmochi
-	recruit_character = JAP_gempo_yamamoto
-	recruit_character = JAP_akira_kurosawa
-	recruit_character = JAP_emperor_nobuhito
-	recruit_character = JAP_yoshihige_abe
-	recruit_character = JAP_kozo_sasaki
-	recruit_character = JAP_giro_senoo
-	recruit_character = JAP_taketora_ogata
 	ELSE_IF = {
 		limit = {
 			NOT = {
 				has_dlc = "No Compromise, No Surrender"
 			}
 		}
-		recruit_character = JAP_random_general_1
-		recruit_character = JAP_random_general_2
-		recruit_character = JAP_random_general_3
 	}
 }
 
@@ -916,8 +749,6 @@ JAP_isoroku_yamamoto = {
 	}
 
 	# Kodoha coup has historical outcomes
-	retire_character = JAP_takahashi_korekiyo
-	retire_character = JAP_jotaro_watanabe
 
 	add_political_power = 1198
 	add_command_power = 100

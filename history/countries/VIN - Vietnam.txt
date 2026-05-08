@@ -1,4 +1,5 @@
-﻿capital = 671 #Hanoi
+capital = 671 #Hanoi
+
 set_party_name = { ideology = far_left long_name = GEN_far_left_party_long name = GEN_far_left_party }
 set_party_name = { ideology = left long_name = GEN_left_party_long name = GEN_left_party }
 set_party_name = { ideology = center_left long_name = GEN_center_left_party_long name = GEN_center_left_party }
@@ -103,7 +104,6 @@ set_politics = {
 	ruling_party = center
 	last_election = "1933.2.16"
 	election_frequency = 36
-	elections_allowed = yes
 }
 set_popularities = {
 	center = 35
@@ -125,9 +125,6 @@ set_popularities = {
 #	}
 #}
 
-recruit_character = VIN_bao_dai
-recruit_character = VIN_ngo_dinh_diem
-recruit_character = VIN_ho_chi_minh
 
 
 

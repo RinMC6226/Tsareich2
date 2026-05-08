@@ -1,4 +1,5 @@
-﻿capital = 554
+capital = 554
+
 set_party_name = { ideology = far_left long_name = GEN_far_left_party_long name = GEN_far_left_party }
 set_party_name = { ideology = left long_name = GEN_left_party_long name = GEN_left_party }
 set_party_name = { ideology = center_left long_name = GEN_center_left_party_long name = GEN_center_left_party }
@@ -7,7 +8,6 @@ set_party_name = { ideology = center_right long_name = GEN_center_right_party_lo
 set_party_name = { ideology = right long_name = GEN_right_party_long name = GEN_right_party }
 set_party_name = { ideology = far_right long_name = GEN_far_right_party_long name = GEN_far_right_party }
 
-set_cosmetic_tag = SYR_GER
 
 
 # Starting tech
@@ -33,62 +33,12 @@ if = {
 
 set_convoys = 5
 
-1939.1.1 = {
-
-	add_political_power = 1198
-	add_command_power = 100
-	
-	#generic focuses
-	complete_national_focus = army_effort
-	complete_national_focus = equipment_effort
-	complete_national_focus = motorization_effort
-	complete_national_focus = aviation_effort
-	complete_national_focus = naval_effort
-	complete_national_focus = large_navy
-	complete_national_focus = industrial_effort
-	complete_national_focus = construction_effort
-	complete_national_focus = production_effort
-	
-	set_technology = {
-		tech_support = 1
-		tech_recon = 1
-		support_weapons = 1
-		gw_artillery = 1
-
-		#doctrines
-		#air_superiority = 1
-
-		#electronics
-		electronic_mechanical_engineering = 1
-		radio = 1
-		mechanical_computing = 1
-		computing_machine = 1
-
-		#industry
-		basic_machine_tools = 1
-		improved_machine_tools = 1
-		advanced_machine_tools = 1
-		construction1 = 1
-		construction2 = 1
-		dispersed_industry = 1
-		dispersed_industry2 = 1
-	}
-
-set_grand_doctrine = grand_battleplan
-set_grand_doctrine = new_fleet_in_being
-set_grand_doctrine = new_strategic_destruction
-
-	complete_special_project = {
-		project = sp:sp_air_radar
-	}
-}
 
 
 set_politics = {
 	ruling_party = right
 	last_election = "1936.1.1"
 	election_frequency = 48
-	elections_allowed = yes
 }
 set_popularities = {
 	far_right = 0
@@ -97,10 +47,7 @@ set_popularities = {
 	right = 100
 }
 
-recruit_character = SYR_mehemed_ali_abed
-recruit_character = SYR_hashim_al_atassi
 
-create_country_leader = {
 	name = "Antun Saadeh"
 	desc = ""
 	picture = GFX_portrait_Antun_Saadeh
@@ -110,7 +57,6 @@ create_country_leader = {
 	}
 }
 
-create_country_leader = {
 	name = "Khalid Bakdash"
 	desc = ""
 	picture = GFX_portrait_Khalid_Bakdash
