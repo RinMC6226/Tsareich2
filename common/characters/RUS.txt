@@ -37,14 +37,6 @@ characters = {
 				large = "GFX_portrait_SOV_vladimir_kirillovich"
 			}
 		}
-		country_leader = {
-			ideology = authoritarian_conservatism
-			expire = "1953.3.1.1"
-			id = -1
-			traits = {
-				emperor_and_autocrat_of_all_the_russias
-			}
-		}
 	}
 
 	RUS_tsar_vsevolod_ivanovich = {
@@ -53,11 +45,6 @@ characters = {
 			civilian = {
 				large = "GFX_portrait_SOV_vsevolod_ivanovich"
 			}
-		}
-		country_leader = {
-			ideology = authoritarian_conservatism
-			expire = "1953.3.1.1"
-			id = -1
 		}
 	}
 
@@ -69,14 +56,6 @@ characters = {
 			}
 			army = {
 				small = "GFX_idea_SOV_patriarch_meletius"
-			}
-		}
-		country_leader = {
-			ideology = authoritarian_conservatism
-			expire = "1953.3.1.1"
-			id = -1
-			traits = {
-				defier_of_the_sun_god supreme_representative_of_god_on_earth
 			}
 		}
 		advisor = {
