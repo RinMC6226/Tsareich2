@@ -19,7 +19,7 @@ focus_tree = {
 		id = RUS_avoided_assassinate
 		icon = GFX_focus_usa_reestablish_the_gold_standard
 		
-		mutually_exclusive = { focus = }
+		# mutually_exclusive = { focus = }
 		x = 30
 		y = 0
 		cost = 0

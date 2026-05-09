@@ -156,8 +156,8 @@ AUS_austrofascism = {
 	remove_trigger = {
 		NOT = {
 			OR = {
-				has_government = neutrality
-				has_government = fascism
+				has_government = right
+				has_government = far_right
 			}
 		}
 	}
@@ -178,7 +178,7 @@ AUS_habsburg_monarchy_restored = {
 	war_support_factor = AUS_habsburg_monarchy_restored_war_support_factor
 	remove_trigger = {
 		NOT = {
-			has_government = neutrality
+			has_government = right
 		}
 	}
 }
@@ -198,7 +198,7 @@ AUS_austrian_monarchy_restored = {
 	war_support_factor = AUS_habsburg_monarchy_restored_war_support_factor
 	remove_trigger = {
 		NOT = {
-			has_government = neutrality
+			has_government = right
 		}
 	}
 }
@@ -259,7 +259,7 @@ AUS_austromarxism = {
 		AND = {
 			always = no # Tsareich2: disabled missing focus reference AUS_revolution
 			NOT = {
-				has_government = communism
+				has_government = far_left
 			}
 		}
 	}
@@ -288,7 +288,7 @@ AUS_austrostalinism = {
 		AND = {
 			always = no # Tsareich2: disabled missing focus reference AUS_revolution
 			NOT = {
-				has_government = communism
+				has_government = far_left
 			}
 		}
 	}
@@ -317,7 +317,7 @@ AUS_austrotrotskyism = {
 		AND = {
 			always = no # Tsareich2: disabled missing focus reference AUS_revolution
 			NOT = {
-				has_government = communism
+				has_government = far_left
 			}
 		}
 	}
@@ -855,7 +855,7 @@ GER_stasi_modifier = {
 
 	remove_trigger = {
 		NOT = { 
-			has_government = communism
+			has_government = far_left
 		}
 	}
 
@@ -876,7 +876,7 @@ GER_politburo_modifier = {
 
 	remove_trigger = {
 		NOT = { 
-			has_government = communism
+			has_government = far_left
 		}
 	}
 
@@ -942,7 +942,7 @@ GER_the_inner_circle_dm = {
 	icon = GFX_idea_generic_fascism_drift_2
 	enable = { always = yes }
 	remove_trigger = {
-		NOT = { has_government = fascism }
+		NOT = { has_government = far_right }
 	}
 
 	custom_modifier_tooltip = GER_the_inner_circle_dm_tt
@@ -1158,7 +1158,7 @@ GER_proletariat_uprising_modifier = {
 	remove_trigger = {
 		OR = {
 			GER = {
-				has_government = communism
+				has_government = far_left
 			}
 			ROOT = { 
 				NOT = {

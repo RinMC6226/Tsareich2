@@ -45,8 +45,8 @@ if = {
 	limit = {
 		has_start_date < 1936.01.02
 	}
-	set_power_balance = {
-	}
+	#set_power_balance = {
+	#}
 	#SISU NS
 }
 

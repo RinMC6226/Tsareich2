@@ -1024,7 +1024,7 @@ operation_coup_government = { ### 7 1/70
 			target = FROM
 			value > 35
 		}
-		NOT = { has_completed_focus = SPR_regional_defense_council_of_aragon }
+		#NOT = { has_completed_focus = SPR_regional_defense_council_of_aragon }
 	}
 
 	equipment = {
@@ -1057,25 +1057,25 @@ operation_coup_government = { ### 7 1/70
 				limit = {
 					PREV.ROOT = { has_government = far_right }
 				}
-				fascism > 0.2
+				far_right > 0.2
 			}
 			if = {
 				limit = {
 					PREV.ROOT = { OR = { has_government = far_left has_government = left } }
 				}
-				communism > 0.2
+				far_left > 0.2
 			}
 			if = {
 				limit = {
 					PREV.ROOT = { OR = { has_government = center_left has_government = center has_government = center_right } }
 				}
-				democratic > 0.2
+				center > 0.2
 			}
 			if = {
 				limit = {
 					PREV.ROOT = { OR = { has_government = center_right has_government = right } }
 				}
-				neutrality > 0.2
+				right > 0.2
 			}
 				#set_temp_variable = { coup_ideology@ROOT = PREV.ROOT.current_party_ideology_group }
 				#set_temp_variable = { coup_ideology_popularity@ROOT = party_popularity@ROOT.coup_ideology }

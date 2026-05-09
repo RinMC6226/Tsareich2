@@ -116,7 +116,7 @@ political_actions = {
 				factor = 0 
 				tag = ICE
 				always = no # Tsareich2: disabled missing focus reference ICE_not_our_king
-				NOT = { has_completed_focus = ICE_break_with_the_crown }
+				always = no #NOT = { has_completed_focus = ICE_break_with_the_crown }
 			}
 			modifier = {
 				factor = 0 
@@ -2006,18 +2006,18 @@ war_measures = {
 			modifier = {
 				factor = 0
 				original_tag = CHI 
-				amount_taken_ideas = {
-					amount < 1
-					slots = {
-						army_chief
-					}
-				}
-				amount_taken_ideas = {
-					amount < 2
-					slots = {
-						high_command
-					}
-				}
+				#amount_taken_ideas = {
+				#	amount < 1
+				#	slots = {
+				#		army_chief
+				#	}
+				#}
+				#amount_taken_ideas = {
+				#	amount < 2
+				#	slots = {
+				#		high_command
+				#	}
+				#}
 			}
 			modifier = {
 				factor = 0

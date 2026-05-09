@@ -75,9 +75,9 @@ IF = {
 		has_dlc = "No Compromise, No Surrender"
 	}
 
-	set_power_balance = {
-	    set_value = -0.15
-	}
+	#set_power_balance = {
+	#    set_value = -0.15
+	#}
 
 	#### Dynamic Modifiers ####
 

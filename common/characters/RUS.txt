@@ -961,12 +961,6 @@ characters = {
 				original_tag = RUS
 			}
 			available = {
-				if = {
-					limit = {
-						has_character_flag = SOV_exiled_flag
-					}
-					NOT = { has_character_flag = SOV_exiled_flag }
-				}
 			}
 			traits = { naval_theorist }
 			ai_will_do = {
@@ -1484,8 +1478,6 @@ characters = {
 			planning_skill = 1
 			logistics_skill = 1
 			visible = {
-				NOT = { has_character_flag = SOV_exiled_flag }
-				ROOT = { has_completed_focus = SOV_beaten_but_not_defeated }
 			}
 		}
 	}

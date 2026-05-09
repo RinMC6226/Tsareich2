@@ -11,14 +11,8 @@ bookmarks = {
 			history = "SPR_GATHERING_STORM_DESC"
 			ideology = left
 			ideas = {
-				SPR_military_disloyalty
-				SPR_political_violence
-				SPR_national_strikes_3
 			}
 			focuses = {
-				SPR_masters_of_our_own_fate
-				SPR_the_anti_fascist_workers_revolution
-				SPR_the_stalinist_doctrine
 			}
 		}
 
@@ -26,14 +20,8 @@ bookmarks = {
 			history = "ITA_GATHERING_STORM_DESC"
 			ideology = left
 			ideas = {
-				vittorio_emanuele
-				vittoria_mutilata
-				partial_economic_mobilisation
 			}
 			focuses = {
-				ITA_il_sol_dell_avvenire
-				ITA_italian_socialism
-				ITA_industrial_socialization
 			}
 		}
 
@@ -41,45 +29,17 @@ bookmarks = {
 			history = "FRA_GATHERING_STORM_DESC"
 			ideology = left
 			ideas = {
-				FRA_victors_of_wwi
-				FRA_disjointed_government
-				FRA_protected_by_the_maginot_line
 			}
 			focuses = {
-				FRA_invite_communist_ministers
-				FRA_strengthen_the_unions
-				FRA_freedom_front
-			}
-		}
-		
-
-		GER = {
-			history = "GER_GATHERING_STORM_DESC"
-			ideology = right
-			available = { has_dlc = "Gotterdammerung" }
-			ideas = {
-				GER_army_1936_fake_ns
-				GER_airforce_fake_ns
-			}
-			focuses = {
-				GER_glory_to_the_imperial_army
-				GER_the_peoples_victory
-				GER_reestablish_free_elections
 			}
 		}
 
 		GER = {
 			history = "GER_GATHERING_STORM_DESC"
 			ideology = right
-			available = { NOT = { has_dlc = "Gotterdammerung" } }
 			ideas = {
-				GER_army_1936_fake_ns
-				GER_airforce_fake_ns
 			}
 			focuses = {
-				GER_revive_the_kaiserreich
-				GER_reestablish_free_elections
-				GER_oppose_hitler
 			}
 		}
 

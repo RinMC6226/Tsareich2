@@ -216,9 +216,6 @@ ideas = {
 				OR = {
 					has_government = far_right
 					OR = { has_government = far_left has_government = left }
-					else = {
-						hidden_trigger = { always = no } #NEED TO HAVE AN ALWAYS AS AN END STATEMENT IF URE USING AN IF ELSE IN AN OR STATEMENT OTHERWISE THE EVALUATION BREAKS!!
-					}
 					custom_trigger_tooltip = { tooltip = or_clarification_tooltip always = no }
 					AND = {
 						has_war = yes
@@ -778,13 +775,7 @@ ideas = {
 							has_idea = partial_economic_mobilisation
 							has_idea = war_economy
 							has_idea = tot_economic_mobilisation
-							else = {
-								hidden_trigger = { always = no } #NEED TO HAVE AN ALWAYS AS AN END STATEMENT IF URE USING AN IF ELSE IN AN OR STATEMENT OTHERWISE THE EVALUATION BREAKS!!
-							}
 						}
-					}
-					else = {
-						hidden_trigger = { always = no } #NEED TO HAVE AN ALWAYS AS AN END STATEMENT IF URE USING AN IF ELSE IN AN OR STATEMENT OTHERWISE THE EVALUATION BREAKS!!
 					}
 				}
 

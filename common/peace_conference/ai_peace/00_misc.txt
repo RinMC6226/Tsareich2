@@ -390,19 +390,19 @@ peace_ai_desires = {
         enable = {
             if = {
                 limit = { OR = { has_government = center_left has_government = center has_government = center_right } }
-                ROOT.FROM.FROM = { pc_is_forced_government_to = democratic }
+                ROOT.FROM.FROM = { pc_is_forced_government_to = center }
             }
             else_if = {
                 limit = { has_government = far_right }
-                ROOT.FROM.FROM = { pc_is_forced_government_to = fascism }
+                ROOT.FROM.FROM = { pc_is_forced_government_to = far_right }
             }
             else_if = {
                 limit = { OR = { has_government = far_left has_government = left } }
-                ROOT.FROM.FROM = { pc_is_forced_government_to = communism }
+                ROOT.FROM.FROM = { pc_is_forced_government_to = far_left }
             }
             else_if = {
                 limit = { OR = { has_government = center_right has_government = right } }
-                ROOT.FROM.FROM = { pc_is_forced_government_to = neutrality }
+                ROOT.FROM.FROM = { pc_is_forced_government_to = right }
             }
             else = {
                 always = no
@@ -622,19 +622,19 @@ peace_ai_desires = {
         enable = {
             if = {
                 limit = { OR = { has_government = center_left has_government = center has_government = center_right } }
-                ROOT.FROM.FROM = { pc_is_forced_government_to = democratic }
+                ROOT.FROM.FROM = { pc_is_forced_government_to = center }
             }
             else_if = {
                 limit = { has_government = far_right }
-                ROOT.FROM.FROM = { pc_is_forced_government_to = fascism }
+                ROOT.FROM.FROM = { pc_is_forced_government_to = far_right }
             }
             else_if = {
                 limit = { OR = { has_government = far_left has_government = left } }
-                ROOT.FROM.FROM = { pc_is_forced_government_to = communism }
+                ROOT.FROM.FROM = { pc_is_forced_government_to = far_left }
             }
             else_if = {
                 limit = { OR = { has_government = center_right has_government = right } }
-                ROOT.FROM.FROM = { pc_is_forced_government_to = neutrality }
+                ROOT.FROM.FROM = { pc_is_forced_government_to = right }
             }
             else = {
                 always = no
@@ -1099,19 +1099,19 @@ peace_ai_desires = {
 			ROOT.FROM.FROM = { is_major = no }
             if = {
                 limit = { OR = { has_government = center_left has_government = center has_government = center_right } }
-                ROOT.FROM.FROM = { pc_is_forced_government_to = democratic }
+                ROOT.FROM.FROM = { pc_is_forced_government_to = center }
             }
             else_if = {
                 limit = { has_government = far_right }
-                ROOT.FROM.FROM = { pc_is_forced_government_to = fascism }
+                ROOT.FROM.FROM = { pc_is_forced_government_to = far_right }
             }
             else_if = {
                 limit = { OR = { has_government = far_left has_government = left } }
-                ROOT.FROM.FROM = { pc_is_forced_government_to = communism }
+                ROOT.FROM.FROM = { pc_is_forced_government_to = far_left }
             }
             else_if = {
                 limit = { OR = { has_government = center_right has_government = right } }
-                ROOT.FROM.FROM = { pc_is_forced_government_to = neutrality }
+                ROOT.FROM.FROM = { pc_is_forced_government_to = right }
             }
             else = {
                 always = no
@@ -1131,19 +1131,19 @@ peace_ai_desires = {
 			}
             if = {
                 limit = { OR = { has_government = center_left has_government = center has_government = center_right } }
-                ROOT.FROM.FROM = { pc_is_forced_government_to = democratic }
+                ROOT.FROM.FROM = { pc_is_forced_government_to = center }
             }
             else_if = {
                 limit = { has_government = far_right }
-                ROOT.FROM.FROM = { pc_is_forced_government_to = fascism }
+                ROOT.FROM.FROM = { pc_is_forced_government_to = far_right }
             }
             else_if = {
                 limit = { OR = { has_government = far_left has_government = left } }
-                ROOT.FROM.FROM = { pc_is_forced_government_to = communism }
+                ROOT.FROM.FROM = { pc_is_forced_government_to = far_left }
             }
             else_if = {
                 limit = { OR = { has_government = center_right has_government = right } }
-                ROOT.FROM.FROM = { pc_is_forced_government_to = neutrality }
+                ROOT.FROM.FROM = { pc_is_forced_government_to = right }
             }
             else = {
                 always = no

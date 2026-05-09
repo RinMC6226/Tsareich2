@@ -97,5 +97,6 @@ set_politics = {
 	elections_allowed = no
 }
 set_popularities = {
+	right = 100
 }
 

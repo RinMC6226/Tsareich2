@@ -1,4 +1,4 @@
-﻿far_left_on_the_rise = {
+far_left_on_the_rise = {
 	prepare_for_far_left_civil_war = {
 
 		icon = generic_prepare_civil_war

@@ -123,8 +123,8 @@ ideas = {
 					always = no
 					has_idea = volunteer_only
 					OR = {
-						has_active_mission = JAP_army_faction_demands_conscription_law_change
-						has_active_mission = JAP_naval_faction_demands_conscription_law_change
+						#has_active_mission = JAP_army_faction_demands_conscription_law_change
+						#has_active_mission = JAP_naval_faction_demands_conscription_law_change
 					}
 					factor = 10
 				}
@@ -141,10 +141,7 @@ ideas = {
 					has_government = far_right
 					OR = { has_government = far_left has_government = left }
 					hidden_trigger = { always = no }
-					SWE_rapid_mob_manpower_law_trigger = yes 
-					else = {
-						hidden_trigger = { always = no } #NEED TO HAVE AN ALWAYS AS AN END STATEMENT IF URE USING AN IF ELSE IN AN OR STATEMENT OTHERWISE THE EVALUATION BREAKS!!
-					}
+					#SWE_rapid_mob_manpower_law_trigger = yes
 					AND = {
 						has_war = yes
 						enemies_strength_ratio > 0.5
@@ -159,7 +156,7 @@ ideas = {
 					if = {
 						limit = {
 							has_dlc = "Arms Against Tyranny"
-							has_autonomy_state = autonomy_aat_defense_council_member
+							#has_autonomy_state = autonomy_aat_defense_council_member
 							is_subject_of = SWE
 						}
 					}
@@ -235,8 +232,8 @@ ideas = {
 					always = no
 					has_idea = limited_conscription
 					OR = {
-						has_active_mission = JAP_army_faction_demands_conscription_law_change
-						has_active_mission = JAP_naval_faction_demands_conscription_law_change
+						#has_active_mission = JAP_army_faction_demands_conscription_law_change
+						#has_active_mission = JAP_naval_faction_demands_conscription_law_change
 					}
 					factor = 10
 				}
@@ -266,7 +263,7 @@ ideas = {
 					has_government = far_right
 					OR = { has_government = far_left has_government = left }
 					hidden_trigger = { always = no }
-					SWE_rapid_mob_manpower_law_trigger = yes
+					#SWE_rapid_mob_manpower_law_trigger = yes
 					AND = {
 						has_war = yes
 						enemies_strength_ratio > 0.6
@@ -355,8 +352,8 @@ ideas = {
 					always = no
 					has_idea = extensive_conscription
 					OR = {
-						has_active_mission = JAP_army_faction_demands_conscription_law_change
-						has_active_mission = JAP_naval_faction_demands_conscription_law_change
+						#has_active_mission = JAP_army_faction_demands_conscription_law_change
+						#has_active_mission = JAP_naval_faction_demands_conscription_law_change
 					}
 					factor = 5
 				}
@@ -442,8 +439,8 @@ ideas = {
 					always = no
 					has_idea = service_by_requirement
 					OR = {
-						has_active_mission = JAP_army_faction_demands_conscription_law_change
-						has_active_mission = JAP_naval_faction_demands_conscription_law_change
+						#has_active_mission = JAP_army_faction_demands_conscription_law_change
+						#has_active_mission = JAP_naval_faction_demands_conscription_law_change
 					}
 					factor = 3
 				}
@@ -517,8 +514,8 @@ ideas = {
 					always = no
 					has_idea = all_adults_serve
 					OR = {
-						has_active_mission = JAP_army_faction_demands_conscription_law_change
-						has_active_mission = JAP_naval_faction_demands_conscription_law_change
+						#has_active_mission = JAP_army_faction_demands_conscription_law_change
+						#has_active_mission = JAP_naval_faction_demands_conscription_law_change
 					}
 					factor = 2
 				}

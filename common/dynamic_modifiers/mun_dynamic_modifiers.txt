@@ -480,7 +480,7 @@ CZE_rut_comprise_agreement_modifier = { #State Modifier
 	enable = { always = yes }
 	icon = GFX_MODIFIER_MAX_PLANNING
 	remove_trigger = {
-		CZE_RUT_is_not_its_own_thing = yes
+		always = no #CZE_RUT_is_not_its_own_thing = yes
 		CZE = {
 			OR = {
 				has_capitulated = yes

@@ -1308,10 +1308,10 @@ types = {
 
 					var:victim_country = {
 						
-						add_timed_idea = {
-							idea = USA_wounded_national_pride_idea
-							days = 365
-						}	
+						#add_timed_idea = {
+							#idea = USA_wounded_national_pride_idea
+							#days = 365
+						#}	
 
 					}
 				}
@@ -1347,10 +1347,10 @@ types = {
 					}
 					var:victim_country = {
 						
-						add_timed_idea = {
-							idea = USA_wounded_national_pride_idea
-							days = 365
-						}	
+						#add_timed_idea = {
+							#idea = USA_wounded_national_pride_idea
+							#days = 365
+						#}	
 
 					}
 				}
@@ -1444,10 +1444,10 @@ types = {
 							}
 						}
 							
-						add_timed_idea = {
-							idea = USA_wounded_national_pride_idea
-							days = 420
-						}	
+						#add_timed_idea = {
+							#idea = USA_wounded_national_pride_idea
+							#days = 420
+						#}	
 						
 					}
 				}
@@ -1918,10 +1918,10 @@ types = {
 						custom_effect_tooltip = operation_huansheng_limited_success_tt
 					}
 					var:victim_country = {
-						add_timed_idea = {
-							idea = JAP_public_awareness_of_war_ns
-							days = 35
-						}	
+						#add_timed_idea = {
+							#idea = JAP_public_awareness_of_war_ns
+							#days = 35
+						#}	
 					}
 				}
 				actor_effects = {
@@ -1945,10 +1945,10 @@ types = {
 						custom_effect_tooltip = operation_huansheng_success_tt
 					}
 					var:victim_country = {
-						add_timed_idea = {
-							idea = JAP_public_awareness_of_war_worse_ns
-							days = 70
-						}
+						#add_timed_idea = {
+							#idea = JAP_public_awareness_of_war_worse_ns
+							#days = 70
+						#}
 					}
 				}
 				actor_effects = {
@@ -1972,10 +1972,10 @@ types = {
 						custom_effect_tooltip = operation_huansheng_critical_success_tt
 					}
 					var:victim_country = {
-						add_timed_idea = {
-							idea = JAP_public_awareness_of_war_worst_ns
-							days = 140
-						}	
+						#add_timed_idea = {
+							#idea = JAP_public_awareness_of_war_worst_ns
+							#days = 140
+						#}	
 					}
 				}
 				actor_effects = {
@@ -3110,10 +3110,10 @@ types = {
 							hours = 6
 						}	
 						set_country_flag = JAP_inflicted_loss_nr_1
-						add_timed_idea = {
-							idea = JAP_day_of_infamy_1 
-							days = 180
-						}	
+						#add_timed_idea = {
+							#idea = JAP_day_of_infamy_1 
+							#days = 180
+						#}	
 
 					}
 				}
@@ -3171,10 +3171,10 @@ types = {
 							hours = 6
 						}	
 						set_country_flag = JAP_inflicted_loss_nr_2
-						add_timed_idea = {
-							idea = JAP_day_of_infamy_2 
-							days = 180
-						}	
+						#add_timed_idea = {
+							#idea = JAP_day_of_infamy_2 
+							#days = 180
+						#}	
 
 					}
 				}
@@ -3232,10 +3232,10 @@ types = {
 							hours = 6
 						}	
 						set_country_flag = JAP_inflicted_loss_nr_3
-						add_timed_idea = {
-							idea = JAP_day_of_infamy_3 
-							days = 180
-						}	
+						#add_timed_idea = {
+							#idea = JAP_day_of_infamy_3 
+							#days = 180
+						#}	
 
 					}
 				}

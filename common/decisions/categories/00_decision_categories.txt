@@ -186,7 +186,7 @@ fascism_on_the_rise = {
 				has_dlc = "La Resistance"
 				POR = { always = no }
 				tag = BRA
-				has_government = neutrality
+				has_government = right
 				has_civil_war = yes
 				AND = { #Already committed to monarchism
 					has_country_flag = POR_brazil_supports_monarchism_flag

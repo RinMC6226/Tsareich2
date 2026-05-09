@@ -1685,7 +1685,7 @@ SOV_PEN_01 =
 
 	for_countries = { SOV }
 
-	can_use = { has_completed_focus = SOV_penal_battalions }
+	can_use = { always = no } #has_completed_focus = SOV_penal_battalions
 
 	division_types = { "infantry" }
 

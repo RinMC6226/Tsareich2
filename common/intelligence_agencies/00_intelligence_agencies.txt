@@ -532,7 +532,7 @@ intelligence_agency = {
 	default = { 
 		tag = HUN 
 		NOT = { OR = { has_government = far_left has_government = left } }
-		NOT = { has_completed_focus = wuw_HUN_the_lands_of_the_crown_of_saint_stephen }
+		#NOT = { has_completed_focus = wuw_HUN_the_lands_of_the_crown_of_saint_stephen }
 	} 
 	available = { 
 		original_tag = HUN 

@@ -88,7 +88,7 @@ ICE_transformation_of_nature_state_modifier = {
   ### Historical Democratic ###
 NOR_prep_his_dmod_1 = {
 	enable = {
-		NOR = {	has_government = democratic }
+		NOR = {	has_government = center }
 	}
 	remove_trigger = {
 		NOR_prep_his_mod_remove_trigger = yes
@@ -104,7 +104,7 @@ NOR_prep_his_dmod_1 = {
 
 NOR_prep_his_dmod_2 = {
 	enable = {
-		NOR = {	has_government = democratic }
+		NOR = {	has_government = center }
 	}
 	remove_trigger = {
 		NOR_prep_his_mod_remove_trigger = yes
@@ -124,7 +124,7 @@ NOR_prep_his_dmod_2 = {
 
 NOR_prep_his_dmod_3 = {
 	enable = {
-		NOR = {	has_government = democratic }
+		NOR = {	has_government = center }
 	}
 	remove_trigger = {
 		NOR_prep_his_mod_remove_trigger = yes
@@ -350,7 +350,7 @@ NOR_administrative_council_dmod = { # Added in the Historical side of the Fascis
 
 	remove_trigger = {
 		NOR = { 
-			NOT = { has_government = fascism } 
+			NOT = { has_government = far_right } 
 		}
 	}
 
@@ -366,7 +366,7 @@ NOR_oppressed_civilians_dmod = {
 			NOR_AAT = yes 
 		}
 		remove_trigger = {
-			NOT = { has_government = fascism }
+			NOT = { has_government = far_right }
 		}
 
 		icon = GFX_idea_generic_oppression
@@ -383,7 +383,7 @@ NOR_kingdom_of_norway_dmod = {
 		NOR_AAT = yes 
 	}
 	remove_trigger = {
-		NOT = {	has_government = neutrality	}
+		NOT = {	has_government = right	}
 	}
 
 	icon = GFX_idea_generic_monarchist_uprising

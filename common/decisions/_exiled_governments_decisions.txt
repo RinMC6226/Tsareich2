@@ -314,8 +314,8 @@ governments_in_exile = {
 		    FROM = {
 		    	has_legitimacy > 50
 		    	OR = {
-		    		fascism > 0.1
-		    		communism > 0.1
+		    		far_right > 0.1
+		    		far_left > 0.1
 		    	}
 		    }
 		}
@@ -325,8 +325,8 @@ governments_in_exile = {
 				is_exiled_in = ROOT
 		    	has_legitimacy > 40
 		    	OR = {
-		    		fascism > 0.05
-		    		communism > 0.05
+		    		far_right > 0.05
+		    		far_left > 0.05
 		    	}
 		    }
 		}
@@ -338,8 +338,8 @@ governments_in_exile = {
 				is_exiled_in = ROOT
 		    	has_legitimacy > 40
 		    	OR = {
-		    		fascism > 0.05
-		    		communism > 0.05
+		    		far_right > 0.05
+		    		far_left > 0.05
 		    	}
 		    }
 		}
@@ -351,10 +351,10 @@ governments_in_exile = {
 		#}
 		complete_effect = {
 			FROM = {
-				add_timed_idea = {
-					idea = ETH_purge_ideology_boost_idea
-					days = 30
-				}
+				#add_timed_idea = {
+					#idea = ETH_purge_ideology_boost_idea
+					#days = 30
+				#}
 			}			
 		}
 

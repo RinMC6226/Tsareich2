@@ -1312,8 +1312,8 @@ ITA_cooperatives_for_intensive_exploitation_dm = {
 				NOT = { is_controlled_by = ITA }
 				controller = {
 					OR = {
-						has_government = neutrality
-						has_government = fascism
+						has_government = right
+						has_government = far_right
 					}
 				}
 			}

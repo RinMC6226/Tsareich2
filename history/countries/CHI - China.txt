@@ -225,21 +225,21 @@ set_politics = {
 if = {
 	limit = { not = { has_dlc = "Man the Guns" } }
 }
-if = {
-	limit = { has_dlc = "Man the Guns" }
-	# Destroyers #
-	create_equipment_variant = {
-	}
-	# Light Cruisers #
-	create_equipment_variant = {
-	}
-	create_equipment_variant = {
-		optional_assets = {
-			{
-			}
-		}
-	}
-	# Heavy Cruisers #
-	create_equipment_variant = {
-	}
-}
+#if = {
+#	limit = { has_dlc = "Man the Guns" }
+#	# Destroyers #
+#	create_equipment_variant = {
+#	}
+#	# Light Cruisers #
+#	create_equipment_variant = {
+#	}
+#	create_equipment_variant = {
+#		optional_assets = {
+#			{
+#			}
+#		}
+#	}
+#	# Heavy Cruisers #
+#	create_equipment_variant = {
+#	}
+#}

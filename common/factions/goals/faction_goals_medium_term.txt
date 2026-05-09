@@ -154,7 +154,7 @@ faction_goal_secure_north_africa = {
 	}
 	available = {
 		OR = {
-			FROM = { has_completed_focus = ITA_italian_irredentism }
+			FROM = { always = no } #has_completed_focus = ITA_italian_irredentism
 			any_allied_country = {
 				always = no # Tsareich2: disabled missing focus reference ITA_italian_irredentism
 			}
@@ -629,7 +629,7 @@ faction_goal_the_northern_mandate = {
 		}
 	}
 	available = {
-		FROM = { has_completed_focus = CHI_the_northern_mandate }
+		FROM = { always = no } #has_completed_focus = CHI_the_northern_mandate
 	}
 	ratio_progress = {
 		total_amount_collection = collection:the_northern_mandate_states
@@ -674,7 +674,7 @@ faction_goal_the_southern_mandate = {
 		}
 	}
 	available = {
-		FROM = { has_completed_focus = CHI_the_southern_mandate }
+		FROM = { always = no } #has_completed_focus = CHI_the_southern_mandate
 	}
 	ratio_progress = {
 		total_amount_collection = collection:the_southern_mandate_states
@@ -719,7 +719,7 @@ faction_goal_the_greater_game = {
 		}
 	}
 	available = {
-		FROM = { has_completed_focus = CHI_the_greater_game }
+		FROM = { always = no } #has_completed_focus = CHI_the_greater_game
 	}
 	ratio_progress = {
 		total_amount_collection = collection:the_greater_game_states

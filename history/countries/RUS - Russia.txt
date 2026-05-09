@@ -47,10 +47,6 @@ set_war_support = 0.28
 set_research_slots = 3
 set_convoys = 450
 
-recruit_character = RUS_tsar_vladimir_kirillovich
-recruit_character = RUS_tsar_vsevolod_ivanovich
-recruit_character = RUS_metropolitan_meletius
-
 set_politics = {
 	ruling_party = right
 	last_election = "1936.1.1"
@@ -211,6 +207,9 @@ set_technology = { # mod
 
 #繧�E�繝｣繝ｩ
 
+recruit_character = RUS_tsar_vladimir_kirillovich
+recruit_character = RUS_tsar_vsevolod_ivanovich
+recruit_character = RUS_metropolitan_meletius
 recruit_character = RUS_nicholas_ii
 recruit_character = RUS_nestor_makhno
 recruit_character = RUS_julius_martov

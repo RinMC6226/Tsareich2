@@ -114,7 +114,7 @@ autonomy_state = {
 			limit = {
 				original_tag = RAJ
 				has_dlc = "Graveyard of Empires"
-				NOT = { has_completed_focus = RAJ_his_majestys_loyal_government }
+				always = yes #NOT = { has_completed_focus = RAJ_his_majestys_loyal_government }
 			}
 			OR = {
 				always = no # Tsareich2: disabled missing focus reference RAJ_a_secular_state

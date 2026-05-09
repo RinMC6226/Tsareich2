@@ -32,12 +32,12 @@ if = {
 #other 
 
 
-if = {
-	limit = {
-	}
-	random_list = {
-	}
-}
+#if = {
+#	limit = {
+#	}
+#	random_list = {
+#	}
+#}
 
 set_research_slots = 3
 

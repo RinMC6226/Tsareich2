@@ -66,7 +66,7 @@ JAP_state_shinotism_dm = {
 	icon = GFX_idea_state_shintoism
 	enable = { always = yes }
 	remove_trigger = {
-		has_government = communism
+		has_government = far_left
 	}
 
 	surrender_limit = JAP_state_shinotism_surrender_limit
@@ -83,8 +83,8 @@ JAP_showa_statism_modifier = {
 	enable = { always = yes }
 	remove_trigger = {
 		OR = {
-			has_government = communism
-			has_government = democratic
+			has_government = far_left
+			has_government = center
 		}
 	}
 
@@ -109,8 +109,8 @@ JAP_the_imperial_way_dm = {
 	enable = { always = yes }
 	remove_trigger = {
 		OR = {
-			has_government = communism
-			has_government = democratic
+			has_government = far_left
+			has_government = center
 		}
 	}
 
@@ -131,8 +131,8 @@ JAP_civilian_cabinet_modifier = {
 	enable = { always = yes }
 	remove_trigger = {
 		OR = {
-			has_government = neutrality
-			has_government = fascism
+			has_government = right
+			has_government = far_right
 		}
 	}
 
@@ -160,8 +160,8 @@ JAP_communist_party_modifier = {
 	enable = { always = yes }
 	remove_trigger = {
 		OR = {
-			has_government = neutrality
-			has_government = fascism
+			has_government = right
+			has_government = far_right
 		}
 	}
 
@@ -187,8 +187,8 @@ JAP_rounouha_modifier = {
 	enable = { always = yes }
 	remove_trigger = {
 		OR = {
-			has_government = neutrality
-			has_government = fascism
+			has_government = right
+			has_government = far_right
 		}
 	}
 
@@ -442,7 +442,7 @@ JAP_east_asia_co_prosperity_sphere_dm = {
 	icon = GFX_idea_JAP_east_asian_co_prosperity
 	enable = { always = yes }
 	remove_trigger = {
-		has_government = communism
+		has_government = far_left
 	}
 
 	autonomy_manpower_share_from_subjects = JAP_east_asia_co_prosperity_sphere_autonomy_manpower_share_from_subjects
@@ -765,8 +765,8 @@ CHI_the_political_tutelage_dm = {
 	remove_trigger = {
 		OR = { # Remove this and thus all the ticking democratic support if you have been subjugated or changed from the starting ideology/or democracy 
 			is_subject = yes
-			has_government = communism
-			has_government = fascism
+			has_government = far_left
+			has_government = far_right
 		}
 	}
 
@@ -789,8 +789,8 @@ CHI_the_political_tutelage_upgraded_dm = {
 	remove_trigger = {
 		OR = { # Remove this and thus all the ticking democratic support if you have been subjugated or changed from the starting ideology/or democracy 
 			is_subject = yes
-			has_government = communism
-			has_government = fascism
+			has_government = far_left
+			has_government = far_right
 		}
 	}
 

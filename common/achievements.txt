@@ -368,8 +368,8 @@ the_bell_tolls_for_us = {
 		NOT = { has_government = far_right }
 		has_country_flag = achievement_won_spanish_civil_war
 		OR = {
-			has_government = communism
-			has_government = democratic
+			has_government = far_left
+			has_government = center
 		}
 	}
 }
@@ -539,7 +539,7 @@ party_like_its_1520 = {
 	
 	happened = {
 		controls_state = 141
-		has_government = communism
+		has_government = far_left
 	}
 }
 
@@ -1021,9 +1021,9 @@ death_or_dishonor_or_cake = {
 			tooltip = achievement_carol_II_is_leader
 			has_country_leader = { id = 550 }			
 		}		
-		NOT = { has_completed_focus = ROM_force_abdication }
-		NOT = { has_completed_focus = ROM_handle_the_king }
-		NOT = { has_completed_focus = ROM_all_parties_must_end }
+		#NOT = { has_completed_focus = ROM_force_abdication }
+		#NOT = { has_completed_focus = ROM_handle_the_king }
+		#NOT = { has_completed_focus = ROM_all_parties_must_end }
 
 		any_state = {
 			is_core_of = BUL
@@ -1106,7 +1106,7 @@ czechmate = {
 	
 	happened = {
 		has_war_with = ENG
-		ENG = { has_government = democratic }
+		ENG = { has_government = center }
 		controls_state = 285
 	}
 }
@@ -1863,7 +1863,7 @@ arsenal_of_democracy = {
 	}
 	
 	happened = {
-		has_government = democratic
+		has_government = center
 		num_of_military_factories > 300
 	}
 }
@@ -1987,7 +1987,7 @@ crush_the_dream = {
 	}
 	
 	happened = {
-		has_government = communism
+		has_government = far_left
 		always = no # Tsareich2: disabled missing focus reference ENG_crush_the_dream
 		USA = {
 			is_subject_of = ENG
@@ -2008,7 +2008,7 @@ treading_the_narrow_path = {
 	}
 	
 	happened = {
-		NOT = { has_completed_focus = HOL_cave_to_the_germans }
+		#NOT = { has_completed_focus = HOL_cave_to_the_germans }
 		always = no # Tsareich2: disabled missing focus reference HOL_the_zuiderzee_works
 		NOT = { has_country_flag = HOL_lost_starting_state }
 		date > 1945.01.01
@@ -2056,7 +2056,7 @@ bevrijding = {
 	}
 	
 	happened = {
-		has_government = democratic
+		has_government = center
 		always = no # Tsareich2: disabled missing focus reference HOL_liberation
 	}
 }
@@ -3048,7 +3048,7 @@ balkan_problem_solved = {
 	}
 	
 	happened = {
-		has_government = communism
+		has_government = far_left
 		is_faction_leader = yes
 		always = no # Tsareich2: disabled missing focus reference BUL_the_unification_of_the_balkans
 		custom_trigger_tooltip = {
@@ -3201,7 +3201,7 @@ one_nation_under_ataturk_indivisible = {
 	happened = {
 		custom_trigger_tooltip = {
 			tooltip = one_nation_under_ataturk_indivisible_tt
-			has_government = neutrality
+			has_government = right
 			all_owned_state = {
 				NOT = {
 					has_dynamic_modifier = { modifier = kurdish_agitation }
@@ -3933,8 +3933,8 @@ poland_peasant_revolution = {
 			always = no # Tsareich2: disabled missing focus reference POL_organize_the_peasants_strike
 			has_civil_war = no
 			OR = {
-				has_government = democratic
-				has_government = communism
+				has_government = center
+				has_government = far_left
 			}
 		}
 	}
@@ -4159,7 +4159,7 @@ the_red_sea = {
 	}
 	
 	happened = {
-		has_government = communism
+		has_government = far_left
 		controls_state = 550
 		controls_state = 883
 		controls_state = 457
@@ -4284,7 +4284,7 @@ not_today = {
 	}
 	
 	happened = {
-		has_government = communism
+		has_government = far_left
 		has_country_leader = { ruling_only = yes character = ITA_antonio_gramsci }
 		always = no # Tsareich2: disabled missing focus reference ITA_il_sol_dell_avvenire
 	}
@@ -4502,10 +4502,10 @@ everything_is_awesome = { #works
 		date > 1941.01.01
 		NOT = { has_global_flag = achievement_den_has_never_been_puppeted }
 		NOT = { has_global_flag = achievement_den_has_never_been_capitulated } 
-		is_power_balance_in_range = {
-			id = DEN_balance_of_power
-			range = DEN_welfare_max_range
-		}
+		#is_power_balance_in_range = {
+		#	id = DEN_balance_of_power
+		#	range = DEN_welfare_max_range
+		#}
 	}
 }
 
@@ -4635,7 +4635,7 @@ lone_wolf = {
 	happened = {
 		tag = FIN
 		NOT = { has_global_flag = achievement_FIN_has_joined_a_faction }
-		FIN = { has_completed_focus = FIN_greater_finland }
+		#FIN = { has_completed_focus = FIN_greater_finland }
 		213 = { #MURMANSK
 			is_owned_and_controlled_by = FIN
 		}
@@ -4977,7 +4977,7 @@ red_hot_chile_peppers = {
 	}
 	happened = {
 		controls_State = 378
-		has_government = communism
+		has_government = far_left
 	}
 }
 
@@ -5058,7 +5058,7 @@ proactive_defense = {
 	}
 	happened = {
 		controls_State = 361
-		has_government = communism
+		has_government = far_left
 	}
 }
 
@@ -5075,7 +5075,7 @@ the_merry_band = {
 	happened = {
 		always = no # Tsareich2: disabled missing focus reference BRA_cangaco_coup
 		controls_State = 129
-		has_government = communism
+		has_government = far_left
 	}
 }
 
@@ -5116,7 +5116,7 @@ ursal = {
 		}
 	}
 	happened = {
-		has_government = communism
+		has_government = far_left
 		# Col
 		controls_state = 493
 		controls_state = 306
@@ -5374,7 +5374,7 @@ king_of_what = {
 		tag = CHL
 	}
 	happened = {
-		has_government = neutrality
+		has_government = right
 		always = no # Tsareich2: disabled missing focus reference CHL_crown_antoine_as_sovereign_king
 		controls_state = 16
 	}
@@ -6313,7 +6313,7 @@ the_lenin_boys_are_back_in_town = {
 	happened = {
 		HUN = {
 			always = no # Tsareich2: disabled missing focus reference wuw_HUN_reinstate_the_lenin_boys
-			has_government = communism
+			has_government = far_left
 			195  = {
 				is_fully_controlled_by = HUN
 			}
@@ -6569,11 +6569,12 @@ american_prometheus = {
 	}
 
 	happened = {
-		USA = {
-			USA_robert_oppenheimer = {
-				has_character_flag = USA_oppenheimer_made_the_nuke_flag	
-			}
-		}
+		#USA = {
+		#	USA_robert_oppenheimer = {
+		#		has_character_flag = USA_oppenheimer_made_the_nuke_flag
+		#	}
+		#}
+		always = no
 	}
 }
 
@@ -7423,7 +7424,7 @@ an_equivalent_exchange = {
 		custom_trigger_tooltip = {
 			tooltip = an_equivalent_exchange_tt
 			JAP = {
-				has_government = democratic
+				has_government = center
 				always = no # Tsareich2: disabled missing focus reference JAP_democratic_foreign_exchange_allocation_policy
 				has_global_flag = achievement_JAP_capitulated_fascist_germany
 			}

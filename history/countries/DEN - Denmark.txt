@@ -127,10 +127,10 @@ if = {
 	}
 	set_stability = 0.5
 
-	set_power_balance = {
-		set_default = no  # whether or not to reset the power balance to the initial value, default = no
-		set_value = -0.1
-	}
+	#set_power_balance = {
+	#	set_default = no  # whether or not to reset the power balance to the initial value, default = no
+	#	set_value = -0.1
+	#}
 
 	#PARY POPULARITY
 
@@ -164,8 +164,8 @@ if = {
 	#Initializing Development Array
 	#States to add to the Development Array
 	#Set up variable in each state
-	for_each_scope_loop = {
-	}
+	#for_each_scope_loop = {
+	#}
 
 	#set_variable = { DEN_unruly_subject_modifier = -10 } #Modifying Opinions this way doesn't work yet
 }
@@ -209,6 +209,10 @@ if = {
 		election_frequency = 42
 	}
 	set_popularities = {
+		center = 94
+		far_right = 1
+		left = 2
+		right = 3
 	}
 
 }

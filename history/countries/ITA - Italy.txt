@@ -488,12 +488,12 @@ if = {
 			popularity = 0.07
 		}
 	}
-	activate_targeted_decision = { target = YUG decision = ITA_pressure_country_government_balkan }
-	activate_targeted_decision = { target = ROM decision = ITA_pressure_country_government_balkan }
-	activate_targeted_decision = { target = BUL decision = ITA_pressure_country_government_balkan }
-	activate_targeted_decision = { target = YUG decision = ITA_promote_ideology_rallies_balkan }
-	activate_targeted_decision = { target = ROM decision = ITA_promote_ideology_rallies_balkan }
-	activate_targeted_decision = { target = BUL decision = ITA_promote_ideology_rallies_balkan }
+	#activate_targeted_decision = { target = YUG decision = ITA_pressure_country_government_balkan }
+	#activate_targeted_decision = { target = ROM decision = ITA_pressure_country_government_balkan }
+	#activate_targeted_decision = { target = BUL decision = ITA_pressure_country_government_balkan }
+	#activate_targeted_decision = { target = YUG decision = ITA_promote_ideology_rallies_balkan }
+	#activate_targeted_decision = { target = ROM decision = ITA_promote_ideology_rallies_balkan }
+	#activate_targeted_decision = { target = BUL decision = ITA_promote_ideology_rallies_balkan }
 
 	# Effects from Albanian Occupation
 	add_named_threat = { threat = 2 name = ITA_albania_war_goal }

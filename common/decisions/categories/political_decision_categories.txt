@@ -1,0 +1,27 @@
+far_left_on_the_rise = {
+	icon = generic_communism
+}
+
+left_on_the_rise = {
+	icon = generic_communism
+}
+
+center_left_on_the_rise = {
+	icon = generic_democracy
+}
+
+center_on_the_rise = {
+	icon = generic_democracy
+}
+
+center_right_on_the_rise = {
+	icon = generic_democracy
+}
+
+right_on_the_rise = {
+	icon = generic_fascism
+}
+
+far_right_on_the_rise = {
+	icon = generic_fascism
+}
