@@ -8,3 +8,11 @@ RUS_registration_issue = { #State Modifier
 	
 	local_manpower = -0.85
 }
+
+GER_west_bunker = {
+	enable = {
+		always = yes
+	}
+	icon = GFX_modifiers_generic_defense
+    state_bunker_max_level_terrain_limit = 6		
+}

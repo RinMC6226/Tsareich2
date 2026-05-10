@@ -102,13 +102,7 @@ set_popularities = {
 	left = 0
 }
 
-if = {
-	limit = {
-		has_dlc = "Death or Dishonor"
-	}
-	give_guarantee = YUG
-	give_guarantee = ROM
-}
+
 
 if = {
 	limit = {

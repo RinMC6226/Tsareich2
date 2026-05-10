@@ -98,33 +98,9 @@ if = {
 	}
 }
 
-IF = {
-	limit = {
-		has_dlc = "Gotterdammerung"
-	}
-	give_guarantee = BEL
-}
 
-IF = {
-	limit = {
-		has_dlc = "Graveyard of Empires"
-	}
-	give_guarantee = IRQ
-}
 
-IRQ = {
-	give_military_access = ENG
-	IF = {
-		limit = {
-			has_dlc = "No Compromise, No Surrender"
-		}
-		diplomatic_relation = { 
-			country = ENG
-			relation = OFFER_AIR_BASE_ACCESS 
-			active = yes
-		}
-	}
-}
+
 
 set_research_slots = 4
 

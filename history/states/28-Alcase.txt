@@ -13,7 +13,7 @@ state={
 	history={
 		owner = GER
 		add_dynamic_modifier = {
-			modifier = FRA_maginot_line_dynamic_modifier
+			modifier = GER_west_bunker
 		}
 		#victory_points = { 6529 1 }
 		#victory_points = { 549 1 }
@@ -23,29 +23,11 @@ state={
 		buildings = {
 			infrastructure = 4
 			industrial_complex = 3
-			549 = {
-				bunker = 10
-
-			}
 			678 = {
 				bunker = 10
 
 			}
-			3629 = {
-				bunker = 10
-
-			}
-			6529 = {
-				bunker = 10
-			}
-			9503 = {
-				bunker = 10
-			}
 			9559 = {
-				bunker = 10
-
-			}
-			11502 = {
 				bunker = 10
 
 			}

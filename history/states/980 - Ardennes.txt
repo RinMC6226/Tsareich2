@@ -13,6 +13,9 @@ state = {
 
 		owner = BEL
 		add_core_of = BEL
+		add_dynamic_modifier = {
+			modifier = GER_west_bunker
+		}
 
 		victory_points = {
 			9418 1 # Arlons
@@ -20,6 +23,12 @@ state = {
 
 		buildings = {
 			infrastructure = 1
+			9418 = {
+				bunker = 10
+			}
+			9444 = {
+				bunker = 10
+			}
 		}
 		
 	}

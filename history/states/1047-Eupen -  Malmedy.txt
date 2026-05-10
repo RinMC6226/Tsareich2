@@ -12,12 +12,14 @@ state={
 		add_core_of = GER
 		add_core_of = BEL
 
+
 		victory_points = {
 			3488 1 # Arlons
 		}
 
 		buildings = {
 			infrastructure = 1
+
 		}
 		
 	}
