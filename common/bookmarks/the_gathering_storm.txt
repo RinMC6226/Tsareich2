@@ -76,8 +76,13 @@ bookmarks = {
 			}
 		}
 
-		"---" = {
-			history = "OTHER_GATHERING_STORM_DESC"
+		JAP = {
+			history = "JAP_GATHERING_STORM_DESC"
+			ideology = center
+			ideas = {
+			}
+			focuses = {
+			}
 		}
 
 		effect = {

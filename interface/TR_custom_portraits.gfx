@@ -63,4 +63,9 @@ spriteTypes = {
 		name = "GFX_portrait_TR_USA_frank_knox"
 		texturefile = "gfx/leaders/USA/frank_knox.dds"
 	}
+
+	spriteType = {
+		name = "GFX_portrait_TR_JAP_shidehara_kijyuro"
+		texturefile = "gfx/leaders/JAP/shidehara_kijyuro.dds"
+	}
 }

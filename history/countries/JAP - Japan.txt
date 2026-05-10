@@ -1,12 +1,12 @@
 capital = 282 # Tokyo/Kanto
 
-set_party_name = { ideology = far_left long_name = GEN_far_left_party_long name = GEN_far_left_party }
-set_party_name = { ideology = left long_name = GEN_left_party_long name = GEN_left_party }
-set_party_name = { ideology = center_left long_name = GEN_center_left_party_long name = GEN_center_left_party }
-set_party_name = { ideology = center long_name = GEN_center_party_long name = GEN_center_party }
-set_party_name = { ideology = center_right long_name = GEN_center_right_party_long name = GEN_center_right_party }
-set_party_name = { ideology = right long_name = GEN_right_party_long name = GEN_right_party }
-set_party_name = { ideology = far_right long_name = GEN_far_right_party_long name = GEN_far_right_party }
+set_party_name = { ideology = far_left long_name = JAP_far_left_party_long name = JAP_far_left_party }
+set_party_name = { ideology = left long_name = JAP_left_party_long name = JAP_left_party }
+set_party_name = { ideology = center_left long_name = JAP_center_left_party_long name = JAP_center_left_party }
+set_party_name = { ideology = center long_name = JAP_center_party_long name = JAP_center_party }
+set_party_name = { ideology = center_right long_name = JAP_center_right_party_long name = JAP_center_right_party }
+set_party_name = { ideology = right long_name = JAP_right_party_long name = JAP_right_party }
+set_party_name = { ideology = far_right long_name = JAP_far_right_party_long name = JAP_far_right_party }
 
 # Starting Stats
 set_stability = 0.2 # Was one of the countries in roughest internal shape at this point in time, coup happens not even 2 months into the game
@@ -617,21 +617,27 @@ set_autonomy = {
 
 # Setup Politics 
 recruit_character = JAP_kyuichi_tokuda
-recruit_character = JAP_tetsu_katayama
-recruit_character = JAP_keisuke_okada
+recruit_character = JAP_inajiro_asanuma
+recruit_character = JAP_isoo_abe
+recruit_character = JAP_kijuro_shidehara
+recruit_character = JAP_ichiro_hatoyama
 recruit_character = JAP_adachi_kenzo
+recruit_character = JAP_seigo_nakano
 
 set_politics = {
-	ruling_party = right
+	ruling_party = center
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = yes
 }
 set_popularities = {
-	far_right = 35
-	right = 40
-	center = 23
-	left = 2
+	far_left = 2
+	left = 7
+	center_left = 15
+	center = 31
+	center_right = 26
+	right = 15
+	far_right = 4
 }
 
 
@@ -668,35 +674,59 @@ IF = {
 		limit = {
 			has_dlc = "No Compromise, No Surrender"
 		}
-		add_country_leader_role = {
-			character = JAP_machida_chuuji
-			promote_leader = yes
-			country_leader = {
-				ideology = liberalism
-				expire = "1989.1.1.1"
-				traits = { HUN_popular_liberal } 
-			}
-		}	
 	}
 
+	set_party_name = {
+		ideology = far_left
+		long_name = JAP_far_left_party_long
+		name = JAP_far_left_party
+	}
+	set_party_name = {
+		ideology = left
+		long_name = JAP_left_party_long
+		name = JAP_left_party
+	}
+	set_party_name = {
+		ideology = center_left
+		long_name = JAP_center_left_party_long
+		name = JAP_center_left_party
+	}
 	set_party_name = {
 		ideology = center
 		long_name = JAP_minseito_party_long
 		name = JAP_minseito_party
 	}
+	set_party_name = {
+		ideology = center_right
+		long_name = JAP_center_right_party_long
+		name = JAP_center_right_party
+	}
+	set_party_name = {
+		ideology = right
+		long_name = JAP_right_party_long
+		name = JAP_right_party
+	}
+	set_party_name = {
+		ideology = far_right
+		long_name = JAP_far_right_party_long
+		name = JAP_far_right_party
+	}
 
 	# Setup Politics 
 	set_politics = {
-		ruling_party = right
+		ruling_party = center
 		last_election = "1938.1.1"
 		election_frequency = 48
 		elections_allowed = yes
 	}
 	set_popularities = {
-		far_right = 45
-		right = 45
-		center = 10
-		left = 0
+		far_left = 2
+		left = 7
+		center_left = 15
+		center = 31
+		center_right = 26
+		right = 15
+		far_right = 4
 	}
 
 	set_autonomy = {

@@ -1,12 +1,6 @@
-﻿characters = {
+characters = {
 	JAP_kyuichi_tokuda = {
 		name = JAP_kyuichi_tokuda
-
-		portraits = {
-			civilian = {
-				large = GFX_Portrait_kyuichi_tokuda
-			}
-		}
 
 		country_leader = {
 			ideology = orthodox_marxism
@@ -14,15 +8,34 @@
 			expire = "1989.1.1.1"
 			id = -1
 		}
-
 	}
 
-	JAP_tetsu_katayama = {
-		name = JAP_tetsu_katayama
+	JAP_inajiro_asanuma = {
+		name = JAP_inajiro_asanuma
+
+		country_leader = {
+			ideology = democratic_socialism
+			expire = "1989.1.1.1"
+			id = -1
+		}
+	}
+
+	JAP_isoo_abe = {
+		name = JAP_isoo_abe
+
+		country_leader = {
+			ideology = social_democracy
+			expire = "1989.1.1.1"
+			id = -1
+		}
+	}
+
+	JAP_kijuro_shidehara = {
+		name = JAP_kijuro_shidehara
 
 		portraits = {
 			civilian = {
-				large = GFX_Portrait_tetsu_katayama
+				large = GFX_portrait_TR_JAP_shidehara_kijyuro
 			}
 		}
 
@@ -30,47 +43,36 @@
 			ideology = liberalism
 			expire = "1989.1.1.1"
 			id = -1
-			traits = { resolute_social_democrat }
 		}
-
 	}
 
-	JAP_keisuke_okada = {
-		name = JAP_keisuke_okada
-
-		portraits = {
-			civilian = {
-				large = GFX_portrait_JAP_keisuke_okada
-				small = GFX_portrait_JAP_keisuke_okada_small
-			}
-		}
+	JAP_ichiro_hatoyama = {
+		name = JAP_ichiro_hatoyama
 
 		country_leader = {
-			ideology = militarism
-			traits = { JAP_moderate_politician_neu }
-			expire = "1952.1.1.1"
+			ideology = conservative_liberalism
+			expire = "1989.1.1.1"
 			id = -1
 		}
-
 	}
 
 	JAP_adachi_kenzo = {
 		name = JAP_adachi_kenzo
 
-		portraits = {
-			civilian = {
-				large = GFX_portrait_JAP_adachi_kenzo
-				small = GFX_portrait_JAP_adachi_kenzo_small
-			}
-		}
-
 		country_leader = {
-			ideology = ultranationalism
-			traits = {  }
+			ideology = conservatism
 			expire = "1952.1.1.1"
 			id = -1
 		}
-
 	}
 
+	JAP_seigo_nakano = {
+		name = JAP_seigo_nakano
+
+		country_leader = {
+			ideology = ultranationalism
+			expire = "1989.1.1.1"
+			id = -1
+		}
+	}
 }
