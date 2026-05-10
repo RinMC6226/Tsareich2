@@ -1,0 +1,167 @@
+TR_JAP_tsushima_treaty = {
+	JAP_review_tsushima_treaty = {
+		icon = generic_naval
+		cost = 0
+		visible = {
+			has_idea = JAP_treaty_of_tsushima
+		}
+		available = {
+			always = no
+		}
+		fire_only_once = no
+		complete_effect = {
+		}
+		ai_will_do = {
+			base = 0
+		}
+	}
+
+	JAP_tsushima_treaty_reduction_mission = {
+		icon = generic_naval
+		allowed = {
+			always = no
+		}
+		visible = {
+		}
+		activation = {
+			has_idea = JAP_treaty_of_tsushima
+			NOT = { has_idea = JAP_treaty_of_tsushima_violation }
+			NOT = { has_idea = JAP_treaty_of_tsushima_major_violation }
+			RUS = { exists = yes }
+			naval_strength_comparison = {
+				other = RUS
+				ratio > 0.5
+				sub_unit_def_weights = {
+					carrier = 0.5
+					battleship = 1
+					battle_cruiser = 0.8
+					heavy_cruiser = 0.5
+				}
+			}
+		}
+		available = {
+			if = {
+				limit = { RUS = { exists = yes } }
+				naval_strength_comparison = {
+					other = RUS
+					ratio < 0.5
+					sub_unit_def_weights = {
+						carrier = 0.5
+						battleship = 1
+						battle_cruiser = 0.8
+						heavy_cruiser = 0.5
+					}
+				}
+			}
+			else = {
+				always = yes
+			}
+		}
+		is_good = no
+		days_mission_timeout = 30
+		timeout_effect = {
+			add_ideas = JAP_treaty_of_tsushima_violation
+		}
+		complete_effect = {
+		}
+	}
+
+	JAP_tsushima_treaty_major_reduction_mission = {
+		icon = generic_naval
+		allowed = {
+			always = no
+		}
+		visible = {
+		}
+		activation = {
+			has_idea = JAP_treaty_of_tsushima
+			has_idea = JAP_treaty_of_tsushima_violation
+			NOT = { has_idea = JAP_treaty_of_tsushima_major_violation }
+			RUS = { exists = yes }
+			naval_strength_comparison = {
+				other = RUS
+				ratio > 0.65
+				sub_unit_def_weights = {
+					carrier = 0.5
+					battleship = 1
+					battle_cruiser = 0.8
+					heavy_cruiser = 0.5
+				}
+			}
+		}
+		available = {
+			if = {
+				limit = { RUS = { exists = yes } }
+				naval_strength_comparison = {
+					other = RUS
+					ratio < 0.65
+					sub_unit_def_weights = {
+						carrier = 0.5
+						battleship = 1
+						battle_cruiser = 0.8
+						heavy_cruiser = 0.5
+					}
+				}
+			}
+			else = {
+				always = yes
+			}
+		}
+		is_good = no
+		days_mission_timeout = 30
+		timeout_effect = {
+			remove_ideas = JAP_treaty_of_tsushima_violation
+			add_ideas = JAP_treaty_of_tsushima_major_violation
+			if = {
+				limit = {
+					RUS = {
+						exists = yes
+						NOT = { has_war_with = JAP }
+					}
+				}
+				RUS = {
+					country_event = { id = tsr_jap_treaty.1 days = 1 }
+				}
+			}
+		}
+		complete_effect = {
+		}
+	}
+
+	JAP_restore_tsushima_treaty_compliance = {
+		icon = generic_naval
+		cost = 0
+		visible = {
+			has_idea = JAP_treaty_of_tsushima
+			OR = {
+				has_idea = JAP_treaty_of_tsushima_violation
+				has_idea = JAP_treaty_of_tsushima_major_violation
+			}
+		}
+		available = {
+			if = {
+				limit = { RUS = { exists = yes } }
+				naval_strength_comparison = {
+					other = RUS
+					ratio < 0.5
+					sub_unit_def_weights = {
+						carrier = 0.5
+						battleship = 1
+						battle_cruiser = 0.8
+						heavy_cruiser = 0.5
+					}
+				}
+			}
+			else = {
+				always = yes
+			}
+		}
+		complete_effect = {
+			remove_ideas = JAP_treaty_of_tsushima_violation
+			remove_ideas = JAP_treaty_of_tsushima_major_violation
+		}
+		ai_will_do = {
+			base = 1
+		}
+	}
+}

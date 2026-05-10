@@ -1,0 +1,10 @@
+TR_JAP_tsushima_treaty = {
+	icon = generic_naval
+	allowed = {
+		original_tag = JAP
+	}
+	visible = {
+		has_idea = JAP_treaty_of_tsushima
+	}
+	priority = 10
+}

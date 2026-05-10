@@ -1,0 +1,69 @@
+ideas = {
+	country = {
+		JAP_treaty_of_tsushima = {
+			picture = HUN_treaty_of_triannon
+			allowed = {
+				original_tag = JAP
+			}
+			available = {
+			}
+			cancel = {
+			}
+			allowed_civil_war = {
+				tag = JAP
+			}
+			removal_cost = -1
+			modifier = {
+				consumer_goods_factor = 0.15
+				production_cost_max_ship_hull_cruiser = 5300
+				production_cost_max_ship_hull_heavy = 10000
+				production_cost_max_ship_hull_carrier = 9500
+				production_speed_dockyard_factor = -0.2
+				industrial_capacity_dockyard = -0.2
+				political_power_factor = -0.1
+				war_support_factor = -0.3
+			}
+		}
+		JAP_treaty_of_tsushima_violation = {
+			picture = HUN_treaty_of_triannon
+			allowed = {
+				always = no
+			}
+			available = {
+			}
+			cancel = {
+			}
+			allowed_civil_war = {
+				tag = JAP
+			}
+			removal_cost = -1
+			modifier = {
+				industrial_capacity_dockyard = -0.1
+				production_speed_dockyard_factor = -0.1
+				stability_factor = -0.03
+				political_power_factor = -0.03
+			}
+		}
+		JAP_treaty_of_tsushima_major_violation = {
+			picture = HUN_treaty_of_triannon
+			allowed = {
+				always = no
+			}
+			available = {
+			}
+			cancel = {
+			}
+			allowed_civil_war = {
+				tag = JAP
+			}
+			removal_cost = -1
+			modifier = {
+				industrial_capacity_dockyard = -0.2
+				production_speed_dockyard_factor = -0.15
+				stability_factor = -0.05
+				political_power_factor = -0.05
+				war_support_factor = -0.03
+			}
+		}
+	}
+}
