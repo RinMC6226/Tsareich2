@@ -1,64 +1,106 @@
-﻿characters = {
-	GER_adolf_hitler = {
-		name = GER_adolf_hitler
-		portraits = {
-			civilian = {
-				large = GFX_portrait_GER_adolf_hitler
-			}
-		}
-		country_leader = {
-			ideology = racial_supremacism
-			traits = { GER_der_fuhrer }
-			expire = "1965.1.1.1"
-			id = -1
-		}
-	}
-
-	GER_wilhelm_ii = {
+characters = {
+	GER_wilhelm_ii_far_left = {
 		name = GER_wilhelm_ii
 		portraits = {
 			civilian = {
 				large = GFX_portrait_TR_GER_wilhelm_ii
-			}	
+			}
 		}
 		country_leader = {
+			ideology = orthodox_marxism
+			traits = { anti_democrat imperial_connections }
 			expire = "1965.1.1"
-			ideology = authoritarian_conservatism
-			traits = {
-				anti_democrat
-				imperial_connections
-			}
+			id = -1
 		}
 	}
 
-	GER_konrad_adenauer = {
-		name = GER_konrad_adenauer
+	GER_wilhelm_ii_left = {
+		name = GER_wilhelm_ii
 		portraits = {
 			civilian = {
-				large = GFX_portrait_GER_konrad_adenauer
+				large = GFX_portrait_TR_GER_wilhelm_ii
+			}
+		}
+		country_leader = {
+			ideology = democratic_socialism
+			traits = { anti_democrat imperial_connections }
+			expire = "1965.1.1"
+			id = -1
+		}
+	}
+
+	GER_wilhelm_ii_center_left = {
+		name = GER_wilhelm_ii
+		portraits = {
+			civilian = {
+				large = GFX_portrait_TR_GER_wilhelm_ii
+			}
+		}
+		country_leader = {
+			ideology = social_democracy
+			traits = { anti_democrat imperial_connections }
+			expire = "1965.1.1"
+			id = -1
+		}
+	}
+
+	GER_wilhelm_ii_center = {
+		name = GER_wilhelm_ii
+		portraits = {
+			civilian = {
+				large = GFX_portrait_TR_GER_wilhelm_ii
+			}
+		}
+		country_leader = {
+			ideology = liberalism
+			traits = { anti_democrat imperial_connections }
+			expire = "1965.1.1"
+			id = -1
+		}
+	}
+
+	GER_wilhelm_ii_center_right = {
+		name = GER_wilhelm_ii
+		portraits = {
+			civilian = {
+				large = GFX_portrait_TR_GER_wilhelm_ii
+			}
+		}
+		country_leader = {
+			ideology = christian_democracy
+			traits = { anti_democrat imperial_connections }
+			expire = "1965.1.1"
+			id = -1
+		}
+	}
+
+	GER_wilhelm_ii_right = {
+		name = GER_wilhelm_ii
+		portraits = {
+			civilian = {
+				large = GFX_portrait_TR_GER_wilhelm_ii
 			}
 		}
 		country_leader = {
 			ideology = conservatism
-			traits = { GER_traditionalist }
-			expire = "1965.1.1.1"
+			traits = { anti_democrat imperial_connections }
+			expire = "1965.1.1"
 			id = -1
 		}
 	}
 
-	GER_wilhelm_pieck = {
-		name = GER_wilhelm_pieck
+	GER_wilhelm_ii_far_right = {
+		name = GER_wilhelm_ii
 		portraits = {
 			civilian = {
-				large = GFX_portrait_GER_wilhelm_pieck
+				large = GFX_portrait_TR_GER_wilhelm_ii
 			}
 		}
 		country_leader = {
-			ideology = vanguard_communism
-			traits = { staunch_stalinist }
-			expire = "1965.1.1.1"
+			ideology = ultranationalism
+			traits = { anti_democrat imperial_connections }
+			expire = "1965.1.1"
 			id = -1
 		}
 	}
-
 }

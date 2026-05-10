@@ -18,7 +18,7 @@ ideologies = {
 				color = { 133 24 18 }
 			}
 			agrarian_communism = {
-				color = { 122 58 18 }
+				color = { 82 104 40 }
 			}
 			left_communism = {
 				color = { 152 0 68 }
@@ -31,10 +31,10 @@ ideologies = {
 				can_be_randomly_selected = no
 			}
 			revolutionary_syndicalism = {
-				color = { 162 18 108 }
+				color = { 138 54 28 }
 			}
 			anarcho_syndicalism = {
-				color = { 134 0 132 }
+				color = { 112 38 24 }
 				can_be_randomly_selected = no
 			}
 		}
@@ -88,28 +88,28 @@ ideologies = {
 				color = { 230 70 92 }
 			}
 			syndicalism = {
-				color = { 198 0 114 }
+				color = { 156 58 34 }
 			}
 			guild_socialism = {
-				color = { 176 72 122 }
+				color = { 142 78 52 }
 			}
 			market_socialism = {
-				color = { 255 92 92 }
+				color = { 214 94 86 }
 			}
 			agrarian_socialism = {
-				color = { 170 106 44 }
+				color = { 88 132 68 }
 			}
 			christian_socialism = {
 				color = { 198 76 76 }
 			}
 			labourism = {
-				color = { 224 54 126 }
+				color = { 190 68 112 }
 			}
 			libertarian_socialism = {
-				color = { 255 72 156 }
+				color = { 220 94 146 }
 			}
 			utopian_socialism = {
-				color = { 255 118 182 }
+				color = { 228 130 170 }
 			}
 		}
 
@@ -121,7 +121,7 @@ ideologies = {
 			"FACTION_NAME_COMMUNIST_5"
 		}
 
-		color = { 220 20 60 }
+		color = { 186 36 68 }
 
 		war_impact_on_world_tension = 0.75
 		faction_impact_on_world_tension = 0.5
@@ -156,34 +156,34 @@ ideologies = {
 			center_left = {
 			}
 			social_democracy = {
-				color = { 255 110 150 }
+				color = { 214 92 128 }
 			}
 			social_liberalism = {
-				color = { 255 132 176 }
+				color = { 222 112 150 }
 			}
 			progressivism = {
-				color = { 255 160 124 }
+				color = { 224 138 108 }
 			}
 			fabian_socialism = {
-				color = { 214 96 164 }
+				color = { 186 86 142 }
 			}
 			ethical_socialism = {
-				color = { 255 138 202 }
+				color = { 224 118 176 }
 			}
 			radical_liberalism = {
-				color = { 255 84 110 }
+				color = { 212 76 100 }
 			}
 			popular_front = {
-				color = { 255 122 96 }
+				color = { 220 106 84 }
 			}
 			social_catholicism = {
-				color = { 210 122 146 }
+				color = { 178 112 134 }
 			}
 			labour_zionism = {
-				color = { 255 152 214 }
+				color = { 230 132 188 }
 			}
-			popularism = {
-				color = { 255 174 118 }
+			sanminism = {
+				color = { 222 148 96 }
 			}
 		}
 
@@ -196,7 +196,7 @@ ideologies = {
 			"FACTION_NAME_DEMOCRATIC_6"
 		}
 
-		color = { 255 105 180 }
+		color = { 214 96 152 }
 
 		rules = {
 			can_create_collaboration_government = no
@@ -243,34 +243,34 @@ ideologies = {
 			center = {
 			}
 			centrism = {
-				color = { 232 146 28 }
+				color = { 196 126 34 }
 			}
 			liberalism = {
-				color = { 255 170 40 }
+				color = { 214 142 44 }
 			}
 			classical_liberalism = {
-				color = { 255 194 64 }
+				color = { 224 166 76 }
 			}
 			radicalism = {
-				color = { 255 108 24 }
+				color = { 216 96 28 }
 			}
 			republicanism = {
-				color = { 214 122 42 }
+				color = { 182 108 48 }
 			}
 			liberal_democracy = {
-				color = { 255 182 92 }
+				color = { 224 162 94 }
 			}
 			agrarianism = {
-				color = { 176 132 52 }
+				color = { 86 150 102 }
 			}
 			secularism = {
-				color = { 244 156 74 }
+				color = { 204 138 80 }
 			}
 			moderatism = {
-				color = { 204 164 108 }
+				color = { 180 148 108 }
 			}
 			national_liberalism = {
-				color = { 230 126 18 }
+				color = { 192 112 24 }
 			}
 		}
 
@@ -283,7 +283,7 @@ ideologies = {
 			"FACTION_NAME_DEMOCRATIC_6"
 		}
 
-		color = { 255 140 0 }
+		color = { 212 132 32 }
 
 		rules = {
 			can_create_collaboration_government = no
@@ -329,35 +329,35 @@ ideologies = {
 		types = {
 			center_right = {
 			}
-			conservatism = {
-				color = { 56 116 214 }
+			moderate_conservatism = {
+				color = { 88 132 198 }
 			}
 			liberal_conservatism = {
-				color = { 82 136 224 }
+				color = { 114 146 190 }
 			}
 			conservative_liberalism = {
-				color = { 64 154 210 }
+				color = { 104 154 184 }
 			}
 			christian_democracy = {
-				color = { 74 96 196 }
+				color = { 118 176 206 }
 			}
 			conservative_democracy = {
-				color = { 92 128 188 }
+				color = { 116 138 174 }
 			}
 			paternalistic_conservatism = {
-				color = { 68 88 146 }
+				color = { 96 108 140 }
 			}
 			ordoliberalism = {
-				color = { 74 170 180 }
+				color = { 86 148 156 }
 			}
 			constitutional_monarchism = {
-				color = { 108 102 194 }
+				color = { 110 106 162 }
 			}
 			national_conservatism = {
-				color = { 38 86 170 }
+				color = { 84 112 156 }
 			}
 			progressive_conservatism = {
-				color = { 84 174 138 }
+				color = { 116 160 138 }
 			}
 		}
 
@@ -370,7 +370,7 @@ ideologies = {
 			"FACTION_NAME_DEMOCRATIC_6"
 		}
 
-		color = { 135 206 235 }
+		color = { 120 168 196 }
 
 		rules = {
 			can_create_collaboration_government = no
@@ -414,38 +414,36 @@ ideologies = {
 	right = {
 
 		types = {
-			right = {
+			conservatism = {
+				color = { 132 140 148 }
 			}
 			social_conservatism = {
-				color = { 42 88 126 }
+				color = { 72 100 126 }
 			}
 			traditional_conservatism = {
-				color = { 96 78 46 }
+				color = { 110 92 64 }
 			}
 			authoritarian_conservatism = {
-				color = { 60 66 96 }
+				color = { 76 80 104 }
 			}
 			authoritarian_democracy = {
-				color = { 78 92 138 }
+				color = { 94 104 142 }
 			}
 			integralism = {
-				color = { 126 88 34 }
+				color = { 120 94 48 }
 			}
 			legitimism = {
-				color = { 104 82 138 }
-			}
-			conservative_revolutionism = {
-				color = { 108 52 52 }
+				color = { 112 94 134 }
 			}
 			right_populism = {
-				color = { 166 94 32 }
+				color = { 156 98 48 }
 			}
 			right_libertarianism = {
-				color = { 108 116 56 }
+				color = { 118 126 74 }
 				can_be_randomly_selected = no
 			}
 			religious_conservatism = {
-				color = { 92 76 124 }
+				color = { 102 86 122 }
 			}
 		}
 
@@ -457,7 +455,7 @@ ideologies = {
 			"FACTION_NAME_NONALIGNED_5"
 		}
 
-		color = { 30 144 255 }
+		color = { 92 118 148 }
 
 		war_impact_on_world_tension = 0.25
 		faction_impact_on_world_tension = 0.1
@@ -491,10 +489,10 @@ ideologies = {
 				color = { 72 72 72 }
 			}
 			racial_supremacism = {
-				color = { 186 186 186 }
+				color = { 144 144 148 }
 			}
 			militarism = {
-				color = { 88 100 112 }
+				color = { 64 64 68 }
 			}
 			chauvinism = {
 				color = { 126 70 52 }
@@ -503,16 +501,16 @@ ideologies = {
 				color = { 34 34 34 }
 			}
 			restorationism = {
-				color = { 122 96 54 }
+				color = { 116 94 62 }
 			}
 			religious_fundamentalism = {
-				color = { 82 54 18 }
+				color = { 88 62 30 }
 			}
 			theocracy = {
-				color = { 102 84 32 }
+				color = { 108 88 44 }
 			}
 			futurism = {
-				color = { 0 170 170 }
+				color = { 48 132 138 }
 			}
 			feudalism = {
 				color = { 92 72 58 }
@@ -528,7 +526,7 @@ ideologies = {
 			"FACTION_NAME_FASCIST_5"
 		}
 
-		color = { 0 0 139 }
+		color = { 42 48 80 }
 
 		war_impact_on_world_tension = 1.0
 		faction_impact_on_world_tension = 1.0

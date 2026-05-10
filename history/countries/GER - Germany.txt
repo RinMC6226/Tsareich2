@@ -21,13 +21,13 @@ set_autonomy = {
 # ------------------------------------------------------------
 capital = 64 # Berlin/Brandeburg
 
-set_party_name = { ideology = far_left long_name = GEN_far_left_party_long name = GEN_far_left_party }
-set_party_name = { ideology = left long_name = GEN_left_party_long name = GEN_left_party }
-set_party_name = { ideology = center_left long_name = GEN_center_left_party_long name = GEN_center_left_party }
-set_party_name = { ideology = center long_name = GEN_center_party_long name = GEN_center_party }
-set_party_name = { ideology = center_right long_name = GEN_center_right_party_long name = GEN_center_right_party }
-set_party_name = { ideology = right long_name = GEN_right_party_long name = GEN_right_party }
-set_party_name = { ideology = far_right long_name = GEN_far_right_party_long name = GEN_far_right_party }
+set_party_name = { ideology = far_left long_name = GER_far_left_party_long name = GER_far_left_party }
+set_party_name = { ideology = left long_name = GER_left_party_long name = GER_left_party }
+set_party_name = { ideology = center_left long_name = GER_center_left_party_long name = GER_center_left_party }
+set_party_name = { ideology = center long_name = GER_center_party_long name = GER_center_party }
+set_party_name = { ideology = center_right long_name = GER_center_right_party_long name = GER_center_right_party }
+set_party_name = { ideology = right long_name = GER_right_party_long name = GER_right_party }
+set_party_name = { ideology = far_right long_name = GER_far_right_party_long name = GER_far_right_party }
 
 puppet = CZE
 
@@ -245,10 +245,13 @@ set_war_support = 0.3
 # ------------------------------------------------------------
 # 7. Politics
 # ------------------------------------------------------------
-recruit_character = GER_adolf_hitler
-recruit_character = GER_wilhelm_ii
-recruit_character = GER_konrad_adenauer
-recruit_character = GER_wilhelm_pieck
+recruit_character = GER_wilhelm_ii_far_left
+recruit_character = GER_wilhelm_ii_left
+recruit_character = GER_wilhelm_ii_center_left
+recruit_character = GER_wilhelm_ii_center
+recruit_character = GER_wilhelm_ii_center_right
+recruit_character = GER_wilhelm_ii_right
+recruit_character = GER_wilhelm_ii_far_right
 
 set_politics = {
 	ruling_party = right
@@ -257,10 +260,13 @@ set_politics = {
 	elections_allowed = no
 }
 set_popularities = {
-	center = 15
-	far_right = 0
-	left = 5
-	right = 80
+	far_left = 4
+	left = 11
+	center_left = 21
+	center = 14
+	center_right = 16
+	right = 29
+	far_right = 5
 }
 
 create_faction_from_template = faction_template_imperial_alliance

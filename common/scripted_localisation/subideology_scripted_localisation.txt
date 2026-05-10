@@ -117,8 +117,8 @@ defined_text = {
 		localization_key = labour_zionism
 	}
 	text = {
-		trigger = { has_country_leader_ideology = popularism }
-		localization_key = popularism
+		trigger = { has_country_leader_ideology = sanminism }
+		localization_key = sanminism
 	}
 	text = {
 		trigger = { has_country_leader_ideology = centrism }
@@ -161,8 +161,8 @@ defined_text = {
 		localization_key = national_liberalism
 	}
 	text = {
-		trigger = { has_country_leader_ideology = conservatism }
-		localization_key = conservatism
+		trigger = { has_country_leader_ideology = moderate_conservatism }
+		localization_key = moderate_conservatism
 	}
 	text = {
 		trigger = { has_country_leader_ideology = liberal_conservatism }
@@ -201,6 +201,10 @@ defined_text = {
 		localization_key = progressive_conservatism
 	}
 	text = {
+		trigger = { has_country_leader_ideology = conservatism }
+		localization_key = conservatism
+	}
+	text = {
 		trigger = { has_country_leader_ideology = social_conservatism }
 		localization_key = social_conservatism
 	}
@@ -223,10 +227,6 @@ defined_text = {
 	text = {
 		trigger = { has_country_leader_ideology = legitimism }
 		localization_key = legitimism
-	}
-	text = {
-		trigger = { has_country_leader_ideology = conservative_revolutionism }
-		localization_key = conservative_revolutionism
 	}
 	text = {
 		trigger = { has_country_leader_ideology = right_populism }
