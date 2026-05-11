@@ -52,9 +52,12 @@ interface/
 │   └── parliament_view.gui             # GUI定義（半円+政党リスト+ボタン）
 │
 gfx/
+│   ├── FX/
+│   │   └── parliament_bar.shader      # 7色議席配分バー用shader（作成済み）
 │   └── interface/parliament/
-│       ├── parliament_seat.dds         # 議席アイコン（8x8px程度の丸）
+│       ├── parliament_seat_strip.dds   # 議席アイコン（7フレーム、各色1コマ）
 │       ├── parliament_bg.dds           # 半円図の背景
+│       ├── parliament_bar.dds          # 配分バー用テクスチャ
 │       └── parliament_button.dds       # 政治タブ上のボタン
 │
 localisation/japanese/
@@ -105,30 +108,73 @@ parliament_party_ideology_6 = token:far_right
 parliament_parties = [ 0, 1, 2, 3, 4, 5, 6 ]  # 政党インデックス配列
 ```
 
-### 2. GUI用の議席色計算
+### 2. 議席アイコンの色制御方式
+
+#### 検討: shaderによる動的色変更
+バニラの `progress.shader` を元に、7色対応shaderを作成することを検討した。
+しかし、HoI4のshaderシステムには以下の制約がある:
+
+- `progressbartype` がshaderに渡せるパラメータは `vFirstColor`(float4), `vSecondColor`(float4), `CurrentState`(float) の計9値のみ
+- `iconType` の場合、`frame` はスプライトシートのコマ選択に使われ、shaderの `CurrentState` には渡されない
+- `.gfx` で定義する `color`/`colortwo` は起動時に固定され、scripted GUIから実行時に変更不可
+
+**結論: 個別の議席アイコンの色を変数によってshaderで変えることはできない。**
+
+#### 採用方式: 7フレームスプライトシート + properties
+
+代わりに、7色分のコマを持つスプライトシート（`noOfFrames = 7`）を用意し、
+scripted GUIの `properties` で `frame` を変数から設定する方式を採用する。
+
+```gfx
+spriteType = {
+    name = "GFX_parliament_seat"
+    texturefile = "gfx/interface/parliament/parliament_seat_strip.dds"
+    noOfFrames = 7   # 1=far_left, 2=left, 3=center_left, 4=center, 5=center_right, 6=right, 7=far_right
+}
+```
 
 100個のアイコンへの色割り当て方法:
 ```
-議席0～3   → far_left (16席 / 397 * 100 ≈ 4個)
-議席4～14  → left (44席 / 397 * 100 ≈ 11個)
-議席15～35 → center_left (83席 / 397 * 100 ≈ 21個)
-議席36～49 → center (56席 / 397 * 100 ≈ 14個)
-議席50～65 → center_right (63席 / 397 * 100 ≈ 16個)
-議席66～94 → right (115席 / 397 * 100 ≈ 29個)
-議席95～99 → far_right (20席 / 397 * 100 ≈ 5個)
+議席0～3   → far_left (16席 / 397 * 100 ≈ 4個)  → frame 1
+議席4～14  → left (44席 / 397 * 100 ≈ 11個)      → frame 2
+議席15～35 → center_left (83席 / 397 * 100 ≈ 21個) → frame 3
+議席36～49 → center (56席 / 397 * 100 ≈ 14個)    → frame 4
+議席50～65 → center_right (63席 / 397 * 100 ≈ 16個) → frame 5
+議席66～94 → right (115席 / 397 * 100 ≈ 29個)    → frame 6
+議席95～99 → far_right (20席 / 397 * 100 ≈ 5個)  → frame 7
 ```
 
-propertiesでframe値を設定:
-- frame 1 = far_left色
-- frame 2 = left色
-- frame 3 = center_left色
-- frame 4 = center色
-- frame 5 = center_right色
-- frame 6 = right色
-- frame 7 = far_right色
+scripted GUIのpropertiesでframe値を動的設定:
+```pdx
+properties = {
+    seat_0 = { frame = parliament_seat_color_0 }
+    seat_1 = { frame = parliament_seat_color_1 }
+    # ... seat_2 ～ seat_99
+}
+```
 
-各seat_Nに対応するframe値は `parliament_seat_color_N` 変数で管理。
-選挙時にcumulative sumで再計算。
+各 `parliament_seat_color_N` 変数（1～7のframe値）は選挙時にcumulative sumで再計算。
+
+#### 補助: 議席配分バー（parliament_bar.shader）
+
+半円図の下に議席配分の水平バーを配置する。これにはカスタムshaderを使用:
+- `gfx/FX/parliament_bar.shader`（作成済み）
+- 7色をshaderにハードコード（イデオロギー色は固定のため）
+- 6つの累積閾値を `color`(RGBA=4値) + `colortwo`(RG=2値) にエンコード
+- ドイツ1936年初期値: `color = { 0.04 0.15 0.36 0.50 }` `colortwo = { 0.66 0.95 0.0 1.0 }`
+- 制約: `.gfx`定義は起動時固定のため、選挙による動的更新には非対応（Phase 2で対策検討）
+
+各イデオロギーグループの色（`common/ideologies/00_ideologies.txt` より）:
+
+| # | イデオロギー | RGB (0-255) | shader値 (0-1) |
+|---|---|---|---|
+| 0 | far_left | 139, 0, 0 | 0.545, 0.000, 0.000 |
+| 1 | left | 186, 36, 68 | 0.729, 0.141, 0.267 |
+| 2 | center_left | 214, 96, 152 | 0.839, 0.376, 0.596 |
+| 3 | center | 212, 132, 32 | 0.831, 0.518, 0.125 |
+| 4 | center_right | 120, 168, 196 | 0.471, 0.659, 0.769 |
+| 5 | right | 92, 118, 148 | 0.361, 0.463, 0.580 |
+| 6 | far_right | 42, 48, 80 | 0.165, 0.188, 0.314 |
 
 ---
 
@@ -582,3 +628,12 @@ meta_effect = {
    - 変数名の動的構築: `parliament_seats_[IDX]` のインデックス展開
    - GUIテキスト: `[?var.GetTokenLocalizedKey]` で直接ローカライズ表示
    - 汎用化の鍵: 政党数が国ごとに異なっても対応可能
+
+7. **shaderの制約と使い分け（調査済み）**
+   - HoI4の `progressbartype` がshaderに渡せるのは `color`(4float) + `colortwo`(4float) + `CurrentState`(1float) のみ
+   - `iconType` では `frame` がスプライトシートのコマ選択に使われ、shader変数には渡されない
+   - `.gfx` の `color`/`colortwo` は起動時固定、scripted GUIから動的変更不可
+   - **議席アイコン**: shaderによる動的色変更は不可 → 7フレームスプライトシート + properties/frame方式を採用
+   - **配分バー**: `parliament_bar.shader`（作成済み）で7色表示。閾値はcolorパラメータにエンコード。動的更新は将来課題
+   - `parliament_semicircle.shader` も作成済みだが、議席図はgridbox方式で実装するため現時点では不使用
+   - `.lua` 参照（`effectFile = "gfx/FX/xxx.lua"`）は実ファイル不要。エンジンが自動的に `xxx.shader` を解決する
