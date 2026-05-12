@@ -1,0 +1,1575 @@
+GER_parliament = {
+
+	GER_parliament_show_lobbying = {
+		priority = 200
+		icon = generic_political_actions
+		cost = 0
+		days_remove = 0
+		fire_only_once = no
+		allowed = { original_tag = GER }
+		visible = {
+			original_tag = GER
+			has_country_flag = GER_parliament_initialized
+			NOT = { has_country_flag = GER_parliament_show_lobbying }
+		}
+		complete_effect = {
+			set_country_flag = GER_parliament_show_lobbying
+		}
+		ai_will_do = { factor = 0 }
+	}
+
+	GER_parliament_hide_lobbying = {
+		priority = 199
+		icon = generic_political_actions
+		cost = 0
+		days_remove = 0
+		fire_only_once = no
+		allowed = { original_tag = GER }
+		visible = {
+			original_tag = GER
+			has_country_flag = GER_parliament_initialized
+			has_country_flag = GER_parliament_show_lobbying
+		}
+		complete_effect = {
+			clr_country_flag = GER_parliament_show_lobbying
+		}
+		ai_will_do = { factor = 0 }
+	}
+
+	GER_parliament_election_mission = {
+		priority = 195
+		icon = generic_political_actions
+		visible = {
+			original_tag = GER
+			has_country_flag = GER_parliament_initialized
+		}
+		activation = {
+			original_tag = GER
+			has_country_flag = GER_parliament_initialized
+		}
+		available = { hidden_trigger = { always = no } }
+		cancel_if_not_visible = yes
+		is_good = yes
+		fire_only_once = no
+		selectable_mission = no
+		days_mission_timeout = 180
+		timeout_effect = {
+			custom_effect_tooltip = GER_parliament_election_timeout_tt
+			GER_parliament_hold_election = yes
+		}
+		ai_will_do = { factor = 0 }
+	}
+
+	GER_parliament_show_counter = {
+		priority = 180
+		icon = generic_political_actions
+		cost = 0
+		days_remove = 0
+		fire_only_once = no
+		allowed = { original_tag = GER }
+		visible = {
+			original_tag = GER
+			has_country_flag = GER_parliament_initialized
+			NOT = { has_country_flag = GER_parliament_show_counter }
+		}
+		complete_effect = {
+			set_country_flag = GER_parliament_show_counter
+		}
+		ai_will_do = { factor = 0 }
+	}
+
+	GER_parliament_hide_counter = {
+		priority = 179
+		icon = generic_political_actions
+		cost = 0
+		days_remove = 0
+		fire_only_once = no
+		allowed = { original_tag = GER }
+		visible = {
+			original_tag = GER
+			has_country_flag = GER_parliament_initialized
+			has_country_flag = GER_parliament_show_counter
+		}
+		complete_effect = {
+			clr_country_flag = GER_parliament_show_counter
+		}
+		ai_will_do = { factor = 0 }
+	}
+
+	GER_parliament_show_operations = {
+		priority = 160
+		icon = generic_political_actions
+		cost = 0
+		days_remove = 0
+		fire_only_once = no
+		allowed = { original_tag = GER }
+		visible = {
+			original_tag = GER
+			has_country_flag = GER_parliament_initialized
+			NOT = { has_country_flag = GER_parliament_show_operations }
+		}
+		complete_effect = {
+			set_country_flag = GER_parliament_show_operations
+		}
+		ai_will_do = { factor = 0 }
+	}
+
+	GER_parliament_hide_operations = {
+		priority = 159
+		icon = generic_political_actions
+		cost = 0
+		days_remove = 0
+		fire_only_once = no
+		allowed = { original_tag = GER }
+		visible = {
+			original_tag = GER
+			has_country_flag = GER_parliament_initialized
+			has_country_flag = GER_parliament_show_operations
+		}
+		complete_effect = {
+			clr_country_flag = GER_parliament_show_operations
+		}
+		ai_will_do = { factor = 0 }
+	}
+
+	GER_parliament_show_debug = {
+		priority = 140
+		icon = generic_political_actions
+		cost = 0
+		days_remove = 0
+		fire_only_once = no
+		allowed = { original_tag = GER }
+		visible = {
+			original_tag = GER
+			has_country_flag = GER_parliament_initialized
+			NOT = { has_country_flag = GER_parliament_show_debug }
+		}
+		complete_effect = {
+			set_country_flag = GER_parliament_show_debug
+		}
+		ai_will_do = { factor = 0 }
+	}
+
+	GER_parliament_hide_debug = {
+		priority = 139
+		icon = generic_political_actions
+		cost = 0
+		days_remove = 0
+		fire_only_once = no
+		allowed = { original_tag = GER }
+		visible = {
+			original_tag = GER
+			has_country_flag = GER_parliament_initialized
+			has_country_flag = GER_parliament_show_debug
+		}
+		complete_effect = {
+			clr_country_flag = GER_parliament_show_debug
+		}
+		ai_will_do = { factor = 0 }
+	}
+
+	# Lobbying decisions
+	GER_lobby_kpd = {
+		icon = generic_political_actions
+		cost = 50
+		days_remove = 30
+		available = {
+			has_country_flag = GER_parliament_initialized
+			NOT = { has_decision = GER_lobby_kpd }
+			NOT = { has_decision = GER_lobby_sapd }
+			NOT = { has_decision = GER_lobby_spd }
+			NOT = { has_decision = GER_lobby_fvp }
+			NOT = { has_decision = GER_lobby_zentrum }
+			NOT = { has_decision = GER_lobby_dkp }
+			NOT = { has_decision = GER_lobby_drp }
+			NOT = { has_decision = GER_lobby_fkp }
+			NOT = { has_decision = GER_lobby_dnvp }
+			NOT = { has_decision = GER_counter_kpd }
+			NOT = { has_decision = GER_counter_sapd }
+			NOT = { has_decision = GER_counter_spd }
+			NOT = { has_decision = GER_counter_fvp }
+			NOT = { has_decision = GER_counter_zentrum }
+			NOT = { has_decision = GER_counter_dkp }
+			NOT = { has_decision = GER_counter_drp }
+			NOT = { has_decision = GER_counter_fkp }
+			NOT = { has_decision = GER_counter_dnvp }
+			NOT = { has_decision = GER_operation_kpd }
+			NOT = { has_decision = GER_operation_sapd }
+			NOT = { has_decision = GER_operation_spd }
+			NOT = { has_decision = GER_operation_fvp }
+			NOT = { has_decision = GER_operation_zentrum }
+			NOT = { has_decision = GER_operation_dkp }
+			NOT = { has_decision = GER_operation_drp }
+			NOT = { has_decision = GER_operation_fkp }
+			NOT = { has_decision = GER_operation_dnvp }
+		}
+		visible = {
+			original_tag = GER
+			has_country_flag = GER_parliament_initialized
+			has_country_flag = GER_parliament_show_lobbying
+		}
+		remove_effect = {
+			custom_effect_tooltip = GER_lobby_kpd_tt
+			add_to_variable = { GER_parliament_kpd_support_bps = 200 }
+			GER_parliament_normalize_support = yes
+			GER_parliament_refresh_thresholds = yes
+		}
+		ai_will_do = { factor = 0 }
+	}
+
+	GER_lobby_sapd = {
+		icon = generic_political_actions
+		cost = 50
+		days_remove = 30
+		available = {
+			has_country_flag = GER_parliament_initialized
+			NOT = { has_decision = GER_lobby_kpd }
+			NOT = { has_decision = GER_lobby_sapd }
+			NOT = { has_decision = GER_lobby_spd }
+			NOT = { has_decision = GER_lobby_fvp }
+			NOT = { has_decision = GER_lobby_zentrum }
+			NOT = { has_decision = GER_lobby_dkp }
+			NOT = { has_decision = GER_lobby_drp }
+			NOT = { has_decision = GER_lobby_fkp }
+			NOT = { has_decision = GER_lobby_dnvp }
+			NOT = { has_decision = GER_counter_kpd }
+			NOT = { has_decision = GER_counter_sapd }
+			NOT = { has_decision = GER_counter_spd }
+			NOT = { has_decision = GER_counter_fvp }
+			NOT = { has_decision = GER_counter_zentrum }
+			NOT = { has_decision = GER_counter_dkp }
+			NOT = { has_decision = GER_counter_drp }
+			NOT = { has_decision = GER_counter_fkp }
+			NOT = { has_decision = GER_counter_dnvp }
+			NOT = { has_decision = GER_operation_kpd }
+			NOT = { has_decision = GER_operation_sapd }
+			NOT = { has_decision = GER_operation_spd }
+			NOT = { has_decision = GER_operation_fvp }
+			NOT = { has_decision = GER_operation_zentrum }
+			NOT = { has_decision = GER_operation_dkp }
+			NOT = { has_decision = GER_operation_drp }
+			NOT = { has_decision = GER_operation_fkp }
+			NOT = { has_decision = GER_operation_dnvp }
+		}
+		visible = {
+			original_tag = GER
+			has_country_flag = GER_parliament_initialized
+			has_country_flag = GER_parliament_show_lobbying
+		}
+		remove_effect = {
+			custom_effect_tooltip = GER_lobby_sapd_tt
+			add_to_variable = { GER_parliament_sapd_support_bps = 200 }
+			GER_parliament_normalize_support = yes
+			GER_parliament_refresh_thresholds = yes
+		}
+		ai_will_do = { factor = 0 }
+	}
+
+	GER_lobby_spd = {
+		icon = generic_political_actions
+		cost = 50
+		days_remove = 30
+		available = {
+			has_country_flag = GER_parliament_initialized
+			NOT = { has_decision = GER_lobby_kpd }
+			NOT = { has_decision = GER_lobby_sapd }
+			NOT = { has_decision = GER_lobby_spd }
+			NOT = { has_decision = GER_lobby_fvp }
+			NOT = { has_decision = GER_lobby_zentrum }
+			NOT = { has_decision = GER_lobby_dkp }
+			NOT = { has_decision = GER_lobby_drp }
+			NOT = { has_decision = GER_lobby_fkp }
+			NOT = { has_decision = GER_lobby_dnvp }
+			NOT = { has_decision = GER_counter_kpd }
+			NOT = { has_decision = GER_counter_sapd }
+			NOT = { has_decision = GER_counter_spd }
+			NOT = { has_decision = GER_counter_fvp }
+			NOT = { has_decision = GER_counter_zentrum }
+			NOT = { has_decision = GER_counter_dkp }
+			NOT = { has_decision = GER_counter_drp }
+			NOT = { has_decision = GER_counter_fkp }
+			NOT = { has_decision = GER_counter_dnvp }
+			NOT = { has_decision = GER_operation_kpd }
+			NOT = { has_decision = GER_operation_sapd }
+			NOT = { has_decision = GER_operation_spd }
+			NOT = { has_decision = GER_operation_fvp }
+			NOT = { has_decision = GER_operation_zentrum }
+			NOT = { has_decision = GER_operation_dkp }
+			NOT = { has_decision = GER_operation_drp }
+			NOT = { has_decision = GER_operation_fkp }
+			NOT = { has_decision = GER_operation_dnvp }
+		}
+		visible = {
+			original_tag = GER
+			has_country_flag = GER_parliament_initialized
+			has_country_flag = GER_parliament_show_lobbying
+		}
+		remove_effect = {
+			custom_effect_tooltip = GER_lobby_spd_tt
+			add_to_variable = { GER_parliament_spd_support_bps = 200 }
+			GER_parliament_normalize_support = yes
+			GER_parliament_refresh_thresholds = yes
+		}
+		ai_will_do = { factor = 0 }
+	}
+
+	GER_lobby_fvp = {
+		icon = generic_political_actions
+		cost = 50
+		days_remove = 30
+		available = {
+			has_country_flag = GER_parliament_initialized
+			NOT = { has_decision = GER_lobby_kpd }
+			NOT = { has_decision = GER_lobby_sapd }
+			NOT = { has_decision = GER_lobby_spd }
+			NOT = { has_decision = GER_lobby_fvp }
+			NOT = { has_decision = GER_lobby_zentrum }
+			NOT = { has_decision = GER_lobby_dkp }
+			NOT = { has_decision = GER_lobby_drp }
+			NOT = { has_decision = GER_lobby_fkp }
+			NOT = { has_decision = GER_lobby_dnvp }
+			NOT = { has_decision = GER_counter_kpd }
+			NOT = { has_decision = GER_counter_sapd }
+			NOT = { has_decision = GER_counter_spd }
+			NOT = { has_decision = GER_counter_fvp }
+			NOT = { has_decision = GER_counter_zentrum }
+			NOT = { has_decision = GER_counter_dkp }
+			NOT = { has_decision = GER_counter_drp }
+			NOT = { has_decision = GER_counter_fkp }
+			NOT = { has_decision = GER_counter_dnvp }
+			NOT = { has_decision = GER_operation_kpd }
+			NOT = { has_decision = GER_operation_sapd }
+			NOT = { has_decision = GER_operation_spd }
+			NOT = { has_decision = GER_operation_fvp }
+			NOT = { has_decision = GER_operation_zentrum }
+			NOT = { has_decision = GER_operation_dkp }
+			NOT = { has_decision = GER_operation_drp }
+			NOT = { has_decision = GER_operation_fkp }
+			NOT = { has_decision = GER_operation_dnvp }
+		}
+		visible = {
+			original_tag = GER
+			has_country_flag = GER_parliament_initialized
+			has_country_flag = GER_parliament_show_lobbying
+		}
+		remove_effect = {
+			custom_effect_tooltip = GER_lobby_fvp_tt
+			add_to_variable = { GER_parliament_fvp_support_bps = 200 }
+			GER_parliament_normalize_support = yes
+			GER_parliament_refresh_thresholds = yes
+		}
+		ai_will_do = { factor = 0 }
+	}
+
+	GER_lobby_zentrum = {
+		icon = generic_political_actions
+		cost = 50
+		days_remove = 30
+		available = {
+			has_country_flag = GER_parliament_initialized
+			NOT = { has_decision = GER_lobby_kpd }
+			NOT = { has_decision = GER_lobby_sapd }
+			NOT = { has_decision = GER_lobby_spd }
+			NOT = { has_decision = GER_lobby_fvp }
+			NOT = { has_decision = GER_lobby_zentrum }
+			NOT = { has_decision = GER_lobby_dkp }
+			NOT = { has_decision = GER_lobby_drp }
+			NOT = { has_decision = GER_lobby_fkp }
+			NOT = { has_decision = GER_lobby_dnvp }
+			NOT = { has_decision = GER_counter_kpd }
+			NOT = { has_decision = GER_counter_sapd }
+			NOT = { has_decision = GER_counter_spd }
+			NOT = { has_decision = GER_counter_fvp }
+			NOT = { has_decision = GER_counter_zentrum }
+			NOT = { has_decision = GER_counter_dkp }
+			NOT = { has_decision = GER_counter_drp }
+			NOT = { has_decision = GER_counter_fkp }
+			NOT = { has_decision = GER_counter_dnvp }
+			NOT = { has_decision = GER_operation_kpd }
+			NOT = { has_decision = GER_operation_sapd }
+			NOT = { has_decision = GER_operation_spd }
+			NOT = { has_decision = GER_operation_fvp }
+			NOT = { has_decision = GER_operation_zentrum }
+			NOT = { has_decision = GER_operation_dkp }
+			NOT = { has_decision = GER_operation_drp }
+			NOT = { has_decision = GER_operation_fkp }
+			NOT = { has_decision = GER_operation_dnvp }
+		}
+		visible = {
+			original_tag = GER
+			has_country_flag = GER_parliament_initialized
+			has_country_flag = GER_parliament_show_lobbying
+		}
+		remove_effect = {
+			custom_effect_tooltip = GER_lobby_zentrum_tt
+			add_to_variable = { GER_parliament_zentrum_support_bps = 200 }
+			GER_parliament_normalize_support = yes
+			GER_parliament_refresh_thresholds = yes
+		}
+		ai_will_do = { factor = 0 }
+	}
+
+	GER_lobby_dkp = {
+		icon = generic_political_actions
+		cost = 50
+		days_remove = 30
+		available = {
+			has_country_flag = GER_parliament_initialized
+			NOT = { has_decision = GER_lobby_kpd }
+			NOT = { has_decision = GER_lobby_sapd }
+			NOT = { has_decision = GER_lobby_spd }
+			NOT = { has_decision = GER_lobby_fvp }
+			NOT = { has_decision = GER_lobby_zentrum }
+			NOT = { has_decision = GER_lobby_dkp }
+			NOT = { has_decision = GER_lobby_drp }
+			NOT = { has_decision = GER_lobby_fkp }
+			NOT = { has_decision = GER_lobby_dnvp }
+			NOT = { has_decision = GER_counter_kpd }
+			NOT = { has_decision = GER_counter_sapd }
+			NOT = { has_decision = GER_counter_spd }
+			NOT = { has_decision = GER_counter_fvp }
+			NOT = { has_decision = GER_counter_zentrum }
+			NOT = { has_decision = GER_counter_dkp }
+			NOT = { has_decision = GER_counter_drp }
+			NOT = { has_decision = GER_counter_fkp }
+			NOT = { has_decision = GER_counter_dnvp }
+			NOT = { has_decision = GER_operation_kpd }
+			NOT = { has_decision = GER_operation_sapd }
+			NOT = { has_decision = GER_operation_spd }
+			NOT = { has_decision = GER_operation_fvp }
+			NOT = { has_decision = GER_operation_zentrum }
+			NOT = { has_decision = GER_operation_dkp }
+			NOT = { has_decision = GER_operation_drp }
+			NOT = { has_decision = GER_operation_fkp }
+			NOT = { has_decision = GER_operation_dnvp }
+		}
+		visible = {
+			original_tag = GER
+			has_country_flag = GER_parliament_initialized
+			has_country_flag = GER_parliament_show_lobbying
+		}
+		remove_effect = {
+			custom_effect_tooltip = GER_lobby_dkp_tt
+			add_to_variable = { GER_parliament_dkp_support_bps = 200 }
+			GER_parliament_normalize_support = yes
+			GER_parliament_refresh_thresholds = yes
+		}
+		ai_will_do = { factor = 0 }
+	}
+
+	GER_lobby_drp = {
+		icon = generic_political_actions
+		cost = 50
+		days_remove = 30
+		available = {
+			has_country_flag = GER_parliament_initialized
+			NOT = { has_decision = GER_lobby_kpd }
+			NOT = { has_decision = GER_lobby_sapd }
+			NOT = { has_decision = GER_lobby_spd }
+			NOT = { has_decision = GER_lobby_fvp }
+			NOT = { has_decision = GER_lobby_zentrum }
+			NOT = { has_decision = GER_lobby_dkp }
+			NOT = { has_decision = GER_lobby_drp }
+			NOT = { has_decision = GER_lobby_fkp }
+			NOT = { has_decision = GER_lobby_dnvp }
+			NOT = { has_decision = GER_counter_kpd }
+			NOT = { has_decision = GER_counter_sapd }
+			NOT = { has_decision = GER_counter_spd }
+			NOT = { has_decision = GER_counter_fvp }
+			NOT = { has_decision = GER_counter_zentrum }
+			NOT = { has_decision = GER_counter_dkp }
+			NOT = { has_decision = GER_counter_drp }
+			NOT = { has_decision = GER_counter_fkp }
+			NOT = { has_decision = GER_counter_dnvp }
+			NOT = { has_decision = GER_operation_kpd }
+			NOT = { has_decision = GER_operation_sapd }
+			NOT = { has_decision = GER_operation_spd }
+			NOT = { has_decision = GER_operation_fvp }
+			NOT = { has_decision = GER_operation_zentrum }
+			NOT = { has_decision = GER_operation_dkp }
+			NOT = { has_decision = GER_operation_drp }
+			NOT = { has_decision = GER_operation_fkp }
+			NOT = { has_decision = GER_operation_dnvp }
+		}
+		visible = {
+			original_tag = GER
+			has_country_flag = GER_parliament_initialized
+			has_country_flag = GER_parliament_show_lobbying
+		}
+		remove_effect = {
+			custom_effect_tooltip = GER_lobby_drp_tt
+			add_to_variable = { GER_parliament_drp_support_bps = 200 }
+			GER_parliament_normalize_support = yes
+			GER_parliament_refresh_thresholds = yes
+		}
+		ai_will_do = { factor = 0 }
+	}
+
+	GER_lobby_fkp = {
+		icon = generic_political_actions
+		cost = 50
+		days_remove = 30
+		available = {
+			has_country_flag = GER_parliament_initialized
+			NOT = { has_decision = GER_lobby_kpd }
+			NOT = { has_decision = GER_lobby_sapd }
+			NOT = { has_decision = GER_lobby_spd }
+			NOT = { has_decision = GER_lobby_fvp }
+			NOT = { has_decision = GER_lobby_zentrum }
+			NOT = { has_decision = GER_lobby_dkp }
+			NOT = { has_decision = GER_lobby_drp }
+			NOT = { has_decision = GER_lobby_fkp }
+			NOT = { has_decision = GER_lobby_dnvp }
+			NOT = { has_decision = GER_counter_kpd }
+			NOT = { has_decision = GER_counter_sapd }
+			NOT = { has_decision = GER_counter_spd }
+			NOT = { has_decision = GER_counter_fvp }
+			NOT = { has_decision = GER_counter_zentrum }
+			NOT = { has_decision = GER_counter_dkp }
+			NOT = { has_decision = GER_counter_drp }
+			NOT = { has_decision = GER_counter_fkp }
+			NOT = { has_decision = GER_counter_dnvp }
+			NOT = { has_decision = GER_operation_kpd }
+			NOT = { has_decision = GER_operation_sapd }
+			NOT = { has_decision = GER_operation_spd }
+			NOT = { has_decision = GER_operation_fvp }
+			NOT = { has_decision = GER_operation_zentrum }
+			NOT = { has_decision = GER_operation_dkp }
+			NOT = { has_decision = GER_operation_drp }
+			NOT = { has_decision = GER_operation_fkp }
+			NOT = { has_decision = GER_operation_dnvp }
+		}
+		visible = {
+			original_tag = GER
+			has_country_flag = GER_parliament_initialized
+			has_country_flag = GER_parliament_show_lobbying
+		}
+		remove_effect = {
+			custom_effect_tooltip = GER_lobby_fkp_tt
+			add_to_variable = { GER_parliament_fkp_support_bps = 200 }
+			GER_parliament_normalize_support = yes
+			GER_parliament_refresh_thresholds = yes
+		}
+		ai_will_do = { factor = 0 }
+	}
+
+	GER_lobby_dnvp = {
+		icon = generic_political_actions
+		cost = 50
+		days_remove = 30
+		available = {
+			has_country_flag = GER_parliament_initialized
+			NOT = { has_decision = GER_lobby_kpd }
+			NOT = { has_decision = GER_lobby_sapd }
+			NOT = { has_decision = GER_lobby_spd }
+			NOT = { has_decision = GER_lobby_fvp }
+			NOT = { has_decision = GER_lobby_zentrum }
+			NOT = { has_decision = GER_lobby_dkp }
+			NOT = { has_decision = GER_lobby_drp }
+			NOT = { has_decision = GER_lobby_fkp }
+			NOT = { has_decision = GER_lobby_dnvp }
+			NOT = { has_decision = GER_counter_kpd }
+			NOT = { has_decision = GER_counter_sapd }
+			NOT = { has_decision = GER_counter_spd }
+			NOT = { has_decision = GER_counter_fvp }
+			NOT = { has_decision = GER_counter_zentrum }
+			NOT = { has_decision = GER_counter_dkp }
+			NOT = { has_decision = GER_counter_drp }
+			NOT = { has_decision = GER_counter_fkp }
+			NOT = { has_decision = GER_counter_dnvp }
+			NOT = { has_decision = GER_operation_kpd }
+			NOT = { has_decision = GER_operation_sapd }
+			NOT = { has_decision = GER_operation_spd }
+			NOT = { has_decision = GER_operation_fvp }
+			NOT = { has_decision = GER_operation_zentrum }
+			NOT = { has_decision = GER_operation_dkp }
+			NOT = { has_decision = GER_operation_drp }
+			NOT = { has_decision = GER_operation_fkp }
+			NOT = { has_decision = GER_operation_dnvp }
+		}
+		visible = {
+			original_tag = GER
+			has_country_flag = GER_parliament_initialized
+			has_country_flag = GER_parliament_show_lobbying
+		}
+		remove_effect = {
+			custom_effect_tooltip = GER_lobby_dnvp_tt
+			add_to_variable = { GER_parliament_dnvp_support_bps = 200 }
+			GER_parliament_normalize_support = yes
+			GER_parliament_refresh_thresholds = yes
+		}
+		ai_will_do = { factor = 0 }
+	}
+
+	# Counter-demonstration decisions
+	GER_counter_kpd = {
+		icon = generic_political_actions
+		cost = 25
+		days_remove = 30
+		available = {
+			has_country_flag = GER_parliament_initialized
+			NOT = { has_decision = GER_lobby_kpd }
+			NOT = { has_decision = GER_lobby_sapd }
+			NOT = { has_decision = GER_lobby_spd }
+			NOT = { has_decision = GER_lobby_fvp }
+			NOT = { has_decision = GER_lobby_zentrum }
+			NOT = { has_decision = GER_lobby_dkp }
+			NOT = { has_decision = GER_lobby_drp }
+			NOT = { has_decision = GER_lobby_fkp }
+			NOT = { has_decision = GER_lobby_dnvp }
+			NOT = { has_decision = GER_counter_kpd }
+			NOT = { has_decision = GER_counter_sapd }
+			NOT = { has_decision = GER_counter_spd }
+			NOT = { has_decision = GER_counter_fvp }
+			NOT = { has_decision = GER_counter_zentrum }
+			NOT = { has_decision = GER_counter_dkp }
+			NOT = { has_decision = GER_counter_drp }
+			NOT = { has_decision = GER_counter_fkp }
+			NOT = { has_decision = GER_counter_dnvp }
+			NOT = { has_decision = GER_operation_kpd }
+			NOT = { has_decision = GER_operation_sapd }
+			NOT = { has_decision = GER_operation_spd }
+			NOT = { has_decision = GER_operation_fvp }
+			NOT = { has_decision = GER_operation_zentrum }
+			NOT = { has_decision = GER_operation_dkp }
+			NOT = { has_decision = GER_operation_drp }
+			NOT = { has_decision = GER_operation_fkp }
+			NOT = { has_decision = GER_operation_dnvp }
+		}
+		visible = {
+			original_tag = GER
+			has_country_flag = GER_parliament_initialized
+			has_country_flag = GER_parliament_show_counter
+		}
+		remove_effect = {
+			custom_effect_tooltip = GER_counter_kpd_tt
+			add_to_variable = { GER_parliament_kpd_support_bps = -200 }
+			GER_parliament_normalize_support = yes
+			GER_parliament_refresh_thresholds = yes
+		}
+		ai_will_do = { factor = 0 }
+	}
+
+	GER_counter_sapd = {
+		icon = generic_political_actions
+		cost = 25
+		days_remove = 30
+		available = {
+			has_country_flag = GER_parliament_initialized
+			NOT = { has_decision = GER_lobby_kpd }
+			NOT = { has_decision = GER_lobby_sapd }
+			NOT = { has_decision = GER_lobby_spd }
+			NOT = { has_decision = GER_lobby_fvp }
+			NOT = { has_decision = GER_lobby_zentrum }
+			NOT = { has_decision = GER_lobby_dkp }
+			NOT = { has_decision = GER_lobby_drp }
+			NOT = { has_decision = GER_lobby_fkp }
+			NOT = { has_decision = GER_lobby_dnvp }
+			NOT = { has_decision = GER_counter_kpd }
+			NOT = { has_decision = GER_counter_sapd }
+			NOT = { has_decision = GER_counter_spd }
+			NOT = { has_decision = GER_counter_fvp }
+			NOT = { has_decision = GER_counter_zentrum }
+			NOT = { has_decision = GER_counter_dkp }
+			NOT = { has_decision = GER_counter_drp }
+			NOT = { has_decision = GER_counter_fkp }
+			NOT = { has_decision = GER_counter_dnvp }
+			NOT = { has_decision = GER_operation_kpd }
+			NOT = { has_decision = GER_operation_sapd }
+			NOT = { has_decision = GER_operation_spd }
+			NOT = { has_decision = GER_operation_fvp }
+			NOT = { has_decision = GER_operation_zentrum }
+			NOT = { has_decision = GER_operation_dkp }
+			NOT = { has_decision = GER_operation_drp }
+			NOT = { has_decision = GER_operation_fkp }
+			NOT = { has_decision = GER_operation_dnvp }
+		}
+		visible = {
+			original_tag = GER
+			has_country_flag = GER_parliament_initialized
+			has_country_flag = GER_parliament_show_counter
+		}
+		remove_effect = {
+			custom_effect_tooltip = GER_counter_sapd_tt
+			add_to_variable = { GER_parliament_sapd_support_bps = -200 }
+			GER_parliament_normalize_support = yes
+			GER_parliament_refresh_thresholds = yes
+		}
+		ai_will_do = { factor = 0 }
+	}
+
+	GER_counter_spd = {
+		icon = generic_political_actions
+		cost = 25
+		days_remove = 30
+		available = {
+			has_country_flag = GER_parliament_initialized
+			NOT = { has_decision = GER_lobby_kpd }
+			NOT = { has_decision = GER_lobby_sapd }
+			NOT = { has_decision = GER_lobby_spd }
+			NOT = { has_decision = GER_lobby_fvp }
+			NOT = { has_decision = GER_lobby_zentrum }
+			NOT = { has_decision = GER_lobby_dkp }
+			NOT = { has_decision = GER_lobby_drp }
+			NOT = { has_decision = GER_lobby_fkp }
+			NOT = { has_decision = GER_lobby_dnvp }
+			NOT = { has_decision = GER_counter_kpd }
+			NOT = { has_decision = GER_counter_sapd }
+			NOT = { has_decision = GER_counter_spd }
+			NOT = { has_decision = GER_counter_fvp }
+			NOT = { has_decision = GER_counter_zentrum }
+			NOT = { has_decision = GER_counter_dkp }
+			NOT = { has_decision = GER_counter_drp }
+			NOT = { has_decision = GER_counter_fkp }
+			NOT = { has_decision = GER_counter_dnvp }
+			NOT = { has_decision = GER_operation_kpd }
+			NOT = { has_decision = GER_operation_sapd }
+			NOT = { has_decision = GER_operation_spd }
+			NOT = { has_decision = GER_operation_fvp }
+			NOT = { has_decision = GER_operation_zentrum }
+			NOT = { has_decision = GER_operation_dkp }
+			NOT = { has_decision = GER_operation_drp }
+			NOT = { has_decision = GER_operation_fkp }
+			NOT = { has_decision = GER_operation_dnvp }
+		}
+		visible = {
+			original_tag = GER
+			has_country_flag = GER_parliament_initialized
+			has_country_flag = GER_parliament_show_counter
+		}
+		remove_effect = {
+			custom_effect_tooltip = GER_counter_spd_tt
+			add_to_variable = { GER_parliament_spd_support_bps = -200 }
+			GER_parliament_normalize_support = yes
+			GER_parliament_refresh_thresholds = yes
+		}
+		ai_will_do = { factor = 0 }
+	}
+
+	GER_counter_fvp = {
+		icon = generic_political_actions
+		cost = 25
+		days_remove = 30
+		available = {
+			has_country_flag = GER_parliament_initialized
+			NOT = { has_decision = GER_lobby_kpd }
+			NOT = { has_decision = GER_lobby_sapd }
+			NOT = { has_decision = GER_lobby_spd }
+			NOT = { has_decision = GER_lobby_fvp }
+			NOT = { has_decision = GER_lobby_zentrum }
+			NOT = { has_decision = GER_lobby_dkp }
+			NOT = { has_decision = GER_lobby_drp }
+			NOT = { has_decision = GER_lobby_fkp }
+			NOT = { has_decision = GER_lobby_dnvp }
+			NOT = { has_decision = GER_counter_kpd }
+			NOT = { has_decision = GER_counter_sapd }
+			NOT = { has_decision = GER_counter_spd }
+			NOT = { has_decision = GER_counter_fvp }
+			NOT = { has_decision = GER_counter_zentrum }
+			NOT = { has_decision = GER_counter_dkp }
+			NOT = { has_decision = GER_counter_drp }
+			NOT = { has_decision = GER_counter_fkp }
+			NOT = { has_decision = GER_counter_dnvp }
+			NOT = { has_decision = GER_operation_kpd }
+			NOT = { has_decision = GER_operation_sapd }
+			NOT = { has_decision = GER_operation_spd }
+			NOT = { has_decision = GER_operation_fvp }
+			NOT = { has_decision = GER_operation_zentrum }
+			NOT = { has_decision = GER_operation_dkp }
+			NOT = { has_decision = GER_operation_drp }
+			NOT = { has_decision = GER_operation_fkp }
+			NOT = { has_decision = GER_operation_dnvp }
+		}
+		visible = {
+			original_tag = GER
+			has_country_flag = GER_parliament_initialized
+			has_country_flag = GER_parliament_show_counter
+		}
+		remove_effect = {
+			custom_effect_tooltip = GER_counter_fvp_tt
+			add_to_variable = { GER_parliament_fvp_support_bps = -200 }
+			GER_parliament_normalize_support = yes
+			GER_parliament_refresh_thresholds = yes
+		}
+		ai_will_do = { factor = 0 }
+	}
+
+	GER_counter_zentrum = {
+		icon = generic_political_actions
+		cost = 25
+		days_remove = 30
+		available = {
+			has_country_flag = GER_parliament_initialized
+			NOT = { has_decision = GER_lobby_kpd }
+			NOT = { has_decision = GER_lobby_sapd }
+			NOT = { has_decision = GER_lobby_spd }
+			NOT = { has_decision = GER_lobby_fvp }
+			NOT = { has_decision = GER_lobby_zentrum }
+			NOT = { has_decision = GER_lobby_dkp }
+			NOT = { has_decision = GER_lobby_drp }
+			NOT = { has_decision = GER_lobby_fkp }
+			NOT = { has_decision = GER_lobby_dnvp }
+			NOT = { has_decision = GER_counter_kpd }
+			NOT = { has_decision = GER_counter_sapd }
+			NOT = { has_decision = GER_counter_spd }
+			NOT = { has_decision = GER_counter_fvp }
+			NOT = { has_decision = GER_counter_zentrum }
+			NOT = { has_decision = GER_counter_dkp }
+			NOT = { has_decision = GER_counter_drp }
+			NOT = { has_decision = GER_counter_fkp }
+			NOT = { has_decision = GER_counter_dnvp }
+			NOT = { has_decision = GER_operation_kpd }
+			NOT = { has_decision = GER_operation_sapd }
+			NOT = { has_decision = GER_operation_spd }
+			NOT = { has_decision = GER_operation_fvp }
+			NOT = { has_decision = GER_operation_zentrum }
+			NOT = { has_decision = GER_operation_dkp }
+			NOT = { has_decision = GER_operation_drp }
+			NOT = { has_decision = GER_operation_fkp }
+			NOT = { has_decision = GER_operation_dnvp }
+		}
+		visible = {
+			original_tag = GER
+			has_country_flag = GER_parliament_initialized
+			has_country_flag = GER_parliament_show_counter
+		}
+		remove_effect = {
+			custom_effect_tooltip = GER_counter_zentrum_tt
+			add_to_variable = { GER_parliament_zentrum_support_bps = -200 }
+			GER_parliament_normalize_support = yes
+			GER_parliament_refresh_thresholds = yes
+		}
+		ai_will_do = { factor = 0 }
+	}
+
+	GER_counter_dkp = {
+		icon = generic_political_actions
+		cost = 25
+		days_remove = 30
+		available = {
+			has_country_flag = GER_parliament_initialized
+			NOT = { has_decision = GER_lobby_kpd }
+			NOT = { has_decision = GER_lobby_sapd }
+			NOT = { has_decision = GER_lobby_spd }
+			NOT = { has_decision = GER_lobby_fvp }
+			NOT = { has_decision = GER_lobby_zentrum }
+			NOT = { has_decision = GER_lobby_dkp }
+			NOT = { has_decision = GER_lobby_drp }
+			NOT = { has_decision = GER_lobby_fkp }
+			NOT = { has_decision = GER_lobby_dnvp }
+			NOT = { has_decision = GER_counter_kpd }
+			NOT = { has_decision = GER_counter_sapd }
+			NOT = { has_decision = GER_counter_spd }
+			NOT = { has_decision = GER_counter_fvp }
+			NOT = { has_decision = GER_counter_zentrum }
+			NOT = { has_decision = GER_counter_dkp }
+			NOT = { has_decision = GER_counter_drp }
+			NOT = { has_decision = GER_counter_fkp }
+			NOT = { has_decision = GER_counter_dnvp }
+			NOT = { has_decision = GER_operation_kpd }
+			NOT = { has_decision = GER_operation_sapd }
+			NOT = { has_decision = GER_operation_spd }
+			NOT = { has_decision = GER_operation_fvp }
+			NOT = { has_decision = GER_operation_zentrum }
+			NOT = { has_decision = GER_operation_dkp }
+			NOT = { has_decision = GER_operation_drp }
+			NOT = { has_decision = GER_operation_fkp }
+			NOT = { has_decision = GER_operation_dnvp }
+		}
+		visible = {
+			original_tag = GER
+			has_country_flag = GER_parliament_initialized
+			has_country_flag = GER_parliament_show_counter
+		}
+		remove_effect = {
+			custom_effect_tooltip = GER_counter_dkp_tt
+			add_to_variable = { GER_parliament_dkp_support_bps = -200 }
+			GER_parliament_normalize_support = yes
+			GER_parliament_refresh_thresholds = yes
+		}
+		ai_will_do = { factor = 0 }
+	}
+
+	GER_counter_drp = {
+		icon = generic_political_actions
+		cost = 25
+		days_remove = 30
+		available = {
+			has_country_flag = GER_parliament_initialized
+			NOT = { has_decision = GER_lobby_kpd }
+			NOT = { has_decision = GER_lobby_sapd }
+			NOT = { has_decision = GER_lobby_spd }
+			NOT = { has_decision = GER_lobby_fvp }
+			NOT = { has_decision = GER_lobby_zentrum }
+			NOT = { has_decision = GER_lobby_dkp }
+			NOT = { has_decision = GER_lobby_drp }
+			NOT = { has_decision = GER_lobby_fkp }
+			NOT = { has_decision = GER_lobby_dnvp }
+			NOT = { has_decision = GER_counter_kpd }
+			NOT = { has_decision = GER_counter_sapd }
+			NOT = { has_decision = GER_counter_spd }
+			NOT = { has_decision = GER_counter_fvp }
+			NOT = { has_decision = GER_counter_zentrum }
+			NOT = { has_decision = GER_counter_dkp }
+			NOT = { has_decision = GER_counter_drp }
+			NOT = { has_decision = GER_counter_fkp }
+			NOT = { has_decision = GER_counter_dnvp }
+			NOT = { has_decision = GER_operation_kpd }
+			NOT = { has_decision = GER_operation_sapd }
+			NOT = { has_decision = GER_operation_spd }
+			NOT = { has_decision = GER_operation_fvp }
+			NOT = { has_decision = GER_operation_zentrum }
+			NOT = { has_decision = GER_operation_dkp }
+			NOT = { has_decision = GER_operation_drp }
+			NOT = { has_decision = GER_operation_fkp }
+			NOT = { has_decision = GER_operation_dnvp }
+		}
+		visible = {
+			original_tag = GER
+			has_country_flag = GER_parliament_initialized
+			has_country_flag = GER_parliament_show_counter
+		}
+		remove_effect = {
+			custom_effect_tooltip = GER_counter_drp_tt
+			add_to_variable = { GER_parliament_drp_support_bps = -200 }
+			GER_parliament_normalize_support = yes
+			GER_parliament_refresh_thresholds = yes
+		}
+		ai_will_do = { factor = 0 }
+	}
+
+	GER_counter_fkp = {
+		icon = generic_political_actions
+		cost = 25
+		days_remove = 30
+		available = {
+			has_country_flag = GER_parliament_initialized
+			NOT = { has_decision = GER_lobby_kpd }
+			NOT = { has_decision = GER_lobby_sapd }
+			NOT = { has_decision = GER_lobby_spd }
+			NOT = { has_decision = GER_lobby_fvp }
+			NOT = { has_decision = GER_lobby_zentrum }
+			NOT = { has_decision = GER_lobby_dkp }
+			NOT = { has_decision = GER_lobby_drp }
+			NOT = { has_decision = GER_lobby_fkp }
+			NOT = { has_decision = GER_lobby_dnvp }
+			NOT = { has_decision = GER_counter_kpd }
+			NOT = { has_decision = GER_counter_sapd }
+			NOT = { has_decision = GER_counter_spd }
+			NOT = { has_decision = GER_counter_fvp }
+			NOT = { has_decision = GER_counter_zentrum }
+			NOT = { has_decision = GER_counter_dkp }
+			NOT = { has_decision = GER_counter_drp }
+			NOT = { has_decision = GER_counter_fkp }
+			NOT = { has_decision = GER_counter_dnvp }
+			NOT = { has_decision = GER_operation_kpd }
+			NOT = { has_decision = GER_operation_sapd }
+			NOT = { has_decision = GER_operation_spd }
+			NOT = { has_decision = GER_operation_fvp }
+			NOT = { has_decision = GER_operation_zentrum }
+			NOT = { has_decision = GER_operation_dkp }
+			NOT = { has_decision = GER_operation_drp }
+			NOT = { has_decision = GER_operation_fkp }
+			NOT = { has_decision = GER_operation_dnvp }
+		}
+		visible = {
+			original_tag = GER
+			has_country_flag = GER_parliament_initialized
+			has_country_flag = GER_parliament_show_counter
+		}
+		remove_effect = {
+			custom_effect_tooltip = GER_counter_fkp_tt
+			add_to_variable = { GER_parliament_fkp_support_bps = -200 }
+			GER_parliament_normalize_support = yes
+			GER_parliament_refresh_thresholds = yes
+		}
+		ai_will_do = { factor = 0 }
+	}
+
+	GER_counter_dnvp = {
+		icon = generic_political_actions
+		cost = 25
+		days_remove = 30
+		available = {
+			has_country_flag = GER_parliament_initialized
+			NOT = { has_decision = GER_lobby_kpd }
+			NOT = { has_decision = GER_lobby_sapd }
+			NOT = { has_decision = GER_lobby_spd }
+			NOT = { has_decision = GER_lobby_fvp }
+			NOT = { has_decision = GER_lobby_zentrum }
+			NOT = { has_decision = GER_lobby_dkp }
+			NOT = { has_decision = GER_lobby_drp }
+			NOT = { has_decision = GER_lobby_fkp }
+			NOT = { has_decision = GER_lobby_dnvp }
+			NOT = { has_decision = GER_counter_kpd }
+			NOT = { has_decision = GER_counter_sapd }
+			NOT = { has_decision = GER_counter_spd }
+			NOT = { has_decision = GER_counter_fvp }
+			NOT = { has_decision = GER_counter_zentrum }
+			NOT = { has_decision = GER_counter_dkp }
+			NOT = { has_decision = GER_counter_drp }
+			NOT = { has_decision = GER_counter_fkp }
+			NOT = { has_decision = GER_counter_dnvp }
+			NOT = { has_decision = GER_operation_kpd }
+			NOT = { has_decision = GER_operation_sapd }
+			NOT = { has_decision = GER_operation_spd }
+			NOT = { has_decision = GER_operation_fvp }
+			NOT = { has_decision = GER_operation_zentrum }
+			NOT = { has_decision = GER_operation_dkp }
+			NOT = { has_decision = GER_operation_drp }
+			NOT = { has_decision = GER_operation_fkp }
+			NOT = { has_decision = GER_operation_dnvp }
+		}
+		visible = {
+			original_tag = GER
+			has_country_flag = GER_parliament_initialized
+			has_country_flag = GER_parliament_show_counter
+		}
+		remove_effect = {
+			custom_effect_tooltip = GER_counter_dnvp_tt
+			add_to_variable = { GER_parliament_dnvp_support_bps = -200 }
+			GER_parliament_normalize_support = yes
+			GER_parliament_refresh_thresholds = yes
+		}
+		ai_will_do = { factor = 0 }
+	}
+
+	# Influence operations
+	GER_operation_kpd = {
+		icon = generic_political_actions
+		cost = 75
+		days_remove = 60
+		available = {
+			has_country_flag = GER_parliament_initialized
+			NOT = { has_decision = GER_lobby_kpd }
+			NOT = { has_decision = GER_lobby_sapd }
+			NOT = { has_decision = GER_lobby_spd }
+			NOT = { has_decision = GER_lobby_fvp }
+			NOT = { has_decision = GER_lobby_zentrum }
+			NOT = { has_decision = GER_lobby_dkp }
+			NOT = { has_decision = GER_lobby_drp }
+			NOT = { has_decision = GER_lobby_fkp }
+			NOT = { has_decision = GER_lobby_dnvp }
+			NOT = { has_decision = GER_counter_kpd }
+			NOT = { has_decision = GER_counter_sapd }
+			NOT = { has_decision = GER_counter_spd }
+			NOT = { has_decision = GER_counter_fvp }
+			NOT = { has_decision = GER_counter_zentrum }
+			NOT = { has_decision = GER_counter_dkp }
+			NOT = { has_decision = GER_counter_drp }
+			NOT = { has_decision = GER_counter_fkp }
+			NOT = { has_decision = GER_counter_dnvp }
+			NOT = { has_decision = GER_operation_kpd }
+			NOT = { has_decision = GER_operation_sapd }
+			NOT = { has_decision = GER_operation_spd }
+			NOT = { has_decision = GER_operation_fvp }
+			NOT = { has_decision = GER_operation_zentrum }
+			NOT = { has_decision = GER_operation_dkp }
+			NOT = { has_decision = GER_operation_drp }
+			NOT = { has_decision = GER_operation_fkp }
+			NOT = { has_decision = GER_operation_dnvp }
+			check_variable = { GER_parliament_kpd_seats > 2 }
+		}
+		visible = {
+			original_tag = GER
+			has_country_flag = GER_parliament_initialized
+			has_country_flag = GER_parliament_show_operations
+			check_variable = { GER_parliament_kpd_seats > 2 }
+		}
+		remove_effect = {
+			custom_effect_tooltip = GER_operation_kpd_tt
+			random_list = {
+				60 = {
+					add_to_variable = { GER_parliament_kpd_seats = -2 }
+					add_to_variable = { GER_parliament_zentrum_seats = 2 }
+					GER_parliament_recalc_government_seats = yes
+					GER_parliament_refresh_thresholds = yes
+				}
+				40 = {
+					add_political_power = -10
+				}
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+
+	GER_operation_sapd = {
+		icon = generic_political_actions
+		cost = 75
+		days_remove = 60
+		available = {
+			has_country_flag = GER_parliament_initialized
+			NOT = { has_decision = GER_lobby_kpd }
+			NOT = { has_decision = GER_lobby_sapd }
+			NOT = { has_decision = GER_lobby_spd }
+			NOT = { has_decision = GER_lobby_fvp }
+			NOT = { has_decision = GER_lobby_zentrum }
+			NOT = { has_decision = GER_lobby_dkp }
+			NOT = { has_decision = GER_lobby_drp }
+			NOT = { has_decision = GER_lobby_fkp }
+			NOT = { has_decision = GER_lobby_dnvp }
+			NOT = { has_decision = GER_counter_kpd }
+			NOT = { has_decision = GER_counter_sapd }
+			NOT = { has_decision = GER_counter_spd }
+			NOT = { has_decision = GER_counter_fvp }
+			NOT = { has_decision = GER_counter_zentrum }
+			NOT = { has_decision = GER_counter_dkp }
+			NOT = { has_decision = GER_counter_drp }
+			NOT = { has_decision = GER_counter_fkp }
+			NOT = { has_decision = GER_counter_dnvp }
+			NOT = { has_decision = GER_operation_kpd }
+			NOT = { has_decision = GER_operation_sapd }
+			NOT = { has_decision = GER_operation_spd }
+			NOT = { has_decision = GER_operation_fvp }
+			NOT = { has_decision = GER_operation_zentrum }
+			NOT = { has_decision = GER_operation_dkp }
+			NOT = { has_decision = GER_operation_drp }
+			NOT = { has_decision = GER_operation_fkp }
+			NOT = { has_decision = GER_operation_dnvp }
+			check_variable = { GER_parliament_sapd_seats > 2 }
+		}
+		visible = {
+			original_tag = GER
+			has_country_flag = GER_parliament_initialized
+			has_country_flag = GER_parliament_show_operations
+			check_variable = { GER_parliament_sapd_seats > 2 }
+		}
+		remove_effect = {
+			custom_effect_tooltip = GER_operation_sapd_tt
+			random_list = {
+				60 = {
+					add_to_variable = { GER_parliament_sapd_seats = -2 }
+					add_to_variable = { GER_parliament_zentrum_seats = 2 }
+					GER_parliament_recalc_government_seats = yes
+					GER_parliament_refresh_thresholds = yes
+				}
+				40 = {
+					add_political_power = -10
+				}
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+
+	GER_operation_spd = {
+		icon = generic_political_actions
+		cost = 75
+		days_remove = 60
+		available = {
+			has_country_flag = GER_parliament_initialized
+			NOT = { has_decision = GER_lobby_kpd }
+			NOT = { has_decision = GER_lobby_sapd }
+			NOT = { has_decision = GER_lobby_spd }
+			NOT = { has_decision = GER_lobby_fvp }
+			NOT = { has_decision = GER_lobby_zentrum }
+			NOT = { has_decision = GER_lobby_dkp }
+			NOT = { has_decision = GER_lobby_drp }
+			NOT = { has_decision = GER_lobby_fkp }
+			NOT = { has_decision = GER_lobby_dnvp }
+			NOT = { has_decision = GER_counter_kpd }
+			NOT = { has_decision = GER_counter_sapd }
+			NOT = { has_decision = GER_counter_spd }
+			NOT = { has_decision = GER_counter_fvp }
+			NOT = { has_decision = GER_counter_zentrum }
+			NOT = { has_decision = GER_counter_dkp }
+			NOT = { has_decision = GER_counter_drp }
+			NOT = { has_decision = GER_counter_fkp }
+			NOT = { has_decision = GER_counter_dnvp }
+			NOT = { has_decision = GER_operation_kpd }
+			NOT = { has_decision = GER_operation_sapd }
+			NOT = { has_decision = GER_operation_spd }
+			NOT = { has_decision = GER_operation_fvp }
+			NOT = { has_decision = GER_operation_zentrum }
+			NOT = { has_decision = GER_operation_dkp }
+			NOT = { has_decision = GER_operation_drp }
+			NOT = { has_decision = GER_operation_fkp }
+			NOT = { has_decision = GER_operation_dnvp }
+			check_variable = { GER_parliament_spd_seats > 2 }
+		}
+		visible = {
+			original_tag = GER
+			has_country_flag = GER_parliament_initialized
+			has_country_flag = GER_parliament_show_operations
+			check_variable = { GER_parliament_spd_seats > 2 }
+		}
+		remove_effect = {
+			custom_effect_tooltip = GER_operation_spd_tt
+			random_list = {
+				60 = {
+					add_to_variable = { GER_parliament_spd_seats = -2 }
+					add_to_variable = { GER_parliament_zentrum_seats = 2 }
+					GER_parliament_recalc_government_seats = yes
+					GER_parliament_refresh_thresholds = yes
+				}
+				40 = {
+					add_political_power = -10
+				}
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+
+	GER_operation_fvp = {
+		icon = generic_political_actions
+		cost = 75
+		days_remove = 60
+		available = {
+			has_country_flag = GER_parliament_initialized
+			NOT = { has_decision = GER_lobby_kpd }
+			NOT = { has_decision = GER_lobby_sapd }
+			NOT = { has_decision = GER_lobby_spd }
+			NOT = { has_decision = GER_lobby_fvp }
+			NOT = { has_decision = GER_lobby_zentrum }
+			NOT = { has_decision = GER_lobby_dkp }
+			NOT = { has_decision = GER_lobby_drp }
+			NOT = { has_decision = GER_lobby_fkp }
+			NOT = { has_decision = GER_lobby_dnvp }
+			NOT = { has_decision = GER_counter_kpd }
+			NOT = { has_decision = GER_counter_sapd }
+			NOT = { has_decision = GER_counter_spd }
+			NOT = { has_decision = GER_counter_fvp }
+			NOT = { has_decision = GER_counter_zentrum }
+			NOT = { has_decision = GER_counter_dkp }
+			NOT = { has_decision = GER_counter_drp }
+			NOT = { has_decision = GER_counter_fkp }
+			NOT = { has_decision = GER_counter_dnvp }
+			NOT = { has_decision = GER_operation_kpd }
+			NOT = { has_decision = GER_operation_sapd }
+			NOT = { has_decision = GER_operation_spd }
+			NOT = { has_decision = GER_operation_fvp }
+			NOT = { has_decision = GER_operation_zentrum }
+			NOT = { has_decision = GER_operation_dkp }
+			NOT = { has_decision = GER_operation_drp }
+			NOT = { has_decision = GER_operation_fkp }
+			NOT = { has_decision = GER_operation_dnvp }
+			check_variable = { GER_parliament_fvp_seats > 2 }
+		}
+		visible = {
+			original_tag = GER
+			has_country_flag = GER_parliament_initialized
+			has_country_flag = GER_parliament_show_operations
+			check_variable = { GER_parliament_fvp_seats > 2 }
+		}
+		remove_effect = {
+			custom_effect_tooltip = GER_operation_fvp_tt
+			random_list = {
+				60 = {
+					add_to_variable = { GER_parliament_fvp_seats = -2 }
+					add_to_variable = { GER_parliament_zentrum_seats = 2 }
+					GER_parliament_recalc_government_seats = yes
+					GER_parliament_refresh_thresholds = yes
+				}
+				40 = {
+					add_political_power = -10
+				}
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+
+	GER_operation_zentrum = {
+		icon = generic_political_actions
+		cost = 75
+		days_remove = 60
+		available = {
+			has_country_flag = GER_parliament_initialized
+			NOT = { has_decision = GER_lobby_kpd }
+			NOT = { has_decision = GER_lobby_sapd }
+			NOT = { has_decision = GER_lobby_spd }
+			NOT = { has_decision = GER_lobby_fvp }
+			NOT = { has_decision = GER_lobby_zentrum }
+			NOT = { has_decision = GER_lobby_dkp }
+			NOT = { has_decision = GER_lobby_drp }
+			NOT = { has_decision = GER_lobby_fkp }
+			NOT = { has_decision = GER_lobby_dnvp }
+			NOT = { has_decision = GER_counter_kpd }
+			NOT = { has_decision = GER_counter_sapd }
+			NOT = { has_decision = GER_counter_spd }
+			NOT = { has_decision = GER_counter_fvp }
+			NOT = { has_decision = GER_counter_zentrum }
+			NOT = { has_decision = GER_counter_dkp }
+			NOT = { has_decision = GER_counter_drp }
+			NOT = { has_decision = GER_counter_fkp }
+			NOT = { has_decision = GER_counter_dnvp }
+			NOT = { has_decision = GER_operation_kpd }
+			NOT = { has_decision = GER_operation_sapd }
+			NOT = { has_decision = GER_operation_spd }
+			NOT = { has_decision = GER_operation_fvp }
+			NOT = { has_decision = GER_operation_zentrum }
+			NOT = { has_decision = GER_operation_dkp }
+			NOT = { has_decision = GER_operation_drp }
+			NOT = { has_decision = GER_operation_fkp }
+			NOT = { has_decision = GER_operation_dnvp }
+			check_variable = { GER_parliament_zentrum_seats > 2 }
+		}
+		visible = {
+			original_tag = GER
+			has_country_flag = GER_parliament_initialized
+			has_country_flag = GER_parliament_show_operations
+			check_variable = { GER_parliament_zentrum_seats > 2 }
+		}
+		remove_effect = {
+			custom_effect_tooltip = GER_operation_zentrum_tt
+			random_list = {
+				60 = {
+					add_to_variable = { GER_parliament_zentrum_seats = 2 }
+					GER_parliament_recalc_government_seats = yes
+					GER_parliament_refresh_thresholds = yes
+				}
+				40 = {
+					add_political_power = -10
+				}
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+
+	GER_operation_dkp = {
+		icon = generic_political_actions
+		cost = 75
+		days_remove = 60
+		available = {
+			has_country_flag = GER_parliament_initialized
+			NOT = { has_decision = GER_lobby_kpd }
+			NOT = { has_decision = GER_lobby_sapd }
+			NOT = { has_decision = GER_lobby_spd }
+			NOT = { has_decision = GER_lobby_fvp }
+			NOT = { has_decision = GER_lobby_zentrum }
+			NOT = { has_decision = GER_lobby_dkp }
+			NOT = { has_decision = GER_lobby_drp }
+			NOT = { has_decision = GER_lobby_fkp }
+			NOT = { has_decision = GER_lobby_dnvp }
+			NOT = { has_decision = GER_counter_kpd }
+			NOT = { has_decision = GER_counter_sapd }
+			NOT = { has_decision = GER_counter_spd }
+			NOT = { has_decision = GER_counter_fvp }
+			NOT = { has_decision = GER_counter_zentrum }
+			NOT = { has_decision = GER_counter_dkp }
+			NOT = { has_decision = GER_counter_drp }
+			NOT = { has_decision = GER_counter_fkp }
+			NOT = { has_decision = GER_counter_dnvp }
+			NOT = { has_decision = GER_operation_kpd }
+			NOT = { has_decision = GER_operation_sapd }
+			NOT = { has_decision = GER_operation_spd }
+			NOT = { has_decision = GER_operation_fvp }
+			NOT = { has_decision = GER_operation_zentrum }
+			NOT = { has_decision = GER_operation_dkp }
+			NOT = { has_decision = GER_operation_drp }
+			NOT = { has_decision = GER_operation_fkp }
+			NOT = { has_decision = GER_operation_dnvp }
+			check_variable = { GER_parliament_dkp_seats > 2 }
+		}
+		visible = {
+			original_tag = GER
+			has_country_flag = GER_parliament_initialized
+			has_country_flag = GER_parliament_show_operations
+			check_variable = { GER_parliament_dkp_seats > 2 }
+		}
+		remove_effect = {
+			custom_effect_tooltip = GER_operation_dkp_tt
+			random_list = {
+				60 = {
+					add_to_variable = { GER_parliament_dkp_seats = 2 }
+					GER_parliament_recalc_government_seats = yes
+					GER_parliament_refresh_thresholds = yes
+				}
+				40 = {
+					add_political_power = -10
+				}
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+
+	GER_operation_drp = {
+		icon = generic_political_actions
+		cost = 75
+		days_remove = 60
+		available = {
+			has_country_flag = GER_parliament_initialized
+			NOT = { has_decision = GER_lobby_kpd }
+			NOT = { has_decision = GER_lobby_sapd }
+			NOT = { has_decision = GER_lobby_spd }
+			NOT = { has_decision = GER_lobby_fvp }
+			NOT = { has_decision = GER_lobby_zentrum }
+			NOT = { has_decision = GER_lobby_dkp }
+			NOT = { has_decision = GER_lobby_drp }
+			NOT = { has_decision = GER_lobby_fkp }
+			NOT = { has_decision = GER_lobby_dnvp }
+			NOT = { has_decision = GER_counter_kpd }
+			NOT = { has_decision = GER_counter_sapd }
+			NOT = { has_decision = GER_counter_spd }
+			NOT = { has_decision = GER_counter_fvp }
+			NOT = { has_decision = GER_counter_zentrum }
+			NOT = { has_decision = GER_counter_dkp }
+			NOT = { has_decision = GER_counter_drp }
+			NOT = { has_decision = GER_counter_fkp }
+			NOT = { has_decision = GER_counter_dnvp }
+			NOT = { has_decision = GER_operation_kpd }
+			NOT = { has_decision = GER_operation_sapd }
+			NOT = { has_decision = GER_operation_spd }
+			NOT = { has_decision = GER_operation_fvp }
+			NOT = { has_decision = GER_operation_zentrum }
+			NOT = { has_decision = GER_operation_dkp }
+			NOT = { has_decision = GER_operation_drp }
+			NOT = { has_decision = GER_operation_fkp }
+			NOT = { has_decision = GER_operation_dnvp }
+			check_variable = { GER_parliament_drp_seats > 2 }
+		}
+		visible = {
+			original_tag = GER
+			has_country_flag = GER_parliament_initialized
+			has_country_flag = GER_parliament_show_operations
+			check_variable = { GER_parliament_drp_seats > 2 }
+		}
+		remove_effect = {
+			custom_effect_tooltip = GER_operation_drp_tt
+			random_list = {
+				60 = {
+					add_to_variable = { GER_parliament_drp_seats = 2 }
+					GER_parliament_recalc_government_seats = yes
+					GER_parliament_refresh_thresholds = yes
+				}
+				40 = {
+					add_political_power = -10
+				}
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+
+	GER_operation_fkp = {
+		icon = generic_political_actions
+		cost = 75
+		days_remove = 60
+		available = {
+			has_country_flag = GER_parliament_initialized
+			NOT = { has_decision = GER_lobby_kpd }
+			NOT = { has_decision = GER_lobby_sapd }
+			NOT = { has_decision = GER_lobby_spd }
+			NOT = { has_decision = GER_lobby_fvp }
+			NOT = { has_decision = GER_lobby_zentrum }
+			NOT = { has_decision = GER_lobby_dkp }
+			NOT = { has_decision = GER_lobby_drp }
+			NOT = { has_decision = GER_lobby_fkp }
+			NOT = { has_decision = GER_lobby_dnvp }
+			NOT = { has_decision = GER_counter_kpd }
+			NOT = { has_decision = GER_counter_sapd }
+			NOT = { has_decision = GER_counter_spd }
+			NOT = { has_decision = GER_counter_fvp }
+			NOT = { has_decision = GER_counter_zentrum }
+			NOT = { has_decision = GER_counter_dkp }
+			NOT = { has_decision = GER_counter_drp }
+			NOT = { has_decision = GER_counter_fkp }
+			NOT = { has_decision = GER_counter_dnvp }
+			NOT = { has_decision = GER_operation_kpd }
+			NOT = { has_decision = GER_operation_sapd }
+			NOT = { has_decision = GER_operation_spd }
+			NOT = { has_decision = GER_operation_fvp }
+			NOT = { has_decision = GER_operation_zentrum }
+			NOT = { has_decision = GER_operation_dkp }
+			NOT = { has_decision = GER_operation_drp }
+			NOT = { has_decision = GER_operation_fkp }
+			NOT = { has_decision = GER_operation_dnvp }
+			check_variable = { GER_parliament_fkp_seats > 2 }
+		}
+		visible = {
+			original_tag = GER
+			has_country_flag = GER_parliament_initialized
+			has_country_flag = GER_parliament_show_operations
+			check_variable = { GER_parliament_fkp_seats > 2 }
+		}
+		remove_effect = {
+			custom_effect_tooltip = GER_operation_fkp_tt
+			random_list = {
+				60 = {
+					add_to_variable = { GER_parliament_fkp_seats = 2 }
+					GER_parliament_recalc_government_seats = yes
+					GER_parliament_refresh_thresholds = yes
+				}
+				40 = {
+					add_political_power = -10
+				}
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+
+	GER_operation_dnvp = {
+		icon = generic_political_actions
+		cost = 75
+		days_remove = 60
+		available = {
+			has_country_flag = GER_parliament_initialized
+			NOT = { has_decision = GER_lobby_kpd }
+			NOT = { has_decision = GER_lobby_sapd }
+			NOT = { has_decision = GER_lobby_spd }
+			NOT = { has_decision = GER_lobby_fvp }
+			NOT = { has_decision = GER_lobby_zentrum }
+			NOT = { has_decision = GER_lobby_dkp }
+			NOT = { has_decision = GER_lobby_drp }
+			NOT = { has_decision = GER_lobby_fkp }
+			NOT = { has_decision = GER_lobby_dnvp }
+			NOT = { has_decision = GER_counter_kpd }
+			NOT = { has_decision = GER_counter_sapd }
+			NOT = { has_decision = GER_counter_spd }
+			NOT = { has_decision = GER_counter_fvp }
+			NOT = { has_decision = GER_counter_zentrum }
+			NOT = { has_decision = GER_counter_dkp }
+			NOT = { has_decision = GER_counter_drp }
+			NOT = { has_decision = GER_counter_fkp }
+			NOT = { has_decision = GER_counter_dnvp }
+			NOT = { has_decision = GER_operation_kpd }
+			NOT = { has_decision = GER_operation_sapd }
+			NOT = { has_decision = GER_operation_spd }
+			NOT = { has_decision = GER_operation_fvp }
+			NOT = { has_decision = GER_operation_zentrum }
+			NOT = { has_decision = GER_operation_dkp }
+			NOT = { has_decision = GER_operation_drp }
+			NOT = { has_decision = GER_operation_fkp }
+			NOT = { has_decision = GER_operation_dnvp }
+			check_variable = { GER_parliament_dnvp_seats > 2 }
+		}
+		visible = {
+			original_tag = GER
+			has_country_flag = GER_parliament_initialized
+			has_country_flag = GER_parliament_show_operations
+			check_variable = { GER_parliament_dnvp_seats > 2 }
+		}
+		remove_effect = {
+			custom_effect_tooltip = GER_operation_dnvp_tt
+			random_list = {
+				60 = {
+					add_to_variable = { GER_parliament_dnvp_seats = -2 }
+					add_to_variable = { GER_parliament_zentrum_seats = 2 }
+					GER_parliament_recalc_government_seats = yes
+					GER_parliament_refresh_thresholds = yes
+				}
+				40 = {
+					add_political_power = -10
+				}
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+
+	# Debug
+	GER_debug_election = {
+		icon = generic_political_actions
+		cost = 0
+		days_remove = 0
+		available = {
+			has_country_flag = GER_parliament_initialized
+		}
+		visible = {
+			original_tag = GER
+			has_country_flag = GER_parliament_initialized
+			has_country_flag = GER_parliament_show_debug
+		}
+		complete_effect = {
+			custom_effect_tooltip = GER_debug_election_tt
+			GER_parliament_hold_election = yes
+		}
+		ai_will_do = { factor = 0 }
+	}
+}

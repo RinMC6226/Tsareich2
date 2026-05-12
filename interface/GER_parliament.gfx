@@ -1,0 +1,52 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_GER_parliament_seat_kpd"
+		texturefile = "gfx/interface/parliament/GER_parliament_seat_kpd.tga"
+		noOfFrames = 1
+	}
+	spriteType = {
+		name = "GFX_GER_parliament_seat_sapd"
+		texturefile = "gfx/interface/parliament/GER_parliament_seat_sapd.tga"
+		noOfFrames = 1
+	}
+	spriteType = {
+		name = "GFX_GER_parliament_seat_spd"
+		texturefile = "gfx/interface/parliament/GER_parliament_seat_spd.tga"
+		noOfFrames = 1
+	}
+	spriteType = {
+		name = "GFX_GER_parliament_seat_fvp"
+		texturefile = "gfx/interface/parliament/GER_parliament_seat_fvp.tga"
+		noOfFrames = 1
+	}
+	spriteType = {
+		name = "GFX_GER_parliament_seat_zentrum"
+		texturefile = "gfx/interface/parliament/GER_parliament_seat_zentrum.tga"
+		noOfFrames = 1
+	}
+	spriteType = {
+		name = "GFX_GER_parliament_seat_dkp"
+		texturefile = "gfx/interface/parliament/GER_parliament_seat_dkp.tga"
+		noOfFrames = 1
+	}
+	spriteType = {
+		name = "GFX_GER_parliament_seat_drp"
+		texturefile = "gfx/interface/parliament/GER_parliament_seat_drp.tga"
+		noOfFrames = 1
+	}
+	spriteType = {
+		name = "GFX_GER_parliament_seat_fkp"
+		texturefile = "gfx/interface/parliament/GER_parliament_seat_fkp.tga"
+		noOfFrames = 1
+	}
+	spriteType = {
+		name = "GFX_GER_parliament_seat_dnvp"
+		texturefile = "gfx/interface/parliament/GER_parliament_seat_dnvp.tga"
+		noOfFrames = 1
+	}
+	spriteType = {
+		name = "GFX_GER_parliament_gov_marker"
+		texturefile = "gfx/interface/parliament/GER_parliament_gov_marker.tga"
+		noOfFrames = 1
+	}
+}

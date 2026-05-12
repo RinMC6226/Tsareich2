@@ -1,0 +1,214 @@
+# ── 議会システム初期化 ──────────────────────────────────────────────────────────
+GER_parliament_initialize = {
+	set_variable = { GER_parliament_total_seats = 397 }
+
+	# 初期議席配分
+	set_variable = { GER_parliament_kpd_seats     = 12 }
+	set_variable = { GER_parliament_sapd_seats    = 36 }
+	set_variable = { GER_parliament_spd_seats     = 71 }
+	set_variable = { GER_parliament_fvp_seats     = 52 }
+	set_variable = { GER_parliament_zentrum_seats = 60 }
+	set_variable = { GER_parliament_dkp_seats     = 65 }
+	set_variable = { GER_parliament_drp_seats     = 34 }
+	set_variable = { GER_parliament_fkp_seats     = 48 }
+	set_variable = { GER_parliament_dnvp_seats    = 19 }
+
+	# 与党連立 (中央党 + 保守党 + 帝国党 + 自由保守党)
+	set_variable = { GER_parliament_government_seats = 207 }
+	set_variable = { GER_parliament_opposition_seats = 190 }
+
+	# 支持率 (合計 10000 basis points = 100.00%)
+	set_variable = { GER_parliament_kpd_support_bps     = 302  }
+	set_variable = { GER_parliament_sapd_support_bps    = 906  }
+	set_variable = { GER_parliament_spd_support_bps     = 1788 }
+	set_variable = { GER_parliament_fvp_support_bps     = 1310 }
+	set_variable = { GER_parliament_zentrum_support_bps = 1511 }
+	set_variable = { GER_parliament_dkp_support_bps     = 1637 }
+	set_variable = { GER_parliament_drp_support_bps     = 856  }
+	set_variable = { GER_parliament_fkp_support_bps     = 1209 }
+	set_variable = { GER_parliament_dnvp_support_bps    = 481  }
+
+	# 与党フラグ
+	set_country_flag = GER_parliament_zentrum_is_governing
+	set_country_flag = GER_parliament_dkp_is_governing
+	set_country_flag = GER_parliament_drp_is_governing
+	set_country_flag = GER_parliament_fkp_is_governing
+
+	set_variable = { GER_parliament_dirty = 0 }
+	set_country_flag = GER_parliament_initialized
+
+	GER_parliament_refresh_display = yes
+	GER_parliament_refresh_thresholds = yes
+}
+
+# ── GUI 更新用しきい値を再計算 ────────────────────────────────────────────────
+GER_parliament_refresh_display = {
+	set_temp_variable = { ger_par_tmp = GER_parliament_kpd_support_bps }
+	divide_temp_variable = { ger_par_tmp = 10000 }
+	set_variable = { GER_parliament_kpd_support_share = ger_par_tmp }
+
+	set_temp_variable = { ger_par_tmp = GER_parliament_sapd_support_bps }
+	divide_temp_variable = { ger_par_tmp = 10000 }
+	set_variable = { GER_parliament_sapd_support_share = ger_par_tmp }
+
+	set_temp_variable = { ger_par_tmp = GER_parliament_spd_support_bps }
+	divide_temp_variable = { ger_par_tmp = 10000 }
+	set_variable = { GER_parliament_spd_support_share = ger_par_tmp }
+
+	set_temp_variable = { ger_par_tmp = GER_parliament_fvp_support_bps }
+	divide_temp_variable = { ger_par_tmp = 10000 }
+	set_variable = { GER_parliament_fvp_support_share = ger_par_tmp }
+
+	set_temp_variable = { ger_par_tmp = GER_parliament_zentrum_support_bps }
+	divide_temp_variable = { ger_par_tmp = 10000 }
+	set_variable = { GER_parliament_zentrum_support_share = ger_par_tmp }
+
+	set_temp_variable = { ger_par_tmp = GER_parliament_dkp_support_bps }
+	divide_temp_variable = { ger_par_tmp = 10000 }
+	set_variable = { GER_parliament_dkp_support_share = ger_par_tmp }
+
+	set_temp_variable = { ger_par_tmp = GER_parliament_drp_support_bps }
+	divide_temp_variable = { ger_par_tmp = 10000 }
+	set_variable = { GER_parliament_drp_support_share = ger_par_tmp }
+
+	set_temp_variable = { ger_par_tmp = GER_parliament_fkp_support_bps }
+	divide_temp_variable = { ger_par_tmp = 10000 }
+	set_variable = { GER_parliament_fkp_support_share = ger_par_tmp }
+
+	set_temp_variable = { ger_par_tmp = GER_parliament_dnvp_support_bps }
+	divide_temp_variable = { ger_par_tmp = 10000 }
+	set_variable = { GER_parliament_dnvp_support_share = ger_par_tmp }
+}
+
+GER_parliament_refresh_thresholds = {
+	GER_parliament_refresh_display = yes
+	set_variable = { GER_parliament_kpd_max = GER_parliament_kpd_seats }
+
+	set_variable    = { GER_parliament_sapd_max = GER_parliament_kpd_max }
+	add_to_variable = { GER_parliament_sapd_max = GER_parliament_sapd_seats }
+
+	set_variable    = { GER_parliament_spd_max = GER_parliament_sapd_max }
+	add_to_variable = { GER_parliament_spd_max = GER_parliament_spd_seats }
+
+	set_variable    = { GER_parliament_fvp_max = GER_parliament_spd_max }
+	add_to_variable = { GER_parliament_fvp_max = GER_parliament_fvp_seats }
+
+	set_variable    = { GER_parliament_zentrum_max = GER_parliament_fvp_max }
+	add_to_variable = { GER_parliament_zentrum_max = GER_parliament_zentrum_seats }
+
+	set_variable    = { GER_parliament_dkp_max = GER_parliament_zentrum_max }
+	add_to_variable = { GER_parliament_dkp_max = GER_parliament_dkp_seats }
+
+	set_variable    = { GER_parliament_drp_max = GER_parliament_dkp_max }
+	add_to_variable = { GER_parliament_drp_max = GER_parliament_drp_seats }
+
+	set_variable    = { GER_parliament_fkp_max = GER_parliament_drp_max }
+	add_to_variable = { GER_parliament_fkp_max = GER_parliament_fkp_seats }
+
+	set_variable    = { GER_parliament_dnvp_max = GER_parliament_fkp_max }
+	add_to_variable = { GER_parliament_dnvp_max = GER_parliament_dnvp_seats }
+
+	add_to_variable = { GER_parliament_dirty = 1 }
+}
+
+# ── 与党議席を再計算 ─────────────────────────────────────────────────────────
+GER_parliament_recalc_government_seats = {
+	set_variable    = { GER_parliament_government_seats = GER_parliament_zentrum_seats }
+	add_to_variable = { GER_parliament_government_seats = GER_parliament_dkp_seats }
+	add_to_variable = { GER_parliament_government_seats = GER_parliament_drp_seats }
+	add_to_variable = { GER_parliament_government_seats = GER_parliament_fkp_seats }
+	set_variable    = { GER_parliament_opposition_seats = GER_parliament_total_seats }
+	subtract_from_variable = { var = GER_parliament_opposition_seats value = GER_parliament_government_seats }
+}
+
+# ── 支持率の下限クランプ ─────────────────────────────────────────────────────
+GER_parliament_normalize_support = {
+	if = {
+		limit = { check_variable = { GER_parliament_kpd_support_bps < 0 } }
+		set_variable = { GER_parliament_kpd_support_bps = 0 }
+	}
+	if = {
+		limit = { check_variable = { GER_parliament_sapd_support_bps < 0 } }
+		set_variable = { GER_parliament_sapd_support_bps = 0 }
+	}
+	if = {
+		limit = { check_variable = { GER_parliament_spd_support_bps < 0 } }
+		set_variable = { GER_parliament_spd_support_bps = 0 }
+	}
+	if = {
+		limit = { check_variable = { GER_parliament_fvp_support_bps < 0 } }
+		set_variable = { GER_parliament_fvp_support_bps = 0 }
+	}
+	if = {
+		limit = { check_variable = { GER_parliament_zentrum_support_bps < 0 } }
+		set_variable = { GER_parliament_zentrum_support_bps = 0 }
+	}
+	if = {
+		limit = { check_variable = { GER_parliament_dkp_support_bps < 0 } }
+		set_variable = { GER_parliament_dkp_support_bps = 0 }
+	}
+	if = {
+		limit = { check_variable = { GER_parliament_drp_support_bps < 0 } }
+		set_variable = { GER_parliament_drp_support_bps = 0 }
+	}
+	if = {
+		limit = { check_variable = { GER_parliament_fkp_support_bps < 0 } }
+		set_variable = { GER_parliament_fkp_support_bps = 0 }
+	}
+	if = {
+		limit = { check_variable = { GER_parliament_dnvp_support_bps < 0 } }
+		set_variable = { GER_parliament_dnvp_support_bps = 0 }
+	}
+}
+
+# ── 選挙処理: 支持率 → 議席数に変換 ─────────────────────────────────────────
+# 計算式: seats = floor(support_bps * 397 / 10000)
+GER_parliament_hold_election = {
+	set_temp_variable = { ger_par_tmp = GER_parliament_kpd_support_bps }
+	divide_temp_variable = { ger_par_tmp = 10000 }
+	multiply_temp_variable = { ger_par_tmp = 397 }
+	set_variable = { GER_parliament_kpd_seats = ger_par_tmp }
+
+	set_temp_variable = { ger_par_tmp = GER_parliament_sapd_support_bps }
+	divide_temp_variable = { ger_par_tmp = 10000 }
+	multiply_temp_variable = { ger_par_tmp = 397 }
+	set_variable = { GER_parliament_sapd_seats = ger_par_tmp }
+
+	set_temp_variable = { ger_par_tmp = GER_parliament_spd_support_bps }
+	divide_temp_variable = { ger_par_tmp = 10000 }
+	multiply_temp_variable = { ger_par_tmp = 397 }
+	set_variable = { GER_parliament_spd_seats = ger_par_tmp }
+
+	set_temp_variable = { ger_par_tmp = GER_parliament_fvp_support_bps }
+	divide_temp_variable = { ger_par_tmp = 10000 }
+	multiply_temp_variable = { ger_par_tmp = 397 }
+	set_variable = { GER_parliament_fvp_seats = ger_par_tmp }
+
+	set_temp_variable = { ger_par_tmp = GER_parliament_zentrum_support_bps }
+	divide_temp_variable = { ger_par_tmp = 10000 }
+	multiply_temp_variable = { ger_par_tmp = 397 }
+	set_variable = { GER_parliament_zentrum_seats = ger_par_tmp }
+
+	set_temp_variable = { ger_par_tmp = GER_parliament_dkp_support_bps }
+	divide_temp_variable = { ger_par_tmp = 10000 }
+	multiply_temp_variable = { ger_par_tmp = 397 }
+	set_variable = { GER_parliament_dkp_seats = ger_par_tmp }
+
+	set_temp_variable = { ger_par_tmp = GER_parliament_drp_support_bps }
+	divide_temp_variable = { ger_par_tmp = 10000 }
+	multiply_temp_variable = { ger_par_tmp = 397 }
+	set_variable = { GER_parliament_drp_seats = ger_par_tmp }
+
+	set_temp_variable = { ger_par_tmp = GER_parliament_fkp_support_bps }
+	divide_temp_variable = { ger_par_tmp = 10000 }
+	multiply_temp_variable = { ger_par_tmp = 397 }
+	set_variable = { GER_parliament_fkp_seats = ger_par_tmp }
+
+	set_temp_variable = { ger_par_tmp = GER_parliament_dnvp_support_bps }
+	divide_temp_variable = { ger_par_tmp = 10000 }
+	multiply_temp_variable = { ger_par_tmp = 397 }
+	set_variable = { GER_parliament_dnvp_seats = ger_par_tmp }
+
+	GER_parliament_recalc_government_seats = yes
+	GER_parliament_refresh_thresholds = yes
+}

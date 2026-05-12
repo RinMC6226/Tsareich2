@@ -1,1 +1,10 @@
-# intentionally empty during ideology rewrite
+on_actions = {
+	on_startup = {
+		effect = {
+			GER = {
+				GER_parliament_initialize = yes
+			}
+		}
+	}
+
+}
