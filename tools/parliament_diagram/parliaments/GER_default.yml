@@ -40,14 +40,15 @@ parties:
     color: [47, 47, 53]
 
 diagram:
-  width: 700
-  height: 250
+  width: 502
+  height: 365
   rows: 6
   cx: 170
   cy: 220
   r_inner: 75
   r_outer: 165
   seat_size: auto
+  dynamic_seats: true
   seat_order: angle
   radial_order: inner_to_outer
   layout_engine: parliamentarch

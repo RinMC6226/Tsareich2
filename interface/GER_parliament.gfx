@@ -1,5 +1,10 @@
 spriteTypes = {
 	spriteType = {
+		name = "GFX_GER_parliament_seat"
+		texturefile = "gfx/interface/parliament/GER_parliament_seat_strip.tga"
+		noOfFrames = 9
+	}
+	spriteType = {
 		name = "GFX_GER_parliament_seat_kpd"
 		texturefile = "gfx/interface/parliament/GER_parliament_seat_kpd.tga"
 		noOfFrames = 1

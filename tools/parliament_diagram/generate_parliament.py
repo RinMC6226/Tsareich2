@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Parliament diagram generator for Tsareich2 HOI4 mod.
 
-Generates (decisions panel only — no politics-tab window):
+Generates (decisions panel only - no politics-tab window):
   interface/{TAG}_parliament.gfx             -- sprite definitions
   interface/{TAG}_parliament_decisions.gui   -- decisions panel window
   common/scripted_guis/{TAG}_parliament_sg.txt  -- decision_category scripted_gui
@@ -39,7 +39,7 @@ try:
 except ImportError:
     HAS_PARLIAMENTARCH = False
 
-# ─── Seat placement ──────────────────────────────────────────────────────────
+# Seat placement
 
 def compute_seat_positions_legacy(total_seats, rows, cx, cy, r_inner, r_outer, seat_order="angle", radial_order="inner_to_outer"):
     if rows <= 0:
@@ -154,11 +154,18 @@ def compute_auto_seat_size(rows, r_outer, seat_radius_factor=0.62, layout_engine
 
     return max(4, round(r_outer / max(rows * 3.5, 1)))
 
-# ─── GFX ─────────────────────────────────────────────────────────────────────
+# GFX
 
 def generate_gfx(parties, tag):
     prefix = f"GER_parliament" if tag == "GER" else f"{tag}_parliament"
     lines = ["spriteTypes = {"]
+    lines += [
+        "\tspriteType = {",
+        f'\t\tname = "GFX_{prefix}_seat"',
+        f'\t\ttexturefile = "gfx/interface/parliament/{prefix}_seat_strip.tga"',
+        f"\t\tnoOfFrames = {len(parties)}",
+        "\t}",
+    ]
     for p in parties:
         pid = p["id"]
         lines += [
@@ -178,7 +185,7 @@ def generate_gfx(parties, tag):
     lines.append("}")
     return "\n".join(lines) + "\n"
 
-# ─── GUI helpers ─────────────────────────────────────────────────────────────
+# GUI helpers
 
 def _icon_lines(seat, party_id, x, y, half, name_prefix, gfx_prefix, indent):
     return [
@@ -189,35 +196,64 @@ def _icon_lines(seat, party_id, x, y, half, name_prefix, gfx_prefix, indent):
         f"{indent}}}",
     ]
 
-# ─── GUI (decisions panel) ────────────────────────────────────────────────────
 
-def generate_decisions_gui(positions, parties, width, height, seat_size, cx, cy, tag):
+def _center_positions(positions, width, half, cx):
+    min_seat_x = min(x for x, y in positions) - half
+    max_seat_x = max(x for x, y in positions) + half
+    shift_x = round(width / 2 - (min_seat_x + max_seat_x) / 2)
+    return [(x + shift_x, y) for x, y in positions], cx + shift_x
+
+# GUI (decisions panel)
+
+def _party_for_static_seat(seat, parties):
+    running_total = 0
+    for p in parties:
+        running_total += int(p["seats"])
+        if seat <= running_total:
+            return p["id"]
+    return parties[-1]["id"]
+
+
+def generate_decisions_gui(positions, parties, width, height, seat_size, cx, cy, tag, dynamic_seats=False):
     half = seat_size // 2
     prefix = f"{tag}_parliament"
     gfx_prefix = f"{tag}_parliament" if tag == "GER" else f"{tag}_parliament"
 
-    min_seat_x = min(x for x, y in positions) - half
-    max_seat_x = max(x for x, y in positions) + half
-    seat_block_w = max_seat_x - min_seat_x
-    legend_gap = 18
-    legend_block_w = 340
-    content_left = max(10, round((width - (seat_block_w + legend_gap + legend_block_w)) / 2))
-    shift_x = content_left - min_seat_x
-    positions = [(x + shift_x, y) for x, y in positions]
-    cx += shift_x
-    legend_x = content_left + seat_block_w + legend_gap
+    positions, cx = _center_positions(positions, width, half, cx)
 
-    gov_marker_size = 8
-    legend_spacing = 18
-    summary_y_start = 24
-    legend_y_start = 64
-    label_x = legend_x + seat_size + 4
-    stats_x = legend_x + 190
-    stats_w = max(75, legend_block_w - (stats_x - legend_x) - gov_marker_size - 8)
-    label_w = max(55, stats_x - label_x - 8)
-
+    max_seat_y = max(y for x, y in positions) + half
     title_loc = f"{tag}_PARLIAMENT_TITLE"
-    content_w = seat_block_w + legend_gap + legend_block_w
+    total_label_w = 80
+
+    # Bottom two-column legend. Each visible row is selected by scripted_gui
+    # triggers from the party's current faction rank, allowing dynamic sorting.
+    # The extra gap acts as the visual line break below the total-seat label.
+    legend_y_start = max_seat_y + 38
+    row_gap = 16
+    header_h = 16
+    gov_count = sum(1 for p in parties if p.get("governing", False))
+    visible_slots = max(gov_count, len(parties) - gov_count)
+    outer_margin = 8
+    col_gap = 6
+    col_w = (width - outer_margin * 2 - col_gap) // 2
+    left_col_x = outer_margin
+    right_col_x = outer_margin + col_w + col_gap
+    icon_size = seat_size
+    icon_to_label = icon_size + 5
+    # Keep seats and support in independent fixed columns so digit changes
+    # never shift either field. Party names take the remaining space.
+    seat_number_w = 28
+    seat_unit_w = 24
+    support_label_w = 46
+    support_value_w = 56
+    support_label_value_overlap = 18
+    stat_gap = 2
+    support_value_offset = col_w - support_value_w
+    support_label_offset = support_value_offset - support_label_w + support_label_value_overlap
+    seat_number_offset = support_label_offset - seat_number_w - seat_unit_w - stat_gap
+    seat_unit_offset = seat_number_offset + seat_number_w
+    label_w = max(40, seat_number_offset - icon_to_label - stat_gap)
+    header_w = col_w
 
     lines = [
         "guiTypes = {",
@@ -228,11 +264,11 @@ def generate_decisions_gui(positions, parties, width, height, seat_size, cx, cy,
         "",
         "\t\tinstantTextboxType = {",
         f'\t\t\tname = "{prefix}_decisions_title"',
-        f"\t\t\tposition = {{ x = {content_left} y = 4 }}",
-        '\t\t\tfont = "hoi_18mbs"',
+        "\t\t\tposition = { x = 10 y = 4 }",
+        '\t\t\tfont = "hoi_16mbs"',
         f'\t\t\ttext = "{title_loc}"',
         "\t\t\tformat = center",
-        f"\t\t\tmaxWidth = {content_w}",
+        f"\t\t\tmaxWidth = {width - 20}",
         "\t\t\tmaxHeight = 20",
         "\t\t\tfixedsize = yes",
         "\t\t}",
@@ -240,89 +276,191 @@ def generate_decisions_gui(positions, parties, width, height, seat_size, cx, cy,
         "\t\t# Total seats label at bottom center of diagram",
         "\t\tinstantTextboxType = {",
         f'\t\t\tname = "{prefix}_total_seats_label"',
-        f"\t\t\tposition = {{ x = {cx - 25} y = {cy + 5} }}",
-        '\t\t\tfont = "hoi_14b"',
+        f"\t\t\tposition = {{ x = {round(cx - total_label_w / 2)} y = {cy + 5} }}",
+        '\t\t\tfont = "hoi_16mbs"',
         f'\t\t\ttext = "{tag}_PARL_TOTAL_SEATS"',
-        "\t\t\tmaxWidth = 50",
+        "\t\t\tformat = center",
+        f"\t\t\tmaxWidth = {total_label_w}",
         "\t\t\tmaxHeight = 14",
         "\t\t\tfixedsize = yes",
         "\t\t}",
         "",
-        "\t\tinstantTextboxType = {",
-        f'\t\t\tname = "{prefix}_government_total"',
-        f"\t\t\tposition = {{ x = {legend_x} y = {summary_y_start} }}",
-        '\t\t\tfont = "hoi_14b"',
-        f'\t\t\ttext = "{tag}_PARL_GOVERNMENT_TOTAL"',
-        "\t\t\tformat = left",
-        f"\t\t\tmaxWidth = {legend_block_w}",
-        "\t\t\tmaxHeight = 14",
-        "\t\t\tfixedsize = yes",
-        "\t\t}",
-        "",
-        "\t\tinstantTextboxType = {",
-        f'\t\t\tname = "{prefix}_opposition_total"',
-        f"\t\t\tposition = {{ x = {legend_x} y = {summary_y_start + 18} }}",
-        '\t\t\tfont = "hoi_14b"',
-        f'\t\t\ttext = "{tag}_PARL_OPPOSITION_TOTAL"',
-        "\t\t\tformat = left",
-        f"\t\t\tmaxWidth = {legend_block_w}",
-        "\t\t\tmaxHeight = 14",
-        "\t\t\tfixedsize = yes",
+        "\t\tgridboxtype = {",
+        f'\t\t\tname = "{prefix}_diagram"',
+        "\t\t\tposition = { x = 0 y = 0 }",
+        "\t\t\tsize = { width = 100%% height = 100%% }",
+        "\t\t\tslotsize = { width = 100%% height = 0 }",
+        "\t\t\tmax_slots_horizontal = 1",
+        "\t\t\tadd_horizontal = no",
         "\t\t}",
         "",
     ]
 
-    for i, (x, y) in enumerate(positions):
-        seat = i + 1
-        for p in parties:
-            lines += _icon_lines(seat, p["id"], x, y, half,
-                                  f"{prefix}_dseat", gfx_prefix, "\t\t")
+    if not dynamic_seats:
+        for i, (x, y) in enumerate(positions):
+            seat = i + 1
+            pid = _party_for_static_seat(seat, parties)
+            lines += _icon_lines(seat, pid, x, y, half,
+                                  f"{prefix}_dseat_static", gfx_prefix, "\t\t")
 
-    # Right column: legend with party name + governing marker
     lines.append("")
-    for idx, p in enumerate(parties):
-        pid = p["id"]
-        ly = legend_y_start + idx * legend_spacing
-        name_loc_key = f"{tag}_PARL_NAME_{pid.upper()}"
-        stats_loc_key = f"{tag}_PARL_STATS_{pid.upper()}"
-
+    for side, col_x, label_key, seat_number_key, support_value_key, tooltip_key in [
+        ("government", left_col_x, f"{tag}_PARL_GOVERNMENT_LABEL", f"{tag}_PARL_GOVERNMENT_SEAT_NUMBER", f"{tag}_PARL_GOVERNMENT_SUPPORT_VALUE", f"{tag}_PARL_GOVERNMENT_DETAIL"),
+        ("opposition", right_col_x, f"{tag}_PARL_OPPOSITION_LABEL", f"{tag}_PARL_OPPOSITION_SEAT_NUMBER", f"{tag}_PARL_OPPOSITION_SUPPORT_VALUE", f"{tag}_PARL_OPPOSITION_DETAIL"),
+    ]:
         lines += [
-            "\t\ticonType = {",
-            f'\t\t\tname = "{prefix}_legend_{pid}_icon"',
-            f'\t\t\tspriteType = "GFX_{gfx_prefix}_seat_{pid}"',
-            f"\t\t\tposition = {{ x = {legend_x} y = {ly} }}",
-            "\t\t}",
             "\t\tinstantTextboxType = {",
-            f'\t\t\tname = "{prefix}_legend_{pid}_label"',
-            f"\t\t\tposition = {{ x = {label_x} y = {ly + 1} }}",
-            '\t\t\tfont = "hoi_14b"',
-            f'\t\t\ttext = "{name_loc_key}"',
+            f'\t\t\tname = "{prefix}_legend_{side}_header_label"',
+            f"\t\t\tposition = {{ x = {col_x} y = {legend_y_start} }}",
+            '\t\t\tfont = "hoi_16mbs"',
+            f'\t\t\ttext = "{label_key}"',
             "\t\t\tformat = left",
-            f"\t\t\tmaxWidth = {label_w}",
-            "\t\t\tmaxHeight = 14",
+            f"\t\t\tmaxWidth = {seat_number_offset - stat_gap}",
+            f"\t\t\tmaxHeight = {header_h}",
             "\t\t\tfixedsize = yes",
+            f'\t\t\tpdx_tooltip = "{tooltip_key}"',
             "\t\t}",
             "\t\tinstantTextboxType = {",
-            f'\t\t\tname = "{prefix}_legend_{pid}_stats"',
-            f"\t\t\tposition = {{ x = {stats_x} y = {ly + 1} }}",
-            '\t\t\tfont = "hoi_12b"',
-            f'\t\t\ttext = "{stats_loc_key}"',
+            f'\t\t\tname = "{prefix}_legend_{side}_header_seat_number"',
+            f"\t\t\tposition = {{ x = {col_x + seat_number_offset} y = {legend_y_start} }}",
+            '\t\t\tfont = "hoi_16mbs"',
+            f'\t\t\ttext = "{seat_number_key}"',
             "\t\t\tformat = right",
-            f"\t\t\tmaxWidth = {stats_w}",
-            "\t\t\tmaxHeight = 14",
+            f"\t\t\tmaxWidth = {seat_number_w}",
+            f"\t\t\tmaxHeight = {header_h}",
             "\t\t\tfixedsize = yes",
+            f'\t\t\tpdx_tooltip = "{tooltip_key}"',
             "\t\t}",
-            "\t\ticonType = {",
-            f'\t\t\tname = "{prefix}_legend_{pid}_gov_marker"',
-            f'\t\t\tspriteType = "GFX_{gfx_prefix}_gov_marker"',
-            f"\t\t\tposition = {{ x = {legend_x + legend_block_w - gov_marker_size - 2} y = {ly} }}",
+            "\t\tinstantTextboxType = {",
+            f'\t\t\tname = "{prefix}_legend_{side}_header_seat_unit"',
+            f"\t\t\tposition = {{ x = {col_x + seat_unit_offset} y = {legend_y_start} }}",
+            '\t\t\tfont = "hoi_16mbs"',
+            f'\t\t\ttext = "{tag}_PARL_SEAT_UNIT"',
+            "\t\t\tformat = left",
+            f"\t\t\tmaxWidth = {seat_unit_w}",
+            f"\t\t\tmaxHeight = {header_h}",
+            "\t\t\tfixedsize = yes",
+            f'\t\t\tpdx_tooltip = "{tooltip_key}"',
+            "\t\t}",
+            "\t\tinstantTextboxType = {",
+            f'\t\t\tname = "{prefix}_legend_{side}_header_support"',
+            f"\t\t\tposition = {{ x = {col_x + support_label_offset} y = {legend_y_start} }}",
+            '\t\t\tfont = "hoi_16mbs"',
+            f'\t\t\ttext = "{tag}_PARL_SUPPORT_LABEL"',
+            "\t\t\tformat = left",
+            f"\t\t\tmaxWidth = {support_label_w}",
+            f"\t\t\tmaxHeight = {header_h}",
+            "\t\t\tfixedsize = yes",
+            f'\t\t\tpdx_tooltip = "{tooltip_key}"',
+            "\t\t}",
+            "\t\tinstantTextboxType = {",
+            f'\t\t\tname = "{prefix}_legend_{side}_header_support_value"',
+            f"\t\t\tposition = {{ x = {col_x + support_value_offset} y = {legend_y_start} }}",
+            '\t\t\tfont = "hoi_16mbs"',
+            f'\t\t\ttext = "{support_value_key}"',
+            "\t\t\tformat = right",
+            f"\t\t\tmaxWidth = {support_value_w}",
+            f"\t\t\tmaxHeight = {header_h}",
+            "\t\t\tfixedsize = yes",
+            f'\t\t\tpdx_tooltip = "{tooltip_key}"',
             "\t\t}",
         ]
 
-    lines += ["\t}", "}"]
-    return "\n".join(lines) + "\n"
+    # Candidate rows. Scripted GUI triggers display exactly one party per rank.
+    for slot in range(1, visible_slots + 1):
+        ly = legend_y_start + header_h - 1 + (slot - 1) * row_gap
+        for side, col_x in [("gov", left_col_x), ("opp", right_col_x)]:
+            label_x = col_x + icon_to_label
+            seat_number_x = col_x + seat_number_offset
+            seat_unit_x = col_x + seat_unit_offset
+            support_label_x = col_x + support_label_offset
+            support_value_x = col_x + support_value_offset
+            for p in parties:
+                pid = p["id"]
+                name_loc_key = f"{tag}_PARL_NAME_{pid.upper()}"
+                seat_number_loc_key = f"{tag}_PARL_SEAT_NUMBER_{pid.upper()}"
+                support_value_loc_key = f"{tag}_PARL_SUPPORT_VALUE_{pid.upper()}"
+                tooltip_key = f"{tag}_PARL_DETAIL_{pid.upper()}"
 
-# ─── Revert countrypoliticsview.gui ──────────────────────────────────────────
+                lines += [
+                    "\t\ticonType = {",
+                    f'\t\t\tname = "{prefix}_legend_{side}_slot_{slot}_{pid}_icon"',
+                    f'\t\t\tspriteType = "GFX_{gfx_prefix}_seat_{pid}"',
+                    f"\t\t\tposition = {{ x = {col_x} y = {ly} }}",
+                    f'\t\t\tpdx_tooltip = "{tooltip_key}"',
+                    "\t\t}",
+                    "\t\tinstantTextboxType = {",
+                    f'\t\t\tname = "{prefix}_legend_{side}_slot_{slot}_{pid}_label"',
+                    f"\t\t\tposition = {{ x = {label_x} y = {ly + 1} }}",
+                    '\t\t\tfont = "hoi_16mbs"',
+                    f'\t\t\ttext = "{name_loc_key}"',
+                    "\t\t\tformat = left",
+                    f"\t\t\tmaxWidth = {label_w}",
+                    "\t\t\tmaxHeight = 14",
+                    "\t\t\tfixedsize = yes",
+                    f'\t\t\tpdx_tooltip = "{tooltip_key}"',
+                    "\t\t}",
+                    "\t\tinstantTextboxType = {",
+                    f'\t\t\tname = "{prefix}_legend_{side}_slot_{slot}_{pid}_seat_number"',
+                    f"\t\t\tposition = {{ x = {seat_number_x} y = {ly + 1} }}",
+                    '\t\t\tfont = "hoi_16mbs"',
+                    f'\t\t\ttext = "{seat_number_loc_key}"',
+                    "\t\t\tformat = right",
+                    f"\t\t\tmaxWidth = {seat_number_w}",
+                    "\t\t\tmaxHeight = 14",
+                    "\t\t\tfixedsize = yes",
+                    f'\t\t\tpdx_tooltip = "{tooltip_key}"',
+                    "\t\t}",
+                    "\t\tinstantTextboxType = {",
+                    f'\t\t\tname = "{prefix}_legend_{side}_slot_{slot}_{pid}_seat_unit"',
+                    f"\t\t\tposition = {{ x = {seat_unit_x} y = {ly + 1} }}",
+                    '\t\t\tfont = "hoi_16mbs"',
+                    f'\t\t\ttext = "{tag}_PARL_SEAT_UNIT"',
+                    "\t\t\tformat = left",
+                    f"\t\t\tmaxWidth = {seat_unit_w}",
+                    "\t\t\tmaxHeight = 14",
+                    "\t\t\tfixedsize = yes",
+                    f'\t\t\tpdx_tooltip = "{tooltip_key}"',
+                    "\t\t}",
+                    "\t\tinstantTextboxType = {",
+                    f'\t\t\tname = "{prefix}_legend_{side}_slot_{slot}_{pid}_support_label"',
+                    f"\t\t\tposition = {{ x = {support_label_x} y = {ly + 1} }}",
+                    '\t\t\tfont = "hoi_16mbs"',
+                    f'\t\t\ttext = "{tag}_PARL_SUPPORT_LABEL"',
+                    "\t\t\tformat = left",
+                    f"\t\t\tmaxWidth = {support_label_w}",
+                    "\t\t\tmaxHeight = 14",
+                    "\t\t\tfixedsize = yes",
+                    f'\t\t\tpdx_tooltip = "{tooltip_key}"',
+                    "\t\t}",
+                    "\t\tinstantTextboxType = {",
+                    f'\t\t\tname = "{prefix}_legend_{side}_slot_{slot}_{pid}_support_value"',
+                    f"\t\t\tposition = {{ x = {support_value_x} y = {ly + 1} }}",
+                    '\t\t\tfont = "hoi_16mbs"',
+                    f'\t\t\ttext = "{support_value_loc_key}"',
+                    "\t\t\tformat = right",
+                    f"\t\t\tmaxWidth = {support_value_w}",
+                    "\t\t\tmaxHeight = 14",
+                    "\t\t\tfixedsize = yes",
+                    f'\t\t\tpdx_tooltip = "{tooltip_key}"',
+                    "\t\t}",
+                ]
+
+    lines += [
+        "\t}",
+        "",
+        "\tcontainerWindowType = {",
+        f'\t\tname = "{prefix}_seat_entry"',
+        "\t\tposition = { x = 0 y = 0 }",
+        f"\t\tsize = {{ width = {seat_size} height = {seat_size} }}",
+        "\t\ticonType = {",
+        f'\t\t\tname = "{prefix}_seat_icon"',
+        f'\t\t\tquadTextureSprite = "GFX_{gfx_prefix}_seat"',
+        "\t\t}",
+        "\t}",
+        "}",
+    ]
+    return "\n".join(lines) + "\n"
 
 def revert_countrypoliticsview(mod_root):
     """Remove clipping=no added by older generator versions."""
@@ -346,7 +484,7 @@ def revert_countrypoliticsview(mod_root):
     else:
         print("  [revert] countrypoliticsview.gui already clean")
 
-# ─── Scripted GUI ─────────────────────────────────────────────────────────────
+# Scripted GUI
 
 def _seat_trigger_lines(total_seats, parties, seat_prefix, var_prefix):
     """Generate visibility triggers for seat icons: each seat shows the correct party color."""
@@ -400,22 +538,44 @@ def _seat_trigger_lines(total_seats, parties, seat_prefix, var_prefix):
     return lines
 
 
-def _gov_marker_trigger_lines(parties, prefix, var_prefix):
-    """Generate visibility triggers for governing marker icons in legend."""
+def _legend_trigger_lines(parties, prefix, var_prefix, visible_slots=None):
+    """Generate visibility triggers for the dynamic two-column party legend."""
     lines = []
-    for p in parties:
-        pid = p["id"]
-        gov_flag = f"{var_prefix}_{pid}_is_governing"
-        tname = f"{prefix}_legend_{pid}_gov_marker_visible"
-        lines += [
-            f"\t\t\t{tname} = {{",
-            f"\t\t\t\thas_country_flag = {gov_flag}",
-            "\t\t\t}",
-        ]
+    if visible_slots is None:
+        visible_slots = len(parties)
+    for slot in range(1, visible_slots + 1):
+        for side in ("gov", "opp"):
+            for p in parties:
+                pid = p["id"]
+                gov_flag = f"{var_prefix}_{pid}_is_governing"
+                rank_var = f"{var_prefix}_{pid}_faction_rank"
+                for suffix in ("icon", "label", "seat_number", "seat_unit", "support_label", "support_value"):
+                    tname = f"{prefix}_legend_{side}_slot_{slot}_{pid}_{suffix}_visible"
+                    lines += [
+                        f"\t\t\t{tname} = {{",
+                    ]
+                    if side == "gov":
+                        lines += [
+                            f"\t\t\t\thas_country_flag = {gov_flag}",
+                        ]
+                    else:
+                        lines += [
+                            "\t\t\t\tNOT = {",
+                            f"\t\t\t\t\thas_country_flag = {gov_flag}",
+                            "\t\t\t\t}",
+                        ]
+                    lines += [
+                        "\t\t\t\tcheck_variable = {",
+                        f"\t\t\t\t\tvar = {rank_var}",
+                        f"\t\t\t\t\tvalue = {slot}",
+                        "\t\t\t\t\tcompare = equals",
+                        "\t\t\t\t}",
+                        "\t\t\t}",
+                    ]
     return lines
 
 
-def generate_sg(total_seats, parties, tag):
+def generate_sg(total_seats, parties, tag, dynamic_seats=False):
     prefix = f"{tag}_parliament"
     var_prefix = f"{tag}_parliament"
     window_name = f"{prefix}_decisions_window"
@@ -429,29 +589,133 @@ def generate_sg(total_seats, parties, tag):
         "",
         f"\t\tdirty = {dirty_var}",
         "",
+    ]
+    if dynamic_seats:
+        lines += [
+            "\t\tdynamic_lists = {",
+            f"\t\t\t{prefix}_diagram = {{",
+            f"\t\t\t\tarray = {var_prefix}_seat_x",
+            "\t\t\t\tchange_scope = no",
+            f"\t\t\t\tentry_container = {prefix}_seat_entry",
+            "\t\t\t\tindex = seat_idx",
+            "\t\t\t}",
+            "\t\t}",
+            "",
+            "\t\tproperties = {",
+            f"\t\t\t{prefix}_seat_icon = {{",
+            f"\t\t\t\tx = {var_prefix}_seat_x^seat_idx",
+            f"\t\t\t\ty = {var_prefix}_seat_y^seat_idx",
+            f"\t\t\t\tframe = {var_prefix}_seat_frame^seat_idx",
+            "\t\t\t}",
+            "\t\t}",
+            "",
+        ]
+    lines += [
         "\t\ttriggers = {",
     ]
-    lines += _seat_trigger_lines(total_seats, parties, f"{prefix}_dseat", var_prefix)
-    lines += _gov_marker_trigger_lines(parties, prefix, var_prefix)
+    gov_count = sum(1 for p in parties if p.get("governing", False))
+    visible_slots = max(gov_count, len(parties) - gov_count)
+    lines += _legend_trigger_lines(parties, prefix, var_prefix, visible_slots)
     lines += ["\t\t}", "\t}", "}"]
     return "\n".join(lines) + "\n"
 
-# ─── TGA seat icons ───────────────────────────────────────────────────────────
+
+def generate_diagram_effects(positions, parties, width, seat_size, cx, tag):
+    half = seat_size // 2
+    prefix = f"{tag}_parliament"
+    positions, _cx = _center_positions(positions, width, half, cx)
+    party_ids = [p["id"] for p in parties]
+
+    lines = [
+        "# Generated by tools/parliament_diagram/generate_parliament.py",
+        f"{prefix}_init_diagram_arrays = {{",
+        f"\tclear_array = {prefix}_seat_x",
+        f"\tclear_array = {prefix}_seat_y",
+        f"\tclear_array = {prefix}_seat_frame",
+    ]
+    for x, y in positions:
+        lines += [
+            f"\tadd_to_array = {{ {prefix}_seat_x = {x - half} }}",
+            f"\tadd_to_array = {{ {prefix}_seat_y = {y - half} }}",
+        ]
+    lines += [
+        "}",
+        "",
+        f"{prefix}_refresh_diagram_frames = {{",
+        f"\tclear_array = {prefix}_seat_frame",
+    ]
+
+    for seat in range(1, len(positions) + 1):
+        first = True
+        for idx, pid in enumerate(party_ids):
+            max_var = f"{prefix}_{pid}_max"
+            frame = idx + 1
+            if idx == len(party_ids) - 1:
+                if first:
+                    lines += [f"\tadd_to_array = {{ {prefix}_seat_frame = {frame} }}"]
+                else:
+                    lines += [
+                        "\telse = {",
+                        f"\t\tadd_to_array = {{ {prefix}_seat_frame = {frame} }}",
+                        "\t}",
+                    ]
+                break
+
+            block_name = "if" if first else "else_if"
+            lines += [
+                f"\t{block_name} = {{",
+                "\t\tlimit = {",
+                "\t\t\tcheck_variable = {",
+                f"\t\t\t\tvar = {max_var}",
+                f"\t\t\t\tvalue = {seat}",
+                "\t\t\t\tcompare = greater_than_or_equals",
+                "\t\t\t}",
+                "\t\t}",
+                f"\t\tadd_to_array = {{ {prefix}_seat_frame = {frame} }}",
+                "\t}",
+            ]
+            first = False
+
+    lines += ["}"]
+    return "\n".join(lines) + "\n"
+
+# TGA seat icons
 
 def generate_seat_icons(parties, seat_size, out_dir, prefix):
     if not HAS_PIL:
         print("[WARN] Pillow not found. Skipping TGA generation. Install: pip install Pillow")
         return
     out_dir.mkdir(parents=True, exist_ok=True)
-    for p in parties:
+
+    resample = getattr(Image, "Resampling", Image).LANCZOS
+    overlay_dir = out_dir.parent
+    overlay_layers = []
+    for name in ("small_pol_piechart_overlay.dds", "small_pol_piechart_frame.dds"):
+        path = overlay_dir / name
+        if not path.exists():
+            print(f"  [WARN] {name} not found. Seat overlay skipped.")
+            continue
+        layer = Image.open(path).convert("RGBA")
+        layer = layer.resize((seat_size, seat_size), resample)
+        overlay_layers.append(layer)
+
+    strip = Image.new("RGBA", (seat_size * len(parties), seat_size), (0, 0, 0, 0))
+    for frame_idx, p in enumerate(parties):
         r, g, b = p["color"]
         img = Image.new("RGBA", (seat_size, seat_size), (0, 0, 0, 0))
         draw = ImageDraw.Draw(img)
         pad = 1
         draw.ellipse([pad, pad, seat_size - pad - 1, seat_size - pad - 1], fill=(r, g, b, 255))
+        for layer in overlay_layers:
+            img.alpha_composite(layer)
+        strip.paste(img, (frame_idx * seat_size, 0), img)
         path = out_dir / f"{prefix}_seat_{p['id']}.tga"
         img.save(str(path), format="TGA")
         print(f"  [tga]  {path.name}")
+
+    strip_path = out_dir / f"{prefix}_seat_strip.tga"
+    strip.save(str(strip_path), format="TGA")
+    print(f"  [tga]  {strip_path.name}")
 
     # Governing marker: gold star-like circle with white outline
     gm_size = 8
@@ -463,7 +727,7 @@ def generate_seat_icons(parties, seat_size, out_dir, prefix):
     img.save(str(path), format="TGA")
     print(f"  [tga]  {path.name}")
 
-# ─── Default config ───────────────────────────────────────────────────────────
+# Default config
 
 DEFAULT_CONFIG = {
     "tag": "GER",
@@ -491,6 +755,7 @@ DEFAULT_CONFIG = {
     "diagram": {
         "width": 700, "height": 250, "rows": 6,
         "cx": 170, "cy": 220, "r_inner": 75, "r_outer": 165, "seat_size": None,
+        "dynamic_seats": False,
         "seat_order": "angle", "radial_order": "inner_to_outer",
         "layout_engine": "parliamentarch",
         "filling_strategy": "default",
@@ -499,7 +764,7 @@ DEFAULT_CONFIG = {
     },
 }
 
-# ─── Main ─────────────────────────────────────────────────────────────────────
+# Main
 
 def main():
     script_dir = Path(__file__).parent
@@ -558,6 +823,7 @@ def main():
     gfx_path       = mod_root / "interface" / f"{prefix}.gfx"
     decisions_path = mod_root / "interface" / f"{prefix}_decisions.gui"
     sg_path        = mod_root / "common" / "scripted_guis" / f"{prefix}_sg.txt"
+    diagram_effects_path = mod_root / "common" / "scripted_effects" / f"{prefix}_diagram_effects.txt"
     icon_dir       = mod_root / "gfx" / "interface" / "parliament"
 
     gfx_path.write_text(generate_gfx(parties, tag), encoding="utf-8")
@@ -566,14 +832,24 @@ def main():
     decisions_path.write_text(
         generate_decisions_gui(
             positions, parties,
-            d["width"], d["height"], seat_size, d["cx"], d["cy"], tag
+            d["width"], d["height"], seat_size, d["cx"], d["cy"], tag,
+            d.get("dynamic_seats", False),
         ),
         encoding="utf-8",
     )
     print(f"  [gui]  {decisions_path.relative_to(mod_root)}")
 
-    sg_path.write_text(generate_sg(total, parties, tag), encoding="utf-8")
+    sg_path.write_text(generate_sg(total, parties, tag, d.get("dynamic_seats", False)), encoding="utf-8")
     print(f"  [sg]   {sg_path.relative_to(mod_root)}")
+
+    diagram_effects_path.write_text(
+        generate_diagram_effects(
+            positions, parties,
+            d["width"], seat_size, d["cx"], tag
+        ),
+        encoding="utf-8",
+    )
+    print(f"  [eff]  {diagram_effects_path.relative_to(mod_root)}")
 
     revert_countrypoliticsview(mod_root)
 
@@ -584,3 +860,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
