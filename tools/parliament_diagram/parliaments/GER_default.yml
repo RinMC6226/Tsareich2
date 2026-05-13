@@ -1,45 +1,45 @@
 tag: GER
-total_seats: 397
+total_seats: 482
 
 parties:
   - id: kpd
-    seats: 7
+    seats: 9
     governing: false
     color: [139, 0, 0]
   - id: uspd
-    seats: 21
+    seats: 25
     governing: false
     color: [170, 5, 3]
   - id: spd
-    seats: 88
+    seats: 108
     governing: false
     color: [225, 1, 19]
   - id: fvp
-    seats: 34
+    seats: 39
     governing: false
     color: [255, 216, 6]
   - id: zentrum
-    seats: 78
+    seats: 97
     governing: false
     color: [0, 77, 143]
   - id: nlp
-    seats: 50
+    seats: 59
     governing: true
     color: [151, 192, 42]
   - id: fkp
-    seats: 17
+    seats: 20
     governing: true
     color: [0, 192, 254]
   - id: dkp
-    seats: 52
+    seats: 60
     governing: true
     color: [8, 129, 228]
   - id: dvlp
-    seats: 13
+    seats: 18
     governing: false
     color: [0, 0, 0]
   - id: misc
-    seats: 37
+    seats: 47
     governing: false
     color: [150, 150, 150]
 

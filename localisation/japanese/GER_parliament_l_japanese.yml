@@ -3,7 +3,7 @@
  GER_parliament_desc: "ドイツ帝国議会は、1871年に成立したドイツ帝国の国民代表機関であり、連邦参議院とともに帝国の立法に関与している。議員は満25歳以上の男子臣民による普通・平等・直接・秘密選挙で選出され、1888年以降の任期は5年である。帝国議会は法律案の審議と国家予算の承認を通じて、連邦国家としてのドイツ帝国の法制度と財政運営を支える重要な機関となっている。"
 
  GER_PARLIAMENT_TITLE: "§Y帝国議会 議席配分§!"
- GER_PARL_TOTAL_SEATS: "定数: §Y397§!議席 / 過半数: §Y199§!議席 / 任期: §Y5§!年"
+ GER_PARL_TOTAL_SEATS: "定数: §Y482§!議席 / 過半数: §Y242§!議席 / 任期: §Y5§!年"
  GER_PARL_GOVERNMENT_TOTAL: "与党合計 [?GER_parliament_government_seats|0]議席"
  GER_PARL_OPPOSITION_TOTAL: "野党合計 [?GER_parliament_opposition_seats|0]議席"
  GER_PARL_GOVERNMENT_LABEL: "§G与党§!"
@@ -103,7 +103,9 @@
  GER_PARL_DETAIL_MISC:    "§Y諸派・地域政党§!\n議席数: [?GER_parliament_misc_seats|0]\n支持率: [?GER_parliament_misc_support_share|%1]"
 
  GER_parliament_election_mission: "次の帝国議会選挙"
- GER_parliament_election_mission_desc: "この期間が満了すると、現在の支持率に基づいて帝国議会の議席配分が再計算される。"
+ GER_parliament_election_mission_desc: "1936年9月13日に帝国議会選挙が実施される。以後、任期満了に従い5年ごとに選挙が実施される。"
+ GER_parliament_election_cycle_mission: "次の帝国議会選挙"
+ GER_parliament_election_cycle_mission_desc: "任期満了に従い、5年ごとに帝国議会選挙が実施される。"
  GER_parliament_election_timeout_tt: "現在の支持率に基づいて§Y帝国議会選挙§!を実施する"
  GER_parliament_show_lobbying: "ロビー活動を表示"
  GER_parliament_show_lobbying_desc: "ロビー活動ディシジョンを展開する。"

@@ -17,6 +17,7 @@ Usage:
 """
 
 import math
+import subprocess
 import sys
 from pathlib import Path
 
@@ -191,6 +192,16 @@ def generate_gfx(parties, tag):
         "\t\tnoOfFrames = 1",
         "\t}",
         "\tspriteType = {",
+        f'\t\tname = "GFX_{prefix}_diagram_backplate"',
+        f'\t\ttexturefile = "gfx/interface/parliament/{prefix}_diagram_backplate.tga"',
+        "\t\tnoOfFrames = 1",
+        "\t}",
+        "\tspriteType = {",
+        f'\t\tname = "GFX_{prefix}_legend_backplate"',
+        f'\t\ttexturefile = "gfx/interface/parliament/{prefix}_legend_backplate.tga"',
+        "\t\tnoOfFrames = 1",
+        "\t}",
+        "\tspriteType = {",
         f'\t\tname = "GFX_{prefix}_decision_picture"',
         '\t\ttexturefile = "gfx/interface/decisions/decision_reichstag.dds"',
         "\t\tnoOfFrames = 1",
@@ -217,6 +228,62 @@ def _center_positions(positions, width, half, cx):
     shift_x = round(width / 2 - (min_seat_x + max_seat_x) / 2)
     return [(x + shift_x, y) for x, y in positions], cx + shift_x
 
+
+def _decision_layout_metrics(positions, parties, width, height, seat_size, cx, cy):
+    half = seat_size // 2
+    positions, cx = _center_positions(positions, width, half, cx)
+
+    min_seat_x = min(x for x, y in positions) - half
+    max_seat_x = max(x for x, y in positions) + half
+    min_seat_y = min(y for x, y in positions) - half
+    max_seat_y = max(y for x, y in positions) + half
+
+    legend_y_start = max_seat_y + 38
+    row_gap = 16
+    header_h = 16
+    gov_count = sum(1 for p in parties if p.get("governing", False))
+    visible_slots = max(gov_count, len(parties) - gov_count)
+    outer_margin = 8
+    col_gap = 6
+    col_w = (width - outer_margin * 2 - col_gap) // 2
+    left_col_x = outer_margin
+    right_col_x = outer_margin + col_w + col_gap
+
+    legend_bg_pad = 8
+    legend_bg_x = 3
+    legend_bg_y = max(0, legend_y_start - legend_bg_pad)
+    legend_bg_w = max(1, width - legend_bg_x - 1)
+    legend_bg_h = max(1, height - legend_bg_y + 4)
+
+    diagram_bg_pad = 12
+    diagram_bg_x = max(4, min_seat_x - diagram_bg_pad)
+    diagram_bg_y = 13
+    diagram_bg_right = min(width - 4, max_seat_x + diagram_bg_pad)
+    diagram_bg_bottom = min(legend_bg_y - 2, max(max_seat_y + 38, cy + 34))
+
+    return {
+        "positions": positions,
+        "cx": cx,
+        "max_seat_y": max_seat_y,
+        "legend_y_start": legend_y_start,
+        "row_gap": row_gap,
+        "header_h": header_h,
+        "visible_slots": visible_slots,
+        "outer_margin": outer_margin,
+        "col_gap": col_gap,
+        "col_w": col_w,
+        "left_col_x": left_col_x,
+        "right_col_x": right_col_x,
+        "diagram_bg_x": diagram_bg_x,
+        "diagram_bg_y": diagram_bg_y,
+        "diagram_bg_w": max(1, diagram_bg_right - diagram_bg_x),
+        "diagram_bg_h": max(1, diagram_bg_bottom - diagram_bg_y),
+        "legend_bg_x": legend_bg_x,
+        "legend_bg_y": legend_bg_y,
+        "legend_bg_w": legend_bg_w,
+        "legend_bg_h": legend_bg_h,
+    }
+
 # GUI (decisions panel)
 
 def _party_for_static_seat(seat, parties):
@@ -233,25 +300,24 @@ def generate_decisions_gui(positions, parties, width, height, seat_size, cx, cy,
     prefix = f"{tag}_parliament"
     gfx_prefix = f"{tag}_parliament" if tag == "GER" else f"{tag}_parliament"
 
-    positions, cx = _center_positions(positions, width, half, cx)
-
-    max_seat_y = max(y for x, y in positions) + half
+    layout = _decision_layout_metrics(positions, parties, width, height, seat_size, cx, cy)
+    positions = layout["positions"]
+    cx = layout["cx"]
+    max_seat_y = layout["max_seat_y"]
     title_loc = f"{tag}_PARLIAMENT_TITLE"
     total_label_w = width - 20
 
     # Bottom two-column legend. Each visible row is selected by scripted_gui
     # triggers from the party's current faction rank, allowing dynamic sorting.
     # The extra gap acts as the visual line break below the total-seat label.
-    legend_y_start = max_seat_y + 38
-    row_gap = 16
-    header_h = 16
-    gov_count = sum(1 for p in parties if p.get("governing", False))
-    visible_slots = max(gov_count, len(parties) - gov_count)
-    outer_margin = 8
-    col_gap = 6
-    col_w = (width - outer_margin * 2 - col_gap) // 2
-    left_col_x = outer_margin
-    right_col_x = outer_margin + col_w + col_gap
+    legend_y_start = layout["legend_y_start"]
+    row_gap = layout["row_gap"]
+    header_h = layout["header_h"]
+    visible_slots = layout["visible_slots"]
+    col_gap = layout["col_gap"]
+    col_w = layout["col_w"]
+    left_col_x = layout["left_col_x"]
+    right_col_x = layout["right_col_x"]
     party_colour_size = 21
     icon_to_label = party_colour_size          # no gap: label flush with icon right edge
     # Keep seats and support in independent fixed columns so digit changes
@@ -275,6 +341,18 @@ def generate_decisions_gui(positions, parties, width, height, seat_size, cx, cy,
         f'\t\tname = "{prefix}_decisions_window"',
         f"\t\tsize = {{ width = {width} height = {height} }}",
         "\t\tclipping = no",
+        "",
+        "\t\ticonType = {",
+        f'\t\t\tname = "{prefix}_diagram_backplate"',
+        f'\t\t\tspriteType = "GFX_{gfx_prefix}_diagram_backplate"',
+        f"\t\t\tposition = {{ x = {layout['diagram_bg_x']} y = {layout['diagram_bg_y']} }}",
+        "\t\t}",
+        "",
+        "\t\ticonType = {",
+        f'\t\t\tname = "{prefix}_legend_backplate"',
+        f'\t\t\tspriteType = "GFX_{gfx_prefix}_legend_backplate"',
+        f"\t\t\tposition = {{ x = {layout['legend_bg_x']} y = {layout['legend_bg_y']} }}",
+        "\t\t}",
         "",
         "\t\tinstantTextboxType = {",
         f'\t\t\tname = "{prefix}_decisions_title"',
@@ -1120,31 +1198,99 @@ def generate_seat_icons(parties, seat_size, out_dir, prefix):
     img.save(str(path), format="TGA")
     print(f"  [tga]  {path.name}")
 
+
+def _draw_backplate(width, height):
+    img = Image.new("RGBA", (width, height), (0, 0, 0, 0))
+    draw = ImageDraw.Draw(img)
+
+    # A subdued HOI-like panel: opaque enough to read, but not so heavy that
+    # it competes with the colored seats.
+    draw.rectangle([0, 0, width - 1, height - 1], fill=(14, 17, 17, 238))
+    for y in range(1, max(1, height - 1)):
+        shade = 22 + int(13 * y / max(1, height - 1))
+        draw.line([(1, y), (width - 2, y)], fill=(shade, shade + 2, shade + 2, 222))
+
+    draw.rectangle([0, 0, width - 1, height - 1], outline=(62, 58, 45, 255))
+    draw.rectangle([1, 1, width - 2, height - 2], outline=(25, 25, 20, 255))
+    draw.rectangle([3, 3, width - 4, height - 4], outline=(82, 75, 54, 140))
+    draw.line([(5, 5), (width - 6, 5)], fill=(118, 105, 70, 70))
+    draw.line([(5, height - 6), (width - 6, height - 6)], fill=(0, 0, 0, 90))
+    return img
+
+
+def _apply_overlay_tool_to_backplate(path):
+    tool_path = Path(__file__).resolve().parent.parent / "apply_overlay_to_dds.py"
+    overlay_dir = tool_path.parent / "overlay_work"
+    overlay_path = overlay_dir / "overlay.png"
+    if not overlay_path.is_file():
+        overlay_path = overlay_dir / "overlay.jpg"
+    if not tool_path.is_file() or not overlay_path.is_file():
+        print(f"  [WARN] overlay tool or texture not found. Backplate overlay skipped for {path.name}.")
+        return
+
+    tmp_path = path.with_name(f"{path.stem}_overlay_tmp{path.suffix}")
+    command = [
+        sys.executable,
+        str(tool_path),
+        "--single-file",
+        str(path),
+        "--overlay",
+        str(overlay_path),
+        "--output-file",
+        str(tmp_path),
+    ]
+    completed = subprocess.run(command, capture_output=True, text=True)
+    if completed.returncode != 0:
+        message = (completed.stderr or completed.stdout or "").strip()
+        print(f"  [WARN] backplate overlay failed for {path.name}: {message}")
+        if tmp_path.exists():
+            tmp_path.unlink()
+        return
+    tmp_path.replace(path)
+    print(f"  [overlay] {path.name} <- {overlay_path.name}")
+
+
+def generate_backplate_icons(positions, parties, width, height, seat_size, cx, cy, out_dir, prefix):
+    if not HAS_PIL:
+        print("[WARN] Pillow not found. Skipping backplate TGA generation.")
+        return
+    out_dir.mkdir(parents=True, exist_ok=True)
+
+    layout = _decision_layout_metrics(positions, parties, width, height, seat_size, cx, cy)
+    for suffix in ("diagram", "legend"):
+        w = layout[f"{suffix}_bg_w"]
+        h = layout[f"{suffix}_bg_h"]
+        img = _draw_backplate(w, h)
+        path = out_dir / f"{prefix}_{suffix}_backplate.tga"
+        img.save(str(path), format="TGA")
+        _apply_overlay_tool_to_backplate(path)
+        print(f"  [tga]  {path.name}")
+
 # Default config
 
 DEFAULT_CONFIG = {
     "tag": "GER",
-    "total_seats": 397,
+    "total_seats": 482,
     "parties": [
-        {"id": "kpd",     "seats":  7, "governing": False,
+        {"id": "kpd",     "seats":  9, "governing": False,
          "color": [139,   0,   0]},
-        {"id": "spd",     "seats": 88, "governing": False,
+        {"id": "spd",     "seats": 108, "governing": False,
          "color": [225,   1,  19]},
-        {"id": "uspd",    "seats": 21, "governing": False,
+        {"id": "uspd",    "seats": 25, "governing": False,
          "color": [216,   8,   4]},
-        {"id": "fvp",     "seats": 34, "governing": False,
+        {"id": "fvp",     "seats": 39, "governing": False,
          "color": [255, 216,   6]},
-        {"id": "zentrum", "seats": 78, "governing": False,
+        {"id": "zentrum", "seats": 97, "governing": False,
          "color": [  0,  77, 143]},
-        {"id": "nlp",     "seats": 50, "governing": True,
+        {"id": "nlp",     "seats": 59, "governing": True,
          "color": [151, 192,  42]},
-        {"id": "fkp",     "seats": 17, "governing": True,
+        {"id": "fkp",     "seats": 20, "governing": True,
          "color": [  0, 192, 254]},
-        {"id": "dkp",     "seats": 52, "governing": True,
+        {"id": "dkp",     "seats": 60, "governing": True,
          "color": [  8, 129, 228]},
-        {"id": "dvlp",    "seats": 13, "governing": False,
+        {"id": "dvlp",    "seats": 18, "governing": False,
          "color": [  0,   0,   0]},
-        {"id": "misc",    "seats": 37, "governing": False,
+        {"id": "misc",    "seats": 47, "governing": False,
          "color": [150, 150, 150]},
     ],
     "diagram": {
@@ -1255,6 +1401,7 @@ def main():
 
     revert_countrypoliticsview(mod_root)
 
+    generate_backplate_icons(positions, parties, d["width"], d["height"], seat_size, d["cx"], d["cy"], icon_dir, prefix)
     generate_seat_icons(parties, seat_size, icon_dir, prefix)
     generate_party_colour_icons(parties, icon_dir, prefix)
 

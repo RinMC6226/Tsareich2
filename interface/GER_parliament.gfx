@@ -110,6 +110,16 @@ spriteTypes = {
 		noOfFrames = 1
 	}
 	spriteType = {
+		name = "GFX_GER_parliament_diagram_backplate"
+		texturefile = "gfx/interface/parliament/GER_parliament_diagram_backplate.tga"
+		noOfFrames = 1
+	}
+	spriteType = {
+		name = "GFX_GER_parliament_legend_backplate"
+		texturefile = "gfx/interface/parliament/GER_parliament_legend_backplate.tga"
+		noOfFrames = 1
+	}
+	spriteType = {
 		name = "GFX_GER_parliament_decision_picture"
 		texturefile = "gfx/interface/decisions/decision_reichstag.dds"
 		noOfFrames = 1

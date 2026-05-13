@@ -9,7 +9,7 @@ GER_parliament = {
 		is_good = yes
 		fire_only_once = yes
 		selectable_mission = no
-		days_mission_timeout = 180
+		days_mission_timeout = 256
 		complete_effect = {
 		}
 		timeout_effect = {
@@ -24,7 +24,37 @@ GER_parliament = {
 			}
 			GER_parliament_hold_election = yes
 			hidden_effect = {
-				activate_mission = GER_parliament_election_mission
+				activate_mission = GER_parliament_election_cycle_mission
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+
+	GER_parliament_election_cycle_mission = {
+		priority = 1000
+		allowed = { always = no }
+		icon = generic_political_actions
+		visible = { }
+		available = { hidden_trigger = { always = no } }
+		is_good = yes
+		fire_only_once = yes
+		selectable_mission = no
+		days_mission_timeout = 1826
+		complete_effect = {
+		}
+		timeout_effect = {
+			custom_effect_tooltip = GER_parliament_election_timeout_tt
+			hidden_effect = {
+				if = {
+					limit = {
+						NOT = { has_country_flag = GER_parliament_initialized }
+					}
+					GER_parliament_initialize = yes
+				}
+			}
+			GER_parliament_hold_election = yes
+			hidden_effect = {
+				activate_mission = GER_parliament_election_cycle_mission
 			}
 		}
 		ai_will_do = { factor = 0 }

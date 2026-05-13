@@ -255,18 +255,18 @@ recruit_character = GER_wilhelm_ii_far_right
 
 set_politics = {
 	ruling_party = right
-	last_election = "1933.3.5"
-	election_frequency = 48
-	elections_allowed = no
+	last_election = "1931.9.13"
+	election_frequency = 60
+	elections_allowed = yes
 }
 set_popularities = {
-	far_left = 4
-	left = 11
-	center_left = 21
-	center = 14
-	center_right = 16
-	right = 29
-	far_right = 5
+	far_left = 2
+	left = 6
+	center_left = 25
+	center = 9
+	center_right = 22
+	right = 32
+	far_right = 4
 }
 
 create_faction_from_template = faction_template_imperial_alliance
