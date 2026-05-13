@@ -19,7 +19,7 @@ guiTypes = {
 		instantTextboxType = {
 			name = "GER_parliament_total_seats_label"
 			position = { x = 150 y = 225 }
-			font = "hoi_14b"
+			font = "hoi_16mbs"
 			text = "GER_PARL_TOTAL_SEATS"
 			maxWidth = 50
 			maxHeight = 14
@@ -29,7 +29,7 @@ guiTypes = {
 		instantTextboxType = {
 			name = "GER_parliament_government_total"
 			position = { x = 358 y = 24 }
-			font = "hoi_14b"
+			font = "hoi_16mbs"
 			text = "GER_PARL_GOVERNMENT_TOTAL"
 			format = left
 			maxWidth = 340
@@ -40,7 +40,7 @@ guiTypes = {
 		instantTextboxType = {
 			name = "GER_parliament_opposition_total"
 			position = { x = 358 y = 42 }
-			font = "hoi_14b"
+			font = "hoi_16mbs"
 			text = "GER_PARL_OPPOSITION_TOTAL"
 			format = left
 			maxWidth = 340
@@ -17922,7 +17922,7 @@ guiTypes = {
 		instantTextboxType = {
 			name = "GER_parliament_legend_kpd_label"
 			position = { x = 371 y = 65 }
-			font = "hoi_14b"
+			font = "hoi_16mbs"
 			text = "GER_PARL_NAME_KPD"
 			format = left
 			maxWidth = 169
@@ -17952,7 +17952,7 @@ guiTypes = {
 		instantTextboxType = {
 			name = "GER_parliament_legend_sapd_label"
 			position = { x = 371 y = 83 }
-			font = "hoi_14b"
+			font = "hoi_16mbs"
 			text = "GER_PARL_NAME_SAPD"
 			format = left
 			maxWidth = 169
@@ -17982,7 +17982,7 @@ guiTypes = {
 		instantTextboxType = {
 			name = "GER_parliament_legend_spd_label"
 			position = { x = 371 y = 101 }
-			font = "hoi_14b"
+			font = "hoi_16mbs"
 			text = "GER_PARL_NAME_SPD"
 			format = left
 			maxWidth = 169
@@ -18012,7 +18012,7 @@ guiTypes = {
 		instantTextboxType = {
 			name = "GER_parliament_legend_fvp_label"
 			position = { x = 371 y = 119 }
-			font = "hoi_14b"
+			font = "hoi_16mbs"
 			text = "GER_PARL_NAME_FVP"
 			format = left
 			maxWidth = 169
@@ -18042,7 +18042,7 @@ guiTypes = {
 		instantTextboxType = {
 			name = "GER_parliament_legend_zentrum_label"
 			position = { x = 371 y = 137 }
-			font = "hoi_14b"
+			font = "hoi_16mbs"
 			text = "GER_PARL_NAME_ZENTRUM"
 			format = left
 			maxWidth = 169
@@ -18072,7 +18072,7 @@ guiTypes = {
 		instantTextboxType = {
 			name = "GER_parliament_legend_dkp_label"
 			position = { x = 371 y = 155 }
-			font = "hoi_14b"
+			font = "hoi_16mbs"
 			text = "GER_PARL_NAME_DKP"
 			format = left
 			maxWidth = 169
@@ -18102,7 +18102,7 @@ guiTypes = {
 		instantTextboxType = {
 			name = "GER_parliament_legend_drp_label"
 			position = { x = 371 y = 173 }
-			font = "hoi_14b"
+			font = "hoi_16mbs"
 			text = "GER_PARL_NAME_DRP"
 			format = left
 			maxWidth = 169
@@ -18132,7 +18132,7 @@ guiTypes = {
 		instantTextboxType = {
 			name = "GER_parliament_legend_fkp_label"
 			position = { x = 371 y = 191 }
-			font = "hoi_14b"
+			font = "hoi_16mbs"
 			text = "GER_PARL_NAME_FKP"
 			format = left
 			maxWidth = 169
@@ -18162,7 +18162,7 @@ guiTypes = {
 		instantTextboxType = {
 			name = "GER_parliament_legend_dnvp_label"
 			position = { x = 371 y = 209 }
-			font = "hoi_14b"
+			font = "hoi_16mbs"
 			text = "GER_PARL_NAME_DNVP"
 			format = left
 			maxWidth = 169
