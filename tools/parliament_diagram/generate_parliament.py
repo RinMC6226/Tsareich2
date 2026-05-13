@@ -175,10 +175,24 @@ def generate_gfx(parties, tag):
             "\t\tnoOfFrames = 1",
             "\t}",
         ]
+    for p in parties:
+        pid = p["id"]
+        lines += [
+            "\tspriteType = {",
+            f'\t\tname = "GFX_{prefix}_party_colour_{pid}"',
+            f'\t\ttexturefile = "gfx/interface/parliament/{prefix}_party_colour_{pid}.tga"',
+            "\t\tnoOfFrames = 1",
+            "\t}",
+        ]
     lines += [
         "\tspriteType = {",
         f'\t\tname = "GFX_{prefix}_gov_marker"',
         f'\t\ttexturefile = "gfx/interface/parliament/{prefix}_gov_marker.tga"',
+        "\t\tnoOfFrames = 1",
+        "\t}",
+        "\tspriteType = {",
+        f'\t\tname = "GFX_{prefix}_decision_picture"',
+        '\t\ttexturefile = "gfx/interface/decisions/decision_reichstag.dds"',
         "\t\tnoOfFrames = 1",
         "\t}",
     ]
@@ -223,7 +237,7 @@ def generate_decisions_gui(positions, parties, width, height, seat_size, cx, cy,
 
     max_seat_y = max(y for x, y in positions) + half
     title_loc = f"{tag}_PARLIAMENT_TITLE"
-    total_label_w = 80
+    total_label_w = width - 20
 
     # Bottom two-column legend. Each visible row is selected by scripted_gui
     # triggers from the party's current faction rank, allowing dynamic sorting.
@@ -238,21 +252,21 @@ def generate_decisions_gui(positions, parties, width, height, seat_size, cx, cy,
     col_w = (width - outer_margin * 2 - col_gap) // 2
     left_col_x = outer_margin
     right_col_x = outer_margin + col_w + col_gap
-    icon_size = seat_size
-    icon_to_label = icon_size + 5
+    party_colour_size = 21
+    icon_to_label = party_colour_size          # no gap: label flush with icon right edge
     # Keep seats and support in independent fixed columns so digit changes
     # never shift either field. Party names take the remaining space.
     seat_number_w = 28
     seat_unit_w = 24
-    support_label_w = 46
+    support_label_w = 40
     support_value_w = 56
-    support_label_value_overlap = 18
+    support_label_value_overlap = 16
     stat_gap = 2
     support_value_offset = col_w - support_value_w
     support_label_offset = support_value_offset - support_label_w + support_label_value_overlap
     seat_number_offset = support_label_offset - seat_number_w - seat_unit_w - stat_gap
     seat_unit_offset = seat_number_offset + seat_number_w
-    label_w = max(40, seat_number_offset - icon_to_label - stat_gap)
+    label_w = max(40, seat_number_offset - icon_to_label - stat_gap + 8)
     header_w = col_w
 
     lines = [
@@ -264,7 +278,7 @@ def generate_decisions_gui(positions, parties, width, height, seat_size, cx, cy,
         "",
         "\t\tinstantTextboxType = {",
         f'\t\t\tname = "{prefix}_decisions_title"',
-        "\t\t\tposition = { x = 10 y = 4 }",
+        "\t\t\tposition = { x = 10 y = 20 }",
         '\t\t\tfont = "hoi_16mbs"',
         f'\t\t\ttext = "{title_loc}"',
         "\t\t\tformat = center",
@@ -311,11 +325,11 @@ def generate_decisions_gui(positions, parties, width, height, seat_size, cx, cy,
         lines += [
             "\t\tinstantTextboxType = {",
             f'\t\t\tname = "{prefix}_legend_{side}_header_label"',
-            f"\t\t\tposition = {{ x = {col_x} y = {legend_y_start} }}",
+            f"\t\t\tposition = {{ x = {col_x + icon_to_label} y = {legend_y_start} }}",
             '\t\t\tfont = "hoi_16mbs"',
             f'\t\t\ttext = "{label_key}"',
             "\t\t\tformat = left",
-            f"\t\t\tmaxWidth = {seat_number_offset - stat_gap}",
+            f"\t\t\tmaxWidth = {label_w}",
             f"\t\t\tmaxHeight = {header_h}",
             "\t\t\tfixedsize = yes",
             f'\t\t\tpdx_tooltip = "{tooltip_key}"',
@@ -382,11 +396,12 @@ def generate_decisions_gui(positions, parties, width, height, seat_size, cx, cy,
                 support_value_loc_key = f"{tag}_PARL_SUPPORT_VALUE_{pid.upper()}"
                 tooltip_key = f"{tag}_PARL_DETAIL_{pid.upper()}"
 
+                icon_y = ly - (party_colour_size - row_gap) // 2
                 lines += [
                     "\t\ticonType = {",
                     f'\t\t\tname = "{prefix}_legend_{side}_slot_{slot}_{pid}_icon"',
-                    f'\t\t\tspriteType = "GFX_{gfx_prefix}_seat_{pid}"',
-                    f"\t\t\tposition = {{ x = {col_x} y = {ly} }}",
+                    f'\t\t\tspriteType = "GFX_{gfx_prefix}_party_colour_{pid}"',
+                    f"\t\t\tposition = {{ x = {col_x} y = {icon_y} }}",
                     f'\t\t\tpdx_tooltip = "{tooltip_key}"',
                     "\t\t}",
                     "\t\tinstantTextboxType = {",
@@ -446,7 +461,7 @@ def generate_decisions_gui(positions, parties, width, height, seat_size, cx, cy,
                     "\t\t}",
                 ]
 
-    lines += [
+    seat_entry_lines = [
         "\t}",
         "",
         "\tcontainerWindowType = {",
@@ -457,10 +472,366 @@ def generate_decisions_gui(positions, parties, width, height, seat_size, cx, cy,
         f'\t\t\tname = "{prefix}_seat_icon"',
         f'\t\t\tquadTextureSprite = "GFX_{gfx_prefix}_seat"',
         "\t\t}",
+    ]
+    for p in parties:
+        pid = p["id"]
+        tooltip_key = f"{tag}_PARL_DETAIL_{pid.upper()}"
+        seat_entry_lines += [
+            "\t\ticonType = {",
+            f'\t\t\tname = "{prefix}_seat_tooltip_{pid}"',
+            f'\t\t\tspriteType = "GFX_{gfx_prefix}_seat_{pid}"',
+            f'\t\t\tpdx_tooltip = "{tooltip_key}"',
+            "\t\t}",
+        ]
+    seat_entry_lines += ["\t}", "}"]
+    lines += seat_entry_lines
+    return "\n".join(lines) + "\n"
+
+def generate_party_colour_icons(parties, out_dir, prefix):
+    if not HAS_PIL:
+        print("[WARN] Pillow not found. Skipping party colour TGA generation.")
+        return
+    out_dir.mkdir(parents=True, exist_ok=True)
+
+    mod_root = out_dir.parents[2]
+    bg_path   = mod_root / "gfx" / "interface" / "pol_party_colour_bg.dds"
+    fill_path = mod_root / "gfx" / "interface" / "pol_party_colour.dds"
+    if not bg_path.exists() or not fill_path.exists():
+        print(f"  [WARN] pol_party_colour(_bg).dds not found in {bg_path.parent}. Skipping.")
+        return
+
+    bg_src   = Image.open(bg_path).convert("RGBA")
+    fill_src = Image.open(fill_path).convert("RGBA")
+    bg_w, bg_h = bg_src.size
+    fill_w, fill_h = fill_src.size
+    offset_x = (bg_w - fill_w) // 2
+    offset_y = (bg_h - fill_h) // 2
+
+    for p in parties:
+        r, g, b = p["color"]
+        fr, fg, fb, fa = fill_src.split()
+        tinted = Image.merge("RGBA", [
+            fr.point(lambda x: x * r // 255),
+            fg.point(lambda x: x * g // 255),
+            fb.point(lambda x: x * b // 255),
+            fa,
+        ])
+        img = bg_src.copy()
+        img.alpha_composite(tinted, dest=(offset_x, offset_y))
+        path = out_dir / f"{prefix}_party_colour_{p['id']}.tga"
+        img.save(str(path), format="TGA")
+        print(f"  [tga]  {path.name}")
+
+
+def generate_parliament_effects(parties, tag, total_seats):
+    prefix = f"{tag}_parliament"
+    pids = [p["id"] for p in parties]
+    remainder_pid = pids[-1]
+    non_remainder_pids = pids[:-1]
+    governing_pids = [p["id"] for p in parties if p.get("governing")]
+    total_bps = 1000
+
+    support_bps = {}
+    running = 0
+    for p in parties[:-1]:
+        bps = round(p["seats"] * total_bps / total_seats)
+        support_bps[p["id"]] = bps
+        running += bps
+    support_bps[remainder_pid] = total_bps - running
+
+    gov_seats = sum(p["seats"] for p in parties if p.get("governing"))
+    opp_seats = total_seats - gov_seats
+
+    L = []
+
+    # initialize
+    L += [
+        "# ── 議会システム初期化 ──────────────────────────────────────────────────────────",
+        f"{prefix}_initialize = {{",
+        f"\tset_variable = {{ {prefix}_total_seats = {total_seats} }}",
+        "",
+        "\t# 初期議席配分",
+    ]
+    for p in parties:
+        L.append(f"\tset_variable = {{ {prefix}_{p['id']}_seats = {p['seats']} }}")
+    L += [
+        "",
+        "\t# 与党連立",
+        f"\tset_variable = {{ {prefix}_government_seats = {gov_seats} }}",
+        f"\tset_variable = {{ {prefix}_opposition_seats = {opp_seats} }}",
+        "",
+        f"\t# 支持率 (合計 {total_bps} support points = 100.0%)",
+    ]
+    for pid in pids:
+        L.append(f"\tset_variable = {{ {prefix}_{pid}_support_bps = {support_bps[pid]} }}")
+    L += ["", "\t# 与党フラグ"]
+    for pid in governing_pids:
+        L.append(f"\tset_country_flag = {prefix}_{pid}_is_governing")
+    L += [
+        "",
+        f"\tset_variable = {{ {prefix}_dirty = 0 }}",
+        f"\tset_country_flag = {prefix}_initialized",
+        "",
+        f"\t{prefix}_init_diagram_arrays = yes",
+        f"\t{prefix}_refresh_display = yes",
+        f"\t{prefix}_refresh_thresholds = yes",
+        "}",
+        "",
+    ]
+
+    # refresh_display
+    L += [
+        "# ── GUI 更新用しきい値を再計算 ────────────────────────────────────────────────",
+        f"{prefix}_refresh_display = {{",
+    ]
+    for pid in pids:
+        L += [
+            f"\tset_temp_variable = {{ ger_par_tmp = {prefix}_{pid}_support_bps }}",
+            f"\tdivide_temp_variable = {{ ger_par_tmp = {total_bps} }}",
+            f"\tset_variable = {{ {prefix}_{pid}_support_share = ger_par_tmp }}",
+            "",
+        ]
+    L += ["}", ""]
+
+    # refresh_thresholds
+    L += [
+        f"{prefix}_refresh_thresholds = {{",
+        f"\t{prefix}_normalize_support = yes",
+        f"\t{prefix}_normalize_seats = yes",
+        f"\t{prefix}_recalc_government_seats = yes",
+        f"\t{prefix}_refresh_display = yes",
+        f"\t{prefix}_refresh_legend_order = yes",
+        f"\tset_variable = {{ {prefix}_{pids[0]}_max = {prefix}_{pids[0]}_seats }}",
+    ]
+    for i in range(1, len(pids)):
+        prev, cur = pids[i - 1], pids[i]
+        L += [
+            f"\tset_variable    = {{ {prefix}_{cur}_max = {prefix}_{prev}_max }}",
+            f"\tadd_to_variable = {{ {prefix}_{cur}_max = {prefix}_{cur}_seats }}",
+        ]
+    L += [
+        "",
+        f"\t{prefix}_refresh_diagram_frames = yes",
+        f"\tadd_to_variable = {{ {prefix}_dirty = 1 }}",
+        "}",
+        "",
+    ]
+
+    # refresh_legend_order (stable sort: within same faction, rank = 1 + #parties beating this one)
+    L += [
+        "# ── 与党議席を再計算 ─────────────────────────────────────────────────────────",
+        "# Refresh dynamic party order for the bottom legend.",
+        f"{prefix}_refresh_legend_order = {{",
+    ]
+    for i, pid in enumerate(pids):
+        L.append(f"\tset_variable = {{ {prefix}_{pid}_faction_rank = 1 }}")
+        for j, qid in enumerate(pids):
+            if i == j:
+                continue
+            # j < i (earlier in list): check both greater_than and equals (tie goes to earlier party)
+            # j > i (later in list): check only greater_than
+            compares = ["greater_than"] + (["equals"] if j < i else [])
+            for cmp in compares:
+                L += [
+                    "\tif = {",
+                    "\t\tlimit = {",
+                    f"\t\t\thas_country_flag = {prefix}_{pid}_is_governing",
+                    f"\t\t\thas_country_flag = {prefix}_{qid}_is_governing",
+                    "\t\t\tcheck_variable = {",
+                    f"\t\t\t\tvar = {prefix}_{qid}_seats",
+                    f"\t\t\t\tvalue = {prefix}_{pid}_seats",
+                    f"\t\t\t\tcompare = {cmp}",
+                    "\t\t\t}",
+                    "\t\t}",
+                    f"\t\tadd_to_variable = {{ {prefix}_{pid}_faction_rank = 1 }}",
+                    "\t}",
+                    "\tif = {",
+                    "\t\tlimit = {",
+                    "\t\t\tNOT = {",
+                    f"\t\t\t\thas_country_flag = {prefix}_{pid}_is_governing",
+                    "\t\t\t}",
+                    "\t\t\tNOT = {",
+                    f"\t\t\t\thas_country_flag = {prefix}_{qid}_is_governing",
+                    "\t\t\t}",
+                    "\t\t\tcheck_variable = {",
+                    f"\t\t\t\tvar = {prefix}_{qid}_seats",
+                    f"\t\t\t\tvalue = {prefix}_{pid}_seats",
+                    f"\t\t\t\tcompare = {cmp}",
+                    "\t\t\t}",
+                    "\t\t}",
+                    f"\t\tadd_to_variable = {{ {prefix}_{pid}_faction_rank = 1 }}",
+                    "\t}",
+                ]
+    L += ["}", ""]
+
+    # recalc_government_seats
+    L += [
+        "# ── 与党議席を再計算 ─────────────────────────────────────────────────────────",
+        f"{prefix}_recalc_government_seats = {{",
+        f"\tset_variable = {{ {prefix}_government_seats = 0 }}",
+        f"\tset_variable = {{ {prefix}_opposition_seats = 0 }}",
+        f"\tset_variable = {{ {prefix}_government_support_bps = 0 }}",
+        f"\tset_variable = {{ {prefix}_opposition_support_bps = 0 }}",
+    ]
+    for pid in pids:
+        L += [
+            "\tif = {",
+            f"\t\tlimit = {{ has_country_flag = {prefix}_{pid}_is_governing }}",
+            f"\t\tadd_to_variable = {{ {prefix}_government_seats = {prefix}_{pid}_seats }}",
+            f"\t\tadd_to_variable = {{ {prefix}_government_support_bps = {prefix}_{pid}_support_bps }}",
+            "\t}",
+            "\tif = {",
+            "\t\tlimit = {",
+            "\t\t\tNOT = {",
+            f"\t\t\t\thas_country_flag = {prefix}_{pid}_is_governing",
+            "\t\t\t}",
+            "\t\t}",
+            f"\t\tadd_to_variable = {{ {prefix}_opposition_seats = {prefix}_{pid}_seats }}",
+            f"\t\tadd_to_variable = {{ {prefix}_opposition_support_bps = {prefix}_{pid}_support_bps }}",
+            "\t}",
+        ]
+    L += [
+        f"\tset_temp_variable = {{ ger_par_tmp = {prefix}_government_support_bps }}",
+        f"\tdivide_temp_variable = {{ ger_par_tmp = {total_bps} }}",
+        f"\tset_variable = {{ {prefix}_government_support_share = ger_par_tmp }}",
+        f"\tset_temp_variable = {{ ger_par_tmp = {prefix}_opposition_support_bps }}",
+        f"\tdivide_temp_variable = {{ ger_par_tmp = {total_bps} }}",
+        f"\tset_variable = {{ {prefix}_opposition_support_share = ger_par_tmp }}",
+        "}",
+        "",
+    ]
+
+    # normalize_support
+    L += [
+        "# ── 支持率の下限クランプ ─────────────────────────────────────────────────────",
+        f"{prefix}_normalize_support = {{",
+    ]
+    for pid in pids:
+        L += [
+            "\tif = {",
+            f"\t\tlimit = {{ check_variable = {{ {prefix}_{pid}_support_bps < 0 }} }}",
+            f"\t\tset_variable = {{ {prefix}_{pid}_support_bps = 0 }}",
+            "\t}",
+        ]
+    L += [
+        "",
+        f"\tset_variable = {{ {prefix}_support_total_bps = 0 }}",
+    ]
+    for pid in pids:
+        L.append(f"\tadd_to_variable = {{ {prefix}_support_total_bps = {prefix}_{pid}_support_bps }}")
+    L += [
+        "",
+        "\tif = {",
+        "\t\tlimit = {",
+        f"\t\t\tNOT = {{ check_variable = {{ {prefix}_support_total_bps > 0 }} }}",
+        "\t\t}",
+    ]
+    for pid in pids:
+        L.append(f"\t\tset_variable = {{ {prefix}_{pid}_support_bps = {support_bps[pid]} }}")
+    L += [
+        f"\t\tset_variable = {{ {prefix}_support_total_bps = {total_bps} }}",
         "\t}",
+        "",
+    ]
+    for pid in non_remainder_pids:
+        L += [
+            f"\tset_temp_variable = {{ ger_par_tmp = {prefix}_{pid}_support_bps }}",
+            f"\tmultiply_temp_variable = {{ ger_par_tmp = {total_bps} }}",
+            f"\tdivide_temp_variable = {{ ger_par_tmp = {prefix}_support_total_bps }}",
+            f"\tset_variable = {{ {prefix}_{pid}_support_bps = ger_par_tmp }}",
+        ]
+    L.append("")
+    for pid in non_remainder_pids:
+        L.append(f"\tround_variable = {prefix}_{pid}_support_bps")
+    L += [
+        "",
+        f"\tset_variable = {{ {prefix}_{remainder_pid}_support_bps = {total_bps} }}",
+    ]
+    for pid in non_remainder_pids:
+        L += [
+            f"\tset_temp_variable = {{ ger_par_tmp = {prefix}_{pid}_support_bps }}",
+            f"\tmultiply_temp_variable = {{ ger_par_tmp = -1 }}",
+            f"\tadd_to_variable = {{ {prefix}_{remainder_pid}_support_bps = ger_par_tmp }}",
+        ]
+    L += ["}", ""]
+
+    # normalize_seats
+    L.append(f"{prefix}_normalize_seats = {{")
+    for pid in pids:
+        L.append(f"\tif = {{ limit = {{ check_variable = {{ {prefix}_{pid}_seats < 0 }} }} set_variable = {{ {prefix}_{pid}_seats = 0 }} }}")
+    L += [
+        "",
+        f"\tset_variable = {{ {prefix}_seat_total_current = 0 }}",
+    ]
+    for pid in pids:
+        L.append(f"\tadd_to_variable = {{ {prefix}_seat_total_current = {prefix}_{pid}_seats }}")
+    L += [
+        "",
+        "\tif = {",
+        "\t\tlimit = {",
+        f"\t\t\tNOT = {{ check_variable = {{ {prefix}_seat_total_current > 0 }} }}",
+        "\t\t}",
+    ]
+    for p in parties:
+        L.append(f"\t\tset_variable = {{ {prefix}_{p['id']}_seats = {p['seats']} }}")
+    L += [
+        f"\t\tset_variable = {{ {prefix}_seat_total_current = {total_seats} }}",
+        "\t}",
+        "",
+        "\tif = {",
+        "\t\tlimit = {",
+        "\t\t\tNOT = {",
+        "\t\t\t\tcheck_variable = {",
+        f"\t\t\t\t\tvar = {prefix}_seat_total_current",
+        f"\t\t\t\t\tvalue = {total_seats}",
+        "\t\t\t\t\tcompare = equals",
+        "\t\t\t\t}",
+        "\t\t\t}",
+        "\t\t}",
+    ]
+    for pid in non_remainder_pids:
+        L += [
+            f"\t\tset_temp_variable = {{ ger_par_tmp = {prefix}_{pid}_seats }}",
+            f"\t\tmultiply_temp_variable = {{ ger_par_tmp = {total_seats} }}",
+            f"\t\tdivide_temp_variable = {{ ger_par_tmp = {prefix}_seat_total_current }}",
+            f"\t\tset_variable = {{ {prefix}_{pid}_seats = ger_par_tmp }}",
+        ]
+    L.append("\t}")
+    for pid in non_remainder_pids:
+        L.append(f"\tround_variable = {prefix}_{pid}_seats")
+    L.append(f"\tset_variable = {{ {prefix}_{remainder_pid}_seats = {total_seats} }}")
+    for pid in non_remainder_pids:
+        L += [
+            f"\tset_temp_variable = {{ ger_par_tmp = {prefix}_{pid}_seats }}",
+            f"\tmultiply_temp_variable = {{ ger_par_tmp = -1 }}",
+            f"\tadd_to_variable = {{ {prefix}_{remainder_pid}_seats = ger_par_tmp }}",
+        ]
+    L += ["}", ""]
+
+    # hold_election
+    L += [
+        "# ── 選挙処理: 支持率 → 議席数に変換 ─────────────────────────────────────────",
+        f"# 計算式: seats = floor(support_bps * {total_seats} / {total_bps})",
+        f"{prefix}_hold_election = {{",
+        f"\t{prefix}_normalize_support = yes",
+        "",
+    ]
+    for pid in pids:
+        L += [
+            f"\tset_temp_variable = {{ ger_par_tmp = {prefix}_{pid}_support_bps }}",
+            f"\tdivide_temp_variable = {{ ger_par_tmp = {total_bps} }}",
+            f"\tmultiply_temp_variable = {{ ger_par_tmp = {total_seats} }}",
+            f"\tset_variable = {{ {prefix}_{pid}_seats = ger_par_tmp }}",
+        ]
+    L += [
+        "",
+        f"\t{prefix}_recalc_government_seats = yes",
+        f"\t{prefix}_refresh_thresholds = yes",
         "}",
     ]
-    return "\n".join(lines) + "\n"
+
+    return "\n".join(L) + "\n"
+
 
 def revert_countrypoliticsview(mod_root):
     """Remove clipping=no added by older generator versions."""
@@ -607,6 +978,16 @@ def generate_sg(total_seats, parties, tag, dynamic_seats=False):
             f"\t\t\t\ty = {var_prefix}_seat_y^seat_idx",
             f"\t\t\t\tframe = {var_prefix}_seat_frame^seat_idx",
             "\t\t\t}",
+        ]
+        for p in parties:
+            pid = p["id"]
+            lines += [
+                f"\t\t\t{prefix}_seat_tooltip_{pid} = {{",
+                f"\t\t\t\tx = {var_prefix}_seat_x^seat_idx",
+                f"\t\t\t\ty = {var_prefix}_seat_y^seat_idx",
+                "\t\t\t}",
+            ]
+        lines += [
             "\t\t}",
             "",
         ]
@@ -616,6 +997,18 @@ def generate_sg(total_seats, parties, tag, dynamic_seats=False):
     gov_count = sum(1 for p in parties if p.get("governing", False))
     visible_slots = max(gov_count, len(parties) - gov_count)
     lines += _legend_trigger_lines(parties, prefix, var_prefix, visible_slots)
+    if dynamic_seats:
+        for frame_idx, p in enumerate(parties):
+            pid = p["id"]
+            lines += [
+                f"\t\t\t{prefix}_seat_tooltip_{pid}_visible = {{",
+                "\t\t\t\tcheck_variable = {",
+                f"\t\t\t\t\tvar = {var_prefix}_seat_frame^seat_idx",
+                f"\t\t\t\t\tvalue = {frame_idx + 1}",
+                "\t\t\t\t\tcompare = equals",
+                "\t\t\t\t}",
+                "\t\t\t}",
+            ]
     lines += ["\t\t}", "\t}", "}"]
     return "\n".join(lines) + "\n"
 
@@ -733,24 +1126,26 @@ DEFAULT_CONFIG = {
     "tag": "GER",
     "total_seats": 397,
     "parties": [
-        {"id": "kpd",     "seats": 12, "governing": False,
-         "color": [139, 30,  30]},
-        {"id": "sapd",    "seats": 36, "governing": False,
-         "color": [196, 72,  58]},
-        {"id": "spd",     "seats": 71, "governing": False,
-         "color": [220, 130, 120]},
-        {"id": "fvp",     "seats": 52, "governing": False,
-         "color": [217, 195, 106]},
-        {"id": "zentrum", "seats": 60, "governing": True,
-         "color": [120, 185, 100]},
-        {"id": "dkp",     "seats": 65, "governing": True,
-         "color": [75,  116, 168]},
-        {"id": "drp",     "seats": 34, "governing": True,
-         "color": [55,  85,  140]},
-        {"id": "fkp",     "seats": 48, "governing": True,
-         "color": [95,  140, 190]},
-        {"id": "dnvp",    "seats": 19, "governing": False,
-         "color": [47,  47,  53]},
+        {"id": "kpd",     "seats":  7, "governing": False,
+         "color": [139,   0,   0]},
+        {"id": "spd",     "seats": 88, "governing": False,
+         "color": [225,   1,  19]},
+        {"id": "uspd",    "seats": 21, "governing": False,
+         "color": [216,   8,   4]},
+        {"id": "fvp",     "seats": 34, "governing": False,
+         "color": [255, 216,   6]},
+        {"id": "zentrum", "seats": 78, "governing": False,
+         "color": [  0,  77, 143]},
+        {"id": "nlp",     "seats": 50, "governing": True,
+         "color": [151, 192,  42]},
+        {"id": "fkp",     "seats": 17, "governing": True,
+         "color": [  0, 192, 254]},
+        {"id": "dkp",     "seats": 52, "governing": True,
+         "color": [  8, 129, 228]},
+        {"id": "dvlp",    "seats": 13, "governing": False,
+         "color": [  0,   0,   0]},
+        {"id": "misc",    "seats": 37, "governing": False,
+         "color": [150, 150, 150]},
     ],
     "diagram": {
         "width": 700, "height": 250, "rows": 6,
@@ -824,6 +1219,7 @@ def main():
     decisions_path = mod_root / "interface" / f"{prefix}_decisions.gui"
     sg_path        = mod_root / "common" / "scripted_guis" / f"{prefix}_sg.txt"
     diagram_effects_path = mod_root / "common" / "scripted_effects" / f"{prefix}_diagram_effects.txt"
+    effects_path         = mod_root / "common" / "scripted_effects" / f"{prefix}_effects.txt"
     icon_dir       = mod_root / "gfx" / "interface" / "parliament"
 
     gfx_path.write_text(generate_gfx(parties, tag), encoding="utf-8")
@@ -851,9 +1247,16 @@ def main():
     )
     print(f"  [eff]  {diagram_effects_path.relative_to(mod_root)}")
 
+    effects_path.write_text(
+        generate_parliament_effects(parties, tag, total),
+        encoding="utf-8",
+    )
+    print(f"  [eff]  {effects_path.relative_to(mod_root)}")
+
     revert_countrypoliticsview(mod_root)
 
     generate_seat_icons(parties, seat_size, icon_dir, prefix)
+    generate_party_colour_icons(parties, icon_dir, prefix)
 
     print("[parliament] Done!")
 

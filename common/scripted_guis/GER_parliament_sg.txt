@@ -20,6 +20,46 @@ scripted_gui = {
 				y = GER_parliament_seat_y^seat_idx
 				frame = GER_parliament_seat_frame^seat_idx
 			}
+			GER_parliament_seat_tooltip_kpd = {
+				x = GER_parliament_seat_x^seat_idx
+				y = GER_parliament_seat_y^seat_idx
+			}
+			GER_parliament_seat_tooltip_uspd = {
+				x = GER_parliament_seat_x^seat_idx
+				y = GER_parliament_seat_y^seat_idx
+			}
+			GER_parliament_seat_tooltip_spd = {
+				x = GER_parliament_seat_x^seat_idx
+				y = GER_parliament_seat_y^seat_idx
+			}
+			GER_parliament_seat_tooltip_fvp = {
+				x = GER_parliament_seat_x^seat_idx
+				y = GER_parliament_seat_y^seat_idx
+			}
+			GER_parliament_seat_tooltip_zentrum = {
+				x = GER_parliament_seat_x^seat_idx
+				y = GER_parliament_seat_y^seat_idx
+			}
+			GER_parliament_seat_tooltip_nlp = {
+				x = GER_parliament_seat_x^seat_idx
+				y = GER_parliament_seat_y^seat_idx
+			}
+			GER_parliament_seat_tooltip_fkp = {
+				x = GER_parliament_seat_x^seat_idx
+				y = GER_parliament_seat_y^seat_idx
+			}
+			GER_parliament_seat_tooltip_dkp = {
+				x = GER_parliament_seat_x^seat_idx
+				y = GER_parliament_seat_y^seat_idx
+			}
+			GER_parliament_seat_tooltip_dvlp = {
+				x = GER_parliament_seat_x^seat_idx
+				y = GER_parliament_seat_y^seat_idx
+			}
+			GER_parliament_seat_tooltip_misc = {
+				x = GER_parliament_seat_x^seat_idx
+				y = GER_parliament_seat_y^seat_idx
+			}
 		}
 
 		triggers = {
@@ -71,50 +111,50 @@ scripted_gui = {
 					compare = equals
 				}
 			}
-			GER_parliament_legend_gov_slot_1_sapd_icon_visible = {
-				has_country_flag = GER_parliament_sapd_is_governing
+			GER_parliament_legend_gov_slot_1_uspd_icon_visible = {
+				has_country_flag = GER_parliament_uspd_is_governing
 				check_variable = {
-					var = GER_parliament_sapd_faction_rank
+					var = GER_parliament_uspd_faction_rank
 					value = 1
 					compare = equals
 				}
 			}
-			GER_parliament_legend_gov_slot_1_sapd_label_visible = {
-				has_country_flag = GER_parliament_sapd_is_governing
+			GER_parliament_legend_gov_slot_1_uspd_label_visible = {
+				has_country_flag = GER_parliament_uspd_is_governing
 				check_variable = {
-					var = GER_parliament_sapd_faction_rank
+					var = GER_parliament_uspd_faction_rank
 					value = 1
 					compare = equals
 				}
 			}
-			GER_parliament_legend_gov_slot_1_sapd_seat_number_visible = {
-				has_country_flag = GER_parliament_sapd_is_governing
+			GER_parliament_legend_gov_slot_1_uspd_seat_number_visible = {
+				has_country_flag = GER_parliament_uspd_is_governing
 				check_variable = {
-					var = GER_parliament_sapd_faction_rank
+					var = GER_parliament_uspd_faction_rank
 					value = 1
 					compare = equals
 				}
 			}
-			GER_parliament_legend_gov_slot_1_sapd_seat_unit_visible = {
-				has_country_flag = GER_parliament_sapd_is_governing
+			GER_parliament_legend_gov_slot_1_uspd_seat_unit_visible = {
+				has_country_flag = GER_parliament_uspd_is_governing
 				check_variable = {
-					var = GER_parliament_sapd_faction_rank
+					var = GER_parliament_uspd_faction_rank
 					value = 1
 					compare = equals
 				}
 			}
-			GER_parliament_legend_gov_slot_1_sapd_support_label_visible = {
-				has_country_flag = GER_parliament_sapd_is_governing
+			GER_parliament_legend_gov_slot_1_uspd_support_label_visible = {
+				has_country_flag = GER_parliament_uspd_is_governing
 				check_variable = {
-					var = GER_parliament_sapd_faction_rank
+					var = GER_parliament_uspd_faction_rank
 					value = 1
 					compare = equals
 				}
 			}
-			GER_parliament_legend_gov_slot_1_sapd_support_value_visible = {
-				has_country_flag = GER_parliament_sapd_is_governing
+			GER_parliament_legend_gov_slot_1_uspd_support_value_visible = {
+				has_country_flag = GER_parliament_uspd_is_governing
 				check_variable = {
-					var = GER_parliament_sapd_faction_rank
+					var = GER_parliament_uspd_faction_rank
 					value = 1
 					compare = equals
 				}
@@ -263,98 +303,50 @@ scripted_gui = {
 					compare = equals
 				}
 			}
-			GER_parliament_legend_gov_slot_1_dkp_icon_visible = {
-				has_country_flag = GER_parliament_dkp_is_governing
+			GER_parliament_legend_gov_slot_1_nlp_icon_visible = {
+				has_country_flag = GER_parliament_nlp_is_governing
 				check_variable = {
-					var = GER_parliament_dkp_faction_rank
+					var = GER_parliament_nlp_faction_rank
 					value = 1
 					compare = equals
 				}
 			}
-			GER_parliament_legend_gov_slot_1_dkp_label_visible = {
-				has_country_flag = GER_parliament_dkp_is_governing
+			GER_parliament_legend_gov_slot_1_nlp_label_visible = {
+				has_country_flag = GER_parliament_nlp_is_governing
 				check_variable = {
-					var = GER_parliament_dkp_faction_rank
+					var = GER_parliament_nlp_faction_rank
 					value = 1
 					compare = equals
 				}
 			}
-			GER_parliament_legend_gov_slot_1_dkp_seat_number_visible = {
-				has_country_flag = GER_parliament_dkp_is_governing
+			GER_parliament_legend_gov_slot_1_nlp_seat_number_visible = {
+				has_country_flag = GER_parliament_nlp_is_governing
 				check_variable = {
-					var = GER_parliament_dkp_faction_rank
+					var = GER_parliament_nlp_faction_rank
 					value = 1
 					compare = equals
 				}
 			}
-			GER_parliament_legend_gov_slot_1_dkp_seat_unit_visible = {
-				has_country_flag = GER_parliament_dkp_is_governing
+			GER_parliament_legend_gov_slot_1_nlp_seat_unit_visible = {
+				has_country_flag = GER_parliament_nlp_is_governing
 				check_variable = {
-					var = GER_parliament_dkp_faction_rank
+					var = GER_parliament_nlp_faction_rank
 					value = 1
 					compare = equals
 				}
 			}
-			GER_parliament_legend_gov_slot_1_dkp_support_label_visible = {
-				has_country_flag = GER_parliament_dkp_is_governing
+			GER_parliament_legend_gov_slot_1_nlp_support_label_visible = {
+				has_country_flag = GER_parliament_nlp_is_governing
 				check_variable = {
-					var = GER_parliament_dkp_faction_rank
+					var = GER_parliament_nlp_faction_rank
 					value = 1
 					compare = equals
 				}
 			}
-			GER_parliament_legend_gov_slot_1_dkp_support_value_visible = {
-				has_country_flag = GER_parliament_dkp_is_governing
+			GER_parliament_legend_gov_slot_1_nlp_support_value_visible = {
+				has_country_flag = GER_parliament_nlp_is_governing
 				check_variable = {
-					var = GER_parliament_dkp_faction_rank
-					value = 1
-					compare = equals
-				}
-			}
-			GER_parliament_legend_gov_slot_1_drp_icon_visible = {
-				has_country_flag = GER_parliament_drp_is_governing
-				check_variable = {
-					var = GER_parliament_drp_faction_rank
-					value = 1
-					compare = equals
-				}
-			}
-			GER_parliament_legend_gov_slot_1_drp_label_visible = {
-				has_country_flag = GER_parliament_drp_is_governing
-				check_variable = {
-					var = GER_parliament_drp_faction_rank
-					value = 1
-					compare = equals
-				}
-			}
-			GER_parliament_legend_gov_slot_1_drp_seat_number_visible = {
-				has_country_flag = GER_parliament_drp_is_governing
-				check_variable = {
-					var = GER_parliament_drp_faction_rank
-					value = 1
-					compare = equals
-				}
-			}
-			GER_parliament_legend_gov_slot_1_drp_seat_unit_visible = {
-				has_country_flag = GER_parliament_drp_is_governing
-				check_variable = {
-					var = GER_parliament_drp_faction_rank
-					value = 1
-					compare = equals
-				}
-			}
-			GER_parliament_legend_gov_slot_1_drp_support_label_visible = {
-				has_country_flag = GER_parliament_drp_is_governing
-				check_variable = {
-					var = GER_parliament_drp_faction_rank
-					value = 1
-					compare = equals
-				}
-			}
-			GER_parliament_legend_gov_slot_1_drp_support_value_visible = {
-				has_country_flag = GER_parliament_drp_is_governing
-				check_variable = {
-					var = GER_parliament_drp_faction_rank
+					var = GER_parliament_nlp_faction_rank
 					value = 1
 					compare = equals
 				}
@@ -407,50 +399,146 @@ scripted_gui = {
 					compare = equals
 				}
 			}
-			GER_parliament_legend_gov_slot_1_dnvp_icon_visible = {
-				has_country_flag = GER_parliament_dnvp_is_governing
+			GER_parliament_legend_gov_slot_1_dkp_icon_visible = {
+				has_country_flag = GER_parliament_dkp_is_governing
 				check_variable = {
-					var = GER_parliament_dnvp_faction_rank
+					var = GER_parliament_dkp_faction_rank
 					value = 1
 					compare = equals
 				}
 			}
-			GER_parliament_legend_gov_slot_1_dnvp_label_visible = {
-				has_country_flag = GER_parliament_dnvp_is_governing
+			GER_parliament_legend_gov_slot_1_dkp_label_visible = {
+				has_country_flag = GER_parliament_dkp_is_governing
 				check_variable = {
-					var = GER_parliament_dnvp_faction_rank
+					var = GER_parliament_dkp_faction_rank
 					value = 1
 					compare = equals
 				}
 			}
-			GER_parliament_legend_gov_slot_1_dnvp_seat_number_visible = {
-				has_country_flag = GER_parliament_dnvp_is_governing
+			GER_parliament_legend_gov_slot_1_dkp_seat_number_visible = {
+				has_country_flag = GER_parliament_dkp_is_governing
 				check_variable = {
-					var = GER_parliament_dnvp_faction_rank
+					var = GER_parliament_dkp_faction_rank
 					value = 1
 					compare = equals
 				}
 			}
-			GER_parliament_legend_gov_slot_1_dnvp_seat_unit_visible = {
-				has_country_flag = GER_parliament_dnvp_is_governing
+			GER_parliament_legend_gov_slot_1_dkp_seat_unit_visible = {
+				has_country_flag = GER_parliament_dkp_is_governing
 				check_variable = {
-					var = GER_parliament_dnvp_faction_rank
+					var = GER_parliament_dkp_faction_rank
 					value = 1
 					compare = equals
 				}
 			}
-			GER_parliament_legend_gov_slot_1_dnvp_support_label_visible = {
-				has_country_flag = GER_parliament_dnvp_is_governing
+			GER_parliament_legend_gov_slot_1_dkp_support_label_visible = {
+				has_country_flag = GER_parliament_dkp_is_governing
 				check_variable = {
-					var = GER_parliament_dnvp_faction_rank
+					var = GER_parliament_dkp_faction_rank
 					value = 1
 					compare = equals
 				}
 			}
-			GER_parliament_legend_gov_slot_1_dnvp_support_value_visible = {
-				has_country_flag = GER_parliament_dnvp_is_governing
+			GER_parliament_legend_gov_slot_1_dkp_support_value_visible = {
+				has_country_flag = GER_parliament_dkp_is_governing
 				check_variable = {
-					var = GER_parliament_dnvp_faction_rank
+					var = GER_parliament_dkp_faction_rank
+					value = 1
+					compare = equals
+				}
+			}
+			GER_parliament_legend_gov_slot_1_dvlp_icon_visible = {
+				has_country_flag = GER_parliament_dvlp_is_governing
+				check_variable = {
+					var = GER_parliament_dvlp_faction_rank
+					value = 1
+					compare = equals
+				}
+			}
+			GER_parliament_legend_gov_slot_1_dvlp_label_visible = {
+				has_country_flag = GER_parliament_dvlp_is_governing
+				check_variable = {
+					var = GER_parliament_dvlp_faction_rank
+					value = 1
+					compare = equals
+				}
+			}
+			GER_parliament_legend_gov_slot_1_dvlp_seat_number_visible = {
+				has_country_flag = GER_parliament_dvlp_is_governing
+				check_variable = {
+					var = GER_parliament_dvlp_faction_rank
+					value = 1
+					compare = equals
+				}
+			}
+			GER_parliament_legend_gov_slot_1_dvlp_seat_unit_visible = {
+				has_country_flag = GER_parliament_dvlp_is_governing
+				check_variable = {
+					var = GER_parliament_dvlp_faction_rank
+					value = 1
+					compare = equals
+				}
+			}
+			GER_parliament_legend_gov_slot_1_dvlp_support_label_visible = {
+				has_country_flag = GER_parliament_dvlp_is_governing
+				check_variable = {
+					var = GER_parliament_dvlp_faction_rank
+					value = 1
+					compare = equals
+				}
+			}
+			GER_parliament_legend_gov_slot_1_dvlp_support_value_visible = {
+				has_country_flag = GER_parliament_dvlp_is_governing
+				check_variable = {
+					var = GER_parliament_dvlp_faction_rank
+					value = 1
+					compare = equals
+				}
+			}
+			GER_parliament_legend_gov_slot_1_misc_icon_visible = {
+				has_country_flag = GER_parliament_misc_is_governing
+				check_variable = {
+					var = GER_parliament_misc_faction_rank
+					value = 1
+					compare = equals
+				}
+			}
+			GER_parliament_legend_gov_slot_1_misc_label_visible = {
+				has_country_flag = GER_parliament_misc_is_governing
+				check_variable = {
+					var = GER_parliament_misc_faction_rank
+					value = 1
+					compare = equals
+				}
+			}
+			GER_parliament_legend_gov_slot_1_misc_seat_number_visible = {
+				has_country_flag = GER_parliament_misc_is_governing
+				check_variable = {
+					var = GER_parliament_misc_faction_rank
+					value = 1
+					compare = equals
+				}
+			}
+			GER_parliament_legend_gov_slot_1_misc_seat_unit_visible = {
+				has_country_flag = GER_parliament_misc_is_governing
+				check_variable = {
+					var = GER_parliament_misc_faction_rank
+					value = 1
+					compare = equals
+				}
+			}
+			GER_parliament_legend_gov_slot_1_misc_support_label_visible = {
+				has_country_flag = GER_parliament_misc_is_governing
+				check_variable = {
+					var = GER_parliament_misc_faction_rank
+					value = 1
+					compare = equals
+				}
+			}
+			GER_parliament_legend_gov_slot_1_misc_support_value_visible = {
+				has_country_flag = GER_parliament_misc_is_governing
+				check_variable = {
+					var = GER_parliament_misc_faction_rank
 					value = 1
 					compare = equals
 				}
@@ -515,62 +603,62 @@ scripted_gui = {
 					compare = equals
 				}
 			}
-			GER_parliament_legend_opp_slot_1_sapd_icon_visible = {
+			GER_parliament_legend_opp_slot_1_uspd_icon_visible = {
 				NOT = {
-					has_country_flag = GER_parliament_sapd_is_governing
+					has_country_flag = GER_parliament_uspd_is_governing
 				}
 				check_variable = {
-					var = GER_parliament_sapd_faction_rank
+					var = GER_parliament_uspd_faction_rank
 					value = 1
 					compare = equals
 				}
 			}
-			GER_parliament_legend_opp_slot_1_sapd_label_visible = {
+			GER_parliament_legend_opp_slot_1_uspd_label_visible = {
 				NOT = {
-					has_country_flag = GER_parliament_sapd_is_governing
+					has_country_flag = GER_parliament_uspd_is_governing
 				}
 				check_variable = {
-					var = GER_parliament_sapd_faction_rank
+					var = GER_parliament_uspd_faction_rank
 					value = 1
 					compare = equals
 				}
 			}
-			GER_parliament_legend_opp_slot_1_sapd_seat_number_visible = {
+			GER_parliament_legend_opp_slot_1_uspd_seat_number_visible = {
 				NOT = {
-					has_country_flag = GER_parliament_sapd_is_governing
+					has_country_flag = GER_parliament_uspd_is_governing
 				}
 				check_variable = {
-					var = GER_parliament_sapd_faction_rank
+					var = GER_parliament_uspd_faction_rank
 					value = 1
 					compare = equals
 				}
 			}
-			GER_parliament_legend_opp_slot_1_sapd_seat_unit_visible = {
+			GER_parliament_legend_opp_slot_1_uspd_seat_unit_visible = {
 				NOT = {
-					has_country_flag = GER_parliament_sapd_is_governing
+					has_country_flag = GER_parliament_uspd_is_governing
 				}
 				check_variable = {
-					var = GER_parliament_sapd_faction_rank
+					var = GER_parliament_uspd_faction_rank
 					value = 1
 					compare = equals
 				}
 			}
-			GER_parliament_legend_opp_slot_1_sapd_support_label_visible = {
+			GER_parliament_legend_opp_slot_1_uspd_support_label_visible = {
 				NOT = {
-					has_country_flag = GER_parliament_sapd_is_governing
+					has_country_flag = GER_parliament_uspd_is_governing
 				}
 				check_variable = {
-					var = GER_parliament_sapd_faction_rank
+					var = GER_parliament_uspd_faction_rank
 					value = 1
 					compare = equals
 				}
 			}
-			GER_parliament_legend_opp_slot_1_sapd_support_value_visible = {
+			GER_parliament_legend_opp_slot_1_uspd_support_value_visible = {
 				NOT = {
-					has_country_flag = GER_parliament_sapd_is_governing
+					has_country_flag = GER_parliament_uspd_is_governing
 				}
 				check_variable = {
-					var = GER_parliament_sapd_faction_rank
+					var = GER_parliament_uspd_faction_rank
 					value = 1
 					compare = equals
 				}
@@ -755,122 +843,62 @@ scripted_gui = {
 					compare = equals
 				}
 			}
-			GER_parliament_legend_opp_slot_1_dkp_icon_visible = {
+			GER_parliament_legend_opp_slot_1_nlp_icon_visible = {
 				NOT = {
-					has_country_flag = GER_parliament_dkp_is_governing
+					has_country_flag = GER_parliament_nlp_is_governing
 				}
 				check_variable = {
-					var = GER_parliament_dkp_faction_rank
+					var = GER_parliament_nlp_faction_rank
 					value = 1
 					compare = equals
 				}
 			}
-			GER_parliament_legend_opp_slot_1_dkp_label_visible = {
+			GER_parliament_legend_opp_slot_1_nlp_label_visible = {
 				NOT = {
-					has_country_flag = GER_parliament_dkp_is_governing
+					has_country_flag = GER_parliament_nlp_is_governing
 				}
 				check_variable = {
-					var = GER_parliament_dkp_faction_rank
+					var = GER_parliament_nlp_faction_rank
 					value = 1
 					compare = equals
 				}
 			}
-			GER_parliament_legend_opp_slot_1_dkp_seat_number_visible = {
+			GER_parliament_legend_opp_slot_1_nlp_seat_number_visible = {
 				NOT = {
-					has_country_flag = GER_parliament_dkp_is_governing
+					has_country_flag = GER_parliament_nlp_is_governing
 				}
 				check_variable = {
-					var = GER_parliament_dkp_faction_rank
+					var = GER_parliament_nlp_faction_rank
 					value = 1
 					compare = equals
 				}
 			}
-			GER_parliament_legend_opp_slot_1_dkp_seat_unit_visible = {
+			GER_parliament_legend_opp_slot_1_nlp_seat_unit_visible = {
 				NOT = {
-					has_country_flag = GER_parliament_dkp_is_governing
+					has_country_flag = GER_parliament_nlp_is_governing
 				}
 				check_variable = {
-					var = GER_parliament_dkp_faction_rank
+					var = GER_parliament_nlp_faction_rank
 					value = 1
 					compare = equals
 				}
 			}
-			GER_parliament_legend_opp_slot_1_dkp_support_label_visible = {
+			GER_parliament_legend_opp_slot_1_nlp_support_label_visible = {
 				NOT = {
-					has_country_flag = GER_parliament_dkp_is_governing
+					has_country_flag = GER_parliament_nlp_is_governing
 				}
 				check_variable = {
-					var = GER_parliament_dkp_faction_rank
+					var = GER_parliament_nlp_faction_rank
 					value = 1
 					compare = equals
 				}
 			}
-			GER_parliament_legend_opp_slot_1_dkp_support_value_visible = {
+			GER_parliament_legend_opp_slot_1_nlp_support_value_visible = {
 				NOT = {
-					has_country_flag = GER_parliament_dkp_is_governing
+					has_country_flag = GER_parliament_nlp_is_governing
 				}
 				check_variable = {
-					var = GER_parliament_dkp_faction_rank
-					value = 1
-					compare = equals
-				}
-			}
-			GER_parliament_legend_opp_slot_1_drp_icon_visible = {
-				NOT = {
-					has_country_flag = GER_parliament_drp_is_governing
-				}
-				check_variable = {
-					var = GER_parliament_drp_faction_rank
-					value = 1
-					compare = equals
-				}
-			}
-			GER_parliament_legend_opp_slot_1_drp_label_visible = {
-				NOT = {
-					has_country_flag = GER_parliament_drp_is_governing
-				}
-				check_variable = {
-					var = GER_parliament_drp_faction_rank
-					value = 1
-					compare = equals
-				}
-			}
-			GER_parliament_legend_opp_slot_1_drp_seat_number_visible = {
-				NOT = {
-					has_country_flag = GER_parliament_drp_is_governing
-				}
-				check_variable = {
-					var = GER_parliament_drp_faction_rank
-					value = 1
-					compare = equals
-				}
-			}
-			GER_parliament_legend_opp_slot_1_drp_seat_unit_visible = {
-				NOT = {
-					has_country_flag = GER_parliament_drp_is_governing
-				}
-				check_variable = {
-					var = GER_parliament_drp_faction_rank
-					value = 1
-					compare = equals
-				}
-			}
-			GER_parliament_legend_opp_slot_1_drp_support_label_visible = {
-				NOT = {
-					has_country_flag = GER_parliament_drp_is_governing
-				}
-				check_variable = {
-					var = GER_parliament_drp_faction_rank
-					value = 1
-					compare = equals
-				}
-			}
-			GER_parliament_legend_opp_slot_1_drp_support_value_visible = {
-				NOT = {
-					has_country_flag = GER_parliament_drp_is_governing
-				}
-				check_variable = {
-					var = GER_parliament_drp_faction_rank
+					var = GER_parliament_nlp_faction_rank
 					value = 1
 					compare = equals
 				}
@@ -935,62 +963,182 @@ scripted_gui = {
 					compare = equals
 				}
 			}
-			GER_parliament_legend_opp_slot_1_dnvp_icon_visible = {
+			GER_parliament_legend_opp_slot_1_dkp_icon_visible = {
 				NOT = {
-					has_country_flag = GER_parliament_dnvp_is_governing
+					has_country_flag = GER_parliament_dkp_is_governing
 				}
 				check_variable = {
-					var = GER_parliament_dnvp_faction_rank
+					var = GER_parliament_dkp_faction_rank
 					value = 1
 					compare = equals
 				}
 			}
-			GER_parliament_legend_opp_slot_1_dnvp_label_visible = {
+			GER_parliament_legend_opp_slot_1_dkp_label_visible = {
 				NOT = {
-					has_country_flag = GER_parliament_dnvp_is_governing
+					has_country_flag = GER_parliament_dkp_is_governing
 				}
 				check_variable = {
-					var = GER_parliament_dnvp_faction_rank
+					var = GER_parliament_dkp_faction_rank
 					value = 1
 					compare = equals
 				}
 			}
-			GER_parliament_legend_opp_slot_1_dnvp_seat_number_visible = {
+			GER_parliament_legend_opp_slot_1_dkp_seat_number_visible = {
 				NOT = {
-					has_country_flag = GER_parliament_dnvp_is_governing
+					has_country_flag = GER_parliament_dkp_is_governing
 				}
 				check_variable = {
-					var = GER_parliament_dnvp_faction_rank
+					var = GER_parliament_dkp_faction_rank
 					value = 1
 					compare = equals
 				}
 			}
-			GER_parliament_legend_opp_slot_1_dnvp_seat_unit_visible = {
+			GER_parliament_legend_opp_slot_1_dkp_seat_unit_visible = {
 				NOT = {
-					has_country_flag = GER_parliament_dnvp_is_governing
+					has_country_flag = GER_parliament_dkp_is_governing
 				}
 				check_variable = {
-					var = GER_parliament_dnvp_faction_rank
+					var = GER_parliament_dkp_faction_rank
 					value = 1
 					compare = equals
 				}
 			}
-			GER_parliament_legend_opp_slot_1_dnvp_support_label_visible = {
+			GER_parliament_legend_opp_slot_1_dkp_support_label_visible = {
 				NOT = {
-					has_country_flag = GER_parliament_dnvp_is_governing
+					has_country_flag = GER_parliament_dkp_is_governing
 				}
 				check_variable = {
-					var = GER_parliament_dnvp_faction_rank
+					var = GER_parliament_dkp_faction_rank
 					value = 1
 					compare = equals
 				}
 			}
-			GER_parliament_legend_opp_slot_1_dnvp_support_value_visible = {
+			GER_parliament_legend_opp_slot_1_dkp_support_value_visible = {
 				NOT = {
-					has_country_flag = GER_parliament_dnvp_is_governing
+					has_country_flag = GER_parliament_dkp_is_governing
 				}
 				check_variable = {
-					var = GER_parliament_dnvp_faction_rank
+					var = GER_parliament_dkp_faction_rank
+					value = 1
+					compare = equals
+				}
+			}
+			GER_parliament_legend_opp_slot_1_dvlp_icon_visible = {
+				NOT = {
+					has_country_flag = GER_parliament_dvlp_is_governing
+				}
+				check_variable = {
+					var = GER_parliament_dvlp_faction_rank
+					value = 1
+					compare = equals
+				}
+			}
+			GER_parliament_legend_opp_slot_1_dvlp_label_visible = {
+				NOT = {
+					has_country_flag = GER_parliament_dvlp_is_governing
+				}
+				check_variable = {
+					var = GER_parliament_dvlp_faction_rank
+					value = 1
+					compare = equals
+				}
+			}
+			GER_parliament_legend_opp_slot_1_dvlp_seat_number_visible = {
+				NOT = {
+					has_country_flag = GER_parliament_dvlp_is_governing
+				}
+				check_variable = {
+					var = GER_parliament_dvlp_faction_rank
+					value = 1
+					compare = equals
+				}
+			}
+			GER_parliament_legend_opp_slot_1_dvlp_seat_unit_visible = {
+				NOT = {
+					has_country_flag = GER_parliament_dvlp_is_governing
+				}
+				check_variable = {
+					var = GER_parliament_dvlp_faction_rank
+					value = 1
+					compare = equals
+				}
+			}
+			GER_parliament_legend_opp_slot_1_dvlp_support_label_visible = {
+				NOT = {
+					has_country_flag = GER_parliament_dvlp_is_governing
+				}
+				check_variable = {
+					var = GER_parliament_dvlp_faction_rank
+					value = 1
+					compare = equals
+				}
+			}
+			GER_parliament_legend_opp_slot_1_dvlp_support_value_visible = {
+				NOT = {
+					has_country_flag = GER_parliament_dvlp_is_governing
+				}
+				check_variable = {
+					var = GER_parliament_dvlp_faction_rank
+					value = 1
+					compare = equals
+				}
+			}
+			GER_parliament_legend_opp_slot_1_misc_icon_visible = {
+				NOT = {
+					has_country_flag = GER_parliament_misc_is_governing
+				}
+				check_variable = {
+					var = GER_parliament_misc_faction_rank
+					value = 1
+					compare = equals
+				}
+			}
+			GER_parliament_legend_opp_slot_1_misc_label_visible = {
+				NOT = {
+					has_country_flag = GER_parliament_misc_is_governing
+				}
+				check_variable = {
+					var = GER_parliament_misc_faction_rank
+					value = 1
+					compare = equals
+				}
+			}
+			GER_parliament_legend_opp_slot_1_misc_seat_number_visible = {
+				NOT = {
+					has_country_flag = GER_parliament_misc_is_governing
+				}
+				check_variable = {
+					var = GER_parliament_misc_faction_rank
+					value = 1
+					compare = equals
+				}
+			}
+			GER_parliament_legend_opp_slot_1_misc_seat_unit_visible = {
+				NOT = {
+					has_country_flag = GER_parliament_misc_is_governing
+				}
+				check_variable = {
+					var = GER_parliament_misc_faction_rank
+					value = 1
+					compare = equals
+				}
+			}
+			GER_parliament_legend_opp_slot_1_misc_support_label_visible = {
+				NOT = {
+					has_country_flag = GER_parliament_misc_is_governing
+				}
+				check_variable = {
+					var = GER_parliament_misc_faction_rank
+					value = 1
+					compare = equals
+				}
+			}
+			GER_parliament_legend_opp_slot_1_misc_support_value_visible = {
+				NOT = {
+					has_country_flag = GER_parliament_misc_is_governing
+				}
+				check_variable = {
+					var = GER_parliament_misc_faction_rank
 					value = 1
 					compare = equals
 				}
@@ -1043,50 +1191,50 @@ scripted_gui = {
 					compare = equals
 				}
 			}
-			GER_parliament_legend_gov_slot_2_sapd_icon_visible = {
-				has_country_flag = GER_parliament_sapd_is_governing
+			GER_parliament_legend_gov_slot_2_uspd_icon_visible = {
+				has_country_flag = GER_parliament_uspd_is_governing
 				check_variable = {
-					var = GER_parliament_sapd_faction_rank
+					var = GER_parliament_uspd_faction_rank
 					value = 2
 					compare = equals
 				}
 			}
-			GER_parliament_legend_gov_slot_2_sapd_label_visible = {
-				has_country_flag = GER_parliament_sapd_is_governing
+			GER_parliament_legend_gov_slot_2_uspd_label_visible = {
+				has_country_flag = GER_parliament_uspd_is_governing
 				check_variable = {
-					var = GER_parliament_sapd_faction_rank
+					var = GER_parliament_uspd_faction_rank
 					value = 2
 					compare = equals
 				}
 			}
-			GER_parliament_legend_gov_slot_2_sapd_seat_number_visible = {
-				has_country_flag = GER_parliament_sapd_is_governing
+			GER_parliament_legend_gov_slot_2_uspd_seat_number_visible = {
+				has_country_flag = GER_parliament_uspd_is_governing
 				check_variable = {
-					var = GER_parliament_sapd_faction_rank
+					var = GER_parliament_uspd_faction_rank
 					value = 2
 					compare = equals
 				}
 			}
-			GER_parliament_legend_gov_slot_2_sapd_seat_unit_visible = {
-				has_country_flag = GER_parliament_sapd_is_governing
+			GER_parliament_legend_gov_slot_2_uspd_seat_unit_visible = {
+				has_country_flag = GER_parliament_uspd_is_governing
 				check_variable = {
-					var = GER_parliament_sapd_faction_rank
+					var = GER_parliament_uspd_faction_rank
 					value = 2
 					compare = equals
 				}
 			}
-			GER_parliament_legend_gov_slot_2_sapd_support_label_visible = {
-				has_country_flag = GER_parliament_sapd_is_governing
+			GER_parliament_legend_gov_slot_2_uspd_support_label_visible = {
+				has_country_flag = GER_parliament_uspd_is_governing
 				check_variable = {
-					var = GER_parliament_sapd_faction_rank
+					var = GER_parliament_uspd_faction_rank
 					value = 2
 					compare = equals
 				}
 			}
-			GER_parliament_legend_gov_slot_2_sapd_support_value_visible = {
-				has_country_flag = GER_parliament_sapd_is_governing
+			GER_parliament_legend_gov_slot_2_uspd_support_value_visible = {
+				has_country_flag = GER_parliament_uspd_is_governing
 				check_variable = {
-					var = GER_parliament_sapd_faction_rank
+					var = GER_parliament_uspd_faction_rank
 					value = 2
 					compare = equals
 				}
@@ -1235,98 +1383,50 @@ scripted_gui = {
 					compare = equals
 				}
 			}
-			GER_parliament_legend_gov_slot_2_dkp_icon_visible = {
-				has_country_flag = GER_parliament_dkp_is_governing
+			GER_parliament_legend_gov_slot_2_nlp_icon_visible = {
+				has_country_flag = GER_parliament_nlp_is_governing
 				check_variable = {
-					var = GER_parliament_dkp_faction_rank
+					var = GER_parliament_nlp_faction_rank
 					value = 2
 					compare = equals
 				}
 			}
-			GER_parliament_legend_gov_slot_2_dkp_label_visible = {
-				has_country_flag = GER_parliament_dkp_is_governing
+			GER_parliament_legend_gov_slot_2_nlp_label_visible = {
+				has_country_flag = GER_parliament_nlp_is_governing
 				check_variable = {
-					var = GER_parliament_dkp_faction_rank
+					var = GER_parliament_nlp_faction_rank
 					value = 2
 					compare = equals
 				}
 			}
-			GER_parliament_legend_gov_slot_2_dkp_seat_number_visible = {
-				has_country_flag = GER_parliament_dkp_is_governing
+			GER_parliament_legend_gov_slot_2_nlp_seat_number_visible = {
+				has_country_flag = GER_parliament_nlp_is_governing
 				check_variable = {
-					var = GER_parliament_dkp_faction_rank
+					var = GER_parliament_nlp_faction_rank
 					value = 2
 					compare = equals
 				}
 			}
-			GER_parliament_legend_gov_slot_2_dkp_seat_unit_visible = {
-				has_country_flag = GER_parliament_dkp_is_governing
+			GER_parliament_legend_gov_slot_2_nlp_seat_unit_visible = {
+				has_country_flag = GER_parliament_nlp_is_governing
 				check_variable = {
-					var = GER_parliament_dkp_faction_rank
+					var = GER_parliament_nlp_faction_rank
 					value = 2
 					compare = equals
 				}
 			}
-			GER_parliament_legend_gov_slot_2_dkp_support_label_visible = {
-				has_country_flag = GER_parliament_dkp_is_governing
+			GER_parliament_legend_gov_slot_2_nlp_support_label_visible = {
+				has_country_flag = GER_parliament_nlp_is_governing
 				check_variable = {
-					var = GER_parliament_dkp_faction_rank
+					var = GER_parliament_nlp_faction_rank
 					value = 2
 					compare = equals
 				}
 			}
-			GER_parliament_legend_gov_slot_2_dkp_support_value_visible = {
-				has_country_flag = GER_parliament_dkp_is_governing
+			GER_parliament_legend_gov_slot_2_nlp_support_value_visible = {
+				has_country_flag = GER_parliament_nlp_is_governing
 				check_variable = {
-					var = GER_parliament_dkp_faction_rank
-					value = 2
-					compare = equals
-				}
-			}
-			GER_parliament_legend_gov_slot_2_drp_icon_visible = {
-				has_country_flag = GER_parliament_drp_is_governing
-				check_variable = {
-					var = GER_parliament_drp_faction_rank
-					value = 2
-					compare = equals
-				}
-			}
-			GER_parliament_legend_gov_slot_2_drp_label_visible = {
-				has_country_flag = GER_parliament_drp_is_governing
-				check_variable = {
-					var = GER_parliament_drp_faction_rank
-					value = 2
-					compare = equals
-				}
-			}
-			GER_parliament_legend_gov_slot_2_drp_seat_number_visible = {
-				has_country_flag = GER_parliament_drp_is_governing
-				check_variable = {
-					var = GER_parliament_drp_faction_rank
-					value = 2
-					compare = equals
-				}
-			}
-			GER_parliament_legend_gov_slot_2_drp_seat_unit_visible = {
-				has_country_flag = GER_parliament_drp_is_governing
-				check_variable = {
-					var = GER_parliament_drp_faction_rank
-					value = 2
-					compare = equals
-				}
-			}
-			GER_parliament_legend_gov_slot_2_drp_support_label_visible = {
-				has_country_flag = GER_parliament_drp_is_governing
-				check_variable = {
-					var = GER_parliament_drp_faction_rank
-					value = 2
-					compare = equals
-				}
-			}
-			GER_parliament_legend_gov_slot_2_drp_support_value_visible = {
-				has_country_flag = GER_parliament_drp_is_governing
-				check_variable = {
-					var = GER_parliament_drp_faction_rank
+					var = GER_parliament_nlp_faction_rank
 					value = 2
 					compare = equals
 				}
@@ -1379,50 +1479,146 @@ scripted_gui = {
 					compare = equals
 				}
 			}
-			GER_parliament_legend_gov_slot_2_dnvp_icon_visible = {
-				has_country_flag = GER_parliament_dnvp_is_governing
+			GER_parliament_legend_gov_slot_2_dkp_icon_visible = {
+				has_country_flag = GER_parliament_dkp_is_governing
 				check_variable = {
-					var = GER_parliament_dnvp_faction_rank
+					var = GER_parliament_dkp_faction_rank
 					value = 2
 					compare = equals
 				}
 			}
-			GER_parliament_legend_gov_slot_2_dnvp_label_visible = {
-				has_country_flag = GER_parliament_dnvp_is_governing
+			GER_parliament_legend_gov_slot_2_dkp_label_visible = {
+				has_country_flag = GER_parliament_dkp_is_governing
 				check_variable = {
-					var = GER_parliament_dnvp_faction_rank
+					var = GER_parliament_dkp_faction_rank
 					value = 2
 					compare = equals
 				}
 			}
-			GER_parliament_legend_gov_slot_2_dnvp_seat_number_visible = {
-				has_country_flag = GER_parliament_dnvp_is_governing
+			GER_parliament_legend_gov_slot_2_dkp_seat_number_visible = {
+				has_country_flag = GER_parliament_dkp_is_governing
 				check_variable = {
-					var = GER_parliament_dnvp_faction_rank
+					var = GER_parliament_dkp_faction_rank
 					value = 2
 					compare = equals
 				}
 			}
-			GER_parliament_legend_gov_slot_2_dnvp_seat_unit_visible = {
-				has_country_flag = GER_parliament_dnvp_is_governing
+			GER_parliament_legend_gov_slot_2_dkp_seat_unit_visible = {
+				has_country_flag = GER_parliament_dkp_is_governing
 				check_variable = {
-					var = GER_parliament_dnvp_faction_rank
+					var = GER_parliament_dkp_faction_rank
 					value = 2
 					compare = equals
 				}
 			}
-			GER_parliament_legend_gov_slot_2_dnvp_support_label_visible = {
-				has_country_flag = GER_parliament_dnvp_is_governing
+			GER_parliament_legend_gov_slot_2_dkp_support_label_visible = {
+				has_country_flag = GER_parliament_dkp_is_governing
 				check_variable = {
-					var = GER_parliament_dnvp_faction_rank
+					var = GER_parliament_dkp_faction_rank
 					value = 2
 					compare = equals
 				}
 			}
-			GER_parliament_legend_gov_slot_2_dnvp_support_value_visible = {
-				has_country_flag = GER_parliament_dnvp_is_governing
+			GER_parliament_legend_gov_slot_2_dkp_support_value_visible = {
+				has_country_flag = GER_parliament_dkp_is_governing
 				check_variable = {
-					var = GER_parliament_dnvp_faction_rank
+					var = GER_parliament_dkp_faction_rank
+					value = 2
+					compare = equals
+				}
+			}
+			GER_parliament_legend_gov_slot_2_dvlp_icon_visible = {
+				has_country_flag = GER_parliament_dvlp_is_governing
+				check_variable = {
+					var = GER_parliament_dvlp_faction_rank
+					value = 2
+					compare = equals
+				}
+			}
+			GER_parliament_legend_gov_slot_2_dvlp_label_visible = {
+				has_country_flag = GER_parliament_dvlp_is_governing
+				check_variable = {
+					var = GER_parliament_dvlp_faction_rank
+					value = 2
+					compare = equals
+				}
+			}
+			GER_parliament_legend_gov_slot_2_dvlp_seat_number_visible = {
+				has_country_flag = GER_parliament_dvlp_is_governing
+				check_variable = {
+					var = GER_parliament_dvlp_faction_rank
+					value = 2
+					compare = equals
+				}
+			}
+			GER_parliament_legend_gov_slot_2_dvlp_seat_unit_visible = {
+				has_country_flag = GER_parliament_dvlp_is_governing
+				check_variable = {
+					var = GER_parliament_dvlp_faction_rank
+					value = 2
+					compare = equals
+				}
+			}
+			GER_parliament_legend_gov_slot_2_dvlp_support_label_visible = {
+				has_country_flag = GER_parliament_dvlp_is_governing
+				check_variable = {
+					var = GER_parliament_dvlp_faction_rank
+					value = 2
+					compare = equals
+				}
+			}
+			GER_parliament_legend_gov_slot_2_dvlp_support_value_visible = {
+				has_country_flag = GER_parliament_dvlp_is_governing
+				check_variable = {
+					var = GER_parliament_dvlp_faction_rank
+					value = 2
+					compare = equals
+				}
+			}
+			GER_parliament_legend_gov_slot_2_misc_icon_visible = {
+				has_country_flag = GER_parliament_misc_is_governing
+				check_variable = {
+					var = GER_parliament_misc_faction_rank
+					value = 2
+					compare = equals
+				}
+			}
+			GER_parliament_legend_gov_slot_2_misc_label_visible = {
+				has_country_flag = GER_parliament_misc_is_governing
+				check_variable = {
+					var = GER_parliament_misc_faction_rank
+					value = 2
+					compare = equals
+				}
+			}
+			GER_parliament_legend_gov_slot_2_misc_seat_number_visible = {
+				has_country_flag = GER_parliament_misc_is_governing
+				check_variable = {
+					var = GER_parliament_misc_faction_rank
+					value = 2
+					compare = equals
+				}
+			}
+			GER_parliament_legend_gov_slot_2_misc_seat_unit_visible = {
+				has_country_flag = GER_parliament_misc_is_governing
+				check_variable = {
+					var = GER_parliament_misc_faction_rank
+					value = 2
+					compare = equals
+				}
+			}
+			GER_parliament_legend_gov_slot_2_misc_support_label_visible = {
+				has_country_flag = GER_parliament_misc_is_governing
+				check_variable = {
+					var = GER_parliament_misc_faction_rank
+					value = 2
+					compare = equals
+				}
+			}
+			GER_parliament_legend_gov_slot_2_misc_support_value_visible = {
+				has_country_flag = GER_parliament_misc_is_governing
+				check_variable = {
+					var = GER_parliament_misc_faction_rank
 					value = 2
 					compare = equals
 				}
@@ -1487,62 +1683,62 @@ scripted_gui = {
 					compare = equals
 				}
 			}
-			GER_parliament_legend_opp_slot_2_sapd_icon_visible = {
+			GER_parliament_legend_opp_slot_2_uspd_icon_visible = {
 				NOT = {
-					has_country_flag = GER_parliament_sapd_is_governing
+					has_country_flag = GER_parliament_uspd_is_governing
 				}
 				check_variable = {
-					var = GER_parliament_sapd_faction_rank
+					var = GER_parliament_uspd_faction_rank
 					value = 2
 					compare = equals
 				}
 			}
-			GER_parliament_legend_opp_slot_2_sapd_label_visible = {
+			GER_parliament_legend_opp_slot_2_uspd_label_visible = {
 				NOT = {
-					has_country_flag = GER_parliament_sapd_is_governing
+					has_country_flag = GER_parliament_uspd_is_governing
 				}
 				check_variable = {
-					var = GER_parliament_sapd_faction_rank
+					var = GER_parliament_uspd_faction_rank
 					value = 2
 					compare = equals
 				}
 			}
-			GER_parliament_legend_opp_slot_2_sapd_seat_number_visible = {
+			GER_parliament_legend_opp_slot_2_uspd_seat_number_visible = {
 				NOT = {
-					has_country_flag = GER_parliament_sapd_is_governing
+					has_country_flag = GER_parliament_uspd_is_governing
 				}
 				check_variable = {
-					var = GER_parliament_sapd_faction_rank
+					var = GER_parliament_uspd_faction_rank
 					value = 2
 					compare = equals
 				}
 			}
-			GER_parliament_legend_opp_slot_2_sapd_seat_unit_visible = {
+			GER_parliament_legend_opp_slot_2_uspd_seat_unit_visible = {
 				NOT = {
-					has_country_flag = GER_parliament_sapd_is_governing
+					has_country_flag = GER_parliament_uspd_is_governing
 				}
 				check_variable = {
-					var = GER_parliament_sapd_faction_rank
+					var = GER_parliament_uspd_faction_rank
 					value = 2
 					compare = equals
 				}
 			}
-			GER_parliament_legend_opp_slot_2_sapd_support_label_visible = {
+			GER_parliament_legend_opp_slot_2_uspd_support_label_visible = {
 				NOT = {
-					has_country_flag = GER_parliament_sapd_is_governing
+					has_country_flag = GER_parliament_uspd_is_governing
 				}
 				check_variable = {
-					var = GER_parliament_sapd_faction_rank
+					var = GER_parliament_uspd_faction_rank
 					value = 2
 					compare = equals
 				}
 			}
-			GER_parliament_legend_opp_slot_2_sapd_support_value_visible = {
+			GER_parliament_legend_opp_slot_2_uspd_support_value_visible = {
 				NOT = {
-					has_country_flag = GER_parliament_sapd_is_governing
+					has_country_flag = GER_parliament_uspd_is_governing
 				}
 				check_variable = {
-					var = GER_parliament_sapd_faction_rank
+					var = GER_parliament_uspd_faction_rank
 					value = 2
 					compare = equals
 				}
@@ -1727,122 +1923,62 @@ scripted_gui = {
 					compare = equals
 				}
 			}
-			GER_parliament_legend_opp_slot_2_dkp_icon_visible = {
+			GER_parliament_legend_opp_slot_2_nlp_icon_visible = {
 				NOT = {
-					has_country_flag = GER_parliament_dkp_is_governing
+					has_country_flag = GER_parliament_nlp_is_governing
 				}
 				check_variable = {
-					var = GER_parliament_dkp_faction_rank
+					var = GER_parliament_nlp_faction_rank
 					value = 2
 					compare = equals
 				}
 			}
-			GER_parliament_legend_opp_slot_2_dkp_label_visible = {
+			GER_parliament_legend_opp_slot_2_nlp_label_visible = {
 				NOT = {
-					has_country_flag = GER_parliament_dkp_is_governing
+					has_country_flag = GER_parliament_nlp_is_governing
 				}
 				check_variable = {
-					var = GER_parliament_dkp_faction_rank
+					var = GER_parliament_nlp_faction_rank
 					value = 2
 					compare = equals
 				}
 			}
-			GER_parliament_legend_opp_slot_2_dkp_seat_number_visible = {
+			GER_parliament_legend_opp_slot_2_nlp_seat_number_visible = {
 				NOT = {
-					has_country_flag = GER_parliament_dkp_is_governing
+					has_country_flag = GER_parliament_nlp_is_governing
 				}
 				check_variable = {
-					var = GER_parliament_dkp_faction_rank
+					var = GER_parliament_nlp_faction_rank
 					value = 2
 					compare = equals
 				}
 			}
-			GER_parliament_legend_opp_slot_2_dkp_seat_unit_visible = {
+			GER_parliament_legend_opp_slot_2_nlp_seat_unit_visible = {
 				NOT = {
-					has_country_flag = GER_parliament_dkp_is_governing
+					has_country_flag = GER_parliament_nlp_is_governing
 				}
 				check_variable = {
-					var = GER_parliament_dkp_faction_rank
+					var = GER_parliament_nlp_faction_rank
 					value = 2
 					compare = equals
 				}
 			}
-			GER_parliament_legend_opp_slot_2_dkp_support_label_visible = {
+			GER_parliament_legend_opp_slot_2_nlp_support_label_visible = {
 				NOT = {
-					has_country_flag = GER_parliament_dkp_is_governing
+					has_country_flag = GER_parliament_nlp_is_governing
 				}
 				check_variable = {
-					var = GER_parliament_dkp_faction_rank
+					var = GER_parliament_nlp_faction_rank
 					value = 2
 					compare = equals
 				}
 			}
-			GER_parliament_legend_opp_slot_2_dkp_support_value_visible = {
+			GER_parliament_legend_opp_slot_2_nlp_support_value_visible = {
 				NOT = {
-					has_country_flag = GER_parliament_dkp_is_governing
+					has_country_flag = GER_parliament_nlp_is_governing
 				}
 				check_variable = {
-					var = GER_parliament_dkp_faction_rank
-					value = 2
-					compare = equals
-				}
-			}
-			GER_parliament_legend_opp_slot_2_drp_icon_visible = {
-				NOT = {
-					has_country_flag = GER_parliament_drp_is_governing
-				}
-				check_variable = {
-					var = GER_parliament_drp_faction_rank
-					value = 2
-					compare = equals
-				}
-			}
-			GER_parliament_legend_opp_slot_2_drp_label_visible = {
-				NOT = {
-					has_country_flag = GER_parliament_drp_is_governing
-				}
-				check_variable = {
-					var = GER_parliament_drp_faction_rank
-					value = 2
-					compare = equals
-				}
-			}
-			GER_parliament_legend_opp_slot_2_drp_seat_number_visible = {
-				NOT = {
-					has_country_flag = GER_parliament_drp_is_governing
-				}
-				check_variable = {
-					var = GER_parliament_drp_faction_rank
-					value = 2
-					compare = equals
-				}
-			}
-			GER_parliament_legend_opp_slot_2_drp_seat_unit_visible = {
-				NOT = {
-					has_country_flag = GER_parliament_drp_is_governing
-				}
-				check_variable = {
-					var = GER_parliament_drp_faction_rank
-					value = 2
-					compare = equals
-				}
-			}
-			GER_parliament_legend_opp_slot_2_drp_support_label_visible = {
-				NOT = {
-					has_country_flag = GER_parliament_drp_is_governing
-				}
-				check_variable = {
-					var = GER_parliament_drp_faction_rank
-					value = 2
-					compare = equals
-				}
-			}
-			GER_parliament_legend_opp_slot_2_drp_support_value_visible = {
-				NOT = {
-					has_country_flag = GER_parliament_drp_is_governing
-				}
-				check_variable = {
-					var = GER_parliament_drp_faction_rank
+					var = GER_parliament_nlp_faction_rank
 					value = 2
 					compare = equals
 				}
@@ -1907,62 +2043,182 @@ scripted_gui = {
 					compare = equals
 				}
 			}
-			GER_parliament_legend_opp_slot_2_dnvp_icon_visible = {
+			GER_parliament_legend_opp_slot_2_dkp_icon_visible = {
 				NOT = {
-					has_country_flag = GER_parliament_dnvp_is_governing
+					has_country_flag = GER_parliament_dkp_is_governing
 				}
 				check_variable = {
-					var = GER_parliament_dnvp_faction_rank
+					var = GER_parliament_dkp_faction_rank
 					value = 2
 					compare = equals
 				}
 			}
-			GER_parliament_legend_opp_slot_2_dnvp_label_visible = {
+			GER_parliament_legend_opp_slot_2_dkp_label_visible = {
 				NOT = {
-					has_country_flag = GER_parliament_dnvp_is_governing
+					has_country_flag = GER_parliament_dkp_is_governing
 				}
 				check_variable = {
-					var = GER_parliament_dnvp_faction_rank
+					var = GER_parliament_dkp_faction_rank
 					value = 2
 					compare = equals
 				}
 			}
-			GER_parliament_legend_opp_slot_2_dnvp_seat_number_visible = {
+			GER_parliament_legend_opp_slot_2_dkp_seat_number_visible = {
 				NOT = {
-					has_country_flag = GER_parliament_dnvp_is_governing
+					has_country_flag = GER_parliament_dkp_is_governing
 				}
 				check_variable = {
-					var = GER_parliament_dnvp_faction_rank
+					var = GER_parliament_dkp_faction_rank
 					value = 2
 					compare = equals
 				}
 			}
-			GER_parliament_legend_opp_slot_2_dnvp_seat_unit_visible = {
+			GER_parliament_legend_opp_slot_2_dkp_seat_unit_visible = {
 				NOT = {
-					has_country_flag = GER_parliament_dnvp_is_governing
+					has_country_flag = GER_parliament_dkp_is_governing
 				}
 				check_variable = {
-					var = GER_parliament_dnvp_faction_rank
+					var = GER_parliament_dkp_faction_rank
 					value = 2
 					compare = equals
 				}
 			}
-			GER_parliament_legend_opp_slot_2_dnvp_support_label_visible = {
+			GER_parliament_legend_opp_slot_2_dkp_support_label_visible = {
 				NOT = {
-					has_country_flag = GER_parliament_dnvp_is_governing
+					has_country_flag = GER_parliament_dkp_is_governing
 				}
 				check_variable = {
-					var = GER_parliament_dnvp_faction_rank
+					var = GER_parliament_dkp_faction_rank
 					value = 2
 					compare = equals
 				}
 			}
-			GER_parliament_legend_opp_slot_2_dnvp_support_value_visible = {
+			GER_parliament_legend_opp_slot_2_dkp_support_value_visible = {
 				NOT = {
-					has_country_flag = GER_parliament_dnvp_is_governing
+					has_country_flag = GER_parliament_dkp_is_governing
 				}
 				check_variable = {
-					var = GER_parliament_dnvp_faction_rank
+					var = GER_parliament_dkp_faction_rank
+					value = 2
+					compare = equals
+				}
+			}
+			GER_parliament_legend_opp_slot_2_dvlp_icon_visible = {
+				NOT = {
+					has_country_flag = GER_parliament_dvlp_is_governing
+				}
+				check_variable = {
+					var = GER_parliament_dvlp_faction_rank
+					value = 2
+					compare = equals
+				}
+			}
+			GER_parliament_legend_opp_slot_2_dvlp_label_visible = {
+				NOT = {
+					has_country_flag = GER_parliament_dvlp_is_governing
+				}
+				check_variable = {
+					var = GER_parliament_dvlp_faction_rank
+					value = 2
+					compare = equals
+				}
+			}
+			GER_parliament_legend_opp_slot_2_dvlp_seat_number_visible = {
+				NOT = {
+					has_country_flag = GER_parliament_dvlp_is_governing
+				}
+				check_variable = {
+					var = GER_parliament_dvlp_faction_rank
+					value = 2
+					compare = equals
+				}
+			}
+			GER_parliament_legend_opp_slot_2_dvlp_seat_unit_visible = {
+				NOT = {
+					has_country_flag = GER_parliament_dvlp_is_governing
+				}
+				check_variable = {
+					var = GER_parliament_dvlp_faction_rank
+					value = 2
+					compare = equals
+				}
+			}
+			GER_parliament_legend_opp_slot_2_dvlp_support_label_visible = {
+				NOT = {
+					has_country_flag = GER_parliament_dvlp_is_governing
+				}
+				check_variable = {
+					var = GER_parliament_dvlp_faction_rank
+					value = 2
+					compare = equals
+				}
+			}
+			GER_parliament_legend_opp_slot_2_dvlp_support_value_visible = {
+				NOT = {
+					has_country_flag = GER_parliament_dvlp_is_governing
+				}
+				check_variable = {
+					var = GER_parliament_dvlp_faction_rank
+					value = 2
+					compare = equals
+				}
+			}
+			GER_parliament_legend_opp_slot_2_misc_icon_visible = {
+				NOT = {
+					has_country_flag = GER_parliament_misc_is_governing
+				}
+				check_variable = {
+					var = GER_parliament_misc_faction_rank
+					value = 2
+					compare = equals
+				}
+			}
+			GER_parliament_legend_opp_slot_2_misc_label_visible = {
+				NOT = {
+					has_country_flag = GER_parliament_misc_is_governing
+				}
+				check_variable = {
+					var = GER_parliament_misc_faction_rank
+					value = 2
+					compare = equals
+				}
+			}
+			GER_parliament_legend_opp_slot_2_misc_seat_number_visible = {
+				NOT = {
+					has_country_flag = GER_parliament_misc_is_governing
+				}
+				check_variable = {
+					var = GER_parliament_misc_faction_rank
+					value = 2
+					compare = equals
+				}
+			}
+			GER_parliament_legend_opp_slot_2_misc_seat_unit_visible = {
+				NOT = {
+					has_country_flag = GER_parliament_misc_is_governing
+				}
+				check_variable = {
+					var = GER_parliament_misc_faction_rank
+					value = 2
+					compare = equals
+				}
+			}
+			GER_parliament_legend_opp_slot_2_misc_support_label_visible = {
+				NOT = {
+					has_country_flag = GER_parliament_misc_is_governing
+				}
+				check_variable = {
+					var = GER_parliament_misc_faction_rank
+					value = 2
+					compare = equals
+				}
+			}
+			GER_parliament_legend_opp_slot_2_misc_support_value_visible = {
+				NOT = {
+					has_country_flag = GER_parliament_misc_is_governing
+				}
+				check_variable = {
+					var = GER_parliament_misc_faction_rank
 					value = 2
 					compare = equals
 				}
@@ -2015,50 +2271,50 @@ scripted_gui = {
 					compare = equals
 				}
 			}
-			GER_parliament_legend_gov_slot_3_sapd_icon_visible = {
-				has_country_flag = GER_parliament_sapd_is_governing
+			GER_parliament_legend_gov_slot_3_uspd_icon_visible = {
+				has_country_flag = GER_parliament_uspd_is_governing
 				check_variable = {
-					var = GER_parliament_sapd_faction_rank
+					var = GER_parliament_uspd_faction_rank
 					value = 3
 					compare = equals
 				}
 			}
-			GER_parliament_legend_gov_slot_3_sapd_label_visible = {
-				has_country_flag = GER_parliament_sapd_is_governing
+			GER_parliament_legend_gov_slot_3_uspd_label_visible = {
+				has_country_flag = GER_parliament_uspd_is_governing
 				check_variable = {
-					var = GER_parliament_sapd_faction_rank
+					var = GER_parliament_uspd_faction_rank
 					value = 3
 					compare = equals
 				}
 			}
-			GER_parliament_legend_gov_slot_3_sapd_seat_number_visible = {
-				has_country_flag = GER_parliament_sapd_is_governing
+			GER_parliament_legend_gov_slot_3_uspd_seat_number_visible = {
+				has_country_flag = GER_parliament_uspd_is_governing
 				check_variable = {
-					var = GER_parliament_sapd_faction_rank
+					var = GER_parliament_uspd_faction_rank
 					value = 3
 					compare = equals
 				}
 			}
-			GER_parliament_legend_gov_slot_3_sapd_seat_unit_visible = {
-				has_country_flag = GER_parliament_sapd_is_governing
+			GER_parliament_legend_gov_slot_3_uspd_seat_unit_visible = {
+				has_country_flag = GER_parliament_uspd_is_governing
 				check_variable = {
-					var = GER_parliament_sapd_faction_rank
+					var = GER_parliament_uspd_faction_rank
 					value = 3
 					compare = equals
 				}
 			}
-			GER_parliament_legend_gov_slot_3_sapd_support_label_visible = {
-				has_country_flag = GER_parliament_sapd_is_governing
+			GER_parliament_legend_gov_slot_3_uspd_support_label_visible = {
+				has_country_flag = GER_parliament_uspd_is_governing
 				check_variable = {
-					var = GER_parliament_sapd_faction_rank
+					var = GER_parliament_uspd_faction_rank
 					value = 3
 					compare = equals
 				}
 			}
-			GER_parliament_legend_gov_slot_3_sapd_support_value_visible = {
-				has_country_flag = GER_parliament_sapd_is_governing
+			GER_parliament_legend_gov_slot_3_uspd_support_value_visible = {
+				has_country_flag = GER_parliament_uspd_is_governing
 				check_variable = {
-					var = GER_parliament_sapd_faction_rank
+					var = GER_parliament_uspd_faction_rank
 					value = 3
 					compare = equals
 				}
@@ -2207,98 +2463,50 @@ scripted_gui = {
 					compare = equals
 				}
 			}
-			GER_parliament_legend_gov_slot_3_dkp_icon_visible = {
-				has_country_flag = GER_parliament_dkp_is_governing
+			GER_parliament_legend_gov_slot_3_nlp_icon_visible = {
+				has_country_flag = GER_parliament_nlp_is_governing
 				check_variable = {
-					var = GER_parliament_dkp_faction_rank
+					var = GER_parliament_nlp_faction_rank
 					value = 3
 					compare = equals
 				}
 			}
-			GER_parliament_legend_gov_slot_3_dkp_label_visible = {
-				has_country_flag = GER_parliament_dkp_is_governing
+			GER_parliament_legend_gov_slot_3_nlp_label_visible = {
+				has_country_flag = GER_parliament_nlp_is_governing
 				check_variable = {
-					var = GER_parliament_dkp_faction_rank
+					var = GER_parliament_nlp_faction_rank
 					value = 3
 					compare = equals
 				}
 			}
-			GER_parliament_legend_gov_slot_3_dkp_seat_number_visible = {
-				has_country_flag = GER_parliament_dkp_is_governing
+			GER_parliament_legend_gov_slot_3_nlp_seat_number_visible = {
+				has_country_flag = GER_parliament_nlp_is_governing
 				check_variable = {
-					var = GER_parliament_dkp_faction_rank
+					var = GER_parliament_nlp_faction_rank
 					value = 3
 					compare = equals
 				}
 			}
-			GER_parliament_legend_gov_slot_3_dkp_seat_unit_visible = {
-				has_country_flag = GER_parliament_dkp_is_governing
+			GER_parliament_legend_gov_slot_3_nlp_seat_unit_visible = {
+				has_country_flag = GER_parliament_nlp_is_governing
 				check_variable = {
-					var = GER_parliament_dkp_faction_rank
+					var = GER_parliament_nlp_faction_rank
 					value = 3
 					compare = equals
 				}
 			}
-			GER_parliament_legend_gov_slot_3_dkp_support_label_visible = {
-				has_country_flag = GER_parliament_dkp_is_governing
+			GER_parliament_legend_gov_slot_3_nlp_support_label_visible = {
+				has_country_flag = GER_parliament_nlp_is_governing
 				check_variable = {
-					var = GER_parliament_dkp_faction_rank
+					var = GER_parliament_nlp_faction_rank
 					value = 3
 					compare = equals
 				}
 			}
-			GER_parliament_legend_gov_slot_3_dkp_support_value_visible = {
-				has_country_flag = GER_parliament_dkp_is_governing
+			GER_parliament_legend_gov_slot_3_nlp_support_value_visible = {
+				has_country_flag = GER_parliament_nlp_is_governing
 				check_variable = {
-					var = GER_parliament_dkp_faction_rank
-					value = 3
-					compare = equals
-				}
-			}
-			GER_parliament_legend_gov_slot_3_drp_icon_visible = {
-				has_country_flag = GER_parliament_drp_is_governing
-				check_variable = {
-					var = GER_parliament_drp_faction_rank
-					value = 3
-					compare = equals
-				}
-			}
-			GER_parliament_legend_gov_slot_3_drp_label_visible = {
-				has_country_flag = GER_parliament_drp_is_governing
-				check_variable = {
-					var = GER_parliament_drp_faction_rank
-					value = 3
-					compare = equals
-				}
-			}
-			GER_parliament_legend_gov_slot_3_drp_seat_number_visible = {
-				has_country_flag = GER_parliament_drp_is_governing
-				check_variable = {
-					var = GER_parliament_drp_faction_rank
-					value = 3
-					compare = equals
-				}
-			}
-			GER_parliament_legend_gov_slot_3_drp_seat_unit_visible = {
-				has_country_flag = GER_parliament_drp_is_governing
-				check_variable = {
-					var = GER_parliament_drp_faction_rank
-					value = 3
-					compare = equals
-				}
-			}
-			GER_parliament_legend_gov_slot_3_drp_support_label_visible = {
-				has_country_flag = GER_parliament_drp_is_governing
-				check_variable = {
-					var = GER_parliament_drp_faction_rank
-					value = 3
-					compare = equals
-				}
-			}
-			GER_parliament_legend_gov_slot_3_drp_support_value_visible = {
-				has_country_flag = GER_parliament_drp_is_governing
-				check_variable = {
-					var = GER_parliament_drp_faction_rank
+					var = GER_parliament_nlp_faction_rank
 					value = 3
 					compare = equals
 				}
@@ -2351,50 +2559,146 @@ scripted_gui = {
 					compare = equals
 				}
 			}
-			GER_parliament_legend_gov_slot_3_dnvp_icon_visible = {
-				has_country_flag = GER_parliament_dnvp_is_governing
+			GER_parliament_legend_gov_slot_3_dkp_icon_visible = {
+				has_country_flag = GER_parliament_dkp_is_governing
 				check_variable = {
-					var = GER_parliament_dnvp_faction_rank
+					var = GER_parliament_dkp_faction_rank
 					value = 3
 					compare = equals
 				}
 			}
-			GER_parliament_legend_gov_slot_3_dnvp_label_visible = {
-				has_country_flag = GER_parliament_dnvp_is_governing
+			GER_parliament_legend_gov_slot_3_dkp_label_visible = {
+				has_country_flag = GER_parliament_dkp_is_governing
 				check_variable = {
-					var = GER_parliament_dnvp_faction_rank
+					var = GER_parliament_dkp_faction_rank
 					value = 3
 					compare = equals
 				}
 			}
-			GER_parliament_legend_gov_slot_3_dnvp_seat_number_visible = {
-				has_country_flag = GER_parliament_dnvp_is_governing
+			GER_parliament_legend_gov_slot_3_dkp_seat_number_visible = {
+				has_country_flag = GER_parliament_dkp_is_governing
 				check_variable = {
-					var = GER_parliament_dnvp_faction_rank
+					var = GER_parliament_dkp_faction_rank
 					value = 3
 					compare = equals
 				}
 			}
-			GER_parliament_legend_gov_slot_3_dnvp_seat_unit_visible = {
-				has_country_flag = GER_parliament_dnvp_is_governing
+			GER_parliament_legend_gov_slot_3_dkp_seat_unit_visible = {
+				has_country_flag = GER_parliament_dkp_is_governing
 				check_variable = {
-					var = GER_parliament_dnvp_faction_rank
+					var = GER_parliament_dkp_faction_rank
 					value = 3
 					compare = equals
 				}
 			}
-			GER_parliament_legend_gov_slot_3_dnvp_support_label_visible = {
-				has_country_flag = GER_parliament_dnvp_is_governing
+			GER_parliament_legend_gov_slot_3_dkp_support_label_visible = {
+				has_country_flag = GER_parliament_dkp_is_governing
 				check_variable = {
-					var = GER_parliament_dnvp_faction_rank
+					var = GER_parliament_dkp_faction_rank
 					value = 3
 					compare = equals
 				}
 			}
-			GER_parliament_legend_gov_slot_3_dnvp_support_value_visible = {
-				has_country_flag = GER_parliament_dnvp_is_governing
+			GER_parliament_legend_gov_slot_3_dkp_support_value_visible = {
+				has_country_flag = GER_parliament_dkp_is_governing
 				check_variable = {
-					var = GER_parliament_dnvp_faction_rank
+					var = GER_parliament_dkp_faction_rank
+					value = 3
+					compare = equals
+				}
+			}
+			GER_parliament_legend_gov_slot_3_dvlp_icon_visible = {
+				has_country_flag = GER_parliament_dvlp_is_governing
+				check_variable = {
+					var = GER_parliament_dvlp_faction_rank
+					value = 3
+					compare = equals
+				}
+			}
+			GER_parliament_legend_gov_slot_3_dvlp_label_visible = {
+				has_country_flag = GER_parliament_dvlp_is_governing
+				check_variable = {
+					var = GER_parliament_dvlp_faction_rank
+					value = 3
+					compare = equals
+				}
+			}
+			GER_parliament_legend_gov_slot_3_dvlp_seat_number_visible = {
+				has_country_flag = GER_parliament_dvlp_is_governing
+				check_variable = {
+					var = GER_parliament_dvlp_faction_rank
+					value = 3
+					compare = equals
+				}
+			}
+			GER_parliament_legend_gov_slot_3_dvlp_seat_unit_visible = {
+				has_country_flag = GER_parliament_dvlp_is_governing
+				check_variable = {
+					var = GER_parliament_dvlp_faction_rank
+					value = 3
+					compare = equals
+				}
+			}
+			GER_parliament_legend_gov_slot_3_dvlp_support_label_visible = {
+				has_country_flag = GER_parliament_dvlp_is_governing
+				check_variable = {
+					var = GER_parliament_dvlp_faction_rank
+					value = 3
+					compare = equals
+				}
+			}
+			GER_parliament_legend_gov_slot_3_dvlp_support_value_visible = {
+				has_country_flag = GER_parliament_dvlp_is_governing
+				check_variable = {
+					var = GER_parliament_dvlp_faction_rank
+					value = 3
+					compare = equals
+				}
+			}
+			GER_parliament_legend_gov_slot_3_misc_icon_visible = {
+				has_country_flag = GER_parliament_misc_is_governing
+				check_variable = {
+					var = GER_parliament_misc_faction_rank
+					value = 3
+					compare = equals
+				}
+			}
+			GER_parliament_legend_gov_slot_3_misc_label_visible = {
+				has_country_flag = GER_parliament_misc_is_governing
+				check_variable = {
+					var = GER_parliament_misc_faction_rank
+					value = 3
+					compare = equals
+				}
+			}
+			GER_parliament_legend_gov_slot_3_misc_seat_number_visible = {
+				has_country_flag = GER_parliament_misc_is_governing
+				check_variable = {
+					var = GER_parliament_misc_faction_rank
+					value = 3
+					compare = equals
+				}
+			}
+			GER_parliament_legend_gov_slot_3_misc_seat_unit_visible = {
+				has_country_flag = GER_parliament_misc_is_governing
+				check_variable = {
+					var = GER_parliament_misc_faction_rank
+					value = 3
+					compare = equals
+				}
+			}
+			GER_parliament_legend_gov_slot_3_misc_support_label_visible = {
+				has_country_flag = GER_parliament_misc_is_governing
+				check_variable = {
+					var = GER_parliament_misc_faction_rank
+					value = 3
+					compare = equals
+				}
+			}
+			GER_parliament_legend_gov_slot_3_misc_support_value_visible = {
+				has_country_flag = GER_parliament_misc_is_governing
+				check_variable = {
+					var = GER_parliament_misc_faction_rank
 					value = 3
 					compare = equals
 				}
@@ -2459,62 +2763,62 @@ scripted_gui = {
 					compare = equals
 				}
 			}
-			GER_parliament_legend_opp_slot_3_sapd_icon_visible = {
+			GER_parliament_legend_opp_slot_3_uspd_icon_visible = {
 				NOT = {
-					has_country_flag = GER_parliament_sapd_is_governing
+					has_country_flag = GER_parliament_uspd_is_governing
 				}
 				check_variable = {
-					var = GER_parliament_sapd_faction_rank
+					var = GER_parliament_uspd_faction_rank
 					value = 3
 					compare = equals
 				}
 			}
-			GER_parliament_legend_opp_slot_3_sapd_label_visible = {
+			GER_parliament_legend_opp_slot_3_uspd_label_visible = {
 				NOT = {
-					has_country_flag = GER_parliament_sapd_is_governing
+					has_country_flag = GER_parliament_uspd_is_governing
 				}
 				check_variable = {
-					var = GER_parliament_sapd_faction_rank
+					var = GER_parliament_uspd_faction_rank
 					value = 3
 					compare = equals
 				}
 			}
-			GER_parliament_legend_opp_slot_3_sapd_seat_number_visible = {
+			GER_parliament_legend_opp_slot_3_uspd_seat_number_visible = {
 				NOT = {
-					has_country_flag = GER_parliament_sapd_is_governing
+					has_country_flag = GER_parliament_uspd_is_governing
 				}
 				check_variable = {
-					var = GER_parliament_sapd_faction_rank
+					var = GER_parliament_uspd_faction_rank
 					value = 3
 					compare = equals
 				}
 			}
-			GER_parliament_legend_opp_slot_3_sapd_seat_unit_visible = {
+			GER_parliament_legend_opp_slot_3_uspd_seat_unit_visible = {
 				NOT = {
-					has_country_flag = GER_parliament_sapd_is_governing
+					has_country_flag = GER_parliament_uspd_is_governing
 				}
 				check_variable = {
-					var = GER_parliament_sapd_faction_rank
+					var = GER_parliament_uspd_faction_rank
 					value = 3
 					compare = equals
 				}
 			}
-			GER_parliament_legend_opp_slot_3_sapd_support_label_visible = {
+			GER_parliament_legend_opp_slot_3_uspd_support_label_visible = {
 				NOT = {
-					has_country_flag = GER_parliament_sapd_is_governing
+					has_country_flag = GER_parliament_uspd_is_governing
 				}
 				check_variable = {
-					var = GER_parliament_sapd_faction_rank
+					var = GER_parliament_uspd_faction_rank
 					value = 3
 					compare = equals
 				}
 			}
-			GER_parliament_legend_opp_slot_3_sapd_support_value_visible = {
+			GER_parliament_legend_opp_slot_3_uspd_support_value_visible = {
 				NOT = {
-					has_country_flag = GER_parliament_sapd_is_governing
+					has_country_flag = GER_parliament_uspd_is_governing
 				}
 				check_variable = {
-					var = GER_parliament_sapd_faction_rank
+					var = GER_parliament_uspd_faction_rank
 					value = 3
 					compare = equals
 				}
@@ -2699,122 +3003,62 @@ scripted_gui = {
 					compare = equals
 				}
 			}
-			GER_parliament_legend_opp_slot_3_dkp_icon_visible = {
+			GER_parliament_legend_opp_slot_3_nlp_icon_visible = {
 				NOT = {
-					has_country_flag = GER_parliament_dkp_is_governing
+					has_country_flag = GER_parliament_nlp_is_governing
 				}
 				check_variable = {
-					var = GER_parliament_dkp_faction_rank
+					var = GER_parliament_nlp_faction_rank
 					value = 3
 					compare = equals
 				}
 			}
-			GER_parliament_legend_opp_slot_3_dkp_label_visible = {
+			GER_parliament_legend_opp_slot_3_nlp_label_visible = {
 				NOT = {
-					has_country_flag = GER_parliament_dkp_is_governing
+					has_country_flag = GER_parliament_nlp_is_governing
 				}
 				check_variable = {
-					var = GER_parliament_dkp_faction_rank
+					var = GER_parliament_nlp_faction_rank
 					value = 3
 					compare = equals
 				}
 			}
-			GER_parliament_legend_opp_slot_3_dkp_seat_number_visible = {
+			GER_parliament_legend_opp_slot_3_nlp_seat_number_visible = {
 				NOT = {
-					has_country_flag = GER_parliament_dkp_is_governing
+					has_country_flag = GER_parliament_nlp_is_governing
 				}
 				check_variable = {
-					var = GER_parliament_dkp_faction_rank
+					var = GER_parliament_nlp_faction_rank
 					value = 3
 					compare = equals
 				}
 			}
-			GER_parliament_legend_opp_slot_3_dkp_seat_unit_visible = {
+			GER_parliament_legend_opp_slot_3_nlp_seat_unit_visible = {
 				NOT = {
-					has_country_flag = GER_parliament_dkp_is_governing
+					has_country_flag = GER_parliament_nlp_is_governing
 				}
 				check_variable = {
-					var = GER_parliament_dkp_faction_rank
+					var = GER_parliament_nlp_faction_rank
 					value = 3
 					compare = equals
 				}
 			}
-			GER_parliament_legend_opp_slot_3_dkp_support_label_visible = {
+			GER_parliament_legend_opp_slot_3_nlp_support_label_visible = {
 				NOT = {
-					has_country_flag = GER_parliament_dkp_is_governing
+					has_country_flag = GER_parliament_nlp_is_governing
 				}
 				check_variable = {
-					var = GER_parliament_dkp_faction_rank
+					var = GER_parliament_nlp_faction_rank
 					value = 3
 					compare = equals
 				}
 			}
-			GER_parliament_legend_opp_slot_3_dkp_support_value_visible = {
+			GER_parliament_legend_opp_slot_3_nlp_support_value_visible = {
 				NOT = {
-					has_country_flag = GER_parliament_dkp_is_governing
+					has_country_flag = GER_parliament_nlp_is_governing
 				}
 				check_variable = {
-					var = GER_parliament_dkp_faction_rank
-					value = 3
-					compare = equals
-				}
-			}
-			GER_parliament_legend_opp_slot_3_drp_icon_visible = {
-				NOT = {
-					has_country_flag = GER_parliament_drp_is_governing
-				}
-				check_variable = {
-					var = GER_parliament_drp_faction_rank
-					value = 3
-					compare = equals
-				}
-			}
-			GER_parliament_legend_opp_slot_3_drp_label_visible = {
-				NOT = {
-					has_country_flag = GER_parliament_drp_is_governing
-				}
-				check_variable = {
-					var = GER_parliament_drp_faction_rank
-					value = 3
-					compare = equals
-				}
-			}
-			GER_parliament_legend_opp_slot_3_drp_seat_number_visible = {
-				NOT = {
-					has_country_flag = GER_parliament_drp_is_governing
-				}
-				check_variable = {
-					var = GER_parliament_drp_faction_rank
-					value = 3
-					compare = equals
-				}
-			}
-			GER_parliament_legend_opp_slot_3_drp_seat_unit_visible = {
-				NOT = {
-					has_country_flag = GER_parliament_drp_is_governing
-				}
-				check_variable = {
-					var = GER_parliament_drp_faction_rank
-					value = 3
-					compare = equals
-				}
-			}
-			GER_parliament_legend_opp_slot_3_drp_support_label_visible = {
-				NOT = {
-					has_country_flag = GER_parliament_drp_is_governing
-				}
-				check_variable = {
-					var = GER_parliament_drp_faction_rank
-					value = 3
-					compare = equals
-				}
-			}
-			GER_parliament_legend_opp_slot_3_drp_support_value_visible = {
-				NOT = {
-					has_country_flag = GER_parliament_drp_is_governing
-				}
-				check_variable = {
-					var = GER_parliament_drp_faction_rank
+					var = GER_parliament_nlp_faction_rank
 					value = 3
 					compare = equals
 				}
@@ -2879,62 +3123,182 @@ scripted_gui = {
 					compare = equals
 				}
 			}
-			GER_parliament_legend_opp_slot_3_dnvp_icon_visible = {
+			GER_parliament_legend_opp_slot_3_dkp_icon_visible = {
 				NOT = {
-					has_country_flag = GER_parliament_dnvp_is_governing
+					has_country_flag = GER_parliament_dkp_is_governing
 				}
 				check_variable = {
-					var = GER_parliament_dnvp_faction_rank
+					var = GER_parliament_dkp_faction_rank
 					value = 3
 					compare = equals
 				}
 			}
-			GER_parliament_legend_opp_slot_3_dnvp_label_visible = {
+			GER_parliament_legend_opp_slot_3_dkp_label_visible = {
 				NOT = {
-					has_country_flag = GER_parliament_dnvp_is_governing
+					has_country_flag = GER_parliament_dkp_is_governing
 				}
 				check_variable = {
-					var = GER_parliament_dnvp_faction_rank
+					var = GER_parliament_dkp_faction_rank
 					value = 3
 					compare = equals
 				}
 			}
-			GER_parliament_legend_opp_slot_3_dnvp_seat_number_visible = {
+			GER_parliament_legend_opp_slot_3_dkp_seat_number_visible = {
 				NOT = {
-					has_country_flag = GER_parliament_dnvp_is_governing
+					has_country_flag = GER_parliament_dkp_is_governing
 				}
 				check_variable = {
-					var = GER_parliament_dnvp_faction_rank
+					var = GER_parliament_dkp_faction_rank
 					value = 3
 					compare = equals
 				}
 			}
-			GER_parliament_legend_opp_slot_3_dnvp_seat_unit_visible = {
+			GER_parliament_legend_opp_slot_3_dkp_seat_unit_visible = {
 				NOT = {
-					has_country_flag = GER_parliament_dnvp_is_governing
+					has_country_flag = GER_parliament_dkp_is_governing
 				}
 				check_variable = {
-					var = GER_parliament_dnvp_faction_rank
+					var = GER_parliament_dkp_faction_rank
 					value = 3
 					compare = equals
 				}
 			}
-			GER_parliament_legend_opp_slot_3_dnvp_support_label_visible = {
+			GER_parliament_legend_opp_slot_3_dkp_support_label_visible = {
 				NOT = {
-					has_country_flag = GER_parliament_dnvp_is_governing
+					has_country_flag = GER_parliament_dkp_is_governing
 				}
 				check_variable = {
-					var = GER_parliament_dnvp_faction_rank
+					var = GER_parliament_dkp_faction_rank
 					value = 3
 					compare = equals
 				}
 			}
-			GER_parliament_legend_opp_slot_3_dnvp_support_value_visible = {
+			GER_parliament_legend_opp_slot_3_dkp_support_value_visible = {
 				NOT = {
-					has_country_flag = GER_parliament_dnvp_is_governing
+					has_country_flag = GER_parliament_dkp_is_governing
 				}
 				check_variable = {
-					var = GER_parliament_dnvp_faction_rank
+					var = GER_parliament_dkp_faction_rank
+					value = 3
+					compare = equals
+				}
+			}
+			GER_parliament_legend_opp_slot_3_dvlp_icon_visible = {
+				NOT = {
+					has_country_flag = GER_parliament_dvlp_is_governing
+				}
+				check_variable = {
+					var = GER_parliament_dvlp_faction_rank
+					value = 3
+					compare = equals
+				}
+			}
+			GER_parliament_legend_opp_slot_3_dvlp_label_visible = {
+				NOT = {
+					has_country_flag = GER_parliament_dvlp_is_governing
+				}
+				check_variable = {
+					var = GER_parliament_dvlp_faction_rank
+					value = 3
+					compare = equals
+				}
+			}
+			GER_parliament_legend_opp_slot_3_dvlp_seat_number_visible = {
+				NOT = {
+					has_country_flag = GER_parliament_dvlp_is_governing
+				}
+				check_variable = {
+					var = GER_parliament_dvlp_faction_rank
+					value = 3
+					compare = equals
+				}
+			}
+			GER_parliament_legend_opp_slot_3_dvlp_seat_unit_visible = {
+				NOT = {
+					has_country_flag = GER_parliament_dvlp_is_governing
+				}
+				check_variable = {
+					var = GER_parliament_dvlp_faction_rank
+					value = 3
+					compare = equals
+				}
+			}
+			GER_parliament_legend_opp_slot_3_dvlp_support_label_visible = {
+				NOT = {
+					has_country_flag = GER_parliament_dvlp_is_governing
+				}
+				check_variable = {
+					var = GER_parliament_dvlp_faction_rank
+					value = 3
+					compare = equals
+				}
+			}
+			GER_parliament_legend_opp_slot_3_dvlp_support_value_visible = {
+				NOT = {
+					has_country_flag = GER_parliament_dvlp_is_governing
+				}
+				check_variable = {
+					var = GER_parliament_dvlp_faction_rank
+					value = 3
+					compare = equals
+				}
+			}
+			GER_parliament_legend_opp_slot_3_misc_icon_visible = {
+				NOT = {
+					has_country_flag = GER_parliament_misc_is_governing
+				}
+				check_variable = {
+					var = GER_parliament_misc_faction_rank
+					value = 3
+					compare = equals
+				}
+			}
+			GER_parliament_legend_opp_slot_3_misc_label_visible = {
+				NOT = {
+					has_country_flag = GER_parliament_misc_is_governing
+				}
+				check_variable = {
+					var = GER_parliament_misc_faction_rank
+					value = 3
+					compare = equals
+				}
+			}
+			GER_parliament_legend_opp_slot_3_misc_seat_number_visible = {
+				NOT = {
+					has_country_flag = GER_parliament_misc_is_governing
+				}
+				check_variable = {
+					var = GER_parliament_misc_faction_rank
+					value = 3
+					compare = equals
+				}
+			}
+			GER_parliament_legend_opp_slot_3_misc_seat_unit_visible = {
+				NOT = {
+					has_country_flag = GER_parliament_misc_is_governing
+				}
+				check_variable = {
+					var = GER_parliament_misc_faction_rank
+					value = 3
+					compare = equals
+				}
+			}
+			GER_parliament_legend_opp_slot_3_misc_support_label_visible = {
+				NOT = {
+					has_country_flag = GER_parliament_misc_is_governing
+				}
+				check_variable = {
+					var = GER_parliament_misc_faction_rank
+					value = 3
+					compare = equals
+				}
+			}
+			GER_parliament_legend_opp_slot_3_misc_support_value_visible = {
+				NOT = {
+					has_country_flag = GER_parliament_misc_is_governing
+				}
+				check_variable = {
+					var = GER_parliament_misc_faction_rank
 					value = 3
 					compare = equals
 				}
@@ -2987,50 +3351,50 @@ scripted_gui = {
 					compare = equals
 				}
 			}
-			GER_parliament_legend_gov_slot_4_sapd_icon_visible = {
-				has_country_flag = GER_parliament_sapd_is_governing
+			GER_parliament_legend_gov_slot_4_uspd_icon_visible = {
+				has_country_flag = GER_parliament_uspd_is_governing
 				check_variable = {
-					var = GER_parliament_sapd_faction_rank
+					var = GER_parliament_uspd_faction_rank
 					value = 4
 					compare = equals
 				}
 			}
-			GER_parliament_legend_gov_slot_4_sapd_label_visible = {
-				has_country_flag = GER_parliament_sapd_is_governing
+			GER_parliament_legend_gov_slot_4_uspd_label_visible = {
+				has_country_flag = GER_parliament_uspd_is_governing
 				check_variable = {
-					var = GER_parliament_sapd_faction_rank
+					var = GER_parliament_uspd_faction_rank
 					value = 4
 					compare = equals
 				}
 			}
-			GER_parliament_legend_gov_slot_4_sapd_seat_number_visible = {
-				has_country_flag = GER_parliament_sapd_is_governing
+			GER_parliament_legend_gov_slot_4_uspd_seat_number_visible = {
+				has_country_flag = GER_parliament_uspd_is_governing
 				check_variable = {
-					var = GER_parliament_sapd_faction_rank
+					var = GER_parliament_uspd_faction_rank
 					value = 4
 					compare = equals
 				}
 			}
-			GER_parliament_legend_gov_slot_4_sapd_seat_unit_visible = {
-				has_country_flag = GER_parliament_sapd_is_governing
+			GER_parliament_legend_gov_slot_4_uspd_seat_unit_visible = {
+				has_country_flag = GER_parliament_uspd_is_governing
 				check_variable = {
-					var = GER_parliament_sapd_faction_rank
+					var = GER_parliament_uspd_faction_rank
 					value = 4
 					compare = equals
 				}
 			}
-			GER_parliament_legend_gov_slot_4_sapd_support_label_visible = {
-				has_country_flag = GER_parliament_sapd_is_governing
+			GER_parliament_legend_gov_slot_4_uspd_support_label_visible = {
+				has_country_flag = GER_parliament_uspd_is_governing
 				check_variable = {
-					var = GER_parliament_sapd_faction_rank
+					var = GER_parliament_uspd_faction_rank
 					value = 4
 					compare = equals
 				}
 			}
-			GER_parliament_legend_gov_slot_4_sapd_support_value_visible = {
-				has_country_flag = GER_parliament_sapd_is_governing
+			GER_parliament_legend_gov_slot_4_uspd_support_value_visible = {
+				has_country_flag = GER_parliament_uspd_is_governing
 				check_variable = {
-					var = GER_parliament_sapd_faction_rank
+					var = GER_parliament_uspd_faction_rank
 					value = 4
 					compare = equals
 				}
@@ -3179,98 +3543,50 @@ scripted_gui = {
 					compare = equals
 				}
 			}
-			GER_parliament_legend_gov_slot_4_dkp_icon_visible = {
-				has_country_flag = GER_parliament_dkp_is_governing
+			GER_parliament_legend_gov_slot_4_nlp_icon_visible = {
+				has_country_flag = GER_parliament_nlp_is_governing
 				check_variable = {
-					var = GER_parliament_dkp_faction_rank
+					var = GER_parliament_nlp_faction_rank
 					value = 4
 					compare = equals
 				}
 			}
-			GER_parliament_legend_gov_slot_4_dkp_label_visible = {
-				has_country_flag = GER_parliament_dkp_is_governing
+			GER_parliament_legend_gov_slot_4_nlp_label_visible = {
+				has_country_flag = GER_parliament_nlp_is_governing
 				check_variable = {
-					var = GER_parliament_dkp_faction_rank
+					var = GER_parliament_nlp_faction_rank
 					value = 4
 					compare = equals
 				}
 			}
-			GER_parliament_legend_gov_slot_4_dkp_seat_number_visible = {
-				has_country_flag = GER_parliament_dkp_is_governing
+			GER_parliament_legend_gov_slot_4_nlp_seat_number_visible = {
+				has_country_flag = GER_parliament_nlp_is_governing
 				check_variable = {
-					var = GER_parliament_dkp_faction_rank
+					var = GER_parliament_nlp_faction_rank
 					value = 4
 					compare = equals
 				}
 			}
-			GER_parliament_legend_gov_slot_4_dkp_seat_unit_visible = {
-				has_country_flag = GER_parliament_dkp_is_governing
+			GER_parliament_legend_gov_slot_4_nlp_seat_unit_visible = {
+				has_country_flag = GER_parliament_nlp_is_governing
 				check_variable = {
-					var = GER_parliament_dkp_faction_rank
+					var = GER_parliament_nlp_faction_rank
 					value = 4
 					compare = equals
 				}
 			}
-			GER_parliament_legend_gov_slot_4_dkp_support_label_visible = {
-				has_country_flag = GER_parliament_dkp_is_governing
+			GER_parliament_legend_gov_slot_4_nlp_support_label_visible = {
+				has_country_flag = GER_parliament_nlp_is_governing
 				check_variable = {
-					var = GER_parliament_dkp_faction_rank
+					var = GER_parliament_nlp_faction_rank
 					value = 4
 					compare = equals
 				}
 			}
-			GER_parliament_legend_gov_slot_4_dkp_support_value_visible = {
-				has_country_flag = GER_parliament_dkp_is_governing
+			GER_parliament_legend_gov_slot_4_nlp_support_value_visible = {
+				has_country_flag = GER_parliament_nlp_is_governing
 				check_variable = {
-					var = GER_parliament_dkp_faction_rank
-					value = 4
-					compare = equals
-				}
-			}
-			GER_parliament_legend_gov_slot_4_drp_icon_visible = {
-				has_country_flag = GER_parliament_drp_is_governing
-				check_variable = {
-					var = GER_parliament_drp_faction_rank
-					value = 4
-					compare = equals
-				}
-			}
-			GER_parliament_legend_gov_slot_4_drp_label_visible = {
-				has_country_flag = GER_parliament_drp_is_governing
-				check_variable = {
-					var = GER_parliament_drp_faction_rank
-					value = 4
-					compare = equals
-				}
-			}
-			GER_parliament_legend_gov_slot_4_drp_seat_number_visible = {
-				has_country_flag = GER_parliament_drp_is_governing
-				check_variable = {
-					var = GER_parliament_drp_faction_rank
-					value = 4
-					compare = equals
-				}
-			}
-			GER_parliament_legend_gov_slot_4_drp_seat_unit_visible = {
-				has_country_flag = GER_parliament_drp_is_governing
-				check_variable = {
-					var = GER_parliament_drp_faction_rank
-					value = 4
-					compare = equals
-				}
-			}
-			GER_parliament_legend_gov_slot_4_drp_support_label_visible = {
-				has_country_flag = GER_parliament_drp_is_governing
-				check_variable = {
-					var = GER_parliament_drp_faction_rank
-					value = 4
-					compare = equals
-				}
-			}
-			GER_parliament_legend_gov_slot_4_drp_support_value_visible = {
-				has_country_flag = GER_parliament_drp_is_governing
-				check_variable = {
-					var = GER_parliament_drp_faction_rank
+					var = GER_parliament_nlp_faction_rank
 					value = 4
 					compare = equals
 				}
@@ -3323,50 +3639,146 @@ scripted_gui = {
 					compare = equals
 				}
 			}
-			GER_parliament_legend_gov_slot_4_dnvp_icon_visible = {
-				has_country_flag = GER_parliament_dnvp_is_governing
+			GER_parliament_legend_gov_slot_4_dkp_icon_visible = {
+				has_country_flag = GER_parliament_dkp_is_governing
 				check_variable = {
-					var = GER_parliament_dnvp_faction_rank
+					var = GER_parliament_dkp_faction_rank
 					value = 4
 					compare = equals
 				}
 			}
-			GER_parliament_legend_gov_slot_4_dnvp_label_visible = {
-				has_country_flag = GER_parliament_dnvp_is_governing
+			GER_parliament_legend_gov_slot_4_dkp_label_visible = {
+				has_country_flag = GER_parliament_dkp_is_governing
 				check_variable = {
-					var = GER_parliament_dnvp_faction_rank
+					var = GER_parliament_dkp_faction_rank
 					value = 4
 					compare = equals
 				}
 			}
-			GER_parliament_legend_gov_slot_4_dnvp_seat_number_visible = {
-				has_country_flag = GER_parliament_dnvp_is_governing
+			GER_parliament_legend_gov_slot_4_dkp_seat_number_visible = {
+				has_country_flag = GER_parliament_dkp_is_governing
 				check_variable = {
-					var = GER_parliament_dnvp_faction_rank
+					var = GER_parliament_dkp_faction_rank
 					value = 4
 					compare = equals
 				}
 			}
-			GER_parliament_legend_gov_slot_4_dnvp_seat_unit_visible = {
-				has_country_flag = GER_parliament_dnvp_is_governing
+			GER_parliament_legend_gov_slot_4_dkp_seat_unit_visible = {
+				has_country_flag = GER_parliament_dkp_is_governing
 				check_variable = {
-					var = GER_parliament_dnvp_faction_rank
+					var = GER_parliament_dkp_faction_rank
 					value = 4
 					compare = equals
 				}
 			}
-			GER_parliament_legend_gov_slot_4_dnvp_support_label_visible = {
-				has_country_flag = GER_parliament_dnvp_is_governing
+			GER_parliament_legend_gov_slot_4_dkp_support_label_visible = {
+				has_country_flag = GER_parliament_dkp_is_governing
 				check_variable = {
-					var = GER_parliament_dnvp_faction_rank
+					var = GER_parliament_dkp_faction_rank
 					value = 4
 					compare = equals
 				}
 			}
-			GER_parliament_legend_gov_slot_4_dnvp_support_value_visible = {
-				has_country_flag = GER_parliament_dnvp_is_governing
+			GER_parliament_legend_gov_slot_4_dkp_support_value_visible = {
+				has_country_flag = GER_parliament_dkp_is_governing
 				check_variable = {
-					var = GER_parliament_dnvp_faction_rank
+					var = GER_parliament_dkp_faction_rank
+					value = 4
+					compare = equals
+				}
+			}
+			GER_parliament_legend_gov_slot_4_dvlp_icon_visible = {
+				has_country_flag = GER_parliament_dvlp_is_governing
+				check_variable = {
+					var = GER_parliament_dvlp_faction_rank
+					value = 4
+					compare = equals
+				}
+			}
+			GER_parliament_legend_gov_slot_4_dvlp_label_visible = {
+				has_country_flag = GER_parliament_dvlp_is_governing
+				check_variable = {
+					var = GER_parliament_dvlp_faction_rank
+					value = 4
+					compare = equals
+				}
+			}
+			GER_parliament_legend_gov_slot_4_dvlp_seat_number_visible = {
+				has_country_flag = GER_parliament_dvlp_is_governing
+				check_variable = {
+					var = GER_parliament_dvlp_faction_rank
+					value = 4
+					compare = equals
+				}
+			}
+			GER_parliament_legend_gov_slot_4_dvlp_seat_unit_visible = {
+				has_country_flag = GER_parliament_dvlp_is_governing
+				check_variable = {
+					var = GER_parliament_dvlp_faction_rank
+					value = 4
+					compare = equals
+				}
+			}
+			GER_parliament_legend_gov_slot_4_dvlp_support_label_visible = {
+				has_country_flag = GER_parliament_dvlp_is_governing
+				check_variable = {
+					var = GER_parliament_dvlp_faction_rank
+					value = 4
+					compare = equals
+				}
+			}
+			GER_parliament_legend_gov_slot_4_dvlp_support_value_visible = {
+				has_country_flag = GER_parliament_dvlp_is_governing
+				check_variable = {
+					var = GER_parliament_dvlp_faction_rank
+					value = 4
+					compare = equals
+				}
+			}
+			GER_parliament_legend_gov_slot_4_misc_icon_visible = {
+				has_country_flag = GER_parliament_misc_is_governing
+				check_variable = {
+					var = GER_parliament_misc_faction_rank
+					value = 4
+					compare = equals
+				}
+			}
+			GER_parliament_legend_gov_slot_4_misc_label_visible = {
+				has_country_flag = GER_parliament_misc_is_governing
+				check_variable = {
+					var = GER_parliament_misc_faction_rank
+					value = 4
+					compare = equals
+				}
+			}
+			GER_parliament_legend_gov_slot_4_misc_seat_number_visible = {
+				has_country_flag = GER_parliament_misc_is_governing
+				check_variable = {
+					var = GER_parliament_misc_faction_rank
+					value = 4
+					compare = equals
+				}
+			}
+			GER_parliament_legend_gov_slot_4_misc_seat_unit_visible = {
+				has_country_flag = GER_parliament_misc_is_governing
+				check_variable = {
+					var = GER_parliament_misc_faction_rank
+					value = 4
+					compare = equals
+				}
+			}
+			GER_parliament_legend_gov_slot_4_misc_support_label_visible = {
+				has_country_flag = GER_parliament_misc_is_governing
+				check_variable = {
+					var = GER_parliament_misc_faction_rank
+					value = 4
+					compare = equals
+				}
+			}
+			GER_parliament_legend_gov_slot_4_misc_support_value_visible = {
+				has_country_flag = GER_parliament_misc_is_governing
+				check_variable = {
+					var = GER_parliament_misc_faction_rank
 					value = 4
 					compare = equals
 				}
@@ -3431,62 +3843,62 @@ scripted_gui = {
 					compare = equals
 				}
 			}
-			GER_parliament_legend_opp_slot_4_sapd_icon_visible = {
+			GER_parliament_legend_opp_slot_4_uspd_icon_visible = {
 				NOT = {
-					has_country_flag = GER_parliament_sapd_is_governing
+					has_country_flag = GER_parliament_uspd_is_governing
 				}
 				check_variable = {
-					var = GER_parliament_sapd_faction_rank
+					var = GER_parliament_uspd_faction_rank
 					value = 4
 					compare = equals
 				}
 			}
-			GER_parliament_legend_opp_slot_4_sapd_label_visible = {
+			GER_parliament_legend_opp_slot_4_uspd_label_visible = {
 				NOT = {
-					has_country_flag = GER_parliament_sapd_is_governing
+					has_country_flag = GER_parliament_uspd_is_governing
 				}
 				check_variable = {
-					var = GER_parliament_sapd_faction_rank
+					var = GER_parliament_uspd_faction_rank
 					value = 4
 					compare = equals
 				}
 			}
-			GER_parliament_legend_opp_slot_4_sapd_seat_number_visible = {
+			GER_parliament_legend_opp_slot_4_uspd_seat_number_visible = {
 				NOT = {
-					has_country_flag = GER_parliament_sapd_is_governing
+					has_country_flag = GER_parliament_uspd_is_governing
 				}
 				check_variable = {
-					var = GER_parliament_sapd_faction_rank
+					var = GER_parliament_uspd_faction_rank
 					value = 4
 					compare = equals
 				}
 			}
-			GER_parliament_legend_opp_slot_4_sapd_seat_unit_visible = {
+			GER_parliament_legend_opp_slot_4_uspd_seat_unit_visible = {
 				NOT = {
-					has_country_flag = GER_parliament_sapd_is_governing
+					has_country_flag = GER_parliament_uspd_is_governing
 				}
 				check_variable = {
-					var = GER_parliament_sapd_faction_rank
+					var = GER_parliament_uspd_faction_rank
 					value = 4
 					compare = equals
 				}
 			}
-			GER_parliament_legend_opp_slot_4_sapd_support_label_visible = {
+			GER_parliament_legend_opp_slot_4_uspd_support_label_visible = {
 				NOT = {
-					has_country_flag = GER_parliament_sapd_is_governing
+					has_country_flag = GER_parliament_uspd_is_governing
 				}
 				check_variable = {
-					var = GER_parliament_sapd_faction_rank
+					var = GER_parliament_uspd_faction_rank
 					value = 4
 					compare = equals
 				}
 			}
-			GER_parliament_legend_opp_slot_4_sapd_support_value_visible = {
+			GER_parliament_legend_opp_slot_4_uspd_support_value_visible = {
 				NOT = {
-					has_country_flag = GER_parliament_sapd_is_governing
+					has_country_flag = GER_parliament_uspd_is_governing
 				}
 				check_variable = {
-					var = GER_parliament_sapd_faction_rank
+					var = GER_parliament_uspd_faction_rank
 					value = 4
 					compare = equals
 				}
@@ -3671,122 +4083,62 @@ scripted_gui = {
 					compare = equals
 				}
 			}
-			GER_parliament_legend_opp_slot_4_dkp_icon_visible = {
+			GER_parliament_legend_opp_slot_4_nlp_icon_visible = {
 				NOT = {
-					has_country_flag = GER_parliament_dkp_is_governing
+					has_country_flag = GER_parliament_nlp_is_governing
 				}
 				check_variable = {
-					var = GER_parliament_dkp_faction_rank
+					var = GER_parliament_nlp_faction_rank
 					value = 4
 					compare = equals
 				}
 			}
-			GER_parliament_legend_opp_slot_4_dkp_label_visible = {
+			GER_parliament_legend_opp_slot_4_nlp_label_visible = {
 				NOT = {
-					has_country_flag = GER_parliament_dkp_is_governing
+					has_country_flag = GER_parliament_nlp_is_governing
 				}
 				check_variable = {
-					var = GER_parliament_dkp_faction_rank
+					var = GER_parliament_nlp_faction_rank
 					value = 4
 					compare = equals
 				}
 			}
-			GER_parliament_legend_opp_slot_4_dkp_seat_number_visible = {
+			GER_parliament_legend_opp_slot_4_nlp_seat_number_visible = {
 				NOT = {
-					has_country_flag = GER_parliament_dkp_is_governing
+					has_country_flag = GER_parliament_nlp_is_governing
 				}
 				check_variable = {
-					var = GER_parliament_dkp_faction_rank
+					var = GER_parliament_nlp_faction_rank
 					value = 4
 					compare = equals
 				}
 			}
-			GER_parliament_legend_opp_slot_4_dkp_seat_unit_visible = {
+			GER_parliament_legend_opp_slot_4_nlp_seat_unit_visible = {
 				NOT = {
-					has_country_flag = GER_parliament_dkp_is_governing
+					has_country_flag = GER_parliament_nlp_is_governing
 				}
 				check_variable = {
-					var = GER_parliament_dkp_faction_rank
+					var = GER_parliament_nlp_faction_rank
 					value = 4
 					compare = equals
 				}
 			}
-			GER_parliament_legend_opp_slot_4_dkp_support_label_visible = {
+			GER_parliament_legend_opp_slot_4_nlp_support_label_visible = {
 				NOT = {
-					has_country_flag = GER_parliament_dkp_is_governing
+					has_country_flag = GER_parliament_nlp_is_governing
 				}
 				check_variable = {
-					var = GER_parliament_dkp_faction_rank
+					var = GER_parliament_nlp_faction_rank
 					value = 4
 					compare = equals
 				}
 			}
-			GER_parliament_legend_opp_slot_4_dkp_support_value_visible = {
+			GER_parliament_legend_opp_slot_4_nlp_support_value_visible = {
 				NOT = {
-					has_country_flag = GER_parliament_dkp_is_governing
+					has_country_flag = GER_parliament_nlp_is_governing
 				}
 				check_variable = {
-					var = GER_parliament_dkp_faction_rank
-					value = 4
-					compare = equals
-				}
-			}
-			GER_parliament_legend_opp_slot_4_drp_icon_visible = {
-				NOT = {
-					has_country_flag = GER_parliament_drp_is_governing
-				}
-				check_variable = {
-					var = GER_parliament_drp_faction_rank
-					value = 4
-					compare = equals
-				}
-			}
-			GER_parliament_legend_opp_slot_4_drp_label_visible = {
-				NOT = {
-					has_country_flag = GER_parliament_drp_is_governing
-				}
-				check_variable = {
-					var = GER_parliament_drp_faction_rank
-					value = 4
-					compare = equals
-				}
-			}
-			GER_parliament_legend_opp_slot_4_drp_seat_number_visible = {
-				NOT = {
-					has_country_flag = GER_parliament_drp_is_governing
-				}
-				check_variable = {
-					var = GER_parliament_drp_faction_rank
-					value = 4
-					compare = equals
-				}
-			}
-			GER_parliament_legend_opp_slot_4_drp_seat_unit_visible = {
-				NOT = {
-					has_country_flag = GER_parliament_drp_is_governing
-				}
-				check_variable = {
-					var = GER_parliament_drp_faction_rank
-					value = 4
-					compare = equals
-				}
-			}
-			GER_parliament_legend_opp_slot_4_drp_support_label_visible = {
-				NOT = {
-					has_country_flag = GER_parliament_drp_is_governing
-				}
-				check_variable = {
-					var = GER_parliament_drp_faction_rank
-					value = 4
-					compare = equals
-				}
-			}
-			GER_parliament_legend_opp_slot_4_drp_support_value_visible = {
-				NOT = {
-					has_country_flag = GER_parliament_drp_is_governing
-				}
-				check_variable = {
-					var = GER_parliament_drp_faction_rank
+					var = GER_parliament_nlp_faction_rank
 					value = 4
 					compare = equals
 				}
@@ -3851,62 +4203,182 @@ scripted_gui = {
 					compare = equals
 				}
 			}
-			GER_parliament_legend_opp_slot_4_dnvp_icon_visible = {
+			GER_parliament_legend_opp_slot_4_dkp_icon_visible = {
 				NOT = {
-					has_country_flag = GER_parliament_dnvp_is_governing
+					has_country_flag = GER_parliament_dkp_is_governing
 				}
 				check_variable = {
-					var = GER_parliament_dnvp_faction_rank
+					var = GER_parliament_dkp_faction_rank
 					value = 4
 					compare = equals
 				}
 			}
-			GER_parliament_legend_opp_slot_4_dnvp_label_visible = {
+			GER_parliament_legend_opp_slot_4_dkp_label_visible = {
 				NOT = {
-					has_country_flag = GER_parliament_dnvp_is_governing
+					has_country_flag = GER_parliament_dkp_is_governing
 				}
 				check_variable = {
-					var = GER_parliament_dnvp_faction_rank
+					var = GER_parliament_dkp_faction_rank
 					value = 4
 					compare = equals
 				}
 			}
-			GER_parliament_legend_opp_slot_4_dnvp_seat_number_visible = {
+			GER_parliament_legend_opp_slot_4_dkp_seat_number_visible = {
 				NOT = {
-					has_country_flag = GER_parliament_dnvp_is_governing
+					has_country_flag = GER_parliament_dkp_is_governing
 				}
 				check_variable = {
-					var = GER_parliament_dnvp_faction_rank
+					var = GER_parliament_dkp_faction_rank
 					value = 4
 					compare = equals
 				}
 			}
-			GER_parliament_legend_opp_slot_4_dnvp_seat_unit_visible = {
+			GER_parliament_legend_opp_slot_4_dkp_seat_unit_visible = {
 				NOT = {
-					has_country_flag = GER_parliament_dnvp_is_governing
+					has_country_flag = GER_parliament_dkp_is_governing
 				}
 				check_variable = {
-					var = GER_parliament_dnvp_faction_rank
+					var = GER_parliament_dkp_faction_rank
 					value = 4
 					compare = equals
 				}
 			}
-			GER_parliament_legend_opp_slot_4_dnvp_support_label_visible = {
+			GER_parliament_legend_opp_slot_4_dkp_support_label_visible = {
 				NOT = {
-					has_country_flag = GER_parliament_dnvp_is_governing
+					has_country_flag = GER_parliament_dkp_is_governing
 				}
 				check_variable = {
-					var = GER_parliament_dnvp_faction_rank
+					var = GER_parliament_dkp_faction_rank
 					value = 4
 					compare = equals
 				}
 			}
-			GER_parliament_legend_opp_slot_4_dnvp_support_value_visible = {
+			GER_parliament_legend_opp_slot_4_dkp_support_value_visible = {
 				NOT = {
-					has_country_flag = GER_parliament_dnvp_is_governing
+					has_country_flag = GER_parliament_dkp_is_governing
 				}
 				check_variable = {
-					var = GER_parliament_dnvp_faction_rank
+					var = GER_parliament_dkp_faction_rank
+					value = 4
+					compare = equals
+				}
+			}
+			GER_parliament_legend_opp_slot_4_dvlp_icon_visible = {
+				NOT = {
+					has_country_flag = GER_parliament_dvlp_is_governing
+				}
+				check_variable = {
+					var = GER_parliament_dvlp_faction_rank
+					value = 4
+					compare = equals
+				}
+			}
+			GER_parliament_legend_opp_slot_4_dvlp_label_visible = {
+				NOT = {
+					has_country_flag = GER_parliament_dvlp_is_governing
+				}
+				check_variable = {
+					var = GER_parliament_dvlp_faction_rank
+					value = 4
+					compare = equals
+				}
+			}
+			GER_parliament_legend_opp_slot_4_dvlp_seat_number_visible = {
+				NOT = {
+					has_country_flag = GER_parliament_dvlp_is_governing
+				}
+				check_variable = {
+					var = GER_parliament_dvlp_faction_rank
+					value = 4
+					compare = equals
+				}
+			}
+			GER_parliament_legend_opp_slot_4_dvlp_seat_unit_visible = {
+				NOT = {
+					has_country_flag = GER_parliament_dvlp_is_governing
+				}
+				check_variable = {
+					var = GER_parliament_dvlp_faction_rank
+					value = 4
+					compare = equals
+				}
+			}
+			GER_parliament_legend_opp_slot_4_dvlp_support_label_visible = {
+				NOT = {
+					has_country_flag = GER_parliament_dvlp_is_governing
+				}
+				check_variable = {
+					var = GER_parliament_dvlp_faction_rank
+					value = 4
+					compare = equals
+				}
+			}
+			GER_parliament_legend_opp_slot_4_dvlp_support_value_visible = {
+				NOT = {
+					has_country_flag = GER_parliament_dvlp_is_governing
+				}
+				check_variable = {
+					var = GER_parliament_dvlp_faction_rank
+					value = 4
+					compare = equals
+				}
+			}
+			GER_parliament_legend_opp_slot_4_misc_icon_visible = {
+				NOT = {
+					has_country_flag = GER_parliament_misc_is_governing
+				}
+				check_variable = {
+					var = GER_parliament_misc_faction_rank
+					value = 4
+					compare = equals
+				}
+			}
+			GER_parliament_legend_opp_slot_4_misc_label_visible = {
+				NOT = {
+					has_country_flag = GER_parliament_misc_is_governing
+				}
+				check_variable = {
+					var = GER_parliament_misc_faction_rank
+					value = 4
+					compare = equals
+				}
+			}
+			GER_parliament_legend_opp_slot_4_misc_seat_number_visible = {
+				NOT = {
+					has_country_flag = GER_parliament_misc_is_governing
+				}
+				check_variable = {
+					var = GER_parliament_misc_faction_rank
+					value = 4
+					compare = equals
+				}
+			}
+			GER_parliament_legend_opp_slot_4_misc_seat_unit_visible = {
+				NOT = {
+					has_country_flag = GER_parliament_misc_is_governing
+				}
+				check_variable = {
+					var = GER_parliament_misc_faction_rank
+					value = 4
+					compare = equals
+				}
+			}
+			GER_parliament_legend_opp_slot_4_misc_support_label_visible = {
+				NOT = {
+					has_country_flag = GER_parliament_misc_is_governing
+				}
+				check_variable = {
+					var = GER_parliament_misc_faction_rank
+					value = 4
+					compare = equals
+				}
+			}
+			GER_parliament_legend_opp_slot_4_misc_support_value_visible = {
+				NOT = {
+					has_country_flag = GER_parliament_misc_is_governing
+				}
+				check_variable = {
+					var = GER_parliament_misc_faction_rank
 					value = 4
 					compare = equals
 				}
@@ -3959,50 +4431,50 @@ scripted_gui = {
 					compare = equals
 				}
 			}
-			GER_parliament_legend_gov_slot_5_sapd_icon_visible = {
-				has_country_flag = GER_parliament_sapd_is_governing
+			GER_parliament_legend_gov_slot_5_uspd_icon_visible = {
+				has_country_flag = GER_parliament_uspd_is_governing
 				check_variable = {
-					var = GER_parliament_sapd_faction_rank
+					var = GER_parliament_uspd_faction_rank
 					value = 5
 					compare = equals
 				}
 			}
-			GER_parliament_legend_gov_slot_5_sapd_label_visible = {
-				has_country_flag = GER_parliament_sapd_is_governing
+			GER_parliament_legend_gov_slot_5_uspd_label_visible = {
+				has_country_flag = GER_parliament_uspd_is_governing
 				check_variable = {
-					var = GER_parliament_sapd_faction_rank
+					var = GER_parliament_uspd_faction_rank
 					value = 5
 					compare = equals
 				}
 			}
-			GER_parliament_legend_gov_slot_5_sapd_seat_number_visible = {
-				has_country_flag = GER_parliament_sapd_is_governing
+			GER_parliament_legend_gov_slot_5_uspd_seat_number_visible = {
+				has_country_flag = GER_parliament_uspd_is_governing
 				check_variable = {
-					var = GER_parliament_sapd_faction_rank
+					var = GER_parliament_uspd_faction_rank
 					value = 5
 					compare = equals
 				}
 			}
-			GER_parliament_legend_gov_slot_5_sapd_seat_unit_visible = {
-				has_country_flag = GER_parliament_sapd_is_governing
+			GER_parliament_legend_gov_slot_5_uspd_seat_unit_visible = {
+				has_country_flag = GER_parliament_uspd_is_governing
 				check_variable = {
-					var = GER_parliament_sapd_faction_rank
+					var = GER_parliament_uspd_faction_rank
 					value = 5
 					compare = equals
 				}
 			}
-			GER_parliament_legend_gov_slot_5_sapd_support_label_visible = {
-				has_country_flag = GER_parliament_sapd_is_governing
+			GER_parliament_legend_gov_slot_5_uspd_support_label_visible = {
+				has_country_flag = GER_parliament_uspd_is_governing
 				check_variable = {
-					var = GER_parliament_sapd_faction_rank
+					var = GER_parliament_uspd_faction_rank
 					value = 5
 					compare = equals
 				}
 			}
-			GER_parliament_legend_gov_slot_5_sapd_support_value_visible = {
-				has_country_flag = GER_parliament_sapd_is_governing
+			GER_parliament_legend_gov_slot_5_uspd_support_value_visible = {
+				has_country_flag = GER_parliament_uspd_is_governing
 				check_variable = {
-					var = GER_parliament_sapd_faction_rank
+					var = GER_parliament_uspd_faction_rank
 					value = 5
 					compare = equals
 				}
@@ -4151,98 +4623,50 @@ scripted_gui = {
 					compare = equals
 				}
 			}
-			GER_parliament_legend_gov_slot_5_dkp_icon_visible = {
-				has_country_flag = GER_parliament_dkp_is_governing
+			GER_parliament_legend_gov_slot_5_nlp_icon_visible = {
+				has_country_flag = GER_parliament_nlp_is_governing
 				check_variable = {
-					var = GER_parliament_dkp_faction_rank
+					var = GER_parliament_nlp_faction_rank
 					value = 5
 					compare = equals
 				}
 			}
-			GER_parliament_legend_gov_slot_5_dkp_label_visible = {
-				has_country_flag = GER_parliament_dkp_is_governing
+			GER_parliament_legend_gov_slot_5_nlp_label_visible = {
+				has_country_flag = GER_parliament_nlp_is_governing
 				check_variable = {
-					var = GER_parliament_dkp_faction_rank
+					var = GER_parliament_nlp_faction_rank
 					value = 5
 					compare = equals
 				}
 			}
-			GER_parliament_legend_gov_slot_5_dkp_seat_number_visible = {
-				has_country_flag = GER_parliament_dkp_is_governing
+			GER_parliament_legend_gov_slot_5_nlp_seat_number_visible = {
+				has_country_flag = GER_parliament_nlp_is_governing
 				check_variable = {
-					var = GER_parliament_dkp_faction_rank
+					var = GER_parliament_nlp_faction_rank
 					value = 5
 					compare = equals
 				}
 			}
-			GER_parliament_legend_gov_slot_5_dkp_seat_unit_visible = {
-				has_country_flag = GER_parliament_dkp_is_governing
+			GER_parliament_legend_gov_slot_5_nlp_seat_unit_visible = {
+				has_country_flag = GER_parliament_nlp_is_governing
 				check_variable = {
-					var = GER_parliament_dkp_faction_rank
+					var = GER_parliament_nlp_faction_rank
 					value = 5
 					compare = equals
 				}
 			}
-			GER_parliament_legend_gov_slot_5_dkp_support_label_visible = {
-				has_country_flag = GER_parliament_dkp_is_governing
+			GER_parliament_legend_gov_slot_5_nlp_support_label_visible = {
+				has_country_flag = GER_parliament_nlp_is_governing
 				check_variable = {
-					var = GER_parliament_dkp_faction_rank
+					var = GER_parliament_nlp_faction_rank
 					value = 5
 					compare = equals
 				}
 			}
-			GER_parliament_legend_gov_slot_5_dkp_support_value_visible = {
-				has_country_flag = GER_parliament_dkp_is_governing
+			GER_parliament_legend_gov_slot_5_nlp_support_value_visible = {
+				has_country_flag = GER_parliament_nlp_is_governing
 				check_variable = {
-					var = GER_parliament_dkp_faction_rank
-					value = 5
-					compare = equals
-				}
-			}
-			GER_parliament_legend_gov_slot_5_drp_icon_visible = {
-				has_country_flag = GER_parliament_drp_is_governing
-				check_variable = {
-					var = GER_parliament_drp_faction_rank
-					value = 5
-					compare = equals
-				}
-			}
-			GER_parliament_legend_gov_slot_5_drp_label_visible = {
-				has_country_flag = GER_parliament_drp_is_governing
-				check_variable = {
-					var = GER_parliament_drp_faction_rank
-					value = 5
-					compare = equals
-				}
-			}
-			GER_parliament_legend_gov_slot_5_drp_seat_number_visible = {
-				has_country_flag = GER_parliament_drp_is_governing
-				check_variable = {
-					var = GER_parliament_drp_faction_rank
-					value = 5
-					compare = equals
-				}
-			}
-			GER_parliament_legend_gov_slot_5_drp_seat_unit_visible = {
-				has_country_flag = GER_parliament_drp_is_governing
-				check_variable = {
-					var = GER_parliament_drp_faction_rank
-					value = 5
-					compare = equals
-				}
-			}
-			GER_parliament_legend_gov_slot_5_drp_support_label_visible = {
-				has_country_flag = GER_parliament_drp_is_governing
-				check_variable = {
-					var = GER_parliament_drp_faction_rank
-					value = 5
-					compare = equals
-				}
-			}
-			GER_parliament_legend_gov_slot_5_drp_support_value_visible = {
-				has_country_flag = GER_parliament_drp_is_governing
-				check_variable = {
-					var = GER_parliament_drp_faction_rank
+					var = GER_parliament_nlp_faction_rank
 					value = 5
 					compare = equals
 				}
@@ -4295,50 +4719,146 @@ scripted_gui = {
 					compare = equals
 				}
 			}
-			GER_parliament_legend_gov_slot_5_dnvp_icon_visible = {
-				has_country_flag = GER_parliament_dnvp_is_governing
+			GER_parliament_legend_gov_slot_5_dkp_icon_visible = {
+				has_country_flag = GER_parliament_dkp_is_governing
 				check_variable = {
-					var = GER_parliament_dnvp_faction_rank
+					var = GER_parliament_dkp_faction_rank
 					value = 5
 					compare = equals
 				}
 			}
-			GER_parliament_legend_gov_slot_5_dnvp_label_visible = {
-				has_country_flag = GER_parliament_dnvp_is_governing
+			GER_parliament_legend_gov_slot_5_dkp_label_visible = {
+				has_country_flag = GER_parliament_dkp_is_governing
 				check_variable = {
-					var = GER_parliament_dnvp_faction_rank
+					var = GER_parliament_dkp_faction_rank
 					value = 5
 					compare = equals
 				}
 			}
-			GER_parliament_legend_gov_slot_5_dnvp_seat_number_visible = {
-				has_country_flag = GER_parliament_dnvp_is_governing
+			GER_parliament_legend_gov_slot_5_dkp_seat_number_visible = {
+				has_country_flag = GER_parliament_dkp_is_governing
 				check_variable = {
-					var = GER_parliament_dnvp_faction_rank
+					var = GER_parliament_dkp_faction_rank
 					value = 5
 					compare = equals
 				}
 			}
-			GER_parliament_legend_gov_slot_5_dnvp_seat_unit_visible = {
-				has_country_flag = GER_parliament_dnvp_is_governing
+			GER_parliament_legend_gov_slot_5_dkp_seat_unit_visible = {
+				has_country_flag = GER_parliament_dkp_is_governing
 				check_variable = {
-					var = GER_parliament_dnvp_faction_rank
+					var = GER_parliament_dkp_faction_rank
 					value = 5
 					compare = equals
 				}
 			}
-			GER_parliament_legend_gov_slot_5_dnvp_support_label_visible = {
-				has_country_flag = GER_parliament_dnvp_is_governing
+			GER_parliament_legend_gov_slot_5_dkp_support_label_visible = {
+				has_country_flag = GER_parliament_dkp_is_governing
 				check_variable = {
-					var = GER_parliament_dnvp_faction_rank
+					var = GER_parliament_dkp_faction_rank
 					value = 5
 					compare = equals
 				}
 			}
-			GER_parliament_legend_gov_slot_5_dnvp_support_value_visible = {
-				has_country_flag = GER_parliament_dnvp_is_governing
+			GER_parliament_legend_gov_slot_5_dkp_support_value_visible = {
+				has_country_flag = GER_parliament_dkp_is_governing
 				check_variable = {
-					var = GER_parliament_dnvp_faction_rank
+					var = GER_parliament_dkp_faction_rank
+					value = 5
+					compare = equals
+				}
+			}
+			GER_parliament_legend_gov_slot_5_dvlp_icon_visible = {
+				has_country_flag = GER_parliament_dvlp_is_governing
+				check_variable = {
+					var = GER_parliament_dvlp_faction_rank
+					value = 5
+					compare = equals
+				}
+			}
+			GER_parliament_legend_gov_slot_5_dvlp_label_visible = {
+				has_country_flag = GER_parliament_dvlp_is_governing
+				check_variable = {
+					var = GER_parliament_dvlp_faction_rank
+					value = 5
+					compare = equals
+				}
+			}
+			GER_parliament_legend_gov_slot_5_dvlp_seat_number_visible = {
+				has_country_flag = GER_parliament_dvlp_is_governing
+				check_variable = {
+					var = GER_parliament_dvlp_faction_rank
+					value = 5
+					compare = equals
+				}
+			}
+			GER_parliament_legend_gov_slot_5_dvlp_seat_unit_visible = {
+				has_country_flag = GER_parliament_dvlp_is_governing
+				check_variable = {
+					var = GER_parliament_dvlp_faction_rank
+					value = 5
+					compare = equals
+				}
+			}
+			GER_parliament_legend_gov_slot_5_dvlp_support_label_visible = {
+				has_country_flag = GER_parliament_dvlp_is_governing
+				check_variable = {
+					var = GER_parliament_dvlp_faction_rank
+					value = 5
+					compare = equals
+				}
+			}
+			GER_parliament_legend_gov_slot_5_dvlp_support_value_visible = {
+				has_country_flag = GER_parliament_dvlp_is_governing
+				check_variable = {
+					var = GER_parliament_dvlp_faction_rank
+					value = 5
+					compare = equals
+				}
+			}
+			GER_parliament_legend_gov_slot_5_misc_icon_visible = {
+				has_country_flag = GER_parliament_misc_is_governing
+				check_variable = {
+					var = GER_parliament_misc_faction_rank
+					value = 5
+					compare = equals
+				}
+			}
+			GER_parliament_legend_gov_slot_5_misc_label_visible = {
+				has_country_flag = GER_parliament_misc_is_governing
+				check_variable = {
+					var = GER_parliament_misc_faction_rank
+					value = 5
+					compare = equals
+				}
+			}
+			GER_parliament_legend_gov_slot_5_misc_seat_number_visible = {
+				has_country_flag = GER_parliament_misc_is_governing
+				check_variable = {
+					var = GER_parliament_misc_faction_rank
+					value = 5
+					compare = equals
+				}
+			}
+			GER_parliament_legend_gov_slot_5_misc_seat_unit_visible = {
+				has_country_flag = GER_parliament_misc_is_governing
+				check_variable = {
+					var = GER_parliament_misc_faction_rank
+					value = 5
+					compare = equals
+				}
+			}
+			GER_parliament_legend_gov_slot_5_misc_support_label_visible = {
+				has_country_flag = GER_parliament_misc_is_governing
+				check_variable = {
+					var = GER_parliament_misc_faction_rank
+					value = 5
+					compare = equals
+				}
+			}
+			GER_parliament_legend_gov_slot_5_misc_support_value_visible = {
+				has_country_flag = GER_parliament_misc_is_governing
+				check_variable = {
+					var = GER_parliament_misc_faction_rank
 					value = 5
 					compare = equals
 				}
@@ -4403,62 +4923,62 @@ scripted_gui = {
 					compare = equals
 				}
 			}
-			GER_parliament_legend_opp_slot_5_sapd_icon_visible = {
+			GER_parliament_legend_opp_slot_5_uspd_icon_visible = {
 				NOT = {
-					has_country_flag = GER_parliament_sapd_is_governing
+					has_country_flag = GER_parliament_uspd_is_governing
 				}
 				check_variable = {
-					var = GER_parliament_sapd_faction_rank
+					var = GER_parliament_uspd_faction_rank
 					value = 5
 					compare = equals
 				}
 			}
-			GER_parliament_legend_opp_slot_5_sapd_label_visible = {
+			GER_parliament_legend_opp_slot_5_uspd_label_visible = {
 				NOT = {
-					has_country_flag = GER_parliament_sapd_is_governing
+					has_country_flag = GER_parliament_uspd_is_governing
 				}
 				check_variable = {
-					var = GER_parliament_sapd_faction_rank
+					var = GER_parliament_uspd_faction_rank
 					value = 5
 					compare = equals
 				}
 			}
-			GER_parliament_legend_opp_slot_5_sapd_seat_number_visible = {
+			GER_parliament_legend_opp_slot_5_uspd_seat_number_visible = {
 				NOT = {
-					has_country_flag = GER_parliament_sapd_is_governing
+					has_country_flag = GER_parliament_uspd_is_governing
 				}
 				check_variable = {
-					var = GER_parliament_sapd_faction_rank
+					var = GER_parliament_uspd_faction_rank
 					value = 5
 					compare = equals
 				}
 			}
-			GER_parliament_legend_opp_slot_5_sapd_seat_unit_visible = {
+			GER_parliament_legend_opp_slot_5_uspd_seat_unit_visible = {
 				NOT = {
-					has_country_flag = GER_parliament_sapd_is_governing
+					has_country_flag = GER_parliament_uspd_is_governing
 				}
 				check_variable = {
-					var = GER_parliament_sapd_faction_rank
+					var = GER_parliament_uspd_faction_rank
 					value = 5
 					compare = equals
 				}
 			}
-			GER_parliament_legend_opp_slot_5_sapd_support_label_visible = {
+			GER_parliament_legend_opp_slot_5_uspd_support_label_visible = {
 				NOT = {
-					has_country_flag = GER_parliament_sapd_is_governing
+					has_country_flag = GER_parliament_uspd_is_governing
 				}
 				check_variable = {
-					var = GER_parliament_sapd_faction_rank
+					var = GER_parliament_uspd_faction_rank
 					value = 5
 					compare = equals
 				}
 			}
-			GER_parliament_legend_opp_slot_5_sapd_support_value_visible = {
+			GER_parliament_legend_opp_slot_5_uspd_support_value_visible = {
 				NOT = {
-					has_country_flag = GER_parliament_sapd_is_governing
+					has_country_flag = GER_parliament_uspd_is_governing
 				}
 				check_variable = {
-					var = GER_parliament_sapd_faction_rank
+					var = GER_parliament_uspd_faction_rank
 					value = 5
 					compare = equals
 				}
@@ -4643,122 +5163,62 @@ scripted_gui = {
 					compare = equals
 				}
 			}
-			GER_parliament_legend_opp_slot_5_dkp_icon_visible = {
+			GER_parliament_legend_opp_slot_5_nlp_icon_visible = {
 				NOT = {
-					has_country_flag = GER_parliament_dkp_is_governing
+					has_country_flag = GER_parliament_nlp_is_governing
 				}
 				check_variable = {
-					var = GER_parliament_dkp_faction_rank
+					var = GER_parliament_nlp_faction_rank
 					value = 5
 					compare = equals
 				}
 			}
-			GER_parliament_legend_opp_slot_5_dkp_label_visible = {
+			GER_parliament_legend_opp_slot_5_nlp_label_visible = {
 				NOT = {
-					has_country_flag = GER_parliament_dkp_is_governing
+					has_country_flag = GER_parliament_nlp_is_governing
 				}
 				check_variable = {
-					var = GER_parliament_dkp_faction_rank
+					var = GER_parliament_nlp_faction_rank
 					value = 5
 					compare = equals
 				}
 			}
-			GER_parliament_legend_opp_slot_5_dkp_seat_number_visible = {
+			GER_parliament_legend_opp_slot_5_nlp_seat_number_visible = {
 				NOT = {
-					has_country_flag = GER_parliament_dkp_is_governing
+					has_country_flag = GER_parliament_nlp_is_governing
 				}
 				check_variable = {
-					var = GER_parliament_dkp_faction_rank
+					var = GER_parliament_nlp_faction_rank
 					value = 5
 					compare = equals
 				}
 			}
-			GER_parliament_legend_opp_slot_5_dkp_seat_unit_visible = {
+			GER_parliament_legend_opp_slot_5_nlp_seat_unit_visible = {
 				NOT = {
-					has_country_flag = GER_parliament_dkp_is_governing
+					has_country_flag = GER_parliament_nlp_is_governing
 				}
 				check_variable = {
-					var = GER_parliament_dkp_faction_rank
+					var = GER_parliament_nlp_faction_rank
 					value = 5
 					compare = equals
 				}
 			}
-			GER_parliament_legend_opp_slot_5_dkp_support_label_visible = {
+			GER_parliament_legend_opp_slot_5_nlp_support_label_visible = {
 				NOT = {
-					has_country_flag = GER_parliament_dkp_is_governing
+					has_country_flag = GER_parliament_nlp_is_governing
 				}
 				check_variable = {
-					var = GER_parliament_dkp_faction_rank
+					var = GER_parliament_nlp_faction_rank
 					value = 5
 					compare = equals
 				}
 			}
-			GER_parliament_legend_opp_slot_5_dkp_support_value_visible = {
+			GER_parliament_legend_opp_slot_5_nlp_support_value_visible = {
 				NOT = {
-					has_country_flag = GER_parliament_dkp_is_governing
+					has_country_flag = GER_parliament_nlp_is_governing
 				}
 				check_variable = {
-					var = GER_parliament_dkp_faction_rank
-					value = 5
-					compare = equals
-				}
-			}
-			GER_parliament_legend_opp_slot_5_drp_icon_visible = {
-				NOT = {
-					has_country_flag = GER_parliament_drp_is_governing
-				}
-				check_variable = {
-					var = GER_parliament_drp_faction_rank
-					value = 5
-					compare = equals
-				}
-			}
-			GER_parliament_legend_opp_slot_5_drp_label_visible = {
-				NOT = {
-					has_country_flag = GER_parliament_drp_is_governing
-				}
-				check_variable = {
-					var = GER_parliament_drp_faction_rank
-					value = 5
-					compare = equals
-				}
-			}
-			GER_parliament_legend_opp_slot_5_drp_seat_number_visible = {
-				NOT = {
-					has_country_flag = GER_parliament_drp_is_governing
-				}
-				check_variable = {
-					var = GER_parliament_drp_faction_rank
-					value = 5
-					compare = equals
-				}
-			}
-			GER_parliament_legend_opp_slot_5_drp_seat_unit_visible = {
-				NOT = {
-					has_country_flag = GER_parliament_drp_is_governing
-				}
-				check_variable = {
-					var = GER_parliament_drp_faction_rank
-					value = 5
-					compare = equals
-				}
-			}
-			GER_parliament_legend_opp_slot_5_drp_support_label_visible = {
-				NOT = {
-					has_country_flag = GER_parliament_drp_is_governing
-				}
-				check_variable = {
-					var = GER_parliament_drp_faction_rank
-					value = 5
-					compare = equals
-				}
-			}
-			GER_parliament_legend_opp_slot_5_drp_support_value_visible = {
-				NOT = {
-					has_country_flag = GER_parliament_drp_is_governing
-				}
-				check_variable = {
-					var = GER_parliament_drp_faction_rank
+					var = GER_parliament_nlp_faction_rank
 					value = 5
 					compare = equals
 				}
@@ -4823,63 +5283,2413 @@ scripted_gui = {
 					compare = equals
 				}
 			}
-			GER_parliament_legend_opp_slot_5_dnvp_icon_visible = {
+			GER_parliament_legend_opp_slot_5_dkp_icon_visible = {
 				NOT = {
-					has_country_flag = GER_parliament_dnvp_is_governing
+					has_country_flag = GER_parliament_dkp_is_governing
 				}
 				check_variable = {
-					var = GER_parliament_dnvp_faction_rank
+					var = GER_parliament_dkp_faction_rank
 					value = 5
 					compare = equals
 				}
 			}
-			GER_parliament_legend_opp_slot_5_dnvp_label_visible = {
+			GER_parliament_legend_opp_slot_5_dkp_label_visible = {
 				NOT = {
-					has_country_flag = GER_parliament_dnvp_is_governing
+					has_country_flag = GER_parliament_dkp_is_governing
 				}
 				check_variable = {
-					var = GER_parliament_dnvp_faction_rank
+					var = GER_parliament_dkp_faction_rank
 					value = 5
 					compare = equals
 				}
 			}
-			GER_parliament_legend_opp_slot_5_dnvp_seat_number_visible = {
+			GER_parliament_legend_opp_slot_5_dkp_seat_number_visible = {
 				NOT = {
-					has_country_flag = GER_parliament_dnvp_is_governing
+					has_country_flag = GER_parliament_dkp_is_governing
 				}
 				check_variable = {
-					var = GER_parliament_dnvp_faction_rank
+					var = GER_parliament_dkp_faction_rank
 					value = 5
 					compare = equals
 				}
 			}
-			GER_parliament_legend_opp_slot_5_dnvp_seat_unit_visible = {
+			GER_parliament_legend_opp_slot_5_dkp_seat_unit_visible = {
 				NOT = {
-					has_country_flag = GER_parliament_dnvp_is_governing
+					has_country_flag = GER_parliament_dkp_is_governing
 				}
 				check_variable = {
-					var = GER_parliament_dnvp_faction_rank
+					var = GER_parliament_dkp_faction_rank
 					value = 5
 					compare = equals
 				}
 			}
-			GER_parliament_legend_opp_slot_5_dnvp_support_label_visible = {
+			GER_parliament_legend_opp_slot_5_dkp_support_label_visible = {
 				NOT = {
-					has_country_flag = GER_parliament_dnvp_is_governing
+					has_country_flag = GER_parliament_dkp_is_governing
 				}
 				check_variable = {
-					var = GER_parliament_dnvp_faction_rank
+					var = GER_parliament_dkp_faction_rank
 					value = 5
 					compare = equals
 				}
 			}
-			GER_parliament_legend_opp_slot_5_dnvp_support_value_visible = {
+			GER_parliament_legend_opp_slot_5_dkp_support_value_visible = {
 				NOT = {
-					has_country_flag = GER_parliament_dnvp_is_governing
+					has_country_flag = GER_parliament_dkp_is_governing
 				}
 				check_variable = {
-					var = GER_parliament_dnvp_faction_rank
+					var = GER_parliament_dkp_faction_rank
 					value = 5
+					compare = equals
+				}
+			}
+			GER_parliament_legend_opp_slot_5_dvlp_icon_visible = {
+				NOT = {
+					has_country_flag = GER_parliament_dvlp_is_governing
+				}
+				check_variable = {
+					var = GER_parliament_dvlp_faction_rank
+					value = 5
+					compare = equals
+				}
+			}
+			GER_parliament_legend_opp_slot_5_dvlp_label_visible = {
+				NOT = {
+					has_country_flag = GER_parliament_dvlp_is_governing
+				}
+				check_variable = {
+					var = GER_parliament_dvlp_faction_rank
+					value = 5
+					compare = equals
+				}
+			}
+			GER_parliament_legend_opp_slot_5_dvlp_seat_number_visible = {
+				NOT = {
+					has_country_flag = GER_parliament_dvlp_is_governing
+				}
+				check_variable = {
+					var = GER_parliament_dvlp_faction_rank
+					value = 5
+					compare = equals
+				}
+			}
+			GER_parliament_legend_opp_slot_5_dvlp_seat_unit_visible = {
+				NOT = {
+					has_country_flag = GER_parliament_dvlp_is_governing
+				}
+				check_variable = {
+					var = GER_parliament_dvlp_faction_rank
+					value = 5
+					compare = equals
+				}
+			}
+			GER_parliament_legend_opp_slot_5_dvlp_support_label_visible = {
+				NOT = {
+					has_country_flag = GER_parliament_dvlp_is_governing
+				}
+				check_variable = {
+					var = GER_parliament_dvlp_faction_rank
+					value = 5
+					compare = equals
+				}
+			}
+			GER_parliament_legend_opp_slot_5_dvlp_support_value_visible = {
+				NOT = {
+					has_country_flag = GER_parliament_dvlp_is_governing
+				}
+				check_variable = {
+					var = GER_parliament_dvlp_faction_rank
+					value = 5
+					compare = equals
+				}
+			}
+			GER_parliament_legend_opp_slot_5_misc_icon_visible = {
+				NOT = {
+					has_country_flag = GER_parliament_misc_is_governing
+				}
+				check_variable = {
+					var = GER_parliament_misc_faction_rank
+					value = 5
+					compare = equals
+				}
+			}
+			GER_parliament_legend_opp_slot_5_misc_label_visible = {
+				NOT = {
+					has_country_flag = GER_parliament_misc_is_governing
+				}
+				check_variable = {
+					var = GER_parliament_misc_faction_rank
+					value = 5
+					compare = equals
+				}
+			}
+			GER_parliament_legend_opp_slot_5_misc_seat_number_visible = {
+				NOT = {
+					has_country_flag = GER_parliament_misc_is_governing
+				}
+				check_variable = {
+					var = GER_parliament_misc_faction_rank
+					value = 5
+					compare = equals
+				}
+			}
+			GER_parliament_legend_opp_slot_5_misc_seat_unit_visible = {
+				NOT = {
+					has_country_flag = GER_parliament_misc_is_governing
+				}
+				check_variable = {
+					var = GER_parliament_misc_faction_rank
+					value = 5
+					compare = equals
+				}
+			}
+			GER_parliament_legend_opp_slot_5_misc_support_label_visible = {
+				NOT = {
+					has_country_flag = GER_parliament_misc_is_governing
+				}
+				check_variable = {
+					var = GER_parliament_misc_faction_rank
+					value = 5
+					compare = equals
+				}
+			}
+			GER_parliament_legend_opp_slot_5_misc_support_value_visible = {
+				NOT = {
+					has_country_flag = GER_parliament_misc_is_governing
+				}
+				check_variable = {
+					var = GER_parliament_misc_faction_rank
+					value = 5
+					compare = equals
+				}
+			}
+			GER_parliament_legend_gov_slot_6_kpd_icon_visible = {
+				has_country_flag = GER_parliament_kpd_is_governing
+				check_variable = {
+					var = GER_parliament_kpd_faction_rank
+					value = 6
+					compare = equals
+				}
+			}
+			GER_parliament_legend_gov_slot_6_kpd_label_visible = {
+				has_country_flag = GER_parliament_kpd_is_governing
+				check_variable = {
+					var = GER_parliament_kpd_faction_rank
+					value = 6
+					compare = equals
+				}
+			}
+			GER_parliament_legend_gov_slot_6_kpd_seat_number_visible = {
+				has_country_flag = GER_parliament_kpd_is_governing
+				check_variable = {
+					var = GER_parliament_kpd_faction_rank
+					value = 6
+					compare = equals
+				}
+			}
+			GER_parliament_legend_gov_slot_6_kpd_seat_unit_visible = {
+				has_country_flag = GER_parliament_kpd_is_governing
+				check_variable = {
+					var = GER_parliament_kpd_faction_rank
+					value = 6
+					compare = equals
+				}
+			}
+			GER_parliament_legend_gov_slot_6_kpd_support_label_visible = {
+				has_country_flag = GER_parliament_kpd_is_governing
+				check_variable = {
+					var = GER_parliament_kpd_faction_rank
+					value = 6
+					compare = equals
+				}
+			}
+			GER_parliament_legend_gov_slot_6_kpd_support_value_visible = {
+				has_country_flag = GER_parliament_kpd_is_governing
+				check_variable = {
+					var = GER_parliament_kpd_faction_rank
+					value = 6
+					compare = equals
+				}
+			}
+			GER_parliament_legend_gov_slot_6_uspd_icon_visible = {
+				has_country_flag = GER_parliament_uspd_is_governing
+				check_variable = {
+					var = GER_parliament_uspd_faction_rank
+					value = 6
+					compare = equals
+				}
+			}
+			GER_parliament_legend_gov_slot_6_uspd_label_visible = {
+				has_country_flag = GER_parliament_uspd_is_governing
+				check_variable = {
+					var = GER_parliament_uspd_faction_rank
+					value = 6
+					compare = equals
+				}
+			}
+			GER_parliament_legend_gov_slot_6_uspd_seat_number_visible = {
+				has_country_flag = GER_parliament_uspd_is_governing
+				check_variable = {
+					var = GER_parliament_uspd_faction_rank
+					value = 6
+					compare = equals
+				}
+			}
+			GER_parliament_legend_gov_slot_6_uspd_seat_unit_visible = {
+				has_country_flag = GER_parliament_uspd_is_governing
+				check_variable = {
+					var = GER_parliament_uspd_faction_rank
+					value = 6
+					compare = equals
+				}
+			}
+			GER_parliament_legend_gov_slot_6_uspd_support_label_visible = {
+				has_country_flag = GER_parliament_uspd_is_governing
+				check_variable = {
+					var = GER_parliament_uspd_faction_rank
+					value = 6
+					compare = equals
+				}
+			}
+			GER_parliament_legend_gov_slot_6_uspd_support_value_visible = {
+				has_country_flag = GER_parliament_uspd_is_governing
+				check_variable = {
+					var = GER_parliament_uspd_faction_rank
+					value = 6
+					compare = equals
+				}
+			}
+			GER_parliament_legend_gov_slot_6_spd_icon_visible = {
+				has_country_flag = GER_parliament_spd_is_governing
+				check_variable = {
+					var = GER_parliament_spd_faction_rank
+					value = 6
+					compare = equals
+				}
+			}
+			GER_parliament_legend_gov_slot_6_spd_label_visible = {
+				has_country_flag = GER_parliament_spd_is_governing
+				check_variable = {
+					var = GER_parliament_spd_faction_rank
+					value = 6
+					compare = equals
+				}
+			}
+			GER_parliament_legend_gov_slot_6_spd_seat_number_visible = {
+				has_country_flag = GER_parliament_spd_is_governing
+				check_variable = {
+					var = GER_parliament_spd_faction_rank
+					value = 6
+					compare = equals
+				}
+			}
+			GER_parliament_legend_gov_slot_6_spd_seat_unit_visible = {
+				has_country_flag = GER_parliament_spd_is_governing
+				check_variable = {
+					var = GER_parliament_spd_faction_rank
+					value = 6
+					compare = equals
+				}
+			}
+			GER_parliament_legend_gov_slot_6_spd_support_label_visible = {
+				has_country_flag = GER_parliament_spd_is_governing
+				check_variable = {
+					var = GER_parliament_spd_faction_rank
+					value = 6
+					compare = equals
+				}
+			}
+			GER_parliament_legend_gov_slot_6_spd_support_value_visible = {
+				has_country_flag = GER_parliament_spd_is_governing
+				check_variable = {
+					var = GER_parliament_spd_faction_rank
+					value = 6
+					compare = equals
+				}
+			}
+			GER_parliament_legend_gov_slot_6_fvp_icon_visible = {
+				has_country_flag = GER_parliament_fvp_is_governing
+				check_variable = {
+					var = GER_parliament_fvp_faction_rank
+					value = 6
+					compare = equals
+				}
+			}
+			GER_parliament_legend_gov_slot_6_fvp_label_visible = {
+				has_country_flag = GER_parliament_fvp_is_governing
+				check_variable = {
+					var = GER_parliament_fvp_faction_rank
+					value = 6
+					compare = equals
+				}
+			}
+			GER_parliament_legend_gov_slot_6_fvp_seat_number_visible = {
+				has_country_flag = GER_parliament_fvp_is_governing
+				check_variable = {
+					var = GER_parliament_fvp_faction_rank
+					value = 6
+					compare = equals
+				}
+			}
+			GER_parliament_legend_gov_slot_6_fvp_seat_unit_visible = {
+				has_country_flag = GER_parliament_fvp_is_governing
+				check_variable = {
+					var = GER_parliament_fvp_faction_rank
+					value = 6
+					compare = equals
+				}
+			}
+			GER_parliament_legend_gov_slot_6_fvp_support_label_visible = {
+				has_country_flag = GER_parliament_fvp_is_governing
+				check_variable = {
+					var = GER_parliament_fvp_faction_rank
+					value = 6
+					compare = equals
+				}
+			}
+			GER_parliament_legend_gov_slot_6_fvp_support_value_visible = {
+				has_country_flag = GER_parliament_fvp_is_governing
+				check_variable = {
+					var = GER_parliament_fvp_faction_rank
+					value = 6
+					compare = equals
+				}
+			}
+			GER_parliament_legend_gov_slot_6_zentrum_icon_visible = {
+				has_country_flag = GER_parliament_zentrum_is_governing
+				check_variable = {
+					var = GER_parliament_zentrum_faction_rank
+					value = 6
+					compare = equals
+				}
+			}
+			GER_parliament_legend_gov_slot_6_zentrum_label_visible = {
+				has_country_flag = GER_parliament_zentrum_is_governing
+				check_variable = {
+					var = GER_parliament_zentrum_faction_rank
+					value = 6
+					compare = equals
+				}
+			}
+			GER_parliament_legend_gov_slot_6_zentrum_seat_number_visible = {
+				has_country_flag = GER_parliament_zentrum_is_governing
+				check_variable = {
+					var = GER_parliament_zentrum_faction_rank
+					value = 6
+					compare = equals
+				}
+			}
+			GER_parliament_legend_gov_slot_6_zentrum_seat_unit_visible = {
+				has_country_flag = GER_parliament_zentrum_is_governing
+				check_variable = {
+					var = GER_parliament_zentrum_faction_rank
+					value = 6
+					compare = equals
+				}
+			}
+			GER_parliament_legend_gov_slot_6_zentrum_support_label_visible = {
+				has_country_flag = GER_parliament_zentrum_is_governing
+				check_variable = {
+					var = GER_parliament_zentrum_faction_rank
+					value = 6
+					compare = equals
+				}
+			}
+			GER_parliament_legend_gov_slot_6_zentrum_support_value_visible = {
+				has_country_flag = GER_parliament_zentrum_is_governing
+				check_variable = {
+					var = GER_parliament_zentrum_faction_rank
+					value = 6
+					compare = equals
+				}
+			}
+			GER_parliament_legend_gov_slot_6_nlp_icon_visible = {
+				has_country_flag = GER_parliament_nlp_is_governing
+				check_variable = {
+					var = GER_parliament_nlp_faction_rank
+					value = 6
+					compare = equals
+				}
+			}
+			GER_parliament_legend_gov_slot_6_nlp_label_visible = {
+				has_country_flag = GER_parliament_nlp_is_governing
+				check_variable = {
+					var = GER_parliament_nlp_faction_rank
+					value = 6
+					compare = equals
+				}
+			}
+			GER_parliament_legend_gov_slot_6_nlp_seat_number_visible = {
+				has_country_flag = GER_parliament_nlp_is_governing
+				check_variable = {
+					var = GER_parliament_nlp_faction_rank
+					value = 6
+					compare = equals
+				}
+			}
+			GER_parliament_legend_gov_slot_6_nlp_seat_unit_visible = {
+				has_country_flag = GER_parliament_nlp_is_governing
+				check_variable = {
+					var = GER_parliament_nlp_faction_rank
+					value = 6
+					compare = equals
+				}
+			}
+			GER_parliament_legend_gov_slot_6_nlp_support_label_visible = {
+				has_country_flag = GER_parliament_nlp_is_governing
+				check_variable = {
+					var = GER_parliament_nlp_faction_rank
+					value = 6
+					compare = equals
+				}
+			}
+			GER_parliament_legend_gov_slot_6_nlp_support_value_visible = {
+				has_country_flag = GER_parliament_nlp_is_governing
+				check_variable = {
+					var = GER_parliament_nlp_faction_rank
+					value = 6
+					compare = equals
+				}
+			}
+			GER_parliament_legend_gov_slot_6_fkp_icon_visible = {
+				has_country_flag = GER_parliament_fkp_is_governing
+				check_variable = {
+					var = GER_parliament_fkp_faction_rank
+					value = 6
+					compare = equals
+				}
+			}
+			GER_parliament_legend_gov_slot_6_fkp_label_visible = {
+				has_country_flag = GER_parliament_fkp_is_governing
+				check_variable = {
+					var = GER_parliament_fkp_faction_rank
+					value = 6
+					compare = equals
+				}
+			}
+			GER_parliament_legend_gov_slot_6_fkp_seat_number_visible = {
+				has_country_flag = GER_parliament_fkp_is_governing
+				check_variable = {
+					var = GER_parliament_fkp_faction_rank
+					value = 6
+					compare = equals
+				}
+			}
+			GER_parliament_legend_gov_slot_6_fkp_seat_unit_visible = {
+				has_country_flag = GER_parliament_fkp_is_governing
+				check_variable = {
+					var = GER_parliament_fkp_faction_rank
+					value = 6
+					compare = equals
+				}
+			}
+			GER_parliament_legend_gov_slot_6_fkp_support_label_visible = {
+				has_country_flag = GER_parliament_fkp_is_governing
+				check_variable = {
+					var = GER_parliament_fkp_faction_rank
+					value = 6
+					compare = equals
+				}
+			}
+			GER_parliament_legend_gov_slot_6_fkp_support_value_visible = {
+				has_country_flag = GER_parliament_fkp_is_governing
+				check_variable = {
+					var = GER_parliament_fkp_faction_rank
+					value = 6
+					compare = equals
+				}
+			}
+			GER_parliament_legend_gov_slot_6_dkp_icon_visible = {
+				has_country_flag = GER_parliament_dkp_is_governing
+				check_variable = {
+					var = GER_parliament_dkp_faction_rank
+					value = 6
+					compare = equals
+				}
+			}
+			GER_parliament_legend_gov_slot_6_dkp_label_visible = {
+				has_country_flag = GER_parliament_dkp_is_governing
+				check_variable = {
+					var = GER_parliament_dkp_faction_rank
+					value = 6
+					compare = equals
+				}
+			}
+			GER_parliament_legend_gov_slot_6_dkp_seat_number_visible = {
+				has_country_flag = GER_parliament_dkp_is_governing
+				check_variable = {
+					var = GER_parliament_dkp_faction_rank
+					value = 6
+					compare = equals
+				}
+			}
+			GER_parliament_legend_gov_slot_6_dkp_seat_unit_visible = {
+				has_country_flag = GER_parliament_dkp_is_governing
+				check_variable = {
+					var = GER_parliament_dkp_faction_rank
+					value = 6
+					compare = equals
+				}
+			}
+			GER_parliament_legend_gov_slot_6_dkp_support_label_visible = {
+				has_country_flag = GER_parliament_dkp_is_governing
+				check_variable = {
+					var = GER_parliament_dkp_faction_rank
+					value = 6
+					compare = equals
+				}
+			}
+			GER_parliament_legend_gov_slot_6_dkp_support_value_visible = {
+				has_country_flag = GER_parliament_dkp_is_governing
+				check_variable = {
+					var = GER_parliament_dkp_faction_rank
+					value = 6
+					compare = equals
+				}
+			}
+			GER_parliament_legend_gov_slot_6_dvlp_icon_visible = {
+				has_country_flag = GER_parliament_dvlp_is_governing
+				check_variable = {
+					var = GER_parliament_dvlp_faction_rank
+					value = 6
+					compare = equals
+				}
+			}
+			GER_parliament_legend_gov_slot_6_dvlp_label_visible = {
+				has_country_flag = GER_parliament_dvlp_is_governing
+				check_variable = {
+					var = GER_parliament_dvlp_faction_rank
+					value = 6
+					compare = equals
+				}
+			}
+			GER_parliament_legend_gov_slot_6_dvlp_seat_number_visible = {
+				has_country_flag = GER_parliament_dvlp_is_governing
+				check_variable = {
+					var = GER_parliament_dvlp_faction_rank
+					value = 6
+					compare = equals
+				}
+			}
+			GER_parliament_legend_gov_slot_6_dvlp_seat_unit_visible = {
+				has_country_flag = GER_parliament_dvlp_is_governing
+				check_variable = {
+					var = GER_parliament_dvlp_faction_rank
+					value = 6
+					compare = equals
+				}
+			}
+			GER_parliament_legend_gov_slot_6_dvlp_support_label_visible = {
+				has_country_flag = GER_parliament_dvlp_is_governing
+				check_variable = {
+					var = GER_parliament_dvlp_faction_rank
+					value = 6
+					compare = equals
+				}
+			}
+			GER_parliament_legend_gov_slot_6_dvlp_support_value_visible = {
+				has_country_flag = GER_parliament_dvlp_is_governing
+				check_variable = {
+					var = GER_parliament_dvlp_faction_rank
+					value = 6
+					compare = equals
+				}
+			}
+			GER_parliament_legend_gov_slot_6_misc_icon_visible = {
+				has_country_flag = GER_parliament_misc_is_governing
+				check_variable = {
+					var = GER_parliament_misc_faction_rank
+					value = 6
+					compare = equals
+				}
+			}
+			GER_parliament_legend_gov_slot_6_misc_label_visible = {
+				has_country_flag = GER_parliament_misc_is_governing
+				check_variable = {
+					var = GER_parliament_misc_faction_rank
+					value = 6
+					compare = equals
+				}
+			}
+			GER_parliament_legend_gov_slot_6_misc_seat_number_visible = {
+				has_country_flag = GER_parliament_misc_is_governing
+				check_variable = {
+					var = GER_parliament_misc_faction_rank
+					value = 6
+					compare = equals
+				}
+			}
+			GER_parliament_legend_gov_slot_6_misc_seat_unit_visible = {
+				has_country_flag = GER_parliament_misc_is_governing
+				check_variable = {
+					var = GER_parliament_misc_faction_rank
+					value = 6
+					compare = equals
+				}
+			}
+			GER_parliament_legend_gov_slot_6_misc_support_label_visible = {
+				has_country_flag = GER_parliament_misc_is_governing
+				check_variable = {
+					var = GER_parliament_misc_faction_rank
+					value = 6
+					compare = equals
+				}
+			}
+			GER_parliament_legend_gov_slot_6_misc_support_value_visible = {
+				has_country_flag = GER_parliament_misc_is_governing
+				check_variable = {
+					var = GER_parliament_misc_faction_rank
+					value = 6
+					compare = equals
+				}
+			}
+			GER_parliament_legend_opp_slot_6_kpd_icon_visible = {
+				NOT = {
+					has_country_flag = GER_parliament_kpd_is_governing
+				}
+				check_variable = {
+					var = GER_parliament_kpd_faction_rank
+					value = 6
+					compare = equals
+				}
+			}
+			GER_parliament_legend_opp_slot_6_kpd_label_visible = {
+				NOT = {
+					has_country_flag = GER_parliament_kpd_is_governing
+				}
+				check_variable = {
+					var = GER_parliament_kpd_faction_rank
+					value = 6
+					compare = equals
+				}
+			}
+			GER_parliament_legend_opp_slot_6_kpd_seat_number_visible = {
+				NOT = {
+					has_country_flag = GER_parliament_kpd_is_governing
+				}
+				check_variable = {
+					var = GER_parliament_kpd_faction_rank
+					value = 6
+					compare = equals
+				}
+			}
+			GER_parliament_legend_opp_slot_6_kpd_seat_unit_visible = {
+				NOT = {
+					has_country_flag = GER_parliament_kpd_is_governing
+				}
+				check_variable = {
+					var = GER_parliament_kpd_faction_rank
+					value = 6
+					compare = equals
+				}
+			}
+			GER_parliament_legend_opp_slot_6_kpd_support_label_visible = {
+				NOT = {
+					has_country_flag = GER_parliament_kpd_is_governing
+				}
+				check_variable = {
+					var = GER_parliament_kpd_faction_rank
+					value = 6
+					compare = equals
+				}
+			}
+			GER_parliament_legend_opp_slot_6_kpd_support_value_visible = {
+				NOT = {
+					has_country_flag = GER_parliament_kpd_is_governing
+				}
+				check_variable = {
+					var = GER_parliament_kpd_faction_rank
+					value = 6
+					compare = equals
+				}
+			}
+			GER_parliament_legend_opp_slot_6_uspd_icon_visible = {
+				NOT = {
+					has_country_flag = GER_parliament_uspd_is_governing
+				}
+				check_variable = {
+					var = GER_parliament_uspd_faction_rank
+					value = 6
+					compare = equals
+				}
+			}
+			GER_parliament_legend_opp_slot_6_uspd_label_visible = {
+				NOT = {
+					has_country_flag = GER_parliament_uspd_is_governing
+				}
+				check_variable = {
+					var = GER_parliament_uspd_faction_rank
+					value = 6
+					compare = equals
+				}
+			}
+			GER_parliament_legend_opp_slot_6_uspd_seat_number_visible = {
+				NOT = {
+					has_country_flag = GER_parliament_uspd_is_governing
+				}
+				check_variable = {
+					var = GER_parliament_uspd_faction_rank
+					value = 6
+					compare = equals
+				}
+			}
+			GER_parliament_legend_opp_slot_6_uspd_seat_unit_visible = {
+				NOT = {
+					has_country_flag = GER_parliament_uspd_is_governing
+				}
+				check_variable = {
+					var = GER_parliament_uspd_faction_rank
+					value = 6
+					compare = equals
+				}
+			}
+			GER_parliament_legend_opp_slot_6_uspd_support_label_visible = {
+				NOT = {
+					has_country_flag = GER_parliament_uspd_is_governing
+				}
+				check_variable = {
+					var = GER_parliament_uspd_faction_rank
+					value = 6
+					compare = equals
+				}
+			}
+			GER_parliament_legend_opp_slot_6_uspd_support_value_visible = {
+				NOT = {
+					has_country_flag = GER_parliament_uspd_is_governing
+				}
+				check_variable = {
+					var = GER_parliament_uspd_faction_rank
+					value = 6
+					compare = equals
+				}
+			}
+			GER_parliament_legend_opp_slot_6_spd_icon_visible = {
+				NOT = {
+					has_country_flag = GER_parliament_spd_is_governing
+				}
+				check_variable = {
+					var = GER_parliament_spd_faction_rank
+					value = 6
+					compare = equals
+				}
+			}
+			GER_parliament_legend_opp_slot_6_spd_label_visible = {
+				NOT = {
+					has_country_flag = GER_parliament_spd_is_governing
+				}
+				check_variable = {
+					var = GER_parliament_spd_faction_rank
+					value = 6
+					compare = equals
+				}
+			}
+			GER_parliament_legend_opp_slot_6_spd_seat_number_visible = {
+				NOT = {
+					has_country_flag = GER_parliament_spd_is_governing
+				}
+				check_variable = {
+					var = GER_parliament_spd_faction_rank
+					value = 6
+					compare = equals
+				}
+			}
+			GER_parliament_legend_opp_slot_6_spd_seat_unit_visible = {
+				NOT = {
+					has_country_flag = GER_parliament_spd_is_governing
+				}
+				check_variable = {
+					var = GER_parliament_spd_faction_rank
+					value = 6
+					compare = equals
+				}
+			}
+			GER_parliament_legend_opp_slot_6_spd_support_label_visible = {
+				NOT = {
+					has_country_flag = GER_parliament_spd_is_governing
+				}
+				check_variable = {
+					var = GER_parliament_spd_faction_rank
+					value = 6
+					compare = equals
+				}
+			}
+			GER_parliament_legend_opp_slot_6_spd_support_value_visible = {
+				NOT = {
+					has_country_flag = GER_parliament_spd_is_governing
+				}
+				check_variable = {
+					var = GER_parliament_spd_faction_rank
+					value = 6
+					compare = equals
+				}
+			}
+			GER_parliament_legend_opp_slot_6_fvp_icon_visible = {
+				NOT = {
+					has_country_flag = GER_parliament_fvp_is_governing
+				}
+				check_variable = {
+					var = GER_parliament_fvp_faction_rank
+					value = 6
+					compare = equals
+				}
+			}
+			GER_parliament_legend_opp_slot_6_fvp_label_visible = {
+				NOT = {
+					has_country_flag = GER_parliament_fvp_is_governing
+				}
+				check_variable = {
+					var = GER_parliament_fvp_faction_rank
+					value = 6
+					compare = equals
+				}
+			}
+			GER_parliament_legend_opp_slot_6_fvp_seat_number_visible = {
+				NOT = {
+					has_country_flag = GER_parliament_fvp_is_governing
+				}
+				check_variable = {
+					var = GER_parliament_fvp_faction_rank
+					value = 6
+					compare = equals
+				}
+			}
+			GER_parliament_legend_opp_slot_6_fvp_seat_unit_visible = {
+				NOT = {
+					has_country_flag = GER_parliament_fvp_is_governing
+				}
+				check_variable = {
+					var = GER_parliament_fvp_faction_rank
+					value = 6
+					compare = equals
+				}
+			}
+			GER_parliament_legend_opp_slot_6_fvp_support_label_visible = {
+				NOT = {
+					has_country_flag = GER_parliament_fvp_is_governing
+				}
+				check_variable = {
+					var = GER_parliament_fvp_faction_rank
+					value = 6
+					compare = equals
+				}
+			}
+			GER_parliament_legend_opp_slot_6_fvp_support_value_visible = {
+				NOT = {
+					has_country_flag = GER_parliament_fvp_is_governing
+				}
+				check_variable = {
+					var = GER_parliament_fvp_faction_rank
+					value = 6
+					compare = equals
+				}
+			}
+			GER_parliament_legend_opp_slot_6_zentrum_icon_visible = {
+				NOT = {
+					has_country_flag = GER_parliament_zentrum_is_governing
+				}
+				check_variable = {
+					var = GER_parliament_zentrum_faction_rank
+					value = 6
+					compare = equals
+				}
+			}
+			GER_parliament_legend_opp_slot_6_zentrum_label_visible = {
+				NOT = {
+					has_country_flag = GER_parliament_zentrum_is_governing
+				}
+				check_variable = {
+					var = GER_parliament_zentrum_faction_rank
+					value = 6
+					compare = equals
+				}
+			}
+			GER_parliament_legend_opp_slot_6_zentrum_seat_number_visible = {
+				NOT = {
+					has_country_flag = GER_parliament_zentrum_is_governing
+				}
+				check_variable = {
+					var = GER_parliament_zentrum_faction_rank
+					value = 6
+					compare = equals
+				}
+			}
+			GER_parliament_legend_opp_slot_6_zentrum_seat_unit_visible = {
+				NOT = {
+					has_country_flag = GER_parliament_zentrum_is_governing
+				}
+				check_variable = {
+					var = GER_parliament_zentrum_faction_rank
+					value = 6
+					compare = equals
+				}
+			}
+			GER_parliament_legend_opp_slot_6_zentrum_support_label_visible = {
+				NOT = {
+					has_country_flag = GER_parliament_zentrum_is_governing
+				}
+				check_variable = {
+					var = GER_parliament_zentrum_faction_rank
+					value = 6
+					compare = equals
+				}
+			}
+			GER_parliament_legend_opp_slot_6_zentrum_support_value_visible = {
+				NOT = {
+					has_country_flag = GER_parliament_zentrum_is_governing
+				}
+				check_variable = {
+					var = GER_parliament_zentrum_faction_rank
+					value = 6
+					compare = equals
+				}
+			}
+			GER_parliament_legend_opp_slot_6_nlp_icon_visible = {
+				NOT = {
+					has_country_flag = GER_parliament_nlp_is_governing
+				}
+				check_variable = {
+					var = GER_parliament_nlp_faction_rank
+					value = 6
+					compare = equals
+				}
+			}
+			GER_parliament_legend_opp_slot_6_nlp_label_visible = {
+				NOT = {
+					has_country_flag = GER_parliament_nlp_is_governing
+				}
+				check_variable = {
+					var = GER_parliament_nlp_faction_rank
+					value = 6
+					compare = equals
+				}
+			}
+			GER_parliament_legend_opp_slot_6_nlp_seat_number_visible = {
+				NOT = {
+					has_country_flag = GER_parliament_nlp_is_governing
+				}
+				check_variable = {
+					var = GER_parliament_nlp_faction_rank
+					value = 6
+					compare = equals
+				}
+			}
+			GER_parliament_legend_opp_slot_6_nlp_seat_unit_visible = {
+				NOT = {
+					has_country_flag = GER_parliament_nlp_is_governing
+				}
+				check_variable = {
+					var = GER_parliament_nlp_faction_rank
+					value = 6
+					compare = equals
+				}
+			}
+			GER_parliament_legend_opp_slot_6_nlp_support_label_visible = {
+				NOT = {
+					has_country_flag = GER_parliament_nlp_is_governing
+				}
+				check_variable = {
+					var = GER_parliament_nlp_faction_rank
+					value = 6
+					compare = equals
+				}
+			}
+			GER_parliament_legend_opp_slot_6_nlp_support_value_visible = {
+				NOT = {
+					has_country_flag = GER_parliament_nlp_is_governing
+				}
+				check_variable = {
+					var = GER_parliament_nlp_faction_rank
+					value = 6
+					compare = equals
+				}
+			}
+			GER_parliament_legend_opp_slot_6_fkp_icon_visible = {
+				NOT = {
+					has_country_flag = GER_parliament_fkp_is_governing
+				}
+				check_variable = {
+					var = GER_parliament_fkp_faction_rank
+					value = 6
+					compare = equals
+				}
+			}
+			GER_parliament_legend_opp_slot_6_fkp_label_visible = {
+				NOT = {
+					has_country_flag = GER_parliament_fkp_is_governing
+				}
+				check_variable = {
+					var = GER_parliament_fkp_faction_rank
+					value = 6
+					compare = equals
+				}
+			}
+			GER_parliament_legend_opp_slot_6_fkp_seat_number_visible = {
+				NOT = {
+					has_country_flag = GER_parliament_fkp_is_governing
+				}
+				check_variable = {
+					var = GER_parliament_fkp_faction_rank
+					value = 6
+					compare = equals
+				}
+			}
+			GER_parliament_legend_opp_slot_6_fkp_seat_unit_visible = {
+				NOT = {
+					has_country_flag = GER_parliament_fkp_is_governing
+				}
+				check_variable = {
+					var = GER_parliament_fkp_faction_rank
+					value = 6
+					compare = equals
+				}
+			}
+			GER_parliament_legend_opp_slot_6_fkp_support_label_visible = {
+				NOT = {
+					has_country_flag = GER_parliament_fkp_is_governing
+				}
+				check_variable = {
+					var = GER_parliament_fkp_faction_rank
+					value = 6
+					compare = equals
+				}
+			}
+			GER_parliament_legend_opp_slot_6_fkp_support_value_visible = {
+				NOT = {
+					has_country_flag = GER_parliament_fkp_is_governing
+				}
+				check_variable = {
+					var = GER_parliament_fkp_faction_rank
+					value = 6
+					compare = equals
+				}
+			}
+			GER_parliament_legend_opp_slot_6_dkp_icon_visible = {
+				NOT = {
+					has_country_flag = GER_parliament_dkp_is_governing
+				}
+				check_variable = {
+					var = GER_parliament_dkp_faction_rank
+					value = 6
+					compare = equals
+				}
+			}
+			GER_parliament_legend_opp_slot_6_dkp_label_visible = {
+				NOT = {
+					has_country_flag = GER_parliament_dkp_is_governing
+				}
+				check_variable = {
+					var = GER_parliament_dkp_faction_rank
+					value = 6
+					compare = equals
+				}
+			}
+			GER_parliament_legend_opp_slot_6_dkp_seat_number_visible = {
+				NOT = {
+					has_country_flag = GER_parliament_dkp_is_governing
+				}
+				check_variable = {
+					var = GER_parliament_dkp_faction_rank
+					value = 6
+					compare = equals
+				}
+			}
+			GER_parliament_legend_opp_slot_6_dkp_seat_unit_visible = {
+				NOT = {
+					has_country_flag = GER_parliament_dkp_is_governing
+				}
+				check_variable = {
+					var = GER_parliament_dkp_faction_rank
+					value = 6
+					compare = equals
+				}
+			}
+			GER_parliament_legend_opp_slot_6_dkp_support_label_visible = {
+				NOT = {
+					has_country_flag = GER_parliament_dkp_is_governing
+				}
+				check_variable = {
+					var = GER_parliament_dkp_faction_rank
+					value = 6
+					compare = equals
+				}
+			}
+			GER_parliament_legend_opp_slot_6_dkp_support_value_visible = {
+				NOT = {
+					has_country_flag = GER_parliament_dkp_is_governing
+				}
+				check_variable = {
+					var = GER_parliament_dkp_faction_rank
+					value = 6
+					compare = equals
+				}
+			}
+			GER_parliament_legend_opp_slot_6_dvlp_icon_visible = {
+				NOT = {
+					has_country_flag = GER_parliament_dvlp_is_governing
+				}
+				check_variable = {
+					var = GER_parliament_dvlp_faction_rank
+					value = 6
+					compare = equals
+				}
+			}
+			GER_parliament_legend_opp_slot_6_dvlp_label_visible = {
+				NOT = {
+					has_country_flag = GER_parliament_dvlp_is_governing
+				}
+				check_variable = {
+					var = GER_parliament_dvlp_faction_rank
+					value = 6
+					compare = equals
+				}
+			}
+			GER_parliament_legend_opp_slot_6_dvlp_seat_number_visible = {
+				NOT = {
+					has_country_flag = GER_parliament_dvlp_is_governing
+				}
+				check_variable = {
+					var = GER_parliament_dvlp_faction_rank
+					value = 6
+					compare = equals
+				}
+			}
+			GER_parliament_legend_opp_slot_6_dvlp_seat_unit_visible = {
+				NOT = {
+					has_country_flag = GER_parliament_dvlp_is_governing
+				}
+				check_variable = {
+					var = GER_parliament_dvlp_faction_rank
+					value = 6
+					compare = equals
+				}
+			}
+			GER_parliament_legend_opp_slot_6_dvlp_support_label_visible = {
+				NOT = {
+					has_country_flag = GER_parliament_dvlp_is_governing
+				}
+				check_variable = {
+					var = GER_parliament_dvlp_faction_rank
+					value = 6
+					compare = equals
+				}
+			}
+			GER_parliament_legend_opp_slot_6_dvlp_support_value_visible = {
+				NOT = {
+					has_country_flag = GER_parliament_dvlp_is_governing
+				}
+				check_variable = {
+					var = GER_parliament_dvlp_faction_rank
+					value = 6
+					compare = equals
+				}
+			}
+			GER_parliament_legend_opp_slot_6_misc_icon_visible = {
+				NOT = {
+					has_country_flag = GER_parliament_misc_is_governing
+				}
+				check_variable = {
+					var = GER_parliament_misc_faction_rank
+					value = 6
+					compare = equals
+				}
+			}
+			GER_parliament_legend_opp_slot_6_misc_label_visible = {
+				NOT = {
+					has_country_flag = GER_parliament_misc_is_governing
+				}
+				check_variable = {
+					var = GER_parliament_misc_faction_rank
+					value = 6
+					compare = equals
+				}
+			}
+			GER_parliament_legend_opp_slot_6_misc_seat_number_visible = {
+				NOT = {
+					has_country_flag = GER_parliament_misc_is_governing
+				}
+				check_variable = {
+					var = GER_parliament_misc_faction_rank
+					value = 6
+					compare = equals
+				}
+			}
+			GER_parliament_legend_opp_slot_6_misc_seat_unit_visible = {
+				NOT = {
+					has_country_flag = GER_parliament_misc_is_governing
+				}
+				check_variable = {
+					var = GER_parliament_misc_faction_rank
+					value = 6
+					compare = equals
+				}
+			}
+			GER_parliament_legend_opp_slot_6_misc_support_label_visible = {
+				NOT = {
+					has_country_flag = GER_parliament_misc_is_governing
+				}
+				check_variable = {
+					var = GER_parliament_misc_faction_rank
+					value = 6
+					compare = equals
+				}
+			}
+			GER_parliament_legend_opp_slot_6_misc_support_value_visible = {
+				NOT = {
+					has_country_flag = GER_parliament_misc_is_governing
+				}
+				check_variable = {
+					var = GER_parliament_misc_faction_rank
+					value = 6
+					compare = equals
+				}
+			}
+			GER_parliament_legend_gov_slot_7_kpd_icon_visible = {
+				has_country_flag = GER_parliament_kpd_is_governing
+				check_variable = {
+					var = GER_parliament_kpd_faction_rank
+					value = 7
+					compare = equals
+				}
+			}
+			GER_parliament_legend_gov_slot_7_kpd_label_visible = {
+				has_country_flag = GER_parliament_kpd_is_governing
+				check_variable = {
+					var = GER_parliament_kpd_faction_rank
+					value = 7
+					compare = equals
+				}
+			}
+			GER_parliament_legend_gov_slot_7_kpd_seat_number_visible = {
+				has_country_flag = GER_parliament_kpd_is_governing
+				check_variable = {
+					var = GER_parliament_kpd_faction_rank
+					value = 7
+					compare = equals
+				}
+			}
+			GER_parliament_legend_gov_slot_7_kpd_seat_unit_visible = {
+				has_country_flag = GER_parliament_kpd_is_governing
+				check_variable = {
+					var = GER_parliament_kpd_faction_rank
+					value = 7
+					compare = equals
+				}
+			}
+			GER_parliament_legend_gov_slot_7_kpd_support_label_visible = {
+				has_country_flag = GER_parliament_kpd_is_governing
+				check_variable = {
+					var = GER_parliament_kpd_faction_rank
+					value = 7
+					compare = equals
+				}
+			}
+			GER_parliament_legend_gov_slot_7_kpd_support_value_visible = {
+				has_country_flag = GER_parliament_kpd_is_governing
+				check_variable = {
+					var = GER_parliament_kpd_faction_rank
+					value = 7
+					compare = equals
+				}
+			}
+			GER_parliament_legend_gov_slot_7_uspd_icon_visible = {
+				has_country_flag = GER_parliament_uspd_is_governing
+				check_variable = {
+					var = GER_parliament_uspd_faction_rank
+					value = 7
+					compare = equals
+				}
+			}
+			GER_parliament_legend_gov_slot_7_uspd_label_visible = {
+				has_country_flag = GER_parliament_uspd_is_governing
+				check_variable = {
+					var = GER_parliament_uspd_faction_rank
+					value = 7
+					compare = equals
+				}
+			}
+			GER_parliament_legend_gov_slot_7_uspd_seat_number_visible = {
+				has_country_flag = GER_parliament_uspd_is_governing
+				check_variable = {
+					var = GER_parliament_uspd_faction_rank
+					value = 7
+					compare = equals
+				}
+			}
+			GER_parliament_legend_gov_slot_7_uspd_seat_unit_visible = {
+				has_country_flag = GER_parliament_uspd_is_governing
+				check_variable = {
+					var = GER_parliament_uspd_faction_rank
+					value = 7
+					compare = equals
+				}
+			}
+			GER_parliament_legend_gov_slot_7_uspd_support_label_visible = {
+				has_country_flag = GER_parliament_uspd_is_governing
+				check_variable = {
+					var = GER_parliament_uspd_faction_rank
+					value = 7
+					compare = equals
+				}
+			}
+			GER_parliament_legend_gov_slot_7_uspd_support_value_visible = {
+				has_country_flag = GER_parliament_uspd_is_governing
+				check_variable = {
+					var = GER_parliament_uspd_faction_rank
+					value = 7
+					compare = equals
+				}
+			}
+			GER_parliament_legend_gov_slot_7_spd_icon_visible = {
+				has_country_flag = GER_parliament_spd_is_governing
+				check_variable = {
+					var = GER_parliament_spd_faction_rank
+					value = 7
+					compare = equals
+				}
+			}
+			GER_parliament_legend_gov_slot_7_spd_label_visible = {
+				has_country_flag = GER_parliament_spd_is_governing
+				check_variable = {
+					var = GER_parliament_spd_faction_rank
+					value = 7
+					compare = equals
+				}
+			}
+			GER_parliament_legend_gov_slot_7_spd_seat_number_visible = {
+				has_country_flag = GER_parliament_spd_is_governing
+				check_variable = {
+					var = GER_parliament_spd_faction_rank
+					value = 7
+					compare = equals
+				}
+			}
+			GER_parliament_legend_gov_slot_7_spd_seat_unit_visible = {
+				has_country_flag = GER_parliament_spd_is_governing
+				check_variable = {
+					var = GER_parliament_spd_faction_rank
+					value = 7
+					compare = equals
+				}
+			}
+			GER_parliament_legend_gov_slot_7_spd_support_label_visible = {
+				has_country_flag = GER_parliament_spd_is_governing
+				check_variable = {
+					var = GER_parliament_spd_faction_rank
+					value = 7
+					compare = equals
+				}
+			}
+			GER_parliament_legend_gov_slot_7_spd_support_value_visible = {
+				has_country_flag = GER_parliament_spd_is_governing
+				check_variable = {
+					var = GER_parliament_spd_faction_rank
+					value = 7
+					compare = equals
+				}
+			}
+			GER_parliament_legend_gov_slot_7_fvp_icon_visible = {
+				has_country_flag = GER_parliament_fvp_is_governing
+				check_variable = {
+					var = GER_parliament_fvp_faction_rank
+					value = 7
+					compare = equals
+				}
+			}
+			GER_parliament_legend_gov_slot_7_fvp_label_visible = {
+				has_country_flag = GER_parliament_fvp_is_governing
+				check_variable = {
+					var = GER_parliament_fvp_faction_rank
+					value = 7
+					compare = equals
+				}
+			}
+			GER_parliament_legend_gov_slot_7_fvp_seat_number_visible = {
+				has_country_flag = GER_parliament_fvp_is_governing
+				check_variable = {
+					var = GER_parliament_fvp_faction_rank
+					value = 7
+					compare = equals
+				}
+			}
+			GER_parliament_legend_gov_slot_7_fvp_seat_unit_visible = {
+				has_country_flag = GER_parliament_fvp_is_governing
+				check_variable = {
+					var = GER_parliament_fvp_faction_rank
+					value = 7
+					compare = equals
+				}
+			}
+			GER_parliament_legend_gov_slot_7_fvp_support_label_visible = {
+				has_country_flag = GER_parliament_fvp_is_governing
+				check_variable = {
+					var = GER_parliament_fvp_faction_rank
+					value = 7
+					compare = equals
+				}
+			}
+			GER_parliament_legend_gov_slot_7_fvp_support_value_visible = {
+				has_country_flag = GER_parliament_fvp_is_governing
+				check_variable = {
+					var = GER_parliament_fvp_faction_rank
+					value = 7
+					compare = equals
+				}
+			}
+			GER_parliament_legend_gov_slot_7_zentrum_icon_visible = {
+				has_country_flag = GER_parliament_zentrum_is_governing
+				check_variable = {
+					var = GER_parliament_zentrum_faction_rank
+					value = 7
+					compare = equals
+				}
+			}
+			GER_parliament_legend_gov_slot_7_zentrum_label_visible = {
+				has_country_flag = GER_parliament_zentrum_is_governing
+				check_variable = {
+					var = GER_parliament_zentrum_faction_rank
+					value = 7
+					compare = equals
+				}
+			}
+			GER_parliament_legend_gov_slot_7_zentrum_seat_number_visible = {
+				has_country_flag = GER_parliament_zentrum_is_governing
+				check_variable = {
+					var = GER_parliament_zentrum_faction_rank
+					value = 7
+					compare = equals
+				}
+			}
+			GER_parliament_legend_gov_slot_7_zentrum_seat_unit_visible = {
+				has_country_flag = GER_parliament_zentrum_is_governing
+				check_variable = {
+					var = GER_parliament_zentrum_faction_rank
+					value = 7
+					compare = equals
+				}
+			}
+			GER_parliament_legend_gov_slot_7_zentrum_support_label_visible = {
+				has_country_flag = GER_parliament_zentrum_is_governing
+				check_variable = {
+					var = GER_parliament_zentrum_faction_rank
+					value = 7
+					compare = equals
+				}
+			}
+			GER_parliament_legend_gov_slot_7_zentrum_support_value_visible = {
+				has_country_flag = GER_parliament_zentrum_is_governing
+				check_variable = {
+					var = GER_parliament_zentrum_faction_rank
+					value = 7
+					compare = equals
+				}
+			}
+			GER_parliament_legend_gov_slot_7_nlp_icon_visible = {
+				has_country_flag = GER_parliament_nlp_is_governing
+				check_variable = {
+					var = GER_parliament_nlp_faction_rank
+					value = 7
+					compare = equals
+				}
+			}
+			GER_parliament_legend_gov_slot_7_nlp_label_visible = {
+				has_country_flag = GER_parliament_nlp_is_governing
+				check_variable = {
+					var = GER_parliament_nlp_faction_rank
+					value = 7
+					compare = equals
+				}
+			}
+			GER_parliament_legend_gov_slot_7_nlp_seat_number_visible = {
+				has_country_flag = GER_parliament_nlp_is_governing
+				check_variable = {
+					var = GER_parliament_nlp_faction_rank
+					value = 7
+					compare = equals
+				}
+			}
+			GER_parliament_legend_gov_slot_7_nlp_seat_unit_visible = {
+				has_country_flag = GER_parliament_nlp_is_governing
+				check_variable = {
+					var = GER_parliament_nlp_faction_rank
+					value = 7
+					compare = equals
+				}
+			}
+			GER_parliament_legend_gov_slot_7_nlp_support_label_visible = {
+				has_country_flag = GER_parliament_nlp_is_governing
+				check_variable = {
+					var = GER_parliament_nlp_faction_rank
+					value = 7
+					compare = equals
+				}
+			}
+			GER_parliament_legend_gov_slot_7_nlp_support_value_visible = {
+				has_country_flag = GER_parliament_nlp_is_governing
+				check_variable = {
+					var = GER_parliament_nlp_faction_rank
+					value = 7
+					compare = equals
+				}
+			}
+			GER_parliament_legend_gov_slot_7_fkp_icon_visible = {
+				has_country_flag = GER_parliament_fkp_is_governing
+				check_variable = {
+					var = GER_parliament_fkp_faction_rank
+					value = 7
+					compare = equals
+				}
+			}
+			GER_parliament_legend_gov_slot_7_fkp_label_visible = {
+				has_country_flag = GER_parliament_fkp_is_governing
+				check_variable = {
+					var = GER_parliament_fkp_faction_rank
+					value = 7
+					compare = equals
+				}
+			}
+			GER_parliament_legend_gov_slot_7_fkp_seat_number_visible = {
+				has_country_flag = GER_parliament_fkp_is_governing
+				check_variable = {
+					var = GER_parliament_fkp_faction_rank
+					value = 7
+					compare = equals
+				}
+			}
+			GER_parliament_legend_gov_slot_7_fkp_seat_unit_visible = {
+				has_country_flag = GER_parliament_fkp_is_governing
+				check_variable = {
+					var = GER_parliament_fkp_faction_rank
+					value = 7
+					compare = equals
+				}
+			}
+			GER_parliament_legend_gov_slot_7_fkp_support_label_visible = {
+				has_country_flag = GER_parliament_fkp_is_governing
+				check_variable = {
+					var = GER_parliament_fkp_faction_rank
+					value = 7
+					compare = equals
+				}
+			}
+			GER_parliament_legend_gov_slot_7_fkp_support_value_visible = {
+				has_country_flag = GER_parliament_fkp_is_governing
+				check_variable = {
+					var = GER_parliament_fkp_faction_rank
+					value = 7
+					compare = equals
+				}
+			}
+			GER_parliament_legend_gov_slot_7_dkp_icon_visible = {
+				has_country_flag = GER_parliament_dkp_is_governing
+				check_variable = {
+					var = GER_parliament_dkp_faction_rank
+					value = 7
+					compare = equals
+				}
+			}
+			GER_parliament_legend_gov_slot_7_dkp_label_visible = {
+				has_country_flag = GER_parliament_dkp_is_governing
+				check_variable = {
+					var = GER_parliament_dkp_faction_rank
+					value = 7
+					compare = equals
+				}
+			}
+			GER_parliament_legend_gov_slot_7_dkp_seat_number_visible = {
+				has_country_flag = GER_parliament_dkp_is_governing
+				check_variable = {
+					var = GER_parliament_dkp_faction_rank
+					value = 7
+					compare = equals
+				}
+			}
+			GER_parliament_legend_gov_slot_7_dkp_seat_unit_visible = {
+				has_country_flag = GER_parliament_dkp_is_governing
+				check_variable = {
+					var = GER_parliament_dkp_faction_rank
+					value = 7
+					compare = equals
+				}
+			}
+			GER_parliament_legend_gov_slot_7_dkp_support_label_visible = {
+				has_country_flag = GER_parliament_dkp_is_governing
+				check_variable = {
+					var = GER_parliament_dkp_faction_rank
+					value = 7
+					compare = equals
+				}
+			}
+			GER_parliament_legend_gov_slot_7_dkp_support_value_visible = {
+				has_country_flag = GER_parliament_dkp_is_governing
+				check_variable = {
+					var = GER_parliament_dkp_faction_rank
+					value = 7
+					compare = equals
+				}
+			}
+			GER_parliament_legend_gov_slot_7_dvlp_icon_visible = {
+				has_country_flag = GER_parliament_dvlp_is_governing
+				check_variable = {
+					var = GER_parliament_dvlp_faction_rank
+					value = 7
+					compare = equals
+				}
+			}
+			GER_parliament_legend_gov_slot_7_dvlp_label_visible = {
+				has_country_flag = GER_parliament_dvlp_is_governing
+				check_variable = {
+					var = GER_parliament_dvlp_faction_rank
+					value = 7
+					compare = equals
+				}
+			}
+			GER_parliament_legend_gov_slot_7_dvlp_seat_number_visible = {
+				has_country_flag = GER_parliament_dvlp_is_governing
+				check_variable = {
+					var = GER_parliament_dvlp_faction_rank
+					value = 7
+					compare = equals
+				}
+			}
+			GER_parliament_legend_gov_slot_7_dvlp_seat_unit_visible = {
+				has_country_flag = GER_parliament_dvlp_is_governing
+				check_variable = {
+					var = GER_parliament_dvlp_faction_rank
+					value = 7
+					compare = equals
+				}
+			}
+			GER_parliament_legend_gov_slot_7_dvlp_support_label_visible = {
+				has_country_flag = GER_parliament_dvlp_is_governing
+				check_variable = {
+					var = GER_parliament_dvlp_faction_rank
+					value = 7
+					compare = equals
+				}
+			}
+			GER_parliament_legend_gov_slot_7_dvlp_support_value_visible = {
+				has_country_flag = GER_parliament_dvlp_is_governing
+				check_variable = {
+					var = GER_parliament_dvlp_faction_rank
+					value = 7
+					compare = equals
+				}
+			}
+			GER_parliament_legend_gov_slot_7_misc_icon_visible = {
+				has_country_flag = GER_parliament_misc_is_governing
+				check_variable = {
+					var = GER_parliament_misc_faction_rank
+					value = 7
+					compare = equals
+				}
+			}
+			GER_parliament_legend_gov_slot_7_misc_label_visible = {
+				has_country_flag = GER_parliament_misc_is_governing
+				check_variable = {
+					var = GER_parliament_misc_faction_rank
+					value = 7
+					compare = equals
+				}
+			}
+			GER_parliament_legend_gov_slot_7_misc_seat_number_visible = {
+				has_country_flag = GER_parliament_misc_is_governing
+				check_variable = {
+					var = GER_parliament_misc_faction_rank
+					value = 7
+					compare = equals
+				}
+			}
+			GER_parliament_legend_gov_slot_7_misc_seat_unit_visible = {
+				has_country_flag = GER_parliament_misc_is_governing
+				check_variable = {
+					var = GER_parliament_misc_faction_rank
+					value = 7
+					compare = equals
+				}
+			}
+			GER_parliament_legend_gov_slot_7_misc_support_label_visible = {
+				has_country_flag = GER_parliament_misc_is_governing
+				check_variable = {
+					var = GER_parliament_misc_faction_rank
+					value = 7
+					compare = equals
+				}
+			}
+			GER_parliament_legend_gov_slot_7_misc_support_value_visible = {
+				has_country_flag = GER_parliament_misc_is_governing
+				check_variable = {
+					var = GER_parliament_misc_faction_rank
+					value = 7
+					compare = equals
+				}
+			}
+			GER_parliament_legend_opp_slot_7_kpd_icon_visible = {
+				NOT = {
+					has_country_flag = GER_parliament_kpd_is_governing
+				}
+				check_variable = {
+					var = GER_parliament_kpd_faction_rank
+					value = 7
+					compare = equals
+				}
+			}
+			GER_parliament_legend_opp_slot_7_kpd_label_visible = {
+				NOT = {
+					has_country_flag = GER_parliament_kpd_is_governing
+				}
+				check_variable = {
+					var = GER_parliament_kpd_faction_rank
+					value = 7
+					compare = equals
+				}
+			}
+			GER_parliament_legend_opp_slot_7_kpd_seat_number_visible = {
+				NOT = {
+					has_country_flag = GER_parliament_kpd_is_governing
+				}
+				check_variable = {
+					var = GER_parliament_kpd_faction_rank
+					value = 7
+					compare = equals
+				}
+			}
+			GER_parliament_legend_opp_slot_7_kpd_seat_unit_visible = {
+				NOT = {
+					has_country_flag = GER_parliament_kpd_is_governing
+				}
+				check_variable = {
+					var = GER_parliament_kpd_faction_rank
+					value = 7
+					compare = equals
+				}
+			}
+			GER_parliament_legend_opp_slot_7_kpd_support_label_visible = {
+				NOT = {
+					has_country_flag = GER_parliament_kpd_is_governing
+				}
+				check_variable = {
+					var = GER_parliament_kpd_faction_rank
+					value = 7
+					compare = equals
+				}
+			}
+			GER_parliament_legend_opp_slot_7_kpd_support_value_visible = {
+				NOT = {
+					has_country_flag = GER_parliament_kpd_is_governing
+				}
+				check_variable = {
+					var = GER_parliament_kpd_faction_rank
+					value = 7
+					compare = equals
+				}
+			}
+			GER_parliament_legend_opp_slot_7_uspd_icon_visible = {
+				NOT = {
+					has_country_flag = GER_parliament_uspd_is_governing
+				}
+				check_variable = {
+					var = GER_parliament_uspd_faction_rank
+					value = 7
+					compare = equals
+				}
+			}
+			GER_parliament_legend_opp_slot_7_uspd_label_visible = {
+				NOT = {
+					has_country_flag = GER_parliament_uspd_is_governing
+				}
+				check_variable = {
+					var = GER_parliament_uspd_faction_rank
+					value = 7
+					compare = equals
+				}
+			}
+			GER_parliament_legend_opp_slot_7_uspd_seat_number_visible = {
+				NOT = {
+					has_country_flag = GER_parliament_uspd_is_governing
+				}
+				check_variable = {
+					var = GER_parliament_uspd_faction_rank
+					value = 7
+					compare = equals
+				}
+			}
+			GER_parliament_legend_opp_slot_7_uspd_seat_unit_visible = {
+				NOT = {
+					has_country_flag = GER_parliament_uspd_is_governing
+				}
+				check_variable = {
+					var = GER_parliament_uspd_faction_rank
+					value = 7
+					compare = equals
+				}
+			}
+			GER_parliament_legend_opp_slot_7_uspd_support_label_visible = {
+				NOT = {
+					has_country_flag = GER_parliament_uspd_is_governing
+				}
+				check_variable = {
+					var = GER_parliament_uspd_faction_rank
+					value = 7
+					compare = equals
+				}
+			}
+			GER_parliament_legend_opp_slot_7_uspd_support_value_visible = {
+				NOT = {
+					has_country_flag = GER_parliament_uspd_is_governing
+				}
+				check_variable = {
+					var = GER_parliament_uspd_faction_rank
+					value = 7
+					compare = equals
+				}
+			}
+			GER_parliament_legend_opp_slot_7_spd_icon_visible = {
+				NOT = {
+					has_country_flag = GER_parliament_spd_is_governing
+				}
+				check_variable = {
+					var = GER_parliament_spd_faction_rank
+					value = 7
+					compare = equals
+				}
+			}
+			GER_parliament_legend_opp_slot_7_spd_label_visible = {
+				NOT = {
+					has_country_flag = GER_parliament_spd_is_governing
+				}
+				check_variable = {
+					var = GER_parliament_spd_faction_rank
+					value = 7
+					compare = equals
+				}
+			}
+			GER_parliament_legend_opp_slot_7_spd_seat_number_visible = {
+				NOT = {
+					has_country_flag = GER_parliament_spd_is_governing
+				}
+				check_variable = {
+					var = GER_parliament_spd_faction_rank
+					value = 7
+					compare = equals
+				}
+			}
+			GER_parliament_legend_opp_slot_7_spd_seat_unit_visible = {
+				NOT = {
+					has_country_flag = GER_parliament_spd_is_governing
+				}
+				check_variable = {
+					var = GER_parliament_spd_faction_rank
+					value = 7
+					compare = equals
+				}
+			}
+			GER_parliament_legend_opp_slot_7_spd_support_label_visible = {
+				NOT = {
+					has_country_flag = GER_parliament_spd_is_governing
+				}
+				check_variable = {
+					var = GER_parliament_spd_faction_rank
+					value = 7
+					compare = equals
+				}
+			}
+			GER_parliament_legend_opp_slot_7_spd_support_value_visible = {
+				NOT = {
+					has_country_flag = GER_parliament_spd_is_governing
+				}
+				check_variable = {
+					var = GER_parliament_spd_faction_rank
+					value = 7
+					compare = equals
+				}
+			}
+			GER_parliament_legend_opp_slot_7_fvp_icon_visible = {
+				NOT = {
+					has_country_flag = GER_parliament_fvp_is_governing
+				}
+				check_variable = {
+					var = GER_parliament_fvp_faction_rank
+					value = 7
+					compare = equals
+				}
+			}
+			GER_parliament_legend_opp_slot_7_fvp_label_visible = {
+				NOT = {
+					has_country_flag = GER_parliament_fvp_is_governing
+				}
+				check_variable = {
+					var = GER_parliament_fvp_faction_rank
+					value = 7
+					compare = equals
+				}
+			}
+			GER_parliament_legend_opp_slot_7_fvp_seat_number_visible = {
+				NOT = {
+					has_country_flag = GER_parliament_fvp_is_governing
+				}
+				check_variable = {
+					var = GER_parliament_fvp_faction_rank
+					value = 7
+					compare = equals
+				}
+			}
+			GER_parliament_legend_opp_slot_7_fvp_seat_unit_visible = {
+				NOT = {
+					has_country_flag = GER_parliament_fvp_is_governing
+				}
+				check_variable = {
+					var = GER_parliament_fvp_faction_rank
+					value = 7
+					compare = equals
+				}
+			}
+			GER_parliament_legend_opp_slot_7_fvp_support_label_visible = {
+				NOT = {
+					has_country_flag = GER_parliament_fvp_is_governing
+				}
+				check_variable = {
+					var = GER_parliament_fvp_faction_rank
+					value = 7
+					compare = equals
+				}
+			}
+			GER_parliament_legend_opp_slot_7_fvp_support_value_visible = {
+				NOT = {
+					has_country_flag = GER_parliament_fvp_is_governing
+				}
+				check_variable = {
+					var = GER_parliament_fvp_faction_rank
+					value = 7
+					compare = equals
+				}
+			}
+			GER_parliament_legend_opp_slot_7_zentrum_icon_visible = {
+				NOT = {
+					has_country_flag = GER_parliament_zentrum_is_governing
+				}
+				check_variable = {
+					var = GER_parliament_zentrum_faction_rank
+					value = 7
+					compare = equals
+				}
+			}
+			GER_parliament_legend_opp_slot_7_zentrum_label_visible = {
+				NOT = {
+					has_country_flag = GER_parliament_zentrum_is_governing
+				}
+				check_variable = {
+					var = GER_parliament_zentrum_faction_rank
+					value = 7
+					compare = equals
+				}
+			}
+			GER_parliament_legend_opp_slot_7_zentrum_seat_number_visible = {
+				NOT = {
+					has_country_flag = GER_parliament_zentrum_is_governing
+				}
+				check_variable = {
+					var = GER_parliament_zentrum_faction_rank
+					value = 7
+					compare = equals
+				}
+			}
+			GER_parliament_legend_opp_slot_7_zentrum_seat_unit_visible = {
+				NOT = {
+					has_country_flag = GER_parliament_zentrum_is_governing
+				}
+				check_variable = {
+					var = GER_parliament_zentrum_faction_rank
+					value = 7
+					compare = equals
+				}
+			}
+			GER_parliament_legend_opp_slot_7_zentrum_support_label_visible = {
+				NOT = {
+					has_country_flag = GER_parliament_zentrum_is_governing
+				}
+				check_variable = {
+					var = GER_parliament_zentrum_faction_rank
+					value = 7
+					compare = equals
+				}
+			}
+			GER_parliament_legend_opp_slot_7_zentrum_support_value_visible = {
+				NOT = {
+					has_country_flag = GER_parliament_zentrum_is_governing
+				}
+				check_variable = {
+					var = GER_parliament_zentrum_faction_rank
+					value = 7
+					compare = equals
+				}
+			}
+			GER_parliament_legend_opp_slot_7_nlp_icon_visible = {
+				NOT = {
+					has_country_flag = GER_parliament_nlp_is_governing
+				}
+				check_variable = {
+					var = GER_parliament_nlp_faction_rank
+					value = 7
+					compare = equals
+				}
+			}
+			GER_parliament_legend_opp_slot_7_nlp_label_visible = {
+				NOT = {
+					has_country_flag = GER_parliament_nlp_is_governing
+				}
+				check_variable = {
+					var = GER_parliament_nlp_faction_rank
+					value = 7
+					compare = equals
+				}
+			}
+			GER_parliament_legend_opp_slot_7_nlp_seat_number_visible = {
+				NOT = {
+					has_country_flag = GER_parliament_nlp_is_governing
+				}
+				check_variable = {
+					var = GER_parliament_nlp_faction_rank
+					value = 7
+					compare = equals
+				}
+			}
+			GER_parliament_legend_opp_slot_7_nlp_seat_unit_visible = {
+				NOT = {
+					has_country_flag = GER_parliament_nlp_is_governing
+				}
+				check_variable = {
+					var = GER_parliament_nlp_faction_rank
+					value = 7
+					compare = equals
+				}
+			}
+			GER_parliament_legend_opp_slot_7_nlp_support_label_visible = {
+				NOT = {
+					has_country_flag = GER_parliament_nlp_is_governing
+				}
+				check_variable = {
+					var = GER_parliament_nlp_faction_rank
+					value = 7
+					compare = equals
+				}
+			}
+			GER_parliament_legend_opp_slot_7_nlp_support_value_visible = {
+				NOT = {
+					has_country_flag = GER_parliament_nlp_is_governing
+				}
+				check_variable = {
+					var = GER_parliament_nlp_faction_rank
+					value = 7
+					compare = equals
+				}
+			}
+			GER_parliament_legend_opp_slot_7_fkp_icon_visible = {
+				NOT = {
+					has_country_flag = GER_parliament_fkp_is_governing
+				}
+				check_variable = {
+					var = GER_parliament_fkp_faction_rank
+					value = 7
+					compare = equals
+				}
+			}
+			GER_parliament_legend_opp_slot_7_fkp_label_visible = {
+				NOT = {
+					has_country_flag = GER_parliament_fkp_is_governing
+				}
+				check_variable = {
+					var = GER_parliament_fkp_faction_rank
+					value = 7
+					compare = equals
+				}
+			}
+			GER_parliament_legend_opp_slot_7_fkp_seat_number_visible = {
+				NOT = {
+					has_country_flag = GER_parliament_fkp_is_governing
+				}
+				check_variable = {
+					var = GER_parliament_fkp_faction_rank
+					value = 7
+					compare = equals
+				}
+			}
+			GER_parliament_legend_opp_slot_7_fkp_seat_unit_visible = {
+				NOT = {
+					has_country_flag = GER_parliament_fkp_is_governing
+				}
+				check_variable = {
+					var = GER_parliament_fkp_faction_rank
+					value = 7
+					compare = equals
+				}
+			}
+			GER_parliament_legend_opp_slot_7_fkp_support_label_visible = {
+				NOT = {
+					has_country_flag = GER_parliament_fkp_is_governing
+				}
+				check_variable = {
+					var = GER_parliament_fkp_faction_rank
+					value = 7
+					compare = equals
+				}
+			}
+			GER_parliament_legend_opp_slot_7_fkp_support_value_visible = {
+				NOT = {
+					has_country_flag = GER_parliament_fkp_is_governing
+				}
+				check_variable = {
+					var = GER_parliament_fkp_faction_rank
+					value = 7
+					compare = equals
+				}
+			}
+			GER_parliament_legend_opp_slot_7_dkp_icon_visible = {
+				NOT = {
+					has_country_flag = GER_parliament_dkp_is_governing
+				}
+				check_variable = {
+					var = GER_parliament_dkp_faction_rank
+					value = 7
+					compare = equals
+				}
+			}
+			GER_parliament_legend_opp_slot_7_dkp_label_visible = {
+				NOT = {
+					has_country_flag = GER_parliament_dkp_is_governing
+				}
+				check_variable = {
+					var = GER_parliament_dkp_faction_rank
+					value = 7
+					compare = equals
+				}
+			}
+			GER_parliament_legend_opp_slot_7_dkp_seat_number_visible = {
+				NOT = {
+					has_country_flag = GER_parliament_dkp_is_governing
+				}
+				check_variable = {
+					var = GER_parliament_dkp_faction_rank
+					value = 7
+					compare = equals
+				}
+			}
+			GER_parliament_legend_opp_slot_7_dkp_seat_unit_visible = {
+				NOT = {
+					has_country_flag = GER_parliament_dkp_is_governing
+				}
+				check_variable = {
+					var = GER_parliament_dkp_faction_rank
+					value = 7
+					compare = equals
+				}
+			}
+			GER_parliament_legend_opp_slot_7_dkp_support_label_visible = {
+				NOT = {
+					has_country_flag = GER_parliament_dkp_is_governing
+				}
+				check_variable = {
+					var = GER_parliament_dkp_faction_rank
+					value = 7
+					compare = equals
+				}
+			}
+			GER_parliament_legend_opp_slot_7_dkp_support_value_visible = {
+				NOT = {
+					has_country_flag = GER_parliament_dkp_is_governing
+				}
+				check_variable = {
+					var = GER_parliament_dkp_faction_rank
+					value = 7
+					compare = equals
+				}
+			}
+			GER_parliament_legend_opp_slot_7_dvlp_icon_visible = {
+				NOT = {
+					has_country_flag = GER_parliament_dvlp_is_governing
+				}
+				check_variable = {
+					var = GER_parliament_dvlp_faction_rank
+					value = 7
+					compare = equals
+				}
+			}
+			GER_parliament_legend_opp_slot_7_dvlp_label_visible = {
+				NOT = {
+					has_country_flag = GER_parliament_dvlp_is_governing
+				}
+				check_variable = {
+					var = GER_parliament_dvlp_faction_rank
+					value = 7
+					compare = equals
+				}
+			}
+			GER_parliament_legend_opp_slot_7_dvlp_seat_number_visible = {
+				NOT = {
+					has_country_flag = GER_parliament_dvlp_is_governing
+				}
+				check_variable = {
+					var = GER_parliament_dvlp_faction_rank
+					value = 7
+					compare = equals
+				}
+			}
+			GER_parliament_legend_opp_slot_7_dvlp_seat_unit_visible = {
+				NOT = {
+					has_country_flag = GER_parliament_dvlp_is_governing
+				}
+				check_variable = {
+					var = GER_parliament_dvlp_faction_rank
+					value = 7
+					compare = equals
+				}
+			}
+			GER_parliament_legend_opp_slot_7_dvlp_support_label_visible = {
+				NOT = {
+					has_country_flag = GER_parliament_dvlp_is_governing
+				}
+				check_variable = {
+					var = GER_parliament_dvlp_faction_rank
+					value = 7
+					compare = equals
+				}
+			}
+			GER_parliament_legend_opp_slot_7_dvlp_support_value_visible = {
+				NOT = {
+					has_country_flag = GER_parliament_dvlp_is_governing
+				}
+				check_variable = {
+					var = GER_parliament_dvlp_faction_rank
+					value = 7
+					compare = equals
+				}
+			}
+			GER_parliament_legend_opp_slot_7_misc_icon_visible = {
+				NOT = {
+					has_country_flag = GER_parliament_misc_is_governing
+				}
+				check_variable = {
+					var = GER_parliament_misc_faction_rank
+					value = 7
+					compare = equals
+				}
+			}
+			GER_parliament_legend_opp_slot_7_misc_label_visible = {
+				NOT = {
+					has_country_flag = GER_parliament_misc_is_governing
+				}
+				check_variable = {
+					var = GER_parliament_misc_faction_rank
+					value = 7
+					compare = equals
+				}
+			}
+			GER_parliament_legend_opp_slot_7_misc_seat_number_visible = {
+				NOT = {
+					has_country_flag = GER_parliament_misc_is_governing
+				}
+				check_variable = {
+					var = GER_parliament_misc_faction_rank
+					value = 7
+					compare = equals
+				}
+			}
+			GER_parliament_legend_opp_slot_7_misc_seat_unit_visible = {
+				NOT = {
+					has_country_flag = GER_parliament_misc_is_governing
+				}
+				check_variable = {
+					var = GER_parliament_misc_faction_rank
+					value = 7
+					compare = equals
+				}
+			}
+			GER_parliament_legend_opp_slot_7_misc_support_label_visible = {
+				NOT = {
+					has_country_flag = GER_parliament_misc_is_governing
+				}
+				check_variable = {
+					var = GER_parliament_misc_faction_rank
+					value = 7
+					compare = equals
+				}
+			}
+			GER_parliament_legend_opp_slot_7_misc_support_value_visible = {
+				NOT = {
+					has_country_flag = GER_parliament_misc_is_governing
+				}
+				check_variable = {
+					var = GER_parliament_misc_faction_rank
+					value = 7
+					compare = equals
+				}
+			}
+			GER_parliament_seat_tooltip_kpd_visible = {
+				check_variable = {
+					var = GER_parliament_seat_frame^seat_idx
+					value = 1
+					compare = equals
+				}
+			}
+			GER_parliament_seat_tooltip_uspd_visible = {
+				check_variable = {
+					var = GER_parliament_seat_frame^seat_idx
+					value = 2
+					compare = equals
+				}
+			}
+			GER_parliament_seat_tooltip_spd_visible = {
+				check_variable = {
+					var = GER_parliament_seat_frame^seat_idx
+					value = 3
+					compare = equals
+				}
+			}
+			GER_parliament_seat_tooltip_fvp_visible = {
+				check_variable = {
+					var = GER_parliament_seat_frame^seat_idx
+					value = 4
+					compare = equals
+				}
+			}
+			GER_parliament_seat_tooltip_zentrum_visible = {
+				check_variable = {
+					var = GER_parliament_seat_frame^seat_idx
+					value = 5
+					compare = equals
+				}
+			}
+			GER_parliament_seat_tooltip_nlp_visible = {
+				check_variable = {
+					var = GER_parliament_seat_frame^seat_idx
+					value = 6
+					compare = equals
+				}
+			}
+			GER_parliament_seat_tooltip_fkp_visible = {
+				check_variable = {
+					var = GER_parliament_seat_frame^seat_idx
+					value = 7
+					compare = equals
+				}
+			}
+			GER_parliament_seat_tooltip_dkp_visible = {
+				check_variable = {
+					var = GER_parliament_seat_frame^seat_idx
+					value = 8
+					compare = equals
+				}
+			}
+			GER_parliament_seat_tooltip_dvlp_visible = {
+				check_variable = {
+					var = GER_parliament_seat_frame^seat_idx
+					value = 9
+					compare = equals
+				}
+			}
+			GER_parliament_seat_tooltip_misc_visible = {
+				check_variable = {
+					var = GER_parliament_seat_frame^seat_idx
+					value = 10
 					compare = equals
 				}
 			}

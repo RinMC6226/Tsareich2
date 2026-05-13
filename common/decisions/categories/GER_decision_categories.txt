@@ -1,5 +1,6 @@
 GER_parliament = {
 	icon = generic_political_actions
+	picture = GFX_GER_parliament_decision_picture
 	priority = 100
 
 	allowed = {

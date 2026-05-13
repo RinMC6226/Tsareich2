@@ -3,6 +3,7 @@ on_actions = {
 		effect = {
 			GER = {
 				GER_parliament_initialize = yes
+				activate_mission = GER_parliament_election_mission
 			}
 		}
 	}

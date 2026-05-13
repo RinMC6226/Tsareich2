@@ -2,7 +2,7 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_GER_parliament_seat"
 		texturefile = "gfx/interface/parliament/GER_parliament_seat_strip.tga"
-		noOfFrames = 9
+		noOfFrames = 10
 	}
 	spriteType = {
 		name = "GFX_GER_parliament_seat_kpd"
@@ -10,8 +10,8 @@ spriteTypes = {
 		noOfFrames = 1
 	}
 	spriteType = {
-		name = "GFX_GER_parliament_seat_sapd"
-		texturefile = "gfx/interface/parliament/GER_parliament_seat_sapd.tga"
+		name = "GFX_GER_parliament_seat_uspd"
+		texturefile = "gfx/interface/parliament/GER_parliament_seat_uspd.tga"
 		noOfFrames = 1
 	}
 	spriteType = {
@@ -30,13 +30,8 @@ spriteTypes = {
 		noOfFrames = 1
 	}
 	spriteType = {
-		name = "GFX_GER_parliament_seat_dkp"
-		texturefile = "gfx/interface/parliament/GER_parliament_seat_dkp.tga"
-		noOfFrames = 1
-	}
-	spriteType = {
-		name = "GFX_GER_parliament_seat_drp"
-		texturefile = "gfx/interface/parliament/GER_parliament_seat_drp.tga"
+		name = "GFX_GER_parliament_seat_nlp"
+		texturefile = "gfx/interface/parliament/GER_parliament_seat_nlp.tga"
 		noOfFrames = 1
 	}
 	spriteType = {
@@ -45,13 +40,78 @@ spriteTypes = {
 		noOfFrames = 1
 	}
 	spriteType = {
-		name = "GFX_GER_parliament_seat_dnvp"
-		texturefile = "gfx/interface/parliament/GER_parliament_seat_dnvp.tga"
+		name = "GFX_GER_parliament_seat_dkp"
+		texturefile = "gfx/interface/parliament/GER_parliament_seat_dkp.tga"
+		noOfFrames = 1
+	}
+	spriteType = {
+		name = "GFX_GER_parliament_seat_dvlp"
+		texturefile = "gfx/interface/parliament/GER_parliament_seat_dvlp.tga"
+		noOfFrames = 1
+	}
+	spriteType = {
+		name = "GFX_GER_parliament_seat_misc"
+		texturefile = "gfx/interface/parliament/GER_parliament_seat_misc.tga"
+		noOfFrames = 1
+	}
+	spriteType = {
+		name = "GFX_GER_parliament_party_colour_kpd"
+		texturefile = "gfx/interface/parliament/GER_parliament_party_colour_kpd.tga"
+		noOfFrames = 1
+	}
+	spriteType = {
+		name = "GFX_GER_parliament_party_colour_uspd"
+		texturefile = "gfx/interface/parliament/GER_parliament_party_colour_uspd.tga"
+		noOfFrames = 1
+	}
+	spriteType = {
+		name = "GFX_GER_parliament_party_colour_spd"
+		texturefile = "gfx/interface/parliament/GER_parliament_party_colour_spd.tga"
+		noOfFrames = 1
+	}
+	spriteType = {
+		name = "GFX_GER_parliament_party_colour_fvp"
+		texturefile = "gfx/interface/parliament/GER_parliament_party_colour_fvp.tga"
+		noOfFrames = 1
+	}
+	spriteType = {
+		name = "GFX_GER_parliament_party_colour_zentrum"
+		texturefile = "gfx/interface/parliament/GER_parliament_party_colour_zentrum.tga"
+		noOfFrames = 1
+	}
+	spriteType = {
+		name = "GFX_GER_parliament_party_colour_nlp"
+		texturefile = "gfx/interface/parliament/GER_parliament_party_colour_nlp.tga"
+		noOfFrames = 1
+	}
+	spriteType = {
+		name = "GFX_GER_parliament_party_colour_fkp"
+		texturefile = "gfx/interface/parliament/GER_parliament_party_colour_fkp.tga"
+		noOfFrames = 1
+	}
+	spriteType = {
+		name = "GFX_GER_parliament_party_colour_dkp"
+		texturefile = "gfx/interface/parliament/GER_parliament_party_colour_dkp.tga"
+		noOfFrames = 1
+	}
+	spriteType = {
+		name = "GFX_GER_parliament_party_colour_dvlp"
+		texturefile = "gfx/interface/parliament/GER_parliament_party_colour_dvlp.tga"
+		noOfFrames = 1
+	}
+	spriteType = {
+		name = "GFX_GER_parliament_party_colour_misc"
+		texturefile = "gfx/interface/parliament/GER_parliament_party_colour_misc.tga"
 		noOfFrames = 1
 	}
 	spriteType = {
 		name = "GFX_GER_parliament_gov_marker"
 		texturefile = "gfx/interface/parliament/GER_parliament_gov_marker.tga"
+		noOfFrames = 1
+	}
+	spriteType = {
+		name = "GFX_GER_parliament_decision_picture"
+		texturefile = "gfx/interface/decisions/decision_reichstag.dds"
 		noOfFrames = 1
 	}
 }

@@ -3,36 +3,37 @@ GER_parliament_initialize = {
 	set_variable = { GER_parliament_total_seats = 397 }
 
 	# 初期議席配分
-	set_variable = { GER_parliament_kpd_seats     = 12 }
-	set_variable = { GER_parliament_sapd_seats    = 36 }
-	set_variable = { GER_parliament_spd_seats     = 71 }
-	set_variable = { GER_parliament_fvp_seats     = 52 }
-	set_variable = { GER_parliament_zentrum_seats = 60 }
-	set_variable = { GER_parliament_dkp_seats     = 65 }
-	set_variable = { GER_parliament_drp_seats     = 34 }
-	set_variable = { GER_parliament_fkp_seats     = 48 }
-	set_variable = { GER_parliament_dnvp_seats    = 19 }
+	set_variable = { GER_parliament_kpd_seats = 7 }
+	set_variable = { GER_parliament_uspd_seats = 21 }
+	set_variable = { GER_parliament_spd_seats = 88 }
+	set_variable = { GER_parliament_fvp_seats = 34 }
+	set_variable = { GER_parliament_zentrum_seats = 78 }
+	set_variable = { GER_parliament_nlp_seats = 50 }
+	set_variable = { GER_parliament_fkp_seats = 17 }
+	set_variable = { GER_parliament_dkp_seats = 52 }
+	set_variable = { GER_parliament_dvlp_seats = 13 }
+	set_variable = { GER_parliament_misc_seats = 37 }
 
-	# 与党連立 (中央党 + 保守党 + 帝国党 + 自由保守党)
-	set_variable = { GER_parliament_government_seats = 207 }
-	set_variable = { GER_parliament_opposition_seats = 190 }
+	# 与党連立
+	set_variable = { GER_parliament_government_seats = 119 }
+	set_variable = { GER_parliament_opposition_seats = 278 }
 
-	# 支持率 (合計 10000 basis points = 100.00%)
-	set_variable = { GER_parliament_kpd_support_bps     = 302  }
-	set_variable = { GER_parliament_sapd_support_bps    = 906  }
-	set_variable = { GER_parliament_spd_support_bps     = 1788 }
-	set_variable = { GER_parliament_fvp_support_bps     = 1310 }
-	set_variable = { GER_parliament_zentrum_support_bps = 1511 }
-	set_variable = { GER_parliament_dkp_support_bps     = 1637 }
-	set_variable = { GER_parliament_drp_support_bps     = 856  }
-	set_variable = { GER_parliament_fkp_support_bps     = 1209 }
-	set_variable = { GER_parliament_dnvp_support_bps    = 481  }
+	# 支持率 (合計 1000 support points = 100.0%)
+	set_variable = { GER_parliament_kpd_support_bps = 18 }
+	set_variable = { GER_parliament_uspd_support_bps = 53 }
+	set_variable = { GER_parliament_spd_support_bps = 222 }
+	set_variable = { GER_parliament_fvp_support_bps = 86 }
+	set_variable = { GER_parliament_zentrum_support_bps = 196 }
+	set_variable = { GER_parliament_nlp_support_bps = 126 }
+	set_variable = { GER_parliament_fkp_support_bps = 43 }
+	set_variable = { GER_parliament_dkp_support_bps = 131 }
+	set_variable = { GER_parliament_dvlp_support_bps = 33 }
+	set_variable = { GER_parliament_misc_support_bps = 92 }
 
 	# 与党フラグ
-	set_country_flag = GER_parliament_zentrum_is_governing
-	set_country_flag = GER_parliament_dkp_is_governing
-	set_country_flag = GER_parliament_drp_is_governing
+	set_country_flag = GER_parliament_nlp_is_governing
 	set_country_flag = GER_parliament_fkp_is_governing
+	set_country_flag = GER_parliament_dkp_is_governing
 
 	set_variable = { GER_parliament_dirty = 0 }
 	set_country_flag = GER_parliament_initialized
@@ -45,40 +46,45 @@ GER_parliament_initialize = {
 # ── GUI 更新用しきい値を再計算 ────────────────────────────────────────────────
 GER_parliament_refresh_display = {
 	set_temp_variable = { ger_par_tmp = GER_parliament_kpd_support_bps }
-	divide_temp_variable = { ger_par_tmp = 10000 }
+	divide_temp_variable = { ger_par_tmp = 1000 }
 	set_variable = { GER_parliament_kpd_support_share = ger_par_tmp }
 
-	set_temp_variable = { ger_par_tmp = GER_parliament_sapd_support_bps }
-	divide_temp_variable = { ger_par_tmp = 10000 }
-	set_variable = { GER_parliament_sapd_support_share = ger_par_tmp }
+	set_temp_variable = { ger_par_tmp = GER_parliament_uspd_support_bps }
+	divide_temp_variable = { ger_par_tmp = 1000 }
+	set_variable = { GER_parliament_uspd_support_share = ger_par_tmp }
 
 	set_temp_variable = { ger_par_tmp = GER_parliament_spd_support_bps }
-	divide_temp_variable = { ger_par_tmp = 10000 }
+	divide_temp_variable = { ger_par_tmp = 1000 }
 	set_variable = { GER_parliament_spd_support_share = ger_par_tmp }
 
 	set_temp_variable = { ger_par_tmp = GER_parliament_fvp_support_bps }
-	divide_temp_variable = { ger_par_tmp = 10000 }
+	divide_temp_variable = { ger_par_tmp = 1000 }
 	set_variable = { GER_parliament_fvp_support_share = ger_par_tmp }
 
 	set_temp_variable = { ger_par_tmp = GER_parliament_zentrum_support_bps }
-	divide_temp_variable = { ger_par_tmp = 10000 }
+	divide_temp_variable = { ger_par_tmp = 1000 }
 	set_variable = { GER_parliament_zentrum_support_share = ger_par_tmp }
 
-	set_temp_variable = { ger_par_tmp = GER_parliament_dkp_support_bps }
-	divide_temp_variable = { ger_par_tmp = 10000 }
-	set_variable = { GER_parliament_dkp_support_share = ger_par_tmp }
-
-	set_temp_variable = { ger_par_tmp = GER_parliament_drp_support_bps }
-	divide_temp_variable = { ger_par_tmp = 10000 }
-	set_variable = { GER_parliament_drp_support_share = ger_par_tmp }
+	set_temp_variable = { ger_par_tmp = GER_parliament_nlp_support_bps }
+	divide_temp_variable = { ger_par_tmp = 1000 }
+	set_variable = { GER_parliament_nlp_support_share = ger_par_tmp }
 
 	set_temp_variable = { ger_par_tmp = GER_parliament_fkp_support_bps }
-	divide_temp_variable = { ger_par_tmp = 10000 }
+	divide_temp_variable = { ger_par_tmp = 1000 }
 	set_variable = { GER_parliament_fkp_support_share = ger_par_tmp }
 
-	set_temp_variable = { ger_par_tmp = GER_parliament_dnvp_support_bps }
-	divide_temp_variable = { ger_par_tmp = 10000 }
-	set_variable = { GER_parliament_dnvp_support_share = ger_par_tmp }
+	set_temp_variable = { ger_par_tmp = GER_parliament_dkp_support_bps }
+	divide_temp_variable = { ger_par_tmp = 1000 }
+	set_variable = { GER_parliament_dkp_support_share = ger_par_tmp }
+
+	set_temp_variable = { ger_par_tmp = GER_parliament_dvlp_support_bps }
+	divide_temp_variable = { ger_par_tmp = 1000 }
+	set_variable = { GER_parliament_dvlp_support_share = ger_par_tmp }
+
+	set_temp_variable = { ger_par_tmp = GER_parliament_misc_support_bps }
+	divide_temp_variable = { ger_par_tmp = 1000 }
+	set_variable = { GER_parliament_misc_support_share = ger_par_tmp }
+
 }
 
 GER_parliament_refresh_thresholds = {
@@ -88,30 +94,24 @@ GER_parliament_refresh_thresholds = {
 	GER_parliament_refresh_display = yes
 	GER_parliament_refresh_legend_order = yes
 	set_variable = { GER_parliament_kpd_max = GER_parliament_kpd_seats }
-
-	set_variable    = { GER_parliament_sapd_max = GER_parliament_kpd_max }
-	add_to_variable = { GER_parliament_sapd_max = GER_parliament_sapd_seats }
-
-	set_variable    = { GER_parliament_spd_max = GER_parliament_sapd_max }
+	set_variable    = { GER_parliament_uspd_max = GER_parliament_kpd_max }
+	add_to_variable = { GER_parliament_uspd_max = GER_parliament_uspd_seats }
+	set_variable    = { GER_parliament_spd_max = GER_parliament_uspd_max }
 	add_to_variable = { GER_parliament_spd_max = GER_parliament_spd_seats }
-
 	set_variable    = { GER_parliament_fvp_max = GER_parliament_spd_max }
 	add_to_variable = { GER_parliament_fvp_max = GER_parliament_fvp_seats }
-
 	set_variable    = { GER_parliament_zentrum_max = GER_parliament_fvp_max }
 	add_to_variable = { GER_parliament_zentrum_max = GER_parliament_zentrum_seats }
-
-	set_variable    = { GER_parliament_dkp_max = GER_parliament_zentrum_max }
-	add_to_variable = { GER_parliament_dkp_max = GER_parliament_dkp_seats }
-
-	set_variable    = { GER_parliament_drp_max = GER_parliament_dkp_max }
-	add_to_variable = { GER_parliament_drp_max = GER_parliament_drp_seats }
-
-	set_variable    = { GER_parliament_fkp_max = GER_parliament_drp_max }
+	set_variable    = { GER_parliament_nlp_max = GER_parliament_zentrum_max }
+	add_to_variable = { GER_parliament_nlp_max = GER_parliament_nlp_seats }
+	set_variable    = { GER_parliament_fkp_max = GER_parliament_nlp_max }
 	add_to_variable = { GER_parliament_fkp_max = GER_parliament_fkp_seats }
-
-	set_variable    = { GER_parliament_dnvp_max = GER_parliament_fkp_max }
-	add_to_variable = { GER_parliament_dnvp_max = GER_parliament_dnvp_seats }
+	set_variable    = { GER_parliament_dkp_max = GER_parliament_fkp_max }
+	add_to_variable = { GER_parliament_dkp_max = GER_parliament_dkp_seats }
+	set_variable    = { GER_parliament_dvlp_max = GER_parliament_dkp_max }
+	add_to_variable = { GER_parliament_dvlp_max = GER_parliament_dvlp_seats }
+	set_variable    = { GER_parliament_misc_max = GER_parliament_dvlp_max }
+	add_to_variable = { GER_parliament_misc_max = GER_parliament_misc_seats }
 
 	GER_parliament_refresh_diagram_frames = yes
 	add_to_variable = { GER_parliament_dirty = 1 }
@@ -124,9 +124,9 @@ GER_parliament_refresh_legend_order = {
 	if = {
 		limit = {
 			has_country_flag = GER_parliament_kpd_is_governing
-			has_country_flag = GER_parliament_sapd_is_governing
+			has_country_flag = GER_parliament_uspd_is_governing
 			check_variable = {
-				var = GER_parliament_sapd_seats
+				var = GER_parliament_uspd_seats
 				value = GER_parliament_kpd_seats
 				compare = greater_than
 			}
@@ -139,10 +139,10 @@ GER_parliament_refresh_legend_order = {
 				has_country_flag = GER_parliament_kpd_is_governing
 			}
 			NOT = {
-				has_country_flag = GER_parliament_sapd_is_governing
+				has_country_flag = GER_parliament_uspd_is_governing
 			}
 			check_variable = {
-				var = GER_parliament_sapd_seats
+				var = GER_parliament_uspd_seats
 				value = GER_parliament_kpd_seats
 				compare = greater_than
 			}
@@ -236,9 +236,9 @@ GER_parliament_refresh_legend_order = {
 	if = {
 		limit = {
 			has_country_flag = GER_parliament_kpd_is_governing
-			has_country_flag = GER_parliament_dkp_is_governing
+			has_country_flag = GER_parliament_nlp_is_governing
 			check_variable = {
-				var = GER_parliament_dkp_seats
+				var = GER_parliament_nlp_seats
 				value = GER_parliament_kpd_seats
 				compare = greater_than
 			}
@@ -251,38 +251,10 @@ GER_parliament_refresh_legend_order = {
 				has_country_flag = GER_parliament_kpd_is_governing
 			}
 			NOT = {
-				has_country_flag = GER_parliament_dkp_is_governing
+				has_country_flag = GER_parliament_nlp_is_governing
 			}
 			check_variable = {
-				var = GER_parliament_dkp_seats
-				value = GER_parliament_kpd_seats
-				compare = greater_than
-			}
-		}
-		add_to_variable = { GER_parliament_kpd_faction_rank = 1 }
-	}
-	if = {
-		limit = {
-			has_country_flag = GER_parliament_kpd_is_governing
-			has_country_flag = GER_parliament_drp_is_governing
-			check_variable = {
-				var = GER_parliament_drp_seats
-				value = GER_parliament_kpd_seats
-				compare = greater_than
-			}
-		}
-		add_to_variable = { GER_parliament_kpd_faction_rank = 1 }
-	}
-	if = {
-		limit = {
-			NOT = {
-				has_country_flag = GER_parliament_kpd_is_governing
-			}
-			NOT = {
-				has_country_flag = GER_parliament_drp_is_governing
-			}
-			check_variable = {
-				var = GER_parliament_drp_seats
+				var = GER_parliament_nlp_seats
 				value = GER_parliament_kpd_seats
 				compare = greater_than
 			}
@@ -320,9 +292,9 @@ GER_parliament_refresh_legend_order = {
 	if = {
 		limit = {
 			has_country_flag = GER_parliament_kpd_is_governing
-			has_country_flag = GER_parliament_dnvp_is_governing
+			has_country_flag = GER_parliament_dkp_is_governing
 			check_variable = {
-				var = GER_parliament_dnvp_seats
+				var = GER_parliament_dkp_seats
 				value = GER_parliament_kpd_seats
 				compare = greater_than
 			}
@@ -335,268 +307,352 @@ GER_parliament_refresh_legend_order = {
 				has_country_flag = GER_parliament_kpd_is_governing
 			}
 			NOT = {
-				has_country_flag = GER_parliament_dnvp_is_governing
+				has_country_flag = GER_parliament_dkp_is_governing
 			}
 			check_variable = {
-				var = GER_parliament_dnvp_seats
+				var = GER_parliament_dkp_seats
 				value = GER_parliament_kpd_seats
 				compare = greater_than
 			}
 		}
 		add_to_variable = { GER_parliament_kpd_faction_rank = 1 }
 	}
-	set_variable = { GER_parliament_sapd_faction_rank = 1 }
 	if = {
 		limit = {
-			has_country_flag = GER_parliament_sapd_is_governing
 			has_country_flag = GER_parliament_kpd_is_governing
+			has_country_flag = GER_parliament_dvlp_is_governing
 			check_variable = {
-				var = GER_parliament_kpd_seats
-				value = GER_parliament_sapd_seats
+				var = GER_parliament_dvlp_seats
+				value = GER_parliament_kpd_seats
 				compare = greater_than
 			}
 		}
-		add_to_variable = { GER_parliament_sapd_faction_rank = 1 }
+		add_to_variable = { GER_parliament_kpd_faction_rank = 1 }
 	}
 	if = {
 		limit = {
 			NOT = {
-				has_country_flag = GER_parliament_sapd_is_governing
+				has_country_flag = GER_parliament_kpd_is_governing
+			}
+			NOT = {
+				has_country_flag = GER_parliament_dvlp_is_governing
+			}
+			check_variable = {
+				var = GER_parliament_dvlp_seats
+				value = GER_parliament_kpd_seats
+				compare = greater_than
+			}
+		}
+		add_to_variable = { GER_parliament_kpd_faction_rank = 1 }
+	}
+	if = {
+		limit = {
+			has_country_flag = GER_parliament_kpd_is_governing
+			has_country_flag = GER_parliament_misc_is_governing
+			check_variable = {
+				var = GER_parliament_misc_seats
+				value = GER_parliament_kpd_seats
+				compare = greater_than
+			}
+		}
+		add_to_variable = { GER_parliament_kpd_faction_rank = 1 }
+	}
+	if = {
+		limit = {
+			NOT = {
+				has_country_flag = GER_parliament_kpd_is_governing
+			}
+			NOT = {
+				has_country_flag = GER_parliament_misc_is_governing
+			}
+			check_variable = {
+				var = GER_parliament_misc_seats
+				value = GER_parliament_kpd_seats
+				compare = greater_than
+			}
+		}
+		add_to_variable = { GER_parliament_kpd_faction_rank = 1 }
+	}
+	set_variable = { GER_parliament_uspd_faction_rank = 1 }
+	if = {
+		limit = {
+			has_country_flag = GER_parliament_uspd_is_governing
+			has_country_flag = GER_parliament_kpd_is_governing
+			check_variable = {
+				var = GER_parliament_kpd_seats
+				value = GER_parliament_uspd_seats
+				compare = greater_than
+			}
+		}
+		add_to_variable = { GER_parliament_uspd_faction_rank = 1 }
+	}
+	if = {
+		limit = {
+			NOT = {
+				has_country_flag = GER_parliament_uspd_is_governing
 			}
 			NOT = {
 				has_country_flag = GER_parliament_kpd_is_governing
 			}
 			check_variable = {
 				var = GER_parliament_kpd_seats
-				value = GER_parliament_sapd_seats
+				value = GER_parliament_uspd_seats
 				compare = greater_than
 			}
 		}
-		add_to_variable = { GER_parliament_sapd_faction_rank = 1 }
+		add_to_variable = { GER_parliament_uspd_faction_rank = 1 }
 	}
 	if = {
 		limit = {
-			has_country_flag = GER_parliament_sapd_is_governing
+			has_country_flag = GER_parliament_uspd_is_governing
 			has_country_flag = GER_parliament_kpd_is_governing
 			check_variable = {
 				var = GER_parliament_kpd_seats
-				value = GER_parliament_sapd_seats
+				value = GER_parliament_uspd_seats
 				compare = equals
 			}
 		}
-		add_to_variable = { GER_parliament_sapd_faction_rank = 1 }
+		add_to_variable = { GER_parliament_uspd_faction_rank = 1 }
 	}
 	if = {
 		limit = {
 			NOT = {
-				has_country_flag = GER_parliament_sapd_is_governing
+				has_country_flag = GER_parliament_uspd_is_governing
 			}
 			NOT = {
 				has_country_flag = GER_parliament_kpd_is_governing
 			}
 			check_variable = {
 				var = GER_parliament_kpd_seats
-				value = GER_parliament_sapd_seats
+				value = GER_parliament_uspd_seats
 				compare = equals
 			}
 		}
-		add_to_variable = { GER_parliament_sapd_faction_rank = 1 }
+		add_to_variable = { GER_parliament_uspd_faction_rank = 1 }
 	}
 	if = {
 		limit = {
-			has_country_flag = GER_parliament_sapd_is_governing
+			has_country_flag = GER_parliament_uspd_is_governing
 			has_country_flag = GER_parliament_spd_is_governing
 			check_variable = {
 				var = GER_parliament_spd_seats
-				value = GER_parliament_sapd_seats
+				value = GER_parliament_uspd_seats
 				compare = greater_than
 			}
 		}
-		add_to_variable = { GER_parliament_sapd_faction_rank = 1 }
+		add_to_variable = { GER_parliament_uspd_faction_rank = 1 }
 	}
 	if = {
 		limit = {
 			NOT = {
-				has_country_flag = GER_parliament_sapd_is_governing
+				has_country_flag = GER_parliament_uspd_is_governing
 			}
 			NOT = {
 				has_country_flag = GER_parliament_spd_is_governing
 			}
 			check_variable = {
 				var = GER_parliament_spd_seats
-				value = GER_parliament_sapd_seats
+				value = GER_parliament_uspd_seats
 				compare = greater_than
 			}
 		}
-		add_to_variable = { GER_parliament_sapd_faction_rank = 1 }
+		add_to_variable = { GER_parliament_uspd_faction_rank = 1 }
 	}
 	if = {
 		limit = {
-			has_country_flag = GER_parliament_sapd_is_governing
+			has_country_flag = GER_parliament_uspd_is_governing
 			has_country_flag = GER_parliament_fvp_is_governing
 			check_variable = {
 				var = GER_parliament_fvp_seats
-				value = GER_parliament_sapd_seats
+				value = GER_parliament_uspd_seats
 				compare = greater_than
 			}
 		}
-		add_to_variable = { GER_parliament_sapd_faction_rank = 1 }
+		add_to_variable = { GER_parliament_uspd_faction_rank = 1 }
 	}
 	if = {
 		limit = {
 			NOT = {
-				has_country_flag = GER_parliament_sapd_is_governing
+				has_country_flag = GER_parliament_uspd_is_governing
 			}
 			NOT = {
 				has_country_flag = GER_parliament_fvp_is_governing
 			}
 			check_variable = {
 				var = GER_parliament_fvp_seats
-				value = GER_parliament_sapd_seats
+				value = GER_parliament_uspd_seats
 				compare = greater_than
 			}
 		}
-		add_to_variable = { GER_parliament_sapd_faction_rank = 1 }
+		add_to_variable = { GER_parliament_uspd_faction_rank = 1 }
 	}
 	if = {
 		limit = {
-			has_country_flag = GER_parliament_sapd_is_governing
+			has_country_flag = GER_parliament_uspd_is_governing
 			has_country_flag = GER_parliament_zentrum_is_governing
 			check_variable = {
 				var = GER_parliament_zentrum_seats
-				value = GER_parliament_sapd_seats
+				value = GER_parliament_uspd_seats
 				compare = greater_than
 			}
 		}
-		add_to_variable = { GER_parliament_sapd_faction_rank = 1 }
+		add_to_variable = { GER_parliament_uspd_faction_rank = 1 }
 	}
 	if = {
 		limit = {
 			NOT = {
-				has_country_flag = GER_parliament_sapd_is_governing
+				has_country_flag = GER_parliament_uspd_is_governing
 			}
 			NOT = {
 				has_country_flag = GER_parliament_zentrum_is_governing
 			}
 			check_variable = {
 				var = GER_parliament_zentrum_seats
-				value = GER_parliament_sapd_seats
+				value = GER_parliament_uspd_seats
 				compare = greater_than
 			}
 		}
-		add_to_variable = { GER_parliament_sapd_faction_rank = 1 }
+		add_to_variable = { GER_parliament_uspd_faction_rank = 1 }
 	}
 	if = {
 		limit = {
-			has_country_flag = GER_parliament_sapd_is_governing
-			has_country_flag = GER_parliament_dkp_is_governing
+			has_country_flag = GER_parliament_uspd_is_governing
+			has_country_flag = GER_parliament_nlp_is_governing
 			check_variable = {
-				var = GER_parliament_dkp_seats
-				value = GER_parliament_sapd_seats
+				var = GER_parliament_nlp_seats
+				value = GER_parliament_uspd_seats
 				compare = greater_than
 			}
 		}
-		add_to_variable = { GER_parliament_sapd_faction_rank = 1 }
+		add_to_variable = { GER_parliament_uspd_faction_rank = 1 }
 	}
 	if = {
 		limit = {
 			NOT = {
-				has_country_flag = GER_parliament_sapd_is_governing
+				has_country_flag = GER_parliament_uspd_is_governing
 			}
 			NOT = {
-				has_country_flag = GER_parliament_dkp_is_governing
+				has_country_flag = GER_parliament_nlp_is_governing
 			}
 			check_variable = {
-				var = GER_parliament_dkp_seats
-				value = GER_parliament_sapd_seats
+				var = GER_parliament_nlp_seats
+				value = GER_parliament_uspd_seats
 				compare = greater_than
 			}
 		}
-		add_to_variable = { GER_parliament_sapd_faction_rank = 1 }
+		add_to_variable = { GER_parliament_uspd_faction_rank = 1 }
 	}
 	if = {
 		limit = {
-			has_country_flag = GER_parliament_sapd_is_governing
-			has_country_flag = GER_parliament_drp_is_governing
-			check_variable = {
-				var = GER_parliament_drp_seats
-				value = GER_parliament_sapd_seats
-				compare = greater_than
-			}
-		}
-		add_to_variable = { GER_parliament_sapd_faction_rank = 1 }
-	}
-	if = {
-		limit = {
-			NOT = {
-				has_country_flag = GER_parliament_sapd_is_governing
-			}
-			NOT = {
-				has_country_flag = GER_parliament_drp_is_governing
-			}
-			check_variable = {
-				var = GER_parliament_drp_seats
-				value = GER_parliament_sapd_seats
-				compare = greater_than
-			}
-		}
-		add_to_variable = { GER_parliament_sapd_faction_rank = 1 }
-	}
-	if = {
-		limit = {
-			has_country_flag = GER_parliament_sapd_is_governing
+			has_country_flag = GER_parliament_uspd_is_governing
 			has_country_flag = GER_parliament_fkp_is_governing
 			check_variable = {
 				var = GER_parliament_fkp_seats
-				value = GER_parliament_sapd_seats
+				value = GER_parliament_uspd_seats
 				compare = greater_than
 			}
 		}
-		add_to_variable = { GER_parliament_sapd_faction_rank = 1 }
+		add_to_variable = { GER_parliament_uspd_faction_rank = 1 }
 	}
 	if = {
 		limit = {
 			NOT = {
-				has_country_flag = GER_parliament_sapd_is_governing
+				has_country_flag = GER_parliament_uspd_is_governing
 			}
 			NOT = {
 				has_country_flag = GER_parliament_fkp_is_governing
 			}
 			check_variable = {
 				var = GER_parliament_fkp_seats
-				value = GER_parliament_sapd_seats
+				value = GER_parliament_uspd_seats
 				compare = greater_than
 			}
 		}
-		add_to_variable = { GER_parliament_sapd_faction_rank = 1 }
+		add_to_variable = { GER_parliament_uspd_faction_rank = 1 }
 	}
 	if = {
 		limit = {
-			has_country_flag = GER_parliament_sapd_is_governing
-			has_country_flag = GER_parliament_dnvp_is_governing
+			has_country_flag = GER_parliament_uspd_is_governing
+			has_country_flag = GER_parliament_dkp_is_governing
 			check_variable = {
-				var = GER_parliament_dnvp_seats
-				value = GER_parliament_sapd_seats
+				var = GER_parliament_dkp_seats
+				value = GER_parliament_uspd_seats
 				compare = greater_than
 			}
 		}
-		add_to_variable = { GER_parliament_sapd_faction_rank = 1 }
+		add_to_variable = { GER_parliament_uspd_faction_rank = 1 }
 	}
 	if = {
 		limit = {
 			NOT = {
-				has_country_flag = GER_parliament_sapd_is_governing
+				has_country_flag = GER_parliament_uspd_is_governing
 			}
 			NOT = {
-				has_country_flag = GER_parliament_dnvp_is_governing
+				has_country_flag = GER_parliament_dkp_is_governing
 			}
 			check_variable = {
-				var = GER_parliament_dnvp_seats
-				value = GER_parliament_sapd_seats
+				var = GER_parliament_dkp_seats
+				value = GER_parliament_uspd_seats
 				compare = greater_than
 			}
 		}
-		add_to_variable = { GER_parliament_sapd_faction_rank = 1 }
+		add_to_variable = { GER_parliament_uspd_faction_rank = 1 }
+	}
+	if = {
+		limit = {
+			has_country_flag = GER_parliament_uspd_is_governing
+			has_country_flag = GER_parliament_dvlp_is_governing
+			check_variable = {
+				var = GER_parliament_dvlp_seats
+				value = GER_parliament_uspd_seats
+				compare = greater_than
+			}
+		}
+		add_to_variable = { GER_parliament_uspd_faction_rank = 1 }
+	}
+	if = {
+		limit = {
+			NOT = {
+				has_country_flag = GER_parliament_uspd_is_governing
+			}
+			NOT = {
+				has_country_flag = GER_parliament_dvlp_is_governing
+			}
+			check_variable = {
+				var = GER_parliament_dvlp_seats
+				value = GER_parliament_uspd_seats
+				compare = greater_than
+			}
+		}
+		add_to_variable = { GER_parliament_uspd_faction_rank = 1 }
+	}
+	if = {
+		limit = {
+			has_country_flag = GER_parliament_uspd_is_governing
+			has_country_flag = GER_parliament_misc_is_governing
+			check_variable = {
+				var = GER_parliament_misc_seats
+				value = GER_parliament_uspd_seats
+				compare = greater_than
+			}
+		}
+		add_to_variable = { GER_parliament_uspd_faction_rank = 1 }
+	}
+	if = {
+		limit = {
+			NOT = {
+				has_country_flag = GER_parliament_uspd_is_governing
+			}
+			NOT = {
+				has_country_flag = GER_parliament_misc_is_governing
+			}
+			check_variable = {
+				var = GER_parliament_misc_seats
+				value = GER_parliament_uspd_seats
+				compare = greater_than
+			}
+		}
+		add_to_variable = { GER_parliament_uspd_faction_rank = 1 }
 	}
 	set_variable = { GER_parliament_spd_faction_rank = 1 }
 	if = {
@@ -658,9 +714,9 @@ GER_parliament_refresh_legend_order = {
 	if = {
 		limit = {
 			has_country_flag = GER_parliament_spd_is_governing
-			has_country_flag = GER_parliament_sapd_is_governing
+			has_country_flag = GER_parliament_uspd_is_governing
 			check_variable = {
-				var = GER_parliament_sapd_seats
+				var = GER_parliament_uspd_seats
 				value = GER_parliament_spd_seats
 				compare = greater_than
 			}
@@ -673,10 +729,10 @@ GER_parliament_refresh_legend_order = {
 				has_country_flag = GER_parliament_spd_is_governing
 			}
 			NOT = {
-				has_country_flag = GER_parliament_sapd_is_governing
+				has_country_flag = GER_parliament_uspd_is_governing
 			}
 			check_variable = {
-				var = GER_parliament_sapd_seats
+				var = GER_parliament_uspd_seats
 				value = GER_parliament_spd_seats
 				compare = greater_than
 			}
@@ -686,9 +742,9 @@ GER_parliament_refresh_legend_order = {
 	if = {
 		limit = {
 			has_country_flag = GER_parliament_spd_is_governing
-			has_country_flag = GER_parliament_sapd_is_governing
+			has_country_flag = GER_parliament_uspd_is_governing
 			check_variable = {
-				var = GER_parliament_sapd_seats
+				var = GER_parliament_uspd_seats
 				value = GER_parliament_spd_seats
 				compare = equals
 			}
@@ -701,10 +757,10 @@ GER_parliament_refresh_legend_order = {
 				has_country_flag = GER_parliament_spd_is_governing
 			}
 			NOT = {
-				has_country_flag = GER_parliament_sapd_is_governing
+				has_country_flag = GER_parliament_uspd_is_governing
 			}
 			check_variable = {
-				var = GER_parliament_sapd_seats
+				var = GER_parliament_uspd_seats
 				value = GER_parliament_spd_seats
 				compare = equals
 			}
@@ -770,9 +826,9 @@ GER_parliament_refresh_legend_order = {
 	if = {
 		limit = {
 			has_country_flag = GER_parliament_spd_is_governing
-			has_country_flag = GER_parliament_dkp_is_governing
+			has_country_flag = GER_parliament_nlp_is_governing
 			check_variable = {
-				var = GER_parliament_dkp_seats
+				var = GER_parliament_nlp_seats
 				value = GER_parliament_spd_seats
 				compare = greater_than
 			}
@@ -785,38 +841,10 @@ GER_parliament_refresh_legend_order = {
 				has_country_flag = GER_parliament_spd_is_governing
 			}
 			NOT = {
-				has_country_flag = GER_parliament_dkp_is_governing
+				has_country_flag = GER_parliament_nlp_is_governing
 			}
 			check_variable = {
-				var = GER_parliament_dkp_seats
-				value = GER_parliament_spd_seats
-				compare = greater_than
-			}
-		}
-		add_to_variable = { GER_parliament_spd_faction_rank = 1 }
-	}
-	if = {
-		limit = {
-			has_country_flag = GER_parliament_spd_is_governing
-			has_country_flag = GER_parliament_drp_is_governing
-			check_variable = {
-				var = GER_parliament_drp_seats
-				value = GER_parliament_spd_seats
-				compare = greater_than
-			}
-		}
-		add_to_variable = { GER_parliament_spd_faction_rank = 1 }
-	}
-	if = {
-		limit = {
-			NOT = {
-				has_country_flag = GER_parliament_spd_is_governing
-			}
-			NOT = {
-				has_country_flag = GER_parliament_drp_is_governing
-			}
-			check_variable = {
-				var = GER_parliament_drp_seats
+				var = GER_parliament_nlp_seats
 				value = GER_parliament_spd_seats
 				compare = greater_than
 			}
@@ -854,9 +882,9 @@ GER_parliament_refresh_legend_order = {
 	if = {
 		limit = {
 			has_country_flag = GER_parliament_spd_is_governing
-			has_country_flag = GER_parliament_dnvp_is_governing
+			has_country_flag = GER_parliament_dkp_is_governing
 			check_variable = {
-				var = GER_parliament_dnvp_seats
+				var = GER_parliament_dkp_seats
 				value = GER_parliament_spd_seats
 				compare = greater_than
 			}
@@ -869,10 +897,66 @@ GER_parliament_refresh_legend_order = {
 				has_country_flag = GER_parliament_spd_is_governing
 			}
 			NOT = {
-				has_country_flag = GER_parliament_dnvp_is_governing
+				has_country_flag = GER_parliament_dkp_is_governing
 			}
 			check_variable = {
-				var = GER_parliament_dnvp_seats
+				var = GER_parliament_dkp_seats
+				value = GER_parliament_spd_seats
+				compare = greater_than
+			}
+		}
+		add_to_variable = { GER_parliament_spd_faction_rank = 1 }
+	}
+	if = {
+		limit = {
+			has_country_flag = GER_parliament_spd_is_governing
+			has_country_flag = GER_parliament_dvlp_is_governing
+			check_variable = {
+				var = GER_parliament_dvlp_seats
+				value = GER_parliament_spd_seats
+				compare = greater_than
+			}
+		}
+		add_to_variable = { GER_parliament_spd_faction_rank = 1 }
+	}
+	if = {
+		limit = {
+			NOT = {
+				has_country_flag = GER_parliament_spd_is_governing
+			}
+			NOT = {
+				has_country_flag = GER_parliament_dvlp_is_governing
+			}
+			check_variable = {
+				var = GER_parliament_dvlp_seats
+				value = GER_parliament_spd_seats
+				compare = greater_than
+			}
+		}
+		add_to_variable = { GER_parliament_spd_faction_rank = 1 }
+	}
+	if = {
+		limit = {
+			has_country_flag = GER_parliament_spd_is_governing
+			has_country_flag = GER_parliament_misc_is_governing
+			check_variable = {
+				var = GER_parliament_misc_seats
+				value = GER_parliament_spd_seats
+				compare = greater_than
+			}
+		}
+		add_to_variable = { GER_parliament_spd_faction_rank = 1 }
+	}
+	if = {
+		limit = {
+			NOT = {
+				has_country_flag = GER_parliament_spd_is_governing
+			}
+			NOT = {
+				has_country_flag = GER_parliament_misc_is_governing
+			}
+			check_variable = {
+				var = GER_parliament_misc_seats
 				value = GER_parliament_spd_seats
 				compare = greater_than
 			}
@@ -939,9 +1023,9 @@ GER_parliament_refresh_legend_order = {
 	if = {
 		limit = {
 			has_country_flag = GER_parliament_fvp_is_governing
-			has_country_flag = GER_parliament_sapd_is_governing
+			has_country_flag = GER_parliament_uspd_is_governing
 			check_variable = {
-				var = GER_parliament_sapd_seats
+				var = GER_parliament_uspd_seats
 				value = GER_parliament_fvp_seats
 				compare = greater_than
 			}
@@ -954,10 +1038,10 @@ GER_parliament_refresh_legend_order = {
 				has_country_flag = GER_parliament_fvp_is_governing
 			}
 			NOT = {
-				has_country_flag = GER_parliament_sapd_is_governing
+				has_country_flag = GER_parliament_uspd_is_governing
 			}
 			check_variable = {
-				var = GER_parliament_sapd_seats
+				var = GER_parliament_uspd_seats
 				value = GER_parliament_fvp_seats
 				compare = greater_than
 			}
@@ -967,9 +1051,9 @@ GER_parliament_refresh_legend_order = {
 	if = {
 		limit = {
 			has_country_flag = GER_parliament_fvp_is_governing
-			has_country_flag = GER_parliament_sapd_is_governing
+			has_country_flag = GER_parliament_uspd_is_governing
 			check_variable = {
-				var = GER_parliament_sapd_seats
+				var = GER_parliament_uspd_seats
 				value = GER_parliament_fvp_seats
 				compare = equals
 			}
@@ -982,10 +1066,10 @@ GER_parliament_refresh_legend_order = {
 				has_country_flag = GER_parliament_fvp_is_governing
 			}
 			NOT = {
-				has_country_flag = GER_parliament_sapd_is_governing
+				has_country_flag = GER_parliament_uspd_is_governing
 			}
 			check_variable = {
-				var = GER_parliament_sapd_seats
+				var = GER_parliament_uspd_seats
 				value = GER_parliament_fvp_seats
 				compare = equals
 			}
@@ -1079,9 +1163,9 @@ GER_parliament_refresh_legend_order = {
 	if = {
 		limit = {
 			has_country_flag = GER_parliament_fvp_is_governing
-			has_country_flag = GER_parliament_dkp_is_governing
+			has_country_flag = GER_parliament_nlp_is_governing
 			check_variable = {
-				var = GER_parliament_dkp_seats
+				var = GER_parliament_nlp_seats
 				value = GER_parliament_fvp_seats
 				compare = greater_than
 			}
@@ -1094,38 +1178,10 @@ GER_parliament_refresh_legend_order = {
 				has_country_flag = GER_parliament_fvp_is_governing
 			}
 			NOT = {
-				has_country_flag = GER_parliament_dkp_is_governing
+				has_country_flag = GER_parliament_nlp_is_governing
 			}
 			check_variable = {
-				var = GER_parliament_dkp_seats
-				value = GER_parliament_fvp_seats
-				compare = greater_than
-			}
-		}
-		add_to_variable = { GER_parliament_fvp_faction_rank = 1 }
-	}
-	if = {
-		limit = {
-			has_country_flag = GER_parliament_fvp_is_governing
-			has_country_flag = GER_parliament_drp_is_governing
-			check_variable = {
-				var = GER_parliament_drp_seats
-				value = GER_parliament_fvp_seats
-				compare = greater_than
-			}
-		}
-		add_to_variable = { GER_parliament_fvp_faction_rank = 1 }
-	}
-	if = {
-		limit = {
-			NOT = {
-				has_country_flag = GER_parliament_fvp_is_governing
-			}
-			NOT = {
-				has_country_flag = GER_parliament_drp_is_governing
-			}
-			check_variable = {
-				var = GER_parliament_drp_seats
+				var = GER_parliament_nlp_seats
 				value = GER_parliament_fvp_seats
 				compare = greater_than
 			}
@@ -1163,9 +1219,9 @@ GER_parliament_refresh_legend_order = {
 	if = {
 		limit = {
 			has_country_flag = GER_parliament_fvp_is_governing
-			has_country_flag = GER_parliament_dnvp_is_governing
+			has_country_flag = GER_parliament_dkp_is_governing
 			check_variable = {
-				var = GER_parliament_dnvp_seats
+				var = GER_parliament_dkp_seats
 				value = GER_parliament_fvp_seats
 				compare = greater_than
 			}
@@ -1178,10 +1234,66 @@ GER_parliament_refresh_legend_order = {
 				has_country_flag = GER_parliament_fvp_is_governing
 			}
 			NOT = {
-				has_country_flag = GER_parliament_dnvp_is_governing
+				has_country_flag = GER_parliament_dkp_is_governing
 			}
 			check_variable = {
-				var = GER_parliament_dnvp_seats
+				var = GER_parliament_dkp_seats
+				value = GER_parliament_fvp_seats
+				compare = greater_than
+			}
+		}
+		add_to_variable = { GER_parliament_fvp_faction_rank = 1 }
+	}
+	if = {
+		limit = {
+			has_country_flag = GER_parliament_fvp_is_governing
+			has_country_flag = GER_parliament_dvlp_is_governing
+			check_variable = {
+				var = GER_parliament_dvlp_seats
+				value = GER_parliament_fvp_seats
+				compare = greater_than
+			}
+		}
+		add_to_variable = { GER_parliament_fvp_faction_rank = 1 }
+	}
+	if = {
+		limit = {
+			NOT = {
+				has_country_flag = GER_parliament_fvp_is_governing
+			}
+			NOT = {
+				has_country_flag = GER_parliament_dvlp_is_governing
+			}
+			check_variable = {
+				var = GER_parliament_dvlp_seats
+				value = GER_parliament_fvp_seats
+				compare = greater_than
+			}
+		}
+		add_to_variable = { GER_parliament_fvp_faction_rank = 1 }
+	}
+	if = {
+		limit = {
+			has_country_flag = GER_parliament_fvp_is_governing
+			has_country_flag = GER_parliament_misc_is_governing
+			check_variable = {
+				var = GER_parliament_misc_seats
+				value = GER_parliament_fvp_seats
+				compare = greater_than
+			}
+		}
+		add_to_variable = { GER_parliament_fvp_faction_rank = 1 }
+	}
+	if = {
+		limit = {
+			NOT = {
+				has_country_flag = GER_parliament_fvp_is_governing
+			}
+			NOT = {
+				has_country_flag = GER_parliament_misc_is_governing
+			}
+			check_variable = {
+				var = GER_parliament_misc_seats
 				value = GER_parliament_fvp_seats
 				compare = greater_than
 			}
@@ -1248,9 +1360,9 @@ GER_parliament_refresh_legend_order = {
 	if = {
 		limit = {
 			has_country_flag = GER_parliament_zentrum_is_governing
-			has_country_flag = GER_parliament_sapd_is_governing
+			has_country_flag = GER_parliament_uspd_is_governing
 			check_variable = {
-				var = GER_parliament_sapd_seats
+				var = GER_parliament_uspd_seats
 				value = GER_parliament_zentrum_seats
 				compare = greater_than
 			}
@@ -1263,10 +1375,10 @@ GER_parliament_refresh_legend_order = {
 				has_country_flag = GER_parliament_zentrum_is_governing
 			}
 			NOT = {
-				has_country_flag = GER_parliament_sapd_is_governing
+				has_country_flag = GER_parliament_uspd_is_governing
 			}
 			check_variable = {
-				var = GER_parliament_sapd_seats
+				var = GER_parliament_uspd_seats
 				value = GER_parliament_zentrum_seats
 				compare = greater_than
 			}
@@ -1276,9 +1388,9 @@ GER_parliament_refresh_legend_order = {
 	if = {
 		limit = {
 			has_country_flag = GER_parliament_zentrum_is_governing
-			has_country_flag = GER_parliament_sapd_is_governing
+			has_country_flag = GER_parliament_uspd_is_governing
 			check_variable = {
-				var = GER_parliament_sapd_seats
+				var = GER_parliament_uspd_seats
 				value = GER_parliament_zentrum_seats
 				compare = equals
 			}
@@ -1291,10 +1403,10 @@ GER_parliament_refresh_legend_order = {
 				has_country_flag = GER_parliament_zentrum_is_governing
 			}
 			NOT = {
-				has_country_flag = GER_parliament_sapd_is_governing
+				has_country_flag = GER_parliament_uspd_is_governing
 			}
 			check_variable = {
-				var = GER_parliament_sapd_seats
+				var = GER_parliament_uspd_seats
 				value = GER_parliament_zentrum_seats
 				compare = equals
 			}
@@ -1416,9 +1528,9 @@ GER_parliament_refresh_legend_order = {
 	if = {
 		limit = {
 			has_country_flag = GER_parliament_zentrum_is_governing
-			has_country_flag = GER_parliament_dkp_is_governing
+			has_country_flag = GER_parliament_nlp_is_governing
 			check_variable = {
-				var = GER_parliament_dkp_seats
+				var = GER_parliament_nlp_seats
 				value = GER_parliament_zentrum_seats
 				compare = greater_than
 			}
@@ -1431,38 +1543,10 @@ GER_parliament_refresh_legend_order = {
 				has_country_flag = GER_parliament_zentrum_is_governing
 			}
 			NOT = {
-				has_country_flag = GER_parliament_dkp_is_governing
+				has_country_flag = GER_parliament_nlp_is_governing
 			}
 			check_variable = {
-				var = GER_parliament_dkp_seats
-				value = GER_parliament_zentrum_seats
-				compare = greater_than
-			}
-		}
-		add_to_variable = { GER_parliament_zentrum_faction_rank = 1 }
-	}
-	if = {
-		limit = {
-			has_country_flag = GER_parliament_zentrum_is_governing
-			has_country_flag = GER_parliament_drp_is_governing
-			check_variable = {
-				var = GER_parliament_drp_seats
-				value = GER_parliament_zentrum_seats
-				compare = greater_than
-			}
-		}
-		add_to_variable = { GER_parliament_zentrum_faction_rank = 1 }
-	}
-	if = {
-		limit = {
-			NOT = {
-				has_country_flag = GER_parliament_zentrum_is_governing
-			}
-			NOT = {
-				has_country_flag = GER_parliament_drp_is_governing
-			}
-			check_variable = {
-				var = GER_parliament_drp_seats
+				var = GER_parliament_nlp_seats
 				value = GER_parliament_zentrum_seats
 				compare = greater_than
 			}
@@ -1500,9 +1584,9 @@ GER_parliament_refresh_legend_order = {
 	if = {
 		limit = {
 			has_country_flag = GER_parliament_zentrum_is_governing
-			has_country_flag = GER_parliament_dnvp_is_governing
+			has_country_flag = GER_parliament_dkp_is_governing
 			check_variable = {
-				var = GER_parliament_dnvp_seats
+				var = GER_parliament_dkp_seats
 				value = GER_parliament_zentrum_seats
 				compare = greater_than
 			}
@@ -1515,773 +1599,464 @@ GER_parliament_refresh_legend_order = {
 				has_country_flag = GER_parliament_zentrum_is_governing
 			}
 			NOT = {
-				has_country_flag = GER_parliament_dnvp_is_governing
+				has_country_flag = GER_parliament_dkp_is_governing
 			}
 			check_variable = {
-				var = GER_parliament_dnvp_seats
+				var = GER_parliament_dkp_seats
 				value = GER_parliament_zentrum_seats
 				compare = greater_than
 			}
 		}
 		add_to_variable = { GER_parliament_zentrum_faction_rank = 1 }
 	}
-	set_variable = { GER_parliament_dkp_faction_rank = 1 }
 	if = {
 		limit = {
-			has_country_flag = GER_parliament_dkp_is_governing
-			has_country_flag = GER_parliament_kpd_is_governing
+			has_country_flag = GER_parliament_zentrum_is_governing
+			has_country_flag = GER_parliament_dvlp_is_governing
 			check_variable = {
-				var = GER_parliament_kpd_seats
-				value = GER_parliament_dkp_seats
+				var = GER_parliament_dvlp_seats
+				value = GER_parliament_zentrum_seats
 				compare = greater_than
 			}
 		}
-		add_to_variable = { GER_parliament_dkp_faction_rank = 1 }
+		add_to_variable = { GER_parliament_zentrum_faction_rank = 1 }
 	}
 	if = {
 		limit = {
 			NOT = {
-				has_country_flag = GER_parliament_dkp_is_governing
+				has_country_flag = GER_parliament_zentrum_is_governing
+			}
+			NOT = {
+				has_country_flag = GER_parliament_dvlp_is_governing
+			}
+			check_variable = {
+				var = GER_parliament_dvlp_seats
+				value = GER_parliament_zentrum_seats
+				compare = greater_than
+			}
+		}
+		add_to_variable = { GER_parliament_zentrum_faction_rank = 1 }
+	}
+	if = {
+		limit = {
+			has_country_flag = GER_parliament_zentrum_is_governing
+			has_country_flag = GER_parliament_misc_is_governing
+			check_variable = {
+				var = GER_parliament_misc_seats
+				value = GER_parliament_zentrum_seats
+				compare = greater_than
+			}
+		}
+		add_to_variable = { GER_parliament_zentrum_faction_rank = 1 }
+	}
+	if = {
+		limit = {
+			NOT = {
+				has_country_flag = GER_parliament_zentrum_is_governing
+			}
+			NOT = {
+				has_country_flag = GER_parliament_misc_is_governing
+			}
+			check_variable = {
+				var = GER_parliament_misc_seats
+				value = GER_parliament_zentrum_seats
+				compare = greater_than
+			}
+		}
+		add_to_variable = { GER_parliament_zentrum_faction_rank = 1 }
+	}
+	set_variable = { GER_parliament_nlp_faction_rank = 1 }
+	if = {
+		limit = {
+			has_country_flag = GER_parliament_nlp_is_governing
+			has_country_flag = GER_parliament_kpd_is_governing
+			check_variable = {
+				var = GER_parliament_kpd_seats
+				value = GER_parliament_nlp_seats
+				compare = greater_than
+			}
+		}
+		add_to_variable = { GER_parliament_nlp_faction_rank = 1 }
+	}
+	if = {
+		limit = {
+			NOT = {
+				has_country_flag = GER_parliament_nlp_is_governing
 			}
 			NOT = {
 				has_country_flag = GER_parliament_kpd_is_governing
 			}
 			check_variable = {
 				var = GER_parliament_kpd_seats
-				value = GER_parliament_dkp_seats
+				value = GER_parliament_nlp_seats
 				compare = greater_than
 			}
 		}
-		add_to_variable = { GER_parliament_dkp_faction_rank = 1 }
+		add_to_variable = { GER_parliament_nlp_faction_rank = 1 }
 	}
 	if = {
 		limit = {
-			has_country_flag = GER_parliament_dkp_is_governing
+			has_country_flag = GER_parliament_nlp_is_governing
 			has_country_flag = GER_parliament_kpd_is_governing
 			check_variable = {
 				var = GER_parliament_kpd_seats
-				value = GER_parliament_dkp_seats
+				value = GER_parliament_nlp_seats
 				compare = equals
 			}
 		}
-		add_to_variable = { GER_parliament_dkp_faction_rank = 1 }
+		add_to_variable = { GER_parliament_nlp_faction_rank = 1 }
 	}
 	if = {
 		limit = {
 			NOT = {
-				has_country_flag = GER_parliament_dkp_is_governing
+				has_country_flag = GER_parliament_nlp_is_governing
 			}
 			NOT = {
 				has_country_flag = GER_parliament_kpd_is_governing
 			}
 			check_variable = {
 				var = GER_parliament_kpd_seats
-				value = GER_parliament_dkp_seats
+				value = GER_parliament_nlp_seats
 				compare = equals
 			}
 		}
-		add_to_variable = { GER_parliament_dkp_faction_rank = 1 }
+		add_to_variable = { GER_parliament_nlp_faction_rank = 1 }
 	}
 	if = {
 		limit = {
-			has_country_flag = GER_parliament_dkp_is_governing
-			has_country_flag = GER_parliament_sapd_is_governing
+			has_country_flag = GER_parliament_nlp_is_governing
+			has_country_flag = GER_parliament_uspd_is_governing
 			check_variable = {
-				var = GER_parliament_sapd_seats
-				value = GER_parliament_dkp_seats
+				var = GER_parliament_uspd_seats
+				value = GER_parliament_nlp_seats
 				compare = greater_than
 			}
 		}
-		add_to_variable = { GER_parliament_dkp_faction_rank = 1 }
+		add_to_variable = { GER_parliament_nlp_faction_rank = 1 }
 	}
 	if = {
 		limit = {
 			NOT = {
-				has_country_flag = GER_parliament_dkp_is_governing
+				has_country_flag = GER_parliament_nlp_is_governing
 			}
 			NOT = {
-				has_country_flag = GER_parliament_sapd_is_governing
+				has_country_flag = GER_parliament_uspd_is_governing
 			}
 			check_variable = {
-				var = GER_parliament_sapd_seats
-				value = GER_parliament_dkp_seats
+				var = GER_parliament_uspd_seats
+				value = GER_parliament_nlp_seats
 				compare = greater_than
 			}
 		}
-		add_to_variable = { GER_parliament_dkp_faction_rank = 1 }
+		add_to_variable = { GER_parliament_nlp_faction_rank = 1 }
 	}
 	if = {
 		limit = {
-			has_country_flag = GER_parliament_dkp_is_governing
-			has_country_flag = GER_parliament_sapd_is_governing
+			has_country_flag = GER_parliament_nlp_is_governing
+			has_country_flag = GER_parliament_uspd_is_governing
 			check_variable = {
-				var = GER_parliament_sapd_seats
-				value = GER_parliament_dkp_seats
+				var = GER_parliament_uspd_seats
+				value = GER_parliament_nlp_seats
 				compare = equals
 			}
 		}
-		add_to_variable = { GER_parliament_dkp_faction_rank = 1 }
+		add_to_variable = { GER_parliament_nlp_faction_rank = 1 }
 	}
 	if = {
 		limit = {
 			NOT = {
-				has_country_flag = GER_parliament_dkp_is_governing
+				has_country_flag = GER_parliament_nlp_is_governing
 			}
 			NOT = {
-				has_country_flag = GER_parliament_sapd_is_governing
+				has_country_flag = GER_parliament_uspd_is_governing
 			}
 			check_variable = {
-				var = GER_parliament_sapd_seats
-				value = GER_parliament_dkp_seats
+				var = GER_parliament_uspd_seats
+				value = GER_parliament_nlp_seats
 				compare = equals
 			}
 		}
-		add_to_variable = { GER_parliament_dkp_faction_rank = 1 }
+		add_to_variable = { GER_parliament_nlp_faction_rank = 1 }
 	}
 	if = {
 		limit = {
-			has_country_flag = GER_parliament_dkp_is_governing
+			has_country_flag = GER_parliament_nlp_is_governing
 			has_country_flag = GER_parliament_spd_is_governing
 			check_variable = {
 				var = GER_parliament_spd_seats
-				value = GER_parliament_dkp_seats
+				value = GER_parliament_nlp_seats
 				compare = greater_than
 			}
 		}
-		add_to_variable = { GER_parliament_dkp_faction_rank = 1 }
+		add_to_variable = { GER_parliament_nlp_faction_rank = 1 }
 	}
 	if = {
 		limit = {
 			NOT = {
-				has_country_flag = GER_parliament_dkp_is_governing
+				has_country_flag = GER_parliament_nlp_is_governing
 			}
 			NOT = {
 				has_country_flag = GER_parliament_spd_is_governing
 			}
 			check_variable = {
 				var = GER_parliament_spd_seats
-				value = GER_parliament_dkp_seats
+				value = GER_parliament_nlp_seats
 				compare = greater_than
 			}
 		}
-		add_to_variable = { GER_parliament_dkp_faction_rank = 1 }
+		add_to_variable = { GER_parliament_nlp_faction_rank = 1 }
 	}
 	if = {
 		limit = {
-			has_country_flag = GER_parliament_dkp_is_governing
+			has_country_flag = GER_parliament_nlp_is_governing
 			has_country_flag = GER_parliament_spd_is_governing
 			check_variable = {
 				var = GER_parliament_spd_seats
-				value = GER_parliament_dkp_seats
+				value = GER_parliament_nlp_seats
 				compare = equals
 			}
 		}
-		add_to_variable = { GER_parliament_dkp_faction_rank = 1 }
+		add_to_variable = { GER_parliament_nlp_faction_rank = 1 }
 	}
 	if = {
 		limit = {
 			NOT = {
-				has_country_flag = GER_parliament_dkp_is_governing
+				has_country_flag = GER_parliament_nlp_is_governing
 			}
 			NOT = {
 				has_country_flag = GER_parliament_spd_is_governing
 			}
 			check_variable = {
 				var = GER_parliament_spd_seats
-				value = GER_parliament_dkp_seats
+				value = GER_parliament_nlp_seats
 				compare = equals
 			}
 		}
-		add_to_variable = { GER_parliament_dkp_faction_rank = 1 }
+		add_to_variable = { GER_parliament_nlp_faction_rank = 1 }
 	}
 	if = {
 		limit = {
-			has_country_flag = GER_parliament_dkp_is_governing
+			has_country_flag = GER_parliament_nlp_is_governing
 			has_country_flag = GER_parliament_fvp_is_governing
 			check_variable = {
 				var = GER_parliament_fvp_seats
-				value = GER_parliament_dkp_seats
+				value = GER_parliament_nlp_seats
 				compare = greater_than
 			}
 		}
-		add_to_variable = { GER_parliament_dkp_faction_rank = 1 }
+		add_to_variable = { GER_parliament_nlp_faction_rank = 1 }
 	}
 	if = {
 		limit = {
 			NOT = {
-				has_country_flag = GER_parliament_dkp_is_governing
+				has_country_flag = GER_parliament_nlp_is_governing
 			}
 			NOT = {
 				has_country_flag = GER_parliament_fvp_is_governing
 			}
 			check_variable = {
 				var = GER_parliament_fvp_seats
-				value = GER_parliament_dkp_seats
+				value = GER_parliament_nlp_seats
 				compare = greater_than
 			}
 		}
-		add_to_variable = { GER_parliament_dkp_faction_rank = 1 }
+		add_to_variable = { GER_parliament_nlp_faction_rank = 1 }
 	}
 	if = {
 		limit = {
-			has_country_flag = GER_parliament_dkp_is_governing
+			has_country_flag = GER_parliament_nlp_is_governing
 			has_country_flag = GER_parliament_fvp_is_governing
 			check_variable = {
 				var = GER_parliament_fvp_seats
-				value = GER_parliament_dkp_seats
+				value = GER_parliament_nlp_seats
 				compare = equals
 			}
 		}
-		add_to_variable = { GER_parliament_dkp_faction_rank = 1 }
+		add_to_variable = { GER_parliament_nlp_faction_rank = 1 }
 	}
 	if = {
 		limit = {
 			NOT = {
-				has_country_flag = GER_parliament_dkp_is_governing
+				has_country_flag = GER_parliament_nlp_is_governing
 			}
 			NOT = {
 				has_country_flag = GER_parliament_fvp_is_governing
 			}
 			check_variable = {
 				var = GER_parliament_fvp_seats
-				value = GER_parliament_dkp_seats
+				value = GER_parliament_nlp_seats
 				compare = equals
 			}
 		}
-		add_to_variable = { GER_parliament_dkp_faction_rank = 1 }
+		add_to_variable = { GER_parliament_nlp_faction_rank = 1 }
 	}
 	if = {
 		limit = {
-			has_country_flag = GER_parliament_dkp_is_governing
+			has_country_flag = GER_parliament_nlp_is_governing
 			has_country_flag = GER_parliament_zentrum_is_governing
 			check_variable = {
 				var = GER_parliament_zentrum_seats
-				value = GER_parliament_dkp_seats
+				value = GER_parliament_nlp_seats
 				compare = greater_than
 			}
 		}
-		add_to_variable = { GER_parliament_dkp_faction_rank = 1 }
+		add_to_variable = { GER_parliament_nlp_faction_rank = 1 }
 	}
 	if = {
 		limit = {
 			NOT = {
-				has_country_flag = GER_parliament_dkp_is_governing
+				has_country_flag = GER_parliament_nlp_is_governing
 			}
 			NOT = {
 				has_country_flag = GER_parliament_zentrum_is_governing
 			}
 			check_variable = {
 				var = GER_parliament_zentrum_seats
-				value = GER_parliament_dkp_seats
+				value = GER_parliament_nlp_seats
 				compare = greater_than
 			}
 		}
-		add_to_variable = { GER_parliament_dkp_faction_rank = 1 }
+		add_to_variable = { GER_parliament_nlp_faction_rank = 1 }
 	}
 	if = {
 		limit = {
-			has_country_flag = GER_parliament_dkp_is_governing
+			has_country_flag = GER_parliament_nlp_is_governing
 			has_country_flag = GER_parliament_zentrum_is_governing
 			check_variable = {
 				var = GER_parliament_zentrum_seats
-				value = GER_parliament_dkp_seats
+				value = GER_parliament_nlp_seats
 				compare = equals
 			}
 		}
-		add_to_variable = { GER_parliament_dkp_faction_rank = 1 }
+		add_to_variable = { GER_parliament_nlp_faction_rank = 1 }
 	}
 	if = {
 		limit = {
 			NOT = {
-				has_country_flag = GER_parliament_dkp_is_governing
+				has_country_flag = GER_parliament_nlp_is_governing
 			}
 			NOT = {
 				has_country_flag = GER_parliament_zentrum_is_governing
 			}
 			check_variable = {
 				var = GER_parliament_zentrum_seats
-				value = GER_parliament_dkp_seats
+				value = GER_parliament_nlp_seats
 				compare = equals
 			}
 		}
-		add_to_variable = { GER_parliament_dkp_faction_rank = 1 }
+		add_to_variable = { GER_parliament_nlp_faction_rank = 1 }
 	}
 	if = {
 		limit = {
-			has_country_flag = GER_parliament_dkp_is_governing
-			has_country_flag = GER_parliament_drp_is_governing
-			check_variable = {
-				var = GER_parliament_drp_seats
-				value = GER_parliament_dkp_seats
-				compare = greater_than
-			}
-		}
-		add_to_variable = { GER_parliament_dkp_faction_rank = 1 }
-	}
-	if = {
-		limit = {
-			NOT = {
-				has_country_flag = GER_parliament_dkp_is_governing
-			}
-			NOT = {
-				has_country_flag = GER_parliament_drp_is_governing
-			}
-			check_variable = {
-				var = GER_parliament_drp_seats
-				value = GER_parliament_dkp_seats
-				compare = greater_than
-			}
-		}
-		add_to_variable = { GER_parliament_dkp_faction_rank = 1 }
-	}
-	if = {
-		limit = {
-			has_country_flag = GER_parliament_dkp_is_governing
+			has_country_flag = GER_parliament_nlp_is_governing
 			has_country_flag = GER_parliament_fkp_is_governing
 			check_variable = {
 				var = GER_parliament_fkp_seats
-				value = GER_parliament_dkp_seats
+				value = GER_parliament_nlp_seats
 				compare = greater_than
 			}
 		}
-		add_to_variable = { GER_parliament_dkp_faction_rank = 1 }
+		add_to_variable = { GER_parliament_nlp_faction_rank = 1 }
 	}
 	if = {
 		limit = {
 			NOT = {
-				has_country_flag = GER_parliament_dkp_is_governing
+				has_country_flag = GER_parliament_nlp_is_governing
 			}
 			NOT = {
 				has_country_flag = GER_parliament_fkp_is_governing
 			}
 			check_variable = {
 				var = GER_parliament_fkp_seats
-				value = GER_parliament_dkp_seats
+				value = GER_parliament_nlp_seats
 				compare = greater_than
 			}
 		}
-		add_to_variable = { GER_parliament_dkp_faction_rank = 1 }
+		add_to_variable = { GER_parliament_nlp_faction_rank = 1 }
 	}
 	if = {
 		limit = {
-			has_country_flag = GER_parliament_dkp_is_governing
-			has_country_flag = GER_parliament_dnvp_is_governing
-			check_variable = {
-				var = GER_parliament_dnvp_seats
-				value = GER_parliament_dkp_seats
-				compare = greater_than
-			}
-		}
-		add_to_variable = { GER_parliament_dkp_faction_rank = 1 }
-	}
-	if = {
-		limit = {
-			NOT = {
-				has_country_flag = GER_parliament_dkp_is_governing
-			}
-			NOT = {
-				has_country_flag = GER_parliament_dnvp_is_governing
-			}
-			check_variable = {
-				var = GER_parliament_dnvp_seats
-				value = GER_parliament_dkp_seats
-				compare = greater_than
-			}
-		}
-		add_to_variable = { GER_parliament_dkp_faction_rank = 1 }
-	}
-	set_variable = { GER_parliament_drp_faction_rank = 1 }
-	if = {
-		limit = {
-			has_country_flag = GER_parliament_drp_is_governing
-			has_country_flag = GER_parliament_kpd_is_governing
-			check_variable = {
-				var = GER_parliament_kpd_seats
-				value = GER_parliament_drp_seats
-				compare = greater_than
-			}
-		}
-		add_to_variable = { GER_parliament_drp_faction_rank = 1 }
-	}
-	if = {
-		limit = {
-			NOT = {
-				has_country_flag = GER_parliament_drp_is_governing
-			}
-			NOT = {
-				has_country_flag = GER_parliament_kpd_is_governing
-			}
-			check_variable = {
-				var = GER_parliament_kpd_seats
-				value = GER_parliament_drp_seats
-				compare = greater_than
-			}
-		}
-		add_to_variable = { GER_parliament_drp_faction_rank = 1 }
-	}
-	if = {
-		limit = {
-			has_country_flag = GER_parliament_drp_is_governing
-			has_country_flag = GER_parliament_kpd_is_governing
-			check_variable = {
-				var = GER_parliament_kpd_seats
-				value = GER_parliament_drp_seats
-				compare = equals
-			}
-		}
-		add_to_variable = { GER_parliament_drp_faction_rank = 1 }
-	}
-	if = {
-		limit = {
-			NOT = {
-				has_country_flag = GER_parliament_drp_is_governing
-			}
-			NOT = {
-				has_country_flag = GER_parliament_kpd_is_governing
-			}
-			check_variable = {
-				var = GER_parliament_kpd_seats
-				value = GER_parliament_drp_seats
-				compare = equals
-			}
-		}
-		add_to_variable = { GER_parliament_drp_faction_rank = 1 }
-	}
-	if = {
-		limit = {
-			has_country_flag = GER_parliament_drp_is_governing
-			has_country_flag = GER_parliament_sapd_is_governing
-			check_variable = {
-				var = GER_parliament_sapd_seats
-				value = GER_parliament_drp_seats
-				compare = greater_than
-			}
-		}
-		add_to_variable = { GER_parliament_drp_faction_rank = 1 }
-	}
-	if = {
-		limit = {
-			NOT = {
-				has_country_flag = GER_parliament_drp_is_governing
-			}
-			NOT = {
-				has_country_flag = GER_parliament_sapd_is_governing
-			}
-			check_variable = {
-				var = GER_parliament_sapd_seats
-				value = GER_parliament_drp_seats
-				compare = greater_than
-			}
-		}
-		add_to_variable = { GER_parliament_drp_faction_rank = 1 }
-	}
-	if = {
-		limit = {
-			has_country_flag = GER_parliament_drp_is_governing
-			has_country_flag = GER_parliament_sapd_is_governing
-			check_variable = {
-				var = GER_parliament_sapd_seats
-				value = GER_parliament_drp_seats
-				compare = equals
-			}
-		}
-		add_to_variable = { GER_parliament_drp_faction_rank = 1 }
-	}
-	if = {
-		limit = {
-			NOT = {
-				has_country_flag = GER_parliament_drp_is_governing
-			}
-			NOT = {
-				has_country_flag = GER_parliament_sapd_is_governing
-			}
-			check_variable = {
-				var = GER_parliament_sapd_seats
-				value = GER_parliament_drp_seats
-				compare = equals
-			}
-		}
-		add_to_variable = { GER_parliament_drp_faction_rank = 1 }
-	}
-	if = {
-		limit = {
-			has_country_flag = GER_parliament_drp_is_governing
-			has_country_flag = GER_parliament_spd_is_governing
-			check_variable = {
-				var = GER_parliament_spd_seats
-				value = GER_parliament_drp_seats
-				compare = greater_than
-			}
-		}
-		add_to_variable = { GER_parliament_drp_faction_rank = 1 }
-	}
-	if = {
-		limit = {
-			NOT = {
-				has_country_flag = GER_parliament_drp_is_governing
-			}
-			NOT = {
-				has_country_flag = GER_parliament_spd_is_governing
-			}
-			check_variable = {
-				var = GER_parliament_spd_seats
-				value = GER_parliament_drp_seats
-				compare = greater_than
-			}
-		}
-		add_to_variable = { GER_parliament_drp_faction_rank = 1 }
-	}
-	if = {
-		limit = {
-			has_country_flag = GER_parliament_drp_is_governing
-			has_country_flag = GER_parliament_spd_is_governing
-			check_variable = {
-				var = GER_parliament_spd_seats
-				value = GER_parliament_drp_seats
-				compare = equals
-			}
-		}
-		add_to_variable = { GER_parliament_drp_faction_rank = 1 }
-	}
-	if = {
-		limit = {
-			NOT = {
-				has_country_flag = GER_parliament_drp_is_governing
-			}
-			NOT = {
-				has_country_flag = GER_parliament_spd_is_governing
-			}
-			check_variable = {
-				var = GER_parliament_spd_seats
-				value = GER_parliament_drp_seats
-				compare = equals
-			}
-		}
-		add_to_variable = { GER_parliament_drp_faction_rank = 1 }
-	}
-	if = {
-		limit = {
-			has_country_flag = GER_parliament_drp_is_governing
-			has_country_flag = GER_parliament_fvp_is_governing
-			check_variable = {
-				var = GER_parliament_fvp_seats
-				value = GER_parliament_drp_seats
-				compare = greater_than
-			}
-		}
-		add_to_variable = { GER_parliament_drp_faction_rank = 1 }
-	}
-	if = {
-		limit = {
-			NOT = {
-				has_country_flag = GER_parliament_drp_is_governing
-			}
-			NOT = {
-				has_country_flag = GER_parliament_fvp_is_governing
-			}
-			check_variable = {
-				var = GER_parliament_fvp_seats
-				value = GER_parliament_drp_seats
-				compare = greater_than
-			}
-		}
-		add_to_variable = { GER_parliament_drp_faction_rank = 1 }
-	}
-	if = {
-		limit = {
-			has_country_flag = GER_parliament_drp_is_governing
-			has_country_flag = GER_parliament_fvp_is_governing
-			check_variable = {
-				var = GER_parliament_fvp_seats
-				value = GER_parliament_drp_seats
-				compare = equals
-			}
-		}
-		add_to_variable = { GER_parliament_drp_faction_rank = 1 }
-	}
-	if = {
-		limit = {
-			NOT = {
-				has_country_flag = GER_parliament_drp_is_governing
-			}
-			NOT = {
-				has_country_flag = GER_parliament_fvp_is_governing
-			}
-			check_variable = {
-				var = GER_parliament_fvp_seats
-				value = GER_parliament_drp_seats
-				compare = equals
-			}
-		}
-		add_to_variable = { GER_parliament_drp_faction_rank = 1 }
-	}
-	if = {
-		limit = {
-			has_country_flag = GER_parliament_drp_is_governing
-			has_country_flag = GER_parliament_zentrum_is_governing
-			check_variable = {
-				var = GER_parliament_zentrum_seats
-				value = GER_parliament_drp_seats
-				compare = greater_than
-			}
-		}
-		add_to_variable = { GER_parliament_drp_faction_rank = 1 }
-	}
-	if = {
-		limit = {
-			NOT = {
-				has_country_flag = GER_parliament_drp_is_governing
-			}
-			NOT = {
-				has_country_flag = GER_parliament_zentrum_is_governing
-			}
-			check_variable = {
-				var = GER_parliament_zentrum_seats
-				value = GER_parliament_drp_seats
-				compare = greater_than
-			}
-		}
-		add_to_variable = { GER_parliament_drp_faction_rank = 1 }
-	}
-	if = {
-		limit = {
-			has_country_flag = GER_parliament_drp_is_governing
-			has_country_flag = GER_parliament_zentrum_is_governing
-			check_variable = {
-				var = GER_parliament_zentrum_seats
-				value = GER_parliament_drp_seats
-				compare = equals
-			}
-		}
-		add_to_variable = { GER_parliament_drp_faction_rank = 1 }
-	}
-	if = {
-		limit = {
-			NOT = {
-				has_country_flag = GER_parliament_drp_is_governing
-			}
-			NOT = {
-				has_country_flag = GER_parliament_zentrum_is_governing
-			}
-			check_variable = {
-				var = GER_parliament_zentrum_seats
-				value = GER_parliament_drp_seats
-				compare = equals
-			}
-		}
-		add_to_variable = { GER_parliament_drp_faction_rank = 1 }
-	}
-	if = {
-		limit = {
-			has_country_flag = GER_parliament_drp_is_governing
+			has_country_flag = GER_parliament_nlp_is_governing
 			has_country_flag = GER_parliament_dkp_is_governing
 			check_variable = {
 				var = GER_parliament_dkp_seats
-				value = GER_parliament_drp_seats
+				value = GER_parliament_nlp_seats
 				compare = greater_than
 			}
 		}
-		add_to_variable = { GER_parliament_drp_faction_rank = 1 }
+		add_to_variable = { GER_parliament_nlp_faction_rank = 1 }
 	}
 	if = {
 		limit = {
 			NOT = {
-				has_country_flag = GER_parliament_drp_is_governing
+				has_country_flag = GER_parliament_nlp_is_governing
 			}
 			NOT = {
 				has_country_flag = GER_parliament_dkp_is_governing
 			}
 			check_variable = {
 				var = GER_parliament_dkp_seats
-				value = GER_parliament_drp_seats
+				value = GER_parliament_nlp_seats
 				compare = greater_than
 			}
 		}
-		add_to_variable = { GER_parliament_drp_faction_rank = 1 }
+		add_to_variable = { GER_parliament_nlp_faction_rank = 1 }
 	}
 	if = {
 		limit = {
-			has_country_flag = GER_parliament_drp_is_governing
-			has_country_flag = GER_parliament_dkp_is_governing
+			has_country_flag = GER_parliament_nlp_is_governing
+			has_country_flag = GER_parliament_dvlp_is_governing
 			check_variable = {
-				var = GER_parliament_dkp_seats
-				value = GER_parliament_drp_seats
-				compare = equals
-			}
-		}
-		add_to_variable = { GER_parliament_drp_faction_rank = 1 }
-	}
-	if = {
-		limit = {
-			NOT = {
-				has_country_flag = GER_parliament_drp_is_governing
-			}
-			NOT = {
-				has_country_flag = GER_parliament_dkp_is_governing
-			}
-			check_variable = {
-				var = GER_parliament_dkp_seats
-				value = GER_parliament_drp_seats
-				compare = equals
-			}
-		}
-		add_to_variable = { GER_parliament_drp_faction_rank = 1 }
-	}
-	if = {
-		limit = {
-			has_country_flag = GER_parliament_drp_is_governing
-			has_country_flag = GER_parliament_fkp_is_governing
-			check_variable = {
-				var = GER_parliament_fkp_seats
-				value = GER_parliament_drp_seats
+				var = GER_parliament_dvlp_seats
+				value = GER_parliament_nlp_seats
 				compare = greater_than
 			}
 		}
-		add_to_variable = { GER_parliament_drp_faction_rank = 1 }
+		add_to_variable = { GER_parliament_nlp_faction_rank = 1 }
 	}
 	if = {
 		limit = {
 			NOT = {
-				has_country_flag = GER_parliament_drp_is_governing
+				has_country_flag = GER_parliament_nlp_is_governing
 			}
 			NOT = {
-				has_country_flag = GER_parliament_fkp_is_governing
+				has_country_flag = GER_parliament_dvlp_is_governing
 			}
 			check_variable = {
-				var = GER_parliament_fkp_seats
-				value = GER_parliament_drp_seats
+				var = GER_parliament_dvlp_seats
+				value = GER_parliament_nlp_seats
 				compare = greater_than
 			}
 		}
-		add_to_variable = { GER_parliament_drp_faction_rank = 1 }
+		add_to_variable = { GER_parliament_nlp_faction_rank = 1 }
 	}
 	if = {
 		limit = {
-			has_country_flag = GER_parliament_drp_is_governing
-			has_country_flag = GER_parliament_dnvp_is_governing
+			has_country_flag = GER_parliament_nlp_is_governing
+			has_country_flag = GER_parliament_misc_is_governing
 			check_variable = {
-				var = GER_parliament_dnvp_seats
-				value = GER_parliament_drp_seats
+				var = GER_parliament_misc_seats
+				value = GER_parliament_nlp_seats
 				compare = greater_than
 			}
 		}
-		add_to_variable = { GER_parliament_drp_faction_rank = 1 }
+		add_to_variable = { GER_parliament_nlp_faction_rank = 1 }
 	}
 	if = {
 		limit = {
 			NOT = {
-				has_country_flag = GER_parliament_drp_is_governing
+				has_country_flag = GER_parliament_nlp_is_governing
 			}
 			NOT = {
-				has_country_flag = GER_parliament_dnvp_is_governing
+				has_country_flag = GER_parliament_misc_is_governing
 			}
 			check_variable = {
-				var = GER_parliament_dnvp_seats
-				value = GER_parliament_drp_seats
+				var = GER_parliament_misc_seats
+				value = GER_parliament_nlp_seats
 				compare = greater_than
 			}
 		}
-		add_to_variable = { GER_parliament_drp_faction_rank = 1 }
+		add_to_variable = { GER_parliament_nlp_faction_rank = 1 }
 	}
 	set_variable = { GER_parliament_fkp_faction_rank = 1 }
 	if = {
@@ -2343,9 +2118,9 @@ GER_parliament_refresh_legend_order = {
 	if = {
 		limit = {
 			has_country_flag = GER_parliament_fkp_is_governing
-			has_country_flag = GER_parliament_sapd_is_governing
+			has_country_flag = GER_parliament_uspd_is_governing
 			check_variable = {
-				var = GER_parliament_sapd_seats
+				var = GER_parliament_uspd_seats
 				value = GER_parliament_fkp_seats
 				compare = greater_than
 			}
@@ -2358,10 +2133,10 @@ GER_parliament_refresh_legend_order = {
 				has_country_flag = GER_parliament_fkp_is_governing
 			}
 			NOT = {
-				has_country_flag = GER_parliament_sapd_is_governing
+				has_country_flag = GER_parliament_uspd_is_governing
 			}
 			check_variable = {
-				var = GER_parliament_sapd_seats
+				var = GER_parliament_uspd_seats
 				value = GER_parliament_fkp_seats
 				compare = greater_than
 			}
@@ -2371,9 +2146,9 @@ GER_parliament_refresh_legend_order = {
 	if = {
 		limit = {
 			has_country_flag = GER_parliament_fkp_is_governing
-			has_country_flag = GER_parliament_sapd_is_governing
+			has_country_flag = GER_parliament_uspd_is_governing
 			check_variable = {
-				var = GER_parliament_sapd_seats
+				var = GER_parliament_uspd_seats
 				value = GER_parliament_fkp_seats
 				compare = equals
 			}
@@ -2386,10 +2161,10 @@ GER_parliament_refresh_legend_order = {
 				has_country_flag = GER_parliament_fkp_is_governing
 			}
 			NOT = {
-				has_country_flag = GER_parliament_sapd_is_governing
+				has_country_flag = GER_parliament_uspd_is_governing
 			}
 			check_variable = {
-				var = GER_parliament_sapd_seats
+				var = GER_parliament_uspd_seats
 				value = GER_parliament_fkp_seats
 				compare = equals
 			}
@@ -2567,6 +2342,62 @@ GER_parliament_refresh_legend_order = {
 	if = {
 		limit = {
 			has_country_flag = GER_parliament_fkp_is_governing
+			has_country_flag = GER_parliament_nlp_is_governing
+			check_variable = {
+				var = GER_parliament_nlp_seats
+				value = GER_parliament_fkp_seats
+				compare = greater_than
+			}
+		}
+		add_to_variable = { GER_parliament_fkp_faction_rank = 1 }
+	}
+	if = {
+		limit = {
+			NOT = {
+				has_country_flag = GER_parliament_fkp_is_governing
+			}
+			NOT = {
+				has_country_flag = GER_parliament_nlp_is_governing
+			}
+			check_variable = {
+				var = GER_parliament_nlp_seats
+				value = GER_parliament_fkp_seats
+				compare = greater_than
+			}
+		}
+		add_to_variable = { GER_parliament_fkp_faction_rank = 1 }
+	}
+	if = {
+		limit = {
+			has_country_flag = GER_parliament_fkp_is_governing
+			has_country_flag = GER_parliament_nlp_is_governing
+			check_variable = {
+				var = GER_parliament_nlp_seats
+				value = GER_parliament_fkp_seats
+				compare = equals
+			}
+		}
+		add_to_variable = { GER_parliament_fkp_faction_rank = 1 }
+	}
+	if = {
+		limit = {
+			NOT = {
+				has_country_flag = GER_parliament_fkp_is_governing
+			}
+			NOT = {
+				has_country_flag = GER_parliament_nlp_is_governing
+			}
+			check_variable = {
+				var = GER_parliament_nlp_seats
+				value = GER_parliament_fkp_seats
+				compare = equals
+			}
+		}
+		add_to_variable = { GER_parliament_fkp_faction_rank = 1 }
+	}
+	if = {
+		limit = {
+			has_country_flag = GER_parliament_fkp_is_governing
 			has_country_flag = GER_parliament_dkp_is_governing
 			check_variable = {
 				var = GER_parliament_dkp_seats
@@ -2595,566 +2426,1493 @@ GER_parliament_refresh_legend_order = {
 	if = {
 		limit = {
 			has_country_flag = GER_parliament_fkp_is_governing
+			has_country_flag = GER_parliament_dvlp_is_governing
+			check_variable = {
+				var = GER_parliament_dvlp_seats
+				value = GER_parliament_fkp_seats
+				compare = greater_than
+			}
+		}
+		add_to_variable = { GER_parliament_fkp_faction_rank = 1 }
+	}
+	if = {
+		limit = {
+			NOT = {
+				has_country_flag = GER_parliament_fkp_is_governing
+			}
+			NOT = {
+				has_country_flag = GER_parliament_dvlp_is_governing
+			}
+			check_variable = {
+				var = GER_parliament_dvlp_seats
+				value = GER_parliament_fkp_seats
+				compare = greater_than
+			}
+		}
+		add_to_variable = { GER_parliament_fkp_faction_rank = 1 }
+	}
+	if = {
+		limit = {
+			has_country_flag = GER_parliament_fkp_is_governing
+			has_country_flag = GER_parliament_misc_is_governing
+			check_variable = {
+				var = GER_parliament_misc_seats
+				value = GER_parliament_fkp_seats
+				compare = greater_than
+			}
+		}
+		add_to_variable = { GER_parliament_fkp_faction_rank = 1 }
+	}
+	if = {
+		limit = {
+			NOT = {
+				has_country_flag = GER_parliament_fkp_is_governing
+			}
+			NOT = {
+				has_country_flag = GER_parliament_misc_is_governing
+			}
+			check_variable = {
+				var = GER_parliament_misc_seats
+				value = GER_parliament_fkp_seats
+				compare = greater_than
+			}
+		}
+		add_to_variable = { GER_parliament_fkp_faction_rank = 1 }
+	}
+	set_variable = { GER_parliament_dkp_faction_rank = 1 }
+	if = {
+		limit = {
 			has_country_flag = GER_parliament_dkp_is_governing
-			check_variable = {
-				var = GER_parliament_dkp_seats
-				value = GER_parliament_fkp_seats
-				compare = equals
-			}
-		}
-		add_to_variable = { GER_parliament_fkp_faction_rank = 1 }
-	}
-	if = {
-		limit = {
-			NOT = {
-				has_country_flag = GER_parliament_fkp_is_governing
-			}
-			NOT = {
-				has_country_flag = GER_parliament_dkp_is_governing
-			}
-			check_variable = {
-				var = GER_parliament_dkp_seats
-				value = GER_parliament_fkp_seats
-				compare = equals
-			}
-		}
-		add_to_variable = { GER_parliament_fkp_faction_rank = 1 }
-	}
-	if = {
-		limit = {
-			has_country_flag = GER_parliament_fkp_is_governing
-			has_country_flag = GER_parliament_drp_is_governing
-			check_variable = {
-				var = GER_parliament_drp_seats
-				value = GER_parliament_fkp_seats
-				compare = greater_than
-			}
-		}
-		add_to_variable = { GER_parliament_fkp_faction_rank = 1 }
-	}
-	if = {
-		limit = {
-			NOT = {
-				has_country_flag = GER_parliament_fkp_is_governing
-			}
-			NOT = {
-				has_country_flag = GER_parliament_drp_is_governing
-			}
-			check_variable = {
-				var = GER_parliament_drp_seats
-				value = GER_parliament_fkp_seats
-				compare = greater_than
-			}
-		}
-		add_to_variable = { GER_parliament_fkp_faction_rank = 1 }
-	}
-	if = {
-		limit = {
-			has_country_flag = GER_parliament_fkp_is_governing
-			has_country_flag = GER_parliament_drp_is_governing
-			check_variable = {
-				var = GER_parliament_drp_seats
-				value = GER_parliament_fkp_seats
-				compare = equals
-			}
-		}
-		add_to_variable = { GER_parliament_fkp_faction_rank = 1 }
-	}
-	if = {
-		limit = {
-			NOT = {
-				has_country_flag = GER_parliament_fkp_is_governing
-			}
-			NOT = {
-				has_country_flag = GER_parliament_drp_is_governing
-			}
-			check_variable = {
-				var = GER_parliament_drp_seats
-				value = GER_parliament_fkp_seats
-				compare = equals
-			}
-		}
-		add_to_variable = { GER_parliament_fkp_faction_rank = 1 }
-	}
-	if = {
-		limit = {
-			has_country_flag = GER_parliament_fkp_is_governing
-			has_country_flag = GER_parliament_dnvp_is_governing
-			check_variable = {
-				var = GER_parliament_dnvp_seats
-				value = GER_parliament_fkp_seats
-				compare = greater_than
-			}
-		}
-		add_to_variable = { GER_parliament_fkp_faction_rank = 1 }
-	}
-	if = {
-		limit = {
-			NOT = {
-				has_country_flag = GER_parliament_fkp_is_governing
-			}
-			NOT = {
-				has_country_flag = GER_parliament_dnvp_is_governing
-			}
-			check_variable = {
-				var = GER_parliament_dnvp_seats
-				value = GER_parliament_fkp_seats
-				compare = greater_than
-			}
-		}
-		add_to_variable = { GER_parliament_fkp_faction_rank = 1 }
-	}
-	set_variable = { GER_parliament_dnvp_faction_rank = 1 }
-	if = {
-		limit = {
-			has_country_flag = GER_parliament_dnvp_is_governing
 			has_country_flag = GER_parliament_kpd_is_governing
 			check_variable = {
 				var = GER_parliament_kpd_seats
-				value = GER_parliament_dnvp_seats
+				value = GER_parliament_dkp_seats
 				compare = greater_than
 			}
 		}
-		add_to_variable = { GER_parliament_dnvp_faction_rank = 1 }
+		add_to_variable = { GER_parliament_dkp_faction_rank = 1 }
 	}
 	if = {
 		limit = {
 			NOT = {
-				has_country_flag = GER_parliament_dnvp_is_governing
+				has_country_flag = GER_parliament_dkp_is_governing
 			}
 			NOT = {
 				has_country_flag = GER_parliament_kpd_is_governing
 			}
 			check_variable = {
 				var = GER_parliament_kpd_seats
-				value = GER_parliament_dnvp_seats
+				value = GER_parliament_dkp_seats
 				compare = greater_than
 			}
 		}
-		add_to_variable = { GER_parliament_dnvp_faction_rank = 1 }
+		add_to_variable = { GER_parliament_dkp_faction_rank = 1 }
 	}
 	if = {
 		limit = {
-			has_country_flag = GER_parliament_dnvp_is_governing
+			has_country_flag = GER_parliament_dkp_is_governing
 			has_country_flag = GER_parliament_kpd_is_governing
 			check_variable = {
 				var = GER_parliament_kpd_seats
-				value = GER_parliament_dnvp_seats
+				value = GER_parliament_dkp_seats
 				compare = equals
 			}
 		}
-		add_to_variable = { GER_parliament_dnvp_faction_rank = 1 }
+		add_to_variable = { GER_parliament_dkp_faction_rank = 1 }
 	}
 	if = {
 		limit = {
 			NOT = {
-				has_country_flag = GER_parliament_dnvp_is_governing
+				has_country_flag = GER_parliament_dkp_is_governing
 			}
 			NOT = {
 				has_country_flag = GER_parliament_kpd_is_governing
 			}
 			check_variable = {
 				var = GER_parliament_kpd_seats
-				value = GER_parliament_dnvp_seats
+				value = GER_parliament_dkp_seats
 				compare = equals
 			}
 		}
-		add_to_variable = { GER_parliament_dnvp_faction_rank = 1 }
+		add_to_variable = { GER_parliament_dkp_faction_rank = 1 }
 	}
 	if = {
 		limit = {
-			has_country_flag = GER_parliament_dnvp_is_governing
-			has_country_flag = GER_parliament_sapd_is_governing
+			has_country_flag = GER_parliament_dkp_is_governing
+			has_country_flag = GER_parliament_uspd_is_governing
 			check_variable = {
-				var = GER_parliament_sapd_seats
-				value = GER_parliament_dnvp_seats
+				var = GER_parliament_uspd_seats
+				value = GER_parliament_dkp_seats
 				compare = greater_than
 			}
 		}
-		add_to_variable = { GER_parliament_dnvp_faction_rank = 1 }
+		add_to_variable = { GER_parliament_dkp_faction_rank = 1 }
 	}
 	if = {
 		limit = {
 			NOT = {
-				has_country_flag = GER_parliament_dnvp_is_governing
+				has_country_flag = GER_parliament_dkp_is_governing
 			}
 			NOT = {
-				has_country_flag = GER_parliament_sapd_is_governing
+				has_country_flag = GER_parliament_uspd_is_governing
 			}
 			check_variable = {
-				var = GER_parliament_sapd_seats
-				value = GER_parliament_dnvp_seats
+				var = GER_parliament_uspd_seats
+				value = GER_parliament_dkp_seats
 				compare = greater_than
 			}
 		}
-		add_to_variable = { GER_parliament_dnvp_faction_rank = 1 }
+		add_to_variable = { GER_parliament_dkp_faction_rank = 1 }
 	}
 	if = {
 		limit = {
-			has_country_flag = GER_parliament_dnvp_is_governing
-			has_country_flag = GER_parliament_sapd_is_governing
+			has_country_flag = GER_parliament_dkp_is_governing
+			has_country_flag = GER_parliament_uspd_is_governing
 			check_variable = {
-				var = GER_parliament_sapd_seats
-				value = GER_parliament_dnvp_seats
+				var = GER_parliament_uspd_seats
+				value = GER_parliament_dkp_seats
 				compare = equals
 			}
 		}
-		add_to_variable = { GER_parliament_dnvp_faction_rank = 1 }
+		add_to_variable = { GER_parliament_dkp_faction_rank = 1 }
 	}
 	if = {
 		limit = {
 			NOT = {
-				has_country_flag = GER_parliament_dnvp_is_governing
+				has_country_flag = GER_parliament_dkp_is_governing
 			}
 			NOT = {
-				has_country_flag = GER_parliament_sapd_is_governing
+				has_country_flag = GER_parliament_uspd_is_governing
 			}
 			check_variable = {
-				var = GER_parliament_sapd_seats
-				value = GER_parliament_dnvp_seats
+				var = GER_parliament_uspd_seats
+				value = GER_parliament_dkp_seats
 				compare = equals
 			}
 		}
-		add_to_variable = { GER_parliament_dnvp_faction_rank = 1 }
+		add_to_variable = { GER_parliament_dkp_faction_rank = 1 }
 	}
 	if = {
 		limit = {
-			has_country_flag = GER_parliament_dnvp_is_governing
+			has_country_flag = GER_parliament_dkp_is_governing
 			has_country_flag = GER_parliament_spd_is_governing
 			check_variable = {
 				var = GER_parliament_spd_seats
-				value = GER_parliament_dnvp_seats
+				value = GER_parliament_dkp_seats
 				compare = greater_than
 			}
 		}
-		add_to_variable = { GER_parliament_dnvp_faction_rank = 1 }
+		add_to_variable = { GER_parliament_dkp_faction_rank = 1 }
 	}
 	if = {
 		limit = {
 			NOT = {
-				has_country_flag = GER_parliament_dnvp_is_governing
+				has_country_flag = GER_parliament_dkp_is_governing
 			}
 			NOT = {
 				has_country_flag = GER_parliament_spd_is_governing
 			}
 			check_variable = {
 				var = GER_parliament_spd_seats
-				value = GER_parliament_dnvp_seats
+				value = GER_parliament_dkp_seats
 				compare = greater_than
 			}
 		}
-		add_to_variable = { GER_parliament_dnvp_faction_rank = 1 }
+		add_to_variable = { GER_parliament_dkp_faction_rank = 1 }
 	}
 	if = {
 		limit = {
-			has_country_flag = GER_parliament_dnvp_is_governing
+			has_country_flag = GER_parliament_dkp_is_governing
 			has_country_flag = GER_parliament_spd_is_governing
 			check_variable = {
 				var = GER_parliament_spd_seats
-				value = GER_parliament_dnvp_seats
+				value = GER_parliament_dkp_seats
 				compare = equals
 			}
 		}
-		add_to_variable = { GER_parliament_dnvp_faction_rank = 1 }
+		add_to_variable = { GER_parliament_dkp_faction_rank = 1 }
 	}
 	if = {
 		limit = {
 			NOT = {
-				has_country_flag = GER_parliament_dnvp_is_governing
+				has_country_flag = GER_parliament_dkp_is_governing
 			}
 			NOT = {
 				has_country_flag = GER_parliament_spd_is_governing
 			}
 			check_variable = {
 				var = GER_parliament_spd_seats
-				value = GER_parliament_dnvp_seats
+				value = GER_parliament_dkp_seats
 				compare = equals
 			}
 		}
-		add_to_variable = { GER_parliament_dnvp_faction_rank = 1 }
+		add_to_variable = { GER_parliament_dkp_faction_rank = 1 }
 	}
 	if = {
 		limit = {
-			has_country_flag = GER_parliament_dnvp_is_governing
+			has_country_flag = GER_parliament_dkp_is_governing
 			has_country_flag = GER_parliament_fvp_is_governing
 			check_variable = {
 				var = GER_parliament_fvp_seats
-				value = GER_parliament_dnvp_seats
+				value = GER_parliament_dkp_seats
 				compare = greater_than
 			}
 		}
-		add_to_variable = { GER_parliament_dnvp_faction_rank = 1 }
+		add_to_variable = { GER_parliament_dkp_faction_rank = 1 }
 	}
 	if = {
 		limit = {
 			NOT = {
-				has_country_flag = GER_parliament_dnvp_is_governing
+				has_country_flag = GER_parliament_dkp_is_governing
 			}
 			NOT = {
 				has_country_flag = GER_parliament_fvp_is_governing
 			}
 			check_variable = {
 				var = GER_parliament_fvp_seats
-				value = GER_parliament_dnvp_seats
+				value = GER_parliament_dkp_seats
 				compare = greater_than
 			}
 		}
-		add_to_variable = { GER_parliament_dnvp_faction_rank = 1 }
+		add_to_variable = { GER_parliament_dkp_faction_rank = 1 }
 	}
 	if = {
 		limit = {
-			has_country_flag = GER_parliament_dnvp_is_governing
+			has_country_flag = GER_parliament_dkp_is_governing
 			has_country_flag = GER_parliament_fvp_is_governing
 			check_variable = {
 				var = GER_parliament_fvp_seats
-				value = GER_parliament_dnvp_seats
+				value = GER_parliament_dkp_seats
 				compare = equals
 			}
 		}
-		add_to_variable = { GER_parliament_dnvp_faction_rank = 1 }
+		add_to_variable = { GER_parliament_dkp_faction_rank = 1 }
 	}
 	if = {
 		limit = {
 			NOT = {
-				has_country_flag = GER_parliament_dnvp_is_governing
+				has_country_flag = GER_parliament_dkp_is_governing
 			}
 			NOT = {
 				has_country_flag = GER_parliament_fvp_is_governing
 			}
 			check_variable = {
 				var = GER_parliament_fvp_seats
-				value = GER_parliament_dnvp_seats
+				value = GER_parliament_dkp_seats
 				compare = equals
 			}
 		}
-		add_to_variable = { GER_parliament_dnvp_faction_rank = 1 }
+		add_to_variable = { GER_parliament_dkp_faction_rank = 1 }
 	}
 	if = {
 		limit = {
-			has_country_flag = GER_parliament_dnvp_is_governing
+			has_country_flag = GER_parliament_dkp_is_governing
 			has_country_flag = GER_parliament_zentrum_is_governing
 			check_variable = {
 				var = GER_parliament_zentrum_seats
-				value = GER_parliament_dnvp_seats
+				value = GER_parliament_dkp_seats
 				compare = greater_than
 			}
 		}
-		add_to_variable = { GER_parliament_dnvp_faction_rank = 1 }
+		add_to_variable = { GER_parliament_dkp_faction_rank = 1 }
 	}
 	if = {
 		limit = {
 			NOT = {
-				has_country_flag = GER_parliament_dnvp_is_governing
+				has_country_flag = GER_parliament_dkp_is_governing
 			}
 			NOT = {
 				has_country_flag = GER_parliament_zentrum_is_governing
 			}
 			check_variable = {
 				var = GER_parliament_zentrum_seats
-				value = GER_parliament_dnvp_seats
+				value = GER_parliament_dkp_seats
 				compare = greater_than
 			}
 		}
-		add_to_variable = { GER_parliament_dnvp_faction_rank = 1 }
+		add_to_variable = { GER_parliament_dkp_faction_rank = 1 }
 	}
 	if = {
 		limit = {
-			has_country_flag = GER_parliament_dnvp_is_governing
+			has_country_flag = GER_parliament_dkp_is_governing
 			has_country_flag = GER_parliament_zentrum_is_governing
 			check_variable = {
 				var = GER_parliament_zentrum_seats
-				value = GER_parliament_dnvp_seats
+				value = GER_parliament_dkp_seats
 				compare = equals
 			}
 		}
-		add_to_variable = { GER_parliament_dnvp_faction_rank = 1 }
+		add_to_variable = { GER_parliament_dkp_faction_rank = 1 }
 	}
 	if = {
 		limit = {
 			NOT = {
-				has_country_flag = GER_parliament_dnvp_is_governing
+				has_country_flag = GER_parliament_dkp_is_governing
 			}
 			NOT = {
 				has_country_flag = GER_parliament_zentrum_is_governing
 			}
 			check_variable = {
 				var = GER_parliament_zentrum_seats
-				value = GER_parliament_dnvp_seats
+				value = GER_parliament_dkp_seats
 				compare = equals
 			}
 		}
-		add_to_variable = { GER_parliament_dnvp_faction_rank = 1 }
+		add_to_variable = { GER_parliament_dkp_faction_rank = 1 }
 	}
 	if = {
 		limit = {
-			has_country_flag = GER_parliament_dnvp_is_governing
 			has_country_flag = GER_parliament_dkp_is_governing
+			has_country_flag = GER_parliament_nlp_is_governing
 			check_variable = {
-				var = GER_parliament_dkp_seats
-				value = GER_parliament_dnvp_seats
+				var = GER_parliament_nlp_seats
+				value = GER_parliament_dkp_seats
 				compare = greater_than
 			}
 		}
-		add_to_variable = { GER_parliament_dnvp_faction_rank = 1 }
+		add_to_variable = { GER_parliament_dkp_faction_rank = 1 }
 	}
 	if = {
 		limit = {
-			NOT = {
-				has_country_flag = GER_parliament_dnvp_is_governing
-			}
 			NOT = {
 				has_country_flag = GER_parliament_dkp_is_governing
 			}
+			NOT = {
+				has_country_flag = GER_parliament_nlp_is_governing
+			}
 			check_variable = {
-				var = GER_parliament_dkp_seats
-				value = GER_parliament_dnvp_seats
+				var = GER_parliament_nlp_seats
+				value = GER_parliament_dkp_seats
 				compare = greater_than
 			}
 		}
-		add_to_variable = { GER_parliament_dnvp_faction_rank = 1 }
+		add_to_variable = { GER_parliament_dkp_faction_rank = 1 }
 	}
 	if = {
 		limit = {
-			has_country_flag = GER_parliament_dnvp_is_governing
 			has_country_flag = GER_parliament_dkp_is_governing
+			has_country_flag = GER_parliament_nlp_is_governing
 			check_variable = {
-				var = GER_parliament_dkp_seats
-				value = GER_parliament_dnvp_seats
+				var = GER_parliament_nlp_seats
+				value = GER_parliament_dkp_seats
 				compare = equals
 			}
 		}
-		add_to_variable = { GER_parliament_dnvp_faction_rank = 1 }
+		add_to_variable = { GER_parliament_dkp_faction_rank = 1 }
 	}
 	if = {
 		limit = {
-			NOT = {
-				has_country_flag = GER_parliament_dnvp_is_governing
-			}
 			NOT = {
 				has_country_flag = GER_parliament_dkp_is_governing
 			}
+			NOT = {
+				has_country_flag = GER_parliament_nlp_is_governing
+			}
 			check_variable = {
-				var = GER_parliament_dkp_seats
-				value = GER_parliament_dnvp_seats
+				var = GER_parliament_nlp_seats
+				value = GER_parliament_dkp_seats
 				compare = equals
 			}
 		}
-		add_to_variable = { GER_parliament_dnvp_faction_rank = 1 }
+		add_to_variable = { GER_parliament_dkp_faction_rank = 1 }
 	}
 	if = {
 		limit = {
-			has_country_flag = GER_parliament_dnvp_is_governing
-			has_country_flag = GER_parliament_drp_is_governing
-			check_variable = {
-				var = GER_parliament_drp_seats
-				value = GER_parliament_dnvp_seats
-				compare = greater_than
-			}
-		}
-		add_to_variable = { GER_parliament_dnvp_faction_rank = 1 }
-	}
-	if = {
-		limit = {
-			NOT = {
-				has_country_flag = GER_parliament_dnvp_is_governing
-			}
-			NOT = {
-				has_country_flag = GER_parliament_drp_is_governing
-			}
-			check_variable = {
-				var = GER_parliament_drp_seats
-				value = GER_parliament_dnvp_seats
-				compare = greater_than
-			}
-		}
-		add_to_variable = { GER_parliament_dnvp_faction_rank = 1 }
-	}
-	if = {
-		limit = {
-			has_country_flag = GER_parliament_dnvp_is_governing
-			has_country_flag = GER_parliament_drp_is_governing
-			check_variable = {
-				var = GER_parliament_drp_seats
-				value = GER_parliament_dnvp_seats
-				compare = equals
-			}
-		}
-		add_to_variable = { GER_parliament_dnvp_faction_rank = 1 }
-	}
-	if = {
-		limit = {
-			NOT = {
-				has_country_flag = GER_parliament_dnvp_is_governing
-			}
-			NOT = {
-				has_country_flag = GER_parliament_drp_is_governing
-			}
-			check_variable = {
-				var = GER_parliament_drp_seats
-				value = GER_parliament_dnvp_seats
-				compare = equals
-			}
-		}
-		add_to_variable = { GER_parliament_dnvp_faction_rank = 1 }
-	}
-	if = {
-		limit = {
-			has_country_flag = GER_parliament_dnvp_is_governing
+			has_country_flag = GER_parliament_dkp_is_governing
 			has_country_flag = GER_parliament_fkp_is_governing
 			check_variable = {
 				var = GER_parliament_fkp_seats
-				value = GER_parliament_dnvp_seats
+				value = GER_parliament_dkp_seats
 				compare = greater_than
 			}
 		}
-		add_to_variable = { GER_parliament_dnvp_faction_rank = 1 }
+		add_to_variable = { GER_parliament_dkp_faction_rank = 1 }
 	}
 	if = {
 		limit = {
 			NOT = {
-				has_country_flag = GER_parliament_dnvp_is_governing
+				has_country_flag = GER_parliament_dkp_is_governing
 			}
 			NOT = {
 				has_country_flag = GER_parliament_fkp_is_governing
 			}
 			check_variable = {
 				var = GER_parliament_fkp_seats
-				value = GER_parliament_dnvp_seats
+				value = GER_parliament_dkp_seats
 				compare = greater_than
 			}
 		}
-		add_to_variable = { GER_parliament_dnvp_faction_rank = 1 }
+		add_to_variable = { GER_parliament_dkp_faction_rank = 1 }
 	}
 	if = {
 		limit = {
-			has_country_flag = GER_parliament_dnvp_is_governing
+			has_country_flag = GER_parliament_dkp_is_governing
 			has_country_flag = GER_parliament_fkp_is_governing
 			check_variable = {
 				var = GER_parliament_fkp_seats
-				value = GER_parliament_dnvp_seats
+				value = GER_parliament_dkp_seats
 				compare = equals
 			}
 		}
-		add_to_variable = { GER_parliament_dnvp_faction_rank = 1 }
+		add_to_variable = { GER_parliament_dkp_faction_rank = 1 }
 	}
 	if = {
 		limit = {
 			NOT = {
-				has_country_flag = GER_parliament_dnvp_is_governing
+				has_country_flag = GER_parliament_dkp_is_governing
 			}
 			NOT = {
 				has_country_flag = GER_parliament_fkp_is_governing
 			}
 			check_variable = {
 				var = GER_parliament_fkp_seats
-				value = GER_parliament_dnvp_seats
+				value = GER_parliament_dkp_seats
 				compare = equals
 			}
 		}
-		add_to_variable = { GER_parliament_dnvp_faction_rank = 1 }
+		add_to_variable = { GER_parliament_dkp_faction_rank = 1 }
+	}
+	if = {
+		limit = {
+			has_country_flag = GER_parliament_dkp_is_governing
+			has_country_flag = GER_parliament_dvlp_is_governing
+			check_variable = {
+				var = GER_parliament_dvlp_seats
+				value = GER_parliament_dkp_seats
+				compare = greater_than
+			}
+		}
+		add_to_variable = { GER_parliament_dkp_faction_rank = 1 }
+	}
+	if = {
+		limit = {
+			NOT = {
+				has_country_flag = GER_parliament_dkp_is_governing
+			}
+			NOT = {
+				has_country_flag = GER_parliament_dvlp_is_governing
+			}
+			check_variable = {
+				var = GER_parliament_dvlp_seats
+				value = GER_parliament_dkp_seats
+				compare = greater_than
+			}
+		}
+		add_to_variable = { GER_parliament_dkp_faction_rank = 1 }
+	}
+	if = {
+		limit = {
+			has_country_flag = GER_parliament_dkp_is_governing
+			has_country_flag = GER_parliament_misc_is_governing
+			check_variable = {
+				var = GER_parliament_misc_seats
+				value = GER_parliament_dkp_seats
+				compare = greater_than
+			}
+		}
+		add_to_variable = { GER_parliament_dkp_faction_rank = 1 }
+	}
+	if = {
+		limit = {
+			NOT = {
+				has_country_flag = GER_parliament_dkp_is_governing
+			}
+			NOT = {
+				has_country_flag = GER_parliament_misc_is_governing
+			}
+			check_variable = {
+				var = GER_parliament_misc_seats
+				value = GER_parliament_dkp_seats
+				compare = greater_than
+			}
+		}
+		add_to_variable = { GER_parliament_dkp_faction_rank = 1 }
+	}
+	set_variable = { GER_parliament_dvlp_faction_rank = 1 }
+	if = {
+		limit = {
+			has_country_flag = GER_parliament_dvlp_is_governing
+			has_country_flag = GER_parliament_kpd_is_governing
+			check_variable = {
+				var = GER_parliament_kpd_seats
+				value = GER_parliament_dvlp_seats
+				compare = greater_than
+			}
+		}
+		add_to_variable = { GER_parliament_dvlp_faction_rank = 1 }
+	}
+	if = {
+		limit = {
+			NOT = {
+				has_country_flag = GER_parliament_dvlp_is_governing
+			}
+			NOT = {
+				has_country_flag = GER_parliament_kpd_is_governing
+			}
+			check_variable = {
+				var = GER_parliament_kpd_seats
+				value = GER_parliament_dvlp_seats
+				compare = greater_than
+			}
+		}
+		add_to_variable = { GER_parliament_dvlp_faction_rank = 1 }
+	}
+	if = {
+		limit = {
+			has_country_flag = GER_parliament_dvlp_is_governing
+			has_country_flag = GER_parliament_kpd_is_governing
+			check_variable = {
+				var = GER_parliament_kpd_seats
+				value = GER_parliament_dvlp_seats
+				compare = equals
+			}
+		}
+		add_to_variable = { GER_parliament_dvlp_faction_rank = 1 }
+	}
+	if = {
+		limit = {
+			NOT = {
+				has_country_flag = GER_parliament_dvlp_is_governing
+			}
+			NOT = {
+				has_country_flag = GER_parliament_kpd_is_governing
+			}
+			check_variable = {
+				var = GER_parliament_kpd_seats
+				value = GER_parliament_dvlp_seats
+				compare = equals
+			}
+		}
+		add_to_variable = { GER_parliament_dvlp_faction_rank = 1 }
+	}
+	if = {
+		limit = {
+			has_country_flag = GER_parliament_dvlp_is_governing
+			has_country_flag = GER_parliament_uspd_is_governing
+			check_variable = {
+				var = GER_parliament_uspd_seats
+				value = GER_parliament_dvlp_seats
+				compare = greater_than
+			}
+		}
+		add_to_variable = { GER_parliament_dvlp_faction_rank = 1 }
+	}
+	if = {
+		limit = {
+			NOT = {
+				has_country_flag = GER_parliament_dvlp_is_governing
+			}
+			NOT = {
+				has_country_flag = GER_parliament_uspd_is_governing
+			}
+			check_variable = {
+				var = GER_parliament_uspd_seats
+				value = GER_parliament_dvlp_seats
+				compare = greater_than
+			}
+		}
+		add_to_variable = { GER_parliament_dvlp_faction_rank = 1 }
+	}
+	if = {
+		limit = {
+			has_country_flag = GER_parliament_dvlp_is_governing
+			has_country_flag = GER_parliament_uspd_is_governing
+			check_variable = {
+				var = GER_parliament_uspd_seats
+				value = GER_parliament_dvlp_seats
+				compare = equals
+			}
+		}
+		add_to_variable = { GER_parliament_dvlp_faction_rank = 1 }
+	}
+	if = {
+		limit = {
+			NOT = {
+				has_country_flag = GER_parliament_dvlp_is_governing
+			}
+			NOT = {
+				has_country_flag = GER_parliament_uspd_is_governing
+			}
+			check_variable = {
+				var = GER_parliament_uspd_seats
+				value = GER_parliament_dvlp_seats
+				compare = equals
+			}
+		}
+		add_to_variable = { GER_parliament_dvlp_faction_rank = 1 }
+	}
+	if = {
+		limit = {
+			has_country_flag = GER_parliament_dvlp_is_governing
+			has_country_flag = GER_parliament_spd_is_governing
+			check_variable = {
+				var = GER_parliament_spd_seats
+				value = GER_parliament_dvlp_seats
+				compare = greater_than
+			}
+		}
+		add_to_variable = { GER_parliament_dvlp_faction_rank = 1 }
+	}
+	if = {
+		limit = {
+			NOT = {
+				has_country_flag = GER_parliament_dvlp_is_governing
+			}
+			NOT = {
+				has_country_flag = GER_parliament_spd_is_governing
+			}
+			check_variable = {
+				var = GER_parliament_spd_seats
+				value = GER_parliament_dvlp_seats
+				compare = greater_than
+			}
+		}
+		add_to_variable = { GER_parliament_dvlp_faction_rank = 1 }
+	}
+	if = {
+		limit = {
+			has_country_flag = GER_parliament_dvlp_is_governing
+			has_country_flag = GER_parliament_spd_is_governing
+			check_variable = {
+				var = GER_parliament_spd_seats
+				value = GER_parliament_dvlp_seats
+				compare = equals
+			}
+		}
+		add_to_variable = { GER_parliament_dvlp_faction_rank = 1 }
+	}
+	if = {
+		limit = {
+			NOT = {
+				has_country_flag = GER_parliament_dvlp_is_governing
+			}
+			NOT = {
+				has_country_flag = GER_parliament_spd_is_governing
+			}
+			check_variable = {
+				var = GER_parliament_spd_seats
+				value = GER_parliament_dvlp_seats
+				compare = equals
+			}
+		}
+		add_to_variable = { GER_parliament_dvlp_faction_rank = 1 }
+	}
+	if = {
+		limit = {
+			has_country_flag = GER_parliament_dvlp_is_governing
+			has_country_flag = GER_parliament_fvp_is_governing
+			check_variable = {
+				var = GER_parliament_fvp_seats
+				value = GER_parliament_dvlp_seats
+				compare = greater_than
+			}
+		}
+		add_to_variable = { GER_parliament_dvlp_faction_rank = 1 }
+	}
+	if = {
+		limit = {
+			NOT = {
+				has_country_flag = GER_parliament_dvlp_is_governing
+			}
+			NOT = {
+				has_country_flag = GER_parliament_fvp_is_governing
+			}
+			check_variable = {
+				var = GER_parliament_fvp_seats
+				value = GER_parliament_dvlp_seats
+				compare = greater_than
+			}
+		}
+		add_to_variable = { GER_parliament_dvlp_faction_rank = 1 }
+	}
+	if = {
+		limit = {
+			has_country_flag = GER_parliament_dvlp_is_governing
+			has_country_flag = GER_parliament_fvp_is_governing
+			check_variable = {
+				var = GER_parliament_fvp_seats
+				value = GER_parliament_dvlp_seats
+				compare = equals
+			}
+		}
+		add_to_variable = { GER_parliament_dvlp_faction_rank = 1 }
+	}
+	if = {
+		limit = {
+			NOT = {
+				has_country_flag = GER_parliament_dvlp_is_governing
+			}
+			NOT = {
+				has_country_flag = GER_parliament_fvp_is_governing
+			}
+			check_variable = {
+				var = GER_parliament_fvp_seats
+				value = GER_parliament_dvlp_seats
+				compare = equals
+			}
+		}
+		add_to_variable = { GER_parliament_dvlp_faction_rank = 1 }
+	}
+	if = {
+		limit = {
+			has_country_flag = GER_parliament_dvlp_is_governing
+			has_country_flag = GER_parliament_zentrum_is_governing
+			check_variable = {
+				var = GER_parliament_zentrum_seats
+				value = GER_parliament_dvlp_seats
+				compare = greater_than
+			}
+		}
+		add_to_variable = { GER_parliament_dvlp_faction_rank = 1 }
+	}
+	if = {
+		limit = {
+			NOT = {
+				has_country_flag = GER_parliament_dvlp_is_governing
+			}
+			NOT = {
+				has_country_flag = GER_parliament_zentrum_is_governing
+			}
+			check_variable = {
+				var = GER_parliament_zentrum_seats
+				value = GER_parliament_dvlp_seats
+				compare = greater_than
+			}
+		}
+		add_to_variable = { GER_parliament_dvlp_faction_rank = 1 }
+	}
+	if = {
+		limit = {
+			has_country_flag = GER_parliament_dvlp_is_governing
+			has_country_flag = GER_parliament_zentrum_is_governing
+			check_variable = {
+				var = GER_parliament_zentrum_seats
+				value = GER_parliament_dvlp_seats
+				compare = equals
+			}
+		}
+		add_to_variable = { GER_parliament_dvlp_faction_rank = 1 }
+	}
+	if = {
+		limit = {
+			NOT = {
+				has_country_flag = GER_parliament_dvlp_is_governing
+			}
+			NOT = {
+				has_country_flag = GER_parliament_zentrum_is_governing
+			}
+			check_variable = {
+				var = GER_parliament_zentrum_seats
+				value = GER_parliament_dvlp_seats
+				compare = equals
+			}
+		}
+		add_to_variable = { GER_parliament_dvlp_faction_rank = 1 }
+	}
+	if = {
+		limit = {
+			has_country_flag = GER_parliament_dvlp_is_governing
+			has_country_flag = GER_parliament_nlp_is_governing
+			check_variable = {
+				var = GER_parliament_nlp_seats
+				value = GER_parliament_dvlp_seats
+				compare = greater_than
+			}
+		}
+		add_to_variable = { GER_parliament_dvlp_faction_rank = 1 }
+	}
+	if = {
+		limit = {
+			NOT = {
+				has_country_flag = GER_parliament_dvlp_is_governing
+			}
+			NOT = {
+				has_country_flag = GER_parliament_nlp_is_governing
+			}
+			check_variable = {
+				var = GER_parliament_nlp_seats
+				value = GER_parliament_dvlp_seats
+				compare = greater_than
+			}
+		}
+		add_to_variable = { GER_parliament_dvlp_faction_rank = 1 }
+	}
+	if = {
+		limit = {
+			has_country_flag = GER_parliament_dvlp_is_governing
+			has_country_flag = GER_parliament_nlp_is_governing
+			check_variable = {
+				var = GER_parliament_nlp_seats
+				value = GER_parliament_dvlp_seats
+				compare = equals
+			}
+		}
+		add_to_variable = { GER_parliament_dvlp_faction_rank = 1 }
+	}
+	if = {
+		limit = {
+			NOT = {
+				has_country_flag = GER_parliament_dvlp_is_governing
+			}
+			NOT = {
+				has_country_flag = GER_parliament_nlp_is_governing
+			}
+			check_variable = {
+				var = GER_parliament_nlp_seats
+				value = GER_parliament_dvlp_seats
+				compare = equals
+			}
+		}
+		add_to_variable = { GER_parliament_dvlp_faction_rank = 1 }
+	}
+	if = {
+		limit = {
+			has_country_flag = GER_parliament_dvlp_is_governing
+			has_country_flag = GER_parliament_fkp_is_governing
+			check_variable = {
+				var = GER_parliament_fkp_seats
+				value = GER_parliament_dvlp_seats
+				compare = greater_than
+			}
+		}
+		add_to_variable = { GER_parliament_dvlp_faction_rank = 1 }
+	}
+	if = {
+		limit = {
+			NOT = {
+				has_country_flag = GER_parliament_dvlp_is_governing
+			}
+			NOT = {
+				has_country_flag = GER_parliament_fkp_is_governing
+			}
+			check_variable = {
+				var = GER_parliament_fkp_seats
+				value = GER_parliament_dvlp_seats
+				compare = greater_than
+			}
+		}
+		add_to_variable = { GER_parliament_dvlp_faction_rank = 1 }
+	}
+	if = {
+		limit = {
+			has_country_flag = GER_parliament_dvlp_is_governing
+			has_country_flag = GER_parliament_fkp_is_governing
+			check_variable = {
+				var = GER_parliament_fkp_seats
+				value = GER_parliament_dvlp_seats
+				compare = equals
+			}
+		}
+		add_to_variable = { GER_parliament_dvlp_faction_rank = 1 }
+	}
+	if = {
+		limit = {
+			NOT = {
+				has_country_flag = GER_parliament_dvlp_is_governing
+			}
+			NOT = {
+				has_country_flag = GER_parliament_fkp_is_governing
+			}
+			check_variable = {
+				var = GER_parliament_fkp_seats
+				value = GER_parliament_dvlp_seats
+				compare = equals
+			}
+		}
+		add_to_variable = { GER_parliament_dvlp_faction_rank = 1 }
+	}
+	if = {
+		limit = {
+			has_country_flag = GER_parliament_dvlp_is_governing
+			has_country_flag = GER_parliament_dkp_is_governing
+			check_variable = {
+				var = GER_parliament_dkp_seats
+				value = GER_parliament_dvlp_seats
+				compare = greater_than
+			}
+		}
+		add_to_variable = { GER_parliament_dvlp_faction_rank = 1 }
+	}
+	if = {
+		limit = {
+			NOT = {
+				has_country_flag = GER_parliament_dvlp_is_governing
+			}
+			NOT = {
+				has_country_flag = GER_parliament_dkp_is_governing
+			}
+			check_variable = {
+				var = GER_parliament_dkp_seats
+				value = GER_parliament_dvlp_seats
+				compare = greater_than
+			}
+		}
+		add_to_variable = { GER_parliament_dvlp_faction_rank = 1 }
+	}
+	if = {
+		limit = {
+			has_country_flag = GER_parliament_dvlp_is_governing
+			has_country_flag = GER_parliament_dkp_is_governing
+			check_variable = {
+				var = GER_parliament_dkp_seats
+				value = GER_parliament_dvlp_seats
+				compare = equals
+			}
+		}
+		add_to_variable = { GER_parliament_dvlp_faction_rank = 1 }
+	}
+	if = {
+		limit = {
+			NOT = {
+				has_country_flag = GER_parliament_dvlp_is_governing
+			}
+			NOT = {
+				has_country_flag = GER_parliament_dkp_is_governing
+			}
+			check_variable = {
+				var = GER_parliament_dkp_seats
+				value = GER_parliament_dvlp_seats
+				compare = equals
+			}
+		}
+		add_to_variable = { GER_parliament_dvlp_faction_rank = 1 }
+	}
+	if = {
+		limit = {
+			has_country_flag = GER_parliament_dvlp_is_governing
+			has_country_flag = GER_parliament_misc_is_governing
+			check_variable = {
+				var = GER_parliament_misc_seats
+				value = GER_parliament_dvlp_seats
+				compare = greater_than
+			}
+		}
+		add_to_variable = { GER_parliament_dvlp_faction_rank = 1 }
+	}
+	if = {
+		limit = {
+			NOT = {
+				has_country_flag = GER_parliament_dvlp_is_governing
+			}
+			NOT = {
+				has_country_flag = GER_parliament_misc_is_governing
+			}
+			check_variable = {
+				var = GER_parliament_misc_seats
+				value = GER_parliament_dvlp_seats
+				compare = greater_than
+			}
+		}
+		add_to_variable = { GER_parliament_dvlp_faction_rank = 1 }
+	}
+	set_variable = { GER_parliament_misc_faction_rank = 1 }
+	if = {
+		limit = {
+			has_country_flag = GER_parliament_misc_is_governing
+			has_country_flag = GER_parliament_kpd_is_governing
+			check_variable = {
+				var = GER_parliament_kpd_seats
+				value = GER_parliament_misc_seats
+				compare = greater_than
+			}
+		}
+		add_to_variable = { GER_parliament_misc_faction_rank = 1 }
+	}
+	if = {
+		limit = {
+			NOT = {
+				has_country_flag = GER_parliament_misc_is_governing
+			}
+			NOT = {
+				has_country_flag = GER_parliament_kpd_is_governing
+			}
+			check_variable = {
+				var = GER_parliament_kpd_seats
+				value = GER_parliament_misc_seats
+				compare = greater_than
+			}
+		}
+		add_to_variable = { GER_parliament_misc_faction_rank = 1 }
+	}
+	if = {
+		limit = {
+			has_country_flag = GER_parliament_misc_is_governing
+			has_country_flag = GER_parliament_kpd_is_governing
+			check_variable = {
+				var = GER_parliament_kpd_seats
+				value = GER_parliament_misc_seats
+				compare = equals
+			}
+		}
+		add_to_variable = { GER_parliament_misc_faction_rank = 1 }
+	}
+	if = {
+		limit = {
+			NOT = {
+				has_country_flag = GER_parliament_misc_is_governing
+			}
+			NOT = {
+				has_country_flag = GER_parliament_kpd_is_governing
+			}
+			check_variable = {
+				var = GER_parliament_kpd_seats
+				value = GER_parliament_misc_seats
+				compare = equals
+			}
+		}
+		add_to_variable = { GER_parliament_misc_faction_rank = 1 }
+	}
+	if = {
+		limit = {
+			has_country_flag = GER_parliament_misc_is_governing
+			has_country_flag = GER_parliament_uspd_is_governing
+			check_variable = {
+				var = GER_parliament_uspd_seats
+				value = GER_parliament_misc_seats
+				compare = greater_than
+			}
+		}
+		add_to_variable = { GER_parliament_misc_faction_rank = 1 }
+	}
+	if = {
+		limit = {
+			NOT = {
+				has_country_flag = GER_parliament_misc_is_governing
+			}
+			NOT = {
+				has_country_flag = GER_parliament_uspd_is_governing
+			}
+			check_variable = {
+				var = GER_parliament_uspd_seats
+				value = GER_parliament_misc_seats
+				compare = greater_than
+			}
+		}
+		add_to_variable = { GER_parliament_misc_faction_rank = 1 }
+	}
+	if = {
+		limit = {
+			has_country_flag = GER_parliament_misc_is_governing
+			has_country_flag = GER_parliament_uspd_is_governing
+			check_variable = {
+				var = GER_parliament_uspd_seats
+				value = GER_parliament_misc_seats
+				compare = equals
+			}
+		}
+		add_to_variable = { GER_parliament_misc_faction_rank = 1 }
+	}
+	if = {
+		limit = {
+			NOT = {
+				has_country_flag = GER_parliament_misc_is_governing
+			}
+			NOT = {
+				has_country_flag = GER_parliament_uspd_is_governing
+			}
+			check_variable = {
+				var = GER_parliament_uspd_seats
+				value = GER_parliament_misc_seats
+				compare = equals
+			}
+		}
+		add_to_variable = { GER_parliament_misc_faction_rank = 1 }
+	}
+	if = {
+		limit = {
+			has_country_flag = GER_parliament_misc_is_governing
+			has_country_flag = GER_parliament_spd_is_governing
+			check_variable = {
+				var = GER_parliament_spd_seats
+				value = GER_parliament_misc_seats
+				compare = greater_than
+			}
+		}
+		add_to_variable = { GER_parliament_misc_faction_rank = 1 }
+	}
+	if = {
+		limit = {
+			NOT = {
+				has_country_flag = GER_parliament_misc_is_governing
+			}
+			NOT = {
+				has_country_flag = GER_parliament_spd_is_governing
+			}
+			check_variable = {
+				var = GER_parliament_spd_seats
+				value = GER_parliament_misc_seats
+				compare = greater_than
+			}
+		}
+		add_to_variable = { GER_parliament_misc_faction_rank = 1 }
+	}
+	if = {
+		limit = {
+			has_country_flag = GER_parliament_misc_is_governing
+			has_country_flag = GER_parliament_spd_is_governing
+			check_variable = {
+				var = GER_parliament_spd_seats
+				value = GER_parliament_misc_seats
+				compare = equals
+			}
+		}
+		add_to_variable = { GER_parliament_misc_faction_rank = 1 }
+	}
+	if = {
+		limit = {
+			NOT = {
+				has_country_flag = GER_parliament_misc_is_governing
+			}
+			NOT = {
+				has_country_flag = GER_parliament_spd_is_governing
+			}
+			check_variable = {
+				var = GER_parliament_spd_seats
+				value = GER_parliament_misc_seats
+				compare = equals
+			}
+		}
+		add_to_variable = { GER_parliament_misc_faction_rank = 1 }
+	}
+	if = {
+		limit = {
+			has_country_flag = GER_parliament_misc_is_governing
+			has_country_flag = GER_parliament_fvp_is_governing
+			check_variable = {
+				var = GER_parliament_fvp_seats
+				value = GER_parliament_misc_seats
+				compare = greater_than
+			}
+		}
+		add_to_variable = { GER_parliament_misc_faction_rank = 1 }
+	}
+	if = {
+		limit = {
+			NOT = {
+				has_country_flag = GER_parliament_misc_is_governing
+			}
+			NOT = {
+				has_country_flag = GER_parliament_fvp_is_governing
+			}
+			check_variable = {
+				var = GER_parliament_fvp_seats
+				value = GER_parliament_misc_seats
+				compare = greater_than
+			}
+		}
+		add_to_variable = { GER_parliament_misc_faction_rank = 1 }
+	}
+	if = {
+		limit = {
+			has_country_flag = GER_parliament_misc_is_governing
+			has_country_flag = GER_parliament_fvp_is_governing
+			check_variable = {
+				var = GER_parliament_fvp_seats
+				value = GER_parliament_misc_seats
+				compare = equals
+			}
+		}
+		add_to_variable = { GER_parliament_misc_faction_rank = 1 }
+	}
+	if = {
+		limit = {
+			NOT = {
+				has_country_flag = GER_parliament_misc_is_governing
+			}
+			NOT = {
+				has_country_flag = GER_parliament_fvp_is_governing
+			}
+			check_variable = {
+				var = GER_parliament_fvp_seats
+				value = GER_parliament_misc_seats
+				compare = equals
+			}
+		}
+		add_to_variable = { GER_parliament_misc_faction_rank = 1 }
+	}
+	if = {
+		limit = {
+			has_country_flag = GER_parliament_misc_is_governing
+			has_country_flag = GER_parliament_zentrum_is_governing
+			check_variable = {
+				var = GER_parliament_zentrum_seats
+				value = GER_parliament_misc_seats
+				compare = greater_than
+			}
+		}
+		add_to_variable = { GER_parliament_misc_faction_rank = 1 }
+	}
+	if = {
+		limit = {
+			NOT = {
+				has_country_flag = GER_parliament_misc_is_governing
+			}
+			NOT = {
+				has_country_flag = GER_parliament_zentrum_is_governing
+			}
+			check_variable = {
+				var = GER_parliament_zentrum_seats
+				value = GER_parliament_misc_seats
+				compare = greater_than
+			}
+		}
+		add_to_variable = { GER_parliament_misc_faction_rank = 1 }
+	}
+	if = {
+		limit = {
+			has_country_flag = GER_parliament_misc_is_governing
+			has_country_flag = GER_parliament_zentrum_is_governing
+			check_variable = {
+				var = GER_parliament_zentrum_seats
+				value = GER_parliament_misc_seats
+				compare = equals
+			}
+		}
+		add_to_variable = { GER_parliament_misc_faction_rank = 1 }
+	}
+	if = {
+		limit = {
+			NOT = {
+				has_country_flag = GER_parliament_misc_is_governing
+			}
+			NOT = {
+				has_country_flag = GER_parliament_zentrum_is_governing
+			}
+			check_variable = {
+				var = GER_parliament_zentrum_seats
+				value = GER_parliament_misc_seats
+				compare = equals
+			}
+		}
+		add_to_variable = { GER_parliament_misc_faction_rank = 1 }
+	}
+	if = {
+		limit = {
+			has_country_flag = GER_parliament_misc_is_governing
+			has_country_flag = GER_parliament_nlp_is_governing
+			check_variable = {
+				var = GER_parliament_nlp_seats
+				value = GER_parliament_misc_seats
+				compare = greater_than
+			}
+		}
+		add_to_variable = { GER_parliament_misc_faction_rank = 1 }
+	}
+	if = {
+		limit = {
+			NOT = {
+				has_country_flag = GER_parliament_misc_is_governing
+			}
+			NOT = {
+				has_country_flag = GER_parliament_nlp_is_governing
+			}
+			check_variable = {
+				var = GER_parliament_nlp_seats
+				value = GER_parliament_misc_seats
+				compare = greater_than
+			}
+		}
+		add_to_variable = { GER_parliament_misc_faction_rank = 1 }
+	}
+	if = {
+		limit = {
+			has_country_flag = GER_parliament_misc_is_governing
+			has_country_flag = GER_parliament_nlp_is_governing
+			check_variable = {
+				var = GER_parliament_nlp_seats
+				value = GER_parliament_misc_seats
+				compare = equals
+			}
+		}
+		add_to_variable = { GER_parliament_misc_faction_rank = 1 }
+	}
+	if = {
+		limit = {
+			NOT = {
+				has_country_flag = GER_parliament_misc_is_governing
+			}
+			NOT = {
+				has_country_flag = GER_parliament_nlp_is_governing
+			}
+			check_variable = {
+				var = GER_parliament_nlp_seats
+				value = GER_parliament_misc_seats
+				compare = equals
+			}
+		}
+		add_to_variable = { GER_parliament_misc_faction_rank = 1 }
+	}
+	if = {
+		limit = {
+			has_country_flag = GER_parliament_misc_is_governing
+			has_country_flag = GER_parliament_fkp_is_governing
+			check_variable = {
+				var = GER_parliament_fkp_seats
+				value = GER_parliament_misc_seats
+				compare = greater_than
+			}
+		}
+		add_to_variable = { GER_parliament_misc_faction_rank = 1 }
+	}
+	if = {
+		limit = {
+			NOT = {
+				has_country_flag = GER_parliament_misc_is_governing
+			}
+			NOT = {
+				has_country_flag = GER_parliament_fkp_is_governing
+			}
+			check_variable = {
+				var = GER_parliament_fkp_seats
+				value = GER_parliament_misc_seats
+				compare = greater_than
+			}
+		}
+		add_to_variable = { GER_parliament_misc_faction_rank = 1 }
+	}
+	if = {
+		limit = {
+			has_country_flag = GER_parliament_misc_is_governing
+			has_country_flag = GER_parliament_fkp_is_governing
+			check_variable = {
+				var = GER_parliament_fkp_seats
+				value = GER_parliament_misc_seats
+				compare = equals
+			}
+		}
+		add_to_variable = { GER_parliament_misc_faction_rank = 1 }
+	}
+	if = {
+		limit = {
+			NOT = {
+				has_country_flag = GER_parliament_misc_is_governing
+			}
+			NOT = {
+				has_country_flag = GER_parliament_fkp_is_governing
+			}
+			check_variable = {
+				var = GER_parliament_fkp_seats
+				value = GER_parliament_misc_seats
+				compare = equals
+			}
+		}
+		add_to_variable = { GER_parliament_misc_faction_rank = 1 }
+	}
+	if = {
+		limit = {
+			has_country_flag = GER_parliament_misc_is_governing
+			has_country_flag = GER_parliament_dkp_is_governing
+			check_variable = {
+				var = GER_parliament_dkp_seats
+				value = GER_parliament_misc_seats
+				compare = greater_than
+			}
+		}
+		add_to_variable = { GER_parliament_misc_faction_rank = 1 }
+	}
+	if = {
+		limit = {
+			NOT = {
+				has_country_flag = GER_parliament_misc_is_governing
+			}
+			NOT = {
+				has_country_flag = GER_parliament_dkp_is_governing
+			}
+			check_variable = {
+				var = GER_parliament_dkp_seats
+				value = GER_parliament_misc_seats
+				compare = greater_than
+			}
+		}
+		add_to_variable = { GER_parliament_misc_faction_rank = 1 }
+	}
+	if = {
+		limit = {
+			has_country_flag = GER_parliament_misc_is_governing
+			has_country_flag = GER_parliament_dkp_is_governing
+			check_variable = {
+				var = GER_parliament_dkp_seats
+				value = GER_parliament_misc_seats
+				compare = equals
+			}
+		}
+		add_to_variable = { GER_parliament_misc_faction_rank = 1 }
+	}
+	if = {
+		limit = {
+			NOT = {
+				has_country_flag = GER_parliament_misc_is_governing
+			}
+			NOT = {
+				has_country_flag = GER_parliament_dkp_is_governing
+			}
+			check_variable = {
+				var = GER_parliament_dkp_seats
+				value = GER_parliament_misc_seats
+				compare = equals
+			}
+		}
+		add_to_variable = { GER_parliament_misc_faction_rank = 1 }
+	}
+	if = {
+		limit = {
+			has_country_flag = GER_parliament_misc_is_governing
+			has_country_flag = GER_parliament_dvlp_is_governing
+			check_variable = {
+				var = GER_parliament_dvlp_seats
+				value = GER_parliament_misc_seats
+				compare = greater_than
+			}
+		}
+		add_to_variable = { GER_parliament_misc_faction_rank = 1 }
+	}
+	if = {
+		limit = {
+			NOT = {
+				has_country_flag = GER_parliament_misc_is_governing
+			}
+			NOT = {
+				has_country_flag = GER_parliament_dvlp_is_governing
+			}
+			check_variable = {
+				var = GER_parliament_dvlp_seats
+				value = GER_parliament_misc_seats
+				compare = greater_than
+			}
+		}
+		add_to_variable = { GER_parliament_misc_faction_rank = 1 }
+	}
+	if = {
+		limit = {
+			has_country_flag = GER_parliament_misc_is_governing
+			has_country_flag = GER_parliament_dvlp_is_governing
+			check_variable = {
+				var = GER_parliament_dvlp_seats
+				value = GER_parliament_misc_seats
+				compare = equals
+			}
+		}
+		add_to_variable = { GER_parliament_misc_faction_rank = 1 }
+	}
+	if = {
+		limit = {
+			NOT = {
+				has_country_flag = GER_parliament_misc_is_governing
+			}
+			NOT = {
+				has_country_flag = GER_parliament_dvlp_is_governing
+			}
+			check_variable = {
+				var = GER_parliament_dvlp_seats
+				value = GER_parliament_misc_seats
+				compare = equals
+			}
+		}
+		add_to_variable = { GER_parliament_misc_faction_rank = 1 }
 	}
 }
 
+# ── 与党議席を再計算 ─────────────────────────────────────────────────────────
 GER_parliament_recalc_government_seats = {
 	set_variable = { GER_parliament_government_seats = 0 }
 	set_variable = { GER_parliament_opposition_seats = 0 }
@@ -3175,18 +3933,18 @@ GER_parliament_recalc_government_seats = {
 		add_to_variable = { GER_parliament_opposition_support_bps = GER_parliament_kpd_support_bps }
 	}
 	if = {
-		limit = { has_country_flag = GER_parliament_sapd_is_governing }
-		add_to_variable = { GER_parliament_government_seats = GER_parliament_sapd_seats }
-		add_to_variable = { GER_parliament_government_support_bps = GER_parliament_sapd_support_bps }
+		limit = { has_country_flag = GER_parliament_uspd_is_governing }
+		add_to_variable = { GER_parliament_government_seats = GER_parliament_uspd_seats }
+		add_to_variable = { GER_parliament_government_support_bps = GER_parliament_uspd_support_bps }
 	}
 	if = {
 		limit = {
 			NOT = {
-				has_country_flag = GER_parliament_sapd_is_governing
+				has_country_flag = GER_parliament_uspd_is_governing
 			}
 		}
-		add_to_variable = { GER_parliament_opposition_seats = GER_parliament_sapd_seats }
-		add_to_variable = { GER_parliament_opposition_support_bps = GER_parliament_sapd_support_bps }
+		add_to_variable = { GER_parliament_opposition_seats = GER_parliament_uspd_seats }
+		add_to_variable = { GER_parliament_opposition_support_bps = GER_parliament_uspd_support_bps }
 	}
 	if = {
 		limit = { has_country_flag = GER_parliament_spd_is_governing }
@@ -3231,32 +3989,18 @@ GER_parliament_recalc_government_seats = {
 		add_to_variable = { GER_parliament_opposition_support_bps = GER_parliament_zentrum_support_bps }
 	}
 	if = {
-		limit = { has_country_flag = GER_parliament_dkp_is_governing }
-		add_to_variable = { GER_parliament_government_seats = GER_parliament_dkp_seats }
-		add_to_variable = { GER_parliament_government_support_bps = GER_parliament_dkp_support_bps }
+		limit = { has_country_flag = GER_parliament_nlp_is_governing }
+		add_to_variable = { GER_parliament_government_seats = GER_parliament_nlp_seats }
+		add_to_variable = { GER_parliament_government_support_bps = GER_parliament_nlp_support_bps }
 	}
 	if = {
 		limit = {
 			NOT = {
-				has_country_flag = GER_parliament_dkp_is_governing
+				has_country_flag = GER_parliament_nlp_is_governing
 			}
 		}
-		add_to_variable = { GER_parliament_opposition_seats = GER_parliament_dkp_seats }
-		add_to_variable = { GER_parliament_opposition_support_bps = GER_parliament_dkp_support_bps }
-	}
-	if = {
-		limit = { has_country_flag = GER_parliament_drp_is_governing }
-		add_to_variable = { GER_parliament_government_seats = GER_parliament_drp_seats }
-		add_to_variable = { GER_parliament_government_support_bps = GER_parliament_drp_support_bps }
-	}
-	if = {
-		limit = {
-			NOT = {
-				has_country_flag = GER_parliament_drp_is_governing
-			}
-		}
-		add_to_variable = { GER_parliament_opposition_seats = GER_parliament_drp_seats }
-		add_to_variable = { GER_parliament_opposition_support_bps = GER_parliament_drp_support_bps }
+		add_to_variable = { GER_parliament_opposition_seats = GER_parliament_nlp_seats }
+		add_to_variable = { GER_parliament_opposition_support_bps = GER_parliament_nlp_support_bps }
 	}
 	if = {
 		limit = { has_country_flag = GER_parliament_fkp_is_governing }
@@ -3273,24 +4017,52 @@ GER_parliament_recalc_government_seats = {
 		add_to_variable = { GER_parliament_opposition_support_bps = GER_parliament_fkp_support_bps }
 	}
 	if = {
-		limit = { has_country_flag = GER_parliament_dnvp_is_governing }
-		add_to_variable = { GER_parliament_government_seats = GER_parliament_dnvp_seats }
-		add_to_variable = { GER_parliament_government_support_bps = GER_parliament_dnvp_support_bps }
+		limit = { has_country_flag = GER_parliament_dkp_is_governing }
+		add_to_variable = { GER_parliament_government_seats = GER_parliament_dkp_seats }
+		add_to_variable = { GER_parliament_government_support_bps = GER_parliament_dkp_support_bps }
 	}
 	if = {
 		limit = {
 			NOT = {
-				has_country_flag = GER_parliament_dnvp_is_governing
+				has_country_flag = GER_parliament_dkp_is_governing
 			}
 		}
-		add_to_variable = { GER_parliament_opposition_seats = GER_parliament_dnvp_seats }
-		add_to_variable = { GER_parliament_opposition_support_bps = GER_parliament_dnvp_support_bps }
+		add_to_variable = { GER_parliament_opposition_seats = GER_parliament_dkp_seats }
+		add_to_variable = { GER_parliament_opposition_support_bps = GER_parliament_dkp_support_bps }
+	}
+	if = {
+		limit = { has_country_flag = GER_parliament_dvlp_is_governing }
+		add_to_variable = { GER_parliament_government_seats = GER_parliament_dvlp_seats }
+		add_to_variable = { GER_parliament_government_support_bps = GER_parliament_dvlp_support_bps }
+	}
+	if = {
+		limit = {
+			NOT = {
+				has_country_flag = GER_parliament_dvlp_is_governing
+			}
+		}
+		add_to_variable = { GER_parliament_opposition_seats = GER_parliament_dvlp_seats }
+		add_to_variable = { GER_parliament_opposition_support_bps = GER_parliament_dvlp_support_bps }
+	}
+	if = {
+		limit = { has_country_flag = GER_parliament_misc_is_governing }
+		add_to_variable = { GER_parliament_government_seats = GER_parliament_misc_seats }
+		add_to_variable = { GER_parliament_government_support_bps = GER_parliament_misc_support_bps }
+	}
+	if = {
+		limit = {
+			NOT = {
+				has_country_flag = GER_parliament_misc_is_governing
+			}
+		}
+		add_to_variable = { GER_parliament_opposition_seats = GER_parliament_misc_seats }
+		add_to_variable = { GER_parliament_opposition_support_bps = GER_parliament_misc_support_bps }
 	}
 	set_temp_variable = { ger_par_tmp = GER_parliament_government_support_bps }
-	divide_temp_variable = { ger_par_tmp = 10000 }
+	divide_temp_variable = { ger_par_tmp = 1000 }
 	set_variable = { GER_parliament_government_support_share = ger_par_tmp }
 	set_temp_variable = { ger_par_tmp = GER_parliament_opposition_support_bps }
-	divide_temp_variable = { ger_par_tmp = 10000 }
+	divide_temp_variable = { ger_par_tmp = 1000 }
 	set_variable = { GER_parliament_opposition_support_share = ger_par_tmp }
 }
 
@@ -3301,8 +4073,8 @@ GER_parliament_normalize_support = {
 		set_variable = { GER_parliament_kpd_support_bps = 0 }
 	}
 	if = {
-		limit = { check_variable = { GER_parliament_sapd_support_bps < 0 } }
-		set_variable = { GER_parliament_sapd_support_bps = 0 }
+		limit = { check_variable = { GER_parliament_uspd_support_bps < 0 } }
+		set_variable = { GER_parliament_uspd_support_bps = 0 }
 	}
 	if = {
 		limit = { check_variable = { GER_parliament_spd_support_bps < 0 } }
@@ -3317,151 +4089,170 @@ GER_parliament_normalize_support = {
 		set_variable = { GER_parliament_zentrum_support_bps = 0 }
 	}
 	if = {
-		limit = { check_variable = { GER_parliament_dkp_support_bps < 0 } }
-		set_variable = { GER_parliament_dkp_support_bps = 0 }
-	}
-	if = {
-		limit = { check_variable = { GER_parliament_drp_support_bps < 0 } }
-		set_variable = { GER_parliament_drp_support_bps = 0 }
+		limit = { check_variable = { GER_parliament_nlp_support_bps < 0 } }
+		set_variable = { GER_parliament_nlp_support_bps = 0 }
 	}
 	if = {
 		limit = { check_variable = { GER_parliament_fkp_support_bps < 0 } }
 		set_variable = { GER_parliament_fkp_support_bps = 0 }
 	}
 	if = {
-		limit = { check_variable = { GER_parliament_dnvp_support_bps < 0 } }
-		set_variable = { GER_parliament_dnvp_support_bps = 0 }
+		limit = { check_variable = { GER_parliament_dkp_support_bps < 0 } }
+		set_variable = { GER_parliament_dkp_support_bps = 0 }
+	}
+	if = {
+		limit = { check_variable = { GER_parliament_dvlp_support_bps < 0 } }
+		set_variable = { GER_parliament_dvlp_support_bps = 0 }
+	}
+	if = {
+		limit = { check_variable = { GER_parliament_misc_support_bps < 0 } }
+		set_variable = { GER_parliament_misc_support_bps = 0 }
 	}
 
 	set_variable = { GER_parliament_support_total_bps = 0 }
 	add_to_variable = { GER_parliament_support_total_bps = GER_parliament_kpd_support_bps }
-	add_to_variable = { GER_parliament_support_total_bps = GER_parliament_sapd_support_bps }
+	add_to_variable = { GER_parliament_support_total_bps = GER_parliament_uspd_support_bps }
 	add_to_variable = { GER_parliament_support_total_bps = GER_parliament_spd_support_bps }
 	add_to_variable = { GER_parliament_support_total_bps = GER_parliament_fvp_support_bps }
 	add_to_variable = { GER_parliament_support_total_bps = GER_parliament_zentrum_support_bps }
-	add_to_variable = { GER_parliament_support_total_bps = GER_parliament_dkp_support_bps }
-	add_to_variable = { GER_parliament_support_total_bps = GER_parliament_drp_support_bps }
+	add_to_variable = { GER_parliament_support_total_bps = GER_parliament_nlp_support_bps }
 	add_to_variable = { GER_parliament_support_total_bps = GER_parliament_fkp_support_bps }
-	add_to_variable = { GER_parliament_support_total_bps = GER_parliament_dnvp_support_bps }
+	add_to_variable = { GER_parliament_support_total_bps = GER_parliament_dkp_support_bps }
+	add_to_variable = { GER_parliament_support_total_bps = GER_parliament_dvlp_support_bps }
+	add_to_variable = { GER_parliament_support_total_bps = GER_parliament_misc_support_bps }
 
 	if = {
 		limit = {
 			NOT = { check_variable = { GER_parliament_support_total_bps > 0 } }
 		}
-		set_variable = { GER_parliament_kpd_support_bps     = 302  }
-		set_variable = { GER_parliament_sapd_support_bps    = 906  }
-		set_variable = { GER_parliament_spd_support_bps     = 1788 }
-		set_variable = { GER_parliament_fvp_support_bps     = 1310 }
-		set_variable = { GER_parliament_zentrum_support_bps = 1511 }
-		set_variable = { GER_parliament_dkp_support_bps     = 1637 }
-		set_variable = { GER_parliament_drp_support_bps     = 856  }
-		set_variable = { GER_parliament_fkp_support_bps     = 1209 }
-		set_variable = { GER_parliament_dnvp_support_bps    = 481  }
-		set_variable = { GER_parliament_support_total_bps = 10000 }
+		set_variable = { GER_parliament_kpd_support_bps = 18 }
+		set_variable = { GER_parliament_uspd_support_bps = 53 }
+		set_variable = { GER_parliament_spd_support_bps = 222 }
+		set_variable = { GER_parliament_fvp_support_bps = 86 }
+		set_variable = { GER_parliament_zentrum_support_bps = 196 }
+		set_variable = { GER_parliament_nlp_support_bps = 126 }
+		set_variable = { GER_parliament_fkp_support_bps = 43 }
+		set_variable = { GER_parliament_dkp_support_bps = 131 }
+		set_variable = { GER_parliament_dvlp_support_bps = 33 }
+		set_variable = { GER_parliament_misc_support_bps = 92 }
+		set_variable = { GER_parliament_support_total_bps = 1000 }
 	}
 
 	set_temp_variable = { ger_par_tmp = GER_parliament_kpd_support_bps }
-	multiply_temp_variable = { ger_par_tmp = 10000 }
+	multiply_temp_variable = { ger_par_tmp = 1000 }
 	divide_temp_variable = { ger_par_tmp = GER_parliament_support_total_bps }
 	set_variable = { GER_parliament_kpd_support_bps = ger_par_tmp }
-
-	set_temp_variable = { ger_par_tmp = GER_parliament_sapd_support_bps }
-	multiply_temp_variable = { ger_par_tmp = 10000 }
+	set_temp_variable = { ger_par_tmp = GER_parliament_uspd_support_bps }
+	multiply_temp_variable = { ger_par_tmp = 1000 }
 	divide_temp_variable = { ger_par_tmp = GER_parliament_support_total_bps }
-	set_variable = { GER_parliament_sapd_support_bps = ger_par_tmp }
-
+	set_variable = { GER_parliament_uspd_support_bps = ger_par_tmp }
 	set_temp_variable = { ger_par_tmp = GER_parliament_spd_support_bps }
-	multiply_temp_variable = { ger_par_tmp = 10000 }
+	multiply_temp_variable = { ger_par_tmp = 1000 }
 	divide_temp_variable = { ger_par_tmp = GER_parliament_support_total_bps }
 	set_variable = { GER_parliament_spd_support_bps = ger_par_tmp }
-
 	set_temp_variable = { ger_par_tmp = GER_parliament_fvp_support_bps }
-	multiply_temp_variable = { ger_par_tmp = 10000 }
+	multiply_temp_variable = { ger_par_tmp = 1000 }
 	divide_temp_variable = { ger_par_tmp = GER_parliament_support_total_bps }
 	set_variable = { GER_parliament_fvp_support_bps = ger_par_tmp }
-
 	set_temp_variable = { ger_par_tmp = GER_parliament_zentrum_support_bps }
-	multiply_temp_variable = { ger_par_tmp = 10000 }
+	multiply_temp_variable = { ger_par_tmp = 1000 }
 	divide_temp_variable = { ger_par_tmp = GER_parliament_support_total_bps }
 	set_variable = { GER_parliament_zentrum_support_bps = ger_par_tmp }
-
-	set_temp_variable = { ger_par_tmp = GER_parliament_dkp_support_bps }
-	multiply_temp_variable = { ger_par_tmp = 10000 }
+	set_temp_variable = { ger_par_tmp = GER_parliament_nlp_support_bps }
+	multiply_temp_variable = { ger_par_tmp = 1000 }
 	divide_temp_variable = { ger_par_tmp = GER_parliament_support_total_bps }
-	set_variable = { GER_parliament_dkp_support_bps = ger_par_tmp }
-
-	set_temp_variable = { ger_par_tmp = GER_parliament_drp_support_bps }
-	multiply_temp_variable = { ger_par_tmp = 10000 }
-	divide_temp_variable = { ger_par_tmp = GER_parliament_support_total_bps }
-	set_variable = { GER_parliament_drp_support_bps = ger_par_tmp }
-
+	set_variable = { GER_parliament_nlp_support_bps = ger_par_tmp }
 	set_temp_variable = { ger_par_tmp = GER_parliament_fkp_support_bps }
-	multiply_temp_variable = { ger_par_tmp = 10000 }
+	multiply_temp_variable = { ger_par_tmp = 1000 }
 	divide_temp_variable = { ger_par_tmp = GER_parliament_support_total_bps }
 	set_variable = { GER_parliament_fkp_support_bps = ger_par_tmp }
+	set_temp_variable = { ger_par_tmp = GER_parliament_dkp_support_bps }
+	multiply_temp_variable = { ger_par_tmp = 1000 }
+	divide_temp_variable = { ger_par_tmp = GER_parliament_support_total_bps }
+	set_variable = { GER_parliament_dkp_support_bps = ger_par_tmp }
+	set_temp_variable = { ger_par_tmp = GER_parliament_dvlp_support_bps }
+	multiply_temp_variable = { ger_par_tmp = 1000 }
+	divide_temp_variable = { ger_par_tmp = GER_parliament_support_total_bps }
+	set_variable = { GER_parliament_dvlp_support_bps = ger_par_tmp }
 
-	set_variable = { GER_parliament_dnvp_support_bps = 10000 }
+	round_variable = GER_parliament_kpd_support_bps
+	round_variable = GER_parliament_uspd_support_bps
+	round_variable = GER_parliament_spd_support_bps
+	round_variable = GER_parliament_fvp_support_bps
+	round_variable = GER_parliament_zentrum_support_bps
+	round_variable = GER_parliament_nlp_support_bps
+	round_variable = GER_parliament_fkp_support_bps
+	round_variable = GER_parliament_dkp_support_bps
+	round_variable = GER_parliament_dvlp_support_bps
+
+	set_variable = { GER_parliament_misc_support_bps = 1000 }
 	set_temp_variable = { ger_par_tmp = GER_parliament_kpd_support_bps }
 	multiply_temp_variable = { ger_par_tmp = -1 }
-	add_to_variable = { GER_parliament_dnvp_support_bps = ger_par_tmp }
-	set_temp_variable = { ger_par_tmp = GER_parliament_sapd_support_bps }
+	add_to_variable = { GER_parliament_misc_support_bps = ger_par_tmp }
+	set_temp_variable = { ger_par_tmp = GER_parliament_uspd_support_bps }
 	multiply_temp_variable = { ger_par_tmp = -1 }
-	add_to_variable = { GER_parliament_dnvp_support_bps = ger_par_tmp }
+	add_to_variable = { GER_parliament_misc_support_bps = ger_par_tmp }
 	set_temp_variable = { ger_par_tmp = GER_parliament_spd_support_bps }
 	multiply_temp_variable = { ger_par_tmp = -1 }
-	add_to_variable = { GER_parliament_dnvp_support_bps = ger_par_tmp }
+	add_to_variable = { GER_parliament_misc_support_bps = ger_par_tmp }
 	set_temp_variable = { ger_par_tmp = GER_parliament_fvp_support_bps }
 	multiply_temp_variable = { ger_par_tmp = -1 }
-	add_to_variable = { GER_parliament_dnvp_support_bps = ger_par_tmp }
+	add_to_variable = { GER_parliament_misc_support_bps = ger_par_tmp }
 	set_temp_variable = { ger_par_tmp = GER_parliament_zentrum_support_bps }
 	multiply_temp_variable = { ger_par_tmp = -1 }
-	add_to_variable = { GER_parliament_dnvp_support_bps = ger_par_tmp }
-	set_temp_variable = { ger_par_tmp = GER_parliament_dkp_support_bps }
+	add_to_variable = { GER_parliament_misc_support_bps = ger_par_tmp }
+	set_temp_variable = { ger_par_tmp = GER_parliament_nlp_support_bps }
 	multiply_temp_variable = { ger_par_tmp = -1 }
-	add_to_variable = { GER_parliament_dnvp_support_bps = ger_par_tmp }
-	set_temp_variable = { ger_par_tmp = GER_parliament_drp_support_bps }
-	multiply_temp_variable = { ger_par_tmp = -1 }
-	add_to_variable = { GER_parliament_dnvp_support_bps = ger_par_tmp }
+	add_to_variable = { GER_parliament_misc_support_bps = ger_par_tmp }
 	set_temp_variable = { ger_par_tmp = GER_parliament_fkp_support_bps }
 	multiply_temp_variable = { ger_par_tmp = -1 }
-	add_to_variable = { GER_parliament_dnvp_support_bps = ger_par_tmp }
+	add_to_variable = { GER_parliament_misc_support_bps = ger_par_tmp }
+	set_temp_variable = { ger_par_tmp = GER_parliament_dkp_support_bps }
+	multiply_temp_variable = { ger_par_tmp = -1 }
+	add_to_variable = { GER_parliament_misc_support_bps = ger_par_tmp }
+	set_temp_variable = { ger_par_tmp = GER_parliament_dvlp_support_bps }
+	multiply_temp_variable = { ger_par_tmp = -1 }
+	add_to_variable = { GER_parliament_misc_support_bps = ger_par_tmp }
 }
 
 GER_parliament_normalize_seats = {
 	if = { limit = { check_variable = { GER_parliament_kpd_seats < 0 } } set_variable = { GER_parliament_kpd_seats = 0 } }
-	if = { limit = { check_variable = { GER_parliament_sapd_seats < 0 } } set_variable = { GER_parliament_sapd_seats = 0 } }
+	if = { limit = { check_variable = { GER_parliament_uspd_seats < 0 } } set_variable = { GER_parliament_uspd_seats = 0 } }
 	if = { limit = { check_variable = { GER_parliament_spd_seats < 0 } } set_variable = { GER_parliament_spd_seats = 0 } }
 	if = { limit = { check_variable = { GER_parliament_fvp_seats < 0 } } set_variable = { GER_parliament_fvp_seats = 0 } }
 	if = { limit = { check_variable = { GER_parliament_zentrum_seats < 0 } } set_variable = { GER_parliament_zentrum_seats = 0 } }
-	if = { limit = { check_variable = { GER_parliament_dkp_seats < 0 } } set_variable = { GER_parliament_dkp_seats = 0 } }
-	if = { limit = { check_variable = { GER_parliament_drp_seats < 0 } } set_variable = { GER_parliament_drp_seats = 0 } }
+	if = { limit = { check_variable = { GER_parliament_nlp_seats < 0 } } set_variable = { GER_parliament_nlp_seats = 0 } }
 	if = { limit = { check_variable = { GER_parliament_fkp_seats < 0 } } set_variable = { GER_parliament_fkp_seats = 0 } }
-	if = { limit = { check_variable = { GER_parliament_dnvp_seats < 0 } } set_variable = { GER_parliament_dnvp_seats = 0 } }
+	if = { limit = { check_variable = { GER_parliament_dkp_seats < 0 } } set_variable = { GER_parliament_dkp_seats = 0 } }
+	if = { limit = { check_variable = { GER_parliament_dvlp_seats < 0 } } set_variable = { GER_parliament_dvlp_seats = 0 } }
+	if = { limit = { check_variable = { GER_parliament_misc_seats < 0 } } set_variable = { GER_parliament_misc_seats = 0 } }
 
 	set_variable = { GER_parliament_seat_total_current = 0 }
 	add_to_variable = { GER_parliament_seat_total_current = GER_parliament_kpd_seats }
-	add_to_variable = { GER_parliament_seat_total_current = GER_parliament_sapd_seats }
+	add_to_variable = { GER_parliament_seat_total_current = GER_parliament_uspd_seats }
 	add_to_variable = { GER_parliament_seat_total_current = GER_parliament_spd_seats }
 	add_to_variable = { GER_parliament_seat_total_current = GER_parliament_fvp_seats }
 	add_to_variable = { GER_parliament_seat_total_current = GER_parliament_zentrum_seats }
-	add_to_variable = { GER_parliament_seat_total_current = GER_parliament_dkp_seats }
-	add_to_variable = { GER_parliament_seat_total_current = GER_parliament_drp_seats }
+	add_to_variable = { GER_parliament_seat_total_current = GER_parliament_nlp_seats }
 	add_to_variable = { GER_parliament_seat_total_current = GER_parliament_fkp_seats }
-	add_to_variable = { GER_parliament_seat_total_current = GER_parliament_dnvp_seats }
+	add_to_variable = { GER_parliament_seat_total_current = GER_parliament_dkp_seats }
+	add_to_variable = { GER_parliament_seat_total_current = GER_parliament_dvlp_seats }
+	add_to_variable = { GER_parliament_seat_total_current = GER_parliament_misc_seats }
 
 	if = {
 		limit = {
 			NOT = { check_variable = { GER_parliament_seat_total_current > 0 } }
 		}
-		set_variable = { GER_parliament_kpd_seats     = 12 }
-		set_variable = { GER_parliament_sapd_seats    = 36 }
-		set_variable = { GER_parliament_spd_seats     = 71 }
-		set_variable = { GER_parliament_fvp_seats     = 52 }
-		set_variable = { GER_parliament_zentrum_seats = 60 }
-		set_variable = { GER_parliament_dkp_seats     = 65 }
-		set_variable = { GER_parliament_drp_seats     = 34 }
-		set_variable = { GER_parliament_fkp_seats     = 48 }
-		set_variable = { GER_parliament_dnvp_seats    = 19 }
+		set_variable = { GER_parliament_kpd_seats = 7 }
+		set_variable = { GER_parliament_uspd_seats = 21 }
+		set_variable = { GER_parliament_spd_seats = 88 }
+		set_variable = { GER_parliament_fvp_seats = 34 }
+		set_variable = { GER_parliament_zentrum_seats = 78 }
+		set_variable = { GER_parliament_nlp_seats = 50 }
+		set_variable = { GER_parliament_fkp_seats = 17 }
+		set_variable = { GER_parliament_dkp_seats = 52 }
+		set_variable = { GER_parliament_dvlp_seats = 13 }
+		set_variable = { GER_parliament_misc_seats = 37 }
 		set_variable = { GER_parliament_seat_total_current = 397 }
 	}
 
@@ -3479,10 +4270,10 @@ GER_parliament_normalize_seats = {
 		multiply_temp_variable = { ger_par_tmp = 397 }
 		divide_temp_variable = { ger_par_tmp = GER_parliament_seat_total_current }
 		set_variable = { GER_parliament_kpd_seats = ger_par_tmp }
-		set_temp_variable = { ger_par_tmp = GER_parliament_sapd_seats }
+		set_temp_variable = { ger_par_tmp = GER_parliament_uspd_seats }
 		multiply_temp_variable = { ger_par_tmp = 397 }
 		divide_temp_variable = { ger_par_tmp = GER_parliament_seat_total_current }
-		set_variable = { GER_parliament_sapd_seats = ger_par_tmp }
+		set_variable = { GER_parliament_uspd_seats = ger_par_tmp }
 		set_temp_variable = { ger_par_tmp = GER_parliament_spd_seats }
 		multiply_temp_variable = { ger_par_tmp = 397 }
 		divide_temp_variable = { ger_par_tmp = GER_parliament_seat_total_current }
@@ -3495,95 +4286,107 @@ GER_parliament_normalize_seats = {
 		multiply_temp_variable = { ger_par_tmp = 397 }
 		divide_temp_variable = { ger_par_tmp = GER_parliament_seat_total_current }
 		set_variable = { GER_parliament_zentrum_seats = ger_par_tmp }
-		set_temp_variable = { ger_par_tmp = GER_parliament_dkp_seats }
+		set_temp_variable = { ger_par_tmp = GER_parliament_nlp_seats }
 		multiply_temp_variable = { ger_par_tmp = 397 }
 		divide_temp_variable = { ger_par_tmp = GER_parliament_seat_total_current }
-		set_variable = { GER_parliament_dkp_seats = ger_par_tmp }
-		set_temp_variable = { ger_par_tmp = GER_parliament_drp_seats }
-		multiply_temp_variable = { ger_par_tmp = 397 }
-		divide_temp_variable = { ger_par_tmp = GER_parliament_seat_total_current }
-		set_variable = { GER_parliament_drp_seats = ger_par_tmp }
+		set_variable = { GER_parliament_nlp_seats = ger_par_tmp }
 		set_temp_variable = { ger_par_tmp = GER_parliament_fkp_seats }
 		multiply_temp_variable = { ger_par_tmp = 397 }
 		divide_temp_variable = { ger_par_tmp = GER_parliament_seat_total_current }
 		set_variable = { GER_parliament_fkp_seats = ger_par_tmp }
-		set_variable = { GER_parliament_dnvp_seats = 397 }
-		set_temp_variable = { ger_par_tmp = GER_parliament_kpd_seats }
-		multiply_temp_variable = { ger_par_tmp = -1 }
-		add_to_variable = { GER_parliament_dnvp_seats = ger_par_tmp }
-		set_temp_variable = { ger_par_tmp = GER_parliament_sapd_seats }
-		multiply_temp_variable = { ger_par_tmp = -1 }
-		add_to_variable = { GER_parliament_dnvp_seats = ger_par_tmp }
-		set_temp_variable = { ger_par_tmp = GER_parliament_spd_seats }
-		multiply_temp_variable = { ger_par_tmp = -1 }
-		add_to_variable = { GER_parliament_dnvp_seats = ger_par_tmp }
-		set_temp_variable = { ger_par_tmp = GER_parliament_fvp_seats }
-		multiply_temp_variable = { ger_par_tmp = -1 }
-		add_to_variable = { GER_parliament_dnvp_seats = ger_par_tmp }
-		set_temp_variable = { ger_par_tmp = GER_parliament_zentrum_seats }
-		multiply_temp_variable = { ger_par_tmp = -1 }
-		add_to_variable = { GER_parliament_dnvp_seats = ger_par_tmp }
 		set_temp_variable = { ger_par_tmp = GER_parliament_dkp_seats }
-		multiply_temp_variable = { ger_par_tmp = -1 }
-		add_to_variable = { GER_parliament_dnvp_seats = ger_par_tmp }
-		set_temp_variable = { ger_par_tmp = GER_parliament_drp_seats }
-		multiply_temp_variable = { ger_par_tmp = -1 }
-		add_to_variable = { GER_parliament_dnvp_seats = ger_par_tmp }
-		set_temp_variable = { ger_par_tmp = GER_parliament_fkp_seats }
-		multiply_temp_variable = { ger_par_tmp = -1 }
-		add_to_variable = { GER_parliament_dnvp_seats = ger_par_tmp }
+		multiply_temp_variable = { ger_par_tmp = 397 }
+		divide_temp_variable = { ger_par_tmp = GER_parliament_seat_total_current }
+		set_variable = { GER_parliament_dkp_seats = ger_par_tmp }
+		set_temp_variable = { ger_par_tmp = GER_parliament_dvlp_seats }
+		multiply_temp_variable = { ger_par_tmp = 397 }
+		divide_temp_variable = { ger_par_tmp = GER_parliament_seat_total_current }
+		set_variable = { GER_parliament_dvlp_seats = ger_par_tmp }
 	}
+	round_variable = GER_parliament_kpd_seats
+	round_variable = GER_parliament_uspd_seats
+	round_variable = GER_parliament_spd_seats
+	round_variable = GER_parliament_fvp_seats
+	round_variable = GER_parliament_zentrum_seats
+	round_variable = GER_parliament_nlp_seats
+	round_variable = GER_parliament_fkp_seats
+	round_variable = GER_parliament_dkp_seats
+	round_variable = GER_parliament_dvlp_seats
+	set_variable = { GER_parliament_misc_seats = 397 }
+	set_temp_variable = { ger_par_tmp = GER_parliament_kpd_seats }
+	multiply_temp_variable = { ger_par_tmp = -1 }
+	add_to_variable = { GER_parliament_misc_seats = ger_par_tmp }
+	set_temp_variable = { ger_par_tmp = GER_parliament_uspd_seats }
+	multiply_temp_variable = { ger_par_tmp = -1 }
+	add_to_variable = { GER_parliament_misc_seats = ger_par_tmp }
+	set_temp_variable = { ger_par_tmp = GER_parliament_spd_seats }
+	multiply_temp_variable = { ger_par_tmp = -1 }
+	add_to_variable = { GER_parliament_misc_seats = ger_par_tmp }
+	set_temp_variable = { ger_par_tmp = GER_parliament_fvp_seats }
+	multiply_temp_variable = { ger_par_tmp = -1 }
+	add_to_variable = { GER_parliament_misc_seats = ger_par_tmp }
+	set_temp_variable = { ger_par_tmp = GER_parliament_zentrum_seats }
+	multiply_temp_variable = { ger_par_tmp = -1 }
+	add_to_variable = { GER_parliament_misc_seats = ger_par_tmp }
+	set_temp_variable = { ger_par_tmp = GER_parliament_nlp_seats }
+	multiply_temp_variable = { ger_par_tmp = -1 }
+	add_to_variable = { GER_parliament_misc_seats = ger_par_tmp }
+	set_temp_variable = { ger_par_tmp = GER_parliament_fkp_seats }
+	multiply_temp_variable = { ger_par_tmp = -1 }
+	add_to_variable = { GER_parliament_misc_seats = ger_par_tmp }
+	set_temp_variable = { ger_par_tmp = GER_parliament_dkp_seats }
+	multiply_temp_variable = { ger_par_tmp = -1 }
+	add_to_variable = { GER_parliament_misc_seats = ger_par_tmp }
+	set_temp_variable = { ger_par_tmp = GER_parliament_dvlp_seats }
+	multiply_temp_variable = { ger_par_tmp = -1 }
+	add_to_variable = { GER_parliament_misc_seats = ger_par_tmp }
 }
 
 # ── 選挙処理: 支持率 → 議席数に変換 ─────────────────────────────────────────
-# 計算式: seats = floor(support_bps * 397 / 10000)
+# 計算式: seats = floor(support_bps * 397 / 1000)
 GER_parliament_hold_election = {
 	GER_parliament_normalize_support = yes
 
 	set_temp_variable = { ger_par_tmp = GER_parliament_kpd_support_bps }
-	divide_temp_variable = { ger_par_tmp = 10000 }
+	divide_temp_variable = { ger_par_tmp = 1000 }
 	multiply_temp_variable = { ger_par_tmp = 397 }
 	set_variable = { GER_parliament_kpd_seats = ger_par_tmp }
-
-	set_temp_variable = { ger_par_tmp = GER_parliament_sapd_support_bps }
-	divide_temp_variable = { ger_par_tmp = 10000 }
+	set_temp_variable = { ger_par_tmp = GER_parliament_uspd_support_bps }
+	divide_temp_variable = { ger_par_tmp = 1000 }
 	multiply_temp_variable = { ger_par_tmp = 397 }
-	set_variable = { GER_parliament_sapd_seats = ger_par_tmp }
-
+	set_variable = { GER_parliament_uspd_seats = ger_par_tmp }
 	set_temp_variable = { ger_par_tmp = GER_parliament_spd_support_bps }
-	divide_temp_variable = { ger_par_tmp = 10000 }
+	divide_temp_variable = { ger_par_tmp = 1000 }
 	multiply_temp_variable = { ger_par_tmp = 397 }
 	set_variable = { GER_parliament_spd_seats = ger_par_tmp }
-
 	set_temp_variable = { ger_par_tmp = GER_parliament_fvp_support_bps }
-	divide_temp_variable = { ger_par_tmp = 10000 }
+	divide_temp_variable = { ger_par_tmp = 1000 }
 	multiply_temp_variable = { ger_par_tmp = 397 }
 	set_variable = { GER_parliament_fvp_seats = ger_par_tmp }
-
 	set_temp_variable = { ger_par_tmp = GER_parliament_zentrum_support_bps }
-	divide_temp_variable = { ger_par_tmp = 10000 }
+	divide_temp_variable = { ger_par_tmp = 1000 }
 	multiply_temp_variable = { ger_par_tmp = 397 }
 	set_variable = { GER_parliament_zentrum_seats = ger_par_tmp }
-
-	set_temp_variable = { ger_par_tmp = GER_parliament_dkp_support_bps }
-	divide_temp_variable = { ger_par_tmp = 10000 }
+	set_temp_variable = { ger_par_tmp = GER_parliament_nlp_support_bps }
+	divide_temp_variable = { ger_par_tmp = 1000 }
 	multiply_temp_variable = { ger_par_tmp = 397 }
-	set_variable = { GER_parliament_dkp_seats = ger_par_tmp }
-
-	set_temp_variable = { ger_par_tmp = GER_parliament_drp_support_bps }
-	divide_temp_variable = { ger_par_tmp = 10000 }
-	multiply_temp_variable = { ger_par_tmp = 397 }
-	set_variable = { GER_parliament_drp_seats = ger_par_tmp }
-
+	set_variable = { GER_parliament_nlp_seats = ger_par_tmp }
 	set_temp_variable = { ger_par_tmp = GER_parliament_fkp_support_bps }
-	divide_temp_variable = { ger_par_tmp = 10000 }
+	divide_temp_variable = { ger_par_tmp = 1000 }
 	multiply_temp_variable = { ger_par_tmp = 397 }
 	set_variable = { GER_parliament_fkp_seats = ger_par_tmp }
-
-	set_temp_variable = { ger_par_tmp = GER_parliament_dnvp_support_bps }
-	divide_temp_variable = { ger_par_tmp = 10000 }
+	set_temp_variable = { ger_par_tmp = GER_parliament_dkp_support_bps }
+	divide_temp_variable = { ger_par_tmp = 1000 }
 	multiply_temp_variable = { ger_par_tmp = 397 }
-	set_variable = { GER_parliament_dnvp_seats = ger_par_tmp }
+	set_variable = { GER_parliament_dkp_seats = ger_par_tmp }
+	set_temp_variable = { ger_par_tmp = GER_parliament_dvlp_support_bps }
+	divide_temp_variable = { ger_par_tmp = 1000 }
+	multiply_temp_variable = { ger_par_tmp = 397 }
+	set_variable = { GER_parliament_dvlp_seats = ger_par_tmp }
+	set_temp_variable = { ger_par_tmp = GER_parliament_misc_support_bps }
+	divide_temp_variable = { ger_par_tmp = 1000 }
+	multiply_temp_variable = { ger_par_tmp = 397 }
+	set_variable = { GER_parliament_misc_seats = ger_par_tmp }
 
 	GER_parliament_recalc_government_seats = yes
 	GER_parliament_refresh_thresholds = yes

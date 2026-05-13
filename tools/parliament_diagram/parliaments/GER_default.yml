@@ -3,45 +3,49 @@ total_seats: 397
 
 parties:
   - id: kpd
-    seats: 12
+    seats: 7
     governing: false
-    color: [139, 30, 30]
-  - id: sapd
-    seats: 36
+    color: [139, 0, 0]
+  - id: uspd
+    seats: 21
     governing: false
-    color: [196, 72, 58]
+    color: [170, 5, 3]
   - id: spd
-    seats: 71
+    seats: 88
     governing: false
-    color: [220, 130, 120]
+    color: [225, 1, 19]
   - id: fvp
-    seats: 52
-    governing: false
-    color: [217, 195, 106]
-  - id: zentrum
-    seats: 60
-    governing: true
-    color: [120, 185, 100]
-  - id: dkp
-    seats: 65
-    governing: true
-    color: [75, 116, 168]
-  - id: drp
     seats: 34
-    governing: true
-    color: [55, 85, 140]
-  - id: fkp
-    seats: 48
-    governing: true
-    color: [95, 140, 190]
-  - id: dnvp
-    seats: 19
     governing: false
-    color: [47, 47, 53]
+    color: [255, 216, 6]
+  - id: zentrum
+    seats: 78
+    governing: false
+    color: [0, 77, 143]
+  - id: nlp
+    seats: 50
+    governing: true
+    color: [151, 192, 42]
+  - id: fkp
+    seats: 17
+    governing: true
+    color: [0, 192, 254]
+  - id: dkp
+    seats: 52
+    governing: true
+    color: [8, 129, 228]
+  - id: dvlp
+    seats: 13
+    governing: false
+    color: [0, 0, 0]
+  - id: misc
+    seats: 37
+    governing: false
+    color: [150, 150, 150]
 
 diagram:
-  width: 502
-  height: 365
+  width: 508
+  height: 429
   rows: 6
   cx: 170
   cy: 220
