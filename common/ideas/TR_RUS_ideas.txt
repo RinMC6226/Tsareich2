@@ -26,7 +26,34 @@ ideas = {
             }
         }
 
-		RUS_1935_military_badget = { #1935年度軍事予算
+		RUS_freezed_budget = { #凍結された予算
+            picture = generic_neglected_military #must be changed
+            allowed = {
+
+            }
+            available = {
+                
+            }
+            cancel = {
+
+            }
+            allowed_civil_war = {
+                tag = RUS
+            }
+            removal_cost = -1
+            modifier = {
+                political_power_cost = 0.25
+                training_time_army_factor = 0.25
+				land_doctrine_cost_factor = 0.5
+				production_speed_arms_factory_factor = -0.5
+				production_speed_industrial_complex_factor = -0.5
+                consumer_goods_factor = 0.35
+            }
+        }
+
+
+
+        RUS_1935_military_badget = { #1935年度軍事予算
             picture = generic_neglected_military #must be changed
             allowed = {
 
@@ -110,6 +137,27 @@ ideas = {
             modifier = {
                 civilian_factory_use = 4
 				political_power_cost = 0.20
+            }
+        }
+
+        RUS_muslim_researcher = { #ムスリム技術者の登用
+            picture = raj_marginalized_muslim_community_happy #must be changed
+            allowed = {
+
+            }
+            available = {
+				#POLができたら消去
+            }
+            cancel = {
+
+            }
+            allowed_civil_war = {
+                tag = RUS
+            }
+            removal_cost = -1
+            modifier = {
+                research_speed_factor = 0.05
+                experience_gain_army_factor = 0.025
             }
         }
 

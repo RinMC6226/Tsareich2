@@ -1,0 +1,32 @@
+add_namespace = rus_tsar_death
+
+country_event = {
+    id = rus_tsar_death
+    title = rus_tsar_death.1.t
+    desc = rus_tsar_death.1.d
+    picture = GFX_report_event_PLACEHOLDER 
+
+    is_triggered_only = no
+    
+    trigger = {
+        date > 1936.1.13
+        NOT = { date > 1936.1.15 }
+        tag = RUS
+        NOT = { has_country_flag = rus_tsar_death_1_fired } 
+    }
+    
+    mean_time_to_happen = {
+        days = 1 
+    }
+
+    option = {
+        name = rus_tsar_death.1.a
+        set_country_flag = rus_tsar_death_1_fired
+        complete_national_focus = RUS_avoided_assassinate
+    }
+	option = {
+        name = rus_tsar_death.1.b
+        set_country_flag = rus_tsar_death_1_fired
+        
+    }
+}

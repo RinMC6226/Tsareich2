@@ -2,3 +2,13 @@
   RUS_avoided_assassinate: "回避された暗殺"
   RUS_tooltip_avoided_assassinate: "§R帝国は前時代的秩序の維持へ突き進む!"
   RUS_tooltip_reational_tsar: "近代化のコストが§R上昇§Wする!"
+  RUS_tooltip_reational_tsar_route: "§R皇帝が反動的なため、以下のコストを得る。§W"
+
+  RUS_ci_muslim_elite: "ムスリム技術者の公認"
+  RUS_ci_muslim_elite_desc: "我が帝国には多くのイスラム教を信ずる技術者がおり、彼らはこれまで少数民族、ないしは野蛮人として公的な業務に就くことを禁止されていた。しかし、帝国の技術的前進には彼らを部分的に公認し、要職として活躍させることが必要である。"
+
+  RUS_ec_freeze_1935_budget: "1935年度予算の一時凍結"
+  RUS_ec_freeze_1935_budget_desc: "1935年度予算の制定から、国際情勢は大きく変化した。遠い西方の共産主義が増長しつつある中、あと3年間この予算を抱えていれば我が国の軍備は大きく遅れることとなろう。一時的に国家が機能不全になろうとも、長期的な利益をもたらす新予算に打開策を求めるべきだ。"
+
+  RUS_ec_planning_new_budget: "予算委員会の設立"
+  RUS_ec_planning_new_budget_desc:"経済機構の復興と、恐慌の余波を取り除くためには、国家主導の新予算創設をいち早く行わねばならない。国内の反動的な勢力はこれに強く反対するだろうが、皇帝の権力によって推し進めねばならない。"

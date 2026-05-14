@@ -36,4 +36,117 @@ focus_tree = {
 		}
 	}
 
+
+
+
+
+
+	# inside politics (common to tsar)
+	focus = {
+		id = RUS_ci_muslim_elite
+		icon = GFX_focus_RAJ_seek_allies_with_the_muslim_league
+	
+		x = 35
+		y = 1
+		cost = 5
+
+		available = {
+			
+		}
+
+		prerequisite = { focus = RUS_avoided_assassinate }
+
+		search_filters = { FOCUS_FILTER_MANPOWER }
+
+		completion_reward = {
+			add_stability = -0.1
+			add_ideas = RUS_muslim_researcher
+		}
+	}
+
+
+	#economy_army
+
+	focus = {
+		id = RUS_ec_freeze_1935_budget
+		icon = GFX_focus_generic_money_for_equipment
+	
+		x = 55
+		y = 0
+		cost = 5
+
+		available = {
+			
+		}
+
+
+		search_filters = { FOCUS_FILTER_ECONOMY }
+
+		completion_reward = {
+			swap_ideas = {
+				remove_idea = RUS_1935_military_badget
+				add_idea = RUS_freezed_budget
+			}
+		}
+	}
+
+	focus = {
+		id = RUS_ec_freeze_1935_budget
+		icon = GFX_focus_generic_money_for_equipment
+	
+		x = 55
+		y = 0
+		cost = 5
+
+		available = {
+			
+		}
+
+
+		search_filters = { FOCUS_FILTER_ECONOMY }
+
+		completion_reward = {
+			swap_ideas = {
+				remove_idea = RUS_1935_military_badget
+				add_idea = RUS_freezed_budget
+			}
+		}
+	}
+
+
+	#ec右（改革）
+	focus = {
+		id = RUS_ec_planning_new_budget
+		icon = GFX_focus_CHI_planned_economy
+	
+		x = 58
+		y = 1
+		cost = 10
+
+		available = {
+			
+		}
+		prerequisite = {
+			focus = RUS_ec_freeze_1935_budget
+		}
+
+		search_filters = { FOCUS_FILTER_ECONOMY }
+
+		completion_reward = {
+		
+		if = {
+            limit = {
+                has_country_leader = {
+                    character = RUS_nicholas_ii
+                    ruling_only = yes
+                }
+            }
+			custom_effect_tooltip = RUS_tooltip_reational_tsar_route
+			add_stability = -0.05
+			add_political_power = -30
+        	}
+		}
+	}
+
+
 }
