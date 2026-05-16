@@ -16,8 +16,8 @@ bookmarks = {
 			}
 		}
 
-		ITA = {
-			history = "ITA_GATHERING_STORM_DESC"
+		FRA = {
+			history = "FRA_GATHERING_STORM_DESC"
 			ideology = left
 			ideas = {
 			}
@@ -25,9 +25,9 @@ bookmarks = {
 			}
 		}
 
-		FRA = {
-			history = "FRA_GATHERING_STORM_DESC"
-			ideology = left
+		ITA = {
+			history = "ITA_GATHERING_STORM_DESC"
+			ideology = right
 			ideas = {
 			}
 			focuses = {

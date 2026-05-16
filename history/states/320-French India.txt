@@ -7,8 +7,8 @@ state = {
 
 	history = {
 
-		owner = GER
-		controller = GER
+		owner = DRV
+		controller = DRV
 		add_core_of = IND
 
 		victory_points = {

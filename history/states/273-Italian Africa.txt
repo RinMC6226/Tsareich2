@@ -10,6 +10,7 @@ state = {
 	history = {
 
 		owner = LBA
+		controller = LBA
 		add_core_of = LBA
 
 		buildings = {

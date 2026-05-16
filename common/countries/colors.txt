@@ -58,8 +58,8 @@ SPR = {
 	color_ui = HSV { 0.0 0.64 0.546 }
 }
 ITA = {
-	color = HSV { 0.0 0.64 0.364 }
-	color_ui = HSV { 0.0 0.52 0.476 }
+	color = rgb { 0 102 49 }
+	color_ui = rgb { 0 102 49 }
 }
 ROM = {
 	color = rgb { 150 137 50 }
@@ -70,20 +70,24 @@ YUG = {
 	color_ui = rgb { 66 67 115 }
 }
 DSW = {
-	color = rgb { 80 80 80 }
-	color_ui = rgb { 85 102 65 }
+	color = HSV { 0.1 0.15 0.28 }
+	color_ui = rgb { 97 108 81 }
 }
 DOA = {
-	color = rgb { 80 80 80 }
-	color_ui = rgb { 85 102 65 }
+	color = HSV { 0.1 0.15 0.28 }
+	color_ui = rgb { 97 108 81 }
 }
 DWA = {
-	color = rgb { 80 80 80 }
-	color_ui = rgb { 85 102 65 }
+	color = HSV { 0.1 0.15 0.28 }
+	color_ui = rgb { 97 108 81 }
 }
 FRN = {
-	color = rgb { 156 42 72 }
-	color_ui = rgb { 184 68 98 }
+	color = rgb { 140 11 43 }
+	color_ui = rgb { 140 11 43 }
+}
+AOC = {
+	color = HSV { 0.0 0.72 0.504 }
+	color_ui = HSV { 0.0 0.60 0.602 }
 }
 SEN = {
 	color = rgb { 71 95 53 }
@@ -118,8 +122,8 @@ CHA = {
 	color_ui = rgb { 109 81 74 }
 }
 TUN = {
-	color = rgb { 105 74 55 }
-	color_ui = rgb { 130 97 74 }
+	color = rgb { 0 102 49 }
+	color_ui = rgb { 0 102 49 }
 }
 ALG = {
 	color = rgb { 91 81 57 }
@@ -206,8 +210,8 @@ ARG = {
 	color_ui = rgb { 132 143 178 }
 }
 AST = {
-	color = rgb { 40 100 68 }
-	color_ui = rgb { 52 130 88 }
+	color = rgb { 34 85 58 }
+	color_ui = rgb { 44 111 75 }
 }
 BHU = {
 	color = rgb { 120 85 62 }
@@ -298,8 +302,8 @@ PAN = {
 	color_ui = rgb { 139 118 174 }
 }
 PER = {
-	color = rgb { 40 66 57 }
-	color_ui = rgb { 54 86 74 }
+	color = rgb { 50 79 68 }
+	color_ui = rgb { 64 103 88 }
 }
 PHI = {
 	color = rgb { 0 28 136 }
@@ -310,8 +314,8 @@ PRU = {
 	color_ui = rgb { 178 172 178 }
 }
 SAF = {
-	color = rgb { 153 89 30 }
-	color_ui = rgb { 153 89 30 }
+	color = rgb { 130 76 26 }
+	color_ui = rgb { 130 76 26 }
 }
 SAU = {
 	color = rgb { 96 126 88 }
@@ -421,11 +425,6 @@ XSM = {
 STC = {
 	color = rgb { 46 48 112 }
 	color_ui = rgb { 113 130 101 }
-}
-
-AOC = {
-	color = HSV { 0.0 0.66 0.56 }
-	color_ui = HSV { 0.0 0.54 0.644 }
 }
 
 BYG = {
@@ -1179,8 +1178,8 @@ ROA = {
 	color_ui = rgb { 85 102 65 }
 }
 DAS = {
-	color = rgb { 80 80 80 }
-	color_ui = rgb { 85 102 65 }
+	color = HSV { 0.1 0.15 0.28 }
+	color_ui = rgb { 97 108 81 }
 }
 RAA = {
 	color = rgb { 80 80 80 }

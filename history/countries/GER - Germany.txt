@@ -273,6 +273,7 @@ create_faction_from_template = faction_template_imperial_alliance
 add_to_faction = GER
 add_to_faction = RUS
 add_to_faction = BEL
+add_to_faction = ITA
 
 # ------------------------------------------------------------
 # 8. Character recruitment

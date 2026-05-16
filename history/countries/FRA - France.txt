@@ -408,7 +408,6 @@ set_popularities = {
 create_faction_from_template = faction_template_international
 add_to_faction = FRA
 add_to_faction = SPR
-add_to_faction = ITA
 
 
 

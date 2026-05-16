@@ -8,6 +8,30 @@ set_party_name = { ideology = center_right long_name = GEN_center_right_party_lo
 set_party_name = { ideology = right long_name = GEN_right_party_long name = GEN_right_party }
 set_party_name = { ideology = far_right long_name = GEN_far_right_party_long name = GEN_far_right_party }
 
+set_autonomy = {
+	target = LBA
+	autonomous_state = autonomy_puppet
+	freedom_level = 0
+}
+
+set_autonomy = {
+	target = ERI
+	autonomous_state = autonomy_puppet
+	freedom_level = 0
+}
+
+set_autonomy = {
+	target = SOM
+	autonomous_state = autonomy_puppet
+	freedom_level = 0
+}
+
+set_autonomy = {
+	target = TUN
+	autonomous_state = autonomy_puppet
+	freedom_level = 0
+}
+
 if = {
 	limit = {
 		NOT = {
@@ -611,7 +635,6 @@ add_mastery = {
 	}
 	
 	set_stability = 0.8
-	GER = { add_to_faction = ITA }
 }
 
 
@@ -628,16 +651,19 @@ recruit_character = ITA_palmiro_togliatti
 recruit_character = ITA_sandro_pertini
 
 set_politics = {
-	ruling_party = left
+	ruling_party = right
 	last_election = "1934.3.26"
 	election_frequency = 60
 	elections_allowed = no
 }
 set_popularities = {
+	far_left = 0
+	left = 0
+	center_left = 0
 	center = 0
+	center_right = 0
+	right = 100
 	far_right = 0
-	left = 100
-	right = 0
 }
 
 
@@ -1501,4 +1527,3 @@ if = {
 		}
 	}
 }
-

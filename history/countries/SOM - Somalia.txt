@@ -1,5 +1,7 @@
 capital = 559
 
+set_cosmetic_tag = SOM_italian_somaliland
+
 set_party_name = { ideology = far_left long_name = GEN_far_left_party_long name = GEN_far_left_party }
 set_party_name = { ideology = left long_name = GEN_left_party_long name = GEN_left_party }
 set_party_name = { ideology = center_left long_name = GEN_center_left_party_long name = GEN_center_left_party }
@@ -23,9 +25,12 @@ set_politics = {
 	elections_allowed = no
 }
 set_popularities = {
-	center = 25
-	far_right = 20
-	left = 5
-	right = 50
+	far_left = 0
+	left = 0
+	center_left = 0
+	center = 0
+	center_right = 0
+	right = 100
+	far_right = 0
 }
 

@@ -19,8 +19,8 @@ INS_HOL = {
 }
 
 BLP = {
-	color = rgb { 156 42 72 }
-	color_ui = rgb { 184 68 98 }
+	color = rgb { 140 11 43 }
+	color_ui = rgb { 140 11 43 }
 }
 
 HUN_EMPIRE = {
@@ -907,18 +907,33 @@ ITA_socialist_republic = { #200 56 10 #114 47 55
 }
 
 ITA_italian_empire = {
-	color = rgb { 7 70 49 }
-	color_ui = rgb { 7 21 35 }
+	color = rgb { 0 102 49 }
+	color_ui = rgb { 0 102 49 }
 }
 
 ITA_rsi = {
-	color = rgb { 7 56 14 }
-	color_ui = rgb { 7 56 14 }
+	color = rgb { 0 102 49 }
+	color_ui = rgb { 0 102 49 }
 }
 
 ITA_rds = {
-	color = rgb { 7 105 63 }
-	color_ui = rgb { 7 105 63 }
+	color = rgb { 0 102 49 }
+	color_ui = rgb { 0 102 49 }
+}
+
+ERI_italian_colony = {
+	color = rgb { 0 102 49 }
+	color_ui = rgb { 0 102 49 }
+}
+
+SOM_italian_somaliland = {
+	color = rgb { 0 102 49 }
+	color_ui = rgb { 0 102 49 }
+}
+
+LBA_italian_libya = {
+	color = rgb { 0 102 49 }
+	color_ui = rgb { 0 102 49 }
 }
 
 SWI_GER_puppet_fascism ={
@@ -1046,18 +1061,18 @@ FIN_finnish_democratic_republic = {
 }
 
 FIN_RUS = {
-	color = rgb { 64 92 74 }
-	color_ui = rgb { 113 130 101 }
+	color = rgb { 31 69 41 }
+	color_ui = rgb { 85 102 65 }
 }
 
 KOR_RUS = {
-	color = rgb { 64 92 74 }
-	color_ui = rgb { 113 130 101 }
+	color = rgb { 31 69 41 }
+	color_ui = rgb { 85 102 65 }
 }
 
 MAN_RUS = {
-	color = rgb { 64 92 74 }
-	color_ui = rgb { 113 130 101 }
+	color = rgb { 31 69 41 }
+	color_ui = rgb { 85 102 65 }
 }
 
 FOR_JAP = {
@@ -1066,13 +1081,18 @@ FOR_JAP = {
 }
 
 ALG_FRA = {
-	color = HSV { 0.0 0.66 0.56 }
-	color_ui = HSV { 0.0 0.54 0.644 }
+	color = HSV { 0.0 0.72 0.504 }
+	color_ui = HSV { 0.0 0.60 0.602 }
 }
 
 TUN_PRINCIPALITY = {
 	color = rgb { 113 97 52 }
 	color_ui = rgb { 137 119 71 }
+}
+
+TUN_italian_protectorate = {
+	color = rgb { 0 102 49 }
+	color_ui = rgb { 0 102 49 }
 }
 
 SWE_greater_nordic_reich_tag = {
@@ -1867,36 +1887,36 @@ CZE_GER_puppet = {
 }
 
 SYR_GER = {
-	color = rgb { 80 80 80 }
-	color_ui = rgb { 85 102 65 }
+	color = HSV { 0.1 0.15 0.28 }
+	color_ui = rgb { 97 108 81 }
 }
 
 IRQ_RUS = {
-	color = rgb { 64 92 74 }
-	color_ui = rgb { 113 130 101 }
+	color = rgb { 31 69 41 }
+	color_ui = rgb { 85 102 65 }
 }
 
 ARM_RUS = {
-	color = rgb { 64 92 74 }
-	color_ui = rgb { 113 130 101 }
+	color = rgb { 31 69 41 }
+	color_ui = rgb { 85 102 65 }
 }
 
 KUR_RUS = {
-	color = rgb { 64 92 74 }
-	color_ui = rgb { 113 130 101 }
+	color = rgb { 31 69 41 }
+	color_ui = rgb { 85 102 65 }
 }
 
 KUR_RUS_AUTONOMY = {
-	color = rgb { 64 92 74 }
-	color_ui = rgb { 113 130 101 }
+	color = rgb { 31 69 41 }
+	color_ui = rgb { 85 102 65 }
 }
 
 CYP_RUS = {
-	color = rgb { 64 92 74 }
-	color_ui = rgb { 113 130 101 }
+	color = rgb { 31 69 41 }
+	color_ui = rgb { 85 102 65 }
 }
 
 AST_AUSTRALASIA = {
-	color = rgb { 40 68 100 }
-	color_ui = rgb { 52 88 130 }
+	color = rgb { 34 58 85 }
+	color_ui = rgb { 44 75 111 }
 }

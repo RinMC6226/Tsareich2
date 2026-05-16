@@ -1,4 +1,4 @@
 graphical_culture = african_gfx
 graphical_culture_2d = african_2d
 
-color = rgb { 224 112 112 }
+color = HSV { 0.0 0.72 0.504 }
