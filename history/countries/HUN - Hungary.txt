@@ -1,4 +1,5 @@
 capital = 43 # Budapest (Northern Hungary)
+oob = "HUN_1936"
 
 set_party_name = { ideology = far_left long_name = GEN_far_left_party_long name = GEN_far_left_party }
 set_party_name = { ideology = left long_name = GEN_left_party_long name = GEN_left_party }
@@ -162,3 +163,5 @@ set_popularities = {
 	right = 100
 	far_right = 0
 }
+
+add_ideas = { tsr_hun_multiethnic_army }

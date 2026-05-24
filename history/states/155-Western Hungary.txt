@@ -20,8 +20,12 @@ state = {
 		} 
 
 		victory_points = {
-			686 1 # Sopron
-		} 
+			686 2 # Sopron
+		}
+
+		victory_points = {
+			11627 2 # Szombathely
+		}
 
 		buildings = {
 			infrastructure = 3 #was: 6

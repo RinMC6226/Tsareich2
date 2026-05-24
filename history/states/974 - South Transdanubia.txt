@@ -17,8 +17,12 @@ state = {
 		add_core_of = HUN
 
 		victory_points = {
-			11610 5 
-		} 
+			11610 5 # Pécs
+		}
+
+		victory_points = {
+			682 2 # Kaposvár
+		}
 
 		buildings = {
 			infrastructure = 2
