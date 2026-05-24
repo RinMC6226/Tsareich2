@@ -21,7 +21,7 @@ state = {
 		}
 
 		victory_points = {
-			6700 2 
+			6700 5 # Szeged
 		}
 		
 	}

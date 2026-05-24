@@ -1,0 +1,116 @@
+###################################################################
+# バルカン戦争 国民精神
+#
+# ライフサイクル:
+#   HUN初期: tsr_hun_multiethnic_army（ゲーム開始時から所持）
+#   戦中: tsr_german_proxy_support(HUN), tsr_russian_war_loan(YUG),
+#         tsr_transylvania_irredentism(ROM)
+#   戦後: tsr_balkan_war_exhaustion(HUN), tsr_yug_war_debt(YUG)
+#
+# 戦中→戦後の置換はpeace_settlement effectで処理。
+# 両陣営にspeed -20%を付与して戦線膠着を意図。
+###################################################################
+
+ideas = {
+	country = {
+
+		# HUN初期精神: 非コア州からの徴兵を可能にするが、軍の質が低下
+		tsr_hun_multiethnic_army = {
+			picture = generic_manpower_bonus
+			allowed = { always = no }
+			available = { }
+			cancel = { }
+			allowed_civil_war = { always = no }
+			removal_cost = -1
+			modifier = {
+				non_core_manpower = 0.15
+				army_org_factor = -0.05
+				army_morale_factor = -0.1
+				stability_factor = -0.05
+			}
+		}
+
+		# HUN戦中: GERからの装備+顧問。speed -20%で進軍を抑制。
+		tsr_german_proxy_support = {
+			picture = generic_volunteer_expedition_bonus
+			allowed = { always = no }
+			available = { has_war = yes }
+			cancel = { }
+			allowed_civil_war = { always = no }
+			removal_cost = -1
+			modifier = {
+				army_attack_factor = 0.1
+				army_defence_factor = 0.1
+				army_org_factor = 0.05
+				supply_consumption_factor = -0.1
+				army_speed_factor = -0.2
+			}
+		}
+
+		# YUG戦中: RUSからの借款。講和時にtsr_yug_war_debtに置換。
+		# HUN側より強めのバフ（YUGが攻撃側で押し込む想定）。
+		tsr_russian_war_loan = {
+			picture = generic_volunteer_expedition_bonus
+			allowed = { always = no }
+			available = { has_war = yes }
+			cancel = { }
+			allowed_civil_war = { always = no }
+			removal_cost = -1
+			modifier = {
+				army_attack_factor = 0.15
+				army_defence_factor = 0.15
+				army_org_factor = 0.1
+				supply_consumption_factor = -0.2
+				production_speed_arms_factory_factor = 0.2
+				army_speed_factor = -0.2
+			}
+		}
+
+		# ROM戦中: トランシルヴァニア奪還の士気。講和時に除去。
+		tsr_transylvania_irredentism = {
+			picture = generic_volunteer_expedition_bonus
+			allowed = { always = no }
+			available = { has_war_with = HUN }
+			cancel = { }
+			allowed_civil_war = { always = no }
+			removal_cost = -1
+			modifier = {
+				army_attack_factor = 0.05
+				army_morale_factor = 0.1
+				war_support_factor = 0.1
+			}
+		}
+
+		# HUN戦後: 壊滅的敗北の代償。NF等で段階的に除去する想定。
+		tsr_balkan_war_exhaustion = {
+			picture = generic_war_exhaustion
+			allowed = { always = no }
+			available = { }
+			cancel = { }
+			allowed_civil_war = { always = no }
+			removal_cost = -1
+			modifier = {
+				stability_factor = -0.1
+				war_support_factor = -0.15
+				political_power_factor = -0.1
+			}
+		}
+
+		# YUG戦後: RUSへの債務。勝利の代償としてロシアへの経済的従属を表現。
+		tsr_yug_war_debt = {
+			picture = generic_war_exhaustion
+			allowed = { always = no }
+			available = { }
+			cancel = { }
+			allowed_civil_war = { always = no }
+			removal_cost = -1
+			modifier = {
+				civilian_factory_use = 3
+				political_power_factor = -0.15
+				stability_factor = -0.05
+				consumer_goods_factor = 0.1
+			}
+		}
+
+	}
+}

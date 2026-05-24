@@ -3,7 +3,8 @@ state={
 	name="STATE_45"
 
 	history={
-		victory_points = { 619 3 }
+		victory_points = { 619 3 } # Novi Sad
+		victory_points = { 9608 2 } # Subotica
 		owner = HUN
 		buildings = {
 			infrastructure = 3

@@ -1,0 +1,146 @@
+#####################################################################
+# バルカン戦争 scripted effects
+#
+# 蜂起時の国家独立(release_banat/slovakia/ruthenia)と
+# 講和処理(peace_settlement)を分離。
+# event .11 のoptionから一括呼び出しされる。
+#
+# 設計方針:
+# - release_countryではなくtransfer_stateで手動移譲（確実性）
+# - SLOは部分蜂起(state 70のみ)。残り(71,664)は講和で回収
+# - BNTは宣戦せず陣営加盟のみ（非戦闘国として独立）
+# - SLO/RUTはdeclare_war_on + load_oobで武装蜂起
+#####################################################################
+
+# BNT独立: state 82(バナト), 764(西バナト)
+# 宣戦なし。陣営に加盟するが戦闘には直接参加しない。
+# 戦後にYUG/ROMで分割される(.18/.19)。
+tsr_balkan_war_release_banat = {
+	82 = { add_core_of = BNT }
+	764 = { add_core_of = BNT }
+
+	if = {
+		limit = { 82 = { is_owned_by = HUN } }
+		HUN = { transfer_state = 82 }
+	}
+	if = {
+		limit = { 764 = { is_owned_by = HUN } }
+		HUN = { transfer_state = 764 }
+	}
+
+	BNT = {
+		transfer_state = 82
+		transfer_state = 764
+		set_politics = {
+			ruling_party = center
+			elections_allowed = no
+		}
+		set_popularities = {
+			center = 45
+			left = 25
+			right = 20
+			far_right = 10
+		}
+		add_manpower = 10000
+		YUG = { add_to_faction = BNT }
+		country_event = { id = tsr_balkan_war.12 days = 1 }
+	}
+}
+
+# SLO独立: state 70のみ（部分蜂起）
+# 残りのstate 71, 664は講和時にpeace_settlementで移譲。
+# OOB: SLO_revolt (3個師団, 全てstate 70内の省に配置)
+tsr_balkan_war_release_slovakia = {
+	if = {
+		limit = { 70 = { is_owned_by = HUN } }
+		SLO = { transfer_state = 70 }
+	}
+
+	SLO = {
+		add_manpower = 10000
+		load_oob = SLO_revolt
+		declare_war_on = {
+			target = HUN
+			type = annex_everything
+		}
+		YUG = { add_to_faction = SLO }
+		country_event = { id = tsr_balkan_war.13 days = 1 }
+	}
+}
+
+# RUT独立: state 73(カルパト・ルテニア)
+# OOB: RUT_revolt (2個師団)
+tsr_balkan_war_release_ruthenia = {
+	if = {
+		limit = { 73 = { is_owned_by = HUN } }
+		RUT = { transfer_state = 73 }
+	}
+
+	RUT = {
+		add_manpower = 5000
+		load_oob = RUT_revolt
+		declare_war_on = {
+			target = HUN
+			type = annex_everything
+		}
+		YUG = { add_to_faction = RUT }
+		country_event = { id = tsr_balkan_war.14 days = 1 }
+	}
+}
+
+# 講和処理 — event .15 から呼び出し
+# white_peaceで全交戦国との戦争を終結させた後、state移譲を実行。
+# 戦中精神→戦後精神への置換もここで処理。
+# 戦後イベントの遅延予約: .20(ブルゲンラント,45日後), .18(バナト分割,30日後)
+tsr_balkan_war_peace_settlement = {
+	# ヴォイヴォディナ(45)とプレクムリェ(1049)をYUGへ
+	YUG = {
+		transfer_state = 45
+		transfer_state = 1049
+	}
+
+	# SLO残り州: 蜂起で70のみ取得済み。ここで71,664を追加移譲。
+	if = {
+		limit = { 71 = { is_owned_by = HUN } }
+		SLO = { transfer_state = 71 }
+	}
+	if = {
+		limit = { 664 = { is_owned_by = HUN } }
+		SLO = { transfer_state = 664 }
+	}
+
+	# セーケイ地方(1054)とクリシャナ(83)をROMへ（コア追加後に移譲）
+	1054 = { add_core_of = ROM }
+	83 = { add_core_of = ROM }
+	ROM = { transfer_state = 1054 }
+	ROM = { transfer_state = 83 }
+
+	# 全交戦国とwhite_peace（SLO/RUT/BNTも蜂起で交戦状態のため必要）
+	HUN = {
+		white_peace = YUG
+		white_peace = ROM
+		white_peace = SLO
+		white_peace = RUT
+		white_peace = BNT
+		# 戦中精神→戦後精神
+		remove_ideas = tsr_german_proxy_support
+		add_ideas = tsr_balkan_war_exhaustion
+		# 戦後45日: ドイツ借款返済不能→ブルゲンラント割譲
+		country_event = { id = tsr_balkan_war.20 days = 45 }
+	}
+
+	# YUG: 戦時借款バフ→戦時債務デバフに置換
+	YUG = {
+		remove_ideas = tsr_russian_war_loan
+		add_ideas = tsr_yug_war_debt
+		country_event = { id = tsr_balkan_war.16 days = 1 }
+	}
+
+	ROM = {
+		remove_ideas = tsr_transylvania_irredentism
+		country_event = { id = tsr_balkan_war.17 days = 1 }
+	}
+
+	# 戦後30日: バナト分割（YUG/ROMでBNT領を山分け）
+	YUG = { country_event = { id = tsr_balkan_war.18 days = 30 } }
+}

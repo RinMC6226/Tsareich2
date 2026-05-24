@@ -370,6 +370,7 @@ PSR = "countries/Philippine Second Republic.txt"
 HBC = "countries/Hebei-Chahar.txt"
 SDL = "countries/Sudetenland.txt"
 RUT = "countries/Ruthenia.txt"
+BNT = "countries/Banat.txt"
 GAL = "countries/Galicia and Lodomeria.txt"
 
 RUS = "countries/Russia.txt"
