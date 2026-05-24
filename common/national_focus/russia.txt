@@ -90,28 +90,28 @@ focus_tree = {
 		}
 	}
 
-	focus = {
-		id = RUS_ec_freeze_1935_budget
-		icon = GFX_focus_generic_money_for_equipment
+	# focus = {
+	# 	id = RUS_ec_freeze_1935_budget
+	# 	icon = GFX_focus_generic_money_for_equipment
 	
-		x = 55
-		y = 0
-		cost = 5
+	# 	x = 55
+	# 	y = 0
+	# 	cost = 5
 
-		available = {
+	# 	available = {
 			
-		}
+	# 	}
 
 
-		search_filters = { FOCUS_FILTER_ECONOMY }
+	# 	search_filters = { FOCUS_FILTER_ECONOMY }
 
-		completion_reward = {
-			swap_ideas = {
-				remove_idea = RUS_1935_military_badget
-				add_idea = RUS_freezed_budget
-			}
-		}
-	}
+	# 	completion_reward = {
+	# 		swap_ideas = {
+	# 			remove_idea = RUS_1935_military_badget
+	# 			add_idea = RUS_freezed_budget
+	# 		}
+	# 	}
+	# }
 
 
 	#ec右（改革）

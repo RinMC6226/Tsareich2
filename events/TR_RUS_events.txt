@@ -1,7 +1,7 @@
 add_namespace = rus_tsar_death
 
 country_event = {
-    id = rus_tsar_death
+    id = rus_tsar_death.1
     title = rus_tsar_death.1.t
     desc = rus_tsar_death.1.d
     picture = GFX_report_event_PLACEHOLDER 

@@ -513,6 +513,7 @@ european_fascist_major_scorer = { #Finds biggest Fascist in Europe
 			}
 			modifier = {
 				NOT = { THIS.capital_scope = { is_on_continent = europe } }
+				factor = 0
 			}
 		}
 	}
@@ -716,10 +717,12 @@ asian_fascist_major_scorer = { #Finds biggest Fascist in Asia
 				factor = 0 
 			}
 			modifier = {
-				OR = { 
-					NOT = { THIS.capital_scope = { is_on_continent = asia } } 
-					NOT = { THIS.capital_scope = { is_on_continent = australia } }
-					NOT = { THIS.capital_scope = { is_on_continent = middle_east } }
+				NOT = {
+					OR = {
+						THIS.capital_scope = { is_on_continent = asia }
+						THIS.capital_scope = { is_on_continent = australia }
+						THIS.capital_scope = { is_on_continent = middle_east }
+					}
 				}
 				factor = 0
 			}
@@ -767,10 +770,12 @@ asian_democratic_major_scorer = { # Finds biggest Democratic Nation in Asia
 				factor = 0 
 			}
 			modifier = {
-				OR = { 
-					NOT = { THIS.capital_scope = { is_on_continent = asia } } 
-					NOT = { THIS.capital_scope = { is_on_continent = australia } }
-					NOT = { THIS.capital_scope = { is_on_continent = middle_east } }
+				NOT = {
+					OR = {
+						THIS.capital_scope = { is_on_continent = asia }
+						THIS.capital_scope = { is_on_continent = australia }
+						THIS.capital_scope = { is_on_continent = middle_east }
+					}
 				}
 				factor = 0
 			}
@@ -822,10 +827,12 @@ asian_communist_major_scorer = { # Finds biggest Communist in Asia
 				factor = 0 
 			}
 			modifier = {
-				OR = { 
-					NOT = { THIS.capital_scope = { is_on_continent = asia } } 
-					NOT = { THIS.capital_scope = { is_on_continent = australia } }
-					NOT = { THIS.capital_scope = { is_on_continent = middle_east } }
+				NOT = {
+					OR = {
+						THIS.capital_scope = { is_on_continent = asia }
+						THIS.capital_scope = { is_on_continent = australia }
+						THIS.capital_scope = { is_on_continent = middle_east }
+					}
 				}
 				factor = 0
 			}
@@ -873,10 +880,12 @@ asian_non_aligned_major_scorer = { # Finds biggest Non-Aligned in Asia
 				factor = 0 
 			}
 			modifier = {
-				OR = { 
-					NOT = { THIS.capital_scope = { is_on_continent = asia } } 
-					NOT = { THIS.capital_scope = { is_on_continent = australia } }
-					NOT = { THIS.capital_scope = { is_on_continent = middle_east } }
+				NOT = {
+					OR = {
+						THIS.capital_scope = { is_on_continent = asia }
+						THIS.capital_scope = { is_on_continent = australia }
+						THIS.capital_scope = { is_on_continent = middle_east }
+					}
 				}
 				factor = 0
 			}
@@ -925,9 +934,11 @@ american_fascist_major_scorer = { #Finds biggest Fascist in the Americas
 				factor = 0 
 			}
 			modifier = {
-				OR = { 
-					NOT = { THIS.capital_scope = { is_on_continent = south_america } } 
-					NOT = { THIS.capital_scope = { is_on_continent = north_america } }
+				NOT = {
+					OR = {
+						THIS.capital_scope = { is_on_continent = south_america }
+						THIS.capital_scope = { is_on_continent = north_america }
+					}
 				}
 				factor = 0
 			}
@@ -1021,9 +1032,11 @@ american_communist_major_scorer = { # Finds biggest Communist in the Americas
 				factor = 0 
 			}
 			modifier = {
-				OR = { 
-					NOT = { THIS.capital_scope = { is_on_continent = south_america } } 
-					NOT = { THIS.capital_scope = { is_on_continent = north_america } }
+				NOT = {
+					OR = {
+						THIS.capital_scope = { is_on_continent = south_america }
+						THIS.capital_scope = { is_on_continent = north_america }
+					}
 				}
 				factor = 0
 			}
@@ -1067,9 +1080,11 @@ american_non_aligned_major_scorer = { # Finds biggest Non-Aligned in The America
 				factor = 0 
 			}
 			modifier = {
-				OR = { 
-					NOT = { THIS.capital_scope = { is_on_continent = south_america } } 
-					NOT = { THIS.capital_scope = { is_on_continent = north_america } }
+				NOT = {
+					OR = {
+						THIS.capital_scope = { is_on_continent = south_america }
+						THIS.capital_scope = { is_on_continent = north_america }
+					}
 				}
 				factor = 0
 			}

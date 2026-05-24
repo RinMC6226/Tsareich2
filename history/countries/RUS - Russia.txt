@@ -211,17 +211,6 @@ recruit_character = RUS_tsar_vladimir_kirillovich
 recruit_character = RUS_tsar_vsevolod_ivanovich
 recruit_character = RUS_metropolitan_meletius
 recruit_character = RUS_nicholas_ii
-add_country_leader_role = {
-	character = RUS_nicholas_ii
-	promote_leader = yes
-	country_leader = {
-		ideology = authoritarian_conservatism
-		expire = "1953.3.1.1"
-		traits = {
-			emperor_and_autocrat_of_all_the_russias
-		}
-	}
-}
 recruit_character = RUS_nestor_makhno
 recruit_character = RUS_julius_martov
 recruit_character = RUS_alexander_kerensky
