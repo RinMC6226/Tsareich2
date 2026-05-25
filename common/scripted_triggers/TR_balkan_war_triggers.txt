@@ -1,0 +1,65 @@
+#####################################################################
+# バルカン戦争 scripted triggers
+#
+# イベント・NF・ディシジョンから参照される共通条件。
+# ポーリング判定自体はevent内のimmediateで直接記述しているが、
+# 他システムからバルカン戦争の状態を参照する場合はこれらを使う。
+#####################################################################
+
+# 戦争が進行中か（フラグ + 実際の交戦状態を両方チェック）
+tsr_balkan_war_is_active = {
+	HUN = { has_country_flag = tsr_balkan_war_started }
+	HUN = { has_war_with = YUG }
+}
+
+# sp>0.3: 蜂起条件（.10ポーリングの閾値と同じ）
+tsr_hungary_is_losing = {
+	HUN = {
+		has_war_with = YUG
+		surrender_progress > 0.3
+	}
+}
+
+# sp>0.7 or Budapest陥落: 講和条件（.22ポーリングの閾値と同じ）
+# province 9660 = Budapest
+tsr_hungary_is_collapsing = {
+	HUN = {
+		has_war_with = YUG
+		OR = {
+			surrender_progress > 0.7
+			NOT = { controls_province = 9660 }
+		}
+	}
+}
+
+# バルカン戦争の全参加国（蜂起国含む）
+tsr_balkan_war_participants = {
+	OR = {
+		original_tag = HUN
+		original_tag = YUG
+		original_tag = ROM
+		original_tag = BNT
+		original_tag = SLO
+		original_tag = RUT
+	}
+}
+
+# 以下: state判定ヘルパー（NF等で特定地域を条件にする場合に使用）
+tsr_is_banat_state = {
+	OR = {
+		state = 82
+		state = 764
+	}
+}
+
+tsr_is_slovakia_state = {
+	OR = {
+		state = 70
+		state = 71
+		state = 664
+	}
+}
+
+tsr_is_ruthenia_state = {
+	state = 73
+}

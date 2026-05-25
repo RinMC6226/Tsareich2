@@ -18,11 +18,19 @@ state = {
 		}
 
 		victory_points = {
-			11659 3 
+			11659 5 # Debrecen
 		}
 
 		victory_points = {
-			11646 1 
+			11646 1 # Csongrád
+		}
+
+		victory_points = {
+			679 3 # Kecskemét
+		}
+
+		victory_points = {
+			9706 2 # Nyíregyháza
 		}
 		
 	}
