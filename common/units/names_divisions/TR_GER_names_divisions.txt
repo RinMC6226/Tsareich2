@@ -1,0 +1,125 @@
+TR_GER_INF_01 = {
+	name = "Infantry Division"
+
+	for_countries = {
+		GER
+	}
+
+	can_use = {
+		always = yes
+	}
+
+	division_types = {
+		"infantry"
+	}
+
+	fallback_name = "%d.Infanteriedivision"
+}
+
+TR_GER_INF_02 = {
+	name = "Bayern Infantry Division"
+
+	for_countries = {
+		GER
+	}
+
+	can_use = {
+		always = yes
+	}
+
+	division_types = {
+		"infantry"
+	}
+
+	fallback_name = "%d.Bayerische Inf.Div."
+}
+
+TR_GER_ARM_01 = {
+	name = "Armored Division"
+
+	for_countries = {
+		GER
+	}
+
+	can_use = {
+		always = yes
+	}
+
+	division_types = {
+		"light_armor" "medium_armor" "heavy_armor" "modern_armor"
+	}
+
+	fallback_name = "%d.Panzerdivision"
+}
+
+TR_GER_MOT_1 = {
+	name = "Motorized Infantry Division"
+
+	for_countries = {
+		GER
+	}
+
+	can_use = {
+		always = yes
+	}
+
+	division_types = {
+		"infantry"
+	}
+
+	fallback_name = "%d.Motorisierte Division"
+}
+
+TR_GER_MNT_1 = {
+	name = "Mountaineer Division"
+
+	for_countries = {
+		GER
+	}
+
+	can_use = {
+		always = yes
+	}
+
+	division_types = {
+		"infantry"
+	}
+
+	fallback_name = "%d.Gebirgsinfanteriedivision"
+}
+
+TR_GER_KAV_1 = {
+	name = "Cavalry Brigade"
+
+	for_countries = {
+		GER
+	}
+
+	can_use = {
+		always = yes
+	}
+
+	division_types = {
+		"cavalry"
+	}
+
+	fallback_name = "%d.Kavallerie Brigade"
+}
+
+TR_GER_DEF_1 = {
+	name = "Diffensive Division"
+
+	for_countries = {
+		GER
+	}
+
+	can_use = {
+		always = yes
+	}
+
+	division_types = {
+		"infantry"
+	}
+
+	fallback_name = "%d.Defensivabteilung"
+}

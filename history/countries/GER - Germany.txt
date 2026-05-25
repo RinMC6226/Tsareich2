@@ -9,6 +9,10 @@ set_autonomy = {
 	autonomous_state = autonomy_puppet
 	freedom_level = 0
 }
+
+set_oob = "GER_1936"
+
+
 # ============================================================
 # German Reich / Tsareich2 1936 setup
 # ============================================================
