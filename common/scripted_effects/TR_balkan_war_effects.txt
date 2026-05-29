@@ -115,6 +115,7 @@ tsr_balkan_war_peace_settlement = {
 		white_peace = SLO
 		white_peace = RUT
 		white_peace = BNT
+		white_peace = GRE
 		# 戦中精神→戦後精神
 		remove_ideas = tsr_german_proxy_support
 		add_ideas = tsr_balkan_war_exhaustion
@@ -143,4 +144,31 @@ tsr_balkan_war_peace_settlement = {
 
 	# 戦後30日: バナト分割（YUG/ROMでBNT領を山分け）
 	YUG = { country_event = { id = tsr_balkan_war.18 days = 30 } }
+
+	# === 南部戦線の講和（ブルガリア・ギリシャ）===
+	# 領土併合なし。ギリシャは既存領トラキアの住民移住で人口的に確定し、
+	# ブルガリアには非武装化・賠償・全クレーム剥奪を課す。
+	# クレーム剥奪: ブルガリアの修正主義を根絶（対GRE 184/731, 対YUG 106/803）
+	184 = { remove_claim_by = BUL }
+	731 = { remove_claim_by = BUL }
+	106 = { remove_claim_by = BUL }
+	803 = { remove_claim_by = BUL }
+
+	# BUL: 戦中精神除去→賠償＋南部非武装化。住民移住・賠償の講和通知。
+	BUL = {
+		remove_ideas = tsr_bul_defensive_pact
+		add_ideas = tsr_bul_war_reparations
+		add_ideas = tsr_bul_demilitarized_frontier
+		country_event = { id = tsr_balkan_war.55 days = 1 }
+	}
+
+	# GRE: 戦中精神除去→エーゲ海の覇権。トラキア確保の勝利通知。
+	GRE = {
+		remove_ideas = tsr_gre_thracian_ambition
+		add_ideas = tsr_gre_aegean_supremacy
+		country_event = { id = tsr_balkan_war.56 days = 1 }
+	}
+
+	# 住民交換ニュース
+	news_event = { id = tsr_balkan_war.106 days = 2 }
 }

@@ -127,5 +127,79 @@ ideas = {
 			}
 		}
 
+		# === 南部戦線（ブルガリア・ギリシャ）===
+
+		# BUL戦中: ハンガリーとの防衛協定。防衛戦のバフ。講和時に除去。
+		tsr_bul_defensive_pact = {
+			picture = generic_volunteer_expedition_bonus
+			allowed = { always = no }
+			available = { has_war = yes }
+			cancel = { }
+			allowed_civil_war = { always = no }
+			removal_cost = -1
+			modifier = {
+				army_defence_factor = 0.1
+				army_org_factor = 0.05
+			}
+		}
+
+		# GRE戦中: 秘密協定とトラキア進出の野心。攻勢バフ。講和時に除去。
+		tsr_gre_thracian_ambition = {
+			picture = generic_volunteer_expedition_bonus
+			allowed = { always = no }
+			available = { has_war = yes }
+			cancel = { }
+			allowed_civil_war = { always = no }
+			removal_cost = -1
+			modifier = {
+				army_attack_factor = 0.1
+				war_support_factor = 0.05
+			}
+		}
+
+		# BUL戦後: 賠償金と難民流入。経済・政治の負担。
+		tsr_bul_war_reparations = {
+			picture = generic_war_exhaustion
+			allowed = { always = no }
+			available = { }
+			cancel = { }
+			allowed_civil_war = { always = no }
+			removal_cost = -1
+			modifier = {
+				civilian_factory_use = 2
+				political_power_factor = -0.15
+				stability_factor = -0.05
+				consumer_goods_factor = 0.1
+			}
+		}
+
+		# BUL戦後: 南部国境の非武装化。要塞構築不可・防御低下を表現。
+		tsr_bul_demilitarized_frontier = {
+			picture = generic_war_exhaustion
+			allowed = { always = no }
+			available = { }
+			cancel = { }
+			allowed_civil_war = { always = no }
+			removal_cost = -1
+			modifier = {
+				army_defence_factor = -0.1
+				production_speed_bunker_factor = -0.5
+			}
+		}
+
+		# GRE戦後: エーゲ海の覇権。トラキア確保による安定と威信。
+		tsr_gre_aegean_supremacy = {
+			picture = generic_volunteer_expedition_bonus
+			allowed = { always = no }
+			available = { }
+			cancel = { }
+			allowed_civil_war = { always = no }
+			removal_cost = -1
+			modifier = {
+				stability_factor = 0.05
+				war_support_factor = 0.05
+			}
+		}
+
 	}
 }
