@@ -1,0 +1,56 @@
+#####################################################################
+# バルカン戦争 on_actions
+#
+# 離散的な条件で発火するイベントをポーリングではなく on_action で実装。
+# （surrender_progress閾値を見る .10/.22 は対応するon_actionが無いため
+#   従来通りhiddenポーリングのまま）
+#
+# - on_state_control_changed: バナト独立（state 82/764の支配喪失）
+# - on_capitulation:          ブルガリア降伏→ギリシャ単独講和
+#####################################################################
+
+on_actions = {
+	# バナト独立: HUNがstate 82(東バナト)または764(西バナト)の完全支配を失った瞬間に発火。
+	# SLO/RUTの蜂起(.11)から独立して先行発火しうる。tsr_banat_releasedフラグで一度きり。
+	# ROOT=新支配者, FROM=旧支配者, FROM.FROM=対象state（ここでは国家スコープのcontrols_stateで判定）
+	on_state_control_changed = {
+		effect = {
+			if = {
+				limit = {
+					HUN = {
+						has_war_with = YUG
+						NOT = { has_country_flag = tsr_banat_released }
+						OR = {
+							NOT = { controls_state = 82 }
+							NOT = { controls_state = 764 }
+						}
+					}
+				}
+				HUN = {
+					set_country_flag = tsr_banat_released
+					tsr_balkan_war_release_banat = yes
+				}
+			}
+		}
+	}
+
+	# ブルガリア降伏時: 全体講和(.15)に先んじてギリシャを単独講和させる。
+	# ROOT=降伏国。GREが対HUN交戦中かつ未講和なら .58 を予約。tsr_gre_separate_peaceで一度きり。
+	on_capitulation = {
+		effect = {
+			if = {
+				limit = {
+					tag = BUL
+					GRE = {
+						has_war_with = HUN
+						NOT = { has_country_flag = tsr_gre_separate_peace }
+					}
+				}
+				GRE = {
+					set_country_flag = tsr_gre_separate_peace
+					country_event = { id = tsr_balkan_war.58 days = 2 }
+				}
+			}
+		}
+	}
+}

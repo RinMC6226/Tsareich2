@@ -61,13 +61,15 @@
        +── 45日後 ─→ .8(ROM) 参戦 ──→ +1日 → .9(HUN) ROM参戦通知
        |                              +1日 → .101 ニュース「ルーマニア参戦」
        |
+  [on_state_control_changed] state 82 または 764 の完全支配を喪失
+       └─→ BNT独立 (82,764) → .12通知  ※蜂起(.11)から独立して先行発火
+
        +── 30日後 ─→ .10(HUN) 蜂起判定ポーリング開始
                         [hidden, 15日毎ループ, surrender_progress > 0.3]
                         |
                         | 条件達成 → +5日
                         v
                     .11(HUN) 少数民族蜂起
-                        ├→ BNT独立 (82,764) → .12通知
                         ├→ SLO独立 (70のみ) → .13通知
                         └→ RUT独立 (73) → .14通知
                         |
@@ -93,10 +95,17 @@
 
 ## 設計判断
 
-### ポーリング2段階制
+### ポーリングとon_actionsの使い分け
 
-蜂起（.10, sp>0.3）と講和（.22, sp>0.7 or Budapest）を独立した2つのhiddenイベントで実装。
-これにより蜂起と講和の間に最低10日+α の時間差が生まれ、プレイヤーが蜂起の影響を体感できる。
+- **surrender_progress閾値**で発火する判定（蜂起.10, 講和.22）は対応するon_actionが無いため、
+  hiddenイベントの自己再予約によるポーリングで実装。
+  蜂起（.10, sp>0.3）と講和（.22, sp>0.7 or Budapest）を独立した2つのhiddenイベントに分け、
+  蜂起と講和の間に最低10日+α の時間差を設ける。
+- **離散的なゲームイベント**で発火する判定（state支配変更, 国家降伏）はポーリングではなく
+  `on_actions`（`common/on_actions/tsr_balkan_war.txt`）で実装。
+  - `on_state_control_changed` … バナト独立（state 82/764の支配喪失）
+  - `on_capitulation` … ブルガリア降伏 → ギリシャ単独講和(.58)
+  ポーリングと違い条件成立の瞬間に発火し、無駄なタイマー再予約も発生しない。
 
 ### SLO部分蜂起
 
@@ -119,8 +128,17 @@
 - ROMには`tsr_rom_opportunistic_neutrality`（`ai_join_ally_desire_factor = -1000`）を.1で付与。
   開戦前に陣営加盟させつつAI参戦欲求を抑制し、YUG開戦時にROMが巻き込まれて即時参戦するのを防ぐ。
   .8の`add_to_war`で強制参戦すると、`cancel = { has_war_with = HUN }`により自動除去される。
-- 蜂起時にBNT/SLO/RUTもバルカン協商に加盟
-- `DIPLOMACY_LEAVE_FACTION_ENABLE_TRIGGER`を`always = no`で脱退不可
+- 蜂起時にSLO/RUTがバルカン協商に加盟。BNTは別系統(on_state_control_changed)で独立し非戦闘加盟
+- `DIPLOMACY_LEAVE_FACTION_ENABLE_TRIGGER`を`always = no`で脱退不可。ただし`.58`の`leave_faction = yes`（効果）はこのトリガーに拘束されず実行される
+
+### バナト独立の先行分離（蜂起からの切り離し）
+
+BNTはSLO/RUTの蜂起(.11)と同時独立ではなく、`on_state_control_changed`で
+**state 82 または 764 のどちらかをHUNが完全支配できなくなった瞬間**に先行独立する。
+領土喪失という即物的な条件に紐付けることで、HUN崩壊度(surrender_progress)に依存する蜂起とは
+独立した契機を持たせ、戦線がバナトに到達すれば早期に分離させる。
+独立済みは`tsr_banat_released`フラグで一度きりに保証。SLO/RUT同様、独立後はバルカン協商に
+非戦闘加盟する（宣戦はしない）。
 
 ### 戦後の二つの清算
 
@@ -130,6 +148,7 @@
 ### 整合性・安全弁
 
 - **release_banatの冗長コード削除**: `HUN = { transfer_state = 82/764 }`はHUN自身への移譲で無意味だったため除去。実移譲は`BNT = { transfer_state }`が担う。
+- **バナト独立のフォールバック**: `.60`が一度も発火せず（HUNが82/764を最後まで完全保持）講和に至った場合でも、`peace_settlement`冒頭で`tsr_banat_released`フラグ未設定なら独立させる。`.18`分割が成立する前提を保証。
 - **.18バナト分割の所有権ガード**: BNTが764/82を保持している場合のみ移譲（`is_owned_by = BNT`のif分岐）。蜂起未発生や既喪失時の防御。
 - **.20ブルゲンラント割譲のtriggerガード**: `trigger = { owns_state = 975 }`。HUNが975を保持している場合のみ発火。
 - 戦中フレーバー(.31〜.37)に`has_war_with`ガードを付与し、早期終戦時の文脈外発火を防止。
@@ -152,8 +171,8 @@
 | .8 | ROM | triggered | 参戦。add_to_warでYUG側合流 |
 | .9 | HUN | triggered | ROM参戦通知。stability-10% |
 | .10 | HUN | hidden | 蜂起判定ポーリング（15日毎, sp>0.3） |
-| .11 | HUN | triggered | 少数民族蜂起。3カ国同時独立 |
-| .12 | BNT | triggered | BNT独立通知 |
+| .11 | HUN | triggered | 少数民族蜂起。SLO/RUT 2カ国独立 |
+| .12 | BNT | triggered | BNT独立通知（on_state_control_changedまたは講和フォールバックから） |
 | .13 | SLO | triggered | SLO独立通知 |
 | .14 | RUT | triggered | RUT独立通知 |
 | .22 | HUN | hidden | 講和判定ポーリング（10日毎, sp>0.7 or Budapest） |
@@ -235,11 +254,14 @@
 | .52 | GRE | .2 +50d | 秘密協定発動・参戦（加盟＋add_to_war の実機構） |
 | .53 | BUL | .52 +1d | ギリシャに背後を突かれる |
 | .54 | YUG | .52 +1d | ギリシャ呼応 |
+| .58 | GRE | on_capitulation(BUL) +2d | ギリシャ単独講和（離脱＋対HUN white_peace） |
+| .59 | BUL | .58 +1d | ギリシャ戦線の停戦通知 |
 | .55 | BUL | 講和 +1d | 住民移住・非武装化・賠償（戦後） |
-| .56 | GRE | 講和 +1d | トラキア確保・勝利（戦後） |
+| .56 | GRE | 講和 +1d | トラキア確保・勝利（戦後・単独講和済みならスキップ） |
 | .104 | news | .2 +2d | ブルガリア参戦（major） |
 | .105 | news | .52 +2d | ギリシャ参戦（major） |
 | .106 | news | 講和 +2d | トラキア講和・住民交換（major） |
+| .107 | news | .58 +1d | ギリシャ単独講和（major） |
 
 ### 国民精神（5種追加）
 
@@ -256,9 +278,19 @@
 - `184/731/106/803 = { remove_claim_by = BUL }` … 全クレーム剥奪
 - `HUN = { white_peace = GRE }` … 念のため明示（BULはHUN同盟ゆえ不要）
 - BUL: 戦中精神除去 → `tsr_bul_war_reparations` + `tsr_bul_demilitarized_frontier` / .55通知
-- GRE: 戦中精神除去 → `tsr_gre_aegean_supremacy` / .56通知
+- GRE: 戦中精神除去 → `tsr_gre_aegean_supremacy` / .56通知。**ただし単独講和(.58)済みなら`tsr_gre_separate_peace`フラグでスキップ**（精神二重付与・.56二重通知を防止）
 - `.106`住民交換ニュース
 - 住民移住は演出（イベント本文＋難民精神）で表現。state manpower変更は行わない
+
+### ギリシャの先行離脱（ブルガリア降伏トリガー）
+
+全体講和(.15)を待たず、**ブルガリアが降伏した時点でギリシャを単独講和させる**。
+
+- `on_capitulation`（`common/on_actions/tsr_balkan_war.txt`）がBUL降伏を捕捉。ROOT=降伏国。
+- `tag = BUL` かつ GREが対HUN交戦中・未講和なら、`tsr_gre_separate_peace`フラグを立て`.58`を予約。
+- `.58`は`leave_faction = yes`でバルカン協商を抜け、`white_peace = HUN`でHUN陣営（背後のBUL含む）と単独講和。戦中精神→`tsr_gre_aegean_supremacy`へ即時移行。
+- フラグにより、後の全体`peace_settlement`のGREブロックは二重実行されない。
+- BUL未降伏のまま北部で全体講和に至った場合はon_capitulationが発火せず、従来通り`peace_settlement`内でGREが清算される。
 
 ---
 
@@ -296,8 +328,8 @@
 | 155 | 西ハンガリー | HUN | HUN | 残留 |
 | 45 | ヴォイヴォディナ | HUN | YUG | peace_settlement |
 | 1049 | プレクムリェ | HUN | YUG | peace_settlement |
-| 82 | バナト | HUN | BNT→ROM | 蜂起→バナト分割(.18) |
-| 764 | 西バナト | HUN | BNT→YUG | 蜂起→バナト分割(.18) |
+| 82 | バナト | HUN | BNT→ROM | .60独立→バナト分割(.18) |
+| 764 | 西バナト | HUN | BNT→YUG | .60独立→バナト分割(.18) |
 | 70 | スロヴァキア | HUN | SLO | 蜂起(.11) |
 | 71 | 東スロヴァキア | HUN | SLO | peace_settlement |
 | 664 | 南スロヴァキア | HUN | SLO | peace_settlement |
@@ -358,7 +390,7 @@ HUNはState 43（ブダペスト）と155（西ハンガリー）のみの残存
 | 政体 | 中道 (center, 45%) |
 | グラフィック | eastern_european_gfx |
 | 色 | rgb { 180 140 90 } |
-| 登場 | 蜂起イベント(.11)で独立 |
+| 登場 | バナト独立ポーリング(.60)で先行独立。未発火時は講和フォールバック |
 | 消滅 | バナト分割(.18/.19)で全領土喪失 |
 
 ---
@@ -369,6 +401,8 @@ HUNはState 43（ブダペスト）と155（西ハンガリー）のみの残存
 |----------|----------|------|
 | `tsr_balkan_war_started` | HUN | .1の重複発火防止 |
 | `tsr_balkan_subversion_fired` | HUN | .10蜂起ポーリングの一度きり実行保証 |
+| `tsr_banat_released` | HUN | バナト独立(on_state_control_changed)の一度きり実行保証（講和フォールバックと共用） |
+| `tsr_gre_separate_peace` | GRE | ギリシャ単独講和(on_capitulation→.58)の一度きり実行保証（peace_settlementのGREブロック抑止） |
 
 ---
 
@@ -387,6 +421,8 @@ common/
 │   └── Tsareich2_factions.txt            # faction_template_balkan_entente
 ├── ideas/
 │   └── TR_balkan_war_ideas.txt           # 国民精神7種（初期1+戦中3+戦後2+多民族軍1）
+├── on_actions/
+│   └── tsr_balkan_war.txt                # on_state_control_changed(バナト独立)+on_capitulation(ギリシャ単独講和)
 ├── scripted_effects/
 │   └── TR_balkan_war_effects.txt         # 国家解放3+講和処理1
 ├── scripted_triggers/

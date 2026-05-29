@@ -27,6 +27,7 @@ state = {
 			6573 1 # Kosice
 		}
 
+		add_core_of = HUN
 		add_core_of = SLO
 
 		# This should isntead be reclaimable through Hungarian focuses with ww
