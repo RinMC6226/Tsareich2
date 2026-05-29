@@ -1,2 +1,10 @@
-.claude
+.claude/*
+!.claude/skills/
+!.claude/skills/**
 .python
+.env
+.env.*
+!.env.example
+.DS_Store
+__pycache__/
+*.py[cod]

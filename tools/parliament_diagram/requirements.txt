@@ -1,2 +1,5 @@
+# Runtime dependencies for tools/parliament_diagram/generate_parliament.py.
+
 PyYAML>=6.0
 Pillow>=10.0
+ParliamentArch>=1.1.2

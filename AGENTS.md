@@ -60,6 +60,18 @@ See `docs/gitflow.md` for the detailed policy.
 - `map/`: map data
 - `music/`: music definitions and assets
 - `tools/`: local helper tools
+- `documents/`: HOI4 scripting references for coding agents and contributors
+
+## Coding Agent Reference Path
+
+Use `documents/README.md` as the entrypoint when you need HOI4 scripting context.
+
+- Start with `documents/00_coding_contexts/script_concept_documentation.md` for script syntax and concepts.
+- Use `documents/00_coding_contexts/effects_documentation.md` and `documents/00_coding_contexts/triggers_documentation.md` before writing effects or triggers.
+- Use `documents/02_scopes/hoi4_scopes.json` and `documents/02_scopes/01_Dual scopes.md` when checking valid scopes.
+- Use `documents/01_effects/effects.json` and `documents/04_triggers/triggers.json` for searchable effect and trigger data.
+- Use `documents/00_character/` before changing character, leader, advisor, or trait definitions.
+- Use `documents/95_scripted_localisation.md`, `documents/99_scripted_effects.md`, and `documents/99_scripted_triggers.md` for reusable HOI4 script patterns.
 
 ## HOI4 Script Style
 

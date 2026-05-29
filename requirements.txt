@@ -1,0 +1,14 @@
+# Runtime dependencies for repository Python tools.
+#
+# Standard-library only:
+# - tools/error_summary.py
+# - codex/skills/*/scripts/*.py
+# - .claude/skills/*/scripts/*.py
+#
+# Third-party dependencies:
+# - tools/apply_overlay_to_dds.py: Pillow
+# - tools/parliament_diagram/generate_parliament.py: PyYAML, Pillow, ParliamentArch
+
+PyYAML>=6.0
+Pillow>=10.0
+ParliamentArch>=1.1.2
