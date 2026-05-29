@@ -19,15 +19,8 @@ tsr_balkan_war_release_banat = {
 	82 = { add_core_of = BNT }
 	764 = { add_core_of = BNT }
 
-	if = {
-		limit = { 82 = { is_owned_by = HUN } }
-		HUN = { transfer_state = 82 }
-	}
-	if = {
-		limit = { 764 = { is_owned_by = HUN } }
-		HUN = { transfer_state = 764 }
-	}
-
+	# BNTスコープでtransfer_stateを呼べばBNTが所有権を取得する。
+	# （旧コードのHUN=transfer_stateはHUN自身への移譲で無意味だったため削除）
 	BNT = {
 		transfer_state = 82
 		transfer_state = 764
@@ -127,6 +120,9 @@ tsr_balkan_war_peace_settlement = {
 		add_ideas = tsr_balkan_war_exhaustion
 		# 戦後45日: ドイツ借款返済不能→ブルゲンラント割譲
 		country_event = { id = tsr_balkan_war.20 days = 45 }
+		# 戦後フレーバー: 難民の波(.38), 復讐の誓い(.39)
+		country_event = { id = tsr_balkan_war.38 days = 5 }
+		country_event = { id = tsr_balkan_war.39 days = 20 }
 	}
 
 	# YUG: 戦時借款バフ→戦時債務デバフに置換
@@ -134,11 +130,15 @@ tsr_balkan_war_peace_settlement = {
 		remove_ideas = tsr_russian_war_loan
 		add_ideas = tsr_yug_war_debt
 		country_event = { id = tsr_balkan_war.16 days = 1 }
+		# 戦後フレーバー: 勝利の重荷(.40)
+		country_event = { id = tsr_balkan_war.40 days = 10 }
 	}
 
 	ROM = {
 		remove_ideas = tsr_transylvania_irredentism
 		country_event = { id = tsr_balkan_war.17 days = 1 }
+		# 戦後フレーバー: 大ルーマニアの祝祭(.41)
+		country_event = { id = tsr_balkan_war.41 days = 5 }
 	}
 
 	# 戦後30日: バナト分割（YUG/ROMでBNT領を山分け）

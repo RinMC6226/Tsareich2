@@ -116,6 +116,9 @@
 ### 陣営管理
 
 - .1でバルカン協商を結成、ROMを事前加盟（add_to_warに必要）
+- ROMには`tsr_rom_opportunistic_neutrality`（`ai_join_ally_desire_factor = -1000`）を.1で付与。
+  開戦前に陣営加盟させつつAI参戦欲求を抑制し、YUG開戦時にROMが巻き込まれて即時参戦するのを防ぐ。
+  .8の`add_to_war`で強制参戦すると、`cancel = { has_war_with = HUN }`により自動除去される。
 - 蜂起時にBNT/SLO/RUTもバルカン協商に加盟
 - `DIPLOMACY_LEAVE_FACTION_ENABLE_TRIGGER`を`always = no`で脱退不可
 
@@ -124,9 +127,16 @@
 1. **バナト分割**（講和30日後）: BNTをYUG/ROMで分割。764→YUG, 82→ROM。BNT事実上消滅。
 2. **ブルゲンラント割譲**（講和45日後）: 戦時借款返済不能のHUNが代償としてstate 975をGERに割譲。
 
+### 整合性・安全弁
+
+- **release_banatの冗長コード削除**: `HUN = { transfer_state = 82/764 }`はHUN自身への移譲で無意味だったため除去。実移譲は`BNT = { transfer_state }`が担う。
+- **.18バナト分割の所有権ガード**: BNTが764/82を保持している場合のみ移譲（`is_owned_by = BNT`のif分岐）。蜂起未発生や既喪失時の防御。
+- **.20ブルゲンラント割譲のtriggerガード**: `trigger = { owns_state = 975 }`。HUNが975を保持している場合のみ発火。
+- 戦中フレーバー(.31〜.37)に`has_war_with`ガードを付与し、早期終戦時の文脈外発火を防止。
+
 ---
 
-## イベント一覧（全25イベント）
+## イベント一覧（メイン+戦後+ニュース21 + フレーバー13）
 
 ### メインチェーン
 
@@ -169,6 +179,29 @@
 | .102 | バルカン戦争終結 | major=yes, tag別option 3分岐 |
 | .103 | バナト分割 | major=yes, tag別option 2分岐 |
 
+### フレーバーイベント（スケルトン・追加分）
+
+メインチェーンの各ノードから発火予約される演出イベント。効果は最小限。
+本文(desc)は骨組みで、将来的な拡張・推敲を前提とする。当事5カ国＋開戦前＋戦後を網羅。
+
+| ID | 対象 | 発火元 | 概要 |
+|----|------|--------|------|
+| .30 | HUN | .1 +10d | マジャル民族主義の高揚（開戦前） |
+| .31 | YUG | .2 +2d | 南スラヴ統一の大義（開戦） |
+| .32 | HUN | .3 +20d | ブダペストの守り（戦中） |
+| .33 | YUG | .7 +10d | 解放者か征服者か（戦中） |
+| .34 | GER | .4 +15d | ベルリンの計算（直接介入か代理支援か） |
+| .35 | RUS | .5 +15d | 汎スラヴ主義の潮流 |
+| .36 | HUN | .6 +25d | 膠着する戦線（speed -20%の演出） |
+| .37 | HUN | .2 +40d | 燻る火種（蜂起伏線・蜂起未発生時のみ） |
+| .38 | HUN | 講和 +5d | 難民の波（戦後） |
+| .39 | HUN | 講和 +20d | 復讐の誓い（exhaustionと連動） |
+| .40 | YUG | .16 +10d | 勝利の重荷（war_debtと連動） |
+| .41 | ROM | .17 +5d | 大ルーマニアの祝祭 |
+| .42 | GER | .21 +5d | バルカンの新秩序（影響圏再編） |
+
+戦中イベント(.31〜.37)は`has_war_with`ガード付き。早期終戦時の不発火を防ぐ。
+
 ---
 
 ## 国民精神
@@ -186,6 +219,7 @@
 | `tsr_german_proxy_support` | HUN | atk +10%, def +10%, org +5%, supply -10%, **speed -20%** |
 | `tsr_russian_war_loan` | YUG | atk +15%, def +15%, org +10%, supply -20%, arms_factory +20%, **speed -20%** |
 | `tsr_transylvania_irredentism` | ROM | atk +5%, morale +10%, war_support +10% |
+| `tsr_rom_opportunistic_neutrality` | ROM | ai_join_ally_desire_factor -1000（.1付与→HUNと交戦時に自動cancel）。参戦制御用 |
 
 ### 戦後
 

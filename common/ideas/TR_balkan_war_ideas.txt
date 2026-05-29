@@ -81,6 +81,21 @@ ideas = {
 			}
 		}
 
+		# ROM参戦前: 日和見的中立。開戦前にバルカン協商へ加盟させつつ、
+		# AIの参戦欲求を抑制して.8(開戦45日後)まで参戦を遅らせる。
+		# .1で付与、ROMがHUNと交戦状態になった時点(=.8のadd_to_war)で自動cancel。
+		tsr_rom_opportunistic_neutrality = {
+			picture = generic_volunteer_expedition_bonus
+			allowed = { always = no }
+			available = { }
+			cancel = { has_war_with = HUN }
+			allowed_civil_war = { always = no }
+			removal_cost = -1
+			modifier = {
+				ai_join_ally_desire_factor = -1000
+			}
+		}
+
 		# HUN戦後: 壊滅的敗北の代償。NF等で段階的に除去する想定。
 		tsr_balkan_war_exhaustion = {
 			picture = generic_war_exhaustion
