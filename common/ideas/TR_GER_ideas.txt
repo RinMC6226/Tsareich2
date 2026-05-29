@@ -1,0 +1,87 @@
+ideas = {
+	country = {
+		GER_victor_of_the_great_war = {
+			picture = generic_victors_of_ww1
+			allowed = { original_tag = GER }
+			removal_cost = -1
+
+			modifier = {
+				stability_factor = 0.05 # 安定度
+				war_support_factor = 0.05 # 戦争協力度
+				political_power_factor = 0.05 # 政治力獲得
+				justify_war_goal_time = 0.25 # 戦争目標正当化時間
+				army_core_attack_factor = 0.10 # 中核州での陸軍攻撃
+				army_core_defence_factor = 0.10 # 中核州での陸軍防御
+			}
+		}
+
+		GER_october_constitution = {
+			picture = generic_constitutional_guarantees
+			allowed = { original_tag = GER }
+			removal_cost = -1
+
+			modifier = {
+				political_power_factor = 0.10 # 政治力獲得
+				stability_factor = 0.05 # 安定度
+				drift_defence_factor = 0.20 # イデオロギー動揺対策
+				subversive_activites_upkeep = -0.10 # 転覆活動コスト
+				political_advisor_cost_factor = -0.10 # 政治顧問コスト
+			}
+		}
+
+		GER_great_depression = {
+			picture = GER_recovering_economy
+			allowed = { original_tag = GER }
+			removal_cost = -1
+
+			modifier = {
+				stability_factor = -0.25 # 安定度
+				consumer_goods_factor = 0.30 # 消費財工場
+				production_speed_buildings_factor = -0.15 # 建設速度
+				industrial_capacity_factory = -0.10 # 工場出力
+				economy_cost_factor = 0.25 # 経済法コスト
+				trade_laws_cost_factor = 0.25 # 貿易法コスト
+			}
+		}
+
+		GER_austrian_question = {
+			picture = generic_flexible_foreign_policy
+			allowed = { original_tag = GER }
+			removal_cost = -1
+
+			modifier = {
+				stability_factor = -0.10 # 安定度
+				political_power_factor = -0.10 # 政治力獲得
+				political_advisor_cost_factor = 0.05 # 政治顧問コスト
+                civilian_factory_use = 3 # 民需工場使用
+			}
+		}
+
+		GER_bloated_army = {
+			picture = generic_reserve_divisions
+			allowed = { original_tag = GER }
+			removal_cost = -1
+
+			modifier = {
+				army_org_factor = 0.05 # 陸軍指揮統制率
+				army_morale_factor = -0.10 # 陸軍回復率
+				training_time_army_factor = 0.20 # 訓練時間
+				command_power_gain_mult = 0.05 # 指揮力獲得
+				supply_consumption_factor = 0.15 # 補給消費
+			}
+		}
+
+		GER_veterans_association = {
+			picture = generic_manpower_bonus
+			allowed = { original_tag = GER }
+			removal_cost = -1
+
+			modifier = {
+				war_support_factor = 0.10 # 戦争協力度
+				conscription_factor = 0.05 # 徴兵可能人口
+				drift_defence_factor = -0.10 # イデオロギー動揺対策
+				mobilization_laws_cost_factor = -0.25 # 動員法コスト
+			}
+		}
+	}
+}

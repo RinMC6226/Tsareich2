@@ -1,0 +1,309 @@
+focus_tree = {
+	id = german_focus
+
+	country = {
+		factor = 0
+
+		modifier = {
+			add = 10
+			tag = GER
+		}
+	}
+
+	initial_show_position = {
+		x = 10
+		y = 0
+	}
+
+	focus = {
+		id = die_nachwirkungen_der_weltwirtschaftskrise
+		icon = GFX_focus_generic_economic_recovery
+		x = 10
+		y = 0
+		cost = 5
+
+		search_filters = { FOCUS_FILTER_POLITICAL FOCUS_FILTER_INDUSTRY }
+
+		completion_reward = {
+			add_political_power = -25
+			add_stability = -0.02
+			hidden_effect = {
+				GER_depression_initialize_parliament_if_needed = yes
+			}
+		}
+	}
+
+	focus = {
+		id = den_haushaltsausgleich_wahren
+		icon = GFX_focus_generic_reduce_unneccessary_expenditure
+		prerequisite = { focus = die_nachwirkungen_der_weltwirtschaftskrise }
+		mutually_exclusive = { focus = reichsarbeitsbeschaffung }
+		x = 7
+		y = 1
+		cost = 5
+
+		search_filters = { FOCUS_FILTER_POLITICAL FOCUS_FILTER_INDUSTRY }
+
+		completion_reward = {
+			add_political_power = 50
+			add_stability = 0.03
+			hidden_effect = {
+				GER_depression_initialize_parliament_if_needed = yes
+				GER_depression_shift_support_fiscal_balance = yes
+			}
+		}
+	}
+
+	focus = {
+		id = reichsarbeitsbeschaffung
+		icon = GFX_focus_generic_full_employment
+		prerequisite = { focus = die_nachwirkungen_der_weltwirtschaftskrise }
+		mutually_exclusive = { focus = den_haushaltsausgleich_wahren }
+		x = 13
+		y = 1
+		cost = 5
+
+		search_filters = { FOCUS_FILTER_INDUSTRY }
+
+		completion_reward = {
+			add_political_power = -25
+			add_stability = 0.02
+			random_owned_controlled_state = {
+				limit = { is_core_of = ROOT }
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+			hidden_effect = {
+				GER_depression_initialize_parliament_if_needed = yes
+				GER_depression_shift_support_job_creation = yes
+			}
+		}
+	}
+
+	focus = {
+		id = ueberpruefung_des_kolonialetats
+		icon = GFX_focus_JAP_ministry_of_colonial_affairs
+		prerequisite = { focus = den_haushaltsausgleich_wahren }
+		x = 6
+		y = 2
+		cost = 5
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+
+		completion_reward = {
+			add_political_power = 35
+			add_stability = -0.01
+			hidden_effect = {
+				GER_depression_shift_support_colonial_budget = yes
+			}
+		}
+	}
+
+	focus = {
+		id = reichssparkommission
+		icon = GFX_focus_generic_commission
+		prerequisite = { focus = den_haushaltsausgleich_wahren }
+		x = 8
+		y = 2
+		cost = 5
+
+		search_filters = { FOCUS_FILTER_POLITICAL FOCUS_FILTER_INDUSTRY }
+
+		completion_reward = {
+			add_political_power = 40
+			add_stability = -0.01
+			hidden_effect = {
+				GER_depression_shift_support_savings_commission = yes
+			}
+		}
+	}
+
+	focus = {
+		id = osthilfe
+		icon = GFX_focus_generic_agricultural_subsidies
+		prerequisite = { focus = reichsarbeitsbeschaffung }
+		x = 12
+		y = 2
+		cost = 5
+
+		search_filters = { FOCUS_FILTER_INDUSTRY }
+
+		completion_reward = {
+			add_stability = 0.02
+			hidden_effect = {
+				GER_depression_shift_support_osthilfe = yes
+			}
+		}
+	}
+
+	focus = {
+		id = reform_der_arbeitslosenversicherung
+		icon = GFX_focus_generic_welfare
+		prerequisite = { focus = reichsarbeitsbeschaffung }
+		x = 14
+		y = 2
+		cost = 5
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+
+		completion_reward = {
+			add_stability = 0.03
+			add_political_power = -15
+			hidden_effect = {
+				GER_depression_shift_support_unemployment_reform = yes
+			}
+		}
+	}
+
+	focus = {
+		id = reichsordnungsgesetz
+		icon = GFX_focus_LIT_restore_order
+		prerequisite = { focus = ueberpruefung_des_kolonialetats focus = reichssparkommission }
+		x = 7
+		y = 3
+		cost = 5
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+
+		completion_reward = {
+			add_political_power = 25
+			add_stability = 0.05
+			hidden_effect = {
+				GER_depression_shift_support_order_law = yes
+			}
+		}
+	}
+
+	focus = {
+		id = der_geist_der_juliresolution
+		icon = GFX_focus_generic_support_the_left_right
+		prerequisite = { focus = reform_der_arbeitslosenversicherung focus = osthilfe }
+		x = 13
+		y = 3
+		cost = 5
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+
+		completion_reward = {
+			add_political_power = 25
+			add_stability = 0.05
+			hidden_effect = {
+				GER_depression_shift_support_july_resolution = yes
+			}
+		}
+	}
+
+	focus = {
+		id = reichswirtschaftsrat
+		icon = GFX_focus_generic_industrialists
+		prerequisite = { focus = ueberpruefung_des_kolonialetats focus = reichssparkommission focus = osthilfe }
+		x = 10
+		y = 3
+		cost = 5
+
+		search_filters = { FOCUS_FILTER_POLITICAL FOCUS_FILTER_INDUSTRY }
+
+		completion_reward = {
+			add_political_power = 35
+			add_stability = 0.01
+			hidden_effect = {
+				GER_depression_shift_support_economic_council = yes
+			}
+		}
+	}
+
+	focus = {
+		id = kanzleramtsbesprechungen
+		icon = GFX_focus_generic_conference
+		prerequisite = { focus = reichsordnungsgesetz focus = der_geist_der_juliresolution }
+		prerequisite = { focus = reichswirtschaftsrat }
+		x = 10
+		y = 4
+		cost = 5
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+
+		completion_reward = {
+			add_political_power = 25
+			country_event = { id = tsr_ger_depression.11 hours = 6 }
+		}
+	}
+
+	focus = {
+		id = schwarz_weiss_rot_abkommen
+		icon = GFX_focus_GER_monarchy_compromise
+		prerequisite = { focus = kanzleramtsbesprechungen }
+		prerequisite = { focus = reichsordnungsgesetz }
+		mutually_exclusive = { focus = reichstagsmehrheit focus = nationale_versoehnung }
+		x = 7
+		y = 5
+		cost = 5
+
+		available = {
+			always = no
+		}
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+
+		completion_reward = {
+			add_war_support = 0.03
+			hidden_effect = {
+				set_country_flag = GER_black_white_red_agreement_selected
+				GER_depression_shift_support_black_white_red = yes
+			}
+		}
+	}
+
+	focus = {
+		id = reichstagsmehrheit
+		icon = GFX_focus_ETH_re-convene_the_parliament
+		prerequisite = { focus = kanzleramtsbesprechungen }
+		mutually_exclusive = { focus = schwarz_weiss_rot_abkommen focus = nationale_versoehnung }
+		x = 10
+		y = 5
+		cost = 5
+
+		available = {
+			always = no
+		}
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+
+		completion_reward = {
+			add_political_power = 75
+			hidden_effect = {
+				set_country_flag = GER_reichstag_majority_selected
+				GER_depression_shift_support_reichstag_majority = yes
+			}
+		}
+	}
+
+	focus = {
+		id = nationale_versoehnung
+		icon = GFX_goal_generic_national_unity
+		prerequisite = { focus = kanzleramtsbesprechungen }
+		prerequisite = { focus = der_geist_der_juliresolution }
+		mutually_exclusive = { focus = schwarz_weiss_rot_abkommen focus = reichstagsmehrheit }
+		x = 13
+		y = 5
+		cost = 5
+
+		available = {
+			always = no
+		}
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+
+		completion_reward = {
+			add_stability = 0.03
+			hidden_effect = {
+				set_country_flag = GER_national_reconciliation_selected
+				GER_depression_shift_support_reconciliation = yes
+			}
+		}
+	}
+}
