@@ -1,0 +1,97 @@
+##########################################################
+# Tsareich2 - MAN Ship Names
+# 満州保護領海軍 艦名グループ定義
+##########################################################
+
+### 戦艦 ###
+MAN_BB_HISTORICAL = {
+  name = NAME_THEME_HISTORICAL_CAPITAL
+
+  for_countries = { MAN }
+
+  type = ship
+  ship_types = { ship_hull_heavy battleship }
+
+  prefix = ""
+  fallback_name = "Junkan %s"
+
+  unique = {
+    "Teihen" "Suntsu" "Dingxia" "Weiyuan"
+    "Zhenbei" "Dingyuan" "Zhenyuan"
+    "Beiyang" "Nanyang"
+  }
+}
+
+### 巡洋艦・海防戦艦 ###
+MAN_CA_HISTORICAL = {
+  name = NAME_THEME_HISTORICAL_CRUISER
+
+  for_countries = { MAN }
+
+  type = ship
+  ship_types = { ship_hull_cruiser heavy_cruiser light_cruiser }
+
+  prefix = ""
+  fallback_name = "Xunyang %s"
+
+  unique = {
+    "Kosei" "Kyuju" "Eian" "Junten"
+    "Liaoyang" "Mukden" "Harbin" "Dalian"
+    "Fengtianjian" "Songhuajian" "Heilongjian"
+  }
+}
+
+### 駆逐艦・小型艦艇 ###
+MAN_DD_HISTORICAL = {
+  name = NAME_THEME_HISTORICAL_DESTROYER
+
+  for_countries = { MAN }
+
+  type = ship
+  ship_types = { ship_hull_light destroyer }
+
+  prefix = ""
+  fallback_name = "Juchuan %s"
+
+  unique = {
+    "Liaohe" "Songhua" "Nen" "Tumen" "Yalu"
+    "Ryojun" "Liaodong" "Bohai" "Kairyu" "Kouan" "Chonmu"
+    "Xinganjian" "Liaohekan" "Wusulikan"
+  }
+}
+
+### 潜水艦 ###
+MAN_SS_HISTORICAL = {
+  name = NAME_THEME_HISTORICAL_SUBMARINE
+
+  for_countries = { MAN }
+
+  type = ship
+  ship_types = { ship_hull_submarine submarine }
+
+  prefix = ""
+  fallback_name = "Qianting %s"
+
+  unique = {
+    "Kaiho" "Kaijin" "Kaigyu" "Kaishin"
+    "Q-1" "Q-2" "Q-3"
+  }
+}
+
+### 補助艦艇 ###
+MAN_AUX_HISTORICAL = {
+  name = NAME_THEME_HISTORICAL_AUXILIARY
+
+  for_countries = { MAN }
+
+  type = ship
+  ship_types = { ship_hull_cruiser }
+
+  prefix = ""
+  fallback_name = "Bozhu %s"
+
+  unique = {
+    "Liaohe" "Songhua" "Boyarin" "Tigris"
+    "Mukden" "Xinjing" "Changchun" "Fengtian"
+  }
+}

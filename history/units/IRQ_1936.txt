@@ -1,0 +1,159 @@
+units = {
+  fleet = {
+    name = "Asatol Mesopotamiya"
+    naval_base = 1011
+    task_force = {
+      name = "Basra Jiandui"
+      location = 2089
+      ship = {
+        name = "Al-Araka"
+        definition = heavy_cruiser
+        start_experience_factor = 0.25
+        pride_of_the_fleet = yes
+        equipment = {
+          ship_hull_cruiser_coastal_defense_ship = {
+            amount = 1
+            owner = IRQ
+            version_name = "Al-Araka Class"
+          }
+        }
+      }
+      ship = {
+        name = "Al-Umma"
+        definition = light_cruiser
+        start_experience_factor = 0.2
+        equipment = {
+          ship_hull_cruiser_1 = {
+            amount = 1
+            owner = IRQ
+            version_name = "Al-Umma Class"
+          }
+        }
+      }
+      ship = {
+        name = "Sever"
+        definition = light_cruiser
+        start_experience_factor = 0.3
+        equipment = {
+          ship_hull_cruiser_1 = {
+            amount = 1
+            owner = IRQ
+            version_name = "Sever Class"
+          }
+        }
+      }
+      ship = {
+        name = "Kamchatka"
+        definition = heavy_cruiser
+        start_experience_factor = 0.2
+        equipment = {
+          repair_ship_1 = {
+            amount = 1
+            owner = IRQ
+            version_name = "Kamchatka Class"
+          }
+        }
+      }
+    }
+    task_force = {
+      name = "Shatt al-Arab Jiandui"
+      location = 2089
+      ship = {
+        name = "Shatt al-Arab"
+        definition = destroyer
+        start_experience_factor = 0.2
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = IRQ
+            version_name = "Shatt al-Arab Class"
+          }
+        }
+      }
+      ship = {
+        name = "Tigris"
+        definition = destroyer
+        start_experience_factor = 0.15
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = IRQ
+            version_name = "Tigris Class"
+          }
+        }
+      }
+      ship = {
+        name = "Mosul"
+        definition = destroyer
+        start_experience_factor = 0.15
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = IRQ
+            version_name = "Mosul Class"
+          }
+        }
+      }
+      ship = {
+        name = "Basra"
+        definition = destroyer
+        start_experience_factor = 0.15
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = IRQ
+            version_name = "Basra Class"
+          }
+        }
+      }
+      ship = {
+        name = "Riga"
+        definition = destroyer
+        start_experience_factor = 0.15
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = IRQ
+            version_name = "Riga Class"
+          }
+        }
+      }
+      ship = {
+        name = "Abo"
+        definition = destroyer
+        start_experience_factor = 0.15
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = IRQ
+            version_name = "Abo Class"
+          }
+        }
+      }
+      ship = {
+        name = "Stremitelny"
+        definition = destroyer
+        start_experience_factor = 0.3
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = IRQ
+            version_name = "Stremitelny Class"
+          }
+        }
+      }
+      ship = {
+        name = "Idra"
+        definition = destroyer
+        start_experience_factor = 0.25
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = IRQ
+            version_name = "Idra Class"
+          }
+        }
+      }
+    }
+  }
+}

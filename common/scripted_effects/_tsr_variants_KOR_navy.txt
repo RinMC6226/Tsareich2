@@ -1,0 +1,163 @@
+##########################################################
+# Tsareich2 - KOR Navy Variants
+# 大韓帝国海軍 全艦艇バリアント定義
+##########################################################
+
+# 呼び出し例: KOR = { tsr_create_KOR_navy_variants = yes }
+tsr_create_KOR_navy_variants = {
+
+  ### 前弩級戦艦 ###
+
+  # 揚武級戦艦 (旧インペラートル・ニコライ1世)
+  # 1891年竣工(1933-1935年改装) 9800t/11200t, 9000ihp, 13.5kt, 石炭・重油混焼
+  # 305mm単装砲×2門, 152mm連装速射砲×4門, 76mm高角砲×4門, 37mm×8, 12.7mm×6
+  create_equipment_variant = {
+    name = "Yangmu Class"
+    type = ship_hull_pre_dreadnought
+    name_group = KOR_BB_HISTORICAL
+    parent_version = 0
+    modules = {
+      fixed_ship_battery_slot              = ship_heavy_battery_1
+      fixed_ship_anti_air_slot             = ship_anti_air_2
+      fixed_ship_fire_control_system_slot  = ship_fire_control_system_1
+      fixed_ship_radar_slot                = empty
+      fixed_ship_engine_slot               = heavy_ship_engine_1
+      fixed_ship_secondaries_slot          = ship_secondaries_2
+      fixed_ship_armor_slot                = ship_armor_bb_1
+      front_1_custom_slot                  = ship_anti_air_1
+      mid_1_custom_slot                    = empty
+      rear_1_custom_slot                   = empty
+    }
+    obsolete = yes
+  }
+
+  ### 装甲巡洋艦・防護巡洋艦 ###
+
+  # 光濟級敷設巡洋艦 (旧バヤーン級)
+  # 1903年竣工(1932-1935年改装) 8200t/9500t, 17500shp, 19.5kt, 石炭・重油混焼
+  # 203mm単装砲×2門, 120mm単装速射砲×6門, 76mm高角砲×4門, 37mm×8, 機雷120個
+  create_equipment_variant = {
+    name = "Kojae Class"
+    type = ship_hull_cruiser_1
+    name_group = KOR_CA_HISTORICAL
+    parent_version = 0
+    modules = {
+      fixed_ship_battery_slot              = ship_medium_battery_1
+      fixed_ship_anti_air_slot             = dp_ship_secondaries_1
+      fixed_ship_fire_control_system_slot  = ship_fire_control_system_1
+      fixed_ship_radar_slot                = empty
+      fixed_ship_engine_slot               = cruiser_ship_engine_1
+      fixed_ship_secondaries_slot          = ship_secondaries_1
+      fixed_ship_armor_slot                = ship_armor_cruiser_2
+      mid_1_custom_slot                    = ship_mine_layer_1
+      mid_2_custom_slot                    = empty
+      rear_1_custom_slot                   = empty
+    }
+    obsolete = yes
+  }
+
+  # 大邱級防護巡洋艦 (旧ヂアーナ級)
+  # 1901年竣工(1932-1935年改装) 7000t/7900t, 13500shp, 18.5kt, 石炭・重油混焼
+  # 120mm単装速射砲×8門, 76mm高角砲×4門, 37mm×8, 機雷80個
+  create_equipment_variant = {
+    name = "Daegu Class"
+    type = ship_hull_cruiser_1
+    name_group = KOR_CA_HISTORICAL
+    parent_version = 0
+    modules = {
+      fixed_ship_battery_slot              = ship_light_medium_battery_1
+      fixed_ship_anti_air_slot             = ship_anti_air_2
+      fixed_ship_fire_control_system_slot  = ship_fire_control_system_1
+      fixed_ship_radar_slot                = empty
+      fixed_ship_engine_slot               = cruiser_ship_engine_1
+      fixed_ship_secondaries_slot          = empty
+      fixed_ship_armor_slot                = ship_armor_cruiser_1
+      mid_1_custom_slot                    = ship_mine_layer_1
+      mid_2_custom_slot                    = empty
+      rear_1_custom_slot                   = empty
+    }
+    obsolete = yes
+  }
+
+  ### 護衛・小型艦艇 ###
+
+  # 漢江級フリゲート (旧コリエーツ級)
+  # 1887年竣工(1930-1933年改装) 1350t/1600t, 2500ihp, 12.5kt, 石炭専焼
+  # 102mm単装砲×2, 76mm単装砲×2, 37mm×4, 爆雷12個
+  create_equipment_variant = {
+    name = "Hangan Class"
+    type = ship_hull_light_1
+    name_group = KOR_DD_HISTORICAL
+    parent_version = 0
+    modules = {
+      fixed_ship_battery_slot              = ship_light_battery_2
+      fixed_ship_anti_air_slot             = ship_anti_air_1
+      fixed_ship_fire_control_system_slot  = ship_fire_control_system_0
+      fixed_ship_radar_slot                = empty
+      fixed_ship_torpedo_slot              = empty
+      fixed_ship_engine_slot               = light_ship_engine_1
+      mid_1_custom_slot                    = ship_depth_charge_1
+      rear_1_custom_slot                   = empty
+    }
+    obsolete = yes
+  }
+
+  # 白頭級二等駆逐艦 (ソーコル級余剰艦)
+  # 1896年竣工(1930-1933年改装) 275t/345t, 3600ihp, 19.5kt, 石炭専焼
+  # 76mm単装×1, 47mm速射砲×2, 37mm×2, 爆雷8個
+  create_equipment_variant = {
+    name = "Paektu Class"
+    type = ship_hull_light_1
+    name_group = KOR_DD_HISTORICAL
+    parent_version = 0
+    modules = {
+      fixed_ship_battery_slot              = ship_light_battery_1
+      fixed_ship_anti_air_slot             = ship_anti_air_1
+      fixed_ship_fire_control_system_slot  = ship_fire_control_system_0
+      fixed_ship_radar_slot                = empty
+      fixed_ship_torpedo_slot              = empty
+      fixed_ship_engine_slot               = light_ship_engine_1
+      mid_1_custom_slot                    = ship_depth_charge_1
+      rear_1_custom_slot                   = empty
+    }
+    obsolete = yes
+  }
+
+  # マシス級二等駆逐艦 (黒海沿岸型)
+  # 1931-1934年竣工 1050t, 23000shp, 31.5kt, 重油専燃
+  # 102mm単装砲×3, 76mm高角砲×1, 45mm機銃×4, 450mm三連装魚雷×1, 爆雷2, 機雷50個
+  create_equipment_variant = {
+    name = "Mashisu Class"
+    type = ship_hull_light_1
+    name_group = KOR_DD_HISTORICAL
+    parent_version = 0
+    modules = {
+      fixed_ship_battery_slot              = ship_light_battery_2
+      fixed_ship_anti_air_slot             = ship_anti_air_2
+      fixed_ship_fire_control_system_slot  = ship_fire_control_system_1
+      fixed_ship_radar_slot                = empty
+      fixed_ship_torpedo_slot              = ship_torpedo_1
+      fixed_ship_engine_slot               = light_ship_engine_1
+      mid_1_custom_slot                    = ship_depth_charge_1
+      rear_1_custom_slot                   = ship_mine_layer_1
+    }
+  }
+
+  ### 潜水艦 ###
+
+  # 鮫級二等潜水艦 (旧フォレリ級)
+  # 1904年竣工(1930-1932年改装) 90t/115t, 220hp/100hp, 7kt/4kt
+  # 381mm魚雷発射管×1, 魚雷3本, 7.62mm機銃×1
+  create_equipment_variant = {
+    name = "Kame Class"
+    type = ship_hull_submarine_1
+    name_group = KOR_SS_HISTORICAL
+    parent_version = 0
+    modules = {
+      fixed_ship_torpedo_slot              = ship_torpedo_sub_1
+      fixed_ship_engine_slot               = sub_ship_engine_1
+      rear_1_custom_slot                   = empty
+    }
+    obsolete = yes
+  }
+}

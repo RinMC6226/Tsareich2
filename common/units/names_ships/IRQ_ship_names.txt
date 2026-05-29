@@ -1,0 +1,60 @@
+##########################################################
+# Tsareich2 - IRQ Ship Names (露領メソポタミア海軍)
+# 露領メソポタミア海軍 艦名グループ定義
+##########################################################
+
+### 海防戦艦・装甲艦 ###
+IRQ_CA_HISTORICAL = {
+  name = NAME_THEME_HISTORICAL_CAPITAL
+
+  for_countries = { IRQ }
+
+  type = ship
+  ship_types = { ship_hull_heavy ship_hull_cruiser battleship heavy_cruiser }
+
+  prefix = ""
+  fallback_name = "Al-Safina %s"
+
+  unique = {
+    "Al-Araka" "Al-Umma" "Al-Rashid" "Al-Mansur"
+    "Tigris" "Euphrates" "Mosul" "Basra" "Baghdad"
+    "Babylon" "Nimrud" "Ctesiphon"
+  }
+}
+
+### 駆逐艦・小型艦艇 ###
+IRQ_DD_HISTORICAL = {
+  name = NAME_THEME_HISTORICAL_DESTROYER
+
+  for_countries = { IRQ }
+
+  type = ship
+  ship_types = { ship_hull_light destroyer }
+
+  prefix = ""
+  fallback_name = "Mukammal %s"
+
+  unique = {
+    "Tigris" "Euphrates" "Shatt" "Karun" "Diyala"
+    "Stremitelny" "Idra" "Riga" "Abo" "Basra"
+    "Mosul" "Al-Zubayr" "Kirkuk" "Amarah"
+  }
+}
+
+### 補助艦艇 ###
+IRQ_AUX_HISTORICAL = {
+  name = NAME_THEME_HISTORICAL_AUXILIARY
+
+  for_countries = { IRQ }
+
+  type = ship
+  ship_types = { ship_hull_cruiser }
+
+  prefix = ""
+  fallback_name = "Musaid %s"
+
+  unique = {
+    "Kamchatka" "Sever" "Mesopotamiya"
+    "Al-Furat" "Al-Dijla" "Al-Basra"
+  }
+}

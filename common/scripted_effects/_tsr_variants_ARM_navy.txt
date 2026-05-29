@@ -1,0 +1,276 @@
+##########################################################
+# Tsareich2 - ARM Navy Variants
+# アルメニア海軍 全艦艇バリアント定義
+##########################################################
+
+# 呼び出し例: ARM = { tsr_create_ARM_navy_variants = yes }
+tsr_create_ARM_navy_variants = {
+
+  ### 前弩級戦艦 ###
+
+  # ロスチスラフ級戦艦
+  # 1898年竣工(1932-1935年改装) 10800t/12200t, 11000ihp, 15.5kt, 石炭・重油混焼
+  # 旧254mm主砲撤去, 152mm連装速射砲×4門, 120mm単装×8門, 76mm高角砲×6門, 37mm×12, 12.7mm×8
+  create_equipment_variant = {
+    name = "Rostislav Class"
+    type = ship_hull_pre_dreadnought
+    name_group = ARM_BBCA_HISTORICAL
+    parent_version = 0
+    modules = {
+      fixed_ship_battery_slot              = empty
+      fixed_ship_anti_air_slot             = ship_anti_air_2
+      fixed_ship_fire_control_system_slot  = ship_fire_control_system_1
+      fixed_ship_radar_slot                = empty
+      fixed_ship_engine_slot               = heavy_ship_engine_1
+      fixed_ship_secondaries_slot          = ship_secondaries_2
+      fixed_ship_armor_slot                = ship_armor_bb_1
+      front_1_custom_slot                  = ship_anti_air_1
+      mid_1_custom_slot                    = ship_secondaries_1
+      rear_1_custom_slot                   = empty
+    }
+    obsolete = yes
+  }
+
+  ### 装甲巡洋艦 ###
+
+  # バヤーン級装甲巡洋艦
+  # 1902年竣工(1931-1934年改装) 8000t/9200t, 18500shp, 20kt, 石炭・重油混焼
+  # 203mm単装砲×2門, 130mm単装速射砲×6門, 76mm高角砲×4門, 37mm×8
+  create_equipment_variant = {
+    name = "Bayan Class"
+    type = ship_hull_cruiser_1
+    name_group = ARM_BBCA_HISTORICAL
+    parent_version = 0
+    modules = {
+      fixed_ship_battery_slot              = ship_medium_battery_1
+      fixed_ship_anti_air_slot             = dp_ship_secondaries_1
+      fixed_ship_fire_control_system_slot  = ship_fire_control_system_1
+      fixed_ship_radar_slot                = empty
+      fixed_ship_engine_slot               = cruiser_ship_engine_1
+      fixed_ship_secondaries_slot          = ship_secondaries_1
+      fixed_ship_armor_slot                = ship_armor_cruiser_2
+      mid_1_custom_slot                    = ship_anti_air_1
+      mid_2_custom_slot                    = empty
+      rear_1_custom_slot                   = empty
+    }
+  }
+
+  # パーミャチ・アゾヴァ級装甲巡洋艦
+  # 1890年竣工(1930-1933年改装) 6900t/7900t, 9500ihp, 16kt, 石炭・重油混焼
+  # 旧203mm砲撤去, 152mm連装速射砲×4門, 76mm高角砲×4門, 37mm×6
+  create_equipment_variant = {
+    name = "Pamyat Azova Class"
+    type = ship_hull_cruiser_1
+    name_group = ARM_BBCA_HISTORICAL
+    parent_version = 0
+    modules = {
+      fixed_ship_battery_slot              = ship_light_medium_battery_2
+      fixed_ship_anti_air_slot             = ship_anti_air_2
+      fixed_ship_fire_control_system_slot  = ship_fire_control_system_0
+      fixed_ship_radar_slot                = empty
+      fixed_ship_engine_slot               = cruiser_ship_engine_1
+      fixed_ship_secondaries_slot          = empty
+      fixed_ship_armor_slot                = ship_armor_cruiser_1
+      mid_1_custom_slot                    = ship_anti_air_1
+      mid_2_custom_slot                    = empty
+      rear_1_custom_slot                   = empty
+    }
+    obsolete = yes
+  }
+
+  ### 防護巡洋艦 ###
+
+  # ヂアーナ級防護巡洋艦
+  # 1901年竣工(1931-1935年改装) 6900t/7800t, 14000shp, 19kt, 石炭・重油混焼
+  # 130mm単装速射砲×6門, 76mm高角砲×4門, 37mm×8, 爆雷投射機×2
+  create_equipment_variant = {
+    name = "Diana Class"
+    type = ship_hull_cruiser_1
+    name_group = ARM_CL_HISTORICAL
+    parent_version = 0
+    modules = {
+      fixed_ship_battery_slot              = ship_light_medium_battery_1
+      fixed_ship_anti_air_slot             = ship_anti_air_2
+      fixed_ship_fire_control_system_slot  = ship_fire_control_system_1
+      fixed_ship_radar_slot                = empty
+      fixed_ship_engine_slot               = cruiser_ship_engine_1
+      fixed_ship_secondaries_slot          = empty
+      fixed_ship_armor_slot                = ship_armor_cruiser_1
+      mid_1_custom_slot                    = ship_depth_charge_1
+      mid_2_custom_slot                    = empty
+      rear_1_custom_slot                   = empty
+    }
+    obsolete = yes
+  }
+
+  # アスコーリド
+  # 1902年竣工(1931-1934年改装) 6100t/7000t, 24000shp, 22kt, 重油専燃
+  # 130mm単装速射砲×8門, 76mm高角砲×4門, 37mm×12, 533mm魚雷発射管×2
+  create_equipment_variant = {
+    name = "Askold Class"
+    type = ship_hull_cruiser_1
+    name_group = ARM_CL_HISTORICAL
+    parent_version = 0
+    modules = {
+      fixed_ship_battery_slot              = ship_light_medium_battery_1
+      fixed_ship_anti_air_slot             = ship_anti_air_2
+      fixed_ship_fire_control_system_slot  = ship_fire_control_system_1
+      fixed_ship_radar_slot                = empty
+      fixed_ship_engine_slot               = cruiser_ship_engine_2
+      fixed_ship_secondaries_slot          = empty
+      fixed_ship_armor_slot                = ship_armor_cruiser_1
+      mid_1_custom_slot                    = ship_torpedo_1
+      mid_2_custom_slot                    = empty
+      rear_1_custom_slot                   = empty
+    }
+  }
+
+  # アル・マリ級水上機母艦 (旧アルマース)
+  # 1903年竣工(1931-1934年改装) 3400t/4200t, 9000shp, 17kt, 重油専燃
+  # 102mm単装砲×3門, 76mm高角砲×2門, 37mm×6, 水上機5機
+  create_equipment_variant = {
+    name = "Al-Mari Class"
+    type = ship_hull_cruiser_1
+    name_group = ARM_AUX_HISTORICAL
+    parent_version = 0
+    modules = {
+      fixed_ship_battery_slot              = ship_light_medium_battery_1
+      fixed_ship_anti_air_slot             = ship_anti_air_2
+      fixed_ship_fire_control_system_slot  = ship_fire_control_system_0
+      fixed_ship_radar_slot                = empty
+      fixed_ship_engine_slot               = cruiser_ship_engine_1
+      fixed_ship_secondaries_slot          = dp_ship_secondaries_1
+      fixed_ship_armor_slot                = ship_armor_cruiser_1
+      mid_1_custom_slot                    = empty
+      mid_2_custom_slot                    = empty
+      rear_1_custom_slot                   = empty
+    }
+  }
+
+  ### 護衛・小型艦艇 ###
+
+  # セヴァン級フリゲート (旧コリエーツ級)
+  # 1887年竣工(1931-1934年改装) 1380t/1650t, 2600ihp, 13kt, 石炭・重油混焼
+  # 102mm単装砲×2, 76mm高角砲×2, 37mm×4, 爆雷16個
+  create_equipment_variant = {
+    name = "Sevan Class"
+    type = ship_hull_light_1
+    name_group = ARM_DD_HISTORICAL
+    parent_version = 0
+    modules = {
+      fixed_ship_battery_slot              = ship_light_battery_2
+      fixed_ship_anti_air_slot             = ship_anti_air_1
+      fixed_ship_fire_control_system_slot  = ship_fire_control_system_0
+      fixed_ship_radar_slot                = empty
+      fixed_ship_torpedo_slot              = empty
+      fixed_ship_engine_slot               = light_ship_engine_1
+      mid_1_custom_slot                    = ship_depth_charge_1
+      rear_1_custom_slot                   = empty
+    }
+    obsolete = yes
+  }
+
+  # アララト級フリゲート (旧ドネツ級)
+  # 1889年竣工(1931-1934年改装) 1300t/1550t, 2400ihp, 12kt, 石炭・重油混焼
+  # 102mm単装砲×2, 76mm単装砲×2, 37mm×4, 爆雷12個
+  create_equipment_variant = {
+    name = "Ararat Class"
+    type = ship_hull_light_1
+    name_group = ARM_DD_HISTORICAL
+    parent_version = 0
+    modules = {
+      fixed_ship_battery_slot              = ship_light_battery_2
+      fixed_ship_anti_air_slot             = ship_anti_air_1
+      fixed_ship_fire_control_system_slot  = ship_fire_control_system_0
+      fixed_ship_radar_slot                = empty
+      fixed_ship_torpedo_slot              = empty
+      fixed_ship_engine_slot               = light_ship_engine_1
+      mid_1_custom_slot                    = ship_depth_charge_1
+      rear_1_custom_slot                   = empty
+    }
+    obsolete = yes
+  }
+
+  # アラクス級コルベット (旧レイテナント・イリイン級)
+  # 1887年竣工(1931-1934年改装) 630t/770t, 2900ihp, 15.5kt
+  # 76mm単装×2, 47mm速射砲×2, 37mm×2, 爆雷10個
+  create_equipment_variant = {
+    name = "Araks Class"
+    type = ship_hull_light_1
+    name_group = ARM_DD_HISTORICAL
+    parent_version = 0
+    modules = {
+      fixed_ship_battery_slot              = ship_light_battery_1
+      fixed_ship_anti_air_slot             = ship_anti_air_1
+      fixed_ship_fire_control_system_slot  = ship_fire_control_system_0
+      fixed_ship_radar_slot                = empty
+      fixed_ship_torpedo_slot              = empty
+      fixed_ship_engine_slot               = light_ship_engine_1
+      mid_1_custom_slot                    = ship_depth_charge_1
+      rear_1_custom_slot                   = empty
+    }
+    obsolete = yes
+  }
+
+  # アニ級コルベット (旧カザールスキー級)
+  # 1889年竣工(1931-1934年改装) 440t/550t, 2400ihp, 15kt
+  # 76mm単装×1, 47mm速射砲×2, 37mm×2, 爆雷10個
+  create_equipment_variant = {
+    name = "Ani Class"
+    type = ship_hull_light_1
+    name_group = ARM_DD_HISTORICAL
+    parent_version = 0
+    modules = {
+      fixed_ship_battery_slot              = ship_light_battery_1
+      fixed_ship_anti_air_slot             = ship_anti_air_1
+      fixed_ship_fire_control_system_slot  = ship_fire_control_system_0
+      fixed_ship_radar_slot                = empty
+      fixed_ship_torpedo_slot              = empty
+      fixed_ship_engine_slot               = light_ship_engine_1
+      mid_1_custom_slot                    = ship_depth_charge_1
+      rear_1_custom_slot                   = empty
+    }
+    obsolete = yes
+  }
+
+  # カルバラー級二等駆逐艦 (熱帯勤務対応型)
+  # 1931-1935年竣工 920t, 18500shp, 29kt, 重油専燃
+  # 102mm単装砲×2, 76mm高角砲×1, 45mm機銃×4, 450mm連装魚雷×1, 爆雷4, 機雷40個
+  create_equipment_variant = {
+    name = "Karbala Class"
+    type = ship_hull_light_1
+    name_group = ARM_DD_HISTORICAL
+    parent_version = 0
+    modules = {
+      fixed_ship_battery_slot              = ship_light_battery_2
+      fixed_ship_anti_air_slot             = ship_anti_air_2
+      fixed_ship_fire_control_system_slot  = ship_fire_control_system_1
+      fixed_ship_radar_slot                = empty
+      fixed_ship_torpedo_slot              = ship_torpedo_1
+      fixed_ship_engine_slot               = light_ship_engine_1
+      mid_1_custom_slot                    = ship_depth_charge_1
+      rear_1_custom_slot                   = ship_mine_layer_1
+    }
+  }
+
+  # 旅順港湾戦闘艇 (番号水雷艇 No.141-No.144)
+  # 1901年竣工(1931-1933年改装) 60t/75t, 650ihp, 16kt
+  # 37mm機銃×1, 7.62mm×2, 爆雷2個
+  create_equipment_variant = {
+    name = "Port Arthur Harbor Craft"
+    type = ship_hull_light_1
+    name_group = ARM_DD_HISTORICAL
+    parent_version = 0
+    modules = {
+      fixed_ship_battery_slot              = ship_light_battery_1
+      fixed_ship_anti_air_slot             = ship_anti_air_1
+      fixed_ship_fire_control_system_slot  = ship_fire_control_system_0
+      fixed_ship_radar_slot                = empty
+      fixed_ship_torpedo_slot              = empty
+      fixed_ship_engine_slot               = light_ship_engine_1
+      mid_1_custom_slot                    = ship_depth_charge_1
+      rear_1_custom_slot                   = empty
+    }
+    obsolete = yes
+  }
+}

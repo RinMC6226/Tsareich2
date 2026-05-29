@@ -1,0 +1,159 @@
+units = {
+  fleet = {
+    name = "Armyansky Morskoy Flot"
+    naval_base = 354
+    task_force = {
+      name = "Trabzon Eskadra"
+      location = 9932
+      ship = {
+        name = "Rostislav"
+        definition = battleship
+        start_experience_factor = 0.3
+        pride_of_the_fleet = yes
+        equipment = {
+          ship_hull_pre_dreadnought = {
+            amount = 1
+            owner = ARM
+            version_name = "Rostislav Class"
+          }
+        }
+      }
+      ship = {
+        name = "Bayan"
+        definition = heavy_cruiser
+        start_experience_factor = 0.3
+        equipment = {
+          ship_hull_cruiser_1 = {
+            amount = 1
+            owner = ARM
+            version_name = "Bayan Class"
+          }
+        }
+      }
+      ship = {
+        name = "Pamyat Azova"
+        definition = heavy_cruiser
+        start_experience_factor = 0.2
+        equipment = {
+          ship_hull_cruiser_1 = {
+            amount = 1
+            owner = ARM
+            version_name = "Pamyat Azova Class"
+          }
+        }
+      }
+      ship = {
+        name = "Diana"
+        definition = light_cruiser
+        start_experience_factor = 0.2
+        equipment = {
+          ship_hull_cruiser_1 = {
+            amount = 1
+            owner = ARM
+            version_name = "Diana Class"
+          }
+        }
+      }
+      ship = {
+        name = "Askold"
+        definition = light_cruiser
+        start_experience_factor = 0.25
+        equipment = {
+          ship_hull_cruiser_1 = {
+            amount = 1
+            owner = ARM
+            version_name = "Askold Class"
+          }
+        }
+      }
+      ship = {
+        name = "Al-Mari"
+        definition = light_cruiser
+        start_experience_factor = 0.2
+        equipment = {
+          ship_hull_cruiser_1 = {
+            amount = 1
+            owner = ARM
+            version_name = "Al-Mari Class"
+          }
+        }
+      }
+    }
+    task_force = {
+      name = "Priberezhny Otryad"
+      location = 9932
+      ship = {
+        name = "Sevan"
+        definition = destroyer
+        start_experience_factor = 0.2
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = ARM
+            version_name = "Sevan Class"
+          }
+        }
+      }
+      ship = {
+        name = "Ararat"
+        definition = destroyer
+        start_experience_factor = 0.2
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = ARM
+            version_name = "Ararat Class"
+          }
+        }
+      }
+      ship = {
+        name = "Araks"
+        definition = destroyer
+        start_experience_factor = 0.2
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = ARM
+            version_name = "Araks Class"
+          }
+        }
+      }
+      ship = {
+        name = "Ani"
+        definition = destroyer
+        start_experience_factor = 0.2
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = ARM
+            version_name = "Ani Class"
+          }
+        }
+      }
+      ship = {
+        name = "Karbala"
+        definition = destroyer
+        start_experience_factor = 0.25
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = ARM
+            version_name = "Karbala Class"
+          }
+        }
+      }
+      ship = {
+        name = "No.141"
+        definition = destroyer
+        start_experience_factor = 0.15
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = ARM
+            version_name = "Port Arthur Harbor Craft"
+          }
+        }
+      }
+    }
+  }
+}

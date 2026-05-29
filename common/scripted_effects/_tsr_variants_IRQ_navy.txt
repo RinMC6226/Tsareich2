@@ -1,0 +1,262 @@
+##########################################################
+# Tsareich2 - IRQ Navy Variants (露領メソポタミア海軍)
+# 露領メソポタミア海軍 全艦艇バリアント定義
+##########################################################
+
+# 呼び出し例: IRQ = { tsr_create_IRQ_navy_variants = yes }
+tsr_create_IRQ_navy_variants = {
+
+  ### 海防戦艦 ###
+
+  # アル・アラカ級海防戦艦 (旧トリー・スヴャチーチェリャ)
+  # 1895年竣工(1931-1935年改装) 13800t/15800t, 16000shp, 16.5kt, 重油専燃
+  # 305mm連装砲×4門, 130mm単装速射砲×6門, 76mm高角砲×4門, 37mm×8
+  create_equipment_variant = {
+    name = "Al-Araka Class"
+    type = ship_hull_cruiser_coastal_defense_ship
+    name_group = IRQ_CA_HISTORICAL
+    parent_version = 0
+    modules = {
+      fixed_ship_battery_slot              = ship_heavy_battery_1
+      fixed_ship_anti_air_slot             = ship_anti_air_2
+      fixed_ship_fire_control_system_slot  = ship_fire_control_system_1
+      fixed_ship_radar_slot                = empty
+      fixed_ship_engine_slot               = cruiser_ship_engine_2
+      fixed_ship_secondaries_slot          = ship_secondaries_1
+      fixed_ship_armor_slot                = ship_armor_cruiser_4
+      front_1_custom_slot                  = ship_anti_air_1
+      mid_1_custom_slot                    = ship_anti_air_1
+      mid_2_custom_slot                    = empty
+      rear_1_custom_slot                   = empty
+    }
+    obsolete = yes
+  }
+
+  ### 補助艦艇 ###
+
+  # アル・ウンマ級機雷敷設艦 (旧エカチェリーナ2世級)
+  # 1889年竣工(1930-1934年改装) 11200t/13200t, 10000ihp, 13.5kt, 石炭・重油混焼
+  # 152mm単装速射砲×6門, 76mm高角砲×4門, 37mm×8, 機雷320個
+  create_equipment_variant = {
+    name = "Al-Umma Class"
+    type = ship_hull_cruiser_1
+    name_group = IRQ_CA_HISTORICAL
+    parent_version = 0
+    modules = {
+      fixed_ship_battery_slot              = ship_light_medium_battery_2
+      fixed_ship_anti_air_slot             = ship_anti_air_2
+      fixed_ship_fire_control_system_slot  = ship_fire_control_system_1
+      fixed_ship_radar_slot                = empty
+      fixed_ship_engine_slot               = cruiser_ship_engine_1
+      fixed_ship_secondaries_slot          = empty
+      fixed_ship_armor_slot                = ship_armor_cruiser_4
+      mid_1_custom_slot                    = ship_mine_layer_1
+      mid_2_custom_slot                    = empty
+      rear_1_custom_slot                   = empty
+    }
+    obsolete = yes
+  }
+
+  # シャット・アル＝アラブ級機雷敷設艦 (旧バグ級)
+  # 1891年竣工(1930-1933年改装) 1500t/1900t, 2500ihp, 13kt, 石炭・重油混焼
+  # 102mm単装砲×2, 76mm高角砲×2, 37mm×4, 機雷220個
+  create_equipment_variant = {
+    name = "Shatt al-Arab Class"
+    type = ship_hull_light_1
+    name_group = IRQ_CA_HISTORICAL
+    parent_version = 0
+    modules = {
+      fixed_ship_battery_slot              = ship_light_battery_2
+      fixed_ship_anti_air_slot             = ship_anti_air_1
+      fixed_ship_fire_control_system_slot  = ship_fire_control_system_0
+      fixed_ship_radar_slot                = empty
+      fixed_ship_torpedo_slot              = empty
+      fixed_ship_engine_slot               = light_ship_engine_1
+      mid_1_custom_slot                    = ship_mine_layer_1
+      rear_1_custom_slot                   = empty
+    }
+    obsolete = yes
+  }
+
+  # カムチャートカ級工作艦
+  # 1904年竣工(1930-1935年改装) 7200t/8900t, 9000ihp, 14.5kt, 石炭・重油混焼
+  # 102mm単装×4, 76mm高角砲×2, 37mm×8, 15tクレーン×4, 工作設備
+  create_equipment_variant = {
+    name = "Kamchatka Class"
+    type = repair_ship_1
+    name_group = IRQ_AUX_HISTORICAL
+    parent_version = 0
+    modules = {
+    }
+    obsolete = yes
+  }
+
+  # セーヴェル級水上機母艦
+  # 1928年竣工(1934-1936年改装) 7000t/8600t, 26000shp, 21kt, 重油専燃
+  # 100mm高角砲×6門, 37mm×16, 水上機12機, 射出機×1, クレーン×3
+  create_equipment_variant = {
+    name = "Sever Class"
+    type = ship_hull_cruiser_1
+    name_group = IRQ_AUX_HISTORICAL
+    parent_version = 0
+    modules = {
+      fixed_ship_battery_slot              = ship_light_medium_battery_1
+      fixed_ship_anti_air_slot             = ship_anti_air_3
+      fixed_ship_fire_control_system_slot  = ship_fire_control_system_1
+      fixed_ship_radar_slot                = empty
+      fixed_ship_engine_slot               = cruiser_ship_engine_2
+      fixed_ship_secondaries_slot          = dp_ship_secondaries_1
+      fixed_ship_armor_slot                = ship_armor_cruiser_1
+      mid_1_custom_slot                    = empty
+      mid_2_custom_slot                    = empty
+      rear_1_custom_slot                   = empty
+    }
+  }
+
+  ### 護衛・小型艦艇 ###
+
+  # ティグリス級フリゲート (旧ドネツ級)
+  # 1889年竣工(1931-1934年改装) 1300t/1550t, 2400ihp, 12kt, 石炭・重油混焼
+  # 102mm単装砲×2, 76mm単装砲×2, 37mm×4, 爆雷12個, 掃海具
+  create_equipment_variant = {
+    name = "Tigris Class"
+    type = ship_hull_light_1
+    name_group = IRQ_DD_HISTORICAL
+    parent_version = 0
+    modules = {
+      fixed_ship_battery_slot              = ship_light_battery_2
+      fixed_ship_anti_air_slot             = ship_anti_air_1
+      fixed_ship_fire_control_system_slot  = ship_fire_control_system_0
+      fixed_ship_radar_slot                = empty
+      fixed_ship_torpedo_slot              = empty
+      fixed_ship_engine_slot               = light_ship_engine_1
+      mid_1_custom_slot                    = ship_depth_charge_1
+      rear_1_custom_slot                   = empty
+    }
+    obsolete = yes
+  }
+
+  # モスル級フリゲート (旧ドネツ級)
+  # 1889年竣工(1931-1934年改装) 1320t/1580t, 2500ihp, 12.5kt, 石炭・重油混焼
+  # 102mm単装砲×2, 76mm単装砲×2, 37mm×4, 爆雷16個
+  create_equipment_variant = {
+    name = "Mosul Class"
+    type = ship_hull_light_1
+    name_group = IRQ_DD_HISTORICAL
+    parent_version = 0
+    modules = {
+      fixed_ship_battery_slot              = ship_light_battery_2
+      fixed_ship_anti_air_slot             = ship_anti_air_1
+      fixed_ship_fire_control_system_slot  = ship_fire_control_system_0
+      fixed_ship_radar_slot                = empty
+      fixed_ship_torpedo_slot              = empty
+      fixed_ship_engine_slot               = light_ship_engine_1
+      mid_1_custom_slot                    = ship_depth_charge_1
+      rear_1_custom_slot                   = empty
+    }
+    obsolete = yes
+  }
+
+  # バスラ級コルベット (旧カザールスキー級)
+  # 1889年竣工(1930-1933年改装) 430t/540t, 2300ihp, 14.5kt, 石炭専焼
+  # 76mm単装×1, 47mm速射砲×2, 37mm×2, 爆雷8個, 掃海具
+  create_equipment_variant = {
+    name = "Basra Class"
+    type = ship_hull_light_1
+    name_group = IRQ_DD_HISTORICAL
+    parent_version = 0
+    modules = {
+      fixed_ship_battery_slot              = ship_light_battery_1
+      fixed_ship_anti_air_slot             = ship_anti_air_1
+      fixed_ship_fire_control_system_slot  = ship_fire_control_system_0
+      fixed_ship_radar_slot                = empty
+      fixed_ship_torpedo_slot              = empty
+      fixed_ship_engine_slot               = light_ship_engine_1
+      mid_1_custom_slot                    = ship_depth_charge_1
+      rear_1_custom_slot                   = empty
+    }
+    obsolete = yes
+  }
+
+  # リガ級戦闘艇 (旧ペールノフ級)
+  # 1897年竣工(1930-1933年改装) 120t/155t, 1200ihp, 20kt, 石炭専焼
+  # 47mm速射砲×1, 37mm×2, 381mm魚雷発射管×1, 爆雷4個
+  create_equipment_variant = {
+    name = "Riga Class"
+    type = ship_hull_light_1
+    name_group = IRQ_DD_HISTORICAL
+    parent_version = 0
+    modules = {
+      fixed_ship_battery_slot              = ship_light_battery_1
+      fixed_ship_anti_air_slot             = ship_anti_air_1
+      fixed_ship_fire_control_system_slot  = ship_fire_control_system_0
+      fixed_ship_radar_slot                = empty
+      fixed_ship_torpedo_slot              = ship_torpedo_1
+      fixed_ship_engine_slot               = light_ship_engine_1
+      mid_1_custom_slot                    = ship_depth_charge_1
+      rear_1_custom_slot                   = empty
+    }
+    obsolete = yes
+  }
+
+  # アボー級戦闘艇 (旧アボー・ボーチョク級)
+  # 1896年竣工(1930-1933年改装) 95t/125t, 850ihp, 16.5kt, 石炭専焼
+  # 47mm速射砲×1, 37mm×1, 爆雷4個
+  create_equipment_variant = {
+    name = "Abo Class"
+    type = ship_hull_light_1
+    name_group = IRQ_DD_HISTORICAL
+    parent_version = 0
+    modules = {
+      fixed_ship_battery_slot              = ship_light_battery_1
+      fixed_ship_anti_air_slot             = ship_anti_air_1
+      fixed_ship_fire_control_system_slot  = ship_fire_control_system_0
+      fixed_ship_radar_slot                = empty
+      fixed_ship_torpedo_slot              = empty
+      fixed_ship_engine_slot               = light_ship_engine_1
+      mid_1_custom_slot                    = ship_depth_charge_1
+      rear_1_custom_slot                   = empty
+    }
+    obsolete = yes
+  }
+
+  # ストレミーテリヌイ級一等駆逐艦
+  # 1925-1928年竣工(1934年改装) 1550t, 42000shp, 36kt, 重油専燃
+  # 120mm単装砲×4, 76mm高角砲×2, 40mm機銃×2, 533mm三連装魚雷×2, 爆雷2, 機雷60個
+  create_equipment_variant = {
+    name = "Stremitelny Class"
+    type = ship_hull_light_1
+    name_group = IRQ_DD_HISTORICAL
+    parent_version = 0
+    modules = {
+      fixed_ship_battery_slot              = ship_light_battery_2
+      fixed_ship_anti_air_slot             = ship_anti_air_2
+      fixed_ship_fire_control_system_slot  = ship_fire_control_system_1
+      fixed_ship_radar_slot                = empty
+      fixed_ship_torpedo_slot              = ship_torpedo_2
+      fixed_ship_engine_slot               = light_ship_engine_2
+      mid_1_custom_slot                    = ship_depth_charge_1
+      rear_1_custom_slot                   = ship_mine_layer_1
+    }
+  }
+
+  # イドラ級二等駆逐艦 (地中海型)
+  # 1932-1935年竣工 1080t, 25000shp, 32kt, 重油専燃
+  # 102mm単装砲×3, 76mm高角砲×1, 45mm機銃×4, 450mm三連装魚雷×1, 爆雷2, 機雷40個
+  create_equipment_variant = {
+    name = "Idra Class"
+    type = ship_hull_light_1
+    name_group = IRQ_DD_HISTORICAL
+    parent_version = 0
+    modules = {
+      fixed_ship_battery_slot              = ship_light_battery_2
+      fixed_ship_anti_air_slot             = ship_anti_air_2
+      fixed_ship_fire_control_system_slot  = ship_fire_control_system_1
+      fixed_ship_radar_slot                = empty
+      fixed_ship_torpedo_slot              = ship_torpedo_1
+      fixed_ship_engine_slot               = light_ship_engine_1
+      mid_1_custom_slot                    = ship_depth_charge_1
+      rear_1_custom_slot                   = ship_mine_layer_1
+    }
+  }
+}

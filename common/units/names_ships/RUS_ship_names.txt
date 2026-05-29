@@ -1,0 +1,134 @@
+##########################################################
+# Tsareich2 - RUS Ship Names
+# ロシア帝国海軍 艦名グループ定義
+##########################################################
+
+### 戦艦・巡洋戦艦 ###
+RUS_BBBC_HISTORICAL = {
+  name = NAME_THEME_HISTORICAL_CAPITAL
+
+  for_countries = { RUS }
+
+  type = ship
+  ship_types = { ship_hull_heavy battleship battle_cruiser }
+
+  prefix = ""
+  fallback_name = "Linkor %s"
+
+  unique = {
+    "Tri Sviatitelya" "Georgy Pobedonosets" "Sinop" "Chesma"
+    "Yekaterina II" "Imperator Aleksandr II" "Dvenadtsat Apostolov" "Navarin"
+    "Sisoy Veliky" "Poltava" "Petropavlovsk" "Sevastopol"
+    "Peresvet" "Osliabia" "Pobeda" "Retvizan" "Tsesarevich"
+    "Imperator Aleksandr III" "Borodino" "Oryol" "Knyaz Suvorov" "Slava"
+    "Knyaz Potyomkin Tavrichesky" "Yevstafy" "Ioann Zlatoust"
+    "Andrey Pervozvanny" "Imperator Pavel I" "Gangut"
+    "Imperatritsa Mariya" "Imperatritsa Yekaterina Velikaya" "Izmail" "Kinburn"
+    "Svyatoy Pavel" "Svyatoy Georgy" "Admiral Nakhimov" "Admiral Lazarev"
+    "Admiral Ushakov" "Admiral Spiridov" "Kronshtadt" "Arkhangelsk"
+  }
+}
+
+### 巡洋艦・海防戦艦 ###
+RUS_CA_HISTORICAL = {
+  name = NAME_THEME_HISTORICAL_CRUISER
+
+  for_countries = { RUS }
+
+  type = ship
+  ship_types = { ship_hull_cruiser ship_hull_heavy heavy_cruiser light_cruiser }
+
+  prefix = ""
+  fallback_name = "Kreyser %s"
+
+  unique = {
+    "Ryurik" "Rossiya" "Gromoboi" "Bogatyr" "Oleg" "Bayan" "Pallada"
+    "Admiral Makarov" "Gromoboi" "Rurik" "Pamyat Merkuriya"
+    "Komintern" "Profintern" "Krasny Kavkaz" "Krasny Krym"
+    "Maxim Gorky" "Voroshilov" "Molotov" "Kaganovich"
+    "Arkhangelsk" "Murmansk" "Kirov" "Frunze"
+  }
+}
+
+### 空母 ###
+RUS_CVL_HISTORICAL = {
+  name = NAME_THEME_HISTORICAL_CARRIER
+
+  for_countries = { RUS }
+
+  type = ship
+  ship_types = { ship_hull_carrier carrier light_carrier }
+
+  prefix = ""
+  fallback_name = "Avianosets %s"
+
+  unique = {
+    "Orlitsa" "Gromoboi" "Osliabia" "Krasnoe Znamya"
+    "Sovetskaya Rossiya" "Severnoe Znamya"
+  }
+}
+
+### 駆逐艦 ###
+RUS_DD_HISTORICAL = {
+  name = NAME_THEME_HISTORICAL_DESTROYER
+
+  for_countries = { RUS }
+
+  type = ship
+  ship_types = { ship_hull_light destroyer }
+
+  prefix = ""
+  fallback_name = "Esminets %s"
+
+  unique = {
+    "Buiny" "Grozny" "Besposhchadny" "Besstrashny"
+    "Tvordoy" "Pykhy" "Strogiy" "Smelyi"
+    "Leytenant Pushchin" "Leytenant Shestakov"
+    "Molniya" "Grom" "Shkvall" "Burya"
+    "Okean" "Briz" "Shtorm" "Vikhr"
+    "Admiral Essen" "Admiral Shchastny" "Admiral Kolchak"
+    "Kola" "Arkhangelsk" "Murmansk" "Kandalaksha"
+    "Soobrazitelny" "Storozhevoy" "Besposhchadny"
+    "Svobodny" "Boiky" "Zhivuchy"
+  }
+}
+
+### 潜水艦 ###
+RUS_SS_HISTORICAL = {
+  name = NAME_THEME_HISTORICAL_SUBMARINE
+
+  for_countries = { RUS }
+
+  type = ship
+  ship_types = { ship_hull_submarine submarine }
+
+  prefix = ""
+  fallback_name = "Podlodka %s"
+
+  unique = {
+    "Delphine" "Som" "Kasatka" "Feldmarshal Graf Sheremetev"
+    "Minoga" "Akula" "Kaiman" "Krokodil" "Shark"
+    "Narval" "Morj" "Tyulen" "Kit"
+    "S-1" "S-2" "S-3" "S-4" "S-5" "S-6"
+    "Shchuka" "Bars" "Lev" "Gepard" "Pantera"
+  }
+}
+
+### 補助艦艇 ###
+RUS_AUX_HISTORICAL = {
+  name = NAME_THEME_HISTORICAL_AUXILIARY
+
+  for_countries = { RUS }
+
+  type = ship
+  ship_types = { ship_hull_cruiser }
+
+  prefix = ""
+  fallback_name = "Vspomogatelny %s"
+
+  unique = {
+    "Ladoga" "Baikal" "Aleut" "Bering" "Angara"
+    "Yenisey" "Amur" "Don" "Dnepr" "Volga"
+    "Lena" "Ob" "Irtish" "Kama"
+  }
+}

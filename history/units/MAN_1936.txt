@@ -1,0 +1,232 @@
+units = {
+  fleet = {
+    name = "Manzhou Baohu Haijun"
+    naval_base = 716
+    task_force = {
+      name = "Jidi Jiandui"
+      location = 11764
+      ship = {
+        name = "Teihen"
+        definition = battleship
+        start_experience_factor = 0.25
+        pride_of_the_fleet = yes
+        equipment = {
+          ship_hull_pre_dreadnought = {
+            amount = 1
+            owner = MAN
+            version_name = "Teihen Class"
+          }
+        }
+      }
+      ship = {
+        name = "Suntsu"
+        definition = battleship
+        start_experience_factor = 0.3
+        equipment = {
+          ship_hull_pre_dreadnought = {
+            amount = 1
+            owner = MAN
+            version_name = "Suntsu Class"
+          }
+        }
+      }
+      ship = {
+        name = "Kosei"
+        definition = heavy_cruiser
+        start_experience_factor = 0.25
+        equipment = {
+          ship_hull_cruiser_1 = {
+            amount = 1
+            owner = MAN
+            version_name = "Kosei Class"
+          }
+        }
+      }
+      ship = {
+        name = "Kyuju"
+        definition = heavy_cruiser
+        start_experience_factor = 0.25
+        equipment = {
+          ship_hull_cruiser_1 = {
+            amount = 1
+            owner = MAN
+            version_name = "Kyuju Class"
+          }
+        }
+      }
+      ship = {
+        name = "Eian"
+        definition = light_cruiser
+        start_experience_factor = 0.2
+        equipment = {
+          ship_hull_cruiser_1 = {
+            amount = 1
+            owner = MAN
+            version_name = "Eian Class"
+          }
+        }
+      }
+      ship = {
+        name = "Junten"
+        definition = heavy_cruiser
+        start_experience_factor = 0.2
+        equipment = {
+          ship_hull_cruiser_coastal_defense_ship = {
+            amount = 1
+            owner = MAN
+            version_name = "Junten Class"
+          }
+        }
+      }
+    }
+    task_force = {
+      name = "Luchun Jiandui"
+      location = 11764
+      ship = {
+        name = "Liaohe"
+        definition = light_cruiser
+        start_experience_factor = 0.2
+        equipment = {
+          ship_hull_cruiser_1 = {
+            amount = 1
+            owner = MAN
+            version_name = "Liaohe Class"
+          }
+        }
+      }
+      ship = {
+        name = "Boyarin"
+        definition = light_cruiser
+        start_experience_factor = 0.2
+        equipment = {
+          ship_hull_cruiser_1 = {
+            amount = 1
+            owner = MAN
+            version_name = "Boyarin Tender Class"
+          }
+        }
+      }
+      ship = {
+        name = "Sukajiang"
+        definition = destroyer
+        start_experience_factor = 0.15
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = MAN
+            version_name = "Sukajiang Class"
+          }
+        }
+      }
+      ship = {
+        name = "Ryojun"
+        definition = destroyer
+        start_experience_factor = 0.15
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = MAN
+            version_name = "Ryojun Class"
+          }
+        }
+      }
+      ship = {
+        name = "Liaodong"
+        definition = destroyer
+        start_experience_factor = 0.15
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = MAN
+            version_name = "Liaodong DD Class"
+          }
+        }
+      }
+      ship = {
+        name = "Bohai"
+        definition = destroyer
+        start_experience_factor = 0.15
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = MAN
+            version_name = "Bohai Class"
+          }
+        }
+      }
+      ship = {
+        name = "Kairyu"
+        definition = destroyer
+        start_experience_factor = 0.15
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = MAN
+            version_name = "Kairyu Class"
+          }
+        }
+      }
+      ship = {
+        name = "Kouan"
+        definition = destroyer
+        start_experience_factor = 0.25
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = MAN
+            version_name = "Kouan Class"
+          }
+        }
+      }
+      ship = {
+        name = "Chonmu"
+        definition = destroyer
+        start_experience_factor = 0.3
+        pride_of_the_fleet = yes
+        equipment = {
+          ship_hull_light_2 = {
+            amount = 1
+            owner = MAN
+            version_name = "Chonmu Class"
+          }
+        }
+      }
+      ship = {
+        name = "Al-Tigris"
+        definition = light_cruiser
+        start_experience_factor = 0.2
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = MAN
+            version_name = "Al-Tigris Tender Class"
+          }
+        }
+      }
+      ship = {
+        name = "Kaiho"
+        definition = submarine
+        start_experience_factor = 0.15
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = MAN
+            version_name = "Kaiho Class"
+          }
+        }
+      }
+      ship = {
+        name = "Dvenadtsat Apostolov"
+        definition = heavy_cruiser
+        start_experience_factor = 0.15
+        equipment = {
+          repair_ship_1 = {
+            amount = 1
+            owner = MAN
+            version_name = "Dvenadtsat Apostolov Class"
+          }
+        }
+      }
+    }
+  }
+}

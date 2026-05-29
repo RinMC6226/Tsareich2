@@ -1223,7 +1223,7 @@ units = {
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.8
 	}
-	division = {	
+	division = {
 		division_name = {
 			is_name_ordered = yes
 			name_order = 2
@@ -1233,4 +1233,563 @@ units = {
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.8
 	}
+
+  # ==================== 海軍編成 ====================
+  fleet = {
+    name = "Baltiysky Flot"
+    naval_base = 195
+    task_force = {
+      name = "1ya Eskadra"
+      location = 3151
+      ship = {
+        name = "Imperator Pavel I"
+        definition = battleship
+        start_experience_factor = 0.3
+        equipment = {
+          ship_hull_pre_dreadnought = {
+            amount = 1
+            owner = RUS
+            version_name = "Imperator Pavel I Class"
+          }
+        }
+      }
+      ship = {
+        name = "Evstafy"
+        definition = battleship
+        start_experience_factor = 0.3
+        equipment = {
+          ship_hull_pre_dreadnought = {
+            amount = 1
+            owner = RUS
+            version_name = "Evstafy Class"
+          }
+        }
+      }
+      ship = {
+        name = "Gangut"
+        definition = battleship
+        start_experience_factor = 0.4
+        pride_of_the_fleet = yes
+        equipment = {
+          ship_hull_heavy_1 = {
+            amount = 1
+            owner = RUS
+            version_name = "Gangut Class"
+          }
+        }
+      }
+      ship = {
+        name = "Petropavlovsk"
+        definition = battleship
+        start_experience_factor = 0.35
+        equipment = {
+          ship_hull_heavy_1 = {
+            amount = 1
+            owner = RUS
+            version_name = "Gangut Class"
+          }
+        }
+      }
+      ship = {
+        name = "Sevastopol"
+        definition = battleship
+        start_experience_factor = 0.35
+        equipment = {
+          ship_hull_heavy_1 = {
+            amount = 1
+            owner = RUS
+            version_name = "Gangut Class"
+          }
+        }
+      }
+    }
+    task_force = {
+      name = "Baltiysky Eskadra Kreyseyrov"
+      location = 3151
+      ship = {
+        name = "Ryurik"
+        definition = battle_cruiser
+        start_experience_factor = 0.3
+        equipment = {
+          ship_hull_heavy_1 = {
+            amount = 1
+            owner = RUS
+            version_name = "Ryurik Class"
+          }
+        }
+      }
+      ship = {
+        name = "Bogatyr"
+        definition = light_cruiser
+        start_experience_factor = 0.25
+        equipment = {
+          ship_hull_cruiser_1 = {
+            amount = 1
+            owner = RUS
+            version_name = "Bogatyr Class"
+          }
+        }
+      }
+      ship = {
+        name = "Angara"
+        definition = auxiliary_cruiser
+        start_experience_factor = 0.2
+        equipment = {
+          ship_hull_cruiser_1 = {
+            amount = 1
+            owner = RUS
+            version_name = "Angara Class"
+          }
+        }
+      }
+      ship = {
+        name = "Pushchin"
+        definition = destroyer
+        start_experience_factor = 0.2
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = RUS
+            version_name = "Pushchin Class"
+          }
+        }
+      }
+      ship = {
+        name = "Tvordoy"
+        definition = destroyer
+        start_experience_factor = 0.2
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = RUS
+            version_name = "Tvordoy Class"
+          }
+        }
+      }
+      ship = {
+        name = "Buiny"
+        definition = destroyer
+        start_experience_factor = 0.15
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = RUS
+            version_name = "Buiny Class"
+          }
+        }
+      }
+      ship = {
+        name = "Grozny"
+        definition = destroyer
+        start_experience_factor = 0.15
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = RUS
+            version_name = "Grozny Class"
+          }
+        }
+      }
+      ship = {
+        name = "Finn Gulf"
+        definition = destroyer
+        start_experience_factor = 0.15
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = RUS
+            version_name = "Finn Gulf Class"
+          }
+        }
+      }
+      ship = {
+        name = "Dvina"
+        definition = destroyer
+        start_experience_factor = 0.15
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = RUS
+            version_name = "Dvina Class"
+          }
+        }
+      }
+      ship = {
+        name = "Kotrin"
+        definition = combat_craft
+        start_experience_factor = 0.15
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = RUS
+            version_name = "Kotrin Class"
+          }
+        }
+      }
+      ship = {
+        name = "Kolhida"
+        definition = combat_craft
+        start_experience_factor = 0.15
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = RUS
+            version_name = "Kolhida Class"
+          }
+        }
+      }
+      ship = {
+        name = "No.101"
+        definition = combat_craft
+        start_experience_factor = 0.1
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = RUS
+            version_name = "Baltic Harbor Craft"
+          }
+        }
+      }
+    }
+    task_force = {
+      name = "Baltiyskaya Podvodnaya Brigada"
+      location = 3151
+      ship = {
+        name = "Delphine"
+        definition = submarine
+        start_experience_factor = 0.2
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = RUS
+            version_name = "Delphine Class"
+          }
+        }
+      }
+      ship = {
+        name = "Som"
+        definition = submarine
+        start_experience_factor = 0.2
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = RUS
+            version_name = "Som Class"
+          }
+        }
+      }
+      ship = {
+        name = "Kasatka"
+        definition = submarine
+        start_experience_factor = 0.2
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = RUS
+            version_name = "Kasatka Class"
+          }
+        }
+      }
+      ship = {
+        name = "Ladoga"
+        definition = repair_ship
+        start_experience_factor = 0.2
+        equipment = {
+          repair_ship_1 = {
+            amount = 1
+            owner = RUS
+            version_name = "Ladoga Class"
+          }
+        }
+      }
+      ship = {
+        name = "Baikal"
+        definition = repair_ship
+        start_experience_factor = 0.2
+        equipment = {
+          repair_ship_1 = {
+            amount = 1
+            owner = RUS
+            version_name = "Baikal Class"
+          }
+        }
+      }
+    }
+  }
+  fleet = {
+    name = "Chernomorsky Flot"
+    naval_base = 137
+    task_force = {
+      name = "Chernomorskaya Eskadra"
+      location = 3686
+      ship = {
+        name = "Imperatritsa Aleksandra"
+        definition = battleship
+        start_experience_factor = 0.35
+        equipment = {
+          ship_hull_heavy_1 = {
+            amount = 1
+            owner = RUS
+            version_name = "Aleksandra Class"
+          }
+        }
+      }
+      ship = {
+        name = "Borodino"
+        definition = battleship
+        start_experience_factor = 0.4
+        pride_of_the_fleet = yes
+        equipment = {
+          ship_hull_heavy_2 = {
+            amount = 1
+            owner = RUS
+            version_name = "Borodino Class"
+          }
+        }
+      }
+      ship = {
+        name = "No.121"
+        definition = combat_craft
+        start_experience_factor = 0.1
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = RUS
+            version_name = "Black Sea Harbor Craft"
+          }
+        }
+      }
+    }
+  }
+  fleet = {
+    name = "Tikhookeansky Flot"
+    naval_base = 408
+    task_force = {
+      name = "Tikhookeanskaya Eskadra"
+      location = 957
+      ship = {
+        name = "Poltava"
+        definition = battleship
+        start_experience_factor = 0.3
+        equipment = {
+          ship_hull_heavy_1 = {
+            amount = 1
+            owner = RUS
+            version_name = "Gangut Class"
+          }
+        }
+      }
+      ship = {
+        name = "Kronshtadt"
+        definition = battleship
+        start_experience_factor = 0.45
+        pride_of_the_fleet = yes
+        equipment = {
+          ship_hull_heavy_2 = {
+            amount = 1
+            owner = RUS
+            version_name = "Kronshtadt Class"
+          }
+        }
+      }
+      ship = {
+        name = "Svyatoy Pavel"
+        definition = battle_cruiser
+        start_experience_factor = 0.35
+        equipment = {
+          ship_hull_heavy_1 = {
+            amount = 1
+            owner = RUS
+            version_name = "Svyatoy Pavel Class"
+          }
+        }
+      }
+      ship = {
+        name = "Admiral Makarov"
+        definition = large_cruiser
+        start_experience_factor = 0.35
+        pride_of_the_fleet = yes
+        equipment = {
+          ship_hull_cruiser_1 = {
+            amount = 1
+            owner = RUS
+            version_name = "Admiral Makarov Class"
+          }
+        }
+      }
+      ship = {
+        name = "Lazarev"
+        definition = coastal_defense_battleship
+        start_experience_factor = 0.25
+        equipment = {
+          ship_hull_cruiser_coastal_defense_ship = {
+            amount = 1
+            owner = RUS
+            version_name = "Lazarev Class"
+          }
+        }
+      }
+      ship = {
+        name = "Spiridov"
+        definition = coastal_defense_battleship
+        start_experience_factor = 0.25
+        equipment = {
+          ship_hull_cruiser_coastal_defense_ship = {
+            amount = 1
+            owner = RUS
+            version_name = "Spiridov Class"
+          }
+        }
+      }
+      ship = {
+        name = "Rosha"
+        definition = light_cruiser
+        start_experience_factor = 0.25
+        equipment = {
+          ship_hull_cruiser_1 = {
+            amount = 1
+            owner = RUS
+            version_name = "Rosha Class"
+          }
+        }
+      }
+      ship = {
+        name = "Orlitsa"
+        definition = carrier
+        start_experience_factor = 0.35
+        pride_of_the_fleet = yes
+        equipment = {
+          ship_hull_carrier_conversion_bb = {
+            amount = 1
+            owner = RUS
+            version_name = "Orlitsa Class"
+          }
+        }
+      }
+      ship = {
+        name = "Gromoboi"
+        definition = light_carrier
+        start_experience_factor = 0.3
+        equipment = {
+          ship_hull_carrier_conversion_ca = {
+            amount = 1
+            owner = RUS
+            version_name = "Gromoboi Class"
+          }
+        }
+      }
+      ship = {
+        name = "Osliabia"
+        definition = light_carrier
+        start_experience_factor = 0.3
+        equipment = {
+          ship_hull_carrier_conversion_ca = {
+            amount = 1
+            owner = RUS
+            version_name = "Osliabia Class"
+          }
+        }
+      }
+    }
+    task_force = {
+      name = "Tikhookeanskaya Eskadra Esmintsev"
+      location = 957
+      ship = {
+        name = "Molniya"
+        definition = destroyer
+        start_experience_factor = 0.2
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = RUS
+            version_name = "Molniya Class"
+          }
+        }
+      }
+      ship = {
+        name = "Shinkyo"
+        definition = destroyer
+        start_experience_factor = 0.2
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = RUS
+            version_name = "Shinkyo Class"
+          }
+        }
+      }
+      ship = {
+        name = "Essen"
+        definition = destroyer
+        start_experience_factor = 0.3
+        equipment = {
+          ship_hull_light_2 = {
+            amount = 1
+            owner = RUS
+            version_name = "Essen Class"
+          }
+        }
+      }
+      ship = {
+        name = "Okean"
+        definition = destroyer
+        start_experience_factor = 0.3
+        equipment = {
+          ship_hull_light_2 = {
+            amount = 1
+            owner = RUS
+            version_name = "Okean Class"
+          }
+        }
+      }
+      ship = {
+        name = "Kola"
+        definition = escort_destroyer
+        start_experience_factor = 0.2
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = RUS
+            version_name = "Kola Class"
+          }
+        }
+      }
+      ship = {
+        name = "Liaodong Tender"
+        definition = support_tender
+        start_experience_factor = 0.2
+        equipment = {
+          ship_hull_cruiser_1 = {
+            amount = 1
+            owner = RUS
+            version_name = "Liaodong Tender Class"
+          }
+        }
+      }
+      ship = {
+        name = "Aleut"
+        definition = repair_ship
+        start_experience_factor = 0.2
+        equipment = {
+          repair_ship_1 = {
+            amount = 1
+            owner = RUS
+            version_name = "Aleut Class"
+          }
+        }
+      }
+      ship = {
+        name = "Bering"
+        definition = repair_ship
+        start_experience_factor = 0.2
+        equipment = {
+          repair_ship_1 = {
+            amount = 1
+            owner = RUS
+            version_name = "Bering Class"
+          }
+        }
+      }
+    }
+  }
 }

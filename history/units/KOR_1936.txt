@@ -1,0 +1,99 @@
+units = {
+  fleet = {
+    name = "Daehan Jeguk Haegun"
+    naval_base = 527
+    task_force = {
+      name = "Jeil Hamdae"
+      location = 1003
+      ship = {
+        name = "Yangmu"
+        definition = battleship
+        start_experience_factor = 0.25
+        pride_of_the_fleet = yes
+        equipment = {
+          ship_hull_pre_dreadnought = {
+            amount = 1
+            owner = KOR
+            version_name = "Yangmu Class"
+          }
+        }
+      }
+      ship = {
+        name = "Kojae"
+        definition = heavy_cruiser
+        start_experience_factor = 0.25
+        equipment = {
+          ship_hull_cruiser_1 = {
+            amount = 1
+            owner = KOR
+            version_name = "Kojae Class"
+          }
+        }
+      }
+      ship = {
+        name = "Daegu"
+        definition = light_cruiser
+        start_experience_factor = 0.2
+        equipment = {
+          ship_hull_cruiser_1 = {
+            amount = 1
+            owner = KOR
+            version_name = "Daegu Class"
+          }
+        }
+      }
+    }
+    task_force = {
+      name = "Howei Hamdae"
+      location = 1003
+      ship = {
+        name = "Hangan"
+        definition = destroyer
+        start_experience_factor = 0.2
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = KOR
+            version_name = "Hangan Class"
+          }
+        }
+      }
+      ship = {
+        name = "Paektu"
+        definition = destroyer
+        start_experience_factor = 0.15
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = KOR
+            version_name = "Paektu Class"
+          }
+        }
+      }
+      ship = {
+        name = "Mashisu"
+        definition = destroyer
+        start_experience_factor = 0.3
+        equipment = {
+          ship_hull_light_1 = {
+            amount = 1
+            owner = KOR
+            version_name = "Mashisu Class"
+          }
+        }
+      }
+      ship = {
+        name = "Kame"
+        definition = submarine
+        start_experience_factor = 0.15
+        equipment = {
+          ship_hull_submarine_1 = {
+            amount = 1
+            owner = KOR
+            version_name = "Kame Class"
+          }
+        }
+      }
+    }
+  }
+}

@@ -21,6 +21,24 @@ set_grand_doctrine = mass_assault
 
 set_convoys = 5
 
+if = {
+	limit = {
+		has_dlc = "Man the Guns"
+	}
+	set_technology = {
+		early_ship_hull_light = 1
+		early_ship_hull_cruiser = 1
+		early_ship_hull_heavy = 1
+		early_ship_hull_submarine = 1
+		pre_dreadnoughts = 1
+		basic_battery = 1
+		basic_torpedo = 1
+	}
+	tsr_create_KOR_navy_variants = yes
+}
+
+set_oob = "KOR_1936"
+
 set_politics = {
 	ruling_party = right
 	last_election = "1936.1.1"

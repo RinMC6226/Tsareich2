@@ -1,0 +1,859 @@
+##########################################################
+# Tsareich2 - RUS Navy Variants (All Ship Types)
+# ロシア帝国海軍 全艦艇バリアント定義
+##########################################################
+
+# 呼び出し例: RUS = { tsr_create_RUS_navy_variants = yes }
+tsr_create_RUS_navy_variants = {
+
+  ### 練習戦艦 (前弩級戦艦) ###
+
+  # インペラートル・パーヴェル1世級練習戦艦
+  # 1910年竣工(1930-1934年改装) 17800t/20300t, 23000shp, 18kt, 重油専燃
+  # 305mm連装砲×4門, 152mm連装×8門, 100mm高角砲×8門, 45mm機銃×8, 37mm機銃×16
+  create_equipment_variant = {
+    name = "Imperator Pavel I Class"
+    type = ship_hull_pre_dreadnought
+    name_group = RUS_BBBC_HISTORICAL
+    parent_version = 0
+    modules = {
+      fixed_ship_battery_slot              = ship_heavy_battery_1
+      fixed_ship_anti_air_slot             = ship_anti_air_2
+      fixed_ship_fire_control_system_slot  = ship_fire_control_system_1
+      fixed_ship_radar_slot                = empty
+      fixed_ship_engine_slot               = heavy_ship_engine_2
+      fixed_ship_secondaries_slot          = ship_secondaries_2
+      fixed_ship_armor_slot                = ship_armor_bb_1
+      front_1_custom_slot                  = ship_anti_air_1
+      mid_1_custom_slot                    = ship_secondaries_1
+      rear_1_custom_slot                   = empty
+    }
+    obsolete = yes
+  }
+
+  # エフスターフィイ級練習戦艦
+  # 1910年竣工(1931-1934年改装) 13200t/15000t, 14000shp, 16.5kt, 重油専燃
+  # 305mm連装砲×4門, 130mm単装×6門, 76mm高角砲×6門, 37mm機銃×12
+  create_equipment_variant = {
+    name = "Evstafy Class"
+    type = ship_hull_pre_dreadnought
+    name_group = RUS_BBBC_HISTORICAL
+    parent_version = 0
+    modules = {
+      fixed_ship_battery_slot              = ship_heavy_battery_1
+      fixed_ship_anti_air_slot             = ship_anti_air_2
+      fixed_ship_fire_control_system_slot  = ship_fire_control_system_1
+      fixed_ship_radar_slot                = empty
+      fixed_ship_engine_slot               = heavy_ship_engine_1
+      fixed_ship_secondaries_slot          = ship_secondaries_1
+      fixed_ship_armor_slot                = ship_armor_bb_1
+      front_1_custom_slot                  = ship_anti_air_1
+      mid_1_custom_slot                    = empty
+      rear_1_custom_slot                   = empty
+    }
+    obsolete = yes
+  }
+
+  ### 弩級戦艦 ###
+
+  # ガングート級戦艦
+  # 1914年竣工(1932-1936年改装) 26500t/30200t, 55000shp, 24kt, 重油専燃
+  # 305mm三連装砲×12門, 120mm単装×8門, 100mm高角砲×8門, 45mm×8, 37mm×24
+  create_equipment_variant = {
+    name = "Gangut Class"
+    type = ship_hull_heavy_1
+    name_group = RUS_BBBC_HISTORICAL
+    parent_version = 0
+    modules = {
+      fixed_ship_battery_slot              = ship_heavy_battery_1
+      fixed_ship_anti_air_slot             = ship_anti_air_2
+      fixed_ship_fire_control_system_slot  = ship_fire_control_system_1
+      fixed_ship_radar_slot                = empty
+      fixed_ship_engine_slot               = heavy_ship_engine_2
+      fixed_ship_secondaries_slot          = ship_secondaries_1
+      fixed_ship_armor_slot                = ship_armor_bb_1
+      front_1_custom_slot                  = ship_anti_air_1
+      mid_1_custom_slot                    = ship_secondaries_1
+      mid_2_custom_slot                    = empty
+      rear_1_custom_slot                   = ship_anti_air_2
+    }
+  }
+
+  # インペラトリーツァ・アレクサンドラ級戦艦
+  # 1915年竣工(1931-1935年改装) 25800t/29200t, 48000shp, 22.5kt, 重油専燃
+  # 305mm三連装砲×12門, 130mm単装×12門, 100mm高角砲×8門, 45mm×8, 37mm×24
+  create_equipment_variant = {
+    name = "Imperatritsa Aleksandra Class"
+    type = ship_hull_heavy_1
+    name_group = RUS_BBBC_HISTORICAL
+    parent_version = 0
+    modules = {
+      fixed_ship_battery_slot              = ship_heavy_battery_1
+      fixed_ship_anti_air_slot             = ship_anti_air_2
+      fixed_ship_fire_control_system_slot  = ship_fire_control_system_1
+      fixed_ship_radar_slot                = empty
+      fixed_ship_engine_slot               = heavy_ship_engine_2
+      fixed_ship_secondaries_slot          = dp_ship_secondaries_3
+      fixed_ship_armor_slot                = ship_armor_bb_2
+      front_1_custom_slot                  = ship_anti_air_1
+      mid_1_custom_slot                    = dp_ship_secondaries_3
+      mid_2_custom_slot                    = empty
+      rear_1_custom_slot                   = ship_anti_air_2
+    }
+  }
+
+  # ボロジノ級高速戦艦
+  # 1917年(1932-1936年再建改装) 34500t/38500t, 105000shp, 28kt
+  # 356mm三連装砲×12門, 130mm連装両用砲×16門, 100mm高角砲×12門, 37mm×32
+  create_equipment_variant = {
+    name = "Borodino Class"
+    type = ship_hull_heavy_2
+    name_group = RUS_BBBC_HISTORICAL
+    parent_version = 0
+    modules = {
+      fixed_ship_battery_slot              = ship_heavy_battery_2
+      fixed_ship_anti_air_slot             = ship_anti_air_2
+      fixed_ship_fire_control_system_slot  = ship_fire_control_system_2
+      fixed_ship_radar_slot                = empty
+      fixed_ship_engine_slot               = heavy_ship_engine_2
+      fixed_ship_secondaries_slot          = dp_ship_secondaries_3
+      fixed_ship_armor_slot                = ship_armor_bb_2
+      front_1_custom_slot                  = ship_anti_air_2
+      mid_1_custom_slot                    = dp_ship_secondaries_3
+      mid_2_custom_slot                    = empty
+      rear_1_custom_slot                   = ship_anti_air_2
+    }
+  }
+
+  # ポルタヴァ級高速戦艦
+  # 1928年竣工(1934-1936年改装) 38500t/43000t, 135000shp, 29kt
+  # 381mm三連装砲×9門, 130mm連装両用砲×12門, 100mm連装高角砲×12門, 37mm×40
+  create_equipment_variant = {
+    name = "Poltava Class"
+    type = ship_hull_heavy_2
+    name_group = RUS_BBBC_HISTORICAL
+    parent_version = 0
+    modules = {
+      fixed_ship_battery_slot              = ship_heavy_battery_3
+      fixed_ship_anti_air_slot             = ship_anti_air_3
+      fixed_ship_fire_control_system_slot  = ship_fire_control_system_2
+      fixed_ship_radar_slot                = empty
+      fixed_ship_engine_slot               = heavy_ship_engine_2
+      fixed_ship_secondaries_slot          = dp_ship_secondaries_3
+      fixed_ship_armor_slot                = ship_armor_bb_3
+      front_1_custom_slot                  = ship_anti_air_2
+      mid_1_custom_slot                    = dp_ship_secondaries_3
+      mid_2_custom_slot                    = empty
+      rear_1_custom_slot                   = ship_anti_air_3
+    }
+  }
+
+  # クロンシュタット級大型戦艦
+  # 1934年竣工(1936年小改装) 46000t/52000t, 165000shp, 28.5kt
+  # 406mm三連装砲×9門, 152mm連装両用砲×12門, 100mm連装高角砲×12門, 37mm×48
+  create_equipment_variant = {
+    name = "Kronshtadt Class"
+    type = ship_hull_heavy_2
+    name_group = RUS_BBBC_HISTORICAL
+    parent_version = 0
+    modules = {
+      fixed_ship_battery_slot              = ship_heavy_battery_4
+      fixed_ship_anti_air_slot             = ship_anti_air_3
+      fixed_ship_fire_control_system_slot  = ship_fire_control_system_3
+      fixed_ship_radar_slot                = empty
+      fixed_ship_engine_slot               = heavy_ship_engine_2
+      fixed_ship_secondaries_slot          = dp_ship_secondaries_3
+      fixed_ship_armor_slot                = ship_armor_shbb
+      front_1_custom_slot                  = ship_anti_air_3
+      mid_1_custom_slot                    = dp_ship_secondaries_3
+      mid_2_custom_slot                    = ship_anti_air_3
+      rear_1_custom_slot                   = dp_ship_secondaries_3
+    }
+    pride_of_the_fleet = yes
+  }
+
+  ### 巡洋戦艦 ###
+
+  # スヴャトーイ・パーヴェル級高速戦艦
+  # 1931年竣工(1935-1936年改装) 35500t/40000t, 150000shp, 30.5kt
+  # 356mm三連装砲×9門, 130mm連装両用砲×16門, 100mm連装高角砲×12門, 37mm×36
+  create_equipment_variant = {
+    name = "Svyatoy Pavel Class"
+    type = ship_hull_heavy_2
+    name_group = RUS_BBBC_HISTORICAL
+    parent_version = 0
+    modules = {
+      fixed_ship_battery_slot              = ship_heavy_battery_2
+      fixed_ship_anti_air_slot             = ship_anti_air_3
+      fixed_ship_fire_control_system_slot  = ship_fire_control_system_2
+      fixed_ship_radar_slot                = empty
+      fixed_ship_engine_slot               = heavy_ship_engine_2
+      fixed_ship_secondaries_slot          = dp_ship_secondaries_3
+      fixed_ship_armor_slot                = ship_armor_bc_2
+      front_1_custom_slot                  = ship_anti_air_2
+      mid_1_custom_slot                    = dp_ship_secondaries_3
+      mid_2_custom_slot                    = empty
+      rear_1_custom_slot                   = ship_anti_air_2
+    }
+  }
+
+  # アドミラル・マカロフ級大型巡洋戦艦
+  # 1935年竣工(1936年小改装) 42000t/47500t, 190000shp, 31.5kt
+  # 381mm三連装砲×9門, 130mm連装両用砲×16門, 100mm連装高角砲×12門, 37mm×48
+  create_equipment_variant = {
+    name = "Admiral Makarov Class"
+    type = ship_hull_heavy_2
+    name_group = RUS_BBBC_HISTORICAL
+    parent_version = 0
+    modules = {
+      fixed_ship_battery_slot              = ship_heavy_battery_3
+      fixed_ship_anti_air_slot             = ship_anti_air_3
+      fixed_ship_fire_control_system_slot  = ship_fire_control_system_3
+      fixed_ship_radar_slot                = empty
+      fixed_ship_engine_slot               = heavy_ship_engine_2
+      fixed_ship_secondaries_slot          = dp_ship_secondaries_3
+      fixed_ship_armor_slot                = ship_armor_bc_2
+      front_1_custom_slot                  = ship_anti_air_3
+      mid_1_custom_slot                    = dp_ship_secondaries_3
+      mid_2_custom_slot                    = empty
+      rear_1_custom_slot                   = ship_anti_air_3
+    }
+    pride_of_the_fleet = yes
+  }
+
+  ### 装甲巡洋艦・巡洋艦 ###
+
+  # リューリク級装甲巡洋艦
+  # 1908年竣工(1930-1934年改装) 15500t/17800t, 26000shp, 21kt
+  # 254mm連装砲×4門, 152mm連装速射砲×8門, 100mm高角砲×6門, 37mm×16
+  create_equipment_variant = {
+    name = "Ryurik Class"
+    type = ship_hull_cruiser_1
+    name_group = RUS_CA_HISTORICAL
+    parent_version = 0
+    modules = {
+      fixed_ship_battery_slot              = ship_medium_battery_1
+      fixed_ship_anti_air_slot             = dp_ship_secondaries_1
+      fixed_ship_fire_control_system_slot  = ship_fire_control_system_1
+      fixed_ship_radar_slot                = empty
+      fixed_ship_engine_slot               = cruiser_ship_engine_1
+      fixed_ship_secondaries_slot          = ship_secondaries_2
+      fixed_ship_armor_slot                = ship_armor_cruiser_2
+      mid_1_custom_slot                    = ship_anti_air_1
+      mid_2_custom_slot                    = empty
+      rear_1_custom_slot                   = empty
+    }
+  }
+
+  # ロッシャ級機雷敷設艦
+  # 1929年竣工(1935年改装) 7500t/8800t, 52000shp, 31kt
+  # 130mm単装砲×8門, 76mm高角砲×4門, 37mm×12, 機雷420個
+  create_equipment_variant = {
+    name = "Rosha Class"
+    type = ship_hull_cruiser_1
+    name_group = RUS_CA_HISTORICAL
+    parent_version = 0
+    modules = {
+      fixed_ship_battery_slot              = ship_light_medium_battery_1
+      fixed_ship_anti_air_slot             = ship_anti_air_2
+      fixed_ship_fire_control_system_slot  = ship_fire_control_system_1
+      fixed_ship_radar_slot                = empty
+      fixed_ship_engine_slot               = cruiser_ship_engine_2
+      fixed_ship_secondaries_slot          = dp_ship_secondaries_1
+      fixed_ship_armor_slot                = ship_armor_cruiser_1
+      mid_1_custom_slot                    = ship_mine_layer_1
+      mid_2_custom_slot                    = empty
+      rear_1_custom_slot                   = empty
+    }
+  }
+
+  # ボガトゥーリ級敷設巡洋艦
+  # 1902年竣工(1930-1935年改装) 7100t/8300t, 23000shp, 21.5kt
+  # 130mm単装砲×8門, 76mm高角砲×4門, 37mm×12, 機雷220個
+  create_equipment_variant = {
+    name = "Bogatyr Class"
+    type = ship_hull_cruiser_1
+    name_group = RUS_CA_HISTORICAL
+    parent_version = 0
+    modules = {
+      fixed_ship_battery_slot              = ship_light_medium_battery_1
+      fixed_ship_anti_air_slot             = ship_anti_air_2
+      fixed_ship_fire_control_system_slot  = ship_fire_control_system_1
+      fixed_ship_radar_slot                = empty
+      fixed_ship_engine_slot               = cruiser_ship_engine_1
+      fixed_ship_secondaries_slot          = dp_ship_secondaries_1
+      fixed_ship_armor_slot                = ship_armor_cruiser_1
+      mid_1_custom_slot                    = ship_mine_layer_1
+      mid_2_custom_slot                    = empty
+      rear_1_custom_slot                   = empty
+    }
+  }
+
+  # アンガラ級特設巡洋艦 (アンガラ)
+  # 1900年竣工(1930-1934年改装) 12000t/14500t, 12000ihp, 16.5kt
+  # 152mm単装砲×4門, 102mm単装×4門, 76mm高角砲×2門, 37mm×8, 機雷120個
+  create_equipment_variant = {
+    name = "Angara Class"
+    type = ship_hull_cruiser_1
+    name_group = RUS_AUX_HISTORICAL
+    parent_version = 0
+    modules = {
+      fixed_ship_battery_slot              = ship_light_medium_battery_2
+      fixed_ship_anti_air_slot             = ship_anti_air_1
+      fixed_ship_fire_control_system_slot  = ship_fire_control_system_0
+      fixed_ship_radar_slot                = empty
+      fixed_ship_engine_slot               = cruiser_ship_engine_1
+      fixed_ship_secondaries_slot          = ship_secondaries_1
+      fixed_ship_armor_slot                = ship_armor_cruiser_1
+      mid_1_custom_slot                    = ship_mine_layer_1
+      mid_2_custom_slot                    = empty
+      rear_1_custom_slot                   = empty
+    }
+    obsolete = yes
+  }
+
+  # 遼東級水上機母艦
+  # 1927年竣工(1933-1936年改装) 5200t/6500t, 18000shp, 18.5kt
+  # 102mm単装砲×4門, 76mm高角砲×4門, 37mm×10, 水上機8機
+  create_equipment_variant = {
+    name = "Liaodong Tender Class"
+    type = ship_hull_cruiser_1
+    name_group = RUS_AUX_HISTORICAL
+    parent_version = 0
+    modules = {
+      fixed_ship_battery_slot              = ship_light_medium_battery_1
+      fixed_ship_anti_air_slot             = ship_anti_air_2
+      fixed_ship_fire_control_system_slot  = ship_fire_control_system_0
+      fixed_ship_radar_slot                = empty
+      fixed_ship_engine_slot               = cruiser_ship_engine_1
+      fixed_ship_secondaries_slot          = dp_ship_secondaries_1
+      fixed_ship_armor_slot                = ship_armor_cruiser_1
+      mid_1_custom_slot                    = empty
+      mid_2_custom_slot                    = empty
+      rear_1_custom_slot                   = empty
+    }
+  }
+
+  ### 海防戦艦 ###
+
+  # アドミラル・ラザレフ級海防戦艦
+  # 1933年竣工(1936年小改装) 9800t/11500t, 35000shp, 19.5kt
+  # 305mm連装砲×4門, 100mm連装高角砲×8門, 76mm高角砲×4門, 37mm×20
+  create_equipment_variant = {
+    name = "Admiral Lazarev Class"
+    type = ship_hull_cruiser_coastal_defense_ship
+    name_group = RUS_CA_HISTORICAL
+    parent_version = 0
+    modules = {
+      fixed_ship_battery_slot              = ship_heavy_battery_1
+      fixed_ship_anti_air_slot             = ship_anti_air_2
+      fixed_ship_fire_control_system_slot  = ship_fire_control_system_2
+      fixed_ship_radar_slot                = empty
+      fixed_ship_engine_slot               = cruiser_ship_engine_2
+      fixed_ship_secondaries_slot          = dp_ship_secondaries_1
+      fixed_ship_armor_slot                = ship_armor_cruiser_3
+      front_1_custom_slot                  = ship_anti_air_1
+      mid_1_custom_slot                    = ship_anti_air_2
+      mid_2_custom_slot                    = empty
+      rear_1_custom_slot                   = empty
+    }
+  }
+
+  # アドミラル・スピリドフ級海防戦艦
+  # 1935年竣工(1936年小改装) 12500t/14800t, 48000shp, 21.5kt
+  # 254mm三連装砲×6門, 130mm連装両用砲×8門, 76mm高角砲×6門, 37mm×24
+  create_equipment_variant = {
+    name = "Admiral Spiridov Class"
+    type = ship_hull_cruiser_coastal_defense_ship
+    name_group = RUS_CA_HISTORICAL
+    parent_version = 0
+    modules = {
+      fixed_ship_battery_slot              = ship_heavy_battery_1
+      fixed_ship_anti_air_slot             = ship_anti_air_3
+      fixed_ship_fire_control_system_slot  = ship_fire_control_system_2
+      fixed_ship_radar_slot                = empty
+      fixed_ship_engine_slot               = cruiser_ship_engine_2
+      fixed_ship_secondaries_slot          = dp_ship_secondaries_3
+      fixed_ship_armor_slot                = ship_armor_cruiser_3
+      front_1_custom_slot                  = ship_anti_air_2
+      mid_1_custom_slot                    = dp_ship_secondaries_2
+      mid_2_custom_slot                    = empty
+      rear_1_custom_slot                   = dp_ship_secondaries_3
+    }
+  }
+
+  ### 航空母艦 ###
+
+  # オルリーツァ級航空母艦
+  # 1916年竣工(1928-1933年改装) 11500t/14000t, 30000shp, 20kt
+  # 搭載機24機, 100mm高角砲×6門, 76mm高角砲×4門, 37mm×16
+  create_equipment_variant = {
+    name = "Orlitsa Class"
+    type = ship_hull_carrier_conversion_bb
+    name_group = RUS_CVL_HISTORICAL
+    parent_version = 0
+    modules = {
+      fixed_ship_deck_slot_1               = ship_deck_space
+      fixed_ship_deck_slot_2               = ship_deck_space
+      fixed_ship_anti_air_slot             = ship_anti_air_2
+      fixed_ship_radar_slot                = empty
+      fixed_ship_engine_slot               = heavy_ship_engine_2
+      fixed_ship_secondaries_slot          = dp_ship_secondaries_1
+      fixed_ship_armor_slot                = ship_armor_bb_1
+      mid_1_custom_slot                    = ship_deck_space
+    }
+  }
+
+  # グロモボイ級試験空母 (装甲巡洋艦改装)
+  # 1900年竣工(1927-1932年改装) 15500t/17800t, 22000shp, 19.5kt
+  # 搭載機18機, 100mm高角砲×4門, 76mm高角砲×4門, 37mm×12
+  create_equipment_variant = {
+    name = "Gromoboi Class"
+    type = ship_hull_carrier_conversion_ca
+    name_group = RUS_CVL_HISTORICAL
+    parent_version = 0
+    modules = {
+      fixed_ship_deck_slot_1               = ship_deck_space
+      fixed_ship_deck_slot_2               = ship_deck_space
+      fixed_ship_anti_air_slot             = ship_anti_air_2
+      fixed_ship_radar_slot                = empty
+      fixed_ship_engine_slot               = cruiser_ship_engine_1
+      fixed_ship_secondaries_slot          = dp_ship_secondaries_1
+      fixed_ship_armor_slot                = ship_armor_cruiser_2
+    }
+  }
+
+  # オスリャービャ級軽空母 (戦艦改装)
+  # 1901年竣工(1929-1934年改装) 14000t/16500t, 24000shp, 20kt
+  # 搭載機22機, 100mm高角砲×6門, 76mm高角砲×4門, 37mm×16
+  create_equipment_variant = {
+    name = "Osliabia Class"
+    type = ship_hull_carrier_conversion_bb
+    name_group = RUS_CVL_HISTORICAL
+    parent_version = 0
+    modules = {
+      fixed_ship_deck_slot_1               = ship_deck_space
+      fixed_ship_deck_slot_2               = ship_deck_space
+      fixed_ship_anti_air_slot             = ship_anti_air_2
+      fixed_ship_radar_slot                = empty
+      fixed_ship_engine_slot               = heavy_ship_engine_1
+      fixed_ship_secondaries_slot          = dp_ship_secondaries_1
+      fixed_ship_armor_slot                = ship_armor_bb_1
+      mid_1_custom_slot                    = ship_deck_space
+    }
+  }
+
+  ### 一等駆逐艦 (旧式) ###
+
+  # ブイヌィ級一等駆逐艦
+  # 1902年竣工(1930-1933年改装) 420t/520t, 6500ihp, 24.5kt, 石炭・重油混焼
+  # 102mm単装×1, 76mm×1, 37mm×2, 450mm魚雷発射管×2, 爆雷12個
+  create_equipment_variant = {
+    name = "Buiny Class"
+    type = ship_hull_light_1
+    name_group = RUS_DD_HISTORICAL
+    parent_version = 0
+    modules = {
+      fixed_ship_battery_slot              = ship_light_battery_2
+      fixed_ship_anti_air_slot             = ship_anti_air_1
+      fixed_ship_fire_control_system_slot  = ship_fire_control_system_0
+      fixed_ship_radar_slot                = empty
+      fixed_ship_torpedo_slot              = ship_torpedo_1
+      fixed_ship_engine_slot               = light_ship_engine_1
+      mid_1_custom_slot                    = ship_depth_charge_1
+      rear_1_custom_slot                   = empty
+    }
+    obsolete = yes
+  }
+
+  # グローズヌイ級一等駆逐艦
+  # 1903年竣工(1930-1934年改装) 430t/540t, 7000ihp, 25kt, 石炭・重油混焼
+  # 102mm単装×1, 76mm×1, 37mm×2, 450mm魚雷×2, 爆雷16個
+  create_equipment_variant = {
+    name = "Grozny Class"
+    type = ship_hull_light_1
+    name_group = RUS_DD_HISTORICAL
+    parent_version = 0
+    modules = {
+      fixed_ship_battery_slot              = ship_light_battery_2
+      fixed_ship_anti_air_slot             = ship_anti_air_1
+      fixed_ship_fire_control_system_slot  = ship_fire_control_system_0
+      fixed_ship_radar_slot                = empty
+      fixed_ship_torpedo_slot              = ship_torpedo_1
+      fixed_ship_engine_slot               = light_ship_engine_1
+      mid_1_custom_slot                    = ship_depth_charge_1
+      rear_1_custom_slot                   = empty
+    }
+    obsolete = yes
+  }
+
+  # プーシチン級一等駆逐艦 (旧レイトナント・プーシチン級)
+  # 1905年竣工(1931-1935年改装) 650t/780t, 9500shp, 27kt, 重油専燃
+  # 102mm単装×2, 76mm高角砲×1, 37mm×4, 450mm連装魚雷×1, 爆雷24個
+  create_equipment_variant = {
+    name = "Pushchin Class"
+    type = ship_hull_light_1
+    name_group = RUS_DD_HISTORICAL
+    parent_version = 0
+    modules = {
+      fixed_ship_battery_slot              = ship_light_battery_2
+      fixed_ship_anti_air_slot             = ship_anti_air_1
+      fixed_ship_fire_control_system_slot  = ship_fire_control_system_0
+      fixed_ship_radar_slot                = empty
+      fixed_ship_torpedo_slot              = ship_torpedo_1
+      fixed_ship_engine_slot               = light_ship_engine_1
+      mid_1_custom_slot                    = ship_depth_charge_1
+      rear_1_custom_slot                   = empty
+    }
+  }
+
+  # トヴェールドイ級一等駆逐艦
+  # 1906年竣工(1931-1935年改装) 680t/820t, 10000shp, 27.5kt, 重油専燃
+  # 102mm単装×2, 76mm高角砲×1, 37mm×4, 450mm連装魚雷×1, 爆雷24個
+  create_equipment_variant = {
+    name = "Tvordoy Class"
+    type = ship_hull_light_1
+    name_group = RUS_DD_HISTORICAL
+    parent_version = 0
+    modules = {
+      fixed_ship_battery_slot              = ship_light_battery_2
+      fixed_ship_anti_air_slot             = ship_anti_air_1
+      fixed_ship_fire_control_system_slot  = ship_fire_control_system_0
+      fixed_ship_radar_slot                = empty
+      fixed_ship_torpedo_slot              = ship_torpedo_1
+      fixed_ship_engine_slot               = light_ship_engine_1
+      mid_1_custom_slot                    = ship_depth_charge_1
+      rear_1_custom_slot                   = empty
+    }
+  }
+
+  ### 一等駆逐艦 (近代) ###
+
+  # モールニヤ級一等駆逐艦
+  # 1928-1931年竣工(1935年改装) 1780t, 50000shp, 38kt
+  # 130mm単装砲×4, 76mm高角砲×2, 45mm機銃×4, 533mm三連装魚雷×2, 爆雷2, 機雷70個
+  create_equipment_variant = {
+    name = "Molniya Class"
+    type = ship_hull_light_1
+    name_group = RUS_DD_HISTORICAL
+    parent_version = 0
+    modules = {
+      fixed_ship_battery_slot              = ship_light_battery_2
+      fixed_ship_anti_air_slot             = ship_anti_air_2
+      fixed_ship_fire_control_system_slot  = ship_fire_control_system_1
+      fixed_ship_radar_slot                = empty
+      fixed_ship_torpedo_slot              = ship_torpedo_2
+      fixed_ship_engine_slot               = light_ship_engine_2
+      mid_1_custom_slot                    = ship_depth_charge_1
+      rear_1_custom_slot                   = ship_mine_layer_1
+    }
+  }
+
+  # 新京級一等駆逐艦
+  # 1930-1933年竣工 1850t, 52000shp, 37.5kt
+  # 130mm単装砲×4, 76mm高角砲×2, 45mm機銃×4, 533mm三連装魚雷×2, 爆雷2, 機雷70個
+  create_equipment_variant = {
+    name = "Shinkyo Class"
+    type = ship_hull_light_1
+    name_group = RUS_DD_HISTORICAL
+    parent_version = 0
+    modules = {
+      fixed_ship_battery_slot              = ship_light_battery_2
+      fixed_ship_anti_air_slot             = ship_anti_air_2
+      fixed_ship_fire_control_system_slot  = ship_fire_control_system_1
+      fixed_ship_radar_slot                = empty
+      fixed_ship_torpedo_slot              = ship_torpedo_2
+      fixed_ship_engine_slot               = light_ship_engine_2
+      mid_1_custom_slot                    = ship_depth_charge_1
+      rear_1_custom_slot                   = ship_mine_layer_1
+    }
+  }
+
+  # アドミラル・エッセン級嚮導駆逐艦
+  # 1931-1934年竣工 2550t, 72000shp, 39kt
+  # 130mm単装砲×5, 76mm高角砲×3, 45mm機銃×6, 533mm四連装魚雷×2, 爆雷4, 機雷80個
+  create_equipment_variant = {
+    name = "Admiral Essen Class"
+    type = ship_hull_light_2
+    name_group = RUS_DD_HISTORICAL
+    parent_version = 0
+    modules = {
+      fixed_ship_battery_slot              = ship_light_battery_2
+      fixed_ship_anti_air_slot             = ship_anti_air_2
+      fixed_ship_fire_control_system_slot  = ship_fire_control_system_1
+      fixed_ship_radar_slot                = empty
+      fixed_ship_torpedo_slot              = ship_torpedo_2
+      fixed_ship_engine_slot               = light_ship_engine_2
+      mid_1_custom_slot                    = ship_depth_charge_1
+      rear_1_custom_slot                   = ship_mine_layer_1
+    }
+  }
+
+  # オケアン級一等駆逐艦
+  # 1933-1935年竣工 2180t, 62000shp, 38.5kt
+  # 130mm単装砲×4, 100mm高角砲×2, 45mm機銃×6, 533mm四連装魚雷×2, 爆雷4, 機雷80個
+  create_equipment_variant = {
+    name = "Okean Class"
+    type = ship_hull_light_2
+    name_group = RUS_DD_HISTORICAL
+    parent_version = 0
+    modules = {
+      fixed_ship_battery_slot              = ship_light_battery_2
+      fixed_ship_anti_air_slot             = ship_anti_air_2
+      fixed_ship_fire_control_system_slot  = ship_fire_control_system_1
+      fixed_ship_radar_slot                = empty
+      fixed_ship_torpedo_slot              = ship_torpedo_2
+      fixed_ship_engine_slot               = light_ship_engine_2
+      mid_1_custom_slot                    = ship_depth_charge_1
+      rear_1_custom_slot                   = ship_mine_layer_1
+    }
+  }
+
+  ### 二等駆逐艦・護衛艦 ###
+
+  # フィン湾級二等駆逐艦 (ソーコル級バルチック群)
+  # 1895年竣工(1930-1933年改装) 270t/340t, 3800ihp, 20kt, 石炭専焼
+  # 76mm単装×1, 47mm速射砲×2, 37mm×2, 爆雷8個
+  create_equipment_variant = {
+    name = "Finn Gulf Class"
+    type = ship_hull_light_1
+    name_group = RUS_DD_HISTORICAL
+    parent_version = 0
+    modules = {
+      fixed_ship_battery_slot              = ship_light_battery_1
+      fixed_ship_anti_air_slot             = ship_anti_air_1
+      fixed_ship_fire_control_system_slot  = ship_fire_control_system_0
+      fixed_ship_radar_slot                = empty
+      fixed_ship_torpedo_slot              = empty
+      fixed_ship_engine_slot               = light_ship_engine_1
+      mid_1_custom_slot                    = ship_depth_charge_1
+      rear_1_custom_slot                   = empty
+    }
+    obsolete = yes
+  }
+
+  # ドヴィナ級二等駆逐艦 (ソーコル級本国残存艦)
+  # 1895年竣工(1930-1933年改装) 280t/350t, 3900ihp, 20kt, 石炭専焼
+  # 76mm単装×1, 47mm速射砲×2, 37mm×2, 爆雷10個
+  create_equipment_variant = {
+    name = "Dvina Class"
+    type = ship_hull_light_1
+    name_group = RUS_DD_HISTORICAL
+    parent_version = 0
+    modules = {
+      fixed_ship_battery_slot              = ship_light_battery_1
+      fixed_ship_anti_air_slot             = ship_anti_air_1
+      fixed_ship_fire_control_system_slot  = ship_fire_control_system_0
+      fixed_ship_radar_slot                = empty
+      fixed_ship_torpedo_slot              = empty
+      fixed_ship_engine_slot               = light_ship_engine_1
+      mid_1_custom_slot                    = ship_depth_charge_1
+      rear_1_custom_slot                   = empty
+    }
+    obsolete = yes
+  }
+
+  # コラ級二等駆逐艦 (耐氷補強型)
+  # 1932-1935年竣工 1120t, 24000shp, 31kt, 重油専燃
+  # 102mm単装砲×3, 76mm高角砲×1, 45mm機銃×4, 450mm三連装魚雷×1, 爆雷4, 機雷40個
+  create_equipment_variant = {
+    name = "Kola Class"
+    type = ship_hull_light_1
+    name_group = RUS_DD_HISTORICAL
+    parent_version = 0
+    modules = {
+      fixed_ship_battery_slot              = ship_light_battery_2
+      fixed_ship_anti_air_slot             = ship_anti_air_2
+      fixed_ship_fire_control_system_slot  = ship_fire_control_system_1
+      fixed_ship_radar_slot                = empty
+      fixed_ship_torpedo_slot              = ship_torpedo_1
+      fixed_ship_engine_slot               = light_ship_engine_1
+      mid_1_custom_slot                    = ship_depth_charge_1
+      rear_1_custom_slot                   = ship_mine_layer_1
+    }
+  }
+
+  # コトリン級コルベット (旧レイテナント・イリイン級)
+  # 1887年竣工(1930-1933年改装) 620t/760t, 2800ihp, 15kt, 石炭専焼
+  # 76mm単装×2, 47mm速射砲×2, 37mm×2, 爆雷8個
+  create_equipment_variant = {
+    name = "Kotrin Class"
+    type = ship_hull_light_1
+    name_group = RUS_DD_HISTORICAL
+    parent_version = 0
+    modules = {
+      fixed_ship_battery_slot              = ship_light_battery_1
+      fixed_ship_anti_air_slot             = ship_anti_air_1
+      fixed_ship_fire_control_system_slot  = ship_fire_control_system_0
+      fixed_ship_radar_slot                = empty
+      fixed_ship_torpedo_slot              = empty
+      fixed_ship_engine_slot               = light_ship_engine_1
+      mid_1_custom_slot                    = ship_depth_charge_1
+      rear_1_custom_slot                   = empty
+    }
+    obsolete = yes
+  }
+
+  # コルヒダ級戦闘艇 (旧アンクラム型)
+  # 1898年竣工(1930-1934年改装) 150t/190t, 1500ihp, 21kt, 石炭・重油混焼
+  # 47mm速射砲×1, 37mm×2, 381mm魚雷発射管×1, 爆雷6個
+  create_equipment_variant = {
+    name = "Kolhida Class"
+    type = ship_hull_light_1
+    name_group = RUS_DD_HISTORICAL
+    parent_version = 0
+    modules = {
+      fixed_ship_battery_slot              = ship_light_battery_1
+      fixed_ship_anti_air_slot             = ship_anti_air_1
+      fixed_ship_fire_control_system_slot  = ship_fire_control_system_0
+      fixed_ship_radar_slot                = empty
+      fixed_ship_torpedo_slot              = ship_torpedo_1
+      fixed_ship_engine_slot               = light_ship_engine_1
+      mid_1_custom_slot                    = ship_depth_charge_1
+      rear_1_custom_slot                   = empty
+    }
+    obsolete = yes
+  }
+
+  # バルチック港湾戦闘艇 (番号水雷艇 No.101-No.106)
+  # 1900年竣工(1930-1932年改装) 55t/70t, 600ihp, 15.5kt, 石炭専焼
+  # 37mm機銃×1, 7.62mm×2, 爆雷2個
+  create_equipment_variant = {
+    name = "Baltic Harbor Craft"
+    type = ship_hull_light_1
+    name_group = RUS_DD_HISTORICAL
+    parent_version = 0
+    modules = {
+      fixed_ship_battery_slot              = ship_light_battery_1
+      fixed_ship_anti_air_slot             = ship_anti_air_1
+      fixed_ship_fire_control_system_slot  = ship_fire_control_system_0
+      fixed_ship_radar_slot                = empty
+      fixed_ship_torpedo_slot              = empty
+      fixed_ship_engine_slot               = light_ship_engine_1
+      mid_1_custom_slot                    = ship_depth_charge_1
+      rear_1_custom_slot                   = empty
+    }
+    obsolete = yes
+  }
+
+  # 黒海港湾戦闘艇 (番号水雷艇 No.121-No.124)
+  # 1900年竣工(1930-1932年改装) 58t/72t, 620ihp, 15.5kt, 石炭専焼
+  # 37mm機銃×1, 7.62mm×2, 爆雷2個
+  create_equipment_variant = {
+    name = "Black Sea Harbor Craft"
+    type = ship_hull_light_1
+    name_group = RUS_DD_HISTORICAL
+    parent_version = 0
+    modules = {
+      fixed_ship_battery_slot              = ship_light_battery_1
+      fixed_ship_anti_air_slot             = ship_anti_air_1
+      fixed_ship_fire_control_system_slot  = ship_fire_control_system_0
+      fixed_ship_radar_slot                = empty
+      fixed_ship_torpedo_slot              = empty
+      fixed_ship_engine_slot               = light_ship_engine_1
+      mid_1_custom_slot                    = ship_depth_charge_1
+      rear_1_custom_slot                   = empty
+    }
+    obsolete = yes
+  }
+
+  ### 潜水艦 ###
+
+  # デリフィン級二等潜水艦
+  # 1903年竣工(1930-1932年改装) 130t/160t, 300hp/120hp, 8kt/4.5kt
+  # 381mm魚雷発射管×2, 魚雷4本, 7.62mm機銃×1
+  create_equipment_variant = {
+    name = "Delphine Class"
+    type = ship_hull_submarine_1
+    name_group = RUS_SS_HISTORICAL
+    parent_version = 0
+    modules = {
+      fixed_ship_torpedo_slot              = ship_torpedo_sub_1
+      fixed_ship_engine_slot               = sub_ship_engine_1
+      rear_1_custom_slot                   = empty
+    }
+    obsolete = yes
+  }
+
+  # ソム級二等潜水艦 (ホーランド型)
+  # 1904年竣工(1930-1933年改装) 120t/150t, 320hp/150hp, 8.5kt/5kt
+  # 450mm魚雷発射管×1, 魚雷4本, 7.62mm機銃×1
+  create_equipment_variant = {
+    name = "Som Class"
+    type = ship_hull_submarine_1
+    name_group = RUS_SS_HISTORICAL
+    parent_version = 0
+    modules = {
+      fixed_ship_torpedo_slot              = ship_torpedo_sub_1
+      fixed_ship_engine_slot               = sub_ship_engine_1
+      rear_1_custom_slot                   = empty
+    }
+    obsolete = yes
+  }
+
+  # カサトカ級二等潜水艦
+  # 1905年竣工(1930-1933年改装) 170t/210t, 500hp/200hp, 9kt/5.5kt
+  # 450mm魚雷発射管×2, 魚雷4本, 45mm砲×1
+  create_equipment_variant = {
+    name = "Kasatka Class"
+    type = ship_hull_submarine_1
+    name_group = RUS_SS_HISTORICAL
+    parent_version = 0
+    modules = {
+      fixed_ship_torpedo_slot              = ship_torpedo_sub_1
+      fixed_ship_engine_slot               = sub_ship_engine_1
+      rear_1_custom_slot                   = ship_torpedo_sub_1
+    }
+    obsolete = yes
+  }
+
+  ### 工作艦 ###
+
+  # ラドガ級工作艦 (旧ポチョムキン＝タヴリーチェスキー公)
+  # 1905年竣工(1930-1935年改装) 13300t/15800t, 16000shp, 15kt, 重油専燃
+  # 102mm単装×4, 76mm高角砲×4, 37mm×8, 30tクレーン×2, 工作設備
+  create_equipment_variant = {
+    name = "Ladoga Class"
+    type = repair_ship_1
+    name_group = RUS_AUX_HISTORICAL
+    parent_version = 0
+    modules = {
+    }
+  }
+
+  # バイカル級工作艦 (旧ピョートル・ヴェリーキー)
+  # 1877年竣工(1929-1934年改装) 10500t/12200t, 8500ihp, 12.5kt
+  # 102mm単装×2, 76mm高角砲×4, 37mm×6, 20tクレーン×2, 工作設備
+  create_equipment_variant = {
+    name = "Baikal Class"
+    type = repair_ship_1
+    name_group = RUS_AUX_HISTORICAL
+    parent_version = 0
+    modules = {
+    }
+  }
+
+  # アレウト級工作補助艦
+  # 1898年竣工(1930-1933年改装) 2800t/3500t, 3000ihp, 12kt
+  # 76mm単装×2, 37mm×4, 5tデリック×2, 小型修理設備
+  create_equipment_variant = {
+    name = "Aleut Class"
+    type = repair_ship_1
+    name_group = RUS_AUX_HISTORICAL
+    parent_version = 0
+    modules = {
+    }
+  }
+
+  # ベーリング級工作補助艦
+  # 1898年竣工(1930-1933年改装) 2800t/3500t, 3000ihp, 12kt
+  # 76mm単装×2, 37mm×4, 5tデリック×2, 小型修理設備
+  create_equipment_variant = {
+    name = "Bering Class"
+    type = repair_ship_1
+    name_group = RUS_AUX_HISTORICAL
+    parent_version = 0
+    modules = {
+    }
+  }
+}

@@ -229,7 +229,7 @@ if = {
 	}
 	# Battleships #
 	create_equipment_variant = {
-		name = "Kilkis Class"	
+		name = "Kilkis Class"
 		type = ship_hull_pre_dreadnought
 		parent_version = 0
 		modules = {
@@ -245,6 +245,47 @@ if = {
 			rear_1_custom_slot = empty
 		}
 	}
+	# ヴァシレフス・ゲオルギオス (旧レトヴィザン, 1902年/1931-1934年改装)
+	# 305mm連装砲×4門, 152mm連装速射砲×8門, 100mm高角砲×4門, 40mm機銃×8, 13.2mm×12
+	create_equipment_variant = {
+		name = "Vasilefs Georgios Class"
+		type = ship_hull_pre_dreadnought
+		name_group = GRE_BB_HISTORICAL
+		parent_version = 0
+		modules = {
+			fixed_ship_battery_slot = ship_heavy_battery_1
+			fixed_ship_anti_air_slot = ship_anti_air_2
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_1
+			fixed_ship_radar_slot = empty
+			fixed_ship_engine_slot = heavy_ship_engine_2
+			fixed_ship_secondaries_slot = ship_secondaries_2
+			fixed_ship_armor_slot = ship_armor_bb_1
+			front_1_custom_slot = ship_anti_air_1
+			mid_1_custom_slot = empty
+			rear_1_custom_slot = empty
+		}
+	}
+	# エーゲ級フリゲート (旧コリエーツ級, 1887年/1931-1934年改装)
+	# 102mm単装砲×2, 76mm高角砲×2, 37mm×4, 爆雷16個
+	create_equipment_variant = {
+		name = "Aegean Class"
+		type = ship_hull_light_1
+		name_group = GRE_DD_HISTORICAL
+		parent_version = 0
+		modules = {
+			fixed_ship_battery_slot = ship_light_battery_2
+			fixed_ship_anti_air_slot = ship_anti_air_1
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+			fixed_ship_radar_slot = empty
+			fixed_ship_torpedo_slot = empty
+			fixed_ship_engine_slot = light_ship_engine_1
+			mid_1_custom_slot = ship_depth_charge_1
+			rear_1_custom_slot = empty
+		}
+		obsolete = yes
+	}
 }
+
+set_oob = "GRE_1936"
 
 # 1939 Start #

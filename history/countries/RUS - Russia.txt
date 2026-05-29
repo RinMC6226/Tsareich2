@@ -126,6 +126,7 @@ if = {
 		basic_heavy_battery = 1
 		basic_torpedo = 1
 	}
+	tsr_create_RUS_navy_variants = yes
 }
 
 set_technology = { # mod

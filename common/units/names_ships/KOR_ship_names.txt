@@ -1,0 +1,77 @@
+##########################################################
+# Tsareich2 - KOR Ship Names
+# 大韓帝国海軍 艦名グループ定義
+##########################################################
+
+### 戦艦 ###
+KOR_BB_HISTORICAL = {
+  name = NAME_THEME_HISTORICAL_CAPITAL
+
+  for_countries = { KOR }
+
+  type = ship
+  ship_types = { ship_hull_heavy battleship }
+
+  prefix = ""
+  fallback_name = "Hamham %s"
+
+  unique = {
+    "Yangmu" "Gwangmu" "Sejong" "Taejo" "Gwanggaeto"
+    "Jinmu" "Chunmoo" "Siwon"
+  }
+}
+
+### 巡洋艦 ###
+KOR_CA_HISTORICAL = {
+  name = NAME_THEME_HISTORICAL_CRUISER
+
+  for_countries = { KOR }
+
+  type = ship
+  ship_types = { ship_hull_cruiser heavy_cruiser light_cruiser }
+
+  prefix = ""
+  fallback_name = "Sunyang %s"
+
+  unique = {
+    "Kojae" "Daegu" "Pyongyang" "Wonsan" "Busan"
+    "Incheon" "Mokpo" "Jeonju" "Gwangju"
+  }
+}
+
+### 駆逐艦・小型艦艇 ###
+KOR_DD_HISTORICAL = {
+  name = NAME_THEME_HISTORICAL_DESTROYER
+
+  for_countries = { KOR }
+
+  type = ship
+  ship_types = { ship_hull_light destroyer }
+
+  prefix = ""
+  fallback_name = "Guham %s"
+
+  unique = {
+    "Hangan" "Nakdong" "Geum" "Yeongsan" "Seomjin"
+    "Paektu" "Kumgang" "Seoraksan" "Jirisan"
+    "Mashisu" "Ararat" "Sevan"
+  }
+}
+
+### 潜水艦 ###
+KOR_SS_HISTORICAL = {
+  name = NAME_THEME_HISTORICAL_SUBMARINE
+
+  for_countries = { KOR }
+
+  type = ship
+  ship_types = { ship_hull_submarine submarine }
+
+  prefix = ""
+  fallback_name = "Jamsuham %s"
+
+  unique = {
+    "Kame" "Fuka" "Iruka" "Orca"
+    "S-1" "S-2" "S-3"
+  }
+}

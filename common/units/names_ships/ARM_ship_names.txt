@@ -1,0 +1,78 @@
+##########################################################
+# Tsareich2 - ARM Ship Names
+# アルメニア海軍 艦名グループ定義
+##########################################################
+
+### 戦艦・装甲巡洋艦 ###
+ARM_BBCA_HISTORICAL = {
+  name = NAME_THEME_HISTORICAL_CAPITAL
+
+  for_countries = { ARM }
+
+  type = ship
+  ship_types = { ship_hull_heavy ship_hull_cruiser battleship heavy_cruiser }
+
+  prefix = ""
+  fallback_name = "Naw %s"
+
+  unique = {
+    "Rostislav" "Bayan" "Pamyat Azova" "Ararat"
+    "Sevan" "Van" "Erzurum" "Kars" "Ani"
+    "Aragats" "Sipan" "Nemrut"
+  }
+}
+
+### 防護巡洋艦 ###
+ARM_CL_HISTORICAL = {
+  name = NAME_THEME_HISTORICAL_CRUISER
+
+  for_countries = { ARM }
+
+  type = ship
+  ship_types = { ship_hull_cruiser light_cruiser }
+
+  prefix = ""
+  fallback_name = "Kreyser %s"
+
+  unique = {
+    "Diana" "Askold" "Araks" "Kura" "Aras" "Razdan"
+    "Hrazdan" "Akhuryan" "Geghi" "Kasakh"
+  }
+}
+
+### 駆逐艦・小型艦艇 ###
+ARM_DD_HISTORICAL = {
+  name = NAME_THEME_HISTORICAL_DESTROYER
+
+  for_countries = { ARM }
+
+  type = ship
+  ship_types = { ship_hull_light destroyer }
+
+  prefix = ""
+  fallback_name = "Esminets %s"
+
+  unique = {
+    "Araks" "Kura" "Aras" "Aragvi" "Choroh"
+    "Karbala" "Mosul" "Urmia" "Tabriz"
+    "Artashat" "Dvin" "Tigranakert"
+  }
+}
+
+### 補助艦艇 ###
+ARM_AUX_HISTORICAL = {
+  name = NAME_THEME_HISTORICAL_AUXILIARY
+
+  for_countries = { ARM }
+
+  type = ship
+  ship_types = { ship_hull_cruiser }
+
+  prefix = ""
+  fallback_name = "Vspomogatelny %s"
+
+  unique = {
+    "Al-Mari" "Ararat" "Sevan" "Urmia"
+    "Trabzon" "Batumi" "Yerevan"
+  }
+}
