@@ -170,5 +170,5 @@ tsr_balkan_war_peace_settlement = {
 	}
 
 	# 住民交換ニュース
-	news_event = { id = tsr_balkan_war.106 days = 2 }
+	news_event = { id = tsr_balkan_war.106 days = 20 }
 }

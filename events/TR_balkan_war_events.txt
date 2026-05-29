@@ -105,8 +105,8 @@ country_event = {
 		BUL = { country_event = { id = tsr_balkan_war.50 days = 1 } }
 		HUN = { country_event = { id = tsr_balkan_war.51 days = 1 } }
 		news_event = { id = tsr_balkan_war.104 days = 2 }
-		# GREは秘密協定により開戦50日後にBULの背後を突いて参戦
-		GRE = { country_event = { id = tsr_balkan_war.52 days = 50 } }
+		# GREは秘密協定により開戦75日後にBULの背後を突いて参戦
+		GRE = { country_event = { id = tsr_balkan_war.52 days = 75 } }
 	}
 }
 
