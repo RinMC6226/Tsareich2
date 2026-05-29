@@ -7,22 +7,18 @@ add_namespace = tsr_balkan_war
 #
 # イベントフロー:
 #   .1(HUN,date) →45d→ .2(YUG,宣戦) →→→ .10(hidden,15d毎poll,sp>0.3)
-#                                    |        → .11(蜂起, SLO/RUT独立)
+#                                    |        → .11(蜂起, BNT/SLO/RUT独立)
 #                          +3d→ .4(GER支援)    → .22(hidden,10d毎poll,sp>0.7|Budapest)
 #                          +3d→ .5(RUS支援)        → .15(講和)
 #                          +45d→ .8(ROM参戦)           +30d→ .18(バナト分割)
-#                                                     +45d→ .20(ブルゲンラント割譲)
+#                                                      +45d→ .20(ブルゲンラント割譲)
 #
-# ポーリング: 2系統（surrender_progress閾値は対応するon_actionが無いためpoll）
+# ポーリング: 2段階制
 #   .10 = 蜂起判定(sp>0.3) → 15日毎ループ
 #   .22 = 講和判定(sp>0.7 or Budapest陥落) → 10日毎ループ
 #   蜂起→講和の間に時間差を設けるため分離。
 #
-# on_actions (common/on_actions/tsr_balkan_war.txt):
-#   on_state_control_changed = バナト独立(state82/764の支配喪失) → BNT独立(.12)。蜂起から独立して先行発火。
-#   on_capitulation          = ブルガリア降伏 → .58 ギリシャ単独講和(全体講和に先行)
-#
-# ニュースイベント: .100(開戦), .101(ROM参戦), .102(終戦), .103(バナト分割), .107(ギリシャ単独講和)
+# ニュースイベント: .100(開戦), .101(ROM参戦), .102(終戦), .103(バナト分割)
 #####################################################################
 
 ### 第1幕：国境事変 ###
@@ -100,8 +96,6 @@ country_event = {
 		ROM = { country_event = { id = tsr_balkan_war.8 days = 45 } }
 		# 蜂起ポーリング開始: 開戦30日後から15日毎にsp>0.3をチェック
 		HUN = { country_event = { id = tsr_balkan_war.10 days = 30 } }
-		# バナト独立は on_state_control_changed (common/on_actions/tsr_balkan_war.txt) で処理。
-		# state 82/764の支配喪失で即発火するためここでの予約は不要。
 		news_event = { id = tsr_balkan_war.100 days = 1 }
 		# フレーバー: YUG開戦の大義、HUN少数民族地域の不穏（蜂起伏線）
 		country_event = { id = tsr_balkan_war.31 days = 2 }
@@ -332,7 +326,7 @@ country_event = {
 		name = tsr_balkan_war.11.a
 		add_stability = -0.15
 		add_war_support = -0.1
-		# バナトはstate82/764の支配喪失でon_state_control_changedにて別途独立。ここではSLO/RUTのみ蜂起。
+		tsr_balkan_war_release_banat = yes
 		tsr_balkan_war_release_slovakia = yes
 		tsr_balkan_war_release_ruthenia = yes
 		# 講和判定ポーリング開始（sp>0.7 or Budapest陥落）
@@ -1048,7 +1042,6 @@ country_event = {
 		BUL = { country_event = { id = tsr_balkan_war.53 days = 1 } }
 		YUG = { country_event = { id = tsr_balkan_war.54 days = 1 } }
 		news_event = { id = tsr_balkan_war.105 days = 2 }
-		# ブルガリア降伏→ギリシャ単独講和は on_capitulation (common/on_actions/tsr_balkan_war.txt) で処理。
 	}
 }
 
@@ -1110,47 +1103,6 @@ country_event = {
 		name = tsr_balkan_war.56.a
 		add_political_power = 50
 		add_war_support = 0.05
-	}
-}
-
-# .58 GRE: 単独講和——協商離脱・対HUN白紙講和
-# 発火元: on_capitulation (common/on_actions/tsr_balkan_war.txt) — BUL降伏時に予約される。
-# ブルガリア降伏を受け、全体講和に先んじてギリシャが戦争から離脱。
-# 既存領トラキアを確保したまま「エーゲ海の覇権」精神へ移行。
-country_event = {
-	id = tsr_balkan_war.58
-	title = tsr_balkan_war.58.t
-	desc = tsr_balkan_war.58.d
-	picture = GFX_report_event_PLACEHOLDER
-
-	is_triggered_only = yes
-
-	option = {
-		name = tsr_balkan_war.58.a
-		add_war_support = 0.05
-		# バルカン協商を離脱し、HUN陣営(背後のBUL含む)とwhite_peaceで単独講和
-		leave_faction = yes
-		white_peace = HUN
-		# 戦中精神→戦後精神（全体講和のGREブロックはフラグで抑止される）
-		remove_ideas = tsr_gre_thracian_ambition
-		add_ideas = tsr_gre_aegean_supremacy
-		BUL = { country_event = { id = tsr_balkan_war.59 days = 1 } }
-		news_event = { id = tsr_balkan_war.107 days = 1 }
-	}
-}
-
-# .59 BUL: ギリシャ戦線の停戦
-country_event = {
-	id = tsr_balkan_war.59
-	title = tsr_balkan_war.59.t
-	desc = tsr_balkan_war.59.d
-	picture = GFX_report_event_PLACEHOLDER
-
-	is_triggered_only = yes
-
-	option = {
-		name = tsr_balkan_war.59.a
-		add_stability = 0.05
 	}
 }
 
@@ -1270,45 +1222,6 @@ news_event = {
 			NOT = {
 				OR = {
 					tag = GRE
-					tag = BUL
-				}
-			}
-		}
-	}
-}
-
-# .107 news: ギリシャ単独講和（ブルガリア降伏を受けた早期離脱）
-news_event = {
-	id = tsr_balkan_war.107
-	title = tsr_balkan_war.107.t
-	desc = tsr_balkan_war.107.d
-	picture = GFX_news_event_PLACEHOLDER
-
-	major = yes
-	is_triggered_only = yes
-
-	option = {
-		name = tsr_balkan_war.107.a
-		trigger = {
-			tag = GRE
-		}
-	}
-	option = {
-		name = tsr_balkan_war.107.b
-		trigger = {
-			OR = {
-				tag = HUN
-				tag = BUL
-			}
-		}
-	}
-	option = {
-		name = tsr_balkan_war.107.c
-		trigger = {
-			NOT = {
-				OR = {
-					tag = GRE
-					tag = HUN
 					tag = BUL
 				}
 			}
