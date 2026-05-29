@@ -1,0 +1,43 @@
+#####################################################################
+# バルカン戦争 on_actions
+#
+# BNTの早期独立トリガー。
+# 通常、BNT/SLO/RUT は .10→.11 の蜂起ポーリングで同時独立するが、
+# BNTのみ、YUG または ROM が「将来のBNT領」（state 82/764）の
+# いずれか一方を占領（支配権を奪取）した時点で先行独立させる。
+# SLO/RUT の独立タイミングは従来どおり .11 蜂起のまま。
+#
+# on_state_control_changed のスコープ:
+#   ROOT      = 新たな支配国（占領した国）
+#   FROM      = 旧支配国
+#   FROM.FROM = 支配権が移った州
+#
+# 二重独立（早期独立後に .11 蜂起で再独立）は、
+# tsr_balkan_war_release_banat 内の tsr_banat_released フラグガードで防止。
+#####################################################################
+
+on_actions = {
+	on_state_control_changed = {
+		effect = {
+			if = {
+				limit = {
+					# 占領されたのがバナト諸州(82/764)のいずれか
+					FROM.FROM = { tsr_is_banat_state = yes }
+					# 新支配国が YUG または ROM
+					ROOT = {
+						OR = {
+							tag = YUG
+							tag = ROM
+						}
+					}
+					# バルカン戦争が進行中（HUNがYUGと交戦中）
+					tsr_balkan_war_is_active = yes
+					# まだBNTが独立していない
+					HUN = { NOT = { has_country_flag = tsr_banat_released } }
+				}
+				# BNT先行独立（.12通知を含む）。冪等化済みのため安全。
+				tsr_balkan_war_release_banat = yes
+			}
+		}
+	}
+}

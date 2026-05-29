@@ -16,27 +16,34 @@
 # 宣戦なし。陣営に加盟するが戦闘には直接参加しない。
 # 戦後にYUG/ROMで分割される(.18/.19)。
 tsr_balkan_war_release_banat = {
-	82 = { add_core_of = BNT }
-	764 = { add_core_of = BNT }
+	# 早期独立(on_actions: YUG/ROMがバナト諸州を占領)と蜂起(.11)の
+	# 両経路から呼ばれるため冪等化。既に独立済みなら何もしない（二重独立防止）。
+	if = {
+		limit = { HUN = { NOT = { has_country_flag = tsr_banat_released } } }
+		HUN = { set_country_flag = tsr_banat_released }
 
-	# BNTスコープでtransfer_stateを呼べばBNTが所有権を取得する。
-	# （旧コードのHUN=transfer_stateはHUN自身への移譲で無意味だったため削除）
-	BNT = {
-		transfer_state = 82
-		transfer_state = 764
-		set_politics = {
-			ruling_party = center
-			elections_allowed = no
+		82 = { add_core_of = BNT }
+		764 = { add_core_of = BNT }
+
+		# BNTスコープでtransfer_stateを呼べばBNTが所有権を取得する。
+		# （旧コードのHUN=transfer_stateはHUN自身への移譲で無意味だったため削除）
+		BNT = {
+			transfer_state = 82
+			transfer_state = 764
+			set_politics = {
+				ruling_party = center
+				elections_allowed = no
+			}
+			set_popularities = {
+				center = 45
+				left = 25
+				right = 20
+				far_right = 10
+			}
+			add_manpower = 10000
+			YUG = { add_to_faction = BNT }
+			country_event = { id = tsr_balkan_war.12 days = 1 }
 		}
-		set_popularities = {
-			center = 45
-			left = 25
-			right = 20
-			far_right = 10
-		}
-		add_manpower = 10000
-		YUG = { add_to_faction = BNT }
-		country_event = { id = tsr_balkan_war.12 days = 1 }
 	}
 }
 

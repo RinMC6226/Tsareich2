@@ -103,6 +103,19 @@
 蜂起時はstate 70（ブラチスラバ周辺）のみ独立。残り(71, 664)は講和時に移譲。
 ゲームプレイ上、全州同時独立だとHUNの崩壊が即時すぎるため。
 
+### BNT早期独立（on_actions）
+
+BNTのみ独立タイミングを蜂起(.11)から切り離し、前倒しする。
+YUGまたはROMが「将来のBNT領」(state 82/764)のいずれか一方を占領（支配権奪取）した時点で、
+`on_state_control_changed`(`common/on_actions/TR_balkan_war_on_actions.txt`)から
+`tsr_balkan_war_release_banat`を呼んで先行独立させる。
+SLO/RUTの独立タイミングは従来どおり.11蜂起のまま保持する。
+
+スコープ: ROOT=新支配国, FROM=旧支配国, FROM.FROM=対象州。
+ゲート: `tsr_balkan_war_is_active`（戦争進行中）＋ ROOTがYUG/ROM ＋ FROM.FROMが`tsr_is_banat_state`。
+`tsr_balkan_war_release_banat`は`tsr_banat_released`フラグで冪等化し、
+早期独立後に.11蜂起が`release_banat`を再呼び出ししても二重独立しないようにした。
+
 ### 代理戦争の速度制御
 
 両陣営の国民精神に`army_speed_factor = -0.2`を付与。
@@ -369,6 +382,7 @@ HUNはState 43（ブダペスト）と155（西ハンガリー）のみの残存
 |----------|----------|------|
 | `tsr_balkan_war_started` | HUN | .1の重複発火防止 |
 | `tsr_balkan_subversion_fired` | HUN | .10蜂起ポーリングの一度きり実行保証 |
+| `tsr_banat_released` | HUN | BNT独立の一度きり実行保証（早期独立on_actions と .11蜂起の二重独立防止） |
 
 ---
 
@@ -392,6 +406,8 @@ common/
 ├── scripted_triggers/
 │   ├── TR_balkan_war_triggers.txt        # 状態判定7種
 │   └── diplomacy_scripted_triggers.txt   # LEAVE_FACTION always=no
+├── on_actions/
+│   └── TR_balkan_war_on_actions.txt      # BNT早期独立(on_state_control_changed)
 └── ...
 
 history/
