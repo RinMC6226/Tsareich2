@@ -1,0 +1,57 @@
+add_namespace = tsr_ww2_test
+
+country_event = {
+  id = tsr_ww2_test.1
+  title = tsr_ww2_test.1.t
+  desc = tsr_ww2_test.1.d
+  picture = GFX_report_event_german_troops
+
+  is_triggered_only = yes
+
+  trigger = {
+    tag = GER
+    HOL = {
+      exists = yes
+      is_subject = no
+    }
+  }
+
+  option = {
+    name = tsr_ww2_test.1.a
+    create_wargoal = {
+      type = annex_everything
+      target = HOL
+      expire = 0
+    }
+    add_named_threat = {
+      threat = 2
+      name = tsr_ww2_test.1
+    }
+  }
+}
+
+country_event = {
+  id = tsr_ww2_test.2
+  title = tsr_ww2_test.2.t
+  desc = tsr_ww2_test.2.d
+  picture = GFX_report_event_british_troops
+
+  is_triggered_only = yes
+
+  trigger = {
+    tag = ENG
+    has_faction = yes
+    HOL = {
+      exists = yes
+      is_subject = no
+      is_in_faction = no
+    }
+  }
+
+  option = {
+    name = tsr_ww2_test.2.a
+    HOL = {
+      add_to_faction = ENG
+    }
+  }
+}

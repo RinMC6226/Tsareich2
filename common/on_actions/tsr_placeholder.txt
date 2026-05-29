@@ -8,4 +8,32 @@ on_actions = {
 		}
 	}
 
+	# ROOT is declarer, FROM is war target.
+	on_declare_war = {
+		effect = {
+			if = {
+				limit = {
+					tag = GER
+					FROM = {
+						tag = HOL
+					}
+					ENG = {
+						has_faction = yes
+					}
+					HOL = {
+						exists = yes
+						is_subject = no
+						is_in_faction = no
+					}
+				}
+				ENG = {
+					country_event = {
+						id = tsr_ww2_test.2
+						hours = 1
+					}
+				}
+			}
+		}
+	}
+
 }

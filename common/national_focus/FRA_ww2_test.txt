@@ -1,0 +1,112 @@
+focus_tree = {
+  focus = {
+    id = FRA_occupy_northern_france
+    icon = GFX_goal_generic_position_infantry
+    x = 0
+    y = 1
+    relative_position_id = FRA_go_with_britain
+    cost = 10
+
+    prerequisite = { focus = FRA_go_with_britain }
+
+    available = {
+      OR = {
+        16 = { is_demilitarized_zone = yes }
+        17 = { is_demilitarized_zone = yes }
+        18 = { is_demilitarized_zone = yes }
+        785 = { is_demilitarized_zone = yes }
+        1065 = { is_demilitarized_zone = yes }
+      }
+    }
+
+    bypass = {
+      AND = {
+        16 = { is_demilitarized_zone = no }
+        17 = { is_demilitarized_zone = no }
+        18 = { is_demilitarized_zone = no }
+        785 = { is_demilitarized_zone = no }
+        1065 = { is_demilitarized_zone = no }
+      }
+    }
+
+    search_filters = { FOCUS_FILTER_POLITICAL FOCUS_FILTER_ARMY_XP }
+
+    completion_reward = {
+      16 = { set_demilitarized_zone = no }
+      17 = { set_demilitarized_zone = no }
+      18 = { set_demilitarized_zone = no }
+      785 = { set_demilitarized_zone = no }
+      1065 = { set_demilitarized_zone = no }
+      add_war_support = 0.03
+      add_political_power = 50
+    }
+  }
+
+  focus = {
+    id = FRA_prepare_war_with_germany
+    icon = GFX_goal_generic_major_war
+    x = 0
+    y = 1
+    relative_position_id = FRA_occupy_northern_france
+    cost = 10
+
+    prerequisite = { focus = FRA_occupy_northern_france }
+
+    available = {
+      GER = {
+        exists = yes
+        is_subject = no
+      }
+    }
+
+    bypass = {
+      OR = {
+        has_war_with = GER
+        NOT = { GER = { exists = yes } }
+      }
+    }
+
+    search_filters = { FOCUS_FILTER_POLITICAL FOCUS_FILTER_HISTORICAL }
+
+    completion_reward = {
+      create_wargoal = {
+        type = annex_everything
+        target = GER
+        expire = 0
+      }
+      add_ideas = tsr_fra_war_mobilization_test
+      add_equipment_to_stockpile = {
+        type = infantry_equipment_1
+        amount = 240000
+      }
+      add_equipment_to_stockpile = {
+        type = artillery_equipment_1
+        amount = 10000
+      }
+      add_equipment_to_stockpile = {
+        type = support_equipment_1
+        amount = 10000
+      }
+      random_owned_controlled_state = {
+        limit = {
+          is_core_of = ROOT
+        }
+        create_unit = {
+          division = "division_template = \"Division d'Infanterie\" start_experience_factor = 0.1 start_equipment_factor = 1.0"
+          owner = ROOT
+          count = 200
+        }
+      }
+      GER = {
+        country_event = {
+          id = tsr_ww2_test.1
+          days = 35
+        }
+      }
+      add_named_threat = {
+        threat = 3
+        name = FRA_prepare_war_with_germany
+      }
+    }
+  }
+}

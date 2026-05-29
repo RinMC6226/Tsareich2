@@ -1,0 +1,13 @@
+l_japanese:
+ FRA_occupy_northern_france: "北フランス進駐"
+ FRA_occupy_northern_france_desc: "北フランスの非武装地帯を解消し、国境地帯への再進駐を進める。"
+ FRA_prepare_war_with_germany: "対独戦争の準備"
+ FRA_prepare_war_with_germany_desc: "ドイツ帝国との対決は避けられない。戦争遂行のため、宣戦布告事由を整える。"
+ tsr_fra_war_mobilization_test: "総力戦動員"
+ tsr_fra_war_mobilization_test_desc: "国家の総力を戦争へ集中させる臨時体制が敷かれた。前線部隊は補充と作戦計画の優先を受け、攻勢と防御の双方で高い戦闘効率を発揮する。"
+ tsr_ww2_test.1.t: "対オランダ戦争計画"
+ tsr_ww2_test.1.d: "フランスの対独強硬姿勢に対抗するため、参謀本部はオランダ方面での軍事行動を準備している。必要な宣戦布告事由を整え、低地地方への作戦を開始するべきだ。"
+ tsr_ww2_test.1.a: "作戦準備を進めろ"
+ tsr_ww2_test.2.t: "オランダのコモンウェルス参加"
+ tsr_ww2_test.2.d: "ドイツ帝国の低地地方への圧力が高まっている。オランダを我々の陣営へ迎え入れ、共同防衛体制を明確にするべきだ。"
+ tsr_ww2_test.2.a: "オランダを迎え入れよう"

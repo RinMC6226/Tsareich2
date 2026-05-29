@@ -1,0 +1,22 @@
+ideas = {
+  country = {
+    tsr_fra_war_mobilization_test = {
+      picture = generic_military_youth
+      allowed = { always = no }
+      available = { }
+      cancel = { }
+      allowed_civil_war = { always = no }
+      removal_cost = -1
+      modifier = {
+        army_attack_factor = 0.2
+        army_defence_factor = 0.2
+        army_org_factor = 0.15
+        army_morale_factor = 0.15
+        max_planning_factor = 0.2
+        land_reinforce_rate = 0.15
+        training_time_army_factor = -0.25
+        supply_consumption_factor = -0.1
+      }
+    }
+  }
+}

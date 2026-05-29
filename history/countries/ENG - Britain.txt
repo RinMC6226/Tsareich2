@@ -292,6 +292,7 @@ if = {
 	complete_national_focus = ENG_steady_as_she_goes
 
 	give_guarantee = POL
+	give_guarantee = HOL
 
 	if = {
 		limit = {
