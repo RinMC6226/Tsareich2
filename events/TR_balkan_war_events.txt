@@ -18,7 +18,7 @@ add_namespace = tsr_balkan_war
 #   .22 = 講和判定(sp>0.7 or Budapest陥落) → 10日毎ループ
 #   蜂起→講和の間に時間差を設けるため分離。
 #
-# ニュースイベント: .100(開戦), .101(ROM参戦), .102(終戦), .103(バナト分割)
+# ニュースイベント: .100(開戦), .101(ROM参戦), .102(終戦), .103(バナト分割), .107(ブルゲンラント割譲)
 #####################################################################
 
 ### 第1幕：国境事変 ###
@@ -425,7 +425,7 @@ country_event = {
 ### 第6幕：講和 ###
 # バニラ講和会議は不使用。scripted effectでwhite_peace + 手動state移譲。
 # 戦中精神を除去し、戦後精神に置換。
-# ここから戦後イベント(.18バナト分割 30日後, .20ブルゲンラント 45日後)を予約。
+# ここから戦後イベント(.18バナト分割 30日後, .20ブルゲンラント 45日後, .107ブルゲンラント割譲 45日後)を予約。
 
 country_event = {
 	id = tsr_balkan_war.15
@@ -618,6 +618,7 @@ country_event = {
 			transfer_state = 975
 			country_event = { id = tsr_balkan_war.21 days = 1 }
 		}
+		news_event = { id = tsr_balkan_war.107 days = 1 }
 	}
 }
 
@@ -635,6 +636,38 @@ country_event = {
 		add_political_power = 50
 		# フレーバー: バルカンの新秩序とドイツの影響圏再編
 		country_event = { id = tsr_balkan_war.42 days = 5 }
+	}
+}
+
+# News: ブルゲンラント割譲
+news_event = {
+	id = tsr_balkan_war.107
+	title = tsr_balkan_war.107.t
+	desc = tsr_balkan_war.107.d
+	picture = GFX_news_event_PLACEHOLDER
+
+	major = yes
+	is_triggered_only = yes
+
+	option = {
+		name = tsr_balkan_war.107.a
+		trigger = {
+			OR = {
+				tag = GER
+				tag = HUN
+			}
+		}
+	}
+	option = {
+		name = tsr_balkan_war.107.b
+		trigger = {
+			NOT = {
+				OR = {
+					tag = GER
+					tag = HUN
+				}
+			}
+		}
 	}
 }
 
