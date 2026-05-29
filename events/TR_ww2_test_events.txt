@@ -50,8 +50,6 @@ country_event = {
 
   option = {
     name = tsr_ww2_test.2.a
-    HOL = {
-      add_to_faction = ENG
-    }
+    add_to_faction = HOL
   }
 }

@@ -19,6 +19,7 @@ add_ideas = {
 	GER_austrian_question
 	GER_bloated_army
 	GER_veterans_association
+	limited_conscription
 }
 
 

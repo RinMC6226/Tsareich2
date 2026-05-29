@@ -13,6 +13,17 @@ capital = 16 # Paris/Ile de France
 
 set_oob = "FRA_1936"
 
+remove_ideas = civilian_economy
+remove_ideas = low_economic_mobilisation
+remove_ideas = partial_economic_mobilisation
+remove_ideas = war_economy
+remove_ideas = volunteer_only
+remove_ideas = limited_conscription
+remove_ideas = extensive_conscription
+
+add_ideas = partial_economic_mobilisation
+add_ideas = limited_conscription
+
 set_party_name = { ideology = far_left long_name = GEN_far_left_party_long name = GEN_far_left_party }
 set_party_name = { ideology = left long_name = GEN_left_party_long name = GEN_left_party }
 set_party_name = { ideology = center_left long_name = GEN_center_left_party_long name = GEN_center_left_party }
@@ -38,9 +49,9 @@ starting_train_buffer = 2
 
 if = {
 	limit = { has_dlc = "Man the Guns" }
-		set_war_support = 0.1
+		set_war_support = 0.9
 	else = {
-		set_war_support = 0.15
+		set_war_support = 0.9
 	}
 }
 
@@ -89,9 +100,9 @@ IF = {
 	limit = {
 		has_dlc = "Gotterdammerung"
 	}
-	set_stability = 0.45 # Was 0.5, but they now get +5% from the Eiffel Tower
+	set_stability = 0.7
 	ELSE = {
-		set_stability = 0.5
+		set_stability = 0.7
 	}
 }
 
@@ -1296,4 +1307,3 @@ if = {
 		}
 	}
 }
-

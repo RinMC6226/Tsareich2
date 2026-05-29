@@ -38,11 +38,13 @@ if = {
 			has_dlc = "No Step Back"
 		}
 	}
+	set_oob = "ITA_1936"
 }
 if = {
 	limit = {
 		has_dlc = "No Step Back"
 	}
+	set_oob = "ITA_1936_nsb"
 }
 
 starting_train_buffer = 1.5
@@ -61,7 +63,7 @@ IF = {
 
 
 ############# MILITIA CAP ###############
-set_variable = { ITA_militias_cap = 12 } #WARNING THIS VALUE NEEDS TOP MATCH THE division_cap value for the blackshirt template in the OOB
+set_variable = { ITA_militias_cap = 0 } # Blackshirt template removed from the starting OOB
 
 
 ############ ATOMIC RESEARCH ############
@@ -391,6 +393,7 @@ if = {
 
 if = {
 	limit = { has_dlc = "By Blood Alone" }
+		set_air_oob = "ITA_1936_air_bba"
 		set_technology = {
 			aa_lmg = 1
 			early_bombs = 1
@@ -405,6 +408,7 @@ if = {
 			bba_early_transport_plane = 1
 		}
 	else = {
+		set_air_oob = "ITA_1936_air_legacy"
 		set_technology = {
 			early_fighter = 1
 			early_bomber = 1
@@ -419,6 +423,11 @@ if = {
 	limit = {
 		has_dlc = "Man the Guns"
 	}
+	set_naval_oob = "ITA_1936_naval_mtg"
+}
+if = {
+	limit = { not = { has_dlc = "Man the Guns" } }
+	set_naval_oob = "ITA_1936_naval_legacy"
 }
 
 1939.1.1 = {

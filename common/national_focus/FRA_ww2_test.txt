@@ -1,4 +1,14 @@
 focus_tree = {
+  id = french_focus
+
+	country = {
+		factor = 0
+
+		modifier = {
+			add = 10
+			tag = FRA
+		}
+	}
   focus = {
     id = FRA_occupy_northern_france
     icon = GFX_goal_generic_position_infantry
@@ -74,6 +84,14 @@ focus_tree = {
         target = GER
         expire = 0
       }
+      remove_ideas = civilian_economy
+      remove_ideas = low_economic_mobilisation
+      remove_ideas = partial_economic_mobilisation
+      remove_ideas = volunteer_only
+      remove_ideas = limited_conscription
+      remove_ideas = extensive_conscription
+      add_ideas = war_economy
+      add_ideas = extensive_conscription
       add_ideas = tsr_fra_war_mobilization_test
       add_equipment_to_stockpile = {
         type = infantry_equipment_1
