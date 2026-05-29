@@ -1,0 +1,130 @@
+GER_depression_initialize_parliament_if_needed = {
+	if = {
+		limit = {
+			NOT = { has_country_flag = GER_parliament_initialized }
+		}
+		GER_parliament_initialize = yes
+	}
+}
+
+GER_depression_refresh_parliament_support = {
+	GER_parliament_normalize_support = yes
+	GER_parliament_refresh_thresholds = yes
+}
+
+GER_depression_shift_support_fiscal_balance = {
+	add_to_variable = { GER_parliament_nlp_support_bps = 15 }
+	add_to_variable = { GER_parliament_fkp_support_bps = 10 }
+	add_to_variable = { GER_parliament_dkp_support_bps = 10 }
+	add_to_variable = { GER_parliament_zentrum_support_bps = 5 }
+	add_to_variable = { GER_parliament_spd_support_bps = -10 }
+	add_to_variable = { GER_parliament_kpd_support_bps = -5 }
+	GER_depression_refresh_parliament_support = yes
+}
+
+GER_depression_shift_support_job_creation = {
+	add_to_variable = { GER_parliament_spd_support_bps = 15 }
+	add_to_variable = { GER_parliament_zentrum_support_bps = 10 }
+	add_to_variable = { GER_parliament_fvp_support_bps = 10 }
+	add_to_variable = { GER_parliament_uspd_support_bps = 5 }
+	add_to_variable = { GER_parliament_nlp_support_bps = -5 }
+	add_to_variable = { GER_parliament_dkp_support_bps = -10 }
+	GER_depression_refresh_parliament_support = yes
+}
+
+GER_depression_shift_support_colonial_budget = {
+	add_to_variable = { GER_parliament_nlp_support_bps = 10 }
+	add_to_variable = { GER_parliament_fkp_support_bps = 5 }
+	add_to_variable = { GER_parliament_dkp_support_bps = 5 }
+	add_to_variable = { GER_parliament_dvlp_support_bps = -5 }
+	add_to_variable = { GER_parliament_spd_support_bps = -5 }
+	GER_depression_refresh_parliament_support = yes
+}
+
+GER_depression_shift_support_savings_commission = {
+	add_to_variable = { GER_parliament_nlp_support_bps = 10 }
+	add_to_variable = { GER_parliament_dkp_support_bps = 10 }
+	add_to_variable = { GER_parliament_fkp_support_bps = 5 }
+	add_to_variable = { GER_parliament_spd_support_bps = -10 }
+	add_to_variable = { GER_parliament_uspd_support_bps = -5 }
+	GER_depression_refresh_parliament_support = yes
+}
+
+GER_depression_shift_support_osthilfe = {
+	add_to_variable = { GER_parliament_dkp_support_bps = 15 }
+	add_to_variable = { GER_parliament_fkp_support_bps = 10 }
+	add_to_variable = { GER_parliament_nlp_support_bps = 5 }
+	add_to_variable = { GER_parliament_spd_support_bps = -5 }
+	add_to_variable = { GER_parliament_kpd_support_bps = -5 }
+	GER_depression_refresh_parliament_support = yes
+}
+
+GER_depression_shift_support_unemployment_reform = {
+	add_to_variable = { GER_parliament_spd_support_bps = 15 }
+	add_to_variable = { GER_parliament_zentrum_support_bps = 10 }
+	add_to_variable = { GER_parliament_fvp_support_bps = 5 }
+	add_to_variable = { GER_parliament_uspd_support_bps = 5 }
+	add_to_variable = { GER_parliament_nlp_support_bps = -5 }
+	add_to_variable = { GER_parliament_dkp_support_bps = -5 }
+	GER_depression_refresh_parliament_support = yes
+}
+
+GER_depression_shift_support_order_law = {
+	add_to_variable = { GER_parliament_dkp_support_bps = 15 }
+	add_to_variable = { GER_parliament_dvlp_support_bps = 10 }
+	add_to_variable = { GER_parliament_fkp_support_bps = 10 }
+	add_to_variable = { GER_parliament_kpd_support_bps = -15 }
+	add_to_variable = { GER_parliament_uspd_support_bps = -10 }
+	add_to_variable = { GER_parliament_spd_support_bps = -5 }
+	GER_depression_refresh_parliament_support = yes
+}
+
+GER_depression_shift_support_july_resolution = {
+	add_to_variable = { GER_parliament_spd_support_bps = 10 }
+	add_to_variable = { GER_parliament_zentrum_support_bps = 10 }
+	add_to_variable = { GER_parliament_fvp_support_bps = 10 }
+	add_to_variable = { GER_parliament_uspd_support_bps = 5 }
+	add_to_variable = { GER_parliament_dkp_support_bps = -5 }
+	add_to_variable = { GER_parliament_dvlp_support_bps = -5 }
+	GER_depression_refresh_parliament_support = yes
+}
+
+GER_depression_shift_support_economic_council = {
+	add_to_variable = { GER_parliament_zentrum_support_bps = 15 }
+	add_to_variable = { GER_parliament_nlp_support_bps = 5 }
+	add_to_variable = { GER_parliament_spd_support_bps = 5 }
+	add_to_variable = { GER_parliament_dkp_support_bps = 5 }
+	add_to_variable = { GER_parliament_fvp_support_bps = 5 }
+	GER_depression_refresh_parliament_support = yes
+}
+
+GER_depression_shift_support_black_white_red = {
+	add_to_variable = { GER_parliament_dkp_support_bps = 20 }
+	add_to_variable = { GER_parliament_dvlp_support_bps = 15 }
+	add_to_variable = { GER_parliament_fkp_support_bps = 10 }
+	add_to_variable = { GER_parliament_nlp_support_bps = 5 }
+	add_to_variable = { GER_parliament_zentrum_support_bps = 5 }
+	add_to_variable = { GER_parliament_spd_support_bps = -15 }
+	add_to_variable = { GER_parliament_kpd_support_bps = -10 }
+	GER_depression_refresh_parliament_support = yes
+}
+
+GER_depression_shift_support_reichstag_majority = {
+	add_to_variable = { GER_parliament_spd_support_bps = 15 }
+	add_to_variable = { GER_parliament_zentrum_support_bps = 15 }
+	add_to_variable = { GER_parliament_fvp_support_bps = 15 }
+	add_to_variable = { GER_parliament_uspd_support_bps = 5 }
+	add_to_variable = { GER_parliament_dkp_support_bps = -10 }
+	add_to_variable = { GER_parliament_dvlp_support_bps = -10 }
+	GER_depression_refresh_parliament_support = yes
+}
+
+GER_depression_shift_support_reconciliation = {
+	add_to_variable = { GER_parliament_zentrum_support_bps = 20 }
+	add_to_variable = { GER_parliament_spd_support_bps = 5 }
+	add_to_variable = { GER_parliament_nlp_support_bps = 5 }
+	add_to_variable = { GER_parliament_fkp_support_bps = 5 }
+	add_to_variable = { GER_parliament_kpd_support_bps = -5 }
+	add_to_variable = { GER_parliament_dvlp_support_bps = -5 }
+	GER_depression_refresh_parliament_support = yes
+}

@@ -8,7 +8,7 @@ characters = {
 		}
 		country_leader = {
 			ideology = orthodox_marxism
-			traits = { anti_democrat imperial_connections }
+			traits = { }
 			expire = "1965.1.1"
 			id = -1
 		}
@@ -23,7 +23,7 @@ characters = {
 		}
 		country_leader = {
 			ideology = democratic_socialism
-			traits = { anti_democrat imperial_connections }
+			traits = { }
 			expire = "1965.1.1"
 			id = -1
 		}
@@ -38,7 +38,7 @@ characters = {
 		}
 		country_leader = {
 			ideology = social_democracy
-			traits = { anti_democrat imperial_connections }
+			traits = { }
 			expire = "1965.1.1"
 			id = -1
 		}
@@ -53,7 +53,7 @@ characters = {
 		}
 		country_leader = {
 			ideology = liberalism
-			traits = { anti_democrat imperial_connections }
+			traits = { }
 			expire = "1965.1.1"
 			id = -1
 		}
@@ -68,7 +68,7 @@ characters = {
 		}
 		country_leader = {
 			ideology = christian_democracy
-			traits = { anti_democrat imperial_connections }
+			traits = { }
 			expire = "1965.1.1"
 			id = -1
 		}
@@ -83,7 +83,7 @@ characters = {
 		}
 		country_leader = {
 			ideology = conservatism
-			traits = { anti_democrat imperial_connections }
+			traits = { }
 			expire = "1965.1.1"
 			id = -1
 		}
@@ -98,7 +98,7 @@ characters = {
 		}
 		country_leader = {
 			ideology = ultranationalism
-			traits = { anti_democrat imperial_connections }
+			traits = { }
 			expire = "1965.1.1"
 			id = -1
 		}
