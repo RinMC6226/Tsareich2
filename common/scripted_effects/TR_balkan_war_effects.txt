@@ -93,89 +93,94 @@ tsr_balkan_war_release_ruthenia = {
 # 戦中精神→戦後精神への置換もここで処理。
 # 戦後イベントの遅延予約: .20(ブルゲンラント,45日後), .18(バナト分割,30日後)
 tsr_balkan_war_peace_settlement = {
-	# ヴォイヴォディナ(45)とプレクムリェ(1049)をYUGへ
-	YUG = {
-		transfer_state = 45
-		transfer_state = 1049
-	}
-
-	# SLO残り州: 蜂起で70のみ取得済み。ここで71,664を追加移譲。
+	# on_capitulation_immediate と .22→.15 の両経路から呼ばれるためフラグで冪等化。
 	if = {
-		limit = { 71 = { is_owned_by = HUN } }
-		SLO = { transfer_state = 71 }
+		limit = { HUN = { has_country_flag = tsr_balkan_war_peace_done } }
 	}
 	if = {
-		limit = { 664 = { is_owned_by = HUN } }
-		SLO = { transfer_state = 664 }
+		limit = { HUN = { NOT = { has_country_flag = tsr_balkan_war_peace_done } } }
+		HUN = { set_country_flag = tsr_balkan_war_peace_done }
+
+		# ヴォイヴォディナ(45)とプレクムリェ(1049)をYUGへ
+		YUG = {
+			transfer_state = 45
+			transfer_state = 1049
+		}
+
+		# SLO残り州: 蜂起で70のみ取得済み。ここで71,664を追加移譲。
+		if = {
+			limit = { 71 = { is_owned_by = HUN } }
+			SLO = { transfer_state = 71 }
+		}
+		if = {
+			limit = { 664 = { is_owned_by = HUN } }
+			SLO = { transfer_state = 664 }
+		}
+
+		# セーケイ地方(1054)とクリシャナ(83)をROMへ（コア追加後に移譲）
+		1054 = { add_core_of = ROM }
+		83 = { add_core_of = ROM }
+		ROM = { transfer_state = 1054 }
+		ROM = { transfer_state = 83 }
+
+		# 全交戦国とwhite_peace（SLO/RUT/BNTも蜂起で交戦状態のため必要）
+		HUN = {
+			white_peace = YUG
+			white_peace = ROM
+			white_peace = SLO
+			white_peace = RUT
+			white_peace = BNT
+			white_peace = GRE
+			# 戦中精神→戦後精神
+			remove_ideas = tsr_german_proxy_support
+			remove_ideas = tsr_hun_national_rally
+			add_ideas = tsr_balkan_war_exhaustion
+			# 戦後45日: ドイツ借款返済不能→ブルゲンラント割譲
+			country_event = { id = tsr_balkan_war.20 days = 45 }
+			# 戦後フレーバー: 難民の波(.38), 復讐の誓い(.39)
+			country_event = { id = tsr_balkan_war.38 days = 5 }
+			country_event = { id = tsr_balkan_war.39 days = 20 }
+		}
+
+		# YUG: 戦時借款バフ→戦時債務デバフに置換
+		YUG = {
+			remove_ideas = tsr_russian_war_loan
+			add_ideas = tsr_yug_war_debt
+			country_event = { id = tsr_balkan_war.16 days = 1 }
+			# 戦後フレーバー: 勝利の重荷(.40)
+			country_event = { id = tsr_balkan_war.40 days = 10 }
+		}
+
+		ROM = {
+			remove_ideas = tsr_transylvania_irredentism
+			country_event = { id = tsr_balkan_war.17 days = 1 }
+			# 戦後フレーバー: 大ルーマニアの祝祭(.41)
+			country_event = { id = tsr_balkan_war.41 days = 5 }
+		}
+
+		# 戦後30日: バナト分割（YUG/ROMでBNT領を山分け）
+		YUG = { country_event = { id = tsr_balkan_war.18 days = 30 } }
+
+		# === 南部戦線の講和（ブルガリア・ギリシャ）===
+		184 = { remove_claim_by = BUL }
+		731 = { remove_claim_by = BUL }
+		106 = { remove_claim_by = BUL }
+		803 = { remove_claim_by = BUL }
+
+		BUL = {
+			remove_ideas = tsr_bul_defensive_pact
+			add_ideas = tsr_bul_war_reparations
+			add_ideas = tsr_bul_demilitarized_frontier
+			country_event = { id = tsr_balkan_war.55 days = 1 }
+		}
+
+		GRE = {
+			remove_ideas = tsr_gre_thracian_ambition
+			add_ideas = tsr_gre_aegean_supremacy
+			country_event = { id = tsr_balkan_war.56 days = 1 }
+		}
+
+		# 住民交換ニュース
+		news_event = { id = tsr_balkan_war.106 days = 20 }
 	}
-
-	# セーケイ地方(1054)とクリシャナ(83)をROMへ（コア追加後に移譲）
-	1054 = { add_core_of = ROM }
-	83 = { add_core_of = ROM }
-	ROM = { transfer_state = 1054 }
-	ROM = { transfer_state = 83 }
-
-	# 全交戦国とwhite_peace（SLO/RUT/BNTも蜂起で交戦状態のため必要）
-	HUN = {
-		white_peace = YUG
-		white_peace = ROM
-		white_peace = SLO
-		white_peace = RUT
-		white_peace = BNT
-		white_peace = GRE
-		# 戦中精神→戦後精神
-		remove_ideas = tsr_german_proxy_support
-		add_ideas = tsr_balkan_war_exhaustion
-		# 戦後45日: ドイツ借款返済不能→ブルゲンラント割譲
-		country_event = { id = tsr_balkan_war.20 days = 45 }
-		# 戦後フレーバー: 難民の波(.38), 復讐の誓い(.39)
-		country_event = { id = tsr_balkan_war.38 days = 5 }
-		country_event = { id = tsr_balkan_war.39 days = 20 }
-	}
-
-	# YUG: 戦時借款バフ→戦時債務デバフに置換
-	YUG = {
-		remove_ideas = tsr_russian_war_loan
-		add_ideas = tsr_yug_war_debt
-		country_event = { id = tsr_balkan_war.16 days = 1 }
-		# 戦後フレーバー: 勝利の重荷(.40)
-		country_event = { id = tsr_balkan_war.40 days = 10 }
-	}
-
-	ROM = {
-		remove_ideas = tsr_transylvania_irredentism
-		country_event = { id = tsr_balkan_war.17 days = 1 }
-		# 戦後フレーバー: 大ルーマニアの祝祭(.41)
-		country_event = { id = tsr_balkan_war.41 days = 5 }
-	}
-
-	# 戦後30日: バナト分割（YUG/ROMでBNT領を山分け）
-	YUG = { country_event = { id = tsr_balkan_war.18 days = 30 } }
-
-	# === 南部戦線の講和（ブルガリア・ギリシャ）===
-	# 領土併合なし。ギリシャは既存領トラキアの住民移住で人口的に確定し、
-	# ブルガリアには非武装化・賠償・全クレーム剥奪を課す。
-	# クレーム剥奪: ブルガリアの修正主義を根絶（対GRE 184/731, 対YUG 106/803）
-	184 = { remove_claim_by = BUL }
-	731 = { remove_claim_by = BUL }
-	106 = { remove_claim_by = BUL }
-	803 = { remove_claim_by = BUL }
-
-	# BUL: 戦中精神除去→賠償＋南部非武装化。住民移住・賠償の講和通知。
-	BUL = {
-		remove_ideas = tsr_bul_defensive_pact
-		add_ideas = tsr_bul_war_reparations
-		add_ideas = tsr_bul_demilitarized_frontier
-		country_event = { id = tsr_balkan_war.55 days = 1 }
-	}
-
-	# GRE: 戦中精神除去→エーゲ海の覇権。トラキア確保の勝利通知。
-	GRE = {
-		remove_ideas = tsr_gre_thracian_ambition
-		add_ideas = tsr_gre_aegean_supremacy
-		country_event = { id = tsr_balkan_war.56 days = 1 }
-	}
-
-	# 住民交換ニュース
-	news_event = { id = tsr_balkan_war.106 days = 20 }
 }

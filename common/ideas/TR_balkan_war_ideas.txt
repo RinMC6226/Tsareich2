@@ -41,9 +41,28 @@ ideas = {
 			removal_cost = -1
 			modifier = {
 				non_core_manpower = 0.15
-				army_org_factor = -0.10
-				army_morale_factor = -0.15
+				army_org_factor = -0.05
+				army_morale_factor = -0.07
 				stability_factor = -0.05
+			}
+		}
+
+		# HUN戦中: 蜂起(.11)で付与。領土喪失がマジャル人の結束を呼び起こす。
+		# 講和時にtsr_balkan_war_exhaustionに置換。
+		tsr_hun_national_rally = {
+			picture = generic_war_support
+			allowed = { always = no }
+			available = { has_war = yes }
+			cancel = { }
+			allowed_civil_war = { always = no }
+			removal_cost = -1
+			modifier = {
+				army_defence_factor = 0.25
+				army_morale_factor = 0.2
+				war_support_factor = 0.2
+				stability_factor = -0.05
+
+				weekly_manpower = 500
 			}
 		}
 
@@ -56,10 +75,10 @@ ideas = {
 			allowed_civil_war = { always = no }
 			removal_cost = -1
 			modifier = {
-				army_attack_factor = 0.1
-				army_defence_factor = 0.1
+				army_attack_factor = 0.2
+				army_defence_factor = 0.4
 				army_org_factor = 0.05
-				supply_consumption_factor = -0.1
+				supply_consumption_factor = -0.15
 				army_speed_factor = -0.2
 			}
 		}

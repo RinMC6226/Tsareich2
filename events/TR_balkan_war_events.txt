@@ -342,6 +342,7 @@ country_event = {
 		tsr_balkan_war_release_slovakia = yes
 		tsr_balkan_war_release_ruthenia = yes
 		remove_ideas = tsr_hun_ethnic_separatism
+		add_ideas = tsr_hun_national_rally
 		# 講和判定ポーリング開始（sp>0.7 or Budapest陥落）
 		country_event = { id = tsr_balkan_war.22 days = 10 }
 	}
@@ -414,7 +415,7 @@ country_event = {
 		if = {
 			limit = {
 				OR = {
-					surrender_progress > 0.7
+					surrender_progress > 0.8
 					NOT = { controls_province = 9660 }  # Budapest
 				}
 			}
@@ -422,7 +423,7 @@ country_event = {
 		}
 		if = {
 			limit = {
-				NOT = { surrender_progress > 0.7 }
+				NOT = { surrender_progress > 0.8 }
 				controls_province = 9660
 				has_war_with = YUG
 			}

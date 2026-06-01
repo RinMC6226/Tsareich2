@@ -1,7 +1,10 @@
 #####################################################################
 # バルカン戦争 on_actions
 #
-# BNTの早期独立トリガー。
+# 1. on_state_control_changed — BNTの早期独立トリガー
+# 2. on_capitulation_immediate — HUN降伏時のカスタム講和
+#
+# === BNT早期独立 ===
 # 通常、BNT/SLO/RUT は .10→.11 の蜂起ポーリングで同時独立するが、
 # BNTのみ、YUG または ROM が「将来のBNT領」（state 82/764）の
 # いずれか一方を占領（支配権を奪取）した時点で先行独立させる。
@@ -12,8 +15,16 @@
 #   FROM      = 旧支配国
 #   FROM.FROM = 支配権が移った州
 #
-# 二重独立（早期独立後に .11 蜂起で再独立）は、
-# tsr_balkan_war_release_banat 内の tsr_banat_released フラグガードで防止。
+# === HUN降伏時講和 ===
+# .22ポーリング(10日間隔)の隙間でHUNが降伏するとバニラ講和会議が
+# 発動し想定外の国境線になる。on_capitulation_immediateで降伏の瞬間に
+# peace_settlementを即実行し、white_peaceで戦争を終結させることで
+# バニラ講和会議を阻止する。
+# peace_settlement内のtsr_balkan_war_peace_doneフラグで二重実行を防止。
+#
+# on_capitulation_immediate のスコープ:
+#   ROOT = 降伏国
+#   FROM = 降伏先（相手国）
 #####################################################################
 
 on_actions = {
@@ -21,22 +32,35 @@ on_actions = {
 		effect = {
 			if = {
 				limit = {
-					# 占領されたのがバナト諸州(82/764)のいずれか
 					FROM.FROM = { tsr_is_banat_state = yes }
-					# 新支配国が YUG または ROM
 					ROOT = {
 						OR = {
 							tag = YUG
 							tag = ROM
 						}
 					}
-					# バルカン戦争が進行中（HUNがYUGと交戦中）
 					tsr_balkan_war_is_active = yes
-					# まだBNTが独立していない
 					HUN = { NOT = { has_country_flag = tsr_banat_released } }
 				}
-				# BNT先行独立（.12通知を含む）。冪等化済みのため安全。
 				tsr_balkan_war_release_banat = yes
+			}
+		}
+	}
+
+	on_capitulation_immediate = {
+		effect = {
+			if = {
+				limit = {
+					ROOT = { tag = HUN }
+					HUN = {
+						has_country_flag = tsr_balkan_war_started
+						NOT = { has_country_flag = tsr_balkan_war_peace_done }
+					}
+				}
+				HUN = {
+					tsr_balkan_war_peace_settlement = yes
+					country_event = { id = tsr_balkan_war.15 }
+				}
 			}
 		}
 	}
