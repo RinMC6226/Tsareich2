@@ -14,6 +14,23 @@
 ideas = {
 	country = {
 
+		# HUN初期精神: 諸民族の独立欲求。政治力と安定度を恒常的に削る。
+		# 蜂起(.11)後に除去（独立で圧力が解消される演出）。
+		tsr_hun_ethnic_separatism = {
+			picture = generic_fascism_drift_bonus
+			allowed = { always = no }
+			available = { }
+			cancel = { }
+			allowed_civil_war = { always = no }
+			removal_cost = -1
+			modifier = {
+				political_power_factor = -0.15
+				stability_factor = -0.10
+				war_support_factor = -0.05
+				resistance_target = 0.1
+			}
+		}
+
 		# HUN初期精神: 非コア州からの徴兵を可能にするが、軍の質が低下
 		tsr_hun_multiethnic_army = {
 			picture = generic_manpower_bonus

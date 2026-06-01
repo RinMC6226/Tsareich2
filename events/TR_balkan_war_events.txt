@@ -55,9 +55,21 @@ country_event = {
 		# ROMを開戦前にバルカン協商へ加盟させる（.8のadd_to_warの前提）。
 		# 同時にAI参戦欲求抑制の国民精神を付与し、YUG開戦時にROMが
 		# 巻き込まれて即時参戦するのを防ぐ。.8のadd_to_warで強制参戦時に自動cancel。
-		ROM = { add_ideas = tsr_rom_opportunistic_neutrality }
+		ROM = {
+			add_ideas = tsr_rom_opportunistic_neutrality
+			add_equipment_to_stockpile = {
+				type = infantry_equipment
+				amount = 10000
+				producer = RUS
+			}
+		}
 		# 陣営結成: add_to_warにtargeted_allianceを使うため、開戦前に必要
 		YUG = {
+			add_equipment_to_stockpile = {
+				type = infantry_equipment
+				amount = 10000
+				producer = RUS
+			}
 			create_faction_from_template = faction_template_balkan_entente
 			add_to_faction = ROM
 			country_event = { id = tsr_balkan_war.2 days = 45 }
@@ -329,6 +341,7 @@ country_event = {
 		tsr_balkan_war_release_banat = yes
 		tsr_balkan_war_release_slovakia = yes
 		tsr_balkan_war_release_ruthenia = yes
+		remove_ideas = tsr_hun_ethnic_separatism
 		# 講和判定ポーリング開始（sp>0.7 or Budapest陥落）
 		country_event = { id = tsr_balkan_war.22 days = 10 }
 	}
