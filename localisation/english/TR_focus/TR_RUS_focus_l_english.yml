@@ -1,0 +1,14 @@
+﻿l_english:
+  RUS_avoided_assassinate: "Assassination Avoided"
+  RUS_tooltip_avoided_assassinate: "§RThe Empire will press onward to preserve the old order!"
+  RUS_tooltip_reational_tsar: "The cost of modernization will §Rincrease§W!"
+  RUS_tooltip_reational_tsar_route: "§RBecause the Tsar is reactionary, the following costs are applied.§W"
+
+  RUS_ci_muslim_elite: "Recognize Muslim Engineers"
+  RUS_ci_muslim_elite_desc: "Many engineers in our empire are Muslims, yet until now they have been barred from official service as minorities or even treated as barbarians. The empire's technical progress requires us to recognize them in part and allow them to serve in key posts."
+
+  RUS_ec_freeze_1935_budget: "Temporarily Freeze the 1935 Budget"
+  RUS_ec_freeze_1935_budget_desc: "Since the 1935 budget was drafted, the international situation has changed dramatically. With communism growing in the distant west, keeping this budget for another three years would leave our armaments far behind. Even if the state is temporarily impaired, we should seek a way forward through a new budget that serves our long-term interests."
+
+  RUS_ec_planning_new_budget: "Establish the Budget Committee"
+  RUS_ec_planning_new_budget_desc: "To restore the economic mechanism and remove the aftershocks of the depression, we must create a new state-led budget as quickly as possible. Reactionary forces at home will resist fiercely, but it must be pushed through by the authority of the Tsar."
