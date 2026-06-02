@@ -1,0 +1,64 @@
+﻿l_english:
+	rural_economy: "Rural Economy"
+	rural_economy_desc: "The long prosperity of the Russian Empire has also obstructed its advance. Traditional economic organizations dating back to the Middle Ages still survive, despite some changes, and impede state-led economic activity in Russia."
+
+
+ RUS_memory_of_greatwar: "Memory of Victory"
+ RUS_memory_of_greatwar_desc: "The Russian Empire's victory in the Great War gave the people reason to trust the Tsar through the hardships that followed. The imperial prestige established in 1919 as the world's gendarme now underpins Russian influence from Dover to Kamchatka."
+ RUS_1935_military_badget: "1935 Military Budget"
+ RUS_1935_military_badget_desc: "After the world economic crisis of 192X shattered the German economy, our own core industries, deeply tied to German trade, suffered grave damage. Even ten years later the empire is not economically stable. In 1935 the government sharply reduced military spending for the next three years and adopted recovery policies for domestic industry, but it has found no effective answer to Russia's antiquated economic structure."
+ RUS_army_greatwar: "Army of the Great War"
+ RUS_army_greatwar_desc: "During the Great War, the Russian Army provided massive infantry fire support to the German western front and contributed greatly to the advance. A classical but reliable method of defending with trenches and sweeping enemies aside by assault has taken root as an unshakable doctrine in the Russian Army. Russian soldiers do not retreat before any firepower."
+
+ RUS_poland_badget: "Special Budget for Governing Poland"
+ RUS_poland_badget_desc: "Poland had long been under Russian rule, but the economic crisis made suppressing opposition in the region far more difficult. The government established a surveillance organ in Warsaw and allocated a special budget for unified security operations, imposing a heavy financial burden on Russia."
+ RUS_finland_badget: "Special Budget for Governing Finland"
+ RUS_finland_badget_desc: "Russian rule in Finland had been secure, but the economic crisis spreading from Germany disrupted the Finnish regional economy and forced us to conduct large-scale security operations in Helsinki. The resulting expenses weigh heavily on the Russian Empire."
+
+ RUS_muslim_researcher: "Recruit Muslim Engineers"
+ RUS_muslim_researcher_desc: "Bringing Muslim engineers into official positions will contribute to the progress of domestic technological innovation."
+ RUS_freezed_budget: "Frozen Budget"
+ RUS_freezed_budget_desc: "The budget governing imperial finances has been frozen. With only reserve expenditures permitted, most national policies cannot be funded."
+
+
+
+
+
+
+
+
+
+
+ JAP_treaty_of_tsushima: "Treaty of Tsushima"
+ JAP_treaty_of_tsushima_desc: "In the Great War, Japan was defeated by Russia alongside Britain and France, suffering its second defeat after the Russo-Japanese War. The Treaty of Tsushima, concluded as the 1919 peace treaty, imposed reparations, limits on overseas expansion, and strict naval restrictions on the Imperial Japanese Navy."
+ JAP_treaty_of_tsushima_violation: "Violation of the Treaty of Tsushima"
+ JAP_treaty_of_tsushima_violation_desc: "The Japanese Navy is beginning to exceed the limits allowed by the Treaty of Tsushima, increasing scrutiny and pressure from the powers that value the balance against Russia."
+ JAP_treaty_of_tsushima_major_violation: "Major Violation of the Treaty of Tsushima"
+ JAP_treaty_of_tsushima_major_violation_desc: "The Japanese Navy has effectively stepped beyond the Treaty of Tsushima and is shaking the peace order itself. Diplomatic pressure and domestic burdens have grown still heavier."
+ TR_JAP_tsushima_treaty: "Treaty of Tsushima System"
+ JAP_review_tsushima_treaty: "Treaty of Tsushima Provisions"
+ JAP_tsushima_treaty_reduction_mission: "Naval Reduction Demanded by the Treaty of Tsushima"
+ JAP_tsushima_treaty_reduction_mission_desc: "The strength of the Japanese Navy is approaching the ratio against Russia permitted by the Treaty of Tsushima. Unless its forces are reduced below half of the Russian Navy within 30 days, Japan will face additional sanctions as a treaty violator."
+ JAP_tsushima_treaty_major_reduction_mission: "Final Warning Under the Treaty of Tsushima"
+ JAP_tsushima_treaty_major_reduction_mission_desc: "The Japanese Navy has exceeded the acceptable limits of the Treaty of Tsushima even further. Unless it undertakes major reductions within 30 days, it will invite harsher pressure as a serious treaty violator."
+ JAP_restore_tsushima_treaty_compliance: "Restore Compliance with the Treaty of Tsushima"
+ tsr_jap_treaty.1.t: "Crisis of the Treaty of Tsushima"
+ tsr_jap_treaty.1.d: "The Japanese Navy has ignored the final warning under the Treaty of Tsushima and clearly crossed the balance against Russia. If we tolerate this, the prestige of the Russian Empire and the peace order itself will be shaken. Yet a hard line risks a new war in the Far East."
+ tsr_jap_treaty.1.a: "Swallow the humiliation and tolerate it"
+ tsr_jap_treaty.1.b: "Prepare a casus belli against Japan"
+
+ GER_victor_of_the_great_war: "Victor of the Great War"
+ GER_victor_of_the_great_war_desc: "The German Empire stands at the center of the European order as victor of the Great War. The memory of defeating its western enemies and leading the peace settlement is itself the empire's legitimacy to the Kaiser, the army, the bureaucracy, and much of the public. Yet pride in victory also burdens the empire with excessive responsibility. Vassals, colonies, the balance of Europe, and the preservation of the postwar order are all tied to Berlin's prestige."
+ GER_october_constitution: "October Constitution"
+ GER_october_constitution_desc: "The constitutional order born from the October Reforms of 1918 is a compromise between monarchy and parliamentary politics. The chancellor still requires the confidence of the Kaiser, but stable government is difficult if the Reichstag majority is ignored. This ambiguity is the heart of the October Constitution, and both its strength and its weakness."
+ GER_great_depression: "Great Depression"
+ GER_great_depression_desc: "The prolonged Great Depression has left deep wounds in the prosperity of the German Empire. Shrinking export markets struck heavy industry and finance, while rising unemployment has spread unrest in the cities. The vast sphere of influence built as victor has also become a fiscal burden."
+ GER_austrian_question: "Austrian Question"
+ GER_austrian_question_desc: "After the Great War, Austria was incorporated into the German Empire as part of the postwar settlement. In public it was the unification of the German people and a symbol of victory, but real integration has never been so simple. Austria's bureaucratic traditions, laws, local politics, Catholic social ties, and Vienna-centered economy remain a long-term problem of governance."
+ GER_bloated_army: "Bloated Army"
+ GER_bloated_army_desc: "After victory, the Imperial Army grew into a vast institution still carrying the legacy of wartime mobilization. Its officer corps, general staff, logistics, reserve system, and links to the arms industry are essential pillars of security, but its size is too heavy for peacetime finances."
+ GER_veterans_association: "Veterans' Associations"
+ GER_veterans_association_desc: "Veterans of the Great War have organized associations across the empire and hold strong influence in German society. Their memories of the fallen, pride in victory, and shared sacrifice give them moral authority, but in a political crisis they may become a bridge between the street and parliament."
+
+
+
