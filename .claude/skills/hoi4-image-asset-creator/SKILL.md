@@ -25,7 +25,7 @@ Choose the lowest-risk method that produces a real in-game asset:
 - **Image generation skill:** Use `$imagegen` for new bitmap art such as portraits, event images, focus art concepts, illustrated decision images, or custom scene/icon artwork that cannot be assembled reliably from local assets.
 - **External reference/source lookup:** Use only when the task requires a historically specific source image or current/public-domain status; verify license/source before placing it in the mod.
 
-For the Tsareich2 parliament pattern, prefer Python/Pillow generation from party color data: seat icons, color bars, government markers, and backplates are generated assets, not reasons to stop and ask. The completed design notes in `.plan/done/parliament_system_v2.md` establish that color-defined parliament UI graphics should be generated from configuration and then referenced from `.gfx`.
+For the Tsareich2 parliament pattern, prefer Python/Pillow generation from party color data: seat icons, color bars, government markers, and backplates are generated assets, not reasons to stop and ask. The completed design notes in `docs/plan/done/parliament_system_v2.md` establish that color-defined parliament UI graphics should be generated from configuration and then referenced from `.gfx`.
 
 ## HOI4 Asset Workflow
 
