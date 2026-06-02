@@ -18,7 +18,7 @@ add_namespace = tsr_balkan_war
 #   .22 = 講和判定(sp>0.7 or Budapest陥落) → 10日毎ループ
 #   蜂起→講和の間に時間差を設けるため分離。
 #
-# ニュースイベント: .100(開戦), .101(ROM参戦), .102(終戦), .103(バナト分割)
+# ニュースイベント: .100(開戦), .101(ROM参戦), .102(終戦), .103(バナト分割), .107(ブルゲンラント割譲)
 #####################################################################
 
 ### 第1幕：国境事変 ###
@@ -52,12 +52,34 @@ country_event = {
 		name = tsr_balkan_war.1.a
 		add_political_power = -25
 		add_war_support = 0.05
+		# ROMを開戦前にバルカン協商へ加盟させる（.8のadd_to_warの前提）。
+		# 同時にAI参戦欲求抑制の国民精神を付与し、YUG開戦時にROMが
+		# 巻き込まれて即時参戦するのを防ぐ。.8のadd_to_warで強制参戦時に自動cancel。
+		ROM = {
+			add_ideas = tsr_rom_opportunistic_neutrality
+			add_equipment_to_stockpile = {
+				type = infantry_equipment
+				amount = 10000
+				producer = RUS
+			}
+		}
 		# 陣営結成: add_to_warにtargeted_allianceを使うため、開戦前に必要
 		YUG = {
+			add_equipment_to_stockpile = {
+				type = infantry_equipment
+				amount = 10000
+				producer = RUS
+			}
 			create_faction_from_template = faction_template_balkan_entente
 			add_to_faction = ROM
 			country_event = { id = tsr_balkan_war.2 days = 45 }
 		}
+		# HUN側: 洪勃防衛協定を結成しBULを加盟（防衛協定の事前締結）。
+		# YUGがHUN(盟主)に宣戦すると、協定によりBULが自動的に防衛参戦する。
+		create_faction_from_template = faction_template_hun_bul_defense_pact
+		add_to_faction = BUL
+		# 開戦前フレーバー: マジャル民族主義の高揚
+		country_event = { id = tsr_balkan_war.30 days = 10 }
 	}
 }
 
@@ -87,6 +109,16 @@ country_event = {
 		# 蜂起ポーリング開始: 開戦30日後から15日毎にsp>0.3をチェック
 		HUN = { country_event = { id = tsr_balkan_war.10 days = 30 } }
 		news_event = { id = tsr_balkan_war.100 days = 1 }
+		# フレーバー: YUG開戦の大義、HUN少数民族地域の不穏（蜂起伏線）
+		country_event = { id = tsr_balkan_war.31 days = 2 }
+		HUN = { country_event = { id = tsr_balkan_war.37 days = 40 } }
+		# 南部戦線: BULは洪勃防衛協定により自動防衛参戦。戦中精神を付与し通知。
+		BUL = { add_ideas = tsr_bul_defensive_pact }
+		BUL = { country_event = { id = tsr_balkan_war.50 days = 1 } }
+		HUN = { country_event = { id = tsr_balkan_war.51 days = 1 } }
+		news_event = { id = tsr_balkan_war.104 days = 2 }
+		# GREは秘密協定により開戦75日後にBULの背後を突いて参戦
+		GRE = { country_event = { id = tsr_balkan_war.52 days = 75 } }
 	}
 }
 
@@ -103,6 +135,8 @@ country_event = {
 		name = tsr_balkan_war.3.a
 		add_war_support = 0.15
 		add_stability = -0.1
+		# フレーバー: ブダペストの防衛準備
+		country_event = { id = tsr_balkan_war.32 days = 20 }
 	}
 }
 
@@ -134,6 +168,8 @@ country_event = {
 			}
 			country_event = { id = tsr_balkan_war.6 days = 2 }
 		}
+		# フレーバー: ベルリンの計算（直接介入か代理支援か）
+		country_event = { id = tsr_balkan_war.34 days = 15 }
 	}
 }
 
@@ -161,6 +197,8 @@ country_event = {
 			}
 			country_event = { id = tsr_balkan_war.7 days = 2 }
 		}
+		# フレーバー: 汎スラヴ主義の高まり
+		country_event = { id = tsr_balkan_war.35 days = 15 }
 	}
 }
 
@@ -176,6 +214,8 @@ country_event = {
 	option = {
 		name = tsr_balkan_war.6.a
 		add_war_support = 0.05
+		# フレーバー: 膠着する戦線（speed -20%による戦線停滞の演出）
+		country_event = { id = tsr_balkan_war.36 days = 25 }
 	}
 }
 
@@ -191,6 +231,8 @@ country_event = {
 	option = {
 		name = tsr_balkan_war.7.a
 		add_war_support = 0.05
+		# フレーバー: 解放者か征服者か（ヴォイヴォディナのYUG軍）
+		country_event = { id = tsr_balkan_war.33 days = 10 }
 	}
 }
 
@@ -299,6 +341,8 @@ country_event = {
 		tsr_balkan_war_release_banat = yes
 		tsr_balkan_war_release_slovakia = yes
 		tsr_balkan_war_release_ruthenia = yes
+		remove_ideas = tsr_hun_ethnic_separatism
+		add_ideas = tsr_hun_national_rally
 		# 講和判定ポーリング開始（sp>0.7 or Budapest陥落）
 		country_event = { id = tsr_balkan_war.22 days = 10 }
 	}
@@ -371,7 +415,7 @@ country_event = {
 		if = {
 			limit = {
 				OR = {
-					surrender_progress > 0.7
+					surrender_progress > 0.8
 					NOT = { controls_province = 9660 }  # Budapest
 				}
 			}
@@ -379,7 +423,7 @@ country_event = {
 		}
 		if = {
 			limit = {
-				NOT = { surrender_progress > 0.7 }
+				NOT = { surrender_progress > 0.8 }
 				controls_province = 9660
 				has_war_with = YUG
 			}
@@ -395,7 +439,7 @@ country_event = {
 ### 第6幕：講和 ###
 # バニラ講和会議は不使用。scripted effectでwhite_peace + 手動state移譲。
 # 戦中精神を除去し、戦後精神に置換。
-# ここから戦後イベント(.18バナト分割 30日後, .20ブルゲンラント 45日後)を予約。
+# ここから戦後イベント(.18バナト分割 30日後, .20ブルゲンラント 45日後, .107ブルゲンラント割譲 45日後)を予約。
 
 country_event = {
 	id = tsr_balkan_war.15
@@ -576,6 +620,11 @@ country_event = {
 
 	is_triggered_only = yes
 
+	# 安全弁: HUNがブルゲンラント(975)を保持している場合のみ発火
+	trigger = {
+		owns_state = 975
+	}
+
 	option = {
 		name = tsr_balkan_war.20.a
 		975 = { add_core_of = GER }
@@ -583,6 +632,7 @@ country_event = {
 			transfer_state = 975
 			country_event = { id = tsr_balkan_war.21 days = 1 }
 		}
+		news_event = { id = tsr_balkan_war.107 days = 1 }
 	}
 }
 
@@ -598,6 +648,40 @@ country_event = {
 	option = {
 		name = tsr_balkan_war.21.a
 		add_political_power = 50
+		# フレーバー: バルカンの新秩序とドイツの影響圏再編
+		country_event = { id = tsr_balkan_war.42 days = 5 }
+	}
+}
+
+# News: ブルゲンラント割譲
+news_event = {
+	id = tsr_balkan_war.107
+	title = tsr_balkan_war.107.t
+	desc = tsr_balkan_war.107.d
+	picture = GFX_news_event_PLACEHOLDER
+
+	major = yes
+	is_triggered_only = yes
+
+	option = {
+		name = tsr_balkan_war.107.a
+		trigger = {
+			OR = {
+				tag = GER
+				tag = HUN
+			}
+		}
+	}
+	option = {
+		name = tsr_balkan_war.107.b
+		trigger = {
+			NOT = {
+				OR = {
+					tag = GER
+					tag = HUN
+				}
+			}
+		}
 	}
 }
 
@@ -617,10 +701,17 @@ country_event = {
 
 	option = {
 		name = tsr_balkan_war.18.a
-		# YUGが西バナト(764)を取得、ROMがバナト(82)を取得
-		764 = { add_core_of = YUG }
-		YUG = { transfer_state = 764 }
-		ROM = { transfer_state = 82 }
+		# YUGが西バナト(764)を取得、ROMがバナト(82)を取得。
+		# 安全弁: BNTが該当州を保持している場合のみ移譲（蜂起未発生/既喪失への防御）。
+		if = {
+			limit = { 764 = { is_owned_by = BNT } }
+			764 = { add_core_of = YUG }
+			YUG = { transfer_state = 764 }
+		}
+		if = {
+			limit = { 82 = { is_owned_by = BNT } }
+			ROM = { transfer_state = 82 }
+		}
 		ROM = { country_event = { id = tsr_balkan_war.19 days = 1 } }
 		news_event = { id = tsr_balkan_war.103 days = 1 }
 	}
@@ -667,6 +758,518 @@ news_event = {
 				OR = {
 					tag = YUG
 					tag = ROM
+				}
+			}
+		}
+	}
+}
+
+#####################################################################
+# フレーバーイベント（スケルトン）
+#
+# メインチェーン(.1〜.22)の各ノードから発火予約される演出イベント群。
+# 当事5カ国(HUN/YUG/ROM/GER/RUS)＋開戦前＋戦後を網羅。
+# 効果は最小限（本Modは現状スケルトンであり、プレイ性より演出/雰囲気を優先）。
+# 本文(desc)は骨組み。将来的に拡張・推敲する前提のスケルトンテキスト。
+#
+# 発火元と遅延:
+#   .30(HUN) ← .1 +10d   開戦前・民族主義
+#   .31(YUG) ← .2 +2d    開戦・大義
+#   .32(HUN) ← .3 +20d   首都防衛
+#   .33(YUG) ← .7 +10d   解放者/征服者
+#   .34(GER) ← .4 +15d   ベルリンの計算
+#   .35(RUS) ← .5 +15d   汎スラヴ主義
+#   .36(HUN) ← .6 +25d   膠着戦線
+#   .37(HUN) ← .2 +40d   蜂起伏線（蜂起未発生時のみ）
+#   .38(HUN) ← peace +5d  難民
+#   .39(HUN) ← peace +20d 復讐の誓い
+#   .40(YUG) ← .16 +10d  勝利の重荷
+#   .41(ROM) ← .17 +5d   大ルーマニア
+#   .42(GER) ← .21 +5d   バルカン新秩序
+#####################################################################
+
+# .30 HUN: マジャル民族主義の高揚（開戦前）
+country_event = {
+	id = tsr_balkan_war.30
+	title = tsr_balkan_war.30.t
+	desc = tsr_balkan_war.30.d
+	picture = GFX_report_event_PLACEHOLDER
+
+	is_triggered_only = yes
+
+	option = {
+		name = tsr_balkan_war.30.a
+		add_stability = 0.05
+	}
+}
+
+# .31 YUG: 南スラヴ統一の大義（開戦）
+country_event = {
+	id = tsr_balkan_war.31
+	title = tsr_balkan_war.31.t
+	desc = tsr_balkan_war.31.d
+	picture = GFX_report_event_PLACEHOLDER
+
+	is_triggered_only = yes
+
+	trigger = {
+		has_war_with = HUN
+	}
+
+	option = {
+		name = tsr_balkan_war.31.a
+		add_war_support = 0.05
+	}
+}
+
+# .32 HUN: ブダペストの守り（戦中）
+country_event = {
+	id = tsr_balkan_war.32
+	title = tsr_balkan_war.32.t
+	desc = tsr_balkan_war.32.d
+	picture = GFX_report_event_PLACEHOLDER
+
+	is_triggered_only = yes
+
+	trigger = {
+		has_war_with = YUG
+	}
+
+	option = {
+		name = tsr_balkan_war.32.a
+		add_stability = -0.05
+	}
+}
+
+# .33 YUG: 解放者か征服者か（戦中）
+country_event = {
+	id = tsr_balkan_war.33
+	title = tsr_balkan_war.33.t
+	desc = tsr_balkan_war.33.d
+	picture = GFX_report_event_PLACEHOLDER
+
+	is_triggered_only = yes
+
+	trigger = {
+		has_war_with = HUN
+	}
+
+	option = {
+		name = tsr_balkan_war.33.a
+		add_war_support = 0.05
+	}
+}
+
+# .34 GER: ベルリンの計算（戦中・後援者）
+country_event = {
+	id = tsr_balkan_war.34
+	title = tsr_balkan_war.34.t
+	desc = tsr_balkan_war.34.d
+	picture = GFX_report_event_PLACEHOLDER
+
+	is_triggered_only = yes
+
+	trigger = {
+		HUN = { has_war_with = YUG }
+	}
+
+	option = {
+		name = tsr_balkan_war.34.a
+		add_political_power = 25
+	}
+}
+
+# .35 RUS: 汎スラヴ主義の潮流（戦中・後援者）
+country_event = {
+	id = tsr_balkan_war.35
+	title = tsr_balkan_war.35.t
+	desc = tsr_balkan_war.35.d
+	picture = GFX_report_event_PLACEHOLDER
+
+	is_triggered_only = yes
+
+	trigger = {
+		HUN = { has_war_with = YUG }
+	}
+
+	option = {
+		name = tsr_balkan_war.35.a
+		add_political_power = 25
+	}
+}
+
+# .36 HUN: 膠着する戦線（戦中・speed -20%の演出）
+country_event = {
+	id = tsr_balkan_war.36
+	title = tsr_balkan_war.36.t
+	desc = tsr_balkan_war.36.d
+	picture = GFX_report_event_PLACEHOLDER
+
+	is_triggered_only = yes
+
+	trigger = {
+		has_war_with = YUG
+	}
+
+	option = {
+		name = tsr_balkan_war.36.a
+		add_war_support = -0.05
+	}
+}
+
+# .37 HUN: 燻る火種（戦中・蜂起伏線。蜂起未発生時のみ）
+country_event = {
+	id = tsr_balkan_war.37
+	title = tsr_balkan_war.37.t
+	desc = tsr_balkan_war.37.d
+	picture = GFX_report_event_PLACEHOLDER
+
+	is_triggered_only = yes
+
+	trigger = {
+		has_war_with = YUG
+		NOT = { has_country_flag = tsr_balkan_subversion_fired }
+	}
+
+	option = {
+		name = tsr_balkan_war.37.a
+		add_stability = -0.05
+	}
+}
+
+# .38 HUN: 難民の波（戦後）
+country_event = {
+	id = tsr_balkan_war.38
+	title = tsr_balkan_war.38.t
+	desc = tsr_balkan_war.38.d
+	picture = GFX_report_event_PLACEHOLDER
+
+	is_triggered_only = yes
+
+	option = {
+		name = tsr_balkan_war.38.a
+		add_stability = -0.05
+	}
+}
+
+# .39 HUN: 復讐の誓い（戦後・exhaustionと連動する反失地主義）
+country_event = {
+	id = tsr_balkan_war.39
+	title = tsr_balkan_war.39.t
+	desc = tsr_balkan_war.39.d
+	picture = GFX_report_event_PLACEHOLDER
+
+	is_triggered_only = yes
+
+	option = {
+		name = tsr_balkan_war.39.a
+		add_war_support = 0.1
+	}
+}
+
+# .40 YUG: 勝利の重荷（戦後・war_debtと連動）
+country_event = {
+	id = tsr_balkan_war.40
+	title = tsr_balkan_war.40.t
+	desc = tsr_balkan_war.40.d
+	picture = GFX_report_event_PLACEHOLDER
+
+	is_triggered_only = yes
+
+	option = {
+		name = tsr_balkan_war.40.a
+		add_political_power = -25
+	}
+}
+
+# .41 ROM: 大ルーマニアの祝祭（戦後）
+country_event = {
+	id = tsr_balkan_war.41
+	title = tsr_balkan_war.41.t
+	desc = tsr_balkan_war.41.d
+	picture = GFX_report_event_PLACEHOLDER
+
+	is_triggered_only = yes
+
+	option = {
+		name = tsr_balkan_war.41.a
+		add_political_power = 50
+	}
+}
+
+# .42 GER: バルカンの新秩序（戦後・影響圏再編）
+country_event = {
+	id = tsr_balkan_war.42
+	title = tsr_balkan_war.42.t
+	desc = tsr_balkan_war.42.d
+	picture = GFX_report_event_PLACEHOLDER
+
+	is_triggered_only = yes
+
+	option = {
+		name = tsr_balkan_war.42.a
+		add_political_power = 25
+	}
+}
+
+#####################################################################
+# 南部戦線（ブルガリア・ギリシャ）
+#
+# BUL(HUN側): 洪勃防衛協定により.2で自動防衛参戦。ROM/YUGに戦線集中。
+# GRE(YUG側): 秘密協定により.2+50dにBULの背後を突いて参戦。
+# 結末: ギリシャの防衛勝利。領土併合なし。講和で住民移住・非武装化・
+#       賠償・BULクレーム剥奪を実施（peace_settlement内で処理）。
+#
+# 発火元と遅延:
+#   .50(BUL) ← .2 +1d   防衛協定の発動
+#   .51(HUN) ← .2 +1d   ブルガリア参戦通知
+#   .104 news← .2 +2d   ブルガリア参戦
+#   .52(GRE) ← .2 +50d  秘密協定発動・参戦（実機構）
+#   .53(BUL) ← .52 +1d  背後を突かれる
+#   .54(YUG) ← .52 +1d  ギリシャ呼応
+#   .105 news← .52 +2d  ギリシャ参戦
+#   .55(BUL) ← 講和 +1d 住民移住・非武装化・賠償
+#   .56(GRE) ← 講和 +1d トラキア確保・勝利
+#   .106 news← 講和 +2d トラキア講和（住民交換）
+#####################################################################
+
+# .50 BUL: 防衛協定の発動・参戦
+country_event = {
+	id = tsr_balkan_war.50
+	title = tsr_balkan_war.50.t
+	desc = tsr_balkan_war.50.d
+	picture = GFX_report_event_PLACEHOLDER
+
+	is_triggered_only = yes
+
+	option = {
+		name = tsr_balkan_war.50.a
+		add_war_support = 0.1
+	}
+}
+
+# .51 HUN: ブルガリア参戦通知
+country_event = {
+	id = tsr_balkan_war.51
+	title = tsr_balkan_war.51.t
+	desc = tsr_balkan_war.51.d
+	picture = GFX_report_event_PLACEHOLDER
+
+	is_triggered_only = yes
+
+	option = {
+		name = tsr_balkan_war.51.a
+		add_war_support = 0.05
+	}
+}
+
+# .52 GRE: 秘密協定発動・参戦（balkan_entente加盟＋add_to_war の実機構）
+country_event = {
+	id = tsr_balkan_war.52
+	title = tsr_balkan_war.52.t
+	desc = tsr_balkan_war.52.d
+	picture = GFX_report_event_PLACEHOLDER
+
+	is_triggered_only = yes
+
+	trigger = {
+		HUN = { has_war_with = YUG }
+	}
+
+	option = {
+		name = tsr_balkan_war.52.a
+		add_war_support = 0.1
+		# 秘密協定: バルカン協商へ加盟し、HUN陣営に背後から参戦
+		YUG = { add_to_faction = GRE }
+		add_to_war = {
+			targeted_alliance = YUG
+			enemy = HUN
+		}
+		add_ideas = tsr_gre_thracian_ambition
+		BUL = { country_event = { id = tsr_balkan_war.53 days = 1 } }
+		YUG = { country_event = { id = tsr_balkan_war.54 days = 1 } }
+		news_event = { id = tsr_balkan_war.105 days = 2 }
+	}
+}
+
+# .53 BUL: ギリシャに背後を突かれる
+country_event = {
+	id = tsr_balkan_war.53
+	title = tsr_balkan_war.53.t
+	desc = tsr_balkan_war.53.d
+	picture = GFX_report_event_PLACEHOLDER
+
+	is_triggered_only = yes
+
+	option = {
+		name = tsr_balkan_war.53.a
+		add_stability = -0.05
+	}
+}
+
+# .54 YUG: ギリシャ呼応
+country_event = {
+	id = tsr_balkan_war.54
+	title = tsr_balkan_war.54.t
+	desc = tsr_balkan_war.54.d
+	picture = GFX_report_event_PLACEHOLDER
+
+	is_triggered_only = yes
+
+	option = {
+		name = tsr_balkan_war.54.a
+		add_war_support = 0.05
+	}
+}
+
+# .55 BUL: 講和——住民移住・非武装化・賠償（戦後）
+country_event = {
+	id = tsr_balkan_war.55
+	title = tsr_balkan_war.55.t
+	desc = tsr_balkan_war.55.d
+	picture = GFX_report_event_PLACEHOLDER
+
+	is_triggered_only = yes
+
+	option = {
+		name = tsr_balkan_war.55.a
+		add_stability = -0.05
+	}
+}
+
+# .56 GRE: 講和——トラキア確保・勝利（戦後）
+country_event = {
+	id = tsr_balkan_war.56
+	title = tsr_balkan_war.56.t
+	desc = tsr_balkan_war.56.d
+	picture = GFX_report_event_PLACEHOLDER
+
+	is_triggered_only = yes
+
+	option = {
+		name = tsr_balkan_war.56.a
+		add_political_power = 50
+		add_war_support = 0.05
+	}
+}
+
+# .104 news: ブルガリア参戦
+news_event = {
+	id = tsr_balkan_war.104
+	title = tsr_balkan_war.104.t
+	desc = tsr_balkan_war.104.d
+	picture = GFX_news_event_PLACEHOLDER
+
+	major = yes
+	is_triggered_only = yes
+
+	option = {
+		name = tsr_balkan_war.104.a
+		trigger = {
+			OR = {
+				tag = HUN
+				tag = BUL
+			}
+		}
+	}
+	option = {
+		name = tsr_balkan_war.104.b
+		trigger = {
+			OR = {
+				tag = YUG
+				tag = ROM
+			}
+		}
+	}
+	option = {
+		name = tsr_balkan_war.104.c
+		trigger = {
+			NOT = {
+				OR = {
+					tag = HUN
+					tag = BUL
+					tag = YUG
+					tag = ROM
+				}
+			}
+		}
+	}
+}
+
+# .105 news: ギリシャ参戦
+news_event = {
+	id = tsr_balkan_war.105
+	title = tsr_balkan_war.105.t
+	desc = tsr_balkan_war.105.d
+	picture = GFX_news_event_PLACEHOLDER
+
+	major = yes
+	is_triggered_only = yes
+
+	option = {
+		name = tsr_balkan_war.105.a
+		trigger = {
+			OR = {
+				tag = YUG
+				tag = ROM
+				tag = GRE
+			}
+		}
+	}
+	option = {
+		name = tsr_balkan_war.105.b
+		trigger = {
+			OR = {
+				tag = HUN
+				tag = BUL
+			}
+		}
+	}
+	option = {
+		name = tsr_balkan_war.105.c
+		trigger = {
+			NOT = {
+				OR = {
+					tag = YUG
+					tag = ROM
+					tag = GRE
+					tag = HUN
+					tag = BUL
+				}
+			}
+		}
+	}
+}
+
+# .106 news: トラキア講和（住民交換）
+news_event = {
+	id = tsr_balkan_war.106
+	title = tsr_balkan_war.106.t
+	desc = tsr_balkan_war.106.d
+	picture = GFX_news_event_PLACEHOLDER
+
+	major = yes
+	is_triggered_only = yes
+
+	option = {
+		name = tsr_balkan_war.106.a
+		trigger = {
+			tag = GRE
+		}
+	}
+	option = {
+		name = tsr_balkan_war.106.b
+		trigger = {
+			tag = BUL
+		}
+	}
+	option = {
+		name = tsr_balkan_war.106.c
+		trigger = {
+			NOT = {
+				OR = {
+					tag = GRE
+					tag = BUL
 				}
 			}
 		}
