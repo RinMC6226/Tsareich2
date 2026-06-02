@@ -328,7 +328,7 @@ units = {
 	}
 
 	# Subordinate to Army
-	division = { # "1Åã Reggimento 'Nizza Cavalleria'" 
+	division = { # "1ÔøΩÔøΩ Reggimento 'Nizza Cavalleria'" 
 		division_name = {
 			is_name_ordered = yes
 			name_order = 1
@@ -431,7 +431,7 @@ units = {
 		division_name = {
 			is_name_ordered = yes
 			name_order = 2
-		}#  "2Åã Reggimento 'Piemonte Cavalleria'" 
+		}#  "2ÔøΩÔøΩ Reggimento 'Piemonte Cavalleria'" 
 		location = 6626 
 		division_template = "Reggimento di Cavalleria" 
 		start_experience_factor = 0.2 
@@ -815,4 +815,394 @@ instant_effect = {
 			efficiency = 50
 		} 
 	}
-} 
+}
+
+# TSR generated capital infantry start
+units = {
+  division = {
+    name = "1. Divisione di Fanteria"
+    location = 9904
+    division_template = "Divisione di Fanteria"
+    start_experience_factor = 0.1
+    start_equipment_factor = 0.7
+  }
+  division = {
+    name = "2. Divisione di Fanteria"
+    location = 9904
+    division_template = "Divisione di Fanteria"
+    start_experience_factor = 0.1
+    start_equipment_factor = 0.7
+  }
+  division = {
+    name = "3. Divisione di Fanteria"
+    location = 9904
+    division_template = "Divisione di Fanteria"
+    start_experience_factor = 0.1
+    start_equipment_factor = 0.7
+  }
+  division = {
+    name = "4. Divisione di Fanteria"
+    location = 9904
+    division_template = "Divisione di Fanteria"
+    start_experience_factor = 0.1
+    start_equipment_factor = 0.7
+  }
+  division = {
+    name = "5. Divisione di Fanteria"
+    location = 9904
+    division_template = "Divisione di Fanteria"
+    start_experience_factor = 0.1
+    start_equipment_factor = 0.7
+  }
+  division = {
+    name = "6. Divisione di Fanteria"
+    location = 9904
+    division_template = "Divisione di Fanteria"
+    start_experience_factor = 0.1
+    start_equipment_factor = 0.7
+  }
+  division = {
+    name = "7. Divisione di Fanteria"
+    location = 9904
+    division_template = "Divisione di Fanteria"
+    start_experience_factor = 0.1
+    start_equipment_factor = 0.7
+  }
+  division = {
+    name = "8. Divisione di Fanteria"
+    location = 9904
+    division_template = "Divisione di Fanteria"
+    start_experience_factor = 0.1
+    start_equipment_factor = 0.7
+  }
+  division = {
+    name = "9. Divisione di Fanteria"
+    location = 9904
+    division_template = "Divisione di Fanteria"
+    start_experience_factor = 0.1
+    start_equipment_factor = 0.7
+  }
+  division = {
+    name = "10. Divisione di Fanteria"
+    location = 9904
+    division_template = "Divisione di Fanteria"
+    start_experience_factor = 0.1
+    start_equipment_factor = 0.7
+  }
+  division = {
+    name = "11. Divisione di Fanteria"
+    location = 9904
+    division_template = "Divisione di Fanteria"
+    start_experience_factor = 0.1
+    start_equipment_factor = 0.7
+  }
+  division = {
+    name = "12. Divisione di Fanteria"
+    location = 9904
+    division_template = "Divisione di Fanteria"
+    start_experience_factor = 0.1
+    start_equipment_factor = 0.7
+  }
+  division = {
+    name = "13. Divisione di Fanteria"
+    location = 9904
+    division_template = "Divisione di Fanteria"
+    start_experience_factor = 0.1
+    start_equipment_factor = 0.7
+  }
+  division = {
+    name = "14. Divisione di Fanteria"
+    location = 9904
+    division_template = "Divisione di Fanteria"
+    start_experience_factor = 0.1
+    start_equipment_factor = 0.7
+  }
+  division = {
+    name = "15. Divisione di Fanteria"
+    location = 9904
+    division_template = "Divisione di Fanteria"
+    start_experience_factor = 0.1
+    start_equipment_factor = 0.7
+  }
+  division = {
+    name = "16. Divisione di Fanteria"
+    location = 9904
+    division_template = "Divisione di Fanteria"
+    start_experience_factor = 0.1
+    start_equipment_factor = 0.7
+  }
+  division = {
+    name = "17. Divisione di Fanteria"
+    location = 9904
+    division_template = "Divisione di Fanteria"
+    start_experience_factor = 0.1
+    start_equipment_factor = 0.7
+  }
+  division = {
+    name = "18. Divisione di Fanteria"
+    location = 9904
+    division_template = "Divisione di Fanteria"
+    start_experience_factor = 0.1
+    start_equipment_factor = 0.7
+  }
+  division = {
+    name = "19. Divisione di Fanteria"
+    location = 9904
+    division_template = "Divisione di Fanteria"
+    start_experience_factor = 0.1
+    start_equipment_factor = 0.7
+  }
+  division = {
+    name = "20. Divisione di Fanteria"
+    location = 9904
+    division_template = "Divisione di Fanteria"
+    start_experience_factor = 0.1
+    start_equipment_factor = 0.7
+  }
+  division = {
+    name = "21. Divisione di Fanteria"
+    location = 9904
+    division_template = "Divisione di Fanteria"
+    start_experience_factor = 0.1
+    start_equipment_factor = 0.7
+  }
+  division = {
+    name = "22. Divisione di Fanteria"
+    location = 9904
+    division_template = "Divisione di Fanteria"
+    start_experience_factor = 0.1
+    start_equipment_factor = 0.7
+  }
+  division = {
+    name = "23. Divisione di Fanteria"
+    location = 9904
+    division_template = "Divisione di Fanteria"
+    start_experience_factor = 0.1
+    start_equipment_factor = 0.7
+  }
+  division = {
+    name = "24. Divisione di Fanteria"
+    location = 9904
+    division_template = "Divisione di Fanteria"
+    start_experience_factor = 0.1
+    start_equipment_factor = 0.7
+  }
+  division = {
+    name = "25. Divisione di Fanteria"
+    location = 9904
+    division_template = "Divisione di Fanteria"
+    start_experience_factor = 0.1
+    start_equipment_factor = 0.7
+  }
+  division = {
+    name = "26. Divisione di Fanteria"
+    location = 9904
+    division_template = "Divisione di Fanteria"
+    start_experience_factor = 0.1
+    start_equipment_factor = 0.7
+  }
+  division = {
+    name = "27. Divisione di Fanteria"
+    location = 9904
+    division_template = "Divisione di Fanteria"
+    start_experience_factor = 0.1
+    start_equipment_factor = 0.7
+  }
+  division = {
+    name = "28. Divisione di Fanteria"
+    location = 9904
+    division_template = "Divisione di Fanteria"
+    start_experience_factor = 0.1
+    start_equipment_factor = 0.7
+  }
+  division = {
+    name = "29. Divisione di Fanteria"
+    location = 9904
+    division_template = "Divisione di Fanteria"
+    start_experience_factor = 0.1
+    start_equipment_factor = 0.7
+  }
+  division = {
+    name = "30. Divisione di Fanteria"
+    location = 9904
+    division_template = "Divisione di Fanteria"
+    start_experience_factor = 0.1
+    start_equipment_factor = 0.7
+  }
+  division = {
+    name = "31. Divisione di Fanteria"
+    location = 9904
+    division_template = "Divisione di Fanteria"
+    start_experience_factor = 0.1
+    start_equipment_factor = 0.7
+  }
+  division = {
+    name = "32. Divisione di Fanteria"
+    location = 9904
+    division_template = "Divisione di Fanteria"
+    start_experience_factor = 0.1
+    start_equipment_factor = 0.7
+  }
+  division = {
+    name = "33. Divisione di Fanteria"
+    location = 9904
+    division_template = "Divisione di Fanteria"
+    start_experience_factor = 0.1
+    start_equipment_factor = 0.7
+  }
+  division = {
+    name = "34. Divisione di Fanteria"
+    location = 9904
+    division_template = "Divisione di Fanteria"
+    start_experience_factor = 0.1
+    start_equipment_factor = 0.7
+  }
+  division = {
+    name = "35. Divisione di Fanteria"
+    location = 9904
+    division_template = "Divisione di Fanteria"
+    start_experience_factor = 0.1
+    start_equipment_factor = 0.7
+  }
+  division = {
+    name = "36. Divisione di Fanteria"
+    location = 9904
+    division_template = "Divisione di Fanteria"
+    start_experience_factor = 0.1
+    start_equipment_factor = 0.7
+  }
+  division = {
+    name = "37. Divisione di Fanteria"
+    location = 9904
+    division_template = "Divisione di Fanteria"
+    start_experience_factor = 0.1
+    start_equipment_factor = 0.7
+  }
+  division = {
+    name = "38. Divisione di Fanteria"
+    location = 9904
+    division_template = "Divisione di Fanteria"
+    start_experience_factor = 0.1
+    start_equipment_factor = 0.7
+  }
+  division = {
+    name = "39. Divisione di Fanteria"
+    location = 9904
+    division_template = "Divisione di Fanteria"
+    start_experience_factor = 0.1
+    start_equipment_factor = 0.7
+  }
+  division = {
+    name = "40. Divisione di Fanteria"
+    location = 9904
+    division_template = "Divisione di Fanteria"
+    start_experience_factor = 0.1
+    start_equipment_factor = 0.7
+  }
+  division = {
+    name = "41. Divisione di Fanteria"
+    location = 9904
+    division_template = "Divisione di Fanteria"
+    start_experience_factor = 0.1
+    start_equipment_factor = 0.7
+  }
+  division = {
+    name = "42. Divisione di Fanteria"
+    location = 9904
+    division_template = "Divisione di Fanteria"
+    start_experience_factor = 0.1
+    start_equipment_factor = 0.7
+  }
+  division = {
+    name = "43. Divisione di Fanteria"
+    location = 9904
+    division_template = "Divisione di Fanteria"
+    start_experience_factor = 0.1
+    start_equipment_factor = 0.7
+  }
+  division = {
+    name = "44. Divisione di Fanteria"
+    location = 9904
+    division_template = "Divisione di Fanteria"
+    start_experience_factor = 0.1
+    start_equipment_factor = 0.7
+  }
+  division = {
+    name = "45. Divisione di Fanteria"
+    location = 9904
+    division_template = "Divisione di Fanteria"
+    start_experience_factor = 0.1
+    start_equipment_factor = 0.7
+  }
+  division = {
+    name = "46. Divisione di Fanteria"
+    location = 9904
+    division_template = "Divisione di Fanteria"
+    start_experience_factor = 0.1
+    start_equipment_factor = 0.7
+  }
+  division = {
+    name = "47. Divisione di Fanteria"
+    location = 9904
+    division_template = "Divisione di Fanteria"
+    start_experience_factor = 0.1
+    start_equipment_factor = 0.7
+  }
+  division = {
+    name = "48. Divisione di Fanteria"
+    location = 9904
+    division_template = "Divisione di Fanteria"
+    start_experience_factor = 0.1
+    start_equipment_factor = 0.7
+  }
+  division = {
+    name = "49. Divisione di Fanteria"
+    location = 9904
+    division_template = "Divisione di Fanteria"
+    start_experience_factor = 0.1
+    start_equipment_factor = 0.7
+  }
+  division = {
+    name = "50. Divisione di Fanteria"
+    location = 9904
+    division_template = "Divisione di Fanteria"
+    start_experience_factor = 0.1
+    start_equipment_factor = 0.7
+  }
+  division = {
+    name = "51. Divisione di Fanteria"
+    location = 9904
+    division_template = "Divisione di Fanteria"
+    start_experience_factor = 0.1
+    start_equipment_factor = 0.7
+  }
+  division = {
+    name = "52. Divisione di Fanteria"
+    location = 9904
+    division_template = "Divisione di Fanteria"
+    start_experience_factor = 0.1
+    start_equipment_factor = 0.7
+  }
+  division = {
+    name = "53. Divisione di Fanteria"
+    location = 9904
+    division_template = "Divisione di Fanteria"
+    start_experience_factor = 0.1
+    start_equipment_factor = 0.7
+  }
+  division = {
+    name = "54. Divisione di Fanteria"
+    location = 9904
+    division_template = "Divisione di Fanteria"
+    start_experience_factor = 0.1
+    start_equipment_factor = 0.7
+  }
+  division = {
+    name = "55. Divisione di Fanteria"
+    location = 9904
+    division_template = "Divisione di Fanteria"
+    start_experience_factor = 0.1
+    start_equipment_factor = 0.7
+  }
+}
+# TSR generated capital infantry end

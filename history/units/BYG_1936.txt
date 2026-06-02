@@ -1,0 +1,111 @@
+division_template = {
+  name = "Bubing Shi"
+  regiments = {
+    infantry = { x = 0 y = 0 }
+    infantry = { x = 0 y = 1 }
+    infantry = { x = 0 y = 2 }
+    infantry = { x = 1 y = 0 }
+    infantry = { x = 1 y = 1 }
+    infantry = { x = 1 y = 2 }
+  }
+}
+instant_effect = {
+  add_equipment_production = {
+    equipment = {
+      type = infantry_equipment_0
+      creator = "BYG"
+    }
+    requested_factories = 1
+    progress = 0.20
+    efficiency = 50
+  }
+}
+
+# TSR generated capital infantry start
+units = {
+  division = {
+    name = "1. Bubing Shi"
+    location = 1134
+    division_template = "Bubing Shi"
+    start_experience_factor = 0.1
+    start_equipment_factor = 0.7
+  }
+  division = {
+    name = "2. Bubing Shi"
+    location = 1134
+    division_template = "Bubing Shi"
+    start_experience_factor = 0.1
+    start_equipment_factor = 0.7
+  }
+  division = {
+    name = "3. Bubing Shi"
+    location = 1134
+    division_template = "Bubing Shi"
+    start_experience_factor = 0.1
+    start_equipment_factor = 0.7
+  }
+  division = {
+    name = "4. Bubing Shi"
+    location = 1134
+    division_template = "Bubing Shi"
+    start_experience_factor = 0.1
+    start_equipment_factor = 0.7
+  }
+  division = {
+    name = "5. Bubing Shi"
+    location = 1134
+    division_template = "Bubing Shi"
+    start_experience_factor = 0.1
+    start_equipment_factor = 0.7
+  }
+  division = {
+    name = "6. Bubing Shi"
+    location = 1134
+    division_template = "Bubing Shi"
+    start_experience_factor = 0.1
+    start_equipment_factor = 0.7
+  }
+  division = {
+    name = "7. Bubing Shi"
+    location = 1134
+    division_template = "Bubing Shi"
+    start_experience_factor = 0.1
+    start_equipment_factor = 0.7
+  }
+  division = {
+    name = "8. Bubing Shi"
+    location = 1134
+    division_template = "Bubing Shi"
+    start_experience_factor = 0.1
+    start_equipment_factor = 0.7
+  }
+  division = {
+    name = "9. Bubing Shi"
+    location = 1134
+    division_template = "Bubing Shi"
+    start_experience_factor = 0.1
+    start_equipment_factor = 0.7
+  }
+  division = {
+    name = "10. Bubing Shi"
+    location = 1134
+    division_template = "Bubing Shi"
+    start_experience_factor = 0.1
+    start_equipment_factor = 0.7
+  }
+  division = {
+    name = "11. Bubing Shi"
+    location = 1134
+    division_template = "Bubing Shi"
+    start_experience_factor = 0.1
+    start_equipment_factor = 0.7
+  }
+  division = {
+    name = "12. Bubing Shi"
+    location = 1134
+    division_template = "Bubing Shi"
+    start_experience_factor = 0.1
+    start_equipment_factor = 0.7
+  }
+}
+# TSR generated capital infantry end

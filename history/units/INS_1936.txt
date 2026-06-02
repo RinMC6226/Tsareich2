@@ -1,0 +1,41 @@
+division_template = {
+  name = "Divisi Infanteri"
+  regiments = {
+    infantry = { x = 0 y = 0 }
+    infantry = { x = 0 y = 1 }
+    infantry = { x = 0 y = 2 }
+    infantry = { x = 1 y = 0 }
+    infantry = { x = 1 y = 1 }
+    infantry = { x = 1 y = 2 }
+  }
+}
+instant_effect = {
+  add_equipment_production = {
+    equipment = {
+      type = infantry_equipment_0
+      creator = "INS"
+    }
+    requested_factories = 1
+    progress = 0.20
+    efficiency = 50
+  }
+}
+
+# TSR generated capital infantry start
+units = {
+  division = {
+    name = "1. Divisi Infanteri"
+    location = 7381
+    division_template = "Divisi Infanteri"
+    start_experience_factor = 0.1
+    start_equipment_factor = 0.7
+  }
+  division = {
+    name = "2. Divisi Infanteri"
+    location = 7381
+    division_template = "Divisi Infanteri"
+    start_experience_factor = 0.1
+    start_equipment_factor = 0.7
+  }
+}
+# TSR generated capital infantry end
