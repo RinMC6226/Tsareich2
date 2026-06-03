@@ -164,4 +164,4 @@ set_popularities = {
 	far_right = 0
 }
 
-add_ideas = { tsr_hun_multiethnic_army }
+add_ideas = { tsr_hun_multiethnic_army tsr_hun_ethnic_separatism }

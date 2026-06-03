@@ -1,0 +1,106 @@
+﻿l_english:
+ # Localisation section
+ RUS_nicholas_ii: "Nicholas Ii"
+ RUS_tsar_vladimir_kirillovich: "Tsar Vladimir Kirillovich"
+ RUS_tsar_vsevolod_ivanovich: "Tsar Vsevolod Ivanovich"
+ RUS_metropolitan_meletius: "Metropolitan Meletius"
+ RUS_nestor_makhno: "Nestor Makhno"
+ RUS_julius_martov: "Julius Martov"
+ RUS_alexander_kerensky: "Alexander Kerensky"
+ RUS_pavel_milyukov: "Pavel Milyukov"
+ RUS_alexander_guchkov: "Alexander Guchkov"
+ RUS_nikolai_markov: "Nikolai Markov"
+
+ # Localisation section
+ RUS_georgy_zhukov: "Georgy Zhukov"
+ RUS_konstantin_rokossovsky: "Konstantin Rokossovsky"
+ RUS_aleksandr_vasilevsky: "Aleksandr Vasilevsky"
+ RUS_boris_shaposhnikov: "Boris Shaposhnikov"
+ RUS_nikolay_vatutin: "Nikolay Vatutin"
+ RUS_ivan_konev: "Ivan Konev"
+ RUS_semyon_timoshenko: "Semyon Timoshenko"
+ RUS_ivan_chernyakhovsky: "Ivan Chernyakhovsky"
+ RUS_issa_pliyev: "Issa Pliyev"
+ RUS_leonid_govorov: "Leonid Govorov"
+ RUS_grigory_kulik: "Grigory Kulik"
+ RUS_kirill_meretskov: "Kirill Meretskov"
+ RUS_filipp_golikov: "Filipp Golikov"
+ RUS_andrey_yeryomenko: "Andrey Yeryomenko"
+ RUS_georgy_zakharov: "Georgy Zakharov"
+ RUS_yakov_cherevichenko: "Yakov Cherevichenko"
+ RUS_maks_reyter: "Maks Reyter"
+ RUS_nikandr_chibisov: "Nikandr Chibisov"
+ RUS_vasily_kuznetsov: "Vasily Kuznetsov"
+ RUS_ivan_fedyuninsky: "Ivan Fedyuninsky"
+ RUS_maksim_purkayev: "Maksim Purkayev"
+ RUS_kuzma_galitsky: "Kuzma Galitsky"
+ RUS_markian_popov: "Markian Popov"
+ RUS_nikolay_berzarin: "Nikolay Berzarin"
+ RUS_aleksandr_gorbatov: "Aleksandr Gorbatov"
+ RUS_kirill_moskalenko: "Kirill Moskalenko"
+ RUS_dmitry_lelyushenko: "Dmitry Lelyushenko"
+ RUS_andrey_grechko: "Andrey Grechko"
+ RUS_rodion_malinovsky: "Rodion Malinovsky"
+ RUS_vasily_chuykov: "Vasily Chuykov"
+ RUS_aleksandr_cherepanov: "Aleksandr Cherepanov"
+
+ # Localisation section
+ RUS_filipp_oktyabrsky: "Filipp Oktyabrsky"
+ RUS_sergey_gorshkov: "Sergey Gorshkov"
+ RUS_gordey_levchenko: "Gordey Levchenko"
+ RUS_arseny_golovko: "Arseny Golovko"
+ RUS_vladimir_kasatonov: "Vladimir Kasatonov"
+ RUS_ivan_yumashev: "Ivan Yumashev"
+ RUS_nikolay_kuznetsov: "Nikolay Kuznetsov"
+ RUS_vladimir_tributs: "Vladimir Tributs"
+
+ # Localisation section
+ RUS_stepan_krasovsky: "Stepan Krasovsky"
+ RUS_sergey_khudyakov: "Sergey Khudyakov"
+ RUS_konstantin_vershinin: "Konstantin Vershinin"
+ RUS_sergey_rudenko: "Sergey Rudenko"
+ RUS_aleksandr_golovanov: "Aleksandr Golovanov"
+ RUS_aleksandr_novikov: "Aleksandr Novikov"
+ RUS_pavel_zhigarev: "Pavel Zhigarev"
+
+ # Localisation section
+ RUS_vasily_korzh: "Vasily Korzh"
+ RUS_sidor_kovpak: "Sidor Kovpak"
+ RUS_lev_dovator: "Lev Dovator"
+ RUS_pavel_rybalko: "Pavel Rybalko"
+
+ # Localisation section
+ RUS_anton_denikin: "Anton Denikin"
+ RUS_pyotr_krasnov: "Pyotr Krasnov"
+ RUS_konstantin_nechayev: "Konstantin Nechayev"
+ RUS_vladimir_kosmin: "Vladimir Kosmin"
+ RUS_aleksandr_rodzyanko: "Aleksandr Rodzyanko"
+ RUS_andrey_shkuro: "Andrey Shkuro"
+ RUS_grigory_semyonov: "Grigory Semyonov"
+
+ # Localisation section
+ RUS_patriarch_sergy: "Patriarch Sergy"
+ RUS_metropolitan_anastasy: "Metropolitan Anastasy"
+ RUS_metropolitan_nikolay: "Metropolitan Nikolay"
+ RUS_metropolitan_aleksy: "Metropolitan Aleksy"
+
+ # Localisation section
+ RUS_anastasy_vonsyatsky: "Anastasy Vonsyatsky"
+ RUS_nikolay_ustryalov: "Nikolay Ustryalov"
+ RUS_aleksandr_kazembek: "Aleksandr Kazembek"
+ RUS_aleksandr_prokofyev_seversky: "Aleksandr Prokofyev Seversky"
+ RUS_vyacheslav_tkachyov: "Vyacheslav Tkachyov"
+ RUS_yan_nagursky: "Yan Nagursky"
+ RUS_vasily_yanchenko: "Vasily Yanchenko"
+
+ # Localisation section
+ RUS_igor_kurchatov: "Igor Kurchatov"
+ RUS_abram_ioffe: "Abram Ioffe"
+ RUS_sergey_korolyov: "Sergey Korolyov"
+ RUS_boris_stechkin: "Boris Stechkin"
+ RUS_arkady_nazarov: "Arkady Nazarov"
+ RUS_vladimir_kotelnikov: "Vladimir Kotelnikov"
+
+
+ #trait
+ RUS_reactional_tsar: "Reactionary Tsar"

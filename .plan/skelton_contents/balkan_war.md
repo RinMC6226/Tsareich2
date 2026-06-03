@@ -103,6 +103,19 @@
 蜂起時はstate 70（ブラチスラバ周辺）のみ独立。残り(71, 664)は講和時に移譲。
 ゲームプレイ上、全州同時独立だとHUNの崩壊が即時すぎるため。
 
+### BNT早期独立（on_actions）
+
+BNTのみ独立タイミングを蜂起(.11)から切り離し、前倒しする。
+YUGまたはROMが「将来のBNT領」(state 82/764)のいずれか一方を占領（支配権奪取）した時点で、
+`on_state_control_changed`(`common/on_actions/TR_balkan_war_on_actions.txt`)から
+`tsr_balkan_war_release_banat`を呼んで先行独立させる。
+SLO/RUTの独立タイミングは従来どおり.11蜂起のまま保持する。
+
+スコープ: ROOT=新支配国, FROM=旧支配国, FROM.FROM=対象州。
+ゲート: `tsr_balkan_war_is_active`（戦争進行中）＋ ROOTがYUG/ROM ＋ FROM.FROMが`tsr_is_banat_state`。
+`tsr_balkan_war_release_banat`は`tsr_banat_released`フラグで冪等化し、
+早期独立後に.11蜂起が`release_banat`を再呼び出ししても二重独立しないようにした。
+
 ### 代理戦争の速度制御
 
 両陣営の国民精神に`army_speed_factor = -0.2`を付与。
@@ -116,6 +129,9 @@
 ### 陣営管理
 
 - .1でバルカン協商を結成、ROMを事前加盟（add_to_warに必要）
+- ROMには`tsr_rom_opportunistic_neutrality`（`ai_join_ally_desire_factor = -1000`）を.1で付与。
+  開戦前に陣営加盟させつつAI参戦欲求を抑制し、YUG開戦時にROMが巻き込まれて即時参戦するのを防ぐ。
+  .8の`add_to_war`で強制参戦すると、`cancel = { has_war_with = HUN }`により自動除去される。
 - 蜂起時にBNT/SLO/RUTもバルカン協商に加盟
 - `DIPLOMACY_LEAVE_FACTION_ENABLE_TRIGGER`を`always = no`で脱退不可
 
@@ -124,9 +140,16 @@
 1. **バナト分割**（講和30日後）: BNTをYUG/ROMで分割。764→YUG, 82→ROM。BNT事実上消滅。
 2. **ブルゲンラント割譲**（講和45日後）: 戦時借款返済不能のHUNが代償としてstate 975をGERに割譲。
 
+### 整合性・安全弁
+
+- **release_banatの冗長コード削除**: `HUN = { transfer_state = 82/764 }`はHUN自身への移譲で無意味だったため除去。実移譲は`BNT = { transfer_state }`が担う。
+- **.18バナト分割の所有権ガード**: BNTが764/82を保持している場合のみ移譲（`is_owned_by = BNT`のif分岐）。蜂起未発生や既喪失時の防御。
+- **.20ブルゲンラント割譲のtriggerガード**: `trigger = { owns_state = 975 }`。HUNが975を保持している場合のみ発火。
+- 戦中フレーバー(.31〜.37)に`has_war_with`ガードを付与し、早期終戦時の文脈外発火を防止。
+
 ---
 
-## イベント一覧（全25イベント）
+## イベント一覧（メイン+戦後+ニュース21 + フレーバー13）
 
 ### メインチェーン
 
@@ -169,6 +192,87 @@
 | .102 | バルカン戦争終結 | major=yes, tag別option 3分岐 |
 | .103 | バナト分割 | major=yes, tag別option 2分岐 |
 
+### フレーバーイベント（スケルトン・追加分）
+
+メインチェーンの各ノードから発火予約される演出イベント。効果は最小限。
+本文(desc)は骨組みで、将来的な拡張・推敲を前提とする。当事5カ国＋開戦前＋戦後を網羅。
+
+| ID | 対象 | 発火元 | 概要 |
+|----|------|--------|------|
+| .30 | HUN | .1 +10d | マジャル民族主義の高揚（開戦前） |
+| .31 | YUG | .2 +2d | 南スラヴ統一の大義（開戦） |
+| .32 | HUN | .3 +20d | ブダペストの守り（戦中） |
+| .33 | YUG | .7 +10d | 解放者か征服者か（戦中） |
+| .34 | GER | .4 +15d | ベルリンの計算（直接介入か代理支援か） |
+| .35 | RUS | .5 +15d | 汎スラヴ主義の潮流 |
+| .36 | HUN | .6 +25d | 膠着する戦線（speed -20%の演出） |
+| .37 | HUN | .2 +40d | 燻る火種（蜂起伏線・蜂起未発生時のみ） |
+| .38 | HUN | 講和 +5d | 難民の波（戦後） |
+| .39 | HUN | 講和 +20d | 復讐の誓い（exhaustionと連動） |
+| .40 | YUG | .16 +10d | 勝利の重荷（war_debtと連動） |
+| .41 | ROM | .17 +5d | 大ルーマニアの祝祭 |
+| .42 | GER | .21 +5d | バルカンの新秩序（影響圏再編） |
+
+戦中イベント(.31〜.37)は`has_war_with`ガード付き。早期終戦時の不発火を防ぐ。
+
+---
+
+## 南部戦線拡張：ブルガリア・ギリシャ
+
+### 構図
+
+- **ブルガリア（HUN側）**：ハンガリーとの**防衛協定**（洪勃防衛協定）により、YUG開戦と同時に防衛義務で自動参戦。ROM/YUGに戦線を集中する
+- **ギリシャ（YUG側）**：ユーゴとの**秘密協定**を背景に、開戦50日後にBULの背後を突いて参戦。トラキア全域支配を狙う
+- **南部の結末（領土併合なし）**：ギリシャの防衛勝利。
+  - ギリシャ領トラキア(184)・エーゲ海マケドニア(731)のブルガリア系を追放→人口的にギリシャ化（住民移住）
+  - ブルガリアの全クレーム剥奪（106/803/184/731）＝修正主義の根絶
+  - ブルガリアに南部国境非武装化＋賠償を課す
+  - 地図は不変。北部（HUN崩壊→YUG/ROM）は現状通り
+
+### 陣営構造
+
+| 陣営 | 構成 | 生成 |
+|------|------|------|
+| **洪勃防衛協定**（新規・HUN主導, `faction_template_hun_bul_defense_pact`） | HUN + BUL | `.1`でHUN結成・BUL加盟 |
+| バルカン協商（既存・YUG主導） | YUG + ROM + 蜂起国 + GRE | GREは`.52`で加盟 |
+
+- BULは協定加盟済みのため、`.2`でYUGがHUN（盟主）に宣戦すると**自動的に防衛参戦**（add_to_war不要＝防衛義務の表現）
+- GREは「秘密協定」ゆえ開戦時は無所属を装い、`.52`でバルカン協商加盟＋`add_to_war`で背後参戦
+
+### 追加イベント
+
+| ID | 対象 | 発火元 | 概要 |
+|----|------|--------|------|
+| .50 | BUL | .2 +1d | 防衛協定の発動・参戦 |
+| .51 | HUN | .2 +1d | ブルガリア参戦通知 |
+| .52 | GRE | .2 +50d | 秘密協定発動・参戦（加盟＋add_to_war の実機構） |
+| .53 | BUL | .52 +1d | ギリシャに背後を突かれる |
+| .54 | YUG | .52 +1d | ギリシャ呼応 |
+| .55 | BUL | 講和 +1d | 住民移住・非武装化・賠償（戦後） |
+| .56 | GRE | 講和 +1d | トラキア確保・勝利（戦後） |
+| .104 | news | .2 +2d | ブルガリア参戦（major） |
+| .105 | news | .52 +2d | ギリシャ参戦（major） |
+| .106 | news | 講和 +2d | トラキア講和・住民交換（major） |
+
+### 国民精神（5種追加）
+
+| ID | 対象 | 時期 | 効果 |
+|----|------|------|------|
+| `tsr_bul_defensive_pact` | BUL | 戦中 | def +10%, org +5% |
+| `tsr_gre_thracian_ambition` | GRE | 戦中 | atk +10%, war_support +5% |
+| `tsr_bul_war_reparations` | BUL | 戦後 | civ_factory_use +2, PP -15%, stability -5%, consumer +10%（賠償＋難民） |
+| `tsr_bul_demilitarized_frontier` | BUL | 戦後 | def -10%, bunker建設速度 -50%（南部非武装化） |
+| `tsr_gre_aegean_supremacy` | GRE | 戦後 | stability +5%, war_support +5% |
+
+### 講和処理（peace_settlement追加分）
+
+- `184/731/106/803 = { remove_claim_by = BUL }` … 全クレーム剥奪
+- `HUN = { white_peace = GRE }` … 念のため明示（BULはHUN同盟ゆえ不要）
+- BUL: 戦中精神除去 → `tsr_bul_war_reparations` + `tsr_bul_demilitarized_frontier` / .55通知
+- GRE: 戦中精神除去 → `tsr_gre_aegean_supremacy` / .56通知
+- `.106`住民交換ニュース
+- 住民移住は演出（イベント本文＋難民精神）で表現。state manpower変更は行わない
+
 ---
 
 ## 国民精神
@@ -186,6 +290,7 @@
 | `tsr_german_proxy_support` | HUN | atk +10%, def +10%, org +5%, supply -10%, **speed -20%** |
 | `tsr_russian_war_loan` | YUG | atk +15%, def +15%, org +10%, supply -20%, arms_factory +20%, **speed -20%** |
 | `tsr_transylvania_irredentism` | ROM | atk +5%, morale +10%, war_support +10% |
+| `tsr_rom_opportunistic_neutrality` | ROM | ai_join_ally_desire_factor -1000（.1付与→HUNと交戦時に自動cancel）。参戦制御用 |
 
 ### 戦後
 
@@ -277,6 +382,7 @@ HUNはState 43（ブダペスト）と155（西ハンガリー）のみの残存
 |----------|----------|------|
 | `tsr_balkan_war_started` | HUN | .1の重複発火防止 |
 | `tsr_balkan_subversion_fired` | HUN | .10蜂起ポーリングの一度きり実行保証 |
+| `tsr_banat_released` | HUN | BNT独立の一度きり実行保証（早期独立on_actions と .11蜂起の二重独立防止） |
 
 ---
 
@@ -300,6 +406,8 @@ common/
 ├── scripted_triggers/
 │   ├── TR_balkan_war_triggers.txt        # 状態判定7種
 │   └── diplomacy_scripted_triggers.txt   # LEAVE_FACTION always=no
+├── on_actions/
+│   └── TR_balkan_war_on_actions.txt      # BNT早期独立(on_state_control_changed)
 └── ...
 
 history/
