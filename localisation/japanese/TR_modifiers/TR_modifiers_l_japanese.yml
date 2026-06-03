@@ -3,3 +3,5 @@
  RUS_registration_issue_desc: "この地域では十分な戸籍の作成ができておらず、部分的な動員しか行うことはできない。"
  GER_west_bunker: "西方要塞"
  GER_west_bunker_desc: "インターナショナルの脅威に対抗し西方大要塞を構築することを余儀なくされた。"
+ GER_suspected_bavarian_privileges_state_modifier: "疑われた特権"
+ GER_suspected_bavarian_privileges_state_modifier_desc: "帝国戦争省による軍制統合への不信から、この地域では徴兵と工業協力が大きく滞っている。"

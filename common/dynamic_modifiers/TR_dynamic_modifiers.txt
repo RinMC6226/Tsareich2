@@ -16,3 +16,12 @@ GER_west_bunker = {
 	icon = GFX_modifiers_generic_defense
     state_bunker_max_level_terrain_limit = 6		
 }
+GER_suspected_bavarian_privileges_state_modifier = { #State Modifier
+  enable = { always = yes }
+  icon = GFX_modifiers_conscription_exemptions_granted
+
+  local_manpower = -0.80
+  local_building_slots_factor = -0.80
+  industrial_capacity_factory = -0.80
+  industrial_capacity_dockyard = -0.80
+}

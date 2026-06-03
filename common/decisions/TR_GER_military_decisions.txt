@@ -1,0 +1,27 @@
+TR_GER_military_decisions = {
+  GER_suspected_privileges_mission = {
+    icon = generic_political_discourse
+    allowed = {
+      original_tag = GER
+    }
+    visible = {
+      has_completed_focus = GER_kriegsministerum
+      NOT = { has_completed_focus = GER_the_sixty_sixth_act }
+    }
+    activation = {
+      has_completed_focus = GER_kriegsministerum
+      NOT = { has_completed_focus = GER_the_sixty_sixth_act }
+    }
+    available = {
+      has_completed_focus = GER_the_sixty_sixth_act
+    }
+    is_good = no
+    selectable_mission = no
+    days_mission_timeout = 70
+    timeout_effect = {
+      country_event = { id = tsr_ger_military.2 hours = 6 }
+    }
+    complete_effect = {
+    }
+  }
+}

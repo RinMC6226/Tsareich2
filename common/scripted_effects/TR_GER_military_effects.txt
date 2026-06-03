@@ -1,0 +1,41 @@
+tsr_ger_apply_bavarian_privileges_penalty_effect = {
+  52 = {
+    if = {
+      limit = { NOT = { has_dynamic_modifier = { modifier = GER_suspected_bavarian_privileges_state_modifier } } }
+      add_dynamic_modifier = { modifier = GER_suspected_bavarian_privileges_state_modifier }
+    }
+  }
+  53 = {
+    if = {
+      limit = { NOT = { has_dynamic_modifier = { modifier = GER_suspected_bavarian_privileges_state_modifier } } }
+      add_dynamic_modifier = { modifier = GER_suspected_bavarian_privileges_state_modifier }
+    }
+  }
+  54 = {
+    if = {
+      limit = { NOT = { has_dynamic_modifier = { modifier = GER_suspected_bavarian_privileges_state_modifier } } }
+      add_dynamic_modifier = { modifier = GER_suspected_bavarian_privileges_state_modifier }
+    }
+  }
+}
+
+tsr_ger_remove_bavarian_privileges_penalty_effect = {
+  52 = {
+    if = {
+      limit = { has_dynamic_modifier = { modifier = GER_suspected_bavarian_privileges_state_modifier } }
+      remove_dynamic_modifier = { modifier = GER_suspected_bavarian_privileges_state_modifier }
+    }
+  }
+  53 = {
+    if = {
+      limit = { has_dynamic_modifier = { modifier = GER_suspected_bavarian_privileges_state_modifier } }
+      remove_dynamic_modifier = { modifier = GER_suspected_bavarian_privileges_state_modifier }
+    }
+  }
+  54 = {
+    if = {
+      limit = { has_dynamic_modifier = { modifier = GER_suspected_bavarian_privileges_state_modifier } }
+      remove_dynamic_modifier = { modifier = GER_suspected_bavarian_privileges_state_modifier }
+    }
+  }
+}
