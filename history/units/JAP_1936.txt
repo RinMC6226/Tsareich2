@@ -733,3 +733,316 @@ instant_effect = {
 	}
 
 }
+
+# TSR generated capital infantry start
+units = {
+  division = {
+    name = "1. Hohei Shidan"
+    location = 993
+    division_template = "Hohei Shidan"
+    start_experience_factor = 0.1
+    start_equipment_factor = 0.7
+  }
+  division = {
+    name = "2. Hohei Shidan"
+    location = 993
+    division_template = "Hohei Shidan"
+    start_experience_factor = 0.1
+    start_equipment_factor = 0.7
+  }
+  division = {
+    name = "3. Hohei Shidan"
+    location = 993
+    division_template = "Hohei Shidan"
+    start_experience_factor = 0.1
+    start_equipment_factor = 0.7
+  }
+  division = {
+    name = "4. Hohei Shidan"
+    location = 993
+    division_template = "Hohei Shidan"
+    start_experience_factor = 0.1
+    start_equipment_factor = 0.7
+  }
+  division = {
+    name = "5. Hohei Shidan"
+    location = 993
+    division_template = "Hohei Shidan"
+    start_experience_factor = 0.1
+    start_equipment_factor = 0.7
+  }
+  division = {
+    name = "6. Hohei Shidan"
+    location = 993
+    division_template = "Hohei Shidan"
+    start_experience_factor = 0.1
+    start_equipment_factor = 0.7
+  }
+  division = {
+    name = "7. Hohei Shidan"
+    location = 993
+    division_template = "Hohei Shidan"
+    start_experience_factor = 0.1
+    start_equipment_factor = 0.7
+  }
+  division = {
+    name = "8. Hohei Shidan"
+    location = 993
+    division_template = "Hohei Shidan"
+    start_experience_factor = 0.1
+    start_equipment_factor = 0.7
+  }
+  division = {
+    name = "9. Hohei Shidan"
+    location = 993
+    division_template = "Hohei Shidan"
+    start_experience_factor = 0.1
+    start_equipment_factor = 0.7
+  }
+  division = {
+    name = "10. Hohei Shidan"
+    location = 993
+    division_template = "Hohei Shidan"
+    start_experience_factor = 0.1
+    start_equipment_factor = 0.7
+  }
+  division = {
+    name = "11. Hohei Shidan"
+    location = 993
+    division_template = "Hohei Shidan"
+    start_experience_factor = 0.1
+    start_equipment_factor = 0.7
+  }
+  division = {
+    name = "12. Hohei Shidan"
+    location = 993
+    division_template = "Hohei Shidan"
+    start_experience_factor = 0.1
+    start_equipment_factor = 0.7
+  }
+  division = {
+    name = "13. Hohei Shidan"
+    location = 993
+    division_template = "Hohei Shidan"
+    start_experience_factor = 0.1
+    start_equipment_factor = 0.7
+  }
+  division = {
+    name = "14. Hohei Shidan"
+    location = 993
+    division_template = "Hohei Shidan"
+    start_experience_factor = 0.1
+    start_equipment_factor = 0.7
+  }
+  division = {
+    name = "15. Hohei Shidan"
+    location = 993
+    division_template = "Hohei Shidan"
+    start_experience_factor = 0.1
+    start_equipment_factor = 0.7
+  }
+  division = {
+    name = "16. Hohei Shidan"
+    location = 993
+    division_template = "Hohei Shidan"
+    start_experience_factor = 0.1
+    start_equipment_factor = 0.7
+  }
+  division = {
+    name = "17. Hohei Shidan"
+    location = 993
+    division_template = "Hohei Shidan"
+    start_experience_factor = 0.1
+    start_equipment_factor = 0.7
+  }
+  division = {
+    name = "18. Hohei Shidan"
+    location = 993
+    division_template = "Hohei Shidan"
+    start_experience_factor = 0.1
+    start_equipment_factor = 0.7
+  }
+  division = {
+    name = "19. Hohei Shidan"
+    location = 993
+    division_template = "Hohei Shidan"
+    start_experience_factor = 0.1
+    start_equipment_factor = 0.7
+  }
+  division = {
+    name = "20. Hohei Shidan"
+    location = 993
+    division_template = "Hohei Shidan"
+    start_experience_factor = 0.1
+    start_equipment_factor = 0.7
+  }
+  division = {
+    name = "21. Hohei Shidan"
+    location = 993
+    division_template = "Hohei Shidan"
+    start_experience_factor = 0.1
+    start_equipment_factor = 0.7
+  }
+  division = {
+    name = "22. Hohei Shidan"
+    location = 993
+    division_template = "Hohei Shidan"
+    start_experience_factor = 0.1
+    start_equipment_factor = 0.7
+  }
+  division = {
+    name = "23. Hohei Shidan"
+    location = 993
+    division_template = "Hohei Shidan"
+    start_experience_factor = 0.1
+    start_equipment_factor = 0.7
+  }
+  division = {
+    name = "24. Hohei Shidan"
+    location = 993
+    division_template = "Hohei Shidan"
+    start_experience_factor = 0.1
+    start_equipment_factor = 0.7
+  }
+  division = {
+    name = "25. Hohei Shidan"
+    location = 993
+    division_template = "Hohei Shidan"
+    start_experience_factor = 0.1
+    start_equipment_factor = 0.7
+  }
+  division = {
+    name = "26. Hohei Shidan"
+    location = 993
+    division_template = "Hohei Shidan"
+    start_experience_factor = 0.1
+    start_equipment_factor = 0.7
+  }
+  division = {
+    name = "27. Hohei Shidan"
+    location = 993
+    division_template = "Hohei Shidan"
+    start_experience_factor = 0.1
+    start_equipment_factor = 0.7
+  }
+  division = {
+    name = "28. Hohei Shidan"
+    location = 993
+    division_template = "Hohei Shidan"
+    start_experience_factor = 0.1
+    start_equipment_factor = 0.7
+  }
+  division = {
+    name = "29. Hohei Shidan"
+    location = 993
+    division_template = "Hohei Shidan"
+    start_experience_factor = 0.1
+    start_equipment_factor = 0.7
+  }
+  division = {
+    name = "30. Hohei Shidan"
+    location = 993
+    division_template = "Hohei Shidan"
+    start_experience_factor = 0.1
+    start_equipment_factor = 0.7
+  }
+  division = {
+    name = "31. Hohei Shidan"
+    location = 993
+    division_template = "Hohei Shidan"
+    start_experience_factor = 0.1
+    start_equipment_factor = 0.7
+  }
+  division = {
+    name = "32. Hohei Shidan"
+    location = 993
+    division_template = "Hohei Shidan"
+    start_experience_factor = 0.1
+    start_equipment_factor = 0.7
+  }
+  division = {
+    name = "33. Hohei Shidan"
+    location = 993
+    division_template = "Hohei Shidan"
+    start_experience_factor = 0.1
+    start_equipment_factor = 0.7
+  }
+  division = {
+    name = "34. Hohei Shidan"
+    location = 993
+    division_template = "Hohei Shidan"
+    start_experience_factor = 0.1
+    start_equipment_factor = 0.7
+  }
+  division = {
+    name = "35. Hohei Shidan"
+    location = 993
+    division_template = "Hohei Shidan"
+    start_experience_factor = 0.1
+    start_equipment_factor = 0.7
+  }
+  division = {
+    name = "36. Hohei Shidan"
+    location = 993
+    division_template = "Hohei Shidan"
+    start_experience_factor = 0.1
+    start_equipment_factor = 0.7
+  }
+  division = {
+    name = "37. Hohei Shidan"
+    location = 993
+    division_template = "Hohei Shidan"
+    start_experience_factor = 0.1
+    start_equipment_factor = 0.7
+  }
+  division = {
+    name = "38. Hohei Shidan"
+    location = 993
+    division_template = "Hohei Shidan"
+    start_experience_factor = 0.1
+    start_equipment_factor = 0.7
+  }
+  division = {
+    name = "39. Hohei Shidan"
+    location = 993
+    division_template = "Hohei Shidan"
+    start_experience_factor = 0.1
+    start_equipment_factor = 0.7
+  }
+  division = {
+    name = "40. Hohei Shidan"
+    location = 993
+    division_template = "Hohei Shidan"
+    start_experience_factor = 0.1
+    start_equipment_factor = 0.7
+  }
+  division = {
+    name = "41. Hohei Shidan"
+    location = 993
+    division_template = "Hohei Shidan"
+    start_experience_factor = 0.1
+    start_equipment_factor = 0.7
+  }
+  division = {
+    name = "42. Hohei Shidan"
+    location = 993
+    division_template = "Hohei Shidan"
+    start_experience_factor = 0.1
+    start_equipment_factor = 0.7
+  }
+  division = {
+    name = "43. Hohei Shidan"
+    location = 993
+    division_template = "Hohei Shidan"
+    start_experience_factor = 0.1
+    start_equipment_factor = 0.7
+  }
+  division = {
+    name = "44. Hohei Shidan"
+    location = 993
+    division_template = "Hohei Shidan"
+    start_experience_factor = 0.1
+    start_equipment_factor = 0.7
+  }
+}
+# TSR generated capital infantry end

@@ -1,4 +1,5 @@
 capital = 335 #Jakarta
+oob = "INS_1936"
 
 set_cosmetic_tag = INS_HOL # Netherlands East Indies
 

@@ -1,4 +1,5 @@
 capital = 295 # Leopoldville/Kinshaasa
+oob = "COG_1936"
 
 set_cosmetic_tag = COG_belgian_congo # The Belgian Congo
 
