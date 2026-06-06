@@ -16,8 +16,8 @@ related: []
 
 ## 1. 矛盾・要整合（最優先）
 
-- **日露戦争の講和が食い違う。** `02_russia` 系は「ロシア勝利・**大連条約**」（[events/1904_russo-japanese-war.md](events/1904_russo-japanese-war.md)）、`03_japan` 系は「**ポーツマス条約**(1905.9.5)・事実上の敗戦」（[nations/JAP.md](nations/JAP.md)）。条約名・年・勝敗の正典を確定する。
-  - 付随：開戦の最後通牒の発布主体（露が日本へ vs 日本が拒否）も両ファイルで要突合。
+- ~~**日露戦争の講和が食い違う。**~~ **解決済み**: 講和条約名は**ポーツマス条約**に確定。ロシア勝利・日本は事実上の敗戦。全ファイル統一完了。
+  - ~~付随：開戦の最後通牒の発布主体~~ **解決済み**: 史実どおり日本側が国交断絶を通告。全ファイル統一完了。
 - **第一次大戦の勝敗・参戦陣営の突合。** 各ファイルは「1917–1918年に英仏が敗北、独露（伊）同盟が勝利」とする分岐世界線。[events/1914_great-war-outbreak.md](events/1914_great-war-outbreak.md) を基準に、GER/RUS/JAP/ENG/FRA/ITA/AUS/TUR の参戦陣営・年号・勝敗を一貫させる。
 - **確定度表記の不統一。** [TIMELINE.md](TIMELINE.md) は全イベントを `draft` と表記するが、各 event ファイルは `1905_state-duma-opening` を除き `canon`。表記方針を統一する（年月日が未確定でも内容が確定なら canon とするか等）。
 
@@ -41,6 +41,6 @@ related: []
 
 ## 4. 構成上の課題
 
-- **専用 nations ファイルの要否。** ITA・FRA・SPR・ENG・USA は前史頻出だが nations/*.md 未作成（[ENTITIES.md](ENTITIES.md)）。
+- **専用 nations ファイルの要否。** ITA・SPR・ENG・USA は前史頻出だが nations/*.md 未作成（FRA は作成済み）（[ENTITIES.md](ENTITIES.md)）。
 - **解体国の後継の扱い。** オーストリア＝ハンガリー（AUS）・オスマン（TUR）は1918年解体。1936時点の後継国家・継承境界が未定義。
 - **派閥専用ファイルの要否。** 現状 factions/ は空。三陣営を factions/*.md に切り出すか、events + ENTITIES の表で足りるか判断。

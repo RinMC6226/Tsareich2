@@ -17,6 +17,7 @@
 - [ドイツ帝国](nations/GER.md) — 独露同盟と半議会制立憲君主国 [draft]
 - [ロシア帝国](nations/RUS.md) — 帝政存続と国家院（末尾に原文欠落） [draft]
 - [大日本帝国](nations/JAP.md) — 日露敗戦後の中堅立憲国家 [canon]
+- [フランス・コミューン](nations/FRA.md) — 敗戦国の復讐主義的革命政権（史実ナチスドイツ相当） [draft]
 
 ## イベント (events/) — 時系列
 
@@ -24,7 +25,7 @@
 - [満州権益](events/1898_manchuria-concessions.md) — 独露の満州権益と日本の反発 [canon]
 - [義和団の乱](events/1900_boxer-rebellion.md) — 連合軍と北京議定書、日英接近 [canon]
 - [日露戦争開戦前夜](events/1903_russo-japanese-war-eve.md) — シベリア鉄道開通と開戦派の台頭 [canon]
-- [日露戦争](events/1904_russo-japanese-war.md) — ロシア優位・大連条約（※日本側資料と矛盾） [canon]
+- [日露戦争](events/1904_russo-japanese-war.md) — ロシア優位・ポーツマス条約 [canon]
 - [国家院の開設](events/1905_state-duma-opening.md) — 勝利後のツァーリ権威（※原文が途中で欠落） [draft]
 - [独露協調の固定化（第一次モロッコ事件）](events/1905_first-moroccan-crisis-tangier.md) — タンジール訪問と外交的勝利 [canon]
 - [政党政治の定着と軍部の後退](events/1906_party-politics-establishment.md) — 西園寺内閣と議会政治の定着 [canon]

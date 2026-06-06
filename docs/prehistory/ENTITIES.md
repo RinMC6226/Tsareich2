@@ -5,8 +5,8 @@ type: faction
 canon: draft
 related: []
 to_do:
-  - "全人物の character token が未確定（history/characters に該当ファイルが無い）。token 列はすべて未記入。"
-  - "ITA・FRA・SPR・ENG・USA は前史に頻出するが nations/*.md が未作成。専用前史ファイルの要否を判断すること。"
+  - "FRA の人物は character token 確定済み（common/characters/FRA.txt に5名）。GER・RUS・JAP・USA の人物 token はなお未確定。"
+  - "ITA・SPR・ENG・USA は前史に頻出するが nations/*.md が未作成。FRA は作成済み。"
   - "AUS（オーストリア＝ハンガリー）・TUR（オスマン）は1918年に解体。1936時点の後継国家の扱いが未確定。"
   - "三陣営（独露伊大陸同盟・インターナショナル・英米海洋陣営）の faction 実装（faction名・初期加盟・外交関係）が未着手。"
 ---
@@ -29,13 +29,13 @@ AIが「この国/人物は実装上どのTAG・どのオブジェクトか」�
 | ドイツ帝国 | GER | 半議会制立憲君主国 | [nations/GER.md](nations/GER.md) | common/national_focus/GER_*, 帝国議会システム（docs/plan/done/parliament_system_v2.md） |
 | ロシア帝国 | RUS | 立憲君主制（帝政＋国家院） | [nations/RUS.md](nations/RUS.md) | <!-- TODO: RUS の focus/ideas 実装所在が未確定 --> |
 | 大日本帝国 | JAP | 立憲君主制（議会主導） | [nations/JAP.md](nations/JAP.md) | history/countries/JAP - Japan.txt, common/ideas（国民精神, 未実装） |
+| フランス・コミューン | FRA | 復讐主義的革命政権 | [nations/FRA.md](nations/FRA.md) | history/countries/FRA - France.txt, common/characters/FRA.txt |
 
 ### 前史に登場（専用ファイル未作成）
 
 | lore名 | TAG | 1936時点の立場 | 備考 |
 |---|---|---|---|
 | イタリア王国 | ITA | 反革命的国家主義王国 | 独露伊大陸同盟側。<!-- TODO: nations/ITA.md 要否 --> |
-| フランス・コミューン | FRA | 革命共和制（コミューン） | インターナショナル中核。<!-- TODO: nations/FRA.md 要否 --> |
 | スペイン共和国 | SPR | 第二共和政 | インターナショナル。<!-- TODO: nations/SPR.md 要否 --> |
 | イギリス | ENG | 海洋帝国 | 英米海洋陣営。<!-- TODO: nations/ENG.md 要否 --> |
 | アメリカ合衆国 | USA | 共和党ノックス政権 | 英米海洋陣営。選挙のゲーム内再現は要検討。 |
@@ -68,6 +68,19 @@ AIが「この国/人物は実装上どのTAG・どのオブジェクトか」�
 | 若槻禮次郎 | JAP | 首相（1931～） | <!-- TODO --> | [events/1928_showa-depression.md](events/1928_showa-depression.md) |
 | 幣原喜重郎 | JAP | 首相（1934～、協調外交） | <!-- TODO --> | [events/1934_shidehara-cooperative-diplomacy.md](events/1934_shidehara-cooperative-diplomacy.md) |
 | フランク・ノックス | USA | 大統領（共和党、1936～） | <!-- TODO --> | [events/1936_us-presidential-election.md](events/1936_us-presidential-election.md) |
+| マルセル・デア | FRA | 国家元首（コミューン最高指導者、1934～） | <!-- TODO: 新規作成要 --> | [nations/FRA.md](nations/FRA.md) |
+| ジャック・ドリオ | FRA | 赤色民兵指導者（デアの右腕） | <!-- TODO: 新規作成要 --> | [nations/FRA.md](nations/FRA.md) |
+| ジャン・ジョレス | FRA | SFIO指導者→臨時革命委員会議長（1919年粛清） | <!-- TODO --> | [nations/FRA.md](nations/FRA.md) |
+| ジョルジュ・ヴァロワ | FRA | 国民サンディカリスムの理論家 | <!-- TODO --> | [nations/FRA.md](nations/FRA.md) |
+| モーリス・トレーズ | FRA | 内政の重鎮（労組の国家組織化） | <!-- TODO --> | [nations/FRA.md](nations/FRA.md) |
+| ジャック・デュクロ | FRA | 秘密警察（革命保安局）長官 | <!-- TODO --> | [nations/FRA.md](nations/FRA.md) |
+| シャルル・ド・ゴール | FRA | 陸軍・機甲将軍 | <!-- TODO: 新規作成要 --> | [nations/FRA.md](nations/FRA.md) |
+| フランソワ・ダルラン | FRA | 海軍・赤色艦隊総司令官 | <!-- TODO: 新規作成要 --> | [nations/FRA.md](nations/FRA.md) |
+| エドゥアール・ダラディエ | FRA | country_leader（social_democracy、差し替え予定） | FRA_edouard_daladier | [nations/FRA.md](nations/FRA.md) |
+| ルネ・ニコ | FRA | country_leader（orthodox_marxism） | FRA_rene_nicod | [nations/FRA.md](nations/FRA.md) |
+| アルフレッド・ロスメル | FRA | country_leader（syndicalism） | FRA_alfred_rosmer | [nations/FRA.md](nations/FRA.md) |
+| マルセル・ビュカール | FRA | 革命的愛国者（将軍・顧問候補） | FRA_marcel_bucard | [nations/FRA.md](nations/FRA.md) |
+| シャルル・モーラス | FRA | 王党派（亡命、体制転覆ルート） | FRA_charles_maurras | [nations/FRA.md](nations/FRA.md) |
 
 ---
 
