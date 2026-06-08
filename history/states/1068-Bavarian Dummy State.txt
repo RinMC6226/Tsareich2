@@ -1,0 +1,30 @@
+state = {
+  id = 1068
+  name = "STATE_1068"
+
+  state_category = wasteland
+  manpower = 0
+
+  history = {
+    owner = BAY
+    controller = BAY
+    add_core_of = BAY
+
+    victory_points = {
+    }
+
+    buildings = {
+      infrastructure = 0
+
+      13400 = {
+        naval_base = 1
+      }
+    }
+  }
+
+  provinces = {
+    13400
+  }
+
+  local_supplies = 0.0
+}
