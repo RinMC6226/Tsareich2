@@ -25,3 +25,10 @@ GER_suspected_bavarian_privileges_state_modifier = { #State Modifier
   industrial_capacity_factory = -0.80
   industrial_capacity_dockyard = -0.80
 }
+
+BAY_dummy_state_no_building_slots_modifier = { #State Modifier
+  enable = { always = yes }
+  icon = GFX_modifiers_generic_construction
+
+  local_building_slots_factor = -1.0
+}

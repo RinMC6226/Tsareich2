@@ -5,3 +5,5 @@
  GER_west_bunker_desc: "インターナショナルの脅威に対抗し西方大要塞を構築することを余儀なくされた。"
  GER_suspected_bavarian_privileges_state_modifier: "疑われた特権"
  GER_suspected_bavarian_privileges_state_modifier_desc: "帝国戦争省による軍制統合への不信から、この地域では徴兵と工業協力が大きく滞っている。"
+ BAY_dummy_state_no_building_slots_modifier: "名目上の領邦"
+ BAY_dummy_state_no_building_slots_modifier_desc: "この州は国家選択と属国処理のために置かれた名目上の領土であり、追加の建設余地を持たない。"

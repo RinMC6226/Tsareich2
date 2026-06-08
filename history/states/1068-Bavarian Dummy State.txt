@@ -2,23 +2,24 @@ state = {
   id = 1068
   name = "STATE_1068"
 
-  state_category = wasteland
-  manpower = 0
+  state_category = city
+  manpower = 15
 
   history = {
     owner = BAY
     controller = BAY
     add_core_of = BAY
+    add_dynamic_modifier = {
+      modifier = BAY_dummy_state_no_building_slots_modifier
+    }
 
     victory_points = {
+      13400 1
     }
 
     buildings = {
-      infrastructure = 0
-
-      13400 = {
-        naval_base = 1
-      }
+      infrastructure = 3
+      industrial_complex = 1
     }
   }
 
