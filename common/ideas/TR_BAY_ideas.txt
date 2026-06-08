@@ -1,0 +1,9 @@
+ideas = {
+  country = {
+    BAY_bavarian_military_reserve = {
+      picture = generic_manpower_bonus
+      allowed = { original_tag = BAY }
+      removal_cost = -1
+    }
+  }
+}

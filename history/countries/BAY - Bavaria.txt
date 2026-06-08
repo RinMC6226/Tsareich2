@@ -1,4 +1,5 @@
 capital = 1068
+set_oob = "BAY_1936"
 
 set_party_name = { ideology = far_left long_name = GEN_far_left_party_long name = GEN_far_left_party }
 set_party_name = { ideology = left long_name = GEN_left_party_long name = GEN_left_party }
@@ -9,6 +10,10 @@ set_party_name = { ideology = right long_name = GEN_right_party_long name = GEN_
 set_party_name = { ideology = far_right long_name = GEN_far_right_party_long name = GEN_far_right_party }
 
 recruit_character = BAY_rupprecht_von_bayern
+add_ideas = {
+  BAY_bavarian_military_reserve
+}
+tsr_bay_add_initial_bavarian_core_manpower_effect = yes
 
 # Starting tech
 set_technology = {

@@ -59,6 +59,8 @@
  GER_bloated_army_desc: "After victory, the Imperial Army grew into a vast institution still carrying the legacy of wartime mobilization. Its officer corps, general staff, logistics, reserve system, and links to the arms industry are essential pillars of security, but its size is too heavy for peacetime finances."
  GER_veterans_association: "Veterans' Associations"
  GER_veterans_association_desc: "Veterans of the Great War have organized associations across the empire and hold strong influence in German society. Their memories of the fallen, pride in victory, and shared sacrifice give them moral authority, but in a political crisis they may become a bridge between the street and parliament."
+ BAY_bavarian_military_reserve: "Bavarian Military District Reserves"
+ BAY_bavarian_military_reserve_desc: "While Bavaria's core states remain under German imperial ownership, their military administration is handled through the Kingdom of Bavaria's district system. Half of the natural manpower growth from those states is registered each month as Bavarian army manpower."
 
 
 
