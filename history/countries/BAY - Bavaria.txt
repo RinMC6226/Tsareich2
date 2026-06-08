@@ -8,6 +8,8 @@ set_party_name = { ideology = center_right long_name = GEN_center_right_party_lo
 set_party_name = { ideology = right long_name = GEN_right_party_long name = GEN_right_party }
 set_party_name = { ideology = far_right long_name = GEN_far_right_party_long name = GEN_far_right_party }
 
+recruit_character = BAY_rupprecht_von_bayern
+
 # Starting tech
 set_technology = {
 	infantry_weapons = 1

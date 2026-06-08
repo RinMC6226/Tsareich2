@@ -45,6 +45,12 @@ set_party_name = { ideology = far_right long_name = GER_far_right_party_long nam
 puppet = CZE
 
 set_autonomy = {
+  target = BAY
+  autonomous_state = autonomy_imperial_state
+  freedom_level = 0.75
+}
+
+set_autonomy = {
 	target = DSW
 	autonomous_state = autonomy_puppet
 	freedom_level = 0

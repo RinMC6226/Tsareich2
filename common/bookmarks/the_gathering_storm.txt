@@ -43,6 +43,16 @@ bookmarks = {
 			}
 		}
 
+		BAY = {
+			history = "BAY_GATHERING_STORM_DESC"
+			ideology = right
+			minor = yes
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+
 		RUS = {
 			history = "RUS_GATHERING_STORM_DESC"
 			ideology = right
