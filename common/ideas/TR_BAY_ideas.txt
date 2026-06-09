@@ -4,6 +4,9 @@ ideas = {
       picture = generic_manpower_bonus
       allowed = { original_tag = BAY }
       removal_cost = -1
+      modifier = {
+        custom_modifier_tooltip = BAY_bavarian_military_reserve_monthly_effect_tt
+      }
     }
   }
 }

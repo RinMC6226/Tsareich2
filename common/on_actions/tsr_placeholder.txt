@@ -6,18 +6,24 @@ on_actions = {
 				activate_mission = GER_parliament_election_mission
 				tsr_ger_apply_bavarian_military_district_effect = yes
 			}
+			set_global_flag = tsr_bay_monthly_manpower_enabled
 		}
 	}
 
-	on_monthly_pulse = {
+	on_monthly = {
 		effect = {
-			GER = {
+			if = {
+				limit = {
+					tag = GER
+					has_global_flag = tsr_bay_monthly_manpower_enabled
+					date > 1936.1.31
+				}
 				tsr_ger_apply_bavarian_military_district_effect = yes
-			}
-			BAY = {
-				if = {
-					limit = { has_idea = BAY_bavarian_military_reserve }
-					tsr_bay_add_monthly_bavarian_core_growth_effect = yes
+				BAY = {
+					if = {
+						limit = { has_idea = BAY_bavarian_military_reserve }
+						tsr_bay_add_monthly_bavarian_core_growth_effect = yes
+					}
 				}
 			}
 		}

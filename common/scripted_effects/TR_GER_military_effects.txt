@@ -81,7 +81,7 @@ tsr_bay_add_initial_bavarian_core_manpower_effect = {
         is_core_of = BAY
       }
     }
-    add_manpower = 1339707
+    add_manpower = 34303
   }
   if = {
     limit = {
@@ -90,7 +90,7 @@ tsr_bay_add_initial_bavarian_core_manpower_effect = {
         is_core_of = BAY
       }
     }
-    add_manpower = 726683
+    add_manpower = 18614
   }
   if = {
     limit = {
@@ -99,36 +99,42 @@ tsr_bay_add_initial_bavarian_core_manpower_effect = {
         is_core_of = BAY
       }
     }
-    add_manpower = 1254080
+    add_manpower = 32083
   }
 }
 
 tsr_bay_add_monthly_bavarian_core_growth_effect = {
-  if = {
-    limit = {
-      52 = {
-        owner = GER
-        is_core_of = BAY
-      }
-    }
-    add_manpower = 1675
+  custom_effect_tooltip = BAY_bavarian_military_reserve_monthly_effect_tt
+  effect_tooltip = {
+    add_manpower = 4151
   }
-  if = {
-    limit = {
-      53 = {
-        owner = GER
-        is_core_of = BAY
+  hidden_effect = {
+    if = {
+      limit = {
+        52 = {
+          owner = GER
+          is_core_of = BAY
+        }
       }
+      add_manpower = 1675
     }
-    add_manpower = 908
-  }
-  if = {
-    limit = {
-      54 = {
-        owner = GER
-        is_core_of = BAY
+    if = {
+      limit = {
+        53 = {
+          owner = GER
+          is_core_of = BAY
+        }
       }
+      add_manpower = 908
     }
-    add_manpower = 1568
+    if = {
+      limit = {
+        54 = {
+          owner = GER
+          is_core_of = BAY
+        }
+      }
+      add_manpower = 1568
+    }
   }
 }
