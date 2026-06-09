@@ -19,6 +19,7 @@ state = {
 
     buildings = {
       infrastructure = 3
+      #基本的な工業
       industrial_complex = 2
       arms_factory = 2
     }
