@@ -43,16 +43,6 @@ bookmarks = {
 			}
 		}
 
-		BAY = {
-			history = "BAY_GATHERING_STORM_DESC"
-			ideology = right
-			minor = yes
-			ideas = {
-			}
-			focuses = {
-			}
-		}
-
 		RUS = {
 			history = "RUS_GATHERING_STORM_DESC"
 			ideology = right
@@ -62,9 +52,7 @@ bookmarks = {
 				export_focus
 			}
 			focuses = {
-				army_effort
-				industrial_effort
-				extra_tech_slot
+
 			}
 		}
 
@@ -95,15 +83,14 @@ bookmarks = {
 			}
 		}
 
-		effect = {
-			randomize_weather = 22345
-			GER = {
-				set_autonomy = {
-					target = BAY
-					autonomous_state = autonomy_imperial_state
-					freedom_level = 0.75
-				}
-			}
-		}
+		
+
+		BAY = {
+     		history = "BAY_GATHERING_STORM_DESC"
+      		ideology = right
+      		minor = yes
+      		ideas = {}
+      		focuses = {}
+    	}
 	}
 }

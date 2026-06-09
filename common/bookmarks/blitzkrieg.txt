@@ -95,15 +95,6 @@ bookmarks = {
 			}
 		}
 
-		effect = {
-			randomize_weather = 22345
-			GER = {
-				set_autonomy = {
-					target = BAY
-					autonomous_state = autonomy_imperial_state
-					freedom_level = 0.75
-				}
-			}
-		}
+
 	}
 }
