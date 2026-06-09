@@ -8,6 +8,7 @@ state={
 	history={
 		owner = HUN
 		controller = HUN
+		add_claim_by = HUN
 		victory_points = {
 			3614 1
 		}

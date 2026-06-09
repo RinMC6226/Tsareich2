@@ -10,6 +10,8 @@ state = {
 		owner = HUN
 		controller = HUN
 
+		add_claim_by = HUN
+
 		buildings = {
 			infrastructure = 3
 		}

@@ -8,6 +8,7 @@ state={
 
 	history={
 		owner = HUN
+		add_claim_by = HUN
 		buildings = {
 			infrastructure = 3
 			arms_factory = 1

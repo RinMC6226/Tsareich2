@@ -6,6 +6,7 @@ state={
 		victory_points = { 619 3 } # Novi Sad
 		victory_points = { 9608 2 } # Subotica
 		owner = HUN
+		add_claim_by = HUN
 		buildings = {
 			infrastructure = 3
 
