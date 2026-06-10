@@ -16,3 +16,35 @@ GER_west_bunker = {
 	icon = GFX_modifiers_generic_defense
     state_bunker_max_level_terrain_limit = 6		
 }
+GER_suspected_bavarian_privileges_state_modifier = { #State Modifier
+  enable = { always = yes }
+  icon = GFX_modifiers_conscription_exemptions_granted
+
+  local_manpower = -0.80
+  local_building_slots_factor = -0.80
+  industrial_capacity_factory = -0.80
+  industrial_capacity_dockyard = -0.80
+}
+
+BAY_dummy_state_no_building_slots_modifier = { #State Modifier
+  enable = { always = yes }
+  icon = GFX_modifiers_generic_construction
+
+  local_building_slots_factor = -1.0
+}
+
+BAY_bavarian_military_district_state_modifier = { #State Modifier
+  enable = {
+    owner = GER
+    is_core_of = BAY
+  }
+  remove_trigger = {
+    OR = {
+      NOT = { owner = GER }
+      NOT = { is_core_of = BAY }
+    }
+  }
+  icon = GFX_modifiers_conscription_exemptions_granted
+
+  local_manpower = -0.50
+}

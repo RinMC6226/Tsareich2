@@ -1,0 +1,140 @@
+tsr_ger_apply_bavarian_privileges_penalty_effect = {
+  52 = {
+    if = {
+      limit = { NOT = { has_dynamic_modifier = { modifier = GER_suspected_bavarian_privileges_state_modifier } } }
+      add_dynamic_modifier = { modifier = GER_suspected_bavarian_privileges_state_modifier }
+    }
+  }
+  53 = {
+    if = {
+      limit = { NOT = { has_dynamic_modifier = { modifier = GER_suspected_bavarian_privileges_state_modifier } } }
+      add_dynamic_modifier = { modifier = GER_suspected_bavarian_privileges_state_modifier }
+    }
+  }
+  54 = {
+    if = {
+      limit = { NOT = { has_dynamic_modifier = { modifier = GER_suspected_bavarian_privileges_state_modifier } } }
+      add_dynamic_modifier = { modifier = GER_suspected_bavarian_privileges_state_modifier }
+    }
+  }
+}
+
+tsr_ger_remove_bavarian_privileges_penalty_effect = {
+  52 = {
+    if = {
+      limit = { has_dynamic_modifier = { modifier = GER_suspected_bavarian_privileges_state_modifier } }
+      remove_dynamic_modifier = { modifier = GER_suspected_bavarian_privileges_state_modifier }
+    }
+  }
+  53 = {
+    if = {
+      limit = { has_dynamic_modifier = { modifier = GER_suspected_bavarian_privileges_state_modifier } }
+      remove_dynamic_modifier = { modifier = GER_suspected_bavarian_privileges_state_modifier }
+    }
+  }
+  54 = {
+    if = {
+      limit = { has_dynamic_modifier = { modifier = GER_suspected_bavarian_privileges_state_modifier } }
+      remove_dynamic_modifier = { modifier = GER_suspected_bavarian_privileges_state_modifier }
+    }
+  }
+}
+
+tsr_ger_apply_bavarian_military_district_effect = {
+  52 = {
+    if = {
+      limit = {
+        owner = GER
+        is_core_of = BAY
+        NOT = { has_dynamic_modifier = { modifier = BAY_bavarian_military_district_state_modifier } }
+      }
+      add_dynamic_modifier = { modifier = BAY_bavarian_military_district_state_modifier }
+    }
+  }
+  53 = {
+    if = {
+      limit = {
+        owner = GER
+        is_core_of = BAY
+        NOT = { has_dynamic_modifier = { modifier = BAY_bavarian_military_district_state_modifier } }
+      }
+      add_dynamic_modifier = { modifier = BAY_bavarian_military_district_state_modifier }
+    }
+  }
+  54 = {
+    if = {
+      limit = {
+        owner = GER
+        is_core_of = BAY
+        NOT = { has_dynamic_modifier = { modifier = BAY_bavarian_military_district_state_modifier } }
+      }
+      add_dynamic_modifier = { modifier = BAY_bavarian_military_district_state_modifier }
+    }
+  }
+}
+
+tsr_bay_add_initial_bavarian_core_manpower_effect = {
+  if = {
+    limit = {
+      52 = {
+        owner = GER
+        is_core_of = BAY
+      }
+    }
+    add_manpower = 34303
+  }
+  if = {
+    limit = {
+      53 = {
+        owner = GER
+        is_core_of = BAY
+      }
+    }
+    add_manpower = 18614
+  }
+  if = {
+    limit = {
+      54 = {
+        owner = GER
+        is_core_of = BAY
+      }
+    }
+    add_manpower = 32083
+  }
+}
+
+tsr_bay_add_monthly_bavarian_core_growth_effect = {
+  custom_effect_tooltip = BAY_bavarian_military_reserve_monthly_effect_tt
+  effect_tooltip = {
+    add_manpower = 4151
+  }
+  hidden_effect = {
+    if = {
+      limit = {
+        52 = {
+          owner = GER
+          is_core_of = BAY
+        }
+      }
+      add_manpower = 1675
+    }
+    if = {
+      limit = {
+        53 = {
+          owner = GER
+          is_core_of = BAY
+        }
+      }
+      add_manpower = 908
+    }
+    if = {
+      limit = {
+        54 = {
+          owner = GER
+          is_core_of = BAY
+        }
+      }
+      add_manpower = 1568
+    }
+  }
+}

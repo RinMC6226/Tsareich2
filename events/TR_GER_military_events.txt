@@ -1,0 +1,32 @@
+add_namespace = tsr_ger_military
+
+country_event = {
+  id = tsr_ger_military.1
+  title = tsr_ger_military.1.t
+  desc = tsr_ger_military.1.d
+  picture = GFX_report_event_PLACEHOLDER
+  is_triggered_only = yes
+
+  option = {
+    name = tsr_ger_military.1.a
+  }
+
+  option = {
+    name = tsr_ger_military.1.b
+    add_political_power = -40
+  }
+}
+
+country_event = {
+  id = tsr_ger_military.2
+  title = tsr_ger_military.2.t
+  desc = tsr_ger_military.2.d
+  picture = GFX_report_event_PLACEHOLDER
+  is_triggered_only = yes
+
+  option = {
+    name = tsr_ger_military.2.a
+    custom_effect_tooltip = GER_bavarian_privileges_penalty_tt
+    tsr_ger_apply_bavarian_privileges_penalty_effect = yes
+  }
+}

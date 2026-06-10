@@ -1,0 +1,11 @@
+characters = {
+  BAY_rupprecht_von_bayern = {
+    name = BAY_rupprecht_von_bayern
+    country_leader = {
+      ideology = conservatism
+      traits = { }
+      expire = "1955.8.2"
+      id = -1
+    }
+  }
+}

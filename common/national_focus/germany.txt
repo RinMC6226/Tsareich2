@@ -306,4 +306,53 @@ focus_tree = {
 			}
 		}
 	}
+
+
+	#軍事ツリー陸軍
+	focus = {
+		id = GER_kriegsministerum
+		icon = GFX_focus_PLACEHOLDER
+
+		mutually_exclusive = {  }
+		x = 34
+		y = 0
+		cost = 4
+
+		available = {
+			
+		}
+
+		search_filters = {  }
+
+		completion_reward = {
+			army_experience = 25
+			country_event = { id = tsr_ger_military.1 hours = 6 }
+			custom_effect_tooltip = GER_kriegsministerum_desc_tt
+		}
+	}
+
+
+
+	focus = {
+		id = GER_the_sixty_sixth_act
+		icon = GFX_focus_PLACEHOLDER
+
+		prerequisite = { focus = GER_kriegsministerum }
+		mutually_exclusive = {  }
+		x = 36
+		y = 1
+		cost = 5
+
+		available = {
+			
+		}
+
+		search_filters = {  }
+
+		completion_reward = {
+			custom_effect_tooltip = GER_the_sixty_sixth_act_bavarian_penalty_removed_tt
+			tsr_ger_remove_bavarian_privileges_penalty_effect = yes
+		}
+	}
+
 }

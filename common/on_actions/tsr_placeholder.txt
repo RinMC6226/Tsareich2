@@ -4,6 +4,32 @@ on_actions = {
 			GER = {
 				GER_parliament_initialize = yes
 				activate_mission = GER_parliament_election_mission
+				set_autonomy = {
+					target = BAY
+					autonomous_state = autonomy_imperial_state
+					freedom_level = 0.75
+				}
+				tsr_ger_apply_bavarian_military_district_effect = yes
+			}
+			set_global_flag = tsr_bay_monthly_manpower_enabled
+		}
+	}
+
+	on_monthly = {
+		effect = {
+			if = {
+				limit = {
+					tag = GER
+					has_global_flag = tsr_bay_monthly_manpower_enabled
+					date > 1936.1.31
+				}
+				tsr_ger_apply_bavarian_military_district_effect = yes
+				BAY = {
+					if = {
+						limit = { has_idea = BAY_bavarian_military_reserve }
+						tsr_bay_add_monthly_bavarian_core_growth_effect = yes
+					}
+				}
 			}
 		}
 	}
