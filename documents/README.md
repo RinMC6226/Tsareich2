@@ -12,6 +12,7 @@ This directory contains HOI4 scripting references for coding agents and contribu
 - Modifiers: `00_coding_contexts/modifiers_documentation.md`
 - Localisation: `00_coding_contexts/loc_formatter_documentation.md`, `00_coding_contexts/loc_objects_documentation.md`, and `95_scripted_localisation.md`
 - Characters and leaders: `00_character/`
+- AI behavior: `05_ai/AI_MODDING_GUIDE.md`
 
 ## Task-Oriented Routes
 
@@ -21,6 +22,7 @@ This directory contains HOI4 scripting references for coding agents and contribu
 - Character or trait work: start in `00_character/`, then inspect nearby files in `common/characters/`, `common/country_leader/`, or `common/unit_leader/`.
 - Country setup: use `98_country.md`, then inspect nearby files in `common/countries/` and `history/countries/`.
 - Building or state-related work: use `96_buildings.md`, `03_map/01_River.md`, and nearby files in `history/states/` or `map/`.
+- AI behavior work (`common/ai_strategy/`, `common/ai_templates/`, `common/ai_equipment/`, `common/ai_navy/`, and related `ai_*` folders): start with `05_ai/AI_MODDING_GUIDE.md`, then use the matching `hoi4-ai-*` skills in `.claude/skills/` or `codex/skills/`.
 
 ## Agent Rules
 
