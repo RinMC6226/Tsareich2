@@ -9,3 +9,5 @@
  BAY_dummy_state_no_building_slots_modifier_desc: "この州は国家選択と属国処理のために置かれた名目上の領土であり、追加の建設余地を持たない。"
  BAY_bavarian_military_district_state_modifier: "バイエルン軍管区"
  BAY_bavarian_military_district_state_modifier_desc: "この州の軍事行政はバイエルン王国の管区制度を通じて扱われており、ドイツ帝国による直接徴兵は制限されている。"
+ BAY_restoration_of_internal_authority_state_modifier: "内政権の取り戻し"
+ BAY_restoration_of_internal_authority_state_modifier_desc: ""

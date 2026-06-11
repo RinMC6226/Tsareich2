@@ -327,6 +327,9 @@ focus_tree = {
 		completion_reward = {
 			army_experience = 25
 			country_event = { id = tsr_ger_military.1 hours = 6 }
+			BAY = {
+				country_event = { id = tsr_ger_military.2 hours = 12 }
+			}
 			custom_effect_tooltip = GER_kriegsministerum_desc_tt
 		}
 	}

@@ -1,6 +1,6 @@
 add_namespace = tsr_ger_military
 
-country_event = {
+country_event = { #帝国戦争省
   id = tsr_ger_military.1
   title = tsr_ger_military.1.t
   desc = tsr_ger_military.1.d
@@ -10,14 +10,9 @@ country_event = {
   option = {
     name = tsr_ger_military.1.a
   }
-
-  option = {
-    name = tsr_ger_military.1.b
-    add_political_power = -40
-  }
 }
 
-country_event = {
+country_event = { #（バイエルン）ベルリンからの通達
   id = tsr_ger_military.2
   title = tsr_ger_military.2.t
   desc = tsr_ger_military.2.d
@@ -26,7 +21,69 @@ country_event = {
 
   option = {
     name = tsr_ger_military.2.a
-    custom_effect_tooltip = GER_bavarian_privileges_penalty_tt
-    tsr_ger_apply_bavarian_privileges_penalty_effect = yes
+    custom_effect_tooltip = tsr_ger_military.2.tt_1
+  }
+  option = {
+    name = tsr_ger_military.2.b
+    custom_effect_tooltip = tsr_ger_military.2.tt_2
+    
+  }
+  option = {
+    name = tsr_ger_military.2.c
+    custom_effect_tooltip = tsr_ger_military.2.tt_3
+    add_war_support = 0.15
+    hidden_effect = {
+      country_event = { id = tsr_ger_military.3 hours = 24 }
+      country_event = { id = tsr_ger_military.4 hours = 60 }
+    }
   }
 }
+
+country_event = { #バイエルン過激派からの連絡
+  id = tsr_ger_military.3
+  title = tsr_ger_military.3.t
+  desc = tsr_ger_military.3.d
+  picture = GFX_report_event_PLACEHOLDER
+  is_triggered_only = yes
+
+  option = {
+    name = tsr_ger_military.3.a
+    add_manpower = 9500
+  }
+}
+
+country_event = {
+  id = tsr_ger_military.4
+  title = tsr_ger_military.4.t
+  desc = tsr_ger_military.4.d
+  picture = GFX_report_event_PLACEHOLDER
+  is_triggered_only = yes
+
+  option = {
+    name = tsr_ger_military.4.a
+    GER = {
+      country_event = { id = tsr_ger_military.5 hours = 6 }
+    }
+    every_core_state = {
+      limit = {
+        NOT = { has_dynamic_modifier = { modifier = BAY_restoration_of_internal_authority_state_modifier } }
+      }
+      add_dynamic_modifier = { modifier = BAY_restoration_of_internal_authority_state_modifier }
+    }
+    add_offsite_building = { type = arms_factory level = 3 }
+    add_offsite_building = { type = industrial_complex level = 4 }
+  }
+}
+
+country_event = {
+  id = tsr_ger_military.5
+  title = tsr_ger_military.5.t
+  desc = tsr_ger_military.5.d
+  picture = GFX_report_event_PLACEHOLDER
+  is_triggered_only = yes
+
+  option = {
+    name = tsr_ger_military.5.a
+  }
+}
+
