@@ -1,4 +1,4 @@
-﻿##### Division Templates #####
+##### Division Templates #####
 division_template = {
 	name = "Division d'Infanterie"		
 	division_names_group = FRA_INF_01
@@ -449,3 +449,265 @@ units = {
 		start_equipment_factor = 0.75
 	}
 }
+
+instant_effect = {
+  add_equipment_production = {
+    equipment = {
+      type = infantry_equipment_1
+      creator = "FRA"
+    }
+    requested_factories = 1
+    progress = 0.20
+    efficiency = 50
+  }
+}
+
+# TSR generated capital infantry start
+units = {
+  division = {
+    name = "1. Division d'Infanterie"
+    location = 9534
+    division_template = "Division d'Infanterie"
+    start_experience_factor = 0.1
+    start_equipment_factor = 0.7
+  }
+  division = {
+    name = "2. Division d'Infanterie"
+    location = 9534
+    division_template = "Division d'Infanterie"
+    start_experience_factor = 0.1
+    start_equipment_factor = 0.7
+  }
+  division = {
+    name = "3. Division d'Infanterie"
+    location = 9534
+    division_template = "Division d'Infanterie"
+    start_experience_factor = 0.1
+    start_equipment_factor = 0.7
+  }
+  division = {
+    name = "4. Division d'Infanterie"
+    location = 9534
+    division_template = "Division d'Infanterie"
+    start_experience_factor = 0.1
+    start_equipment_factor = 0.7
+  }
+  division = {
+    name = "5. Division d'Infanterie"
+    location = 9534
+    division_template = "Division d'Infanterie"
+    start_experience_factor = 0.1
+    start_equipment_factor = 0.7
+  }
+  division = {
+    name = "6. Division d'Infanterie"
+    location = 9534
+    division_template = "Division d'Infanterie"
+    start_experience_factor = 0.1
+    start_equipment_factor = 0.7
+  }
+  division = {
+    name = "7. Division d'Infanterie"
+    location = 9534
+    division_template = "Division d'Infanterie"
+    start_experience_factor = 0.1
+    start_equipment_factor = 0.7
+  }
+  division = {
+    name = "8. Division d'Infanterie"
+    location = 9534
+    division_template = "Division d'Infanterie"
+    start_experience_factor = 0.1
+    start_equipment_factor = 0.7
+  }
+  division = {
+    name = "9. Division d'Infanterie"
+    location = 9534
+    division_template = "Division d'Infanterie"
+    start_experience_factor = 0.1
+    start_equipment_factor = 0.7
+  }
+  division = {
+    name = "10. Division d'Infanterie"
+    location = 9534
+    division_template = "Division d'Infanterie"
+    start_experience_factor = 0.1
+    start_equipment_factor = 0.7
+  }
+  division = {
+    name = "11. Division d'Infanterie"
+    location = 9534
+    division_template = "Division d'Infanterie"
+    start_experience_factor = 0.1
+    start_equipment_factor = 0.7
+  }
+  division = {
+    name = "12. Division d'Infanterie"
+    location = 9534
+    division_template = "Division d'Infanterie"
+    start_experience_factor = 0.1
+    start_equipment_factor = 0.7
+  }
+  division = {
+    name = "13. Division d'Infanterie"
+    location = 9534
+    division_template = "Division d'Infanterie"
+    start_experience_factor = 0.1
+    start_equipment_factor = 0.7
+  }
+  division = {
+    name = "14. Division d'Infanterie"
+    location = 9534
+    division_template = "Division d'Infanterie"
+    start_experience_factor = 0.1
+    start_equipment_factor = 0.7
+  }
+  division = {
+    name = "15. Division d'Infanterie"
+    location = 9534
+    division_template = "Division d'Infanterie"
+    start_experience_factor = 0.1
+    start_equipment_factor = 0.7
+  }
+  division = {
+    name = "16. Division d'Infanterie"
+    location = 9534
+    division_template = "Division d'Infanterie"
+    start_experience_factor = 0.1
+    start_equipment_factor = 0.7
+  }
+  division = {
+    name = "17. Division d'Infanterie"
+    location = 9534
+    division_template = "Division d'Infanterie"
+    start_experience_factor = 0.1
+    start_equipment_factor = 0.7
+  }
+  division = {
+    name = "18. Division d'Infanterie"
+    location = 9534
+    division_template = "Division d'Infanterie"
+    start_experience_factor = 0.1
+    start_equipment_factor = 0.7
+  }
+  division = {
+    name = "19. Division d'Infanterie"
+    location = 9534
+    division_template = "Division d'Infanterie"
+    start_experience_factor = 0.1
+    start_equipment_factor = 0.7
+  }
+  division = {
+    name = "20. Division d'Infanterie"
+    location = 9534
+    division_template = "Division d'Infanterie"
+    start_experience_factor = 0.1
+    start_equipment_factor = 0.7
+  }
+  division = {
+    name = "21. Division d'Infanterie"
+    location = 9534
+    division_template = "Division d'Infanterie"
+    start_experience_factor = 0.1
+    start_equipment_factor = 0.7
+  }
+  division = {
+    name = "22. Division d'Infanterie"
+    location = 9534
+    division_template = "Division d'Infanterie"
+    start_experience_factor = 0.1
+    start_equipment_factor = 0.7
+  }
+  division = {
+    name = "23. Division d'Infanterie"
+    location = 9534
+    division_template = "Division d'Infanterie"
+    start_experience_factor = 0.1
+    start_equipment_factor = 0.7
+  }
+  division = {
+    name = "24. Division d'Infanterie"
+    location = 9534
+    division_template = "Division d'Infanterie"
+    start_experience_factor = 0.1
+    start_equipment_factor = 0.7
+  }
+  division = {
+    name = "25. Division d'Infanterie"
+    location = 9534
+    division_template = "Division d'Infanterie"
+    start_experience_factor = 0.1
+    start_equipment_factor = 0.7
+  }
+  division = {
+    name = "26. Division d'Infanterie"
+    location = 9534
+    division_template = "Division d'Infanterie"
+    start_experience_factor = 0.1
+    start_equipment_factor = 0.7
+  }
+  division = {
+    name = "27. Division d'Infanterie"
+    location = 9534
+    division_template = "Division d'Infanterie"
+    start_experience_factor = 0.1
+    start_equipment_factor = 0.7
+  }
+  division = {
+    name = "28. Division d'Infanterie"
+    location = 9534
+    division_template = "Division d'Infanterie"
+    start_experience_factor = 0.1
+    start_equipment_factor = 0.7
+  }
+  division = {
+    name = "29. Division d'Infanterie"
+    location = 9534
+    division_template = "Division d'Infanterie"
+    start_experience_factor = 0.1
+    start_equipment_factor = 0.7
+  }
+  division = {
+    name = "30. Division d'Infanterie"
+    location = 9534
+    division_template = "Division d'Infanterie"
+    start_experience_factor = 0.1
+    start_equipment_factor = 0.7
+  }
+  division = {
+    name = "31. Division d'Infanterie"
+    location = 9534
+    division_template = "Division d'Infanterie"
+    start_experience_factor = 0.1
+    start_equipment_factor = 0.7
+  }
+  division = {
+    name = "32. Division d'Infanterie"
+    location = 9534
+    division_template = "Division d'Infanterie"
+    start_experience_factor = 0.1
+    start_equipment_factor = 0.7
+  }
+  division = {
+    name = "33. Division d'Infanterie"
+    location = 9534
+    division_template = "Division d'Infanterie"
+    start_experience_factor = 0.1
+    start_equipment_factor = 0.7
+  }
+  division = {
+    name = "34. Division d'Infanterie"
+    location = 9534
+    division_template = "Division d'Infanterie"
+    start_experience_factor = 0.1
+    start_equipment_factor = 0.7
+  }
+  division = {
+    name = "35. Division d'Infanterie"
+    location = 9534
+    division_template = "Division d'Infanterie"
+    start_experience_factor = 0.1
+    start_equipment_factor = 0.7
+  }
+}
+# TSR generated capital infantry end

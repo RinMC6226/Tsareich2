@@ -1,4 +1,5 @@
 capital = 550
+oob = "ERI_1936"
 
 set_cosmetic_tag = ERI_italian_colony
 

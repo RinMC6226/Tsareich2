@@ -1,4 +1,5 @@
 capital = 298
+oob = "LIB_1936"
 
 set_party_name = { ideology = far_left long_name = GEN_far_left_party_long name = GEN_far_left_party }
 set_party_name = { ideology = left long_name = GEN_left_party_long name = GEN_left_party }

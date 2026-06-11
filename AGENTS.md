@@ -73,6 +73,7 @@ Use `documents/README.md` as the entrypoint when you need HOI4 scripting context
 - Use `documents/01_effects/effects.json` and `documents/04_triggers/triggers.json` for searchable effect and trigger data.
 - Use `documents/00_character/` before changing character, leader, advisor, or trait definitions.
 - Use `documents/95_scripted_localisation.md`, `documents/99_scripted_effects.md`, and `documents/99_scripted_triggers.md` for reusable HOI4 script patterns.
+- Use `documents/05_ai/AI_MODDING_GUIDE.md` before changing AI behavior files (`common/ai_strategy/`, `common/ai_areas/`, `common/ai_strategy_plans/`, `common/ai_focuses/`, `common/ai_templates/`, `common/ai_equipment/`, `common/ai_navy/`).
 
 ## Worldbuilding / Prehistory Reference
 

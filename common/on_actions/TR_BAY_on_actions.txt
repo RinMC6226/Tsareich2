@@ -1,0 +1,16 @@
+on_actions = {
+  on_daily = {
+    effect = {
+      if = {
+        limit = {
+          tag = BAY
+          date > 1936.1.5
+          NOT = { date > 1936.1.7 }
+          NOT = { has_country_flag = tsr_bay_epiphany_1936_fired }
+        }
+        set_country_flag = tsr_bay_epiphany_1936_fired
+        country_event = { id = tsr_bay.1 }
+      }
+    }
+  }
+}

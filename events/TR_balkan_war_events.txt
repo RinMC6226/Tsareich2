@@ -342,7 +342,10 @@ country_event = {
 		tsr_balkan_war_release_slovakia = yes
 		tsr_balkan_war_release_ruthenia = yes
 		remove_ideas = tsr_hun_ethnic_separatism
-		add_ideas = tsr_hun_national_rally
+		add_timed_idea = {
+			idea = tsr_hun_national_rally
+			days = 90
+		}
 		# 講和判定ポーリング開始（sp>0.7 or Budapest陥落）
 		country_event = { id = tsr_balkan_war.22 days = 10 }
 	}

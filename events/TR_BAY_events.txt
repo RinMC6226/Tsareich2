@@ -1,0 +1,14 @@
+add_namespace = tsr_bay
+
+country_event = {
+  id = tsr_bay.1
+  title = tsr_bay.1.t
+  desc = tsr_bay.1.d
+  picture = GFX_report_event_gathering_protest
+  is_triggered_only = yes
+
+  option = {
+    name = tsr_bay.1.a
+    add_political_power = 10
+  }
+}

@@ -1,0 +1,55 @@
+division_template = {
+  name = "Ferqe-ye Piyadeh"
+  regiments = {
+    infantry = { x = 0 y = 0 }
+    infantry = { x = 0 y = 1 }
+    infantry = { x = 0 y = 2 }
+    infantry = { x = 1 y = 0 }
+    infantry = { x = 1 y = 1 }
+    infantry = { x = 1 y = 2 }
+  }
+}
+instant_effect = {
+  add_equipment_production = {
+    equipment = {
+      type = infantry_equipment_1
+      creator = "PER"
+    }
+    requested_factories = 1
+    progress = 0.20
+    efficiency = 50
+  }
+}
+
+# TSR generated capital infantry start
+units = {
+  division = {
+    name = "1. Ferqe-ye Piyadeh"
+    location = 10837
+    division_template = "Ferqe-ye Piyadeh"
+    start_experience_factor = 0.1
+    start_equipment_factor = 0.7
+  }
+  division = {
+    name = "2. Ferqe-ye Piyadeh"
+    location = 10837
+    division_template = "Ferqe-ye Piyadeh"
+    start_experience_factor = 0.1
+    start_equipment_factor = 0.7
+  }
+  division = {
+    name = "3. Ferqe-ye Piyadeh"
+    location = 10837
+    division_template = "Ferqe-ye Piyadeh"
+    start_experience_factor = 0.1
+    start_equipment_factor = 0.7
+  }
+  division = {
+    name = "4. Ferqe-ye Piyadeh"
+    location = 10837
+    division_template = "Ferqe-ye Piyadeh"
+    start_experience_factor = 0.1
+    start_equipment_factor = 0.7
+  }
+}
+# TSR generated capital infantry end
