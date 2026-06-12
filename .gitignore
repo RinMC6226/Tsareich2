@@ -8,3 +8,6 @@
 .DS_Store
 __pycache__/
 *.py[cod]
+nvpda-db/NSDB.db
+nvpda-db/query_db.py
+nvpda-db/SKILL.md
