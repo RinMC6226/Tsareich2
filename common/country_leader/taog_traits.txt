@@ -1,0 +1,233 @@
+leader_traits = {
+	TAOG_foreign_affairs_minister = {
+		sprite = 13
+		random = no
+		cic_to_overlord_factor = -0.1
+		mic_to_overlord_factor = -0.25
+		autonomy_gain_trade_factor = 0.3
+		ai_will_do = {
+			factor = 2
+		}
+	}
+	TAOG_indonesian_minister = {
+		sprite = 13
+		random = no
+		autonomy_gain = 0.5
+		stability_factor = 0.05
+		resistance_activity = -0.1
+
+		ai_will_do = {
+			factor = 2
+		}
+	}
+	TAOG_minister_of_finance = {
+		sprite = 13
+		random = no
+		consumer_goods_factor = -0.1
+
+		ai_will_do = {
+			factor = 2
+		}
+	}
+	TAOG_strict_loyalist = {
+		sprite = 13
+		random = no
+		autonomy_gain = -0.5
+		consumer_goods_factor = -0.05
+		custom_modifier_tooltip	= INS_dutch_investment_rate_20
+
+		ai_will_do = {
+			factor = 2
+		}
+	}
+	TAOG_dutch_representative = {
+		sprite = 13
+		random = no
+
+		custom_modifier_tooltip	= INS_dutch_investment_rate_30
+
+		ai_will_do = {
+			factor = 2
+		}
+	}
+	TAOG_independence_activist = {
+		sprite = 13
+		random = no
+		autonomy_gain = 1.0
+
+		ai_will_do = {
+			factor = 2
+		}
+	}
+	TAOG_representative_of_welfare = {
+		sprite = 10
+		random = no
+		stability_factor = 0.075
+		political_power_factor = 0.1
+
+
+		ai_will_do = {
+			factor = 2
+		}
+	}
+	TAOG_catholic_representative = {
+		sprite = 13
+		random = no
+
+		political_power_factor = 0.15
+
+		ai_will_do = {
+			factor = 2
+		}
+	}
+	TAOG_collaborationist= {
+		sprite = 13
+		random = no
+		autonomy_gain = 1.0
+		war_support_factor = -0.05
+
+		ai_will_do = {
+			factor = 2
+		}
+	}
+	TAOG_chinese_representative = {
+		sprite = 13
+		random = no
+
+		min_export = 0.1
+
+		ai_will_do = {
+			factor = 2
+		}
+	}
+	TAOG_republic_foreign_minister = {
+		sprite = 13
+		random = no
+		improve_relations_maintain_cost_factor = -0.25
+		opinion_gain_monthly_factor = 0.15
+		trade_opinion_factor = 0.15
+
+		ai_will_do = {
+			factor = 2
+		}
+	}
+	TAOG_home_affairs = {
+		sprite = 13
+		random = no
+		political_power_factor = 0.1
+		political_advisor_cost_factor = -0.25
+		mobilization_laws_cost_factor = -0.25
+		economy_cost_factor = -0.25
+		high_command_cost_factor = -0.1
+
+
+		ai_will_do = {
+			factor = 2
+		}
+	}
+	TAOG_minister_of_welfare = {
+		sprite = 13
+		random = no
+		stability_factor = 0.05
+		production_speed_industrial_complex_factor = 0.05
+		production_speed_infrastructure_factor = 0.05
+
+
+		ai_will_do = {
+			factor = 2
+		}
+	}
+	TAOG_minister_of_justice = {
+		sprite = 13
+		random = no
+		resistance_decay = 0.02
+		resistance_activity = -0.4
+		compliance_growth = 0.05
+
+		ai_will_do = {
+			factor = 2
+		}
+	}
+	TAOG_republic_minister_of_finance = {
+		sprite = 13
+		random = no
+		consumer_goods_factor = -0.12
+
+		ai_will_do = {
+			factor = 2
+		}
+	}
+	TAOG_minister_of_education = {
+		sprite = 13
+		random = no
+		research_speed_factor = 0.08
+		stability_factor = 0.025
+
+		ai_will_do = {
+			factor = 2
+		}
+	}
+	TAOG_minister_of_social_affairs = {
+		sprite = 13
+		random = no
+		political_power_factor = -0.15
+		stability_factor = 0.15
+		war_support_factor = 0.15
+
+		ai_will_do = {
+			factor = 2
+		}
+	}
+	TAOG_minister_of_health = {
+		sprite = 13
+		random = no
+		stability_factor = 0.05
+		conscription = 0.02
+
+		ai_will_do = {
+			factor = 2
+		}
+	}
+	TAOG_president_of_bank = {
+		sprite = 13
+		random = no
+		consumer_goods_factor = -0.1
+		production_speed_buildings_factor = 0.1
+
+		ai_will_do = {
+			factor = 2
+		}
+	}
+	TAOG_engineer = {
+		sprite = 5
+		random = no
+		supply_consumption_factor = -0.15
+		attrition = -0.1
+		navy_fuel_consumption_factor = -0.1
+
+		ai_will_do = {
+			factor = 2
+		}
+	}
+	TAOG_acting_minister_defense = {
+		sprite = 9
+		random = no
+		army_defence_factor = 0.1
+
+		ai_will_do = {
+			factor = 2
+		}
+	}
+	TAOG_liberal_colonial_leader = {
+		sprite = 13
+		random = no
+		stability_factor = 0.05
+	}
+	TAOG_liberal_colonial_leader_2 = {
+		sprite = 13
+		random = no
+		stability_factor = 0.1
+		research_speed_factor = 0.05
+	}
+
+}
