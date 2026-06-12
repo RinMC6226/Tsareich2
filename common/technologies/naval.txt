@@ -1,5 +1,123 @@
 technologies = {
 
+	early_destroyer_1890 = {
+		enable_equipments = { destroyer_early_1 }
+		path = { leads_to_tech = early_destroyer_1895 research_cost_coeff = 1 }
+		research_cost = 1.0
+		start_year = 1890
+		folder = { name = naval_folder position = { x = 0 y = -5 } }
+		ai_will_do = {
+			factor = 1
+			modifier = { factor = 0 AND = { all_owned_state = { is_coastal = no } } }
+			modifier = { has_war = yes factor = 2 }
+		}
+		categories = { naval_equipment dd_tech }
+	}
+	early_destroyer_1895 = {
+		enable_equipments = { destroyer_early_2 }
+		path = { leads_to_tech = early_destroyer_1900 research_cost_coeff = 1 }
+		research_cost = 1.0
+		start_year = 1895
+		folder = { name = naval_folder position = { x = 0 y = -4 } }
+		ai_will_do = {
+			factor = 1
+			modifier = { factor = 0 AND = { all_owned_state = { is_coastal = no } } }
+			modifier = { has_war = yes factor = 2 }
+		}
+		categories = { naval_equipment dd_tech }
+	}
+	early_destroyer_1900 = {
+		enable_equipments = { destroyer_early_3 }
+		path = { leads_to_tech = early_destroyer_1905 research_cost_coeff = 1 }
+		research_cost = 1.0
+		start_year = 1900
+		folder = { name = naval_folder position = { x = 0 y = -3 } }
+		ai_will_do = {
+			factor = 1
+			modifier = { factor = 0 AND = { all_owned_state = { is_coastal = no } } }
+			modifier = { has_war = yes factor = 2 }
+		}
+		categories = { naval_equipment dd_tech }
+	}
+	early_destroyer_1905 = {
+		enable_equipments = { destroyer_early_4 }
+		path = { leads_to_tech = early_destroyer_1910 research_cost_coeff = 1 }
+		research_cost = 1.0
+		start_year = 1905
+		folder = { name = naval_folder position = { x = 0 y = -2 } }
+		ai_will_do = {
+			factor = 1
+			modifier = { factor = 0 AND = { all_owned_state = { is_coastal = no } } }
+			modifier = { has_war = yes factor = 2 }
+		}
+		categories = { naval_equipment dd_tech }
+	}
+	early_destroyer_1910 = {
+		enable_equipments = { destroyer_early_5 }
+		path = { leads_to_tech = early_destroyer_1915 research_cost_coeff = 1 }
+		research_cost = 1.2
+		start_year = 1910
+		folder = { name = naval_folder position = { x = 0 y = -1 } }
+		ai_will_do = {
+			factor = 1
+			modifier = { factor = 0 AND = { all_owned_state = { is_coastal = no } } }
+			modifier = { has_war = yes factor = 2 }
+		}
+		categories = { naval_equipment dd_tech }
+	}
+	early_destroyer_1915 = {
+		enable_equipments = { destroyer_early_6 }
+		path = { leads_to_tech = early_destroyer_1920 research_cost_coeff = 1 }
+		research_cost = 1.2
+		start_year = 1915
+		folder = { name = naval_folder position = { x = 0 y = 0 } }
+		ai_will_do = {
+			factor = 1
+			modifier = { factor = 0 AND = { all_owned_state = { is_coastal = no } } }
+			modifier = { has_war = yes factor = 2 }
+		}
+		categories = { naval_equipment dd_tech }
+	}
+	early_destroyer_1920 = {
+		enable_equipments = { destroyer_early_7 }
+		path = { leads_to_tech = early_destroyer research_cost_coeff = 1 }
+		research_cost = 1.2
+		start_year = 1920
+		folder = { name = naval_folder position = { x = 0 y = 0.5 } }
+		ai_will_do = {
+			factor = 1
+			modifier = { factor = 0 AND = { all_owned_state = { is_coastal = no } } }
+			modifier = { has_war = yes factor = 2 }
+		}
+		categories = { naval_equipment dd_tech }
+	}
+	early_destroyer_1925 = {
+		enable_equipments = { destroyer_early_8 }
+		path = { leads_to_tech = early_destroyer_1930 research_cost_coeff = 1 }
+		research_cost = 1.3
+		start_year = 1925
+		folder = { name = naval_folder position = { x = 0 y = 3 } }
+		ai_will_do = {
+			factor = 1
+			modifier = { factor = 0 AND = { all_owned_state = { is_coastal = no } } }
+			modifier = { has_war = yes factor = 2 }
+		}
+		categories = { naval_equipment dd_tech }
+	}
+	early_destroyer_1930 = {
+		enable_equipments = { destroyer_early_9 }
+		path = { leads_to_tech = basic_destroyer research_cost_coeff = 1 }
+		research_cost = 1.3
+		start_year = 1930
+		folder = { name = naval_folder position = { x = 0 y = 5 } }
+		ai_will_do = {
+			factor = 1
+			modifier = { factor = 0 AND = { all_owned_state = { is_coastal = no } } }
+			modifier = { has_war = yes factor = 2 }
+		}
+		categories = { naval_equipment dd_tech }
+	}
+
 	early_destroyer = {
 
 		enable_equipments = {
@@ -1179,6 +1297,111 @@ technologies = {
 		special_project_specialization = { specialization_naval }
 	}
 	
+	early_submarine_1870 = {
+		enable_equipments = {
+			submarine_0_1870
+		}
+		path = {
+			leads_to_tech = early_submarine_1890
+			research_cost_coeff = 1
+		}
+		allow_branch = { has_dlc = "Man the Guns" }
+		research_cost = 0.5
+		start_year = 1870
+		folder = {
+			name = naval_folder
+			position = { x = 0 y = -5 }
+		}
+		ai_will_do = {
+			factor = 1
+			modifier = { factor = 0 AND = { all_owned_state = { is_coastal = no } } }
+		}
+		categories = {
+			naval_equipment
+			ss_tech
+			mio_cat_tech_all_submarine_and_modules
+		}
+		special_project_specialization = { specialization_naval }
+	}
+
+	early_submarine_1890 = {
+		enable_equipments = {
+			submarine_0_1890
+		}
+		path = {
+			leads_to_tech = early_submarine_1910
+			research_cost_coeff = 1
+		}
+		research_cost = 0.5
+		start_year = 1890
+		folder = {
+			name = naval_folder
+			position = { x = 0 y = -1 }
+		}
+		ai_will_do = {
+			factor = 1
+			modifier = { factor = 0 AND = { all_owned_state = { is_coastal = no } } }
+		}
+		categories = {
+			naval_equipment
+			ss_tech
+			mio_cat_tech_all_submarine_and_modules
+		}
+		special_project_specialization = { specialization_naval }
+	}
+
+	early_submarine_1910 = {
+		enable_equipments = {
+			submarine_0_1910
+		}
+		path = {
+			leads_to_tech = early_submarine_1920
+			research_cost_coeff = 1
+		}
+		research_cost = 0.6
+		start_year = 1910
+		folder = {
+			name = naval_folder
+			position = { x = 0 y = 0 }
+		}
+		ai_will_do = {
+			factor = 1
+			modifier = { factor = 0 AND = { all_owned_state = { is_coastal = no } } }
+		}
+		categories = {
+			naval_equipment
+			ss_tech
+			mio_cat_tech_all_submarine_and_modules
+		}
+		special_project_specialization = { specialization_naval }
+	}
+
+	early_submarine_1920 = {
+		enable_equipments = {
+			submarine_0_1920
+		}
+		path = {
+			leads_to_tech = early_submarine
+			research_cost_coeff = 1
+		}
+		research_cost = 0.8
+		start_year = 1920
+		folder = {
+			name = naval_folder
+			position = { x = 0 y = 0.5 }
+		}
+		ai_will_do = {
+			factor = 1
+			modifier = { factor = 0 AND = { all_owned_state = { is_coastal = no } } }
+		}
+		categories = {
+			naval_equipment
+			ss_tech
+			mio_cat_tech_all_submarine_and_modules
+		}
+		special_project_specialization = { specialization_naval }
+	}
+
 	early_submarine = {
 
 		enable_equipments = { 
@@ -1207,7 +1430,7 @@ technologies = {
 		
 		folder = {
 			name = naval_folder
-			position = { x = 0 y = 1 }
+			position = { x = 0 y = 7 }
 		}
 		
 		ai_will_do = {
@@ -1256,7 +1479,7 @@ technologies = {
 
 		folder = {
 			name = naval_folder
-			position = { x = 0 y = 7 }
+			position = { x = 0 y = 13 }
 		}
 		
 		ai_will_do = {
@@ -1293,7 +1516,7 @@ technologies = {
 		
 		folder = {
 			name = naval_folder
-			position = { x = 0 y = 13 }
+			position = { x = 0 y = 19 }
 		}
 		
 		ai_will_do = {
@@ -1325,7 +1548,7 @@ technologies = {
 		
 		folder = {
 			name = naval_folder
-			position = { x = 0 y = 19 }
+			position = { x = 0 y = 25 }
 		}
 		
 		ai_will_do = {

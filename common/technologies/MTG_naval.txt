@@ -1,11 +1,561 @@
 technologies = {
 
-#   ###  ##  #  # ###      ## #  # ### ###   ##
-#    #  #    #  #  #      #   #  #  #  #  # #
-#    #  # ## ####  #       #  ####  #  ###   #
-#    #  #  # #  #  #        # #  #  #  #      #
-### ###  ##  #  #  #      ##  #  # ### #    ##
+	@craft_x = -2
+	@frigate_x = -1
 
+	ship_hull_craft_1870 = {
+		enable_equipments = { ship_hull_craft_1 }
+		path = { leads_to_tech = ship_hull_craft_1875 research_cost_coeff = 1 }
+		allow_branch = { has_dlc = "Man the Guns" }
+		research_cost = 0.5
+		start_year = 1870
+		folder = { name = mtgnavalfolder position = { x = @craft_x y = -8 } }
+		ai_will_do = {
+			factor = 1
+			modifier = { factor = 0 AND = { all_owned_state = { is_coastal = no } } }
+			modifier = { has_war = yes factor = 1.5 }
+		}
+		categories = { naval_equipment craft_tech }
+	}
+	ship_hull_craft_1875 = {
+		enable_equipments = { ship_hull_craft_2 }
+		path = { leads_to_tech = ship_hull_craft_1880 research_cost_coeff = 1 }
+		research_cost = 0.5
+		start_year = 1875
+		folder = { name = mtgnavalfolder position = { x = @craft_x y = -7 } }
+		ai_will_do = {
+			factor = 1
+			modifier = { factor = 0 AND = { all_owned_state = { is_coastal = no } } }
+			modifier = { has_war = yes factor = 1.5 }
+		}
+		categories = { naval_equipment craft_tech }
+	}
+	ship_hull_craft_1880 = {
+		enable_equipments = { ship_hull_craft_3 }
+		path = { leads_to_tech = ship_hull_craft_1885 research_cost_coeff = 1 }
+		research_cost = 0.5
+		start_year = 1880
+		folder = { name = mtgnavalfolder position = { x = @craft_x y = -6 } }
+		ai_will_do = {
+			factor = 1
+			modifier = { factor = 0 AND = { all_owned_state = { is_coastal = no } } }
+			modifier = { has_war = yes factor = 1.5 }
+		}
+		categories = { naval_equipment craft_tech }
+	}
+	ship_hull_craft_1885 = {
+		enable_equipments = { ship_hull_craft_4 }
+		path = { leads_to_tech = ship_hull_craft_1890 research_cost_coeff = 1 }
+		research_cost = 0.5
+		start_year = 1885
+		folder = { name = mtgnavalfolder position = { x = @craft_x y = -5 } }
+		ai_will_do = {
+			factor = 1
+			modifier = { factor = 0 AND = { all_owned_state = { is_coastal = no } } }
+			modifier = { has_war = yes factor = 1.5 }
+		}
+		categories = { naval_equipment craft_tech }
+	}
+	ship_hull_craft_1890 = {
+		enable_equipments = { ship_hull_craft_5 }
+		path = { leads_to_tech = ship_hull_craft_1895 research_cost_coeff = 1 }
+		research_cost = 0.5
+		start_year = 1890
+		folder = { name = mtgnavalfolder position = { x = @craft_x y = -4 } }
+		ai_will_do = {
+			factor = 1
+			modifier = { factor = 0 AND = { all_owned_state = { is_coastal = no } } }
+			modifier = { has_war = yes factor = 1.5 }
+		}
+		categories = { naval_equipment craft_tech }
+	}
+	ship_hull_craft_1895 = {
+		enable_equipments = { ship_hull_craft_6 }
+		path = { leads_to_tech = ship_hull_craft_1900 research_cost_coeff = 1 }
+		research_cost = 0.5
+		start_year = 1895
+		folder = { name = mtgnavalfolder position = { x = @craft_x y = -3 } }
+		ai_will_do = {
+			factor = 1
+			modifier = { factor = 0 AND = { all_owned_state = { is_coastal = no } } }
+			modifier = { has_war = yes factor = 1.5 }
+		}
+		categories = { naval_equipment craft_tech }
+	}
+	ship_hull_craft_1900 = {
+		enable_equipments = { ship_hull_craft_7 }
+		path = { leads_to_tech = ship_hull_craft_1905 research_cost_coeff = 1 }
+		research_cost = 0.5
+		start_year = 1900
+		folder = { name = mtgnavalfolder position = { x = @craft_x y = -2 } }
+		ai_will_do = {
+			factor = 1
+			modifier = { factor = 0 AND = { all_owned_state = { is_coastal = no } } }
+			modifier = { has_war = yes factor = 1.5 }
+		}
+		categories = { naval_equipment craft_tech }
+	}
+	ship_hull_craft_1905 = {
+		enable_equipments = { ship_hull_craft_8 }
+		path = { leads_to_tech = ship_hull_craft_1910 research_cost_coeff = 1 }
+		research_cost = 0.6
+		start_year = 1905
+		folder = { name = mtgnavalfolder position = { x = @craft_x y = -1 } }
+		ai_will_do = {
+			factor = 1
+			modifier = { factor = 0 AND = { all_owned_state = { is_coastal = no } } }
+			modifier = { has_war = yes factor = 1.5 }
+		}
+		categories = { naval_equipment craft_tech }
+	}
+	ship_hull_craft_1910 = {
+		enable_equipments = { ship_hull_craft_9 }
+		path = { leads_to_tech = ship_hull_craft_1915 research_cost_coeff = 1 }
+		research_cost = 0.6
+		start_year = 1910
+		folder = { name = mtgnavalfolder position = { x = @craft_x y = 0 } }
+		ai_will_do = {
+			factor = 1
+			modifier = { factor = 0 AND = { all_owned_state = { is_coastal = no } } }
+			modifier = { has_war = yes factor = 1.5 }
+		}
+		categories = { naval_equipment craft_tech }
+	}
+	ship_hull_craft_1915 = {
+		enable_equipments = { ship_hull_craft_10 }
+		path = { leads_to_tech = ship_hull_craft_1920 research_cost_coeff = 1 }
+		research_cost = 0.6
+		start_year = 1915
+		folder = { name = mtgnavalfolder position = { x = @craft_x y = 1 } }
+		ai_will_do = {
+			factor = 1
+			modifier = { factor = 0 AND = { all_owned_state = { is_coastal = no } } }
+			modifier = { has_war = yes factor = 1.5 }
+		}
+		categories = { naval_equipment craft_tech }
+	}
+	ship_hull_craft_1920 = {
+		enable_equipments = { ship_hull_craft_11 }
+		path = { leads_to_tech = ship_hull_craft_1925 research_cost_coeff = 1 }
+		research_cost = 0.7
+		start_year = 1920
+		folder = { name = mtgnavalfolder position = { x = @craft_x y = 3 } }
+		ai_will_do = {
+			factor = 1
+			modifier = { factor = 0 AND = { all_owned_state = { is_coastal = no } } }
+			modifier = { has_war = yes factor = 1.5 }
+		}
+		categories = { naval_equipment craft_tech }
+	}
+	ship_hull_craft_1925 = {
+		enable_equipments = { ship_hull_craft_12 }
+		path = { leads_to_tech = ship_hull_craft_1930 research_cost_coeff = 1 }
+		research_cost = 0.7
+		start_year = 1925
+		folder = { name = mtgnavalfolder position = { x = @craft_x y = 5 } }
+		ai_will_do = {
+			factor = 1
+			modifier = { factor = 0 AND = { all_owned_state = { is_coastal = no } } }
+			modifier = { has_war = yes factor = 1.5 }
+		}
+		categories = { naval_equipment craft_tech }
+	}
+	ship_hull_craft_1930 = {
+		enable_equipments = { ship_hull_craft_13 }
+		path = { leads_to_tech = ship_hull_craft_1935 research_cost_coeff = 1 }
+		research_cost = 0.8
+		start_year = 1930
+		folder = { name = mtgnavalfolder position = { x = @craft_x y = 9 } }
+		ai_will_do = {
+			factor = 1
+			modifier = { factor = 0 AND = { all_owned_state = { is_coastal = no } } }
+			modifier = { has_war = yes factor = 1.5 }
+		}
+		categories = { naval_equipment craft_tech }
+	}
+	ship_hull_craft_1935 = {
+		enable_equipments = { ship_hull_craft_14 }
+		path = { leads_to_tech = ship_hull_craft_1940 research_cost_coeff = 1 }
+		research_cost = 0.8
+		start_year = 1935
+		folder = { name = mtgnavalfolder position = { x = @craft_x y = 11 } }
+		ai_will_do = {
+			factor = 1
+			modifier = { factor = 0 AND = { all_owned_state = { is_coastal = no } } }
+			modifier = { has_war = yes factor = 1.5 }
+		}
+		categories = { naval_equipment craft_tech }
+	}
+	ship_hull_craft_1940 = {
+		enable_equipments = { ship_hull_craft_15 }
+		path = { leads_to_tech = ship_hull_craft_1945 research_cost_coeff = 1 }
+		research_cost = 0.8
+		start_year = 1940
+		folder = { name = mtgnavalfolder position = { x = @craft_x y = 15 } }
+		ai_will_do = {
+			factor = 1
+			modifier = { factor = 0 AND = { all_owned_state = { is_coastal = no } } }
+			modifier = { has_war = yes factor = 2 }
+		}
+		categories = { naval_equipment craft_tech }
+	}
+	ship_hull_craft_1945 = {
+		enable_equipments = { ship_hull_craft_16 }
+		research_cost = 1.0
+		start_year = 1945
+		folder = { name = mtgnavalfolder position = { x = @craft_x y = 21 } }
+		ai_will_do = {
+			factor = 1
+			modifier = { factor = 0 AND = { all_owned_state = { is_coastal = no } } }
+			modifier = { has_war = yes factor = 2 }
+		}
+		categories = { naval_equipment craft_tech }
+	}
+
+	ship_hull_frigate_1870 = {
+		enable_equipments = { ship_hull_frigate_1 }
+		path = { leads_to_tech = ship_hull_frigate_1875 research_cost_coeff = 1 }
+		allow_branch = { has_dlc = "Man the Guns" }
+		research_cost = 0.6
+		start_year = 1870
+		folder = { name = mtgnavalfolder position = { x = @frigate_x y = -8 } }
+		ai_will_do = {
+			factor = 1
+			modifier = { factor = 0 AND = { all_owned_state = { is_coastal = no } } }
+			modifier = { factor = 2 AND = { any_owned_state = { is_coastal = yes } num_of_controlled_states < 10 } }
+			modifier = { has_war = yes factor = 1.5 }
+		}
+		categories = { naval_equipment fg_tech }
+	}
+	ship_hull_frigate_1875 = {
+		enable_equipments = { ship_hull_frigate_2 }
+		path = { leads_to_tech = ship_hull_frigate_1880 research_cost_coeff = 1 }
+		research_cost = 0.6
+		start_year = 1875
+		folder = { name = mtgnavalfolder position = { x = @frigate_x y = -7 } }
+		ai_will_do = {
+			factor = 1
+			modifier = { factor = 0 AND = { all_owned_state = { is_coastal = no } } }
+			modifier = { factor = 2 AND = { any_owned_state = { is_coastal = yes } num_of_controlled_states < 10 } }
+			modifier = { has_war = yes factor = 1.5 }
+		}
+		categories = { naval_equipment fg_tech }
+	}
+	ship_hull_frigate_1880 = {
+		enable_equipments = { ship_hull_frigate_3 }
+		path = { leads_to_tech = ship_hull_frigate_1885 research_cost_coeff = 1 }
+		research_cost = 0.6
+		start_year = 1880
+		folder = { name = mtgnavalfolder position = { x = @frigate_x y = -6 } }
+		ai_will_do = {
+			factor = 1
+			modifier = { factor = 0 AND = { all_owned_state = { is_coastal = no } } }
+			modifier = { factor = 2 AND = { any_owned_state = { is_coastal = yes } num_of_controlled_states < 10 } }
+			modifier = { has_war = yes factor = 1.5 }
+		}
+		categories = { naval_equipment fg_tech }
+	}
+	ship_hull_frigate_1885 = {
+		enable_equipments = { ship_hull_frigate_4 }
+		path = { leads_to_tech = ship_hull_frigate_1890 research_cost_coeff = 1 }
+		research_cost = 0.6
+		start_year = 1885
+		folder = { name = mtgnavalfolder position = { x = @frigate_x y = -5 } }
+		ai_will_do = {
+			factor = 1
+			modifier = { factor = 0 AND = { all_owned_state = { is_coastal = no } } }
+			modifier = { factor = 2 AND = { any_owned_state = { is_coastal = yes } num_of_controlled_states < 10 } }
+			modifier = { has_war = yes factor = 1.5 }
+		}
+		categories = { naval_equipment fg_tech }
+	}
+	ship_hull_frigate_1890 = {
+		enable_equipments = { ship_hull_frigate_5 }
+		path = { leads_to_tech = ship_hull_frigate_1895 research_cost_coeff = 1 }
+		research_cost = 0.6
+		start_year = 1890
+		folder = { name = mtgnavalfolder position = { x = @frigate_x y = -4 } }
+		ai_will_do = {
+			factor = 1
+			modifier = { factor = 0 AND = { all_owned_state = { is_coastal = no } } }
+			modifier = { factor = 2 AND = { any_owned_state = { is_coastal = yes } num_of_controlled_states < 10 } }
+			modifier = { has_war = yes factor = 1.5 }
+		}
+		categories = { naval_equipment fg_tech }
+	}
+	ship_hull_frigate_1895 = {
+		enable_equipments = { ship_hull_frigate_6 }
+		path = { leads_to_tech = ship_hull_frigate_1900 research_cost_coeff = 1 }
+		research_cost = 0.7
+		start_year = 1895
+		folder = { name = mtgnavalfolder position = { x = @frigate_x y = -3 } }
+		ai_will_do = {
+			factor = 1
+			modifier = { factor = 0 AND = { all_owned_state = { is_coastal = no } } }
+			modifier = { factor = 2 AND = { any_owned_state = { is_coastal = yes } num_of_controlled_states < 10 } }
+			modifier = { has_war = yes factor = 1.5 }
+		}
+		categories = { naval_equipment fg_tech }
+	}
+	ship_hull_frigate_1900 = {
+		enable_equipments = { ship_hull_frigate_7 }
+		path = { leads_to_tech = ship_hull_frigate_1905 research_cost_coeff = 1 }
+		research_cost = 0.7
+		start_year = 1900
+		folder = { name = mtgnavalfolder position = { x = @frigate_x y = -2 } }
+		ai_will_do = {
+			factor = 1
+			modifier = { factor = 0 AND = { all_owned_state = { is_coastal = no } } }
+			modifier = { factor = 2 AND = { any_owned_state = { is_coastal = yes } num_of_controlled_states < 10 } }
+			modifier = { has_war = yes factor = 1.5 }
+		}
+		categories = { naval_equipment fg_tech }
+	}
+	ship_hull_frigate_1905 = {
+		enable_equipments = { ship_hull_frigate_8 }
+		path = { leads_to_tech = ship_hull_frigate_1910 research_cost_coeff = 1 }
+		research_cost = 0.7
+		start_year = 1905
+		folder = { name = mtgnavalfolder position = { x = @frigate_x y = -1 } }
+		ai_will_do = {
+			factor = 1
+			modifier = { factor = 0 AND = { all_owned_state = { is_coastal = no } } }
+			modifier = { factor = 2 AND = { any_owned_state = { is_coastal = yes } num_of_controlled_states < 10 } }
+			modifier = { has_war = yes factor = 1.5 }
+		}
+		categories = { naval_equipment fg_tech }
+	}
+	ship_hull_frigate_1910 = {
+		enable_equipments = { ship_hull_frigate_9 }
+		path = { leads_to_tech = ship_hull_frigate_1915 research_cost_coeff = 1 }
+		research_cost = 0.7
+		start_year = 1910
+		folder = { name = mtgnavalfolder position = { x = @frigate_x y = 0 } }
+		ai_will_do = {
+			factor = 1
+			modifier = { factor = 0 AND = { all_owned_state = { is_coastal = no } } }
+			modifier = { factor = 2 AND = { any_owned_state = { is_coastal = yes } num_of_controlled_states < 10 } }
+			modifier = { has_war = yes factor = 1.5 }
+		}
+		categories = { naval_equipment fg_tech }
+	}
+	ship_hull_frigate_1915 = {
+		enable_equipments = { ship_hull_frigate_10 }
+		path = { leads_to_tech = ship_hull_frigate_1920 research_cost_coeff = 1 }
+		research_cost = 0.8
+		start_year = 1915
+		folder = { name = mtgnavalfolder position = { x = @frigate_x y = 1 } }
+		ai_will_do = {
+			factor = 1
+			modifier = { factor = 0 AND = { all_owned_state = { is_coastal = no } } }
+			modifier = { factor = 2 AND = { any_owned_state = { is_coastal = yes } num_of_controlled_states < 10 } }
+			modifier = { has_war = yes factor = 1.5 }
+		}
+		categories = { naval_equipment fg_tech }
+	}
+	ship_hull_frigate_1920 = {
+		enable_equipments = { ship_hull_frigate_11 }
+		path = { leads_to_tech = ship_hull_frigate_1925 research_cost_coeff = 1 }
+		research_cost = 0.8
+		start_year = 1920
+		folder = { name = mtgnavalfolder position = { x = @frigate_x y = 3 } }
+		ai_will_do = {
+			factor = 1
+			modifier = { factor = 0 AND = { all_owned_state = { is_coastal = no } } }
+			modifier = { factor = 2 AND = { any_owned_state = { is_coastal = yes } num_of_controlled_states < 10 } }
+			modifier = { has_war = yes factor = 1.5 }
+		}
+		categories = { naval_equipment fg_tech }
+	}
+	ship_hull_frigate_1925 = {
+		enable_equipments = { ship_hull_frigate_12 }
+		path = { leads_to_tech = ship_hull_frigate_1930 research_cost_coeff = 1 }
+		research_cost = 0.8
+		start_year = 1925
+		folder = { name = mtgnavalfolder position = { x = @frigate_x y = 5 } }
+		ai_will_do = {
+			factor = 1
+			modifier = { factor = 0 AND = { all_owned_state = { is_coastal = no } } }
+			modifier = { factor = 2 AND = { any_owned_state = { is_coastal = yes } num_of_controlled_states < 10 } }
+			modifier = { has_war = yes factor = 1.5 }
+		}
+		categories = { naval_equipment fg_tech }
+	}
+	ship_hull_frigate_1930 = {
+		enable_equipments = { ship_hull_frigate_13 }
+		path = { leads_to_tech = ship_hull_frigate_1935 research_cost_coeff = 1 }
+		research_cost = 0.9
+		start_year = 1930
+		folder = { name = mtgnavalfolder position = { x = @frigate_x y = 9 } }
+		ai_will_do = {
+			factor = 1
+			modifier = { factor = 0 AND = { all_owned_state = { is_coastal = no } } }
+			modifier = { factor = 2 AND = { any_owned_state = { is_coastal = yes } num_of_controlled_states < 10 } }
+			modifier = { has_war = yes factor = 1.5 }
+		}
+		categories = { naval_equipment fg_tech }
+	}
+	ship_hull_frigate_1935 = {
+		enable_equipments = { ship_hull_frigate_14 }
+		path = { leads_to_tech = ship_hull_frigate_1940 research_cost_coeff = 1 }
+		research_cost = 0.9
+		start_year = 1935
+		folder = { name = mtgnavalfolder position = { x = @frigate_x y = 11 } }
+		ai_will_do = {
+			factor = 1
+			modifier = { factor = 0 AND = { all_owned_state = { is_coastal = no } } }
+			modifier = { factor = 2 AND = { any_owned_state = { is_coastal = yes } num_of_controlled_states < 10 } }
+			modifier = { has_war = yes factor = 1.5 }
+		}
+		categories = { naval_equipment fg_tech }
+	}
+	ship_hull_frigate_1940 = {
+		enable_equipments = { ship_hull_frigate_15 }
+		path = { leads_to_tech = ship_hull_frigate_1945 research_cost_coeff = 1 }
+		research_cost = 1.0
+		start_year = 1940
+		folder = { name = mtgnavalfolder position = { x = @frigate_x y = 15 } }
+		ai_will_do = {
+			factor = 1
+			modifier = { factor = 0 AND = { all_owned_state = { is_coastal = no } } }
+			modifier = { factor = 2 AND = { any_owned_state = { is_coastal = yes } num_of_controlled_states < 10 } }
+			modifier = { has_war = yes factor = 2 }
+		}
+		categories = { naval_equipment fg_tech }
+	}
+	ship_hull_frigate_1945 = {
+		enable_equipments = { ship_hull_frigate_16 }
+		research_cost = 1.2
+		start_year = 1945
+		folder = { name = mtgnavalfolder position = { x = @frigate_x y = 21 } }
+		ai_will_do = {
+			factor = 1
+			modifier = { factor = 0 AND = { all_owned_state = { is_coastal = no } } }
+			modifier = { factor = 2 AND = { any_owned_state = { is_coastal = yes } num_of_controlled_states < 10 } }
+			modifier = { has_war = yes factor = 2 }
+		}
+		categories = { naval_equipment fg_tech }
+	}
+
+	early_ship_hull_light_1890 = {
+		enable_equipments = { ship_hull_early_light_1 }
+		enable_equipment_modules = { light_ship_engine_1 }
+		path = { leads_to_tech = early_ship_hull_light_1895 research_cost_coeff = 1 }
+		allow_branch = { has_dlc = "Man the Guns" }
+		research_cost = 1.0
+		start_year = 1890
+		folder = { name = mtgnavalfolder position = { x = 0 y = -6 } }
+		ai_will_do = {
+			factor = 1
+			modifier = { factor = 0 AND = { all_owned_state = { is_coastal = no } } }
+			modifier = { has_war = yes factor = 2 }
+		}
+		categories = { naval_equipment dd_tech }
+	}
+	early_ship_hull_light_1895 = {
+		enable_equipments = { ship_hull_early_light_2 }
+		path = { leads_to_tech = early_ship_hull_light_1900 research_cost_coeff = 1 }
+		research_cost = 1.0
+		start_year = 1895
+		folder = { name = mtgnavalfolder position = { x = 0 y = -5 } }
+		ai_will_do = {
+			factor = 1
+			modifier = { factor = 0 AND = { all_owned_state = { is_coastal = no } } }
+			modifier = { has_war = yes factor = 2 }
+		}
+		categories = { naval_equipment dd_tech }
+	}
+	early_ship_hull_light_1900 = {
+		enable_equipments = { ship_hull_early_light_3 }
+		path = { leads_to_tech = early_ship_hull_light_1905 research_cost_coeff = 1 }
+		research_cost = 1.0
+		start_year = 1900
+		folder = { name = mtgnavalfolder position = { x = 0 y = -4 } }
+		ai_will_do = {
+			factor = 1
+			modifier = { factor = 0 AND = { all_owned_state = { is_coastal = no } } }
+			modifier = { has_war = yes factor = 2 }
+		}
+		categories = { naval_equipment dd_tech }
+	}
+	early_ship_hull_light_1905 = {
+		enable_equipments = { ship_hull_early_light_4 }
+		path = { leads_to_tech = early_ship_hull_light_1910 research_cost_coeff = 1 }
+		research_cost = 1.0
+		start_year = 1905
+		folder = { name = mtgnavalfolder position = { x = 0 y = -3 } }
+		ai_will_do = {
+			factor = 1
+			modifier = { factor = 0 AND = { all_owned_state = { is_coastal = no } } }
+			modifier = { has_war = yes factor = 2 }
+		}
+		categories = { naval_equipment dd_tech }
+	}
+	early_ship_hull_light_1910 = {
+		enable_equipments = { ship_hull_early_light_5 }
+		path = { leads_to_tech = early_ship_hull_light_1915 research_cost_coeff = 1 }
+		research_cost = 1.2
+		start_year = 1910
+		folder = { name = mtgnavalfolder position = { x = 0 y = -2 } }
+		ai_will_do = {
+			factor = 1
+			modifier = { factor = 0 AND = { all_owned_state = { is_coastal = no } } }
+			modifier = { has_war = yes factor = 2 }
+		}
+		categories = { naval_equipment dd_tech }
+	}
+	early_ship_hull_light_1915 = {
+		enable_equipments = { ship_hull_early_light_6 }
+		path = { leads_to_tech = early_ship_hull_light_1920 research_cost_coeff = 1 }
+		research_cost = 1.2
+		start_year = 1915
+		folder = { name = mtgnavalfolder position = { x = 0 y = -1 } }
+		ai_will_do = {
+			factor = 1
+			modifier = { factor = 0 AND = { all_owned_state = { is_coastal = no } } }
+			modifier = { has_war = yes factor = 2 }
+		}
+		categories = { naval_equipment dd_tech }
+	}
+	early_ship_hull_light_1920 = {
+		enable_equipments = { ship_hull_early_light_7 }
+		path = { leads_to_tech = early_ship_hull_light research_cost_coeff = 1 }
+		research_cost = 1.2
+		start_year = 1920
+		folder = { name = mtgnavalfolder position = { x = 0 y = 1 } }
+		ai_will_do = {
+			factor = 1
+			modifier = { factor = 0 AND = { all_owned_state = { is_coastal = no } } }
+			modifier = { has_war = yes factor = 2 }
+		}
+		categories = { naval_equipment dd_tech }
+	}
+	early_ship_hull_light_1925 = {
+		enable_equipments = { ship_hull_early_light_8 }
+		path = { leads_to_tech = early_ship_hull_light_1930 research_cost_coeff = 1 }
+		research_cost = 1.3
+		start_year = 1925
+		folder = { name = mtgnavalfolder position = { x = 0 y = 4 } }
+		ai_will_do = {
+			factor = 1
+			modifier = { factor = 0 AND = { all_owned_state = { is_coastal = no } } }
+			modifier = { has_war = yes factor = 2 }
+		}
+		categories = { naval_equipment dd_tech }
+	}
+	early_ship_hull_light_1930 = {
+		enable_equipments = { ship_hull_early_light_9 }
+		path = { leads_to_tech = basic_ship_hull_light research_cost_coeff = 1 }
+		research_cost = 1.3
+		start_year = 1930
+		folder = { name = mtgnavalfolder position = { x = 0 y = 6 } }
+		ai_will_do = {
+			factor = 1
+			modifier = { factor = 0 AND = { all_owned_state = { is_coastal = no } } }
+			modifier = { has_war = yes factor = 2 }
+		}
+		categories = { naval_equipment dd_tech }
+	}
 
 	early_ship_hull_light = {
 
@@ -261,41 +811,161 @@ technologies = {
 		special_project_specialization = { specialization_naval }
 	}
 
-	#improved_seaplane_tender = {
-	#	enable_equipment_modules = {
-	#		ship_seaplane_tender_2
-	#	}
-	#	on_research_complete = {
-	#		custom_effect_tooltip = seaplane_tender_advice_tt
-	#	}
+	early_seaplane_tender_hull = {
+		enable_equipments = {
+			ship_hull_seaplane_tender_1
+		}
+		path = {
+			leads_to_tech = improved_seaplane_tender_hull
+			research_cost_coeff = 1
+		}
+		research_cost = 1.0
+		start_year = 1922
+		folder = {
+			name = mtgnavalfolder
+			position = { x = 2 y = 10 }
+		}
+		ai_will_do = {
+			base = 2
+			modifier = {
+				has_navy_size = { size < 10 }
+				factor = 0.1
+			}
+		}
+		categories = {
+			naval_equipment
+			ship_modules_tech
+		}
+		special_project_specialization = { specialization_naval }
+	}
 
-	#	research_cost = 0.75
+	improved_seaplane_tender_hull = {
+		enable_equipments = {
+			ship_hull_seaplane_tender_2
+		}
+		research_cost = 1.0
+		start_year = 1936
+		folder = {
+			name = mtgnavalfolder
+			position = { x = 2 y = 11 }
+		}
+		ai_will_do = {
+			base = 2
+			modifier = {
+				has_navy_size = { size < 10 }
+				factor = 0.1
+			}
+		}
+		categories = {
+			naval_equipment
+			ship_modules_tech
+		}
+		special_project_specialization = { specialization_naval }
+	}
 
-	#	start_year = 1936
+	early_fleet_oiler = {
+		enable_equipments = {
+			ship_hull_ao_1
+		}
+		path = {
+			leads_to_tech = improved_fleet_oiler
+			research_cost_coeff = 1
+		}
+		research_cost = 1.0
+		start_year = 1922
+		folder = {
+			name = mtgnavalfolder
+			position = { x = 2 y = 12 }
+		}
+		ai_will_do = {
+			base = 2
+			modifier = {
+				has_navy_size = { size < 10 }
+				factor = 0.1
+			}
+		}
+		categories = {
+			naval_equipment
+			ship_modules_tech
+		}
+		special_project_specialization = { specialization_naval }
+	}
 
-	#	folder = {
-	#		name = mtgnavalfolder
-	#		position = { x = 1 y = 0 }
-	#	}
+	improved_fleet_oiler = {
+		enable_equipments = {
+			ship_hull_ao_2
+		}
+		research_cost = 1.0
+		start_year = 1936
+		folder = {
+			name = mtgnavalfolder
+			position = { x = 2 y = 13 }
+		}
+		ai_will_do = {
+			base = 2
+			modifier = {
+				has_navy_size = { size < 10 }
+				factor = 0.1
+			}
+		}
+		categories = {
+			naval_equipment
+			ship_modules_tech
+		}
+		special_project_specialization = { specialization_naval }
+	}
 
-	#	ai_will_do = {
-	#		base = 2
+	early_replenishment_ship = {
+		enable_equipments = {
+			ship_hull_ae_1
+		}
+		path = {
+			leads_to_tech = improved_replenishment_ship
+			research_cost_coeff = 1
+		}
+		research_cost = 1.0
+		start_year = 1928
+		folder = {
+			name = mtgnavalfolder
+			position = { x = 2 y = 14 }
+		}
+		ai_will_do = {
+			base = 2
+			modifier = {
+				has_navy_size = { size < 10 }
+				factor = 0.1
+			}
+		}
+		categories = {
+			naval_equipment
+			ship_modules_tech
+		}
+		special_project_specialization = { specialization_naval }
+	}
 
-	#		modifier = {
-	#			has_navy_size = { size < 10 }
-	#			factor = 0.1
-	#		}
-	#	}
-
-	#	categories = {
-	#		naval_equipment
-	#		dd_tech
-	#		ship_modules_tech
-	#		mio_cat_tech_all_screen_ship_and_modules
-	#		mio_cat_tech_all_destroyer_and_modules
-	#	}
-	#	special_project_specialization = { specialization_naval }	
-	#}
+	improved_replenishment_ship = {
+		enable_equipments = {
+			ship_hull_ae_2
+		}
+		research_cost = 1.0
+		start_year = 1938
+		folder = {
+			name = mtgnavalfolder
+			position = { x = 2 y = 15 }
+		}
+		ai_will_do = {
+			base = 2
+			modifier = {
+				has_navy_size = { size < 10 }
+				factor = 0.1
+			}
+		}
+		categories = {
+			naval_equipment
+			ship_modules_tech
+		}
+		special_project_specialization = { specialization_naval }
+	}
 
  ##  #  # ### ###      ## #  # ###  #   #  ##  ###  ### #  # ###
 #  # ## #  #   #      #   #  # #  # ## ## #  # #  #  #  ## # #
@@ -1602,6 +2272,80 @@ early_ship_hull_carrier = {
 #()~*~()       # #  # #  # #   # #  # #  #  #  #  # #     #
 #(_)-(_)     ##   ##  ###  #   # #  # #  # ### #  # ### ##
 
+	ship_hull_submarine_1870 = {
+		enable_equipments = { ship_hull_submarine_0_1870 }
+		enable_equipment_modules = { sub_ship_engine_0 }
+		path = { leads_to_tech = ship_hull_submarine_1890 research_cost_coeff = 1 }
+		allow_branch = { has_dlc = "Man the Guns" }
+		research_cost = 0.5
+		start_year = 1870
+		folder = {
+			name = mtgnavalfolder
+			position = { x = -2 y = -8 }
+		}
+		ai_will_do = {
+			factor = 1
+			modifier = { factor = 0 AND = { all_owned_state = { is_coastal = no } } }
+			modifier = { has_war = yes factor = 1.5 }
+		}
+		categories = { naval_equipment ss_tech mio_cat_tech_all_submarine_and_modules }
+		special_project_specialization = { specialization_naval }
+	}
+
+	ship_hull_submarine_1890 = {
+		enable_equipments = { ship_hull_submarine_0_1890 }
+		path = { leads_to_tech = ship_hull_submarine_1910 research_cost_coeff = 1 }
+		research_cost = 0.5
+		start_year = 1890
+		folder = {
+			name = mtgnavalfolder
+			position = { x = -2 y = -4 }
+		}
+		ai_will_do = {
+			factor = 1
+			modifier = { factor = 0 AND = { all_owned_state = { is_coastal = no } } }
+			modifier = { has_war = yes factor = 1.5 }
+		}
+		categories = { naval_equipment ss_tech mio_cat_tech_all_submarine_and_modules }
+		special_project_specialization = { specialization_naval }
+	}
+
+	ship_hull_submarine_1910 = {
+		enable_equipments = { ship_hull_submarine_0_1910 }
+		path = { leads_to_tech = ship_hull_submarine_1920 research_cost_coeff = 1 }
+		research_cost = 0.6
+		start_year = 1910
+		folder = {
+			name = mtgnavalfolder
+			position = { x = -2 y = 0 }
+		}
+		ai_will_do = {
+			factor = 1
+			modifier = { factor = 0 AND = { all_owned_state = { is_coastal = no } } }
+			modifier = { has_war = yes factor = 1.5 }
+		}
+		categories = { naval_equipment ss_tech mio_cat_tech_all_submarine_and_modules }
+		special_project_specialization = { specialization_naval }
+	}
+
+	ship_hull_submarine_1920 = {
+		enable_equipments = { ship_hull_submarine_0_1920 }
+		path = { leads_to_tech = early_ship_hull_submarine research_cost_coeff = 1 }
+		research_cost = 0.8
+		start_year = 1920
+		folder = {
+			name = mtgnavalfolder
+			position = { x = -2 y = 2 }
+		}
+		ai_will_do = {
+			factor = 1
+			modifier = { factor = 0 AND = { all_owned_state = { is_coastal = no } } }
+			modifier = { has_war = yes factor = 1.5 }
+		}
+		categories = { naval_equipment ss_tech mio_cat_tech_all_submarine_and_modules }
+		special_project_specialization = { specialization_naval }
+	}
+
 	early_ship_hull_submarine = {
 
 		enable_equipments = {
@@ -1634,7 +2378,7 @@ early_ship_hull_carrier = {
 
 		folder = {
 			name = mtgnavalfolder
-			position = {  x = -2 y = 2 }
+			position = {  x = -2 y = 8 }
 		}
 
 		ai_will_do = {
@@ -1695,7 +2439,7 @@ early_ship_hull_carrier = {
 
 		folder = {
 			name = mtgnavalfolder
-			position = {  x = -2 y = 8 }
+			position = {  x = -2 y = 14 }
 		}
 
 		ai_will_do = {
@@ -1744,7 +2488,7 @@ early_ship_hull_carrier = {
 
 		folder = {
 			name = mtgnavalfolder
-			position = {  x = -2 y = 14 }
+			position = {  x = -2 y = 20 }
 		}
 
 		ai_will_do = {
@@ -1791,7 +2535,7 @@ early_ship_hull_carrier = {
 
 		folder = {
 			name = mtgnavalfolder
-			position = {  x = -2 y = 20 }
+			position = {  x = -2 y = 26 }
 		}
 
 		ai_will_do = {
@@ -1833,7 +2577,7 @@ early_ship_hull_carrier = {
 
 		folder = {
 			name = mtgnavalfolder
-			position = {  x = -1 y = 13 }
+			position = {  x = -1 y = 19 }
 		}
 
 		ai_will_do = {
@@ -1882,7 +2626,7 @@ early_ship_hull_carrier = {
 
 		folder = {
 			name = mtgnavalfolder
-			position = {  x = -1 y = 19 }
+			position = {  x = -1 y = 25 }
 		}
 
 		ai_will_do = {
@@ -1906,6 +2650,188 @@ early_ship_hull_carrier = {
 		special_project_specialization = { specialization_naval }
 	}
 	###Special snowflake hulls for special snowflake nations
+	ironclads = {
+
+		enable_equipments = {
+			ship_hull_ironclad
+		}
+
+		research_cost = 1
+		start_year = 1936
+
+		#set at gamestart
+		allow = {
+			always = no
+		}
+	}
+	early_pre_dreadnoughts = {
+
+		enable_equipments = {
+			ship_hull_early_pre_dreadnought
+		}
+
+		research_cost = 1
+		start_year = 1936
+
+		#set at gamestart
+		allow = {
+			always = no
+		}
+	}
+	late_pre_dreadnoughts = {
+
+		enable_equipments = {
+			ship_hull_late_pre_dreadnought
+		}
+
+		research_cost = 1
+		start_year = 1936
+
+		#set at gamestart
+		allow = {
+			always = no
+		}
+	}
+	semi_dreadnoughts = {
+
+		enable_equipments = {
+			ship_hull_semi_dreadnought
+		}
+
+		research_cost = 1
+		start_year = 1936
+
+		#set at gamestart
+		allow = {
+			always = no
+		}
+	}
+	armoured_cruisers = {
+
+		enable_equipments = {
+			ship_hull_armoured_cruiser_2
+		}
+
+		research_cost = 1
+		start_year = 1936
+
+		#set at gamestart
+		allow = {
+			always = no
+		}
+	}
+	early_armoured_cruisers = {
+
+		enable_equipments = {
+			ship_hull_armoured_cruiser_1
+		}
+
+		research_cost = 1
+		start_year = 1936
+
+		#set at gamestart
+		allow = {
+			always = no
+		}
+	}
+	late_armoured_cruisers = {
+
+		enable_equipments = {
+			ship_hull_armoured_cruiser_3
+		}
+
+		research_cost = 1
+		start_year = 1936
+
+		#set at gamestart
+		allow = {
+			always = no
+		}
+	}
+	wooden_cruisers = {
+
+		enable_equipments = {
+			ship_hull_wooden_cruiser
+		}
+
+		research_cost = 1
+		start_year = 1936
+
+		#set at gamestart
+		allow = {
+			always = no
+		}
+	}
+	early_protected_cruisers = {
+
+		enable_equipments = {
+			ship_hull_protected_cruiser_1
+		}
+
+		research_cost = 1
+		start_year = 1936
+
+		#set at gamestart
+		allow = {
+			always = no
+		}
+	}
+	protected_cruisers = {
+
+		enable_equipments = {
+			ship_hull_protected_cruiser_2
+		}
+
+		research_cost = 1
+		start_year = 1936
+
+		#set at gamestart
+		allow = {
+			always = no
+		}
+	}
+	large_protected_cruisers = {
+
+		enable_equipments = {
+			ship_hull_protected_cruiser_3
+		}
+
+		research_cost = 1
+		start_year = 1936
+
+		#set at gamestart
+		allow = {
+			always = no
+		}
+	}
+	scout_cruisers = {
+
+		enable_equipments = {
+			ship_hull_scout_cruiser
+		}
+
+		research_cost = 1
+		start_year = 1936
+
+		#set at gamestart
+		allow = {
+			always = no
+		}
+	}
+	early_torpedo_cruisers = {
+
+		enable_equipments = {
+			ship_hull_early_torpedo_cruiser
+		}
+
+		research_cost = 1
+		start_year = 1936
+
+		#set at gamestart
+		allow = {
+			always = no
+		}
+	}
 	panzerschiffe = {
 
 		enable_equipments = {
@@ -2021,7 +2947,7 @@ early_ship_hull_carrier = {
 		start_year = 1939
 		folder = {
 			name = mtgnavalfolder
-			position = {  x = 1 y = 13 }
+			position = {  x = 1 y = 19 }
 		}
 		categories = {
 			naval_equipment
@@ -2050,7 +2976,7 @@ early_ship_hull_carrier = {
 		start_year = 1943
 		folder = {
 			name = mtgnavalfolder
-			position = {  x = 1 y = 19 }
+			position = {  x = 1 y = 25 }
 		}
 		categories = {
 			naval_equipment
@@ -2217,6 +3143,66 @@ early_ship_hull_carrier = {
 		start_year = 1940
 		naval_repair_support_factor = 0.25
 		naval_repair_support_value_factor = -0.15
+		allow = {
+			always = no
+		}
+	}
+
+	sp_naval_fuel_ships_pick_a = {
+		#HIDDEN EFFECT FOR REWARD CHOICE
+		research_cost = 1
+		start_year = 1940
+		naval_fuel_support_value_factor = 0.25
+		naval_fuel_support_factor = -0.1
+		allow = {
+			always = no
+		}
+	}
+	sp_naval_fuel_ships_pick_b = {
+		#HIDDEN EFFECT FOR REWARD CHOICE
+		research_cost = 1
+		start_year = 1940
+		naval_fuel_support_value_factor = 0.05
+		allow = {
+			always = no
+		}
+	}
+	sp_naval_fuel_ships_pick_c = {
+		#HIDDEN EFFECT FOR REWARD CHOICE
+		research_cost = 1
+		start_year = 1940
+		naval_fuel_support_factor = 0.25
+		naval_fuel_support_value_factor = -0.15
+		allow = {
+			always = no
+		}
+	}
+
+	sp_naval_supply_ships_pick_a = {
+		#HIDDEN EFFECT FOR REWARD CHOICE
+		research_cost = 1
+		start_year = 1940
+		naval_supply_support_value_factor = 0.25
+		naval_supply_support_factor = -0.1
+		allow = {
+			always = no
+		}
+	}
+	sp_naval_supply_ships_pick_b = {
+		#HIDDEN EFFECT FOR REWARD CHOICE
+		research_cost = 1
+		start_year = 1940
+		naval_supply_support_value_factor = 0.05
+		allow = {
+			always = no
+		}
+	}
+	sp_naval_supply_ships_pick_c = {
+		#HIDDEN EFFECT FOR REWARD CHOICE
+		research_cost = 1
+		start_year = 1940
+		naval_supply_support_factor = 0.25
+		naval_supply_support_value_factor = -0.15
 		allow = {
 			always = no
 		}

@@ -105,6 +105,196 @@ equipments = {
 		# change this from 1 at your own risk
 	}
 
+	ship_hull_submarine_0_1870 = {
+		abbreviation = "hea"
+		year = 1870
+
+		archetype = ship_hull_submarine
+		priority = 2500
+
+		module_slots = {
+			fixed_ship_torpedo_slot = {
+				required = yes
+				allowed_module_categories = { ship_torpedo_sub }
+			}
+			fixed_ship_engine_slot = {
+				required = yes
+				allowed_module_categories = { sub_ship_engine }
+			}
+		}
+
+		default_modules = {
+			fixed_ship_torpedo_slot = empty
+			fixed_ship_engine_slot = sub_ship_engine_0
+		}
+
+		surface_detection = 10
+		sub_detection = 0
+		surface_visibility = 1
+		sub_visibility = 40
+		naval_speed = 6
+		reliability = 0.40
+
+		naval_range = 200
+
+		max_strength = 3
+
+		fuel_consumption = 0
+
+		build_cost_ic = 100
+		resources = {
+			steel = 1
+		}
+
+		manpower = 30
+		naval_dominance_factor = 2
+	}
+
+	ship_hull_submarine_0_1890 = {
+		abbreviation = "heb"
+		year = 1890
+
+		archetype = ship_hull_submarine
+		priority = 2500
+		parent = ship_hull_submarine_0_1870
+
+		module_slots = {
+			fixed_ship_torpedo_slot = {
+				required = yes
+				allowed_module_categories = { ship_torpedo_sub }
+			}
+			fixed_ship_engine_slot = {
+				required = yes
+				allowed_module_categories = { sub_ship_engine }
+			}
+		}
+
+		default_modules = {
+			fixed_ship_torpedo_slot = empty
+			fixed_ship_engine_slot = sub_ship_engine_0
+		}
+
+		sub_visibility = 35
+		naval_speed = 8
+		reliability = 0.50
+
+		naval_range = 800
+
+		max_strength = 5
+
+		fuel_consumption = 1
+
+		build_cost_ic = 150
+		resources = {
+			steel = 1
+		}
+
+		manpower = 60
+		naval_dominance_factor = 4
+	}
+
+	ship_hull_submarine_0_1910 = {
+		abbreviation = "hec"
+		year = 1910
+
+		archetype = ship_hull_submarine
+		priority = 2500
+		parent = ship_hull_submarine_0_1890
+
+		module_slots = {
+			fixed_ship_torpedo_slot = {
+				required = yes
+				allowed_module_categories = { ship_torpedo_sub }
+			}
+			fixed_ship_engine_slot = {
+				required = yes
+				allowed_module_categories = { sub_ship_engine }
+			}
+			rear_1_custom_slot = {
+				required = no
+				allowed_module_categories = {
+					ship_torpedo_sub
+					ship_mine_layer_sub
+				}
+			}
+		}
+
+		default_modules = {
+			fixed_ship_torpedo_slot = empty
+			fixed_ship_engine_slot = sub_ship_engine_0
+			rear_1_custom_slot = empty
+		}
+
+		sub_visibility = 30
+		naval_speed = 11
+		reliability = 0.55
+
+		naval_range = 1500
+
+		max_strength = 8
+
+		fuel_consumption = 1
+
+		build_cost_ic = 200
+		resources = {
+			steel = 1
+		}
+
+		manpower = 120
+		naval_dominance_factor = 6
+	}
+
+	ship_hull_submarine_0_1920 = {
+		abbreviation = "hed"
+		year = 1920
+
+		archetype = ship_hull_submarine
+		priority = 2500
+		parent = ship_hull_submarine_0_1910
+
+		module_slots = {
+			fixed_ship_torpedo_slot = {
+				required = yes
+				allowed_module_categories = { ship_torpedo_sub }
+			}
+			fixed_ship_engine_slot = {
+				required = yes
+				allowed_module_categories = { sub_ship_engine }
+			}
+			rear_1_custom_slot = {
+				required = no
+				allowed_module_categories = {
+					ship_torpedo_sub
+					ship_mine_layer_sub
+				}
+			}
+		}
+
+		default_modules = {
+			fixed_ship_torpedo_slot = empty
+			fixed_ship_engine_slot = sub_ship_engine_0
+			rear_1_custom_slot = empty
+		}
+
+		sub_visibility = 28
+		naval_speed = 12
+		reliability = 0.58
+
+		naval_range = 1800
+
+		max_strength = 10
+
+		fuel_consumption = 1
+
+		build_cost_ic = 250
+		resources = {
+			steel = 1
+		}
+
+		manpower = 180
+		naval_dominance_factor = 8
+	}
+
 	ship_hull_submarine_1 = {
 		abbreviation = "heb"
 		year = 1922
@@ -529,6 +719,176 @@ equipments = {
 		resources = {
 			steel = 3
 		}		
+	}
+
+	submarine_0_1870 = {
+		year = 1870
+
+		archetype = ship_hull_submarine
+		priority = 2500
+
+		module_slots = inherit
+
+		default_modules = {
+			fixed_ship_torpedo_slot = ship_torpedo_sub_0
+			fixed_ship_engine_slot = sub_ship_engine_0
+		}
+
+		lg_armor_piercing = 0
+		lg_attack = 0
+		torpedo_attack = 1
+
+		anti_air_attack = 0
+
+		armor_value = 0
+
+		surface_detection = 10
+		sub_detection = 0
+		surface_visibility = 1
+		sub_visibility = 40
+		naval_speed = 6
+		reliability = 0.40
+
+		naval_range = 200
+
+		max_strength = 3
+
+		fuel_consumption = 0
+
+		build_cost_ic = 100
+		resources = {
+			steel = 1
+		}
+
+		manpower = 30
+	}
+
+	submarine_0_1890 = {
+		year = 1890
+
+		archetype = ship_hull_submarine
+		priority = 2500
+		parent = submarine_0_1870
+		module_slots = inherit
+
+		default_modules = {
+			fixed_ship_torpedo_slot = ship_torpedo_sub_0
+			fixed_ship_engine_slot = sub_ship_engine_0
+		}
+
+		lg_armor_piercing = 0
+		lg_attack = 0
+		torpedo_attack = 2
+
+		anti_air_attack = 0
+
+		armor_value = 0
+
+		surface_detection = 15
+		sub_detection = 0
+		surface_visibility = 1
+		sub_visibility = 35
+		naval_speed = 8
+		reliability = 0.50
+
+		naval_range = 800
+
+		max_strength = 5
+
+		fuel_consumption = 1
+
+		build_cost_ic = 150
+		resources = {
+			steel = 1
+		}
+
+		manpower = 60
+	}
+
+	submarine_0_1910 = {
+		year = 1910
+
+		archetype = ship_hull_submarine
+		priority = 2500
+		parent = submarine_0_1890
+		module_slots = inherit
+
+		default_modules = {
+			fixed_ship_torpedo_slot = ship_torpedo_sub_0
+			fixed_ship_engine_slot = sub_ship_engine_0
+			rear_1_custom_slot = empty
+		}
+
+		lg_armor_piercing = 0
+		lg_attack = 0
+		torpedo_attack = 4
+
+		anti_air_attack = 0
+
+		armor_value = 0
+
+		surface_detection = 25
+		sub_detection = 0
+		surface_visibility = 1
+		sub_visibility = 30
+		naval_speed = 11
+		reliability = 0.55
+
+		naval_range = 1500
+
+		max_strength = 8
+
+		fuel_consumption = 1
+
+		build_cost_ic = 200
+		resources = {
+			steel = 1
+		}
+
+		manpower = 120
+	}
+
+	submarine_0_1920 = {
+		year = 1920
+
+		archetype = ship_hull_submarine
+		priority = 2500
+		parent = submarine_0_1910
+		module_slots = inherit
+
+		default_modules = {
+			fixed_ship_torpedo_slot = ship_torpedo_sub_0
+			fixed_ship_engine_slot = sub_ship_engine_0
+			rear_1_custom_slot = empty
+		}
+
+		lg_armor_piercing = 0
+		lg_attack = 0
+		torpedo_attack = 1
+
+		anti_air_attack = 0
+
+		armor_value = 0
+
+		surface_detection = 28
+		sub_detection = 0
+		surface_visibility = 1
+		sub_visibility = 28
+		naval_speed = 12
+		reliability = 0.58
+
+		naval_range = 1800
+
+		max_strength = 10
+
+		fuel_consumption = 1
+
+		build_cost_ic = 250
+		resources = {
+			steel = 1
+		}
+
+		manpower = 180
 	}
 
 	submarine_1 = {

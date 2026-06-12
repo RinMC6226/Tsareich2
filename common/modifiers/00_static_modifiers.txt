@@ -745,6 +745,20 @@ naval_repair_support = {
 	naval_attrition = -0.075
 }
 
+# This is scaled based on support ratio
+naval_fuel_support = {
+	fuel_consumption_factor = -0.15
+	navy_max_range_factor = 0.15
+	underway_replenishment_range = 0.1
+}
+
+# This is scaled based on support ratio
+naval_supply_support = {
+	navy_screen_attack_factor = 0.10
+	navy_capital_ship_attack_factor = 0.05
+	naval_critical_effect_factor = 0.05
+}
+
 ### SEA 
 
 JAP_support_ethiopia_static_modifier = {

@@ -1436,6 +1436,26 @@ equipment_modules = {
 			convert_cost_ic = 230
 		}
 	}
+	sub_ship_engine_0 = {
+		abbreviation = "sbq"
+		category = sub_ship_engine
+		sfx = sfx_ui_sd_module_engine
+
+		add_stats = {
+			fuel_consumption = 3
+		}
+
+		multiply_stats = {
+			naval_speed = 0.02
+			build_cost_ic = 0.05
+		}
+
+		can_convert_from = {
+			module_category = sub_ship_engine
+			convert_cost_ic = 250
+		}
+	}
+
 	sub_ship_engine_1 = {
 		abbreviation = "sbr"
 		category = sub_ship_engine
@@ -2147,6 +2167,26 @@ equipment_modules = {
 		can_convert_from = {
 			module_category = ship_torpedo
 			convert_cost_ic = 60
+		}
+		critical_parts = { damaged_torpedoes }
+	}
+
+	ship_torpedo_sub_0 = {
+		abbreviation = "scek"
+		category = ship_torpedo_sub
+		sfx = sfx_ui_sd_module_turret
+
+		add_stats = {
+			torpedo_attack = 5
+			build_cost_ic = 40
+		}
+
+		multiply_stats = {
+			naval_speed = -0.005
+		}
+
+		build_cost_resources = {
+			steel = 0
 		}
 		critical_parts = { damaged_torpedoes }
 	}
