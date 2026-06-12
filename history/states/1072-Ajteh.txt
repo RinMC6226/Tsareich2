@@ -13,18 +13,18 @@ state={
 		set_compliance = 2
 		buildings = {
 			infrastructure = 1
-			13398 = {
+			13417 = {
 				naval_base = 1
 			}
 		}
 
 		victory_points = {
-			13398 1
+			13417 1
 		}
 	}
 
 	provinces={
-		1648 13399 10509 12488 7658 13398 13401 13396
+		1648 13418 10509 12488 7658 13417 13420 13415
 	}
 	manpower = 1138242
 	state_category = rural

@@ -16,6 +16,7 @@ state = {
 	history = {
 
 		owner = DAS
+		controller = DAS
 		add_core_of = MAL
 		add_core_of = SAR
 
@@ -35,8 +36,8 @@ state = {
 		
 	}
 
-	provinces = {
-		1208 2117 4216 4396 7443 8091 10269 10285 12283 12905 13377 13378 
+	provinces={
+		1208 2117 4216 4396 7443 8091 10285 12283 12905 
 	}
 
 	local_supplies = 0.0 

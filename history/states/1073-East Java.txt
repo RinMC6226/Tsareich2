@@ -14,37 +14,37 @@ state={
 			industrial_complex = 1
 			arms_factory = 1
 			air_base = 2
-			13403 = {
+			13422 = {
 				naval_base = 3
 			}
-			13406 = {
+			13425 = {
 				naval_base = 1
 			}
 		}
 
 		victory_points = {
-			13404 1 #Purwokerto
+			13423 1 #Purwokerto
 		}
 
 		victory_points = {
-			13405 15 #Semarang
+			13424 15 #Semarang
 		}
 
 		victory_points = {
-			13406 10 #Yogyakarta
+			13425 10 #Yogyakarta
 		}
 
 		victory_points = {
-			13407 3 #Surakarta
+			13426 3 #Surakarta
 		}
 
 		victory_points = {
-			13403 10 #Surabaya
+			13422 10 #Surabaya
 		}
 	}
 
 	provinces={
-		1209 1413 4306 4390 4608 7642 7654 10135 10479 10491 12277 12293 12472 13383 13405 13403 13404 13406 13407
+		1209 1413 4306 4390 4608 7642 7654 10135 10479 10491 12277 12293 12472 13402 13424 13422 13423 13425 13426
 	}
 	manpower = 27368215
 	state_category = large_town

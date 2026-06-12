@@ -13,7 +13,8 @@ state = {
 
 	history = {
 
-		owner = MAL
+		owner = DAS
+		controller = DAS
 		add_core_of = MAL
 
 		victory_points = {
@@ -39,7 +40,7 @@ state = {
 	}
 
 	provinces = {
-		7329 10227 13410 1348 4355 12199 
+		7329 10227 13429 1348 4355 12199 
 	}
 
 	local_supplies = 0.0 
