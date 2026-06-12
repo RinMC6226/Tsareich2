@@ -61,6 +61,7 @@ See `docs/gitflow.md` for the detailed policy.
 - `music/`: music definitions and assets
 - `tools/`: local helper tools
 - `documents/`: HOI4 scripting references for coding agents and contributors
+- `docs/`: development plans (`docs/plan/`), design docs, and worldbuilding/prehistory (`docs/prehistory/`). Not loaded by the game.
 
 ## Coding Agent Reference Path
 
@@ -73,6 +74,18 @@ Use `documents/README.md` as the entrypoint when you need HOI4 scripting context
 - Use `documents/00_character/` before changing character, leader, advisor, or trait definitions.
 - Use `documents/95_scripted_localisation.md`, `documents/99_scripted_effects.md`, and `documents/99_scripted_triggers.md` for reusable HOI4 script patterns.
 - Use `documents/05_ai/AI_MODDING_GUIDE.md` before changing AI behavior files (`common/ai_strategy/`, `common/ai_areas/`, `common/ai_strategy_plans/`, `common/ai_focuses/`, `common/ai_templates/`, `common/ai_equipment/`, `common/ai_navy/`).
+
+## Worldbuilding / Prehistory Reference
+
+`docs/prehistory/` holds the mod's alternate-history prehistory (the story leading up to the 1936.1.1 start). Before implementing or revising a country, focus, event, idea, or decision, read the relevant prehistory so narrative and implementation stay consistent.
+
+- Entry point: `docs/prehistory/README.md` — file format, the point of divergence, and how to read the archive.
+- `docs/prehistory/TIMELINE.md` — backbone chronology from the point of divergence to 1936.
+- `docs/prehistory/ENTITIES.md` — maps lore names to game IDs (TAG, character tokens, factions).
+- `docs/prehistory/nations/<TAG>.md` — per-country prehistory for the TAG you are working on.
+- Respect the `canon` field in each file: do not implement `proposed` lore as established fact.
+- When you implement something, update the `implements:` field of the prehistory file that justifies it.
+- `docs/prehistory/` is documentation only; the game does not load it. Keep it distinct from `documents/` (technical scripting references). Design/implementation plans live in `docs/plan/`.
 
 ## HOI4 Script Style
 
