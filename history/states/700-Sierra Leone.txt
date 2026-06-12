@@ -4,20 +4,16 @@ state={
 	manpower = 1768500
 	
 	state_category = pastoral
-	resources = {
-		steel = 32
-	}
 	
 	history=
 	{
 		owner = ENG
-		controller = ENG
 		add_core_of = SIE
 		victory_points = {
 			2038 1 
 		}
 		buildings = {
-			infrastructure = 2
+			infrastructure = 3
 			2038 = {
 				naval_base = 3
 			}
@@ -28,6 +24,4 @@ state={
 	provinces={
 		2038 2094 
 	}
-
-	local_supplies=0.0 
 }

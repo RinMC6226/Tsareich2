@@ -4,16 +4,16 @@ state={
 	name="STATE_119"
 
 	history={
-		owner = IRE
+		owner = ENG
 		victory_points = {
-			3379 5 
+			3379 10 
 		}
 		victory_points = {
-			385 1 # Londonderry
-		}
+			3329 2 
+		}		
 		buildings = {
-			infrastructure = 3
-			arms_factory = 1
+			infrastructure = 7
+			arms_factory = 2
 			industrial_complex = 2
 			air_base = 1
 			dockyard = 2
@@ -24,20 +24,16 @@ state={
 		add_core_of = ENG
 		add_core_of = IRE
 		add_core_of = NIR
-		set_demilitarized_zone = yes
 	}
 
 	provinces={
-		276 385 3217 3242 3329 3379 11257 
+	 3329 3379
 	}
-	manpower=1198537
+	manpower=898537
 	buildings_max_level_factor=1
-	state_category="city"
+	state_category=megalopolis
 	
 	resources={
-		aluminium=2
-		coal = 2 #initial distribution
+		aluminium=1
 	}
-
-	local_supplies=0.0 
 }

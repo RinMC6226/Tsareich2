@@ -1,36 +1,31 @@
+
 state={
 	id=755
 	name="STATE_755"
-	provinces={
-		2053 2099 7997 10750 10796 10834 10865 12846 12890 13146 13381
-	}
-	manpower=1000000
-	buildings_max_level_factor=1.000
-	state_category = pastoral
 
-	history = {
-
+	history={
 		owner = XSM
 		add_core_of = XSM
-
-		victory_points = {
-			10750 1 # Dulan  
-		}
-
+		add_core_of = CHI
+		add_core_of = PRC
+		#victory_points = {
+		#	7940 10 
+		#}
 		buildings = {
 			infrastructure = 1
 			industrial_complex = 1
-		}
 
+		}
 		1938.10.25 = {
 			if = {
 				limit = {
 					NOT = {
 						has_dlc = "Waking the Tiger"
+
 					}
 
 				}
-				KMT = {
+				CHI = {
 					transfer_state = PREV
 
 				}
@@ -41,5 +36,10 @@ state={
 
 	}
 
-	local_supplies = 0.0 
+	provinces={
+		7940 7997 10750 10796 10834 12846 13974 
+	}
+	manpower=1000000
+	buildings_max_level_factor=1.000
+	state_category=pastoral
 }

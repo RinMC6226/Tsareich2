@@ -1,26 +1,25 @@
+
 state={
 	id=680
 	name="STATE_680"
-	manpower = 324110
-	
-	state_category = wasteland
 
 	history={
-		owner = SYR
+		owner = FRA
 		victory_points = {
-			3942 1
+			3942 1 
 		}
 		buildings = {
-			infrastructure = 1
+			infrastructure = 2
+
 		}
 		add_core_of = SYR
-		add_core_of = KUR
-	}
 
+	}
 
 	provinces={
-		2013 3942 7513 12442 
+		2013 3942 7513 10383 12316 12442 
 	}
-
-	local_supplies=4.0 
+	manpower=214100
+	buildings_max_level_factor=1.000
+	state_category=wasteland
 }

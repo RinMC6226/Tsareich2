@@ -1,29 +1,24 @@
-state = {
-	id = 765
-	name = "STATE_765"
-	manpower = 51600
-	state_category = pastoral
 
-	history = {
-		
-		owner = QAT
+state={
+	id=765
+	name="STATE_765"
+	manpower = 34300	state_category = pastoral
+
+	history={
 		add_core_of = QAT
-
+		owner = ENG
 		victory_points = {
-			8051 1 # Doha
+			8051 1
 		}
-
 		buildings = {
-			infrastructure = 1
+			infrastructure = 2
 			8051 = {
 				naval_base = 2
 			}
 		}
 	}
 
-	provinces = {
+	provinces={
 		8051
 	}
-
-	local_supplies = 0.0 
 }

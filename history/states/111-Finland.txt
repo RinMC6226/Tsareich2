@@ -1,0 +1,31 @@
+
+state={
+	id=111
+	name="STATE_111" # Uusimaa
+	manpower = 1645150
+	
+	state_category = city
+	
+	history={
+		owner = FIN
+		victory_points = {
+			11105 30
+		}
+		buildings = {
+			infrastructure = 8
+			arms_factory = 3
+			industrial_complex = 2
+			dockyard = 1
+			air_base = 5
+			11105 = {
+				naval_base = 5
+				coastal_bunker = 2
+			}
+		}
+		add_core_of = FIN
+	}
+
+	provinces={
+		11105 6009 204 3161 9129 6108 
+	}
+}

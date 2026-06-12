@@ -1,35 +1,33 @@
 
-state = {
-	id = 497
-	name = "STATE_497"
-	manpower = 575050 # was 2950100, then 1150100
+state={
+	id=497
+	name="STATE_497"
+	manpower = 1447326
 	
-	state_category = pastoral # Was rural
+	state_category = rural
 	
-	resources = {
-		rubber = 13 # was: 30, then 23
+	resources={
+		rubber=12 # was: 30
 	}
 
-	history = {
-
+	history={
 		owner = BRA
-		add_core_of = BRA
-
 		buildings = {
-			infrastructure = 1
-			#industrial_complex = 1 Should probably not have this factory
+			infrastructure = 3
+			industrial_complex = 1
 			air_base = 1
+			12853 = {
+				naval_base = 2
+			}
 		}
-
+		add_core_of = BRA
 		victory_points = {
-			12933 2 
+			12853 1 
 		}
 
 	}
 
-	provinces = {
-		2150 5220 12913 12933 12947
+	provinces={
+		12853 12999 2214 10874 
 	}
-
-	local_supplies = 0.0 
 }

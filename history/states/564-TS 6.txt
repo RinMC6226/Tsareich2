@@ -12,24 +12,18 @@ state={
 	}
 
 	history={
-		owner = RUS
-		victory_points = {
-			7835 2 
-		}
-		victory_points = {
-			12644 1 
-		}
+		owner = SOV
 		buildings = {
-			infrastructure = 2
+			infrastructure = 4
 
 		}
-		add_core_of = RUS
-		add_core_of = BYA
+		add_core_of = SOV
+		add_core_of = SIB
+		add_core_of = FER
+		add_core_of = BRY
 	}
 
 	provinces={
-		1696 1762 1810 4716 4766 4835 4837 7736 7816 7835 10524 10528 10543 10658 12506 12575 12644 13152
+		1762 1810 4766 4797 4837 7816 7835 10528 10543 10661 10658 12644 
 	}
-
-	local_supplies=0.0 
 }

@@ -2,43 +2,57 @@
 state={
 	id=142
 	name="STATE_142"
-	manpower = 484520
-	
-	state_category = town
-	
 	resources={
-		chromium=1 # was: 2
-		aluminium=10 # was: 22
+		chromium=1.000
+		aluminium=15.000
 	}
 
 	history={
 		owner = NOR
 		buildings = {
-			infrastructure = 3 #was: 5
-			industrial_complex = 2
+			infrastructure = 5
+			industrial_complex = 1
 			air_base = 1
 			53 = {
 				naval_base = 1
 				coastal_bunker = 1
+
 			}
 			122 = {
 				naval_base = 3
 				coastal_bunker = 2
+
 			}
-		}
-		
-		victory_points = {
-			53 3
+
 		}
 		victory_points = {
-			122 5
+			53 1 
+		}
+		victory_points = {
+			3090 1 
+		}		
+		victory_points = {
+			9216 2 
+		}		
+		victory_points = {
+			122 3 
+		}
+		victory_points = {
+			9127 1 
 		}
 		add_core_of = NOR
+		1941.1.1 = {
+			owner = GER
+			controller = GER
+
+		}
+
 	}
 
 	provinces={
-		53 65 102 122 137 188 199 3090 3093 3096 3114 3180 3188 3192 6145 6176 6204 6216 9047 9127 9170 9216 11100 11198 
+		53 65 122 137 188 199 3049 3090 3114 3180 3192 6145 6176 6204 9127 9170 9216 11100 11367 
 	}
-
-	local_supplies=0.0 
+	manpower=500843
+	buildings_max_level_factor=1.000
+	state_category=town
 }

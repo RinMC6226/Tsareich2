@@ -5,7 +5,7 @@ state={
 	
 	state_category = city
 	
-	manpower = 1335010
+	manpower = 1235010
 	resources={
 		oil=41 # was: 58
 	}
@@ -13,7 +13,7 @@ state={
 	history={
 		owner = VEN
 		buildings = {
-			infrastructure = 2
+			infrastructure = 6
 			arms_factory = 1
 			industrial_complex = 5
 			air_base = 2
@@ -26,14 +26,12 @@ state={
 		}
 		add_core_of = VEN
 		victory_points = {
-			8113 5 
+			8113 30 
 		}
 
 	}
 
 	provinces={
-		4942 7968 8024 8080 8113 10767 10823 10912 5056 4892 5000
+		4942 7968 8024 8080 8113 10767 10823 10912 5000
 	}
-
-	local_supplies=0.0 
 }

@@ -9,7 +9,7 @@ state=
 		owner = JAP
 		add_core_of = JAP
 		buildings = {
-			infrastructure = 2
+			infrastructure = 3
 			air_base = 1
 			13025 = {
 				naval_base = 1
@@ -20,14 +20,8 @@ state=
 			13025 5
 		 }
 
-		 strategic_province_location = {
-		 	defensible_coastline = 13025
-		 }
-
 	}
 	provinces={
 		13025
 	}
-
-	local_supplies=0.0 
 }

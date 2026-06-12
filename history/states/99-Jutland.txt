@@ -1,49 +1,42 @@
 
-state = {
-	id = 99
-	name = "STATE_99"
-	manpower = 1254177
-	state_category = rural
+state={
+	id=99
+	name="STATE_99"
+	resources={
+		aluminium=6.000
+	}
 
 	history={
 		owner = DEN
-		add_core_of = DEN
-		victory_points = {
-			6235 2 
-		}
 		victory_points = {
 			6364 3 
 		}
 		victory_points = {
-			3277 1 
-		}
-		victory_points = {
-			399 2
-		}
-		victory_points = {
-			3206 1
+			6235 3 
 		}
 		buildings = {
-			infrastructure = 3
-			industrial_complex = 1
-			dockyard = 1
+			infrastructure = 8
+			industrial_complex = 3
 			air_base = 2
-			394 = {
-				naval_base = 2
-			}
-			399 = {
-				naval_base = 2
-			}
 			6364 = {
 				naval_base = 1
+
 			}
+
 		}
+		add_core_of = DEN
+		1941.1.1 = {
+			owner = GER
+			controller = GER
+
+		}
+
 	}
 
 	provinces={
-		316 394 399 3206 3277 3341 6235 6364 13259 13262 13263
+		6235 6364 13877
 	}
-	
-	
-	local_supplies = 0.000
+	manpower=742222
+	buildings_max_level_factor=1.000
+	state_category=town
 }

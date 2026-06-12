@@ -1,39 +1,39 @@
-state = {
-	id = 613
-	name = "STATE_613" # Shanghai
-	manpower = 6180392
-	
-	state_category = large_city
-	
-	history = {
 
-		owner = KMT
-		add_core_of = KMT
+state={
+	id=613
+	name="STATE_613"
 
+	history={
+		owner = CHI
+		add_core_of = CHI
+		add_core_of = PRC
 		buildings = {
-			infrastructure = 3 #was: 5
+			infrastructure = 5
+			industrial_complex = 1
 			air_base = 6
 			dockyard = 1
-			arms_factory = 2
 			7014 = {
 				naval_base = 6
 				coastal_bunker = 1
 				bunker = 1
+
 			}
+
 		}
 		
 		victory_points = {
-			7014 5 # Shanghai
+			7014 5 
 		}
-
 		1938.10.25 = {
-			controller = JAP
+			owner = RGR
 		}
+
 	}
 
-	provinces = {
-		7014 10034 12052 12076 
+	provinces={
+		7014 12076
 	}
-
-	local_supplies = 0.0 
+	manpower=14203100
+	buildings_max_level_factor=1.000
+	state_category=large_city
 }

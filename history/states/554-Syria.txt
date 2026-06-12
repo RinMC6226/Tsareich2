@@ -2,23 +2,17 @@
 state={
 	id=554
 	name="STATE_554"
-	manpower = 547797
+	manpower = 947797
 	
 	state_category = rural
 
 	history={
-		owner = SYR
-
+		owner = FRA
 		victory_points = {
-			4111 5 # Damascus 
+			4111 5
 		}
-
-		victory_points = {
-			4486 1 # As-Suwayda  
-		}
-
 		buildings = {
-			infrastructure = 2
+			infrastructure = 6
 			air_base = 1
 		}
 		add_core_of = SYR	
@@ -27,8 +21,6 @@ state={
 
 
 	provinces={
-		1074 4111 4486 4550 7184 
+		4111 4550
 	}
-
-	local_supplies=2.0 
 }

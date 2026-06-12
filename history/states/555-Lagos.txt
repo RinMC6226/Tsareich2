@@ -7,12 +7,11 @@ state={
 	state_category = tiny_island
 
 	history={
-		owner = RUS
-		add_core_of = ANU
-		add_core_of = JAP
+		owner = JAP
+		#add_core_of = JAP
 		#add_claim_by = SOV # Removed because of too much aggression
 		buildings = {
-			infrastructure = 2
+			infrastructure = 3
 			1399 = {
 				naval_base = 3
 
@@ -25,6 +24,4 @@ state={
 	provinces={
 		1399 1515 13037 
 	}
-
-	local_supplies=0.0 
 }

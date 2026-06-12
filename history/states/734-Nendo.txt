@@ -2,14 +2,13 @@ state={
 	id=734
 	name="STATE_734"
 	manpower = 5167
-	state_category = small_island
+	state_category = tiny_island
 
 	history={
-		owner = DAS
-		controller = DAS
-		add_core_of = TAH
+		owner = ENG
+		add_core_of = SOL
 		buildings = {
-			infrastructure = 2
+			infrastructure = 3
 			7390 = {
 				naval_base = 1
 			}
@@ -21,6 +20,4 @@ state={
 	provinces={
 		7390 
 	}
-
-	local_supplies=0.0 
 }

@@ -1,0 +1,8 @@
+supply_area={
+	id=178
+	name="SUPPLYAREA_178"
+	value=8
+	states={
+		1593 312 1857 1858 1887 1870
+	}
+}

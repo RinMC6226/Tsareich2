@@ -1,31 +1,24 @@
+
 state={
 	id=340
 	name="STATE_340"
 	resources={
-		chromium=19
+		chromium=39.000
 	}
-	
-	state_category = town
 
 	history={
 		owner = TUR
-		controller = TUR
 		buildings = {
-			infrastructure = 1
-			industrial_complex = 1
-		}
-		victory_points = {
-			9799 5
+			infrastructure = 4
+
 		}
 		add_core_of = TUR
 	}
 
 	provinces={
-		785 3786 9799 11778 13382 13383 
+		947 6912 9799 11867 
 	}
-
-	manpower=538926
-	buildings_max_level_factor=1
+	manpower=131648
+	buildings_max_level_factor=1.000
 	state_category=town
-	local_supplies=0
 }

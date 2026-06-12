@@ -1,33 +1,33 @@
+
 state={
 	id=344
 	name="STATE_344"
 
-	state_category = town
-
 	history={
 		owner = TUR
 		victory_points = {
-			7620 10
+			11746 1 
 		}
 		victory_points = {
-			6813 3
+			10056 1 
 		}
 		buildings = {
-			infrastructure = 2
+			infrastructure = 4
 			industrial_complex = 1
+			11746 = {
+				naval_base = 3
+
+			}
+
 		}
 		add_core_of = TUR
-		add_claim_by = KUR
+
 	}
 
-	resources={
-		coal=2
-	}
 	provinces={
-		6813 7620 9912 13390 
+		886 961 6956 10056 11746 11810
 	}
-	manpower=1081781
-	buildings_max_level_factor=1
+	manpower=225154
+	buildings_max_level_factor=1.000
 	state_category=town
-	local_supplies=0
 }

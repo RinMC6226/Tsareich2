@@ -1,0 +1,8 @@
+supply_area={
+	id=199
+	name="SUPPLYAREA_199"
+	value=6
+	states={
+		509 508 1580 511 1574 1806 1260 1300 
+	}
+}

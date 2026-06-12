@@ -1,33 +1,27 @@
-state = {
-	id = 735
-	name = "STATE_735"
 
-	state_category = town
+state={
+	id=735
+	name="STATE_735"
 
-	manpower = 168500
-
-	history = {
-
+	history={
 		owner = FRA
-		add_core_of = OCC
 		add_core_of = FRA
-		add_claim_by = SPM
-
+		#add_core_of = OCC
+		add_core_of = SRD
+		victory_points = {
+			778 1 
+		}
 		buildings = {
-			infrastructure = 2
-
-			# Tignes Dam
-			#9745 = { dam = 1 }
+			infrastructure = 4
 
 		}
 
 	}
 
-	provinces = {
-		764 3764 6975 9736
+	provinces={
+		778 9603 11573 
 	}
-	
-	buildings_max_level_factor = 1.000
-
-	local_supplies = 0.0 
+	manpower=301300
+	buildings_max_level_factor=1.000
+	state_category=rural
 }

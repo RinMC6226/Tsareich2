@@ -1,33 +1,45 @@
+
 state={
 	id=622
 	name="STATE_622"
 	resources={
 		steel=3.000
 		tungsten=3.000
-		coal = 12 #initial distribution
 	}
 
 	history={
-		owner = XIC
-		controller = XIC
-		add_core_of = XIC
+		owner = PRC
+		add_core_of = PRC
+		add_core_of = CHI
+		add_core_of = PRC
+		victory_points = {
+			12356 3 
+		}
 		buildings = {
-			infrastructure = 1
-			arms_factory = 1
-			industrial_complex = 1
+			infrastructure = 2
+			arms_factory = 2
+			industrial_complex = 3
+			517 = {
+				bunker = 2
+
+			}
+			1458 = {
+				bunker = 2
+
+			}
+			12356 = {
+				bunker = 2
+				
+			}
+
 		}
 
-		victory_points = {
-			12356 1 
-		}
 	}
 
 	provinces={
-		4939 10880 12356 
+		517 1458 10880 12356 
 	}
-	manpower = 1278000 
-	buildings_max_level_factor = 1.000
-	state_category = town
-
-	local_supplies=0.0 
+	manpower=5604960
+	buildings_max_level_factor=1.000
+	state_category=city
 }

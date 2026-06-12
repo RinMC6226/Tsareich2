@@ -1,34 +1,23 @@
-state = {
-	id = 728
-	name = "STATE_728"
+state={
+	id=728
+	name="STATE_728"
 	manpower = 200000
-
-	resources = {
-		coal = 6 # Guangzhouwan was notable for its coal mines
-	}
 	
 	state_category = enclave
 	
-	history = {
-
-		owner = GER
-		controller = GER
-
-		victory_points = {
-			11981 1 # Fort-Bayard
-		}
-
+	history={
+		owner = FRA
+		add_core_of = CHI
+		add_core_of = PRC
 		buildings = {
-			infrastructure = 2
+			infrastructure = 3
 			11981 = {
 				naval_base = 1
 			}
 		}
 	}
 	
-	provinces = {
+	provinces={
 		11981 
 	}
-
-	local_supplies = 0.0 
 }

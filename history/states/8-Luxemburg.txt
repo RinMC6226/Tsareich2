@@ -1,36 +1,35 @@
-state = {
-	id = 8
-	name = "STATE_8"
-	
-	state_category = town
-	
-	manpower = 294748
-	resources = {
-		steel = 14 # was: 5
+
+state={
+	id=8
+	name="STATE_8"
+	resources={
+		steel=7.000
 	}
 
-	history = {
-
-		owner = GER
-		add_core_of = GER
-		add_core_of = LUX
-
-
+	history={
+		owner = LUX
 		buildings = {
-			infrastructure = 3
-			arms_factory = 1
-			industrial_complex = 3
+			infrastructure = 8
+			arms_factory = 3
+			industrial_complex = 5
 
 		}
-		victory_points = { 
-			6583 5 # Luxembourg City
+		victory_points = {
+			6583 5 
 		}
-		
+		add_core_of = LUX
+		1941.1.1 = {
+			owner = GER
+			controller = GER
+
+		}
+
 	}
 
-	provinces = {
-		6583 13375
+	provinces={
+		6583 11502 13901
 	}
-
-	local_supplies = 0.0 
+	manpower=294748
+	buildings_max_level_factor=1.000
+	state_category=large_city
 }

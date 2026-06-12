@@ -8,6 +8,9 @@ state={
 
 	history={
 		owner = COL
+		victory_points = {
+			5026 1
+		}		
 		buildings = {
 			infrastructure = 1
 		}
@@ -15,8 +18,6 @@ state={
 	}
 
 	provinces={
-		1887 2007 5026 10792 12729 12770 12825 
+		13734 1887 2007 5026 10792 12729 12770 
 	}
-
-	local_supplies=0.0 
 }

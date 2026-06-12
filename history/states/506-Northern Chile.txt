@@ -1,40 +1,28 @@
-state = {
-	id = 506
-	name = "STATE_506" # Antofagasta
-	manpower = 423605
-	
-	state_category = town
 
-	resources = {
-		tungsten = 42 # In replacement of Nitrate
-		coal = 1 # initial distribution = with infra 1.6 / 6 total
-	}
+state={
+	id=506
+	name="STATE_506"
 
-	history = {
-
+	history={
 		owner = CHL
-		add_core_of = CHL
-		add_claim_by = BOL
-
 		buildings = {
 			infrastructure = 3
-			industrial_complex = 2
-			dockyard = 1
+			industrial_complex = 1
 			air_base = 1
-			12994 = {
-				naval_base = 1
+			5228 = {
+				naval_base = 2
+
 			}
+
 		}
-		
-		victory_points = {
-			12994 10
-		}
+		add_core_of = CHL
 
 	}
 
-	provinces = {
-		5146 5171 12994 13301 13302 13304
+	provinces={
+	 5228 12914 
 	}
-
-	local_supplies = 0.0 
+	manpower=119600
+	buildings_max_level_factor=1.000
+	state_category=rural
 }
