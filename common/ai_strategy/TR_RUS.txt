@@ -1,0 +1,138 @@
+TR_RUS_core_production = {
+  allowed = {
+    original_tag = RUS
+  }
+
+  enable = {
+    always = yes
+  }
+
+  abort = {
+    always = no
+  }
+
+  ai_strategy = {
+    type = role_ratio
+    id = infantry
+    value = 8
+  }
+
+  ai_strategy = {
+    type = role_ratio
+    id = mountaineers
+    value = 3
+  }
+
+  ai_strategy = {
+    type = role_ratio
+    id = garrison
+    value = 5
+  }
+
+  ai_strategy = {
+    type = unit_ratio
+    id = fighter
+    value = 15
+  }
+
+  ai_strategy = {
+    type = unit_ratio
+    id = tactical_bomber
+    value = 8
+  }
+
+  ai_strategy = {
+    type = equipment_production_factor
+    id = infantry
+    value = 25
+  }
+
+  ai_strategy = {
+    type = equipment_production_factor
+    id = artillery
+    value = 20
+  }
+}
+
+TR_RUS_industrial_priority = {
+  allowed = {
+    original_tag = RUS
+  }
+
+  enable = {
+    date < 1939.1.1
+  }
+
+  abort_when_not_enabled = yes
+
+  ai_strategy = {
+    type = building_target
+    id = industrial_complex
+    value = 65
+  }
+
+  ai_strategy = {
+    type = building_target
+    id = arms_factory
+    value = 55
+  }
+}
+
+TR_RUS_european_front_support = {
+  allowed = {
+    original_tag = RUS
+  }
+
+  enable = {
+    OR = {
+      FRA = { exists = yes }
+      SPR = { exists = yes }
+    }
+  }
+
+  abort_when_not_enabled = yes
+
+  ai_strategy = {
+    type = front_unit_request
+    tag = FRA
+    value = 55
+  }
+
+  ai_strategy = {
+    type = front_unit_request
+    tag = SPR
+    value = 20
+  }
+
+  ai_strategy = {
+    type = force_concentration_front_factor
+    tag = FRA
+    ratio = 0.20
+    value = 20
+  }
+}
+
+TR_RUS_far_east_watch = {
+  allowed = {
+    original_tag = RUS
+  }
+
+  enable = {
+    JAP = { exists = yes }
+  }
+
+  abort_when_not_enabled = yes
+
+  ai_strategy = {
+    type = front_unit_request
+    tag = JAP
+    value = 25
+  }
+
+  ai_strategy = {
+    type = force_concentration_front_factor
+    tag = JAP
+    ratio = 0.15
+    value = -10
+  }
+}

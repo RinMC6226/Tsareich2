@@ -1,0 +1,91 @@
+TR_continental_alliance_GER_supports_RUS = {
+  allowed = {
+    original_tag = GER
+  }
+
+  enable = {
+    RUS = { exists = yes }
+    NOT = { has_war_with = RUS }
+  }
+
+  abort_when_not_enabled = yes
+
+  ai_strategy = {
+    type = protect
+    id = RUS
+    value = 200
+  }
+}
+
+TR_continental_alliance_RUS_supports_GER = {
+  allowed = {
+    original_tag = RUS
+  }
+
+  enable = {
+    GER = { exists = yes }
+    NOT = { has_war_with = GER }
+  }
+
+  abort_when_not_enabled = yes
+
+  ai_strategy = {
+    type = protect
+    id = GER
+    value = 200
+  }
+}
+
+TR_continental_alliance_GER_international_threat = {
+  allowed = {
+    original_tag = GER
+  }
+
+  enable = {
+    OR = {
+      FRA = { exists = yes }
+      SPR = { exists = yes }
+    }
+  }
+
+  abort_when_not_enabled = yes
+
+  ai_strategy = {
+    type = front_unit_request
+    tag = FRA
+    value = 45
+  }
+
+  ai_strategy = {
+    type = front_unit_request
+    tag = SPR
+    value = 20
+  }
+}
+
+TR_continental_alliance_RUS_international_threat = {
+  allowed = {
+    original_tag = RUS
+  }
+
+  enable = {
+    OR = {
+      FRA = { exists = yes }
+      SPR = { exists = yes }
+    }
+  }
+
+  abort_when_not_enabled = yes
+
+  ai_strategy = {
+    type = front_unit_request
+    tag = FRA
+    value = 30
+  }
+
+  ai_strategy = {
+    type = front_unit_request
+    tag = SPR
+    value = 15
+  }
+}
