@@ -1,0 +1,32 @@
+state={
+	id=481
+	name="STATE_481" # Durango
+	# TSR2_OVERLAY tsr_state_id=481 ratio=1.000 split=False
+
+		
+		state_category = rural
+
+	manpower=1255094
+
+	resources={
+		coal = 1
+	}
+
+	history={
+		owner = MEX
+		victory_points = {
+			7921 10
+        }
+		victory_points = {
+			10853 5
+		}
+		buildings = {
+			infrastructure = 2
+		}
+		add_core_of = MEX
+	}
+
+		provinces={
+		4946 7921 8003 10853 10871 
+		}
+}
