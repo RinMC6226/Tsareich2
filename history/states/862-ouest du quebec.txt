@@ -1,24 +1,25 @@
-state = {
-	id = 862
-	name = "STATE_862"
-	manpower = 80000
-	state_category = rural
-	
-	history = {
+state={
+	id=862
+	name="STATE_862" # STATE_862
+	# TSR2_OVERLAY tsr_state_id=862 ratio=1.000 split=False
 
+		state_category=enclave
+
+	manpower=80000
+
+	history={
 		owner = CAN
-		add_core_of = CAN
-		add_core_of = QUE
-
 		buildings = {
 			infrastructure = 1
+		6196 = {naval_base = 1}
 		}
+		add_core_of = CAN
+		add_core_of = ENG
+		add_core_of = QUE
+		add_core_of = SCO
+	}
 
-	}
-	
-	provinces = {
-		983 1341 1764 3911 7435 7875 10249 10700 11682 11902 12205 12276 
-	}
-	buildings_max_level_factor = 1.000
-	local_supplies = 0.000
+		provinces={
+			6196 
+		}
 }

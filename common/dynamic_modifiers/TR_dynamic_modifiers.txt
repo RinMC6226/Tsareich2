@@ -35,12 +35,12 @@ BAY_dummy_state_no_building_slots_modifier = { #State Modifier
 
 BAY_bavarian_military_district_state_modifier = { #State Modifier
   enable = {
-    owner = GER
+    is_owned_by = GER
     is_core_of = BAY
   }
   remove_trigger = {
     OR = {
-      NOT = { owner = GER }
+      NOT = { is_owned_by = GER }
       NOT = { is_core_of = BAY }
     }
   }
