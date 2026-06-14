@@ -1,0 +1,25 @@
+state={
+	id=936
+	name="STATE_936" # STATE_936
+	# TSR2_OVERLAY tsr_state_id=936 ratio=1.000 split=False
+
+		state_category=pastoral
+
+	manpower=2282000
+
+	history={
+		owner = BRA
+		controller = HUN
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+		}
+		add_core_of = BRA
+		add_core_of = SLV
+		add_core_of = YUG
+	}
+
+		provinces={
+			6672 
+		}
+}

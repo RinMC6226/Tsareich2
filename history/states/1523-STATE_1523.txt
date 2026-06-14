@@ -1,0 +1,27 @@
+state={
+	id=1523
+	name="STATE_1523" # STATE_1523
+	# TSR2_OVERLAY none (BSR-only state)
+
+		state_category=rural
+
+	manpower=237555
+
+	history={
+		owner = MEN
+		controller = MEN
+		victory_points = {
+            7048 1
+        }
+		buildings = {
+			infrastructure = 2
+		}
+		add_core_of = CHI
+		add_core_of = MEN
+		add_core_of = PRC
+	}
+
+	    provinces={
+	        7048 12331
+	    }
+}

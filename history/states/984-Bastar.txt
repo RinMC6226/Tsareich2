@@ -1,0 +1,22 @@
+state={
+	id=984
+	name="STATE_984" # STATE_984
+	# TSR2_OVERLAY tsr_state_id=984 ratio=1.000 split=False
+
+		state_category=wasteland
+
+	manpower=30650
+
+	history={
+		owner = IND
+		buildings = {
+			infrastructure = 1
+		}
+		add_core_of = KSH
+		add_core_of = RAJ
+	}
+
+		provinces={
+			5042 
+		}
+}

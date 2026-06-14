@@ -1,0 +1,21 @@
+state={
+	id=1213
+	name="STATE_1213" # STATE_1213
+	# TSR2_OVERLAY none (BSR-only state)
+
+		state_category=town
+
+	manpower=880790
+
+	history={
+		owner = SAF
+		buildings = {
+			infrastructure = 4
+		}
+		add_core_of = SAF
+	}
+
+		provinces={
+			1833 4584 4822 7576 
+		}
+}

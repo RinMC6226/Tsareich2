@@ -1,0 +1,22 @@
+state={
+	id=1966
+	name="STATE_1966" # STATE_1966
+	# TSR2_OVERLAY none (BSR-only state)
+
+		state_category=rural
+
+	manpower=23527
+
+	history={
+		owner = POL
+		controller = GER
+		buildings = {
+			infrastructure = 6
+		}
+		add_core_of = POL
+	}
+
+		provinces={
+			8141
+		}
+}

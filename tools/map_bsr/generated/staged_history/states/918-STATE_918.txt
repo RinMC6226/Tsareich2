@@ -1,0 +1,35 @@
+state={
+	id=918
+	name="STATE_918" # STATE_918
+	# TSR2_OVERLAY tsr_state_id=918 ratio=1.000 split=False
+
+		state_category=pastoral
+
+	manpower=315105
+
+	resources={
+		tungsten = 35
+		steel = 39
+		chromium = 15
+	}
+
+	history={
+		owner = SWE
+		victory_points = {
+			12237 1 
+		}
+		buildings = {
+			infrastructure = 2
+		12237 = {naval_base = 2}
+		12154 = {naval_base = 1}
+		12240 = {naval_base = 1}
+		}
+		add_core_of = PNG
+		add_core_of = SMI
+		add_core_of = SWE
+	}
+
+		provinces={
+			1389 4393 4418 7365 7614 10251 10423 12154 12193 12237 12240 12400 12931 
+		}
+}

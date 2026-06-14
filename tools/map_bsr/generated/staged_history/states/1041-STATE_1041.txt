@@ -1,0 +1,46 @@
+state={
+	id=1041
+	name="STATE_1041" # STATE_1041
+	# TSR2_OVERLAY tsr_state_id=1041 ratio=1.000 split=False
+
+		state_category=rural
+
+	manpower=5448874
+
+	resources={
+		steel = 4
+	}
+
+	history={
+		owner = KMT
+		controller = KMT
+					IF = {
+						limit = {
+							has_dlc = "No Compromise, No Surrender"
+						}
+						transfer_state_to = SIC
+						add_core_of = SIC
+					}
+				IF = {
+						limit = {
+							has_dlc = "No Compromise, No Surrender" 
+						}
+						remove_core_of = SIC
+					}
+		victory_points = {
+			7909 1 
+		}
+		buildings = {
+			infrastructure = 2
+			arms_factory = 1
+			industrial_complex = 1
+		}
+		add_core_of = BRM
+		add_core_of = KMT
+		add_core_of = SIC
+	}
+
+		provinces={
+			4175 7400 7647 7909 7974 12317
+		}
+}

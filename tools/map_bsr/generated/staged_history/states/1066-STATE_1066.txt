@@ -1,0 +1,27 @@
+state={
+	id=1066
+	name="STATE_1066" # STATE_1066
+	# TSR2_OVERLAY tsr_state_id=1066 ratio=1.000 split=False
+
+		state_category=rural
+
+	manpower=499000
+
+	history={
+		owner = ITA
+		controller = ITA
+		victory_points = {
+			11564 1 
+		}
+		buildings = {
+			infrastructure = 2
+		}
+		add_core_of = CRO
+		add_core_of = ITA
+		add_core_of = YUG
+	}
+
+		provinces={
+			11564 
+		}
+}

@@ -1,0 +1,23 @@
+state={
+	id=2023
+	name="STATE_2023" # STATE_2023
+	# TSR2_OVERLAY none (BSR-only state)
+
+		state_category=pastoral
+
+	manpower=296306
+
+	history={
+		owner = MAN
+		buildings = {
+			infrastructure = 4
+		}
+		add_core_of = CHI
+		add_core_of = MAN
+		add_core_of = PRC
+	}
+
+		provinces={
+			814 881 952 3955 6937 9768 9776 9905 10331 11801
+		}
+}

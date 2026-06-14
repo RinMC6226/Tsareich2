@@ -1,0 +1,34 @@
+state={
+	id=109
+	name="STATE_109" # STATE_109
+	# TSR2_OVERLAY tsr_state_id=109 ratio=1.000 split=False
+
+		state_category=large_town
+
+	manpower=2224400
+
+	resources={
+		coal = 1
+	}
+
+	history={
+		owner = YUG
+		controller = CRO
+		victory_points = {
+			11581 10
+		}
+		victory_points = {
+			6647 1 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 3
+		}
+		add_core_of = CRO
+		add_core_of = YUG
+	}
+
+		provinces={
+			624 3627 6647 9595 9611 11581 11594 
+		}
+}

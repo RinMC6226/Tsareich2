@@ -1,0 +1,41 @@
+state={
+	id=1817
+	name="STATE_1817" # STATE_1817
+	# TSR2_OVERLAY none (BSR-only state)
+
+
+		state_category = rural
+
+	manpower=120000
+
+	resources={
+		rubber = 10
+	}
+
+	history={
+		owner = ENG
+		victory_points = {
+			10201 5
+		}
+		victory_points = {
+			12258 5
+		}
+		victory_points = {
+			10229 15
+		}
+		buildings = {
+			air_base = 3
+			infrastructure = 5
+			industrial_complex = 1
+		10201 = {naval_base = 5}
+		10229 = {naval_base = 3
+						coastal_bunker = 3}
+		}
+		add_core_of = SRL
+		add_core_of = TTE
+	}
+
+		provinces={
+			10201 10229 12258 
+		}
+}

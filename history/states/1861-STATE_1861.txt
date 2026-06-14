@@ -1,0 +1,24 @@
+state={
+	id=1861
+	name="STATE_1861" # STATE_1861
+	# TSR2_OVERLAY none (BSR-only state)
+
+		state_category=large_town
+
+	manpower=633862
+
+	history={
+		owner = USA
+		victory_points = {
+			10676 1 
+		}
+		buildings = {
+			infrastructure = 4
+		}
+		add_core_of = USA
+	}
+
+		provinces={
+			3708 4760 4830 10606 10676 
+		}
+}

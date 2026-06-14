@@ -1,0 +1,25 @@
+state={
+	id=437
+	name="STATE_437" # Indore
+	# TSR2_OVERLAY tsr_state_id=437 ratio=1.000 split=False
+
+
+		state_category = rural
+
+	manpower=9628198
+
+	history={
+		owner = IND
+		victory_points = {
+			7205 10 
+		}
+		buildings = {
+			infrastructure = 1
+		}
+		add_core_of = CIP
+	}
+
+		provinces={
+			1949 2036 2092 2105 4106 7080 7205 8076 10807 10816 11993 11995 12080 
+		}
+}

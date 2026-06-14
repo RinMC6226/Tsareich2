@@ -1,0 +1,23 @@
+state={
+	id=1763
+	name="STATE_1763" # STATE_1763
+	# TSR2_OVERLAY none (BSR-only state)
+
+		state_category=town
+
+	manpower=6550000
+
+	history={
+		owner = CHI
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+		}
+		add_core_of = CHI
+		add_core_of = PRC
+	}
+
+		provinces={
+			4041 5030 7948 10757 11865 12086 12414 
+		}
+}

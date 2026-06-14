@@ -1,0 +1,23 @@
+state={
+	id=1337
+	name="STATE_1337" # STATE_1337
+	# TSR2_OVERLAY none (BSR-only state)
+
+		state_category=enclave
+
+	manpower=31500
+
+	history={
+		owner = ENG
+		buildings = {
+			infrastructure = 3
+		13769 = {naval_base = 8}
+		}
+		add_core_of = CHI
+		add_core_of = PRC
+	}
+
+		provinces={
+			13769
+		}
+}

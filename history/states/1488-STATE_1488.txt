@@ -1,0 +1,21 @@
+state={
+	id=1488
+	name="STATE_1488" # STATE_1488
+	# TSR2_OVERLAY none (BSR-only state)
+
+		state_category=pastoral
+
+	manpower=50000
+
+	history={
+		owner = SAU
+		buildings = {
+			infrastructure = 1
+		}
+		add_core_of = SAU
+	}
+
+		provinces={
+			1955 13279
+		}
+}

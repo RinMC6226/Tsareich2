@@ -1,0 +1,26 @@
+state={
+	id=1429
+	name="STATE_1429" # STATE_1429
+	# TSR2_OVERLAY none (BSR-only state)
+
+		state_category=pastoral
+
+	manpower=13100
+
+	history={
+		owner = GRE
+		controller = GER
+		victory_points = {
+			13319 1
+		}
+		buildings = {
+			infrastructure = 4
+		}
+		add_core_of = GRE
+		add_core_of = THR
+	}
+
+		provinces={
+			13319 13560
+		}
+}

@@ -1,0 +1,31 @@
+state={
+	id=1592
+	name="STATE_1592" # STATE_1592
+	# TSR2_OVERLAY none (BSR-only state)
+
+
+		state_category = town
+
+	manpower=251000
+
+	resources={
+		chromium = 1
+	}
+
+	history={
+		owner = NIC
+		victory_points = {
+			13748 2
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+		13748 = {naval_base = 1}
+		}
+		add_core_of = NIC
+	}
+
+		provinces={
+			13748
+		}
+}

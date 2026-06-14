@@ -1,0 +1,24 @@
+state={
+	id=1948
+	name="STATE_1948" # Mysore
+	# TSR2_OVERLAY none (BSR-only state)
+
+		
+		state_category = pastoral
+
+	manpower=1056241
+
+	history={
+		owner = RAJ
+		victory_points = {
+			12105 5
+		}
+		buildings = {
+			infrastructure = 3
+		}
+	}
+
+		provinces={
+		 12105 12208 
+		}
+}

@@ -1,0 +1,24 @@
+state={
+	id=552
+	name="STATE_552" # STATE_552
+	# TSR2_OVERLAY tsr_state_id=552 ratio=1.000 split=False
+
+		state_category=wasteland
+
+		impassable = yes
+
+	manpower=18539
+
+	history={
+		owner = EGY
+		controller = EGY
+		buildings = {
+			infrastructure = 0
+		}
+		add_core_of = EGY
+	}
+
+		provinces={
+			 2064 7148 7216 10127 10869 10907 12099 12733 12764 13364 13489 13491 
+		}
+}

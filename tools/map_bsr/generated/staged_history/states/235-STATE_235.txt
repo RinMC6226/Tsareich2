@@ -1,0 +1,32 @@
+state={
+	id=235
+	name="STATE_235" # STATE_235
+	# TSR2_OVERLAY tsr_state_id=235 ratio=1.000 split=False
+
+		
+		state_category = rural
+
+	manpower=1316516
+
+	resources={
+		chromium = 14
+	}
+
+	history={
+		owner = RUS
+		victory_points = {
+			11696 3
+		}
+		buildings = {
+			air_base = 2
+			infrastructure = 2
+		}
+		add_core_of = KLY
+		add_core_of = RUS
+		add_core_of = SOV
+	}
+
+		provinces={
+			714 731 748 3748 6702 6718 6733 6750 6753 9688 9705 9707 9722 9726 9742 11633 11661 11678 11690 11693 11694 11696 11727 
+		}
+}

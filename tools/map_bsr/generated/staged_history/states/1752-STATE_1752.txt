@@ -1,0 +1,23 @@
+state={
+	id=1752
+	name="STATE_1752" # STATE_1752
+	# TSR2_OVERLAY none (BSR-only state)
+
+		state_category=rural
+
+	manpower=1000
+
+	history={
+		owner = CHI
+		controller = JAP
+		buildings = {
+			infrastructure = 4
+		}
+		add_core_of = CHI
+		add_core_of = PRC
+	}
+
+	    provinces={
+	        1137
+	    }
+}

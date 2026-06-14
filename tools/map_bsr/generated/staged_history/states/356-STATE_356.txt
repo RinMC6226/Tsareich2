@@ -1,0 +1,25 @@
+state={
+	id=356
+	name="STATE_356" # STATE_356
+	# TSR2_OVERLAY tsr_state_id=356 ratio=1.000 split=False
+
+		state_category=rural
+
+	manpower=860589
+
+	history={
+		owner = TUR
+		victory_points = {
+			6938 1 
+		}
+		buildings = {
+			infrastructure = 2
+		979 = {naval_base = 1}
+		}
+		add_core_of = TUR
+	}
+
+		provinces={
+			6978 979 3982 6920 6938 9844 9871 
+		}
+}

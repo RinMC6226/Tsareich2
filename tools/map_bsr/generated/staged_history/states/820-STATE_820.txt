@@ -1,0 +1,27 @@
+state={
+	id=820
+	name="STATE_820" # STATE_820
+	# TSR2_OVERLAY tsr_state_id=820 ratio=1.000 split=False
+
+		state_category=pastoral
+
+	manpower=88200
+
+	history={
+		owner = MON
+		victory_points = {
+			9853 1 
+		}
+		buildings = {
+			infrastructure = 1
+		}
+		add_core_of = CAT
+		add_core_of = FRA
+		add_core_of = MON
+		add_core_of = OCC
+	}
+
+		provinces={
+			6915 9853 
+		}
+}

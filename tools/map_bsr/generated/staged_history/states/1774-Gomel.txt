@@ -1,0 +1,28 @@
+state={
+	id=1774
+	name="STATE_241" # Gomel
+	# TSR2_OVERLAY tsr_state_id=241 ratio=0.500 split=True
+
+		
+		state_category = pastoral
+
+	manpower=471711
+
+	history={
+		owner = RUS
+		victory_points = {
+			9342 1 
+		}
+		buildings = {
+			air_base = 2
+			infrastructure = 2
+		}
+		add_core_of = BLR
+		add_core_of = RUS
+		add_core_of = SOV
+	}
+
+		provinces={
+			 9342 
+		}
+}

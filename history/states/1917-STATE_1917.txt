@@ -1,0 +1,29 @@
+state={
+	id=1917
+	name="STATE_1917" # STATE_1917
+	# TSR2_OVERLAY none (BSR-only state)
+
+		state_category=city
+
+	manpower=1452000
+
+	history={
+		owner = INS
+		victory_points = {
+			7381 5 
+		}
+		buildings = {
+			air_base = 3
+			infrastructure = 5
+			dockyard = 1
+			industrial_complex = 1
+		7381 = {naval_base = 6}
+		}
+		add_core_of = INS
+		add_core_of = MTR
+	}
+
+		provinces={
+			7381 
+		}
+}

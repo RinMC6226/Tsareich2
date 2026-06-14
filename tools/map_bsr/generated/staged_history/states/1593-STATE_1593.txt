@@ -1,0 +1,30 @@
+state={
+	id=1593
+	name="STATE_1593" # STATE_1593
+	# TSR2_OVERLAY none (BSR-only state)
+
+		
+		state_category = town
+
+	manpower=52761
+
+	resources={
+		chromium = 1
+	}
+
+	history={
+		owner = HON
+		victory_points = {
+			13732 2
+		}
+		buildings = {
+			infrastructure = 4
+		13732 = {naval_base = 1}
+		}
+		add_core_of = HON
+	}
+
+		provinces={
+			13732
+		}
+}

@@ -1,0 +1,27 @@
+state={
+	id=928
+	name="STATE_928" # STATE_928
+	# TSR2_OVERLAY tsr_state_id=928 ratio=1.000 split=False
+
+		state_category=pastoral
+
+	manpower=43457
+
+	history={
+		owner = RUS
+		controller = RUS
+		victory_points = {
+			9195 1 
+		}
+		buildings = {
+			infrastructure = 1
+		}
+		add_core_of = FIN
+		add_core_of = KAR
+		add_core_of = SOV
+	}
+
+		provinces={
+			36 86 94 134 170 176 3008 3121 3189 6021 6029 6096 9162 9195 11045 11175 
+		}
+}

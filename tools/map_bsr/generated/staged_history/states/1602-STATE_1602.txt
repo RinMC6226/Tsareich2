@@ -1,0 +1,26 @@
+state={
+	id=1602
+	name="STATE_1602" # STATE_1602
+	# TSR2_OVERLAY none (BSR-only state)
+
+		state_category=rural
+
+	manpower=190200
+
+	history={
+		owner = POL
+		controller = SOV
+		victory_points = {
+			9520 2
+		}
+		buildings = {
+			infrastructure = 4
+		}
+		add_core_of = BLR
+		add_core_of = POL
+	}
+
+		provinces={
+			9520
+		}
+}

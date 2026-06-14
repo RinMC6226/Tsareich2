@@ -1,0 +1,24 @@
+state={
+	id=146
+	name="STATE_146" # STATE_146
+	# TSR2_OVERLAY tsr_state_id=146 ratio=1.000 split=False
+
+		state_category=town
+
+	manpower=604427
+
+	history={
+		owner = RUS
+		controller = RUS
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+		}
+		add_core_of = FIN
+		add_core_of = KAR
+	}
+
+		provinces={
+			3050 3133 3187 6052 6150 6153 9176 11046 11156 
+		}
+}

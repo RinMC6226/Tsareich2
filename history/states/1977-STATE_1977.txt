@@ -1,0 +1,23 @@
+state={
+	id=1977
+	name="STATE_1977" # STATE_1977
+	# TSR2_OVERLAY none (BSR-only state)
+
+		state_category=rural
+
+	manpower=21020
+
+	history={
+		owner = MAN
+		buildings = {
+			infrastructure = 4
+		}
+		add_core_of = CHI
+		add_core_of = MAN
+		add_core_of = PRC
+	}
+
+	    provinces={
+	        11836
+	    }
+}

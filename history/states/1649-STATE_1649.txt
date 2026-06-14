@@ -1,0 +1,28 @@
+state={
+	id=1649
+	name="STATE_1649" # STATE_1649
+	# TSR2_OVERLAY none (BSR-only state)
+
+		
+		state_category = town
+
+	manpower=330104
+
+	history={
+		owner = USA
+		victory_points = {
+			3513 1 
+		}
+		buildings = {
+			air_base = 6
+			infrastructure = 5
+			industrial_complex = 1
+		12211 = {naval_base = 3}
+		}
+		add_core_of = USA
+	}
+
+		provinces={
+		 10183 12211 4380 4328 3513 12183 4826 7865 12553 
+		}
+}

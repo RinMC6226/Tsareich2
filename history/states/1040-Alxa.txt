@@ -1,0 +1,44 @@
+state={
+	id=1040
+	name="STATE_1040" # STATE_1040
+	# TSR2_OVERLAY tsr_state_id=1040 ratio=1.000 split=False
+
+		state_category=pastoral
+
+	manpower=450000
+
+	history={
+		owner = XSM
+					IF = {
+						limit = {
+							has_dlc = "No Compromise, No Surrender" 
+						}
+						add_core_of = XSM
+					}
+					1936.1.1 = {
+					IF = {
+						limit = {
+							NOT = {
+								has_dlc = "Waking the Tiger" 
+							}
+						}
+						KMT = {
+							transfer_state = PREV
+						}
+					}
+					}
+		victory_points = {
+			1549 1 
+		}
+		buildings = {
+			infrastructure = 1
+		}
+		add_core_of = KUR
+		add_core_of = SYR
+		add_core_of = XSM
+	}
+
+		provinces={
+			1549
+		}
+}

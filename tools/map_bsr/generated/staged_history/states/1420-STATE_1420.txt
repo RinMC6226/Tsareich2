@@ -1,0 +1,26 @@
+state={
+	id=1420
+	name="STATE_1420" # STATE_1420
+	# TSR2_OVERLAY none (BSR-only state)
+
+		
+		state_category = wasteland
+
+
+		impassable = yes
+
+	manpower=15948
+
+	history={
+		owner = SOV
+		buildings = {
+			infrastructure = 2
+		}
+		add_core_of = SIB
+		add_core_of = SOV
+	}
+
+		provinces={
+			2900 2923 4692 13064 6815
+		}
+}

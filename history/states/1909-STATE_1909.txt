@@ -1,0 +1,22 @@
+state={
+	id=1909
+	name="STATE_1909" # STATE_1909
+	# TSR2_OVERLAY none (BSR-only state)
+
+
+	    state_category = pastoral
+
+	manpower=8901
+
+	history={
+		owner = PAR
+		buildings = {
+			infrastructure = 3
+		}
+		add_core_of = PAR
+	}
+
+	    provinces={
+	        11023
+	    }
+}

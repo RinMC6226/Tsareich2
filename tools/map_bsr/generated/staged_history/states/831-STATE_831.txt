@@ -1,0 +1,25 @@
+state={
+	id=831
+	name="STATE_831" # STATE_831
+	# TSR2_OVERLAY tsr_state_id=831 ratio=1.000 split=False
+
+		state_category=wasteland
+
+	manpower=258430
+
+	history={
+		owner = RUS
+		buildings = {
+			infrastructure = 2
+		}
+		add_core_of = KHI
+		add_core_of = KKP
+		add_core_of = ROM
+		add_core_of = RUS
+		add_core_of = UZB
+	}
+
+		provinces={
+			13311 
+		}
+}

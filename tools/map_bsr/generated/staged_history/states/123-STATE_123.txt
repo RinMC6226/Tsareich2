@@ -1,0 +1,28 @@
+state={
+	id=123
+	name="STATE_123" # STATE_123
+	# TSR2_OVERLAY tsr_state_id=123 ratio=1.000 split=False
+
+		
+		state_category = town
+
+	manpower=1221013
+
+	history={
+		owner = ENG
+		victory_points = { 540 10 }
+		buildings = {
+			anti_air_building = 1
+			air_base = 6
+			infrastructure = 4
+			radar_station = 1
+			industrial_complex = 1
+		540 = {naval_base = 8}
+		}
+		add_core_of = ENG
+	}
+
+		provinces= {
+			540 9562
+	 	}
+}

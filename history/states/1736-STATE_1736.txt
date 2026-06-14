@@ -1,0 +1,24 @@
+state={
+	id=1736
+	name="STATE_1736" # impassable = yes #we do a substantial amount of trolling
+	# TSR2_OVERLAY none (BSR-only state)
+
+		state_category=pastoral
+
+	manpower=32730
+
+	history={
+		owner = ROM
+		victory_points = {
+			13746 1 
+		}
+		buildings = {
+			infrastructure = 3
+		}
+		add_core_of = ROM
+	}
+
+		provinces={
+			13746 5938 13724 5962 8414
+		}
+}

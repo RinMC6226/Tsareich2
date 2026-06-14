@@ -1,0 +1,21 @@
+state={
+	id=1642
+	name="STATE_1642" # STATE_1642
+	# TSR2_OVERLAY none (BSR-only state)
+
+		state_category=pastoral
+
+	manpower=1431
+
+	history={
+		owner = USA
+		buildings = {
+			infrastructure = 2
+		}
+		add_core_of = USA
+	}
+
+		provinces={
+			13733
+		}
+}

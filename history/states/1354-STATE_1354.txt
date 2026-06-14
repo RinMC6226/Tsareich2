@@ -1,0 +1,23 @@
+state={
+	id=1354
+	name="STATE_1354" # STATE_1354
+	# TSR2_OVERLAY none (BSR-only state)
+
+		state_category=pastoral
+
+	manpower=15340
+
+	history={
+		owner = AUS
+		controller = GER
+		buildings = {
+			infrastructure = 3
+		}
+		add_core_of = AUS
+		add_core_of = GER
+	}
+
+		provinces={
+			6680 
+		}
+}

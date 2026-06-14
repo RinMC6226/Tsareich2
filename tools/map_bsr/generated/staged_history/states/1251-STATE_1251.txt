@@ -1,0 +1,23 @@
+state={
+	id=1251
+	name="STATE_1251" # STATE_1251
+	# TSR2_OVERLAY none (BSR-only state)
+
+		state_category=enclave
+
+	manpower=8973
+
+	history={
+		owner = BEL
+		controller = GER
+		buildings = {
+			infrastructure = 6
+		}
+		add_core_of = BEL
+		add_core_of = WLL
+	}
+
+		provinces={
+			1143
+		}
+}

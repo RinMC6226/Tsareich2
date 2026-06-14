@@ -1,0 +1,22 @@
+state={
+	id=504
+	name="STATE_504" # STATE_504
+	# TSR2_OVERLAY tsr_state_id=504 ratio=1.000 split=False
+
+		
+		state_category = rural
+
+	manpower=229900
+
+	history={
+		owner = BRA
+		buildings = {
+			infrastructure = 1
+		}
+		add_core_of = BRA
+	}
+
+		provinces={
+		 2181 8189 10959 12951 
+		}
+}

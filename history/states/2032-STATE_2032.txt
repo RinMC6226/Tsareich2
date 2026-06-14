@@ -1,0 +1,27 @@
+state={
+	id=2032
+	name="STATE_2032" # STATE_2032
+	# TSR2_OVERLAY none (BSR-only state)
+
+		state_category=rural
+
+	manpower=97421
+
+	resources={
+		steel = 1
+	}
+
+	history={
+		owner = GER
+		buildings = {
+			infrastructure = 6
+		}
+		add_core_of = GER
+		add_core_of = LUS
+		add_core_of = PRE
+	}
+
+		provinces={
+			3572
+		}
+}

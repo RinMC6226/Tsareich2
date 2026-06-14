@@ -1,0 +1,33 @@
+state={
+	id=564
+	name="STATE_564" # Ulan Ude
+	# TSR2_OVERLAY tsr_state_id=564 ratio=1.000 split=False
+
+		state_category = rural
+
+	manpower=370893
+
+	resources={
+		steel = 10
+		chromium = 12
+		tungsten = 10
+		aluminium = 4
+	}
+
+	history={
+		owner = RUS
+		buildings = {
+			infrastructure = 2
+		}
+		add_core_of = BRY
+		add_core_of = BYA
+		add_core_of = FER
+		add_core_of = RUS
+		add_core_of = SIB
+		add_core_of = SOV
+	}
+
+		provinces={
+			1762 1810 4766 4797 4837 7816 7835 10528 10543 10661 10658 12644 
+		}
+}

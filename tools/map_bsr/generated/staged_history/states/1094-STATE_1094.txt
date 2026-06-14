@@ -1,0 +1,26 @@
+state={
+	id=1094
+	name="STATE_1094" # STATE_1094
+	# TSR2_OVERLAY tsr_state_id=1094 ratio=1.000 split=False
+
+		state_category=town
+
+	manpower=43214
+
+	history={
+		owner = USA
+		victory_points = {
+			7329 1 
+		}
+		buildings = {
+			infrastructure = 1
+		7329 = {naval_base = 1}
+		}
+		add_core_of = MAL
+		add_core_of = SAM
+	}
+
+		provinces={
+			 4355 7329 10227 12199
+		}
+}

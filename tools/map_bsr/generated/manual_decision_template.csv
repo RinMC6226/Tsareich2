@@ -1,0 +1,1955 @@
+bsr_state_id,bsr_state_name,current_selected_tsr_state_id,current_selected_tsr_state_name,current_mapping_type,suggested_decision_status,manual_decision,manual_tsr_state_id,reviewer_notes
+855,STATE_855,378,STATE_378,split,requires_manual,,,owner/controller/core conflict
+1517,STATE_1517,378,STATE_378,split,requires_manual,,,owner/controller/core conflict
+1690,STATE_1690,378,STATE_378,split,requires_manual,,,owner/controller/core conflict
+1691,STATE_1691,378,STATE_378,split,requires_manual,,,owner/controller/core conflict
+1692,STATE_1692,378,STATE_378,split,requires_manual,,,owner/controller/core conflict
+1694,STATE_1694,378,STATE_378,split,requires_manual,,,owner/controller/core conflict
+1695,STATE_1695,378,STATE_378,split,requires_manual,,,owner/controller/core conflict
+1696,STATE_1696,378,STATE_378,split,requires_manual,,,owner/controller/core conflict
+1918,STATE_1918,1073,STATE_1073,merge,requires_manual,,,owner/controller/core conflict
+378,STATE_378,378,STATE_378,split,requires_manual,,,owner/controller/core conflict
+887,STATE_887,69,STATE_69,split,requires_manual,,,owner/controller/core conflict
+1430,STATE_1430,29,STATE_29,split,requires_manual,,,owner/controller/core conflict
+1482,STATE_1482,29,STATE_29,split,requires_manual,,,owner/controller/core conflict
+1839,STATE_1839,29,STATE_29,split,requires_manual,,,owner/controller/core conflict
+1919,STATE_1919,1073,STATE_1073,split,requires_manual,,,owner/controller/core conflict
+854,STATE_854,378,STATE_378,split,requires_manual,,,owner/controller/core conflict
+1045,STATE_1045,44,STATE_44,merge,requires_manual,,,owner/controller/core conflict
+1089,STATE_1089,29,STATE_29,split,requires_manual,,,owner/controller/core conflict
+1510,STATE_1510,44,STATE_44,split,requires_manual,,,owner/controller/core conflict
+1518,STATE_1518,378,STATE_378,split,requires_manual,,,owner/controller/core conflict
+1601,STATE_1601,47,Thessaly,merge,requires_manual,,,owner/controller/core conflict
+1689,STATE_1689,378,STATE_378,split,requires_manual,,,owner/controller/core conflict
+1693,STATE_1693,378,STATE_378,split,requires_manual,,,owner/controller/core conflict
+791,STATE_791,55,STATE_55,merge,requires_manual,,,owner/controller/core conflict
+835,STATE_835,357,STATE_357,split,requires_manual,,,owner/controller/core conflict
+837,STATE_837,357,STATE_357,split,requires_manual,,,owner/controller/core conflict
+838,STATE_838,357,STATE_357,split,requires_manual,,,owner/controller/core conflict
+840,STATE_840,357,STATE_357,split,requires_manual,,,owner/controller/core conflict
+850,STATE_850,375,STATE_375,split,requires_manual,,,owner/controller/core conflict
+851,STATE_851,375,STATE_375,split,requires_manual,,,owner/controller/core conflict
+1183,STATE_1183,28,Alsace-Lorraine,split,requires_manual,,,owner/controller/core conflict
+1436,STATE_1436,28,Alsace-Lorraine,split,requires_manual,,,owner/controller/core conflict
+1616,STATE_1616,375,STATE_375,split,requires_manual,,,owner/controller/core conflict
+1637,STATE_1637,142,STATE_142,merge,requires_manual,,,owner/controller/core conflict
+1648,STATE_1648,357,STATE_357,split,requires_manual,,,owner/controller/core conflict
+1697,STATE_1697,375,STATE_375,split,requires_manual,,,owner/controller/core conflict
+1698,STATE_1698,375,STATE_375,split,requires_manual,,,owner/controller/core conflict
+1699,STATE_1699,375,STATE_375,split,requires_manual,,,owner/controller/core conflict
+1750,STATE_1750,325,STATE_325,merge,requires_manual,,,owner/controller/core conflict
+1872,STATE_1872,160,STATE_160,merge,requires_manual,,,owner/controller/core conflict
+1876,STATE_1876,28,Alsace-Lorraine,split,requires_manual,,,owner/controller/core conflict
+1929,STATE_1929,1077,STATE_1077,merge,requires_manual,,,owner/controller/core conflict
+29,STATE_29,29,STATE_29,split,requires_manual,,,owner/controller/core conflict
+185,STATE_185,185,STATE_185,merge,requires_manual,,,owner/controller/core conflict
+291,STATE_291,1011,STATE_1011,merge,requires_manual,,,owner/controller/core conflict
+667,STATE_667,667,STATE_667,merge,requires_manual,,,owner/controller/core conflict
+836,STATE_836,357,STATE_357,split,requires_manual,,,owner/controller/core conflict
+903,STATE_903,1031,STATE_1031,merge,requires_manual,,,owner/controller/core conflict
+908,STATE_908,527,STATE_527,split,requires_manual,,,owner/controller/core conflict
+911,STATE_911,1031,STATE_1031,split,requires_manual,,,owner/controller/core conflict
+978,STATE_978,47,Thessaly,split,requires_manual,,,owner/controller/core conflict
+986,STATE_986,160,STATE_160,split,requires_manual,,,owner/controller/core conflict
+1025,STATE_1025,716,STATE_716,merge,requires_manual,,,owner/controller/core conflict
+1061,STATE_1061,7,STATE_7,merge,requires_manual,,,owner/controller/core conflict
+1112,STATE_1112,63,STATE_63,split,requires_manual,,,owner/controller/core conflict
+1151,STATE_1151,150,KUOPIO,merge,requires_manual,,,owner/controller/core conflict
+1202,STATE_1202,593,STATE_593,merge,requires_manual,,,owner/controller/core conflict
+1203,STATE_1203,161,STATE_161,merge,requires_manual,,,owner/controller/core conflict
+1244,STATE_1244,676,STATE_676,merge,requires_manual,,,owner/controller/core conflict
+1274,STATE_1274,447,STATE_447,merge,requires_manual,,,owner/controller/core conflict
+1303,STATE_1303,185,STATE_185,split,requires_manual,,,owner/controller/core conflict
+1333,STATE_1333,63,STATE_63,split,requires_manual,,,owner/controller/core conflict
+1362,STATE_1362,666,STATE_666,split,requires_manual,,,owner/controller/core conflict
+1427,STATE_1427,185,STATE_185,split,requires_manual,,,owner/controller/core conflict
+1453,STATE_1453,47,Thessaly,split,requires_manual,,,owner/controller/core conflict
+1508,STATE_1508,63,STATE_63,split,requires_manual,,,owner/controller/core conflict
+1513,STATE_1513,47,Thessaly,split,requires_manual,,,owner/controller/core conflict
+1596,STATE_1596,161,STATE_161,split,requires_manual,,,owner/controller/core conflict
+1630,Savo / Tavastland / Tavastia,148,LAPPI,merge,requires_manual,,,owner/controller/core conflict
+1655,STATE_1655,63,STATE_63,split,requires_manual,,,owner/controller/core conflict
+1700,STATE_1700,63,STATE_63,split,requires_manual,,,owner/controller/core conflict
+1701,STATE_1701,63,STATE_63,split,requires_manual,,,owner/controller/core conflict
+1710,STATE_1710,9,STATE_9,merge,requires_manual,,,owner/controller/core conflict
+1767,STATE_1767,55,STATE_55,split,requires_manual,,,owner/controller/core conflict
+1794,STATE_1794,325,STATE_325,merge,requires_manual,,,owner/controller/core conflict
+1912,STATE_1912,1071,STATE_1071,merge,requires_manual,,,owner/controller/core conflict
+1949,Mysore,425,Mysore,split,requires_manual,,,owner/controller/core conflict
+63,STATE_63,63,STATE_63,split,requires_manual,,,owner/controller/core conflict
+144,STATE_144,925,STATE_925,merge,requires_manual,,,owner/controller/core conflict
+187,STATE_187,187,STATE_187,split,requires_manual,,,owner/controller/core conflict
+719,STATE_719,719,Natal,split,requires_manual,,,owner/controller/core conflict
+799,STATE_799,50,Württemberg,merge,requires_manual,,,owner/controller/core conflict
+839,STATE_839,357,STATE_357,split,requires_manual,,,owner/controller/core conflict
+852,STATE_852,375,STATE_375,split,requires_manual,,,owner/controller/core conflict
+863,STATE_863,88,STATE_88,split,requires_manual,,,owner/controller/core conflict
+889,STATE_889,70,STATE_70,split,requires_manual,,,owner/controller/core conflict
+896,STATE_896,772,Middle Congo (Brazzaville),split,requires_manual,,,owner/controller/core conflict
+977,STATE_977,185,STATE_185,split,requires_manual,,,owner/controller/core conflict
+988,STATE_988,158,STATE_158,split,requires_manual,,,owner/controller/core conflict
+996,STATE_996,88,STATE_88,split,requires_manual,,,owner/controller/core conflict
+1023,STATE_1023,716,STATE_716,split,requires_manual,,,owner/controller/core conflict
+1024,STATE_1024,328,Kirin,merge,requires_manual,,,owner/controller/core conflict
+1049,STATE_1049,274,STATE_274,split,requires_manual,,,owner/controller/core conflict
+1058,STATE_1058,35,STATE_35,split,requires_manual,,,owner/controller/core conflict
+1093,STATE_1093,1071,STATE_1071,split,requires_manual,,,owner/controller/core conflict
+1142,STATE_1142,212,STATE_212,split,requires_manual,,,owner/controller/core conflict
+1143,STATE_1143,212,STATE_212,split,requires_manual,,,owner/controller/core conflict
+1149,STATE_1149,976,STATE_976,merge,requires_manual,,,owner/controller/core conflict
+1181,STATE_1181,88,STATE_88,split,requires_manual,,,owner/controller/core conflict
+1246,STATE_1246,676,STATE_676,split,requires_manual,,,owner/controller/core conflict
+1328,STATE_1328,65,STATE_65,split,requires_manual,,,owner/controller/core conflict
+1351,STATE_1351,158,STATE_158,split,requires_manual,,,owner/controller/core conflict
+1361,STATE_1361,148,LAPPI,split,requires_manual,,,owner/controller/core conflict
+1398,STATE_1398,119,STATE_119,split,requires_manual,,,owner/controller/core conflict
+1399,STATE_1399,119,STATE_119,split,requires_manual,,,owner/controller/core conflict
+1432,STATE_1432,55,STATE_55,split,requires_manual,,,owner/controller/core conflict
+1435,STATE_1435,6,Flanders,split,requires_manual,,,owner/controller/core conflict
+1486,STATE_1486,212,STATE_212,split,requires_manual,,,owner/controller/core conflict
+1577,STATE_1577,459,Algiers,merge,requires_manual,,,owner/controller/core conflict
+1599,STATE_1599,88,STATE_88,split,requires_manual,,,owner/controller/core conflict
+1611,STATE_1611,65,STATE_65,split,requires_manual,,,owner/controller/core conflict
+1737,STATE_1737,88,STATE_88,split,requires_manual,,,owner/controller/core conflict
+1756,STATE_1756,161,STATE_161,split,requires_manual,,,owner/controller/core conflict
+1802,STATE_1802,158,STATE_158,split,requires_manual,,,owner/controller/core conflict
+1807,STATE_1807,977,Antwerpen,split,requires_manual,,,owner/controller/core conflict
+1884,STATE_1884,325,STATE_325,split,requires_manual,,,owner/controller/core conflict
+1911,STATE_1911,672,STATE_672,merge,requires_manual,,,owner/controller/core conflict
+1913,STATE_1913,1071,STATE_1071,merge,requires_manual,,,owner/controller/core conflict
+1926,STATE_1926,65,STATE_65,split,requires_manual,,,owner/controller/core conflict
+1934,STATE_1934,28,Alsace-Lorraine,split,requires_manual,,,owner/controller/core conflict
+1935,STATE_1935,458,STATE_458,split,requires_manual,,,owner/controller/core conflict
+1938,STATE_1938,671,STATE_671,split,requires_manual,,,owner/controller/core conflict
+1976,STATE_1976,35,STATE_35,split,requires_manual,,,owner/controller/core conflict
+1978,STATE_1978,610,Jehol,merge,requires_manual,,,owner/controller/core conflict
+1990,STATE_1990,980,STATE_980,split,requires_manual,,,owner/controller/core conflict
+2003,STATE_2003,104,STATE_104,merge,requires_manual,,,owner/controller/core conflict
+2019,STATE_2019,189,STATE_189,split,requires_manual,,,owner/controller/core conflict
+2036,STATE_2036,65,STATE_65,split,requires_manual,,,owner/controller/core conflict
+28,STATE_28,978,Baden,merge,requires_manual,,,owner/controller/core conflict
+42,STATE_42,42,STATE_42,split,requires_manual,,,owner/controller/core conflict
+44,STATE_44,44,STATE_44,split,requires_manual,,,owner/controller/core conflict
+47,STATE_47,47,Thessaly,split,requires_manual,,,owner/controller/core conflict
+88,STATE_88,88,STATE_88,split,requires_manual,,,owner/controller/core conflict
+108,STATE_108,802,STATE_802,merge,requires_manual,,,owner/controller/core conflict
+158,STATE_158,158,STATE_158,split,requires_manual,,,owner/controller/core conflict
+189,STATE_189,189,STATE_189,merge,requires_manual,,,owner/controller/core conflict
+334,STATE_334,1077,STATE_1077,merge,requires_manual,,,owner/controller/core conflict
+340,STATE_340,1055,STATE_1055,merge,requires_manual,,,owner/controller/core conflict
+357,STATE_357,357,STATE_357,split,requires_manual,,,owner/controller/core conflict
+527,STATE_527,527,STATE_527,merge,requires_manual,,,owner/controller/core conflict
+592,STATE_592,592,STATE_592,merge,requires_manual,,,owner/controller/core conflict
+731,STATE_731,731,STATE_731,merge,requires_manual,,,owner/controller/core conflict
+736,STATE_736,852,Dalmatia,split,requires_manual,,,owner/controller/core conflict
+788,STATE_788,51,STATE_51,split,requires_manual,,,owner/controller/core conflict
+797,STATE_797,63,STATE_63,split,requires_manual,,,owner/controller/core conflict
+803,STATE_803,67,STATE_67,split,requires_manual,,,owner/controller/core conflict
+817,STATE_817,18,STATE_18,merge,requires_manual,,,owner/controller/core conflict
+830,STATE_830,79,STATE_79,split,requires_manual,,,owner/controller/core conflict
+845,STATE_845,371,STATE_371,split,requires_manual,,,owner/controller/core conflict
+858,STATE_858,371,STATE_371,split,requires_manual,,,owner/controller/core conflict
+878,STATE_878,108,STATE_108,merge,requires_manual,,,owner/controller/core conflict
+907,STATE_907,1029,STATE_1029,merge,requires_manual,,,owner/controller/core conflict
+940,STATE_940,105,STATE_105,split,requires_manual,,,owner/controller/core conflict
+941,STATE_941,802,STATE_802,split,requires_manual,,,owner/controller/core conflict
+946,STATE_946,1011,STATE_1011,merge,requires_manual,,,owner/controller/core conflict
+952,STATE_952,183,STATE_183,split,requires_manual,,,owner/controller/core conflict
+970,STATE_970,409,STATE_409,split,requires_manual,,,owner/controller/core conflict
+971,STATE_971,526,STATE_526,split,requires_manual,,,owner/controller/core conflict
+975,STATE_975,187,STATE_187,split,requires_manual,,,owner/controller/core conflict
+976,STATE_976,185,STATE_185,split,requires_manual,,,owner/controller/core conflict
+991,STATE_991,117,Campania,split,requires_manual,,,owner/controller/core conflict
+1005,STATE_1005,229,STATE_229,split,requires_manual,,,owner/controller/core conflict
+1009,STATE_1009,917,STATE_917,merge,requires_manual,,,owner/controller/core conflict
+1012,STATE_1012,920,STATE_920,merge,requires_manual,,,owner/controller/core conflict
+1022,STATE_1022,328,Kirin,split,requires_manual,,,owner/controller/core conflict
+1026,STATE_1026,328,Kirin,merge,requires_manual,,,owner/controller/core conflict
+1047,STATE_1047,104,STATE_104,split,requires_manual,,,owner/controller/core conflict
+1060,STATE_1060,35,STATE_35,split,requires_manual,,,owner/controller/core conflict
+1063,STATE_1063,184,STATE_184,merge,requires_manual,,,owner/controller/core conflict
+1078,STATE_1078,671,STATE_671,split,requires_manual,,,owner/controller/core conflict
+1081,STATE_1081,1088,STATE_1088,split,requires_manual,,,owner/controller/core conflict
+1088,STATE_1088,559,STATE_559,split,requires_manual,,,owner/controller/core conflict
+1103,STATE_1103,48,STATE_48,split,requires_manual,,,owner/controller/core conflict
+1111,STATE_1111,835,STATE_835,merge,requires_manual,,,owner/controller/core conflict
+1127,STATE_1127,226,Dnipropertovsk,split,requires_manual,,,owner/controller/core conflict
+1130,STATE_1130,1007,STATE_1007,merge,requires_manual,,,owner/controller/core conflict
+1136,STATE_1136,889,STATE_889,merge,requires_manual,,,owner/controller/core conflict
+1139,STATE_1139,731,STATE_731,split,requires_manual,,,owner/controller/core conflict
+1159,STATE_1159,731,STATE_731,split,requires_manual,,,owner/controller/core conflict
+1186,STATE_1186,23,STATE_23,split,requires_manual,,,owner/controller/core conflict
+1218,STATE_1218,719,Natal,split,requires_manual,,,owner/controller/core conflict
+1230,STATE_1230,106,STATE_106,merge,requires_manual,,,owner/controller/core conflict
+1245,STATE_1245,676,STATE_676,split,requires_manual,,,owner/controller/core conflict
+1247,STATE_1247,291,STATE_291,merge,requires_manual,,,owner/controller/core conflict
+1263,STATE_1263,229,STATE_229,split,requires_manual,,,owner/controller/core conflict
+1264,STATE_1264,676,STATE_676,split,requires_manual,,,owner/controller/core conflict
+1291,STATE_1291,1055,STATE_1055,split,requires_manual,,,owner/controller/core conflict
+1315,STATE_1315,594,STATE_594,split,requires_manual,,,owner/controller/core conflict
+1317,STATE_1317,599,STATE_599,split,requires_manual,,,owner/controller/core conflict
+1334,STATE_1334,51,STATE_51,split,requires_manual,,,owner/controller/core conflict
+1348,STATE_1348,67,STATE_67,split,requires_manual,,,owner/controller/core conflict
+1366,STATE_1366,229,STATE_229,split,requires_manual,,,owner/controller/core conflict
+1374,STATE_1374,88,STATE_88,split,requires_manual,,,owner/controller/core conflict
+1391,STATE_1391,158,STATE_158,split,requires_manual,,,owner/controller/core conflict
+1397,STATE_1397,119,STATE_119,split,requires_manual,,,owner/controller/core conflict
+1407,STATE_1407,408,STATE_408,split,requires_manual,,,owner/controller/core conflict
+1415,STATE_1415,50,Württemberg,split,requires_manual,,,owner/controller/core conflict
+1421,STATE_1421,104,STATE_104,split,requires_manual,,,owner/controller/core conflict
+1428,STATE_1428,731,STATE_731,split,requires_manual,,,owner/controller/core conflict
+1444,STATE_1444,227,STATE_227,merge,requires_manual,,,owner/controller/core conflict
+1490,STATE_1490,202,STATE_202,merge,requires_manual,,,owner/controller/core conflict
+1525,STATE_1525,546,STATE_546,split,requires_manual,,,owner/controller/core conflict
+1526,STATE_1526,546,STATE_546,split,requires_manual,,,owner/controller/core conflict
+1527,STATE_1527,771,Zambia,split,requires_manual,,,owner/controller/core conflict
+1554,STATE_1554,976,STATE_976,split,requires_manual,,,owner/controller/core conflict
+1558,STATE_1558,88,STATE_88,split,requires_manual,,,owner/controller/core conflict
+1588,STATE_1588,88,STATE_88,split,requires_manual,,,owner/controller/core conflict
+1594,STATE_1594,101,STATE_101,split,requires_manual,,,owner/controller/core conflict
+1615,STATE_1615,371,STATE_371,split,requires_manual,,,owner/controller/core conflict
+1617,STATE_1617,66,STATE_66,split,requires_manual,,,owner/controller/core conflict
+1638,STATE_1638,920,STATE_920,merge,requires_manual,,,owner/controller/core conflict
+1662,STATE_1662,340,STATE_340,merge,requires_manual,,,owner/controller/core conflict
+1679,STATE_1679,4,STATE_4,split,requires_manual,,,owner/controller/core conflict
+1729,STATE_1729,70,STATE_70,merge,requires_manual,,,owner/controller/core conflict
+1734,STATE_1734,17,Lorraine,merge,requires_manual,,,owner/controller/core conflict
+1753,STATE_1753,616,STATE_616,split,requires_manual,,,owner/controller/core conflict
+1754,STATE_1754,34,STATE_34,split,requires_manual,,,owner/controller/core conflict
+1798,STATE_1798,26,Auveregne,merge,requires_manual,,,owner/controller/core conflict
+1808,STATE_1808,977,Antwerpen,split,requires_manual,,,owner/controller/core conflict
+1821,STATE_1821,1005,STATE_1005,merge,requires_manual,,,owner/controller/core conflict
+1823,STATE_1823,60,STATE_60,split,requires_manual,,,owner/controller/core conflict
+1865,STATE_1865,152,STATE_152,split,requires_manual,,,owner/controller/core conflict
+1907,STATE_1907,512,STATE_512,merge,requires_manual,,,owner/controller/core conflict
+1910,STATE_1910,1072,STATE_1072,split,requires_manual,,,owner/controller/core conflict
+1914,STATE_1914,672,STATE_672,split,requires_manual,,,owner/controller/core conflict
+1921,STATE_1921,612,STATE_612,split,requires_manual,,,owner/controller/core conflict
+1928,STATE_1928,334,STATE_334,merge,requires_manual,,,owner/controller/core conflict
+1944,STATE_1944,771,Zambia,split,requires_manual,,,owner/controller/core conflict
+1946,Mysore,425,Mysore,split,requires_manual,,,owner/controller/core conflict
+1964,STATE_1964,54,STATE_54,split,requires_manual,,,owner/controller/core conflict
+1965,STATE_1965,978,Baden,split,requires_manual,,,owner/controller/core conflict
+1989,STATE_1989,980,STATE_980,split,requires_manual,,,owner/controller/core conflict
+2004,STATE_2004,104,STATE_104,split,requires_manual,,,owner/controller/core conflict
+2009,STATE_2009,232,Dagestan,split,requires_manual,,,owner/controller/core conflict
+2010,STATE_2010,232,Dagestan,split,requires_manual,,,owner/controller/core conflict
+2011,STATE_2011,104,STATE_104,split,requires_manual,,,owner/controller/core conflict
+2014,STATE_2014,63,STATE_63,split,requires_manual,,,owner/controller/core conflict
+2018,STATE_2018,27,Bourgogne,merge,requires_manual,,,owner/controller/core conflict
+2037,STATE_2037,272,STATE_272,split,requires_manual,,,owner/controller/core conflict
+6,Flanders,6,Flanders,merge,requires_manual,,,owner/controller/core conflict
+7,STATE_7,7,STATE_7,split,requires_manual,,,owner/controller/core conflict
+34,STATE_34,34,STATE_34,split,requires_manual,,,owner/controller/core conflict
+67,STATE_67,67,STATE_67,split,requires_manual,,,owner/controller/core conflict
+69,STATE_69,69,STATE_69,split,requires_manual,,,owner/controller/core conflict
+70,STATE_70,70,STATE_70,split,requires_manual,,,owner/controller/core conflict
+92,STATE_92,92,STATE_92,merge,requires_manual,,,owner/controller/core conflict
+104,STATE_104,104,STATE_104,split,requires_manual,,,owner/controller/core conflict
+105,STATE_105,105,STATE_105,split,requires_manual,,,owner/controller/core conflict
+148,STATE_148,148,LAPPI,split,requires_manual,,,owner/controller/core conflict
+150,Savo,150,KUOPIO,merge,requires_manual,,,owner/controller/core conflict
+161,STATE_161,161,STATE_161,split,requires_manual,,,owner/controller/core conflict
+184,STATE_184,184,STATE_184,merge,requires_manual,,,owner/controller/core conflict
+229,STATE_229,229,STATE_229,split,requires_manual,,,owner/controller/core conflict
+232,STATE_232,232,Dagestan,split,requires_manual,,,owner/controller/core conflict
+325,STATE_325,325,STATE_325,split,requires_manual,,,owner/controller/core conflict
+371,STATE_371,371,STATE_371,split,requires_manual,,,owner/controller/core conflict
+375,STATE_375,375,STATE_375,split,requires_manual,,,owner/controller/core conflict
+402,STATE_402,402,STATE_402,merge,requires_manual,,,owner/controller/core conflict
+404,STATE_404,881,Karagandy,merge,requires_manual,,,owner/controller/core conflict
+425,Mysore,425,Mysore,split,requires_manual,,,owner/controller/core conflict
+459,STATE_459,513,Tlmecen,merge,requires_manual,,,owner/controller/core conflict
+479,STATE_479,479,STATE_479,merge,requires_manual,,,owner/controller/core conflict
+512,STATE_512,954,STATE_954,merge,requires_manual,,,owner/controller/core conflict
+610,STATE_610,610,Jehol,merge,requires_manual,,,owner/controller/core conflict
+640,STATE_640,998,STATE_998,merge,requires_manual,,,owner/controller/core conflict
+676,STATE_676,676,STATE_676,split,requires_manual,,,owner/controller/core conflict
+789,STATE_789,42,STATE_42,split,requires_manual,,,owner/controller/core conflict
+806,STATE_806,153,STATE_153,merge,requires_manual,,,owner/controller/core conflict
+807,STATE_807,4,STATE_4,split,requires_manual,,,owner/controller/core conflict
+814,STATE_814,1048,Moselgebiet,merge,requires_manual,,,owner/controller/core conflict
+869,STATE_869,109,Croatia,split,requires_manual,,,owner/controller/core conflict
+872,STATE_872,108,STATE_108,merge,requires_manual,,,owner/controller/core conflict
+886,STATE_886,972,STATE_972,split,requires_manual,,,owner/controller/core conflict
+888,STATE_888,972,STATE_972,split,requires_manual,,,owner/controller/core conflict
+899,STATE_899,660,STATE_660,split,requires_manual,,,owner/controller/core conflict
+901,STATE_901,900,STATE_900,split,requires_manual,,,owner/controller/core conflict
+904,STATE_904,1031,STATE_1031,split,requires_manual,,,owner/controller/core conflict
+926,STATE_926,202,STATE_202,split,requires_manual,,,owner/controller/core conflict
+931,STATE_931,232,Dagestan,split,requires_manual,,,owner/controller/core conflict
+932,STATE_932,232,Dagestan,split,requires_manual,,,owner/controller/core conflict
+937,STATE_937,109,Croatia,split,requires_manual,,,owner/controller/core conflict
+945,STATE_945,1010,STATE_1010,split,requires_manual,,,owner/controller/core conflict
+950,STATE_950,1055,STATE_1055,split,requires_manual,,,owner/controller/core conflict
+982,STATE_982,1023,STATE_1023,split,requires_manual,,,owner/controller/core conflict
+989,STATE_989,158,STATE_158,split,requires_manual,,,owner/controller/core conflict
+1013,STATE_1013,923,STATE_923,merge,requires_manual,,,owner/controller/core conflict
+1014,STATE_1014,144,Nordland,merge,requires_manual,,,owner/controller/core conflict
+1048,STATE_1048,104,STATE_104,split,requires_manual,,,owner/controller/core conflict
+1079,STATE_1079,1017,STATE_1017,split,requires_manual,,,owner/controller/core conflict
+1107,STATE_1107,153,STATE_153,merge,requires_manual,,,owner/controller/core conflict
+1126,STATE_1126,193,Chernihiv,merge,requires_manual,,,owner/controller/core conflict
+1129,STATE_1129,1005,STATE_1005,split,requires_manual,,,owner/controller/core conflict
+1131,STATE_1131,1008,STATE_1008,merge,requires_manual,,,owner/controller/core conflict
+1148,STATE_1148,589,STATE_589,merge,requires_manual,,,owner/controller/core conflict
+1179,STATE_1179,48,STATE_48,split,requires_manual,,,owner/controller/core conflict
+1182,STATE_1182,980,STATE_980,split,requires_manual,,,owner/controller/core conflict
+1185,STATE_1185,20,Rhone,split,requires_manual,,,owner/controller/core conflict
+1197,STATE_1197,548,STATE_548,split,requires_manual,,,owner/controller/core conflict
+1204,STATE_1204,106,STATE_106,split,requires_manual,,,owner/controller/core conflict
+1215,STATE_1215,275,Transvaal,split,requires_manual,,,owner/controller/core conflict
+1216,STATE_1216,275,Transvaal,split,requires_manual,,,owner/controller/core conflict
+1222,STATE_1222,229,STATE_229,split,requires_manual,,,owner/controller/core conflict
+1229,STATE_1229,934,STATE_934,split,requires_manual,,,owner/controller/core conflict
+1250,STATE_1250,588,Semipalatinsk,split,requires_manual,,,owner/controller/core conflict
+1270,STATE_1270,20,Rhone,split,requires_manual,,,owner/controller/core conflict
+1273,STATE_1273,742,STATE_742,split,requires_manual,,,owner/controller/core conflict
+1275,STATE_1275,67,STATE_67,split,requires_manual,,,owner/controller/core conflict
+1323,STATE_1323,688,STATE_688,split,requires_manual,,,owner/controller/core conflict
+1325,STATE_1325,71,STATE_71,split,requires_manual,,,owner/controller/core conflict
+1330,STATE_1330,999,STATE_999,merge,requires_manual,,,owner/controller/core conflict
+1332,STATE_1332,68,STATE_68,split,requires_manual,,,owner/controller/core conflict
+1344,STATE_1344,592,STATE_592,split,requires_manual,,,owner/controller/core conflict
+1347,STATE_1347,67,STATE_67,split,requires_manual,,,owner/controller/core conflict
+1403,STATE_1403,108,STATE_108,split,requires_manual,,,owner/controller/core conflict
+1404,STATE_1404,104,STATE_104,split,requires_manual,,,owner/controller/core conflict
+1406,STATE_1406,92,STATE_92,split,requires_manual,,,owner/controller/core conflict
+1438,STATE_1438,189,STATE_189,split,requires_manual,,,owner/controller/core conflict
+1468,STATE_1468,742,STATE_742,split,requires_manual,,,owner/controller/core conflict
+1469,STATE_1469,404,Kyzyl Orda,merge,requires_manual,,,owner/controller/core conflict
+1477,STATE_1477,588,Semipalatinsk,split,requires_manual,,,owner/controller/core conflict
+1487,STATE_1487,229,STATE_229,split,requires_manual,,,owner/controller/core conflict
+1491,STATE_1491,202,STATE_202,split,requires_manual,,,owner/controller/core conflict
+1529,STATE_1529,981,Barotseland,split,requires_manual,,,owner/controller/core conflict
+1530,Zambia,771,Zambia,split,requires_manual,,,owner/controller/core conflict
+1534,STATE_1534,542,STATE_542,split,requires_manual,,,owner/controller/core conflict
+1537,STATE_1537,542,STATE_542,split,requires_manual,,,owner/controller/core conflict
+1539,STATE_1539,889,STATE_889,split,requires_manual,,,owner/controller/core conflict
+1582,STATE_1582,785,STATE_785,split,requires_manual,,,owner/controller/core conflict
+1589,STATE_1589,92,STATE_92,split,requires_manual,,,owner/controller/core conflict
+1595,STATE_1595,184,STATE_184,split,requires_manual,,,owner/controller/core conflict
+1628,Savo / Tavastland / Tavastia,929,OULU,merge,requires_manual,,,owner/controller/core conflict
+1629,Savo / Tavastland / Tavastia,929,OULU,merge,requires_manual,,,owner/controller/core conflict
+1730,STATE_1730,20,Rhone,split,requires_manual,,,owner/controller/core conflict
+1733,STATE_1733,17,Lorraine,split,requires_manual,,,owner/controller/core conflict
+1817,STATE_1817,422,STATE_422,split,requires_manual,,,owner/controller/core conflict
+1818,STATE_1818,1005,STATE_1005,merge,requires_manual,,,owner/controller/core conflict
+1843,STATE_1843,479,STATE_479,split,requires_manual,,,owner/controller/core conflict
+1859,STATE_1859,388,STATE_388,split,requires_manual,,,owner/controller/core conflict
+1863,STATE_1863,389,STATE_389,split,requires_manual,,,owner/controller/core conflict
+1873,STATE_1873,376,STATE_376,split,requires_manual,,,owner/controller/core conflict
+1874,STATE_1874,377,STATE_377,split,requires_manual,,,owner/controller/core conflict
+1875,STATE_1875,380,STATE_380,split,requires_manual,,,owner/controller/core conflict
+1877,STATE_1877,785,STATE_785,split,requires_manual,,,owner/controller/core conflict
+1881,STATE_1881,444,STATE_444,split,requires_manual,,,owner/controller/core conflict
+1906,STATE_1906,512,STATE_512,split,requires_manual,,,owner/controller/core conflict
+1979,STATE_1979,843,STATE_843,merge,requires_manual,,,owner/controller/core conflict
+2012,STATE_2012,109,Croatia,split,requires_manual,,,owner/controller/core conflict
+2023,STATE_2023,610,Jehol,split,requires_manual,,,owner/controller/core conflict
+2027,STATE_2027,1033,STATE_1033,split,requires_manual,,,owner/controller/core conflict
+2032,STATE_2032,68,STATE_68,split,requires_manual,,,owner/controller/core conflict
+2040,STATE_2040,27,Bourgogne,split,requires_manual,,,owner/controller/core conflict
+2041,STATE_2041,17,Lorraine,split,requires_manual,,,owner/controller/core conflict
+2042,STATE_2042,27,Bourgogne,split,requires_manual,,,owner/controller/core conflict
+2043,STATE_2043,27,Bourgogne,split,requires_manual,,,owner/controller/core conflict
+2044,STATE_2044,27,Bourgogne,split,requires_manual,,,owner/controller/core conflict
+4,STATE_4,4,STATE_4,split,requires_manual,,,owner/controller/core conflict
+8,STATE_8,8,STATE_8,merge,requires_manual,,,owner/controller/core conflict
+10,STATE_10,10,STATE_10,merge,requires_manual,,,owner/controller/core conflict
+12,STATE_12,808,STATE_808,split,requires_manual,,,owner/controller/core conflict
+17,STATE_17,17,Lorraine,split,requires_manual,,,owner/controller/core conflict
+23,STATE_23,23,STATE_23,merge,requires_manual,,,owner/controller/core conflict
+35,STATE_35,35,STATE_35,split,requires_manual,,,owner/controller/core conflict
+38,STATE_38,918,Västerbotten,merge,requires_manual,,,owner/controller/core conflict
+39,STATE_39,39,(South Tyrol) Alto Adige,split,requires_manual,,,owner/controller/core conflict
+48,STATE_48,48,STATE_48,split,requires_manual,,,owner/controller/core conflict
+60,STATE_60,60,STATE_60,split,requires_manual,,,owner/controller/core conflict
+90,STATE_90,90,Kielce,merge,requires_manual,,,owner/controller/core conflict
+107,STATE_107,107,STATE_107,merge,requires_manual,,,owner/controller/core conflict
+117,STATE_117,117,Campania,merge,requires_manual,,,owner/controller/core conflict
+119,STATE_119,119,STATE_119,split,requires_manual,,,owner/controller/core conflict
+142,STATE_142,142,STATE_142,merge,requires_manual,,,owner/controller/core conflict
+152,STATE_152,152,STATE_152,split,requires_manual,,,owner/controller/core conflict
+183,STATE_183,183,STATE_183,split,requires_manual,,,owner/controller/core conflict
+271,STATE_271,271,STATE_271,merge,requires_manual,,,owner/controller/core conflict
+275,STATE_275,275,Transvaal,split,requires_manual,,,owner/controller/core conflict
+286,STATE_286,1088,STATE_1088,split,requires_manual,,,owner/controller/core conflict
+328,STATE_328,328,Kirin,split,requires_manual,,,owner/controller/core conflict
+335,STATE_335,335,Java,merge,requires_manual,,,owner/controller/core conflict
+336,STATE_336,1085,STATE_1085,merge,requires_manual,,,owner/controller/core conflict
+419,STATE_419,1000,STATE_1000,merge,requires_manual,,,owner/controller/core conflict
+458,STATE_458,458,STATE_458,split,requires_manual,,,owner/controller/core conflict
+542,STATE_542,542,STATE_542,split,requires_manual,,,owner/controller/core conflict
+588,STATE_588,882,Pavlodar,merge,requires_manual,,,owner/controller/core conflict
+593,STATE_593,593,STATE_593,split,requires_manual,,,owner/controller/core conflict
+599,STATE_599,594,STATE_594,split,requires_manual,,,owner/controller/core conflict
+601,STATE_601,601,STATE_601,split,requires_manual,,,owner/controller/core conflict
+612,STATE_612,612,STATE_612,merge,requires_manual,,,owner/controller/core conflict
+617,STATE_617,617,STATE_617,merge,requires_manual,,,owner/controller/core conflict
+621,STATE_621,621,STATE_621,split,requires_manual,,,owner/controller/core conflict
+664,STATE_664,664,STATE_664,split,requires_manual,,,owner/controller/core conflict
+666,STATE_666,666,STATE_666,split,requires_manual,,,owner/controller/core conflict
+669,STATE_669,1079,STATE_1079,merge,requires_manual,,,owner/controller/core conflict
+671,STATE_671,671,STATE_671,split,requires_manual,,,owner/controller/core conflict
+672,STATE_672,1070,STATE_1070,split,requires_manual,,,owner/controller/core conflict
+718,STATE_718,890,STATE_890,merge,requires_manual,,,owner/controller/core conflict
+771,Zambia,771,Zambia,split,requires_manual,,,owner/controller/core conflict
+871,STATE_871,970,STATE_970,split,requires_manual,,,owner/controller/core conflict
+906,STATE_906,1029,STATE_1029,split,requires_manual,,,owner/controller/core conflict
+909,STATE_909,1028,STATE_1028,split,requires_manual,,,owner/controller/core conflict
+928,STATE_928,215,STATE_215,split,requires_manual,,,owner/controller/core conflict
+929,STATE_929,215,STATE_215,split,requires_manual,,,owner/controller/core conflict
+981,STATE_981,1083,STATE_1083,split,requires_manual,,,owner/controller/core conflict
+999,STATE_999,402,STATE_402,split,requires_manual,,,owner/controller/core conflict
+1010,STATE_1010,921,Telemark,merge,requires_manual,,,owner/controller/core conflict
+1011,STATE_1011,920,STATE_920,split,requires_manual,,,owner/controller/core conflict
+1046,STATE_1046,804,STATE_804,split,requires_manual,,,owner/controller/core conflict
+1066,STATE_1066,852,Dalmatia,split,requires_manual,,,owner/controller/core conflict
+1080,STATE_1080,1017,STATE_1017,split,requires_manual,,,owner/controller/core conflict
+1090,STATE_1090,560,Nikolayevsk,split,requires_manual,,,owner/controller/core conflict
+1094,STATE_1094,1084,STATE_1084,split,requires_manual,,,owner/controller/core conflict
+1110,STATE_1110,558,STATE_558,split,requires_manual,,,owner/controller/core conflict
+1135,STATE_1135,889,STATE_889,split,requires_manual,,,owner/controller/core conflict
+1156,STATE_1156,184,STATE_184,split,requires_manual,,,owner/controller/core conflict
+1160,STATE_1160,731,STATE_731,split,requires_manual,,,owner/controller/core conflict
+1221,STATE_1221,275,Transvaal,split,requires_manual,,,owner/controller/core conflict
+1228,STATE_1228,934,STATE_934,split,requires_manual,,,owner/controller/core conflict
+1299,STATE_1299,1015,STATE_1015,merge,requires_manual,,,owner/controller/core conflict
+1314,STATE_1314,1079,STATE_1079,split,requires_manual,,,owner/controller/core conflict
+1316,STATE_1316,599,STATE_599,split,requires_manual,,,owner/controller/core conflict
+1376,STATE_1376,664,STATE_664,split,requires_manual,,,owner/controller/core conflict
+1380,STATE_1380,215,STATE_215,split,requires_manual,,,owner/controller/core conflict
+1454,STATE_1454,12,STATE_12,merge,requires_manual,,,owner/controller/core conflict
+1492,STATE_1492,900,STATE_900,split,requires_manual,,,owner/controller/core conflict
+1528,STATE_1528,981,Barotseland,split,requires_manual,,,owner/controller/core conflict
+1536,STATE_1536,542,STATE_542,split,requires_manual,,,owner/controller/core conflict
+1581,STATE_1581,17,Lorraine,split,requires_manual,,,owner/controller/core conflict
+1618,STATE_1618,371,STATE_371,split,requires_manual,,,owner/controller/core conflict
+1627,Savo / Tavastland / Tavastia,927,HÄME,merge,requires_manual,,,owner/controller/core conflict
+1712,STATE_1712,92,STATE_92,split,requires_manual,,,owner/controller/core conflict
+1762,STATE_1762,925,STATE_925,split,requires_manual,,,owner/controller/core conflict
+1800,STATE_1800,20,Rhone,split,requires_manual,,,owner/controller/core conflict
+1803,STATE_1803,72,STATE_72,split,requires_manual,,,owner/controller/core conflict
+1862,STATE_1862,381,STATE_381,split,requires_manual,,,owner/controller/core conflict
+1915,STATE_1915,1069,STATE_1069,merge,requires_manual,,,owner/controller/core conflict
+1916,STATE_1916,335,Java,split,requires_manual,,,owner/controller/core conflict
+2013,STATE_2013,601,STATE_601,split,requires_manual,,,owner/controller/core conflict
+9,STATE_9,9,STATE_9,split,requires_manual,,,owner/controller/core conflict
+13,STATE_13,812,STATE_812,merge,requires_manual,,,owner/controller/core conflict
+19,STATE_19,19,STATE_19,merge,requires_manual,,,owner/controller/core conflict
+27,STATE_27,27,Bourgogne,split,requires_manual,,,owner/controller/core conflict
+32,STATE_32,32,STATE_32,split,requires_manual,,,owner/controller/core conflict
+71,STATE_71,71,STATE_71,split,requires_manual,,,owner/controller/core conflict
+72,STATE_72,72,STATE_72,split,requires_manual,,,owner/controller/core conflict
+74,STATE_74,74,STATE_74,split,requires_manual,,,owner/controller/core conflict
+101,STATE_101,101,STATE_101,split,requires_manual,,,owner/controller/core conflict
+106,STATE_106,106,STATE_106,split,requires_manual,,,owner/controller/core conflict
+109,STATE_109,109,Croatia,split,requires_manual,,,owner/controller/core conflict
+143,STATE_143,143,STATE_143,merge,requires_manual,,,owner/controller/core conflict
+160,STATE_160,160,STATE_160,split,requires_manual,,,owner/controller/core conflict
+196,STATE_196,196,STATE_196,split,requires_manual,,,owner/controller/core conflict
+202,STATE_202,202,STATE_202,split,requires_manual,,,owner/controller/core conflict
+212,STATE_212,212,STATE_212,split,requires_manual,,,owner/controller/core conflict
+215,STATE_215,215,STATE_215,split,requires_manual,,,owner/controller/core conflict
+216,STATE_216,216,STATE_216,merge,requires_manual,,,owner/controller/core conflict
+221,STATE_221,221,STATE_221,merge,requires_manual,,,owner/controller/core conflict
+226,STATE_226,226,Dnipropertovsk,split,requires_manual,,,owner/controller/core conflict
+227,STATE_227,227,STATE_227,split,requires_manual,,,owner/controller/core conflict
+272,STATE_272,272,STATE_272,split,requires_manual,,,owner/controller/core conflict
+274,STATE_274,274,STATE_274,split,requires_manual,,,owner/controller/core conflict
+288,STATE_288,288,STATE_288,merge,requires_manual,,,owner/controller/core conflict
+292,STATE_292,854,STATE_854,merge,requires_manual,,,owner/controller/core conflict
+333,STATE_333,333,STATE_333,merge,requires_manual,,,owner/controller/core conflict
+397,STATE_397,397,STATE_397,merge,requires_manual,,,owner/controller/core conflict
+408,STATE_408,408,STATE_408,split,requires_manual,,,owner/controller/core conflict
+409,STATE_409,409,STATE_409,split,requires_manual,,,owner/controller/core conflict
+430,STATE_430,430,STATE_430,merge,requires_manual,,,owner/controller/core conflict
+442,STATE_442,987,manpower = 217974,merge,requires_manual,,,owner/controller/core conflict
+444,STATE_444,444,STATE_444,split,requires_manual,,,owner/controller/core conflict
+447,STATE_447,447,STATE_447,split,requires_manual,,,owner/controller/core conflict
+480,STATE_480,480,STATE_480,split,requires_manual,,,owner/controller/core conflict
+526,STATE_526,526,STATE_526,split,requires_manual,,,owner/controller/core conflict
+546,STATE_546,546,STATE_546,split,requires_manual,,,owner/controller/core conflict
+548,STATE_548,548,STATE_548,split,requires_manual,,,owner/controller/core conflict
+558,STATE_558,902,STATE_902,merge,requires_manual,,,owner/controller/core conflict
+559,STATE_559,559,STATE_559,split,requires_manual,,,owner/controller/core conflict
+560,STATE_560,560,Nikolayevsk,split,requires_manual,,,owner/controller/core conflict
+563,STATE_563,563,Chita,merge,requires_manual,,,owner/controller/core conflict
+581,STATE_581,581,STATE_581,split,requires_manual,,,owner/controller/core conflict
+586,STATE_586,586,STATE_586,merge,requires_manual,,,owner/controller/core conflict
+589,STATE_589,589,STATE_589,merge,requires_manual,,,owner/controller/core conflict
+594,STATE_594,1033,STATE_1033,split,requires_manual,,,owner/controller/core conflict
+615,STATE_615,615,STATE_615,merge,requires_manual,,,owner/controller/core conflict
+616,STATE_616,1040,STATE_1040,merge,requires_manual,,,owner/controller/core conflict
+619,STATE_619,619,Yarkand,split,requires_manual,,,owner/controller/core conflict
+660,STATE_660,660,STATE_660,split,requires_manual,,,owner/controller/core conflict
+716,STATE_716,716,STATE_716,split,requires_manual,,,owner/controller/core conflict
+723,STATE_723,723,STATE_723,merge,requires_manual,,,owner/controller/core conflict
+742,STATE_742,742,STATE_742,split,requires_manual,,,owner/controller/core conflict
+772,STATE_772,772,Middle Congo (Brazzaville),split,requires_manual,,,owner/controller/core conflict
+785,STATE_785,785,STATE_785,split,requires_manual,,,owner/controller/core conflict
+810,STATE_810,975,STATE_975,split,requires_manual,,,owner/controller/core conflict
+867,STATE_867,850,Trentino,merge,requires_manual,,,owner/controller/core conflict
+905,STATE_905,1030,STATE_1030,merge,requires_manual,,,owner/controller/core conflict
+1041,STATE_1041,993,STATE_993,merge,requires_manual,,,owner/controller/core conflict
+1917,STATE_1917,1080,Batavia/Jakarta,split,requires_manual,,,owner/controller/core conflict
+191,STATE_191,191,STATE_191,merge,requires_manual,,,owner/controller/core conflict
+197,STATE_197,197,STATE_197,merge,requires_manual,,,owner/controller/core conflict
+432,STATE_432,990,STATE_990,same_name,requires_manual,,,owner/controller/core conflict
+525,STATE_525,525,STATE_525,split,requires_manual,,,owner/controller/core conflict
+590,Akmolinsk,590,Akmolinsk,merge,requires_manual,,,owner/controller/core conflict
+1220,STATE_1220,1068,STATE_1068,same_name,requires_manual,,,owner/controller/core conflict
+1413,STATE_1413,99,STATE_99,split,requires_manual,,,owner/controller/core conflict
+1758,STATE_1758,162,STATE_162,split,requires_manual,,,owner/controller/core conflict
+816,STATE_816,849,STATE_849,split,requires_manual,,,owner/controller/core conflict
+943,STATE_943,211,STATE_211,merge,requires_manual,,,owner/controller/core conflict
+990,STATE_990,2,Latium,split,requires_manual,,,owner/controller/core conflict
+1571,STATE_1571,137,STATE_137,split,requires_manual,,,owner/controller/core conflict
+1975,STATE_1975,36,STATE_36,split,requires_manual,,,owner/controller/core conflict
+99,STATE_99,99,STATE_99,split,requires_manual,,,owner/controller/core conflict
+149,Pohjanmaa,149,VAASA,merge,requires_manual,,,owner/controller/core conflict
+865,STATE_865,807,STATE_807,split,requires_manual,,,owner/controller/core conflict
+939,STATE_939,103,Dalmatia,split,requires_manual,,,owner/controller/core conflict
+995,STATE_995,446,Suez,split,requires_manual,,,owner/controller/core conflict
+1059,STATE_1059,36,STATE_36,split,requires_manual,,,owner/controller/core conflict
+1157,STATE_1157,182,STATE_182,split,requires_manual,,,owner/controller/core conflict
+1226,STATE_1226,231,STATE_231,merge,requires_manual,,,owner/controller/core conflict
+1233,STATE_1233,454,Palestine,split,requires_manual,,,owner/controller/core conflict
+1267,STATE_1267,137,STATE_137,split,requires_manual,,,owner/controller/core conflict
+1329,STATE_1329,64,STATE_64,split,requires_manual,,,owner/controller/core conflict
+1369,STATE_1369,146,KARJALA,split,requires_manual,,,owner/controller/core conflict
+1412,STATE_1412,99,STATE_99,split,requires_manual,,,owner/controller/core conflict
+1426,STATE_1426,86,STATE_86,split,requires_manual,,,owner/controller/core conflict
+1478,STATE_1478,14,STATE_14,split,requires_manual,,,owner/controller/core conflict
+1552,STATE_1552,354,STATE_354,split,requires_manual,,,owner/controller/core conflict
+1559,STATE_1559,36,STATE_36,split,requires_manual,,,owner/controller/core conflict
+1561,STATE_1561,807,STATE_807,split,requires_manual,,,owner/controller/core conflict
+1586,STATE_1586,454,Palestine,split,requires_manual,,,owner/controller/core conflict
+1728,STATE_1728,807,STATE_807,split,requires_manual,,,owner/controller/core conflict
+1739,STATE_1739,617,STATE_617,merge,requires_manual,,,owner/controller/core conflict
+1868,STATE_1868,807,STATE_807,split,requires_manual,,,owner/controller/core conflict
+1942,STATE_1942,807,STATE_807,split,requires_manual,,,owner/controller/core conflict
+1973,STATE_1973,86,STATE_86,split,requires_manual,,,owner/controller/core conflict
+2029,STATE_2029,86,STATE_86,split,requires_manual,,,owner/controller/core conflict
+103,STATE_103,103,Dalmatia,split,requires_manual,,,owner/controller/core conflict
+146,STATE_146,146,KARJALA,split,requires_manual,,,owner/controller/core conflict
+1091,STATE_1091,231,STATE_231,split,requires_manual,,,owner/controller/core conflict
+1092,STATE_1092,231,STATE_231,split,requires_manual,,,owner/controller/core conflict
+1155,STATE_1155,856,STATE_856,split,requires_manual,,,owner/controller/core conflict
+1193,STATE_1193,157,STATE_157,merge,requires_manual,,,owner/controller/core conflict
+1225,STATE_1225,231,STATE_231,split,requires_manual,,,owner/controller/core conflict
+1232,STATE_1232,454,Palestine,split,requires_manual,,,owner/controller/core conflict
+1236,STATE_1236,454,Palestine,split,requires_manual,,,owner/controller/core conflict
+1256,STATE_1256,677,STATE_677,split,requires_manual,,,owner/controller/core conflict
+1278,STATE_1278,456,Aswan,split,requires_manual,,,owner/controller/core conflict
+1363,STATE_1363,97,STATE_97,split,requires_manual,,,owner/controller/core conflict
+1364,STATE_1364,807,STATE_807,split,requires_manual,,,owner/controller/core conflict
+1373,STATE_1373,97,STATE_97,split,requires_manual,,,owner/controller/core conflict
+1381,STATE_1381,146,KARJALA,split,requires_manual,,,owner/controller/core conflict
+1424,STATE_1424,807,STATE_807,split,requires_manual,,,owner/controller/core conflict
+1463,STATE_1463,405,Tashkent,merge,requires_manual,,,owner/controller/core conflict
+1498,STATE_1498,856,STATE_856,split,requires_manual,,,owner/controller/core conflict
+1560,STATE_1560,86,STATE_86,split,requires_manual,,,owner/controller/core conflict
+1562,STATE_1562,463,STATE_463,split,requires_manual,,,owner/controller/core conflict
+1564,STATE_1564,463,STATE_463,split,requires_manual,,,owner/controller/core conflict
+1604,STATE_1604,11,STATE_11,merge,requires_manual,,,owner/controller/core conflict
+1619,STATE_1619,206,STATE_206,merge,requires_manual,,,owner/controller/core conflict
+1621,STATE_1621,463,STATE_463,split,requires_manual,,,owner/controller/core conflict
+1631,Vaasa,149,VAASA,merge,requires_manual,,,owner/controller/core conflict
+1755,STATE_1755,157,STATE_157,split,requires_manual,,,owner/controller/core conflict
+1757,STATE_1757,157,STATE_157,split,requires_manual,,,owner/controller/core conflict
+1969,STATE_1969,97,STATE_97,split,requires_manual,,,owner/controller/core conflict
+1972,STATE_1972,97,STATE_97,split,requires_manual,,,owner/controller/core conflict
+2007,STATE_2007,231,STATE_231,split,requires_manual,,,owner/controller/core conflict
+2017,STATE_2017,157,STATE_157,split,requires_manual,,,owner/controller/core conflict
+2031,STATE_2031,86,STATE_86,split,requires_manual,,,owner/controller/core conflict
+2038,STATE_2038,16,STATE_16,merge,requires_manual,,,owner/controller/core conflict
+2,STATE_2,2,Latium,split,requires_manual,,,owner/controller/core conflict
+11,STATE_11,815,STATE_815,merge,requires_manual,,,owner/controller/core conflict
+36,STATE_36,36,STATE_36,split,requires_manual,,,owner/controller/core conflict
+59,STATE_59,58,STATE_58,split,requires_manual,,,owner/controller/core conflict
+137,STATE_137,137,STATE_137,split,requires_manual,,,owner/controller/core conflict
+211,STATE_211,211,STATE_211,split,requires_manual,,,owner/controller/core conflict
+446,STATE_446,907,STATE_907,split,requires_manual,,,owner/controller/core conflict
+456,STATE_456,456,Aswan,split,requires_manual,,,owner/controller/core conflict
+677,STATE_677,677,STATE_677,split,requires_manual,,,owner/controller/core conflict
+815,STATE_815,18,STATE_18,split,requires_manual,,,owner/controller/core conflict
+866,STATE_866,736,Name was Istria before the Pola (Istria) split and merge with Fiume,split,requires_manual,,,owner/controller/core conflict
+880,STATE_880,810,STATE_810,split,requires_manual,,,owner/controller/core conflict
+881,STATE_881,809,STATE_809,split,requires_manual,,,owner/controller/core conflict
+955,STATE_955,355,STATE_355,split,requires_manual,,,owner/controller/core conflict
+972,STATE_972,686,STATE_686,split,requires_manual,,,owner/controller/core conflict
+997,STATE_997,97,STATE_97,split,requires_manual,,,owner/controller/core conflict
+1075,STATE_1075,670,STATE_670,merge,requires_manual,,,owner/controller/core conflict
+1083,STATE_1083,741,STATE_741,split,requires_manual,,,owner/controller/core conflict
+1084,STATE_1084,741,STATE_741,split,requires_manual,,,owner/controller/core conflict
+1100,STATE_1100,834,STATE_834,split,requires_manual,,,owner/controller/core conflict
+1104,STATE_1104,103,Dalmatia,split,requires_manual,,,owner/controller/core conflict
+1106,STATE_1106,699,STATE_699,split,requires_manual,,,owner/controller/core conflict
+1119,STATE_1119,87,STATE_87,merge,requires_manual,,,owner/controller/core conflict
+1223,STATE_1223,230,STATE_230,split,requires_manual,,,owner/controller/core conflict
+1239,STATE_1239,553,STATE_553,split,requires_manual,,,owner/controller/core conflict
+1240,STATE_1240,554,STATE_554,split,requires_manual,,,owner/controller/core conflict
+1242,STATE_1242,677,STATE_677,split,requires_manual,,,owner/controller/core conflict
+1277,STATE_1277,456,Aswan,split,requires_manual,,,owner/controller/core conflict
+1313,STATE_1313,747,STATE_747,split,requires_manual,,,owner/controller/core conflict
+1384,STATE_1384,94,STATE_94,split,requires_manual,,,owner/controller/core conflict
+1385,STATE_1385,93,STATE_93,split,requires_manual,,,owner/controller/core conflict
+1387,STATE_1387,103,Dalmatia,split,requires_manual,,,owner/controller/core conflict
+1405,Cornwall,123,STATE_123,split,requires_manual,,,owner/controller/core conflict
+1425,STATE_1425,807,STATE_807,split,requires_manual,,,owner/controller/core conflict
+1433,STATE_1433,94,STATE_94,split,requires_manual,,,owner/controller/core conflict
+1434,STATE_1434,93,STATE_93,split,requires_manual,,,owner/controller/core conflict
+1437,STATE_1437,230,STATE_230,split,requires_manual,,,owner/controller/core conflict
+1443,STATE_1443,763,STATE_763,split,requires_manual,,,owner/controller/core conflict
+1446,STATE_1446,225,Sumy,split,requires_manual,,,owner/controller/core conflict
+1455,STATE_1455,199,STATE_199,merge,requires_manual,,,owner/controller/core conflict
+1462,STATE_1462,584,STATE_584,merge,requires_manual,,,owner/controller/core conflict
+1467,STATE_1467,823,Karakalpakstan,merge,requires_manual,,,owner/controller/core conflict
+1470,STATE_1470,206,STATE_206,merge,requires_manual,,,owner/controller/core conflict
+1485,STATE_1485,94,STATE_94,split,requires_manual,,,owner/controller/core conflict
+1543,STATE_1543,541,STATE_541,merge,requires_manual,,,owner/controller/core conflict
+1548,STATE_1548,297,Equatorial Guinea,split,requires_manual,,,owner/controller/core conflict
+1555,STATE_1555,93,STATE_93,split,requires_manual,,,owner/controller/core conflict
+1570,STATE_1570,73,STATE_73,split,requires_manual,,,owner/controller/core conflict
+1575,STATE_1575,513,Tlmecen,merge,requires_manual,,,owner/controller/core conflict
+1600,STATE_1600,763,STATE_763,split,requires_manual,,,owner/controller/core conflict
+1602,STATE_1602,94,STATE_94,split,requires_manual,,,owner/controller/core conflict
+1626,Varsinais Suomi / Finland Proper,926,TURKU AND PORI,merge,requires_manual,,,owner/controller/core conflict
+1726,STATE_1726,430,STATE_430,split,requires_manual,,,owner/controller/core conflict
+1731,STATE_1731,1048,Moselgebiet,split,requires_manual,,,owner/controller/core conflict
+1732,STATE_1732,18,STATE_18,split,requires_manual,,,owner/controller/core conflict
+1747,STATE_1747,747,STATE_747,split,requires_manual,,,owner/controller/core conflict
+1775,STATE_1775,87,STATE_87,merge,requires_manual,,,owner/controller/core conflict
+1779,STATE_1779,754,STATE_754,split,requires_manual,,,owner/controller/core conflict
+1784,STATE_1784,756,STATE_756,merge,requires_manual,,,owner/controller/core conflict
+1813,STATE_1813,773,Cameroon,split,requires_manual,,,owner/controller/core conflict
+1816,Guinea,780,Guinea,split,requires_manual,,,owner/controller/core conflict
+1930,STATE_1930,668,STATE_668,split,requires_manual,,,owner/controller/core conflict
+1940,STATE_1940,766,STATE_766,split,requires_manual,,,owner/controller/core conflict
+1951,STATE_1951,669,STATE_669,split,requires_manual,,,owner/controller/core conflict
+1987,STATE_1987,45,STATE_45,split,requires_manual,,,owner/controller/core conflict
+2016,STATE_2016,159,STATE_159,split,requires_manual,,,owner/controller/core conflict
+14,STATE_14,14,STATE_14,split,requires_manual,,,owner/controller/core conflict
+18,STATE_18,1062,STATE_1062,split,requires_manual,,,owner/controller/core conflict
+24,STATE_24,24,STATE_24,merge,requires_manual,,,owner/controller/core conflict
+76,STATE_76,76,STATE_76,split,requires_manual,,,owner/controller/core conflict
+86,STATE_86,86,STATE_86,split,requires_manual,,,owner/controller/core conflict
+94,STATE_94,94,STATE_94,split,requires_manual,,,owner/controller/core conflict
+97,STATE_97,97,STATE_97,split,requires_manual,,,owner/controller/core conflict
+162,STATE_162,162,STATE_162,split,requires_manual,,,owner/controller/core conflict
+204,STATE_204,204,Bobruysk,merge,requires_manual,,,owner/controller/core conflict
+206,STATE_206,206,STATE_206,merge,requires_manual,,,owner/controller/core conflict
+231,STATE_231,231,STATE_231,split,requires_manual,,,owner/controller/core conflict
+234,STATE_234,234,STATE_234,same_id_same_area,requires_manual,,,owner/controller/core conflict
+352,STATE_352,352,STATE_352,merge,requires_manual,,,owner/controller/core conflict
+354,STATE_354,354,STATE_354,split,requires_manual,,,owner/controller/core conflict
+443,STATE_443,443,Sind,split,requires_manual,,,owner/controller/core conflict
+454,STATE_454,454,Palestine,split,requires_manual,,,owner/controller/core conflict
+513,STATE_513,513,Tlmecen,merge,requires_manual,,,owner/controller/core conflict
+641,STATE_641,641,STATE_641,split,requires_manual,,,owner/controller/core conflict
+679,STATE_679,856,STATE_856,merge,requires_manual,,,owner/controller/core conflict
+714,STATE_714,714,STATE_714,merge,requires_manual,,,owner/controller/core conflict
+715,STATE_715,715,STATE_715,merge,requires_manual,,,owner/controller/core conflict
+754,STATE_754,754,STATE_754,split,requires_manual,,,owner/controller/core conflict
+756,STATE_756,1044,STATE_1044,split,requires_manual,,,owner/controller/core conflict
+761,STATE_761,761,STATE_761,merge,requires_manual,,,owner/controller/core conflict
+819,STATE_819,24,STATE_24,split,requires_manual,,,owner/controller/core conflict
+820,STATE_820,31,STATE_31,split,requires_manual,,,owner/controller/core conflict
+868,STATE_868,45,STATE_45,split,requires_manual,,,owner/controller/core conflict
+879,STATE_879,814,STATE_814,split,requires_manual,,,owner/controller/core conflict
+898,STATE_898,774,STATE_774,split,requires_manual,,,owner/controller/core conflict
+925,STATE_925,78,STATE_78,split,requires_manual,,,owner/controller/core conflict
+933,STATE_933,95,STATE_95,split,requires_manual,,,owner/controller/core conflict
+934,STATE_934,102,STATE_102,split,requires_manual,,,owner/controller/core conflict
+935,STATE_935,102,STATE_102,split,requires_manual,,,owner/controller/core conflict
+942,STATE_942,801,STATE_801,split,requires_manual,,,owner/controller/core conflict
+959,STATE_959,353,STATE_353,merge,requires_manual,,,owner/controller/core conflict
+960,STATE_960,352,STATE_352,merge,requires_manual,,,owner/controller/core conflict
+987,STATE_987,159,STATE_159,split,requires_manual,,,owner/controller/core conflict
+992,STATE_992,849,STATE_849,split,requires_manual,,,owner/controller/core conflict
+1074,STATE_1074,670,STATE_670,split,requires_manual,,,owner/controller/core conflict
+1076,STATE_1076,1090,STATE_1090,split,requires_manual,,,owner/controller/core conflict
+1077,STATE_1077,1090,STATE_1090,split,requires_manual,,,owner/controller/core conflict
+1113,STATE_1113,842,STATE_842,same_name,requires_manual,,,owner/controller/core conflict
+1116,STATE_1116,1056,STATE_1056,split,requires_manual,,,owner/controller/core conflict
+1122,STATE_1122,406,Gurev,split,requires_manual,,,owner/controller/core conflict
+1123,STATE_1123,407,STATE_407,split,requires_manual,,,owner/controller/core conflict
+1124,STATE_1124,443,Sind,merge,requires_manual,,,owner/controller/core conflict
+1138,STATE_1138,831,Khiva,split,requires_manual,,,owner/controller/core conflict
+1163,Karma,241,Gomel,split,requires_manual,,,owner/controller/core conflict
+1170,STATE_1170,207,STATE_207,split,requires_manual,,,owner/controller/core conflict
+1171,STATE_1171,732,STATE_732,split,requires_manual,,,owner/controller/core conflict
+1180,STATE_1180,91,Lwow,split,requires_manual,,,owner/controller/core conflict
+1184,STATE_1184,18,STATE_18,split,requires_manual,,,owner/controller/core conflict
+1192,STATE_1192,94,STATE_94,split,requires_manual,,,owner/controller/core conflict
+1201,STATE_1201,76,STATE_76,split,requires_manual,,,owner/controller/core conflict
+1205,STATE_1205,95,STATE_95,split,requires_manual,,,owner/controller/core conflict
+1227,STATE_1227,231,STATE_231,split,requires_manual,,,owner/controller/core conflict
+1241,STATE_1241,554,STATE_554,split,requires_manual,,,owner/controller/core conflict
+1268,STATE_1268,30,STATE_30,split,requires_manual,,,owner/controller/core conflict
+1276,STATE_1276,907,STATE_907,split,requires_manual,,,owner/controller/core conflict
+1279,STATE_1279,456,Aswan,split,requires_manual,,,owner/controller/core conflict
+1285,STATE_1285,547,STATE_547,split,requires_manual,,,owner/controller/core conflict
+1288,STATE_1288,453,STATE_453,split,requires_manual,,,owner/controller/core conflict
+1293,STATE_1293,815,STATE_815,merge,requires_manual,,,owner/controller/core conflict
+1305,STATE_1305,755,STATE_755,split,requires_manual,,,owner/controller/core conflict
+1306,STATE_1306,759,STATE_759,merge,requires_manual,,,owner/controller/core conflict
+1352,STATE_1352,806,STATE_806,split,requires_manual,,,owner/controller/core conflict
+1353,STATE_1353,806,STATE_806,split,requires_manual,,,owner/controller/core conflict
+1367,STATE_1367,230,STATE_230,split,requires_manual,,,owner/controller/core conflict
+1368,STATE_1368,146,KARJALA,split,requires_manual,,,owner/controller/core conflict
+1375,STATE_1375,95,STATE_95,split,requires_manual,,,owner/controller/core conflict
+1383,STATE_1383,96,STATE_96,split,requires_manual,,,owner/controller/core conflict
+1386,STATE_1386,91,Lwow,split,requires_manual,,,owner/controller/core conflict
+1393,STATE_1393,420,STATE_420,split,requires_manual,,,owner/controller/core conflict
+1409,STATE_1409,5,STATE_5,split,requires_manual,,,owner/controller/core conflict
+1441,STATE_1441,95,STATE_95,split,requires_manual,,,owner/controller/core conflict
+1445,STATE_1445,228,Voroshilovgrad,split,requires_manual,,,owner/controller/core conflict
+1450,STATE_1450,102,STATE_102,split,requires_manual,,,owner/controller/core conflict
+1457,STATE_1457,153,STATE_153,split,requires_manual,,,owner/controller/core conflict
+1459,STATE_1459,584,STATE_584,split,requires_manual,,,owner/controller/core conflict
+1460,STATE_1460,584,STATE_584,split,requires_manual,,,owner/controller/core conflict
+1461,STATE_1461,584,STATE_584,split,requires_manual,,,owner/controller/core conflict
+1466,STATE_1466,584,STATE_584,split,requires_manual,,,owner/controller/core conflict
+1489,STATE_1489,405,Tashkent,split,requires_manual,,,owner/controller/core conflict
+1493,STATE_1493,773,Cameroon,split,requires_manual,,,owner/controller/core conflict
+1507,STATE_1507,1054,STATE_1054,split,requires_manual,,,owner/controller/core conflict
+1531,STATE_1531,545,STATE_545,split,requires_manual,,,owner/controller/core conflict
+1545,STATE_1545,998,STATE_998,split,requires_manual,,,owner/controller/core conflict
+1553,STATE_1553,91,Lwow,split,requires_manual,,,owner/controller/core conflict
+1557,STATE_1557,94,STATE_94,split,requires_manual,,,owner/controller/core conflict
+1563,STATE_1563,784,STATE_784,split,requires_manual,,,owner/controller/core conflict
+1569,Arabian Desert,457,Arabian Desert,split,requires_manual,,,owner/controller/core conflict
+1572,STATE_1572,928,KYME,split,requires_manual,,,owner/controller/core conflict
+1587,STATE_1587,98,STATE_98,split,requires_manual,,,owner/controller/core conflict
+1590,STATE_1590,93,STATE_93,split,requires_manual,,,owner/controller/core conflict
+1620,STATE_1620,207,STATE_207,split,requires_manual,,,owner/controller/core conflict
+1624,STATE_1624,198,STATE_198,split,requires_manual,,,owner/controller/core conflict
+1656,STATE_1656,95,STATE_95,split,requires_manual,,,owner/controller/core conflict
+1659,STATE_1659,332,STATE_332,split,requires_manual,,,owner/controller/core conflict
+1678,STATE_1678,356,Kastamonu,split,requires_manual,,,owner/controller/core conflict
+1738,STATE_1738,618,Dzungaria,split,requires_manual,,,owner/controller/core conflict
+1749,STATE_1749,747,STATE_747,split,requires_manual,,,owner/controller/core conflict
+1768,STATE_1768,91,Lwow,split,requires_manual,,,owner/controller/core conflict
+1769,STATE_1769,89,STATE_89,split,requires_manual,,,owner/controller/core conflict
+1771,STATE_1771,199,STATE_199,split,requires_manual,,,owner/controller/core conflict
+1772,STATE_1772,199,STATE_199,split,requires_manual,,,owner/controller/core conflict
+1774,Gomel,241,Gomel,split,requires_manual,,,owner/controller/core conflict
+1777,STATE_1777,755,STATE_755,split,requires_manual,,,owner/controller/core conflict
+1778,STATE_1778,754,STATE_754,split,requires_manual,,,owner/controller/core conflict
+1781,STATE_1781,754,STATE_754,split,requires_manual,,,owner/controller/core conflict
+1811,STATE_1811,5,STATE_5,split,requires_manual,,,owner/controller/core conflict
+1828,STATE_1828,404,Kyzyl Orda,split,requires_manual,,,owner/controller/core conflict
+1840,STATE_1840,877,Verkhoyansk,merge,requires_manual,,,owner/controller/core conflict
+1847,STATE_1847,855,STATE_855,merge,requires_manual,,,owner/controller/core conflict
+1879,STATE_1879,988,STATE_988,split,requires_manual,,,owner/controller/core conflict
+1923,STATE_1923,887,STATE_887,merge,requires_manual,,,owner/controller/core conflict
+1924,STATE_1924,778,Upper Volta,split,requires_manual,,,owner/controller/core conflict
+1925,STATE_1925,778,Upper Volta,split,requires_manual,,,owner/controller/core conflict
+1937,STATE_1937,665,STATE_665,split,requires_manual,,,owner/controller/core conflict
+1961,STATE_1961,770,STATE_770,split,requires_manual,,,owner/controller/core conflict
+1988,STATE_1988,764,STATE_764,split,requires_manual,,,owner/controller/core conflict
+1993,STATE_1993,207,STATE_207,split,requires_manual,,,owner/controller/core conflict
+1994,STATE_1994,207,STATE_207,split,requires_manual,,,owner/controller/core conflict
+1995,STATE_1995,194,Mozyr,split,requires_manual,,,owner/controller/core conflict
+1996,STATE_1996,201,STATE_201,split,requires_manual,,,owner/controller/core conflict
+1997,STATE_1997,784,STATE_784,split,requires_manual,,,owner/controller/core conflict
+2002,STATE_2002,341,STATE_341,split,requires_manual,,,owner/controller/core conflict
+16,STATE_16,16,STATE_16,merge,requires_manual,,,owner/controller/core conflict
+30,STATE_30,30,STATE_30,split,requires_manual,,,owner/controller/core conflict
+45,STATE_45,45,STATE_45,split,requires_manual,,,owner/controller/core conflict
+73,STATE_73,73,STATE_73,split,requires_manual,,,owner/controller/core conflict
+78,STATE_78,78,STATE_78,split,requires_manual,,,owner/controller/core conflict
+91,Lwow,91,Lwow,merge,requires_manual,,,owner/controller/core conflict
+93,STATE_93,93,STATE_93,split,requires_manual,,,owner/controller/core conflict
+95,STATE_95,95,STATE_95,merge,requires_manual,,,owner/controller/core conflict
+96,STATE_96,96,STATE_96,merge,requires_manual,,,owner/controller/core conflict
+98,STATE_98,98,STATE_98,split,requires_manual,,,owner/controller/core conflict
+111,Uusimaa,111,UUSIMA,split,requires_manual,,,owner/controller/core conflict
+153,STATE_153,153,STATE_153,merge,requires_manual,,,owner/controller/core conflict
+157,STATE_157,157,STATE_157,split,requires_manual,,,owner/controller/core conflict
+159,STATE_159,159,STATE_159,split,requires_manual,,,owner/controller/core conflict
+193,STATE_193,193,Chernihiv,split,requires_manual,,,owner/controller/core conflict
+194,Mozyr,194,Mozyr,split,requires_manual,,,owner/controller/core conflict
+198,STATE_198,198,STATE_198,split,requires_manual,,,owner/controller/core conflict
+201,STATE_201,201,STATE_201,merge,requires_manual,,,owner/controller/core conflict
+225,STATE_225,225,Sumy,merge,requires_manual,,,owner/controller/core conflict
+230,STATE_230,230,STATE_230,split,requires_manual,,,owner/controller/core conflict
+259,STATE_259,259,Poltava,merge,requires_manual,,,owner/controller/core conflict
+297,Malabo,297,Equatorial Guinea,split,requires_manual,,,owner/controller/core conflict
+353,STATE_353,800,Van,split,requires_manual,,,owner/controller/core conflict
+405,STATE_405,405,Tashkent,split,requires_manual,,,owner/controller/core conflict
+453,STATE_453,453,STATE_453,split,requires_manual,,,owner/controller/core conflict
+541,STATE_541,893,STATE_893,merge,requires_manual,,,owner/controller/core conflict
+547,STATE_547,904,STATE_904,merge,requires_manual,,,owner/controller/core conflict
+549,STATE_549,549,"Kurdufan / was ""Sudan""",split,requires_manual,,,owner/controller/core conflict
+552,STATE_552,552,STATE_552,merge,requires_manual,,,owner/controller/core conflict
+554,STATE_554,554,STATE_554,split,requires_manual,,,owner/controller/core conflict
+585,STATE_585,585,Navoiy,merge,requires_manual,,,owner/controller/core conflict
+604,STATE_604,604,STATE_604,split,requires_manual,,,owner/controller/core conflict
+611,STATE_611,611,South Chahar,merge,requires_manual,,,owner/controller/core conflict
+618,STATE_618,618,Dzungaria,split,requires_manual,,,owner/controller/core conflict
+659,STATE_659,659,STATE_659,merge,requires_manual,,,owner/controller/core conflict
+662,STATE_662,662,STATE_662,merge,requires_manual,,,owner/controller/core conflict
+665,STATE_665,665,STATE_665,split,requires_manual,,,owner/controller/core conflict
+668,STATE_668,668,STATE_668,split,requires_manual,,,owner/controller/core conflict
+747,STATE_747,747,STATE_747,split,requires_manual,,,owner/controller/core conflict
+755,STATE_755,755,STATE_755,merge,requires_manual,,,owner/controller/core conflict
+759,STATE_759,1042,STATE_1042,split,requires_manual,,,owner/controller/core conflict
+773,Cameroon,773,Cameroon,split,requires_manual,,,owner/controller/core conflict
+870,STATE_870,803,STATE_803,split,requires_manual,,,owner/controller/core conflict
+918,STATE_918,979,STATE_979,merge,requires_manual,,,owner/controller/core conflict
+993,STATE_993,736,Name was Istria before the Pola (Istria) split and merge with Fiume,split,requires_manual,,,owner/controller/core conflict
+994,STATE_994,947,STATE_947,same_name,requires_manual,,,owner/controller/core conflict
+998,STATE_998,273,Libyan Desert,split,requires_manual,,,owner/controller/core conflict
+1002,STATE_1002,826,STATE_826,split,requires_manual,,,owner/controller/core conflict
+1042,STATE_1042,994,STATE_994,split,requires_manual,,,owner/controller/core conflict
+1057,STATE_1057,895,STATE_895,split,requires_manual,,,owner/controller/core conflict
+1070,STATE_1070,663,STATE_663,split,requires_manual,,,owner/controller/core conflict
+1071,STATE_1071,273,Libyan Desert,split,requires_manual,,,owner/controller/core conflict
+1072,STATE_1072,273,Libyan Desert,split,requires_manual,,,owner/controller/core conflict
+1085,STATE_1085,1089,STATE_1089,merge,requires_manual,,,owner/controller/core conflict
+1125,STATE_1125,193,Chernihiv,split,requires_manual,,,owner/controller/core conflict
+1140,STATE_1140,341,STATE_341,split,requires_manual,,,owner/controller/core conflict
+1144,STATE_1144,273,Libyan Desert,split,requires_manual,,,owner/controller/core conflict
+1145,STATE_1145,273,Libyan Desert,split,requires_manual,,,owner/controller/core conflict
+1146,STATE_1146,273,Libyan Desert,split,requires_manual,,,owner/controller/core conflict
+1173,STATE_1173,786,Mauritanian Desert,split,requires_manual,,,owner/controller/core conflict
+1178,STATE_1178,98,STATE_98,split,requires_manual,,,owner/controller/core conflict
+1187,STATE_1187,884,Upper Nile,merge,requires_manual,,,owner/controller/core conflict
+1194,STATE_1194,1063,STATE_1063,split,requires_manual,,,owner/controller/core conflict
+1198,STATE_1198,1064,STATE_1064,split,requires_manual,,,owner/controller/core conflict
+1234,STATE_1234,1075,STATE_1075,same_name,requires_manual,,,owner/controller/core conflict
+1237,STATE_1237,446,Suez,split,requires_manual,,,owner/controller/core conflict
+1248,STATE_1248,421,STATE_421,split,requires_manual,,,owner/controller/core conflict
+1286,STATE_1286,903,STATE_903,split,requires_manual,,,owner/controller/core conflict
+1287,STATE_1287,903,STATE_903,split,requires_manual,,,owner/controller/core conflict
+1292,STATE_1292,1056,STATE_1056,split,requires_manual,,,owner/controller/core conflict
+1298,STATE_1298,659,STATE_659,split,requires_manual,,,owner/controller/core conflict
+1318,STATE_1318,618,Dzungaria,split,requires_manual,,,owner/controller/core conflict
+1319,STATE_1319,786,Mauritanian Desert,split,requires_manual,,,owner/controller/core conflict
+1321,STATE_1321,30,STATE_30,split,requires_manual,,,owner/controller/core conflict
+1327,STATE_1327,662,STATE_662,split,requires_manual,,,owner/controller/core conflict
+1345,STATE_1345,514,Algerian Desert,split,requires_manual,,,owner/controller/core conflict
+1354,STATE_1354,848,STATE_848,split,requires_manual,,,owner/controller/core conflict
+1356,STATE_1356,641,STATE_641,split,requires_manual,,,owner/controller/core conflict
+1458,STATE_1458,102,STATE_102,split,requires_manual,,,owner/controller/core conflict
+1464,STATE_1464,830,Bukhara,split,requires_manual,,,owner/controller/core conflict
+1465,STATE_1465,832,STATE_832,split,requires_manual,,,owner/controller/core conflict
+1471,Mozyr,194,Mozyr,split,requires_manual,,,owner/controller/core conflict
+1524,STATE_1524,515,STATE_515,split,requires_manual,,,owner/controller/core conflict
+1544,STATE_1544,894,STATE_894,merge,requires_manual,,,owner/controller/core conflict
+1568,STATE_1568,855,STATE_855,split,requires_manual,,,owner/controller/core conflict
+1625,STATE_1625,1054,STATE_1054,split,requires_manual,,,owner/controller/core conflict
+1666,STATE_1666,1074,STATE_1074,same_name,requires_manual,,,owner/controller/core conflict
+1743,STATE_1743,604,STATE_604,split,requires_manual,,,owner/controller/core conflict
+1785,STATE_1785,756,STATE_756,split,requires_manual,,,owner/controller/core conflict
+1825,STATE_1825,659,STATE_659,split,requires_manual,,,owner/controller/core conflict
+1860,STATE_1860,390,STATE_390,split,requires_manual,,,owner/controller/core conflict
+1880,STATE_1880,1012,STATE_1012,split,requires_manual,,,owner/controller/core conflict
+1936,STATE_1936,665,STATE_665,split,requires_manual,,,owner/controller/core conflict
+1939,STATE_1939,78,STATE_78,split,requires_manual,,,owner/controller/core conflict
+1950,STATE_1950,669,STATE_669,split,requires_manual,,,owner/controller/core conflict
+1977,STATE_1977,715,STATE_715,split,requires_manual,,,owner/controller/core conflict
+1992,STATE_1992,814,STATE_814,split,requires_manual,,,owner/controller/core conflict
+2039,STATE_2039,1062,STATE_1062,split,requires_manual,,,owner/controller/core conflict
+5,STATE_5,5,STATE_5,split,requires_manual,,,owner/controller/core conflict
+87,STATE_87,87,STATE_87,split,requires_manual,,,owner/controller/core conflict
+89,STATE_89,89,STATE_89,split,requires_manual,,,owner/controller/core conflict
+102,STATE_102,853,STATE_853,same_name,requires_manual,,,owner/controller/core conflict
+115,STATE_115,115,STATE_115,same_id_same_area,requires_manual,,,owner/controller/core conflict
+182,STATE_182,182,STATE_182,split,requires_manual,,,owner/controller/core conflict
+190,STATE_190,190,STATE_190,merge,requires_manual,,,owner/controller/core conflict
+192,STATE_192,192,STATE_192,merge,requires_manual,,,owner/controller/core conflict
+199,STATE_199,199,STATE_199,split,requires_manual,,,owner/controller/core conflict
+203,STATE_203,203,STATE_203,split,requires_manual,,,owner/controller/core conflict
+207,STATE_207,207,STATE_207,split,requires_manual,,,owner/controller/core conflict
+228,Voroshilovgrad,228,Voroshilovgrad,split,requires_manual,,,owner/controller/core conflict
+233,STATE_233,233,STATE_233,same_id_same_area,requires_manual,,,owner/controller/core conflict
+241,Gomel,241,Gomel,split,requires_manual,,,owner/controller/core conflict
+243,STATE_243,243,STATE_243,same_name,requires_manual,,,owner/controller/core conflict
+256,STATE_256,833,STATE_833,same_name,requires_manual,,,owner/controller/core conflict
+273,STATE_273,273,Libyan Desert,split,requires_manual,,,owner/controller/core conflict
+283,STATE_283,1045,STATE_1045,same_name,requires_manual,,,owner/controller/core conflict
+332,STATE_332,332,STATE_332,split,requires_manual,,,owner/controller/core conflict
+341,STATE_341,797,STATE_797,same_name,requires_manual,,,owner/controller/core conflict
+350,STATE_350,1060,STATE_1060,same_name,requires_manual,,,owner/controller/core conflict
+351,STATE_351,351,Vologda,province_overlap,requires_manual,,,owner/controller/core conflict
+355,STATE_355,355,STATE_355,split,requires_manual,,,owner/controller/core conflict
+384,STATE_384,384,STATE_384,split,requires_manual,,,owner/controller/core conflict
+406,STATE_406,406,Gurev,split,requires_manual,,,owner/controller/core conflict
+407,STATE_407,407,STATE_407,split,requires_manual,,,owner/controller/core conflict
+410,STATE_410,410,STATE_410,split,requires_manual,,,owner/controller/core conflict
+440,STATE_440,440,STATE_440,same_id_same_area,requires_manual,,,owner/controller/core conflict
+445,STATE_445,445,STATE_445,merge,requires_manual,,,owner/controller/core conflict
+449,STATE_449,449,El Agheila,split,requires_manual,,,owner/controller/core conflict
+450,STATE_450,450,STATE_450,merge,requires_manual,,,owner/controller/core conflict
+452,STATE_452,452,STATE_452,split,requires_manual,,,owner/controller/core conflict
+457,Arabian Desert,457,Arabian Desert,split,requires_manual,,,owner/controller/core conflict
+460,STATE_460,460,Constantine,merge,requires_manual,,,owner/controller/core conflict
+463,STATE_463,463,STATE_463,split,requires_manual,,,owner/controller/core conflict
+475,STATE_475,475,STATE_475,split,requires_manual,,,owner/controller/core conflict
+490,STATE_490,490,STATE_490,same_id_same_area,requires_manual,,,owner/controller/core conflict
+514,STATE_514,514,Algerian Desert,split,requires_manual,,,owner/controller/core conflict
+515,STATE_515,515,STATE_515,split,requires_manual,,,owner/controller/core conflict
+545,STATE_545,545,STATE_545,split,requires_manual,,,owner/controller/core conflict
+551,STATE_551,551,STATE_551,merge,requires_manual,,,owner/controller/core conflict
+553,STATE_553,553,STATE_553,split,requires_manual,,,owner/controller/core conflict
+561,STATE_561,561,Amur,split,requires_manual,,,owner/controller/core conflict
+562,Okhotsk,562,Okhotsk,merge,requires_manual,,,owner/controller/core conflict
+566,Irktusk,566,Irktusk,same_id_same_area,requires_manual,,,owner/controller/core conflict
+572,Chelyabinsk,572,Chelyabinsk,same_id_same_area,requires_manual,,,owner/controller/core conflict
+583,STATE_583,583,STATE_583,split,requires_manual,,,owner/controller/core conflict
+584,STATE_584,584,STATE_584,split,requires_manual,,,owner/controller/core conflict
+598,STATE_598,598,STATE_598,same_name,requires_manual,,,owner/controller/core conflict
+603,STATE_603,603,STATE_603,same_id_same_area,requires_manual,,,owner/controller/core conflict
+608,STATE_608,608,STATE_608,same_id_same_area,requires_manual,,,owner/controller/core conflict
+644,STATE_644,644,Kolyma,merge,requires_manual,,,owner/controller/core conflict
+661,STATE_661,661,STATE_661,split,requires_manual,,,owner/controller/core conflict
+663,STATE_663,663,STATE_663,split,requires_manual,,,owner/controller/core conflict
+670,STATE_670,670,STATE_670,split,requires_manual,,,owner/controller/core conflict
+674,STATE_674,1096,STATE_1096,same_name,requires_manual,,,owner/controller/core conflict
+680,STATE_680,680,STATE_680,merge,requires_manual,,,owner/controller/core conflict
+699,STATE_699,699,STATE_699,split,requires_manual,,,owner/controller/core conflict
+717,STATE_717,717,STATE_717,split,requires_manual,,,owner/controller/core conflict
+726,STATE_726,726,STATE_726,same_id_same_area,requires_manual,,,owner/controller/core conflict
+732,STATE_732,732,STATE_732,split,requires_manual,,,owner/controller/core conflict
+735,STATE_735,1066,STATE_1066,same_name,requires_manual,,,owner/controller/core conflict
+738,STATE_738,738,STATE_738,same_id_same_area,requires_manual,,,owner/controller/core conflict
+741,STATE_741,741,STATE_741,split,requires_manual,,,owner/controller/core conflict
+760,STATE_760,760,STATE_760,split,requires_manual,,,owner/controller/core conflict
+763,STATE_763,763,STATE_763,split,requires_manual,,,owner/controller/core conflict
+764,STATE_764,764,STATE_764,split,requires_manual,,,owner/controller/core conflict
+766,STATE_766,766,STATE_766,split,requires_manual,,,owner/controller/core conflict
+770,STATE_770,770,STATE_770,split,requires_manual,,,owner/controller/core conflict
+774,STATE_774,774,STATE_774,split,requires_manual,,,owner/controller/core conflict
+778,Upper Volta,778,Upper Volta,split,requires_manual,,,owner/controller/core conflict
+780,Guinea,780,Guinea,split,requires_manual,,,owner/controller/core conflict
+784,STATE_784,784,STATE_784,split,requires_manual,,,owner/controller/core conflict
+786,STATE_786,786,Mauritanian Desert,split,requires_manual,,,owner/controller/core conflict
+787,STATE_787,787,Northern Kashmir,province_overlap,requires_manual,,,owner/controller/core conflict
+805,STATE_805,910,STATE_910,same_name,requires_manual,,,owner/controller/core conflict
+812,STATE_812,1047,STATE_1047,same_name,requires_manual,,,owner/controller/core conflict
+818,STATE_818,1065,STATE_1065,same_name,requires_manual,,,owner/controller/core conflict
+826,STATE_826,1014,STATE_1014,same_name,requires_manual,,,owner/controller/core conflict
+877,STATE_877,799,STATE_799,same_name,requires_manual,,,owner/controller/core conflict
+882,STATE_882,811,STATE_811,same_name,requires_manual,,,owner/controller/core conflict
+897,STATE_897,914,STATE_914,same_name,requires_manual,,,owner/controller/core conflict
+919,STATE_919,871,STATE_871,same_name,requires_manual,,,owner/controller/core conflict
+920,STATE_920,870,STATE_870,same_name,requires_manual,,,owner/controller/core conflict
+936,STATE_936,1049,Prekmurje,province_overlap,requires_manual,,,owner/controller/core conflict
+938,STATE_938,940,STATE_940,same_name,requires_manual,,,owner/controller/core conflict
+947,STATE_947,1051,STATE_1051,same_name,requires_manual,,,owner/controller/core conflict
+961,STATE_961,1059,STATE_1059,same_name,requires_manual,,,owner/controller/core conflict
+974,STATE_974,967,STATE_967,same_name,requires_manual,,,owner/controller/core conflict
+980,STATE_980,1021,STATE_1021,same_name,requires_manual,,,owner/controller/core conflict
+1027,STATE_1027,1038,STATE_1038,same_name,requires_manual,,,owner/controller/core conflict
+1028,STATE_1028,1034,STATE_1034,same_name,requires_manual,,,owner/controller/core conflict
+1035,STATE_1035,1092,STATE_1092,same_name,requires_manual,,,owner/controller/core conflict
+1039,STATE_1039,906,STATE_906,same_name,requires_manual,,,owner/controller/core conflict
+1051,STATE_1051,789,STATE_789,same_name,requires_manual,,,owner/controller/core conflict
+1073,STATE_1073,1091,STATE_1091,same_name,requires_manual,,,owner/controller/core conflict
+1082,STATE_1082,286,STATE_286,same_name,requires_manual,,,owner/controller/core conflict
+1087,STATE_1087,844,STATE_844,same_name,requires_manual,,,owner/controller/core conflict
+1109,STATE_1109,948,STATE_948,same_name,requires_manual,,,owner/controller/core conflict
+1147,STATE_1147,962,STATE_962,same_name,requires_manual,,,owner/controller/core conflict
+1188,STATE_1188,1057,STATE_1057,same_name,requires_manual,,,owner/controller/core conflict
+1191,STATE_1191,1013,STATE_1013,same_name,requires_manual,,,owner/controller/core conflict
+1254,STATE_1254,1024,STATE_1024,same_name,requires_manual,,,owner/controller/core conflict
+1269,STATE_1269,1076,STATE_1076,same_name,requires_manual,,,owner/controller/core conflict
+1295,STATE_1295,1050,STATE_1050,same_name,requires_manual,,,owner/controller/core conflict
+1307,STATE_1307,1032,STATE_1032,same_name,requires_manual,,,owner/controller/core conflict
+1311,STATE_1311,605,STATE_605,same_name,requires_manual,,,owner/controller/core conflict
+1523,STATE_1523,1043,STATE_1043,same_name,requires_manual,,,owner/controller/core conflict
+1751,STATE_1751,1046,STATE_1046,same_name,requires_manual,,,owner/controller/core conflict
+1773,STATE_1773,1087,STATE_1087,same_name,requires_manual,,,owner/controller/core conflict
+1780,STATE_1780,283,STATE_283,same_name,requires_manual,,,owner/controller/core conflict
+1814,Mali (previously French West Africa),899,STATE_899,province_overlap,requires_manual,,,owner/controller/core conflict
+1815,Mali (previously French West Africa),898,STATE_898,province_overlap,requires_manual,,,owner/controller/core conflict
+1931,STATE_1931,1078,STATE_1078,same_name,requires_manual,,,owner/controller/core conflict
+1968,STATE_1968,827,STATE_827,same_name,requires_manual,,,owner/controller/core conflict
+1970,STATE_1970,163,STATE_163,same_name,requires_manual,,,owner/controller/core conflict
+1,Corsica,1,Corsica,same_id_same_area,requires_manual,,,owner/controller/core conflict
+15,STATE_15,15,STATE_15,same_id_same_area,requires_manual,,,owner/controller/core conflict
+37,STATE_37,37,STATE_37,same_id_same_area,requires_manual,,,owner/controller/core conflict
+40,Barnaul,40,Barnaul,same_id_same_area,requires_manual,,,owner/controller/core conflict
+75,STATE_75,75,STATE_75,same_id_same_area,requires_manual,,,owner/controller/core conflict
+77,STATE_77,77,STATE_77,same_id_same_area,requires_manual,,,owner/controller/core conflict
+80,STATE_80,80,STATE_80,same_id_same_area,requires_manual,,,owner/controller/core conflict
+82,STATE_82,82,STATE_82,same_id_same_area,requires_manual,,,owner/controller/core conflict
+83,STATE_83,83,STATE_83,same_id_same_area,requires_manual,,,owner/controller/core conflict
+85,STATE_85,85,STATE_85,same_id_same_area,requires_manual,,,owner/controller/core conflict
+110,STATE_110,110,STATE_110,same_id_same_area,requires_manual,,,owner/controller/core conflict
+114,STATE_114,114,STATE_114,same_id_same_area,requires_manual,,,owner/controller/core conflict
+116,STATE_116,116,STATE_116,same_id_same_area,requires_manual,,,owner/controller/core conflict
+118,STATE_118,118,STATE_118,same_id_same_area,requires_manual,,,owner/controller/core conflict
+145,STATE_145,145,ÅLAND,same_id_same_area,requires_manual,,,owner/controller/core conflict
+147,STATE_147,147,SALLA,same_id_same_area,requires_manual,,,owner/controller/core conflict
+156,STATE_156,156,STATE_156,same_id_same_area,requires_manual,,,owner/controller/core conflict
+164,STATE_164,164,STATE_164,same_id_same_area,requires_manual,,,owner/controller/core conflict
+169,STATE_169,169,STATE_169,same_id_same_area,requires_manual,,,owner/controller/core conflict
+173,STATE_173,173,STATE_173,same_id_same_area,requires_manual,,,owner/controller/core conflict
+186,STATE_186,186,STATE_186,same_id_same_area,requires_manual,,,owner/controller/core conflict
+188,STATE_188,188,STATE_188,same_id_same_area,requires_manual,,,owner/controller/core conflict
+195,STATE_195,195,STATE_195,same_id_same_area,requires_manual,,,owner/controller/core conflict
+200,Zaporozhe,200,Zaporozhe,same_id_same_area,requires_manual,,,owner/controller/core conflict
+205,Kaluga,205,Kaluga,same_id_same_area,requires_manual,,,owner/controller/core conflict
+208,STATE_208,208,Luga,same_id_same_area,requires_manual,,,owner/controller/core conflict
+209,STATE_209,209,Pskov,same_id_same_area,requires_manual,,,owner/controller/core conflict
+210,Nevel,210,Nevel,same_id_same_area,requires_manual,,,owner/controller/core conflict
+213,STATE_213,213,STATE_213,same_id_same_area,requires_manual,,,owner/controller/core conflict
+217,STATE_217,217,STATE_217,same_id_same_area,requires_manual,,,owner/controller/core conflict
+218,STATE_218,218,STATE_218,same_name,requires_manual,,,owner/controller/core conflict
+219,STATE_219,219,STATE_219,same_id_same_area,requires_manual,,,owner/controller/core conflict
+220,STATE_220,220,STATE_220,same_id_same_area,requires_manual,,,owner/controller/core conflict
+222,STATE_222,222,STATE_222,same_id_same_area,requires_manual,,,owner/controller/core conflict
+223,STATE_223,223,STATE_223,same_id_same_area,requires_manual,,,owner/controller/core conflict
+224,STATE_224,224,STATE_224,same_id_same_area,requires_manual,,,owner/controller/core conflict
+235,STATE_235,235,STATE_235,same_id_same_area,requires_manual,,,owner/controller/core conflict
+236,STATE_236,236,STATE_236,same_id_same_area,requires_manual,,,owner/controller/core conflict
+237,STATE_237,237,STATE_237,same_id_same_area,requires_manual,,,owner/controller/core conflict
+238,STATE_238,238,STATE_238,same_id_same_area,requires_manual,,,owner/controller/core conflict
+239,STATE_239,239,STATE_239,same_id_same_area,requires_manual,,,owner/controller/core conflict
+240,Belgorod,240,Belgorod,same_id_same_area,requires_manual,,,owner/controller/core conflict
+244,STATE_244,244,Volkhov,same_id_same_area,requires_manual,,,owner/controller/core conflict
+245,STATE_245,245,Millerovo,same_id_same_area,requires_manual,,,owner/controller/core conflict
+246,STATE_246,246,STATE_246,same_id_same_area,requires_manual,,,owner/controller/core conflict
+247,STATE_247,247,STATE_247,same_id_same_area,requires_manual,,,owner/controller/core conflict
+248,STATE_248,248,STATE_248,same_id_same_area,requires_manual,,,owner/controller/core conflict
+249,STATE_249,249,STATE_249,same_id_same_area,requires_manual,,,owner/controller/core conflict
+250,STATE_250,250,STATE_250,same_id_same_area,requires_manual,,,owner/controller/core conflict
+251,STATE_251,251,STATE_251,same_id_same_area,requires_manual,,,owner/controller/core conflict
+252,STATE_252,252,STATE_252,same_id_same_area,requires_manual,,,owner/controller/core conflict
+253,STATE_253,253,STATE_253,same_id_same_area,requires_manual,,,owner/controller/core conflict
+254,STATE_254,254,STATE_254,same_id_same_area,requires_manual,,,owner/controller/core conflict
+255,STATE_255,255,STATE_255,same_id_same_area,requires_manual,,,owner/controller/core conflict
+257,Tambov,257,Tambov,same_id_same_area,requires_manual,,,owner/controller/core conflict
+258,STATE_258,258,STATE_258,same_id_same_area,requires_manual,,,owner/controller/core conflict
+260,Voronezh,260,Voronezh,same_id_same_area,requires_manual,,,owner/controller/core conflict
+263,STATE_263,263,STATE_263,same_name,requires_manual,,,owner/controller/core conflict
+264,STATE_264,264,STATE_264,same_id_same_area,requires_manual,,,owner/controller/core conflict
+265,STATE_265,265,STATE_265,same_id_same_area,requires_manual,,,owner/controller/core conflict
+268,STATE_268,268,STATE_268,same_id_same_area,requires_manual,,,owner/controller/core conflict
+269,STATE_269,269,STATE_269,same_id_same_area,requires_manual,,,owner/controller/core conflict
+287,STATE_287,287,STATE_287,same_id_same_area,requires_manual,,,owner/controller/core conflict
+310,STATE_310,310,STATE_310,same_id_same_area,requires_manual,,,owner/controller/core conflict
+320,STATE_320,320,STATE_320,same_id_same_area,requires_manual,,,owner/controller/core conflict
+321,STATE_321,321,STATE_321,same_id_same_area,requires_manual,,,owner/controller/core conflict
+326,STATE_326,326,STATE_326,same_id_same_area,requires_manual,,,owner/controller/core conflict
+329,STATE_329,329,STATE_329,same_id_same_area,requires_manual,,,owner/controller/core conflict
+331,STATE_331,331,STATE_331,same_id_same_area,requires_manual,,,owner/controller/core conflict
+398,STATE_398,398,STATE_398,same_id_same_area,requires_manual,,,owner/controller/core conflict
+399,STATE_399,399,STATE_399,same_id_same_area,requires_manual,,,owner/controller/core conflict
+400,STATE_400,400,STATE_400,same_id_same_area,requires_manual,,,owner/controller/core conflict
+401,STATE_401,401,Balakovo,same_id_same_area,requires_manual,,,owner/controller/core conflict
+403,Tyumen,403,Tyumen,same_id_same_area,requires_manual,,,owner/controller/core conflict
+423,Madurai,423,STATE_423,same_id_same_area,requires_manual,,,owner/controller/core conflict
+424,Madras,424,Madras,same_id_same_area,requires_manual,,,owner/controller/core conflict
+426,Orissa,426,Orissa,same_id_same_area,requires_manual,,,owner/controller/core conflict
+427,STATE_427,427,STATE_427,same_name,requires_manual,,,owner/controller/core conflict
+428,STATE_428,428,STATE_428,same_id_same_area,requires_manual,,,owner/controller/core conflict
+429,STATE_429,429,Bombay,province_overlap,requires_manual,,,owner/controller/core conflict
+431,STATE_431,431,STATE_431,same_id_same_area,requires_manual,,,owner/controller/core conflict
+433,STATE_433,433,STATE_433,same_id_same_area,requires_manual,,,owner/controller/core conflict
+434,STATE_434,434,STATE_434,same_id_same_area,requires_manual,,,owner/controller/core conflict
+435,STATE_435,435,STATE_435,same_id_same_area,requires_manual,,,owner/controller/core conflict
+436,Jabalpur,436,"Central provinces, was Jabalpur",same_id_same_area,requires_manual,,,owner/controller/core conflict
+437,Indore,437,STATE_437,same_id_same_area,requires_manual,,,owner/controller/core conflict
+438,STATE_438,438,STATE_438,same_id_same_area,requires_manual,,,owner/controller/core conflict
+439,STATE_439,439,STATE_439,same_name,requires_manual,,,owner/controller/core conflict
+441,STATE_441,441,STATE_441,same_id_same_area,requires_manual,,,owner/controller/core conflict
+448,STATE_448,448,STATE_448,same_id_same_area,requires_manual,,,owner/controller/core conflict
+451,STATE_451,451,STATE_451,same_id_same_area,requires_manual,,,owner/controller/core conflict
+455,STATE_455,455,STATE_455,same_id_same_area,requires_manual,,,owner/controller/core conflict
+461,STATE_461,461,STATE_461,same_id_same_area,requires_manual,,,owner/controller/core conflict
+462,STATE_462,462,STATE_462,same_id_same_area,requires_manual,,,owner/controller/core conflict
+483,STATE_483,483,STATE_483,same_id_same_area,requires_manual,,,owner/controller/core conflict
+484,STATE_484,484,STATE_484,same_id_same_area,requires_manual,,,owner/controller/core conflict
+522,STATE_522,522,STATE_522,same_id_same_area,requires_manual,,,owner/controller/core conflict
+524,STATE_524,524,STATE_524,same_id_same_area,requires_manual,,,owner/controller/core conflict
+536,STATE_536,536,STATE_536,same_id_same_area,requires_manual,,,owner/controller/core conflict
+537,STATE_537,537,STATE_537,same_id_same_area,requires_manual,,,owner/controller/core conflict
+539,STATE_539,539,STATE_539,same_id_same_area,requires_manual,,,owner/controller/core conflict
+543,STATE_543,543,STATE_543,same_id_same_area,requires_manual,,,owner/controller/core conflict
+550,STATE_550,550,STATE_550,same_id_same_area,requires_manual,,,owner/controller/core conflict
+555,Kuril Islands,555,Kuril Islands,same_id_same_area,requires_manual,,,owner/controller/core conflict
+556,Mali (previously French West Africa),556,STATE_556,same_id_same_area,requires_manual,,,owner/controller/core conflict
+557,Mauritania,557,Mauritania,same_id_same_area,requires_manual,,,owner/controller/core conflict
+564,Ulan Ude,564,Ulan Ude,same_id_same_area,requires_manual,,,owner/controller/core conflict
+565,Bodaybo,565,Bodaybo,same_name,requires_manual,,,owner/controller/core conflict
+567,STATE_567,567,Bratsk,same_id_same_area,requires_manual,,,owner/controller/core conflict
+568,Krasnoyarsk,568,Krasnoyarsk,same_id_same_area,requires_manual,,,owner/controller/core conflict
+569,Kemerovo,569,Khakassia,same_id_same_area,requires_manual,,,owner/controller/core conflict
+570,Novosibirsk,570,Novosibirsk,same_id_same_area,requires_manual,,,owner/controller/core conflict
+571,Omsk,571,Omsk,same_id_same_area,requires_manual,,,owner/controller/core conflict
+573,Zlatoust,573,Zlatoust,same_name,requires_manual,,,owner/controller/core conflict
+574,STATE_574,574,Yakutsk,same_id_same_area,requires_manual,,,owner/controller/core conflict
+575,Kirensk,575,Kirensk,same_id_same_area,requires_manual,,,owner/controller/core conflict
+576,Yeniseisk,576,Yeniseisk,same_id_same_area,requires_manual,,,owner/controller/core conflict
+577,STATE_577,577,STATE_577,same_id_same_area,requires_manual,,,owner/controller/core conflict
+578,Tomsk,578,Tomsk,same_id_same_area,requires_manual,,,owner/controller/core conflict
+579,Salekhard,579,Salekhard,same_id_same_area,requires_manual,,,owner/controller/core conflict
+580,Tobolsk,580,Tobolsk,same_id_same_area,requires_manual,,,owner/controller/core conflict
+582,STATE_582,582,STATE_582,same_id_same_area,requires_manual,,,owner/controller/core conflict
+587,STATE_587,587,STATE_587,same_id_same_area,requires_manual,,,owner/controller/core conflict
+591,STATE_591,591,STATE_591,same_id_same_area,requires_manual,,,owner/controller/core conflict
+595,STATE_595,595,STATE_595,same_id_same_area,requires_manual,,,owner/controller/core conflict
+596,STATE_596,596,STATE_596,same_id_same_area,requires_manual,,,owner/controller/core conflict
+600,STATE_600,600,STATE_600,same_id_same_area,requires_manual,,,owner/controller/core conflict
+602,STATE_602,602,STATE_602,same_id_same_area,requires_manual,,,owner/controller/core conflict
+606,STATE_606,606,STATE_606,same_id_same_area,requires_manual,,,owner/controller/core conflict
+607,STATE_607,607,STATE_607,same_id_same_area,requires_manual,,,owner/controller/core conflict
+609,STATE_609,609,East Hebei,same_id_same_area,requires_manual,,,owner/controller/core conflict
+613,STATE_613,613,Shanghai,same_id_same_area,requires_manual,,,owner/controller/core conflict
+614,Hebei,614,Hebei,same_id_same_area,requires_manual,,,owner/controller/core conflict
+620,STATE_620,620,STATE_620,same_id_same_area,requires_manual,,,owner/controller/core conflict
+622,STATE_622,622,STATE_622,same_name,requires_manual,,,owner/controller/core conflict
+626,STATE_626,626,STATE_626,same_id_same_area,requires_manual,,,owner/controller/core conflict
+633,STATE_633,633,STATE_633,same_id_same_area,requires_manual,,,owner/controller/core conflict
+634,STATE_634,634,STATE_634,same_id_same_area,requires_manual,,,owner/controller/core conflict
+635,STATE_635,635,STATE_635,same_id_same_area,requires_manual,,,owner/controller/core conflict
+636,STATE_636,636,STATE_636,same_id_same_area,requires_manual,,,owner/controller/core conflict
+637,STATE_637,637,Kamchatka,same_id_same_area,requires_manual,,,owner/controller/core conflict
+639,STATE_639,639,STATE_639,same_id_same_area,requires_manual,,,owner/controller/core conflict
+642,STATE_642,642,STATE_642,same_id_same_area,requires_manual,,,owner/controller/core conflict
+643,STATE_643,643,STATE_643,same_id_same_area,requires_manual,,,owner/controller/core conflict
+646,STATE_646,646,STATE_646,same_id_same_area,requires_manual,,,owner/controller/core conflict
+647,STATE_647,647,STATE_647,same_id_same_area,requires_manual,,,owner/controller/core conflict
+648,STATE_648,648,STATE_648,same_id_same_area,requires_manual,,,owner/controller/core conflict
+650,STATE_650,650,STATE_650,same_id_same_area,requires_manual,,,owner/controller/core conflict
+651,Ufa,651,Ufa,same_id_same_area,requires_manual,,,owner/controller/core conflict
+652,STATE_652,652,STATE_652,same_id_same_area,requires_manual,,,owner/controller/core conflict
+654,Gorno-Altaysk,654,Gorno-Altaysk,same_id_same_area,requires_manual,,,owner/controller/core conflict
+655,STATE_655,655,STATE_655,same_id_same_area,requires_manual,,,owner/controller/core conflict
+657,Birobidzhan,657,Birobidzhan,same_id_same_area,requires_manual,,,owner/controller/core conflict
+658,STATE_658,658,STATE_658,same_id_same_area,requires_manual,,,owner/controller/core conflict
+673,STATE_673,673,STATE_673,same_id_same_area,requires_manual,,,owner/controller/core conflict
+675,STATE_675,675,STATE_675,same_name,requires_manual,,,owner/controller/core conflict
+684,STATE_684,684,STATE_684,same_id_same_area,requires_manual,,,owner/controller/core conflict
+694,STATE_694,694,STATE_694,same_id_same_area,requires_manual,,,owner/controller/core conflict
+700,STATE_700,700,STATE_700,same_id_same_area,requires_manual,,,owner/controller/core conflict
+701,STATE_701,701,STATE_701,same_id_same_area,requires_manual,,,owner/controller/core conflict
+702,STATE_702,702,STATE_702,same_id_same_area,requires_manual,,,owner/controller/core conflict
+705,STATE_705,705,STATE_705,same_id_same_area,requires_manual,,,owner/controller/core conflict
+706,STATE_706,706,STATE_706,same_id_same_area,requires_manual,,,owner/controller/core conflict
+708,STATE_708,708,STATE_708,same_id_same_area,requires_manual,,,owner/controller/core conflict
+711,STATE_711,711,STATE_711,same_id_same_area,requires_manual,,,owner/controller/core conflict
+713,STATE_713,713,STATE_713,same_id_same_area,requires_manual,,,owner/controller/core conflict
+720,STATE_720,720,STATE_720,same_id_same_area,requires_manual,,,owner/controller/core conflict
+721,STATE_721,721,STATE_721,same_id_same_area,requires_manual,,,owner/controller/core conflict
+722,STATE_722,722,PETSAMO,same_id_same_area,requires_manual,,,owner/controller/core conflict
+725,STATE_725,725,STATE_725,same_id_same_area,requires_manual,,,owner/controller/core conflict
+727,STATE_727,727,STATE_727,same_id_same_area,requires_manual,,,owner/controller/core conflict
+728,STATE_728,728,STATE_728,same_id_same_area,requires_manual,,,owner/controller/core conflict
+729,STATE_729,729,STATE_729,same_id_same_area,requires_manual,,,owner/controller/core conflict
+730,STATE_730,730,STATE_730,same_id_same_area,requires_manual,,,owner/controller/core conflict
+733,STATE_733,733,STATE_733,same_id_same_area,requires_manual,,,owner/controller/core conflict
+734,STATE_734,734,STATE_734,same_id_same_area,requires_manual,,,owner/controller/core conflict
+737,STATE_737,737,STATE_737,same_id_same_area,requires_manual,,,owner/controller/core conflict
+743,STATE_743,743,STATE_743,same_id_same_area,requires_manual,,,owner/controller/core conflict
+744,STATE_744,744,STATE_744,same_id_same_area,requires_manual,,,owner/controller/core conflict
+745,STATE_745,745,STATE_745,same_id_same_area,requires_manual,,,owner/controller/core conflict
+746,STATE_746,746,STATE_746,same_id_same_area,requires_manual,,,owner/controller/core conflict
+749,STATE_749,749,STATE_749,same_id_same_area,requires_manual,,,owner/controller/core conflict
+750,STATE_750,750,STATE_750,same_id_same_area,requires_manual,,,owner/controller/core conflict
+751,STATE_751,751,STATE_751,same_name,requires_manual,,,owner/controller/core conflict
+762,STATE_762,762,STATE_762,same_id_same_area,requires_manual,,,owner/controller/core conflict
+765,STATE_765,765,STATE_765,same_id_same_area,requires_manual,,,owner/controller/core conflict
+767,STATE_767,767,North Darfur,same_id_same_area,requires_manual,,,owner/controller/core conflict
+775,BET - Borkou-Ennedi-Tibesti region,775,BET - Borkou-Ennedi-Tibesti region,same_id_same_area,requires_manual,,,owner/controller/core conflict
+776,Benin/Dahomey,776,Benin/Dahomey,same_id_same_area,requires_manual,,,owner/controller/core conflict
+777,STATE_777,777,STATE_777,same_id_same_area,requires_manual,,,owner/controller/core conflict
+779,Ivory Coast,779,Ivory Coast,same_id_same_area,requires_manual,,,owner/controller/core conflict
+781,STATE_781,781,Niger,same_id_same_area,requires_manual,,,owner/controller/core conflict
+782,Tombouctou,782,Tombouctou,same_id_same_area,requires_manual,,,owner/controller/core conflict
+783,Sidi Ifni,783,Sidi Ifni,same_id_same_area,requires_manual,,,owner/controller/core conflict
+922,STATE_922,285,STATE_285,split,requires_manual,,,resources/buildings/manpower need manual distribution
+962,STATE_962,528,North Kyushu,split,requires_manual,,,resources/buildings/manpower need manual distribution
+965,STATE_965,531,Kansai,split,requires_manual,,,resources/buildings/manpower need manual distribution
+1006,STATE_1006,138,STATE_138,split,requires_manual,,,resources/buildings/manpower need manual distribution
+1213,STATE_1213,719,Natal,merge,requires_manual,,,resources/buildings/manpower need manual distribution
+792,STATE_792,42,STATE_42,merge,requires_manual,,,resources/buildings/manpower need manual distribution
+864,STATE_864,305,STATE_305,split,requires_manual,,,resources/buildings/manpower need manual distribution
+951,STATE_951,345,STATE_345,merge,requires_manual,,,resources/buildings/manpower need manual distribution
+1007,STATE_1007,141,Svealand,merge,requires_manual,,,resources/buildings/manpower need manual distribution
+1189,STATE_1189,105,STATE_105,split,requires_manual,,,resources/buildings/manpower need manual distribution
+1396,STATE_1396,113,Leinster,split,requires_manual,,,resources/buildings/manpower need manual distribution
+1473,STATE_1473,59,STATE_59,split,requires_manual,,,resources/buildings/manpower need manual distribution
+1663,STATE_1663,343,Afyon,merge,requires_manual,,,resources/buildings/manpower need manual distribution
+1708,STATE_1708,130,STATE_130,split,requires_manual,,,resources/buildings/manpower need manual distribution
+1786,STATE_1786,285,STATE_285,split,requires_manual,,,resources/buildings/manpower need manual distribution
+492,STATE_492,492,STATE_492,merge,requires_manual,,,resources/buildings/manpower need manual distribution
+790,STATE_790,55,STATE_55,split,requires_manual,,,resources/buildings/manpower need manual distribution
+793,STATE_793,64,STATE_64,merge,requires_manual,,,resources/buildings/manpower need manual distribution
+833,STATE_833,46,Muntenia,merge,requires_manual,,,resources/buildings/manpower need manual distribution
+842,STATE_842,468,Saint Lawrence,split,requires_manual,,,resources/buildings/manpower need manual distribution
+964,STATE_964,282,Kanto,split,requires_manual,,,resources/buildings/manpower need manual distribution
+1300,STATE_1300,510,STATE_510,merge,requires_manual,,,resources/buildings/manpower need manual distribution
+1392,STATE_1392,417,Hamadan,merge,requires_manual,,,resources/buildings/manpower need manual distribution
+1394,STATE_1394,411,Isfahan,merge,requires_manual,,,resources/buildings/manpower need manual distribution
+1431,STATE_1431,155,North Transdanubia,merge,requires_manual,,,resources/buildings/manpower need manual distribution
+1456,STATE_1456,362,STATE_362,split,requires_manual,,,resources/buildings/manpower need manual distribution
+1500,STATE_1500,180,STATE_180,split,requires_manual,,,resources/buildings/manpower need manual distribution
+1519,STATE_1519,42,STATE_42,split,requires_manual,,,resources/buildings/manpower need manual distribution
+1675,STATE_1675,339,STATE_339,split,requires_manual,,,resources/buildings/manpower need manual distribution
+1709,STATE_1709,123,STATE_123,merge,requires_manual,,,resources/buildings/manpower need manual distribution
+1720,STATE_1720,166,STATE_166,merge,requires_manual,,,resources/buildings/manpower need manual distribution
+1801,STATE_1801,21,Bouches-du-Rhône (Formerly Provence before Var split off),merge,requires_manual,,,resources/buildings/manpower need manual distribution
+1805,STATE_1805,59,STATE_59,split,requires_manual,,,resources/buildings/manpower need manual distribution
+1835,STATE_1835,307,Miranda,split,requires_manual,,,resources/buildings/manpower need manual distribution
+1844,STATE_1844,476,STATE_476,split,requires_manual,,,resources/buildings/manpower need manual distribution
+1846,STATE_1846,485,STATE_485,split,requires_manual,,,resources/buildings/manpower need manual distribution
+1851,STATE_1851,313,STATE_313,split,requires_manual,,,resources/buildings/manpower need manual distribution
+1867,STATE_1867,313,STATE_313,split,requires_manual,,,resources/buildings/manpower need manual distribution
+1901,STATE_1901,938,STATE_938,merge,requires_manual,,,resources/buildings/manpower need manual distribution
+54,STATE_54,54,STATE_54,merge,requires_manual,,,resources/buildings/manpower need manual distribution
+55,STATE_55,55,STATE_55,split,requires_manual,,,resources/buildings/manpower need manual distribution
+339,STATE_339,339,STATE_339,merge,requires_manual,,,resources/buildings/manpower need manual distribution
+343,STATE_343,346,STATE_346,merge,requires_manual,,,resources/buildings/manpower need manual distribution
+358,STATE_358,358,STATE_358,split,requires_manual,,,resources/buildings/manpower need manual distribution
+360,STATE_360,360,STATE_360,split,requires_manual,,,resources/buildings/manpower need manual distribution
+367,STATE_367,367,STATE_367,split,requires_manual,,,resources/buildings/manpower need manual distribution
+507,Magallanes,949,Aysen,merge,requires_manual,,,resources/buildings/manpower need manual distribution
+510,STATE_510,510,STATE_510,split,requires_manual,,,resources/buildings/manpower need manual distribution
+798,STATE_798,52,STATE_52,split,requires_manual,,,resources/buildings/manpower need manual distribution
+801,STATE_801,66,STATE_66,split,requires_manual,,,resources/buildings/manpower need manual distribution
+802,STATE_802,66,STATE_66,split,requires_manual,,,resources/buildings/manpower need manual distribution
+808,STATE_808,974,South Transdanubia,merge,requires_manual,,,resources/buildings/manpower need manual distribution
+832,STATE_832,971,Northern Dobruja,merge,requires_manual,,,resources/buildings/manpower need manual distribution
+848,STATE_848,383,STATE_383,split,requires_manual,,,resources/buildings/manpower need manual distribution
+892,STATE_892,845,STATE_845,merge,requires_manual,,,resources/buildings/manpower need manual distribution
+917,STATE_917,304,STATE_304,split,requires_manual,,,resources/buildings/manpower need manual distribution
+949,STATE_949,293,STATE_293,split,requires_manual,,,resources/buildings/manpower need manual distribution
+953,STATE_953,49,Ankara,split,requires_manual,,,resources/buildings/manpower need manual distribution
+966,STATE_966,1018,South Kyushu,split,requires_manual,,,resources/buildings/manpower need manual distribution
+967,STATE_967,1018,South Kyushu,merge,requires_manual,,,resources/buildings/manpower need manual distribution
+1017,STATE_1017,330,STATE_330,merge,requires_manual,,,resources/buildings/manpower need manual distribution
+1062,STATE_1062,51,STATE_51,split,requires_manual,,,resources/buildings/manpower need manual distribution
+1099,STATE_1099,724,STATE_724,split,requires_manual,,,resources/buildings/manpower need manual distribution
+1208,STATE_1208,275,Transvaal,merge,requires_manual,,,resources/buildings/manpower need manual distribution
+1211,STATE_1211,681,Cape,merge,requires_manual,,,resources/buildings/manpower need manual distribution
+1249,STATE_1249,413,STATE_413,split,requires_manual,,,resources/buildings/manpower need manual distribution
+1350,STATE_1350,42,STATE_42,split,requires_manual,,,resources/buildings/manpower need manual distribution
+1401,STATE_1401,128,STATE_128,merge,requires_manual,,,resources/buildings/manpower need manual distribution
+1418,STATE_1418,473,STATE_473,split,requires_manual,,,resources/buildings/manpower need manual distribution
+1422,STATE_1422,127,Sussex,split,requires_manual,,,resources/buildings/manpower need manual distribution
+1447,STATE_1447,50,Württemberg,split,requires_manual,,,resources/buildings/manpower need manual distribution
+1472,STATE_1472,52,STATE_52,split,requires_manual,,,resources/buildings/manpower need manual distribution
+1480,STATE_1480,302,STATE_302,split,requires_manual,,,resources/buildings/manpower need manual distribution
+1481,STATE_1481,503,STATE_503,split,requires_manual,,,resources/buildings/manpower need manual distribution
+1488,STATE_1488,859,STATE_859,split,requires_manual,,,resources/buildings/manpower need manual distribution
+1497,STATE_1497,367,STATE_367,split,requires_manual,,,resources/buildings/manpower need manual distribution
+1515,STATE_1515,845,STATE_845,split,requires_manual,,,resources/buildings/manpower need manual distribution
+1574,STATE_1574,957,STATE_957,merge,requires_manual,,,resources/buildings/manpower need manual distribution
+1579,STATE_1579,952,STATE_952,merge,requires_manual,,,resources/buildings/manpower need manual distribution
+1644,STATE_1644,687,STATE_687,split,requires_manual,,,resources/buildings/manpower need manual distribution
+1654,STATE_1654,22,Languedoc,merge,requires_manual,,,resources/buildings/manpower need manual distribution
+1683,STATE_1683,360,STATE_360,split,requires_manual,,,resources/buildings/manpower need manual distribution
+1684,STATE_1684,358,STATE_358,split,requires_manual,,,resources/buildings/manpower need manual distribution
+1706,STATE_1706,66,STATE_66,split,requires_manual,,,resources/buildings/manpower need manual distribution
+1707,STATE_1707,342,Antalya,split,requires_manual,,,resources/buildings/manpower need manual distribution
+1716,STATE_1716,41,STATE_41,split,requires_manual,,,resources/buildings/manpower need manual distribution
+1722,STATE_1722,790,STATE_790,split,requires_manual,,,resources/buildings/manpower need manual distribution
+1725,STATE_1725,790,STATE_790,split,requires_manual,,,resources/buildings/manpower need manual distribution
+1764,STATE_1764,50,Württemberg,split,requires_manual,,,resources/buildings/manpower need manual distribution
+1796,STATE_1796,510,STATE_510,split,requires_manual,,,resources/buildings/manpower need manual distribution
+1797,STATE_1797,510,STATE_510,split,requires_manual,,,resources/buildings/manpower need manual distribution
+1799,STATE_1799,27,Bourgogne,merge,requires_manual,,,resources/buildings/manpower need manual distribution
+1842,STATE_1842,21,Bouches-du-Rhône (Formerly Provence before Var split off),split,requires_manual,,,resources/buildings/manpower need manual distribution
+1853,STATE_1853,687,STATE_687,split,requires_manual,,,resources/buildings/manpower need manual distribution
+1866,STATE_1866,54,STATE_54,split,requires_manual,,,resources/buildings/manpower need manual distribution
+1871,STATE_1871,317,STATE_317,split,requires_manual,,,resources/buildings/manpower need manual distribution
+1878,STATE_1878,56,STATE_56,merge,requires_manual,,,resources/buildings/manpower need manual distribution
+1885,STATE_1885,303,Lima,split,requires_manual,,,resources/buildings/manpower need manual distribution
+1886,STATE_1886,313,STATE_313,split,requires_manual,,,resources/buildings/manpower need manual distribution
+1887,STATE_1887,312,STATE_312,split,requires_manual,,,resources/buildings/manpower need manual distribution
+1888,STATE_1888,314,STATE_314,split,requires_manual,,,resources/buildings/manpower need manual distribution
+1897,STATE_1897,499,STATE_499,split,requires_manual,,,resources/buildings/manpower need manual distribution
+1900,STATE_1900,502,STATE_502,split,requires_manual,,,resources/buildings/manpower need manual distribution
+1905,STATE_1905,66,STATE_66,split,requires_manual,,,resources/buildings/manpower need manual distribution
+20,STATE_20,20,Rhone,merge,requires_manual,,,resources/buildings/manpower need manual distribution
+49,STATE_49,49,Ankara,split,requires_manual,,,resources/buildings/manpower need manual distribution
+51,STATE_51,51,STATE_51,split,requires_manual,,,resources/buildings/manpower need manual distribution
+65,STATE_65,65,STATE_65,split,requires_manual,,,resources/buildings/manpower need manual distribution
+127,Sussex,127,Sussex,split,requires_manual,,,resources/buildings/manpower need manual distribution
+151,STATE_151,151,STATE_151,merge,requires_manual,,,resources/buildings/manpower need manual distribution
+279,Santiago,279,Santiago,split,requires_manual,,,resources/buildings/manpower need manual distribution
+285,STATE_285,285,STATE_285,split,requires_manual,,,resources/buildings/manpower need manual distribution
+295,STATE_295,888,STATE_888,merge,requires_manual,,,resources/buildings/manpower need manual distribution
+303,Lima,303,Lima,split,requires_manual,,,resources/buildings/manpower need manual distribution
+304,STATE_304,304,STATE_304,split,requires_manual,,,resources/buildings/manpower need manual distribution
+327,Luzon,327,Manila,merge,requires_manual,,,resources/buildings/manpower need manual distribution
+330,STATE_330,330,STATE_330,merge,requires_manual,,,resources/buildings/manpower need manual distribution
+342,STATE_342,342,Antalya,split,requires_manual,,,resources/buildings/manpower need manual distribution
+348,STATE_348,348,Kayseri,merge,requires_manual,,,resources/buildings/manpower need manual distribution
+415,STATE_415,1009,STATE_1009,merge,requires_manual,,,resources/buildings/manpower need manual distribution
+422,STATE_422,422,STATE_422,split,requires_manual,,,resources/buildings/manpower need manual distribution
+489,Zulia,489,Zulia,split,requires_manual,,,resources/buildings/manpower need manual distribution
+502,STATE_502,502,STATE_502,split,requires_manual,,,resources/buildings/manpower need manual distribution
+795,STATE_795,65,STATE_65,split,requires_manual,,,resources/buildings/manpower need manual distribution
+849,STATE_849,374,STATE_374,split,requires_manual,,,resources/buildings/manpower need manual distribution
+853,STATE_853,379,STATE_379,split,requires_manual,,,resources/buildings/manpower need manual distribution
+856,STATE_856,393,STATE_393,split,requires_manual,,,resources/buildings/manpower need manual distribution
+857,STATE_857,391,STATE_391,split,requires_manual,,,resources/buildings/manpower need manual distribution
+859,STATE_859,388,STATE_388,split,requires_manual,,,resources/buildings/manpower need manual distribution
+894,STATE_894,151,STATE_151,split,requires_manual,,,resources/buildings/manpower need manual distribution
+915,STATE_915,951,STATE_951,split,requires_manual,,,resources/buildings/manpower need manual distribution
+916,STATE_916,506,Antofagasta,merge,requires_manual,,,resources/buildings/manpower need manual distribution
+954,STATE_954,343,Afyon,split,requires_manual,,,resources/buildings/manpower need manual distribution
+956,STATE_956,798,STATE_798,merge,requires_manual,,,resources/buildings/manpower need manual distribution
+957,STATE_957,798,STATE_798,merge,requires_manual,,,resources/buildings/manpower need manual distribution
+963,STATE_963,1019,South Tohoku,split,requires_manual,,,resources/buildings/manpower need manual distribution
+968,STATE_968,1018,South Kyushu,split,requires_manual,,,resources/buildings/manpower need manual distribution
+1008,STATE_1008,916,STATE_916,merge,requires_manual,,,resources/buildings/manpower need manual distribution
+1064,STATE_1064,376,STATE_376,split,requires_manual,,,resources/buildings/manpower need manual distribution
+1065,STATE_1065,382,STATE_382,split,requires_manual,,,resources/buildings/manpower need manual distribution
+1114,STATE_1114,38,Gävleborg,merge,requires_manual,,,resources/buildings/manpower need manual distribution
+1134,STATE_1134,795,STATE_795,split,requires_manual,,,resources/buildings/manpower need manual distribution
+1137,STATE_1137,538,STATE_538,split,requires_manual,,,resources/buildings/manpower need manual distribution
+1175,STATE_1175,358,STATE_358,split,requires_manual,,,resources/buildings/manpower need manual distribution
+1190,STATE_1190,108,STATE_108,split,requires_manual,,,resources/buildings/manpower need manual distribution
+1199,STATE_1199,376,STATE_376,split,requires_manual,,,resources/buildings/manpower need manual distribution
+1200,STATE_1200,376,STATE_376,split,requires_manual,,,resources/buildings/manpower need manual distribution
+1378,Northern Hungary,43,Northern Hungary,split,requires_manual,,,resources/buildings/manpower need manual distribution
+1419,STATE_1419,471,STATE_471,merge,requires_manual,,,resources/buildings/manpower need manual distribution
+1475,STATE_1475,266,Tehran,split,requires_manual,,,resources/buildings/manpower need manual distribution
+1494,STATE_1494,367,STATE_367,split,requires_manual,,,resources/buildings/manpower need manual distribution
+1501,STATE_1501,795,STATE_795,split,requires_manual,,,resources/buildings/manpower need manual distribution
+1503,STATE_1503,170,STATE_170,split,requires_manual,,,resources/buildings/manpower need manual distribution
+1540,STATE_1540,718,STATE_718,split,requires_manual,,,resources/buildings/manpower need manual distribution
+1566,STATE_1566,377,STATE_377,split,requires_manual,,,resources/buildings/manpower need manual distribution
+1567,STATE_1567,376,STATE_376,split,requires_manual,,,resources/buildings/manpower need manual distribution
+1576,STATE_1576,950,STATE_950,merge,requires_manual,,,resources/buildings/manpower need manual distribution
+1578,STATE_1578,503,STATE_503,merge,requires_manual,,,resources/buildings/manpower need manual distribution
+1608,STATE_1608,391,STATE_391,split,requires_manual,,,resources/buildings/manpower need manual distribution
+1610,STATE_1610,389,STATE_389,split,requires_manual,,,resources/buildings/manpower need manual distribution
+1623,STATE_1623,376,STATE_376,split,requires_manual,,,resources/buildings/manpower need manual distribution
+1632,STATE_1632,382,STATE_382,split,requires_manual,,,resources/buildings/manpower need manual distribution
+1641,STATE_1641,387,STATE_387,split,requires_manual,,,resources/buildings/manpower need manual distribution
+1658,STATE_1658,466,STATE_466,split,requires_manual,,,resources/buildings/manpower need manual distribution
+1661,STATE_1661,339,STATE_339,split,requires_manual,,,resources/buildings/manpower need manual distribution
+1681,STATE_1681,261,STATE_261,split,requires_manual,,,resources/buildings/manpower need manual distribution
+1682,STATE_1682,360,STATE_360,split,requires_manual,,,resources/buildings/manpower need manual distribution
+1686,STATE_1686,682,STATE_682,split,requires_manual,,,resources/buildings/manpower need manual distribution
+1702,STATE_1702,68,STATE_68,split,requires_manual,,,resources/buildings/manpower need manual distribution
+1704,STATE_1704,348,Kayseri,split,requires_manual,,,resources/buildings/manpower need manual distribution
+1705,STATE_1705,66,STATE_66,split,requires_manual,,,resources/buildings/manpower need manual distribution
+1715,STATE_1715,170,STATE_170,split,requires_manual,,,resources/buildings/manpower need manual distribution
+1724,STATE_1724,41,STATE_41,split,requires_manual,,,resources/buildings/manpower need manual distribution
+1740,STATE_1740,322,STATE_322,merge,requires_manual,,,resources/buildings/manpower need manual distribution
+1759,Languedoc,22,Languedoc,split,requires_manual,,,resources/buildings/manpower need manual distribution
+1760,STATE_1760,22,Languedoc,split,requires_manual,,,resources/buildings/manpower need manual distribution
+1806,STATE_1806,956,STATE_956,merge,requires_manual,,,resources/buildings/manpower need manual distribution
+1845,STATE_1845,277,STATE_277,split,requires_manual,,,resources/buildings/manpower need manual distribution
+1848,STATE_1848,481,Durango,split,requires_manual,,,resources/buildings/manpower need manual distribution
+1889,STATE_1889,391,STATE_391,split,requires_manual,,,resources/buildings/manpower need manual distribution
+1954,STATE_1954,50,Württemberg,split,requires_manual,,,resources/buildings/manpower need manual distribution
+1985,STATE_1985,974,South Transdanubia,split,requires_manual,,,resources/buildings/manpower need manual distribution
+2026,STATE_2026,931,STATE_931,split,requires_manual,,,resources/buildings/manpower need manual distribution
+2034,STATE_2034,68,STATE_68,split,requires_manual,,,resources/buildings/manpower need manual distribution
+2035,STATE_2035,68,STATE_68,split,requires_manual,,,resources/buildings/manpower need manual distribution
+3,STATE_3,847,STATE_847,merge,requires_manual,,,resources/buildings/manpower need manual distribution
+25,STATE_25,25,STATE_25,merge,requires_manual,,,resources/buildings/manpower need manual distribution
+41,STATE_41,41,STATE_41,split,requires_manual,,,resources/buildings/manpower need manual distribution
+43,Northern Hungary,43,Northern Hungary,split,requires_manual,,,resources/buildings/manpower need manual distribution
+50,STATE_50,50,Württemberg,split,requires_manual,,,resources/buildings/manpower need manual distribution
+66,STATE_66,66,STATE_66,split,requires_manual,,,resources/buildings/manpower need manual distribution
+79,STATE_79,79,STATE_79,split,requires_manual,,,resources/buildings/manpower need manual distribution
+129,STATE_129,129,STATE_129,split,requires_manual,,,resources/buildings/manpower need manual distribution
+130,STATE_130,130,STATE_130,merge,requires_manual,,,resources/buildings/manpower need manual distribution
+132,Lancashire,132,Lancashire,merge,requires_manual,,,resources/buildings/manpower need manual distribution
+155,STATE_155,155,North Transdanubia,split,requires_manual,,,resources/buildings/manpower need manual distribution
+166,STATE_166,166,STATE_166,split,requires_manual,,,resources/buildings/manpower need manual distribution
+261,STATE_261,261,STATE_261,split,requires_manual,,,resources/buildings/manpower need manual distribution
+267,STATE_267,267,Kabul,merge,requires_manual,,,resources/buildings/manpower need manual distribution
+277,STATE_277,277,STATE_277,split,requires_manual,,,resources/buildings/manpower need manual distribution
+284,North Island,1101,Auckland,merge,requires_manual,,,resources/buildings/manpower need manual distribution
+300,STATE_300,946,STATE_946,merge,requires_manual,,,resources/buildings/manpower need manual distribution
+312,STATE_312,312,STATE_312,split,requires_manual,,,resources/buildings/manpower need manual distribution
+313,STATE_313,313,STATE_313,split,requires_manual,,,resources/buildings/manpower need manual distribution
+317,STATE_317,317,STATE_317,split,requires_manual,,,resources/buildings/manpower need manual distribution
+344,STATE_344,345,STATE_345,merge,requires_manual,,,resources/buildings/manpower need manual distribution
+377,STATE_377,377,STATE_377,split,requires_manual,,,resources/buildings/manpower need manual distribution
+379,STATE_379,379,STATE_379,split,requires_manual,,,resources/buildings/manpower need manual distribution
+382,STATE_382,382,STATE_382,split,requires_manual,,,resources/buildings/manpower need manual distribution
+412,STATE_412,412,STATE_412,merge,requires_manual,,,resources/buildings/manpower need manual distribution
+417,STATE_417,417,Hamadan,merge,requires_manual,,,resources/buildings/manpower need manual distribution
+468,STATE_468,468,Saint Lawrence,split,requires_manual,,,resources/buildings/manpower need manual distribution
+473,STATE_473,473,STATE_473,merge,requires_manual,,,resources/buildings/manpower need manual distribution
+478,Jalisco,478,Jalisco,split,requires_manual,,,resources/buildings/manpower need manual distribution
+481,Durango,481,Durango,split,requires_manual,,,resources/buildings/manpower need manual distribution
+485,STATE_485,485,STATE_485,split,requires_manual,,,resources/buildings/manpower need manual distribution
+497,STATE_497,938,STATE_938,split,requires_manual,,,resources/buildings/manpower need manual distribution
+528,STATE_528,528,North Kyushu,split,requires_manual,,,resources/buildings/manpower need manual distribution
+534,Hokuriku,534,"was Hokuriku, is actually Kōshin'etsu",split,requires_manual,,,resources/buildings/manpower need manual distribution
+538,STATE_538,538,STATE_538,merge,requires_manual,,,resources/buildings/manpower need manual distribution
+682,STATE_682,682,STATE_682,split,requires_manual,,,resources/buildings/manpower need manual distribution
+683,STATE_683,683,STATE_683,merge,requires_manual,,,resources/buildings/manpower need manual distribution
+688,STATE_688,688,STATE_688,split,requires_manual,,,resources/buildings/manpower need manual distribution
+846,STATE_846,381,STATE_381,split,requires_manual,,,resources/buildings/manpower need manual distribution
+847,STATE_847,382,STATE_382,split,requires_manual,,,resources/buildings/manpower need manual distribution
+893,STATE_893,846,STATE_846,merge,requires_manual,,,resources/buildings/manpower need manual distribution
+944,STATE_944,859,STATE_859,split,requires_manual,,,resources/buildings/manpower need manual distribution
+1052,STATE_1052,790,STATE_790,split,requires_manual,,,resources/buildings/manpower need manual distribution
+1150,STATE_1150,381,STATE_381,split,requires_manual,,,resources/buildings/manpower need manual distribution
+1195,STATE_1195,377,STATE_377,split,requires_manual,,,resources/buildings/manpower need manual distribution
+1260,STATE_1260,957,STATE_957,split,requires_manual,,,resources/buildings/manpower need manual distribution
+1261,STATE_1261,487,STATE_487,merge,requires_manual,,,resources/buildings/manpower need manual distribution
+1290,STATE_1290,381,STATE_381,split,requires_manual,,,resources/buildings/manpower need manual distribution
+1335,STATE_1335,51,STATE_51,split,requires_manual,,,resources/buildings/manpower need manual distribution
+1357,STATE_1357,891,STATE_891,split,requires_manual,,,resources/buildings/manpower need manual distribution
+1423,STATE_1423,971,Northern Dobruja,split,requires_manual,,,resources/buildings/manpower need manual distribution
+1607,STATE_1607,682,STATE_682,split,requires_manual,,,resources/buildings/manpower need manual distribution
+1652,STATE_1652,381,STATE_381,split,requires_manual,,,resources/buildings/manpower need manual distribution
+1657,STATE_1657,919,STATE_919,merge,requires_manual,,,resources/buildings/manpower need manual distribution
+1672,STATE_1672,866,STATE_866,merge,requires_manual,,,resources/buildings/manpower need manual distribution
+1676,STATE_1676,379,STATE_379,split,requires_manual,,,resources/buildings/manpower need manual distribution
+1687,STATE_1687,862,STATE_862,merge,requires_manual,,,resources/buildings/manpower need manual distribution
+1688,STATE_1688,502,STATE_502,split,requires_manual,,,resources/buildings/manpower need manual distribution
+1829,Magallanes,507,Magallanes,split,requires_manual,,,resources/buildings/manpower need manual distribution
+1834,STATE_1834,489,Zulia,split,requires_manual,,,resources/buildings/manpower need manual distribution
+1959,STATE_1959,891,STATE_891,split,requires_manual,,,resources/buildings/manpower need manual distribution
+2025,STATE_2025,931,STATE_931,split,requires_manual,,,resources/buildings/manpower need manual distribution
+21,STATE_21,21,Bouches-du-Rhône (Formerly Provence before Var split off),split,requires_manual,,,resources/buildings/manpower need manual distribution
+22,Languedoc,22,Languedoc,split,requires_manual,,,resources/buildings/manpower need manual distribution
+26,STATE_26,26,Auveregne,split,requires_manual,,,resources/buildings/manpower need manual distribution
+31,STATE_31,31,STATE_31,merge,requires_manual,,,resources/buildings/manpower need manual distribution
+46,STATE_46,46,Muntenia,split,requires_manual,,,resources/buildings/manpower need manual distribution
+52,STATE_52,52,STATE_52,split,requires_manual,,,resources/buildings/manpower need manual distribution
+68,STATE_68,68,STATE_68,split,requires_manual,,,resources/buildings/manpower need manual distribution
+113,Leinster,113,Leinster,split,requires_manual,,,resources/buildings/manpower need manual distribution
+128,STATE_128,128,STATE_128,split,requires_manual,,,resources/buildings/manpower need manual distribution
+138,STATE_138,138,STATE_138,split,requires_manual,,,resources/buildings/manpower need manual distribution
+139,STATE_139,139,STATE_139,merge,requires_manual,,,resources/buildings/manpower need manual distribution
+140,STATE_140,140,Västra Götaland,split,requires_manual,,,resources/buildings/manpower need manual distribution
+141,STATE_141,141,Svealand,split,requires_manual,,,resources/buildings/manpower need manual distribution
+170,STATE_170,170,STATE_170,split,requires_manual,,,resources/buildings/manpower need manual distribution
+180,STATE_180,180,STATE_180,split,requires_manual,,,resources/buildings/manpower need manual distribution
+266,Tehran,266,Tehran,split,requires_manual,,,resources/buildings/manpower need manual distribution
+280,STATE_280,280,STATE_280,merge,requires_manual,,,resources/buildings/manpower need manual distribution
+282,STATE_282,282,Kanto,split,requires_manual,,,resources/buildings/manpower need manual distribution
+289,STATE_289,289,STATE_289,merge,requires_manual,,,resources/buildings/manpower need manual distribution
+293,STATE_293,293,STATE_293,split,requires_manual,,,resources/buildings/manpower need manual distribution
+294,STATE_294,294,STATE_294,merge,requires_manual,,,resources/buildings/manpower need manual distribution
+302,STATE_302,302,STATE_302,split,requires_manual,,,resources/buildings/manpower need manual distribution
+305,STATE_305,305,STATE_305,split,requires_manual,,,resources/buildings/manpower need manual distribution
+307,Miranda,307,Miranda,split,requires_manual,,,resources/buildings/manpower need manual distribution
+314,STATE_314,314,STATE_314,split,requires_manual,,,resources/buildings/manpower need manual distribution
+322,STATE_322,322,STATE_322,split,requires_manual,,,resources/buildings/manpower need manual distribution
+338,STATE_338,338,STATE_338,split,requires_manual,,,resources/buildings/manpower need manual distribution
+362,STATE_362,362,STATE_362,split,requires_manual,,,resources/buildings/manpower need manual distribution
+374,STATE_374,374,STATE_374,split,requires_manual,,,resources/buildings/manpower need manual distribution
+376,STATE_376,376,STATE_376,split,requires_manual,,,resources/buildings/manpower need manual distribution
+380,STATE_380,380,STATE_380,split,requires_manual,,,resources/buildings/manpower need manual distribution
+381,STATE_381,381,STATE_381,split,requires_manual,,,resources/buildings/manpower need manual distribution
+383,STATE_383,383,STATE_383,split,requires_manual,,,resources/buildings/manpower need manual distribution
+387,STATE_387,387,STATE_387,split,requires_manual,,,resources/buildings/manpower need manual distribution
+388,STATE_388,388,STATE_388,split,requires_manual,,,resources/buildings/manpower need manual distribution
+389,STATE_389,389,STATE_389,split,requires_manual,,,resources/buildings/manpower need manual distribution
+391,STATE_391,391,STATE_391,split,requires_manual,,,resources/buildings/manpower need manual distribution
+393,STATE_393,393,STATE_393,split,requires_manual,,,resources/buildings/manpower need manual distribution
+411,STATE_411,1002,STATE_1002,merge,requires_manual,,,resources/buildings/manpower need manual distribution
+413,STATE_413,413,STATE_413,split,requires_manual,,,resources/buildings/manpower need manual distribution
+470,STATE_470,470,STATE_470,merge,requires_manual,,,resources/buildings/manpower need manual distribution
+476,STATE_476,476,STATE_476,split,requires_manual,,,resources/buildings/manpower need manual distribution
+496,Minas Gerais,496,Minas Gerais,split,requires_manual,,,resources/buildings/manpower need manual distribution
+499,STATE_499,499,STATE_499,split,requires_manual,,,resources/buildings/manpower need manual distribution
+505,STATE_505,505,STATE_505,split,requires_manual,,,resources/buildings/manpower need manual distribution
+509,Chaco Australis,509,Chaco Australis,merge,requires_manual,,,resources/buildings/manpower need manual distribution
+521,STATE_521,521,STATE_521,merge,requires_manual,,,resources/buildings/manpower need manual distribution
+531,STATE_531,531,Kansai,split,requires_manual,,,resources/buildings/manpower need manual distribution
+533,STATE_533,533,North Tohoku,merge,requires_manual,,,resources/buildings/manpower need manual distribution
+535,Koshinetsu,535,"was Koshinetsu, is actually Hokuriku",merge,requires_manual,,,resources/buildings/manpower need manual distribution
+540,STATE_540,892,STATE_892,merge,requires_manual,,,resources/buildings/manpower need manual distribution
+623,STATE_623,623,Luzon,merge,requires_manual,,,resources/buildings/manpower need manual distribution
+624,STATE_624,624,Central Islands,merge,requires_manual,,,resources/buildings/manpower need manual distribution
+627,STATE_627,1026,STATE_1026,merge,requires_manual,,,resources/buildings/manpower need manual distribution
+687,STATE_687,687,STATE_687,split,requires_manual,,,resources/buildings/manpower need manual distribution
+724,STATE_724,724,STATE_724,split,requires_manual,,,resources/buildings/manpower need manual distribution
+1086,STATE_1086,419,STATE_419,split,requires_manual,,,resources/buildings/manpower need manual distribution
+1304,STATE_1304,847,STATE_847,split,requires_manual,,,resources/buildings/manpower need manual distribution
+1439,STATE_1439,847,STATE_847,split,requires_manual,,,resources/buildings/manpower need manual distribution
+1902,STATE_1902,966,STATE_966,merge,requires_manual,,,resources/buildings/manpower need manual distribution
+171,STATE_171,171,STATE_171,merge,requires_manual,,,resources/buildings/manpower need manual distribution
+500,STATE_500,500,STATE_500,merge,requires_manual,,,resources/buildings/manpower need manual distribution
+511,Mendoza,511,Mendoza,merge,requires_manual,,,resources/buildings/manpower need manual distribution
+757,STATE_757,757,STATE_757,merge,requires_manual,,,resources/buildings/manpower need manual distribution
+1370,STATE_1370,179,STATE_179,split,requires_manual,,,victory point province needs manual placement
+841,STATE_841,361,STATE_361,split,requires_manual,,,victory point province needs manual placement
+979,STATE_979,56,STATE_56,merge,requires_manual,,,victory point province needs manual placement
+1502,STATE_1502,179,STATE_179,split,requires_manual,,,victory point province needs manual placement
+1809,Pampas,278,Pampas,split,requires_manual,,,victory point province needs manual placement
+1974,STATE_1974,36,STATE_36,split,requires_manual,,,victory point province needs manual placement
+2033,STATE_2033,64,STATE_64,split,requires_manual,,,victory point province needs manual placement
+56,STATE_56,56,STATE_56,merge,requires_manual,,,victory point province needs manual placement
+345,STATE_345,345,STATE_345,split,requires_manual,,,victory point province needs manual placement
+794,STATE_794,64,STATE_64,split,requires_manual,,,victory point province needs manual placement
+1105,STATE_1105,64,STATE_64,split,requires_manual,,,victory point province needs manual placement
+1379,STATE_1379,154,STATE_154,split,requires_manual,,,victory point province needs manual placement
+1506,STATE_1506,58,STATE_58,split,requires_manual,,,victory point province needs manual placement
+1542,STATE_1542,544,STATE_544,merge,requires_manual,,,victory point province needs manual placement
+1718,STATE_1718,177,STATE_177,split,requires_manual,,,victory point province needs manual placement
+1838,STATE_1838,278,Pampas,split,requires_manual,,,victory point province needs manual placement
+1920,STATE_1920,64,STATE_64,split,requires_manual,,,victory point province needs manual placement
+278,Pampas,278,Pampas,split,requires_manual,,,victory point province needs manual placement
+504,STATE_504,280,STATE_280,merge,requires_manual,,,victory point province needs manual placement
+844,STATE_844,361,STATE_361,split,requires_manual,,,victory point province needs manual placement
+958,STATE_958,349,STATE_349,merge,requires_manual,,,victory point province needs manual placement
+969,STATE_969,530,Shikoku,split,requires_manual,,,victory point province needs manual placement
+1206,STATE_1206,681,Cape,split,requires_manual,,,victory point province needs manual placement
+1207,STATE_1207,681,Cape,split,requires_manual,,,victory point province needs manual placement
+1209,STATE_1209,681,Cape,split,requires_manual,,,victory point province needs manual placement
+1210,STATE_1210,681,Cape,split,requires_manual,,,victory point province needs manual placement
+1358,STATE_1358,540,STATE_540,split,requires_manual,,,victory point province needs manual placement
+1395,STATE_1395,134,STATE_134,split,requires_manual,,,victory point province needs manual placement
+1496,STATE_1496,370,STATE_370,split,requires_manual,,,victory point province needs manual placement
+1509,STATE_1509,62,STATE_62,split,requires_manual,,,victory point province needs manual placement
+1532,STATE_1532,495,STATE_495,merge,requires_manual,,,victory point province needs manual placement
+1640,STATE_1640,385,STATE_385,split,requires_manual,,,victory point province needs manual placement
+1719,STATE_1719,168,STATE_168,split,requires_manual,,,victory point province needs manual placement
+1804,STATE_1804,62,STATE_62,split,requires_manual,,,victory point province needs manual placement
+1822,STATE_1822,1006,STATE_1006,merge,requires_manual,,,victory point province needs manual placement
+1895,STATE_1895,936,STATE_936,split,requires_manual,,,victory point province needs manual placement
+1896,STATE_1896,936,STATE_936,split,requires_manual,,,victory point province needs manual placement
+1909,STATE_1909,301,STATE_301,split,requires_manual,,,victory point province needs manual placement
+1943,STATE_1943,100,STATE_100,split,requires_manual,,,victory point province needs manual placement
+346,STATE_346,346,STATE_346,split,requires_manual,,,victory point province needs manual placement
+356,STATE_356,356,Kastamonu,split,requires_manual,,,victory point province needs manual placement
+361,STATE_361,361,STATE_361,split,requires_manual,,,victory point province needs manual placement
+370,STATE_370,370,STATE_370,split,requires_manual,,,victory point province needs manual placement
+385,STATE_385,385,STATE_385,split,requires_manual,,,victory point province needs manual placement
+416,STATE_416,416,STATE_416,merge,requires_manual,,,victory point province needs manual placement
+466,STATE_466,860,STATE_860,merge,requires_manual,,,staged merge review issues remain
+494,STATE_494,491,STATE_491,merge,requires_manual,,,staged merge review issues remain
+796,STATE_796,909,STATE_909,split,requires_manual,,,victory point province needs manual placement
+809,STATE_809,973,STATE_973,split,requires_manual,,,victory point province needs manual placement
+914,STATE_914,280,STATE_280,split,requires_manual,,,victory point province needs manual placement
+921,STATE_921,674,STATE_674,merge,requires_manual,,,staged merge review issues remain
+923,STATE_923,873,STATE_873,merge,requires_manual,,,staged merge review issues remain
+1015,STATE_1015,818,STATE_818,merge,requires_manual,,,staged merge review issues remain
+1018,STATE_1018,819,STATE_819,split,requires_manual,,,victory point province needs manual placement
+1019,STATE_1019,819,STATE_819,merge,requires_manual,,,staged merge review issues remain
+1020,STATE_1020,817,STATE_817,split,requires_manual,,,victory point province needs manual placement
+1098,STATE_1098,868,STATE_868,split,requires_manual,,,victory point province needs manual placement
+1158,STATE_1158,292,STATE_292,merge,requires_manual,,,staged merge review issues remain
+1302,STATE_1302,803,STATE_803,split,requires_manual,,,victory point province needs manual placement
+1359,STATE_1359,897,STATE_897,split,requires_manual,,,staged merge review issues remain
+1402,STATE_1402,504,STATE_504,split,requires_manual,,,victory point province needs manual placement
+1408,STATE_1408,5,STATE_5,split,requires_manual,,,victory point province needs manual placement
+1448,STATE_1448,818,STATE_818,split,requires_manual,,,victory point province needs manual placement
+1474,STATE_1474,1004,STATE_1004,merge,requires_manual,,,staged merge review issues remain
+1573,STATE_1573,819,STATE_819,split,requires_manual,,,victory point province needs manual placement
+1580,STATE_1580,959,STATE_959,split,requires_manual,,,victory point province needs manual placement
+1597,STATE_1597,276,Southern Ontario,split,requires_manual,,,victory point province needs manual placement
+1605,STATE_1605,487,STATE_487,split,requires_manual,,,victory point province needs manual placement
+1622,STATE_1622,31,STATE_31,split,requires_manual,,,victory point province needs manual placement
+1717,STATE_1717,793,STATE_793,split,requires_manual,,,victory point province needs manual placement
+1721,STATE_1721,794,STATE_794,split,requires_manual,,,victory point province needs manual placement
+1723,STATE_1723,176,STATE_176,split,requires_manual,,,victory point province needs manual placement
+1761,STATE_1761,31,STATE_31,split,requires_manual,,,victory point province needs manual placement
+1836,STATE_1836,488,STATE_488,split,requires_manual,,,victory point province needs manual placement
+1837,STATE_1837,488,STATE_488,split,requires_manual,,,victory point province needs manual placement
+1849,STATE_1849,475,STATE_475,split,requires_manual,,,victory point province needs manual placement
+1861,STATE_1861,384,STATE_384,split,requires_manual,,,victory point province needs manual placement
+1962,STATE_1962,494,STATE_494,split,requires_manual,,,victory point province needs manual placement
+1986,STATE_1986,973,STATE_973,split,requires_manual,,,victory point province needs manual placement
+1998,STATE_1998,359,STATE_359,split,requires_manual,,,victory point province needs manual placement
+1999,STATE_1999,359,STATE_359,split,requires_manual,,,victory point province needs manual placement
+2024,STATE_2024,126,STATE_126,split,requires_manual,,,staged merge review issues remain
+33,STATE_33,33,STATE_33,merge,requires_manual,,,staged merge review issues remain
+53,STATE_53,53,STATE_53,split,requires_manual,,,victory point province needs manual placement
+58,STATE_58,58,STATE_58,split,requires_manual,,,victory point province needs manual placement
+62,STATE_62,62,STATE_62,split,requires_manual,,,victory point province needs manual placement
+123,STATE_123,123,STATE_123,split,requires_manual,,,victory point province needs manual placement
+126,STATE_126,126,STATE_126,split,requires_manual,,,victory point province needs manual placement
+154,STATE_154,154,STATE_154,split,requires_manual,,,victory point province needs manual placement
+179,STATE_179,179,STATE_179,split,requires_manual,,,victory point province needs manual placement
+276,STATE_276,276,Southern Ontario,split,requires_manual,,,victory point province needs manual placement
+301,STATE_301,301,STATE_301,split,requires_manual,,,victory point province needs manual placement
+349,STATE_349,349,STATE_349,merge,requires_manual,,,staged merge review issues remain
+390,STATE_390,390,STATE_390,split,requires_manual,,,victory point province needs manual placement
+414,STATE_414,1003,STATE_1003,merge,requires_manual,,,staged merge review issues remain
+420,STATE_420,420,STATE_420,split,requires_manual,,,victory point province needs manual placement
+467,STATE_467,467,STATE_467,merge,requires_manual,,,staged merge review issues remain
+487,STATE_487,487,STATE_487,split,requires_manual,,,victory point province needs manual placement
+491,STATE_491,491,STATE_491,split,requires_manual,,,victory point province needs manual placement
+495,STATE_495,961,STATE_961,merge,requires_manual,,,staged merge review issues remain
+503,STATE_503,944,STATE_944,split,requires_manual,,,staged merge review issues remain
+506,STATE_506,952,STATE_952,split,requires_manual,,,staged merge review issues remain
+508,Tucuman,960,STATE_960,merge,requires_manual,,,staged merge review issues remain
+530,STATE_530,530,Shikoku,split,requires_manual,,,victory point province needs manual placement
+678,STATE_678,678,STATE_678,merge,requires_manual,,,staged merge review issues remain
+800,STATE_800,53,STATE_53,split,requires_manual,,,staged merge review issues remain
+822,STATE_822,851,Var (Split-off from former Provence now Bouches-du-Rhône),split,requires_manual,,,staged merge review issues remain
+823,STATE_823,735,STATE_735,merge,requires_manual,,,staged merge review issues remain
+885,STATE_885,1095,STATE_1095,split,requires_manual,,,staged merge review issues remain
+912,STATE_912,964,STATE_964,split,requires_manual,,,staged merge review issues remain
+913,STATE_913,963,STATE_963,split,requires_manual,,,staged merge review issues remain
+924,STATE_924,674,STATE_674,split,requires_manual,,,staged merge review issues remain
+1016,STATE_1016,820,STATE_820,split,requires_manual,,,staged merge review issues remain
+1055,STATE_1055,793,STATE_793,split,requires_manual,,,staged merge review issues remain
+1096,STATE_1096,868,STATE_868,split,requires_manual,,,staged merge review issues remain
+1128,STATE_1128,897,STATE_897,split,requires_manual,,,staged merge review issues remain
+1133,STATE_1133,794,STATE_794,split,requires_manual,,,staged merge review issues remain
+1296,STATE_1296,1095,STATE_1095,split,requires_manual,,,staged merge review issues remain
+1442,STATE_1442,486,STATE_486,split,requires_manual,,,staged merge review issues remain
+1479,STATE_1479,678,STATE_678,split,requires_manual,,,staged merge review issues remain
+1484,STATE_1484,939,STATE_939,same_name,requires_manual,,,victory point province needs manual placement
+1495,STATE_1495,370,STATE_370,split,requires_manual,,,staged merge review issues remain
+1499,STATE_1499,858,STATE_858,split,requires_manual,,,staged merge review issues remain
+1541,STATE_1541,896,STATE_896,split,requires_manual,,,staged merge review issues remain
+1649,STATE_1649,385,STATE_385,split,requires_manual,,,staged merge review issues remain
+1667,STATE_1667,472,STATE_472,split,requires_manual,,,staged merge review issues remain
+1668,STATE_1668,472,STATE_472,split,requires_manual,,,staged merge review issues remain
+1669,STATE_1669,865,STATE_865,split,requires_manual,,,staged merge review issues remain
+1670,STATE_1670,867,STATE_867,split,requires_manual,,,staged merge review issues remain
+1671,STATE_1671,866,STATE_866,split,requires_manual,,,staged merge review issues remain
+1741,STATE_1741,758,STATE_758,split,requires_manual,,,staged merge review issues remain
+1826,STATE_1826,678,STATE_678,split,requires_manual,,,staged merge review issues remain
+1893,STATE_1893,935,STATE_935,merge,requires_manual,,,staged merge review issues remain
+1894,STATE_1894,936,STATE_936,split,requires_manual,,,staged merge review issues remain
+1903,STATE_1903,909,STATE_909,split,requires_manual,,,staged merge review issues remain
+57,STATE_57,57,STATE_57,split,requires_manual,,,staged merge review issues remain
+61,STATE_61,61,STATE_61,merge,requires_manual,,,staged merge review issues remain
+64,STATE_64,,,new_bsr_state,requires_manual,,,new BSR state has no TSR overlay candidate
+100,STATE_100,100,STATE_100,split,requires_manual,,,staged merge review issues remain
+134,STATE_134,134,STATE_134,split,requires_manual,,,staged merge review issues remain
+163,STATE_163,,,new_bsr_state,requires_manual,,,new BSR state has no TSR overlay candidate
+168,STATE_168,168,STATE_168,split,requires_manual,,,staged merge review issues remain
+176,STATE_176,176,STATE_176,split,requires_manual,,,staged merge review issues remain
+177,STATE_177,177,STATE_177,split,requires_manual,,,staged merge review issues remain
+214,STATE_214,,,new_bsr_state,requires_manual,,,new BSR state has no TSR overlay candidate
+242,STATE_242,,,new_bsr_state,requires_manual,,,new BSR state has no TSR overlay candidate
+262,STATE_262,,,new_bsr_state,requires_manual,,,new BSR state has no TSR overlay candidate
+290,STATE_290,,,new_bsr_state,requires_manual,,,new BSR state has no TSR overlay candidate
+299,STATE_299,,,new_bsr_state,requires_manual,,,new BSR state has no TSR overlay candidate
+359,STATE_359,359,STATE_359,split,requires_manual,,,staged merge review issues remain
+418,STATE_418,418,STATE_418,split,requires_manual,,,staged merge review issues remain
+421,STATE_421,1001,STATE_1001,same_name,requires_manual,,,staged merge review issues remain
+469,STATE_469,469,STATE_469,merge,requires_manual,,,staged merge review issues remain
+471,STATE_471,864,STATE_864,same_name,requires_manual,,,staged merge review issues remain
+472,STATE_472,472,STATE_472,split,requires_manual,,,staged merge review issues remain
+486,STATE_486,486,STATE_486,split,requires_manual,,,staged merge review issues remain
+488,STATE_488,488,STATE_488,split,requires_manual,,,staged merge review issues remain
+516,STATE_516,,,new_bsr_state,requires_manual,,,new BSR state has no TSR overlay candidate
+523,STATE_523,523,STATE_523,merge,requires_manual,,,staged merge review issues remain
+529,Chugoku,529,"San'yo, formerly Chugoku",merge,requires_manual,,,staged merge review issues remain
+544,STATE_544,544,STATE_544,split,requires_manual,,,staged merge review issues remain
+597,STATE_597,,,new_bsr_state,requires_manual,,,new BSR state has no TSR overlay candidate
+605,STATE_605,,,new_bsr_state,requires_manual,,,new BSR state has no TSR overlay candidate
+653,Sverdlovsk,,,new_bsr_state,requires_manual,,,new BSR state has no TSR overlay candidate
+656,STATE_656,,,new_bsr_state,requires_manual,,,new BSR state has no TSR overlay candidate
+681,STATE_681,681,Cape,split,requires_manual,,,staged merge review issues remain
+686,STATE_686,686,STATE_686,split,requires_manual,,,staged merge review issues remain
+748,STATE_748,,,new_bsr_state,requires_manual,,,new BSR state has no TSR overlay candidate
+752,STATE_752,,,new_bsr_state,requires_manual,,,new BSR state has no TSR overlay candidate
+753,STATE_753,,,new_bsr_state,requires_manual,,,new BSR state has no TSR overlay candidate
+758,STATE_758,758,STATE_758,split,requires_manual,,,staged merge review issues remain
+804,STATE_804,,,new_bsr_state,requires_manual,,,new BSR state has no TSR overlay candidate
+811,STATE_811,,,new_bsr_state,requires_manual,,,new BSR state has no TSR overlay candidate
+813,STATE_813,,,new_bsr_state,requires_manual,,,new BSR state has no TSR overlay candidate
+821,STATE_821,,,new_bsr_state,requires_manual,,,new BSR state has no TSR overlay candidate
+824,STATE_824,,,new_bsr_state,requires_manual,,,new BSR state has no TSR overlay candidate
+825,STATE_825,,,new_bsr_state,requires_manual,,,new BSR state has no TSR overlay candidate
+827,STATE_827,,,new_bsr_state,requires_manual,,,new BSR state has no TSR overlay candidate
+828,STATE_828,,,new_bsr_state,requires_manual,,,new BSR state has no TSR overlay candidate
+829,STATE_829,,,new_bsr_state,requires_manual,,,new BSR state has no TSR overlay candidate
+831,STATE_831,,,new_bsr_state,requires_manual,,,new BSR state has no TSR overlay candidate
+834,STATE_834,,,new_bsr_state,requires_manual,,,new BSR state has no TSR overlay candidate
+843,STATE_843,816,STATE_816,same_name,requires_manual,,,staged merge review issues remain
+860,STATE_860,,,new_bsr_state,requires_manual,,,new BSR state has no TSR overlay candidate
+861,STATE_861,,,new_bsr_state,requires_manual,,,new BSR state has no TSR overlay candidate
+862,STATE_862,933,STATE_933,same_name,requires_manual,,,staged merge review issues remain
+873,STATE_873,,,new_bsr_state,requires_manual,,,new BSR state has no TSR overlay candidate
+874,STATE_874,,,new_bsr_state,requires_manual,,,new BSR state has no TSR overlay candidate
+875,STATE_875,,,new_bsr_state,requires_manual,,,new BSR state has no TSR overlay candidate
+876,STATE_876,,,new_bsr_state,requires_manual,,,new BSR state has no TSR overlay candidate
+883,STATE_883,,,new_bsr_state,requires_manual,,,new BSR state has no TSR overlay candidate
+884,STATE_884,,,new_bsr_state,requires_manual,,,new BSR state has no TSR overlay candidate
+890,STATE_890,,,new_bsr_state,requires_manual,,,new BSR state has no TSR overlay candidate
+891,STATE_891,,,new_bsr_state,requires_manual,,,new BSR state has no TSR overlay candidate
+895,STATE_895,,,new_bsr_state,requires_manual,,,new BSR state has no TSR overlay candidate
+900,STATE_900,,,new_bsr_state,requires_manual,,,new BSR state has no TSR overlay candidate
+902,STATE_902,,,new_bsr_state,requires_manual,,,new BSR state has no TSR overlay candidate
+910,STATE_910,,,new_bsr_state,requires_manual,,,new BSR state has no TSR overlay candidate
+927,STATE_927,,,new_bsr_state,requires_manual,,,new BSR state has no TSR overlay candidate
+930,STATE_930,,,new_bsr_state,requires_manual,,,new BSR state has no TSR overlay candidate
+948,STATE_948,,,new_bsr_state,requires_manual,,,new BSR state has no TSR overlay candidate
+973,STATE_973,,,new_bsr_state,requires_manual,,,new BSR state has no TSR overlay candidate
+983,STATE_983,,,new_bsr_state,requires_manual,,,new BSR state has no TSR overlay candidate
+984,STATE_984,,,new_bsr_state,requires_manual,,,new BSR state has no TSR overlay candidate
+985,STATE_985,,,new_bsr_state,requires_manual,,,new BSR state has no TSR overlay candidate
+1000,STATE_1000,,,new_bsr_state,requires_manual,,,new BSR state has no TSR overlay candidate
+1001,STATE_1001,,,new_bsr_state,requires_manual,,,new BSR state has no TSR overlay candidate
+1003,STATE_1003,,,new_bsr_state,requires_manual,,,new BSR state has no TSR overlay candidate
+1004,STATE_1004,,,new_bsr_state,requires_manual,,,new BSR state has no TSR overlay candidate
+1021,STATE_1021,,,new_bsr_state,requires_manual,,,new BSR state has no TSR overlay candidate
+1029,STATE_1029,,,new_bsr_state,requires_manual,,,new BSR state has no TSR overlay candidate
+1030,STATE_1030,,,new_bsr_state,requires_manual,,,new BSR state has no TSR overlay candidate
+1031,STATE_1031,,,new_bsr_state,requires_manual,,,new BSR state has no TSR overlay candidate
+1032,STATE_1032,,,new_bsr_state,requires_manual,,,new BSR state has no TSR overlay candidate
+1033,STATE_1033,,,new_bsr_state,requires_manual,,,new BSR state has no TSR overlay candidate
+1034,STATE_1034,,,new_bsr_state,requires_manual,,,new BSR state has no TSR overlay candidate
+1036,STATE_1036,796,STATE_796,same_name,requires_manual,,,staged merge review issues remain
+1037,STATE_1037,,,new_bsr_state,requires_manual,,,new BSR state has no TSR overlay candidate
+1038,STATE_1038,,,new_bsr_state,requires_manual,,,new BSR state has no TSR overlay candidate
+1040,STATE_1040,,,new_bsr_state,requires_manual,,,new BSR state has no TSR overlay candidate
+1043,STATE_1043,,,new_bsr_state,requires_manual,,,new BSR state has no TSR overlay candidate
+1044,STATE_1044,,,new_bsr_state,requires_manual,,,new BSR state has no TSR overlay candidate
+1050,STATE_1050,788,STATE_788,same_name,requires_manual,,,staged merge review issues remain
+1053,STATE_1053,791,STATE_791,same_name,requires_manual,,,staged merge review issues remain
+1054,STATE_1054,792,STATE_792,same_name,requires_manual,,,staged merge review issues remain
+1056,STATE_1056,,,new_bsr_state,requires_manual,,,new BSR state has no TSR overlay candidate
+1067,STATE_1067,,,new_bsr_state,requires_manual,,,new BSR state has no TSR overlay candidate
+1068,STATE_1068,,,new_bsr_state,requires_manual,,,new BSR state has no TSR overlay candidate
+1069,STATE_1069,,,new_bsr_state,requires_manual,,,new BSR state has no TSR overlay candidate
+1095,STATE_1095,869,STATE_869,same_name,requires_manual,,,staged merge review issues remain
+1097,STATE_1097,1100,STATE_1100,same_name,requires_manual,,,staged merge review issues remain
+1101,STATE_1101,1093,STATE_1093,same_name,requires_manual,,,staged merge review issues remain
+1102,STATE_1102,1094,STATE_1094,same_name,requires_manual,,,staged merge review issues remain
+1108,STATE_1108,,,new_bsr_state,requires_manual,,,new BSR state has no TSR overlay candidate
+1115,STATE_1115,915,Bohuslän,province_overlap,requires_manual,,,staged merge review issues remain
+1117,STATE_1117,,,new_bsr_state,requires_manual,,,new BSR state has no TSR overlay candidate
+1118,STATE_1118,,,new_bsr_state,requires_manual,,,new BSR state has no TSR overlay candidate
+1120,STATE_1120,,,new_bsr_state,requires_manual,,,new BSR state has no TSR overlay candidate
+1121,STATE_1121,,,new_bsr_state,requires_manual,,,new BSR state has no TSR overlay candidate
+1132,STATE_1132,,,new_bsr_state,requires_manual,,,new BSR state has no TSR overlay candidate
+1141,STATE_1141,,,new_bsr_state,requires_manual,,,new BSR state has no TSR overlay candidate
+1152,STATE_1152,,,new_bsr_state,requires_manual,,,new BSR state has no TSR overlay candidate
+1153,STATE_1153,,,new_bsr_state,requires_manual,,,new BSR state has no TSR overlay candidate
+1154,STATE_1154,,,new_bsr_state,requires_manual,,,new BSR state has no TSR overlay candidate
+1161,STATE_1161,,,new_bsr_state,requires_manual,,,new BSR state has no TSR overlay candidate
+1162,STATE_1162,,,new_bsr_state,requires_manual,,,new BSR state has no TSR overlay candidate
+1164,STATE_1164,,,new_bsr_state,requires_manual,,,new BSR state has no TSR overlay candidate
+1165,STATE_1165,,,new_bsr_state,requires_manual,,,new BSR state has no TSR overlay candidate
+1166,STATE_1166,,,new_bsr_state,requires_manual,,,new BSR state has no TSR overlay candidate
+1167,STATE_1167,,,new_bsr_state,requires_manual,,,new BSR state has no TSR overlay candidate
+1168,STATE_1168,,,new_bsr_state,requires_manual,,,new BSR state has no TSR overlay candidate
+1169,STATE_1169,,,new_bsr_state,requires_manual,,,new BSR state has no TSR overlay candidate
+1172,STATE_1172,,,new_bsr_state,requires_manual,,,new BSR state has no TSR overlay candidate
+1174,STATE_1174,,,new_bsr_state,requires_manual,,,new BSR state has no TSR overlay candidate
+1176,STATE_1176,,,new_bsr_state,requires_manual,,,new BSR state has no TSR overlay candidate
+1177,STATE_1177,,,new_bsr_state,requires_manual,,,new BSR state has no TSR overlay candidate
+1196,STATE_1196,,,new_bsr_state,requires_manual,,,new BSR state has no TSR overlay candidate
+1212,STATE_1212,,,new_bsr_state,requires_manual,,,new BSR state has no TSR overlay candidate
+1214,STATE_1214,,,new_bsr_state,requires_manual,,,new BSR state has no TSR overlay candidate
+1217,STATE_1217,,,new_bsr_state,requires_manual,,,new BSR state has no TSR overlay candidate
+1219,STATE_1219,,,new_bsr_state,requires_manual,,,new BSR state has no TSR overlay candidate
+1224,STATE_1224,,,new_bsr_state,requires_manual,,,new BSR state has no TSR overlay candidate
+1231,STATE_1231,,,new_bsr_state,requires_manual,,,new BSR state has no TSR overlay candidate
+1235,STATE_1235,,,new_bsr_state,requires_manual,,,new BSR state has no TSR overlay candidate
+1238,STATE_1238,,,new_bsr_state,requires_manual,,,new BSR state has no TSR overlay candidate
+1243,STATE_1243,,,new_bsr_state,requires_manual,,,new BSR state has no TSR overlay candidate
+1251,STATE_1251,,,new_bsr_state,requires_manual,,,new BSR state has no TSR overlay candidate
+1252,STATE_1252,,,new_bsr_state,requires_manual,,,new BSR state has no TSR overlay candidate
+1253,STATE_1253,,,new_bsr_state,requires_manual,,,new BSR state has no TSR overlay candidate
+1255,STATE_1255,,,new_bsr_state,requires_manual,,,new BSR state has no TSR overlay candidate
+1257,STATE_1257,,,new_bsr_state,requires_manual,,,new BSR state has no TSR overlay candidate
+1258,STATE_1258,,,new_bsr_state,requires_manual,,,new BSR state has no TSR overlay candidate
+1259,STATE_1259,,,new_bsr_state,requires_manual,,,new BSR state has no TSR overlay candidate
+1262,STATE_1262,,,new_bsr_state,requires_manual,,,new BSR state has no TSR overlay candidate
+1265,STATE_1265,,,new_bsr_state,requires_manual,,,new BSR state has no TSR overlay candidate
+1266,STATE_1266,,,new_bsr_state,requires_manual,,,new BSR state has no TSR overlay candidate
+1271,STATE_1271,,,new_bsr_state,requires_manual,,,new BSR state has no TSR overlay candidate
+1272,STATE_1272,,,new_bsr_state,requires_manual,,,new BSR state has no TSR overlay candidate
+1280,STATE_1280,,,new_bsr_state,requires_manual,,,new BSR state has no TSR overlay candidate
+1281,STATE_1281,,,new_bsr_state,requires_manual,,,new BSR state has no TSR overlay candidate
+1282,STATE_1282,,,new_bsr_state,requires_manual,,,new BSR state has no TSR overlay candidate
+1283,STATE_1283,,,new_bsr_state,requires_manual,,,new BSR state has no TSR overlay candidate
+1284,STATE_1284,,,new_bsr_state,requires_manual,,,new BSR state has no TSR overlay candidate
+1289,STATE_1289,,,new_bsr_state,requires_manual,,,new BSR state has no TSR overlay candidate
+1294,STATE_1294,,,new_bsr_state,requires_manual,,,new BSR state has no TSR overlay candidate
+1297,STATE_1297,,,new_bsr_state,requires_manual,,,new BSR state has no TSR overlay candidate
+1301,STATE_1301,932,STATE_932,same_name,requires_manual,,,staged merge review issues remain
+1308,STATE_1308,,,new_bsr_state,requires_manual,,,new BSR state has no TSR overlay candidate
+1309,STATE_1309,,,new_bsr_state,requires_manual,,,new BSR state has no TSR overlay candidate
+1310,STATE_1310,,,new_bsr_state,requires_manual,,,new BSR state has no TSR overlay candidate
+1312,STATE_1312,,,new_bsr_state,requires_manual,,,new BSR state has no TSR overlay candidate
+1320,STATE_1320,,,new_bsr_state,requires_manual,,,new BSR state has no TSR overlay candidate
+1322,STATE_1322,,,new_bsr_state,requires_manual,,,new BSR state has no TSR overlay candidate
+1324,STATE_1324,,,new_bsr_state,requires_manual,,,new BSR state has no TSR overlay candidate
+1326,STATE_1326,,,new_bsr_state,requires_manual,,,new BSR state has no TSR overlay candidate
+1331,STATE_1331,,,new_bsr_state,requires_manual,,,new BSR state has no TSR overlay candidate
+1336,STATE_1336,,,new_bsr_state,requires_manual,,,new BSR state has no TSR overlay candidate
+1337,STATE_1337,,,new_bsr_state,requires_manual,,,new BSR state has no TSR overlay candidate
+1338,STATE_1338,,,new_bsr_state,requires_manual,,,new BSR state has no TSR overlay candidate
+1339,STATE_1339,,,new_bsr_state,requires_manual,,,new BSR state has no TSR overlay candidate
+1340,STATE_1340,,,new_bsr_state,requires_manual,,,new BSR state has no TSR overlay candidate
+1341,STATE_1341,,,new_bsr_state,requires_manual,,,new BSR state has no TSR overlay candidate
+1342,STATE_1342,,,new_bsr_state,requires_manual,,,new BSR state has no TSR overlay candidate
+1343,STATE_1343,,,new_bsr_state,requires_manual,,,new BSR state has no TSR overlay candidate
+1346,STATE_1346,,,new_bsr_state,requires_manual,,,new BSR state has no TSR overlay candidate
+1349,STATE_1349,,,new_bsr_state,requires_manual,,,new BSR state has no TSR overlay candidate
+1355,STATE_1355,,,new_bsr_state,requires_manual,,,new BSR state has no TSR overlay candidate
+1360,STATE_1360,,,new_bsr_state,requires_manual,,,new BSR state has no TSR overlay candidate
+1365,STATE_1365,,,new_bsr_state,requires_manual,,,new BSR state has no TSR overlay candidate
+1371,STATE_1371,,,new_bsr_state,requires_manual,,,new BSR state has no TSR overlay candidate
+1372,STATE_1372,,,new_bsr_state,requires_manual,,,new BSR state has no TSR overlay candidate
+1377,STATE_1377,,,new_bsr_state,requires_manual,,,new BSR state has no TSR overlay candidate
+1382,STATE_1382,,,new_bsr_state,requires_manual,,,new BSR state has no TSR overlay candidate
+1388,STATE_1388,,,new_bsr_state,requires_manual,,,new BSR state has no TSR overlay candidate
+1389,STATE_1389,,,new_bsr_state,requires_manual,,,new BSR state has no TSR overlay candidate
+1390,STATE_1390,,,new_bsr_state,requires_manual,,,new BSR state has no TSR overlay candidate
+1400,STATE_1400,,,new_bsr_state,requires_manual,,,new BSR state has no TSR overlay candidate
+1410,STATE_1410,,,new_bsr_state,requires_manual,,,new BSR state has no TSR overlay candidate
+1411,STATE_1411,,,new_bsr_state,requires_manual,,,new BSR state has no TSR overlay candidate
+1414,STATE_1414,,,new_bsr_state,requires_manual,,,new BSR state has no TSR overlay candidate
+1416,STATE_1416,,,new_bsr_state,requires_manual,,,new BSR state has no TSR overlay candidate
+1417,STATE_1417,,,new_bsr_state,requires_manual,,,new BSR state has no TSR overlay candidate
+1420,STATE_1420,,,new_bsr_state,requires_manual,,,new BSR state has no TSR overlay candidate
+1429,STATE_1429,,,new_bsr_state,requires_manual,,,new BSR state has no TSR overlay candidate
+1440,STATE_1440,,,new_bsr_state,requires_manual,,,new BSR state has no TSR overlay candidate
+1449,STATE_1449,,,new_bsr_state,requires_manual,,,new BSR state has no TSR overlay candidate
+1451,STATE_1451,,,new_bsr_state,requires_manual,,,new BSR state has no TSR overlay candidate
+1452,STATE_1452,,,new_bsr_state,requires_manual,,,new BSR state has no TSR overlay candidate
+1476,STATE_1476,,,new_bsr_state,requires_manual,,,new BSR state has no TSR overlay candidate
+1483,STATE_1483,,,new_bsr_state,requires_manual,,,new BSR state has no TSR overlay candidate
+1504,STATE_1504,,,new_bsr_state,requires_manual,,,new BSR state has no TSR overlay candidate
+1505,STATE_1505,,,new_bsr_state,requires_manual,,,new BSR state has no TSR overlay candidate
+1511,STATE_1511,,,new_bsr_state,requires_manual,,,new BSR state has no TSR overlay candidate
+1512,STATE_1512,,,new_bsr_state,requires_manual,,,new BSR state has no TSR overlay candidate
+1514,STATE_1514,,,new_bsr_state,requires_manual,,,new BSR state has no TSR overlay candidate
+1516,STATE_1516,,,new_bsr_state,requires_manual,,,new BSR state has no TSR overlay candidate
+1520,STATE_1520,,,new_bsr_state,requires_manual,,,new BSR state has no TSR overlay candidate
+1521,STATE_1521,,,new_bsr_state,requires_manual,,,new BSR state has no TSR overlay candidate
+1522,STATE_1522,,,new_bsr_state,requires_manual,,,new BSR state has no TSR overlay candidate
+1533,STATE_1533,,,new_bsr_state,requires_manual,,,new BSR state has no TSR overlay candidate
+1535,STATE_1535,,,new_bsr_state,requires_manual,,,new BSR state has no TSR overlay candidate
+1538,STATE_1538,,,new_bsr_state,requires_manual,,,new BSR state has no TSR overlay candidate
+1546,STATE_1546,,,new_bsr_state,requires_manual,,,new BSR state has no TSR overlay candidate
+1547,STATE_1547,,,new_bsr_state,requires_manual,,,new BSR state has no TSR overlay candidate
+1549,STATE_1549,,,new_bsr_state,requires_manual,,,new BSR state has no TSR overlay candidate
+1550,STATE_1550,,,new_bsr_state,requires_manual,,,new BSR state has no TSR overlay candidate
+1551,STATE_1551,,,new_bsr_state,requires_manual,,,new BSR state has no TSR overlay candidate
+1556,STATE_1556,,,new_bsr_state,requires_manual,,,new BSR state has no TSR overlay candidate
+1565,STATE_1565,,,new_bsr_state,requires_manual,,,new BSR state has no TSR overlay candidate
+1583,STATE_1583,,,new_bsr_state,requires_manual,,,new BSR state has no TSR overlay candidate
+1584,STATE_1584,,,new_bsr_state,requires_manual,,,new BSR state has no TSR overlay candidate
+1585,STATE_1585,,,new_bsr_state,requires_manual,,,new BSR state has no TSR overlay candidate
+1591,STATE_1591,,,new_bsr_state,requires_manual,,,new BSR state has no TSR overlay candidate
+1592,STATE_1592,,,new_bsr_state,requires_manual,,,new BSR state has no TSR overlay candidate
+1593,STATE_1593,,,new_bsr_state,requires_manual,,,new BSR state has no TSR overlay candidate
+1598,STATE_1598,,,new_bsr_state,requires_manual,,,new BSR state has no TSR overlay candidate
+1603,STATE_1603,,,new_bsr_state,requires_manual,,,new BSR state has no TSR overlay candidate
+1606,STATE_1606,,,new_bsr_state,requires_manual,,,new BSR state has no TSR overlay candidate
+1609,STATE_1609,,,new_bsr_state,requires_manual,,,new BSR state has no TSR overlay candidate
+1612,STATE_1612,,,new_bsr_state,requires_manual,,,new BSR state has no TSR overlay candidate
+1613,STATE_1613,,,new_bsr_state,requires_manual,,,new BSR state has no TSR overlay candidate
+1614,STATE_1614,,,new_bsr_state,requires_manual,,,new BSR state has no TSR overlay candidate
+1633,STATE_1633,,,new_bsr_state,requires_manual,,,new BSR state has no TSR overlay candidate
+1634,STATE_1634,,,new_bsr_state,requires_manual,,,new BSR state has no TSR overlay candidate
+1635,STATE_1635,,,new_bsr_state,requires_manual,,,new BSR state has no TSR overlay candidate
+1636,STATE_1636,,,new_bsr_state,requires_manual,,,new BSR state has no TSR overlay candidate
+1639,STATE_1639,,,new_bsr_state,requires_manual,,,new BSR state has no TSR overlay candidate
+1642,STATE_1642,,,new_bsr_state,requires_manual,,,new BSR state has no TSR overlay candidate
+1643,STATE_1643,,,new_bsr_state,requires_manual,,,new BSR state has no TSR overlay candidate
+1645,STATE_1645,,,new_bsr_state,requires_manual,,,new BSR state has no TSR overlay candidate
+1646,STATE_1646,,,new_bsr_state,requires_manual,,,new BSR state has no TSR overlay candidate
+1647,STATE_1647,,,new_bsr_state,requires_manual,,,new BSR state has no TSR overlay candidate
+1650,STATE_1650,,,new_bsr_state,requires_manual,,,new BSR state has no TSR overlay candidate
+1651,STATE_1651,,,new_bsr_state,requires_manual,,,new BSR state has no TSR overlay candidate
+1653,STATE_1653,,,new_bsr_state,requires_manual,,,new BSR state has no TSR overlay candidate
+1660,STATE_1660,,,new_bsr_state,requires_manual,,,new BSR state has no TSR overlay candidate
+1664,STATE_1664,344,STATE_344,same_name,requires_manual,,,staged merge review issues remain
+1665,STATE_1665,,,new_bsr_state,requires_manual,,,new BSR state has no TSR overlay candidate
+1673,STATE_1673,,,new_bsr_state,requires_manual,,,new BSR state has no TSR overlay candidate
+1674,STATE_1674,,,new_bsr_state,requires_manual,,,new BSR state has no TSR overlay candidate
+1677,STATE_1677,,,new_bsr_state,requires_manual,,,new BSR state has no TSR overlay candidate
+1680,STATE_1680,,,new_bsr_state,requires_manual,,,new BSR state has no TSR overlay candidate
+1685,STATE_1685,,,new_bsr_state,requires_manual,,,new BSR state has no TSR overlay candidate
+1703,STATE_1703,,,new_bsr_state,requires_manual,,,new BSR state has no TSR overlay candidate
+1711,STATE_1711,,,new_bsr_state,requires_manual,,,new BSR state has no TSR overlay candidate
+1713,STATE_1713,,,new_bsr_state,requires_manual,,,new BSR state has no TSR overlay candidate
+1714,STATE_1714,,,new_bsr_state,requires_manual,,,new BSR state has no TSR overlay candidate
+1727,STATE_1727,,,new_bsr_state,requires_manual,,,new BSR state has no TSR overlay candidate
+1735,impassable = yes #we do a substantial amount of trolling,,,new_bsr_state,requires_manual,,,new BSR state has no TSR overlay candidate
+1736,impassable = yes #we do a substantial amount of trolling,,,new_bsr_state,requires_manual,,,new BSR state has no TSR overlay candidate
+1742,STATE_1742,,,new_bsr_state,requires_manual,,,new BSR state has no TSR overlay candidate
+1744,STATE_1744,,,new_bsr_state,requires_manual,,,new BSR state has no TSR overlay candidate
+1745,STATE_1745,,,new_bsr_state,requires_manual,,,new BSR state has no TSR overlay candidate
+1746,STATE_1746,,,new_bsr_state,requires_manual,,,new BSR state has no TSR overlay candidate
+1748,STATE_1748,,,new_bsr_state,requires_manual,,,new BSR state has no TSR overlay candidate
+1752,STATE_1752,,,new_bsr_state,requires_manual,,,new BSR state has no TSR overlay candidate
+1763,STATE_1763,,,new_bsr_state,requires_manual,,,new BSR state has no TSR overlay candidate
+1765,STATE_1765,,,new_bsr_state,requires_manual,,,new BSR state has no TSR overlay candidate
+1766,STATE_1766,,,new_bsr_state,requires_manual,,,new BSR state has no TSR overlay candidate
+1770,STATE_1770,,,new_bsr_state,requires_manual,,,new BSR state has no TSR overlay candidate
+1776,STATE_1776,,,new_bsr_state,requires_manual,,,new BSR state has no TSR overlay candidate
+1782,STATE_1782,,,new_bsr_state,requires_manual,,,new BSR state has no TSR overlay candidate
+1783,STATE_1783,,,new_bsr_state,requires_manual,,,new BSR state has no TSR overlay candidate
+1787,STATE_1787,,,new_bsr_state,requires_manual,,,new BSR state has no TSR overlay candidate
+1788,STATE_1788,,,new_bsr_state,requires_manual,,,new BSR state has no TSR overlay candidate
+1789,STATE_1789,,,new_bsr_state,requires_manual,,,new BSR state has no TSR overlay candidate
+1790,STATE_1790,,,new_bsr_state,requires_manual,,,new BSR state has no TSR overlay candidate
+1791,STATE_1791,,,new_bsr_state,requires_manual,,,new BSR state has no TSR overlay candidate
+1792,STATE_1792,,,new_bsr_state,requires_manual,,,new BSR state has no TSR overlay candidate
+1793,STATE_1793,,,new_bsr_state,requires_manual,,,new BSR state has no TSR overlay candidate
+1795,STATE_1795,,,new_bsr_state,requires_manual,,,new BSR state has no TSR overlay candidate
+1810,STATE_1810,,,new_bsr_state,requires_manual,,,new BSR state has no TSR overlay candidate
+1812,STATE_1812,,,new_bsr_state,requires_manual,,,new BSR state has no TSR overlay candidate
+1819,STATE_1819,,,new_bsr_state,requires_manual,,,new BSR state has no TSR overlay candidate
+1820,STATE_1820,,,new_bsr_state,requires_manual,,,new BSR state has no TSR overlay candidate
+1824,STATE_1824,,,new_bsr_state,requires_manual,,,new BSR state has no TSR overlay candidate
+1827,STATE_1827,,,new_bsr_state,requires_manual,,,new BSR state has no TSR overlay candidate
+1830,STATE_1830,,,new_bsr_state,requires_manual,,,new BSR state has no TSR overlay candidate
+1831,STATE_1831,,,new_bsr_state,requires_manual,,,new BSR state has no TSR overlay candidate
+1832,STATE_1832,,,new_bsr_state,requires_manual,,,new BSR state has no TSR overlay candidate
+1833,STATE_1833,,,new_bsr_state,requires_manual,,,new BSR state has no TSR overlay candidate
+1841,STATE_1841,,,new_bsr_state,requires_manual,,,new BSR state has no TSR overlay candidate
+1850,STATE_1850,,,new_bsr_state,requires_manual,,,new BSR state has no TSR overlay candidate
+1852,STATE_1852,,,new_bsr_state,requires_manual,,,new BSR state has no TSR overlay candidate
+1854,STATE_1854,,,new_bsr_state,requires_manual,,,new BSR state has no TSR overlay candidate
+1855,STATE_1855,,,new_bsr_state,requires_manual,,,new BSR state has no TSR overlay candidate
+1856,STATE_1856,,,new_bsr_state,requires_manual,,,new BSR state has no TSR overlay candidate
+1857,STATE_1857,,,new_bsr_state,requires_manual,,,new BSR state has no TSR overlay candidate
+1858,STATE_1858,,,new_bsr_state,requires_manual,,,new BSR state has no TSR overlay candidate
+1864,STATE_1864,,,new_bsr_state,requires_manual,,,new BSR state has no TSR overlay candidate
+1869,STATE_1869,,,new_bsr_state,requires_manual,,,new BSR state has no TSR overlay candidate
+1870,STATE_1870,,,new_bsr_state,requires_manual,,,new BSR state has no TSR overlay candidate
+1882,STATE_1882,,,new_bsr_state,requires_manual,,,new BSR state has no TSR overlay candidate
+1883,STATE_1883,,,new_bsr_state,requires_manual,,,new BSR state has no TSR overlay candidate
+1890,STATE_1890,,,new_bsr_state,requires_manual,,,new BSR state has no TSR overlay candidate
+1891,STATE_1891,497,STATE_497,same_name,requires_manual,,,staged merge review issues remain
+1892,STATE_1892,937,STATE_937,same_name,requires_manual,,,staged merge review issues remain
+1898,STATE_1898,941,STATE_941,same_name,requires_manual,,,staged merge review issues remain
+1899,Minas Gerais,943,STATE_943,province_overlap,requires_manual,,,staged merge review issues remain
+1904,STATE_1904,,,new_bsr_state,requires_manual,,,new BSR state has no TSR overlay candidate
+1908,STATE_1908,,,new_bsr_state,requires_manual,,,new BSR state has no TSR overlay candidate
+1922,STATE_1922,,,new_bsr_state,requires_manual,,,new BSR state has no TSR overlay candidate
+1927,STATE_1927,,,new_bsr_state,requires_manual,,,new BSR state has no TSR overlay candidate
+1932,STATE_1932,,,new_bsr_state,requires_manual,,,new BSR state has no TSR overlay candidate
+1933,STATE_1933,,,new_bsr_state,requires_manual,,,new BSR state has no TSR overlay candidate
+1941,STATE_1941,,,new_bsr_state,requires_manual,,,new BSR state has no TSR overlay candidate
+1945,STATE_1945,,,new_bsr_state,requires_manual,,,new BSR state has no TSR overlay candidate
+1947,Madras,,,new_bsr_state,requires_manual,,,new BSR state has no TSR overlay candidate
+1948,Mysore,,,new_bsr_state,requires_manual,,,new BSR state has no TSR overlay candidate
+1952,STATE_1952,,,new_bsr_state,requires_manual,,,new BSR state has no TSR overlay candidate
+1953,STATE_1953,,,new_bsr_state,requires_manual,,,new BSR state has no TSR overlay candidate
+1955,STATE_1955,,,new_bsr_state,requires_manual,,,new BSR state has no TSR overlay candidate
+1956,STATE_1956,,,new_bsr_state,requires_manual,,,new BSR state has no TSR overlay candidate
+1957,STATE_1957,,,new_bsr_state,requires_manual,,,new BSR state has no TSR overlay candidate
+1958,STATE_1958,,,new_bsr_state,requires_manual,,,new BSR state has no TSR overlay candidate
+1960,STATE_1960,,,new_bsr_state,requires_manual,,,new BSR state has no TSR overlay candidate
+1963,STATE_1963,,,new_bsr_state,requires_manual,,,new BSR state has no TSR overlay candidate
+1966,STATE_1966,,,new_bsr_state,requires_manual,,,new BSR state has no TSR overlay candidate
+1967,STATE_1967,,,new_bsr_state,requires_manual,,,new BSR state has no TSR overlay candidate
+1971,STATE_1971,,,new_bsr_state,requires_manual,,,new BSR state has no TSR overlay candidate
+1980,STATE_1980,,,new_bsr_state,requires_manual,,,new BSR state has no TSR overlay candidate
+1981,STATE_1981,,,new_bsr_state,requires_manual,,,new BSR state has no TSR overlay candidate
+1982,STATE_1982,,,new_bsr_state,requires_manual,,,new BSR state has no TSR overlay candidate
+1983,STATE_1983,,,new_bsr_state,requires_manual,,,new BSR state has no TSR overlay candidate
+1984,STATE_1984,,,new_bsr_state,requires_manual,,,new BSR state has no TSR overlay candidate
+1991,STATE_1991,,,new_bsr_state,requires_manual,,,new BSR state has no TSR overlay candidate
+2000,STATE_2000,,,new_bsr_state,requires_manual,,,new BSR state has no TSR overlay candidate
+2001,STATE_2001,,,new_bsr_state,requires_manual,,,new BSR state has no TSR overlay candidate
+2005,STATE_2005,,,new_bsr_state,requires_manual,,,new BSR state has no TSR overlay candidate
+2006,STATE_2006,,,new_bsr_state,requires_manual,,,new BSR state has no TSR overlay candidate
+2008,STATE_2008,,,new_bsr_state,requires_manual,,,new BSR state has no TSR overlay candidate
+2015,STATE_2015,,,new_bsr_state,requires_manual,,,new BSR state has no TSR overlay candidate
+2020,STATE_2020,,,new_bsr_state,requires_manual,,,new BSR state has no TSR overlay candidate
+2021,STATE_2021,,,new_bsr_state,requires_manual,,,new BSR state has no TSR overlay candidate
+2022,STATE_2022,,,new_bsr_state,requires_manual,,,new BSR state has no TSR overlay candidate
+2028,STATE_2028,,,new_bsr_state,requires_manual,,,new BSR state has no TSR overlay candidate
+2030,STATE_2030,,,new_bsr_state,requires_manual,,,new BSR state has no TSR overlay candidate

@@ -1,0 +1,29 @@
+state={
+	id=444
+	name="STATE_444" # STATE_444
+	# TSR2_OVERLAY tsr_state_id=444 ratio=1.000 split=False
+
+		state_category=wasteland
+
+	manpower=364000
+
+	resources={
+		oil = 3
+	}
+
+	history={
+		owner = KLT
+		controller = KLT
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 1
+		}
+		add_core_of = BAL
+		add_core_of = BLC
+		add_core_of = PAK
+	}
+
+		provinces={
+			5043 7917 12761 12774 
+		}
+}

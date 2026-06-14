@@ -1,0 +1,33 @@
+state={
+	id=478
+	name="STATE_478" # Jalisco
+	# TSR2_OVERLAY tsr_state_id=478 ratio=1.000 split=False
+
+		
+		state_category = town
+
+	manpower=2470875
+
+	resources={
+		tungsten = 8
+	}
+
+	history={
+		owner = MEX
+		victory_points = {
+			13089 10
+		}
+		victory_points = {
+			12746 1
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+		}
+		add_core_of = MEX
+	}
+
+		provinces={
+			2051 5052 12746 12873 13089 
+		}
+}

@@ -1,0 +1,29 @@
+state={
+	id=1892
+	name="STATE_1892" # STATE_1892
+	# TSR2_OVERLAY none (BSR-only state)
+
+		
+		state_category = rural
+
+	manpower=674312
+
+	resources={
+		rubber = 4
+	}
+
+	history={
+		owner = BRA
+		victory_points = {
+			2228 1 
+		}
+		buildings = {
+			infrastructure = 4
+		}
+		add_core_of = BRA
+	}
+
+		provinces={
+			2228 5153 10984 5204
+		}
+}

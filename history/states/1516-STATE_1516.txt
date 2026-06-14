@@ -1,0 +1,31 @@
+state={
+	id=1516
+	name="STATE_1516" # STATE_1516
+	# TSR2_OVERLAY none (BSR-only state)
+
+		state_category=city
+
+	manpower=74660
+
+	history={
+		owner = DNZ
+		controller = GER
+		victory_points = {
+			13912 5
+		}
+		buildings = {
+			air_base = 3
+			infrastructure = 7
+			dockyard = 1
+			industrial_complex = 1
+		13912 = {naval_base = 2}
+		}
+		add_core_of = DNZ
+		add_core_of = GER
+		add_core_of = POL
+	}
+
+		provinces={
+			 13912
+		}
+}

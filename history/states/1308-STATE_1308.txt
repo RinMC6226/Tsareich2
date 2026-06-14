@@ -1,0 +1,25 @@
+state={
+	id=1308
+	name="STATE_1308" # STATE_1308
+	# TSR2_OVERLAY none (BSR-only state)
+
+		state_category=rural
+
+	manpower=420000
+
+	history={
+		owner = XIC
+		controller = CHI
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+		}
+		add_core_of = CHI
+		add_core_of = XIC
+		add_core_of = PRC
+	}
+
+		provinces={
+			531 5193 7397 7911 12797 12882 
+		}
+}

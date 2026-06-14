@@ -1,0 +1,29 @@
+state={
+	id=988
+	name="STATE_988" # STATE_988
+	# TSR2_OVERLAY tsr_state_id=988 ratio=1.000 split=False
+
+		state_category=large_town
+
+	manpower=512000
+
+	history={
+		owner = KLT
+		controller = KLT
+		victory_points = {
+			771 1 
+		}
+		buildings = {
+			infrastructure = 1
+		}
+		add_core_of = BLC
+		add_core_of = IND
+		add_core_of = ITA
+		add_core_of = PAK
+		add_core_of = SRD
+	}
+
+		provinces={
+		 771 9741 11723 11726 11730 13736
+		}
+}

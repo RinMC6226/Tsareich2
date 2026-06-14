@@ -1,0 +1,22 @@
+state={
+	id=1854
+	name="STATE_1854" # STATE_1854
+	# TSR2_OVERLAY none (BSR-only state)
+
+
+		state_category = pastoral
+
+	manpower=1071
+
+	history={
+		owner = FRA
+		buildings = {
+			infrastructure = 1
+		}
+		add_core_of = CAY
+	}
+
+		provinces={
+			5708
+		}
+}

@@ -1,0 +1,36 @@
+state={
+	id=433
+	name="STATE_433" # STATE_433
+	# TSR2_OVERLAY tsr_state_id=433 ratio=1.000 split=False
+
+		state_category=town
+
+	manpower=11786000
+
+	history={
+		owner = IND
+		victory_points = {
+			2054 10 
+		}
+		victory_points = {
+			1908 10 
+		}
+		victory_points = {
+			12876 5 
+		}
+		victory_points = {
+			10847 5 
+		}
+		victory_points = {
+			12886 5 
+		}
+		buildings = {
+			infrastructure = 1
+		}
+		add_core_of = RJP
+	}
+
+		provinces={
+			1199 1908 2054 4149 4915 4971 4984 7905 7998 10847 10866 12041 12718 12743 12829 12844 12876 12886 
+		}
+}

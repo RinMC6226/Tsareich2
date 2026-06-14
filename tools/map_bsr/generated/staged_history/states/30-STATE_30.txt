@@ -1,0 +1,28 @@
+state={
+	id=30
+	name="STATE_30" # STATE_30
+	# TSR2_OVERLAY tsr_state_id=30 ratio=1.000 split=False
+
+		state_category=city
+
+	manpower=1388400
+
+	history={
+		owner = FRA
+		controller = GER
+		victory_points = {
+			3509 5 
+		}
+		buildings = {
+			air_base = 2
+			infrastructure = 4
+			dockyard = 1
+			industrial_complex = 1
+		}
+		add_core_of = FRA
+	}
+
+		provinces={
+			3509 9478 11463 
+		}
+}

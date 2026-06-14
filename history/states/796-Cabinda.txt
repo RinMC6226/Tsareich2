@@ -1,0 +1,33 @@
+state={
+	id=796
+	name="STATE_796" # STATE_796
+	# TSR2_OVERLAY tsr_state_id=796 ratio=1.000 split=False
+
+		state_category=town
+
+	manpower=25000
+
+	history={
+		owner = POR
+		victory_points = {
+			3231 5 
+		}
+		victory_points = {
+		    8640 5
+		}
+		victory_points = {
+			13774 10 
+		}
+		buildings = {
+			infrastructure = 1
+		}
+		add_core_of = ANG
+		add_core_of = GER
+		add_core_of = PRE
+		add_core_of = SHL
+	}
+
+		provinces={
+		3231 13774 8640
+		}
+}

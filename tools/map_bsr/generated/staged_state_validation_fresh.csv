@@ -1,0 +1,4 @@
+severity,state_id,file,issue
+error,1045,tools/map_bsr/generated/staged_history/states/1045-Northern Epirus.txt,province building 13255 is not land
+error,1510,tools/map_bsr/generated/staged_history/states/1510-Prrenjas.txt,province building 13255 is not land
+error,44,tools/map_bsr/generated/staged_history/states/44-Albania.txt,province building 13255 is not land

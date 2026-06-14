@@ -1,0 +1,25 @@
+state={
+	id=813
+	name="STATE_813" # STATE_813
+	# TSR2_OVERLAY tsr_state_id=813 ratio=1.000 split=False
+
+		state_category=large_town
+
+	manpower=150560
+
+	history={
+		owner = RUS
+		controller = GER
+		buildings = {
+			infrastructure = 3
+			dockyard = 1
+		}
+		add_core_of = BEL
+		add_core_of = EST
+		add_core_of = WLL
+	}
+
+		provinces={
+			3959 13237 13421 
+		}
+}

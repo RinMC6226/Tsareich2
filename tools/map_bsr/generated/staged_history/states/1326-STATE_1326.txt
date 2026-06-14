@@ -1,0 +1,30 @@
+state={
+	id=1326
+	name="STATE_1326" # STATE_1326
+	# TSR2_OVERLAY none (BSR-only state)
+
+		state_category=rural
+
+	manpower=731985
+
+	resources={
+		chromium = 23
+	}
+
+	history={
+		owner = SOV
+		victory_points = {
+			9628 3 
+		}
+		buildings = {
+			infrastructure = 3
+		}
+		add_core_of = CIR
+		add_core_of = KBR
+		add_core_of = SOV
+	}
+
+		provinces={
+			685 9628 9647 9649
+		}
+}

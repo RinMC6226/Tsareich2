@@ -1,0 +1,27 @@
+state={
+	id=210
+	name="STATE_210" # Nevel
+	# TSR2_OVERLAY tsr_state_id=210 ratio=1.000 split=False
+
+		
+		state_category = rural
+
+	manpower=830133
+
+	history={
+		owner = RUS
+		victory_points = {
+			11234 1
+		}
+		buildings = {
+			infrastructure = 3
+		}
+		add_core_of = MUS
+		add_core_of = RUS
+		add_core_of = SOV
+	}
+
+		provinces={
+			354 387 6293 9353 9386 11234 11259 
+		}
+}

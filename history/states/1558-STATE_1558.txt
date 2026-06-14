@@ -1,0 +1,32 @@
+state={
+	id=1558
+	name="STATE_1558" # STATE_1558
+	# TSR2_OVERLAY none (BSR-only state)
+
+		state_category=large_town
+
+	manpower=99210
+
+	resources={
+		steel = 2
+		oil = 3
+	}
+
+	history={
+		owner = POL
+		controller = GGO
+		victory_points = {
+			442 3 
+		}
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 1
+		}
+		add_core_of = GAL
+		add_core_of = POL
+	}
+
+		provinces={
+			 442 3410 6499 11507
+		}
+}

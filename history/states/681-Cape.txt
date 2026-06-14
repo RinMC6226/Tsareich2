@@ -1,0 +1,27 @@
+state={
+	id=681
+	name="STATE_681" # STATE_681
+	# TSR2_OVERLAY tsr_state_id=681 ratio=1.000 split=False
+
+		state_category=town
+
+	manpower=1637178
+
+	history={
+		owner = SAF
+		victory_points = {
+			12589 10 
+		}
+		buildings = {
+			air_base = 1
+			infrastructure = 3
+			industrial_complex = 2
+		12589 = {naval_base = 4}
+		}
+		add_core_of = SAF
+	}
+
+		provinces={
+			10415 12589 13383 
+		}
+}

@@ -1,0 +1,30 @@
+state={
+	id=610
+	name="STATE_610" # STATE_610
+	# TSR2_OVERLAY tsr_state_id=610 ratio=1.000 split=False
+
+		state_category=pastoral
+
+	manpower=1975377
+
+	resources={
+		oil = 1
+		coal = 1
+	}
+
+	history={
+		owner = BYG
+		controller = BYG
+		buildings = {
+			infrastructure = 2
+		}
+		add_core_of = BYG
+		add_core_of = CHI
+		add_core_of = MAN
+		add_core_of = PRC
+	}
+
+		provinces={
+			934 3814 3934 6837 6898 9788 9927 11855 11886 
+		}
+}

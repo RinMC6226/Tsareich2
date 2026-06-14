@@ -1,0 +1,38 @@
+state={
+	id=155
+	name="STATE_155" # STATE_155
+	# TSR2_OVERLAY tsr_state_id=155 ratio=1.000 split=False
+
+		state_category=town
+
+	manpower=1465070
+
+	resources={
+		aluminium = 40
+		coal = 1
+	}
+
+	history={
+		owner = HUN
+		victory_points = {
+			6720 3 
+		}
+		victory_points = {
+			3683 1
+		}
+		victory_points = {
+			6703 3
+		}
+		buildings = {
+			air_base = 1
+			infrastructure = 3
+			arms_factory = 1
+			industrial_complex = 2
+		}
+		add_core_of = HUN
+	}
+
+		provinces={
+			686 701 3683 6703 6720 9676 11663
+		}
+}

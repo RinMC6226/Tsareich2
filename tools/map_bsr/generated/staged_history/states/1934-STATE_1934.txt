@@ -1,0 +1,33 @@
+state={
+	id=1934
+	name="STATE_1934" # STATE_1934
+	# TSR2_OVERLAY none (BSR-only state)
+
+		state_category=city
+
+	manpower=97119
+
+	resources={
+		steel = 3
+	}
+
+	history={
+		owner = FRA
+		controller = GER
+		victory_points = {
+			9559 10 
+		}
+		buildings = {
+			anti_air_building = 1
+			air_base = 1
+			infrastructure = 8
+		9559 = {bunker = 10}
+		}
+		add_core_of = ALS
+		add_core_of = FRA
+	}
+
+		provinces={
+			9559 
+		}
+}

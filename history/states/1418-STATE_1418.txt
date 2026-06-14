@@ -1,0 +1,21 @@
+state={
+	id=1418
+	name="STATE_1418" # STATE_1418
+	# TSR2_OVERLAY none (BSR-only state)
+
+		state_category=pastoral
+
+	manpower=13092
+
+	history={
+		owner = CAN
+		buildings = {
+			infrastructure = 3
+		}
+		add_core_of = CAN
+	}
+
+		provinces={
+			4877 7820 12578
+		}
+}

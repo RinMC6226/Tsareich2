@@ -1,52 +1,44 @@
 state={
 	id=591
-	name="STATE_591"
-	manpower = 3480000 #was 4350000
-	state_category = town
+	name="STATE_591" # STATE_591
+	# TSR2_OVERLAY tsr_state_id=591 ratio=1.000 split=False
+
+		state_category = town
+
+	manpower=3480000
 
 	history={
 		owner = GXC
-		add_core_of = GXC
-		1936.1.1 = {
-			IF = {
-				limit = {
-					 has_dlc = "No Compromise, No Surrender" 
-				}
-				transfer_state_to = GDC
-				add_core_of = GDC
-				remove_core_of = GXC
-			}
-		}	
-		
+					1936.1.1 = {
+					IF = {
+						limit = {
+							 has_dlc = "No Compromise, No Surrender"
+						}
+						transfer_state_to = GDC
+						add_core_of = GDC
+						remove_core_of = GXC
+					}
+					}
+		# transfer_state_to はランタイム用エフェクトのため 1936.1.1 日付ブロック内で実行する。
+		# オーバーレイツールの日付ブロック平坦化でトップレベルに出ると、ワールド初期化時に
+		# 実行され無効な占領データを参照して SIGSEGV になる (バニラも 1936.1.1 ブロック内で実行)。
+		# controller=JAP は開始時から日本占領とする mod 独自意図でトップレベルに残す。
+		controller = JAP
 		victory_points = {
-			1070 2 # Haikou
+			1070 1 
 		}
-
-		victory_points = {
-			994 1 # Yaxian 
-		}
-		
 		buildings = {
-			infrastructure = 1
 			air_base = 1
-			1070 = {
-				naval_base = 2
-			}
-
+			infrastructure = 1
+		1070 = {naval_base = 2}
 		}
-
-		1938.10.25 = {
-			
-			remove_core_of = GXC
-			owner = KMT
-			
-			controller = JAP
-		}
+		add_core_of = CHI
+		add_core_of = GDC
+		add_core_of = GXC
+		add_core_of = PRC
 	}
 
-	provinces={
-		994 1038 1070 11963 11990 
-	}
-
-	local_supplies=1.0 
+		provinces={
+			994 1038 1070 11963 11990 
+		}
 }

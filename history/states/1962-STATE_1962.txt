@@ -1,0 +1,28 @@
+state={
+	id=1962
+	name="STATE_1962" # STATE_1962
+	# TSR2_OVERLAY none (BSR-only state)
+
+		
+		state_category = rural
+
+	manpower=271405
+
+	history={
+		owner = PRU
+		victory_points = {
+			5166 3
+		}
+		victory_points = {
+			8191 1
+		}
+		buildings = {
+			infrastructure = 4
+		}
+		add_core_of = PRU
+	}
+
+		provinces={
+			10940 5166 8191 8160
+			}
+}

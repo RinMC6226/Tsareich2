@@ -1,0 +1,28 @@
+state={
+	id=826
+	name="STATE_826" # STATE_826
+	# TSR2_OVERLAY tsr_state_id=826 ratio=1.000 split=False
+
+		state_category = rural
+
+	manpower=491569
+
+	history={
+		owner = RUS
+		victory_points = {
+			13313 1 
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+		}
+		add_core_of = ABK
+		add_core_of = GEO
+		add_core_of = LIE
+		add_core_of = RUS
+	}
+
+		provinces={
+			13313 
+		}
+}

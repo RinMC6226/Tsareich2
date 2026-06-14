@@ -1,0 +1,30 @@
+state={
+	id=1998
+	name="STATE_1998" # STATE_1998
+	# TSR2_OVERLAY none (BSR-only state)
+
+		
+		state_category = metropolis
+
+	manpower=1245671
+
+	history={
+		owner = USA
+		victory_points = {
+			11740 2
+		}
+		victory_points = {
+			11900 3
+		}
+		buildings = {
+			air_base = 3
+			infrastructure = 10
+			industrial_complex = 3
+		}
+		add_core_of = USA
+	}
+
+		provinces={
+			11740 11900
+		}
+}

@@ -1,0 +1,34 @@
+state={
+	id=1043
+	name="STATE_1043" # STATE_1043
+	# TSR2_OVERLAY tsr_state_id=1043 ratio=1.000 split=False
+
+		state_category=enclave
+
+	manpower=3500
+
+	resources={
+		coal = 1
+	}
+
+	history={
+		owner = MON
+		controller = MON
+		victory_points = {
+			9945 5 
+		}
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 1
+		9945 = {naval_base = 2}
+		}
+		add_core_of = MEN
+		add_core_of = MON
+		add_core_of = MOR
+		add_core_of = SHX
+	}
+
+		provinces={
+			9945 
+		}
+}

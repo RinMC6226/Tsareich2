@@ -1,0 +1,22 @@
+state={
+	id=1741
+	name="STATE_1741" # STATE_1741
+	# TSR2_OVERLAY none (BSR-only state)
+
+		state_category=pastoral
+
+	manpower=252000
+
+	history={
+		owner = TIB
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 1
+		}
+		add_core_of = TIB
+	}
+
+		provinces={
+			5094 
+		}
+}

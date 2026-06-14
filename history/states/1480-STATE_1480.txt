@@ -1,0 +1,32 @@
+state={
+	id=1480
+	name="STATE_1480" # STATE_1480
+	# TSR2_OVERLAY none (BSR-only state)
+
+		
+		state_category = city
+
+	manpower=28500
+
+	resources={
+		tungsten = 6
+		steel = 1
+	}
+
+	history={
+		owner = BOL
+		victory_points = {
+			5229 1
+		}
+		buildings = {
+			air_base = 1
+			infrastructure = 4
+			industrial_complex = 1
+		}
+		add_core_of = BOL
+	}
+
+		provinces={
+			5229
+		}
+}

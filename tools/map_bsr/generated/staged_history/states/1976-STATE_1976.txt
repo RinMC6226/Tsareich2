@@ -1,0 +1,22 @@
+state={
+	id=1976
+	name="STATE_1976" # STATE_1976
+	# TSR2_OVERLAY none (BSR-only state)
+
+		state_category=city
+
+	manpower=197920
+
+	history={
+		owner = HOL
+		buildings = {
+			infrastructure = 7
+		}
+		add_core_of = HOL
+		add_core_of = ZEE
+	}
+
+		provinces={
+			9431 
+		}
+}

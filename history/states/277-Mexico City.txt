@@ -1,0 +1,32 @@
+state={
+	id=277
+	name="STATE_277" # STATE_277
+	# TSR2_OVERLAY tsr_state_id=277 ratio=1.000 split=False
+
+		
+		state_category = city
+
+	manpower=3424403
+
+	resources={
+		steel = 6
+	}
+
+	history={
+		owner = MEX
+		victory_points = {
+			1965 30
+		}
+		buildings = {
+			air_base = 3
+			infrastructure = 3
+			arms_factory = 2
+			industrial_complex = 4
+		}
+		add_core_of = MEX
+	}
+
+		provinces={
+			1965 7913 12755 
+		}
+}

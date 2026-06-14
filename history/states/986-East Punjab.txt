@@ -1,0 +1,32 @@
+state={
+	id=986
+	name="STATE_986" # STATE_986
+	# TSR2_OVERLAY tsr_state_id=986 ratio=1.000 split=False
+
+		state_category=town
+
+	manpower=16959758
+
+	resources={
+		steel = 15
+		aluminium = 10
+	}
+
+	history={
+		owner = IND
+		victory_points = {
+			628 1 
+		}
+		buildings = {
+			infrastructure = 1
+		}
+		add_core_of = IND
+		add_core_of = ITA
+		add_core_of = KHL
+		add_core_of = VEC
+	}
+
+		provinces={
+			628 6656
+		}
+}

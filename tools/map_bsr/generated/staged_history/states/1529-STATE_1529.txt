@@ -1,0 +1,22 @@
+state={
+	id=1529
+	name="STATE_1529" # STATE_1529
+	# TSR2_OVERLAY none (BSR-only state)
+
+		
+		state_category = pastoral
+
+	manpower=34092
+
+	history={
+		owner = ENG
+		buildings = {
+			infrastructure = 1
+		}
+		add_core_of = ZAM
+	}
+
+		provinces={
+			10538
+		}
+}

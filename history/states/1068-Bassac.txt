@@ -1,0 +1,30 @@
+state={
+	id=1068
+	name="STATE_1068" # STATE_1068
+	# TSR2_OVERLAY tsr_state_id=1068 ratio=1.000 split=False
+
+		state_category = pastoral
+
+	manpower=20764
+
+	history={
+		owner = BAY
+		controller = BAY
+		    add_dynamic_modifier = {
+		      modifier = BAY_dummy_state_no_building_slots_modifier
+		    }
+		buildings = {
+			infrastructure = 3
+			arms_factory = 2
+			industrial_complex = 2
+		6157 = {naval_base = 2
+						coastal_bunker = 2}
+		}
+		add_core_of = BAY
+		add_core_of = FIN
+	}
+
+		provinces={
+			6157 
+		}
+}

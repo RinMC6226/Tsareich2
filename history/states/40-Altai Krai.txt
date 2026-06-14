@@ -1,0 +1,29 @@
+state={
+	id=40
+	name="STATE_40" # Barnaul
+	# TSR2_OVERLAY tsr_state_id=40 ratio=1.000 split=False
+
+		
+		state_category = large_town
+
+	manpower=2107451
+
+	history={
+		owner = RUS
+		victory_points = {
+			1794 1
+		}
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 1
+		}
+		add_core_of = ALT
+		add_core_of = RUS
+		add_core_of = SIB
+		add_core_of = SOV
+	}
+
+		provinces={
+			1297 1779 1794 1797 4803 7680 10537 10546 11410 12515 12528 12613 
+		}
+}

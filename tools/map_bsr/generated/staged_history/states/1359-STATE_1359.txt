@@ -1,0 +1,22 @@
+state={
+	id=1359
+	name="STATE_1359" # STATE_1359
+	# TSR2_OVERLAY none (BSR-only state)
+
+		state_category=rural
+
+	manpower=513000
+
+	history={
+		owner = POR
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+		}
+		add_core_of = MZB
+	}
+
+		provinces={
+			2180 5164 12971 
+		}
+}

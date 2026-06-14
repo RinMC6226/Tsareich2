@@ -1,0 +1,28 @@
+state={
+	id=579
+	name="STATE_579" # Salekhard
+	# TSR2_OVERLAY tsr_state_id=579 ratio=1.000 split=False
+
+
+		state_category = wasteland
+
+
+		impassable = yes
+
+	manpower=45484
+
+	history={
+		owner = RUS
+		buildings = {
+			infrastructure = 1
+		}
+		add_core_of = RUS
+		add_core_of = SIB
+		add_core_of = SOV
+		add_core_of = YAM
+	}
+
+		provinces={
+			1664 1684 3169 4669 7689 7738 8461 9142 
+		}
+}

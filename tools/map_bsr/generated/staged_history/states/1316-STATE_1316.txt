@@ -1,0 +1,32 @@
+state={
+	id=1316
+	name="STATE_1316" # STATE_1316
+	# TSR2_OVERLAY none (BSR-only state)
+
+		state_category=town
+
+	manpower=3685200
+
+	history={
+		owner = GXC
+		victory_points = {
+			10404 3 
+		}
+		victory_points = {
+			4134 3 
+		}
+		buildings = {
+			air_base = 2
+			infrastructure = 3
+			arms_factory = 1
+			industrial_complex = 2
+		}
+		add_core_of = CHI
+		add_core_of = GXC
+		add_core_of = PRC
+	}
+
+		provinces={
+			1597 4134 4152 7095 7168 10039 10404 10431 12436 
+		}
+}

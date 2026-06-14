@@ -1,0 +1,40 @@
+state={
+	id=1038
+	name="STATE_1038" # STATE_1038
+	# TSR2_OVERLAY tsr_state_id=1038 ratio=1.000 split=False
+
+		state_category=rural
+
+	manpower=25582133
+
+	history={
+		owner = BYG
+		controller = BYG
+					IF = {
+						limit = {
+							has_dlc = "No Compromise, No Surrender"
+						}
+						transfer_state_to = BYG
+						add_core_of = BYG
+					}
+					IF = {
+						limit = {
+							has_dlc = "No Compromise, No Surrender" 
+						}
+					}
+		victory_points = {
+			4556 3
+		}
+		buildings = {
+			air_base = 3
+			infrastructure = 2
+			industrial_complex = 1
+		}
+		add_core_of = BYG
+		add_core_of = LES
+	}
+
+		provinces={
+			4556 
+		}
+}

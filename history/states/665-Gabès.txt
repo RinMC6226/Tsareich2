@@ -1,0 +1,22 @@
+state={
+	id=665
+	name="STATE_665" # STATE_665
+	# TSR2_OVERLAY tsr_state_id=665 ratio=1.000 split=False
+
+		state_category=pastoral
+
+	manpower=427824
+
+	history={
+		owner = TUN
+		controller = TUN
+		buildings = {
+			infrastructure = 2
+		}
+		add_core_of = TUN
+	}
+
+		provinces={
+			1105 3987 4992 9983 10082 12000 
+		}
+}

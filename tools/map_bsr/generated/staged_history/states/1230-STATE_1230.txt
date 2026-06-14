@@ -1,0 +1,29 @@
+state={
+	id=1230
+	name="STATE_1230" # STATE_1230
+	# TSR2_OVERLAY none (BSR-only state)
+
+		state_category=rural
+
+	manpower=824100
+
+	resources={
+		chromium = 5
+		aluminium = 2
+	}
+
+	history={
+		owner = YUG
+		controller = BUL
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+		}
+		add_core_of = MAC
+		add_core_of = YUG
+	}
+
+		provinces={
+			3865 11856
+		}
+}

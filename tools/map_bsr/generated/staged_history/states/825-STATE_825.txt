@@ -1,0 +1,30 @@
+state={
+	id=825
+	name="STATE_825" # STATE_825
+	# TSR2_OVERLAY tsr_state_id=825 ratio=1.000 split=False
+
+		state_category=pastoral
+
+	manpower=21795
+
+	resources={
+		oil = 7
+	}
+
+	history={
+		owner = RUS
+		victory_points = {
+			13309 1 
+		}
+		buildings = {
+			infrastructure = 1
+		}
+		add_core_of = MCO
+		add_core_of = NEN
+		add_core_of = RUS
+	}
+
+		provinces={
+			13309
+		}
+}

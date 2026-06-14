@@ -1,0 +1,28 @@
+state={
+	id=690
+	name="STATE_690" # STATE_690
+	# TSR2_OVERLAY tsr_state_id=690 ratio=1.000 split=False
+
+		
+		state_category = tiny_island
+
+	manpower=40000
+
+	history={
+		owner = ENG
+		victory_points = {
+			10254 1
+		}
+		buildings = {
+			infrastructure = 2
+		10254 = {naval_base = 1}
+		4647 = {naval_base = 1}
+		7245 = {naval_base = 1}
+		}
+		add_core_of = BAH
+	}
+
+		provinces={
+			4647 7245 10254 
+		}
+}

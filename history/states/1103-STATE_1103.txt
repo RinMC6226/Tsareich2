@@ -1,0 +1,29 @@
+state={
+	id=1103
+	name="STATE_1103" # STATE_1103
+	# TSR2_OVERLAY tsr_state_id=1103 ratio=1.000 split=False
+
+		state_category=rural
+
+	manpower=114181
+
+	resources={
+		tungsten = 1
+	}
+
+	history={
+		owner = NZL
+		victory_points = {
+			935 1 
+		}
+		buildings = {
+			infrastructure = 2
+		}
+		add_core_of = BUL
+		add_core_of = NZL
+	}
+
+		provinces={
+			935 3908
+		}
+}

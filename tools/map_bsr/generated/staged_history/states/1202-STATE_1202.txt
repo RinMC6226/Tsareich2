@@ -1,0 +1,31 @@
+state={
+	id=1202
+	name="STATE_1202" # STATE_1202
+	# TSR2_OVERLAY none (BSR-only state)
+
+		state_category=town
+
+	manpower=2540000
+
+	resources={
+		tungsten = 5
+		steel = 5
+		chromium = 1
+	}
+
+	history={
+		owner = CHI
+		buildings = {
+			infrastructure = 3
+			arms_factory = 1
+			industrial_complex = 2
+		}
+		add_core_of = CHI
+		add_core_of = GXC
+		add_core_of = PRC
+	}
+
+		provinces={
+			1120 4092 9970 9997 10080 10121 11941 12014 
+		}
+}

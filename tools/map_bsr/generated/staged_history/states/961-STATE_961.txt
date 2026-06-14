@@ -1,0 +1,26 @@
+state={
+	id=961
+	name="STATE_961" # STATE_961
+	# TSR2_OVERLAY tsr_state_id=961 ratio=1.000 split=False
+
+		state_category=rural
+
+	manpower=6753
+
+	history={
+		owner = BRA
+		victory_points = {
+			9893 1 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+		}
+		add_core_of = BRA
+		add_core_of = TUR
+	}
+
+		provinces={
+			806 3889 9893 
+		}
+}

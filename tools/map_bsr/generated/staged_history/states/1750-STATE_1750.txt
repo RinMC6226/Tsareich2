@@ -1,0 +1,23 @@
+state={
+	id=1750
+	name="STATE_1750" # STATE_1750
+	# TSR2_OVERLAY none (BSR-only state)
+
+		state_category=town
+
+	manpower=310000
+
+	history={
+		owner = YUN
+		buildings = {
+			infrastructure = 3
+		}
+		add_core_of = CHI
+		add_core_of = PRC
+		add_core_of = YUN
+	}
+
+		provinces={
+			10413 10776 
+		}
+}

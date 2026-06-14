@@ -1,0 +1,29 @@
+state={
+	id=679
+	name="STATE_679" # STATE_679
+	# TSR2_OVERLAY tsr_state_id=679 ratio=1.000 split=False
+
+		state_category=pastoral
+
+	manpower=511000
+
+	history={
+		owner = SAU
+		victory_points = {
+			5037 5 
+		}
+		victory_points = {
+			12883 1 
+		}
+		buildings = {
+			infrastructure = 2
+		12883 = {naval_base = 5}
+		}
+		add_core_of = HEJ
+		add_core_of = SAU
+	}
+
+		provinces={
+			2033 5037 12883 13337 13341
+		}
+}

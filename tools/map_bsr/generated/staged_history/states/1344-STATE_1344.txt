@@ -1,0 +1,31 @@
+state={
+	id=1344
+	name="STATE_1344" # STATE_1344
+	# TSR2_OVERLAY none (BSR-only state)
+
+		state_category = large_town
+
+		state_category=pastoral
+
+	manpower=309321
+
+	history={
+		owner = CHI
+		victory_points = {
+			1047 5 
+		}
+		buildings = {
+			air_base = 1
+			infrastructure = 5
+			industrial_complex = 1
+		1047 = {bunker = 1}
+		}
+		add_core_of = CHI
+		add_core_of = GXC
+		add_core_of = PRC
+	}
+
+		provinces={
+			1047
+		}
+}

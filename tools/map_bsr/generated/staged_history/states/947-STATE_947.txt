@@ -1,0 +1,28 @@
+state={
+	id=947
+	name="STATE_947" # STATE_947
+	# TSR2_OVERLAY tsr_state_id=947 ratio=1.000 split=False
+
+		state_category=pastoral
+
+	manpower=130000
+
+	resources={
+		tungsten = 2
+	}
+
+	history={
+		owner = PRU
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+		}
+		add_core_of = JBS
+		add_core_of = JOR
+		add_core_of = PRU
+	}
+
+		provinces={
+			1544 4440 
+		}
+}

@@ -1,0 +1,29 @@
+state={
+	id=405
+	name="STATE_405" # STATE_405
+	# TSR2_OVERLAY tsr_state_id=405 ratio=1.000 split=False
+
+		state_category=city
+
+	manpower=4137910
+
+	history={
+		owner = RUS
+		victory_points = {
+			1459 5 
+		}
+		buildings = {
+			air_base = 1
+			infrastructure = 3
+			industrial_complex = 2
+		}
+		add_core_of = KOK
+		add_core_of = RUS
+		add_core_of = SOV
+		add_core_of = UZB
+	}
+
+		provinces={
+			11687 1459
+		}
+}

@@ -1,0 +1,43 @@
+state={
+	id=594
+	name="STATE_594" # STATE_594
+	# TSR2_OVERLAY tsr_state_id=594 ratio=1.000 split=False
+
+		state_category=town
+
+	manpower=3275000
+
+	resources={
+		tungsten = 11
+		steel = 8
+		chromium = 3
+	}
+
+	history={
+		owner = GXC
+					if = {
+						limit = {
+							NOT = { has_dlc = "Waking the Tiger" }
+						}
+						remove_core_of = GXC
+						KMT = { transfer_state = PREV }
+					}
+		victory_points ={
+			1018 3
+		}
+		victory_points ={
+			4023 3
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+		}
+		add_core_of = CHI
+		add_core_of = GXC
+		add_core_of = PRC
+	}
+
+		provinces={
+			1018 4023 7192 10004 11926  
+		}
+}

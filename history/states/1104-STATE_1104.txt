@@ -1,0 +1,29 @@
+state={
+	id=1104
+	name="STATE_1104" # STATE_1104
+	# TSR2_OVERLAY none (BSR-only state)
+
+		state_category=rural
+
+	manpower=302004
+
+	history={
+		owner = YUG
+		controller = ITA
+		victory_points = {
+			3924 3 
+		}
+		buildings = {
+			infrastructure = 5
+			dockyard = 1
+			industrial_complex = 1
+		3924 = {naval_base = 3}
+		}
+		add_core_of = CRO
+		add_core_of = YUG
+	}
+
+		provinces={
+			3868 3924 
+		}
+}

@@ -1,0 +1,30 @@
+state={
+	id=525
+	name="STATE_525" # STATE_525
+	# TSR2_OVERLAY tsr_state_id=525 ratio=1.000 split=False
+
+		state_category=town
+
+	manpower=6961368
+
+	history={
+		owner = KOR
+		controller = KOR
+		victory_points = {
+			7125 30
+		}
+		victory_points = {
+			7221 5
+		}
+		buildings = {
+			infrastructure = 2
+			arms_factory = 1
+		7221 = {naval_base = 3}
+		}
+		add_core_of = KOR
+	}
+
+		provinces={
+			7125 7221 10036
+		}
+}

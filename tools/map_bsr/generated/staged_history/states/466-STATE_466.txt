@@ -1,0 +1,29 @@
+state={
+	id=466
+	name="STATE_466" # STATE_466
+	# TSR2_OVERLAY tsr_state_id=466 ratio=1.000 split=False
+
+		state_category=rural
+
+	manpower=8860
+
+	resources={
+		aluminium = 4
+	}
+
+	history={
+		owner = CAN
+		victory_points = {
+			12223 1 
+		}
+		buildings = {
+			infrastructure = 1
+		}
+		add_core_of = CAN
+		add_core_of = QUE
+	}
+
+		provinces={
+			 983 1341 1356 1657 4419 4769 7435 7683 7807 7810 7893 10249 10534 10700 10715 12205 12223 12276 12600
+		}
+}

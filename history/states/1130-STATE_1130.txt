@@ -1,0 +1,25 @@
+state={
+	id=1130
+	name="STATE_1130" # STATE_1130
+	# TSR2_OVERLAY none (BSR-only state)
+
+		state_category=pastoral
+
+	manpower=1302000
+
+	history={
+		owner = AFG
+		victory_points = {
+			4893 1 
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+		}
+		add_core_of = AFG
+	}
+
+		provinces={
+			4893 7448 7984 10476 10896 12877 
+		}
+}

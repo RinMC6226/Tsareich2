@@ -1,0 +1,36 @@
+state={
+	id=300
+	name="STATE_300" # STATE_300
+	# TSR2_OVERLAY tsr_state_id=300 ratio=1.000 split=False
+
+		
+		state_category = large_city
+
+	manpower=913770
+
+	resources={
+		steel = 2
+	}
+
+	history={
+		owner = URG
+		victory_points = {
+			10362 5
+		}
+		buildings = {
+			air_base = 1
+			infrastructure = 3
+			dockyard = 1
+			arms_factory = 1
+			industrial_complex = 4
+		10362 = {naval_base = 6
+						bunker = 1
+						coastal_bunker = 1}
+		}
+		add_core_of = URG
+	}
+
+		provinces={
+			1613 1626 1641 1654 4457 10347 10362 10502 12336 12440 12468 12481 12496 
+		}
+}

@@ -1,0 +1,23 @@
+state={
+	id=2022
+	name="STATE_2022" # STATE_2022
+	# TSR2_OVERLAY none (BSR-only state)
+
+		state_category=rural
+
+	manpower=1401240
+
+	history={
+		owner = PRC
+		buildings = {
+			infrastructure = 2
+			arms_factory = 1
+		}
+		add_core_of = CHI
+		add_core_of = PRC
+	}
+
+	    provinces={
+	        1647 3745 4939 8081
+	    }
+}

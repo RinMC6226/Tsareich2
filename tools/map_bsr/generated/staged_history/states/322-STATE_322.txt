@@ -1,0 +1,28 @@
+state={
+	id=322
+	name="STATE_322" # STATE_322
+	# TSR2_OVERLAY tsr_state_id=322 ratio=1.000 split=False
+
+		state_category=pastoral
+
+		impassable = yes
+
+	manpower=1722000
+
+	resources={
+		tungsten = 2
+	}
+
+	history={
+		owner = TIB
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 1
+		}
+		add_core_of = TIB
+	}
+
+		provinces={
+			2010 5011 8068 10755  
+		}
+}

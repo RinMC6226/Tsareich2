@@ -1,0 +1,22 @@
+state={
+	id=1980
+	name="STATE_1980" # STATE_1980
+	# TSR2_OVERLAY none (BSR-only state)
+
+
+	    state_category = rural
+
+	manpower=10000
+
+	history={
+		owner = ITA
+		buildings = {
+			infrastructure = 3
+		}
+		add_core_of = ERI
+	}
+
+	    provinces={
+	        13325
+	    }
+}

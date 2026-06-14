@@ -1,0 +1,32 @@
+state={
+	id=531
+	name="STATE_531" # STATE_531
+	# TSR2_OVERLAY tsr_state_id=531 ratio=1.000 split=False
+
+		state_category=metropolis
+
+	manpower=12015000
+
+	resources={
+		aluminium = 3
+	}
+
+	history={
+		owner = JAP
+		victory_points = {
+			7072 40 
+		}
+		buildings = {
+			infrastructure = 4
+			dockyard = 2
+			arms_factory = 2
+			industrial_complex = 4
+		4054 = {naval_base = 9}
+		}
+		add_core_of = JAP
+	}
+
+		provinces={
+			1051 1067 1136 4054 4142 7072 9985 11960 12031 
+		}
+}

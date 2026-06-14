@@ -1,0 +1,22 @@
+state={
+	id=966
+	name="STATE_966" # STATE_966
+	# TSR2_OVERLAY tsr_state_id=966 ratio=1.000 split=False
+
+		state_category = tiny_island
+
+	manpower=8962
+
+	history={
+		owner = BRA
+		buildings = {
+			infrastructure = 5
+		}
+		add_core_of = BRA
+		add_core_of = JAP
+	}
+
+		provinces={
+			4198 
+		}
+}

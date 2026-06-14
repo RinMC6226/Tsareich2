@@ -1,0 +1,25 @@
+state={
+	id=1816
+	name="STATE_1816" # Guinea
+	# TSR2_OVERLAY none (BSR-only state)
+
+		
+		state_category = pastoral
+
+	manpower=76725
+
+	history={
+		owner = FRA
+		victory_points = {
+			8008 1 
+		}
+		buildings = {
+			infrastructure = 2
+		}
+		add_core_of = GNA
+	}
+
+		provinces={
+			8008 4957 5039
+		}
+}

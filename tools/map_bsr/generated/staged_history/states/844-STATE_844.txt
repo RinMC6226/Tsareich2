@@ -1,0 +1,29 @@
+state={
+	id=844
+	name="STATE_844" # STATE_844
+	# TSR2_OVERLAY tsr_state_id=844 ratio=1.000 split=False
+
+		state_category=city
+
+	manpower=1028895
+
+	history={
+		owner = SOM
+		victory_points = {
+			6984 5 
+		}
+		victory_points = {
+			6929 1 
+		}
+		buildings = {
+			infrastructure = 2
+		6984 = {naval_base = 2}
+		}
+		add_core_of = SOM
+		add_core_of = USA
+	}
+
+		provinces={
+			6823 6892 6929 6984 9758 11892 
+		}
+}

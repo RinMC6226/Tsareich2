@@ -1,0 +1,21 @@
+state={
+	id=1419
+	name="STATE_1419" # STATE_1419
+	# TSR2_OVERLAY none (BSR-only state)
+
+		state_category=town
+
+	manpower=5809
+
+	history={
+		owner = CAN
+		buildings = {
+			infrastructure = 2
+		}
+		add_core_of = CAN
+	}
+
+		provinces={
+			917 12571 10644 7761 1411 13249 
+		}
+}

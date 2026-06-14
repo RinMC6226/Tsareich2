@@ -1,0 +1,23 @@
+state={
+	id=487
+	name="STATE_487" # STATE_487
+	# TSR2_OVERLAY tsr_state_id=487 ratio=1.000 split=False
+
+		
+		state_category = pastoral
+
+	manpower=334500
+
+	history={
+		owner = BOL
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 1
+		}
+		add_core_of = BOL
+	}
+
+		provinces={
+			5188 8211 8240 10924 10982 10996 12902 12973 
+		}
+}

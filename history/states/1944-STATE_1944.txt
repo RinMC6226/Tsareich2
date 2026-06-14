@@ -1,0 +1,27 @@
+state={
+	id=1944
+	name="STATE_1944" # STATE_1944
+	# TSR2_OVERLAY none (BSR-only state)
+
+		
+		state_category = pastoral
+
+	manpower=7573
+
+	resources={
+		chromium = 5
+		tungsten = 1
+	}
+
+	history={
+		owner = ENG
+		buildings = {
+			infrastructure = 2
+		}
+		add_core_of = ZAM
+	}
+
+		provinces={
+			10930
+		}
+}

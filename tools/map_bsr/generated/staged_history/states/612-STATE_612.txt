@@ -1,0 +1,40 @@
+state={
+	id=612
+	name="STATE_612" # STATE_612
+	# TSR2_OVERLAY tsr_state_id=612 ratio=1.000 split=False
+
+		state_category=rural
+
+	manpower=566000
+
+	resources={
+		coal = 3
+	}
+
+	history={
+		owner = MON
+		controller = MON
+					IF = {
+						limit = {
+							has_dlc = "No Compromise, No Surrender"
+						}
+						add_core_of = HBC
+					}
+		victory_points = {
+			11752 3 
+		}
+		buildings = {
+			infrastructure = 1
+			arms_factory = 1
+		}
+		add_core_of = CHI
+		add_core_of = HBC
+		add_core_of = MEN
+		add_core_of = MON
+		add_core_of = PRC
+	}
+
+		provinces={
+			1489 1551 1608 1811 1871 4222 4555 4612 7578 7648 7674 10372 11752 12448 12554 
+		}
+}

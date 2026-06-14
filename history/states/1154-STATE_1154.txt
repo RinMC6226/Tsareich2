@@ -1,0 +1,23 @@
+state={
+	id=1154
+	name="STATE_1154" # STATE_1154
+	# TSR2_OVERLAY none (BSR-only state)
+
+		state_category=wasteland
+
+	manpower=7029
+
+	history={
+		owner = IRQ
+		controller = ENG
+		buildings = {
+			infrastructure = 1
+		}
+		add_core_of = IRQ
+		add_core_of = JBS
+	}
+
+		provinces={
+			13282 13283 13343 
+		}
+}

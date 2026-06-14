@@ -1,0 +1,39 @@
+state={
+	id=621
+	name="STATE_621" # STATE_621
+	# TSR2_OVERLAY tsr_state_id=621 ratio=1.000 split=False
+
+		state_category=pastoral
+
+	manpower=1582100
+
+	resources={
+		coal = 7
+	}
+
+	history={
+		owner = MON
+		controller = MON
+		
+					remove_building = {
+						type = industrial_complex
+						level = 1
+					}
+		victory_points = {
+			7631 2
+		}
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 1
+		}
+		add_core_of = CHI
+		add_core_of = MEN
+		add_core_of = MON
+		add_core_of = PRC
+		add_core_of = SHX
+	}
+
+		provinces={
+			2087 4525 7631 10424 10629 12403 12609 12880 
+		}
+}

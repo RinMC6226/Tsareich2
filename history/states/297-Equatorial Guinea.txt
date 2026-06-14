@@ -1,0 +1,26 @@
+state={
+	id=297
+	name="STATE_297" # Malabo
+	# TSR2_OVERLAY tsr_state_id=297 ratio=1.000 split=False
+
+		
+		state_category = small_island
+
+	manpower=185000
+
+	history={
+		owner = DWA
+		victory_points = {
+			1903 1 
+		}
+		buildings = {
+			infrastructure = 1
+		1903 = {naval_base = 1}
+		}
+		add_core_of = EQG
+	}
+
+		provinces={
+			1903
+		}
+}

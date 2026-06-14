@@ -1,0 +1,28 @@
+state={
+	id=1029
+	name="STATE_1029" # STATE_1029
+	# TSR2_OVERLAY tsr_state_id=1029 ratio=1.000 split=False
+
+		state_category=city
+
+	manpower=1328410
+
+	resources={
+		tungsten = 10
+	}
+
+	history={
+		owner = KOR
+		controller = JAP
+		buildings = {
+			infrastructure = 2
+		}
+		add_core_of = CHI
+		add_core_of = KOR
+		add_core_of = PRC
+	}
+
+		provinces={
+			1139 4606 7074 
+		}
+}

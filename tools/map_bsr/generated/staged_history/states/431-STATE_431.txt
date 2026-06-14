@@ -1,0 +1,33 @@
+state={
+	id=431
+	name="STATE_431" # STATE_431
+	# TSR2_OVERLAY tsr_state_id=431 ratio=1.000 split=False
+
+		state_category=city
+
+	manpower=18778100
+
+	resources={
+		steel = 13
+	}
+
+	history={
+		owner = BAN
+		victory_points = {
+			4245 5 
+		}
+		buildings = {
+			air_base = 2
+			infrastructure = 3
+			dockyard = 1
+			industrial_complex = 1
+		1159 = {naval_base = 6}
+		}
+		add_core_of = BAN
+		add_core_of = IND
+	}
+
+		provinces={
+			1159 1609 4062 4204 4245 4644 7220 7565 10077 12050 
+		}
+}

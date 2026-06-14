@@ -1,0 +1,29 @@
+state={
+	id=1199
+	name="STATE_1199" # STATE_1199
+	# TSR2_OVERLAY none (BSR-only state)
+
+		state_category=rural
+
+	manpower=50300
+
+	resources={
+		oil = 2
+		aluminium = 4
+	}
+
+	history={
+		owner = USA
+		victory_points = {
+			10914 1
+		}
+		buildings = {
+			infrastructure = 4
+		}
+		add_core_of = USA
+	}
+
+		provinces={
+			 10914 
+		}
+}

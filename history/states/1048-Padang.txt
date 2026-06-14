@@ -1,0 +1,32 @@
+state={
+	id=1048
+	name="STATE_1048" # STATE_1048
+	# TSR2_OVERLAY tsr_state_id=1048 ratio=1.000 split=False
+
+		state_category=rural
+
+	manpower=300000
+
+	history={
+		owner = GER
+		controller = GER
+				add_dynamic_modifier = {
+					modifier = GER_west_bunker
+				}
+		victory_points = {
+			6983 3 
+		}
+		buildings = {
+			air_base = 5
+			infrastructure = 4
+			industrial_complex = 1
+		}
+		add_core_of = BOS
+		add_core_of = GER
+		add_core_of = YUG
+	}
+
+		provinces={
+		 6619 6983 9588 9591 
+		}
+}

@@ -1,0 +1,32 @@
+state={
+	id=875
+	name="STATE_875" # STATE_875
+	# TSR2_OVERLAY tsr_state_id=875 ratio=1.000 split=False
+
+		state_category=enclave
+
+	manpower=30000
+
+	resources={
+		oil = 2
+	}
+
+	history={
+		owner = RUS
+		victory_points = {
+			10870 1 
+		}
+		buildings = {
+			infrastructure = 1
+		10870 = {naval_base = 2}
+		}
+		add_core_of = BHR
+		add_core_of = CKK
+		add_core_of = FER
+		add_core_of = RUS
+	}
+
+		provinces={
+			10870
+		}
+}

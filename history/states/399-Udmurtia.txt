@@ -1,0 +1,28 @@
+state={
+	id=399
+	name="STATE_399" # STATE_399
+	# TSR2_OVERLAY tsr_state_id=399 ratio=1.000 split=False
+
+		state_category = rural
+
+	manpower=1324935
+
+	resources={
+		chromium = 18
+	}
+
+	history={
+		owner = RUS
+		buildings = {
+			infrastructure = 2
+		}
+		add_core_of = KOM
+		add_core_of = RUS
+		add_core_of = SOV
+		add_core_of = UDM
+	}
+
+		provinces={
+			305 370 381 3027 3270 3294 3300 3394 4356 4400 6217 6224 6278 6297 6388 7359 7403 9293 11320 11365 12203 12244 11354 3264 6383 9370 272 3139 359 11087 146 11193 3363 31 6288 6162 11124 6274 11170 88
+		}
+}

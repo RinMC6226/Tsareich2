@@ -1,0 +1,9 @@
+{
+  "assigned_provinces": 10597,
+  "definition_provinces": 13995,
+  "errors": 3,
+  "land_provinces": 10578,
+  "report": "tools/map_bsr/generated/staged_state_validation_fresh.csv",
+  "states": 2044,
+  "warnings": 0
+}

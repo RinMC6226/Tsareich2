@@ -1,0 +1,25 @@
+state={
+	id=1246
+	name="STATE_1246" # STATE_1246
+	# TSR2_OVERLAY none (BSR-only state)
+
+		state_category=town
+
+	manpower=922741
+
+	history={
+		owner = IRQ
+		controller = ENG
+		victory_points = {
+			8123 1 
+		}
+		buildings = {
+			infrastructure = 3
+		}
+		add_core_of = IRQ
+	}
+
+		provinces={
+			8123 10793 13439 
+		}
+}

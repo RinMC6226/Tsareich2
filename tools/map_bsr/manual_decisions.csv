@@ -1,0 +1,1955 @@
+bsr_state_id,bsr_state_name,current_selected_tsr_state_id,current_selected_tsr_state_name,current_mapping_type,manual_decision,manual_tsr_state_id,reviewer_notes
+1,Corsica,1,Corsica,same_id_same_area,approve_selected,,Phase2: conf=1.0 issues=0 auto approve
+2,STATE_2,2,Latium,split,approve_selected,,Phase3: conf=1.0 issues=3 auto approve
+3,STATE_3,847,STATE_847,merge,approve_selected,,Phase4c: conf=0.5 resource/building dist auto approve
+4,STATE_4,4,STATE_4,split,approve_selected,,Phase3: conf=1.0 issues=4 auto approve
+5,STATE_5,5,STATE_5,split,approve_selected,,Phase2: conf=1.0 issues=2 auto approve
+6,Flanders,6,Flanders,merge,approve_selected,,Phase4b: conf=0.75 owner/core conflict auto approve
+7,STATE_7,7,STATE_7,split,approve_selected,,Phase3: conf=1.0 issues=4 auto approve
+8,STATE_8,8,STATE_8,merge,approve_selected,,Phase4b: conf=0.5 owner/core conflict auto approve
+9,STATE_9,9,STATE_9,split,approve_selected,,Phase4a: conf=0.929 owner/core conflict auto approve
+10,STATE_10,10,STATE_10,merge,approve_selected,,Phase4b: conf=0.5 owner/core conflict auto approve
+11,STATE_11,815,STATE_815,merge,approve_selected,,Phase4b: conf=0.6 owner/core conflict auto approve
+12,STATE_12,808,STATE_808,split,approve_selected,,Phase3: conf=1.0 issues=4 auto approve
+13,STATE_13,812,STATE_812,merge,approve_selected,,Phase3: conf=1.0 issues=4 auto approve
+14,STATE_14,14,STATE_14,split,approve_selected,,Phase4a: conf=0.9 owner/core conflict auto approve
+15,STATE_15,15,STATE_15,same_id_same_area,approve_selected,,Phase2: conf=1.0 issues=0 auto approve
+16,STATE_16,16,STATE_16,merge,approve_selected,,Phase4b: conf=0.667 owner/core conflict auto approve
+17,STATE_17,17,Lorraine,split,approve_selected,,Phase4b: conf=0.6 owner/core conflict auto approve
+18,STATE_18,1062,STATE_1062,split,approve_selected,,Phase4b: conf=0.75 owner/core conflict auto approve
+19,STATE_19,19,STATE_19,merge,approve_selected,,Phase3: conf=1.0 issues=4 auto approve
+20,STATE_20,20,Rhone,merge,approve_selected,,Phase4c: conf=0.833 resource/building dist auto approve
+21,STATE_21,21,Bouches-du-Rhône (Formerly Provence before Var split off),split,approve_selected,,Phase3: conf=1.0 issues=3 auto approve
+22,Languedoc,22,Languedoc,split,approve_selected,,Phase4c: conf=0.75 resource/building dist auto approve
+23,STATE_23,23,STATE_23,merge,approve_selected,,Phase4a: conf=0.875 owner/core conflict auto approve
+24,STATE_24,24,STATE_24,merge,approve_selected,,Phase4b: conf=0.6 owner/core conflict auto approve
+25,STATE_25,25,STATE_25,merge,approve_selected,,Phase4c: conf=0.923 resource/building dist auto approve
+26,STATE_26,26,Auveregne,split,approve_selected,,Phase3: conf=1.0 issues=3 auto approve
+27,STATE_27,27,Bourgogne,split,approve_selected,,Phase3: conf=1.0 issues=3 auto approve
+28,STATE_28,978,Baden,merge,approve_selected,,Phase4b: conf=0.75 owner/core conflict auto approve
+29,STATE_29,29,STATE_29,split,approve_selected,,Phase4a: conf=1.0 owner/core conflict auto approve
+30,STATE_30,30,STATE_30,split,approve_selected,,Phase3: conf=1.0 issues=3 auto approve
+31,STATE_31,31,STATE_31,merge,approve_selected,,Phase4c: conf=0.909 resource/building dist auto approve
+32,STATE_32,32,STATE_32,split,approve_selected,,Phase3: conf=1.0 issues=3 auto approve
+33,STATE_33,33,STATE_33,merge,approve_selected,,Phase4c: conf=0.778 resource/building dist auto approve
+34,STATE_34,34,STATE_34,split,approve_selected,,Phase3: conf=1.0 issues=4 auto approve
+35,STATE_35,35,STATE_35,split,approve_selected,,Phase3: conf=1.0 issues=4 auto approve
+36,STATE_36,36,STATE_36,split,approve_selected,,Phase4a: conf=1.0 owner/core conflict auto approve
+37,STATE_37,37,STATE_37,same_id_same_area,approve_selected,,Phase2: conf=1.0 issues=0 auto approve
+38,STATE_38,918,Västerbotten,merge,approve_selected,,Phase4a: conf=1.0 owner/core conflict auto approve
+39,STATE_39,39,(South Tyrol) Alto Adige,split,approve_selected,,Phase3: conf=1.0 issues=4 auto approve
+40,Barnaul,40,Barnaul,same_id_same_area,approve_selected,,Phase2: conf=1.0 issues=0 auto approve
+41,STATE_41,41,STATE_41,split,approve_selected,,Phase4c: conf=0.5 resource/building dist auto approve
+42,STATE_42,42,STATE_42,split,approve_selected,,Phase4a: conf=1.0 owner/core conflict auto approve
+43,Northern Hungary,43,Northern Hungary,split,approve_selected,,Phase3: conf=1.0 issues=4 auto approve
+44,STATE_44,44,STATE_44,split,approve_selected,,Phase4b: conf=0.6 owner/core conflict auto approve
+45,STATE_45,45,STATE_45,split,approve_selected,,Phase3: conf=1.0 issues=3 auto approve
+46,STATE_46,46,Muntenia,split,approve_selected,,Phase3: conf=1.0 issues=3 auto approve
+47,STATE_47,47,Thessaly,split,approve_selected,,Phase4a: conf=1.0 owner/core conflict auto approve
+48,STATE_48,48,STATE_48,split,approve_selected,,Phase3: conf=1.0 issues=4 auto approve
+49,STATE_49,49,Ankara,split,approve_selected,,Phase4c: conf=1.0 resource/building dist auto approve
+50,STATE_50,50,Württemberg,split,approve_selected,,Phase3: conf=1.0 issues=4 auto approve
+51,STATE_51,51,STATE_51,split,approve_selected,,Phase4c: conf=1.0 resource/building dist auto approve
+52,STATE_52,52,STATE_52,split,approve_selected,,Phase3: conf=1.0 issues=3 auto approve
+53,STATE_53,53,STATE_53,split,approve_selected,,Phase3: conf=1.0 issues=3 auto approve
+54,STATE_54,54,STATE_54,merge,approve_selected,,Phase4c: conf=0.875 resource/building dist auto approve
+55,STATE_55,55,STATE_55,split,approve_selected,,Phase4c: conf=1.0 resource/building dist auto approve
+56,STATE_56,56,STATE_56,merge,approve_selected,,Phase4c: conf=0.857 resource/building dist auto approve
+57,STATE_57,57,STATE_57,split,approve_selected,,Phase2: conf=1.0 issues=2 auto approve
+58,STATE_58,58,STATE_58,split,approve_selected,,Phase3: conf=1.0 issues=3 auto approve
+59,STATE_59,58,STATE_58,split,approve_selected,,Phase3: conf=1.0 issues=4 auto approve
+60,STATE_60,60,STATE_60,split,approve_selected,,Phase3: conf=1.0 issues=4 auto approve
+61,STATE_61,61,STATE_61,merge,approve_selected,,Phase3: conf=1.0 issues=3 auto approve
+62,STATE_62,62,STATE_62,split,approve_selected,,Phase3: conf=1.0 issues=3 auto approve
+63,STATE_63,63,STATE_63,split,approve_selected,,Phase4a: conf=1.0 owner/core conflict auto approve
+64,STATE_64,,,new_bsr_state,keep_bsr,,Phase1: new_bsr_state auto keep_bsr
+65,STATE_65,65,STATE_65,split,approve_selected,,Phase4c: conf=1.0 resource/building dist auto approve
+66,STATE_66,66,STATE_66,split,approve_selected,,Phase4c: conf=0.667 resource/building dist auto approve
+67,STATE_67,67,STATE_67,split,approve_selected,,Phase4a: conf=1.0 owner/core conflict auto approve
+68,STATE_68,68,STATE_68,split,approve_selected,,Phase3: conf=1.0 issues=3 auto approve
+69,STATE_69,69,STATE_69,split,approve_selected,,Phase3: conf=1.0 issues=4 auto approve
+70,STATE_70,70,STATE_70,split,approve_selected,,Phase4a: conf=1.0 owner/core conflict auto approve
+71,STATE_71,71,STATE_71,split,approve_selected,,Phase3: conf=1.0 issues=3 auto approve
+72,STATE_72,72,STATE_72,split,approve_selected,,Phase3: conf=1.0 issues=3 auto approve
+73,STATE_73,73,STATE_73,split,approve_selected,,Phase3: conf=1.0 issues=3 auto approve
+74,STATE_74,74,STATE_74,split,approve_selected,,Phase3: conf=1.0 issues=3 auto approve
+75,STATE_75,75,STATE_75,same_id_same_area,approve_selected,,Phase2: conf=1.0 issues=0 auto approve
+76,STATE_76,76,STATE_76,split,approve_selected,,Phase4b: conf=0.75 owner/core conflict auto approve
+77,STATE_77,77,STATE_77,same_id_same_area,approve_selected,,Phase2: conf=1.0 issues=0 auto approve
+78,STATE_78,78,STATE_78,split,approve_selected,,Phase3: conf=1.0 issues=3 auto approve
+79,STATE_79,79,STATE_79,split,approve_selected,,Phase3: conf=1.0 issues=4 auto approve
+80,STATE_80,80,STATE_80,same_id_same_area,approve_selected,,Phase2: conf=1.0 issues=0 auto approve
+82,STATE_82,82,STATE_82,same_id_same_area,approve_selected,,Phase2: conf=1.0 issues=0 auto approve
+83,STATE_83,83,STATE_83,same_id_same_area,approve_selected,,Phase2: conf=1.0 issues=0 auto approve
+85,STATE_85,85,STATE_85,same_id_same_area,approve_selected,,Phase2: conf=1.0 issues=0 auto approve
+86,STATE_86,86,STATE_86,split,approve_selected,,Phase2: conf=1.0 issues=2 auto approve
+87,STATE_87,87,STATE_87,split,approve_selected,,Phase4b: conf=0.5 owner/core conflict auto approve
+88,STATE_88,88,STATE_88,split,approve_selected,,Phase5: low-conf auto approve (manual review recommended post-import)
+89,STATE_89,89,STATE_89,split,approve_selected,,Phase2: conf=1.0 issues=2 auto approve
+90,STATE_90,90,Kielce,merge,approve_selected,,Phase4b: conf=0.714 owner/core conflict auto approve
+91,Lwow,91,Lwow,merge,approve_selected,,Phase4b: conf=0.6 owner/core conflict auto approve
+92,STATE_92,92,STATE_92,merge,approve_selected,,Phase4b: conf=0.5 owner/core conflict auto approve
+93,STATE_93,93,STATE_93,split,approve_selected,,Phase4b: conf=0.667 owner/core conflict auto approve
+94,STATE_94,94,STATE_94,split,approve_selected,,Phase3: conf=1.0 issues=4 auto approve
+95,STATE_95,95,STATE_95,merge,approve_selected,,Phase4a: conf=0.8 owner/core conflict auto approve
+96,STATE_96,96,STATE_96,merge,approve_selected,,Phase4b: conf=0.714 owner/core conflict auto approve
+97,STATE_97,97,STATE_97,split,approve_selected,,Phase3: conf=1.0 issues=4 auto approve
+98,STATE_98,98,STATE_98,split,approve_selected,,Phase4b: conf=0.667 owner/core conflict auto approve
+99,STATE_99,99,STATE_99,split,approve_selected,,Phase4b: conf=0.667 owner/core conflict auto approve
+100,STATE_100,100,STATE_100,split,approve_selected,,Phase4c: conf=0.167 resource/building dist auto approve
+101,STATE_101,101,STATE_101,split,approve_selected,,Phase4a: conf=0.8 owner/core conflict auto approve
+102,STATE_102,853,STATE_853,same_name,approve_selected,,Phase2: conf=1.0 issues=1 auto approve
+103,STATE_103,103,Dalmatia,split,approve_selected,,Phase3: conf=1.0 issues=4 auto approve
+104,STATE_104,104,STATE_104,split,approve_selected,,Phase4a: conf=1.0 owner/core conflict auto approve
+105,STATE_105,105,STATE_105,split,approve_selected,,Phase3: conf=1.0 issues=4 auto approve
+106,STATE_106,106,STATE_106,split,approve_selected,,Phase3: conf=1.0 issues=3 auto approve
+107,STATE_107,107,STATE_107,merge,approve_selected,,Phase4a: conf=0.875 owner/core conflict auto approve
+108,STATE_108,802,STATE_802,merge,approve_selected,,Phase4b: conf=0.667 owner/core conflict auto approve
+109,STATE_109,109,Croatia,split,approve_selected,,Phase3: conf=1.0 issues=3 auto approve
+110,STATE_110,110,STATE_110,same_id_same_area,approve_selected,,Phase2: conf=1.0 issues=0 auto approve
+111,Uusimaa,111,UUSIMA,split,approve_selected,,Phase3: conf=1.0 issues=3 auto approve
+113,Leinster,113,Leinster,split,approve_selected,,Phase3: conf=1.0 issues=3 auto approve
+114,STATE_114,114,STATE_114,same_id_same_area,approve_selected,,Phase2: conf=1.0 issues=0 auto approve
+115,STATE_115,115,STATE_115,same_id_same_area,approve_selected,,Phase4a: conf=0.9 owner/core conflict auto approve
+116,STATE_116,116,STATE_116,same_id_same_area,approve_selected,,Phase2: conf=1.0 issues=0 auto approve
+117,STATE_117,117,Campania,merge,approve_selected,,Phase4a: conf=0.833 owner/core conflict auto approve
+118,STATE_118,118,STATE_118,same_id_same_area,approve_selected,,Phase2: conf=1.0 issues=0 auto approve
+119,STATE_119,119,STATE_119,split,approve_selected,,Phase3: conf=1.0 issues=4 auto approve
+123,STATE_123,123,STATE_123,split,approve_selected,,Phase3: conf=1.0 issues=3 auto approve
+126,STATE_126,126,STATE_126,split,approve_selected,,Phase3: conf=1.0 issues=3 auto approve
+127,Sussex,127,Sussex,split,approve_selected,,Phase3: conf=1.0 issues=4 auto approve
+128,STATE_128,128,STATE_128,split,approve_selected,,Phase3: conf=1.0 issues=3 auto approve
+129,STATE_129,129,STATE_129,split,approve_selected,,Phase3: conf=1.0 issues=4 auto approve
+130,STATE_130,130,STATE_130,merge,approve_selected,,Phase4c: conf=0.667 resource/building dist auto approve
+132,Lancashire,132,Lancashire,merge,approve_selected,,Phase4c: conf=0.75 resource/building dist auto approve
+134,STATE_134,134,STATE_134,split,approve_selected,,Phase2: conf=1.0 issues=2 auto approve
+137,STATE_137,137,STATE_137,split,approve_selected,,Phase3: conf=1.0 issues=4 auto approve
+138,STATE_138,138,STATE_138,split,approve_selected,,Phase3: conf=1.0 issues=3 auto approve
+139,STATE_139,139,STATE_139,merge,approve_selected,,Phase3: conf=1.0 issues=4 auto approve
+140,STATE_140,140,Västra Götaland,split,approve_selected,,Phase3: conf=1.0 issues=3 auto approve
+141,STATE_141,141,Svealand,split,approve_selected,,Phase3: conf=1.0 issues=3 auto approve
+142,STATE_142,142,STATE_142,merge,approve_selected,,Phase4a: conf=0.895 owner/core conflict auto approve
+143,STATE_143,143,STATE_143,merge,approve_selected,,Phase4a: conf=0.941 owner/core conflict auto approve
+144,STATE_144,925,STATE_925,merge,approve_selected,,Phase4a: conf=0.882 owner/core conflict auto approve
+145,STATE_145,145,ÅLAND,same_id_same_area,approve_selected,,Phase2: conf=1.0 issues=0 auto approve
+146,STATE_146,146,KARJALA,split,approve_selected,,Phase3: conf=1.0 issues=3 auto approve
+147,STATE_147,147,SALLA,same_id_same_area,approve_selected,,Phase2: conf=1.0 issues=0 auto approve
+148,STATE_148,148,LAPPI,split,approve_selected,,Phase4a: conf=1.0 owner/core conflict auto approve
+149,Pohjanmaa,149,VAASA,merge,approve_selected,,Phase4b: conf=0.714 owner/core conflict auto approve
+150,Savo,150,KUOPIO,merge,approve_selected,,Phase4b: conf=0.688 owner/core conflict auto approve
+151,STATE_151,151,STATE_151,merge,approve_selected,,Phase4c: conf=0.5 resource/building dist auto approve
+152,STATE_152,152,STATE_152,split,approve_selected,,Phase3: conf=1.0 issues=4 auto approve
+153,STATE_153,153,STATE_153,merge,approve_selected,,Phase4a: conf=0.8 owner/core conflict auto approve
+154,STATE_154,154,STATE_154,split,approve_selected,,Phase3: conf=1.0 issues=3 auto approve
+155,STATE_155,155,North Transdanubia,split,approve_selected,,Phase3: conf=1.0 issues=4 auto approve
+156,STATE_156,156,STATE_156,same_id_same_area,approve_selected,,Phase2: conf=1.0 issues=0 auto approve
+157,STATE_157,157,STATE_157,split,approve_selected,,Phase2: conf=1.0 issues=2 auto approve
+158,STATE_158,158,STATE_158,split,approve_selected,,Phase4a: conf=1.0 owner/core conflict auto approve
+159,STATE_159,159,STATE_159,split,approve_selected,,Phase3: conf=1.0 issues=3 auto approve
+160,STATE_160,160,STATE_160,split,approve_selected,,Phase3: conf=1.0 issues=3 auto approve
+161,STATE_161,161,STATE_161,split,approve_selected,,Phase4a: conf=1.0 owner/core conflict auto approve
+162,STATE_162,162,STATE_162,split,approve_selected,,Phase3: conf=1.0 issues=3 auto approve
+163,STATE_163,,,new_bsr_state,keep_bsr,,Phase1: new_bsr_state auto keep_bsr
+164,STATE_164,164,STATE_164,same_id_same_area,approve_selected,,Phase2: conf=1.0 issues=0 auto approve
+166,STATE_166,166,STATE_166,split,approve_selected,,Phase3: conf=1.0 issues=4 auto approve
+168,STATE_168,168,STATE_168,split,approve_selected,,Phase2: conf=1.0 issues=2 auto approve
+169,STATE_169,169,STATE_169,same_id_same_area,approve_selected,,Phase2: conf=1.0 issues=0 auto approve
+170,STATE_170,170,STATE_170,split,approve_selected,,Phase4c: conf=0.917 resource/building dist auto approve
+171,STATE_171,171,STATE_171,merge,approve_selected,,Phase3: conf=1.0 issues=3 auto approve
+173,STATE_173,173,STATE_173,same_id_same_area,approve_selected,,Phase2: conf=1.0 issues=0 auto approve
+176,STATE_176,176,STATE_176,split,approve_selected,,Phase2: conf=1.0 issues=2 auto approve
+177,STATE_177,177,STATE_177,split,approve_selected,,Phase2: conf=1.0 issues=2 auto approve
+179,STATE_179,179,STATE_179,split,approve_selected,,Phase3: conf=1.0 issues=3 auto approve
+180,STATE_180,180,STATE_180,split,approve_selected,,Phase3: conf=1.0 issues=3 auto approve
+182,STATE_182,182,STATE_182,split,approve_selected,,Phase2: conf=1.0 issues=2 auto approve
+183,STATE_183,183,STATE_183,split,approve_selected,,Phase3: conf=1.0 issues=4 auto approve
+184,STATE_184,184,STATE_184,merge,approve_selected,,Phase5: low-conf auto approve (manual review recommended post-import)
+185,STATE_185,185,STATE_185,merge,approve_selected,,Phase4a: conf=0.8 owner/core conflict auto approve
+186,STATE_186,186,STATE_186,same_id_same_area,approve_selected,,Phase2: conf=1.0 issues=0 auto approve
+187,STATE_187,187,STATE_187,split,approve_selected,,Phase4a: conf=1.0 owner/core conflict auto approve
+188,STATE_188,188,STATE_188,same_id_same_area,approve_selected,,Phase2: conf=1.0 issues=0 auto approve
+189,STATE_189,189,STATE_189,merge,approve_selected,,Phase4b: conf=0.667 owner/core conflict auto approve
+190,STATE_190,190,STATE_190,merge,approve_selected,,Phase3: conf=1.0 issues=3 auto approve
+191,STATE_191,191,STATE_191,merge,approve_selected,,Phase3: conf=1.0 issues=3 auto approve
+192,STATE_192,192,STATE_192,merge,approve_selected,,Phase3: conf=1.0 issues=3 auto approve
+193,STATE_193,193,Chernihiv,split,approve_selected,,Phase3: conf=1.0 issues=3 auto approve
+194,Mozyr,194,Mozyr,split,approve_selected,,Phase4b: conf=0.714 owner/core conflict auto approve
+195,STATE_195,195,STATE_195,same_id_same_area,approve_selected,,Phase2: conf=1.0 issues=0 auto approve
+196,STATE_196,196,STATE_196,split,approve_selected,,Phase3: conf=1.0 issues=3 auto approve
+197,STATE_197,197,STATE_197,merge,approve_selected,,Phase3: conf=1.0 issues=3 auto approve
+198,STATE_198,198,STATE_198,split,approve_selected,,Phase3: conf=1.0 issues=3 auto approve
+199,STATE_199,199,STATE_199,split,approve_selected,,Phase2: conf=1.0 issues=2 auto approve
+200,Zaporozhe,200,Zaporozhe,same_id_same_area,approve_selected,,Phase2: conf=1.0 issues=0 auto approve
+201,STATE_201,201,STATE_201,merge,approve_selected,,Phase4b: conf=0.75 owner/core conflict auto approve
+202,STATE_202,202,STATE_202,split,approve_selected,,Phase3: conf=1.0 issues=3 auto approve
+203,STATE_203,203,STATE_203,split,approve_selected,,Phase2: conf=1.0 issues=2 auto approve
+204,STATE_204,204,Bobruysk,merge,approve_selected,,Phase4b: conf=0.5 owner/core conflict auto approve
+205,Kaluga,205,Kaluga,same_id_same_area,approve_selected,,Phase2: conf=1.0 issues=0 auto approve
+206,STATE_206,206,STATE_206,merge,approve_selected,,Phase4b: conf=0.6 owner/core conflict auto approve
+207,STATE_207,207,STATE_207,split,approve_selected,,Phase2: conf=1.0 issues=2 auto approve
+208,STATE_208,208,Luga,same_id_same_area,approve_selected,,Phase4a: conf=0.9 owner/core conflict auto approve
+209,STATE_209,209,Pskov,same_id_same_area,approve_selected,,Phase4a: conf=0.917 owner/core conflict auto approve
+210,Nevel,210,Nevel,same_id_same_area,approve_selected,,Phase2: conf=1.0 issues=0 auto approve
+211,STATE_211,211,STATE_211,split,approve_selected,,Phase3: conf=1.0 issues=4 auto approve
+212,STATE_212,212,STATE_212,split,approve_selected,,Phase3: conf=1.0 issues=3 auto approve
+213,STATE_213,213,STATE_213,same_id_same_area,approve_selected,,Phase2: conf=1.0 issues=0 auto approve
+214,STATE_214,,,new_bsr_state,keep_bsr,,Phase1: new_bsr_state auto keep_bsr
+215,STATE_215,215,STATE_215,split,approve_selected,,Phase4b: conf=0.636 owner/core conflict auto approve
+216,STATE_216,216,STATE_216,merge,approve_selected,,Phase4a: conf=0.95 owner/core conflict auto approve
+217,STATE_217,217,STATE_217,same_id_same_area,approve_selected,,Phase2: conf=1.0 issues=0 auto approve
+218,STATE_218,218,STATE_218,same_name,approve_selected,,Phase4b: conf=0.75 owner/core conflict auto approve
+219,STATE_219,219,STATE_219,same_id_same_area,approve_selected,,Phase2: conf=1.0 issues=0 auto approve
+220,STATE_220,220,STATE_220,same_id_same_area,approve_selected,,Phase2: conf=1.0 issues=0 auto approve
+221,STATE_221,221,STATE_221,merge,approve_selected,,Phase3: conf=1.0 issues=4 auto approve
+222,STATE_222,222,STATE_222,same_id_same_area,approve_selected,,Phase2: conf=1.0 issues=0 auto approve
+223,STATE_223,223,STATE_223,same_id_same_area,approve_selected,,Phase2: conf=1.0 issues=0 auto approve
+224,STATE_224,224,STATE_224,same_id_same_area,approve_selected,,Phase2: conf=1.0 issues=0 auto approve
+225,STATE_225,225,Sumy,merge,approve_selected,,Phase4a: conf=0.909 owner/core conflict auto approve
+226,STATE_226,226,Dnipropertovsk,split,approve_selected,,Phase3: conf=1.0 issues=3 auto approve
+227,STATE_227,227,STATE_227,split,approve_selected,,Phase3: conf=1.0 issues=3 auto approve
+228,Voroshilovgrad,228,Voroshilovgrad,split,approve_selected,,Phase4a: conf=0.889 owner/core conflict auto approve
+229,STATE_229,229,STATE_229,split,approve_selected,,Phase4a: conf=1.0 owner/core conflict auto approve
+230,STATE_230,230,STATE_230,split,approve_selected,,Phase3: conf=1.0 issues=3 auto approve
+231,STATE_231,231,STATE_231,split,approve_selected,,Phase3: conf=1.0 issues=3 auto approve
+232,STATE_232,232,Dagestan,split,approve_selected,,Phase5: low-conf auto approve (manual review recommended post-import)
+233,STATE_233,233,STATE_233,same_id_same_area,approve_selected,,Phase2: conf=1.0 issues=1 auto approve
+234,STATE_234,234,STATE_234,same_id_same_area,approve_selected,,Phase4a: conf=0.9 owner/core conflict auto approve
+235,STATE_235,235,STATE_235,same_id_same_area,approve_selected,,Phase2: conf=1.0 issues=0 auto approve
+236,STATE_236,236,STATE_236,same_id_same_area,approve_selected,,Phase2: conf=1.0 issues=0 auto approve
+237,STATE_237,237,STATE_237,same_id_same_area,approve_selected,,Phase4a: conf=0.909 owner/core conflict auto approve
+238,STATE_238,238,STATE_238,same_id_same_area,approve_selected,,Phase2: conf=1.0 issues=0 auto approve
+239,STATE_239,239,STATE_239,same_id_same_area,approve_selected,,Phase4a: conf=0.9 owner/core conflict auto approve
+240,Belgorod,240,Belgorod,same_id_same_area,approve_selected,,Phase2: conf=1.0 issues=0 auto approve
+241,Gomel,241,Gomel,split,approve_selected,,Phase2: conf=1.0 issues=2 auto approve
+242,STATE_242,,,new_bsr_state,keep_bsr,,Phase1: new_bsr_state auto keep_bsr
+243,STATE_243,243,STATE_243,same_name,approve_selected,,Phase4b: conf=0.75 owner/core conflict auto approve
+244,STATE_244,244,Volkhov,same_id_same_area,approve_selected,,Phase2: conf=1.0 issues=0 auto approve
+245,STATE_245,245,Millerovo,same_id_same_area,approve_selected,,Phase4a: conf=0.917 owner/core conflict auto approve
+246,STATE_246,246,STATE_246,same_id_same_area,approve_selected,,Phase2: conf=1.0 issues=0 auto approve
+247,STATE_247,247,STATE_247,same_id_same_area,approve_selected,,Phase2: conf=1.0 issues=0 auto approve
+248,STATE_248,248,STATE_248,same_id_same_area,approve_selected,,Phase2: conf=1.0 issues=0 auto approve
+249,STATE_249,249,STATE_249,same_id_same_area,approve_selected,,Phase2: conf=1.0 issues=0 auto approve
+250,STATE_250,250,STATE_250,same_id_same_area,approve_selected,,Phase4a: conf=0.923 owner/core conflict auto approve
+251,STATE_251,251,STATE_251,same_id_same_area,approve_selected,,Phase2: conf=1.0 issues=0 auto approve
+252,STATE_252,252,STATE_252,same_id_same_area,approve_selected,,Phase4a: conf=0.973 owner/core conflict auto approve
+253,STATE_253,253,STATE_253,same_id_same_area,approve_selected,,Phase2: conf=1.0 issues=0 auto approve
+254,STATE_254,254,STATE_254,same_id_same_area,approve_selected,,Phase2: conf=1.0 issues=0 auto approve
+255,STATE_255,255,STATE_255,same_id_same_area,approve_selected,,Phase2: conf=1.0 issues=0 auto approve
+256,STATE_256,833,STATE_833,same_name,approve_selected,,Phase4a: conf=0.941 owner/core conflict auto approve
+257,Tambov,257,Tambov,same_id_same_area,approve_selected,,Phase2: conf=1.0 issues=0 auto approve
+258,STATE_258,258,STATE_258,same_id_same_area,approve_selected,,Phase2: conf=1.0 issues=0 auto approve
+259,STATE_259,259,Poltava,merge,approve_selected,,Phase4a: conf=0.9 owner/core conflict auto approve
+260,Voronezh,260,Voronezh,same_id_same_area,approve_selected,,Phase4a: conf=0.95 owner/core conflict auto approve
+261,STATE_261,261,STATE_261,split,approve_selected,,Phase3: conf=1.0 issues=4 auto approve
+262,STATE_262,,,new_bsr_state,keep_bsr,,Phase1: new_bsr_state auto keep_bsr
+263,STATE_263,263,STATE_263,same_name,approve_selected,,Phase4b: conf=0.75 owner/core conflict auto approve
+264,STATE_264,264,STATE_264,same_id_same_area,approve_selected,,Phase2: conf=1.0 issues=0 auto approve
+265,STATE_265,265,STATE_265,same_id_same_area,approve_selected,,Phase4a: conf=0.9 owner/core conflict auto approve
+266,Tehran,266,Tehran,split,approve_selected,,Phase3: conf=1.0 issues=3 auto approve
+267,STATE_267,267,Kabul,merge,approve_selected,,Phase4c: conf=0.6 resource/building dist auto approve
+268,STATE_268,268,STATE_268,same_id_same_area,approve_selected,,Phase2: conf=1.0 issues=0 auto approve
+269,STATE_269,269,STATE_269,same_id_same_area,approve_selected,,Phase2: conf=1.0 issues=0 auto approve
+271,STATE_271,271,STATE_271,merge,approve_selected,,Phase4b: conf=0.75 owner/core conflict auto approve
+272,STATE_272,272,STATE_272,split,approve_selected,,Phase3: conf=1.0 issues=3 auto approve
+273,STATE_273,273,Libyan Desert,split,approve_selected,,Phase2: conf=1.0 issues=2 auto approve
+274,STATE_274,274,STATE_274,split,approve_selected,,Phase3: conf=1.0 issues=3 auto approve
+275,STATE_275,275,Transvaal,split,approve_selected,,Phase3: conf=1.0 issues=4 auto approve
+276,STATE_276,276,Southern Ontario,split,approve_selected,,Phase3: conf=1.0 issues=3 auto approve
+277,STATE_277,277,STATE_277,split,approve_selected,,Phase3: conf=1.0 issues=4 auto approve
+278,Pampas,278,Pampas,split,approve_selected,,Phase3: conf=1.0 issues=3 auto approve
+279,Santiago,279,Santiago,split,approve_selected,,Phase4c: conf=0.833 resource/building dist auto approve
+280,STATE_280,280,STATE_280,merge,approve_selected,,Phase4c: conf=0.667 resource/building dist auto approve
+282,STATE_282,282,Kanto,split,approve_selected,,Phase3: conf=1.0 issues=3 auto approve
+283,STATE_283,1045,STATE_1045,same_name,approve_selected,,Phase2: conf=1.0 issues=1 auto approve
+284,North Island,1101,Auckland,merge,approve_selected,,Phase4c: conf=1.0 resource/building dist auto approve
+285,STATE_285,285,STATE_285,split,approve_selected,,Phase3: conf=1.0 issues=4 auto approve
+286,STATE_286,1088,STATE_1088,split,approve_selected,,Phase4a: conf=0.875 owner/core conflict auto approve
+287,STATE_287,287,STATE_287,same_id_same_area,approve_selected,,Phase2: conf=1.0 issues=0 auto approve
+288,STATE_288,288,STATE_288,merge,approve_selected,,Phase3: conf=1.0 issues=4 auto approve
+289,STATE_289,289,STATE_289,merge,approve_selected,,Phase3: conf=1.0 issues=4 auto approve
+290,STATE_290,,,new_bsr_state,keep_bsr,,Phase1: new_bsr_state auto keep_bsr
+291,STATE_291,1011,STATE_1011,merge,approve_selected,,Phase4b: conf=0.6 owner/core conflict auto approve
+292,STATE_292,854,STATE_854,merge,approve_selected,,Phase3: conf=1.0 issues=3 auto approve
+293,STATE_293,293,STATE_293,split,approve_selected,,Phase3: conf=1.0 issues=3 auto approve
+294,STATE_294,294,STATE_294,merge,approve_selected,,Phase3: conf=1.0 issues=4 auto approve
+295,STATE_295,888,STATE_888,merge,approve_selected,,Phase4c: conf=0.75 resource/building dist auto approve
+297,Malabo,297,Equatorial Guinea,split,approve_selected,,Phase2: conf=1.0 issues=2 auto approve
+299,STATE_299,,,new_bsr_state,keep_bsr,,Phase1: new_bsr_state auto keep_bsr
+300,STATE_300,946,STATE_946,merge,approve_selected,,Phase4c: conf=1.0 resource/building dist auto approve
+301,STATE_301,301,STATE_301,split,approve_selected,,Phase3: conf=1.0 issues=3 auto approve
+302,STATE_302,302,STATE_302,split,approve_selected,,Phase3: conf=1.0 issues=3 auto approve
+303,Lima,303,Lima,split,approve_selected,,Phase3: conf=1.0 issues=4 auto approve
+304,STATE_304,304,STATE_304,split,approve_selected,,Phase3: conf=1.0 issues=4 auto approve
+305,STATE_305,305,STATE_305,split,approve_selected,,Phase3: conf=1.0 issues=3 auto approve
+307,Miranda,307,Miranda,split,approve_selected,,Phase3: conf=1.0 issues=3 auto approve
+310,STATE_310,310,STATE_310,same_id_same_area,approve_selected,,Phase2: conf=1.0 issues=0 auto approve
+312,STATE_312,312,STATE_312,split,approve_selected,,Phase3: conf=1.0 issues=3 auto approve
+313,STATE_313,313,STATE_313,split,approve_selected,,Phase3: conf=1.0 issues=3 auto approve
+314,STATE_314,314,STATE_314,split,approve_selected,,Phase3: conf=1.0 issues=3 auto approve
+317,STATE_317,317,STATE_317,split,approve_selected,,Phase3: conf=1.0 issues=4 auto approve
+320,STATE_320,320,STATE_320,same_id_same_area,approve_selected,,Phase2: conf=1.0 issues=0 auto approve
+321,STATE_321,321,STATE_321,same_id_same_area,approve_selected,,Phase2: conf=1.0 issues=0 auto approve
+322,STATE_322,322,STATE_322,split,approve_selected,,Phase3: conf=1.0 issues=3 auto approve
+325,STATE_325,325,STATE_325,split,approve_selected,,Phase4a: conf=1.0 owner/core conflict auto approve
+326,STATE_326,326,STATE_326,same_id_same_area,approve_selected,,Phase2: conf=1.0 issues=0 auto approve
+327,Luzon,327,Manila,merge,approve_selected,,Phase4c: conf=0.667 resource/building dist auto approve
+328,STATE_328,328,Kirin,split,approve_selected,,Phase3: conf=1.0 issues=4 auto approve
+329,STATE_329,329,STATE_329,same_id_same_area,approve_selected,,Phase2: conf=1.0 issues=0 auto approve
+330,STATE_330,330,STATE_330,merge,approve_selected,,Phase4c: conf=0.75 resource/building dist auto approve
+331,STATE_331,331,STATE_331,same_id_same_area,approve_selected,,Phase2: conf=1.0 issues=0 auto approve
+332,STATE_332,332,STATE_332,split,approve_selected,,Phase2: conf=1.0 issues=2 auto approve
+333,STATE_333,333,STATE_333,merge,approve_selected,,Phase3: conf=1.0 issues=4 auto approve
+334,STATE_334,1077,STATE_1077,merge,approve_selected,,Phase4a: conf=0.875 owner/core conflict auto approve
+335,STATE_335,335,Java,merge,approve_selected,,Phase4b: conf=0.667 owner/core conflict auto approve
+336,STATE_336,1085,STATE_1085,merge,approve_selected,,Phase4a: conf=1.0 owner/core conflict auto approve
+338,STATE_338,338,STATE_338,split,approve_selected,,Phase3: conf=1.0 issues=3 auto approve
+339,STATE_339,339,STATE_339,merge,approve_selected,,Phase4c: conf=0.75 resource/building dist auto approve
+340,STATE_340,1055,STATE_1055,merge,approve_selected,,Phase4b: conf=0.75 owner/core conflict auto approve
+341,STATE_341,797,STATE_797,same_name,approve_selected,,Phase2: conf=1.0 issues=1 auto approve
+342,STATE_342,342,Antalya,split,approve_selected,,Phase3: conf=1.0 issues=4 auto approve
+343,STATE_343,346,STATE_346,merge,approve_selected,,Phase4c: conf=0.5 resource/building dist auto approve
+344,STATE_344,345,STATE_345,merge,approve_selected,,Phase4c: conf=0.5 resource/building dist auto approve
+345,STATE_345,345,STATE_345,split,approve_selected,,Phase4c: conf=1.0 resource/building dist auto approve
+346,STATE_346,346,STATE_346,split,approve_selected,,Phase3: conf=1.0 issues=4 auto approve
+348,STATE_348,348,Kayseri,merge,approve_selected,,Phase4c: conf=0.5 resource/building dist auto approve
+349,STATE_349,349,STATE_349,merge,approve_selected,,Phase4c: conf=0.857 resource/building dist auto approve
+350,STATE_350,1060,STATE_1060,same_name,approve_selected,,Phase2: conf=1.0 issues=1 auto approve
+351,STATE_351,351,Vologda,province_overlap,approve_selected,,Phase4b: conf=0.741 owner/core conflict auto approve
+352,STATE_352,352,STATE_352,merge,approve_selected,,Phase4b: conf=0.5 owner/core conflict auto approve
+353,STATE_353,800,Van,split,approve_selected,,Phase3: conf=1.0 issues=3 auto approve
+354,STATE_354,354,STATE_354,split,approve_selected,,Phase3: conf=1.0 issues=4 auto approve
+355,STATE_355,355,STATE_355,split,approve_selected,,Phase2: conf=1.0 issues=2 auto approve
+356,STATE_356,356,Kastamonu,split,approve_selected,,Phase3: conf=1.0 issues=3 auto approve
+357,STATE_357,357,STATE_357,split,approve_selected,,Phase4a: conf=1.0 owner/core conflict auto approve
+358,STATE_358,358,STATE_358,split,approve_selected,,Phase4c: conf=1.0 resource/building dist auto approve
+359,STATE_359,359,STATE_359,split,approve_selected,,Phase2: conf=1.0 issues=2 auto approve
+360,STATE_360,360,STATE_360,split,approve_selected,,Phase4c: conf=1.0 resource/building dist auto approve
+361,STATE_361,361,STATE_361,split,approve_selected,,Phase3: conf=1.0 issues=3 auto approve
+362,STATE_362,362,STATE_362,split,approve_selected,,Phase3: conf=1.0 issues=3 auto approve
+367,STATE_367,367,STATE_367,split,approve_selected,,Phase4c: conf=1.0 resource/building dist auto approve
+370,STATE_370,370,STATE_370,split,approve_selected,,Phase3: conf=1.0 issues=3 auto approve
+371,STATE_371,371,STATE_371,split,approve_selected,,Phase3: conf=1.0 issues=4 auto approve
+374,STATE_374,374,STATE_374,split,approve_selected,,Phase3: conf=1.0 issues=3 auto approve
+375,STATE_375,375,STATE_375,split,approve_selected,,Phase3: conf=1.0 issues=4 auto approve
+376,STATE_376,376,STATE_376,split,approve_selected,,Phase4c: conf=0.8 resource/building dist auto approve
+377,STATE_377,377,STATE_377,split,approve_selected,,Phase3: conf=1.0 issues=4 auto approve
+378,STATE_378,378,STATE_378,split,approve_selected,,Phase4a: conf=1.0 owner/core conflict auto approve
+379,STATE_379,379,STATE_379,split,approve_selected,,Phase3: conf=1.0 issues=4 auto approve
+380,STATE_380,380,STATE_380,split,approve_selected,,Phase3: conf=1.0 issues=3 auto approve
+381,STATE_381,381,STATE_381,split,approve_selected,,Phase4c: conf=0.667 resource/building dist auto approve
+382,STATE_382,382,STATE_382,split,approve_selected,,Phase3: conf=1.0 issues=4 auto approve
+383,STATE_383,383,STATE_383,split,approve_selected,,Phase3: conf=1.0 issues=3 auto approve
+384,STATE_384,384,STATE_384,split,approve_selected,,Phase2: conf=1.0 issues=2 auto approve
+385,STATE_385,385,STATE_385,split,approve_selected,,Phase3: conf=1.0 issues=3 auto approve
+387,STATE_387,387,STATE_387,split,approve_selected,,Phase3: conf=1.0 issues=3 auto approve
+388,STATE_388,388,STATE_388,split,approve_selected,,Phase4c: conf=0.941 resource/building dist auto approve
+389,STATE_389,389,STATE_389,split,approve_selected,,Phase3: conf=1.0 issues=3 auto approve
+390,STATE_390,390,STATE_390,split,approve_selected,,Phase3: conf=1.0 issues=3 auto approve
+391,STATE_391,391,STATE_391,split,approve_selected,,Phase3: conf=1.0 issues=3 auto approve
+393,STATE_393,393,STATE_393,split,approve_selected,,Phase3: conf=1.0 issues=3 auto approve
+397,STATE_397,397,STATE_397,merge,approve_selected,,Phase4a: conf=0.864 owner/core conflict auto approve
+398,STATE_398,398,STATE_398,same_id_same_area,approve_selected,,Phase2: conf=1.0 issues=0 auto approve
+399,STATE_399,399,STATE_399,same_id_same_area,approve_selected,,Phase2: conf=1.0 issues=0 auto approve
+400,STATE_400,400,STATE_400,same_id_same_area,approve_selected,,Phase2: conf=1.0 issues=0 auto approve
+401,STATE_401,401,Balakovo,same_id_same_area,approve_selected,,Phase2: conf=1.0 issues=0 auto approve
+402,STATE_402,402,STATE_402,merge,approve_selected,,Phase4a: conf=0.88 owner/core conflict auto approve
+403,Tyumen,403,Tyumen,same_id_same_area,approve_selected,,Phase2: conf=1.0 issues=0 auto approve
+404,STATE_404,881,Karagandy,merge,approve_selected,,Phase4a: conf=0.864 owner/core conflict auto approve
+405,STATE_405,405,Tashkent,split,approve_selected,,Phase3: conf=1.0 issues=3 auto approve
+406,STATE_406,406,Gurev,split,approve_selected,,Phase2: conf=1.0 issues=2 auto approve
+407,STATE_407,407,STATE_407,split,approve_selected,,Phase2: conf=1.0 issues=2 auto approve
+408,STATE_408,408,STATE_408,split,approve_selected,,Phase3: conf=1.0 issues=3 auto approve
+409,STATE_409,409,STATE_409,split,approve_selected,,Phase3: conf=1.0 issues=3 auto approve
+410,STATE_410,410,STATE_410,split,approve_selected,,Phase2: conf=1.0 issues=2 auto approve
+411,STATE_411,1002,STATE_1002,merge,approve_selected,,Phase4c: conf=1.0 resource/building dist auto approve
+412,STATE_412,412,STATE_412,merge,approve_selected,,Phase4c: conf=0.9 resource/building dist auto approve
+413,STATE_413,413,STATE_413,split,approve_selected,,Phase3: conf=1.0 issues=3 auto approve
+414,STATE_414,1003,STATE_1003,merge,approve_selected,,Phase3: conf=1.0 issues=4 auto approve
+415,STATE_415,1009,STATE_1009,merge,approve_selected,,Phase4c: conf=0.8 resource/building dist auto approve
+416,STATE_416,416,STATE_416,merge,approve_selected,,Phase4c: conf=0.8 resource/building dist auto approve
+417,STATE_417,417,Hamadan,merge,approve_selected,,Phase4c: conf=0.667 resource/building dist auto approve
+418,STATE_418,418,STATE_418,split,approve_selected,,Phase2: conf=1.0 issues=2 auto approve
+419,STATE_419,1000,STATE_1000,merge,approve_selected,,Phase4a: conf=1.0 owner/core conflict auto approve
+420,STATE_420,420,STATE_420,split,approve_selected,,Phase4c: conf=0.8 resource/building dist auto approve
+421,STATE_421,1001,STATE_1001,same_name,approve_selected,,Phase2: conf=1.0 issues=1 auto approve
+422,STATE_422,422,STATE_422,split,approve_selected,,Phase3: conf=1.0 issues=4 auto approve
+423,Madurai,423,STATE_423,same_id_same_area,approve_selected,,Phase4a: conf=0.9 owner/core conflict auto approve
+424,Madras,424,Madras,same_id_same_area,approve_selected,,Phase2: conf=1.0 issues=0 auto approve
+425,Mysore,425,Mysore,split,approve_selected,,Phase4b: conf=0.6 owner/core conflict auto approve
+426,Orissa,426,Orissa,same_id_same_area,approve_selected,,Phase4a: conf=0.9 owner/core conflict auto approve
+427,STATE_427,427,STATE_427,same_name,approve_selected,,Phase4b: conf=0.75 owner/core conflict auto approve
+428,STATE_428,428,STATE_428,same_id_same_area,approve_selected,,Phase2: conf=1.0 issues=0 auto approve
+429,STATE_429,429,Bombay,province_overlap,approve_selected,,Phase4b: conf=0.75 owner/core conflict auto approve
+430,STATE_430,430,STATE_430,merge,approve_selected,,Phase4a: conf=0.889 owner/core conflict auto approve
+431,STATE_431,431,STATE_431,same_id_same_area,approve_selected,,Phase2: conf=1.0 issues=0 auto approve
+432,STATE_432,990,STATE_990,same_name,approve_selected,,Phase2: conf=1.0 issues=1 auto approve
+433,STATE_433,433,STATE_433,same_id_same_area,approve_selected,,Phase2: conf=1.0 issues=0 auto approve
+434,STATE_434,434,STATE_434,same_id_same_area,approve_selected,,Phase2: conf=1.0 issues=0 auto approve
+435,STATE_435,435,STATE_435,same_id_same_area,approve_selected,,Phase2: conf=1.0 issues=0 auto approve
+436,Jabalpur,436,"Central provinces, was Jabalpur",same_id_same_area,approve_selected,,Phase4a: conf=0.9 owner/core conflict auto approve
+437,Indore,437,STATE_437,same_id_same_area,approve_selected,,Phase2: conf=1.0 issues=0 auto approve
+438,STATE_438,438,STATE_438,same_id_same_area,approve_selected,,Phase4a: conf=0.9 owner/core conflict auto approve
+439,STATE_439,439,STATE_439,same_name,approve_selected,,Phase4b: conf=0.75 owner/core conflict auto approve
+440,STATE_440,440,STATE_440,same_id_same_area,approve_selected,,Phase4a: conf=0.9 owner/core conflict auto approve
+441,STATE_441,441,STATE_441,same_id_same_area,approve_selected,,Phase4a: conf=0.9 owner/core conflict auto approve
+442,STATE_442,987,manpower = 217974,merge,approve_selected,,Phase4a: conf=1.0 owner/core conflict auto approve
+443,STATE_443,443,Sind,split,approve_selected,,Phase3: conf=1.0 issues=3 auto approve
+444,STATE_444,444,STATE_444,split,approve_selected,,Phase3: conf=1.0 issues=3 auto approve
+445,STATE_445,445,STATE_445,merge,approve_selected,,Phase3: conf=1.0 issues=3 auto approve
+446,STATE_446,907,STATE_907,split,approve_selected,,Phase4b: conf=0.571 owner/core conflict auto approve
+447,STATE_447,447,STATE_447,split,approve_selected,,Phase4a: conf=0.8 owner/core conflict auto approve
+448,STATE_448,448,STATE_448,same_id_same_area,approve_selected,,Phase2: conf=1.0 issues=0 auto approve
+449,STATE_449,449,El Agheila,split,approve_selected,,Phase2: conf=1.0 issues=2 auto approve
+450,STATE_450,450,STATE_450,merge,approve_selected,,Phase3: conf=1.0 issues=3 auto approve
+451,STATE_451,451,STATE_451,same_id_same_area,approve_selected,,Phase2: conf=1.0 issues=0 auto approve
+452,STATE_452,452,STATE_452,split,approve_selected,,Phase2: conf=1.0 issues=2 auto approve
+453,STATE_453,453,STATE_453,split,approve_selected,,Phase3: conf=1.0 issues=3 auto approve
+454,STATE_454,454,Palestine,split,approve_selected,,Phase4b: conf=0.667 owner/core conflict auto approve
+455,STATE_455,455,STATE_455,same_id_same_area,approve_selected,,Phase2: conf=1.0 issues=0 auto approve
+456,STATE_456,456,Aswan,split,approve_selected,,Phase4b: conf=0.556 owner/core conflict auto approve
+457,Arabian Desert,457,Arabian Desert,split,approve_selected,,Phase2: conf=1.0 issues=2 auto approve
+458,STATE_458,458,STATE_458,split,approve_selected,,Phase3: conf=1.0 issues=4 auto approve
+459,STATE_459,513,Tlmecen,merge,approve_selected,,Phase4b: conf=0.667 owner/core conflict auto approve
+460,STATE_460,460,Constantine,merge,approve_selected,,Phase3: conf=1.0 issues=3 auto approve
+461,STATE_461,461,STATE_461,same_id_same_area,approve_selected,,Phase2: conf=1.0 issues=0 auto approve
+462,STATE_462,462,STATE_462,same_id_same_area,approve_selected,,Phase2: conf=1.0 issues=0 auto approve
+463,STATE_463,463,STATE_463,split,approve_selected,,Phase2: conf=1.0 issues=2 auto approve
+466,STATE_466,860,STATE_860,merge,approve_selected,,Phase4c: conf=0.857 resource/building dist auto approve
+467,STATE_467,467,STATE_467,merge,approve_selected,,Phase4c: conf=0.917 resource/building dist auto approve
+468,STATE_468,468,Saint Lawrence,split,approve_selected,,Phase3: conf=1.0 issues=4 auto approve
+469,STATE_469,469,STATE_469,merge,approve_selected,,Phase3: conf=1.0 issues=3 auto approve
+470,STATE_470,470,STATE_470,merge,approve_selected,,Phase3: conf=1.0 issues=4 auto approve
+471,STATE_471,864,STATE_864,same_name,approve_selected,,Phase2: conf=1.0 issues=1 auto approve
+472,STATE_472,472,STATE_472,split,approve_selected,,Phase4c: conf=0.417 resource/building dist auto approve
+473,STATE_473,473,STATE_473,merge,approve_selected,,Phase4c: conf=0.773 resource/building dist auto approve
+475,STATE_475,475,STATE_475,split,approve_selected,,Phase2: conf=1.0 issues=2 auto approve
+476,STATE_476,476,STATE_476,split,approve_selected,,Phase3: conf=1.0 issues=3 auto approve
+478,Jalisco,478,Jalisco,split,approve_selected,,Phase3: conf=1.0 issues=4 auto approve
+479,STATE_479,479,STATE_479,merge,approve_selected,,Phase5: low-conf auto approve (manual review recommended post-import)
+480,STATE_480,480,STATE_480,split,approve_selected,,Phase3: conf=1.0 issues=3 auto approve
+481,Durango,481,Durango,split,approve_selected,,Phase3: conf=1.0 issues=3 auto approve
+483,STATE_483,483,STATE_483,same_id_same_area,approve_selected,,Phase2: conf=1.0 issues=0 auto approve
+484,STATE_484,484,STATE_484,same_id_same_area,approve_selected,,Phase2: conf=1.0 issues=0 auto approve
+485,STATE_485,485,STATE_485,split,approve_selected,,Phase3: conf=1.0 issues=4 auto approve
+486,STATE_486,486,STATE_486,split,approve_selected,,Phase4c: conf=0.857 resource/building dist auto approve
+487,STATE_487,487,STATE_487,split,approve_selected,,Phase3: conf=1.0 issues=3 auto approve
+488,STATE_488,488,STATE_488,split,approve_selected,,Phase2: conf=1.0 issues=2 auto approve
+489,Zulia,489,Zulia,split,approve_selected,,Phase3: conf=1.0 issues=4 auto approve
+490,STATE_490,490,STATE_490,same_id_same_area,approve_selected,,Phase2: conf=1.0 issues=1 auto approve
+491,STATE_491,491,STATE_491,split,approve_selected,,Phase3: conf=1.0 issues=3 auto approve
+492,STATE_492,492,STATE_492,merge,approve_selected,,Phase4c: conf=0.833 resource/building dist auto approve
+494,STATE_494,491,STATE_491,merge,approve_selected,,Phase4c: conf=0.6 resource/building dist auto approve
+495,STATE_495,961,STATE_961,merge,approve_selected,,Phase3: conf=1.0 issues=3 auto approve
+496,Minas Gerais,496,Minas Gerais,split,approve_selected,,Phase3: conf=1.0 issues=3 auto approve
+497,STATE_497,938,STATE_938,split,approve_selected,,Phase3: conf=1.0 issues=4 auto approve
+499,STATE_499,499,STATE_499,split,approve_selected,,Phase3: conf=1.0 issues=3 auto approve
+500,STATE_500,500,STATE_500,merge,approve_selected,,Phase3: conf=1.0 issues=3 auto approve
+502,STATE_502,502,STATE_502,split,approve_selected,,Phase4c: conf=0.727 resource/building dist auto approve
+503,STATE_503,944,STATE_944,split,approve_selected,,Phase3: conf=1.0 issues=3 auto approve
+504,STATE_504,280,STATE_280,merge,approve_selected,,Phase4c: conf=0.75 resource/building dist auto approve
+505,STATE_505,505,STATE_505,split,approve_selected,,Phase3: conf=1.0 issues=3 auto approve
+506,STATE_506,952,STATE_952,split,approve_selected,,Phase3: conf=1.0 issues=3 auto approve
+507,Magallanes,949,Aysen,merge,approve_selected,,Phase4c: conf=0.833 resource/building dist auto approve
+508,Tucuman,960,STATE_960,merge,approve_selected,,Phase3: conf=1.0 issues=4 auto approve
+509,Chaco Australis,509,Chaco Australis,merge,approve_selected,,Phase3: conf=1.0 issues=4 auto approve
+510,STATE_510,510,STATE_510,split,approve_selected,,Phase4c: conf=1.0 resource/building dist auto approve
+511,Mendoza,511,Mendoza,merge,approve_selected,,Phase3: conf=1.0 issues=3 auto approve
+512,STATE_512,954,STATE_954,merge,approve_selected,,Phase4a: conf=0.8 owner/core conflict auto approve
+513,STATE_513,513,Tlmecen,merge,approve_selected,,Phase4b: conf=0.625 owner/core conflict auto approve
+514,STATE_514,514,Algerian Desert,split,approve_selected,,Phase2: conf=1.0 issues=2 auto approve
+515,STATE_515,515,STATE_515,split,approve_selected,,Phase2: conf=1.0 issues=1 auto approve
+516,STATE_516,,,new_bsr_state,keep_bsr,,Phase1: new_bsr_state auto keep_bsr
+521,STATE_521,521,STATE_521,merge,approve_selected,,Phase3: conf=1.0 issues=4 auto approve
+522,STATE_522,522,STATE_522,same_id_same_area,approve_selected,,Phase2: conf=1.0 issues=0 auto approve
+523,STATE_523,523,STATE_523,merge,approve_selected,,Phase3: conf=1.0 issues=3 auto approve
+524,STATE_524,524,STATE_524,same_id_same_area,approve_selected,,Phase2: conf=1.0 issues=0 auto approve
+525,STATE_525,525,STATE_525,split,approve_selected,,Phase3: conf=1.0 issues=3 auto approve
+526,STATE_526,526,STATE_526,split,approve_selected,,Phase3: conf=1.0 issues=3 auto approve
+527,STATE_527,527,STATE_527,merge,approve_selected,,Phase4b: conf=0.667 owner/core conflict auto approve
+528,STATE_528,528,North Kyushu,split,approve_selected,,Phase3: conf=1.0 issues=4 auto approve
+529,Chugoku,529,"San'yo, formerly Chugoku",merge,approve_selected,,Phase3: conf=1.0 issues=3 auto approve
+530,STATE_530,530,Shikoku,split,approve_selected,,Phase3: conf=1.0 issues=3 auto approve
+531,STATE_531,531,Kansai,split,approve_selected,,Phase3: conf=1.0 issues=3 auto approve
+533,STATE_533,533,North Tohoku,merge,approve_selected,,Phase3: conf=1.0 issues=4 auto approve
+534,Hokuriku,534,"was Hokuriku, is actually Kōshin'etsu",split,approve_selected,,Phase3: conf=1.0 issues=4 auto approve
+535,Koshinetsu,535,"was Koshinetsu, is actually Hokuriku",merge,approve_selected,,Phase3: conf=1.0 issues=4 auto approve
+536,STATE_536,536,STATE_536,same_id_same_area,approve_selected,,Phase2: conf=1.0 issues=0 auto approve
+537,STATE_537,537,STATE_537,same_id_same_area,approve_selected,,Phase2: conf=1.0 issues=0 auto approve
+538,STATE_538,538,STATE_538,merge,approve_selected,,Phase4c: conf=0.714 resource/building dist auto approve
+539,STATE_539,539,STATE_539,same_id_same_area,approve_selected,,Phase2: conf=1.0 issues=0 auto approve
+540,STATE_540,892,STATE_892,merge,approve_selected,,Phase3: conf=1.0 issues=4 auto approve
+541,STATE_541,893,STATE_893,merge,approve_selected,,Phase3: conf=1.0 issues=4 auto approve
+542,STATE_542,542,STATE_542,split,approve_selected,,Phase3: conf=1.0 issues=4 auto approve
+543,STATE_543,543,STATE_543,same_id_same_area,approve_selected,,Phase2: conf=1.0 issues=0 auto approve
+544,STATE_544,544,STATE_544,split,approve_selected,,Phase2: conf=1.0 issues=2 auto approve
+545,STATE_545,545,STATE_545,split,approve_selected,,Phase2: conf=1.0 issues=2 auto approve
+546,STATE_546,546,STATE_546,split,approve_selected,,Phase3: conf=1.0 issues=3 auto approve
+547,STATE_547,904,STATE_904,merge,approve_selected,,Phase3: conf=1.0 issues=4 auto approve
+548,STATE_548,548,STATE_548,split,approve_selected,,Phase3: conf=1.0 issues=3 auto approve
+549,STATE_549,549,"Kurdufan / was ""Sudan""",split,approve_selected,,Phase3: conf=1.0 issues=3 auto approve
+550,STATE_550,550,STATE_550,same_id_same_area,approve_selected,,Phase2: conf=1.0 issues=0 auto approve
+551,STATE_551,551,STATE_551,merge,approve_selected,,Phase3: conf=1.0 issues=3 auto approve
+552,STATE_552,552,STATE_552,merge,approve_selected,,Phase4a: conf=0.8 owner/core conflict auto approve
+553,STATE_553,553,STATE_553,split,approve_selected,,Phase2: conf=1.0 issues=2 auto approve
+554,STATE_554,554,STATE_554,split,approve_selected,,Phase3: conf=1.0 issues=3 auto approve
+555,Kuril Islands,555,Kuril Islands,same_id_same_area,approve_selected,,Phase2: conf=1.0 issues=0 auto approve
+556,Mali (previously French West Africa),556,STATE_556,same_id_same_area,approve_selected,,Phase2: conf=1.0 issues=0 auto approve
+557,Mauritania,557,Mauritania,same_id_same_area,approve_selected,,Phase2: conf=1.0 issues=0 auto approve
+558,STATE_558,902,STATE_902,merge,approve_selected,,Phase3: conf=1.0 issues=4 auto approve
+559,STATE_559,559,STATE_559,split,approve_selected,,Phase3: conf=1.0 issues=3 auto approve
+560,STATE_560,560,Nikolayevsk,split,approve_selected,,Phase3: conf=1.0 issues=3 auto approve
+561,STATE_561,561,Amur,split,approve_selected,,Phase2: conf=1.0 issues=2 auto approve
+562,Okhotsk,562,Okhotsk,merge,approve_selected,,Phase3: conf=1.0 issues=3 auto approve
+563,STATE_563,563,Chita,merge,approve_selected,,Phase3: conf=1.0 issues=4 auto approve
+564,Ulan Ude,564,Ulan Ude,same_id_same_area,approve_selected,,Phase4a: conf=0.9 owner/core conflict auto approve
+565,Bodaybo,565,Bodaybo,same_name,approve_selected,,Phase4b: conf=0.75 owner/core conflict auto approve
+566,Irktusk,566,Irktusk,same_id_same_area,approve_selected,,Phase4a: conf=0.9 owner/core conflict auto approve
+567,STATE_567,567,Bratsk,same_id_same_area,approve_selected,,Phase2: conf=1.0 issues=0 auto approve
+568,Krasnoyarsk,568,Krasnoyarsk,same_id_same_area,approve_selected,,Phase2: conf=1.0 issues=0 auto approve
+569,Kemerovo,569,Khakassia,same_id_same_area,approve_selected,,Phase2: conf=1.0 issues=0 auto approve
+570,Novosibirsk,570,Novosibirsk,same_id_same_area,approve_selected,,Phase2: conf=1.0 issues=0 auto approve
+571,Omsk,571,Omsk,same_id_same_area,approve_selected,,Phase2: conf=1.0 issues=0 auto approve
+572,Chelyabinsk,572,Chelyabinsk,same_id_same_area,approve_selected,,Phase4a: conf=0.9 owner/core conflict auto approve
+573,Zlatoust,573,Zlatoust,same_name,approve_selected,,Phase4b: conf=0.75 owner/core conflict auto approve
+574,STATE_574,574,Yakutsk,same_id_same_area,approve_selected,,Phase2: conf=1.0 issues=0 auto approve
+575,Kirensk,575,Kirensk,same_id_same_area,approve_selected,,Phase2: conf=1.0 issues=0 auto approve
+576,Yeniseisk,576,Yeniseisk,same_id_same_area,approve_selected,,Phase2: conf=1.0 issues=0 auto approve
+577,STATE_577,577,STATE_577,same_id_same_area,approve_selected,,Phase2: conf=1.0 issues=0 auto approve
+578,Tomsk,578,Tomsk,same_id_same_area,approve_selected,,Phase2: conf=1.0 issues=0 auto approve
+579,Salekhard,579,Salekhard,same_id_same_area,approve_selected,,Phase2: conf=1.0 issues=0 auto approve
+580,Tobolsk,580,Tobolsk,same_id_same_area,approve_selected,,Phase2: conf=1.0 issues=0 auto approve
+581,STATE_581,581,STATE_581,split,approve_selected,,Phase4b: conf=0.6 owner/core conflict auto approve
+582,STATE_582,582,STATE_582,same_id_same_area,approve_selected,,Phase4a: conf=0.9 owner/core conflict auto approve
+583,STATE_583,583,STATE_583,split,approve_selected,,Phase2: conf=1.0 issues=2 auto approve
+584,STATE_584,584,STATE_584,split,approve_selected,,Phase2: conf=1.0 issues=2 auto approve
+585,STATE_585,585,Navoiy,merge,approve_selected,,Phase4b: conf=0.667 owner/core conflict auto approve
+586,STATE_586,586,STATE_586,merge,approve_selected,,Phase3: conf=1.0 issues=4 auto approve
+587,STATE_587,587,STATE_587,same_id_same_area,approve_selected,,Phase2: conf=1.0 issues=0 auto approve
+588,STATE_588,882,Pavlodar,merge,approve_selected,,Phase4a: conf=1.0 owner/core conflict auto approve
+589,STATE_589,589,STATE_589,merge,approve_selected,,Phase4b: conf=0.75 owner/core conflict auto approve
+590,Akmolinsk,590,Akmolinsk,merge,approve_selected,,Phase3: conf=1.0 issues=3 auto approve
+591,STATE_591,591,STATE_591,same_id_same_area,approve_selected,,Phase2: conf=1.0 issues=0 auto approve
+592,STATE_592,592,STATE_592,merge,approve_selected,,Phase4a: conf=0.889 owner/core conflict auto approve
+593,STATE_593,593,STATE_593,split,approve_selected,,Phase3: conf=1.0 issues=4 auto approve
+594,STATE_594,1033,STATE_1033,split,approve_selected,,Phase3: conf=1.0 issues=4 auto approve
+595,STATE_595,595,STATE_595,same_id_same_area,approve_selected,,Phase2: conf=1.0 issues=0 auto approve
+596,STATE_596,596,STATE_596,same_id_same_area,approve_selected,,Phase2: conf=1.0 issues=0 auto approve
+597,STATE_597,,,new_bsr_state,keep_bsr,,Phase1: new_bsr_state auto keep_bsr
+598,STATE_598,598,STATE_598,same_name,approve_selected,,Phase4b: conf=0.75 owner/core conflict auto approve
+599,STATE_599,594,STATE_594,split,approve_selected,,Phase4a: conf=0.929 owner/core conflict auto approve
+600,STATE_600,600,STATE_600,same_id_same_area,approve_selected,,Phase4a: conf=0.931 owner/core conflict auto approve
+601,STATE_601,601,STATE_601,split,approve_selected,,Phase3: conf=1.0 issues=4 auto approve
+602,STATE_602,602,STATE_602,same_id_same_area,approve_selected,,Phase4a: conf=0.947 owner/core conflict auto approve
+603,STATE_603,603,STATE_603,same_id_same_area,approve_selected,,Phase4a: conf=0.9 owner/core conflict auto approve
+604,STATE_604,604,STATE_604,split,approve_selected,,Phase3: conf=1.0 issues=3 auto approve
+605,STATE_605,,,new_bsr_state,keep_bsr,,Phase1: new_bsr_state auto keep_bsr
+606,STATE_606,606,STATE_606,same_id_same_area,approve_selected,,Phase4a: conf=0.9 owner/core conflict auto approve
+607,STATE_607,607,STATE_607,same_id_same_area,approve_selected,,Phase2: conf=1.0 issues=0 auto approve
+608,STATE_608,608,STATE_608,same_id_same_area,approve_selected,,Phase2: conf=1.0 issues=1 auto approve
+609,STATE_609,609,East Hebei,same_id_same_area,approve_selected,,Phase4a: conf=0.9 owner/core conflict auto approve
+610,STATE_610,610,Jehol,merge,approve_selected,,Phase4a: conf=0.889 owner/core conflict auto approve
+611,STATE_611,611,South Chahar,merge,approve_selected,,Phase4b: conf=0.6 owner/core conflict auto approve
+612,STATE_612,612,STATE_612,merge,approve_selected,,Phase4b: conf=0.786 owner/core conflict auto approve
+613,STATE_613,613,Shanghai,same_id_same_area,approve_selected,,Phase2: conf=1.0 issues=0 auto approve
+614,Hebei,614,Hebei,same_id_same_area,approve_selected,,Phase4a: conf=0.929 owner/core conflict auto approve
+615,STATE_615,615,STATE_615,merge,approve_selected,,Phase3: conf=1.0 issues=4 auto approve
+616,STATE_616,1040,STATE_1040,merge,approve_selected,,Phase3: conf=1.0 issues=4 auto approve
+617,STATE_617,617,STATE_617,merge,approve_selected,,Phase4a: conf=0.917 owner/core conflict auto approve
+618,STATE_618,618,Dzungaria,split,approve_selected,,Phase3: conf=1.0 issues=3 auto approve
+619,STATE_619,619,Yarkand,split,approve_selected,,Phase3: conf=1.0 issues=3 auto approve
+620,STATE_620,620,STATE_620,same_id_same_area,approve_selected,,Phase4a: conf=0.9 owner/core conflict auto approve
+621,STATE_621,621,STATE_621,split,approve_selected,,Phase3: conf=1.0 issues=4 auto approve
+622,STATE_622,622,STATE_622,same_name,approve_selected,,Phase4b: conf=0.75 owner/core conflict auto approve
+623,STATE_623,623,Luzon,merge,approve_selected,,Phase3: conf=1.0 issues=4 auto approve
+624,STATE_624,624,Central Islands,merge,approve_selected,,Phase3: conf=1.0 issues=4 auto approve
+626,STATE_626,626,STATE_626,same_id_same_area,approve_selected,,Phase2: conf=1.0 issues=0 auto approve
+627,STATE_627,1026,STATE_1026,merge,approve_selected,,Phase3: conf=1.0 issues=4 auto approve
+633,STATE_633,633,STATE_633,same_id_same_area,approve_selected,,Phase2: conf=1.0 issues=0 auto approve
+634,STATE_634,634,STATE_634,same_id_same_area,approve_selected,,Phase2: conf=1.0 issues=0 auto approve
+635,STATE_635,635,STATE_635,same_id_same_area,approve_selected,,Phase2: conf=1.0 issues=0 auto approve
+636,STATE_636,636,STATE_636,same_id_same_area,approve_selected,,Phase2: conf=1.0 issues=0 auto approve
+637,STATE_637,637,Kamchatka,same_id_same_area,approve_selected,,Phase2: conf=1.0 issues=0 auto approve
+639,STATE_639,639,STATE_639,same_id_same_area,approve_selected,,Phase2: conf=1.0 issues=0 auto approve
+640,STATE_640,998,STATE_998,merge,approve_selected,,Phase4b: conf=0.714 owner/core conflict auto approve
+641,STATE_641,641,STATE_641,split,approve_selected,,Phase4b: conf=0.5 owner/core conflict auto approve
+642,STATE_642,642,STATE_642,same_id_same_area,approve_selected,,Phase2: conf=1.0 issues=0 auto approve
+643,STATE_643,643,STATE_643,same_id_same_area,approve_selected,,Phase2: conf=1.0 issues=0 auto approve
+644,STATE_644,644,Kolyma,merge,approve_selected,,Phase3: conf=1.0 issues=3 auto approve
+646,STATE_646,646,STATE_646,same_id_same_area,approve_selected,,Phase2: conf=1.0 issues=0 auto approve
+647,STATE_647,647,STATE_647,same_id_same_area,approve_selected,,Phase2: conf=1.0 issues=0 auto approve
+648,STATE_648,648,STATE_648,same_id_same_area,approve_selected,,Phase2: conf=1.0 issues=0 auto approve
+650,STATE_650,650,STATE_650,same_id_same_area,approve_selected,,Phase2: conf=1.0 issues=0 auto approve
+651,Ufa,651,Ufa,same_id_same_area,approve_selected,,Phase2: conf=1.0 issues=0 auto approve
+652,STATE_652,652,STATE_652,same_id_same_area,approve_selected,,Phase2: conf=1.0 issues=0 auto approve
+653,Sverdlovsk,,,new_bsr_state,keep_bsr,,Phase1: new_bsr_state auto keep_bsr
+654,Gorno-Altaysk,654,Gorno-Altaysk,same_id_same_area,approve_selected,,Phase2: conf=1.0 issues=0 auto approve
+655,STATE_655,655,STATE_655,same_id_same_area,approve_selected,,Phase2: conf=1.0 issues=0 auto approve
+656,STATE_656,,,new_bsr_state,keep_bsr,,Phase1: new_bsr_state auto keep_bsr
+657,Birobidzhan,657,Birobidzhan,same_id_same_area,approve_selected,,Phase2: conf=1.0 issues=0 auto approve
+658,STATE_658,658,STATE_658,same_id_same_area,approve_selected,,Phase2: conf=1.0 issues=0 auto approve
+659,STATE_659,659,STATE_659,merge,approve_selected,,Phase4b: conf=0.75 owner/core conflict auto approve
+660,STATE_660,660,STATE_660,split,approve_selected,,Phase3: conf=1.0 issues=3 auto approve
+661,STATE_661,661,STATE_661,split,approve_selected,,Phase2: conf=1.0 issues=2 auto approve
+662,STATE_662,662,STATE_662,merge,approve_selected,,Phase4b: conf=0.667 owner/core conflict auto approve
+663,STATE_663,663,STATE_663,split,approve_selected,,Phase2: conf=1.0 issues=2 auto approve
+664,STATE_664,664,STATE_664,split,approve_selected,,Phase3: conf=1.0 issues=4 auto approve
+665,STATE_665,665,STATE_665,split,approve_selected,,Phase3: conf=1.0 issues=3 auto approve
+666,STATE_666,666,STATE_666,split,approve_selected,,Phase3: conf=1.0 issues=4 auto approve
+667,STATE_667,667,STATE_667,merge,approve_selected,,Phase5: low-conf auto approve (manual review recommended post-import)
+668,STATE_668,668,STATE_668,split,approve_selected,,Phase2: conf=1.0 issues=2 auto approve
+669,STATE_669,1079,STATE_1079,merge,approve_selected,,Phase4a: conf=0.857 owner/core conflict auto approve
+670,STATE_670,670,STATE_670,split,approve_selected,,Phase2: conf=1.0 issues=2 auto approve
+671,STATE_671,671,STATE_671,split,approve_selected,,Phase3: conf=1.0 issues=4 auto approve
+672,STATE_672,1070,STATE_1070,split,approve_selected,,Phase3: conf=1.0 issues=4 auto approve
+673,STATE_673,673,STATE_673,same_id_same_area,approve_selected,,Phase2: conf=1.0 issues=0 auto approve
+674,STATE_674,1096,STATE_1096,same_name,approve_selected,,Phase2: conf=1.0 issues=1 auto approve
+675,STATE_675,675,STATE_675,same_name,approve_selected,,Phase4b: conf=0.75 owner/core conflict auto approve
+676,STATE_676,676,STATE_676,split,approve_selected,,Phase4b: conf=0.5 owner/core conflict auto approve
+677,STATE_677,677,STATE_677,split,approve_selected,,Phase3: conf=1.0 issues=4 auto approve
+678,STATE_678,678,STATE_678,merge,approve_selected,,Phase4c: conf=0.5 resource/building dist auto approve
+679,STATE_679,856,STATE_856,merge,approve_selected,,Phase5: low-conf auto approve (manual review recommended post-import)
+680,STATE_680,680,STATE_680,merge,approve_selected,,Phase3: conf=1.0 issues=3 auto approve
+681,STATE_681,681,Cape,split,approve_selected,,Phase4c: conf=0.667 resource/building dist auto approve
+682,STATE_682,682,STATE_682,split,approve_selected,,Phase3: conf=1.0 issues=4 auto approve
+683,STATE_683,683,STATE_683,merge,approve_selected,,Phase4c: conf=0.333 resource/building dist auto approve
+684,STATE_684,684,STATE_684,same_id_same_area,approve_selected,,Phase2: conf=1.0 issues=0 auto approve
+686,STATE_686,686,STATE_686,split,approve_selected,,Phase2: conf=1.0 issues=2 auto approve
+687,STATE_687,687,STATE_687,split,approve_selected,,Phase4c: conf=0.5 resource/building dist auto approve
+688,STATE_688,688,STATE_688,split,approve_selected,,Phase3: conf=1.0 issues=4 auto approve
+694,STATE_694,694,STATE_694,same_id_same_area,approve_selected,,Phase2: conf=1.0 issues=0 auto approve
+699,STATE_699,699,STATE_699,split,approve_selected,,Phase2: conf=1.0 issues=2 auto approve
+700,STATE_700,700,STATE_700,same_id_same_area,approve_selected,,Phase2: conf=1.0 issues=0 auto approve
+701,STATE_701,701,STATE_701,same_id_same_area,approve_selected,,Phase2: conf=1.0 issues=0 auto approve
+702,STATE_702,702,STATE_702,same_id_same_area,approve_selected,,Phase2: conf=1.0 issues=0 auto approve
+705,STATE_705,705,STATE_705,same_id_same_area,approve_selected,,Phase2: conf=1.0 issues=0 auto approve
+706,STATE_706,706,STATE_706,same_id_same_area,approve_selected,,Phase2: conf=1.0 issues=0 auto approve
+708,STATE_708,708,STATE_708,same_id_same_area,approve_selected,,Phase2: conf=1.0 issues=0 auto approve
+711,STATE_711,711,STATE_711,same_id_same_area,approve_selected,,Phase2: conf=1.0 issues=0 auto approve
+713,STATE_713,713,STATE_713,same_id_same_area,approve_selected,,Phase2: conf=1.0 issues=0 auto approve
+714,STATE_714,714,STATE_714,merge,approve_selected,,Phase4a: conf=0.917 owner/core conflict auto approve
+715,STATE_715,715,STATE_715,merge,approve_selected,,Phase4b: conf=0.667 owner/core conflict auto approve
+716,STATE_716,716,STATE_716,split,approve_selected,,Phase3: conf=1.0 issues=3 auto approve
+717,STATE_717,717,STATE_717,split,approve_selected,,Phase4a: conf=0.957 owner/core conflict auto approve
+718,STATE_718,890,STATE_890,merge,approve_selected,,Phase4a: conf=1.0 owner/core conflict auto approve
+719,STATE_719,719,Natal,split,approve_selected,,Phase4b: conf=0.667 owner/core conflict auto approve
+720,STATE_720,720,STATE_720,same_id_same_area,approve_selected,,Phase2: conf=1.0 issues=0 auto approve
+721,STATE_721,721,STATE_721,same_id_same_area,approve_selected,,Phase2: conf=1.0 issues=0 auto approve
+722,STATE_722,722,PETSAMO,same_id_same_area,approve_selected,,Phase2: conf=1.0 issues=0 auto approve
+723,STATE_723,723,STATE_723,merge,approve_selected,,Phase3: conf=1.0 issues=4 auto approve
+724,STATE_724,724,STATE_724,split,approve_selected,,Phase3: conf=1.0 issues=3 auto approve
+725,STATE_725,725,STATE_725,same_id_same_area,approve_selected,,Phase2: conf=1.0 issues=0 auto approve
+726,STATE_726,726,STATE_726,same_id_same_area,approve_selected,,Phase2: conf=1.0 issues=1 auto approve
+727,STATE_727,727,STATE_727,same_id_same_area,approve_selected,,Phase2: conf=1.0 issues=0 auto approve
+728,STATE_728,728,STATE_728,same_id_same_area,approve_selected,,Phase2: conf=1.0 issues=0 auto approve
+729,STATE_729,729,STATE_729,same_id_same_area,approve_selected,,Phase2: conf=1.0 issues=0 auto approve
+730,STATE_730,730,STATE_730,same_id_same_area,approve_selected,,Phase2: conf=1.0 issues=0 auto approve
+731,STATE_731,731,STATE_731,merge,approve_selected,,Phase4b: conf=0.667 owner/core conflict auto approve
+732,STATE_732,732,STATE_732,split,approve_selected,,Phase2: conf=1.0 issues=2 auto approve
+733,STATE_733,733,STATE_733,same_id_same_area,approve_selected,,Phase2: conf=1.0 issues=0 auto approve
+734,STATE_734,734,STATE_734,same_id_same_area,approve_selected,,Phase2: conf=1.0 issues=0 auto approve
+735,STATE_735,1066,STATE_1066,same_name,approve_selected,,Phase2: conf=1.0 issues=1 auto approve
+736,STATE_736,852,Dalmatia,split,approve_selected,,Phase4a: conf=1.0 owner/core conflict auto approve
+737,STATE_737,737,STATE_737,same_id_same_area,approve_selected,,Phase2: conf=1.0 issues=0 auto approve
+738,STATE_738,738,STATE_738,same_id_same_area,approve_selected,,Phase2: conf=1.0 issues=1 auto approve
+741,STATE_741,741,STATE_741,split,approve_selected,,Phase2: conf=1.0 issues=2 auto approve
+742,STATE_742,742,STATE_742,split,approve_selected,,Phase3: conf=1.0 issues=3 auto approve
+743,STATE_743,743,STATE_743,same_id_same_area,approve_selected,,Phase2: conf=1.0 issues=0 auto approve
+744,STATE_744,744,STATE_744,same_id_same_area,approve_selected,,Phase2: conf=1.0 issues=0 auto approve
+745,STATE_745,745,STATE_745,same_id_same_area,approve_selected,,Phase2: conf=1.0 issues=0 auto approve
+746,STATE_746,746,STATE_746,same_id_same_area,approve_selected,,Phase2: conf=1.0 issues=0 auto approve
+747,STATE_747,747,STATE_747,split,approve_selected,,Phase3: conf=1.0 issues=3 auto approve
+748,STATE_748,,,new_bsr_state,keep_bsr,,Phase1: new_bsr_state auto keep_bsr
+749,STATE_749,749,STATE_749,same_id_same_area,approve_selected,,Phase2: conf=1.0 issues=0 auto approve
+750,STATE_750,750,STATE_750,same_id_same_area,approve_selected,,Phase2: conf=1.0 issues=0 auto approve
+751,STATE_751,751,STATE_751,same_name,approve_selected,,Phase4b: conf=0.75 owner/core conflict auto approve
+752,STATE_752,,,new_bsr_state,keep_bsr,,Phase1: new_bsr_state auto keep_bsr
+753,STATE_753,,,new_bsr_state,keep_bsr,,Phase1: new_bsr_state auto keep_bsr
+754,STATE_754,754,STATE_754,split,approve_selected,,Phase4a: conf=0.8 owner/core conflict auto approve
+755,STATE_755,755,STATE_755,merge,approve_selected,,Phase4b: conf=0.714 owner/core conflict auto approve
+756,STATE_756,1044,STATE_1044,split,approve_selected,,Phase3: conf=1.0 issues=4 auto approve
+757,STATE_757,757,STATE_757,merge,approve_selected,,Phase3: conf=1.0 issues=3 auto approve
+758,STATE_758,758,STATE_758,split,approve_selected,,Phase2: conf=1.0 issues=2 auto approve
+759,STATE_759,1042,STATE_1042,split,approve_selected,,Phase4a: conf=0.833 owner/core conflict auto approve
+760,STATE_760,760,STATE_760,split,approve_selected,,Phase2: conf=1.0 issues=2 auto approve
+761,STATE_761,761,STATE_761,merge,approve_selected,,Phase4a: conf=0.917 owner/core conflict auto approve
+762,STATE_762,762,STATE_762,same_id_same_area,approve_selected,,Phase2: conf=1.0 issues=0 auto approve
+763,STATE_763,763,STATE_763,split,approve_selected,,Phase2: conf=1.0 issues=2 auto approve
+764,STATE_764,764,STATE_764,split,approve_selected,,Phase2: conf=1.0 issues=2 auto approve
+765,STATE_765,765,STATE_765,same_id_same_area,approve_selected,,Phase2: conf=1.0 issues=0 auto approve
+766,STATE_766,766,STATE_766,split,approve_selected,,Phase2: conf=1.0 issues=2 auto approve
+767,STATE_767,767,North Darfur,same_id_same_area,approve_selected,,Phase2: conf=1.0 issues=0 auto approve
+770,STATE_770,770,STATE_770,split,approve_selected,,Phase2: conf=1.0 issues=2 auto approve
+771,Zambia,771,Zambia,split,approve_selected,,Phase3: conf=1.0 issues=4 auto approve
+772,STATE_772,772,Middle Congo (Brazzaville),split,approve_selected,,Phase3: conf=1.0 issues=3 auto approve
+773,Cameroon,773,Cameroon,split,approve_selected,,Phase2: conf=1.0 issues=2 auto approve
+774,STATE_774,774,STATE_774,split,approve_selected,,Phase2: conf=1.0 issues=2 auto approve
+775,BET - Borkou-Ennedi-Tibesti region,775,BET - Borkou-Ennedi-Tibesti region,same_id_same_area,approve_selected,,Phase2: conf=1.0 issues=0 auto approve
+776,Benin/Dahomey,776,Benin/Dahomey,same_id_same_area,approve_selected,,Phase2: conf=1.0 issues=0 auto approve
+777,STATE_777,777,STATE_777,same_id_same_area,approve_selected,,Phase2: conf=1.0 issues=0 auto approve
+778,Upper Volta,778,Upper Volta,split,approve_selected,,Phase2: conf=1.0 issues=2 auto approve
+779,Ivory Coast,779,Ivory Coast,same_id_same_area,approve_selected,,Phase2: conf=1.0 issues=0 auto approve
+780,Guinea,780,Guinea,split,approve_selected,,Phase2: conf=1.0 issues=2 auto approve
+781,STATE_781,781,Niger,same_id_same_area,approve_selected,,Phase2: conf=1.0 issues=0 auto approve
+782,Tombouctou,782,Tombouctou,same_id_same_area,approve_selected,,Phase2: conf=1.0 issues=0 auto approve
+783,Sidi Ifni,783,Sidi Ifni,same_id_same_area,approve_selected,,Phase2: conf=1.0 issues=0 auto approve
+784,STATE_784,784,STATE_784,split,approve_selected,,Phase2: conf=1.0 issues=2 auto approve
+785,STATE_785,785,STATE_785,split,approve_selected,,Phase4b: conf=0.667 owner/core conflict auto approve
+786,STATE_786,786,Mauritanian Desert,split,approve_selected,,Phase2: conf=1.0 issues=2 auto approve
+787,STATE_787,787,Northern Kashmir,province_overlap,approve_selected,,Phase4b: conf=0.75 owner/core conflict auto approve
+788,STATE_788,51,STATE_51,split,approve_selected,,Phase4a: conf=1.0 owner/core conflict auto approve
+789,STATE_789,42,STATE_42,split,approve_selected,,Phase4a: conf=1.0 owner/core conflict auto approve
+790,STATE_790,55,STATE_55,split,approve_selected,,Phase4c: conf=1.0 resource/building dist auto approve
+791,STATE_791,55,STATE_55,merge,approve_selected,,Phase4b: conf=0.5 owner/core conflict auto approve
+792,STATE_792,42,STATE_42,merge,approve_selected,,Phase4c: conf=0.333 resource/building dist auto approve
+793,STATE_793,64,STATE_64,merge,approve_selected,,Phase4c: conf=0.667 resource/building dist auto approve
+794,STATE_794,64,STATE_64,split,approve_selected,,Phase4c: conf=1.0 resource/building dist auto approve
+795,STATE_795,65,STATE_65,split,approve_selected,,Phase4c: conf=1.0 resource/building dist auto approve
+796,STATE_796,909,STATE_909,split,approve_selected,,Phase4c: conf=0.333 resource/building dist auto approve
+797,STATE_797,63,STATE_63,split,approve_selected,,Phase4a: conf=1.0 owner/core conflict auto approve
+798,STATE_798,52,STATE_52,split,approve_selected,,Phase4c: conf=1.0 resource/building dist auto approve
+799,STATE_799,50,Württemberg,merge,approve_selected,,Phase4b: conf=0.5 owner/core conflict auto approve
+800,STATE_800,53,STATE_53,split,approve_selected,,Phase3: conf=1.0 issues=3 auto approve
+801,STATE_801,66,STATE_66,split,approve_selected,,Phase4c: conf=1.0 resource/building dist auto approve
+802,STATE_802,66,STATE_66,split,approve_selected,,Phase4c: conf=1.0 resource/building dist auto approve
+803,STATE_803,67,STATE_67,split,approve_selected,,Phase4a: conf=1.0 owner/core conflict auto approve
+804,STATE_804,,,new_bsr_state,keep_bsr,,Phase1: new_bsr_state auto keep_bsr
+805,STATE_805,910,STATE_910,same_name,approve_selected,,Phase2: conf=1.0 issues=1 auto approve
+806,STATE_806,153,STATE_153,merge,approve_selected,,Phase4b: conf=0.667 owner/core conflict auto approve
+807,STATE_807,4,STATE_4,split,approve_selected,,Phase4a: conf=1.0 owner/core conflict auto approve
+808,STATE_808,974,South Transdanubia,merge,approve_selected,,Phase4c: conf=0.75 resource/building dist auto approve
+809,STATE_809,973,STATE_973,split,approve_selected,,Phase3: conf=1.0 issues=4 auto approve
+810,STATE_810,975,STATE_975,split,approve_selected,,Phase4b: conf=0.667 owner/core conflict auto approve
+811,STATE_811,,,new_bsr_state,keep_bsr,,Phase1: new_bsr_state auto keep_bsr
+812,STATE_812,1047,STATE_1047,same_name,approve_selected,,Phase2: conf=1.0 issues=1 auto approve
+813,STATE_813,,,new_bsr_state,keep_bsr,,Phase1: new_bsr_state auto keep_bsr
+814,STATE_814,1048,Moselgebiet,merge,approve_selected,,Phase4b: conf=0.5 owner/core conflict auto approve
+815,STATE_815,18,STATE_18,split,approve_selected,,Phase3: conf=1.0 issues=4 auto approve
+816,STATE_816,849,STATE_849,split,approve_selected,,Phase4a: conf=1.0 owner/core conflict auto approve
+817,STATE_817,18,STATE_18,merge,approve_selected,,Phase4b: conf=0.667 owner/core conflict auto approve
+818,STATE_818,1065,STATE_1065,same_name,approve_selected,,Phase2: conf=1.0 issues=1 auto approve
+819,STATE_819,24,STATE_24,split,approve_selected,,Phase3: conf=1.0 issues=4 auto approve
+820,STATE_820,31,STATE_31,split,approve_selected,,Phase3: conf=1.0 issues=4 auto approve
+821,STATE_821,,,new_bsr_state,keep_bsr,,Phase1: new_bsr_state auto keep_bsr
+822,STATE_822,851,Var (Split-off from former Provence now Bouches-du-Rhône),split,approve_selected,,Phase3: conf=1.0 issues=3 auto approve
+823,STATE_823,735,STATE_735,merge,approve_selected,,Phase3: conf=1.0 issues=4 auto approve
+824,STATE_824,,,new_bsr_state,keep_bsr,,Phase1: new_bsr_state auto keep_bsr
+825,STATE_825,,,new_bsr_state,keep_bsr,,Phase1: new_bsr_state auto keep_bsr
+826,STATE_826,1014,STATE_1014,same_name,approve_selected,,Phase2: conf=1.0 issues=1 auto approve
+827,STATE_827,,,new_bsr_state,keep_bsr,,Phase1: new_bsr_state auto keep_bsr
+828,STATE_828,,,new_bsr_state,keep_bsr,,Phase1: new_bsr_state auto keep_bsr
+829,STATE_829,,,new_bsr_state,keep_bsr,,Phase1: new_bsr_state auto keep_bsr
+830,STATE_830,79,STATE_79,split,approve_selected,,Phase4a: conf=1.0 owner/core conflict auto approve
+831,STATE_831,,,new_bsr_state,keep_bsr,,Phase1: new_bsr_state auto keep_bsr
+832,STATE_832,971,Northern Dobruja,merge,approve_selected,,Phase4c: conf=0.75 resource/building dist auto approve
+833,STATE_833,46,Muntenia,merge,approve_selected,,Phase4c: conf=0.667 resource/building dist auto approve
+834,STATE_834,,,new_bsr_state,keep_bsr,,Phase1: new_bsr_state auto keep_bsr
+835,STATE_835,357,STATE_357,split,approve_selected,,Phase4a: conf=1.0 owner/core conflict auto approve
+836,STATE_836,357,STATE_357,split,approve_selected,,Phase4a: conf=1.0 owner/core conflict auto approve
+837,STATE_837,357,STATE_357,split,approve_selected,,Phase4a: conf=1.0 owner/core conflict auto approve
+838,STATE_838,357,STATE_357,split,approve_selected,,Phase4a: conf=1.0 owner/core conflict auto approve
+839,STATE_839,357,STATE_357,split,approve_selected,,Phase4a: conf=0.8 owner/core conflict auto approve
+840,STATE_840,357,STATE_357,split,approve_selected,,Phase4a: conf=1.0 owner/core conflict auto approve
+841,STATE_841,361,STATE_361,split,approve_selected,,Phase4c: conf=1.0 resource/building dist auto approve
+842,STATE_842,468,Saint Lawrence,split,approve_selected,,Phase4c: conf=1.0 resource/building dist auto approve
+843,STATE_843,816,STATE_816,same_name,approve_selected,,Phase2: conf=1.0 issues=1 auto approve
+844,STATE_844,361,STATE_361,split,approve_selected,,Phase3: conf=1.0 issues=4 auto approve
+845,STATE_845,371,STATE_371,split,approve_selected,,Phase4a: conf=1.0 owner/core conflict auto approve
+846,STATE_846,381,STATE_381,split,approve_selected,,Phase4c: conf=0.5 resource/building dist auto approve
+847,STATE_847,382,STATE_382,split,approve_selected,,Phase3: conf=1.0 issues=4 auto approve
+848,STATE_848,383,STATE_383,split,approve_selected,,Phase4c: conf=1.0 resource/building dist auto approve
+849,STATE_849,374,STATE_374,split,approve_selected,,Phase4c: conf=1.0 resource/building dist auto approve
+850,STATE_850,375,STATE_375,split,approve_selected,,Phase4b: conf=0.5 owner/core conflict auto approve
+851,STATE_851,375,STATE_375,split,approve_selected,,Phase4a: conf=1.0 owner/core conflict auto approve
+852,STATE_852,375,STATE_375,split,approve_selected,,Phase4a: conf=1.0 owner/core conflict auto approve
+853,STATE_853,379,STATE_379,split,approve_selected,,Phase4c: conf=1.0 resource/building dist auto approve
+854,STATE_854,378,STATE_378,split,approve_selected,,Phase4a: conf=1.0 owner/core conflict auto approve
+855,STATE_855,378,STATE_378,split,approve_selected,,Phase4a: conf=0.8 owner/core conflict auto approve
+856,STATE_856,393,STATE_393,split,approve_selected,,Phase4c: conf=1.0 resource/building dist auto approve
+857,STATE_857,391,STATE_391,split,approve_selected,,Phase4c: conf=1.0 resource/building dist auto approve
+858,STATE_858,371,STATE_371,split,approve_selected,,Phase4a: conf=1.0 owner/core conflict auto approve
+859,STATE_859,388,STATE_388,split,approve_selected,,Phase4c: conf=1.0 resource/building dist auto approve
+860,STATE_860,,,new_bsr_state,keep_bsr,,Phase1: new_bsr_state auto keep_bsr
+861,STATE_861,,,new_bsr_state,keep_bsr,,Phase1: new_bsr_state auto keep_bsr
+862,STATE_862,933,STATE_933,same_name,approve_selected,,Phase2: conf=1.0 issues=1 auto approve
+863,STATE_863,88,STATE_88,split,approve_selected,,Phase4a: conf=1.0 owner/core conflict auto approve
+864,STATE_864,305,STATE_305,split,approve_selected,,Phase4c: conf=1.0 resource/building dist auto approve
+865,STATE_865,807,STATE_807,split,approve_selected,,Phase4b: conf=0.5 owner/core conflict auto approve
+866,STATE_866,736,Name was Istria before the Pola (Istria) split and merge with Fiume,split,approve_selected,,Phase3: conf=1.0 issues=4 auto approve
+867,STATE_867,850,Trentino,merge,approve_selected,,Phase3: conf=1.0 issues=4 auto approve
+868,STATE_868,45,STATE_45,split,approve_selected,,Phase3: conf=1.0 issues=4 auto approve
+869,STATE_869,109,Croatia,split,approve_selected,,Phase4a: conf=1.0 owner/core conflict auto approve
+870,STATE_870,803,STATE_803,split,approve_selected,,Phase3: conf=1.0 issues=3 auto approve
+871,STATE_871,970,STATE_970,split,approve_selected,,Phase4b: conf=0.667 owner/core conflict auto approve
+872,STATE_872,108,STATE_108,merge,approve_selected,,Phase4b: conf=0.667 owner/core conflict auto approve
+873,STATE_873,,,new_bsr_state,keep_bsr,,Phase1: new_bsr_state auto keep_bsr
+874,STATE_874,,,new_bsr_state,keep_bsr,,Phase1: new_bsr_state auto keep_bsr
+875,STATE_875,,,new_bsr_state,keep_bsr,,Phase1: new_bsr_state auto keep_bsr
+876,STATE_876,,,new_bsr_state,keep_bsr,,Phase1: new_bsr_state auto keep_bsr
+877,STATE_877,799,STATE_799,same_name,approve_selected,,Phase2: conf=1.0 issues=1 auto approve
+878,STATE_878,108,STATE_108,merge,approve_selected,,Phase4b: conf=0.5 owner/core conflict auto approve
+879,STATE_879,814,STATE_814,split,approve_selected,,Phase3: conf=1.0 issues=4 auto approve
+880,STATE_880,810,STATE_810,split,approve_selected,,Phase4a: conf=1.0 owner/core conflict auto approve
+881,STATE_881,809,STATE_809,split,approve_selected,,Phase4a: conf=1.0 owner/core conflict auto approve
+882,STATE_882,811,STATE_811,same_name,approve_selected,,Phase2: conf=1.0 issues=1 auto approve
+883,STATE_883,,,new_bsr_state,keep_bsr,,Phase1: new_bsr_state auto keep_bsr
+884,STATE_884,,,new_bsr_state,keep_bsr,,Phase1: new_bsr_state auto keep_bsr
+885,STATE_885,1095,STATE_1095,split,approve_selected,,Phase3: conf=1.0 issues=3 auto approve
+886,STATE_886,972,STATE_972,split,approve_selected,,Phase4a: conf=1.0 owner/core conflict auto approve
+887,STATE_887,69,STATE_69,split,approve_selected,,Phase4a: conf=1.0 owner/core conflict auto approve
+888,STATE_888,972,STATE_972,split,approve_selected,,Phase3: conf=1.0 issues=4 auto approve
+889,STATE_889,70,STATE_70,split,approve_selected,,Phase4b: conf=0.5 owner/core conflict auto approve
+890,STATE_890,,,new_bsr_state,keep_bsr,,Phase1: new_bsr_state auto keep_bsr
+891,STATE_891,,,new_bsr_state,keep_bsr,,Phase1: new_bsr_state auto keep_bsr
+892,STATE_892,845,STATE_845,merge,approve_selected,,Phase4c: conf=0.667 resource/building dist auto approve
+893,STATE_893,846,STATE_846,merge,approve_selected,,Phase4c: conf=1.0 resource/building dist auto approve
+894,STATE_894,151,STATE_151,split,approve_selected,,Phase4c: conf=1.0 resource/building dist auto approve
+895,STATE_895,,,new_bsr_state,keep_bsr,,Phase1: new_bsr_state auto keep_bsr
+896,STATE_896,772,Middle Congo (Brazzaville),split,approve_selected,,Phase4b: conf=0.5 owner/core conflict auto approve
+897,STATE_897,914,STATE_914,same_name,approve_selected,,Phase2: conf=1.0 issues=1 auto approve
+898,STATE_898,774,STATE_774,split,approve_selected,,Phase3: conf=1.0 issues=4 auto approve
+899,STATE_899,660,STATE_660,split,approve_selected,,Phase4a: conf=1.0 owner/core conflict auto approve
+900,STATE_900,,,new_bsr_state,keep_bsr,,Phase1: new_bsr_state auto keep_bsr
+901,STATE_901,900,STATE_900,split,approve_selected,,Phase4b: conf=0.5 owner/core conflict auto approve
+902,STATE_902,,,new_bsr_state,keep_bsr,,Phase1: new_bsr_state auto keep_bsr
+903,STATE_903,1031,STATE_1031,merge,approve_selected,,Phase4b: conf=0.6 owner/core conflict auto approve
+904,STATE_904,1031,STATE_1031,split,approve_selected,,Phase4a: conf=0.833 owner/core conflict auto approve
+905,STATE_905,1030,STATE_1030,merge,approve_selected,,Phase4a: conf=1.0 owner/core conflict auto approve
+906,STATE_906,1029,STATE_1029,split,approve_selected,,Phase4a: conf=0.8 owner/core conflict auto approve
+907,STATE_907,1029,STATE_1029,merge,approve_selected,,Phase4b: conf=0.667 owner/core conflict auto approve
+908,STATE_908,527,STATE_527,split,approve_selected,,Phase4a: conf=1.0 owner/core conflict auto approve
+909,STATE_909,1028,STATE_1028,split,approve_selected,,Phase4a: conf=0.933 owner/core conflict auto approve
+910,STATE_910,,,new_bsr_state,keep_bsr,,Phase1: new_bsr_state auto keep_bsr
+911,STATE_911,1031,STATE_1031,split,approve_selected,,Phase4a: conf=1.0 owner/core conflict auto approve
+912,STATE_912,964,STATE_964,split,approve_selected,,Phase2: conf=1.0 issues=2 auto approve
+913,STATE_913,963,STATE_963,split,approve_selected,,Phase2: conf=1.0 issues=2 auto approve
+914,STATE_914,280,STATE_280,split,approve_selected,,Phase3: conf=1.0 issues=4 auto approve
+915,STATE_915,951,STATE_951,split,approve_selected,,Phase4c: conf=1.0 resource/building dist auto approve
+916,STATE_916,506,Antofagasta,merge,approve_selected,,Phase4c: conf=0.5 resource/building dist auto approve
+917,STATE_917,304,STATE_304,split,approve_selected,,Phase4c: conf=1.0 resource/building dist auto approve
+918,STATE_918,979,STATE_979,merge,approve_selected,,Phase3: conf=1.0 issues=4 auto approve
+919,STATE_919,871,STATE_871,same_name,approve_selected,,Phase2: conf=1.0 issues=1 auto approve
+920,STATE_920,870,STATE_870,same_name,approve_selected,,Phase2: conf=1.0 issues=1 auto approve
+921,STATE_921,674,STATE_674,merge,approve_selected,,Phase4c: conf=0.6 resource/building dist auto approve
+922,STATE_922,285,STATE_285,split,approve_selected,,Phase4c: conf=1.0 resource/building dist auto approve
+923,STATE_923,873,STATE_873,merge,approve_selected,,Phase4c: conf=0.8 resource/building dist auto approve
+924,STATE_924,674,STATE_674,split,approve_selected,,Phase3: conf=1.0 issues=3 auto approve
+925,STATE_925,78,STATE_78,split,approve_selected,,Phase3: conf=1.0 issues=4 auto approve
+926,STATE_926,202,STATE_202,split,approve_selected,,Phase4a: conf=1.0 owner/core conflict auto approve
+927,STATE_927,,,new_bsr_state,keep_bsr,,Phase1: new_bsr_state auto keep_bsr
+928,STATE_928,215,STATE_215,split,approve_selected,,Phase4a: conf=0.875 owner/core conflict auto approve
+929,STATE_929,215,STATE_215,split,approve_selected,,Phase4a: conf=0.923 owner/core conflict auto approve
+930,STATE_930,,,new_bsr_state,keep_bsr,,Phase1: new_bsr_state auto keep_bsr
+931,STATE_931,232,Dagestan,split,approve_selected,,Phase4a: conf=0.9 owner/core conflict auto approve
+932,STATE_932,232,Dagestan,split,approve_selected,,Phase4a: conf=1.0 owner/core conflict auto approve
+933,STATE_933,95,STATE_95,split,approve_selected,,Phase3: conf=1.0 issues=4 auto approve
+934,STATE_934,102,STATE_102,split,approve_selected,,Phase3: conf=1.0 issues=3 auto approve
+935,STATE_935,102,STATE_102,split,approve_selected,,Phase3: conf=1.0 issues=3 auto approve
+936,STATE_936,1049,Prekmurje,province_overlap,approve_selected,,Phase2: conf=1.0 issues=1 auto approve
+937,STATE_937,109,Croatia,split,approve_selected,,Phase4a: conf=1.0 owner/core conflict auto approve
+938,STATE_938,940,STATE_940,same_name,approve_selected,,Phase2: conf=1.0 issues=1 auto approve
+939,STATE_939,103,Dalmatia,split,approve_selected,,Phase4a: conf=1.0 owner/core conflict auto approve
+940,STATE_940,105,STATE_105,split,approve_selected,,Phase4a: conf=1.0 owner/core conflict auto approve
+941,STATE_941,802,STATE_802,split,approve_selected,,Phase4a: conf=1.0 owner/core conflict auto approve
+942,STATE_942,801,STATE_801,split,approve_selected,,Phase3: conf=1.0 issues=4 auto approve
+943,STATE_943,211,STATE_211,merge,approve_selected,,Phase4b: conf=0.75 owner/core conflict auto approve
+944,STATE_944,859,STATE_859,split,approve_selected,,Phase3: conf=1.0 issues=4 auto approve
+945,STATE_945,1010,STATE_1010,split,approve_selected,,Phase3: conf=1.0 issues=4 auto approve
+946,STATE_946,1011,STATE_1011,merge,approve_selected,,Phase5: low-conf auto approve (manual review recommended post-import)
+947,STATE_947,1051,STATE_1051,same_name,approve_selected,,Phase2: conf=1.0 issues=1 auto approve
+948,STATE_948,,,new_bsr_state,keep_bsr,,Phase1: new_bsr_state auto keep_bsr
+949,STATE_949,293,STATE_293,split,approve_selected,,Phase4c: conf=1.0 resource/building dist auto approve
+950,STATE_950,1055,STATE_1055,split,approve_selected,,Phase4a: conf=1.0 owner/core conflict auto approve
+951,STATE_951,345,STATE_345,merge,approve_selected,,Phase4c: conf=0.75 resource/building dist auto approve
+952,STATE_952,183,STATE_183,split,approve_selected,,Phase4a: conf=1.0 owner/core conflict auto approve
+953,STATE_953,49,Ankara,split,approve_selected,,Phase4c: conf=1.0 resource/building dist auto approve
+954,STATE_954,343,Afyon,split,approve_selected,,Phase4c: conf=1.0 resource/building dist auto approve
+955,STATE_955,355,STATE_355,split,approve_selected,,Phase3: conf=1.0 issues=4 auto approve
+956,STATE_956,798,STATE_798,merge,approve_selected,,Phase4c: conf=0.5 resource/building dist auto approve
+957,STATE_957,798,STATE_798,merge,approve_selected,,Phase4c: conf=0.75 resource/building dist auto approve
+958,STATE_958,349,STATE_349,merge,approve_selected,,Phase4c: conf=0.5 resource/building dist auto approve
+959,STATE_959,353,STATE_353,merge,approve_selected,,Phase4a: conf=0.833 owner/core conflict auto approve
+960,STATE_960,352,STATE_352,merge,approve_selected,,Phase4b: conf=0.667 owner/core conflict auto approve
+961,STATE_961,1059,STATE_1059,same_name,approve_selected,,Phase2: conf=1.0 issues=1 auto approve
+962,STATE_962,528,North Kyushu,split,approve_selected,,Phase4c: conf=1.0 resource/building dist auto approve
+963,STATE_963,1019,South Tohoku,split,approve_selected,,Phase4c: conf=1.0 resource/building dist auto approve
+964,STATE_964,282,Kanto,split,approve_selected,,Phase4c: conf=1.0 resource/building dist auto approve
+965,STATE_965,531,Kansai,split,approve_selected,,Phase4c: conf=1.0 resource/building dist auto approve
+966,STATE_966,1018,South Kyushu,split,approve_selected,,Phase4c: conf=1.0 resource/building dist auto approve
+967,STATE_967,1018,South Kyushu,merge,approve_selected,,Phase4c: conf=0.6 resource/building dist auto approve
+968,STATE_968,1018,South Kyushu,split,approve_selected,,Phase4c: conf=1.0 resource/building dist auto approve
+969,STATE_969,530,Shikoku,split,approve_selected,,Phase3: conf=1.0 issues=4 auto approve
+970,STATE_970,409,STATE_409,split,approve_selected,,Phase4a: conf=1.0 owner/core conflict auto approve
+971,STATE_971,526,STATE_526,split,approve_selected,,Phase4a: conf=1.0 owner/core conflict auto approve
+972,STATE_972,686,STATE_686,split,approve_selected,,Phase3: conf=1.0 issues=4 auto approve
+973,STATE_973,,,new_bsr_state,keep_bsr,,Phase1: new_bsr_state auto keep_bsr
+974,STATE_974,967,STATE_967,same_name,approve_selected,,Phase2: conf=1.0 issues=1 auto approve
+975,STATE_975,187,STATE_187,split,approve_selected,,Phase4b: conf=0.5 owner/core conflict auto approve
+976,STATE_976,185,STATE_185,split,approve_selected,,Phase4a: conf=1.0 owner/core conflict auto approve
+977,STATE_977,185,STATE_185,split,approve_selected,,Phase4a: conf=1.0 owner/core conflict auto approve
+978,STATE_978,47,Thessaly,split,approve_selected,,Phase4a: conf=1.0 owner/core conflict auto approve
+979,STATE_979,56,STATE_56,merge,approve_selected,,Phase4c: conf=0.6 resource/building dist auto approve
+980,STATE_980,1021,STATE_1021,same_name,approve_selected,,Phase2: conf=1.0 issues=1 auto approve
+981,STATE_981,1083,STATE_1083,split,approve_selected,,Phase3: conf=1.0 issues=4 auto approve
+982,STATE_982,1023,STATE_1023,split,approve_selected,,Phase3: conf=1.0 issues=4 auto approve
+983,STATE_983,,,new_bsr_state,keep_bsr,,Phase1: new_bsr_state auto keep_bsr
+984,STATE_984,,,new_bsr_state,keep_bsr,,Phase1: new_bsr_state auto keep_bsr
+985,STATE_985,,,new_bsr_state,keep_bsr,,Phase1: new_bsr_state auto keep_bsr
+986,STATE_986,160,STATE_160,split,approve_selected,,Phase4a: conf=1.0 owner/core conflict auto approve
+987,STATE_987,159,STATE_159,split,approve_selected,,Phase3: conf=1.0 issues=4 auto approve
+988,STATE_988,158,STATE_158,split,approve_selected,,Phase4a: conf=0.833 owner/core conflict auto approve
+989,STATE_989,158,STATE_158,split,approve_selected,,Phase4a: conf=1.0 owner/core conflict auto approve
+990,STATE_990,2,Latium,split,approve_selected,,Phase4a: conf=1.0 owner/core conflict auto approve
+991,STATE_991,117,Campania,split,approve_selected,,Phase4a: conf=1.0 owner/core conflict auto approve
+992,STATE_992,849,STATE_849,split,approve_selected,,Phase3: conf=1.0 issues=4 auto approve
+993,STATE_993,736,Name was Istria before the Pola (Istria) split and merge with Fiume,split,approve_selected,,Phase3: conf=1.0 issues=3 auto approve
+994,STATE_994,947,STATE_947,same_name,approve_selected,,Phase2: conf=1.0 issues=2 auto approve
+995,STATE_995,446,Suez,split,approve_selected,,Phase4a: conf=1.0 owner/core conflict auto approve
+996,STATE_996,88,STATE_88,split,approve_selected,,Phase4b: conf=0.5 owner/core conflict auto approve
+997,STATE_997,97,STATE_97,split,approve_selected,,Phase4a: conf=1.0 owner/core conflict auto approve
+998,STATE_998,273,Libyan Desert,split,approve_selected,,Phase3: conf=1.0 issues=3 auto approve
+999,STATE_999,402,STATE_402,split,approve_selected,,Phase3: conf=1.0 issues=4 auto approve
+1000,STATE_1000,,,new_bsr_state,keep_bsr,,Phase1: new_bsr_state auto keep_bsr
+1001,STATE_1001,,,new_bsr_state,keep_bsr,,Phase1: new_bsr_state auto keep_bsr
+1002,STATE_1002,826,STATE_826,split,approve_selected,,Phase4b: conf=0.75 owner/core conflict auto approve
+1003,STATE_1003,,,new_bsr_state,keep_bsr,,Phase1: new_bsr_state auto keep_bsr
+1004,STATE_1004,,,new_bsr_state,keep_bsr,,Phase1: new_bsr_state auto keep_bsr
+1005,STATE_1005,229,STATE_229,split,approve_selected,,Phase4a: conf=1.0 owner/core conflict auto approve
+1006,STATE_1006,138,STATE_138,split,approve_selected,,Phase4c: conf=1.0 resource/building dist auto approve
+1007,STATE_1007,141,Svealand,merge,approve_selected,,Phase4c: conf=0.778 resource/building dist auto approve
+1008,STATE_1008,916,STATE_916,merge,approve_selected,,Phase4c: conf=0.529 resource/building dist auto approve
+1009,STATE_1009,917,STATE_917,merge,approve_selected,,Phase4b: conf=0.789 owner/core conflict auto approve
+1010,STATE_1010,921,Telemark,merge,approve_selected,,Phase4b: conf=0.6 owner/core conflict auto approve
+1011,STATE_1011,920,STATE_920,split,approve_selected,,Phase3: conf=1.0 issues=4 auto approve
+1012,STATE_1012,920,STATE_920,merge,approve_selected,,Phase4b: conf=0.667 owner/core conflict auto approve
+1013,STATE_1013,923,STATE_923,merge,approve_selected,,Phase4b: conf=0.75 owner/core conflict auto approve
+1014,STATE_1014,144,Nordland,merge,approve_selected,,Phase4a: conf=0.875 owner/core conflict auto approve
+1015,STATE_1015,818,STATE_818,merge,approve_selected,,Phase4c: conf=0.917 resource/building dist auto approve
+1016,STATE_1016,820,STATE_820,split,approve_selected,,Phase3: conf=1.0 issues=3 auto approve
+1017,STATE_1017,330,STATE_330,merge,approve_selected,,Phase4c: conf=0.571 resource/building dist auto approve
+1018,STATE_1018,819,STATE_819,split,approve_selected,,Phase3: conf=1.0 issues=4 auto approve
+1019,STATE_1019,819,STATE_819,merge,approve_selected,,Phase4c: conf=0.545 resource/building dist auto approve
+1020,STATE_1020,817,STATE_817,split,approve_selected,,Phase3: conf=1.0 issues=4 auto approve
+1021,STATE_1021,,,new_bsr_state,keep_bsr,,Phase1: new_bsr_state auto keep_bsr
+1022,STATE_1022,328,Kirin,split,approve_selected,,Phase4a: conf=1.0 owner/core conflict auto approve
+1023,STATE_1023,716,STATE_716,split,approve_selected,,Phase4a: conf=1.0 owner/core conflict auto approve
+1024,STATE_1024,328,Kirin,merge,approve_selected,,Phase4b: conf=0.562 owner/core conflict auto approve
+1025,STATE_1025,716,STATE_716,merge,approve_selected,,Phase4b: conf=0.667 owner/core conflict auto approve
+1026,STATE_1026,328,Kirin,merge,approve_selected,,Phase4b: conf=0.727 owner/core conflict auto approve
+1027,STATE_1027,1038,STATE_1038,same_name,approve_selected,,Phase4a: conf=0.875 owner/core conflict auto approve
+1028,STATE_1028,1034,STATE_1034,same_name,approve_selected,,Phase2: conf=1.0 issues=1 auto approve
+1029,STATE_1029,,,new_bsr_state,keep_bsr,,Phase1: new_bsr_state auto keep_bsr
+1030,STATE_1030,,,new_bsr_state,keep_bsr,,Phase1: new_bsr_state auto keep_bsr
+1031,STATE_1031,,,new_bsr_state,keep_bsr,,Phase1: new_bsr_state auto keep_bsr
+1032,STATE_1032,,,new_bsr_state,keep_bsr,,Phase1: new_bsr_state auto keep_bsr
+1033,STATE_1033,,,new_bsr_state,keep_bsr,,Phase1: new_bsr_state auto keep_bsr
+1034,STATE_1034,,,new_bsr_state,keep_bsr,,Phase1: new_bsr_state auto keep_bsr
+1035,STATE_1035,1092,STATE_1092,same_name,approve_selected,,Phase2: conf=1.0 issues=1 auto approve
+1036,STATE_1036,796,STATE_796,same_name,approve_selected,,Phase2: conf=1.0 issues=1 auto approve
+1037,STATE_1037,,,new_bsr_state,keep_bsr,,Phase1: new_bsr_state auto keep_bsr
+1038,STATE_1038,,,new_bsr_state,keep_bsr,,Phase1: new_bsr_state auto keep_bsr
+1039,STATE_1039,906,STATE_906,same_name,approve_selected,,Phase2: conf=1.0 issues=1 auto approve
+1040,STATE_1040,,,new_bsr_state,keep_bsr,,Phase1: new_bsr_state auto keep_bsr
+1041,STATE_1041,993,STATE_993,merge,approve_selected,,Phase3: conf=1.0 issues=4 auto approve
+1042,STATE_1042,994,STATE_994,split,approve_selected,,Phase3: conf=1.0 issues=3 auto approve
+1043,STATE_1043,,,new_bsr_state,keep_bsr,,Phase1: new_bsr_state auto keep_bsr
+1044,STATE_1044,,,new_bsr_state,keep_bsr,,Phase1: new_bsr_state auto keep_bsr
+1045,STATE_1045,44,STATE_44,merge,approve_selected,,Phase4b: conf=0.667 owner/core conflict auto approve
+1046,STATE_1046,804,STATE_804,split,approve_selected,,Phase3: conf=1.0 issues=4 auto approve
+1047,STATE_1047,104,STATE_104,split,approve_selected,,Phase4a: conf=1.0 owner/core conflict auto approve
+1048,STATE_1048,104,STATE_104,split,approve_selected,,Phase4a: conf=1.0 owner/core conflict auto approve
+1049,STATE_1049,274,STATE_274,split,approve_selected,,Phase4a: conf=1.0 owner/core conflict auto approve
+1050,STATE_1050,788,STATE_788,same_name,approve_selected,,Phase2: conf=1.0 issues=1 auto approve
+1051,STATE_1051,789,STATE_789,same_name,approve_selected,,Phase2: conf=1.0 issues=1 auto approve
+1052,STATE_1052,790,STATE_790,split,approve_selected,,Phase3: conf=1.0 issues=4 auto approve
+1053,STATE_1053,791,STATE_791,same_name,approve_selected,,Phase2: conf=1.0 issues=1 auto approve
+1054,STATE_1054,792,STATE_792,same_name,approve_selected,,Phase2: conf=1.0 issues=1 auto approve
+1055,STATE_1055,793,STATE_793,split,approve_selected,,Phase3: conf=1.0 issues=3 auto approve
+1056,STATE_1056,,,new_bsr_state,keep_bsr,,Phase1: new_bsr_state auto keep_bsr
+1057,STATE_1057,895,STATE_895,split,approve_selected,,Phase3: conf=1.0 issues=3 auto approve
+1058,STATE_1058,35,STATE_35,split,approve_selected,,Phase4a: conf=1.0 owner/core conflict auto approve
+1059,STATE_1059,36,STATE_36,split,approve_selected,,Phase4b: conf=0.5 owner/core conflict auto approve
+1060,STATE_1060,35,STATE_35,split,approve_selected,,Phase4a: conf=1.0 owner/core conflict auto approve
+1061,STATE_1061,7,STATE_7,merge,approve_selected,,Phase4b: conf=0.5 owner/core conflict auto approve
+1062,STATE_1062,51,STATE_51,split,approve_selected,,Phase4c: conf=1.0 resource/building dist auto approve
+1063,STATE_1063,184,STATE_184,merge,approve_selected,,Phase5: low-conf auto approve (manual review recommended post-import)
+1064,STATE_1064,376,STATE_376,split,approve_selected,,Phase4c: conf=0.667 resource/building dist auto approve
+1065,STATE_1065,382,STATE_382,split,approve_selected,,Phase4c: conf=0.667 resource/building dist auto approve
+1066,STATE_1066,852,Dalmatia,split,approve_selected,,Phase3: conf=1.0 issues=4 auto approve
+1067,STATE_1067,,,new_bsr_state,keep_bsr,,Phase1: new_bsr_state auto keep_bsr
+1068,STATE_1068,,,new_bsr_state,keep_bsr,,Phase1: new_bsr_state auto keep_bsr
+1069,STATE_1069,,,new_bsr_state,keep_bsr,,Phase1: new_bsr_state auto keep_bsr
+1070,STATE_1070,663,STATE_663,split,approve_selected,,Phase3: conf=1.0 issues=3 auto approve
+1071,STATE_1071,273,Libyan Desert,split,approve_selected,,Phase4a: conf=0.8 owner/core conflict auto approve
+1072,STATE_1072,273,Libyan Desert,split,approve_selected,,Phase3: conf=1.0 issues=3 auto approve
+1073,STATE_1073,1091,STATE_1091,same_name,approve_selected,,Phase2: conf=1.0 issues=1 auto approve
+1074,STATE_1074,670,STATE_670,split,approve_selected,,Phase3: conf=1.0 issues=4 auto approve
+1075,STATE_1075,670,STATE_670,merge,approve_selected,,Phase4b: conf=0.6 owner/core conflict auto approve
+1076,STATE_1076,1090,STATE_1090,split,approve_selected,,Phase3: conf=1.0 issues=4 auto approve
+1077,STATE_1077,1090,STATE_1090,split,approve_selected,,Phase3: conf=1.0 issues=4 auto approve
+1078,STATE_1078,671,STATE_671,split,approve_selected,,Phase4a: conf=1.0 owner/core conflict auto approve
+1079,STATE_1079,1017,STATE_1017,split,approve_selected,,Phase4a: conf=1.0 owner/core conflict auto approve
+1080,STATE_1080,1017,STATE_1017,split,approve_selected,,Phase3: conf=1.0 issues=4 auto approve
+1081,STATE_1081,1088,STATE_1088,split,approve_selected,,Phase4a: conf=1.0 owner/core conflict auto approve
+1082,STATE_1082,286,STATE_286,same_name,approve_selected,,Phase2: conf=1.0 issues=1 auto approve
+1083,STATE_1083,741,STATE_741,split,approve_selected,,Phase3: conf=1.0 issues=4 auto approve
+1084,STATE_1084,741,STATE_741,split,approve_selected,,Phase4a: conf=0.833 owner/core conflict auto approve
+1085,STATE_1085,1089,STATE_1089,merge,approve_selected,,Phase3: conf=1.0 issues=4 auto approve
+1086,STATE_1086,419,STATE_419,split,approve_selected,,Phase4c: conf=0.75 resource/building dist auto approve
+1087,STATE_1087,844,STATE_844,same_name,approve_selected,,Phase2: conf=1.0 issues=1 auto approve
+1088,STATE_1088,559,STATE_559,split,approve_selected,,Phase4a: conf=1.0 owner/core conflict auto approve
+1089,STATE_1089,29,STATE_29,split,approve_selected,,Phase4a: conf=1.0 owner/core conflict auto approve
+1090,STATE_1090,560,Nikolayevsk,split,approve_selected,,Phase3: conf=1.0 issues=4 auto approve
+1091,STATE_1091,231,STATE_231,split,approve_selected,,Phase4b: conf=0.5 owner/core conflict auto approve
+1092,STATE_1092,231,STATE_231,split,approve_selected,,Phase4b: conf=0.667 owner/core conflict auto approve
+1093,STATE_1093,1071,STATE_1071,split,approve_selected,,Phase4a: conf=1.0 owner/core conflict auto approve
+1094,STATE_1094,1084,STATE_1084,split,approve_selected,,Phase3: conf=1.0 issues=4 auto approve
+1095,STATE_1095,869,STATE_869,same_name,approve_selected,,Phase2: conf=1.0 issues=1 auto approve
+1096,STATE_1096,868,STATE_868,split,approve_selected,,Phase3: conf=1.0 issues=3 auto approve
+1097,STATE_1097,1100,STATE_1100,same_name,approve_selected,,Phase2: conf=1.0 issues=1 auto approve
+1098,STATE_1098,868,STATE_868,split,approve_selected,,Phase3: conf=1.0 issues=4 auto approve
+1099,STATE_1099,724,STATE_724,split,approve_selected,,Phase4c: conf=1.0 resource/building dist auto approve
+1100,STATE_1100,834,STATE_834,split,approve_selected,,Phase4a: conf=1.0 owner/core conflict auto approve
+1101,STATE_1101,1093,STATE_1093,same_name,approve_selected,,Phase2: conf=1.0 issues=1 auto approve
+1102,STATE_1102,1094,STATE_1094,same_name,approve_selected,,Phase2: conf=1.0 issues=1 auto approve
+1103,STATE_1103,48,STATE_48,split,approve_selected,,Phase4a: conf=1.0 owner/core conflict auto approve
+1104,STATE_1104,103,Dalmatia,split,approve_selected,,Phase3: conf=1.0 issues=4 auto approve
+1105,STATE_1105,64,STATE_64,split,approve_selected,,Phase4c: conf=1.0 resource/building dist auto approve
+1106,STATE_1106,699,STATE_699,split,approve_selected,,Phase4b: conf=0.5 owner/core conflict auto approve
+1107,STATE_1107,153,STATE_153,merge,approve_selected,,Phase4b: conf=0.5 owner/core conflict auto approve
+1108,STATE_1108,,,new_bsr_state,keep_bsr,,Phase1: new_bsr_state auto keep_bsr
+1109,STATE_1109,948,STATE_948,same_name,approve_selected,,Phase2: conf=1.0 issues=1 auto approve
+1110,STATE_1110,558,STATE_558,split,approve_selected,,Phase3: conf=1.0 issues=4 auto approve
+1111,STATE_1111,835,STATE_835,merge,approve_selected,,Phase4b: conf=0.5 owner/core conflict auto approve
+1112,STATE_1112,63,STATE_63,split,approve_selected,,Phase4a: conf=1.0 owner/core conflict auto approve
+1113,STATE_1113,842,STATE_842,same_name,approve_selected,,Phase3: conf=1.0 issues=3 auto approve
+1114,STATE_1114,38,Gävleborg,merge,approve_selected,,Phase4c: conf=0.812 resource/building dist auto approve
+1115,STATE_1115,915,Bohuslän,province_overlap,approve_selected,,Phase2: conf=1.0 issues=1 auto approve
+1116,STATE_1116,1056,STATE_1056,split,approve_selected,,Phase4b: conf=0.667 owner/core conflict auto approve
+1117,STATE_1117,,,new_bsr_state,keep_bsr,,Phase1: new_bsr_state auto keep_bsr
+1118,STATE_1118,,,new_bsr_state,keep_bsr,,Phase1: new_bsr_state auto keep_bsr
+1119,STATE_1119,87,STATE_87,merge,approve_selected,,Phase4a: conf=0.8 owner/core conflict auto approve
+1120,STATE_1120,,,new_bsr_state,keep_bsr,,Phase1: new_bsr_state auto keep_bsr
+1121,STATE_1121,,,new_bsr_state,keep_bsr,,Phase1: new_bsr_state auto keep_bsr
+1122,STATE_1122,406,Gurev,split,approve_selected,,Phase3: conf=1.0 issues=4 auto approve
+1123,STATE_1123,407,STATE_407,split,approve_selected,,Phase3: conf=1.0 issues=4 auto approve
+1124,STATE_1124,443,Sind,merge,approve_selected,,Phase4b: conf=0.75 owner/core conflict auto approve
+1125,STATE_1125,193,Chernihiv,split,approve_selected,,Phase3: conf=1.0 issues=3 auto approve
+1126,STATE_1126,193,Chernihiv,merge,approve_selected,,Phase4a: conf=0.833 owner/core conflict auto approve
+1127,STATE_1127,226,Dnipropertovsk,split,approve_selected,,Phase4a: conf=1.0 owner/core conflict auto approve
+1128,STATE_1128,897,STATE_897,split,approve_selected,,Phase4c: conf=0.714 resource/building dist auto approve
+1129,STATE_1129,1005,STATE_1005,split,approve_selected,,Phase3: conf=1.0 issues=4 auto approve
+1130,STATE_1130,1007,STATE_1007,merge,approve_selected,,Phase4b: conf=0.6 owner/core conflict auto approve
+1131,STATE_1131,1008,STATE_1008,merge,approve_selected,,Phase5: low-conf auto approve (manual review recommended post-import)
+1132,STATE_1132,,,new_bsr_state,keep_bsr,,Phase1: new_bsr_state auto keep_bsr
+1133,STATE_1133,794,STATE_794,split,approve_selected,,Phase3: conf=1.0 issues=3 auto approve
+1134,STATE_1134,795,STATE_795,split,approve_selected,,Phase4c: conf=1.0 resource/building dist auto approve
+1135,STATE_1135,889,STATE_889,split,approve_selected,,Phase3: conf=1.0 issues=4 auto approve
+1136,STATE_1136,889,STATE_889,merge,approve_selected,,Phase4b: conf=0.75 owner/core conflict auto approve
+1137,STATE_1137,538,STATE_538,split,approve_selected,,Phase4c: conf=1.0 resource/building dist auto approve
+1138,STATE_1138,831,Khiva,split,approve_selected,,Phase3: conf=1.0 issues=4 auto approve
+1139,STATE_1139,731,STATE_731,split,approve_selected,,Phase4b: conf=0.5 owner/core conflict auto approve
+1140,STATE_1140,341,STATE_341,split,approve_selected,,Phase3: conf=1.0 issues=3 auto approve
+1141,STATE_1141,,,new_bsr_state,keep_bsr,,Phase1: new_bsr_state auto keep_bsr
+1142,STATE_1142,212,STATE_212,split,approve_selected,,Phase4b: conf=0.667 owner/core conflict auto approve
+1143,STATE_1143,212,STATE_212,split,approve_selected,,Phase4a: conf=1.0 owner/core conflict auto approve
+1144,STATE_1144,273,Libyan Desert,split,approve_selected,,Phase4a: conf=0.8 owner/core conflict auto approve
+1145,STATE_1145,273,Libyan Desert,split,approve_selected,,Phase3: conf=1.0 issues=3 auto approve
+1146,STATE_1146,273,Libyan Desert,split,approve_selected,,Phase3: conf=1.0 issues=3 auto approve
+1147,STATE_1147,962,STATE_962,same_name,approve_selected,,Phase2: conf=1.0 issues=1 auto approve
+1148,STATE_1148,589,STATE_589,merge,approve_selected,,Phase4a: conf=0.917 owner/core conflict auto approve
+1149,STATE_1149,976,STATE_976,merge,approve_selected,,Phase4a: conf=0.857 owner/core conflict auto approve
+1150,STATE_1150,381,STATE_381,split,approve_selected,,Phase3: conf=1.0 issues=4 auto approve
+1151,STATE_1151,150,KUOPIO,merge,approve_selected,,Phase4a: conf=0.812 owner/core conflict auto approve
+1152,STATE_1152,,,new_bsr_state,keep_bsr,,Phase1: new_bsr_state auto keep_bsr
+1153,STATE_1153,,,new_bsr_state,keep_bsr,,Phase1: new_bsr_state auto keep_bsr
+1154,STATE_1154,,,new_bsr_state,keep_bsr,,Phase1: new_bsr_state auto keep_bsr
+1155,STATE_1155,856,STATE_856,split,approve_selected,,Phase5: low-conf auto approve (manual review recommended post-import)
+1156,STATE_1156,184,STATE_184,split,approve_selected,,Phase3: conf=1.0 issues=4 auto approve
+1157,STATE_1157,182,STATE_182,split,approve_selected,,Phase4a: conf=1.0 owner/core conflict auto approve
+1158,STATE_1158,292,STATE_292,merge,approve_selected,,Phase4c: conf=0.75 resource/building dist auto approve
+1159,STATE_1159,731,STATE_731,split,approve_selected,,Phase4a: conf=1.0 owner/core conflict auto approve
+1160,STATE_1160,731,STATE_731,split,approve_selected,,Phase3: conf=1.0 issues=4 auto approve
+1161,STATE_1161,,,new_bsr_state,keep_bsr,,Phase1: new_bsr_state auto keep_bsr
+1162,STATE_1162,,,new_bsr_state,keep_bsr,,Phase1: new_bsr_state auto keep_bsr
+1163,Karma,241,Gomel,split,approve_selected,,Phase4a: conf=0.833 owner/core conflict auto approve
+1164,STATE_1164,,,new_bsr_state,keep_bsr,,Phase1: new_bsr_state auto keep_bsr
+1165,STATE_1165,,,new_bsr_state,keep_bsr,,Phase1: new_bsr_state auto keep_bsr
+1166,STATE_1166,,,new_bsr_state,keep_bsr,,Phase1: new_bsr_state auto keep_bsr
+1167,STATE_1167,,,new_bsr_state,keep_bsr,,Phase1: new_bsr_state auto keep_bsr
+1168,STATE_1168,,,new_bsr_state,keep_bsr,,Phase1: new_bsr_state auto keep_bsr
+1169,STATE_1169,,,new_bsr_state,keep_bsr,,Phase1: new_bsr_state auto keep_bsr
+1170,STATE_1170,207,STATE_207,split,approve_selected,,Phase3: conf=1.0 issues=4 auto approve
+1171,STATE_1171,732,STATE_732,split,approve_selected,,Phase3: conf=1.0 issues=4 auto approve
+1172,STATE_1172,,,new_bsr_state,keep_bsr,,Phase1: new_bsr_state auto keep_bsr
+1173,STATE_1173,786,Mauritanian Desert,split,approve_selected,,Phase5: low-conf auto approve (manual review recommended post-import)
+1174,STATE_1174,,,new_bsr_state,keep_bsr,,Phase1: new_bsr_state auto keep_bsr
+1175,STATE_1175,358,STATE_358,split,approve_selected,,Phase4c: conf=1.0 resource/building dist auto approve
+1176,STATE_1176,,,new_bsr_state,keep_bsr,,Phase1: new_bsr_state auto keep_bsr
+1177,STATE_1177,,,new_bsr_state,keep_bsr,,Phase1: new_bsr_state auto keep_bsr
+1178,STATE_1178,98,STATE_98,split,approve_selected,,Phase3: conf=1.0 issues=3 auto approve
+1179,STATE_1179,48,STATE_48,split,approve_selected,,Phase4a: conf=1.0 owner/core conflict auto approve
+1180,STATE_1180,91,Lwow,split,approve_selected,,Phase3: conf=1.0 issues=4 auto approve
+1181,STATE_1181,88,STATE_88,split,approve_selected,,Phase4a: conf=1.0 owner/core conflict auto approve
+1182,STATE_1182,980,STATE_980,split,approve_selected,,Phase3: conf=1.0 issues=4 auto approve
+1183,STATE_1183,28,Alsace-Lorraine,split,approve_selected,,Phase4b: conf=0.5 owner/core conflict auto approve
+1184,STATE_1184,18,STATE_18,split,approve_selected,,Phase3: conf=1.0 issues=3 auto approve
+1185,STATE_1185,20,Rhone,split,approve_selected,,Phase4a: conf=1.0 owner/core conflict auto approve
+1186,STATE_1186,23,STATE_23,split,approve_selected,,Phase4a: conf=1.0 owner/core conflict auto approve
+1187,STATE_1187,884,Upper Nile,merge,approve_selected,,Phase3: conf=1.0 issues=4 auto approve
+1188,STATE_1188,1057,STATE_1057,same_name,approve_selected,,Phase2: conf=1.0 issues=1 auto approve
+1189,STATE_1189,105,STATE_105,split,approve_selected,,Phase4c: conf=1.0 resource/building dist auto approve
+1190,STATE_1190,108,STATE_108,split,approve_selected,,Phase4c: conf=1.0 resource/building dist auto approve
+1191,STATE_1191,1013,STATE_1013,same_name,approve_selected,,Phase2: conf=1.0 issues=1 auto approve
+1192,STATE_1192,94,STATE_94,split,approve_selected,,Phase3: conf=1.0 issues=4 auto approve
+1193,STATE_1193,157,STATE_157,merge,approve_selected,,Phase4b: conf=0.6 owner/core conflict auto approve
+1194,STATE_1194,1063,STATE_1063,split,approve_selected,,Phase2: conf=1.0 issues=2 auto approve
+1195,STATE_1195,377,STATE_377,split,approve_selected,,Phase4c: conf=0.5 resource/building dist auto approve
+1196,STATE_1196,,,new_bsr_state,keep_bsr,,Phase1: new_bsr_state auto keep_bsr
+1197,STATE_1197,548,STATE_548,split,approve_selected,,Phase4a: conf=1.0 owner/core conflict auto approve
+1198,STATE_1198,1064,STATE_1064,split,approve_selected,,Phase3: conf=1.0 issues=3 auto approve
+1199,STATE_1199,376,STATE_376,split,approve_selected,,Phase4c: conf=1.0 resource/building dist auto approve
+1200,STATE_1200,376,STATE_376,split,approve_selected,,Phase4c: conf=0.6 resource/building dist auto approve
+1201,STATE_1201,76,STATE_76,split,approve_selected,,Phase4a: conf=0.857 owner/core conflict auto approve
+1202,STATE_1202,593,STATE_593,merge,approve_selected,,Phase4b: conf=0.75 owner/core conflict auto approve
+1203,STATE_1203,161,STATE_161,merge,approve_selected,,Phase4b: conf=0.5 owner/core conflict auto approve
+1204,STATE_1204,106,STATE_106,split,approve_selected,,Phase4b: conf=0.5 owner/core conflict auto approve
+1205,STATE_1205,95,STATE_95,split,approve_selected,,Phase4b: conf=0.667 owner/core conflict auto approve
+1206,STATE_1206,681,Cape,split,approve_selected,,Phase4c: conf=0.333 resource/building dist auto approve
+1207,STATE_1207,681,Cape,split,approve_selected,,Phase4c: conf=0.4 resource/building dist auto approve
+1208,STATE_1208,275,Transvaal,merge,approve_selected,,Phase4c: conf=0.25 resource/building dist auto approve
+1209,STATE_1209,681,Cape,split,approve_selected,,Phase3: conf=1.0 issues=4 auto approve
+1210,STATE_1210,681,Cape,split,approve_selected,,Phase4c: conf=0.5 resource/building dist auto approve
+1211,STATE_1211,681,Cape,merge,approve_selected,,Phase4c: conf=0.333 resource/building dist auto approve
+1212,STATE_1212,,,new_bsr_state,keep_bsr,,Phase1: new_bsr_state auto keep_bsr
+1213,STATE_1213,719,Natal,merge,approve_selected,,Phase4c: conf=0.75 resource/building dist auto approve
+1214,STATE_1214,,,new_bsr_state,keep_bsr,,Phase1: new_bsr_state auto keep_bsr
+1215,STATE_1215,275,Transvaal,split,approve_selected,,Phase4a: conf=1.0 owner/core conflict auto approve
+1216,STATE_1216,275,Transvaal,split,approve_selected,,Phase4a: conf=1.0 owner/core conflict auto approve
+1217,STATE_1217,,,new_bsr_state,keep_bsr,,Phase1: new_bsr_state auto keep_bsr
+1218,STATE_1218,719,Natal,split,approve_selected,,Phase4b: conf=0.5 owner/core conflict auto approve
+1219,STATE_1219,,,new_bsr_state,keep_bsr,,Phase1: new_bsr_state auto keep_bsr
+1220,STATE_1220,1068,STATE_1068,same_name,approve_selected,,Phase2: conf=1.0 issues=1 auto approve
+1221,STATE_1221,275,Transvaal,split,approve_selected,,Phase3: conf=1.0 issues=4 auto approve
+1222,STATE_1222,229,STATE_229,split,approve_selected,,Phase4a: conf=1.0 owner/core conflict auto approve
+1223,STATE_1223,230,STATE_230,split,approve_selected,,Phase4a: conf=1.0 owner/core conflict auto approve
+1224,STATE_1224,,,new_bsr_state,keep_bsr,,Phase1: new_bsr_state auto keep_bsr
+1225,STATE_1225,231,STATE_231,split,approve_selected,,Phase4a: conf=1.0 owner/core conflict auto approve
+1226,STATE_1226,231,STATE_231,merge,approve_selected,,Phase4b: conf=0.5 owner/core conflict auto approve
+1227,STATE_1227,231,STATE_231,split,approve_selected,,Phase3: conf=1.0 issues=4 auto approve
+1228,STATE_1228,934,STATE_934,split,approve_selected,,Phase3: conf=1.0 issues=4 auto approve
+1229,STATE_1229,934,STATE_934,split,approve_selected,,Phase4a: conf=1.0 owner/core conflict auto approve
+1230,STATE_1230,106,STATE_106,merge,approve_selected,,Phase4b: conf=0.5 owner/core conflict auto approve
+1231,STATE_1231,,,new_bsr_state,keep_bsr,,Phase1: new_bsr_state auto keep_bsr
+1232,STATE_1232,454,Palestine,split,approve_selected,,Phase4a: conf=1.0 owner/core conflict auto approve
+1233,STATE_1233,454,Palestine,split,approve_selected,,Phase4a: conf=0.8 owner/core conflict auto approve
+1234,STATE_1234,1075,STATE_1075,same_name,approve_selected,,Phase2: conf=1.0 issues=2 auto approve
+1235,STATE_1235,,,new_bsr_state,keep_bsr,,Phase1: new_bsr_state auto keep_bsr
+1236,STATE_1236,454,Palestine,split,approve_selected,,Phase4a: conf=1.0 owner/core conflict auto approve
+1237,STATE_1237,446,Suez,split,approve_selected,,Phase3: conf=1.0 issues=3 auto approve
+1238,STATE_1238,,,new_bsr_state,keep_bsr,,Phase1: new_bsr_state auto keep_bsr
+1239,STATE_1239,553,STATE_553,split,approve_selected,,Phase3: conf=1.0 issues=4 auto approve
+1240,STATE_1240,554,STATE_554,split,approve_selected,,Phase4a: conf=1.0 owner/core conflict auto approve
+1241,STATE_1241,554,STATE_554,split,approve_selected,,Phase4b: conf=0.5 owner/core conflict auto approve
+1242,STATE_1242,677,STATE_677,split,approve_selected,,Phase4a: conf=1.0 owner/core conflict auto approve
+1243,STATE_1243,,,new_bsr_state,keep_bsr,,Phase1: new_bsr_state auto keep_bsr
+1244,STATE_1244,676,STATE_676,merge,approve_selected,,Phase5: low-conf auto approve (manual review recommended post-import)
+1245,STATE_1245,676,STATE_676,split,approve_selected,,Phase4b: conf=0.5 owner/core conflict auto approve
+1246,STATE_1246,676,STATE_676,split,approve_selected,,Phase4b: conf=0.667 owner/core conflict auto approve
+1247,STATE_1247,291,STATE_291,merge,approve_selected,,Phase4b: conf=0.667 owner/core conflict auto approve
+1248,STATE_1248,421,STATE_421,split,approve_selected,,Phase4b: conf=0.667 owner/core conflict auto approve
+1249,STATE_1249,413,STATE_413,split,approve_selected,,Phase4c: conf=0.5 resource/building dist auto approve
+1250,STATE_1250,588,Semipalatinsk,split,approve_selected,,Phase4a: conf=1.0 owner/core conflict auto approve
+1251,STATE_1251,,,new_bsr_state,keep_bsr,,Phase1: new_bsr_state auto keep_bsr
+1252,STATE_1252,,,new_bsr_state,keep_bsr,,Phase1: new_bsr_state auto keep_bsr
+1253,STATE_1253,,,new_bsr_state,keep_bsr,,Phase1: new_bsr_state auto keep_bsr
+1254,STATE_1254,1024,STATE_1024,same_name,approve_selected,,Phase2: conf=1.0 issues=1 auto approve
+1255,STATE_1255,,,new_bsr_state,keep_bsr,,Phase1: new_bsr_state auto keep_bsr
+1256,STATE_1256,677,STATE_677,split,approve_selected,,Phase4a: conf=1.0 owner/core conflict auto approve
+1257,STATE_1257,,,new_bsr_state,keep_bsr,,Phase1: new_bsr_state auto keep_bsr
+1258,STATE_1258,,,new_bsr_state,keep_bsr,,Phase1: new_bsr_state auto keep_bsr
+1259,STATE_1259,,,new_bsr_state,keep_bsr,,Phase1: new_bsr_state auto keep_bsr
+1260,STATE_1260,957,STATE_957,split,approve_selected,,Phase3: conf=1.0 issues=4 auto approve
+1261,STATE_1261,487,STATE_487,merge,approve_selected,,Phase4c: conf=0.667 resource/building dist auto approve
+1262,STATE_1262,,,new_bsr_state,keep_bsr,,Phase1: new_bsr_state auto keep_bsr
+1263,STATE_1263,229,STATE_229,split,approve_selected,,Phase4a: conf=1.0 owner/core conflict auto approve
+1264,STATE_1264,676,STATE_676,split,approve_selected,,Phase4a: conf=0.8 owner/core conflict auto approve
+1265,STATE_1265,,,new_bsr_state,keep_bsr,,Phase1: new_bsr_state auto keep_bsr
+1266,STATE_1266,,,new_bsr_state,keep_bsr,,Phase1: new_bsr_state auto keep_bsr
+1267,STATE_1267,137,STATE_137,split,approve_selected,,Phase4a: conf=1.0 owner/core conflict auto approve
+1268,STATE_1268,30,STATE_30,split,approve_selected,,Phase3: conf=1.0 issues=4 auto approve
+1269,STATE_1269,1076,STATE_1076,same_name,approve_selected,,Phase2: conf=1.0 issues=1 auto approve
+1270,STATE_1270,20,Rhone,split,approve_selected,,Phase4a: conf=1.0 owner/core conflict auto approve
+1271,STATE_1271,,,new_bsr_state,keep_bsr,,Phase1: new_bsr_state auto keep_bsr
+1272,STATE_1272,,,new_bsr_state,keep_bsr,,Phase1: new_bsr_state auto keep_bsr
+1273,STATE_1273,742,STATE_742,split,approve_selected,,Phase4a: conf=1.0 owner/core conflict auto approve
+1274,STATE_1274,447,STATE_447,merge,approve_selected,,Phase4b: conf=0.75 owner/core conflict auto approve
+1275,STATE_1275,67,STATE_67,split,approve_selected,,Phase4a: conf=1.0 owner/core conflict auto approve
+1276,STATE_1276,907,STATE_907,split,approve_selected,,Phase4b: conf=0.75 owner/core conflict auto approve
+1277,STATE_1277,456,Aswan,split,approve_selected,,Phase4b: conf=0.5 owner/core conflict auto approve
+1278,STATE_1278,456,Aswan,split,approve_selected,,Phase4b: conf=0.5 owner/core conflict auto approve
+1279,STATE_1279,456,Aswan,split,approve_selected,,Phase4b: conf=0.5 owner/core conflict auto approve
+1280,STATE_1280,,,new_bsr_state,keep_bsr,,Phase1: new_bsr_state auto keep_bsr
+1281,STATE_1281,,,new_bsr_state,keep_bsr,,Phase1: new_bsr_state auto keep_bsr
+1282,STATE_1282,,,new_bsr_state,keep_bsr,,Phase1: new_bsr_state auto keep_bsr
+1283,STATE_1283,,,new_bsr_state,keep_bsr,,Phase1: new_bsr_state auto keep_bsr
+1284,STATE_1284,,,new_bsr_state,keep_bsr,,Phase1: new_bsr_state auto keep_bsr
+1285,STATE_1285,547,STATE_547,split,approve_selected,,Phase5: low-conf auto approve (manual review recommended post-import)
+1286,STATE_1286,903,STATE_903,split,approve_selected,,Phase3: conf=1.0 issues=3 auto approve
+1287,STATE_1287,903,STATE_903,split,approve_selected,,Phase4b: conf=0.75 owner/core conflict auto approve
+1288,STATE_1288,453,STATE_453,split,approve_selected,,Phase4a: conf=0.833 owner/core conflict auto approve
+1289,STATE_1289,,,new_bsr_state,keep_bsr,,Phase1: new_bsr_state auto keep_bsr
+1290,STATE_1290,381,STATE_381,split,approve_selected,,Phase3: conf=1.0 issues=4 auto approve
+1291,STATE_1291,1055,STATE_1055,split,approve_selected,,Phase4a: conf=1.0 owner/core conflict auto approve
+1292,STATE_1292,1056,STATE_1056,split,approve_selected,,Phase3: conf=1.0 issues=3 auto approve
+1293,STATE_1293,815,STATE_815,merge,approve_selected,,Phase4b: conf=0.667 owner/core conflict auto approve
+1294,STATE_1294,,,new_bsr_state,keep_bsr,,Phase1: new_bsr_state auto keep_bsr
+1295,STATE_1295,1050,STATE_1050,same_name,approve_selected,,Phase2: conf=1.0 issues=1 auto approve
+1296,STATE_1296,1095,STATE_1095,split,approve_selected,,Phase3: conf=1.0 issues=3 auto approve
+1297,STATE_1297,,,new_bsr_state,keep_bsr,,Phase1: new_bsr_state auto keep_bsr
+1298,STATE_1298,659,STATE_659,split,approve_selected,,Phase3: conf=1.0 issues=3 auto approve
+1299,STATE_1299,1015,STATE_1015,merge,approve_selected,,Phase4a: conf=1.0 owner/core conflict auto approve
+1300,STATE_1300,510,STATE_510,merge,approve_selected,,Phase4c: conf=0.333 resource/building dist auto approve
+1301,STATE_1301,932,STATE_932,same_name,approve_selected,,Phase2: conf=1.0 issues=1 auto approve
+1302,STATE_1302,803,STATE_803,split,approve_selected,,Phase3: conf=1.0 issues=4 auto approve
+1303,STATE_1303,185,STATE_185,split,approve_selected,,Phase4a: conf=1.0 owner/core conflict auto approve
+1304,STATE_1304,847,STATE_847,split,approve_selected,,Phase3: conf=1.0 issues=4 auto approve
+1305,STATE_1305,755,STATE_755,split,approve_selected,,Phase3: conf=1.0 issues=4 auto approve
+1306,STATE_1306,759,STATE_759,merge,approve_selected,,Phase4b: conf=0.667 owner/core conflict auto approve
+1307,STATE_1307,1032,STATE_1032,same_name,approve_selected,,Phase2: conf=1.0 issues=1 auto approve
+1308,STATE_1308,,,new_bsr_state,keep_bsr,,Phase1: new_bsr_state auto keep_bsr
+1309,STATE_1309,,,new_bsr_state,keep_bsr,,Phase1: new_bsr_state auto keep_bsr
+1310,STATE_1310,,,new_bsr_state,keep_bsr,,Phase1: new_bsr_state auto keep_bsr
+1311,STATE_1311,605,STATE_605,same_name,approve_selected,,Phase2: conf=1.0 issues=1 auto approve
+1312,STATE_1312,,,new_bsr_state,keep_bsr,,Phase1: new_bsr_state auto keep_bsr
+1313,STATE_1313,747,STATE_747,split,approve_selected,,Phase4a: conf=1.0 owner/core conflict auto approve
+1314,STATE_1314,1079,STATE_1079,split,approve_selected,,Phase4a: conf=1.0 owner/core conflict auto approve
+1315,STATE_1315,594,STATE_594,split,approve_selected,,Phase4b: conf=0.75 owner/core conflict auto approve
+1316,STATE_1316,599,STATE_599,split,approve_selected,,Phase3: conf=1.0 issues=4 auto approve
+1317,STATE_1317,599,STATE_599,split,approve_selected,,Phase4b: conf=0.75 owner/core conflict auto approve
+1318,STATE_1318,618,Dzungaria,split,approve_selected,,Phase3: conf=1.0 issues=3 auto approve
+1319,STATE_1319,786,Mauritanian Desert,split,approve_selected,,Phase3: conf=1.0 issues=3 auto approve
+1320,STATE_1320,,,new_bsr_state,keep_bsr,,Phase1: new_bsr_state auto keep_bsr
+1321,STATE_1321,30,STATE_30,split,approve_selected,,Phase3: conf=1.0 issues=3 auto approve
+1322,STATE_1322,,,new_bsr_state,keep_bsr,,Phase1: new_bsr_state auto keep_bsr
+1323,STATE_1323,688,STATE_688,split,approve_selected,,Phase4a: conf=1.0 owner/core conflict auto approve
+1324,STATE_1324,,,new_bsr_state,keep_bsr,,Phase1: new_bsr_state auto keep_bsr
+1325,STATE_1325,71,STATE_71,split,approve_selected,,Phase4a: conf=1.0 owner/core conflict auto approve
+1326,STATE_1326,,,new_bsr_state,keep_bsr,,Phase1: new_bsr_state auto keep_bsr
+1327,STATE_1327,662,STATE_662,split,approve_selected,,Phase3: conf=1.0 issues=3 auto approve
+1328,STATE_1328,65,STATE_65,split,approve_selected,,Phase4a: conf=1.0 owner/core conflict auto approve
+1329,STATE_1329,64,STATE_64,split,approve_selected,,Phase4b: conf=0.667 owner/core conflict auto approve
+1330,STATE_1330,999,STATE_999,merge,approve_selected,,Phase4a: conf=0.8 owner/core conflict auto approve
+1331,STATE_1331,,,new_bsr_state,keep_bsr,,Phase1: new_bsr_state auto keep_bsr
+1332,STATE_1332,68,STATE_68,split,approve_selected,,Phase4a: conf=1.0 owner/core conflict auto approve
+1333,STATE_1333,63,STATE_63,split,approve_selected,,Phase4a: conf=1.0 owner/core conflict auto approve
+1334,STATE_1334,51,STATE_51,split,approve_selected,,Phase4a: conf=1.0 owner/core conflict auto approve
+1335,STATE_1335,51,STATE_51,split,approve_selected,,Phase4c: conf=0.8 resource/building dist auto approve
+1336,STATE_1336,,,new_bsr_state,keep_bsr,,Phase1: new_bsr_state auto keep_bsr
+1337,STATE_1337,,,new_bsr_state,keep_bsr,,Phase1: new_bsr_state auto keep_bsr
+1338,STATE_1338,,,new_bsr_state,keep_bsr,,Phase1: new_bsr_state auto keep_bsr
+1339,STATE_1339,,,new_bsr_state,keep_bsr,,Phase1: new_bsr_state auto keep_bsr
+1340,STATE_1340,,,new_bsr_state,keep_bsr,,Phase1: new_bsr_state auto keep_bsr
+1341,STATE_1341,,,new_bsr_state,keep_bsr,,Phase1: new_bsr_state auto keep_bsr
+1342,STATE_1342,,,new_bsr_state,keep_bsr,,Phase1: new_bsr_state auto keep_bsr
+1343,STATE_1343,,,new_bsr_state,keep_bsr,,Phase1: new_bsr_state auto keep_bsr
+1344,STATE_1344,592,STATE_592,split,approve_selected,,Phase4a: conf=1.0 owner/core conflict auto approve
+1345,STATE_1345,514,Algerian Desert,split,approve_selected,,Phase5: low-conf auto approve (manual review recommended post-import)
+1346,STATE_1346,,,new_bsr_state,keep_bsr,,Phase1: new_bsr_state auto keep_bsr
+1347,STATE_1347,67,STATE_67,split,approve_selected,,Phase4a: conf=1.0 owner/core conflict auto approve
+1348,STATE_1348,67,STATE_67,split,approve_selected,,Phase4a: conf=1.0 owner/core conflict auto approve
+1349,STATE_1349,,,new_bsr_state,keep_bsr,,Phase1: new_bsr_state auto keep_bsr
+1350,STATE_1350,42,STATE_42,split,approve_selected,,Phase4c: conf=1.0 resource/building dist auto approve
+1351,STATE_1351,158,STATE_158,split,approve_selected,,Phase4a: conf=1.0 owner/core conflict auto approve
+1352,STATE_1352,806,STATE_806,split,approve_selected,,Phase4b: conf=0.5 owner/core conflict auto approve
+1353,STATE_1353,806,STATE_806,split,approve_selected,,Phase3: conf=1.0 issues=4 auto approve
+1354,STATE_1354,848,STATE_848,split,approve_selected,,Phase3: conf=1.0 issues=3 auto approve
+1355,STATE_1355,,,new_bsr_state,keep_bsr,,Phase1: new_bsr_state auto keep_bsr
+1356,STATE_1356,641,STATE_641,split,approve_selected,,Phase4b: conf=0.5 owner/core conflict auto approve
+1357,STATE_1357,891,STATE_891,split,approve_selected,,Phase4c: conf=0.5 resource/building dist auto approve
+1358,STATE_1358,540,STATE_540,split,approve_selected,,Phase4c: conf=0.333 resource/building dist auto approve
+1359,STATE_1359,897,STATE_897,split,approve_selected,,Phase3: conf=1.0 issues=3 auto approve
+1360,STATE_1360,,,new_bsr_state,keep_bsr,,Phase1: new_bsr_state auto keep_bsr
+1361,STATE_1361,148,LAPPI,split,approve_selected,,Phase4a: conf=1.0 owner/core conflict auto approve
+1362,STATE_1362,666,STATE_666,split,approve_selected,,Phase4a: conf=1.0 owner/core conflict auto approve
+1363,STATE_1363,97,STATE_97,split,approve_selected,,Phase4a: conf=1.0 owner/core conflict auto approve
+1364,STATE_1364,807,STATE_807,split,approve_selected,,Phase4a: conf=1.0 owner/core conflict auto approve
+1365,STATE_1365,,,new_bsr_state,keep_bsr,,Phase1: new_bsr_state auto keep_bsr
+1366,STATE_1366,229,STATE_229,split,approve_selected,,Phase4a: conf=1.0 owner/core conflict auto approve
+1367,STATE_1367,230,STATE_230,split,approve_selected,,Phase3: conf=1.0 issues=4 auto approve
+1368,STATE_1368,146,KARJALA,split,approve_selected,,Phase3: conf=1.0 issues=3 auto approve
+1369,STATE_1369,146,KARJALA,split,approve_selected,,Phase3: conf=1.0 issues=4 auto approve
+1370,STATE_1370,179,STATE_179,split,approve_selected,,Phase4c: conf=1.0 resource/building dist auto approve
+1371,STATE_1371,,,new_bsr_state,keep_bsr,,Phase1: new_bsr_state auto keep_bsr
+1372,STATE_1372,,,new_bsr_state,keep_bsr,,Phase1: new_bsr_state auto keep_bsr
+1373,STATE_1373,97,STATE_97,split,approve_selected,,Phase4a: conf=1.0 owner/core conflict auto approve
+1374,STATE_1374,88,STATE_88,split,approve_selected,,Phase4a: conf=1.0 owner/core conflict auto approve
+1375,STATE_1375,95,STATE_95,split,approve_selected,,Phase3: conf=1.0 issues=4 auto approve
+1376,STATE_1376,664,STATE_664,split,approve_selected,,Phase3: conf=1.0 issues=4 auto approve
+1377,STATE_1377,,,new_bsr_state,keep_bsr,,Phase1: new_bsr_state auto keep_bsr
+1378,Northern Hungary,43,Northern Hungary,split,approve_selected,,Phase4c: conf=1.0 resource/building dist auto approve
+1379,STATE_1379,154,STATE_154,split,approve_selected,,Phase4c: conf=1.0 resource/building dist auto approve
+1380,STATE_1380,215,STATE_215,split,approve_selected,,Phase3: conf=1.0 issues=4 auto approve
+1381,STATE_1381,146,KARJALA,split,approve_selected,,Phase3: conf=1.0 issues=4 auto approve
+1382,STATE_1382,,,new_bsr_state,keep_bsr,,Phase1: new_bsr_state auto keep_bsr
+1383,STATE_1383,96,STATE_96,split,approve_selected,,Phase4b: conf=0.5 owner/core conflict auto approve
+1384,STATE_1384,94,STATE_94,split,approve_selected,,Phase4a: conf=1.0 owner/core conflict auto approve
+1385,STATE_1385,93,STATE_93,split,approve_selected,,Phase4a: conf=1.0 owner/core conflict auto approve
+1386,STATE_1386,91,Lwow,split,approve_selected,,Phase3: conf=1.0 issues=4 auto approve
+1387,STATE_1387,103,Dalmatia,split,approve_selected,,Phase3: conf=1.0 issues=4 auto approve
+1388,STATE_1388,,,new_bsr_state,keep_bsr,,Phase1: new_bsr_state auto keep_bsr
+1389,STATE_1389,,,new_bsr_state,keep_bsr,,Phase1: new_bsr_state auto keep_bsr
+1390,STATE_1390,,,new_bsr_state,keep_bsr,,Phase1: new_bsr_state auto keep_bsr
+1391,STATE_1391,158,STATE_158,split,approve_selected,,Phase4a: conf=1.0 owner/core conflict auto approve
+1392,STATE_1392,417,Hamadan,merge,approve_selected,,Phase4c: conf=0.667 resource/building dist auto approve
+1393,STATE_1393,420,STATE_420,split,approve_selected,,Phase3: conf=1.0 issues=4 auto approve
+1394,STATE_1394,411,Isfahan,merge,approve_selected,,Phase4c: conf=0.5 resource/building dist auto approve
+1395,STATE_1395,134,STATE_134,split,approve_selected,,Phase4c: conf=1.0 resource/building dist auto approve
+1396,STATE_1396,113,Leinster,split,approve_selected,,Phase4c: conf=1.0 resource/building dist auto approve
+1397,STATE_1397,119,STATE_119,split,approve_selected,,Phase4a: conf=1.0 owner/core conflict auto approve
+1398,STATE_1398,119,STATE_119,split,approve_selected,,Phase4a: conf=1.0 owner/core conflict auto approve
+1399,STATE_1399,119,STATE_119,split,approve_selected,,Phase4a: conf=1.0 owner/core conflict auto approve
+1400,STATE_1400,,,new_bsr_state,keep_bsr,,Phase1: new_bsr_state auto keep_bsr
+1401,STATE_1401,128,STATE_128,merge,approve_selected,,Phase4c: conf=0.6 resource/building dist auto approve
+1402,STATE_1402,504,STATE_504,split,approve_selected,,Phase3: conf=1.0 issues=4 auto approve
+1403,STATE_1403,108,STATE_108,split,approve_selected,,Phase4a: conf=1.0 owner/core conflict auto approve
+1404,STATE_1404,104,STATE_104,split,approve_selected,,Phase4a: conf=1.0 owner/core conflict auto approve
+1405,Cornwall,123,STATE_123,split,approve_selected,,Phase3: conf=1.0 issues=4 auto approve
+1406,STATE_1406,92,STATE_92,split,approve_selected,,Phase4b: conf=0.5 owner/core conflict auto approve
+1407,STATE_1407,408,STATE_408,split,approve_selected,,Phase4a: conf=1.0 owner/core conflict auto approve
+1408,STATE_1408,5,STATE_5,split,approve_selected,,Phase4c: conf=0.5 resource/building dist auto approve
+1409,STATE_1409,5,STATE_5,split,approve_selected,,Phase3: conf=1.0 issues=4 auto approve
+1410,STATE_1410,,,new_bsr_state,keep_bsr,,Phase1: new_bsr_state auto keep_bsr
+1411,STATE_1411,,,new_bsr_state,keep_bsr,,Phase1: new_bsr_state auto keep_bsr
+1412,STATE_1412,99,STATE_99,split,approve_selected,,Phase4a: conf=1.0 owner/core conflict auto approve
+1413,STATE_1413,99,STATE_99,split,approve_selected,,Phase4a: conf=1.0 owner/core conflict auto approve
+1414,STATE_1414,,,new_bsr_state,keep_bsr,,Phase1: new_bsr_state auto keep_bsr
+1415,STATE_1415,50,Württemberg,split,approve_selected,,Phase4a: conf=1.0 owner/core conflict auto approve
+1416,STATE_1416,,,new_bsr_state,keep_bsr,,Phase1: new_bsr_state auto keep_bsr
+1417,STATE_1417,,,new_bsr_state,keep_bsr,,Phase1: new_bsr_state auto keep_bsr
+1418,STATE_1418,473,STATE_473,split,approve_selected,,Phase4c: conf=1.0 resource/building dist auto approve
+1419,STATE_1419,471,STATE_471,merge,approve_selected,,Phase4c: conf=0.5 resource/building dist auto approve
+1420,STATE_1420,,,new_bsr_state,keep_bsr,,Phase1: new_bsr_state auto keep_bsr
+1421,STATE_1421,104,STATE_104,split,approve_selected,,Phase4a: conf=1.0 owner/core conflict auto approve
+1422,STATE_1422,127,Sussex,split,approve_selected,,Phase4c: conf=1.0 resource/building dist auto approve
+1423,STATE_1423,971,Northern Dobruja,split,approve_selected,,Phase3: conf=1.0 issues=4 auto approve
+1424,STATE_1424,807,STATE_807,split,approve_selected,,Phase4a: conf=1.0 owner/core conflict auto approve
+1425,STATE_1425,807,STATE_807,split,approve_selected,,Phase5: low-conf auto approve (manual review recommended post-import)
+1426,STATE_1426,86,STATE_86,split,approve_selected,,Phase3: conf=1.0 issues=4 auto approve
+1427,STATE_1427,185,STATE_185,split,approve_selected,,Phase4a: conf=1.0 owner/core conflict auto approve
+1428,STATE_1428,731,STATE_731,split,approve_selected,,Phase4a: conf=1.0 owner/core conflict auto approve
+1429,STATE_1429,,,new_bsr_state,keep_bsr,,Phase1: new_bsr_state auto keep_bsr
+1430,STATE_1430,29,STATE_29,split,approve_selected,,Phase4a: conf=1.0 owner/core conflict auto approve
+1431,STATE_1431,155,North Transdanubia,merge,approve_selected,,Phase4c: conf=0.5 resource/building dist auto approve
+1432,STATE_1432,55,STATE_55,split,approve_selected,,Phase4a: conf=1.0 owner/core conflict auto approve
+1433,STATE_1433,94,STATE_94,split,approve_selected,,Phase4a: conf=1.0 owner/core conflict auto approve
+1434,STATE_1434,93,STATE_93,split,approve_selected,,Phase4a: conf=1.0 owner/core conflict auto approve
+1435,STATE_1435,6,Flanders,split,approve_selected,,Phase4a: conf=1.0 owner/core conflict auto approve
+1436,STATE_1436,28,Alsace-Lorraine,split,approve_selected,,Phase5: low-conf auto approve (manual review recommended post-import)
+1437,STATE_1437,230,STATE_230,split,approve_selected,,Phase4a: conf=1.0 owner/core conflict auto approve
+1438,STATE_1438,189,STATE_189,split,approve_selected,,Phase4a: conf=1.0 owner/core conflict auto approve
+1439,STATE_1439,847,STATE_847,split,approve_selected,,Phase3: conf=1.0 issues=4 auto approve
+1440,STATE_1440,,,new_bsr_state,keep_bsr,,Phase1: new_bsr_state auto keep_bsr
+1441,STATE_1441,95,STATE_95,split,approve_selected,,Phase3: conf=1.0 issues=4 auto approve
+1442,STATE_1442,486,STATE_486,split,approve_selected,,Phase3: conf=1.0 issues=3 auto approve
+1443,STATE_1443,763,STATE_763,split,approve_selected,,Phase4b: conf=0.5 owner/core conflict auto approve
+1444,STATE_1444,227,STATE_227,merge,approve_selected,,Phase5: low-conf auto approve (manual review recommended post-import)
+1445,STATE_1445,228,Voroshilovgrad,split,approve_selected,,Phase3: conf=1.0 issues=4 auto approve
+1446,STATE_1446,225,Sumy,split,approve_selected,,Phase4a: conf=1.0 owner/core conflict auto approve
+1447,STATE_1447,50,Württemberg,split,approve_selected,,Phase4c: conf=1.0 resource/building dist auto approve
+1448,STATE_1448,818,STATE_818,split,approve_selected,,Phase4c: conf=0.5 resource/building dist auto approve
+1449,STATE_1449,,,new_bsr_state,keep_bsr,,Phase1: new_bsr_state auto keep_bsr
+1450,STATE_1450,102,STATE_102,split,approve_selected,,Phase3: conf=1.0 issues=3 auto approve
+1451,STATE_1451,,,new_bsr_state,keep_bsr,,Phase1: new_bsr_state auto keep_bsr
+1452,STATE_1452,,,new_bsr_state,keep_bsr,,Phase1: new_bsr_state auto keep_bsr
+1453,STATE_1453,47,Thessaly,split,approve_selected,,Phase4a: conf=1.0 owner/core conflict auto approve
+1454,STATE_1454,12,STATE_12,merge,approve_selected,,Phase4a: conf=1.0 owner/core conflict auto approve
+1455,STATE_1455,199,STATE_199,merge,approve_selected,,Phase4b: conf=0.667 owner/core conflict auto approve
+1456,STATE_1456,362,STATE_362,split,approve_selected,,Phase4c: conf=1.0 resource/building dist auto approve
+1457,STATE_1457,153,STATE_153,split,approve_selected,,Phase3: conf=1.0 issues=4 auto approve
+1458,STATE_1458,102,STATE_102,split,approve_selected,,Phase2: conf=1.0 issues=2 auto approve
+1459,STATE_1459,584,STATE_584,split,approve_selected,,Phase3: conf=1.0 issues=4 auto approve
+1460,STATE_1460,584,STATE_584,split,approve_selected,,Phase3: conf=1.0 issues=4 auto approve
+1461,STATE_1461,584,STATE_584,split,approve_selected,,Phase3: conf=1.0 issues=4 auto approve
+1462,STATE_1462,584,STATE_584,merge,approve_selected,,Phase4a: conf=0.917 owner/core conflict auto approve
+1463,STATE_1463,405,Tashkent,merge,approve_selected,,Phase4b: conf=0.5 owner/core conflict auto approve
+1464,STATE_1464,830,Bukhara,split,approve_selected,,Phase3: conf=1.0 issues=3 auto approve
+1465,STATE_1465,832,STATE_832,split,approve_selected,,Phase4b: conf=0.75 owner/core conflict auto approve
+1466,STATE_1466,584,STATE_584,split,approve_selected,,Phase3: conf=1.0 issues=4 auto approve
+1467,STATE_1467,823,Karakalpakstan,merge,approve_selected,,Phase4a: conf=0.833 owner/core conflict auto approve
+1468,STATE_1468,742,STATE_742,split,approve_selected,,Phase4a: conf=1.0 owner/core conflict auto approve
+1469,STATE_1469,404,Kyzyl Orda,merge,approve_selected,,Phase5: low-conf auto approve (manual review recommended post-import)
+1470,STATE_1470,206,STATE_206,merge,approve_selected,,Phase4b: conf=0.75 owner/core conflict auto approve
+1471,Mozyr,194,Mozyr,split,approve_selected,,Phase3: conf=1.0 issues=3 auto approve
+1472,STATE_1472,52,STATE_52,split,approve_selected,,Phase4c: conf=1.0 resource/building dist auto approve
+1473,STATE_1473,59,STATE_59,split,approve_selected,,Phase4c: conf=1.0 resource/building dist auto approve
+1474,STATE_1474,1004,STATE_1004,merge,approve_selected,,Phase4c: conf=0.667 resource/building dist auto approve
+1475,STATE_1475,266,Tehran,split,approve_selected,,Phase4c: conf=1.0 resource/building dist auto approve
+1476,STATE_1476,,,new_bsr_state,keep_bsr,,Phase1: new_bsr_state auto keep_bsr
+1477,STATE_1477,588,Semipalatinsk,split,approve_selected,,Phase4a: conf=1.0 owner/core conflict auto approve
+1478,STATE_1478,14,STATE_14,split,approve_selected,,Phase4a: conf=1.0 owner/core conflict auto approve
+1479,STATE_1479,678,STATE_678,split,approve_selected,,Phase3: conf=1.0 issues=3 auto approve
+1480,STATE_1480,302,STATE_302,split,approve_selected,,Phase4c: conf=1.0 resource/building dist auto approve
+1481,STATE_1481,503,STATE_503,split,approve_selected,,Phase4c: conf=1.0 resource/building dist auto approve
+1482,STATE_1482,29,STATE_29,split,approve_selected,,Phase4a: conf=1.0 owner/core conflict auto approve
+1483,STATE_1483,,,new_bsr_state,keep_bsr,,Phase1: new_bsr_state auto keep_bsr
+1484,STATE_1484,939,STATE_939,same_name,approve_selected,,Phase2: conf=1.0 issues=2 auto approve
+1485,STATE_1485,94,STATE_94,split,approve_selected,,Phase4a: conf=1.0 owner/core conflict auto approve
+1486,STATE_1486,212,STATE_212,split,approve_selected,,Phase4a: conf=1.0 owner/core conflict auto approve
+1487,STATE_1487,229,STATE_229,split,approve_selected,,Phase4a: conf=1.0 owner/core conflict auto approve
+1488,STATE_1488,859,STATE_859,split,approve_selected,,Phase4c: conf=0.5 resource/building dist auto approve
+1489,STATE_1489,405,Tashkent,split,approve_selected,,Phase5: low-conf auto approve (manual review recommended post-import)
+1490,STATE_1490,202,STATE_202,merge,approve_selected,,Phase4b: conf=0.5 owner/core conflict auto approve
+1491,STATE_1491,202,STATE_202,split,approve_selected,,Phase4a: conf=1.0 owner/core conflict auto approve
+1492,STATE_1492,900,STATE_900,split,approve_selected,,Phase3: conf=1.0 issues=4 auto approve
+1493,STATE_1493,773,Cameroon,split,approve_selected,,Phase3: conf=1.0 issues=4 auto approve
+1494,STATE_1494,367,STATE_367,split,approve_selected,,Phase4c: conf=1.0 resource/building dist auto approve
+1495,STATE_1495,370,STATE_370,split,approve_selected,,Phase3: conf=1.0 issues=3 auto approve
+1496,STATE_1496,370,STATE_370,split,approve_selected,,Phase3: conf=1.0 issues=4 auto approve
+1497,STATE_1497,367,STATE_367,split,approve_selected,,Phase4c: conf=1.0 resource/building dist auto approve
+1498,STATE_1498,856,STATE_856,split,approve_selected,,Phase5: low-conf auto approve (manual review recommended post-import)
+1499,STATE_1499,858,STATE_858,split,approve_selected,,Phase5: low-conf auto approve (manual review recommended post-import)
+1500,STATE_1500,180,STATE_180,split,approve_selected,,Phase4c: conf=1.0 resource/building dist auto approve
+1501,STATE_1501,795,STATE_795,split,approve_selected,,Phase4c: conf=1.0 resource/building dist auto approve
+1502,STATE_1502,179,STATE_179,split,approve_selected,,Phase4c: conf=1.0 resource/building dist auto approve
+1503,STATE_1503,170,STATE_170,split,approve_selected,,Phase4c: conf=1.0 resource/building dist auto approve
+1504,STATE_1504,,,new_bsr_state,keep_bsr,,Phase1: new_bsr_state auto keep_bsr
+1505,STATE_1505,,,new_bsr_state,keep_bsr,,Phase1: new_bsr_state auto keep_bsr
+1506,STATE_1506,58,STATE_58,split,approve_selected,,Phase4c: conf=1.0 resource/building dist auto approve
+1507,STATE_1507,1054,STATE_1054,split,approve_selected,,Phase3: conf=1.0 issues=4 auto approve
+1508,STATE_1508,63,STATE_63,split,approve_selected,,Phase4a: conf=1.0 owner/core conflict auto approve
+1509,STATE_1509,62,STATE_62,split,approve_selected,,Phase4c: conf=1.0 resource/building dist auto approve
+1510,STATE_1510,44,STATE_44,split,approve_selected,,Phase4a: conf=1.0 owner/core conflict auto approve
+1511,STATE_1511,,,new_bsr_state,keep_bsr,,Phase1: new_bsr_state auto keep_bsr
+1512,STATE_1512,,,new_bsr_state,keep_bsr,,Phase1: new_bsr_state auto keep_bsr
+1513,STATE_1513,47,Thessaly,split,approve_selected,,Phase4b: conf=0.667 owner/core conflict auto approve
+1514,STATE_1514,,,new_bsr_state,keep_bsr,,Phase1: new_bsr_state auto keep_bsr
+1515,STATE_1515,845,STATE_845,split,approve_selected,,Phase4c: conf=1.0 resource/building dist auto approve
+1516,STATE_1516,,,new_bsr_state,keep_bsr,,Phase1: new_bsr_state auto keep_bsr
+1517,STATE_1517,378,STATE_378,split,approve_selected,,Phase4a: conf=1.0 owner/core conflict auto approve
+1518,STATE_1518,378,STATE_378,split,approve_selected,,Phase4a: conf=1.0 owner/core conflict auto approve
+1519,STATE_1519,42,STATE_42,split,approve_selected,,Phase4c: conf=1.0 resource/building dist auto approve
+1520,STATE_1520,,,new_bsr_state,keep_bsr,,Phase1: new_bsr_state auto keep_bsr
+1521,STATE_1521,,,new_bsr_state,keep_bsr,,Phase1: new_bsr_state auto keep_bsr
+1522,STATE_1522,,,new_bsr_state,keep_bsr,,Phase1: new_bsr_state auto keep_bsr
+1523,STATE_1523,1043,STATE_1043,same_name,approve_selected,,Phase2: conf=1.0 issues=1 auto approve
+1524,STATE_1524,515,STATE_515,split,approve_selected,,Phase2: conf=1.0 issues=2 auto approve
+1525,STATE_1525,546,STATE_546,split,approve_selected,,Phase4a: conf=1.0 owner/core conflict auto approve
+1526,STATE_1526,546,STATE_546,split,approve_selected,,Phase4a: conf=1.0 owner/core conflict auto approve
+1527,STATE_1527,771,Zambia,split,approve_selected,,Phase4a: conf=1.0 owner/core conflict auto approve
+1528,STATE_1528,981,Barotseland,split,approve_selected,,Phase3: conf=1.0 issues=4 auto approve
+1529,STATE_1529,981,Barotseland,split,approve_selected,,Phase4a: conf=1.0 owner/core conflict auto approve
+1530,Zambia,771,Zambia,split,approve_selected,,Phase4a: conf=1.0 owner/core conflict auto approve
+1531,STATE_1531,545,STATE_545,split,approve_selected,,Phase3: conf=1.0 issues=4 auto approve
+1532,STATE_1532,495,STATE_495,merge,approve_selected,,Phase4c: conf=0.25 resource/building dist auto approve
+1533,STATE_1533,,,new_bsr_state,keep_bsr,,Phase1: new_bsr_state auto keep_bsr
+1534,STATE_1534,542,STATE_542,split,approve_selected,,Phase4b: conf=0.5 owner/core conflict auto approve
+1535,STATE_1535,,,new_bsr_state,keep_bsr,,Phase1: new_bsr_state auto keep_bsr
+1536,STATE_1536,542,STATE_542,split,approve_selected,,Phase3: conf=1.0 issues=4 auto approve
+1537,STATE_1537,542,STATE_542,split,approve_selected,,Phase4a: conf=1.0 owner/core conflict auto approve
+1538,STATE_1538,,,new_bsr_state,keep_bsr,,Phase1: new_bsr_state auto keep_bsr
+1539,STATE_1539,889,STATE_889,split,approve_selected,,Phase4b: conf=0.6 owner/core conflict auto approve
+1540,STATE_1540,718,STATE_718,split,approve_selected,,Phase4c: conf=1.0 resource/building dist auto approve
+1541,STATE_1541,896,STATE_896,split,approve_selected,,Phase3: conf=1.0 issues=3 auto approve
+1542,STATE_1542,544,STATE_544,merge,approve_selected,,Phase4c: conf=0.75 resource/building dist auto approve
+1543,STATE_1543,541,STATE_541,merge,approve_selected,,Phase4b: conf=0.5 owner/core conflict auto approve
+1544,STATE_1544,894,STATE_894,merge,approve_selected,,Phase3: conf=1.0 issues=4 auto approve
+1545,STATE_1545,998,STATE_998,split,approve_selected,,Phase3: conf=1.0 issues=4 auto approve
+1546,STATE_1546,,,new_bsr_state,keep_bsr,,Phase1: new_bsr_state auto keep_bsr
+1547,STATE_1547,,,new_bsr_state,keep_bsr,,Phase1: new_bsr_state auto keep_bsr
+1548,STATE_1548,297,Equatorial Guinea,split,approve_selected,,Phase3: conf=1.0 issues=4 auto approve
+1549,STATE_1549,,,new_bsr_state,keep_bsr,,Phase1: new_bsr_state auto keep_bsr
+1550,STATE_1550,,,new_bsr_state,keep_bsr,,Phase1: new_bsr_state auto keep_bsr
+1551,STATE_1551,,,new_bsr_state,keep_bsr,,Phase1: new_bsr_state auto keep_bsr
+1552,STATE_1552,354,STATE_354,split,approve_selected,,Phase4a: conf=1.0 owner/core conflict auto approve
+1553,STATE_1553,91,Lwow,split,approve_selected,,Phase3: conf=1.0 issues=4 auto approve
+1554,STATE_1554,976,STATE_976,split,approve_selected,,Phase4a: conf=1.0 owner/core conflict auto approve
+1555,STATE_1555,93,STATE_93,split,approve_selected,,Phase4a: conf=1.0 owner/core conflict auto approve
+1556,STATE_1556,,,new_bsr_state,keep_bsr,,Phase1: new_bsr_state auto keep_bsr
+1557,STATE_1557,94,STATE_94,split,approve_selected,,Phase3: conf=1.0 issues=4 auto approve
+1558,STATE_1558,88,STATE_88,split,approve_selected,,Phase4a: conf=1.0 owner/core conflict auto approve
+1559,STATE_1559,36,STATE_36,split,approve_selected,,Phase4a: conf=1.0 owner/core conflict auto approve
+1560,STATE_1560,86,STATE_86,split,approve_selected,,Phase3: conf=1.0 issues=4 auto approve
+1561,STATE_1561,807,STATE_807,split,approve_selected,,Phase4a: conf=1.0 owner/core conflict auto approve
+1562,STATE_1562,463,STATE_463,split,approve_selected,,Phase4a: conf=1.0 owner/core conflict auto approve
+1563,STATE_1563,784,STATE_784,split,approve_selected,,Phase3: conf=1.0 issues=4 auto approve
+1564,STATE_1564,463,STATE_463,split,approve_selected,,Phase4a: conf=1.0 owner/core conflict auto approve
+1565,STATE_1565,,,new_bsr_state,keep_bsr,,Phase1: new_bsr_state auto keep_bsr
+1566,STATE_1566,377,STATE_377,split,approve_selected,,Phase4c: conf=1.0 resource/building dist auto approve
+1567,STATE_1567,376,STATE_376,split,approve_selected,,Phase4c: conf=1.0 resource/building dist auto approve
+1568,STATE_1568,855,STATE_855,split,approve_selected,,Phase4b: conf=0.75 owner/core conflict auto approve
+1569,Arabian Desert,457,Arabian Desert,split,approve_selected,,Phase3: conf=1.0 issues=4 auto approve
+1570,STATE_1570,73,STATE_73,split,approve_selected,,Phase4a: conf=1.0 owner/core conflict auto approve
+1571,STATE_1571,137,STATE_137,split,approve_selected,,Phase4a: conf=1.0 owner/core conflict auto approve
+1572,STATE_1572,928,KYME,split,approve_selected,,Phase3: conf=1.0 issues=4 auto approve
+1573,STATE_1573,819,STATE_819,split,approve_selected,,Phase3: conf=1.0 issues=4 auto approve
+1574,STATE_1574,957,STATE_957,merge,approve_selected,,Phase4c: conf=0.5 resource/building dist auto approve
+1575,STATE_1575,513,Tlmecen,merge,approve_selected,,Phase4b: conf=0.625 owner/core conflict auto approve
+1576,STATE_1576,950,STATE_950,merge,approve_selected,,Phase4c: conf=0.8 resource/building dist auto approve
+1577,STATE_1577,459,Algiers,merge,approve_selected,,Phase4b: conf=0.7 owner/core conflict auto approve
+1578,STATE_1578,503,STATE_503,merge,approve_selected,,Phase4c: conf=0.75 resource/building dist auto approve
+1579,STATE_1579,952,STATE_952,merge,approve_selected,,Phase4c: conf=0.667 resource/building dist auto approve
+1580,STATE_1580,959,STATE_959,split,approve_selected,,Phase3: conf=1.0 issues=4 auto approve
+1581,STATE_1581,17,Lorraine,split,approve_selected,,Phase3: conf=1.0 issues=3 auto approve
+1582,STATE_1582,785,STATE_785,split,approve_selected,,Phase4b: conf=0.667 owner/core conflict auto approve
+1583,STATE_1583,,,new_bsr_state,keep_bsr,,Phase1: new_bsr_state auto keep_bsr
+1584,STATE_1584,,,new_bsr_state,keep_bsr,,Phase1: new_bsr_state auto keep_bsr
+1585,STATE_1585,,,new_bsr_state,keep_bsr,,Phase1: new_bsr_state auto keep_bsr
+1586,STATE_1586,454,Palestine,split,approve_selected,,Phase4a: conf=1.0 owner/core conflict auto approve
+1587,STATE_1587,98,STATE_98,split,approve_selected,,Phase3: conf=1.0 issues=4 auto approve
+1588,STATE_1588,88,STATE_88,split,approve_selected,,Phase4a: conf=1.0 owner/core conflict auto approve
+1589,STATE_1589,92,STATE_92,split,approve_selected,,Phase4a: conf=1.0 owner/core conflict auto approve
+1590,STATE_1590,93,STATE_93,split,approve_selected,,Phase3: conf=1.0 issues=4 auto approve
+1591,STATE_1591,,,new_bsr_state,keep_bsr,,Phase1: new_bsr_state auto keep_bsr
+1592,STATE_1592,,,new_bsr_state,keep_bsr,,Phase1: new_bsr_state auto keep_bsr
+1593,STATE_1593,,,new_bsr_state,keep_bsr,,Phase1: new_bsr_state auto keep_bsr
+1594,STATE_1594,101,STATE_101,split,approve_selected,,Phase4a: conf=1.0 owner/core conflict auto approve
+1595,STATE_1595,184,STATE_184,split,approve_selected,,Phase4a: conf=1.0 owner/core conflict auto approve
+1596,STATE_1596,161,STATE_161,split,approve_selected,,Phase4a: conf=1.0 owner/core conflict auto approve
+1597,STATE_1597,276,Southern Ontario,split,approve_selected,,Phase3: conf=1.0 issues=4 auto approve
+1598,STATE_1598,,,new_bsr_state,keep_bsr,,Phase1: new_bsr_state auto keep_bsr
+1599,STATE_1599,88,STATE_88,split,approve_selected,,Phase4a: conf=1.0 owner/core conflict auto approve
+1600,STATE_1600,763,STATE_763,split,approve_selected,,Phase4b: conf=0.75 owner/core conflict auto approve
+1601,STATE_1601,47,Thessaly,merge,approve_selected,,Phase4b: conf=0.5 owner/core conflict auto approve
+1602,STATE_1602,94,STATE_94,split,approve_selected,,Phase4a: conf=1.0 owner/core conflict auto approve
+1603,STATE_1603,,,new_bsr_state,keep_bsr,,Phase1: new_bsr_state auto keep_bsr
+1604,STATE_1604,11,STATE_11,merge,approve_selected,,Phase4b: conf=0.5 owner/core conflict auto approve
+1605,STATE_1605,487,STATE_487,split,approve_selected,,Phase3: conf=1.0 issues=4 auto approve
+1606,STATE_1606,,,new_bsr_state,keep_bsr,,Phase1: new_bsr_state auto keep_bsr
+1607,STATE_1607,682,STATE_682,split,approve_selected,,Phase3: conf=1.0 issues=4 auto approve
+1608,STATE_1608,391,STATE_391,split,approve_selected,,Phase4c: conf=0.667 resource/building dist auto approve
+1609,STATE_1609,,,new_bsr_state,keep_bsr,,Phase1: new_bsr_state auto keep_bsr
+1610,STATE_1610,389,STATE_389,split,approve_selected,,Phase4c: conf=0.8 resource/building dist auto approve
+1611,STATE_1611,65,STATE_65,split,approve_selected,,Phase4a: conf=1.0 owner/core conflict auto approve
+1612,STATE_1612,,,new_bsr_state,keep_bsr,,Phase1: new_bsr_state auto keep_bsr
+1613,STATE_1613,,,new_bsr_state,keep_bsr,,Phase1: new_bsr_state auto keep_bsr
+1614,STATE_1614,,,new_bsr_state,keep_bsr,,Phase1: new_bsr_state auto keep_bsr
+1615,STATE_1615,371,STATE_371,split,approve_selected,,Phase5: low-conf auto approve (manual review recommended post-import)
+1616,STATE_1616,375,STATE_375,split,approve_selected,,Phase4b: conf=0.75 owner/core conflict auto approve
+1617,STATE_1617,66,STATE_66,split,approve_selected,,Phase4a: conf=1.0 owner/core conflict auto approve
+1618,STATE_1618,371,STATE_371,split,approve_selected,,Phase3: conf=1.0 issues=4 auto approve
+1619,STATE_1619,206,STATE_206,merge,approve_selected,,Phase4b: conf=0.5 owner/core conflict auto approve
+1620,STATE_1620,207,STATE_207,split,approve_selected,,Phase3: conf=1.0 issues=4 auto approve
+1621,STATE_1621,463,STATE_463,split,approve_selected,,Phase4a: conf=1.0 owner/core conflict auto approve
+1622,STATE_1622,31,STATE_31,split,approve_selected,,Phase3: conf=1.0 issues=4 auto approve
+1623,STATE_1623,376,STATE_376,split,approve_selected,,Phase4c: conf=1.0 resource/building dist auto approve
+1624,STATE_1624,198,STATE_198,split,approve_selected,,Phase3: conf=1.0 issues=4 auto approve
+1625,STATE_1625,1054,STATE_1054,split,approve_selected,,Phase4b: conf=0.5 owner/core conflict auto approve
+1626,Varsinais Suomi / Finland Proper,926,TURKU AND PORI,merge,approve_selected,,Phase4b: conf=0.75 owner/core conflict auto approve
+1627,Savo / Tavastland / Tavastia,927,HÄME,merge,approve_selected,,Phase4b: conf=0.714 owner/core conflict auto approve
+1628,Savo / Tavastland / Tavastia,929,OULU,merge,approve_selected,,Phase4a: conf=0.818 owner/core conflict auto approve
+1629,Savo / Tavastland / Tavastia,929,OULU,merge,approve_selected,,Phase4a: conf=0.889 owner/core conflict auto approve
+1630,Savo / Tavastland / Tavastia,148,LAPPI,merge,approve_selected,,Phase4b: conf=0.533 owner/core conflict auto approve
+1631,Vaasa,149,VAASA,merge,approve_selected,,Phase4a: conf=0.8 owner/core conflict auto approve
+1632,STATE_1632,382,STATE_382,split,approve_selected,,Phase4c: conf=0.5 resource/building dist auto approve
+1633,STATE_1633,,,new_bsr_state,keep_bsr,,Phase1: new_bsr_state auto keep_bsr
+1634,STATE_1634,,,new_bsr_state,keep_bsr,,Phase1: new_bsr_state auto keep_bsr
+1635,STATE_1635,,,new_bsr_state,keep_bsr,,Phase1: new_bsr_state auto keep_bsr
+1636,STATE_1636,,,new_bsr_state,keep_bsr,,Phase1: new_bsr_state auto keep_bsr
+1637,STATE_1637,142,STATE_142,merge,approve_selected,,Phase4b: conf=0.6 owner/core conflict auto approve
+1638,STATE_1638,920,STATE_920,merge,approve_selected,,Phase4a: conf=0.8 owner/core conflict auto approve
+1639,STATE_1639,,,new_bsr_state,keep_bsr,,Phase1: new_bsr_state auto keep_bsr
+1640,STATE_1640,385,STATE_385,split,approve_selected,,Phase3: conf=1.0 issues=4 auto approve
+1641,STATE_1641,387,STATE_387,split,approve_selected,,Phase4c: conf=1.0 resource/building dist auto approve
+1642,STATE_1642,,,new_bsr_state,keep_bsr,,Phase1: new_bsr_state auto keep_bsr
+1643,STATE_1643,,,new_bsr_state,keep_bsr,,Phase1: new_bsr_state auto keep_bsr
+1644,STATE_1644,687,STATE_687,split,approve_selected,,Phase4c: conf=1.0 resource/building dist auto approve
+1645,STATE_1645,,,new_bsr_state,keep_bsr,,Phase1: new_bsr_state auto keep_bsr
+1646,STATE_1646,,,new_bsr_state,keep_bsr,,Phase1: new_bsr_state auto keep_bsr
+1647,STATE_1647,,,new_bsr_state,keep_bsr,,Phase1: new_bsr_state auto keep_bsr
+1648,STATE_1648,357,STATE_357,split,approve_selected,,Phase4b: conf=0.5 owner/core conflict auto approve
+1649,STATE_1649,385,STATE_385,split,approve_selected,,Phase3: conf=1.0 issues=3 auto approve
+1650,STATE_1650,,,new_bsr_state,keep_bsr,,Phase1: new_bsr_state auto keep_bsr
+1651,STATE_1651,,,new_bsr_state,keep_bsr,,Phase1: new_bsr_state auto keep_bsr
+1652,STATE_1652,381,STATE_381,split,approve_selected,,Phase3: conf=1.0 issues=4 auto approve
+1653,STATE_1653,,,new_bsr_state,keep_bsr,,Phase1: new_bsr_state auto keep_bsr
+1654,STATE_1654,22,Languedoc,merge,approve_selected,,Phase4c: conf=0.833 resource/building dist auto approve
+1655,STATE_1655,63,STATE_63,split,approve_selected,,Phase4a: conf=1.0 owner/core conflict auto approve
+1656,STATE_1656,95,STATE_95,split,approve_selected,,Phase3: conf=1.0 issues=4 auto approve
+1657,STATE_1657,919,STATE_919,merge,approve_selected,,Phase4c: conf=1.0 resource/building dist auto approve
+1658,STATE_1658,466,STATE_466,split,approve_selected,,Phase4c: conf=0.833 resource/building dist auto approve
+1659,STATE_1659,332,STATE_332,split,approve_selected,,Phase3: conf=1.0 issues=3 auto approve
+1660,STATE_1660,,,new_bsr_state,keep_bsr,,Phase1: new_bsr_state auto keep_bsr
+1661,STATE_1661,339,STATE_339,split,approve_selected,,Phase4c: conf=1.0 resource/building dist auto approve
+1662,STATE_1662,340,STATE_340,merge,approve_selected,,Phase4b: conf=0.5 owner/core conflict auto approve
+1663,STATE_1663,343,Afyon,merge,approve_selected,,Phase4c: conf=0.4 resource/building dist auto approve
+1664,STATE_1664,344,STATE_344,same_name,approve_selected,,Phase2: conf=1.0 issues=1 auto approve
+1665,STATE_1665,,,new_bsr_state,keep_bsr,,Phase1: new_bsr_state auto keep_bsr
+1666,STATE_1666,1074,STATE_1074,same_name,approve_selected,,Phase2: conf=1.0 issues=2 auto approve
+1667,STATE_1667,472,STATE_472,split,approve_selected,,Phase3: conf=1.0 issues=3 auto approve
+1668,STATE_1668,472,STATE_472,split,approve_selected,,Phase4c: conf=0.333 resource/building dist auto approve
+1669,STATE_1669,865,STATE_865,split,approve_selected,,Phase3: conf=1.0 issues=3 auto approve
+1670,STATE_1670,867,STATE_867,split,approve_selected,,Phase3: conf=1.0 issues=3 auto approve
+1671,STATE_1671,866,STATE_866,split,approve_selected,,Phase3: conf=1.0 issues=3 auto approve
+1672,STATE_1672,866,STATE_866,merge,approve_selected,,Phase4c: conf=0.75 resource/building dist auto approve
+1673,STATE_1673,,,new_bsr_state,keep_bsr,,Phase1: new_bsr_state auto keep_bsr
+1674,STATE_1674,,,new_bsr_state,keep_bsr,,Phase1: new_bsr_state auto keep_bsr
+1675,STATE_1675,339,STATE_339,split,approve_selected,,Phase4c: conf=1.0 resource/building dist auto approve
+1676,STATE_1676,379,STATE_379,split,approve_selected,,Phase4c: conf=0.5 resource/building dist auto approve
+1677,STATE_1677,,,new_bsr_state,keep_bsr,,Phase1: new_bsr_state auto keep_bsr
+1678,STATE_1678,356,Kastamonu,split,approve_selected,,Phase3: conf=1.0 issues=4 auto approve
+1679,STATE_1679,4,STATE_4,split,approve_selected,,Phase4a: conf=1.0 owner/core conflict auto approve
+1680,STATE_1680,,,new_bsr_state,keep_bsr,,Phase1: new_bsr_state auto keep_bsr
+1681,STATE_1681,261,STATE_261,split,approve_selected,,Phase4c: conf=1.0 resource/building dist auto approve
+1682,STATE_1682,360,STATE_360,split,approve_selected,,Phase4c: conf=1.0 resource/building dist auto approve
+1683,STATE_1683,360,STATE_360,split,approve_selected,,Phase4c: conf=0.917 resource/building dist auto approve
+1684,STATE_1684,358,STATE_358,split,approve_selected,,Phase4c: conf=1.0 resource/building dist auto approve
+1685,STATE_1685,,,new_bsr_state,keep_bsr,,Phase1: new_bsr_state auto keep_bsr
+1686,STATE_1686,682,STATE_682,split,approve_selected,,Phase4c: conf=1.0 resource/building dist auto approve
+1687,STATE_1687,862,STATE_862,merge,approve_selected,,Phase4c: conf=0.625 resource/building dist auto approve
+1688,STATE_1688,502,STATE_502,split,approve_selected,,Phase3: conf=1.0 issues=4 auto approve
+1689,STATE_1689,378,STATE_378,split,approve_selected,,Phase4a: conf=1.0 owner/core conflict auto approve
+1690,STATE_1690,378,STATE_378,split,approve_selected,,Phase4a: conf=1.0 owner/core conflict auto approve
+1691,STATE_1691,378,STATE_378,split,approve_selected,,Phase4a: conf=1.0 owner/core conflict auto approve
+1692,STATE_1692,378,STATE_378,split,approve_selected,,Phase4a: conf=1.0 owner/core conflict auto approve
+1693,STATE_1693,378,STATE_378,split,approve_selected,,Phase4a: conf=1.0 owner/core conflict auto approve
+1694,STATE_1694,378,STATE_378,split,approve_selected,,Phase4a: conf=1.0 owner/core conflict auto approve
+1695,STATE_1695,378,STATE_378,split,approve_selected,,Phase4a: conf=1.0 owner/core conflict auto approve
+1696,STATE_1696,378,STATE_378,split,approve_selected,,Phase4a: conf=1.0 owner/core conflict auto approve
+1697,STATE_1697,375,STATE_375,split,approve_selected,,Phase4a: conf=1.0 owner/core conflict auto approve
+1698,STATE_1698,375,STATE_375,split,approve_selected,,Phase4a: conf=1.0 owner/core conflict auto approve
+1699,STATE_1699,375,STATE_375,split,approve_selected,,Phase4a: conf=1.0 owner/core conflict auto approve
+1700,STATE_1700,63,STATE_63,split,approve_selected,,Phase4a: conf=1.0 owner/core conflict auto approve
+1701,STATE_1701,63,STATE_63,split,approve_selected,,Phase4a: conf=1.0 owner/core conflict auto approve
+1702,STATE_1702,68,STATE_68,split,approve_selected,,Phase4c: conf=1.0 resource/building dist auto approve
+1703,STATE_1703,,,new_bsr_state,keep_bsr,,Phase1: new_bsr_state auto keep_bsr
+1704,STATE_1704,348,Kayseri,split,approve_selected,,Phase4c: conf=1.0 resource/building dist auto approve
+1705,STATE_1705,66,STATE_66,split,approve_selected,,Phase4c: conf=1.0 resource/building dist auto approve
+1706,STATE_1706,66,STATE_66,split,approve_selected,,Phase4c: conf=1.0 resource/building dist auto approve
+1707,STATE_1707,342,Antalya,split,approve_selected,,Phase4c: conf=1.0 resource/building dist auto approve
+1708,STATE_1708,130,STATE_130,split,approve_selected,,Phase4c: conf=1.0 resource/building dist auto approve
+1709,STATE_1709,123,STATE_123,merge,approve_selected,,Phase4c: conf=0.667 resource/building dist auto approve
+1710,STATE_1710,9,STATE_9,merge,approve_selected,,Phase4b: conf=0.5 owner/core conflict auto approve
+1711,STATE_1711,,,new_bsr_state,keep_bsr,,Phase1: new_bsr_state auto keep_bsr
+1712,STATE_1712,92,STATE_92,split,approve_selected,,Phase3: conf=1.0 issues=4 auto approve
+1713,STATE_1713,,,new_bsr_state,keep_bsr,,Phase1: new_bsr_state auto keep_bsr
+1714,STATE_1714,,,new_bsr_state,keep_bsr,,Phase1: new_bsr_state auto keep_bsr
+1715,STATE_1715,170,STATE_170,split,approve_selected,,Phase4c: conf=1.0 resource/building dist auto approve
+1716,STATE_1716,41,STATE_41,split,approve_selected,,Phase4c: conf=1.0 resource/building dist auto approve
+1717,STATE_1717,793,STATE_793,split,approve_selected,,Phase3: conf=1.0 issues=4 auto approve
+1718,STATE_1718,177,STATE_177,split,approve_selected,,Phase3: conf=1.0 issues=4 auto approve
+1719,STATE_1719,168,STATE_168,split,approve_selected,,Phase3: conf=1.0 issues=4 auto approve
+1720,STATE_1720,166,STATE_166,merge,approve_selected,,Phase4c: conf=0.8 resource/building dist auto approve
+1721,STATE_1721,794,STATE_794,split,approve_selected,,Phase3: conf=1.0 issues=4 auto approve
+1722,STATE_1722,790,STATE_790,split,approve_selected,,Phase4c: conf=1.0 resource/building dist auto approve
+1723,STATE_1723,176,STATE_176,split,approve_selected,,Phase3: conf=1.0 issues=4 auto approve
+1724,STATE_1724,41,STATE_41,split,approve_selected,,Phase4c: conf=1.0 resource/building dist auto approve
+1725,STATE_1725,790,STATE_790,split,approve_selected,,Phase4c: conf=1.0 resource/building dist auto approve
+1726,STATE_1726,430,STATE_430,split,approve_selected,,Phase3: conf=1.0 issues=4 auto approve
+1727,STATE_1727,,,new_bsr_state,keep_bsr,,Phase1: new_bsr_state auto keep_bsr
+1728,STATE_1728,807,STATE_807,split,approve_selected,,Phase4a: conf=1.0 owner/core conflict auto approve
+1729,STATE_1729,70,STATE_70,merge,approve_selected,,Phase4b: conf=0.714 owner/core conflict auto approve
+1730,STATE_1730,20,Rhone,split,approve_selected,,Phase4a: conf=1.0 owner/core conflict auto approve
+1731,STATE_1731,1048,Moselgebiet,split,approve_selected,,Phase3: conf=1.0 issues=4 auto approve
+1732,STATE_1732,18,STATE_18,split,approve_selected,,Phase4b: conf=0.5 owner/core conflict auto approve
+1733,STATE_1733,17,Lorraine,split,approve_selected,,Phase3: conf=1.0 issues=4 auto approve
+1734,STATE_1734,17,Lorraine,merge,approve_selected,,Phase4b: conf=0.5 owner/core conflict auto approve
+1735,impassable = yes #we do a substantial amount of trolling,,,new_bsr_state,keep_bsr,,Phase1: new_bsr_state auto keep_bsr
+1736,impassable = yes #we do a substantial amount of trolling,,,new_bsr_state,keep_bsr,,Phase1: new_bsr_state auto keep_bsr
+1737,STATE_1737,88,STATE_88,split,approve_selected,,Phase4a: conf=1.0 owner/core conflict auto approve
+1738,STATE_1738,618,Dzungaria,split,approve_selected,,Phase3: conf=1.0 issues=4 auto approve
+1739,STATE_1739,617,STATE_617,merge,approve_selected,,Phase4b: conf=0.5 owner/core conflict auto approve
+1740,STATE_1740,322,STATE_322,merge,approve_selected,,Phase4c: conf=0.8 resource/building dist auto approve
+1741,STATE_1741,758,STATE_758,split,approve_selected,,Phase3: conf=1.0 issues=3 auto approve
+1742,STATE_1742,,,new_bsr_state,keep_bsr,,Phase1: new_bsr_state auto keep_bsr
+1743,STATE_1743,604,STATE_604,split,approve_selected,,Phase3: conf=1.0 issues=3 auto approve
+1744,STATE_1744,,,new_bsr_state,keep_bsr,,Phase1: new_bsr_state auto keep_bsr
+1745,STATE_1745,,,new_bsr_state,keep_bsr,,Phase1: new_bsr_state auto keep_bsr
+1746,STATE_1746,,,new_bsr_state,keep_bsr,,Phase1: new_bsr_state auto keep_bsr
+1747,STATE_1747,747,STATE_747,split,approve_selected,,Phase4a: conf=1.0 owner/core conflict auto approve
+1748,STATE_1748,,,new_bsr_state,keep_bsr,,Phase1: new_bsr_state auto keep_bsr
+1749,STATE_1749,747,STATE_747,split,approve_selected,,Phase3: conf=1.0 issues=4 auto approve
+1750,STATE_1750,325,STATE_325,merge,approve_selected,,Phase4b: conf=0.5 owner/core conflict auto approve
+1751,STATE_1751,1046,STATE_1046,same_name,approve_selected,,Phase2: conf=1.0 issues=1 auto approve
+1752,STATE_1752,,,new_bsr_state,keep_bsr,,Phase1: new_bsr_state auto keep_bsr
+1753,STATE_1753,616,STATE_616,split,approve_selected,,Phase4b: conf=0.5 owner/core conflict auto approve
+1754,STATE_1754,34,STATE_34,split,approve_selected,,Phase4b: conf=0.667 owner/core conflict auto approve
+1755,STATE_1755,157,STATE_157,split,approve_selected,,Phase4b: conf=0.667 owner/core conflict auto approve
+1756,STATE_1756,161,STATE_161,split,approve_selected,,Phase4b: conf=0.667 owner/core conflict auto approve
+1757,STATE_1757,157,STATE_157,split,approve_selected,,Phase3: conf=1.0 issues=4 auto approve
+1758,STATE_1758,162,STATE_162,split,approve_selected,,Phase4a: conf=1.0 owner/core conflict auto approve
+1759,Languedoc,22,Languedoc,split,approve_selected,,Phase4c: conf=1.0 resource/building dist auto approve
+1760,STATE_1760,22,Languedoc,split,approve_selected,,Phase4c: conf=1.0 resource/building dist auto approve
+1761,STATE_1761,31,STATE_31,split,approve_selected,,Phase3: conf=1.0 issues=4 auto approve
+1762,STATE_1762,925,STATE_925,split,approve_selected,,Phase3: conf=1.0 issues=4 auto approve
+1763,STATE_1763,,,new_bsr_state,keep_bsr,,Phase1: new_bsr_state auto keep_bsr
+1764,STATE_1764,50,Württemberg,split,approve_selected,,Phase4c: conf=1.0 resource/building dist auto approve
+1765,STATE_1765,,,new_bsr_state,keep_bsr,,Phase1: new_bsr_state auto keep_bsr
+1766,STATE_1766,,,new_bsr_state,keep_bsr,,Phase1: new_bsr_state auto keep_bsr
+1767,STATE_1767,55,STATE_55,split,approve_selected,,Phase4a: conf=1.0 owner/core conflict auto approve
+1768,STATE_1768,91,Lwow,split,approve_selected,,Phase4b: conf=0.5 owner/core conflict auto approve
+1769,STATE_1769,89,STATE_89,split,approve_selected,,Phase3: conf=1.0 issues=4 auto approve
+1770,STATE_1770,,,new_bsr_state,keep_bsr,,Phase1: new_bsr_state auto keep_bsr
+1771,STATE_1771,199,STATE_199,split,approve_selected,,Phase3: conf=1.0 issues=4 auto approve
+1772,STATE_1772,199,STATE_199,split,approve_selected,,Phase3: conf=1.0 issues=4 auto approve
+1773,STATE_1773,1087,STATE_1087,same_name,approve_selected,,Phase2: conf=1.0 issues=1 auto approve
+1774,Gomel,241,Gomel,split,approve_selected,,Phase3: conf=1.0 issues=4 auto approve
+1775,STATE_1775,87,STATE_87,merge,approve_selected,,Phase4b: conf=0.5 owner/core conflict auto approve
+1776,STATE_1776,,,new_bsr_state,keep_bsr,,Phase1: new_bsr_state auto keep_bsr
+1777,STATE_1777,755,STATE_755,split,approve_selected,,Phase3: conf=1.0 issues=4 auto approve
+1778,STATE_1778,754,STATE_754,split,approve_selected,,Phase4b: conf=0.5 owner/core conflict auto approve
+1779,STATE_1779,754,STATE_754,split,approve_selected,,Phase4a: conf=1.0 owner/core conflict auto approve
+1780,STATE_1780,283,STATE_283,same_name,approve_selected,,Phase2: conf=1.0 issues=1 auto approve
+1781,STATE_1781,754,STATE_754,split,approve_selected,,Phase3: conf=1.0 issues=4 auto approve
+1782,STATE_1782,,,new_bsr_state,keep_bsr,,Phase1: new_bsr_state auto keep_bsr
+1783,STATE_1783,,,new_bsr_state,keep_bsr,,Phase1: new_bsr_state auto keep_bsr
+1784,STATE_1784,756,STATE_756,merge,approve_selected,,Phase4b: conf=0.5 owner/core conflict auto approve
+1785,STATE_1785,756,STATE_756,split,approve_selected,,Phase3: conf=1.0 issues=3 auto approve
+1786,STATE_1786,285,STATE_285,split,approve_selected,,Phase4c: conf=1.0 resource/building dist auto approve
+1787,STATE_1787,,,new_bsr_state,keep_bsr,,Phase1: new_bsr_state auto keep_bsr
+1788,STATE_1788,,,new_bsr_state,keep_bsr,,Phase1: new_bsr_state auto keep_bsr
+1789,STATE_1789,,,new_bsr_state,keep_bsr,,Phase1: new_bsr_state auto keep_bsr
+1790,STATE_1790,,,new_bsr_state,keep_bsr,,Phase1: new_bsr_state auto keep_bsr
+1791,STATE_1791,,,new_bsr_state,keep_bsr,,Phase1: new_bsr_state auto keep_bsr
+1792,STATE_1792,,,new_bsr_state,keep_bsr,,Phase1: new_bsr_state auto keep_bsr
+1793,STATE_1793,,,new_bsr_state,keep_bsr,,Phase1: new_bsr_state auto keep_bsr
+1794,STATE_1794,325,STATE_325,merge,approve_selected,,Phase4b: conf=0.5 owner/core conflict auto approve
+1795,STATE_1795,,,new_bsr_state,keep_bsr,,Phase1: new_bsr_state auto keep_bsr
+1796,STATE_1796,510,STATE_510,split,approve_selected,,Phase4c: conf=1.0 resource/building dist auto approve
+1797,STATE_1797,510,STATE_510,split,approve_selected,,Phase4c: conf=1.0 resource/building dist auto approve
+1798,STATE_1798,26,Auveregne,merge,approve_selected,,Phase5: low-conf auto approve (manual review recommended post-import)
+1799,STATE_1799,27,Bourgogne,merge,approve_selected,,Phase4c: conf=0.667 resource/building dist auto approve
+1800,STATE_1800,20,Rhone,split,approve_selected,,Phase3: conf=1.0 issues=4 auto approve
+1801,STATE_1801,21,Bouches-du-Rhône (Formerly Provence before Var split off),merge,approve_selected,,Phase4c: conf=0.5 resource/building dist auto approve
+1802,STATE_1802,158,STATE_158,split,approve_selected,,Phase4a: conf=1.0 owner/core conflict auto approve
+1803,STATE_1803,72,STATE_72,split,approve_selected,,Phase3: conf=1.0 issues=4 auto approve
+1804,STATE_1804,62,STATE_62,split,approve_selected,,Phase4c: conf=0.5 resource/building dist auto approve
+1805,STATE_1805,59,STATE_59,split,approve_selected,,Phase4c: conf=1.0 resource/building dist auto approve
+1806,STATE_1806,956,STATE_956,merge,approve_selected,,Phase4c: conf=0.833 resource/building dist auto approve
+1807,STATE_1807,977,Antwerpen,split,approve_selected,,Phase4a: conf=1.0 owner/core conflict auto approve
+1808,STATE_1808,977,Antwerpen,split,approve_selected,,Phase4a: conf=1.0 owner/core conflict auto approve
+1809,Pampas,278,Pampas,split,approve_selected,,Phase4c: conf=1.0 resource/building dist auto approve
+1810,STATE_1810,,,new_bsr_state,keep_bsr,,Phase1: new_bsr_state auto keep_bsr
+1811,STATE_1811,5,STATE_5,split,approve_selected,,Phase4b: conf=0.667 owner/core conflict auto approve
+1812,STATE_1812,,,new_bsr_state,keep_bsr,,Phase1: new_bsr_state auto keep_bsr
+1813,STATE_1813,773,Cameroon,split,approve_selected,,Phase3: conf=1.0 issues=4 auto approve
+1814,Mali (previously French West Africa),899,STATE_899,province_overlap,approve_selected,,Phase2: conf=1.0 issues=1 auto approve
+1815,Mali (previously French West Africa),898,STATE_898,province_overlap,approve_selected,,Phase2: conf=1.0 issues=1 auto approve
+1816,Guinea,780,Guinea,split,approve_selected,,Phase3: conf=1.0 issues=4 auto approve
+1817,STATE_1817,422,STATE_422,split,approve_selected,,Phase3: conf=1.0 issues=4 auto approve
+1818,STATE_1818,1005,STATE_1005,merge,approve_selected,,Phase4b: conf=0.6 owner/core conflict auto approve
+1819,STATE_1819,,,new_bsr_state,keep_bsr,,Phase1: new_bsr_state auto keep_bsr
+1820,STATE_1820,,,new_bsr_state,keep_bsr,,Phase1: new_bsr_state auto keep_bsr
+1821,STATE_1821,1005,STATE_1005,merge,approve_selected,,Phase4b: conf=0.5 owner/core conflict auto approve
+1822,STATE_1822,1006,STATE_1006,merge,approve_selected,,Phase4c: conf=0.5 resource/building dist auto approve
+1823,STATE_1823,60,STATE_60,split,approve_selected,,Phase4a: conf=1.0 owner/core conflict auto approve
+1824,STATE_1824,,,new_bsr_state,keep_bsr,,Phase1: new_bsr_state auto keep_bsr
+1825,STATE_1825,659,STATE_659,split,approve_selected,,Phase3: conf=1.0 issues=3 auto approve
+1826,STATE_1826,678,STATE_678,split,approve_selected,,Phase3: conf=1.0 issues=3 auto approve
+1827,STATE_1827,,,new_bsr_state,keep_bsr,,Phase1: new_bsr_state auto keep_bsr
+1828,STATE_1828,404,Kyzyl Orda,split,approve_selected,,Phase3: conf=1.0 issues=4 auto approve
+1829,Magallanes,507,Magallanes,split,approve_selected,,Phase3: conf=1.0 issues=4 auto approve
+1830,STATE_1830,,,new_bsr_state,keep_bsr,,Phase1: new_bsr_state auto keep_bsr
+1831,STATE_1831,,,new_bsr_state,keep_bsr,,Phase1: new_bsr_state auto keep_bsr
+1832,STATE_1832,,,new_bsr_state,keep_bsr,,Phase1: new_bsr_state auto keep_bsr
+1833,STATE_1833,,,new_bsr_state,keep_bsr,,Phase1: new_bsr_state auto keep_bsr
+1834,STATE_1834,489,Zulia,split,approve_selected,,Phase3: conf=1.0 issues=4 auto approve
+1835,STATE_1835,307,Miranda,split,approve_selected,,Phase4c: conf=1.0 resource/building dist auto approve
+1836,STATE_1836,488,STATE_488,split,approve_selected,,Phase3: conf=1.0 issues=4 auto approve
+1837,STATE_1837,488,STATE_488,split,approve_selected,,Phase3: conf=1.0 issues=4 auto approve
+1838,STATE_1838,278,Pampas,split,approve_selected,,Phase3: conf=1.0 issues=4 auto approve
+1839,STATE_1839,29,STATE_29,split,approve_selected,,Phase4a: conf=1.0 owner/core conflict auto approve
+1840,STATE_1840,877,Verkhoyansk,merge,approve_selected,,Phase4a: conf=0.833 owner/core conflict auto approve
+1841,STATE_1841,,,new_bsr_state,keep_bsr,,Phase1: new_bsr_state auto keep_bsr
+1842,STATE_1842,21,Bouches-du-Rhône (Formerly Provence before Var split off),split,approve_selected,,Phase4c: conf=1.0 resource/building dist auto approve
+1843,STATE_1843,479,STATE_479,split,approve_selected,,Phase4a: conf=1.0 owner/core conflict auto approve
+1844,STATE_1844,476,STATE_476,split,approve_selected,,Phase4c: conf=1.0 resource/building dist auto approve
+1845,STATE_1845,277,STATE_277,split,approve_selected,,Phase4c: conf=1.0 resource/building dist auto approve
+1846,STATE_1846,485,STATE_485,split,approve_selected,,Phase4c: conf=1.0 resource/building dist auto approve
+1847,STATE_1847,855,STATE_855,merge,approve_selected,,Phase5: low-conf auto approve (manual review recommended post-import)
+1848,STATE_1848,481,Durango,split,approve_selected,,Phase4c: conf=1.0 resource/building dist auto approve
+1849,STATE_1849,475,STATE_475,split,approve_selected,,Phase3: conf=1.0 issues=4 auto approve
+1850,STATE_1850,,,new_bsr_state,keep_bsr,,Phase1: new_bsr_state auto keep_bsr
+1851,STATE_1851,313,STATE_313,split,approve_selected,,Phase4c: conf=1.0 resource/building dist auto approve
+1852,STATE_1852,,,new_bsr_state,keep_bsr,,Phase1: new_bsr_state auto keep_bsr
+1853,STATE_1853,687,STATE_687,split,approve_selected,,Phase4c: conf=1.0 resource/building dist auto approve
+1854,STATE_1854,,,new_bsr_state,keep_bsr,,Phase1: new_bsr_state auto keep_bsr
+1855,STATE_1855,,,new_bsr_state,keep_bsr,,Phase1: new_bsr_state auto keep_bsr
+1856,STATE_1856,,,new_bsr_state,keep_bsr,,Phase1: new_bsr_state auto keep_bsr
+1857,STATE_1857,,,new_bsr_state,keep_bsr,,Phase1: new_bsr_state auto keep_bsr
+1858,STATE_1858,,,new_bsr_state,keep_bsr,,Phase1: new_bsr_state auto keep_bsr
+1859,STATE_1859,388,STATE_388,split,approve_selected,,Phase4a: conf=1.0 owner/core conflict auto approve
+1860,STATE_1860,390,STATE_390,split,approve_selected,,Phase3: conf=1.0 issues=3 auto approve
+1861,STATE_1861,384,STATE_384,split,approve_selected,,Phase3: conf=1.0 issues=4 auto approve
+1862,STATE_1862,381,STATE_381,split,approve_selected,,Phase3: conf=1.0 issues=4 auto approve
+1863,STATE_1863,389,STATE_389,split,approve_selected,,Phase4a: conf=1.0 owner/core conflict auto approve
+1864,STATE_1864,,,new_bsr_state,keep_bsr,,Phase1: new_bsr_state auto keep_bsr
+1865,STATE_1865,152,STATE_152,split,approve_selected,,Phase4a: conf=1.0 owner/core conflict auto approve
+1866,STATE_1866,54,STATE_54,split,approve_selected,,Phase4c: conf=1.0 resource/building dist auto approve
+1867,STATE_1867,313,STATE_313,split,approve_selected,,Phase4c: conf=1.0 resource/building dist auto approve
+1868,STATE_1868,807,STATE_807,split,approve_selected,,Phase4a: conf=1.0 owner/core conflict auto approve
+1869,STATE_1869,,,new_bsr_state,keep_bsr,,Phase1: new_bsr_state auto keep_bsr
+1870,STATE_1870,,,new_bsr_state,keep_bsr,,Phase1: new_bsr_state auto keep_bsr
+1871,STATE_1871,317,STATE_317,split,approve_selected,,Phase4c: conf=1.0 resource/building dist auto approve
+1872,STATE_1872,160,STATE_160,merge,approve_selected,,Phase4b: conf=0.5 owner/core conflict auto approve
+1873,STATE_1873,376,STATE_376,split,approve_selected,,Phase4a: conf=1.0 owner/core conflict auto approve
+1874,STATE_1874,377,STATE_377,split,approve_selected,,Phase4b: conf=0.667 owner/core conflict auto approve
+1875,STATE_1875,380,STATE_380,split,approve_selected,,Phase4a: conf=1.0 owner/core conflict auto approve
+1876,STATE_1876,28,Alsace-Lorraine,split,approve_selected,,Phase4a: conf=1.0 owner/core conflict auto approve
+1877,STATE_1877,785,STATE_785,split,approve_selected,,Phase4a: conf=1.0 owner/core conflict auto approve
+1878,STATE_1878,56,STATE_56,merge,approve_selected,,Phase4c: conf=0.5 resource/building dist auto approve
+1879,STATE_1879,988,STATE_988,split,approve_selected,,Phase3: conf=1.0 issues=4 auto approve
+1880,STATE_1880,1012,STATE_1012,split,approve_selected,,Phase3: conf=1.0 issues=3 auto approve
+1881,STATE_1881,444,STATE_444,split,approve_selected,,Phase4a: conf=1.0 owner/core conflict auto approve
+1882,STATE_1882,,,new_bsr_state,keep_bsr,,Phase1: new_bsr_state auto keep_bsr
+1883,STATE_1883,,,new_bsr_state,keep_bsr,,Phase1: new_bsr_state auto keep_bsr
+1884,STATE_1884,325,STATE_325,split,approve_selected,,Phase4a: conf=1.0 owner/core conflict auto approve
+1885,STATE_1885,303,Lima,split,approve_selected,,Phase4c: conf=1.0 resource/building dist auto approve
+1886,STATE_1886,313,STATE_313,split,approve_selected,,Phase4c: conf=1.0 resource/building dist auto approve
+1887,STATE_1887,312,STATE_312,split,approve_selected,,Phase4c: conf=1.0 resource/building dist auto approve
+1888,STATE_1888,314,STATE_314,split,approve_selected,,Phase4c: conf=1.0 resource/building dist auto approve
+1889,STATE_1889,391,STATE_391,split,approve_selected,,Phase4c: conf=1.0 resource/building dist auto approve
+1890,STATE_1890,,,new_bsr_state,keep_bsr,,Phase1: new_bsr_state auto keep_bsr
+1891,STATE_1891,497,STATE_497,same_name,approve_selected,,Phase2: conf=1.0 issues=1 auto approve
+1892,STATE_1892,937,STATE_937,same_name,approve_selected,,Phase2: conf=1.0 issues=1 auto approve
+1893,STATE_1893,935,STATE_935,merge,approve_selected,,Phase3: conf=1.0 issues=4 auto approve
+1894,STATE_1894,936,STATE_936,split,approve_selected,,Phase3: conf=1.0 issues=3 auto approve
+1895,STATE_1895,936,STATE_936,split,approve_selected,,Phase3: conf=1.0 issues=4 auto approve
+1896,STATE_1896,936,STATE_936,split,approve_selected,,Phase3: conf=1.0 issues=4 auto approve
+1897,STATE_1897,499,STATE_499,split,approve_selected,,Phase4c: conf=1.0 resource/building dist auto approve
+1898,STATE_1898,941,STATE_941,same_name,approve_selected,,Phase2: conf=1.0 issues=1 auto approve
+1899,Minas Gerais,943,STATE_943,province_overlap,approve_selected,,Phase2: conf=1.0 issues=1 auto approve
+1900,STATE_1900,502,STATE_502,split,approve_selected,,Phase4c: conf=1.0 resource/building dist auto approve
+1901,STATE_1901,938,STATE_938,merge,approve_selected,,Phase4c: conf=0.5 resource/building dist auto approve
+1902,STATE_1902,966,STATE_966,merge,approve_selected,,Phase3: conf=1.0 issues=3 auto approve
+1903,STATE_1903,909,STATE_909,split,approve_selected,,Phase3: conf=1.0 issues=3 auto approve
+1904,STATE_1904,,,new_bsr_state,keep_bsr,,Phase1: new_bsr_state auto keep_bsr
+1905,STATE_1905,66,STATE_66,split,approve_selected,,Phase4c: conf=1.0 resource/building dist auto approve
+1906,STATE_1906,512,STATE_512,split,approve_selected,,Phase4a: conf=1.0 owner/core conflict auto approve
+1907,STATE_1907,512,STATE_512,merge,approve_selected,,Phase4b: conf=0.571 owner/core conflict auto approve
+1908,STATE_1908,,,new_bsr_state,keep_bsr,,Phase1: new_bsr_state auto keep_bsr
+1909,STATE_1909,301,STATE_301,split,approve_selected,,Phase4c: conf=1.0 resource/building dist auto approve
+1910,STATE_1910,1072,STATE_1072,split,approve_selected,,Phase4a: conf=1.0 owner/core conflict auto approve
+1911,STATE_1911,672,STATE_672,merge,approve_selected,,Phase4b: conf=0.667 owner/core conflict auto approve
+1912,STATE_1912,1071,STATE_1071,merge,approve_selected,,Phase4b: conf=0.667 owner/core conflict auto approve
+1913,STATE_1913,1071,STATE_1071,merge,approve_selected,,Phase4b: conf=0.769 owner/core conflict auto approve
+1914,STATE_1914,672,STATE_672,split,approve_selected,,Phase4a: conf=1.0 owner/core conflict auto approve
+1915,STATE_1915,1069,STATE_1069,merge,approve_selected,,Phase4a: conf=1.0 owner/core conflict auto approve
+1916,STATE_1916,335,Java,split,approve_selected,,Phase3: conf=1.0 issues=4 auto approve
+1917,STATE_1917,1080,Batavia/Jakarta,split,approve_selected,,Phase3: conf=1.0 issues=4 auto approve
+1918,STATE_1918,1073,STATE_1073,merge,approve_selected,,Phase4a: conf=0.833 owner/core conflict auto approve
+1919,STATE_1919,1073,STATE_1073,split,approve_selected,,Phase4a: conf=1.0 owner/core conflict auto approve
+1920,STATE_1920,64,STATE_64,split,approve_selected,,Phase4c: conf=1.0 resource/building dist auto approve
+1921,STATE_1921,612,STATE_612,split,approve_selected,,Phase4a: conf=1.0 owner/core conflict auto approve
+1922,STATE_1922,,,new_bsr_state,keep_bsr,,Phase1: new_bsr_state auto keep_bsr
+1923,STATE_1923,887,STATE_887,merge,approve_selected,,Phase4b: conf=0.667 owner/core conflict auto approve
+1924,STATE_1924,778,Upper Volta,split,approve_selected,,Phase3: conf=1.0 issues=4 auto approve
+1925,STATE_1925,778,Upper Volta,split,approve_selected,,Phase3: conf=1.0 issues=4 auto approve
+1926,STATE_1926,65,STATE_65,split,approve_selected,,Phase4a: conf=1.0 owner/core conflict auto approve
+1927,STATE_1927,,,new_bsr_state,keep_bsr,,Phase1: new_bsr_state auto keep_bsr
+1928,STATE_1928,334,STATE_334,merge,approve_selected,,Phase4b: conf=0.6 owner/core conflict auto approve
+1929,STATE_1929,1077,STATE_1077,merge,approve_selected,,Phase4b: conf=0.6 owner/core conflict auto approve
+1930,STATE_1930,668,STATE_668,split,approve_selected,,Phase3: conf=1.0 issues=3 auto approve
+1931,STATE_1931,1078,STATE_1078,same_name,approve_selected,,Phase2: conf=1.0 issues=1 auto approve
+1932,STATE_1932,,,new_bsr_state,keep_bsr,,Phase1: new_bsr_state auto keep_bsr
+1933,STATE_1933,,,new_bsr_state,keep_bsr,,Phase1: new_bsr_state auto keep_bsr
+1934,STATE_1934,28,Alsace-Lorraine,split,approve_selected,,Phase4a: conf=1.0 owner/core conflict auto approve
+1935,STATE_1935,458,STATE_458,split,approve_selected,,Phase4a: conf=1.0 owner/core conflict auto approve
+1936,STATE_1936,665,STATE_665,split,approve_selected,,Phase3: conf=1.0 issues=3 auto approve
+1937,STATE_1937,665,STATE_665,split,approve_selected,,Phase3: conf=1.0 issues=4 auto approve
+1938,STATE_1938,671,STATE_671,split,approve_selected,,Phase4a: conf=0.8 owner/core conflict auto approve
+1939,STATE_1939,78,STATE_78,split,approve_selected,,Phase3: conf=1.0 issues=3 auto approve
+1940,STATE_1940,766,STATE_766,split,approve_selected,,Phase3: conf=1.0 issues=4 auto approve
+1941,STATE_1941,,,new_bsr_state,keep_bsr,,Phase1: new_bsr_state auto keep_bsr
+1942,STATE_1942,807,STATE_807,split,approve_selected,,Phase4b: conf=0.5 owner/core conflict auto approve
+1943,STATE_1943,100,STATE_100,split,approve_selected,,Phase4c: conf=0.5 resource/building dist auto approve
+1944,STATE_1944,771,Zambia,split,approve_selected,,Phase4a: conf=1.0 owner/core conflict auto approve
+1945,STATE_1945,,,new_bsr_state,keep_bsr,,Phase1: new_bsr_state auto keep_bsr
+1946,Mysore,425,Mysore,split,approve_selected,,Phase4a: conf=0.875 owner/core conflict auto approve
+1947,Madras,,,new_bsr_state,keep_bsr,,Phase1: new_bsr_state auto keep_bsr
+1948,Mysore,,,new_bsr_state,keep_bsr,,Phase1: new_bsr_state auto keep_bsr
+1949,Mysore,425,Mysore,split,approve_selected,,Phase4b: conf=0.5 owner/core conflict auto approve
+1950,STATE_1950,669,STATE_669,split,approve_selected,,Phase3: conf=1.0 issues=3 auto approve
+1951,STATE_1951,669,STATE_669,split,approve_selected,,Phase3: conf=1.0 issues=4 auto approve
+1952,STATE_1952,,,new_bsr_state,keep_bsr,,Phase1: new_bsr_state auto keep_bsr
+1953,STATE_1953,,,new_bsr_state,keep_bsr,,Phase1: new_bsr_state auto keep_bsr
+1954,STATE_1954,50,Württemberg,split,approve_selected,,Phase4c: conf=0.5 resource/building dist auto approve
+1955,STATE_1955,,,new_bsr_state,keep_bsr,,Phase1: new_bsr_state auto keep_bsr
+1956,STATE_1956,,,new_bsr_state,keep_bsr,,Phase1: new_bsr_state auto keep_bsr
+1957,STATE_1957,,,new_bsr_state,keep_bsr,,Phase1: new_bsr_state auto keep_bsr
+1958,STATE_1958,,,new_bsr_state,keep_bsr,,Phase1: new_bsr_state auto keep_bsr
+1959,STATE_1959,891,STATE_891,split,approve_selected,,Phase3: conf=1.0 issues=4 auto approve
+1960,STATE_1960,,,new_bsr_state,keep_bsr,,Phase1: new_bsr_state auto keep_bsr
+1961,STATE_1961,770,STATE_770,split,approve_selected,,Phase3: conf=1.0 issues=4 auto approve
+1962,STATE_1962,494,STATE_494,split,approve_selected,,Phase3: conf=1.0 issues=4 auto approve
+1963,STATE_1963,,,new_bsr_state,keep_bsr,,Phase1: new_bsr_state auto keep_bsr
+1964,STATE_1964,54,STATE_54,split,approve_selected,,Phase4a: conf=1.0 owner/core conflict auto approve
+1965,STATE_1965,978,Baden,split,approve_selected,,Phase4a: conf=1.0 owner/core conflict auto approve
+1966,STATE_1966,,,new_bsr_state,keep_bsr,,Phase1: new_bsr_state auto keep_bsr
+1967,STATE_1967,,,new_bsr_state,keep_bsr,,Phase1: new_bsr_state auto keep_bsr
+1968,STATE_1968,827,STATE_827,same_name,approve_selected,,Phase2: conf=1.0 issues=1 auto approve
+1969,STATE_1969,97,STATE_97,split,approve_selected,,Phase4a: conf=1.0 owner/core conflict auto approve
+1970,STATE_1970,163,STATE_163,same_name,approve_selected,,Phase2: conf=1.0 issues=1 auto approve
+1971,STATE_1971,,,new_bsr_state,keep_bsr,,Phase1: new_bsr_state auto keep_bsr
+1972,STATE_1972,97,STATE_97,split,approve_selected,,Phase4b: conf=0.5 owner/core conflict auto approve
+1973,STATE_1973,86,STATE_86,split,approve_selected,,Phase3: conf=1.0 issues=4 auto approve
+1974,STATE_1974,36,STATE_36,split,approve_selected,,Phase4c: conf=1.0 resource/building dist auto approve
+1975,STATE_1975,36,STATE_36,split,approve_selected,,Phase4a: conf=1.0 owner/core conflict auto approve
+1976,STATE_1976,35,STATE_35,split,approve_selected,,Phase4a: conf=1.0 owner/core conflict auto approve
+1977,STATE_1977,715,STATE_715,split,approve_selected,,Phase3: conf=1.0 issues=3 auto approve
+1978,STATE_1978,610,Jehol,merge,approve_selected,,Phase4b: conf=0.524 owner/core conflict auto approve
+1979,STATE_1979,843,STATE_843,merge,approve_selected,,Phase4b: conf=0.5 owner/core conflict auto approve
+1980,STATE_1980,,,new_bsr_state,keep_bsr,,Phase1: new_bsr_state auto keep_bsr
+1981,STATE_1981,,,new_bsr_state,keep_bsr,,Phase1: new_bsr_state auto keep_bsr
+1982,STATE_1982,,,new_bsr_state,keep_bsr,,Phase1: new_bsr_state auto keep_bsr
+1983,STATE_1983,,,new_bsr_state,keep_bsr,,Phase1: new_bsr_state auto keep_bsr
+1984,STATE_1984,,,new_bsr_state,keep_bsr,,Phase1: new_bsr_state auto keep_bsr
+1985,STATE_1985,974,South Transdanubia,split,approve_selected,,Phase4c: conf=1.0 resource/building dist auto approve
+1986,STATE_1986,973,STATE_973,split,approve_selected,,Phase3: conf=1.0 issues=4 auto approve
+1987,STATE_1987,45,STATE_45,split,approve_selected,,Phase4a: conf=1.0 owner/core conflict auto approve
+1988,STATE_1988,764,STATE_764,split,approve_selected,,Phase3: conf=1.0 issues=4 auto approve
+1989,STATE_1989,980,STATE_980,split,approve_selected,,Phase4a: conf=1.0 owner/core conflict auto approve
+1990,STATE_1990,980,STATE_980,split,approve_selected,,Phase4a: conf=1.0 owner/core conflict auto approve
+1991,STATE_1991,,,new_bsr_state,keep_bsr,,Phase1: new_bsr_state auto keep_bsr
+1992,STATE_1992,814,STATE_814,split,approve_selected,,Phase3: conf=1.0 issues=3 auto approve
+1993,STATE_1993,207,STATE_207,split,approve_selected,,Phase3: conf=1.0 issues=4 auto approve
+1994,STATE_1994,207,STATE_207,split,approve_selected,,Phase3: conf=1.0 issues=4 auto approve
+1995,STATE_1995,194,Mozyr,split,approve_selected,,Phase3: conf=1.0 issues=4 auto approve
+1996,STATE_1996,201,STATE_201,split,approve_selected,,Phase3: conf=1.0 issues=4 auto approve
+1997,STATE_1997,784,STATE_784,split,approve_selected,,Phase3: conf=1.0 issues=4 auto approve
+1998,STATE_1998,359,STATE_359,split,approve_selected,,Phase3: conf=1.0 issues=4 auto approve
+1999,STATE_1999,359,STATE_359,split,approve_selected,,Phase3: conf=1.0 issues=4 auto approve
+2000,STATE_2000,,,new_bsr_state,keep_bsr,,Phase1: new_bsr_state auto keep_bsr
+2001,STATE_2001,,,new_bsr_state,keep_bsr,,Phase1: new_bsr_state auto keep_bsr
+2002,STATE_2002,341,STATE_341,split,approve_selected,,Phase3: conf=1.0 issues=4 auto approve
+2003,STATE_2003,104,STATE_104,merge,approve_selected,,Phase4b: conf=0.5 owner/core conflict auto approve
+2004,STATE_2004,104,STATE_104,split,approve_selected,,Phase4a: conf=1.0 owner/core conflict auto approve
+2005,STATE_2005,,,new_bsr_state,keep_bsr,,Phase1: new_bsr_state auto keep_bsr
+2006,STATE_2006,,,new_bsr_state,keep_bsr,,Phase1: new_bsr_state auto keep_bsr
+2007,STATE_2007,231,STATE_231,split,approve_selected,,Phase4a: conf=1.0 owner/core conflict auto approve
+2008,STATE_2008,,,new_bsr_state,keep_bsr,,Phase1: new_bsr_state auto keep_bsr
+2009,STATE_2009,232,Dagestan,split,approve_selected,,Phase4b: conf=0.667 owner/core conflict auto approve
+2010,STATE_2010,232,Dagestan,split,approve_selected,,Phase4a: conf=1.0 owner/core conflict auto approve
+2011,STATE_2011,104,STATE_104,split,approve_selected,,Phase4a: conf=1.0 owner/core conflict auto approve
+2012,STATE_2012,109,Croatia,split,approve_selected,,Phase4a: conf=1.0 owner/core conflict auto approve
+2013,STATE_2013,601,STATE_601,split,approve_selected,,Phase3: conf=1.0 issues=4 auto approve
+2014,STATE_2014,63,STATE_63,split,approve_selected,,Phase4a: conf=1.0 owner/core conflict auto approve
+2015,STATE_2015,,,new_bsr_state,keep_bsr,,Phase1: new_bsr_state auto keep_bsr
+2016,STATE_2016,159,STATE_159,split,approve_selected,,Phase4a: conf=1.0 owner/core conflict auto approve
+2017,STATE_2017,157,STATE_157,split,approve_selected,,Phase3: conf=1.0 issues=4 auto approve
+2018,STATE_2018,27,Bourgogne,merge,approve_selected,,Phase4b: conf=0.667 owner/core conflict auto approve
+2019,STATE_2019,189,STATE_189,split,approve_selected,,Phase4a: conf=1.0 owner/core conflict auto approve
+2020,STATE_2020,,,new_bsr_state,keep_bsr,,Phase1: new_bsr_state auto keep_bsr
+2021,STATE_2021,,,new_bsr_state,keep_bsr,,Phase1: new_bsr_state auto keep_bsr
+2022,STATE_2022,,,new_bsr_state,keep_bsr,,Phase1: new_bsr_state auto keep_bsr
+2023,STATE_2023,610,Jehol,split,approve_selected,,Phase4b: conf=0.7 owner/core conflict auto approve
+2024,STATE_2024,126,STATE_126,split,approve_selected,,Phase3: conf=1.0 issues=3 auto approve
+2025,STATE_2025,931,STATE_931,split,approve_selected,,Phase3: conf=1.0 issues=4 auto approve
+2026,STATE_2026,931,STATE_931,split,approve_selected,,Phase4c: conf=1.0 resource/building dist auto approve
+2027,STATE_2027,1033,STATE_1033,split,approve_selected,,Phase4a: conf=1.0 owner/core conflict auto approve
+2028,STATE_2028,,,new_bsr_state,keep_bsr,,Phase1: new_bsr_state auto keep_bsr
+2029,STATE_2029,86,STATE_86,split,approve_selected,,Phase4b: conf=0.5 owner/core conflict auto approve
+2030,STATE_2030,,,new_bsr_state,keep_bsr,,Phase1: new_bsr_state auto keep_bsr
+2031,STATE_2031,86,STATE_86,split,approve_selected,,Phase3: conf=1.0 issues=4 auto approve
+2032,STATE_2032,68,STATE_68,split,approve_selected,,Phase4a: conf=1.0 owner/core conflict auto approve
+2033,STATE_2033,64,STATE_64,split,approve_selected,,Phase4c: conf=1.0 resource/building dist auto approve
+2034,STATE_2034,68,STATE_68,split,approve_selected,,Phase4c: conf=1.0 resource/building dist auto approve
+2035,STATE_2035,68,STATE_68,split,approve_selected,,Phase4c: conf=1.0 resource/building dist auto approve
+2036,STATE_2036,65,STATE_65,split,approve_selected,,Phase4a: conf=1.0 owner/core conflict auto approve
+2037,STATE_2037,272,STATE_272,split,approve_selected,,Phase4a: conf=1.0 owner/core conflict auto approve
+2038,STATE_2038,16,STATE_16,merge,approve_selected,,Phase5: low-conf auto approve (manual review recommended post-import)
+2039,STATE_2039,1062,STATE_1062,split,approve_selected,,Phase3: conf=1.0 issues=3 auto approve
+2040,STATE_2040,27,Bourgogne,split,approve_selected,,Phase4a: conf=1.0 owner/core conflict auto approve
+2041,STATE_2041,17,Lorraine,split,approve_selected,,Phase3: conf=1.0 issues=4 auto approve
+2042,STATE_2042,27,Bourgogne,split,approve_selected,,Phase4a: conf=1.0 owner/core conflict auto approve
+2043,STATE_2043,27,Bourgogne,split,approve_selected,,Phase4a: conf=1.0 owner/core conflict auto approve
+2044,STATE_2044,27,Bourgogne,split,approve_selected,,Phase4a: conf=1.0 owner/core conflict auto approve

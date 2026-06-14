@@ -1,28 +1,27 @@
-
 state={
 	id=18
-	name="STATE_18"
-	manpower = 940808
-	
-	state_category = city
+	name="STATE_18" # STATE_18
+	# TSR2_OVERLAY tsr_state_id=18 ratio=1.000 split=False
+
+		state_category=city
+
+	manpower=940808
 
 	history={
 		owner = FRA
-		victory_points = {
-			13011 5
+		controller = GER
+		
+				set_demilitarized_zone = yes
+		buildings = {
+			air_base = 10
+			infrastructure = 5
+			industrial_complex = 1
 		}
-		victory_points = {
-			3560 1
-		}
+		add_core_of = BGN
 		add_core_of = FRA
-
-		set_demilitarized_zone = yes
-
 	}
 
-	provinces={
-		3546 3560 5291 6545 9472 9505 13011 
-	}
-
-	local_supplies=0.0 
+		provinces={
+		 3533 6531 11732 13329 
+		}
 }

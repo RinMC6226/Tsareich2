@@ -1,0 +1,22 @@
+state={
+	id=1097
+	name="STATE_1097" # STATE_1097
+	# TSR2_OVERLAY tsr_state_id=1097 ratio=1.000 split=False
+
+		state_category=pastoral
+
+	manpower=12000
+
+	history={
+		owner = AST
+		buildings = {
+			infrastructure = 0
+		}
+		add_core_of = AST
+		add_core_of = SIA
+	}
+
+		provinces={
+			1244 4433 7225 7292 10293 12224 
+		}
+}

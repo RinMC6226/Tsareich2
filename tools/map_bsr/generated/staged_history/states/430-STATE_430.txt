@@ -1,0 +1,33 @@
+state={
+	id=430
+	name="STATE_430" # STATE_430
+	# TSR2_OVERLAY tsr_state_id=430 ratio=1.000 split=False
+
+		state_category=town
+
+	manpower=31973300
+
+	history={
+		owner = BAN
+		controller = BAN
+		victory_points = {
+			11929 15
+		}
+		victory_points = {
+			9991 15 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+		11968 = {naval_base = 3}
+		}
+		add_core_of = BAN
+		add_core_of = IND
+		add_core_of = PAK
+		add_core_of = RAJ
+	}
+
+		provinces={
+			7179 9991 9993 10416 11929 11968 12010 12423 13208
+		}
+}

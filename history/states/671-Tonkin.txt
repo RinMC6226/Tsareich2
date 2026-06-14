@@ -1,0 +1,35 @@
+state={
+	id=671
+	name="STATE_671" # STATE_671
+	# TSR2_OVERLAY tsr_state_id=671 ratio=1.000 split=False
+
+		state_category=town
+
+	manpower=8528000
+
+	resources={
+		chromium = 2
+		tungsten = 20
+		coal = 3
+	}
+
+	history={
+		owner = DAS
+		controller = DAS
+		victory_points = {
+			4075 1 
+		}
+		buildings = {
+			air_base = 1
+			infrastructure = 2
+			industrial_complex = 1
+		1185 = {naval_base = 1}
+		}
+		add_core_of = TON
+		add_core_of = VIN
+	}
+
+		provinces={
+			1185 4075 10129 12075 
+		}
+}

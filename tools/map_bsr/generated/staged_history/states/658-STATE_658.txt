@@ -1,0 +1,30 @@
+state={
+	id=658
+	name="STATE_658" # STATE_658
+	# TSR2_OVERLAY tsr_state_id=658 ratio=1.000 split=False
+
+		
+		state_category = pastoral
+
+	manpower=170200
+
+	resources={
+		oil = 5
+	}
+
+	history={
+		owner = UAE
+		victory_points = {
+			7960 1 
+		}
+		buildings = {
+			infrastructure = 1
+		7960 = {naval_base = 3}
+		}
+		add_core_of = UAE
+	}
+
+		provinces={
+			2048 7960 8108 10904 
+		}
+}

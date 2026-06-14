@@ -1,0 +1,30 @@
+state={
+	id=1503
+	name="STATE_1503" # STATE_1503
+	# TSR2_OVERLAY none (BSR-only state)
+
+		state_category=city
+
+	manpower=11986
+
+	resources={
+		tungsten = 1
+		oil = 1
+	}
+
+	history={
+		owner = SPR
+		victory_points = {
+			11851 5 
+		}
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 1
+		}
+		add_core_of = SPR
+	}
+
+		provinces={
+			11851
+		}
+}

@@ -1,0 +1,22 @@
+state={
+	id=549
+	name="STATE_549" # STATE_549
+	# TSR2_OVERLAY tsr_state_id=549 ratio=1.000 split=False
+
+		state_category=rural
+
+	manpower=1802132
+
+	history={
+		owner = EGY
+		controller = EGY
+		buildings = {
+			infrastructure = 2
+		}
+		add_core_of = SUD
+	}
+
+		provinces={
+			2016 8084 10795 10827 10851
+		}
+}

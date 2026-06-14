@@ -1,0 +1,38 @@
+state={
+	id=502
+	name="STATE_502" # STATE_502
+	# TSR2_OVERLAY tsr_state_id=502 ratio=1.000 split=False
+
+		
+		state_category = town
+
+	manpower=2959600
+
+	resources={
+		coal = 8
+	}
+
+	history={
+		owner = BRA
+		victory_points = {
+			4589 3 
+		}
+		victory_points = {
+			7638 2
+		}
+		victory_points = {
+			4575 2
+		}
+		buildings = {
+			air_base = 2
+			infrastructure = 3
+			industrial_complex = 1
+		7638 = {naval_base = 1}
+		}
+		add_core_of = BRA
+	}
+
+		provinces={
+			1585 1598 4575 4589 4604 5110 7581 7638 13672 13655 13612
+		}
+}

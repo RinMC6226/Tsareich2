@@ -1,0 +1,26 @@
+state={
+	id=1939
+	name="STATE_1939" # STATE_1939
+	# TSR2_OVERLAY none (BSR-only state)
+
+		state_category=town
+
+	manpower=465444
+
+	history={
+		owner = ROM
+		controller = SOV
+		victory_points = {
+			3707 5 
+		}
+		buildings = {
+			infrastructure = 4
+		}
+		add_core_of = MOL
+		add_core_of = ROM
+	}
+
+		provinces={
+			3707 3724 
+		}
+}

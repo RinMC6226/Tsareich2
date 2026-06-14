@@ -1,0 +1,26 @@
+state={
+	id=2019
+	name="STATE_2019" # STATE_2019
+	# TSR2_OVERLAY none (BSR-only state)
+
+		
+		state_category = rural
+
+	manpower=68371
+
+	history={
+		owner = LIT
+		controller = SOV
+		victory_points = {
+			9499 10
+		}
+		buildings = {
+			infrastructure = 6
+		}
+		add_core_of = LIT
+	}
+
+		provinces={
+			9499
+		}
+}

@@ -1,0 +1,22 @@
+state={
+	id=1239
+	name="STATE_1239" # STATE_1239
+	# TSR2_OVERLAY none (BSR-only state)
+
+		
+		state_category = town
+
+	manpower=184000
+
+	history={
+		owner = FRA
+		buildings = {
+			infrastructure = 4
+		}
+		add_core_of = LEB
+	}
+
+		provinces={
+			11919 
+		}
+}

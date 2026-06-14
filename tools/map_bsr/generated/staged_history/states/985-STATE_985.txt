@@ -1,0 +1,23 @@
+state={
+	id=985
+	name="STATE_985" # STATE_985
+	# TSR2_OVERLAY tsr_state_id=985 ratio=1.000 split=False
+
+		state_category=town
+
+	manpower=109808
+
+	history={
+		owner = TIB
+		buildings = {
+			infrastructure = 1
+		}
+		add_core_of = IND
+		add_core_of = RAJ
+		add_core_of = SKK
+	}
+
+		provinces={
+			1129 2076 7106 12708
+		}
+}

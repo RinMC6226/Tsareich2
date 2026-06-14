@@ -1,0 +1,7 @@
+side,path,exists,bytes,sha256,bmp_width,bmp_height,line_count
+tsr,/Users/eightman/Desktop/HOI4_modding/Tsareich2/map/provinces.bmp,True,34603062,b85f92f657f038a060a6af1687a8c7f9dc6202ba3440e822f4bc6f69621c6481,5632,2048,
+tsr,/Users/eightman/Desktop/HOI4_modding/Tsareich2/map/definition.csv,True,465990,02d15a937140ab9f3ec451cfacd94255941a4d50c535ba557b6b87cb19bf3d2a,,,13433
+bsr,/Users/eightman/Desktop/HOI4_modding/2640808954/map/provinces.bmp,True,39321654,33e5d0a94cbf6266bc796800563faeaad3ec063870e1b62b158124949436eba5,5120,2560,
+bsr,/Users/eightman/Desktop/HOI4_modding/2640808954/map/definition.csv,True,499914,dfb15c283e50546f0106011a8e84f508a7f2fd5f0fb0c6ec8e0d2e52fc32837f,,,13995
+tsr,/Users/eightman/Desktop/HOI4_modding/Tsareich2/history/states,True,,,,,1103
+bsr,/Users/eightman/Desktop/HOI4_modding/2640808954/history/states,True,,,,,2044

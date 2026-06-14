@@ -1,0 +1,31 @@
+state={
+	id=32
+	name="STATE_32" # STATE_32
+	# TSR2_OVERLAY tsr_state_id=32 ratio=1.000 split=False
+
+		
+		state_category = rural
+
+	manpower=1007500
+
+	resources={
+		steel = 16
+		aluminium = 30
+	}
+
+	history={
+		owner = FRA
+		victory_points = {
+			3768 1 
+		}
+		buildings = {
+			infrastructure = 2
+		}
+		add_core_of = FRA
+		add_core_of = OCC
+	}
+
+		provinces={
+		 780 3589 3768 6784 
+		}
+}

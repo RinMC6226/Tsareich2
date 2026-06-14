@@ -1,0 +1,23 @@
+state={
+	id=1229
+	name="STATE_1229" # STATE_1229
+	# TSR2_OVERLAY none (BSR-only state)
+
+		state_category=town
+
+	manpower=171000
+
+	history={
+		owner = ALB
+		buildings = {
+			infrastructure = 3
+			arms_factory = 1
+			industrial_complex = 2
+		}
+		add_core_of = ALB
+	}
+
+		provinces={
+			11762
+		}
+}

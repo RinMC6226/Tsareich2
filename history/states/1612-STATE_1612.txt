@@ -1,0 +1,28 @@
+state={
+	id=1612
+	name="STATE_1612" # STATE_1612
+	# TSR2_OVERLAY none (BSR-only state)
+
+
+		state_category = pastoral
+
+	manpower=9527
+
+	history={
+		owner = CZE
+		controller = PBM
+		victory_points = {
+			13357 1
+		}
+		buildings = {
+			infrastructure = 4
+		}
+		add_core_of = CZE
+		add_core_of = MRV
+		add_core_of = PBM
+	}
+
+		provinces={
+			13357
+		}
+}

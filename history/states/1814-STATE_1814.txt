@@ -1,0 +1,25 @@
+state={
+	id=1814
+	name="STATE_1814" # Mali (previously French West Africa)
+	# TSR2_OVERLAY none (BSR-only state)
+
+		
+		state_category = pastoral
+
+	manpower=731830
+
+	history={
+		owner = FRA
+		victory_points = {
+			2012 1
+		}
+		buildings = {
+			infrastructure = 3
+		}
+		add_core_of = MLI
+	}
+
+		provinces={
+			2012 10829 12751 10812 10915 12838
+		}
+}

@@ -1,0 +1,31 @@
+state={
+	id=497
+	name="STATE_497" # STATE_497
+	# TSR2_OVERLAY tsr_state_id=497 ratio=1.000 split=False
+
+		
+		state_category = rural
+
+	manpower=575050
+
+	resources={
+		rubber = 13
+	}
+
+	history={
+		owner = BRA
+		victory_points = {
+			12853 1 
+		}
+		buildings = {
+			air_base = 1
+			infrastructure = 1
+		12853 = {naval_base = 2}
+		}
+		add_core_of = BRA
+	}
+
+		provinces={
+			12853 12999 2214 10874 
+		}
+}

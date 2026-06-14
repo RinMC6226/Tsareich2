@@ -1,0 +1,30 @@
+state={
+	id=1872
+	name="STATE_1872" # STATE_1872
+	# TSR2_OVERLAY none (BSR-only state)
+
+		state_category=rural
+
+	manpower=271618
+
+	resources={
+		steel = 5
+		aluminium = 1
+	}
+
+	history={
+		owner = ITA
+		victory_points = {
+			9613 1 
+		}
+		buildings = {
+			infrastructure = 4
+		}
+		add_core_of = ITA
+		add_core_of = VEC
+	}
+
+		provinces={
+		    9613 13504 3657 656
+		}
+}

@@ -1,0 +1,38 @@
+state={
+	id=1032
+	name="STATE_1032" # STATE_1032
+	# TSR2_OVERLAY tsr_state_id=1032 ratio=1.000 split=False
+
+		state_category=pastoral
+
+	manpower=4670800
+
+	history={
+		owner = XIC
+		controller = XIC
+					1936.1.1 = {
+					IF = {
+						limit = {
+							has_dlc = "No Compromise, No Surrender"
+						}
+						transfer_state_to = XIC
+						add_core_of = XIC
+					}
+					}
+					add_victory_points = {
+						province = 8049
+						value = 2
+					}
+		buildings = {
+			infrastructure = 1
+			arms_factory = 2
+			industrial_complex = 2
+		}
+		add_core_of = GYA
+		add_core_of = XIC
+	}
+
+		provinces={
+			10954 
+		}
+}

@@ -1,0 +1,33 @@
+state={
+	id=1435
+	name="STATE_1435" # STATE_1435
+	# TSR2_OVERLAY none (BSR-only state)
+
+		
+		state_category = megalopolis
+
+	manpower=218623
+
+	resources={
+		steel = 5
+	}
+
+	history={
+		owner = BEL
+		controller = GER
+		victory_points = { 516 30 }
+		buildings = {
+			air_base = 10
+			infrastructure = 10
+			arms_factory = 1
+			industrial_complex = 2
+		}
+		add_core_of = BEL
+		add_core_of = BRB
+		add_core_of = FLA
+	}
+
+		provinces={
+			516
+		}
+}

@@ -1,0 +1,24 @@
+state={
+	id=555
+	name="STATE_555" # Kuril Islands
+	# TSR2_OVERLAY tsr_state_id=555 ratio=1.000 split=False
+
+		
+		state_category = tiny_island
+
+	manpower=15000
+
+	history={
+		owner = RUS
+		buildings = {
+			infrastructure = 2
+		1399 = {naval_base = 3}
+		}
+		add_core_of = ANU
+		add_core_of = JAP
+	}
+
+		provinces={
+			1399 1515 13037 
+		}
+}

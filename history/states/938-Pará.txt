@@ -1,0 +1,30 @@
+state={
+	id=938
+	name="STATE_938" # STATE_938
+	# TSR2_OVERLAY tsr_state_id=938 ratio=1.000 split=False
+
+		state_category=wasteland
+
+	manpower=975050
+
+	resources={
+		rubber = 10
+	}
+
+	history={
+		owner = BRA
+		controller = CRO
+		buildings = {
+			infrastructure = 1
+		}
+		add_core_of = BOS
+		add_core_of = BRA
+		add_core_of = CRO
+		add_core_of = HRZ
+		add_core_of = YUG
+	}
+
+		provinces={
+			13278 
+		}
+}

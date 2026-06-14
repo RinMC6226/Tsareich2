@@ -1,0 +1,25 @@
+state={
+	id=1954
+	name="STATE_1954" # STATE_1954
+	# TSR2_OVERLAY none (BSR-only state)
+
+		state_category=large_city
+
+	manpower=1203615
+
+	history={
+		owner = GER
+		victory_points = {
+			9517 20 
+		}
+		buildings = {
+			infrastructure = 8
+		}
+		add_core_of = GER
+		add_core_of = WUR
+	}
+
+		provinces={
+			9517 13989 
+		}
+}

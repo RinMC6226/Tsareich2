@@ -1,0 +1,32 @@
+state={
+	id=267
+	name="STATE_267" # STATE_267
+	# TSR2_OVERLAY tsr_state_id=267 ratio=1.000 split=False
+
+		state_category=town
+
+	manpower=1976110
+
+	resources={
+		tungsten = 3
+		chromium = 2
+		steel = 2
+	}
+
+	history={
+		owner = AFG
+		victory_points = {
+			5064 5 
+		}
+		buildings = {
+			infrastructure = 1
+			arms_factory = 1
+			industrial_complex = 1
+		}
+		add_core_of = AFG
+	}
+
+		provinces={
+			5064 7916 10737 10789 12769 
+		}
+}

@@ -1,0 +1,46 @@
+state={
+	id=607
+	name="STATE_607" # STATE_607
+	# TSR2_OVERLAY tsr_state_id=607 ratio=1.000 split=False
+
+		state_category=town
+
+	manpower=34289800
+
+	history={
+		owner = BYG
+		controller = BYG
+					JAP = {
+						set_province_controller = 1004
+						set_province_controller = 1139
+						set_province_controller = 4058
+						set_province_controller = 4114
+						set_province_controller = 4144
+						set_province_controller = 4606
+						set_province_controller = 6932
+						set_province_controller = 7074
+						set_province_controller = 7085
+						set_province_controller = 9958
+						set_province_controller = 9995
+						set_province_controller = 10098
+						set_province_controller = 11931
+					}
+		victory_points = {
+			9958 1 
+		}
+		victory_points = {
+			7459 5 
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+		}
+		add_core_of = BYG
+		add_core_of = CHI
+		add_core_of = PRC
+	}
+
+		provinces={
+			1004 1603 4066 4519 4547 6932 7126 7459 7508 7540 7568 7656 9958 10098 10364 10434 10446 11931 12012 12426 
+		}
+}

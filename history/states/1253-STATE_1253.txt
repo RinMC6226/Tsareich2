@@ -1,0 +1,26 @@
+state={
+	id=1253
+	name="STATE_1253" # STATE_1253
+	# TSR2_OVERLAY none (BSR-only state)
+
+		
+		state_category = rural
+
+	manpower=1400000
+
+	history={
+		owner = CHI
+		buildings = {
+			infrastructure = 3
+		4205 = {naval_base = 2
+						coastal_bunker = 1
+						bunker = 1}
+		}
+		add_core_of = CHI
+		add_core_of = PRC
+	}
+
+		provinces={
+			1104 1200 4186 4205 7105 10018
+		}
+}

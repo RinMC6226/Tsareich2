@@ -1,0 +1,32 @@
+state={
+	id=1835
+	name="STATE_1835" # STATE_1835
+	# TSR2_OVERLAY none (BSR-only state)
+
+		
+		state_category = town
+
+	manpower=171200
+
+	resources={
+		oil = 5
+	}
+
+	history={
+		owner = VEN
+		victory_points = {
+			5056 5 
+		}
+		victory_points = {
+			4892 2 
+		}
+		buildings = {
+			infrastructure = 4
+		}
+		add_core_of = VEN
+	}
+
+		provinces={
+			4892 5056
+		}
+}

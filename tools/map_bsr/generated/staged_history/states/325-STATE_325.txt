@@ -1,0 +1,42 @@
+state={
+	id=325
+	name="STATE_325" # STATE_325
+	# TSR2_OVERLAY tsr_state_id=325 ratio=1.000 split=False
+
+		state_category=town
+
+	manpower=10994500
+
+	resources={
+		tungsten = 2
+	}
+
+	history={
+		owner = YUN
+					if = {
+						limit = {
+							NOT = {
+								has_dlc = "Waking the Tiger" 
+							}
+						}
+						KMT = {
+							transfer_state = PREV
+						}
+					}
+		victory_points = {
+			1319 10 
+		}
+		buildings = {
+			infrastructure = 2
+			arms_factory = 1
+			industrial_complex = 3
+		}
+		add_core_of = CHI
+		add_core_of = PRC
+		add_core_of = YUN
+	}
+
+		provinces={
+			5072 12841 1319 4192
+		}
+}

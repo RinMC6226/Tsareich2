@@ -1,0 +1,42 @@
+state={
+	id=1033
+	name="STATE_1033" # STATE_1033
+	# TSR2_OVERLAY tsr_state_id=1033 ratio=1.000 split=False
+
+		state_category=wasteland
+
+	manpower=4145000
+
+	history={
+		owner = GXC
+					1936.1.1 = {
+					IF = {
+						limit = {
+							has_dlc = "No Compromise, No Surrender"
+						}
+						transfer_state_to = GDC
+						add_core_of = GDC
+						remove_core_of = GXC
+					}
+					}
+					
+					1936.1.1 = {
+					JAP = {
+						set_province_controller = 1018
+						set_province_controller = 4023
+						set_province_controller = 10004
+					}
+					}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+		}
+		add_core_of = BRA
+		add_core_of = GDC
+		add_core_of = GXC
+	}
+
+		provinces={
+			11004 
+		}
+}

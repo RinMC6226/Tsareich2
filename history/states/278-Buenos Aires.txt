@@ -1,0 +1,32 @@
+state={
+	id=278
+	name="STATE_278" # Pampas
+	# TSR2_OVERLAY tsr_state_id=278 ratio=1.000 split=False
+
+		
+		state_category = large_city
+
+	manpower=5596366
+
+	history={
+		owner = ARG
+		victory_points = {
+			12364 10 
+		}
+		buildings = {
+			air_base = 4
+			infrastructure = 3
+			dockyard = 1
+			arms_factory = 2
+			industrial_complex = 5
+		12364 = {naval_base = 7
+						bunker = 1
+						coastal_bunker = 1}
+		}
+		add_core_of = ARG
+	}
+
+		provinces={
+			12364 12351
+		}
+}

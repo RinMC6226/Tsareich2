@@ -1,0 +1,23 @@
+state={
+	id=1938
+	name="STATE_1938" # STATE_1938
+	# TSR2_OVERLAY none (BSR-only state)
+
+	    state_category=rural
+
+	manpower=91110
+
+	history={
+		owner = FRA
+		controller = JAP
+		buildings = {
+			infrastructure = 0
+		}
+		add_core_of = TON
+		add_core_of = VIN
+	}
+
+	    provinces = {
+	        4529 10075 10103 12319 13322
+	    }
+}

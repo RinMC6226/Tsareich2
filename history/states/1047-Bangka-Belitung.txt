@@ -1,0 +1,28 @@
+state={
+	id=1047
+	name="STATE_1047" # STATE_1047
+	# TSR2_OVERLAY tsr_state_id=1047 ratio=1.000 split=False
+
+		state_category=pastoral
+
+	manpower=65000
+
+	history={
+		owner = GER
+		controller = CRO
+		victory_points = {
+			982 1 
+		}
+		buildings = {
+			infrastructure = 1
+		}
+		add_core_of = BEL
+		add_core_of = BOS
+		add_core_of = GER
+		add_core_of = YUG
+	}
+
+		provinces={
+			606 982 11741 
+		}
+}

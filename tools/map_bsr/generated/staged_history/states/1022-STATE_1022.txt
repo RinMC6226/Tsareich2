@@ -1,0 +1,24 @@
+state={
+	id=1022
+	name="STATE_1022" # STATE_1022
+	# TSR2_OVERLAY tsr_state_id=1022 ratio=1.000 split=False
+
+		state_category=rural
+
+	manpower=8600
+
+	history={
+		owner = INS
+		buildings = {
+			infrastructure = 0
+		}
+		add_core_of = CHI
+		add_core_of = INS
+		add_core_of = MAN
+		add_core_of = PRC
+	}
+
+		provinces={
+			800 945 3888 3932 3949 6868 6905 6947 9759 9803 9848 9866 11781 
+		}
+}

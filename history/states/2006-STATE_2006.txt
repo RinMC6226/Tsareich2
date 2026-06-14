@@ -1,0 +1,24 @@
+state={
+	id=2006
+	name="STATE_2006" # STATE_2006
+	# TSR2_OVERLAY none (BSR-only state)
+
+		state_category=pastoral
+
+	manpower=67216
+
+	history={
+		owner = TUR
+		victory_points = {
+			13402 1 
+		}
+		buildings = {
+			infrastructure = 2
+		}
+		add_core_of = TUR
+	}
+
+		provinces={
+		 13401 13402  
+		}
+}

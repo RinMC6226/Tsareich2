@@ -1,0 +1,31 @@
+state={
+	id=1806
+	name="STATE_1806" # STATE_1806
+	# TSR2_OVERLAY none (BSR-only state)
+
+		state_category=pastoral
+
+	manpower=367326
+
+	resources={
+		oil = 1
+	}
+
+	history={
+		owner = ARG
+		victory_points = {
+			10985 1 
+		}
+		victory_points = {
+			12942 1 
+		}
+		buildings = {
+			infrastructure = 4
+		}
+		add_core_of = ARG
+	}
+
+		provinces={
+			10985 8208 10975 12942 7500 5163
+		}
+}

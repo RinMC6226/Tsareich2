@@ -1,0 +1,24 @@
+state={
+	id=1269
+	name="STATE_1269" # STATE_1269
+	# TSR2_OVERLAY none (BSR-only state)
+
+		
+		state_category = pastoral
+
+	manpower=455604
+
+	history={
+		owner = INS
+		buildings = {
+			infrastructure = 3
+		1355 = {naval_base = 1}
+		}
+		add_core_of = GEA
+		add_core_of = INS
+	}
+
+		provinces={
+			1355 4358 1339
+		}
+}

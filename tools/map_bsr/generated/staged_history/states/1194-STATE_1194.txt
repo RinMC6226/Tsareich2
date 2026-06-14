@@ -1,0 +1,23 @@
+state={
+	id=1194
+	name="STATE_1194" # STATE_1194
+	# TSR2_OVERLAY none (BSR-only state)
+
+		
+		state_category = metropolis
+
+	manpower=240500
+
+	history={
+		owner = FRA
+		controller = GER
+		buildings = {
+			infrastructure = 8
+		}
+		add_core_of = FRA
+	}
+
+		provinces={
+			6949 
+		}
+}

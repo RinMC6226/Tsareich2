@@ -1,0 +1,27 @@
+state={
+	id=1811
+	name="STATE_1811" # STATE_1811
+	# TSR2_OVERLAY none (BSR-only state)
+
+		state_category=rural
+
+	manpower=172140
+
+	history={
+		owner = GER
+		controller = GER
+		victory_points = {
+			3380 3
+		}
+		buildings = {
+			infrastructure = 6
+		}
+		add_core_of = GER
+		add_core_of = POL
+		add_core_of = PRE
+	}
+
+		provinces={
+			8940 3351 3380
+		}
+}

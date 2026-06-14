@@ -1,0 +1,33 @@
+state={
+	id=338
+	name="STATE_338" # STATE_338
+	# TSR2_OVERLAY tsr_state_id=338 ratio=1.000 split=False
+
+
+		state_category = large_town
+
+	manpower=1800615
+
+	resources={
+		steel = 9
+	}
+
+	history={
+		owner = ENG
+		victory_points = {
+			3369 5 
+		}
+		buildings = {
+			air_base = 2
+			infrastructure = 4
+			arms_factory = 1
+			industrial_complex = 1
+		3369 = {naval_base = 2}
+		}
+		add_core_of = ENG
+	}
+
+		provinces={
+			3369 6221 6351 11471
+		}
+}

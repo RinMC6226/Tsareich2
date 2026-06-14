@@ -1,0 +1,28 @@
+state={
+	id=913
+	name="STATE_913" # STATE_913
+	# TSR2_OVERLAY tsr_state_id=913 ratio=1.000 split=False
+
+		state_category=wasteland
+
+	manpower=505226
+
+	resources={
+		steel = 3
+	}
+
+	history={
+		owner = SWE
+		buildings = {
+			air_base = 2
+			infrastructure = 3
+			industrial_complex = 1
+		}
+		add_core_of = BRA
+		add_core_of = SWE
+	}
+
+		provinces={
+			10960 
+		}
+}

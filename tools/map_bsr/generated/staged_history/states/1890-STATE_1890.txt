@@ -1,0 +1,24 @@
+state={
+	id=1890
+	name="STATE_1890" # STATE_1890
+	# TSR2_OVERLAY none (BSR-only state)
+
+		state_category=pastoral
+
+	manpower=71183
+
+	history={
+		owner = BRA
+		victory_points = {
+			12939 1
+		}
+		buildings = {
+			infrastructure = 3
+		}
+		add_core_of = BRA
+	}
+
+		provinces={
+			12939 
+		}
+}

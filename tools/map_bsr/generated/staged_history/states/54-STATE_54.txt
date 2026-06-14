@@ -1,0 +1,33 @@
+state={
+	id=54
+	name="STATE_54" # STATE_54
+	# TSR2_OVERLAY tsr_state_id=54 ratio=1.000 split=False
+
+		state_category=city
+
+	manpower=2508159
+
+	resources={
+		coal = 8
+	}
+
+	history={
+		owner = GER
+		victory_points = {
+			11529 5 
+		}
+		victory_points = {
+			11544 10 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 2
+		}
+		add_core_of = BAY
+		add_core_of = GER
+	}
+
+		provinces={
+			561 3474 6540 9416 9572 11404 11529 11544
+		}
+}

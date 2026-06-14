@@ -1,0 +1,25 @@
+state={
+	id=1143
+	name="STATE_1143" # STATE_1143
+	# TSR2_OVERLAY none (BSR-only state)
+
+		state_category=rural
+
+	manpower=310400
+
+	history={
+		owner = BUL
+		victory_points = {
+			6857 3
+		}
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 1
+		}
+		add_core_of = BUL
+	}
+
+		provinces={
+			6857 9818 
+		}
+}

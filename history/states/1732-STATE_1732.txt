@@ -1,0 +1,26 @@
+state={
+	id=1732
+	name="STATE_1732" # STATE_1732
+	# TSR2_OVERLAY none (BSR-only state)
+
+		state_category=pastoral
+
+	manpower=74752
+
+	history={
+		owner = FRA
+		controller = GER
+		victory_points = {
+			13368 1 
+		}
+		buildings = {
+			infrastructure = 6
+		}
+		add_core_of = BGN
+		add_core_of = FRA
+	}
+
+		provinces={
+			5291 13368
+		}
+}

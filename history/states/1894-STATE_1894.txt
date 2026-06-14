@@ -1,0 +1,27 @@
+state={
+	id=1894
+	name="STATE_1894" # STATE_1894
+	# TSR2_OVERLAY none (BSR-only state)
+
+
+		state_category = city
+
+	manpower=1555200
+
+	history={
+		owner = BRA
+		victory_points = {
+			5168 5 
+		}
+		buildings = {
+			infrastructure = 7
+			industrial_complex = 1
+		5168 = {naval_base = 1}
+		}
+		add_core_of = BRA
+	}
+
+		provinces={
+			5168 10967 8227 10345 12961 5182 
+		}
+}

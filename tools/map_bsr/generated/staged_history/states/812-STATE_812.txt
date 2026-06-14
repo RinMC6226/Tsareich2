@@ -1,0 +1,30 @@
+state={
+	id=812
+	name="STATE_812" # STATE_812
+	# TSR2_OVERLAY tsr_state_id=812 ratio=1.000 split=False
+
+		state_category=enclave
+
+	manpower=275220
+
+	history={
+		owner = RUS
+		controller = GER
+		victory_points = {
+			3488 1 
+		}
+		buildings = {
+			infrastructure = 3
+			arms_factory = 1
+			industrial_complex = 3
+		}
+		add_core_of = BEL
+		add_core_of = EST
+		add_core_of = RHI
+		add_core_of = WLL
+	}
+
+		provinces={
+			3488 
+		}
+}

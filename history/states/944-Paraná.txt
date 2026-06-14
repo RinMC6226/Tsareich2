@@ -1,0 +1,24 @@
+state={
+	id=944
+	name="STATE_944" # STATE_944
+	# TSR2_OVERLAY tsr_state_id=944 ratio=1.000 split=False
+
+		state_category=pastoral
+
+	manpower=961350
+
+	history={
+		owner = BRA
+		buildings = {
+			air_base = 1
+			infrastructure = 2
+		12702 = {naval_base = 6}
+		}
+		add_core_of = BRA
+		add_core_of = SAU
+	}
+
+		provinces={
+			10791 12702
+		}
+}

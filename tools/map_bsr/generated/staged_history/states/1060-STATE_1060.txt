@@ -1,0 +1,27 @@
+state={
+	id=1060
+	name="STATE_1060" # STATE_1060
+	# TSR2_OVERLAY tsr_state_id=1060 ratio=1.000 split=False
+
+		state_category=pastoral
+
+	manpower=0
+
+	history={
+		owner = IRQ
+		controller = IRQ
+		victory_points = {
+			11562 1 
+		}
+		buildings = {
+			infrastructure = 1
+		}
+		add_core_of = HOL
+		add_core_of = KUR
+		add_core_of = LIM
+	}
+
+		provinces={
+			6500 11562
+		}
+}

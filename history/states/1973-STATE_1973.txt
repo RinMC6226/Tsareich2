@@ -1,0 +1,24 @@
+state={
+	id=1973
+	name="STATE_1973" # STATE_1973
+	# TSR2_OVERLAY none (BSR-only state)
+
+		state_category=large_town
+
+	manpower=295812
+
+	history={
+		owner = POL
+		controller = GER
+		buildings = {
+			air_base = 1
+			infrastructure = 7
+		388 = {bunker = 1}
+		}
+		add_core_of = POL
+	}
+
+		provinces={
+		 388 
+		}
+}

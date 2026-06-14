@@ -1,0 +1,25 @@
+state={
+	id=1850
+	name="STATE_1850" # STATE_1850
+	# TSR2_OVERLAY none (BSR-only state)
+
+		
+		state_category = pastoral
+
+	manpower=27031
+
+	history={
+		owner = ENG
+		victory_points = {
+			8744 1 
+		}
+		buildings = {
+			infrastructure = 4
+		}
+		add_core_of = BLZ
+	}
+
+		provinces= { 
+		8744 
+		}
+}

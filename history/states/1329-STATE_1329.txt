@@ -1,0 +1,29 @@
+state={
+	id=1329
+	name="STATE_1329" # STATE_1329
+	# TSR2_OVERLAY none (BSR-only state)
+
+		state_category=large_town
+
+	manpower=530000
+
+	history={
+		owner = GER
+		victory_points = {
+			11415 3
+		}
+		buildings = {
+			air_base = 0
+			infrastructure = 8
+			arms_factory = 1
+			industrial_complex = 0
+		}
+		add_core_of = GER
+		add_core_of = LUS
+		add_core_of = PRE
+	}
+
+		provinces={
+			13621 478 11415 
+		}
+}

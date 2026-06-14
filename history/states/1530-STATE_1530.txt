@@ -1,0 +1,27 @@
+state={
+	id=1530
+	name="STATE_1530" # Zambia
+	# TSR2_OVERLAY none (BSR-only state)
+
+		
+		state_category = rural
+
+	manpower=13348
+
+	resources={
+		chromium = 30
+		tungsten = 8
+	}
+
+	history={
+		owner = ENG
+		buildings = {
+			infrastructure = 3
+		}
+		add_core_of = ZAM
+	}
+
+		provinces={
+			5221
+		}
+}

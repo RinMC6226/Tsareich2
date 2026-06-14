@@ -1,0 +1,28 @@
+state={
+	id=955
+	name="STATE_955" # STATE_955
+	# TSR2_OVERLAY tsr_state_id=955 ratio=1.000 split=False
+
+		state_category=rural
+
+	manpower=395040
+
+	resources={
+		oil = 4
+	}
+
+	history={
+		owner = ARG
+		buildings = {
+			infrastructure = 1
+		}
+		add_core_of = ARG
+		add_core_of = PON
+		add_core_of = TUR
+		add_core_of = WLA
+	}
+
+		provinces={
+			960 975 3965 11894 
+		}
+}

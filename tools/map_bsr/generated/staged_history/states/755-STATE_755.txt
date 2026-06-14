@@ -1,0 +1,37 @@
+state={
+	id=755
+	name="STATE_755" # STATE_755
+	# TSR2_OVERLAY tsr_state_id=755 ratio=1.000 split=False
+
+		state_category=pastoral
+
+	manpower=1000000
+
+	history={
+		owner = XSM
+					if = {
+						limit = {
+							NOT = {
+								has_dlc = "Waking the Tiger"
+							}
+		
+						}
+						KMT = {
+							transfer_state = PREV
+		
+						}
+		
+					}
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 1
+		}
+		add_core_of = CHI
+		add_core_of = PRC
+		add_core_of = XSM
+	}
+
+		provinces={
+			7940 7997 10750 10796 10834 12846 13974 
+		}
+}

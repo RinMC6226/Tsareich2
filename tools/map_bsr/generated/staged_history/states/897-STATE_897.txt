@@ -1,0 +1,22 @@
+state={
+	id=897
+	name="STATE_897" # STATE_897
+	# TSR2_OVERLAY tsr_state_id=897 ratio=1.000 split=False
+
+		state_category=enclave
+
+	manpower=1386000
+
+	history={
+		owner = POR
+		buildings = {
+			infrastructure = 2
+		}
+		add_core_of = GAB
+		add_core_of = MZB
+	}
+
+		provinces={
+			13271 13272 
+		}
+}

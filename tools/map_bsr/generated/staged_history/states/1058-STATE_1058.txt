@@ -1,0 +1,25 @@
+state={
+	id=1058
+	name="STATE_1058" # STATE_1058
+	# TSR2_OVERLAY tsr_state_id=1058 ratio=1.000 split=False
+
+		state_category=rural
+
+	manpower=0
+
+	history={
+		owner = RUS
+		controller = RUS
+		buildings = {
+			infrastructure = 1
+		}
+		add_core_of = ARM
+		add_core_of = FLA
+		add_core_of = HOL
+		add_core_of = ZEE
+	}
+
+		provinces={
+			480 
+		}
+}

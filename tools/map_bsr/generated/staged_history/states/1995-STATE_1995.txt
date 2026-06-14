@@ -1,0 +1,24 @@
+state={
+	id=1995
+	name="STATE_1995" # STATE_1995
+	# TSR2_OVERLAY none (BSR-only state)
+
+		
+		state_category = rural
+
+	manpower=78526
+
+	history={
+		owner = SOV
+		buildings = {
+			air_base = 1
+			infrastructure = 3
+		}
+		add_core_of = BLR
+		add_core_of = SOV
+	}
+
+		provinces={
+		 9554 215 3293
+		}
+}

@@ -1,0 +1,40 @@
+state={
+	id=528
+	name="STATE_528" # STATE_528
+	# TSR2_OVERLAY tsr_state_id=528 ratio=1.000 split=False
+
+		state_category=large_city
+
+	manpower=6046000
+
+	resources={
+		chromium = 32
+		coal = 15
+	}
+
+	history={
+		owner = JAP
+		victory_points = {
+			1025 10 
+		}
+		victory_points = {
+			9950 30 
+		}
+		victory_points = {
+			7110 20 
+		}
+		buildings = {
+			air_base = 3
+			infrastructure = 4
+			dockyard = 3
+			arms_factory = 1
+			industrial_complex = 1
+		9950 = {naval_base = 6}
+		}
+		add_core_of = JAP
+	}
+
+		provinces={
+			1025 1158 4027 4164 7110 9950 10020 
+		}
+}

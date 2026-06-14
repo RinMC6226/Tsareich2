@@ -1,0 +1,31 @@
+state={
+	id=401
+	name="STATE_401" # STATE_401
+	# TSR2_OVERLAY tsr_state_id=401 ratio=1.000 split=False
+
+		
+		state_category = rural
+
+	manpower=309530
+
+	resources={
+		steel = 10
+		tungsten = 10
+	}
+
+	history={
+		owner = RUS
+		victory_points = {
+			6502 1
+		}
+		buildings = {
+			infrastructure = 2
+		}
+		add_core_of = RUS
+		add_core_of = SOV
+	}
+
+		provinces={
+			410 452 499 3490 3551 6339 6430 6473 6502 6574 6601 9337 9432 9447 9473 9577 11321 11421 11458 6366 3316 326 3477 3343 
+		}
+}

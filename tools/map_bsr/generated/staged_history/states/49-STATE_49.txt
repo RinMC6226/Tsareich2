@@ -1,0 +1,32 @@
+state={
+	id=49
+	name="STATE_49" # STATE_49
+	# TSR2_OVERLAY tsr_state_id=49 ratio=1.000 split=False
+
+		state_category=town
+
+	manpower=810284
+
+	resources={
+		chromium = 11
+		steel = 28
+	}
+
+	history={
+		owner = TUR
+		victory_points = {
+			11747 10 
+		}
+		buildings = {
+			air_base = 3
+			infrastructure = 2
+			arms_factory = 2
+			industrial_complex = 2
+		}
+		add_core_of = TUR
+	}
+
+		provinces={
+			6908 6925 9806 11747 11784 
+		}
+}

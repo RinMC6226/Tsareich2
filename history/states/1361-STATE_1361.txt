@@ -1,0 +1,32 @@
+state={
+	id=1361
+	name="STATE_1361" # STATE_1361
+	# TSR2_OVERLAY none (BSR-only state)
+
+		state_category=rural
+
+	manpower=255327
+
+	resources={
+		tungsten = 5
+		steel = 2
+		chromium = 1
+	}
+
+	history={
+		owner = FIN
+		victory_points = {
+			11125 1 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+		11125 = {naval_base = 2}
+		}
+		add_core_of = FIN
+	}
+
+		provinces={
+			11115 11125 3193 124 3055 11130
+		}
+}

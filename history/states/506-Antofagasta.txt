@@ -1,0 +1,31 @@
+state={
+	id=506
+	name="STATE_506" # STATE_506
+	# TSR2_OVERLAY tsr_state_id=506 ratio=1.000 split=False
+
+		state_category=rural
+
+	manpower=423605
+
+	resources={
+		tungsten = 42
+		coal = 1
+	}
+
+	history={
+		owner = CHL
+				add_claim_by = BOL
+		buildings = {
+			air_base = 1
+			infrastructure = 3
+			dockyard = 1
+			industrial_complex = 2
+		5228 = {naval_base = 2}
+		}
+		add_core_of = CHL
+	}
+
+		provinces={
+		 5228 12914 
+		}
+}

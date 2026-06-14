@@ -1,0 +1,24 @@
+state={
+	id=1319
+	name="STATE_1319" # STATE_1319
+	# TSR2_OVERLAY none (BSR-only state)
+
+		state_category=wasteland
+
+		
+		impassable = yes
+
+	manpower=23423
+
+	history={
+		owner = FRA
+		buildings = {
+			infrastructure = 0
+		}
+		add_core_of = MRT
+	}
+
+		provinces={
+			10771 
+		}
+}

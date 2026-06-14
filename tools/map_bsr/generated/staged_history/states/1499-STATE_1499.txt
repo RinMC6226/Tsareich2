@@ -1,0 +1,24 @@
+state={
+	id=1499
+	name="STATE_1499" # STATE_1499
+	# TSR2_OVERLAY none (BSR-only state)
+
+		state_category=wasteland
+
+
+		impassable = yes
+
+	manpower=4012
+
+	history={
+		owner = SAU
+		buildings = {
+			infrastructure = 0
+		}
+		add_core_of = SAU
+	}
+
+		provinces={
+			5006 13434
+		}
+}

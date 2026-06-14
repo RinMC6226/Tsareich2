@@ -1,0 +1,27 @@
+state={
+	id=1643
+	name="STATE_1643" # STATE_1643
+	# TSR2_OVERLAY none (BSR-only state)
+
+		
+		state_category = pastoral
+
+	manpower=11936
+
+	history={
+		owner = ROM
+		victory_points = {
+			13666 1 
+		}
+		buildings = {
+			infrastructure = 3
+		}
+		add_core_of = HUN
+		add_core_of = ROM
+		add_core_of = TRA
+	}
+
+		provinces={
+			13666
+		}
+}

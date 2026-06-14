@@ -1,0 +1,27 @@
+state={
+	id=1341
+	name="STATE_1341" # STATE_1341
+	# TSR2_OVERLAY none (BSR-only state)
+
+		state_category=enclave
+
+	manpower=123900
+
+	history={
+		owner = CHI
+		controller = PGR
+		victory_points = {
+			13772 1 
+		}
+		buildings = {
+			infrastructure = 10
+		}
+		add_core_of = CHI
+		add_core_of = PGR
+		add_core_of = PRC
+	}
+
+		provinces={
+			13772
+		}
+}

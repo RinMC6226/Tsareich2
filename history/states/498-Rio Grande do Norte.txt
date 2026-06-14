@@ -1,0 +1,31 @@
+state={
+	id=498
+	name="STATE_498" # STATE_498
+	# TSR2_OVERLAY tsr_state_id=498 ratio=1.000 split=False
+
+
+		state_category = city
+
+	manpower=649000
+
+	resources={
+		tungsten = 3
+	}
+
+	history={
+		owner = BRA
+		victory_points = {
+			10933 10 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+		10933 = {naval_base = 3}
+		}
+		add_core_of = BRA
+	}
+
+		provinces={
+		 2175 10933 
+		}
+}

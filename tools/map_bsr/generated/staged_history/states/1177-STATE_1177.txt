@@ -1,0 +1,24 @@
+state={
+	id=1177
+	name="STATE_1177" # STATE_1177
+	# TSR2_OVERLAY none (BSR-only state)
+
+		state_category=wasteland
+
+
+		impassable = yes
+
+	manpower=1573
+
+	history={
+		owner = ITA
+		buildings = {
+			infrastructure = 0
+		}
+		add_core_of = LBA
+	}
+
+		provinces={
+			13366
+		}
+}

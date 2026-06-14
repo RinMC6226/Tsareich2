@@ -1,0 +1,26 @@
+state={
+	id=417
+	name="STATE_417" # STATE_417
+	# TSR2_OVERLAY tsr_state_id=417 ratio=1.000 split=False
+
+		state_category=rural
+
+	manpower=796396
+
+	resources={
+		steel = 4
+		chromium = 5
+	}
+
+	history={
+		owner = PER
+		buildings = {
+			infrastructure = 2
+		}
+		add_core_of = PER
+	}
+
+		provinces={
+			2065 5050 8040 
+		}
+}

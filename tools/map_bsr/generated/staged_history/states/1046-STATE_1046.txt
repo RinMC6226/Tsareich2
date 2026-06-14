@@ -1,0 +1,32 @@
+state={
+	id=1046
+	name="STATE_1046" # STATE_1046
+	# TSR2_OVERLAY tsr_state_id=1046 ratio=1.000 split=False
+
+		state_category=pastoral
+
+	manpower=1057400
+
+	resources={
+		coal = 12
+	}
+
+	history={
+		owner = XIC
+		controller = XIC
+		victory_points = {
+			11845 1 
+		}
+		buildings = {
+			infrastructure = 1
+		}
+		add_core_of = BOS
+		add_core_of = HRZ
+		add_core_of = XIC
+		add_core_of = YUG
+	}
+
+		provinces={
+			953 9894 11845 
+		}
+}

@@ -1,0 +1,31 @@
+state={
+	id=1395
+	name="STATE_1395" # STATE_1395
+	# TSR2_OVERLAY none (BSR-only state)
+
+		
+		state_category = large_town
+
+	manpower=431700
+
+	resources={
+		aluminium = 1
+		steel = 1
+	}
+
+	history={
+		owner = IRE
+		victory_points = {
+			337 1
+		}
+		buildings = {
+			infrastructure = 7
+			industrial_complex = 2
+		}
+		add_core_of = IRE
+	}
+
+		provinces={
+			337 
+		}
+}

@@ -1,0 +1,24 @@
+state={
+	id=2024
+	name="STATE_2024" # STATE_2024
+	# TSR2_OVERLAY none (BSR-only state)
+
+		state_category=megalopolis
+
+	manpower=8730000
+
+	history={
+		owner = ENG
+		victory_points = {
+			6103 50
+		}
+		buildings = {
+			infrastructure = 10
+		}
+		add_core_of = ENG
+	}
+
+		provinces={
+			6103 
+		}
+}

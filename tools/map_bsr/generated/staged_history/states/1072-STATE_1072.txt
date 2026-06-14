@@ -1,0 +1,32 @@
+state={
+	id=1072
+	name="STATE_1072" # STATE_1072
+	# TSR2_OVERLAY tsr_state_id=1072 ratio=1.000 split=False
+
+		state_category=wasteland
+
+
+		impassable = yes
+
+	manpower=1138242
+
+	resources={
+		rubber = 3
+	}
+
+	history={
+		owner = INS
+				start_resistance = yes
+				set_resistance = 75
+				set_compliance = 2
+		buildings = {
+			infrastructure = 1
+		}
+		add_core_of = ATJ
+		add_core_of = LBA
+	}
+
+		provinces={
+			7985
+		}
+}

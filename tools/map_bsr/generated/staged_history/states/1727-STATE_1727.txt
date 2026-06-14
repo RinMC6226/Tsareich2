@@ -1,0 +1,26 @@
+state={
+	id=1727
+	name="STATE_1727" # STATE_1727
+	# TSR2_OVERLAY none (BSR-only state)
+
+		
+		state_category = pastoral
+
+	manpower=47688
+
+	history={
+		owner = MEX
+		victory_points = {
+			13708 1
+		}
+		buildings = {
+			infrastructure = 2
+		}
+		add_core_of = CHP
+		add_core_of = MEX
+	}
+
+		provinces={
+			13708
+		}
+}

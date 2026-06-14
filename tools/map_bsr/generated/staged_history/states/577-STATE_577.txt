@@ -1,0 +1,29 @@
+state={
+	id=577
+	name="STATE_577" # STATE_577
+	# TSR2_OVERLAY tsr_state_id=577 ratio=1.000 split=False
+
+		
+		state_category = wasteland
+
+	manpower=29299
+
+	resources={
+		oil = 13
+	}
+
+	history={
+		owner = RUS
+		buildings = {
+			infrastructure = 1
+		}
+		add_core_of = OVO
+		add_core_of = RUS
+		add_core_of = SIB
+		add_core_of = SOV
+	}
+
+		provinces={
+			1726 1768 1784 1856 4730 4771 4817 7685 7781 7837 7882 10533 10561 10663 10692 12514 12542 12574 12639 12672 
+		}
+}

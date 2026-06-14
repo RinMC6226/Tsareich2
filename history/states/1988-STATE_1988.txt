@@ -1,0 +1,25 @@
+state={
+	id=1988
+	name="STATE_1988" # STATE_1988
+	# TSR2_OVERLAY none (BSR-only state)
+
+		state_category = pastoral
+
+	manpower=186391
+
+	history={
+		owner = YUG
+		controller = GER
+		buildings = {
+			infrastructure = 4
+		}
+		add_core_of = BNT
+		add_core_of = SER
+		add_core_of = VOJ
+		add_core_of = YUG
+	}
+
+		provinces={
+		6643
+		}
+}

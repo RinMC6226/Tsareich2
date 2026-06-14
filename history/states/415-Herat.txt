@@ -1,0 +1,26 @@
+state={
+	id=415
+	name="STATE_415" # STATE_415
+	# TSR2_OVERLAY tsr_state_id=415 ratio=1.000 split=False
+
+		state_category=rural
+
+	manpower=1001058
+
+	history={
+		owner = AFG
+		victory_points = {
+			12871 10 
+		}
+		buildings = {
+			infrastructure = 1
+			arms_factory = 1
+			industrial_complex = 1
+		}
+		add_core_of = AFG
+	}
+
+		provinces={
+			1948 1995 2017 2062 2078 8053 12788 12871 
+		}
+}

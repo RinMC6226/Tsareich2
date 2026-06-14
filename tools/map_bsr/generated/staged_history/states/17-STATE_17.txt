@@ -1,0 +1,34 @@
+state={
+	id=17
+	name="STATE_17" # STATE_17
+	# TSR2_OVERLAY tsr_state_id=17 ratio=1.000 split=False
+
+		state_category=city
+
+	manpower=1517500
+
+	resources={
+		steel = 28
+	}
+
+	history={
+		owner = FRA
+		controller = GER
+			
+				set_demilitarized_zone = yes
+		victory_points = {
+			698 5 
+		}
+		buildings = {
+			air_base = 5
+			infrastructure = 7
+			industrial_complex = 1
+		}
+		add_core_of = BGN
+		add_core_of = FRA
+	}
+
+		provinces={
+			196 698 3666 6698 13367
+		}
+}

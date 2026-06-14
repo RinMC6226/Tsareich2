@@ -1,0 +1,26 @@
+state={
+	id=240
+	name="STATE_240" # Belgorod
+	# TSR2_OVERLAY tsr_state_id=240 ratio=1.000 split=False
+
+		
+		state_category = town
+
+	manpower=1364537
+
+	history={
+		owner = RUS
+		victory_points = {
+			9449 1
+		}
+		buildings = {
+			infrastructure = 3
+		}
+		add_core_of = RUS
+		add_core_of = SOV
+	}
+
+		provinces={
+			473 534 3492 6432 6481 6517 6577 9449 9489 9518 11439 11500 
+		}
+}

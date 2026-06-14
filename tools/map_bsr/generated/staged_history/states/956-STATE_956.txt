@@ -1,0 +1,35 @@
+state={
+	id=956
+	name="STATE_956" # STATE_956
+	# TSR2_OVERLAY tsr_state_id=956 ratio=1.000 split=False
+
+		state_category=rural
+
+	manpower=2997169
+
+	resources={
+		oil = 6
+	}
+
+	history={
+		owner = ARG
+		victory_points = {
+			804 1 
+		}
+		victory_points = {
+			11897 1 
+		}
+		buildings = {
+			air_base = 1
+			infrastructure = 2
+			arms_factory = 1
+			industrial_complex = 1
+		}
+		add_core_of = ARG
+		add_core_of = TUR
+	}
+
+		provinces={
+			804 3862 9861 11826 11839 11844 11897 
+		}
+}

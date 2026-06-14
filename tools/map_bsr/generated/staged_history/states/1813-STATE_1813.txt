@@ -1,0 +1,26 @@
+state={
+	id=1813
+	name="STATE_1813" # STATE_1813
+	# TSR2_OVERLAY none (BSR-only state)
+
+		
+		state_category = pastoral
+
+	manpower=127920
+
+	history={
+		owner = FRA
+		victory_points = {
+			7963 1
+		}
+		buildings = {
+			air_base = 1
+			infrastructure = 1
+		}
+		add_core_of = CMR
+	}
+
+		provinces={
+			7963 
+		}
+}

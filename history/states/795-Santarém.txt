@@ -1,0 +1,31 @@
+state={
+	id=795
+	name="STATE_795" # STATE_795
+	# TSR2_OVERLAY tsr_state_id=795 ratio=1.000 split=False
+
+		state_category=city
+
+	manpower=729712
+
+	resources={
+		chromium = 20
+	}
+
+	history={
+		owner = POR
+		victory_points = {
+			3535 5 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+		}
+		add_core_of = GER
+		add_core_of = POR
+		add_core_of = SAX
+	}
+
+		provinces={
+			3535 6559 9441 9471 11481 
+		}
+}

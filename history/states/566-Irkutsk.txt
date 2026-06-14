@@ -1,0 +1,34 @@
+state={
+	id=566
+	name="STATE_566" # Irktusk
+	# TSR2_OVERLAY tsr_state_id=566 ratio=1.000 split=False
+
+		
+		state_category = rural
+
+	manpower=755237
+
+	resources={
+		steel = 20
+		aluminium = 7
+	}
+
+	history={
+		owner = RUS
+		victory_points = {
+			7838 3 
+		}
+		buildings = {
+			air_base = 1
+			infrastructure = 2
+			arms_factory = 1
+		}
+		add_core_of = RUS
+		add_core_of = SIB
+		add_core_of = SOV
+	}
+
+		provinces={
+			1707 1727 1829 4815 7838 10524 10596 12525 12540 12647 
+		}
+}

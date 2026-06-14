@@ -1,0 +1,43 @@
+state={
+	id=838
+	name="STATE_838" # STATE_838
+	# TSR2_OVERLAY tsr_state_id=838 ratio=1.000 split=False
+
+		state_category=rural
+
+	manpower=600000
+
+	resources={
+		rubber = 2
+	}
+
+	history={
+		owner = ETH
+		controller = ITA
+		
+				set_variable = { ETH_state_development_production_speed = -0.3 }
+				set_variable = { ETH_state_development_local_building_slots_factor = -0.3 }
+				
+				
+				
+				add_dynamic_modifier = {
+					modifier = ETH_state_development_dynamic_modifier
+				}
+				add_dynamic_modifier = {
+					modifier = ETH_state_decentralization_dynamic_modifier
+					scope = ETH
+				}
+		buildings = {
+			infrastructure = 7
+			industrial_complex = 1
+		}
+		add_core_of = ETH
+		add_core_of = GBA
+		add_core_of = NEE
+		add_core_of = USA
+	}
+
+		provinces={
+			4445 7629 9675 
+		}
+}

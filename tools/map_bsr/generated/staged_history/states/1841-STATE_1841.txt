@@ -1,0 +1,29 @@
+state={
+	id=1841
+	name="STATE_1841" # STATE_1841
+	# TSR2_OVERLAY none (BSR-only state)
+
+		
+		state_category = pastoral
+
+	manpower=273731
+
+	resources={
+		tungsten = 1
+	}
+
+	history={
+		owner = PRU
+		victory_points = {
+			5867 1 
+		}
+		buildings = {
+			infrastructure = 4
+		}
+		add_core_of = PRU
+	}
+
+		provinces={
+			5867
+		}
+}

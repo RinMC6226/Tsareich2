@@ -1,0 +1,23 @@
+state={
+	id=1782
+	name="STATE_1782" # STATE_1782
+	# TSR2_OVERLAY none (BSR-only state)
+
+		state_category=rural
+
+	manpower=100000
+
+	history={
+		owner = XSM
+		buildings = {
+			infrastructure = 1
+		}
+		add_core_of = CHI
+		add_core_of = PRC
+		add_core_of = XSM
+	}
+
+		provinces={
+			13971 
+		}
+}

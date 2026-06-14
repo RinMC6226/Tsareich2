@@ -1,0 +1,30 @@
+state={
+	id=154
+	name="STATE_154" # STATE_154
+	# TSR2_OVERLAY tsr_state_id=154 ratio=1.000 split=False
+
+		state_category=large_town
+
+	manpower=2155383
+
+	history={
+		owner = HUN
+		victory_points = {
+			11659 1 
+		}
+		victory_points = {
+			9656 1 
+		}
+		buildings = {
+			air_base = 2
+			infrastructure = 3
+			arms_factory = 1
+			industrial_complex = 2
+		}
+		add_core_of = HUN
+	}
+
+		provinces={
+			679 699 730 9656 11644 11646 11659 
+		}
+}

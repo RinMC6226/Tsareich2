@@ -1,0 +1,23 @@
+state={
+	id=1957
+	name="STATE_1957" # STATE_1957
+	# TSR2_OVERLAY none (BSR-only state)
+
+		state_category=pastoral
+
+	manpower=30100
+
+	history={
+		owner = YUG
+		buildings = {
+			infrastructure = 4
+		}
+		add_core_of = KOS
+		add_core_of = SER
+		add_core_of = YUG
+	}
+
+		provinces={
+			13992 
+		}
+}

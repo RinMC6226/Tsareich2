@@ -1,0 +1,32 @@
+state={
+	id=2
+	name="STATE_2" # STATE_2
+	# TSR2_OVERLAY tsr_state_id=2 ratio=1.000 split=False
+
+		state_category=city
+
+	manpower=2781971
+
+	history={
+		owner = ITA
+		victory_points = {
+			9904 40 
+		}
+		victory_points = {
+			11846 5 
+		}
+		buildings = {
+			air_base = 8
+			infrastructure = 4
+			arms_factory = 1
+			industrial_complex = 4
+		11846 = {naval_base = 2}
+		}
+		add_core_of = ITA
+		add_core_of = PAP
+	}
+
+		provinces={
+			9904 11846  
+		}
+}

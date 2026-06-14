@@ -1,0 +1,24 @@
+state={
+	id=1305
+	name="STATE_1305" # STATE_1305
+	# TSR2_OVERLAY none (BSR-only state)
+
+		state_category=pastoral
+
+	manpower=310000
+
+	history={
+		owner = XSM
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 1
+		}
+		add_core_of = CHI
+		add_core_of = PRC
+		add_core_of = XSM
+	}
+
+		provinces={
+			10865 12890 
+		}
+}

@@ -1,0 +1,38 @@
+state={
+	id=1039
+	name="STATE_1039" # STATE_1039
+	# TSR2_OVERLAY tsr_state_id=1039 ratio=1.000 split=False
+
+		state_category=small_island
+
+	manpower=367500
+
+	history={
+		owner = BYG
+		controller = BYG
+					1936.1.1 = {
+					IF = {
+						limit = {
+							has_dlc = "No Compromise, No Surrender"
+						}
+						transfer_state_to = BYG
+						add_core_of = BYG
+					}
+					}
+		victory_points = {
+			8000 1 
+		}
+		buildings = {
+			infrastructure = 1
+		8000 = {naval_base = 1}
+		}
+		add_core_of = BYG
+		add_core_of = MEN
+		add_core_of = SYE
+		add_core_of = YEM
+	}
+
+		provinces={
+			8000 
+		}
+}

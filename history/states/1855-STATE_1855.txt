@@ -1,0 +1,31 @@
+state={
+	id=1855
+	name="STATE_1855" # STATE_1855
+	# TSR2_OVERLAY none (BSR-only state)
+
+		
+		state_category = rural
+
+	manpower=73863
+
+	resources={
+		chromium = 1
+	}
+
+	history={
+		owner = COS
+		victory_points = {
+			5893 1
+		}
+		buildings = {
+			infrastructure = 4
+			dockyard = 1
+		5893 = {naval_base = 1}
+		}
+		add_core_of = COS
+	}
+
+		provinces={
+			5893
+		}
+}

@@ -1,0 +1,24 @@
+state={
+	id=1821
+	name="STATE_1821" # STATE_1821
+	# TSR2_OVERLAY none (BSR-only state)
+
+		state_category=rural
+
+	manpower=600000
+
+	history={
+		owner = AFG
+		victory_points = {
+			10826 10 
+		}
+		buildings = {
+			infrastructure = 1
+		}
+		add_core_of = AFG
+	}
+
+		provinces={
+			10826 12831 
+		}
+}

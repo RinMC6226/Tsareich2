@@ -1,0 +1,22 @@
+state={
+	id=1912
+	name="STATE_1912" # STATE_1912
+	# TSR2_OVERLAY none (BSR-only state)
+
+		state_category=town
+
+	manpower=906697
+
+	history={
+		owner = INS
+		buildings = {
+			infrastructure = 3
+		}
+		add_core_of = INS
+		add_core_of = SSM
+	}
+
+		provinces={
+			1332 1345 1373 1533 12212 12415 
+		}
+}

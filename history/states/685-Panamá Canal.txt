@@ -1,0 +1,25 @@
+state={
+	id=685
+	name="STATE_685" # STATE_685
+	# TSR2_OVERLAY tsr_state_id=685 ratio=1.000 split=False
+
+		
+		state_category = enclave
+
+	manpower=39467
+
+	history={
+		owner = USA
+		victory_points = {
+			7617 5 
+		}
+		buildings = {
+			air_base = 6
+			infrastructure = 2
+		7617 = {naval_base = 3}
+		}
+		add_core_of = PAN
+	}
+
+		provinces={ 7617 }
+}

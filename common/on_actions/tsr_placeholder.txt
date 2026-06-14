@@ -11,6 +11,10 @@ on_actions = {
 				}
 				tsr_ger_apply_bavarian_military_district_effect = yes
 			}
+			# RUS 皇帝暗殺イベントを 1936.1.13 (開始+12日) に1回だけ発火 (旧: 毎日ポーリング)
+			RUS = {
+				country_event = { id = rus_tsar_death.1 days = 12 }
+			}
 			set_global_flag = tsr_bay_monthly_manpower_enabled
 		}
 	}

@@ -1,0 +1,39 @@
+state={
+	id=1597
+	name="STATE_1597" # STATE_1597
+	# TSR2_OVERLAY none (BSR-only state)
+
+	    state_category=large_city
+
+	manpower=2026061
+
+	history={
+		owner = CAN
+		victory_points = {
+			3775 30 
+		}
+		victory_points = {
+			9667 1
+		}
+		victory_points = {
+			3763 5
+		}
+		victory_points = {
+			749 1
+		}
+		victory_points = {
+			774 1 
+		}
+		buildings = {
+			infrastructure = 8
+			arms_factory = 1
+			industrial_complex = 2
+		3775 = {naval_base = 3}
+		}
+		add_core_of = CAN
+	}
+
+	    provinces={
+	        722 749 774 779 3763 3775 6607 6610 9667 9711 9743 11695 11725
+	    }
+}

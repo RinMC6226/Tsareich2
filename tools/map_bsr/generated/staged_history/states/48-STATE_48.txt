@@ -1,0 +1,35 @@
+state={
+	id=48
+	name="STATE_48" # STATE_48
+	# TSR2_OVERLAY tsr_state_id=48 ratio=1.000 split=False
+
+		state_category=city
+
+	manpower=1685989
+
+	resources={
+		aluminium = 2
+		coal = 1
+	}
+
+	history={
+		owner = BUL
+		controller = BUL
+		victory_points = {
+			949 30 
+		}
+		victory_points = {
+			965 1 
+		}
+		buildings = {
+			air_base = 3
+			infrastructure = 3
+			industrial_complex = 6
+		}
+		add_core_of = BUL
+	}
+
+		provinces={
+			793 949 965 3971 11754 
+		}
+}

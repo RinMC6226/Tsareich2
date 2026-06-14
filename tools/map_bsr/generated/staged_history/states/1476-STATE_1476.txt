@@ -1,0 +1,33 @@
+state={
+	id=1476
+	name="STATE_1476" # STATE_1476
+	# TSR2_OVERLAY none (BSR-only state)
+
+		
+		state_category = town
+
+	manpower=109520
+
+	resources={
+		tungsten = 1
+	}
+
+	history={
+		owner = PRU
+		victory_points = {
+			13902 1 
+		}
+		buildings = {
+			air_base = 1
+			infrastructure = 5
+			dockyard = 1
+			industrial_complex = 1
+		13902 = {naval_base = 2}
+		}
+		add_core_of = PRU
+	}
+
+		provinces={
+			13902
+		}
+}

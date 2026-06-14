@@ -1,0 +1,44 @@
+state={
+	id=1044
+	name="STATE_1044" # STATE_1044
+	# TSR2_OVERLAY tsr_state_id=1044 ratio=1.000 split=False
+
+		state_category=enclave
+
+	manpower=1010300
+
+	history={
+		owner = XSM
+					IF = {
+						limit = {
+							has_dlc = "No Compromise, No Surrender" 
+						}
+						add_core_of = XSM
+					}
+					1936.1.1 = {
+					if = {
+						limit = {
+							NOT = {
+								has_dlc = "Waking the Tiger" 
+							}
+						}
+						KMT = {
+							transfer_state = PREV
+						}
+					}
+					}
+		victory_points = {
+			12100 3 
+		}
+		buildings = {
+			infrastructure = 1
+		12100 = {naval_base = 3}
+		}
+		add_core_of = MOR
+		add_core_of = XSM
+	}
+
+		provinces={
+			12100 
+		}
+}

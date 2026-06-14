@@ -1,0 +1,25 @@
+state={
+	id=1067
+	name="STATE_1067" # STATE_1067
+	# TSR2_OVERLAY tsr_state_id=1067 ratio=1.000 split=False
+
+		state_category = pastoral
+
+	manpower=240000
+
+	history={
+		owner = ITA
+		controller = ITA
+		buildings = {
+			infrastructure = 2
+		11031 = {naval_base = 2
+						coastal_bunker = 2}
+		}
+		add_core_of = FIN
+		add_core_of = ITA
+	}
+
+		provinces={
+			11031 
+		}
+}

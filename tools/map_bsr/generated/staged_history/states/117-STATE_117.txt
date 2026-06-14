@@ -1,0 +1,41 @@
+state={
+	id=117
+	name="STATE_117" # STATE_117
+	# TSR2_OVERLAY tsr_state_id=117 ratio=1.000 split=False
+
+		state_category=city
+
+	manpower=4240000
+
+	resources={
+		aluminium = 10
+		steel = 15
+	}
+
+	history={
+		owner = ITA
+		victory_points = {
+			819 20 
+		}
+		victory_points = {
+			955 3 
+		}
+		victory_points = {
+			11803 1 
+		}
+		buildings = {
+			air_base = 3
+			infrastructure = 3
+			dockyard = 1
+			arms_factory = 1
+			industrial_complex = 2
+		}
+		add_core_of = ITA
+		add_core_of = KTS
+		add_core_of = TTS
+	}
+
+		provinces={
+			819 851 955 9826 11803 923
+		}
+}

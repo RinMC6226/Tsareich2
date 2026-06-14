@@ -1,0 +1,26 @@
+state={
+	id=1063
+	name="STATE_1063" # STATE_1063
+	# TSR2_OVERLAY tsr_state_id=1063 ratio=1.000 split=False
+
+		state_category=rural
+
+	manpower=409311
+
+	history={
+		owner = FRA
+		controller = BUL
+		victory_points = {
+			9930 1 
+		}
+		buildings = {
+			infrastructure = 4
+		}
+		add_core_of = FRA
+		add_core_of = GRE
+	}
+
+		provinces={
+			6990 9930 13316 
+		}
+}

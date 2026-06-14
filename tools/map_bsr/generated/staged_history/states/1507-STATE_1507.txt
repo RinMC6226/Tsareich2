@@ -1,0 +1,26 @@
+state={
+	id=1507
+	name="STATE_1507" # STATE_1507
+	# TSR2_OVERLAY none (BSR-only state)
+
+		state_category=rural
+
+	manpower=105026
+
+	history={
+		owner = ROM
+		controller = HUN
+		victory_points = {
+			3709 1 
+		}
+		buildings = {
+			infrastructure = 3
+		}
+		add_core_of = ROM
+		add_core_of = TRA
+	}
+
+	    provinces={
+	        713 746 3709 9687
+	    }
+}

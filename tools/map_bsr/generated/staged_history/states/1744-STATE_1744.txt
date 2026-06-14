@@ -1,0 +1,25 @@
+state={
+	id=1744
+	name="STATE_1744" # STATE_1744
+	# TSR2_OVERLAY none (BSR-only state)
+
+		state_category=rural
+
+	manpower=250000
+
+	history={
+		owner = HSI
+		buildings = {
+			infrastructure = 1
+			arms_factory = 1
+			industrial_complex = 1
+		}
+		add_core_of = CHI
+		add_core_of = HSI
+		add_core_of = PRC
+	}
+
+		provinces={
+			8104 
+		}
+}

@@ -1,0 +1,25 @@
+state={
+	id=1745
+	name="STATE_1745" # STATE_1745
+	# TSR2_OVERLAY none (BSR-only state)
+
+		state_category=rural
+
+	manpower=787000
+
+	history={
+		owner = SZH
+		buildings = {
+			infrastructure = 1
+			arms_factory = 1
+			industrial_complex = 1
+		}
+		add_core_of = CHI
+		add_core_of = PRC
+		add_core_of = SZH
+	}
+
+		provinces={
+			10787 
+		}
+}

@@ -1,0 +1,32 @@
+state={
+	id=606
+	name="STATE_606" # STATE_606
+	# TSR2_OVERLAY tsr_state_id=606 ratio=1.000 split=False
+
+		state_category=megalopolis
+
+	manpower=18265400
+
+	resources={
+		steel = 11
+	}
+
+	history={
+		owner = BYG
+		controller = BYG
+		victory_points = {
+			7222 1 
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+		}
+		add_core_of = BYG
+		add_core_of = CHI
+		add_core_of = PRC
+	}
+
+		provinces={
+			1083 1146 4079 4158 4203 7035 7094 7222 10008 10017 10064 11916 11937 11994 12036 12061 
+		}
+}

@@ -1,0 +1,40 @@
+state={
+	id=306
+	name="STATE_306" # Cundinamarca
+	# TSR2_OVERLAY tsr_state_id=306 ratio=1.000 split=False
+
+		
+		state_category = city
+
+	manpower=4953049
+
+	history={
+		owner = COL
+		victory_points = {
+			10747 25
+		}
+		victory_points = {
+			7993 5
+		}
+		victory_points = {
+			10790 5
+		}
+		victory_points = {
+			7936 10
+		}
+		victory_points = {
+			10846 10
+		}
+		buildings = {
+			air_base = 2
+			infrastructure = 2
+			arms_factory = 1
+			industrial_complex = 5
+		}
+		add_core_of = COL
+	}
+
+		provinces={
+			2079 7936 7991 7993 10747 10790 10846 
+		}
+}

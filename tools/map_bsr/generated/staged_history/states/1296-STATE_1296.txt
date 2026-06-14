@@ -1,0 +1,24 @@
+state={
+	id=1296
+	name="STATE_1296" # STATE_1296
+	# TSR2_OVERLAY none (BSR-only state)
+
+		state_category=pastoral
+
+		
+		impassable = yes
+
+	manpower=27150
+
+	history={
+		owner = AST
+		buildings = {
+			infrastructure = 1
+		}
+		add_core_of = PNG
+	}
+
+		provinces={
+			2129 4635 12107
+		}
+}

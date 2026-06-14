@@ -1,0 +1,23 @@
+state={
+	id=350
+	name="STATE_350" # STATE_350
+	# TSR2_OVERLAY tsr_state_id=350 ratio=1.000 split=False
+
+		state_category=rural
+
+	manpower=571935
+
+	history={
+		owner = KUR
+		buildings = {
+			air_base = 2
+			infrastructure = 2
+		}
+		add_core_of = KUR
+		add_core_of = TUR
+	}
+
+		provinces={
+			9823 11871 12387 12416
+		}
+}

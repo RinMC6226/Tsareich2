@@ -1,0 +1,41 @@
+state={
+	id=752
+	name="STATE_752" # STATE_752
+	# TSR2_OVERLAY tsr_state_id=752 ratio=1.000 split=False
+
+		state_category=pastoral
+
+	manpower=300000
+
+	history={
+		owner = KMT
+		controller = KMT
+					1936.1.1 = {
+					IF = {
+						limit = {
+							has_dlc = "No Compromise, No Surrender"
+						}
+						transfer_state_to = SIC
+						add_core_of = SIC
+					}
+					}
+				IF = {
+						limit = {
+							has_dlc = "No Compromise, No Surrender" 
+						}
+						remove_core_of = SIC
+					}
+		buildings = {
+			infrastructure = 1
+		}
+		add_core_of = CHI
+		add_core_of = TIB
+		add_core_of = KMT
+		add_core_of = PRC
+		add_core_of = SIC
+	}
+
+		provinces={
+			12724 13965 13966 13969 
+		}
+}

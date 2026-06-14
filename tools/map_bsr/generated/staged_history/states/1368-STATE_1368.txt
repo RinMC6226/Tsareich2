@@ -1,0 +1,28 @@
+state={
+	id=1368
+	name="STATE_1368" # STATE_1368
+	# TSR2_OVERLAY none (BSR-only state)
+
+		state_category=town
+
+	manpower=218635
+
+	history={
+		owner = FIN
+		controller = SOV
+		victory_points = {
+			9206 8 
+		}
+		buildings = {
+			infrastructure = 9
+			industrial_complex = 1
+		9206 = {coastal_bunker = 1}
+		}
+		add_core_of = FIN
+		add_core_of = KAR
+	}
+
+		provinces={
+		    9206 9105 11162
+		}
+}

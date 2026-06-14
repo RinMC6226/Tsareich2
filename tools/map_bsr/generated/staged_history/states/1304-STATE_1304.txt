@@ -1,0 +1,26 @@
+state={
+	id=1304
+	name="STATE_1304" # STATE_1304
+	# TSR2_OVERLAY none (BSR-only state)
+
+		state_category=town
+
+	manpower=140830
+
+	history={
+		owner = SWI
+		victory_points = {
+			3612 1 
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+		3612 = {bunker = 5}
+		}
+		add_core_of = SWI
+	}
+
+		provinces={
+			3612
+		}
+}

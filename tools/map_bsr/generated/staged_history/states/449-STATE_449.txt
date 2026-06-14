@@ -1,0 +1,22 @@
+state={
+	id=449
+	name="STATE_449" # STATE_449
+	# TSR2_OVERLAY tsr_state_id=449 ratio=1.000 split=False
+
+		state_category=enclave
+
+	manpower=40431
+
+	history={
+		owner = LBA
+		controller = LBA
+		buildings = {
+			infrastructure = 2
+		}
+		add_core_of = LBA
+	}
+
+		provinces={
+			1041 4047 10046 10117 12088 
+		}
+}

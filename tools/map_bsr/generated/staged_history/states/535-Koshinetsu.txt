@@ -1,0 +1,33 @@
+state={
+	id=535
+	name="STATE_535" # Koshinetsu
+	# TSR2_OVERLAY tsr_state_id=535 ratio=1.000 split=False
+
+		state_category = large_city
+
+	manpower=3871000
+
+	resources={
+		steel = 27
+		tungsten = 8
+	}
+
+	history={
+		owner = JAP
+		victory_points = {
+			10032 15
+		}
+		buildings = {
+			fuel_silo = 1
+			infrastructure = 2
+			dockyard = 1
+			arms_factory = 1
+			industrial_complex = 2
+		}
+		add_core_of = JAP
+	}
+
+		provinces={
+			998 7102 7217 10015 10032 
+		}
+}

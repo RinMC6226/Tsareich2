@@ -1,0 +1,29 @@
+state={
+	id=1080
+	name="STATE_1080" # STATE_1080
+	# TSR2_OVERLAY tsr_state_id=1080 ratio=1.000 split=False
+
+		state_category=pastoral
+
+	manpower=3845381
+
+	history={
+		owner = INS
+		victory_points = {
+			4379 5 
+		}
+		buildings = {
+			air_base = 1
+			infrastructure = 4
+			dockyard = 1
+			arms_factory = 2
+			industrial_complex = 1
+		}
+		add_core_of = INS
+		add_core_of = VIN
+	}
+
+		provinces={
+			1248 1302 4255 4379 7229 10137 10180 10309 
+		}
+}

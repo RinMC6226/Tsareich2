@@ -1,0 +1,26 @@
+state={
+	id=794
+	name="STATE_794" # STATE_794
+	# TSR2_OVERLAY tsr_state_id=794 ratio=1.000 split=False
+
+		state_category=megalopolis
+
+	manpower=387366
+
+	history={
+		owner = SPR
+		victory_points = {
+			3499 10 
+		}
+		buildings = {
+			infrastructure = 3
+		}
+		add_core_of = GER
+		add_core_of = PRE
+		add_core_of = SPR
+	}
+
+		provinces={
+			375 3367 3499 9428 11219 11444
+		}
+}

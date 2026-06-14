@@ -1,0 +1,30 @@
+state={
+	id=582
+	name="STATE_582" # STATE_582
+	# TSR2_OVERLAY tsr_state_id=582 ratio=1.000 split=False
+
+		state_category=pastoral
+
+		impassable = yes
+
+	manpower=1044991
+
+	resources={
+		steel = 40
+		oil = 6
+	}
+
+	history={
+		owner = RUS
+		buildings = {
+			infrastructure = 3
+		}
+		add_core_of = IDL
+		add_core_of = RUS
+		add_core_of = SOV
+	}
+
+		provinces={
+			1406 4261 4265 4311 4383 7300 7373 10185 12200 
+		}
+}

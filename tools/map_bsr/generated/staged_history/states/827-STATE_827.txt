@@ -1,0 +1,30 @@
+state={
+	id=827
+	name="STATE_827" # STATE_827
+	# TSR2_OVERLAY tsr_state_id=827 ratio=1.000 split=False
+
+		state_category = pastoral
+
+	manpower=387990
+
+	resources={
+		chromium = 17
+	}
+
+	history={
+		owner = RUS
+		victory_points = {
+			13310 1 
+		}
+		buildings = {
+			infrastructure = 2
+		}
+		add_core_of = KBK
+		add_core_of = RUS
+		add_core_of = SMR
+	}
+
+		provinces={
+			13310
+		}
+}

@@ -1,0 +1,37 @@
+state={
+	id=718
+	name="STATE_718" # STATE_718
+	# TSR2_OVERLAY tsr_state_id=718 ratio=1.000 split=False
+
+		
+		state_category = pastoral
+
+	manpower=1656749
+
+	resources={
+		rubber = 3
+	}
+
+	history={
+		owner = BEL
+		
+				IF = {
+					limit = {
+						has_dlc = "Gotterdammerung"
+					}
+					transfer_state_to = COG
+					add_dynamic_modifier = {
+						modifier = COG_state_loyal_to_free_congo_modifier
+					}
+				}
+		buildings = {
+			infrastructure = 1
+		}
+		add_core_of = COG
+		add_core_of = KVU
+	}
+
+		provinces={
+			1181 1950 4201 4941 7161 10766 12783 12847 13176 
+		}
+}

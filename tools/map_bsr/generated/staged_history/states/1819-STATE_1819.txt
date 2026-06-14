@@ -1,0 +1,30 @@
+state={
+	id=1819
+	name="STATE_1819" # STATE_1819
+	# TSR2_OVERLAY none (BSR-only state)
+
+		state_category=town
+
+	manpower=2865120
+
+	resources={
+		tungsten = 1
+	}
+
+	history={
+		owner = AFG
+		victory_points = {
+			13976 5 
+		}
+		buildings = {
+			infrastructure = 1
+			arms_factory = 1
+			industrial_complex = 1
+		}
+		add_core_of = AFG
+	}
+
+		provinces={
+			13976 13978 13979
+		}
+}

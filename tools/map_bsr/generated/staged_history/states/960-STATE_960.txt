@@ -1,0 +1,26 @@
+state={
+	id=960
+	name="STATE_960" # STATE_960
+	# TSR2_OVERLAY tsr_state_id=960 ratio=1.000 split=False
+
+		state_category=pastoral
+
+	manpower=881311
+
+	history={
+		owner = ARG
+		victory_points = {
+			7530 1 
+		}
+		buildings = {
+			infrastructure = 1
+		}
+		add_core_of = ARG
+		add_core_of = KUR
+		add_core_of = TUR
+	}
+
+		provinces={
+			7530 12318 12476 
+		}
+}

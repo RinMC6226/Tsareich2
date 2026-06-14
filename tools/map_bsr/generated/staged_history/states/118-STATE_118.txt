@@ -1,0 +1,29 @@
+state={
+	id=118
+	name="STATE_118" # STATE_118
+	# TSR2_OVERLAY tsr_state_id=118 ratio=1.000 split=False
+
+		
+		state_category = enclave
+
+	manpower=21372
+
+	history={
+		owner = GER
+		controller = GER
+				add_claim_by = SPR
+		victory_points = { 4135 10 }
+		buildings = {
+			air_base = 2
+			infrastructure = 3
+		4135 = {naval_base = 5
+						coastal_bunker = 2}
+		}
+		add_core_of = ADU
+		add_core_of = SPR
+	}
+
+		provinces={
+			4135
+		}
+}

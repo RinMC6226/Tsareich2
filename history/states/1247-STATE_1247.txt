@@ -1,0 +1,22 @@
+state={
+	id=1247
+	name="STATE_1247" # STATE_1247
+	# TSR2_OVERLAY none (BSR-only state)
+
+		state_category=town
+
+	manpower=302332
+
+	history={
+		owner = IRQ
+		controller = ENG
+		buildings = {
+			infrastructure = 3
+		}
+		add_core_of = IRQ
+	}
+
+		provinces={
+			78 2097 12855 
+		}
+}

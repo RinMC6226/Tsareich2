@@ -1,0 +1,32 @@
+state={
+	id=1412
+	name="STATE_1412" # STATE_1412
+	# TSR2_OVERLAY none (BSR-only state)
+
+		state_category=large_town
+
+	manpower=742222
+
+	resources={
+		aluminium = 2
+	}
+
+	history={
+		owner = DEN
+		controller = GER
+		victory_points = {
+			3206 3 
+		}
+		buildings = {
+			infrastructure = 7
+			industrial_complex = 2
+		3206 = {naval_base = 3}
+		399 = {naval_base = 1}
+		}
+		add_core_of = DEN
+	}
+
+		provinces={
+			3206 399 3341 3277
+		}
+}

@@ -1,0 +1,25 @@
+state={
+	id=1030
+	name="STATE_1030" # STATE_1030
+	# TSR2_OVERLAY tsr_state_id=1030 ratio=1.000 split=False
+
+		state_category=town
+
+	manpower=4761368
+
+	history={
+		owner = KOR
+		controller = KOR
+		buildings = {
+			infrastructure = 2
+			dockyard = 1
+		}
+		add_core_of = CHI
+		add_core_of = KOR
+		add_core_of = PRC
+	}
+
+		provinces={
+			4009 7167 7580 7625 7637 9934 9959 10462 
+		}
+}

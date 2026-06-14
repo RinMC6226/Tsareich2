@@ -1,0 +1,31 @@
+state={
+	id=1427
+	name="STATE_1427" # STATE_1427
+	# TSR2_OVERLAY none (BSR-only state)
+
+		state_category=town
+
+	manpower=200400
+
+	resources={
+		chromium = 2
+		steel = 2
+	}
+
+	history={
+		owner = GRE
+		controller = ITA
+		victory_points = {
+			1106 1 
+		}
+		buildings = {
+			air_base = 2
+			infrastructure = 5
+		}
+		add_core_of = GRE
+	}
+
+		provinces={
+			1106
+		}
+}

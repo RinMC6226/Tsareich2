@@ -1,0 +1,21 @@
+state={
+	id=1937
+	name="STATE_1937" # STATE_1937
+	# TSR2_OVERLAY none (BSR-only state)
+
+		state_category=pastoral
+
+	manpower=110000
+
+	history={
+		owner = FRA
+		buildings = {
+			infrastructure = 1
+		}
+		add_core_of = TUN
+	}
+
+		provinces={
+			10026 11935 
+		}
+}

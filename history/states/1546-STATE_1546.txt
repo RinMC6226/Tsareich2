@@ -1,0 +1,29 @@
+state={
+	id=1546
+	name="STATE_1546" # STATE_1546
+	# TSR2_OVERLAY none (BSR-only state)
+
+	    state_category="pastoral"
+
+	manpower=98930
+
+	resources={
+		aluminium = 2
+		chromium = 4
+	}
+
+	history={
+		owner = YUG
+		controller = BUL
+		buildings = {
+			infrastructure = 3
+		}
+		add_core_of = BUL
+		add_core_of = MAC
+		add_core_of = YUG
+	}
+
+	    provinces={
+	        13923 
+	    }
+}

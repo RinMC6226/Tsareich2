@@ -1,0 +1,33 @@
+state={
+	id=611
+	name="STATE_611" # STATE_611
+	# TSR2_OVERLAY tsr_state_id=611 ratio=1.000 split=False
+
+		state_category=pastoral
+
+	manpower=1470000
+
+	history={
+		owner = MON
+		controller = MON
+					IF = {
+						limit = {
+							has_dlc = "No Compromise, No Surrender"
+						}
+						add_core_of = HBC
+					}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+		}
+		add_core_of = CHI
+		add_core_of = HBC
+		add_core_of = MEN
+		add_core_of = MON
+		add_core_of = PRC
+	}
+
+		provinces={
+			828 1590 6904 7545 10397 
+		}
+}

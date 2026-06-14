@@ -1,0 +1,22 @@
+state={
+	id=1273
+	name="STATE_1273" # STATE_1273
+	# TSR2_OVERLAY none (BSR-only state)
+
+		state_category=wasteland
+
+	manpower=2183556
+
+	history={
+		owner = SOV
+		buildings = {
+			infrastructure = 1
+		}
+		add_core_of = SOV
+		add_core_of = TAJ
+	}
+
+		provinces={
+			12805
+		}
+}

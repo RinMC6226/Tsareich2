@@ -1,0 +1,27 @@
+state={
+	id=975
+	name="STATE_975" # STATE_975
+	# TSR2_OVERLAY tsr_state_id=975 ratio=1.000 split=False
+
+		state_category=small_island
+
+	manpower=298000
+
+	history={
+		owner = HUN
+		controller = GER
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 1
+		6550 = {naval_base = 1}
+		}
+		add_core_of = AUS
+		add_core_of = GER
+		add_core_of = GRE
+		add_core_of = HUN
+	}
+
+		provinces={
+			6550 13346
+		}
+}

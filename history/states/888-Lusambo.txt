@@ -1,43 +1,41 @@
-state = {
-	id = 888
-	name = "STATE_888"
-	manpower = 885237
-	state_category = pastoral 
+state={
+	id=888
+	name="STATE_888" # STATE_888
+	# TSR2_OVERLAY tsr_state_id=888 ratio=1.000 split=False
 
-	resources = {
+		state_category=pastoral
+
+	manpower=885237
+
+	resources={
 		coal = 2
 	}
 
-	history = {
-
+	history={
 		owner = BEL
-
-		IF = {
-			limit = {
-				has_dlc = "Gotterdammerung"
-			}
-			transfer_state_to = COG
-			add_dynamic_modifier = {
-				modifier = COG_state_loyal_to_free_congo_modifier
-			}
-		}
-
-		victory_points = {
-			2024 1 # Bakwanga
-		}
-
+		controller = GER
+		
+				1936.1.1 = {
+				IF = {
+					limit = {
+						has_dlc = "Gotterdammerung"
+					}
+					transfer_state_to = COG
+					add_dynamic_modifier = {
+						modifier = COG_state_loyal_to_free_congo_modifier
+					}
+				}
+				}
 		buildings = {
 			infrastructure = 1
 		}
-
 		add_core_of = COG
-
+		add_core_of = CZE
+		add_core_of = GER
+		add_core_of = MRV
 	}
 
-	provinces = {
-		1731 1929 2024 4128 7716 8016 9986 10858 
-	}
-
-	buildings_max_level_factor = 1.000
-	local_supplies = 0.000
+		provinces={
+			557 11525 543
+		}
 }

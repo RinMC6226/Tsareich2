@@ -1,0 +1,27 @@
+state={
+	id=715
+	name="STATE_715" # STATE_715
+	# TSR2_OVERLAY tsr_state_id=715 ratio=1.000 split=False
+
+		state_category=town
+
+	manpower=3643373
+
+	history={
+		owner = BYG
+		controller = BYG
+		buildings = {
+			infrastructure = 2
+			arms_factory = 1
+			industrial_complex = 1
+		}
+		add_core_of = BYG
+		add_core_of = CHI
+		add_core_of = MAN
+		add_core_of = PRC
+	}
+
+		provinces={
+			1499 1502 1558 1627 4876 7812 12337 12469 12485
+		}
+}

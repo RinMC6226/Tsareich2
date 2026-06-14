@@ -1,0 +1,31 @@
+state={
+	id=151
+	name="STATE_151" # STATE_151
+	# TSR2_OVERLAY tsr_state_id=151 ratio=1.000 split=False
+
+		state_category=large_town
+
+	manpower=598920
+
+	resources={
+		aluminium = 15
+	}
+
+	history={
+		owner = SWI
+		victory_points = {
+			663 10 
+		}
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 1
+		663 = {bunker = 6}
+		11623 = {bunker = 7}
+		}
+		add_core_of = SWI
+	}
+
+		provinces={
+			661 663 11601 11623 
+		}
+}

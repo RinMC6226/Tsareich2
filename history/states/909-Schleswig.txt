@@ -1,0 +1,38 @@
+state={
+	id=909
+	name="STATE_909" # STATE_909
+	# TSR2_OVERLAY tsr_state_id=909 ratio=1.000 split=False
+
+		state_category=rural
+
+	manpower=152520
+
+	resources={
+		steel = 10
+		tungsten = 5
+	}
+
+	history={
+		owner = GER
+		victory_points = {
+			848 10 
+		}
+		victory_points = {
+			6822 5 
+		}
+		buildings = {
+			infrastructure = 3
+			arms_factory = 1
+		848 = {naval_base = 3}
+		6822 = {naval_base = 1}
+		}
+		add_core_of = GER
+		add_core_of = KOR
+		add_core_of = PRE
+		add_core_of = SHL
+	}
+
+		provinces={
+			848 898 959 3803 3852 3860 3904 3944 3981 6822 6922 6928 6944 10083 11878 
+		}
+}

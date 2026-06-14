@@ -1,0 +1,21 @@
+state={
+	id=1197
+	name="STATE_1197" # STATE_1197
+	# TSR2_OVERLAY none (BSR-only state)
+
+		state_category=rural
+
+	manpower=63684
+
+	history={
+		owner = ENG
+		buildings = {
+			infrastructure = 3
+		}
+		add_core_of = UGA
+	}
+
+		provinces={
+			7133
+		}
+}

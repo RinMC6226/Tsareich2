@@ -1,0 +1,35 @@
+state={
+	id=976
+	name="STATE_976" # STATE_976
+	# TSR2_OVERLAY tsr_state_id=976 ratio=1.000 split=False
+
+		state_category=town
+
+	manpower=1500000
+
+	resources={
+		steel = 15
+		aluminium = 1
+		coal = 1
+	}
+
+	history={
+		owner = GER
+		controller = GER
+		victory_points = {
+			3914 3 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+		9805 = {naval_base = 1}
+		}
+		add_core_of = AUS
+		add_core_of = GER
+		add_core_of = GRE
+	}
+
+		provinces={
+			841 3914 9805 
+		}
+}

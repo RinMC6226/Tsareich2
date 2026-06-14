@@ -1,0 +1,34 @@
+state={
+	id=344
+	name="STATE_344" # STATE_344
+	# TSR2_OVERLAY tsr_state_id=344 ratio=1.000 split=False
+
+		state_category=town
+
+	manpower=1081781
+
+	resources={
+		coal = 2
+	}
+
+	history={
+		owner = TUR
+				add_claim_by = KUR
+		victory_points = {
+			11746 1 
+		}
+		victory_points = {
+			10056 1 
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+		11746 = {naval_base = 3}
+		}
+		add_core_of = TUR
+	}
+
+		provinces={
+			886 961 6956 10056 11746 11810
+		}
+}

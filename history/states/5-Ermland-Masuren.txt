@@ -1,0 +1,30 @@
+state={
+	id=5
+	name="STATE_5" # STATE_5
+	# TSR2_OVERLAY tsr_state_id=5 ratio=1.000 split=False
+
+		state_category=town
+
+	manpower=1238108
+
+	history={
+		owner = GER
+		controller = GER
+		victory_points = {
+			9346 5
+		}
+		victory_points = {
+			9372 2
+		}
+		buildings = {
+			infrastructure = 3
+		}
+		add_core_of = GER
+		add_core_of = POL
+		add_core_of = PRE
+	}
+
+		provinces={
+			266 6375 9327 9346 9372 11386 
+		}
+}

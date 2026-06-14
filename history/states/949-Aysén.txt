@@ -1,0 +1,27 @@
+state={
+	id=949
+	name="STATE_949" # STATE_949
+	# TSR2_OVERLAY tsr_state_id=949 ratio=1.000 split=False
+
+		state_category=pastoral
+
+	manpower=34347
+
+	resources={
+		aluminium = 1
+		oil = 1
+	}
+
+	history={
+		owner = CHL
+		buildings = {
+			infrastructure = 1
+		}
+		add_core_of = CHL
+		add_core_of = YEM
+	}
+
+		provinces={
+			1973 4924 
+		}
+}

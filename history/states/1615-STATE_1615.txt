@@ -1,0 +1,30 @@
+state={
+	id=1615
+	name="STATE_1615" # STATE_1615
+	# TSR2_OVERLAY none (BSR-only state)
+
+
+		state_category = rural
+
+	manpower=101281
+
+	resources={
+		oil = 15
+	}
+
+	history={
+		owner = USA
+		victory_points = {
+			12313 2
+		}
+		buildings = {
+			infrastructure = 3
+		}
+		add_core_of = LOU
+		add_core_of = USA
+	}
+
+		provinces={
+			12313 4507 13937 13939 13938
+		}
+}

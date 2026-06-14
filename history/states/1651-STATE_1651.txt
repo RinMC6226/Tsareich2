@@ -1,0 +1,22 @@
+state={
+	id=1651
+	name="STATE_1651" # STATE_1651
+	# TSR2_OVERLAY none (BSR-only state)
+
+		
+		state_category = wasteland
+
+	manpower=3010
+
+	history={
+		owner = USA
+		buildings = {
+			infrastructure = 1
+		}
+		add_core_of = USA
+	}
+
+		provinces={
+			13702 13726
+		}
+}

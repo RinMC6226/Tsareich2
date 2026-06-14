@@ -1,0 +1,35 @@
+state={
+	id=3
+	name="STATE_3" # STATE_3
+	# TSR2_OVERLAY tsr_state_id=3 ratio=1.000 split=False
+
+		state_category=city
+
+	manpower=1216838
+
+	resources={
+		aluminium = 18
+	}
+
+	history={
+		owner = SWI
+		victory_points = {
+			9620 15 
+		}
+		victory_points = {
+			9638 3 
+		}
+		buildings = {
+			air_base = 4
+			infrastructure = 4
+			arms_factory = 3
+			industrial_complex = 3
+		9638 = {bunker = 5}
+		}
+		add_core_of = SWI
+	}
+
+		provinces={
+			636 9618 9620 9638 11604 
+		}
+}

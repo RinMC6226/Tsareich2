@@ -1,0 +1,7 @@
+bsr_state_id,bsr_state_name,tsr_state_id,tsr_state_name,issue
+234,STATE_234,234,STATE_234,building province 719 not in BSR state 234
+598,STATE_598,598,STATE_598,building province 1029 not in BSR state 598
+608,STATE_608,608,STATE_608,building province 10068 not in BSR state 608
+738,STATE_738,738,STATE_738,building province 13419 not in BSR state 738
+1234,STATE_1234,1075,STATE_1075,building province 4301 not in BSR state 1234
+1666,STATE_1666,1074,STATE_1074,building province 13405 not in BSR state 1666

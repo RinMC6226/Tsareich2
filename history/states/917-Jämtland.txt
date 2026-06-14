@@ -1,0 +1,33 @@
+state={
+	id=917
+	name="STATE_917" # STATE_917
+	# TSR2_OVERLAY tsr_state_id=917 ratio=1.000 split=False
+
+		state_category=rural
+
+	manpower=65000
+
+	resources={
+		steel = 20
+	}
+
+	history={
+		owner = SWE
+		victory_points = {
+			4611 10
+		}
+		victory_points = {
+			1633 5
+		}
+		buildings = {
+			infrastructure = 2
+		}
+		add_core_of = PAN
+		add_core_of = SMI
+		add_core_of = SWE
+	}
+
+		provinces={
+			1633 4611 4624 
+		}
+}

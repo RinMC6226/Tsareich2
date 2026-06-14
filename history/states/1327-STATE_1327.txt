@@ -1,0 +1,21 @@
+state={
+	id=1327
+	name="STATE_1327" # STATE_1327
+	# TSR2_OVERLAY none (BSR-only state)
+
+		state_category=enclave
+
+	manpower=311500
+
+	history={
+		owner = ITA
+		buildings = {
+			infrastructure = 1
+		}
+		add_core_of = LBA
+	}
+
+		provinces={
+			4200 7076 8069 
+		}
+}

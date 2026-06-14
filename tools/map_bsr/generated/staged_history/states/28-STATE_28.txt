@@ -1,0 +1,45 @@
+state={
+	id=28
+	name="STATE_28" # STATE_28
+	# TSR2_OVERLAY tsr_state_id=28 ratio=1.000 split=False
+
+		state_category=city
+
+	manpower=1915600
+
+	resources={
+		steel = 42
+		coal = 5
+	}
+
+	history={
+		owner = GER
+		controller = GER
+				add_dynamic_modifier = {
+					modifier = GER_west_bunker
+				}
+		victory_points = {
+			11640 5 
+		}
+		victory_points = {
+			9503 10
+		}
+		buildings = {
+			anti_air_building = 5
+			air_base = 5
+			infrastructure = 4
+			industrial_complex = 3
+		11640 = {bunker = 10}
+		6542 = {bunker = 10}
+		6712 = {bunker = 10}
+		9503 = {bunker = 10}
+		}
+		add_core_of = ALS
+		add_core_of = FRA
+		add_core_of = GER
+	}
+
+		provinces={
+			 6542 6712 9503 11640 
+		}
+}

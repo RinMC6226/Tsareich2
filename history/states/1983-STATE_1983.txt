@@ -1,0 +1,31 @@
+state={
+	id=1983
+	name="STATE_1983" # STATE_1983
+	# TSR2_OVERLAY none (BSR-only state)
+
+		state_category=rural
+
+	manpower=58439
+
+	resources={
+		steel = 1
+		oil = 1
+	}
+
+	history={
+		owner = POL
+		controller = GGO
+		victory_points = {
+			8870 1 
+		}
+		buildings = {
+			infrastructure = 6
+		}
+		add_core_of = GAL
+		add_core_of = POL
+	}
+
+		provinces={
+			 8870
+		}
+}

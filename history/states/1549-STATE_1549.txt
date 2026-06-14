@@ -1,0 +1,23 @@
+state={
+	id=1549
+	name="STATE_1549" # STATE_1549
+	# TSR2_OVERLAY none (BSR-only state)
+
+		state_category=enclave
+
+	manpower=4920
+
+	history={
+		owner = GRE
+		controller = BUL
+		buildings = {
+			infrastructure = 4
+		}
+		add_core_of = GRE
+		add_core_of = THR
+	}
+
+	    provinces={
+	        13317
+	    }
+}

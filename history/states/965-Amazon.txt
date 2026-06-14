@@ -1,0 +1,26 @@
+state={
+	id=965
+	name="STATE_965" # STATE_965
+	# TSR2_OVERLAY tsr_state_id=965 ratio=1.000 split=False
+
+		state_category=town
+
+	manpower=21987
+
+	history={
+		owner = BRA
+		victory_points = {
+			7113 1
+		}
+		buildings = {
+			infrastructure = 7
+			industrial_complex = 1
+		}
+		add_core_of = BRA
+		add_core_of = JAP
+	}
+
+		provinces={
+			1133 7113 
+		}
+}

@@ -1,0 +1,22 @@
+state={
+	id=1141
+	name="STATE_1141" # STATE_1141
+	# TSR2_OVERLAY none (BSR-only state)
+
+		state_category=town
+
+	manpower=18500
+
+	history={
+		owner = BUL
+		buildings = {
+			infrastructure = 6
+		}
+		add_core_of = BUL
+		add_core_of = THR
+	}
+
+		provinces={
+			13318
+		}
+}

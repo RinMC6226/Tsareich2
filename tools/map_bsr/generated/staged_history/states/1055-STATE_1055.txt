@@ -1,0 +1,33 @@
+state={
+	id=1055
+	name="STATE_1055" # STATE_1055
+	# TSR2_OVERLAY tsr_state_id=1055 ratio=1.000 split=False
+
+		state_category=rural
+
+	manpower=538927
+
+	resources={
+		chromium = 22
+		steel = 1
+		coal = 1
+	}
+
+	history={
+		owner = STC
+		controller = STC
+		victory_points = {
+			3945 1 
+		}
+		buildings = {
+			infrastructure = 1
+			dockyard = 1
+		}
+		add_core_of = SPR
+		add_core_of = TUR
+	}
+
+		provinces={
+			888 942 3858 3891 3945 6879 6993 9757 9852 11742 
+		}
+}

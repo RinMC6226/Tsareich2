@@ -1,0 +1,31 @@
+state={
+	id=1703
+	name="STATE_1703" # STATE_1703
+	# TSR2_OVERLAY none (BSR-only state)
+
+		state_category=town
+
+	manpower=112710
+
+	resources={
+		steel = 3
+		aluminium = 2
+	}
+
+	history={
+		owner = GER
+		victory_points = {
+			13299 4
+		}
+		buildings = {
+			air_base = 3
+			infrastructure = 7
+		}
+		add_core_of = GER
+		add_core_of = PRE
+	}
+
+		provinces={
+			13299
+		}
+}

@@ -1,0 +1,25 @@
+state={
+	id=1272
+	name="STATE_1272" # STATE_1272
+	# TSR2_OVERLAY none (BSR-only state)
+
+		state_category=city
+
+	manpower=7700319
+
+	history={
+		owner = RAJ
+		victory_points = {
+			7593 5 
+		}
+		buildings = {
+			air_base = 2
+			infrastructure = 4
+			industrial_complex = 1
+		}
+	}
+
+		provinces={
+			1656 7475 7537 7593 
+		}
+}

@@ -1,0 +1,23 @@
+state={
+	id=1076
+	name="STATE_1076" # STATE_1076
+	# TSR2_OVERLAY tsr_state_id=1076 ratio=1.000 split=False
+
+		state_category=pastoral
+
+	manpower=216435
+
+	history={
+		owner = INS
+		buildings = {
+			air_base = 1
+			infrastructure = 1
+		}
+		add_core_of = LAO
+		add_core_of = TML
+	}
+
+		provinces={
+			1563 1577 4554 7426 10453 
+		}
+}

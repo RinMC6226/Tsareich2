@@ -1,0 +1,36 @@
+state={
+	id=85
+	name="STATE_85" # STATE_85
+	# TSR2_OVERLAY tsr_state_id=85 ratio=1.000 split=False
+
+		state_category=large_city
+
+	manpower=366730
+
+	history={
+		owner = GER
+		controller = GER
+				add_claim_by = PRE
+					add_claim_by = GER
+		victory_points = {
+			13866 10 
+		}
+		buildings = {
+			infrastructure = 3
+			dockyard = 3
+			arms_factory = 2
+			industrial_complex = 1
+		362 = {naval_base = 5}
+		}
+		add_core_of = DAN
+		add_core_of = DNZ
+		add_core_of = GER
+		add_core_of = KSH
+		add_core_of = POL
+		add_core_of = PRE
+	}
+
+		provinces={
+			362 13866
+		}
+}

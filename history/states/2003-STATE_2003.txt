@@ -1,0 +1,26 @@
+state={
+	id=2003
+	name="STATE_2003" # STATE_2003
+	# TSR2_OVERLAY none (BSR-only state)
+
+		state_category=town
+
+	manpower=197531
+
+	history={
+		owner = YUG
+		controller = CRO
+		victory_points = {
+			6957 1
+		}
+		buildings = {
+			infrastructure = 6
+		}
+		add_core_of = BOS
+		add_core_of = YUG
+	}
+
+		provinces={
+		6957 6942
+		}
+}

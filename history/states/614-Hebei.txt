@@ -1,0 +1,38 @@
+state={
+	id=614
+	name="STATE_614" # Hebei
+	# TSR2_OVERLAY tsr_state_id=614 ratio=1.000 split=False
+
+		
+		state_category = town
+
+	manpower=18434900
+
+	resources={
+		coal = 5
+	}
+
+	history={
+		owner = BYG
+		controller = BYG
+					1936.1.1 = {
+					IF = {
+						limit = {
+							has_dlc = "No Compromise, No Surrender"
+						}
+						transfer_state_to = BYG
+						add_core_of = BYG
+					}
+					}
+		buildings = {
+			infrastructure = 2
+		}
+		add_core_of = BYG
+		add_core_of = CHI
+		add_core_of = PRC
+	}
+
+		provinces={
+			1169 1188 4032 4058 4093 4190 4208 7000 7092 7109 10003 10022 10053 10119 11944 11980 11996 12062 
+		}
+}

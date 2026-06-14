@@ -1,0 +1,54 @@
+state={
+	id=593
+	name="STATE_593" # STATE_593
+	# TSR2_OVERLAY tsr_state_id=593 ratio=1.000 split=False
+
+		state_category = town
+
+	manpower=12700000
+
+	resources={
+		tungsten = 15
+		steel = 15
+		chromium = 3
+	}
+
+	history={
+		owner = GXC
+					IF = {
+						limit = {
+							has_dlc = "No Compromise, No Surrender"
+						}
+						transfer_state_to = GDC
+						add_core_of = GDC
+						remove_core_of = GXC
+					}
+		
+					JAP = {
+						set_province_controller = 1202
+						set_province_controller = 4050
+						set_province_controller = 7108
+						set_province_controller = 9938
+						set_province_controller = 12095
+					}
+		victory_points = {
+			9978 5
+		}
+		buildings = {
+			air_base = 1
+			infrastructure = 2
+			industrial_complex = 1
+		9938 = {naval_base = 1
+						coastal_bunker = 1
+						bunker = 1}
+		}
+		add_core_of = CHI
+		add_core_of = GDC
+		add_core_of = GXC
+		add_core_of = PRC
+	}
+
+		provinces={
+			1078 1162 1202 4050 4165 4207 7067 7108 7141 7182 9938 9978 12095 
+		}
+}

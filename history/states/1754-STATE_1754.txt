@@ -1,0 +1,27 @@
+state={
+	id=1754
+	name="STATE_1754" # STATE_1754
+	# TSR2_OVERLAY none (BSR-only state)
+
+		state_category=town
+
+	manpower=18201
+
+	history={
+		owner = BEL
+		controller = GER
+		victory_points = {
+			9536 3 
+		}
+		buildings = {
+			infrastructure = 7
+			industrial_complex = 1
+		}
+		add_core_of = BEL
+		add_core_of = WLL
+	}
+
+	    provinces={
+	        9472 9536 13081 
+	    }
+}

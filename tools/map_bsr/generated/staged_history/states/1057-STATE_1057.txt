@@ -1,0 +1,23 @@
+state={
+	id=1057
+	name="STATE_1057" # STATE_1057
+	# TSR2_OVERLAY tsr_state_id=1057 ratio=1.000 split=False
+
+		state_category=rural
+
+	manpower=135921
+
+	history={
+		owner = STC
+		controller = STC
+		buildings = {
+			infrastructure = 3
+		}
+		add_core_of = NMB
+		add_core_of = TUR
+	}
+
+		provinces={
+			13217 
+		}
+}

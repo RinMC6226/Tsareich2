@@ -1,0 +1,26 @@
+state={
+	id=547
+	name="STATE_547" # STATE_547
+	# TSR2_OVERLAY tsr_state_id=547 ratio=1.000 split=False
+
+		state_category=rural
+
+	manpower=1085440
+
+	history={
+		owner = DOA
+		controller = DOA
+		victory_points = {
+			1939 2 
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+		}
+		add_core_of = KEN
+	}
+
+		provinces={
+			1939 5079 5160 5196 5210 6020 10860 10962 11145 13328
+		}
+}

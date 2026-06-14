@@ -1,0 +1,30 @@
+state={
+	id=950
+	name="STATE_950" # STATE_950
+	# TSR2_OVERLAY tsr_state_id=950 ratio=1.000 split=False
+
+		state_category=large_town
+
+	manpower=1300000
+
+	resources={
+		steel = 24
+	}
+
+	history={
+		owner = CHL
+		victory_points = {
+			11811 1 
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 2
+		}
+		add_core_of = CHL
+		add_core_of = TUR
+	}
+
+		provinces={
+			3851 11811 
+		}
+}

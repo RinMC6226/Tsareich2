@@ -1,0 +1,28 @@
+state={
+	id=724
+	name="STATE_724" # STATE_724
+	# TSR2_OVERLAY tsr_state_id=724 ratio=1.000 split=False
+
+		state_category=rural
+
+	manpower=2041700
+
+	resources={
+		rubber = 40
+	}
+
+	history={
+		owner = SIA
+		victory_points = {
+			7236 1 
+		}
+		buildings = {
+			infrastructure = 2
+		}
+		add_core_of = SIA
+	}
+
+		provinces={
+			1279 1281 1337 1366 1394 4297 4312 4371 7236 10156 10158 12131 12201 12230 12286 
+		}
+}

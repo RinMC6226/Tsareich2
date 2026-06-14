@@ -1,0 +1,22 @@
+state={
+	id=273
+	name="STATE_273" # STATE_273
+	# TSR2_OVERLAY tsr_state_id=273 ratio=1.000 split=False
+
+		state_category=wasteland
+
+	manpower=42633
+
+	history={
+		owner = LBA
+		controller = LBA
+		buildings = {
+			infrastructure = 0
+		}
+		add_core_of = LBA
+	}
+
+		provinces={
+			4962 10884 12866
+		}
+}

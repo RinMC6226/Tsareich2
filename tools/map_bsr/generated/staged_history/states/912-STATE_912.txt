@@ -1,0 +1,24 @@
+state={
+	id=912
+	name="STATE_912" # STATE_912
+	# TSR2_OVERLAY tsr_state_id=912 ratio=1.000 split=False
+
+		state_category=wasteland
+
+	manpower=418058
+
+	history={
+		owner = GER
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+		}
+		add_core_of = BRA
+		add_core_of = DEN
+		add_core_of = GER
+	}
+
+		provinces={
+			5216 
+		}
+}

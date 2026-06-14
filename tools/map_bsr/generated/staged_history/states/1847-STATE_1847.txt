@@ -1,0 +1,26 @@
+state={
+	id=1847
+	name="STATE_1847" # STATE_1847
+	# TSR2_OVERLAY none (BSR-only state)
+
+		state_category=pastoral
+
+	manpower=310000
+
+	history={
+		owner = SAU
+		victory_points = {
+			8092 5 
+		}
+		buildings = {
+			infrastructure = 4
+		8092 = {naval_base = 1}
+		}
+		add_core_of = HEJ
+		add_core_of = SAU
+	}
+
+		provinces={
+			2095 10835 13339 8092 13338 2872 2848
+		}
+}

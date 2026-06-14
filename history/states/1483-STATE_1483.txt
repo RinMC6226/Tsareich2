@@ -1,0 +1,24 @@
+state={
+	id=1483
+	name="STATE_1483" # STATE_1483
+	# TSR2_OVERLAY none (BSR-only state)
+
+		state_category=small_island
+
+	manpower=35
+
+	history={
+		owner = NOR
+		victory_points = {
+			13517 1
+		}
+		buildings = {
+			infrastructure = 1
+		}
+		add_core_of = NOR
+	}
+
+		provinces={
+			13517
+		}
+}

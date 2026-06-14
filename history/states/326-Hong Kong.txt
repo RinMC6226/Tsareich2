@@ -1,0 +1,29 @@
+state={
+	id=326
+	name="STATE_326" # STATE_326
+	# TSR2_OVERLAY tsr_state_id=326 ratio=1.000 split=False
+
+		state_category = large_town
+
+	manpower=1143516
+
+	history={
+		owner = GER
+		victory_points = {
+			10062 5
+		}
+		buildings = {
+			air_base = 1
+			infrastructure = 3
+		10062 = {naval_base = 6
+						coastal_bunker = 1}
+		}
+		add_core_of = CHI
+		add_core_of = HKG
+		add_core_of = PRC
+	}
+
+		provinces={
+			10062
+		}
+}

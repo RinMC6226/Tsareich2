@@ -1,0 +1,24 @@
+state={
+	id=1257
+	name="STATE_1257" # STATE_1257
+	# TSR2_OVERLAY none (BSR-only state)
+
+		state_category=pastoral
+
+	manpower=450500
+
+	history={
+		owner = FRA
+		victory_points = {
+			1606 1 
+		}
+		buildings = {
+			infrastructure = 4
+		}
+		add_core_of = SYR
+	}
+
+		provinces={
+			1578 1606 6883 13443 
+		}
+}

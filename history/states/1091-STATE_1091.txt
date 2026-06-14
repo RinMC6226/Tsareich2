@@ -1,0 +1,28 @@
+state={
+	id=1091
+	name="STATE_1091" # STATE_1091
+	# TSR2_OVERLAY tsr_state_id=1091 ratio=1.000 split=False
+
+		state_category=wasteland
+
+	manpower=214000
+
+	history={
+		owner = DAS
+		controller = DAS
+		victory_points = {
+			9632 1 
+		}
+		buildings = {
+			infrastructure = 1
+		}
+		add_core_of = GEO
+		add_core_of = LAO
+		add_core_of = SOT
+		add_core_of = SOV
+	}
+
+		provinces={
+			1530 9632 
+		}
+}

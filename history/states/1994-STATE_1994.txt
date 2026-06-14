@@ -1,0 +1,25 @@
+state={
+	id=1994
+	name="STATE_1994" # STATE_1994
+	# TSR2_OVERLAY none (BSR-only state)
+
+		state_category=town
+
+	manpower=176742
+
+	history={
+		owner = SOV
+		victory_points = {
+			9241 5
+		}
+		buildings = {
+			infrastructure = 6
+		}
+		add_core_of = BLR
+		add_core_of = SOV
+	}
+
+		provinces={
+			9241
+		}
+}

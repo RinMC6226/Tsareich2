@@ -1,0 +1,32 @@
+state={
+	id=1891
+	name="STATE_1891" # STATE_1891
+	# TSR2_OVERLAY none (BSR-only state)
+
+		
+		state_category = town
+
+	manpower=1012406
+
+	resources={
+		rubber = 7
+	}
+
+	history={
+		owner = BRA
+		victory_points = {
+			12933 1 
+		}
+		buildings = {
+			air_base = 1
+			infrastructure = 5
+			industrial_complex = 1
+		12933 = {naval_base = 1}
+		}
+		add_core_of = BRA
+	}
+
+		provinces={
+			12933 12947 2150 12913 5220
+		}
+}

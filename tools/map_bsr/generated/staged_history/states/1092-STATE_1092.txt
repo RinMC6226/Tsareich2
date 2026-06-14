@@ -1,0 +1,28 @@
+state={
+	id=1092
+	name="STATE_1092" # STATE_1092
+	# TSR2_OVERLAY tsr_state_id=1092 ratio=1.000 split=False
+
+		state_category=pastoral
+
+	manpower=60000
+
+	history={
+		owner = AST
+		victory_points = {
+			6436 1 
+		}
+		buildings = {
+			infrastructure = 1
+		}
+		add_core_of = BOU
+		add_core_of = GEO
+		add_core_of = PNG
+		add_core_of = SOL
+		add_core_of = SOV
+	}
+
+		provinces={
+			3667 4534 4605 6436 11609 12309
+		}
+}

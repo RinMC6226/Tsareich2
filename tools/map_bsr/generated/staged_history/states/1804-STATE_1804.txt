@@ -1,0 +1,25 @@
+state={
+	id=1804
+	name="STATE_1804" # STATE_1804
+	# TSR2_OVERLAY none (BSR-only state)
+
+		
+		
+		state_category = rural
+
+	manpower=472141
+
+	history={
+		owner = GER
+		buildings = {
+			fuel_silo = 1
+			infrastructure = 6
+		}
+		add_core_of = GER
+		add_core_of = PRE
+	}
+
+		provinces={
+			349 13907
+		}
+}

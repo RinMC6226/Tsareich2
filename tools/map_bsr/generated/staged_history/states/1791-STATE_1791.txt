@@ -1,0 +1,24 @@
+state={
+	id=1791
+	name="STATE_1791" # STATE_1791
+	# TSR2_OVERLAY none (BSR-only state)
+
+		state_category=city
+
+	manpower=6963300
+
+	history={
+		owner = SZH
+		controller = CHI
+		buildings = {
+			infrastructure = 3
+		}
+		add_core_of = CHI
+		add_core_of = PRC
+		add_core_of = SZH
+	}
+
+		provinces={
+			9966 
+		}
+}

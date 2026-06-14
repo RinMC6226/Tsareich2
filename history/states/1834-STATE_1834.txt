@@ -1,0 +1,31 @@
+state={
+	id=1834
+	name="STATE_1834" # STATE_1834
+	# TSR2_OVERLAY none (BSR-only state)
+
+		
+		state_category = rural
+
+	manpower=79642
+
+	resources={
+		oil = 5
+	}
+
+	history={
+		owner = VEN
+		victory_points = {
+			1944 1 
+		}
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 1
+		1944 = {naval_base = 5}
+		}
+		add_core_of = VEN
+	}
+
+		provinces={
+			1944 12772
+		}
+}

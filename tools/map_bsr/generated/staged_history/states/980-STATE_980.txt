@@ -1,0 +1,35 @@
+state={
+	id=980
+	name="STATE_980" # STATE_980
+	# TSR2_OVERLAY tsr_state_id=980 ratio=1.000 split=False
+
+		state_category=city
+
+	manpower=338130
+
+	resources={
+		steel = 9
+		coal = 7
+	}
+
+	history={
+		owner = BEL
+				add_dynamic_modifier = {
+					modifier = GER_west_bunker
+				}
+		victory_points = {
+			12299 20
+		}
+		buildings = {
+			infrastructure = 1
+		12299 = {naval_base = 8
+						coastal_bunker = 3}
+		}
+		add_core_of = BEL
+		add_core_of = SNG
+	}
+
+		provinces={
+			12299 
+		}
+}

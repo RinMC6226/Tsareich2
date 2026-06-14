@@ -1,0 +1,25 @@
+state={
+	id=1098
+	name="STATE_1098" # STATE_1098
+	# TSR2_OVERLAY tsr_state_id=1098 ratio=1.000 split=False
+
+		state_category=town
+
+	manpower=2314096
+
+	history={
+		owner = SIA
+		buildings = {
+			air_base = 1
+			infrastructure = 2
+			dockyard = 1
+			arms_factory = 2
+			industrial_complex = 2
+		}
+		add_core_of = SIA
+	}
+
+		provinces={
+			1357 1535 1548 4511 4582 7516 10384 10425 12360 12373 12388 12402 
+		}
+}

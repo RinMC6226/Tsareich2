@@ -1,0 +1,39 @@
+state={
+	id=38
+	name="STATE_38" # STATE_38
+	# TSR2_OVERLAY tsr_state_id=38 ratio=1.000 split=False
+
+		state_category=town
+
+	manpower=931955
+
+	resources={
+		steel = 40
+	}
+
+	history={
+		owner = SWE
+		victory_points = {
+			6132 3 
+		}
+		victory_points = {
+			3138 1 
+		}
+		victory_points = {
+			11120 1
+		}
+		victory_points = {
+			3100 1
+		}
+		buildings = {
+			air_base = 3
+			infrastructure = 2
+			industrial_complex = 1
+		}
+		add_core_of = SWE
+	}
+
+		provinces={
+			11 109 118 145 182 184 3003 3044 3062 3100 3113 3138 3173 6024 6063 6067 6083 6132 6152 6161 6200 9088 9093 9095 9134 9143 9175 9211 9220 11026 11058 11067 11069 11112 11120 11152 11185 11190 11201 
+		}
+}

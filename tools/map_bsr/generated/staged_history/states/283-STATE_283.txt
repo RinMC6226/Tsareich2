@@ -1,0 +1,55 @@
+state={
+	id=283
+	name="STATE_283" # STATE_283
+	# TSR2_OVERLAY tsr_state_id=283 ratio=1.000 split=False
+
+		state_category=rural
+
+	manpower=2705400
+
+	resources={
+		tungsten = 1
+	}
+
+	history={
+		owner = XIC
+		controller = XIC
+					IF = {
+						limit = {
+							has_dlc = "No Compromise, No Surrender" 
+						}
+						XIC = { transfer_state = PREV }
+						add_core_of = XIC
+						add_core_of = XIC
+					}
+					IF = {
+						limit = {
+							NOT = {
+								has_dlc = "Waking the Tiger"
+							}
+						}
+						KMT = {
+							transfer_state = PREV
+						}
+					}
+					IF = {
+						limit = {
+							has_dlc = "No Compromise, No Surrender" 
+						}
+						remove_core_of = XIC
+					}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+		}
+		add_core_of = CHI
+		add_core_of = NSI
+		add_core_of = PRC
+		add_core_of = XIC
+		add_core_of = XSM
+	}
+
+		provinces={
+			5025 6638 
+		}
+}

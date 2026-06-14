@@ -1,0 +1,27 @@
+state={
+	id=1987
+	name="STATE_1987" # STATE_1987
+	# TSR2_OVERLAY none (BSR-only state)
+
+		state_category=rural
+
+	manpower=175621
+
+	history={
+		owner = YUG
+		controller = HUN
+		victory_points = {
+			9621 3 
+		}
+		buildings = {
+			infrastructure = 5
+		}
+		add_core_of = SER
+		add_core_of = VOJ
+		add_core_of = YUG
+	}
+
+		provinces={
+			3623 9621
+		}
+}

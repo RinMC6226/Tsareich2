@@ -1,0 +1,29 @@
+state={
+	id=1070
+	name="STATE_1070" # STATE_1070
+	# TSR2_OVERLAY tsr_state_id=1070 ratio=1.000 split=False
+
+		state_category=wasteland
+
+	manpower=2952394
+
+	resources={
+		rubber = 7
+		oil = 9
+		coal = 7
+	}
+
+	history={
+		owner = INS
+		buildings = {
+			infrastructure = 1
+		4060 = {bunker = 3}
+		}
+		add_core_of = INS
+		add_core_of = LBA
+	}
+
+		provinces={
+			4060
+		}
+}

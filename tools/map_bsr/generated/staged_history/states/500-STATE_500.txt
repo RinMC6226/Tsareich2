@@ -1,0 +1,30 @@
+state={
+	id=500
+	name="STATE_500" # STATE_500
+	# TSR2_OVERLAY tsr_state_id=500 ratio=1.000 split=False
+
+		
+		state_category = large_city
+
+	manpower=6665500
+
+	history={
+		owner = BRA
+		victory_points = {
+			10980 30
+		}
+		buildings = {
+			air_base = 7
+			infrastructure = 3
+			dockyard = 2
+			arms_factory = 2
+			industrial_complex = 4
+		10980 = {naval_base = 7}
+		}
+		add_core_of = BRA
+	}
+
+		provinces={
+			12334 5172 8190 10980 12996 
+		}
+}

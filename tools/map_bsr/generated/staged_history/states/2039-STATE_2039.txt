@@ -1,0 +1,26 @@
+state={
+	id=2039
+	name="STATE_2039" # STATE_2039
+	# TSR2_OVERLAY none (BSR-only state)
+
+		state_category=city
+
+	manpower=275163
+
+	history={
+		owner = FRA
+		controller = GER
+		victory_points = {
+			9490 5 
+		}
+		buildings = {
+			infrastructure = 9
+		}
+		add_core_of = BGN
+		add_core_of = FRA
+	}
+
+		provinces={
+		 9490 
+		}
+}

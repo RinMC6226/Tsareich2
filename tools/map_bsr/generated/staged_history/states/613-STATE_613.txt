@@ -1,0 +1,33 @@
+state={
+	id=613
+	name="STATE_613" # STATE_613
+	# TSR2_OVERLAY tsr_state_id=613 ratio=1.000 split=False
+
+		state_category=large_city
+
+	manpower=6180392
+
+	history={
+		owner = KMT
+		controller = JAP
+		victory_points = {
+			7014 5 
+		}
+		buildings = {
+			air_base = 6
+			infrastructure = 3
+			dockyard = 1
+			arms_factory = 2
+		7014 = {naval_base = 6
+						coastal_bunker = 1
+						bunker = 1}
+		}
+		add_core_of = CHI
+		add_core_of = KMT
+		add_core_of = PRC
+	}
+
+		provinces={
+			7014 12076
+		}
+}

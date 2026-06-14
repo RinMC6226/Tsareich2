@@ -1,0 +1,37 @@
+state={
+	id=1036
+	name="STATE_1036" # STATE_1036
+	# TSR2_OVERLAY tsr_state_id=1036 ratio=1.000 split=False
+
+		state_category=rural
+
+	manpower=5108320
+
+	history={
+		owner = KMT
+					JAP = {
+						set_province_controller = 1036
+						set_province_controller = 4619
+						set_province_controller = 4631
+						set_province_controller = 7167
+						set_province_controller = 10462
+		
+					}
+		victory_points = {
+			2115 1 
+		}
+		buildings = {
+			air_base = 1
+			infrastructure = 2
+			arms_factory = 1
+			industrial_complex = 1
+		2115 = {naval_base = 1}
+		}
+		add_core_of = ANG
+		add_core_of = KMT
+	}
+
+		provinces={
+			2115 
+		}
+}

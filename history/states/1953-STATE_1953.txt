@@ -1,0 +1,23 @@
+state={
+	id=1953
+	name="STATE_1953" # STATE_1953
+	# TSR2_OVERLAY none (BSR-only state)
+
+		state_category=rural
+
+	manpower=118216
+
+	history={
+		owner = GER
+		buildings = {
+			infrastructure = 6
+			arms_factory = 1
+		}
+		add_core_of = GER
+		add_core_of = WUR
+	}
+
+		provinces={
+		 13988 
+		}
+}

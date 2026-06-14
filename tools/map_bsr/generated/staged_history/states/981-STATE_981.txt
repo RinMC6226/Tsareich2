@@ -1,0 +1,32 @@
+state={
+	id=981
+	name="STATE_981" # STATE_981
+	# TSR2_OVERLAY tsr_state_id=981 ratio=1.000 split=False
+
+		state_category=rural
+
+	manpower=690043
+
+	resources={
+		chromium = 16
+		tungsten = 4
+	}
+
+	history={
+		owner = FRN
+		controller = FRN
+		victory_points = {
+			1291 1 
+		}
+		buildings = {
+			infrastructure = 1
+		}
+		add_core_of = BAR
+		add_core_of = MAL
+		add_core_of = ZAM
+	}
+
+		provinces={
+			1291 12144 
+		}
+}

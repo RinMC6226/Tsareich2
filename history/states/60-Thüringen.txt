@@ -1,0 +1,34 @@
+state={
+	id=60
+	name="STATE_60" # STATE_60
+	# TSR2_OVERLAY tsr_state_id=60 ratio=1.000 split=False
+
+		
+		state_category = large_city
+
+	manpower=3005214
+
+	resources={
+		steel = 9
+		chromium = 3
+		tungsten = 3
+		coal = 8
+	}
+
+	history={
+		owner = GER
+		victory_points = { 3561 5 }
+		victory_points = { 6524 10 }
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+		}
+		add_core_of = GER
+		add_core_of = PRE
+		add_core_of = THU
+	}
+
+		provinces={
+			 482 538 3500 3561 6524 9497 
+		}
+}

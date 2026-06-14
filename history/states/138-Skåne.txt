@@ -1,0 +1,37 @@
+state={
+	id=138
+	name="STATE_138" # STATE_138
+	# TSR2_OVERLAY tsr_state_id=138 ratio=1.000 split=False
+
+		state_category=city
+
+	manpower=1047701
+
+	resources={
+		coal = 2
+	}
+
+	history={
+		owner = SWE
+		victory_points = {
+			9279 5 
+		}
+		victory_points = {
+			11215 1 
+		}
+		buildings = {
+			infrastructure = 3
+			dockyard = 1
+			industrial_complex = 1
+		11215 = {naval_base = 5
+						coastal_bunker = 3}
+		9279 = {naval_base = 5
+						coastal_bunker = 1}
+		}
+		add_core_of = SWE
+	}
+
+		provinces={
+			6120 6345 9279 9300 9362 11160 11215 11327 11376 
+		}
+}

@@ -1,0 +1,23 @@
+state={
+	id=53
+	name="STATE_53" # STATE_53
+	# TSR2_OVERLAY tsr_state_id=53 ratio=1.000 split=False
+
+		state_category=city
+
+	manpower=1453365
+
+	history={
+		owner = GER
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+		}
+		add_core_of = BAY
+		add_core_of = GER
+	}
+
+		provinces={
+			532 571 586 3299 3541 3571 11497 
+		}
+}

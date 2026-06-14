@@ -1,0 +1,27 @@
+state={
+	id=1362
+	name="STATE_1362" # STATE_1362
+	# TSR2_OVERLAY none (BSR-only state)
+
+		state_category=rural
+
+	manpower=45327
+
+	resources={
+		tungsten = 5
+		steel = 2
+		chromium = 2
+	}
+
+	history={
+		owner = SWE
+		buildings = {
+			infrastructure = 3
+		}
+		add_core_of = SWE
+	}
+
+		provinces={
+			9147 201 6168 61 151 6170 11060 6208
+		}
+}

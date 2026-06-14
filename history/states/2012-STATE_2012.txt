@@ -1,0 +1,24 @@
+state={
+	id=2012
+	name="STATE_2012" # STATE_2012
+	# TSR2_OVERLAY none (BSR-only state)
+
+		state_category=pastoral
+
+	manpower=42561
+
+	history={
+		owner = YUG
+		controller = CRO
+		buildings = {
+			infrastructure = 5
+		}
+		add_core_of = CRO
+		add_core_of = VOJ
+		add_core_of = YUG
+	}
+
+		provinces={
+			11577 
+		}
+}

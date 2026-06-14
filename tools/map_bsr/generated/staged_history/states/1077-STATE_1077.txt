@@ -1,0 +1,31 @@
+state={
+	id=1077
+	name="STATE_1077" # STATE_1077
+	# TSR2_OVERLAY tsr_state_id=1077 ratio=1.000 split=False
+
+		state_category=wasteland
+
+	manpower=1412581
+
+	resources={
+		oil = 29
+		rubber = 16
+		coal = 11
+	}
+
+	history={
+		owner = INS
+		controller = SIA
+		buildings = {
+			infrastructure = 1
+			synthetic_refinery = 1
+			industrial_complex = 1
+		}
+		add_core_of = GOW
+		add_core_of = LAO
+	}
+
+		provinces={
+			1592 
+		}
+}

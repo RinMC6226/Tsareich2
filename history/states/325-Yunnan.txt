@@ -1,57 +1,44 @@
 state={
 	id=325
-	name="STATE_325"
+	name="STATE_325" # STATE_325
+	# TSR2_OVERLAY tsr_state_id=325 ratio=1.000 split=False
+
+		state_category=town
+
+	manpower=10994500
+
 	resources={
-		tungsten=2.000
+		tungsten = 2
 	}
 
 	history={
 		owner = YUN
-		add_core_of = YUN
-
+					1936.1.1 = {
+					if = {
+						limit = {
+							NOT = {
+								has_dlc = "Waking the Tiger" 
+							}
+						}
+						KMT = {
+							transfer_state = PREV
+						}
+					}
+					}
 		victory_points = {
-			1319 10 # Kunming
+			1319 10 
 		}
-
-		victory_points = {
-			4501 1 # Mengzi
-		}
-
-		victory_points = {
-			12262 1 # Pu'er
-		}
-
-		victory_points = {
-			5072 1 # Zhenxiong
-		}
-
 		buildings = {
 			infrastructure = 2
 			arms_factory = 1
 			industrial_complex = 3
-
 		}
-		1938.10.25 = {
-			if = {
-				limit = {
-					NOT = {
-						has_dlc = "Waking the Tiger" 
-					}
-				}
-				KMT = {
-					transfer_state = PREV
-				}
-			}
-		}
-
+		add_core_of = CHI
+		add_core_of = PRC
+		add_core_of = YUN
 	}
 
-	provinces={
-		1114 1172 1196 1319 1383 1522 1653 4192 4501 5072 7446 7606 8023 10346 10776 12262 12282 12841
-	}
-	manpower=10994500
-	buildings_max_level_factor=1.000
-	state_category=town
-
-	local_supplies=3.0 
+		provinces={
+			5072 12841 1319 4192
+		}
 }

@@ -1,0 +1,38 @@
+state={
+	id=333
+	name="STATE_333" # STATE_333
+	# TSR2_OVERLAY tsr_state_id=333 ratio=1.000 split=False
+
+		state_category=rural
+
+	manpower=589800
+
+	resources={
+		rubber = 20
+		oil = 2
+		coal = 1
+	}
+
+	history={
+		owner = DAS
+		controller = DAS
+		victory_points = {
+			7371 1 
+		}
+		victory_points = {
+			1208 1
+		}
+		buildings = {
+			infrastructure = 2
+		1208 = {naval_base = 1}
+		7371 = {naval_base = 2}
+		}
+		add_core_of = MAL
+		add_core_of = SAR
+		add_core_of = SRW
+	}
+
+		provinces={
+			1208 2117 4216 4396 7371 7443 8091 10269 10285 12283 12905 
+		}
+}

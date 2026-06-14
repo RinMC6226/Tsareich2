@@ -1,0 +1,27 @@
+state={
+	id=1764
+	name="STATE_1764" # STATE_1764
+	# TSR2_OVERLAY none (BSR-only state)
+
+		state_category=town
+
+	manpower=718216
+
+	resources={
+		aluminium = 2
+	}
+
+	history={
+		owner = GER
+		buildings = {
+			infrastructure = 6
+			arms_factory = 1
+		}
+		add_core_of = GER
+		add_core_of = WUR
+	}
+
+		provinces={
+			519 11486 694
+		}
+}

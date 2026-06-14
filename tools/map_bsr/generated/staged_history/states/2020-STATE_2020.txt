@@ -1,0 +1,22 @@
+state={
+	id=2020
+	name="STATE_2020" # STATE_2020
+	# TSR2_OVERLAY none (BSR-only state)
+
+		
+		state_category = pastoral
+
+	manpower=2329
+
+	history={
+		owner = VEN
+		buildings = {
+			infrastructure = 1
+		}
+		add_core_of = VEN
+	}
+
+		provinces={
+			8491 
+		}
+}

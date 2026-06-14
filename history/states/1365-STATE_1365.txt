@@ -1,0 +1,30 @@
+state={
+	id=1365
+	name="STATE_1365" # STATE_1365
+	# TSR2_OVERLAY none (BSR-only state)
+
+		state_category=town
+
+	manpower=431985
+
+	resources={
+		chromium = 3
+	}
+
+	history={
+		owner = SOV
+		victory_points = {
+			13863 1 
+		}
+		buildings = {
+			infrastructure = 8
+		}
+		add_core_of = CIR
+		add_core_of = KUB
+		add_core_of = SOV
+	}
+
+		provinces={
+			13863
+		}
+}

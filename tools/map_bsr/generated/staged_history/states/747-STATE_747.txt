@@ -1,0 +1,39 @@
+state={
+	id=747
+	name="STATE_747" # STATE_747
+	# TSR2_OVERLAY tsr_state_id=747 ratio=1.000 split=False
+
+		state_category=pastoral
+
+	manpower=1000000
+
+	history={
+		owner = YUN
+					if = {
+						limit = {
+							NOT = {
+								has_dlc = "Waking the Tiger" 
+							}
+		
+						}
+						KMT = {
+							transfer_state = PREV
+		
+						}
+		
+					}
+		victory_points = {
+			7965 3 
+		}
+		buildings = {
+			infrastructure = 2
+		}
+		add_core_of = CHI
+		add_core_of = PRC
+		add_core_of = YUN
+	}
+
+		provinces={
+			4559 7965 12789 12898 
+		}
+}

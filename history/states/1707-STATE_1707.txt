@@ -1,0 +1,22 @@
+state={
+	id=1707
+	name="STATE_1707" # STATE_1707
+	# TSR2_OVERLAY none (BSR-only state)
+
+		state_category=pastoral
+
+	manpower=37150
+
+	history={
+		owner = TUR
+		buildings = {
+			infrastructure = 2
+		1119 = {naval_base = 1}
+		}
+		add_core_of = TUR
+	}
+
+		provinces={
+			12013 1119
+		}
+}

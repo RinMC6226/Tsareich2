@@ -1,0 +1,24 @@
+state={
+	id=1951
+	name="STATE_1951" # STATE_1951
+	# TSR2_OVERLAY none (BSR-only state)
+
+		state_category=wasteland
+
+
+		impassable = yes
+
+	manpower=21000
+
+	history={
+		owner = INS
+		buildings = {
+			infrastructure = 1
+		}
+		add_core_of = WPP
+	}
+
+		provinces={
+			7570 10436 
+		}
+}

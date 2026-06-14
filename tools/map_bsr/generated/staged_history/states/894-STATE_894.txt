@@ -1,0 +1,29 @@
+state={
+	id=894
+	name="STATE_894" # STATE_894
+	# TSR2_OVERLAY tsr_state_id=894 ratio=1.000 split=False
+
+		state_category=rural
+
+	manpower=69300
+
+	history={
+		owner = DSW
+		controller = DSW
+		victory_points = {
+			3660 1 
+		}
+		buildings = {
+			infrastructure = 2
+		3660 = {bunker = 4}
+		3662 = {bunker = 5}
+		}
+		add_core_of = NMB
+		add_core_of = SAF
+		add_core_of = SWI
+	}
+
+		provinces={
+			3660 3662 
+		}
+}

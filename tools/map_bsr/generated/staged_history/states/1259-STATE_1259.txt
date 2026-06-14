@@ -1,0 +1,29 @@
+state={
+	id=1259
+	name="STATE_1259" # STATE_1259
+	# TSR2_OVERLAY none (BSR-only state)
+
+		state_category=pastoral
+
+	manpower=1900
+
+	resources={
+		steel = 3
+	}
+
+	history={
+		owner = NOR
+		victory_points = {
+			13538 1 
+		}
+		buildings = {
+			infrastructure = 2
+		13538 = {naval_base = 1}
+		}
+		add_core_of = NOR
+	}
+
+		provinces={
+			13538 8988 8257 9012 8468 8645 8667 8283
+		}
+}

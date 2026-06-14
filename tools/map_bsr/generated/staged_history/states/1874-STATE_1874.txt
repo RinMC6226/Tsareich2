@@ -1,0 +1,22 @@
+state={
+	id=1874
+	name="STATE_1874" # STATE_1874
+	# TSR2_OVERLAY none (BSR-only state)
+
+		state_category=rural
+
+	manpower=25623
+
+	history={
+		owner = USA
+		buildings = {
+			infrastructure = 3
+		}
+		add_core_of = NVJ
+		add_core_of = USA
+	}
+
+		provinces={
+			7821 10573 13983  
+		}
+}

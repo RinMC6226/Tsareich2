@@ -1,0 +1,36 @@
+state={
+	id=1028
+	name="STATE_1028" # STATE_1028
+	# TSR2_OVERLAY tsr_state_id=1028 ratio=1.000 split=False
+
+		state_category=town
+
+	manpower=2258066
+
+	resources={
+		steel = 10
+		tungsten = 10
+		coal = 4
+	}
+
+	history={
+		owner = KOR
+		controller = KOR
+		victory_points = {
+			11928 10 
+		}
+		buildings = {
+			infrastructure = 2
+		11928 = {naval_base = 3
+						coastal_bunker = 1
+						bunker = 1}
+		}
+		add_core_of = CHI
+		add_core_of = KOR
+		add_core_of = PRC
+	}
+
+		provinces={
+			11928 
+		}
+}

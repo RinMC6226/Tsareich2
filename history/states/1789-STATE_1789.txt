@@ -1,0 +1,23 @@
+state={
+	id=1789
+	name="STATE_1789" # STATE_1789
+	# TSR2_OVERLAY none (BSR-only state)
+
+		state_category=pastoral
+
+	manpower=428000
+
+	history={
+		owner = TIB
+		buildings = {
+			infrastructure = 1
+		}
+		add_core_of = CHI
+		add_core_of = TIB
+		add_core_of = PRC
+	}
+
+		provinces={
+			1918 
+		}
+}

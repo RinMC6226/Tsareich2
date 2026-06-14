@@ -1,0 +1,22 @@
+state={
+	id=1771
+	name="STATE_1771" # STATE_1771
+	# TSR2_OVERLAY none (BSR-only state)
+
+		state_category=rural
+
+	manpower=476341
+
+	history={
+		owner = SOV
+		buildings = {
+			infrastructure = 4
+		}
+		add_core_of = SOV
+		add_core_of = UKR
+	}
+
+		provinces={
+			 3511 6509 
+		}
+}

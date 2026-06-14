@@ -1,0 +1,29 @@
+state={
+	id=784
+	name="STATE_784" # STATE_784
+	# TSR2_OVERLAY tsr_state_id=784 ratio=1.000 split=False
+
+		
+		state_category = rural
+
+	manpower=517081
+
+	history={
+		owner = RUS
+		controller = SOV
+		victory_points = {
+			3320 3
+		}
+		buildings = {
+			air_base = 5
+			infrastructure = 3
+			industrial_complex = 1
+		}
+		add_core_of = LIT
+		add_core_of = POL
+	}
+
+		provinces={
+			3320 9274
+		}
+}

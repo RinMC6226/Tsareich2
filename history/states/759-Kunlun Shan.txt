@@ -1,0 +1,28 @@
+state={
+	id=759
+	name="STATE_759" # STATE_759
+	# TSR2_OVERLAY tsr_state_id=759 ratio=1.000 split=False
+
+		state_category=wasteland
+
+	manpower=70000
+
+	history={
+		owner = SIK
+		controller = SIK
+		victory_points = {
+			4973 2
+		}
+		buildings = {
+			infrastructure = 1
+		}
+		add_core_of = CHI
+		add_core_of = PRC
+		add_core_of = SIK
+		add_core_of = ETR
+	}
+
+		provinces={
+			1943 1970 4973 8112 10911 13290 
+		}
+}

@@ -1,0 +1,32 @@
+state={
+	id=1845
+	name="STATE_1845" # STATE_1845
+	# TSR2_OVERLAY none (BSR-only state)
+
+		
+		state_category = town
+
+	manpower=217253
+
+	resources={
+		oil = 1
+	}
+
+	history={
+		owner = MEX
+		victory_points = {
+			2008 10
+		}
+		victory_points = {
+			2011 5
+		}
+		buildings = {
+			infrastructure = 6
+		}
+		add_core_of = MEX
+	}
+
+		provinces={
+		2008 2011
+		}
+}

@@ -1,0 +1,27 @@
+state={
+	id=310
+	name="STATE_310" # STATE_310
+	# TSR2_OVERLAY tsr_state_id=310 ratio=1.000 split=False
+
+
+		state_category = pastoral
+
+	manpower=47341
+
+	history={
+		owner = USA
+		controller = USA
+		victory_points = {
+			12885 1 
+		}
+		buildings = {
+			infrastructure = 1
+		12885 = {naval_base = 1}
+		}
+		add_core_of = CAY
+	}
+
+		provinces={
+			4934 12885 
+		}
+}

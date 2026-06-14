@@ -1,0 +1,22 @@
+state={
+	id=1833
+	name="STATE_1833" # STATE_1833
+	# TSR2_OVERLAY none (BSR-only state)
+
+		
+		state_category = pastoral
+
+	manpower=4085
+
+	history={
+		owner = VEN
+		buildings = {
+			infrastructure = 3
+		}
+		add_core_of = VEN
+	}
+
+		provinces={
+			8915
+		}
+}

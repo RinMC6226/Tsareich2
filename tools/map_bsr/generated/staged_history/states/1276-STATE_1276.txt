@@ -1,0 +1,24 @@
+state={
+	id=1276
+	name="STATE_1276" # STATE_1276
+	# TSR2_OVERLAY none (BSR-only state)
+
+		state_category=town
+
+	manpower=4359359
+
+	history={
+		owner = EGY
+		victory_points = {
+			3996 5 
+		}
+		buildings = {
+			infrastructure = 5
+		}
+		add_core_of = EGY
+	}
+
+		provinces={
+			992 1068 3996 4055 7117 10031 13492 13493
+		}
+}

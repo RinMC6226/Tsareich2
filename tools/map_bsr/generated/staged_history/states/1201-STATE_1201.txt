@@ -1,0 +1,25 @@
+state={
+	id=1201
+	name="STATE_1201" # STATE_1201
+	# TSR2_OVERLAY none (BSR-only state)
+
+		
+		state_category = town
+
+	manpower=911556
+
+	history={
+		owner = ROM
+		controller = HUN
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+		}
+		add_core_of = ROM
+		add_core_of = TRA
+	}
+
+		provinces={
+			13378 9672 9670 9685 711 9668 3689
+		}
+}

@@ -1,0 +1,23 @@
+state={
+	id=765
+	name="STATE_765" # STATE_765
+	# TSR2_OVERLAY tsr_state_id=765 ratio=1.000 split=False
+
+	manpower=51600
+
+	history={
+		owner = QAT
+		victory_points = {
+			8051 1
+		}
+		buildings = {
+			infrastructure = 1
+		8051 = {naval_base = 2}
+		}
+		add_core_of = QAT
+	}
+
+		provinces={
+			8051
+		}
+}

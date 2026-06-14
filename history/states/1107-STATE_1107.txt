@@ -1,0 +1,28 @@
+state={
+	id=1107
+	name="STATE_1107" # STATE_1107
+	# TSR2_OVERLAY none (BSR-only state)
+
+		state_category=large_town
+
+	manpower=170064
+
+	history={
+		owner = AUS
+		controller = GER
+		victory_points = {
+			3673 3 
+		}
+		buildings = {
+			infrastructure = 7
+			arms_factory = 1
+			industrial_complex = 2
+		}
+		add_core_of = AUS
+		add_core_of = GER
+	}
+
+		provinces={
+			 668 3673 6673 3674 
+		}
+}

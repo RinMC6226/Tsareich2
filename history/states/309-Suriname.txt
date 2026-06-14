@@ -1,0 +1,31 @@
+state={
+	id=309
+	name="STATE_309" # STATE_309
+	# TSR2_OVERLAY tsr_state_id=309 ratio=1.000 split=False
+
+		
+		state_category = rural
+
+	manpower=152000
+
+	resources={
+		aluminium = 60
+	}
+
+	history={
+		owner = HOL
+		victory_points = {
+			10906 1
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+		12828 = {naval_base = 1}
+		}
+		add_core_of = SUR
+	}
+
+		provinces={
+			1928 10906 12828 
+		}
+}

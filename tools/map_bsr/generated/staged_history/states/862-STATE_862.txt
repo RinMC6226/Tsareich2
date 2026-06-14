@@ -1,0 +1,25 @@
+state={
+	id=862
+	name="STATE_862" # STATE_862
+	# TSR2_OVERLAY tsr_state_id=862 ratio=1.000 split=False
+
+		state_category=enclave
+
+	manpower=80000
+
+	history={
+		owner = CAN
+		buildings = {
+			infrastructure = 1
+		6196 = {naval_base = 1}
+		}
+		add_core_of = CAN
+		add_core_of = ENG
+		add_core_of = QUE
+		add_core_of = SCO
+	}
+
+		provinces={
+			6196 
+		}
+}

@@ -1,0 +1,21 @@
+state={
+	id=1827
+	name="STATE_1827" # STATE_1827
+	# TSR2_OVERLAY none (BSR-only state)
+
+		state_category=wasteland
+
+	manpower=1702
+
+	history={
+		owner = ENG
+		buildings = {
+			infrastructure = 0
+		}
+		add_core_of = UAE
+	}
+
+	    provinces={
+	        13980 13981
+	    }
+}

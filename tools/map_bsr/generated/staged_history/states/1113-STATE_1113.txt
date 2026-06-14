@@ -1,0 +1,22 @@
+state={
+	id=1113
+	name="STATE_1113" # STATE_1113
+	# TSR2_OVERLAY none (BSR-only state)
+
+		state_category=pastoral
+
+	manpower=825000
+
+	history={
+		owner = ETH
+		controller = ITA
+		buildings = {
+			infrastructure = 3
+		}
+		add_core_of = ETH
+	}
+
+		provinces={
+			2072
+		}
+}

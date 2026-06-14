@@ -1,0 +1,30 @@
+state={
+	id=1082
+	name="STATE_1082" # STATE_1082
+	# TSR2_OVERLAY tsr_state_id=1082 ratio=1.000 split=False
+
+		state_category=rural
+
+	manpower=1023100
+
+	resources={
+		rubber = 40
+		steel = 2
+		aluminium = 2
+	}
+
+	history={
+		owner = DAS
+		controller = DAS
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+		}
+		add_core_of = MAL
+		add_core_of = VIN
+	}
+
+		provinces={
+			1285 1300 1328 1400 1605 4334 4363 4405 7271 7380 10162 10232 12109 12176 12204 
+		}
+}

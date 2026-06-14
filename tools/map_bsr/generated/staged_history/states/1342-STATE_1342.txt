@@ -1,0 +1,20 @@
+state={
+	id=1342
+	name="STATE_1342" # STATE_1342
+	# TSR2_OVERLAY none (BSR-only state)
+
+		state_category=town
+
+	manpower=1768000
+
+	history={
+		owner = RAJ
+		buildings = {
+			infrastructure = 2
+		}
+	}
+
+		provinces={
+			1898 3989 5002 5157 10021
+		}
+}

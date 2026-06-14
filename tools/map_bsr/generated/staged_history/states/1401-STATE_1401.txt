@@ -1,0 +1,30 @@
+state={
+	id=1401
+	name="STATE_1401" # STATE_1401
+	# TSR2_OVERLAY none (BSR-only state)
+
+		
+		state_category = large_town
+
+	manpower=1221570
+
+	resources={
+		steel = 5
+	}
+
+	history={
+		owner = ENG
+		victory_points = {
+			3301 1
+		}
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 1
+		}
+		add_core_of = ENG
+	}
+
+		provinces={
+			3205 3301 6301 3241 6378
+		}
+}

@@ -1,0 +1,31 @@
+state={
+	id=940
+	name="STATE_940" # STATE_940
+	# TSR2_OVERLAY tsr_state_id=940 ratio=1.000 split=False
+
+		state_category=pastoral
+
+	manpower=463559
+
+	resources={
+		rubber = 4
+	}
+
+	history={
+		owner = BRA
+		controller = ITA
+		victory_points = {
+			9821 1 
+		}
+		buildings = {
+			infrastructure = 1
+		}
+		add_core_of = BRA
+		add_core_of = MNT
+		add_core_of = YUG
+	}
+
+		provinces={
+			9821 
+		}
+}

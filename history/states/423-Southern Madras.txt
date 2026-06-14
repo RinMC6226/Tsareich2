@@ -1,0 +1,40 @@
+state={
+	id=423
+	name="STATE_423" # Madurai
+	# TSR2_OVERLAY tsr_state_id=423 ratio=1.000 split=False
+
+		
+		state_category = rural
+
+	manpower=24993300
+
+	resources={
+		rubber = 19
+	}
+
+	history={
+		owner = DRV
+		controller = DRV
+		victory_points = {
+			10278 15 
+		}
+		victory_points = {
+			7447 10
+		}
+		victory_points = {
+			1321 5
+		}
+		victory_points = {
+			12247 10
+		}
+		buildings = {
+			infrastructure = 2
+		10278 = {naval_base = 4}
+		}
+		add_core_of = DRV
+	}
+
+		provinces={
+			1238 1268 1321 1381 1409 4327 4416 4420 7265 7288 7363 7402 7436 7447 8067 10130 10246 10274 10278 10808 12164 12247 12275 
+		}
+}

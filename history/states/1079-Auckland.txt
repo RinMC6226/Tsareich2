@@ -1,0 +1,27 @@
+state={
+	id=1079
+	name="STATE_1079" # STATE_1079
+	# TSR2_OVERLAY tsr_state_id=1079 ratio=1.000 split=False
+
+		state_category=pastoral
+
+	manpower=110543
+
+	history={
+		owner = INS
+		controller = JAP
+		
+				set_resistance = 0
+				set_compliance = 15
+		buildings = {
+			infrastructure = 3
+		}
+		add_core_of = PNG
+		add_core_of = VIN
+		add_core_of = WPG
+	}
+
+		provinces={
+			4397 7280 9988 10016 11909 11936 12297 
+		}
+}

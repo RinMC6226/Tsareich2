@@ -1,0 +1,26 @@
+state={
+	id=1160
+	name="STATE_1160" # STATE_1160
+	# TSR2_OVERLAY none (BSR-only state)
+
+		state_category=rural
+
+	manpower=125600
+
+	history={
+		owner = GRE
+		controller = GER
+		victory_points = {
+			11818 5 
+		}
+		buildings = {
+			infrastructure = 7
+		11818 = {naval_base = 3}
+		}
+		add_core_of = GRE
+	}
+
+		provinces={
+			11818
+		}
+}

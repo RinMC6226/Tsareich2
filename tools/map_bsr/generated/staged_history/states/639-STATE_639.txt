@@ -1,0 +1,37 @@
+state={
+	id=639
+	name="STATE_639" # STATE_639
+	# TSR2_OVERLAY tsr_state_id=639 ratio=1.000 split=False
+
+		state_category = small_island
+
+	manpower=1035
+
+	history={
+		owner = DAS
+		
+				strategic_province_location = {
+					defensible_coastline = 13021
+				}
+		
+				strategic_province_location = {
+					defensible_coastline = 7393
+				}
+		victory_points = {
+			13021 1 
+		}
+		buildings = {
+			infrastructure = 2
+		13021 = {naval_base = 1}
+		4387 = {naval_base = 1}
+		7393 = {naval_base = 1}
+		13020 = {naval_base = 1}
+		}
+		add_core_of = FIJ
+		add_core_of = KIR
+	}
+
+		provinces={
+			4387 7393 13020 13021 13022 
+		}
+}

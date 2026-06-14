@@ -1,0 +1,29 @@
+state={
+	id=1088
+	name="STATE_1088" # STATE_1088
+	# TSR2_OVERLAY tsr_state_id=1088 ratio=1.000 split=False
+
+		state_category=wasteland
+
+	manpower=3245000
+
+	resources={
+		rubber = 33
+	}
+
+	history={
+		owner = DAS
+		controller = DAS
+		buildings = {
+			air_base = 2
+			infrastructure = 2
+			industrial_complex = 1
+		}
+		add_core_of = SOM
+		add_core_of = VIN
+	}
+
+		provinces={
+			1966 4909 10818 10891 
+		}
+}

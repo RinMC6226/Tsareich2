@@ -1,0 +1,30 @@
+state={
+	id=335
+	name="STATE_335" # STATE_335
+	# TSR2_OVERLAY tsr_state_id=335 ratio=1.000 split=False
+
+		state_category=town
+
+	manpower=41718200
+
+	resources={
+		rubber = 140
+		oil = 10
+	}
+
+	history={
+		owner = INS
+		buildings = {
+			air_base = 3
+			infrastructure = 3
+			dockyard = 1
+			industrial_complex = 1
+		}
+		add_core_of = INS
+		add_core_of = MTR
+	}
+
+		provinces={
+			1386 1425 4406 4434 4621 7421 10307 12249 13985 
+		}
+}

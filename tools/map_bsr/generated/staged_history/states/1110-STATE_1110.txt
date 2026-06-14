@@ -1,0 +1,26 @@
+state={
+	id=1110
+	name="STATE_1110" # STATE_1110
+	# TSR2_OVERLAY none (BSR-only state)
+
+		state_category=rural
+
+	manpower=9732000
+
+	history={
+		owner = ENG
+		victory_points = {
+			2050 1 
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+		2050 = {naval_base = 3}
+		}
+		add_core_of = NGA
+	}
+
+		provinces={
+			2050 4952 12731 12900
+		}
+}

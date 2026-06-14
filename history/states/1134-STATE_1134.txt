@@ -1,0 +1,32 @@
+state={
+	id=1134
+	name="STATE_1134" # STATE_1134
+	# TSR2_OVERLAY none (BSR-only state)
+
+		state_category=rural
+
+	manpower=760674
+
+	resources={
+		chromium = 15
+	}
+
+	history={
+		owner = POR
+		victory_points = {
+			9869 1 
+		}
+		victory_points = {
+			6986 1 
+		}
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 2
+		}
+		add_core_of = POR
+	}
+
+		provinces={
+			844 3846 3886 3926 6986 9869 11768 
+		}
+}

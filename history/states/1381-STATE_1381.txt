@@ -1,0 +1,25 @@
+state={
+	id=1381
+	name="STATE_1381" # STATE_1381
+	# TSR2_OVERLAY none (BSR-only state)
+
+		state_category=rural
+
+	manpower=62121
+
+	history={
+		owner = FIN
+		controller = SOV
+		buildings = {
+			infrastructure = 7
+			industrial_complex = 1
+		9100 = {bunker = 2}
+		}
+		add_core_of = FIN
+		add_core_of = KAR
+	}
+
+		provinces={
+		    9100
+		}
+}

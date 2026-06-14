@@ -1,0 +1,34 @@
+state={
+	id=851
+	name="STATE_851" # STATE_851
+	# TSR2_OVERLAY tsr_state_id=851 ratio=1.000 split=False
+
+		state_category=pastoral
+
+	manpower=485000
+
+	history={
+		owner = FRA
+		victory_points = {
+			10894 1 
+		}
+		victory_points = {
+			1954 1 
+		}
+		victory_points = {
+			10740 1 
+		}
+		buildings = {
+			infrastructure = 3
+			dockyard = 3
+		}
+		add_core_of = FRA
+		add_core_of = OCC
+		add_core_of = TEX
+		add_core_of = USA
+	}
+
+		provinces={
+			1954 5038 10740 10894 
+		}
+}

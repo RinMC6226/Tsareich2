@@ -1,0 +1,33 @@
+state={
+	id=80
+	name="STATE_80" # STATE_80
+	# TSR2_OVERLAY tsr_state_id=80 ratio=1.000 split=False
+
+		
+		state_category = rural
+
+	manpower=474600
+
+	resources={
+		coal = 1
+	}
+
+	history={
+		owner = RUS
+		controller = SOV
+		victory_points = {
+			577 1 
+		}
+		buildings = {
+			infrastructure = 3
+			arms_factory = 1
+		}
+		add_core_of = BUK
+		add_core_of = ROM
+		add_core_of = UKR
+	}
+
+		provinces={
+			577 9548
+		}
+}

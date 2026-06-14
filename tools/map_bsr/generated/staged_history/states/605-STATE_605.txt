@@ -1,0 +1,47 @@
+state={
+	id=605
+	name="STATE_605" # STATE_605
+	# TSR2_OVERLAY tsr_state_id=605 ratio=1.000 split=False
+
+		state_category=city
+
+	manpower=2724437
+
+	resources={
+		steel = 10
+	}
+
+	history={
+		owner = KMT
+		controller = KMT
+					IF = {
+						limit = {
+							has_dlc = "No Compromise, No Surrender"
+						}
+						transfer_state_to = SIC
+						add_core_of = SIC
+					}
+				IF = {
+						limit = {
+							has_dlc = "No Compromise, No Surrender" 
+						}
+						remove_core_of = SIC
+					}
+		victory_points = {
+			6999 20 
+		}
+		buildings = {
+			infrastructure = 2
+			arms_factory = 1
+		}
+		add_core_of = CHI
+		add_core_of = KMT
+		add_core_of = PRC
+		add_core_of = SIC
+		add_core_of = SZH
+	}
+
+		provinces={
+			4141 4431 6999 7240 
+		}
+}

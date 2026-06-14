@@ -1,0 +1,21 @@
+state={
+	id=2025
+	name="STATE_2025" # STATE_2025
+	# TSR2_OVERLAY none (BSR-only state)
+
+		state_category = pastoral
+
+	manpower=495000
+
+	history={
+		owner = ENG
+		buildings = {
+			infrastructure = 6
+		}
+		add_core_of = ENG
+	}
+
+		provinces={
+			219 11332 
+		}
+}

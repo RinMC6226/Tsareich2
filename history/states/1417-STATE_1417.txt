@@ -1,0 +1,23 @@
+state={
+	id=1417
+	name="STATE_1417" # STATE_1417
+	# TSR2_OVERLAY none (BSR-only state)
+
+		
+		state_category = pastoral
+
+	manpower=12519
+
+	history={
+		owner = POL
+		controller = SOV
+		buildings = {
+			infrastructure = 3
+		}
+		add_core_of = POL
+	}
+
+		provinces={
+		  13881
+		}
+}

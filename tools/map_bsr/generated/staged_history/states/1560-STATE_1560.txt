@@ -1,0 +1,26 @@
+state={
+	id=1560
+	name="STATE_1560" # STATE_1560
+	# TSR2_OVERLAY none (BSR-only state)
+
+		state_category=town
+
+	manpower=152156
+
+	history={
+		owner = POL
+		controller = GER
+		victory_points = {
+			11232 10
+		}
+		buildings = {
+			infrastructure = 7
+		11232 = {bunker = 1}
+		}
+		add_core_of = POL
+	}
+
+		provinces={
+			11232
+		}
+}

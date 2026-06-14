@@ -1,0 +1,25 @@
+state={
+	id=1921
+	name="STATE_1921" # STATE_1921
+	# TSR2_OVERLAY none (BSR-only state)
+
+		state_category=wasteland
+
+	manpower=566
+
+	history={
+		owner = JAP
+		controller = MEN
+		buildings = {
+			infrastructure = 0
+		}
+		add_core_of = CHI
+		add_core_of = MEN
+		add_core_of = MON
+		add_core_of = PRC
+	}
+
+	    provinces={
+	        1796
+	    }
+}

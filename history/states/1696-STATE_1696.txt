@@ -1,0 +1,28 @@
+state={
+	id=1696
+	name="STATE_1696" # STATE_1696
+	# TSR2_OVERLAY none (BSR-only state)
+
+		state_category=rural
+
+	manpower=270151
+
+	history={
+		owner = USA
+		victory_points = {
+			11763 5
+		}
+		victory_points = {
+			6876 1
+		}
+		buildings = {
+			infrastructure = 3
+		}
+		add_core_of = CAL
+		add_core_of = USA
+	}
+
+		provinces={
+		 6876 11763
+		}
+}

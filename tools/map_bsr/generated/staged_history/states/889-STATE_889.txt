@@ -1,0 +1,40 @@
+state={
+	id=889
+	name="STATE_889" # STATE_889
+	# TSR2_OVERLAY tsr_state_id=889 ratio=1.000 split=False
+
+		state_category=rural
+
+	manpower=708190
+
+	resources={
+		tungsten = 2
+		coal = 4
+	}
+
+	history={
+		owner = BEL
+		controller = SLO
+		
+				IF = {
+					limit = {
+						has_dlc = "Gotterdammerung"
+					}
+					transfer_state_to = COG
+					add_dynamic_modifier = {
+						modifier = COG_state_loyal_to_free_congo_modifier
+					}
+				}
+		buildings = {
+			infrastructure = 1
+		}
+		add_core_of = COG
+		add_core_of = CZE
+		add_core_of = KAT
+		add_core_of = SLO
+	}
+
+		provinces={
+			9539 13267
+		}
+}

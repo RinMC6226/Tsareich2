@@ -1,0 +1,26 @@
+state={
+	id=1056
+	name="STATE_1056" # STATE_1056
+	# TSR2_OVERLAY tsr_state_id=1056 ratio=1.000 split=False
+
+		state_category=town
+
+	manpower=136480
+
+	history={
+		owner = STC
+		controller = STC
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 1
+		13288 = {naval_base = 3}
+		}
+		add_core_of = NMB
+		add_core_of = SAF
+		add_core_of = TUR
+	}
+
+		provinces={
+			13288 
+		}
+}

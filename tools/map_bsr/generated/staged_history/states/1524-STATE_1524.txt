@@ -1,0 +1,18 @@
+state={
+	id=1524
+	name="STATE_1524" # STATE_1524
+	# TSR2_OVERLAY none (BSR-only state)
+
+		state_category=pastoral
+
+	manpower=213437
+
+	history={
+		owner = FRA
+		add_core_of = NGR
+	}
+
+		provinces={
+			8028 10758 10780 10805 
+		}
+}

@@ -1,0 +1,31 @@
+state={
+	id=1851
+	name="STATE_1851" # STATE_1851
+	# TSR2_OVERLAY none (BSR-only state)
+
+		
+		state_category = town
+
+	manpower=228797
+
+	resources={
+		chromium = 1
+	}
+
+	history={
+		owner = GUA
+		victory_points = {
+			10842 5
+		}
+		buildings = {
+			air_base = 1
+			infrastructure = 5
+			industrial_complex = 1
+		}
+		add_core_of = GUA
+	}
+
+		provinces={
+		 10842 
+		}
+}

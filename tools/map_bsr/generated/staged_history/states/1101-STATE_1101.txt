@@ -1,0 +1,34 @@
+state={
+	id=1101
+	name="STATE_1101" # STATE_1101
+	# TSR2_OVERLAY tsr_state_id=1101 ratio=1.000 split=False
+
+		state_category=tiny_island
+
+	manpower=449918
+
+	resources={
+		coal = 1
+	}
+
+	history={
+		owner = NZL
+		victory_points = {
+			1237 1 
+		}
+		buildings = {
+			air_base = 2
+			infrastructure = 3
+			arms_factory = 1
+			industrial_complex = 2
+		1237 = {naval_base = 1}
+		4247 = {naval_base = 1}
+		}
+		add_core_of = NZL
+		add_core_of = VAN
+	}
+
+		provinces={
+			1237 4247 12120 
+		}
+}

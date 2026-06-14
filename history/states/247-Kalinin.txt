@@ -1,0 +1,27 @@
+state={
+	id=247
+	name="STATE_247" # STATE_247
+	# TSR2_OVERLAY tsr_state_id=247 ratio=1.000 split=False
+
+		state_category = town
+
+	manpower=1331211
+
+	history={
+		owner = RUS
+		victory_points = {
+			6245 10 
+		}
+		buildings = {
+			air_base = 2
+			infrastructure = 3
+		}
+		add_core_of = MUS
+		add_core_of = RUS
+		add_core_of = SOV
+	}
+
+		provinces={
+			85 150 344 3143 3176 3323 6022 6122 6203 6245 6346 9046 9144 9256 11084 11154 11250 
+		}
+}

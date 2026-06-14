@@ -1,0 +1,24 @@
+state={
+	id=1974
+	name="STATE_1974" # STATE_1974
+	# TSR2_OVERLAY none (BSR-only state)
+
+		state_category=rural
+
+	manpower=114269
+
+	history={
+		owner = HOL
+		victory_points = {
+			9335 1 
+		}
+		buildings = {
+			infrastructure = 6
+		}
+		add_core_of = HOL
+	}
+
+		provinces={
+			9335 11318 
+		}
+}

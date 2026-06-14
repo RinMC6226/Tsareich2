@@ -1,0 +1,23 @@
+state={
+	id=1389
+	name="STATE_1389" # STATE_1389
+	# TSR2_OVERLAY none (BSR-only state)
+
+		state_category=pastoral
+
+	manpower=11200
+
+	history={
+		owner = FRA
+		controller = ITA
+		buildings = {
+			infrastructure = 1
+		}
+		add_core_of = FRA
+		add_core_of = OCC
+	}
+
+		provinces={
+			13872 
+		}
+}

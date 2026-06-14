@@ -1,29 +1,25 @@
-state = {
-	id = 765
-	name = "STATE_765"
-	manpower = 51600
-	state_category = pastoral
+state={
+	id=765
+	name="STATE_765" # STATE_765
+	# TSR2_OVERLAY tsr_state_id=765 ratio=1.000 split=False
 
-	history = {
-		
+	state_category=town
+
+	manpower=51600
+
+	history={
 		owner = QAT
-		add_core_of = QAT
-
 		victory_points = {
-			8051 1 # Doha
+			8051 1
 		}
-
 		buildings = {
 			infrastructure = 1
-			8051 = {
-				naval_base = 2
-			}
+		8051 = {naval_base = 2}
 		}
+		add_core_of = QAT
 	}
 
-	provinces = {
-		8051
-	}
-
-	local_supplies = 0.0 
+		provinces={
+			8051
+		}
 }

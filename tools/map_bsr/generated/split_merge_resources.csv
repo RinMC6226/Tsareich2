@@ -1,0 +1,949 @@
+tsr_state_id,tsr_state_name,bsr_state_id,bsr_state_name,mapping_type,confidence,notes,resources
+3,STATE_3,151,STATE_151,merge,0.500,split+merge; province_overlap=2; tsr_overlap_rank=1/3; bsr_source_count=2,	resources={ 	}
+3,STATE_3,3,STATE_3,merge,0.400,split+merge; province_overlap=2; tsr_overlap_rank=2/3; bsr_source_count=3,	resources={ 	}
+3,STATE_3,892,STATE_892,merge,0.333,split+merge; province_overlap=1; tsr_overlap_rank=3/3; bsr_source_count=2,	resources={ 	}
+4,STATE_4,4,STATE_4,split,1.000,split; province_overlap=5; tsr_overlap_rank=1/3; bsr_source_count=1, 	resources = { 		oil = 2  	}
+4,STATE_4,1679,STATE_1679,split,1.000,split; province_overlap=3; tsr_overlap_rank=2/3; bsr_source_count=1, 	resources = { 		oil = 2  	}
+4,STATE_4,807,STATE_807,split,1.000,split; province_overlap=2; tsr_overlap_rank=3/3; bsr_source_count=1, 	resources = { 		oil = 2  	}
+6,Flanders,6,Flanders,merge,0.750,split+merge; province_overlap=3; tsr_overlap_rank=1/2; bsr_source_count=2," 	resources = { 		steel = 4 # was: 48, then 25 then 15 	}"
+6,Flanders,1435,STATE_1435,split,1.000,split; province_overlap=1; tsr_overlap_rank=2/2; bsr_source_count=1," 	resources = { 		steel = 4 # was: 48, then 25 then 15 	}"
+7,STATE_7,7,STATE_7,split,1.000,split; province_overlap=4; tsr_overlap_rank=1/2; bsr_source_count=1,	resources={ 		steel=4.000 	}
+7,STATE_7,1061,STATE_1061,merge,0.500,split+merge; province_overlap=1; tsr_overlap_rank=2/2; bsr_source_count=2,	resources={ 		steel=4.000 	}
+8,STATE_8,8,STATE_8,merge,0.500,merge; province_overlap=1; bsr_source_count=2,	resources = { 		steel = 14 # was: 5 	}
+9,STATE_9,9,STATE_9,split,0.929,split; province_overlap=13; tsr_overlap_rank=1/2; bsr_source_count=1,	resources={ 		steel = 5 # was: 8 		coal = 6 # initial distribution / 60 total 	}
+9,STATE_9,1710,STATE_1710,merge,0.500,split+merge; province_overlap=1; tsr_overlap_rank=2/2; bsr_source_count=2,	resources={ 		steel = 5 # was: 8 		coal = 6 # initial distribution / 60 total 	}
+12,STATE_12,1454,STATE_1454,merge,1.000,merge; province_overlap=5; bsr_source_count=3,	resources={ 		steel=1 # was: 2 	}
+13,STATE_13,191,STATE_191,merge,0.667,split+merge; province_overlap=4; tsr_overlap_rank=1/2; bsr_source_count=3,	resources={ 		steel=2.000 	}
+13,STATE_13,13,STATE_13,merge,0.333,split+merge; province_overlap=2; tsr_overlap_rank=2/2; bsr_source_count=3,	resources={ 		steel=2.000 	}
+17,Lorraine,17,STATE_17,split,0.600,split; province_overlap=3; tsr_overlap_rank=1/6; bsr_source_count=1,	 	resources={ 		steel=28 # was: 48 	}
+17,Lorraine,1733,STATE_1733,split,1.000,split; province_overlap=1; tsr_overlap_rank=2/6; bsr_source_count=1,	 	resources={ 		steel=28 # was: 48 	}
+17,Lorraine,1581,STATE_1581,split,1.000,split; province_overlap=1; tsr_overlap_rank=3/6; bsr_source_count=1,	 	resources={ 		steel=28 # was: 48 	}
+17,Lorraine,2041,STATE_2041,split,1.000,split; province_overlap=1; tsr_overlap_rank=4/6; bsr_source_count=1,	 	resources={ 		steel=28 # was: 48 	}
+17,Lorraine,817,STATE_817,merge,0.333,split+merge; province_overlap=1; tsr_overlap_rank=5/6; bsr_source_count=2,	 	resources={ 		steel=28 # was: 48 	}
+17,Lorraine,1734,STATE_1734,merge,0.500,split+merge; province_overlap=1; tsr_overlap_rank=6/6; bsr_source_count=2,	 	resources={ 		steel=28 # was: 48 	}
+19,STATE_19,19,STATE_19,merge,1.000,merge; province_overlap=5; bsr_source_count=2,	resources={ 		steel=14 #was 25 		aluminium=11 	}
+20,Rhone,20,STATE_20,merge,0.833,split+merge; province_overlap=5; tsr_overlap_rank=1/7; bsr_source_count=2,	resources={ 		steel=32 # was 60 was: 128 		aluminium=35 # was: 72 	}
+20,Rhone,1185,STATE_1185,split,1.000,split; province_overlap=2; tsr_overlap_rank=2/7; bsr_source_count=1,	resources={ 		steel=32 # was 60 was: 128 		aluminium=35 # was: 72 	}
+20,Rhone,1800,STATE_1800,split,1.000,split; province_overlap=2; tsr_overlap_rank=3/7; bsr_source_count=1,	resources={ 		steel=32 # was 60 was: 128 		aluminium=35 # was: 72 	}
+20,Rhone,1730,STATE_1730,split,1.000,split; province_overlap=1; tsr_overlap_rank=4/7; bsr_source_count=1,	resources={ 		steel=32 # was 60 was: 128 		aluminium=35 # was: 72 	}
+20,Rhone,1734,STATE_1734,merge,0.500,split+merge; province_overlap=1; tsr_overlap_rank=5/7; bsr_source_count=2,	resources={ 		steel=32 # was 60 was: 128 		aluminium=35 # was: 72 	}
+20,Rhone,1270,STATE_1270,split,1.000,split; province_overlap=1; tsr_overlap_rank=6/7; bsr_source_count=1,	resources={ 		steel=32 # was 60 was: 128 		aluminium=35 # was: 72 	}
+20,Rhone,1799,STATE_1799,merge,0.333,split+merge; province_overlap=1; tsr_overlap_rank=7/7; bsr_source_count=2,	resources={ 		steel=32 # was 60 was: 128 		aluminium=35 # was: 72 	}
+21,Bouches-du-Rhône (Formerly Provence before Var split off),1842,STATE_1842,split,1.000,split; province_overlap=2; tsr_overlap_rank=1/3; bsr_source_count=1,	resources={ 		aluminium=60 # was: 120 	}
+21,Bouches-du-Rhône (Formerly Provence before Var split off),21,STATE_21,split,1.000,split; province_overlap=2; tsr_overlap_rank=2/3; bsr_source_count=1,	resources={ 		aluminium=60 # was: 120 	}
+21,Bouches-du-Rhône (Formerly Provence before Var split off),1801,STATE_1801,merge,0.500,split+merge; province_overlap=1; tsr_overlap_rank=3/3; bsr_source_count=2,	resources={ 		aluminium=60 # was: 120 	}
+22,Languedoc,1654,STATE_1654,merge,0.833,split+merge; province_overlap=5; tsr_overlap_rank=1/4; bsr_source_count=2,	 	resources={ 		steel=27 #was:70 was: 136 		aluminium=50 # was: 96 	}
+22,Languedoc,22,Languedoc,split,0.750,split; province_overlap=3; tsr_overlap_rank=2/4; bsr_source_count=1,	 	resources={ 		steel=27 #was:70 was: 136 		aluminium=50 # was: 96 	}
+22,Languedoc,1760,STATE_1760,split,1.000,split; province_overlap=2; tsr_overlap_rank=3/4; bsr_source_count=1,	 	resources={ 		steel=27 #was:70 was: 136 		aluminium=50 # was: 96 	}
+22,Languedoc,1759,Languedoc,split,1.000,split; province_overlap=1; tsr_overlap_rank=4/4; bsr_source_count=1,	 	resources={ 		steel=27 #was:70 was: 136 		aluminium=50 # was: 96 	}
+23,STATE_23,23,STATE_23,merge,0.875,split+merge; province_overlap=7; tsr_overlap_rank=1/2; bsr_source_count=2,	 	resources={ 		steel=12 #was:30 was: 48 	}
+23,STATE_23,1186,STATE_1186,split,1.000,split; province_overlap=3; tsr_overlap_rank=2/2; bsr_source_count=1,	 	resources={ 		steel=12 #was:30 was: 48 	}
+25,STATE_25,25,STATE_25,merge,0.923,split+merge; province_overlap=12; tsr_overlap_rank=1/2; bsr_source_count=3, 	resources = { 		coal = 2 #initial distribution / 140 total 	}
+25,STATE_25,31,STATE_31,merge,0.091,split+merge; province_overlap=1; tsr_overlap_rank=2/2; bsr_source_count=2, 	resources = { 		coal = 2 #initial distribution / 140 total 	}
+26,Auveregne,26,STATE_26,split,1.000,split; province_overlap=10; tsr_overlap_rank=1/2; bsr_source_count=1,	 	resources = { 		coal = 2 # initial distribution / 140 total 	}
+26,Auveregne,1798,STATE_1798,merge,0.333,split+merge; province_overlap=1; tsr_overlap_rank=2/2; bsr_source_count=3,	 	resources = { 		coal = 2 # initial distribution / 140 total 	}
+27,Bourgogne,27,STATE_27,split,1.000,split; province_overlap=2; tsr_overlap_rank=1/8; bsr_source_count=1,	 	resources={ 		aluminium=11 # was: 18 	}
+27,Bourgogne,1799,STATE_1799,merge,0.667,split+merge; province_overlap=2; tsr_overlap_rank=2/8; bsr_source_count=2,	 	resources={ 		aluminium=11 # was: 18 	}
+27,Bourgogne,2043,STATE_2043,split,1.000,split; province_overlap=2; tsr_overlap_rank=3/8; bsr_source_count=1,	 	resources={ 		aluminium=11 # was: 18 	}
+27,Bourgogne,2018,STATE_2018,merge,0.667,split+merge; province_overlap=2; tsr_overlap_rank=4/8; bsr_source_count=2,	 	resources={ 		aluminium=11 # was: 18 	}
+27,Bourgogne,2042,STATE_2042,split,1.000,split; province_overlap=1; tsr_overlap_rank=5/8; bsr_source_count=1,	 	resources={ 		aluminium=11 # was: 18 	}
+27,Bourgogne,1798,STATE_1798,merge,0.333,split+merge; province_overlap=1; tsr_overlap_rank=6/8; bsr_source_count=3,	 	resources={ 		aluminium=11 # was: 18 	}
+27,Bourgogne,2044,STATE_2044,split,1.000,split; province_overlap=1; tsr_overlap_rank=7/8; bsr_source_count=1,	 	resources={ 		aluminium=11 # was: 18 	}
+27,Bourgogne,2040,STATE_2040,split,1.000,split; province_overlap=1; tsr_overlap_rank=8/8; bsr_source_count=1,	 	resources={ 		aluminium=11 # was: 18 	}
+28,Alsace-Lorraine,1436,STATE_1436,split,0.400,split; province_overlap=2; tsr_overlap_rank=1/7; bsr_source_count=1,	resources={ 		steel=42 #was 100 # was: 236 		coal = 5 # initial distribution / 140 total 	}
+28,Alsace-Lorraine,1876,STATE_1876,split,1.000,split; province_overlap=1; tsr_overlap_rank=2/7; bsr_source_count=1,	resources={ 		steel=42 #was 100 # was: 236 		coal = 5 # initial distribution / 140 total 	}
+28,Alsace-Lorraine,1183,STATE_1183,split,0.500,split; province_overlap=1; tsr_overlap_rank=3/7; bsr_source_count=1,	resources={ 		steel=42 #was 100 # was: 236 		coal = 5 # initial distribution / 140 total 	}
+28,Alsace-Lorraine,814,STATE_814,merge,0.333,split+merge; province_overlap=1; tsr_overlap_rank=4/7; bsr_source_count=2,	resources={ 		steel=42 #was 100 # was: 236 		coal = 5 # initial distribution / 140 total 	}
+28,Alsace-Lorraine,8,STATE_8,merge,0.333,split+merge; province_overlap=1; tsr_overlap_rank=5/7; bsr_source_count=2,	resources={ 		steel=42 #was 100 # was: 236 		coal = 5 # initial distribution / 140 total 	}
+28,Alsace-Lorraine,1934,STATE_1934,split,1.000,split; province_overlap=1; tsr_overlap_rank=6/7; bsr_source_count=1,	resources={ 		steel=42 #was 100 # was: 236 		coal = 5 # initial distribution / 140 total 	}
+28,Alsace-Lorraine,28,STATE_28,merge,0.250,split+merge; province_overlap=1; tsr_overlap_rank=7/7; bsr_source_count=2,	resources={ 		steel=42 #was 100 # was: 236 		coal = 5 # initial distribution / 140 total 	}
+29,STATE_29,29,STATE_29,split,1.000,split; province_overlap=3; tsr_overlap_rank=1/5; bsr_source_count=1,	resources={ 		steel=24 #was 42 was: 112 		aluminium=8 # was: 22 		coal = 30 # initial distribution / 140 total 	}
+29,STATE_29,1839,STATE_1839,split,1.000,split; province_overlap=2; tsr_overlap_rank=2/5; bsr_source_count=1,	resources={ 		steel=24 #was 42 was: 112 		aluminium=8 # was: 22 		coal = 30 # initial distribution / 140 total 	}
+29,STATE_29,1482,STATE_1482,split,1.000,split; province_overlap=1; tsr_overlap_rank=3/5; bsr_source_count=1,	resources={ 		steel=24 #was 42 was: 112 		aluminium=8 # was: 22 		coal = 30 # initial distribution / 140 total 	}
+29,STATE_29,1430,STATE_1430,split,1.000,split; province_overlap=1; tsr_overlap_rank=4/5; bsr_source_count=1,	resources={ 		steel=24 #was 42 was: 112 		aluminium=8 # was: 22 		coal = 30 # initial distribution / 140 total 	}
+29,STATE_29,1089,STATE_1089,split,1.000,split; province_overlap=1; tsr_overlap_rank=5/5; bsr_source_count=1,	resources={ 		steel=24 #was 42 was: 112 		aluminium=8 # was: 22 		coal = 30 # initial distribution / 140 total 	}
+32,STATE_32,32,STATE_32,split,1.000,split; province_overlap=4; tsr_overlap_rank=1/3; bsr_source_count=1,	 	resources={ 		steel=16 #was:30 was: 56 		aluminium=30 # was: 58 	}
+32,STATE_32,20,STATE_20,merge,0.167,split+merge; province_overlap=1; tsr_overlap_rank=2/3; bsr_source_count=2,	 	resources={ 		steel=16 #was:30 was: 56 		aluminium=30 # was: 58 	}
+32,STATE_32,1801,STATE_1801,merge,0.500,split+merge; province_overlap=1; tsr_overlap_rank=3/3; bsr_source_count=2,	 	resources={ 		steel=16 #was:30 was: 56 		aluminium=30 # was: 58 	}
+34,STATE_34,1754,STATE_1754,split,0.667,split; province_overlap=2; tsr_overlap_rank=1/2; bsr_source_count=1,	resources={ 		steel=22 # was: 14 		coal = 5 # More added through focus BEL_revive_coal_mining 	}
+34,STATE_34,34,STATE_34,split,1.000,split; province_overlap=2; tsr_overlap_rank=2/2; bsr_source_count=1,	resources={ 		steel=22 # was: 14 		coal = 5 # More added through focus BEL_revive_coal_mining 	}
+35,STATE_35,35,STATE_35,split,1.000,split; province_overlap=2; tsr_overlap_rank=1/5; bsr_source_count=1, 	resources = { 		coal = 12 #initial distribution 	}
+35,STATE_35,1060,STATE_1060,split,1.000,split; province_overlap=2; tsr_overlap_rank=2/5; bsr_source_count=1, 	resources = { 		coal = 12 #initial distribution 	}
+35,STATE_35,1058,STATE_1058,split,1.000,split; province_overlap=1; tsr_overlap_rank=3/5; bsr_source_count=1, 	resources = { 		coal = 12 #initial distribution 	}
+35,STATE_35,1061,STATE_1061,merge,0.500,split+merge; province_overlap=1; tsr_overlap_rank=4/5; bsr_source_count=2, 	resources = { 		coal = 12 #initial distribution 	}
+35,STATE_35,1976,STATE_1976,split,1.000,split; province_overlap=1; tsr_overlap_rank=5/5; bsr_source_count=1, 	resources = { 		coal = 12 #initial distribution 	}
+39,(South Tyrol) Alto Adige,39,STATE_39,split,1.000,split; province_overlap=3; tsr_overlap_rank=1/3; bsr_source_count=1,	 	resources = { 		aluminium = 14 # was: 22 	}
+39,(South Tyrol) Alto Adige,867,STATE_867,merge,0.333,split+merge; province_overlap=1; tsr_overlap_rank=2/3; bsr_source_count=2,	 	resources = { 		aluminium = 14 # was: 22 	}
+39,(South Tyrol) Alto Adige,1872,STATE_1872,merge,0.250,split+merge; province_overlap=1; tsr_overlap_rank=3/3; bsr_source_count=2,	 	resources = { 		aluminium = 14 # was: 22 	}
+41,STATE_41,1724,STATE_1724,split,1.000,split; province_overlap=7; tsr_overlap_rank=1/3; bsr_source_count=1,	resources={ 		aluminium=1.000 	}
+41,STATE_41,41,STATE_41,split,0.500,split; province_overlap=3; tsr_overlap_rank=2/3; bsr_source_count=1,	resources={ 		aluminium=1.000 	}
+41,STATE_41,1716,STATE_1716,split,1.000,split; province_overlap=3; tsr_overlap_rank=3/3; bsr_source_count=1,	resources={ 		aluminium=1.000 	}
+42,STATE_42,42,STATE_42,split,1.000,split; province_overlap=3; tsr_overlap_rank=1/5; bsr_source_count=1,	resources = { 		steel = 50 #was 21 #was 35 was 59 # was: 100 		aluminium = 14 # was: 24 		coal = 14 # initial distirbution / 660 total 	}
+42,STATE_42,789,STATE_789,split,1.000,split; province_overlap=2; tsr_overlap_rank=2/5; bsr_source_count=1,	resources = { 		steel = 50 #was 21 #was 35 was 59 # was: 100 		aluminium = 14 # was: 24 		coal = 14 # initial distirbution / 660 total 	}
+42,STATE_42,1519,STATE_1519,split,1.000,split; province_overlap=2; tsr_overlap_rank=3/5; bsr_source_count=1,	resources = { 		steel = 50 #was 21 #was 35 was 59 # was: 100 		aluminium = 14 # was: 24 		coal = 14 # initial distirbution / 660 total 	}
+42,STATE_42,1350,STATE_1350,split,1.000,split; province_overlap=1; tsr_overlap_rank=4/5; bsr_source_count=1,	resources = { 		steel = 50 #was 21 #was 35 was 59 # was: 100 		aluminium = 14 # was: 24 		coal = 14 # initial distirbution / 660 total 	}
+42,STATE_42,792,STATE_792,merge,0.333,split+merge; province_overlap=1; tsr_overlap_rank=5/5; bsr_source_count=2,	resources = { 		steel = 50 #was 21 #was 35 was 59 # was: 100 		aluminium = 14 # was: 24 		coal = 14 # initial distirbution / 660 total 	}
+43,Northern Hungary,1378,Northern Hungary,split,1.000,split; province_overlap=5; tsr_overlap_rank=1/2; bsr_source_count=1,	resources = { 		steel = 6 #was 3 was: 4 		aluminium = 40 # was: 194 		coal = 4 #initial distribution 	}
+43,Northern Hungary,43,Northern Hungary,split,1.000,split; province_overlap=4; tsr_overlap_rank=2/2; bsr_source_count=1,	resources = { 		steel = 6 #was 3 was: 4 		aluminium = 40 # was: 194 		coal = 4 #initial distribution 	}
+44,STATE_44,44,STATE_44,split,0.600,split; province_overlap=3; tsr_overlap_rank=1/3; bsr_source_count=1,	resources = { 		aluminium = 1.000 		chromium = 1.000 		oil = 4.000 	}
+44,STATE_44,1045,STATE_1045,merge,0.667,split+merge; province_overlap=2; tsr_overlap_rank=2/3; bsr_source_count=2,	resources = { 		aluminium = 1.000 		chromium = 1.000 		oil = 4.000 	}
+44,STATE_44,1510,STATE_1510,split,1.000,split; province_overlap=1; tsr_overlap_rank=3/3; bsr_source_count=1,	resources = { 		aluminium = 1.000 		chromium = 1.000 		oil = 4.000 	}
+46,Muntenia,46,STATE_46,split,1.000,split; province_overlap=9; tsr_overlap_rank=1/3; bsr_source_count=1,	resources = { 		oil = 44 # was: 70 	}
+46,Muntenia,833,STATE_833,merge,0.667,split+merge; province_overlap=4; tsr_overlap_rank=2/3; bsr_source_count=2,	resources = { 		oil = 44 # was: 70 	}
+46,Muntenia,832,STATE_832,merge,0.250,split+merge; province_overlap=1; tsr_overlap_rank=3/3; bsr_source_count=2,	resources = { 		oil = 44 # was: 70 	}
+47,Thessaly,1453,STATE_1453,split,1.000,split; province_overlap=3; tsr_overlap_rank=1/6; bsr_source_count=1,	resources={ 		steel=3 # was: 4 		chromium=12 # was: 22 		aluminium=30 # was: 58 		tungsten = 10 # was: 20 	}
+47,Thessaly,1513,STATE_1513,split,0.667,split; province_overlap=2; tsr_overlap_rank=2/6; bsr_source_count=1,	resources={ 		steel=3 # was: 4 		chromium=12 # was: 22 		aluminium=30 # was: 58 		tungsten = 10 # was: 20 	}
+47,Thessaly,47,STATE_47,split,1.000,split; province_overlap=1; tsr_overlap_rank=3/6; bsr_source_count=1,	resources={ 		steel=3 # was: 4 		chromium=12 # was: 22 		aluminium=30 # was: 58 		tungsten = 10 # was: 20 	}
+47,Thessaly,1601,STATE_1601,merge,0.500,split+merge; province_overlap=1; tsr_overlap_rank=4/6; bsr_source_count=2,	resources={ 		steel=3 # was: 4 		chromium=12 # was: 22 		aluminium=30 # was: 58 		tungsten = 10 # was: 20 	}
+47,Thessaly,185,STATE_185,merge,0.200,split+merge; province_overlap=1; tsr_overlap_rank=5/6; bsr_source_count=2,	resources={ 		steel=3 # was: 4 		chromium=12 # was: 22 		aluminium=30 # was: 58 		tungsten = 10 # was: 20 	}
+47,Thessaly,978,STATE_978,split,1.000,split; province_overlap=1; tsr_overlap_rank=6/6; bsr_source_count=1,	resources={ 		steel=3 # was: 4 		chromium=12 # was: 22 		aluminium=30 # was: 58 		tungsten = 10 # was: 20 	}
+48,STATE_48,48,STATE_48,split,1.000,split; province_overlap=5; tsr_overlap_rank=1/3; bsr_source_count=1,	resources={ 		aluminium = 2 		coal = 1 #initial distribution 	}
+48,STATE_48,1103,STATE_1103,split,1.000,split; province_overlap=2; tsr_overlap_rank=2/3; bsr_source_count=1,	resources={ 		aluminium = 2 		coal = 1 #initial distribution 	}
+48,STATE_48,1179,STATE_1179,split,1.000,split; province_overlap=1; tsr_overlap_rank=3/3; bsr_source_count=1,	resources={ 		aluminium = 2 		coal = 1 #initial distribution 	}
+49,Ankara,49,STATE_49,split,1.000,split; province_overlap=5; tsr_overlap_rank=1/4; bsr_source_count=1,	resources={ 		chromium=11 # was: 16 		steel = 28 	}
+49,Ankara,953,STATE_953,split,1.000,split; province_overlap=4; tsr_overlap_rank=2/4; bsr_source_count=1,	resources={ 		chromium=11 # was: 16 		steel = 28 	}
+49,Ankara,956,STATE_956,merge,0.143,split+merge; province_overlap=1; tsr_overlap_rank=3/4; bsr_source_count=4,	resources={ 		chromium=11 # was: 16 		steel = 28 	}
+49,Ankara,1663,STATE_1663,merge,0.200,split+merge; province_overlap=1; tsr_overlap_rank=4/4; bsr_source_count=3,	resources={ 		chromium=11 # was: 16 		steel = 28 	}
+50,Württemberg,1764,STATE_1764,split,1.000,split; province_overlap=3; tsr_overlap_rank=1/6; bsr_source_count=1, 	resources = { 		aluminium = 6 # was: 10.000 	}
+50,Württemberg,50,STATE_50,split,1.000,split; province_overlap=3; tsr_overlap_rank=2/6; bsr_source_count=1, 	resources = { 		aluminium = 6 # was: 10.000 	}
+50,Württemberg,1447,STATE_1447,split,1.000,split; province_overlap=2; tsr_overlap_rank=3/6; bsr_source_count=1, 	resources = { 		aluminium = 6 # was: 10.000 	}
+50,Württemberg,1954,STATE_1954,split,0.500,split; province_overlap=1; tsr_overlap_rank=4/6; bsr_source_count=1, 	resources = { 		aluminium = 6 # was: 10.000 	}
+50,Württemberg,1415,STATE_1415,split,1.000,split; province_overlap=1; tsr_overlap_rank=5/6; bsr_source_count=1, 	resources = { 		aluminium = 6 # was: 10.000 	}
+50,Württemberg,799,STATE_799,merge,0.500,split+merge; province_overlap=1; tsr_overlap_rank=6/6; bsr_source_count=2, 	resources = { 		aluminium = 6 # was: 10.000 	}
+51,STATE_51,1335,STATE_1335,split,0.800,split; province_overlap=4; tsr_overlap_rank=1/5; bsr_source_count=1,	resources = { 		steel = 35  #was 18 #was 30 was: 54 		coal = 60 # initial distribution / 660 total 	}
+51,STATE_51,788,STATE_788,split,1.000,split; province_overlap=2; tsr_overlap_rank=2/5; bsr_source_count=1,	resources = { 		steel = 35  #was 18 #was 30 was: 54 		coal = 60 # initial distribution / 660 total 	}
+51,STATE_51,1062,STATE_1062,split,1.000,split; province_overlap=1; tsr_overlap_rank=3/5; bsr_source_count=1,	resources = { 		steel = 35  #was 18 #was 30 was: 54 		coal = 60 # initial distribution / 660 total 	}
+51,STATE_51,1334,STATE_1334,split,1.000,split; province_overlap=1; tsr_overlap_rank=4/5; bsr_source_count=1,	resources = { 		steel = 35  #was 18 #was 30 was: 54 		coal = 60 # initial distribution / 660 total 	}
+51,STATE_51,51,STATE_51,split,1.000,split; province_overlap=1; tsr_overlap_rank=5/5; bsr_source_count=1,	resources = { 		steel = 35  #was 18 #was 30 was: 54 		coal = 60 # initial distribution / 660 total 	}
+52,STATE_52,52,STATE_52,split,1.000,split; province_overlap=9; tsr_overlap_rank=1/4; bsr_source_count=1,	resources = { 		aluminium = 18 # was: 30 	}
+52,STATE_52,1472,STATE_1472,split,1.000,split; province_overlap=1; tsr_overlap_rank=2/4; bsr_source_count=1,	resources = { 		aluminium = 18 # was: 30 	}
+52,STATE_52,798,STATE_798,split,1.000,split; province_overlap=1; tsr_overlap_rank=3/4; bsr_source_count=1,	resources = { 		aluminium = 18 # was: 30 	}
+52,STATE_52,54,STATE_54,merge,0.125,split+merge; province_overlap=1; tsr_overlap_rank=4/4; bsr_source_count=2,	resources = { 		aluminium = 18 # was: 30 	}
+54,STATE_54,54,STATE_54,merge,0.875,split+merge; province_overlap=7; tsr_overlap_rank=1/3; bsr_source_count=2, 	resources = {  		coal = 8 #initial distribution 	}
+54,STATE_54,1866,STATE_1866,split,1.000,split; province_overlap=4; tsr_overlap_rank=2/3; bsr_source_count=1, 	resources = {  		coal = 8 #initial distribution 	}
+54,STATE_54,1964,STATE_1964,split,1.000,split; province_overlap=1; tsr_overlap_rank=3/3; bsr_source_count=1, 	resources = {  		coal = 8 #initial distribution 	}
+55,STATE_55,55,STATE_55,split,1.000,split; province_overlap=7; tsr_overlap_rank=1/6; bsr_source_count=1, 	resources = { 		coal = 8 # initial distribution 	}
+55,STATE_55,1432,STATE_1432,split,1.000,split; province_overlap=2; tsr_overlap_rank=2/6; bsr_source_count=1, 	resources = { 		coal = 8 # initial distribution 	}
+55,STATE_55,790,STATE_790,split,1.000,split; province_overlap=2; tsr_overlap_rank=3/6; bsr_source_count=1, 	resources = { 		coal = 8 # initial distribution 	}
+55,STATE_55,792,STATE_792,merge,0.333,split+merge; province_overlap=1; tsr_overlap_rank=4/6; bsr_source_count=2, 	resources = { 		coal = 8 # initial distribution 	}
+55,STATE_55,1767,STATE_1767,split,1.000,split; province_overlap=1; tsr_overlap_rank=5/6; bsr_source_count=1, 	resources = { 		coal = 8 # initial distribution 	}
+55,STATE_55,791,STATE_791,merge,0.500,split+merge; province_overlap=1; tsr_overlap_rank=6/6; bsr_source_count=2, 	resources = { 		coal = 8 # initial distribution 	}
+59,STATE_59,1473,STATE_1473,split,1.000,split; province_overlap=11; tsr_overlap_rank=1/4; bsr_source_count=1,	resources = { 		oil = 2 # was: 4 	}
+59,STATE_59,1805,STATE_1805,split,1.000,split; province_overlap=4; tsr_overlap_rank=2/4; bsr_source_count=1,	resources = { 		oil = 2 # was: 4 	}
+59,STATE_59,793,STATE_793,merge,0.333,split+merge; province_overlap=2; tsr_overlap_rank=3/4; bsr_source_count=2,	resources = { 		oil = 2 # was: 4 	}
+59,STATE_59,1878,STATE_1878,merge,0.500,split+merge; province_overlap=1; tsr_overlap_rank=4/4; bsr_source_count=2,	resources = { 		oil = 2 # was: 4 	}
+60,STATE_60,60,STATE_60,split,1.000,split; province_overlap=6; tsr_overlap_rank=1/2; bsr_source_count=1,	resources = { 		steel = 9 # was 5 was: 13 was: 20 		chromium = 3 # was: 4 		tungsten = 3 # was: 4 		coal = 8 #initial distribution 	}
+60,STATE_60,1823,STATE_1823,split,1.000,split; province_overlap=3; tsr_overlap_rank=2/2; bsr_source_count=1,	resources = { 		steel = 9 # was 5 was: 13 was: 20 		chromium = 3 # was: 4 		tungsten = 3 # was: 4 		coal = 8 #initial distribution 	}
+63,STATE_63,63,STATE_63,split,1.000,split; province_overlap=2; tsr_overlap_rank=1/9; bsr_source_count=1,	resources = { 		steel = 7 #was 8  #was 16 was: 23 # was: 36 		aluminium = 6 # was: 8 was: 12 	}
+63,STATE_63,1333,STATE_1333,split,1.000,split; province_overlap=2; tsr_overlap_rank=2/9; bsr_source_count=1,	resources = { 		steel = 7 #was 8  #was 16 was: 23 # was: 36 		aluminium = 6 # was: 8 was: 12 	}
+63,STATE_63,1701,STATE_1701,split,1.000,split; province_overlap=2; tsr_overlap_rank=3/9; bsr_source_count=1,	resources = { 		steel = 7 #was 8  #was 16 was: 23 # was: 36 		aluminium = 6 # was: 8 was: 12 	}
+63,STATE_63,1508,STATE_1508,split,1.000,split; province_overlap=2; tsr_overlap_rank=4/9; bsr_source_count=1,	resources = { 		steel = 7 #was 8  #was 16 was: 23 # was: 36 		aluminium = 6 # was: 8 was: 12 	}
+63,STATE_63,1112,STATE_1112,split,1.000,split; province_overlap=2; tsr_overlap_rank=5/9; bsr_source_count=1,	resources = { 		steel = 7 #was 8  #was 16 was: 23 # was: 36 		aluminium = 6 # was: 8 was: 12 	}
+63,STATE_63,1655,STATE_1655,split,1.000,split; province_overlap=1; tsr_overlap_rank=6/9; bsr_source_count=1,	resources = { 		steel = 7 #was 8  #was 16 was: 23 # was: 36 		aluminium = 6 # was: 8 was: 12 	}
+63,STATE_63,797,STATE_797,split,1.000,split; province_overlap=1; tsr_overlap_rank=7/9; bsr_source_count=1,	resources = { 		steel = 7 #was 8  #was 16 was: 23 # was: 36 		aluminium = 6 # was: 8 was: 12 	}
+63,STATE_63,2014,STATE_2014,split,1.000,split; province_overlap=1; tsr_overlap_rank=8/9; bsr_source_count=1,	resources = { 		steel = 7 #was 8  #was 16 was: 23 # was: 36 		aluminium = 6 # was: 8 was: 12 	}
+63,STATE_63,1700,STATE_1700,split,1.000,split; province_overlap=1; tsr_overlap_rank=9/9; bsr_source_count=1,	resources = { 		steel = 7 #was 8  #was 16 was: 23 # was: 36 		aluminium = 6 # was: 8 was: 12 	}
+65,STATE_65,795,STATE_795,split,1.000,split; province_overlap=5; tsr_overlap_rank=1/6; bsr_source_count=1,	resources = { 		steel = 41 #was 12 was 32 #was 53 # was: 90 		coal = 13 # initial distribution 	}
+65,STATE_65,65,STATE_65,split,1.000,split; province_overlap=2; tsr_overlap_rank=2/6; bsr_source_count=1,	resources = { 		steel = 41 #was 12 was 32 #was 53 # was: 90 		coal = 13 # initial distribution 	}
+65,STATE_65,1611,STATE_1611,split,1.000,split; province_overlap=1; tsr_overlap_rank=3/6; bsr_source_count=1,	resources = { 		steel = 41 #was 12 was 32 #was 53 # was: 90 		coal = 13 # initial distribution 	}
+65,STATE_65,1926,STATE_1926,split,1.000,split; province_overlap=1; tsr_overlap_rank=4/6; bsr_source_count=1,	resources = { 		steel = 41 #was 12 was 32 #was 53 # was: 90 		coal = 13 # initial distribution 	}
+65,STATE_65,2036,STATE_2036,split,1.000,split; province_overlap=1; tsr_overlap_rank=5/6; bsr_source_count=1,	resources = { 		steel = 41 #was 12 was 32 #was 53 # was: 90 		coal = 13 # initial distribution 	}
+65,STATE_65,1328,STATE_1328,split,1.000,split; province_overlap=1; tsr_overlap_rank=6/6; bsr_source_count=1,	resources = { 		steel = 41 #was 12 was 32 #was 53 # was: 90 		coal = 13 # initial distribution 	}
+66,STATE_66,1705,STATE_1705,split,1.000,split; province_overlap=3; tsr_overlap_rank=1/7; bsr_source_count=1, 	resources = { 		steel = 10 #was 32 #was 50 # was: 110 		aluminium = 16 # was: 38 		coal = 12 # initial distribution / 660 total 	}
+66,STATE_66,66,STATE_66,split,0.667,split; province_overlap=2; tsr_overlap_rank=2/7; bsr_source_count=1, 	resources = { 		steel = 10 #was 32 #was 50 # was: 110 		aluminium = 16 # was: 38 		coal = 12 # initial distribution / 660 total 	}
+66,STATE_66,1617,STATE_1617,split,1.000,split; province_overlap=2; tsr_overlap_rank=3/7; bsr_source_count=1, 	resources = { 		steel = 10 #was 32 #was 50 # was: 110 		aluminium = 16 # was: 38 		coal = 12 # initial distribution / 660 total 	}
+66,STATE_66,801,STATE_801,split,1.000,split; province_overlap=2; tsr_overlap_rank=4/7; bsr_source_count=1, 	resources = { 		steel = 10 #was 32 #was 50 # was: 110 		aluminium = 16 # was: 38 		coal = 12 # initial distribution / 660 total 	}
+66,STATE_66,1706,STATE_1706,split,1.000,split; province_overlap=1; tsr_overlap_rank=5/7; bsr_source_count=1, 	resources = { 		steel = 10 #was 32 #was 50 # was: 110 		aluminium = 16 # was: 38 		coal = 12 # initial distribution / 660 total 	}
+66,STATE_66,802,STATE_802,split,1.000,split; province_overlap=1; tsr_overlap_rank=6/7; bsr_source_count=1, 	resources = { 		steel = 10 #was 32 #was 50 # was: 110 		aluminium = 16 # was: 38 		coal = 12 # initial distribution / 660 total 	}
+66,STATE_66,1905,STATE_1905,split,1.000,split; province_overlap=1; tsr_overlap_rank=7/7; bsr_source_count=1, 	resources = { 		steel = 10 #was 32 #was 50 # was: 110 		aluminium = 16 # was: 38 		coal = 12 # initial distribution / 660 total 	}
+67,STATE_67,1347,STATE_1347,split,1.000,split; province_overlap=1; tsr_overlap_rank=1/5; bsr_source_count=1,	resources = { 		steel = 8 #was 11 #was: 11 was 19 # was: 60 		aluminium = 6 # was: 20 		coal = 25 # initial distribution / 660 total 	}
+67,STATE_67,1275,STATE_1275,split,1.000,split; province_overlap=1; tsr_overlap_rank=2/5; bsr_source_count=1,	resources = { 		steel = 8 #was 11 #was: 11 was 19 # was: 60 		aluminium = 6 # was: 20 		coal = 25 # initial distribution / 660 total 	}
+67,STATE_67,1348,STATE_1348,split,1.000,split; province_overlap=1; tsr_overlap_rank=3/5; bsr_source_count=1,	resources = { 		steel = 8 #was 11 #was: 11 was 19 # was: 60 		aluminium = 6 # was: 20 		coal = 25 # initial distribution / 660 total 	}
+67,STATE_67,803,STATE_803,split,1.000,split; province_overlap=1; tsr_overlap_rank=4/5; bsr_source_count=1,	resources = { 		steel = 8 #was 11 #was: 11 was 19 # was: 60 		aluminium = 6 # was: 20 		coal = 25 # initial distribution / 660 total 	}
+67,STATE_67,67,STATE_67,split,1.000,split; province_overlap=1; tsr_overlap_rank=5/5; bsr_source_count=1,	resources = { 		steel = 8 #was 11 #was: 11 was 19 # was: 60 		aluminium = 6 # was: 20 		coal = 25 # initial distribution / 660 total 	}
+68,STATE_68,68,STATE_68,split,1.000,split; province_overlap=2; tsr_overlap_rank=1/6; bsr_source_count=1,	resources = { 		aluminium = 15 # was: 24 	}
+68,STATE_68,2035,STATE_2035,split,1.000,split; province_overlap=1; tsr_overlap_rank=2/6; bsr_source_count=1,	resources = { 		aluminium = 15 # was: 24 	}
+68,STATE_68,1702,STATE_1702,split,1.000,split; province_overlap=1; tsr_overlap_rank=3/6; bsr_source_count=1,	resources = { 		aluminium = 15 # was: 24 	}
+68,STATE_68,2032,STATE_2032,split,1.000,split; province_overlap=1; tsr_overlap_rank=4/6; bsr_source_count=1,	resources = { 		aluminium = 15 # was: 24 	}
+68,STATE_68,1332,STATE_1332,split,1.000,split; province_overlap=1; tsr_overlap_rank=5/6; bsr_source_count=1,	resources = { 		aluminium = 15 # was: 24 	}
+68,STATE_68,2034,STATE_2034,split,1.000,split; province_overlap=1; tsr_overlap_rank=6/6; bsr_source_count=1,	resources = { 		aluminium = 15 # was: 24 	}
+69,STATE_69,69,STATE_69,split,1.000,split; province_overlap=6; tsr_overlap_rank=1/2; bsr_source_count=1,	 	resources = { 		steel = 4 # was: 8 	}
+69,STATE_69,887,STATE_887,split,1.000,split; province_overlap=3; tsr_overlap_rank=2/2; bsr_source_count=1,	 	resources = { 		steel = 4 # was: 8 	}
+70,STATE_70,1729,STATE_1729,merge,0.714,split+merge; province_overlap=5; tsr_overlap_rank=1/3; bsr_source_count=2,	 	resources = { 		tungsten = 1 # was: 2 	}
+70,STATE_70,889,STATE_889,split,0.500,split; province_overlap=1; tsr_overlap_rank=2/3; bsr_source_count=1,	 	resources = { 		tungsten = 1 # was: 2 	}
+70,STATE_70,70,STATE_70,split,1.000,split; province_overlap=1; tsr_overlap_rank=3/3; bsr_source_count=1,	 	resources = { 		tungsten = 1 # was: 2 	}
+71,STATE_71,1729,STATE_1729,merge,0.429,split+merge; province_overlap=3; tsr_overlap_rank=1/3; bsr_source_count=2,	 	resources = { 		coal = 2 # initial distribution / 60 total 	}
+71,STATE_71,71,STATE_71,split,1.000,split; province_overlap=3; tsr_overlap_rank=2/3; bsr_source_count=1,	 	resources = { 		coal = 2 # initial distribution / 60 total 	}
+71,STATE_71,1325,STATE_1325,split,1.000,split; province_overlap=1; tsr_overlap_rank=3/3; bsr_source_count=1,	 	resources = { 		coal = 2 # initial distribution / 60 total 	}
+72,STATE_72,72,STATE_72,split,1.000,split; province_overlap=1; tsr_overlap_rank=1/2; bsr_source_count=1,	 	resources = { 		coal = 7 # initial distribution / 60 total 	}
+72,STATE_72,1803,STATE_1803,split,1.000,split; province_overlap=1; tsr_overlap_rank=2/2; bsr_source_count=1,	 	resources = { 		coal = 7 # initial distribution / 60 total 	}
+74,STATE_74,74,STATE_74,split,1.000,split; province_overlap=3; tsr_overlap_rank=1/2; bsr_source_count=1,	 	resources = { 		coal = 12 # initial distribution / 60 total 	}
+74,STATE_74,1710,STATE_1710,merge,0.500,split+merge; province_overlap=1; tsr_overlap_rank=2/2; bsr_source_count=2,	 	resources = { 		coal = 12 # initial distribution / 60 total 	}
+79,STATE_79,79,STATE_79,split,1.000,split; province_overlap=12; tsr_overlap_rank=1/3; bsr_source_count=1,	 	resources = { 		coal = 1 # initial distribution 	}
+79,STATE_79,833,STATE_833,merge,0.333,split+merge; province_overlap=2; tsr_overlap_rank=2/3; bsr_source_count=2,	 	resources = { 		coal = 1 # initial distribution 	}
+79,STATE_79,830,STATE_830,split,1.000,split; province_overlap=2; tsr_overlap_rank=3/3; bsr_source_count=1,	 	resources = { 		coal = 1 # initial distribution 	}
+88,STATE_88,1558,STATE_1558,split,1.000,split; province_overlap=4; tsr_overlap_rank=1/9; bsr_source_count=1,	resources={ 		steel=5.000 		oil=3.000 	}
+88,STATE_88,1737,STATE_1737,split,1.000,split; province_overlap=2; tsr_overlap_rank=2/9; bsr_source_count=1,	resources={ 		steel=5.000 		oil=3.000 	}
+88,STATE_88,1599,STATE_1599,split,1.000,split; province_overlap=2; tsr_overlap_rank=3/9; bsr_source_count=1,	resources={ 		steel=5.000 		oil=3.000 	}
+88,STATE_88,88,STATE_88,split,0.250,split; province_overlap=1; tsr_overlap_rank=4/9; bsr_source_count=1,	resources={ 		steel=5.000 		oil=3.000 	}
+88,STATE_88,1181,STATE_1181,split,1.000,split; province_overlap=1; tsr_overlap_rank=5/9; bsr_source_count=1,	resources={ 		steel=5.000 		oil=3.000 	}
+88,STATE_88,996,STATE_996,split,0.500,split; province_overlap=1; tsr_overlap_rank=6/9; bsr_source_count=1,	resources={ 		steel=5.000 		oil=3.000 	}
+88,STATE_88,1374,STATE_1374,split,1.000,split; province_overlap=1; tsr_overlap_rank=7/9; bsr_source_count=1,	resources={ 		steel=5.000 		oil=3.000 	}
+88,STATE_88,1588,STATE_1588,split,1.000,split; province_overlap=1; tsr_overlap_rank=8/9; bsr_source_count=1,	resources={ 		steel=5.000 		oil=3.000 	}
+88,STATE_88,863,STATE_863,split,1.000,split; province_overlap=1; tsr_overlap_rank=9/9; bsr_source_count=1,	resources={ 		steel=5.000 		oil=3.000 	}
+90,Kielce,90,STATE_90,merge,0.714,split+merge; province_overlap=5; tsr_overlap_rank=1/2; bsr_source_count=2,	 	resources={ 		steel=8 # was: 12 	}
+90,Kielce,10,STATE_10,merge,0.333,split+merge; province_overlap=2; tsr_overlap_rank=2/2; bsr_source_count=3,	 	resources={ 		steel=8 # was: 12 	}
+92,STATE_92,92,STATE_92,merge,0.500,split+merge; province_overlap=3; tsr_overlap_rank=1/4; bsr_source_count=2, 	resources = { 		coal = 2 # initial distribution 	}
+92,STATE_92,1712,STATE_1712,split,1.000,split; province_overlap=3; tsr_overlap_rank=2/4; bsr_source_count=1, 	resources = { 		coal = 2 # initial distribution 	}
+92,STATE_92,1406,STATE_1406,split,0.500,split; province_overlap=2; tsr_overlap_rank=3/4; bsr_source_count=1, 	resources = { 		coal = 2 # initial distribution 	}
+92,STATE_92,1589,STATE_1589,split,1.000,split; province_overlap=1; tsr_overlap_rank=4/4; bsr_source_count=1, 	resources = { 		coal = 2 # initial distribution 	}
+101,STATE_101,101,STATE_101,split,0.800,split; province_overlap=4; tsr_overlap_rank=1/2; bsr_source_count=1,	resources = { 		aluminium = 10.000 		coal = 1 #initial distribution 	}
+101,STATE_101,1594,STATE_1594,split,1.000,split; province_overlap=1; tsr_overlap_rank=2/2; bsr_source_count=1,	resources = { 		aluminium = 10.000 		coal = 1 #initial distribution 	}
+104,STATE_104,1048,STATE_1048,split,1.000,split; province_overlap=4; tsr_overlap_rank=1/8; bsr_source_count=1,	 	resources={ 		aluminium=7 # was: 10 		coal = 2 # initial distribution 	}
+104,STATE_104,104,STATE_104,split,1.000,split; province_overlap=3; tsr_overlap_rank=2/8; bsr_source_count=1,	 	resources={ 		aluminium=7 # was: 10 		coal = 2 # initial distribution 	}
+104,STATE_104,1421,STATE_1421,split,1.000,split; province_overlap=3; tsr_overlap_rank=3/8; bsr_source_count=1,	 	resources={ 		aluminium=7 # was: 10 		coal = 2 # initial distribution 	}
+104,STATE_104,1047,STATE_1047,split,1.000,split; province_overlap=3; tsr_overlap_rank=4/8; bsr_source_count=1,	 	resources={ 		aluminium=7 # was: 10 		coal = 2 # initial distribution 	}
+104,STATE_104,2004,STATE_2004,split,1.000,split; province_overlap=1; tsr_overlap_rank=5/8; bsr_source_count=1,	 	resources={ 		aluminium=7 # was: 10 		coal = 2 # initial distribution 	}
+104,STATE_104,2003,STATE_2003,merge,0.500,split+merge; province_overlap=1; tsr_overlap_rank=6/8; bsr_source_count=2,	 	resources={ 		aluminium=7 # was: 10 		coal = 2 # initial distribution 	}
+104,STATE_104,1404,STATE_1404,split,1.000,split; province_overlap=1; tsr_overlap_rank=7/8; bsr_source_count=1,	 	resources={ 		aluminium=7 # was: 10 		coal = 2 # initial distribution 	}
+104,STATE_104,2011,STATE_2011,split,1.000,split; province_overlap=1; tsr_overlap_rank=8/8; bsr_source_count=1,	 	resources={ 		aluminium=7 # was: 10 		coal = 2 # initial distribution 	}
+105,STATE_105,1189,STATE_1189,split,1.000,split; province_overlap=2; tsr_overlap_rank=1/3; bsr_source_count=1,	resources={ 		chromium=20.000 		aluminium=70.000 	}
+105,STATE_105,105,STATE_105,split,1.000,split; province_overlap=2; tsr_overlap_rank=2/3; bsr_source_count=1,	resources={ 		chromium=20.000 		aluminium=70.000 	}
+105,STATE_105,940,STATE_940,split,1.000,split; province_overlap=1; tsr_overlap_rank=3/3; bsr_source_count=1,	resources={ 		chromium=20.000 		aluminium=70.000 	}
+106,STATE_106,106,STATE_106,split,1.000,split; province_overlap=4; tsr_overlap_rank=1/3; bsr_source_count=1,	resources = { 		chromium = 50.000 		aluminium = 10.000 	}
+106,STATE_106,1204,STATE_1204,split,0.500,split; province_overlap=1; tsr_overlap_rank=2/3; bsr_source_count=1,	resources = { 		chromium = 50.000 		aluminium = 10.000 	}
+106,STATE_106,1230,STATE_1230,merge,0.500,split+merge; province_overlap=1; tsr_overlap_rank=3/3; bsr_source_count=2,	resources = { 		chromium = 50.000 		aluminium = 10.000 	}
+107,STATE_107,107,STATE_107,merge,0.875,split+merge; province_overlap=7; tsr_overlap_rank=1/2; bsr_source_count=2, 	resources = { 		coal = 4 # initial distribution 	}
+107,STATE_107,872,STATE_872,merge,0.333,split+merge; province_overlap=1; tsr_overlap_rank=2/2; bsr_source_count=2, 	resources = { 		coal = 4 # initial distribution 	}
+108,STATE_108,107,STATE_107,merge,0.300,split+merge; province_overlap=3; tsr_overlap_rank=1/6; bsr_source_count=2,	resources={ 		steel=3.000 	}
+108,STATE_108,872,STATE_872,merge,0.667,split+merge; province_overlap=2; tsr_overlap_rank=2/6; bsr_source_count=2,	resources={ 		steel=3.000 	}
+108,STATE_108,1403,STATE_1403,split,1.000,split; province_overlap=2; tsr_overlap_rank=3/6; bsr_source_count=1,	resources={ 		steel=3.000 	}
+108,STATE_108,878,STATE_878,merge,0.500,split+merge; province_overlap=1; tsr_overlap_rank=4/6; bsr_source_count=2,	resources={ 		steel=3.000 	}
+108,STATE_108,1190,STATE_1190,split,1.000,split; province_overlap=1; tsr_overlap_rank=5/6; bsr_source_count=1,	resources={ 		steel=3.000 	}
+108,STATE_108,108,STATE_108,merge,0.333,split+merge; province_overlap=1; tsr_overlap_rank=6/6; bsr_source_count=2,	resources={ 		steel=3.000 	}
+109,Croatia,109,STATE_109,split,1.000,split; province_overlap=7; tsr_overlap_rank=1/4; bsr_source_count=1, 	resources = { 		coal = 1 #initial distribution 	}
+109,Croatia,937,STATE_937,split,1.000,split; province_overlap=2; tsr_overlap_rank=2/4; bsr_source_count=1, 	resources = { 		coal = 1 #initial distribution 	}
+109,Croatia,2012,STATE_2012,split,1.000,split; province_overlap=1; tsr_overlap_rank=3/4; bsr_source_count=1, 	resources = { 		coal = 1 #initial distribution 	}
+109,Croatia,869,STATE_869,split,1.000,split; province_overlap=1; tsr_overlap_rank=4/4; bsr_source_count=1, 	resources = { 		coal = 1 #initial distribution 	}
+113,Leinster,113,Leinster,split,1.000,split; province_overlap=7; tsr_overlap_rank=1/2; bsr_source_count=1,	resources={ 		aluminium=0 # was: 2 		steel=2 # was: 3 		coal = 1 # initial distribution 	}
+113,Leinster,1396,STATE_1396,split,1.000,split; province_overlap=1; tsr_overlap_rank=2/2; bsr_source_count=1,	resources={ 		aluminium=0 # was: 2 		steel=2 # was: 3 		coal = 1 # initial distribution 	}
+117,Campania,117,STATE_117,merge,0.833,split+merge; province_overlap=5; tsr_overlap_rank=1/2; bsr_source_count=2,	resources = { 		aluminium = 10 # was: 16 (MM: This WAS before my time) 		steel = 15 # was: 24 (MM: This WAS before my time) 	}
+117,Campania,991,STATE_991,split,1.000,split; province_overlap=4; tsr_overlap_rank=2/2; bsr_source_count=1,	resources = { 		aluminium = 10 # was: 16 (MM: This WAS before my time) 		steel = 15 # was: 24 (MM: This WAS before my time) 	}
+119,STATE_119,1397,STATE_1397,split,1.000,split; province_overlap=2; tsr_overlap_rank=1/4; bsr_source_count=1,	 	resources={ 		aluminium=2 		coal = 2 #initial distribution 	}
+119,STATE_119,119,STATE_119,split,1.000,split; province_overlap=2; tsr_overlap_rank=2/4; bsr_source_count=1,	 	resources={ 		aluminium=2 		coal = 2 #initial distribution 	}
+119,STATE_119,1398,STATE_1398,split,1.000,split; province_overlap=1; tsr_overlap_rank=3/4; bsr_source_count=1,	 	resources={ 		aluminium=2 		coal = 2 #initial distribution 	}
+119,STATE_119,1399,STATE_1399,split,1.000,split; province_overlap=1; tsr_overlap_rank=4/4; bsr_source_count=1,	 	resources={ 		aluminium=2 		coal = 2 #initial distribution 	}
+127,Sussex,127,Sussex,split,1.000,split; province_overlap=5; tsr_overlap_rank=1/2; bsr_source_count=1, 	resources = { 		coal = 6 #initial distribution 	}
+127,Sussex,1422,STATE_1422,split,1.000,split; province_overlap=1; tsr_overlap_rank=2/2; bsr_source_count=1, 	resources = { 		coal = 6 #initial distribution 	}
+128,STATE_128,1401,STATE_1401,merge,0.600,split+merge; province_overlap=3; tsr_overlap_rank=1/3; bsr_source_count=3,	resources={ 		steel=27 # was: 48 		coal = 13 # initial distribution 	}
+128,STATE_128,128,STATE_128,split,1.000,split; province_overlap=3; tsr_overlap_rank=2/3; bsr_source_count=1,	resources={ 		steel=27 # was: 48 		coal = 13 # initial distribution 	}
+128,STATE_128,132,Lancashire,merge,0.250,split+merge; province_overlap=1; tsr_overlap_rank=3/3; bsr_source_count=2,	resources={ 		steel=27 # was: 48 		coal = 13 # initial distribution 	}
+129,STATE_129,129,STATE_129,split,1.000,split; province_overlap=4; tsr_overlap_rank=1/2; bsr_source_count=1,	 	resources={ 		steel = 11 # was: 20 		coal = 8 #initial distribution 	}
+129,STATE_129,130,STATE_130,merge,0.429,split+merge; province_overlap=3; tsr_overlap_rank=2/2; bsr_source_count=2,	 	resources={ 		steel = 11 # was: 20 		coal = 8 #initial distribution 	}
+130,STATE_130,130,STATE_130,merge,0.667,split+merge; province_overlap=6; tsr_overlap_rank=1/2; bsr_source_count=2,	 	resources={ 		steel = 71 # was: 120 		coal = 51 # initial distribution 	}
+130,STATE_130,1708,STATE_1708,split,1.000,split; province_overlap=3; tsr_overlap_rank=2/2; bsr_source_count=1,	 	resources={ 		steel = 71 # was: 120 		coal = 51 # initial distribution 	}
+132,Lancashire,132,Lancashire,merge,0.750,split+merge; province_overlap=3; tsr_overlap_rank=1/2; bsr_source_count=2,	 	resources={ 		steel = 31 # was: 56 		aluminium = 2 # was: 4 		coal = 33 #initial distribution 	}
+132,Lancashire,1401,STATE_1401,merge,0.250,split+merge; province_overlap=1; tsr_overlap_rank=2/2; bsr_source_count=3,	 	resources={ 		steel = 31 # was: 56 		aluminium = 2 # was: 4 		coal = 33 #initial distribution 	}
+138,STATE_138,138,STATE_138,split,1.000,split; province_overlap=9; tsr_overlap_rank=1/2; bsr_source_count=1, 	resources = { 		coal = 2 #initial distribution 	}
+138,STATE_138,1006,STATE_1006,split,1.000,split; province_overlap=2; tsr_overlap_rank=2/2; bsr_source_count=1, 	resources = { 		coal = 2 #initial distribution 	}
+139,STATE_139,139,STATE_139,merge,1.000,merge; province_overlap=13; bsr_source_count=2,	resources = { 		steel = 4 	}
+140,Västra Götaland,140,STATE_140,split,1.000,split; province_overlap=7; tsr_overlap_rank=1/2; bsr_source_count=1,	resources = { 		steel = 2 		coal = 1 #initial distribution  	}
+140,Västra Götaland,1657,STATE_1657,merge,0.200,split+merge; province_overlap=2; tsr_overlap_rank=2/2; bsr_source_count=2,	resources = { 		steel = 2 		coal = 1 #initial distribution  	}
+141,Svealand,141,STATE_141,split,1.000,split; province_overlap=12; tsr_overlap_rank=1/2; bsr_source_count=1,	 	resources = { 		steel = 24 # was: 40 		aluminium = 2 # was: 4 	}
+141,Svealand,1007,STATE_1007,merge,0.778,split+merge; province_overlap=7; tsr_overlap_rank=2/2; bsr_source_count=2,	 	resources = { 		steel = 24 # was: 40 		aluminium = 2 # was: 4 	}
+142,STATE_142,142,STATE_142,merge,0.895,split+merge; province_overlap=17; tsr_overlap_rank=1/3; bsr_source_count=2,	 	resources={ 		chromium=1 # was: 2 		aluminium=10 # was: 22 	}
+142,STATE_142,1637,STATE_1637,merge,0.600,split+merge; province_overlap=6; tsr_overlap_rank=2/3; bsr_source_count=4,	 	resources={ 		chromium=1 # was: 2 		aluminium=10 # was: 22 	}
+142,STATE_142,143,STATE_143,merge,0.045,split+merge; province_overlap=1; tsr_overlap_rank=3/3; bsr_source_count=3,	 	resources={ 		chromium=1 # was: 2 		aluminium=10 # was: 22 	}
+144,Nordland,1014,STATE_1014,merge,0.875,split+merge; province_overlap=7; tsr_overlap_rank=1/2; bsr_source_count=2,	 	resources = { 		steel = 6 	}
+144,Nordland,1013,STATE_1013,merge,0.250,split+merge; province_overlap=1; tsr_overlap_rank=2/2; bsr_source_count=2,	 	resources = { 		steel = 6 	}
+148,LAPPI,148,STATE_148,split,1.000,split; province_overlap=15; tsr_overlap_rank=1/3; bsr_source_count=1,	 	resources = { 		steel = 7 # was: 8 		chromium = 2 # was: 2 	}
+148,LAPPI,1630,Savo / Tavastland / Tavastia,merge,0.533,split+merge; province_overlap=8; tsr_overlap_rank=2/3; bsr_source_count=2,	 	resources = { 		steel = 7 # was: 8 		chromium = 2 # was: 2 	}
+148,LAPPI,1361,STATE_1361,split,1.000,split; province_overlap=6; tsr_overlap_rank=3/3; bsr_source_count=1,	 	resources = { 		steel = 7 # was: 8 		chromium = 2 # was: 2 	}
+150,KUOPIO,1151,STATE_1151,merge,0.812,split+merge; province_overlap=13; tsr_overlap_rank=1/5; bsr_source_count=3,	 	resources={ 		steel=3 # was: 4 	}
+150,KUOPIO,150,Savo,merge,0.688,split+merge; province_overlap=11; tsr_overlap_rank=2/5; bsr_source_count=3,	 	resources={ 		steel=3 # was: 4 	}
+150,KUOPIO,1627,Savo / Tavastland / Tavastia,merge,0.091,split+merge; province_overlap=2; tsr_overlap_rank=3/5; bsr_source_count=6,	 	resources={ 		steel=3 # was: 4 	}
+150,KUOPIO,1628,Savo / Tavastland / Tavastia,merge,0.091,split+merge; province_overlap=1; tsr_overlap_rank=4/5; bsr_source_count=3,	 	resources={ 		steel=3 # was: 4 	}
+150,KUOPIO,1629,Savo / Tavastland / Tavastia,merge,0.111,split+merge; province_overlap=1; tsr_overlap_rank=5/5; bsr_source_count=2,	 	resources={ 		steel=3 # was: 4 	}
+151,STATE_151,894,STATE_894,split,1.000,split; province_overlap=2; tsr_overlap_rank=1/3; bsr_source_count=1,	resources={ 		aluminium=15 # was: 24 	}
+151,STATE_151,151,STATE_151,merge,0.500,split+merge; province_overlap=2; tsr_overlap_rank=2/3; bsr_source_count=2,	resources={ 		aluminium=15 # was: 24 	}
+151,STATE_151,893,STATE_893,merge,0.333,split+merge; province_overlap=1; tsr_overlap_rank=3/3; bsr_source_count=2,	resources={ 		aluminium=15 # was: 24 	}
+152,STATE_152,152,STATE_152,split,1.000,split; province_overlap=2; tsr_overlap_rank=1/4; bsr_source_count=1,	 	resources = { 		steel = 15 # was: 8 		aluminium = 1 # was: 1 		coal = 4 # initial distribution / 5 total 	}
+152,STATE_152,1865,STATE_1865,split,1.000,split; province_overlap=2; tsr_overlap_rank=2/4; bsr_source_count=1,	 	resources = { 		steel = 15 # was: 8 		aluminium = 1 # was: 1 		coal = 4 # initial distribution / 5 total 	}
+152,STATE_152,1149,STATE_1149,merge,0.167,split+merge; province_overlap=1; tsr_overlap_rank=3/4; bsr_source_count=2,	 	resources = { 		steel = 15 # was: 8 		aluminium = 1 # was: 1 		coal = 4 # initial distribution / 5 total 	}
+152,STATE_152,806,STATE_806,merge,0.333,split+merge; province_overlap=1; tsr_overlap_rank=4/4; bsr_source_count=2,	 	resources = { 		steel = 15 # was: 8 		aluminium = 1 # was: 1 		coal = 4 # initial distribution / 5 total 	}
+155,North Transdanubia,155,STATE_155,split,1.000,split; province_overlap=7; tsr_overlap_rank=1/3; bsr_source_count=1," 	resources = { 		aluminium = 40 # moved from Northern Hungary, then was 60 		coal = 1 # more coal is added through a focus 	}"
+155,North Transdanubia,1431,STATE_1431,merge,0.500,split+merge; province_overlap=1; tsr_overlap_rank=2/3; bsr_source_count=2," 	resources = { 		aluminium = 40 # moved from Northern Hungary, then was 60 		coal = 1 # more coal is added through a focus 	}"
+155,North Transdanubia,808,STATE_808,merge,0.250,split+merge; province_overlap=1; tsr_overlap_rank=3/3; bsr_source_count=2," 	resources = { 		aluminium = 40 # moved from Northern Hungary, then was 60 		coal = 1 # more coal is added through a focus 	}"
+158,STATE_158,988,STATE_988,split,0.833,split; province_overlap=5; tsr_overlap_rank=1/6; bsr_source_count=1,	resources = { 		steel = 24 # was: 40 		aluminium = 16 # was: 28 		chromium = 2 # was: 4 		tungsten = 1 # was: 2 		coal = 1 # initial distribution 	}
+158,STATE_158,158,STATE_158,split,1.000,split; province_overlap=4; tsr_overlap_rank=2/6; bsr_source_count=1,	resources = { 		steel = 24 # was: 40 		aluminium = 16 # was: 28 		chromium = 2 # was: 4 		tungsten = 1 # was: 2 		coal = 1 # initial distribution 	}
+158,STATE_158,989,STATE_989,split,1.000,split; province_overlap=3; tsr_overlap_rank=3/6; bsr_source_count=1,	resources = { 		steel = 24 # was: 40 		aluminium = 16 # was: 28 		chromium = 2 # was: 4 		tungsten = 1 # was: 2 		coal = 1 # initial distribution 	}
+158,STATE_158,1391,STATE_1391,split,1.000,split; province_overlap=2; tsr_overlap_rank=4/6; bsr_source_count=1,	resources = { 		steel = 24 # was: 40 		aluminium = 16 # was: 28 		chromium = 2 # was: 4 		tungsten = 1 # was: 2 		coal = 1 # initial distribution 	}
+158,STATE_158,1802,STATE_1802,split,1.000,split; province_overlap=2; tsr_overlap_rank=5/6; bsr_source_count=1,	resources = { 		steel = 24 # was: 40 		aluminium = 16 # was: 28 		chromium = 2 # was: 4 		tungsten = 1 # was: 2 		coal = 1 # initial distribution 	}
+158,STATE_158,1351,STATE_1351,split,1.000,split; province_overlap=1; tsr_overlap_rank=6/6; bsr_source_count=1,	resources = { 		steel = 24 # was: 40 		aluminium = 16 # was: 28 		chromium = 2 # was: 4 		tungsten = 1 # was: 2 		coal = 1 # initial distribution 	}
+160,STATE_160,160,STATE_160,split,1.000,split; province_overlap=4; tsr_overlap_rank=1/3; bsr_source_count=1,	resources = { 		steel=20 # was: 32.000 		aluminium=11 # was: 18.000 	}
+160,STATE_160,986,STATE_986,split,1.000,split; province_overlap=2; tsr_overlap_rank=2/3; bsr_source_count=1,	resources = { 		steel=20 # was: 32.000 		aluminium=11 # was: 18.000 	}
+160,STATE_160,1872,STATE_1872,merge,0.500,split+merge; province_overlap=2; tsr_overlap_rank=3/3; bsr_source_count=2,	resources = { 		steel=20 # was: 32.000 		aluminium=11 # was: 18.000 	}
+161,STATE_161,161,STATE_161,split,1.000,split; province_overlap=3; tsr_overlap_rank=1/4; bsr_source_count=1,	 	resources = { 		aluminium=9 # was: 16 	}
+161,STATE_161,1596,STATE_1596,split,1.000,split; province_overlap=2; tsr_overlap_rank=2/4; bsr_source_count=1,	 	resources = { 		aluminium=9 # was: 16 	}
+161,STATE_161,1203,STATE_1203,merge,0.500,split+merge; province_overlap=2; tsr_overlap_rank=3/4; bsr_source_count=3,	 	resources = { 		aluminium=9 # was: 16 	}
+161,STATE_161,1756,STATE_1756,split,0.667,split; province_overlap=2; tsr_overlap_rank=4/4; bsr_source_count=1,	 	resources = { 		aluminium=9 # was: 16 	}
+166,STATE_166,166,STATE_166,split,1.000,split; province_overlap=7; tsr_overlap_rank=1/2; bsr_source_count=1,	resources={ 		steel=15.000 		coal = 3 #initial distribution 	}
+166,STATE_166,1720,STATE_1720,merge,0.800,split+merge; province_overlap=4; tsr_overlap_rank=2/2; bsr_source_count=2,	resources={ 		steel=15.000 		coal = 3 #initial distribution 	}
+170,STATE_170,170,STATE_170,split,0.917,split; province_overlap=11; tsr_overlap_rank=1/3; bsr_source_count=1,	resources={ 		tungsten=4.000 	}
+170,STATE_170,1715,STATE_1715,split,1.000,split; province_overlap=5; tsr_overlap_rank=2/3; bsr_source_count=1,	resources={ 		tungsten=4.000 	}
+170,STATE_170,1503,STATE_1503,split,1.000,split; province_overlap=1; tsr_overlap_rank=3/3; bsr_source_count=1,	resources={ 		tungsten=4.000 	}
+180,STATE_180,1500,STATE_1500,split,1.000,split; province_overlap=5; tsr_overlap_rank=1/2; bsr_source_count=1, 	resources = { 		coal = 2 #initial distribution 	}
+180,STATE_180,180,STATE_180,split,1.000,split; province_overlap=2; tsr_overlap_rank=2/2; bsr_source_count=1, 	resources = { 		coal = 2 #initial distribution 	}
+183,STATE_183,952,STATE_952,split,1.000,split; province_overlap=1; tsr_overlap_rank=1/2; bsr_source_count=1,	resources={ 		chromium=3 # was: 4 	}
+183,STATE_183,183,STATE_183,split,1.000,split; province_overlap=1; tsr_overlap_rank=2/2; bsr_source_count=1,	resources={ 		chromium=3 # was: 4 	}
+184,STATE_184,1156,STATE_1156,split,1.000,split; province_overlap=1; tsr_overlap_rank=1/4; bsr_source_count=1, 	resources={ 		chromium=11.000 	}
+184,STATE_184,1063,STATE_1063,merge,0.333,split+merge; province_overlap=1; tsr_overlap_rank=2/4; bsr_source_count=2, 	resources={ 		chromium=11.000 	}
+184,STATE_184,184,STATE_184,merge,0.333,split+merge; province_overlap=1; tsr_overlap_rank=3/4; bsr_source_count=2, 	resources={ 		chromium=11.000 	}
+184,STATE_184,1595,STATE_1595,split,1.000,split; province_overlap=1; tsr_overlap_rank=4/4; bsr_source_count=1, 	resources={ 		chromium=11.000 	}
+185,STATE_185,185,STATE_185,merge,0.800,split+merge; province_overlap=4; tsr_overlap_rank=1/7; bsr_source_count=2,	 	resources={ 		chromium=14 # was: 20 		steel = 14 # was: 20 	}
+185,STATE_185,976,STATE_976,split,1.000,split; province_overlap=3; tsr_overlap_rank=2/7; bsr_source_count=1,	 	resources={ 		chromium=14 # was: 20 		steel = 14 # was: 20 	}
+185,STATE_185,1303,STATE_1303,split,1.000,split; province_overlap=1; tsr_overlap_rank=3/7; bsr_source_count=1,	 	resources={ 		chromium=14 # was: 20 		steel = 14 # was: 20 	}
+185,STATE_185,731,STATE_731,merge,0.333,split+merge; province_overlap=1; tsr_overlap_rank=4/7; bsr_source_count=2,	 	resources={ 		chromium=14 # was: 20 		steel = 14 # was: 20 	}
+185,STATE_185,1427,STATE_1427,split,1.000,split; province_overlap=1; tsr_overlap_rank=5/7; bsr_source_count=1,	 	resources={ 		chromium=14 # was: 20 		steel = 14 # was: 20 	}
+185,STATE_185,1601,STATE_1601,merge,0.500,split+merge; province_overlap=1; tsr_overlap_rank=6/7; bsr_source_count=2,	 	resources={ 		chromium=14 # was: 20 		steel = 14 # was: 20 	}
+185,STATE_185,977,STATE_977,split,1.000,split; province_overlap=1; tsr_overlap_rank=7/7; bsr_source_count=1,	 	resources={ 		chromium=14 # was: 20 		steel = 14 # was: 20 	}
+187,STATE_187,187,STATE_187,split,1.000,split; province_overlap=1; tsr_overlap_rank=1/3; bsr_source_count=1,	 	resources={ 		chromium=7 # was: 10 	}
+187,STATE_187,184,STATE_184,merge,0.333,split+merge; province_overlap=1; tsr_overlap_rank=2/3; bsr_source_count=2,	 	resources={ 		chromium=7 # was: 10 	}
+187,STATE_187,975,STATE_975,split,0.500,split; province_overlap=1; tsr_overlap_rank=3/3; bsr_source_count=1,	 	resources={ 		chromium=7 # was: 10 	}
+189,STATE_189,189,STATE_189,merge,0.667,split+merge; province_overlap=4; tsr_overlap_rank=1/3; bsr_source_count=2,	resources={ 		steel=2.000 	}
+189,STATE_189,1438,STATE_1438,split,1.000,split; province_overlap=1; tsr_overlap_rank=2/3; bsr_source_count=1,	resources={ 		steel=2.000 	}
+189,STATE_189,2019,STATE_2019,split,1.000,split; province_overlap=1; tsr_overlap_rank=3/3; bsr_source_count=1,	resources={ 		steel=2.000 	}
+196,STATE_196,196,STATE_196,split,1.000,split; province_overlap=7; tsr_overlap_rank=1/2; bsr_source_count=1,	 	resources = { 		chromium = 15 # was: 22 	}
+196,STATE_196,197,STATE_197,merge,0.125,split+merge; province_overlap=1; tsr_overlap_rank=2/2; bsr_source_count=2,	 	resources = { 		chromium = 15 # was: 22 	}
+202,STATE_202,926,STATE_926,split,1.000,split; province_overlap=3; tsr_overlap_rank=1/5; bsr_source_count=1,	resources={ 		oil=8 # was: 14 		aluminium=7 # was: 12 	}
+202,STATE_202,1490,STATE_1490,merge,0.500,split+merge; province_overlap=2; tsr_overlap_rank=2/5; bsr_source_count=2,	resources={ 		oil=8 # was: 14 		aluminium=7 # was: 12 	}
+202,STATE_202,202,STATE_202,split,1.000,split; province_overlap=2; tsr_overlap_rank=3/5; bsr_source_count=1,	resources={ 		oil=8 # was: 14 		aluminium=7 # was: 12 	}
+202,STATE_202,1491,STATE_1491,split,1.000,split; province_overlap=2; tsr_overlap_rank=4/5; bsr_source_count=1,	resources={ 		oil=8 # was: 14 		aluminium=7 # was: 12 	}
+202,STATE_202,1126,STATE_1126,merge,0.167,split+merge; province_overlap=1; tsr_overlap_rank=5/5; bsr_source_count=2,	resources={ 		oil=8 # was: 14 		aluminium=7 # was: 12 	}
+212,STATE_212,212,STATE_212,split,1.000,split; province_overlap=6; tsr_overlap_rank=1/4; bsr_source_count=1, 	resources={ 		chromium = 1 		coal = 2 # initial distribution / 3 total 	}
+212,STATE_212,1143,STATE_1143,split,1.000,split; province_overlap=2; tsr_overlap_rank=2/4; bsr_source_count=1, 	resources={ 		chromium = 1 		coal = 2 # initial distribution / 3 total 	}
+212,STATE_212,1142,STATE_1142,split,0.667,split; province_overlap=2; tsr_overlap_rank=3/4; bsr_source_count=1, 	resources={ 		chromium = 1 		coal = 2 # initial distribution / 3 total 	}
+212,STATE_212,1486,STATE_1486,split,1.000,split; province_overlap=1; tsr_overlap_rank=4/4; bsr_source_count=1, 	resources={ 		chromium = 1 		coal = 2 # initial distribution / 3 total 	}
+215,STATE_215,928,STATE_928,split,0.875,split; province_overlap=14; tsr_overlap_rank=1/5; bsr_source_count=1,	resources={ 		steel=30 # was: 52.000 	}
+215,STATE_215,929,STATE_929,split,0.923,split; province_overlap=12; tsr_overlap_rank=2/5; bsr_source_count=1,	resources={ 		steel=30 # was: 52.000 	}
+215,STATE_215,215,STATE_215,split,0.636,split; province_overlap=7; tsr_overlap_rank=3/5; bsr_source_count=1,	resources={ 		steel=30 # was: 52.000 	}
+215,STATE_215,1380,STATE_1380,split,1.000,split; province_overlap=2; tsr_overlap_rank=4/5; bsr_source_count=1,	resources={ 		steel=30 # was: 52.000 	}
+215,STATE_215,216,STATE_216,merge,0.050,split+merge; province_overlap=1; tsr_overlap_rank=5/5; bsr_source_count=2,	resources={ 		steel=30 # was: 52.000 	}
+221,STATE_221,221,STATE_221,merge,1.000,merge; province_overlap=11; bsr_source_count=2,	 	resources={ 		steel=33 # was: 56 	}
+226,Dnipropertovsk,226,STATE_226,split,1.000,split; province_overlap=7; tsr_overlap_rank=1/2; bsr_source_count=1,	 	resources={ 		oil=4 # was: 6 	}
+226,Dnipropertovsk,1127,STATE_1127,split,1.000,split; province_overlap=5; tsr_overlap_rank=2/2; bsr_source_count=1,	 	resources={ 		oil=4 # was: 6 	}
+227,STATE_227,227,STATE_227,split,1.000,split; province_overlap=8; tsr_overlap_rank=1/2; bsr_source_count=1, 	resources = { 		coal = 82 # initial distribution 	}
+227,STATE_227,1444,STATE_1444,merge,0.400,split+merge; province_overlap=2; tsr_overlap_rank=2/2; bsr_source_count=2, 	resources = { 		coal = 82 # initial distribution 	}
+229,STATE_229,229,STATE_229,split,1.000,split; province_overlap=7; tsr_overlap_rank=1/6; bsr_source_count=1,	resources={ 		oil=70 # was: 126.000 	}
+229,STATE_229,1222,STATE_1222,split,1.000,split; province_overlap=3; tsr_overlap_rank=2/6; bsr_source_count=1,	resources={ 		oil=70 # was: 126.000 	}
+229,STATE_229,1366,STATE_1366,split,1.000,split; province_overlap=2; tsr_overlap_rank=3/6; bsr_source_count=1,	resources={ 		oil=70 # was: 126.000 	}
+229,STATE_229,1263,STATE_1263,split,1.000,split; province_overlap=2; tsr_overlap_rank=4/6; bsr_source_count=1,	resources={ 		oil=70 # was: 126.000 	}
+229,STATE_229,1005,STATE_1005,split,1.000,split; province_overlap=2; tsr_overlap_rank=5/6; bsr_source_count=1,	resources={ 		oil=70 # was: 126.000 	}
+229,STATE_229,1487,STATE_1487,split,1.000,split; province_overlap=1; tsr_overlap_rank=6/6; bsr_source_count=1,	resources={ 		oil=70 # was: 126.000 	}
+232,Dagestan,931,STATE_931,split,0.900,split; province_overlap=9; tsr_overlap_rank=1/5; bsr_source_count=1,"	 	resources = { 		oil = 10 # was: 26 and then 19, but was split into 2 different states 	}"
+232,Dagestan,2009,STATE_2009,split,0.667,split; province_overlap=2; tsr_overlap_rank=2/5; bsr_source_count=1,"	 	resources = { 		oil = 10 # was: 26 and then 19, but was split into 2 different states 	}"
+232,Dagestan,932,STATE_932,split,1.000,split; province_overlap=2; tsr_overlap_rank=3/5; bsr_source_count=1,"	 	resources = { 		oil = 10 # was: 26 and then 19, but was split into 2 different states 	}"
+232,Dagestan,232,STATE_232,split,0.400,split; province_overlap=2; tsr_overlap_rank=4/5; bsr_source_count=1,"	 	resources = { 		oil = 10 # was: 26 and then 19, but was split into 2 different states 	}"
+232,Dagestan,2010,STATE_2010,split,1.000,split; province_overlap=1; tsr_overlap_rank=5/5; bsr_source_count=1,"	 	resources = { 		oil = 10 # was: 26 and then 19, but was split into 2 different states 	}"
+261,STATE_261,261,STATE_261,split,1.000,split; province_overlap=21; tsr_overlap_rank=1/2; bsr_source_count=1,	resources={ 		steel=28 # was: 48.000 		aluminium=9 # was: 16.000 		coal = 13 # initial distribution = with infra 46.8 / 1280 total 	}
+261,STATE_261,1681,STATE_1681,split,1.000,split; province_overlap=3; tsr_overlap_rank=2/2; bsr_source_count=1,	resources={ 		steel=28 # was: 48.000 		aluminium=9 # was: 16.000 		coal = 13 # initial distribution = with infra 46.8 / 1280 total 	}
+266,Tehran,1475,STATE_1475,split,1.000,split; province_overlap=4; tsr_overlap_rank=1/2; bsr_source_count=1,	resources = { 		aluminium = 2 		tungsten = 2 	}
+266,Tehran,266,Tehran,split,1.000,split; province_overlap=1; tsr_overlap_rank=2/2; bsr_source_count=1,	resources = { 		aluminium = 2 		tungsten = 2 	}
+267,Kabul,267,STATE_267,merge,0.600,split+merge; province_overlap=3; tsr_overlap_rank=1/3; bsr_source_count=2,	 	resources={ 		tungsten=3 # was: 3 		chromium=2 		steel=2  	}
+267,Kabul,1818,STATE_1818,merge,0.200,split+merge; province_overlap=1; tsr_overlap_rank=2/3; bsr_source_count=3,	 	resources={ 		tungsten=3 # was: 3 		chromium=2 		steel=2  	}
+267,Kabul,1130,STATE_1130,merge,0.200,split+merge; province_overlap=1; tsr_overlap_rank=3/3; bsr_source_count=3,	 	resources={ 		tungsten=3 # was: 3 		chromium=2 		steel=2  	}
+271,STATE_271,271,STATE_271,merge,0.750,merge; province_overlap=3; bsr_source_count=9,	resources = { 		# rubber=2 # was: 2 	}
+272,STATE_272,272,STATE_272,split,1.000,split; province_overlap=5; tsr_overlap_rank=1/2; bsr_source_count=1,	resources={ 		steel=3 # was: 4 	}
+272,STATE_272,2037,STATE_2037,split,1.000,split; province_overlap=1; tsr_overlap_rank=2/2; bsr_source_count=1,	resources={ 		steel=3 # was: 4 	}
+274,STATE_274,274,STATE_274,split,1.000,split; province_overlap=5; tsr_overlap_rank=1/2; bsr_source_count=1, 	resources = { 		steel = 8  		tungsten = 8  		chromium = 4 	}
+274,STATE_274,1049,STATE_1049,split,1.000,split; province_overlap=1; tsr_overlap_rank=2/2; bsr_source_count=1, 	resources = { 		steel = 8  		tungsten = 8  		chromium = 4 	}
+275,Transvaal,275,STATE_275,split,1.000,split; province_overlap=4; tsr_overlap_rank=1/6; bsr_source_count=1,	 	resources={ 		steel=11 #was: 5   was: 8 		chromium=53 # was: 80 		coal = 14 # initial distribution 	}
+275,Transvaal,1221,STATE_1221,split,1.000,split; province_overlap=2; tsr_overlap_rank=2/6; bsr_source_count=1,	 	resources={ 		steel=11 #was: 5   was: 8 		chromium=53 # was: 80 		coal = 14 # initial distribution 	}
+275,Transvaal,1216,STATE_1216,split,1.000,split; province_overlap=2; tsr_overlap_rank=3/6; bsr_source_count=1,	 	resources={ 		steel=11 #was: 5   was: 8 		chromium=53 # was: 80 		coal = 14 # initial distribution 	}
+275,Transvaal,1208,STATE_1208,merge,0.250,split+merge; province_overlap=1; tsr_overlap_rank=4/6; bsr_source_count=2,	 	resources={ 		steel=11 #was: 5   was: 8 		chromium=53 # was: 80 		coal = 14 # initial distribution 	}
+275,Transvaal,1215,STATE_1215,split,1.000,split; province_overlap=1; tsr_overlap_rank=5/6; bsr_source_count=1,	 	resources={ 		steel=11 #was: 5   was: 8 		chromium=53 # was: 80 		coal = 14 # initial distribution 	}
+275,Transvaal,1220,STATE_1220,split,0.333,split; province_overlap=1; tsr_overlap_rank=6/6; bsr_source_count=1,	 	resources={ 		steel=11 #was: 5   was: 8 		chromium=53 # was: 80 		coal = 14 # initial distribution 	}
+277,STATE_277,277,STATE_277,split,1.000,split; province_overlap=3; tsr_overlap_rank=1/2; bsr_source_count=1, 	resources={ 		steel=6 #was 2 before Mexican steel production was centralized to allow oil concessions 	}
+277,STATE_277,1845,STATE_1845,split,1.000,split; province_overlap=2; tsr_overlap_rank=2/2; bsr_source_count=1, 	resources={ 		steel=6 #was 2 before Mexican steel production was centralized to allow oil concessions 	}
+279,Santiago,279,Santiago,split,0.833,split; province_overlap=5; tsr_overlap_rank=1/2; bsr_source_count=1,"	 	resources = { 		steel = 14 # was: 24, then 16 		tungsten = 8 # In replacement of nitrate 		chromium = 4 # in replacement of nitrate 	}"
+279,Santiago,1576,STATE_1576,merge,0.333,split+merge; province_overlap=2; tsr_overlap_rank=2/2; bsr_source_count=2,"	 	resources = { 		steel = 14 # was: 24, then 16 		tungsten = 8 # In replacement of nitrate 		chromium = 4 # in replacement of nitrate 	}"
+282,Kanto,964,STATE_964,split,1.000,split; province_overlap=6; tsr_overlap_rank=1/2; bsr_source_count=1,	 	resources = { 		aluminium = 1 # was: 2 	}
+282,Kanto,282,STATE_282,split,1.000,split; province_overlap=5; tsr_overlap_rank=2/2; bsr_source_count=1,	 	resources = { 		aluminium = 1 # was: 2 	}
+284,North Island,284,North Island,merge,1.000,merge; province_overlap=8; bsr_source_count=2,	 	resources = { 		coal = 2 #initial distribution 	}
+285,STATE_285,285,STATE_285,split,1.000,split; province_overlap=37; tsr_overlap_rank=1/3; bsr_source_count=1, 	resources = { 		coal = 16 #initial distribution 	}
+285,STATE_285,922,STATE_922,split,1.000,split; province_overlap=4; tsr_overlap_rank=2/3; bsr_source_count=1, 	resources = { 		coal = 16 #initial distribution 	}
+285,STATE_285,1786,STATE_1786,split,1.000,split; province_overlap=1; tsr_overlap_rank=3/3; bsr_source_count=1, 	resources = { 		coal = 16 #initial distribution 	}
+288,STATE_288,288,STATE_288,merge,1.000,merge; province_overlap=11; bsr_source_count=6, 	resources = { 		tungsten = 92 		oil = 56 	}
+289,STATE_289,289,STATE_289,merge,1.000,merge; province_overlap=10; bsr_source_count=3,	resources={ 		rubber=8.000 		tungsten=2.000 	}
+291,STATE_291,291,STATE_291,merge,0.400,split+merge; province_overlap=2; tsr_overlap_rank=1/3; bsr_source_count=2,	 	resources = { 		oil = 15 # was: 22 	}
+291,STATE_291,1247,STATE_1247,merge,0.667,split+merge; province_overlap=2; tsr_overlap_rank=2/3; bsr_source_count=2,	 	resources = { 		oil = 15 # was: 22 	}
+291,STATE_291,946,STATE_946,merge,0.200,split+merge; province_overlap=1; tsr_overlap_rank=3/3; bsr_source_count=2,	 	resources = { 		oil = 15 # was: 22 	}
+293,STATE_293,293,STATE_293,split,1.000,split; province_overlap=3; tsr_overlap_rank=1/2; bsr_source_count=1,	 	resources={ 		oil=1 # was: 1 	}
+293,STATE_293,949,STATE_949,split,1.000,split; province_overlap=2; tsr_overlap_rank=2/2; bsr_source_count=1,	 	resources={ 		oil=1 # was: 1 	}
+294,STATE_294,294,STATE_294,merge,1.000,merge; province_overlap=5; bsr_source_count=2,	 	resources = { 		oil = 1 # was: 2 	}
+300,STATE_300,300,STATE_300,merge,1.000,merge; province_overlap=4; bsr_source_count=3,	 	resources = { 		steel = 2 	}
+302,STATE_302,302,STATE_302,split,1.000,split; province_overlap=10; tsr_overlap_rank=1/3; bsr_source_count=1, 	resources = { 		tungsten = 60 # was: 102.000 		steel = 2 # was: 2.000 	}
+302,STATE_302,1480,STATE_1480,split,1.000,split; province_overlap=1; tsr_overlap_rank=2/3; bsr_source_count=1, 	resources = { 		tungsten = 60 # was: 102.000 		steel = 2 # was: 2.000 	}
+302,STATE_302,1261,STATE_1261,merge,0.333,split+merge; province_overlap=1; tsr_overlap_rank=3/3; bsr_source_count=2, 	resources = { 		tungsten = 60 # was: 102.000 		steel = 2 # was: 2.000 	}
+303,Lima,303,Lima,split,1.000,split; province_overlap=6; tsr_overlap_rank=1/2; bsr_source_count=1,	resources = { 		oil = 14 # was: 18 		coal = 4 # initial distribution = with infra 1.4 / 1 total	#increased to reduce reliance on USA 	}
+303,Lima,1885,STATE_1885,split,1.000,split; province_overlap=1; tsr_overlap_rank=2/2; bsr_source_count=1,	resources = { 		oil = 14 # was: 18 		coal = 4 # initial distribution = with infra 1.4 / 1 total	#increased to reduce reliance on USA 	}
+304,STATE_304,917,STATE_917,split,1.000,split; province_overlap=3; tsr_overlap_rank=1/2; bsr_source_count=1,	resources={ 		oil=1 # was: 1 	}
+304,STATE_304,304,STATE_304,split,1.000,split; province_overlap=2; tsr_overlap_rank=2/2; bsr_source_count=1,	resources={ 		oil=1 # was: 1 	}
+305,STATE_305,305,STATE_305,split,1.000,split; province_overlap=6; tsr_overlap_rank=1/2; bsr_source_count=1, 	resources = { 		oil = 2 # was: 2 	}
+305,STATE_305,864,STATE_864,split,1.000,split; province_overlap=2; tsr_overlap_rank=2/2; bsr_source_count=1, 	resources = { 		oil = 2 # was: 2 	}
+307,Miranda,307,Miranda,split,1.000,split; province_overlap=9; tsr_overlap_rank=1/2; bsr_source_count=1,	resources={ 		oil=41 # was: 58 	}
+307,Miranda,1835,STATE_1835,split,1.000,split; province_overlap=2; tsr_overlap_rank=2/2; bsr_source_count=1,	resources={ 		oil=41 # was: 58 	}
+312,STATE_312,312,STATE_312,split,1.000,split; province_overlap=2; tsr_overlap_rank=1/2; bsr_source_count=1,	resources={ 		chromium=1 # was: 1 	}
+312,STATE_312,1887,STATE_1887,split,1.000,split; province_overlap=1; tsr_overlap_rank=2/2; bsr_source_count=1,	resources={ 		chromium=1 # was: 1 	}
+313,STATE_313,1851,STATE_1851,split,1.000,split; province_overlap=1; tsr_overlap_rank=1/4; bsr_source_count=1,	resources={ 		chromium=4 # was: 6 	}
+313,STATE_313,1886,STATE_1886,split,1.000,split; province_overlap=1; tsr_overlap_rank=2/4; bsr_source_count=1,	resources={ 		chromium=4 # was: 6 	}
+313,STATE_313,313,STATE_313,split,1.000,split; province_overlap=1; tsr_overlap_rank=3/4; bsr_source_count=1,	resources={ 		chromium=4 # was: 6 	}
+313,STATE_313,1867,STATE_1867,split,1.000,split; province_overlap=1; tsr_overlap_rank=4/4; bsr_source_count=1,	resources={ 		chromium=4 # was: 6 	}
+314,STATE_314,1888,STATE_1888,split,1.000,split; province_overlap=1; tsr_overlap_rank=1/2; bsr_source_count=1,	resources={ 		chromium=1 # was: 1 	}
+314,STATE_314,314,STATE_314,split,1.000,split; province_overlap=1; tsr_overlap_rank=2/2; bsr_source_count=1,	resources={ 		chromium=1 # was: 1 	}
+317,STATE_317,1871,STATE_1871,split,1.000,split; province_overlap=3; tsr_overlap_rank=1/2; bsr_source_count=1,	resources={ 		chromium=1 # was: 1 	}
+317,STATE_317,317,STATE_317,split,1.000,split; province_overlap=1; tsr_overlap_rank=2/2; bsr_source_count=1,	resources={ 		chromium=1 # was: 1 	}
+322,STATE_322,1740,STATE_1740,merge,0.800,split+merge; province_overlap=4; tsr_overlap_rank=1/2; bsr_source_count=2,	resources={ 		tungsten=2.000 	}
+322,STATE_322,322,STATE_322,split,1.000,split; province_overlap=4; tsr_overlap_rank=2/2; bsr_source_count=1,	resources={ 		tungsten=2.000 	}
+325,STATE_325,1884,STATE_1884,split,1.000,split; province_overlap=12; tsr_overlap_rank=1/4; bsr_source_count=1,	resources={ 		tungsten=2.000 	}
+325,STATE_325,325,STATE_325,split,1.000,split; province_overlap=4; tsr_overlap_rank=2/4; bsr_source_count=1,	resources={ 		tungsten=2.000 	}
+325,STATE_325,1794,STATE_1794,merge,0.500,split+merge; province_overlap=1; tsr_overlap_rank=3/4; bsr_source_count=2,	resources={ 		tungsten=2.000 	}
+325,STATE_325,1750,STATE_1750,merge,0.500,split+merge; province_overlap=1; tsr_overlap_rank=4/4; bsr_source_count=2,	resources={ 		tungsten=2.000 	}
+327,Manila,327,Luzon,merge,0.667,split+merge; province_overlap=6; tsr_overlap_rank=1/3; bsr_source_count=2, 	resources = { 		coal = 1 #initial distribution 	}
+327,Manila,624,STATE_624,merge,0.250,split+merge; province_overlap=2; tsr_overlap_rank=2/3; bsr_source_count=2, 	resources = { 		coal = 1 #initial distribution 	}
+327,Manila,623,STATE_623,merge,0.200,split+merge; province_overlap=2; tsr_overlap_rank=3/3; bsr_source_count=3, 	resources = { 		coal = 1 #initial distribution 	}
+328,Kirin,1022,STATE_1022,split,1.000,split; province_overlap=13; tsr_overlap_rank=1/4; bsr_source_count=1, 	resources={ 		aluminium=7 # was: 10 	}
+328,Kirin,1024,STATE_1024,merge,0.562,split+merge; province_overlap=9; tsr_overlap_rank=2/4; bsr_source_count=2, 	resources={ 		aluminium=7 # was: 10 	}
+328,Kirin,328,STATE_328,split,1.000,split; province_overlap=9; tsr_overlap_rank=3/4; bsr_source_count=1, 	resources={ 		aluminium=7 # was: 10 	}
+328,Kirin,1026,STATE_1026,merge,0.727,split+merge; province_overlap=8; tsr_overlap_rank=4/4; bsr_source_count=2, 	resources={ 		aluminium=7 # was: 10 	}
+330,STATE_330,1017,STATE_1017,merge,0.571,split+merge; province_overlap=8; tsr_overlap_rank=1/2; bsr_source_count=3,	resources={ 		steel=2.000 		chromium=3.000 	}
+330,STATE_330,330,STATE_330,merge,0.750,split+merge; province_overlap=6; tsr_overlap_rank=2/2; bsr_source_count=2,	resources={ 		steel=2.000 		chromium=3.000 	}
+333,STATE_333,333,STATE_333,merge,1.000,merge; province_overlap=9; bsr_source_count=3," 	resources = { 		rubber = 20 # was: 72, then 40 		oil = 2 # was: 18, then 12 		coal = 1 # initial distribution 	}"
+334,STATE_334,1928,STATE_1928,merge,0.600,split+merge; province_overlap=6; tsr_overlap_rank=1/2; bsr_source_count=2, 	resources = { 		rubber = 75 # was: 138 		oil = 5 # was: 10 		coal = 2 #initial distribution 	}
+334,STATE_334,1929,STATE_1929,merge,0.300,split+merge; province_overlap=3; tsr_overlap_rank=2/2; bsr_source_count=3, 	resources = { 		rubber = 75 # was: 138 		oil = 5 # was: 10 		coal = 2 #initial distribution 	}
+335,Java,335,STATE_335,merge,0.667,split+merge; province_overlap=6; tsr_overlap_rank=1/3; bsr_source_count=2,	 	resources={ 		rubber=140 # was: 242 		oil=10 # was: 16 	}
+335,Java,1916,STATE_1916,split,1.000,split; province_overlap=2; tsr_overlap_rank=2/3; bsr_source_count=1,	 	resources={ 		rubber=140 # was: 242 		oil=10 # was: 16 	}
+335,Java,1918,STATE_1918,merge,0.167,split+merge; province_overlap=1; tsr_overlap_rank=3/3; bsr_source_count=2,	 	resources={ 		rubber=140 # was: 242 		oil=10 # was: 16 	}
+336,STATE_336,336,STATE_336,merge,0.667,merge; province_overlap=2; bsr_source_count=6,"	 	resources = { 		rubber = 342 # was: 848 		steel = 10 # was: 32, then 20 		tungsten = 160 # was: 308, then 189 		aluminium = 10 # was: 25, then 15 	}"
+338,STATE_338,338,STATE_338,split,1.000,split; province_overlap=4; tsr_overlap_rank=1/3; bsr_source_count=1,	resources={ 		steel=9 # was: 16 	}
+338,STATE_338,1401,STATE_1401,merge,0.200,split+merge; province_overlap=1; tsr_overlap_rank=2/3; bsr_source_count=3,	resources={ 		steel=9 # was: 16 	}
+338,STATE_338,1709,STATE_1709,merge,0.333,split+merge; province_overlap=1; tsr_overlap_rank=3/3; bsr_source_count=2,	resources={ 		steel=9 # was: 16 	}
+339,STATE_339,339,STATE_339,merge,0.750,split+merge; province_overlap=6; tsr_overlap_rank=1/3; bsr_source_count=2,	resources={ 		chromium=50 # was: 86 	}
+339,STATE_339,1661,STATE_1661,split,1.000,split; province_overlap=3; tsr_overlap_rank=2/3; bsr_source_count=1,	resources={ 		chromium=50 # was: 86 	}
+339,STATE_339,1675,STATE_1675,split,1.000,split; province_overlap=1; tsr_overlap_rank=3/3; bsr_source_count=1,	resources={ 		chromium=50 # was: 86 	}
+340,STATE_340,339,STATE_339,merge,0.333,split+merge; province_overlap=2; tsr_overlap_rank=1/3; bsr_source_count=2,	resources={ 		chromium=19 	}
+340,STATE_340,340,STATE_340,merge,0.250,split+merge; province_overlap=1; tsr_overlap_rank=2/3; bsr_source_count=2,	resources={ 		chromium=19 	}
+340,STATE_340,1662,STATE_1662,merge,0.500,split+merge; province_overlap=1; tsr_overlap_rank=3/3; bsr_source_count=2,	resources={ 		chromium=19 	}
+342,Antalya,342,STATE_342,split,1.000,split; province_overlap=4; tsr_overlap_rank=1/4; bsr_source_count=1,	resources={ 		chromium=35 # was: 46 	}
+342,Antalya,1707,STATE_1707,split,1.000,split; province_overlap=2; tsr_overlap_rank=2/4; bsr_source_count=1,	resources={ 		chromium=35 # was: 46 	}
+342,Antalya,951,STATE_951,merge,0.250,split+merge; province_overlap=1; tsr_overlap_rank=3/4; bsr_source_count=2,	resources={ 		chromium=35 # was: 46 	}
+342,Antalya,343,STATE_343,merge,0.250,split+merge; province_overlap=1; tsr_overlap_rank=4/4; bsr_source_count=3,	resources={ 		chromium=35 # was: 46 	}
+343,Afyon,954,STATE_954,split,1.000,split; province_overlap=7; tsr_overlap_rank=1/4; bsr_source_count=1,	resources={ 		chromium=25 # was: 32 		coal = 1 #initial distribution 	}
+343,Afyon,1663,STATE_1663,merge,0.400,split+merge; province_overlap=2; tsr_overlap_rank=2/4; bsr_source_count=3,	resources={ 		chromium=25 # was: 32 		coal = 1 #initial distribution 	}
+343,Afyon,343,STATE_343,merge,0.250,split+merge; province_overlap=1; tsr_overlap_rank=3/4; bsr_source_count=3,	resources={ 		chromium=25 # was: 32 		coal = 1 #initial distribution 	}
+343,Afyon,1662,STATE_1662,merge,0.500,split+merge; province_overlap=1; tsr_overlap_rank=4/4; bsr_source_count=2,	resources={ 		chromium=25 # was: 32 		coal = 1 #initial distribution 	}
+348,Kayseri,1704,STATE_1704,split,1.000,split; province_overlap=4; tsr_overlap_rank=1/4; bsr_source_count=1,	resources = { chromium = 32 }
+348,Kayseri,344,STATE_344,merge,0.500,split+merge; province_overlap=3; tsr_overlap_rank=2/4; bsr_source_count=2,	resources = { chromium = 32 }
+348,Kayseri,348,STATE_348,merge,0.500,split+merge; province_overlap=1; tsr_overlap_rank=3/4; bsr_source_count=2,	resources = { chromium = 32 }
+348,Kayseri,957,STATE_957,merge,0.250,split+merge; province_overlap=1; tsr_overlap_rank=4/4; bsr_source_count=2,	resources = { chromium = 32 }
+357,STATE_357,357,STATE_357,split,1.000,split; province_overlap=7; tsr_overlap_rank=1/8; bsr_source_count=1,	resources={ 		steel=12 # was: 20.000 	}
+357,STATE_357,836,STATE_836,split,1.000,split; province_overlap=6; tsr_overlap_rank=2/8; bsr_source_count=1,	resources={ 		steel=12 # was: 20.000 	}
+357,STATE_357,835,STATE_835,split,1.000,split; province_overlap=5; tsr_overlap_rank=3/8; bsr_source_count=1,	resources={ 		steel=12 # was: 20.000 	}
+357,STATE_357,837,STATE_837,split,1.000,split; province_overlap=4; tsr_overlap_rank=4/8; bsr_source_count=1,	resources={ 		steel=12 # was: 20.000 	}
+357,STATE_357,839,STATE_839,split,0.800,split; province_overlap=4; tsr_overlap_rank=5/8; bsr_source_count=1,	resources={ 		steel=12 # was: 20.000 	}
+357,STATE_357,838,STATE_838,split,1.000,split; province_overlap=3; tsr_overlap_rank=6/8; bsr_source_count=1,	resources={ 		steel=12 # was: 20.000 	}
+357,STATE_357,1648,STATE_1648,split,0.500,split; province_overlap=1; tsr_overlap_rank=7/8; bsr_source_count=1,	resources={ 		steel=12 # was: 20.000 	}
+357,STATE_357,840,STATE_840,split,1.000,split; province_overlap=1; tsr_overlap_rank=8/8; bsr_source_count=1,	resources={ 		steel=12 # was: 20.000 	}
+358,STATE_358,358,STATE_358,split,1.000,split; province_overlap=17; tsr_overlap_rank=1/3; bsr_source_count=1,	resources={ 		steel=13 # was: 24.000 	}
+358,STATE_358,1684,STATE_1684,split,1.000,split; province_overlap=14; tsr_overlap_rank=2/3; bsr_source_count=1,	resources={ 		steel=13 # was: 24.000 	}
+358,STATE_358,1175,STATE_1175,split,1.000,split; province_overlap=2; tsr_overlap_rank=3/3; bsr_source_count=1,	resources={ 		steel=13 # was: 24.000 	}
+360,STATE_360,360,STATE_360,split,1.000,split; province_overlap=21; tsr_overlap_rank=1/3; bsr_source_count=1,	 	resources={ 		steel = 44 # was: 80 		coal = 160 # initial distribution = with infra 432 / 1280 total 	}
+360,STATE_360,1683,STATE_1683,split,0.917,split; province_overlap=11; tsr_overlap_rank=2/3; bsr_source_count=1,	 	resources={ 		steel = 44 # was: 80 		coal = 160 # initial distribution = with infra 432 / 1280 total 	}
+360,STATE_360,1682,STATE_1682,split,1.000,split; province_overlap=3; tsr_overlap_rank=3/3; bsr_source_count=1,	 	resources={ 		steel = 44 # was: 80 		coal = 160 # initial distribution = with infra 432 / 1280 total 	}
+362,STATE_362,362,STATE_362,split,1.000,split; province_overlap=17; tsr_overlap_rank=1/2; bsr_source_count=1, 	resources = { 		coal = 11 #initial distribution = with infra 28.8 / 1280 total 	}
+362,STATE_362,1456,STATE_1456,split,1.000,split; province_overlap=1; tsr_overlap_rank=2/2; bsr_source_count=1, 	resources = { 		coal = 11 #initial distribution = with infra 28.8 / 1280 total 	}
+367,STATE_367,1497,STATE_1497,split,1.000,split; province_overlap=9; tsr_overlap_rank=1/3; bsr_source_count=1,	 	resources = { 		coal = 8 # initial distribution = with infra 28.8 / 1280 total 	}
+367,STATE_367,367,STATE_367,split,1.000,split; province_overlap=5; tsr_overlap_rank=2/3; bsr_source_count=1,	 	resources = { 		coal = 8 # initial distribution = with infra 28.8 / 1280 total 	}
+367,STATE_367,1494,STATE_1494,split,1.000,split; province_overlap=2; tsr_overlap_rank=3/3; bsr_source_count=1,	 	resources = { 		coal = 8 # initial distribution = with infra 28.8 / 1280 total 	}
+371,STATE_371,858,STATE_858,split,1.000,split; province_overlap=5; tsr_overlap_rank=1/5; bsr_source_count=1,	 	resources={ 		oil=44 # was: 66 	}
+371,STATE_371,371,STATE_371,split,1.000,split; province_overlap=4; tsr_overlap_rank=2/5; bsr_source_count=1,	 	resources={ 		oil=44 # was: 66 	}
+371,STATE_371,845,STATE_845,split,1.000,split; province_overlap=2; tsr_overlap_rank=3/5; bsr_source_count=1,	 	resources={ 		oil=44 # was: 66 	}
+371,STATE_371,1615,STATE_1615,split,0.400,split; province_overlap=2; tsr_overlap_rank=4/5; bsr_source_count=1,	 	resources={ 		oil=44 # was: 66 	}
+371,STATE_371,1618,STATE_1618,split,1.000,split; province_overlap=1; tsr_overlap_rank=5/5; bsr_source_count=1,	 	resources={ 		oil=44 # was: 66 	}
+374,STATE_374,374,STATE_374,split,1.000,split; province_overlap=15; tsr_overlap_rank=1/2; bsr_source_count=1,	 	resources={ 		oil=60 # was: 100 		aluminium=20 # was: 32 	}
+374,STATE_374,849,STATE_849,split,1.000,split; province_overlap=1; tsr_overlap_rank=2/2; bsr_source_count=1,	 	resources={ 		oil=60 # was: 100 		aluminium=20 # was: 32 	}
+375,STATE_375,852,STATE_852,split,1.000,split; province_overlap=13; tsr_overlap_rank=1/8; bsr_source_count=1,	 	resources={ 		oil=320 # was: 580 		aluminium=50 # was: 96 		coal = 11 # initial distribution = with infra 35.2 / 1280 total 	}
+375,STATE_375,375,STATE_375,split,1.000,split; province_overlap=12; tsr_overlap_rank=2/8; bsr_source_count=1,	 	resources={ 		oil=320 # was: 580 		aluminium=50 # was: 96 		coal = 11 # initial distribution = with infra 35.2 / 1280 total 	}
+375,STATE_375,1699,STATE_1699,split,1.000,split; province_overlap=7; tsr_overlap_rank=3/8; bsr_source_count=1,	 	resources={ 		oil=320 # was: 580 		aluminium=50 # was: 96 		coal = 11 # initial distribution = with infra 35.2 / 1280 total 	}
+375,STATE_375,850,STATE_850,split,0.500,split; province_overlap=4; tsr_overlap_rank=4/8; bsr_source_count=1,	 	resources={ 		oil=320 # was: 580 		aluminium=50 # was: 96 		coal = 11 # initial distribution = with infra 35.2 / 1280 total 	}
+375,STATE_375,851,STATE_851,split,1.000,split; province_overlap=4; tsr_overlap_rank=5/8; bsr_source_count=1,	 	resources={ 		oil=320 # was: 580 		aluminium=50 # was: 96 		coal = 11 # initial distribution = with infra 35.2 / 1280 total 	}
+375,STATE_375,1616,STATE_1616,split,0.750,split; province_overlap=3; tsr_overlap_rank=6/8; bsr_source_count=1,	 	resources={ 		oil=320 # was: 580 		aluminium=50 # was: 96 		coal = 11 # initial distribution = with infra 35.2 / 1280 total 	}
+375,STATE_375,1698,STATE_1698,split,1.000,split; province_overlap=3; tsr_overlap_rank=7/8; bsr_source_count=1,	 	resources={ 		oil=320 # was: 580 		aluminium=50 # was: 96 		coal = 11 # initial distribution = with infra 35.2 / 1280 total 	}
+375,STATE_375,1697,STATE_1697,split,1.000,split; province_overlap=3; tsr_overlap_rank=8/8; bsr_source_count=1,	 	resources={ 		oil=320 # was: 580 		aluminium=50 # was: 96 		coal = 11 # initial distribution = with infra 35.2 / 1280 total 	}
+376,STATE_376,376,STATE_376,split,0.800,split; province_overlap=4; tsr_overlap_rank=1/7; bsr_source_count=1,	 	resources={ 		oil=14 # was: 20 		aluminium=30 # was: 52 		coal = 5 # initial distribution = with infra 8.4 / 1280 total 	}
+376,STATE_376,1200,STATE_1200,split,0.600,split; province_overlap=3; tsr_overlap_rank=2/7; bsr_source_count=1,	 	resources={ 		oil=14 # was: 20 		aluminium=30 # was: 52 		coal = 5 # initial distribution = with infra 8.4 / 1280 total 	}
+376,STATE_376,1623,STATE_1623,split,1.000,split; province_overlap=3; tsr_overlap_rank=3/7; bsr_source_count=1,	 	resources={ 		oil=14 # was: 20 		aluminium=30 # was: 52 		coal = 5 # initial distribution = with infra 8.4 / 1280 total 	}
+376,STATE_376,1064,STATE_1064,split,0.667,split; province_overlap=2; tsr_overlap_rank=4/7; bsr_source_count=1,	 	resources={ 		oil=14 # was: 20 		aluminium=30 # was: 52 		coal = 5 # initial distribution = with infra 8.4 / 1280 total 	}
+376,STATE_376,1199,STATE_1199,split,1.000,split; province_overlap=1; tsr_overlap_rank=5/7; bsr_source_count=1,	 	resources={ 		oil=14 # was: 20 		aluminium=30 # was: 52 		coal = 5 # initial distribution = with infra 8.4 / 1280 total 	}
+376,STATE_376,1567,STATE_1567,split,1.000,split; province_overlap=1; tsr_overlap_rank=6/7; bsr_source_count=1,	 	resources={ 		oil=14 # was: 20 		aluminium=30 # was: 52 		coal = 5 # initial distribution = with infra 8.4 / 1280 total 	}
+376,STATE_376,1873,STATE_1873,split,1.000,split; province_overlap=1; tsr_overlap_rank=7/7; bsr_source_count=1,	 	resources={ 		oil=14 # was: 20 		aluminium=30 # was: 52 		coal = 5 # initial distribution = with infra 8.4 / 1280 total 	}
+377,STATE_377,377,STATE_377,split,1.000,split; province_overlap=7; tsr_overlap_rank=1/4; bsr_source_count=1,	 	resources={ 		steel=20 # was: 40 		oil=5 # was: 10 		aluminium=8 # was: 16 	}
+377,STATE_377,1566,STATE_1566,split,1.000,split; province_overlap=3; tsr_overlap_rank=2/4; bsr_source_count=1,	 	resources={ 		steel=20 # was: 40 		oil=5 # was: 10 		aluminium=8 # was: 16 	}
+377,STATE_377,1874,STATE_1874,split,0.667,split; province_overlap=2; tsr_overlap_rank=3/4; bsr_source_count=1,	 	resources={ 		steel=20 # was: 40 		oil=5 # was: 10 		aluminium=8 # was: 16 	}
+377,STATE_377,1195,STATE_1195,split,0.500,split; province_overlap=2; tsr_overlap_rank=4/4; bsr_source_count=1,	 	resources={ 		steel=20 # was: 40 		oil=5 # was: 10 		aluminium=8 # was: 16 	}
+378,STATE_378,854,STATE_854,split,1.000,split; province_overlap=21; tsr_overlap_rank=1/13; bsr_source_count=1,	 	resources={ 		oil=180 # was: 350 		aluminium=8 # was: 14 	}
+378,STATE_378,378,STATE_378,split,1.000,split; province_overlap=5; tsr_overlap_rank=2/13; bsr_source_count=1,	 	resources={ 		oil=180 # was: 350 		aluminium=8 # was: 14 	}
+378,STATE_378,1694,STATE_1694,split,1.000,split; province_overlap=4; tsr_overlap_rank=3/13; bsr_source_count=1,	 	resources={ 		oil=180 # was: 350 		aluminium=8 # was: 14 	}
+378,STATE_378,1690,STATE_1690,split,1.000,split; province_overlap=4; tsr_overlap_rank=4/13; bsr_source_count=1,	 	resources={ 		oil=180 # was: 350 		aluminium=8 # was: 14 	}
+378,STATE_378,855,STATE_855,split,0.800,split; province_overlap=4; tsr_overlap_rank=5/13; bsr_source_count=1,	 	resources={ 		oil=180 # was: 350 		aluminium=8 # was: 14 	}
+378,STATE_378,1691,STATE_1691,split,1.000,split; province_overlap=4; tsr_overlap_rank=6/13; bsr_source_count=1,	 	resources={ 		oil=180 # was: 350 		aluminium=8 # was: 14 	}
+378,STATE_378,1695,STATE_1695,split,1.000,split; province_overlap=3; tsr_overlap_rank=7/13; bsr_source_count=1,	 	resources={ 		oil=180 # was: 350 		aluminium=8 # was: 14 	}
+378,STATE_378,1692,STATE_1692,split,1.000,split; province_overlap=3; tsr_overlap_rank=8/13; bsr_source_count=1,	 	resources={ 		oil=180 # was: 350 		aluminium=8 # was: 14 	}
+378,STATE_378,1693,STATE_1693,split,1.000,split; province_overlap=3; tsr_overlap_rank=9/13; bsr_source_count=1,	 	resources={ 		oil=180 # was: 350 		aluminium=8 # was: 14 	}
+378,STATE_378,1689,STATE_1689,split,1.000,split; province_overlap=2; tsr_overlap_rank=10/13; bsr_source_count=1,	 	resources={ 		oil=180 # was: 350 		aluminium=8 # was: 14 	}
+378,STATE_378,1696,STATE_1696,split,1.000,split; province_overlap=2; tsr_overlap_rank=11/13; bsr_source_count=1,	 	resources={ 		oil=180 # was: 350 		aluminium=8 # was: 14 	}
+378,STATE_378,1518,STATE_1518,split,1.000,split; province_overlap=1; tsr_overlap_rank=12/13; bsr_source_count=1,	 	resources={ 		oil=180 # was: 350 		aluminium=8 # was: 14 	}
+378,STATE_378,1517,STATE_1517,split,1.000,split; province_overlap=1; tsr_overlap_rank=13/13; bsr_source_count=1,	 	resources={ 		oil=180 # was: 350 		aluminium=8 # was: 14 	}
+379,STATE_379,379,STATE_379,split,1.000,split; province_overlap=9; tsr_overlap_rank=1/3; bsr_source_count=1,	 	resources = { 		steel = 70 # was: 136 		tungsten = 32 # was: 62 		aluminium = 25 # was: 44 	}
+379,STATE_379,853,STATE_853,split,1.000,split; province_overlap=4; tsr_overlap_rank=2/3; bsr_source_count=1,	 	resources = { 		steel = 70 # was: 136 		tungsten = 32 # was: 62 		aluminium = 25 # was: 44 	}
+379,STATE_379,1676,STATE_1676,split,0.500,split; province_overlap=1; tsr_overlap_rank=3/3; bsr_source_count=1,	 	resources = { 		steel = 70 # was: 136 		tungsten = 32 # was: 62 		aluminium = 25 # was: 44 	}
+380,STATE_380,380,STATE_380,split,1.000,split; province_overlap=12; tsr_overlap_rank=1/2; bsr_source_count=1,	 	resources={ 		tungsten=76 # was: 106 		coal = 4 #initial distribution = with infra 5.6 / 1280 total 	}
+380,STATE_380,1875,STATE_1875,split,1.000,split; province_overlap=1; tsr_overlap_rank=2/2; bsr_source_count=1,	 	resources={ 		tungsten=76 # was: 106 		coal = 4 #initial distribution = with infra 5.6 / 1280 total 	}
+381,STATE_381,1862,STATE_1862,split,1.000,split; province_overlap=5; tsr_overlap_rank=1/6; bsr_source_count=1, 	resources = { 		coal = 7 #initial distributionn = with infra 12.6 / 1280 total 	}
+381,STATE_381,381,STATE_381,split,0.667,split; province_overlap=4; tsr_overlap_rank=2/6; bsr_source_count=1, 	resources = { 		coal = 7 #initial distributionn = with infra 12.6 / 1280 total 	}
+381,STATE_381,1652,STATE_1652,split,1.000,split; province_overlap=1; tsr_overlap_rank=3/6; bsr_source_count=1, 	resources = { 		coal = 7 #initial distributionn = with infra 12.6 / 1280 total 	}
+381,STATE_381,1290,STATE_1290,split,1.000,split; province_overlap=1; tsr_overlap_rank=4/6; bsr_source_count=1, 	resources = { 		coal = 7 #initial distributionn = with infra 12.6 / 1280 total 	}
+381,STATE_381,1150,STATE_1150,split,1.000,split; province_overlap=1; tsr_overlap_rank=5/6; bsr_source_count=1, 	resources = { 		coal = 7 #initial distributionn = with infra 12.6 / 1280 total 	}
+381,STATE_381,846,STATE_846,split,0.500,split; province_overlap=1; tsr_overlap_rank=6/6; bsr_source_count=1, 	resources = { 		coal = 7 #initial distributionn = with infra 12.6 / 1280 total 	}
+382,STATE_382,847,STATE_847,split,1.000,split; province_overlap=8; tsr_overlap_rank=1/4; bsr_source_count=1,	resources={ 		oil=14 # was: 20 		coal = 7 # initial distribution = with infra 14 / 1280 total 	}
+382,STATE_382,382,STATE_382,split,1.000,split; province_overlap=5; tsr_overlap_rank=2/4; bsr_source_count=1,	resources={ 		oil=14 # was: 20 		coal = 7 # initial distribution = with infra 14 / 1280 total 	}
+382,STATE_382,1632,STATE_1632,split,0.500,split; province_overlap=2; tsr_overlap_rank=3/4; bsr_source_count=1,	resources={ 		oil=14 # was: 20 		coal = 7 # initial distribution = with infra 14 / 1280 total 	}
+382,STATE_382,1065,STATE_1065,split,0.667,split; province_overlap=2; tsr_overlap_rank=4/4; bsr_source_count=1,	resources={ 		oil=14 # was: 20 		coal = 7 # initial distribution = with infra 14 / 1280 total 	}
+383,STATE_383,383,STATE_383,split,1.000,split; province_overlap=14; tsr_overlap_rank=1/2; bsr_source_count=1,	resources={ 		oil=30 # was: 42 		coal = 4 #initial distribution = with infra 5.6 / 1280 total 	}
+383,STATE_383,848,STATE_848,split,1.000,split; province_overlap=1; tsr_overlap_rank=2/2; bsr_source_count=1,	resources={ 		oil=30 # was: 42 		coal = 4 #initial distribution = with infra 5.6 / 1280 total 	}
+387,STATE_387,387,STATE_387,split,1.000,split; province_overlap=10; tsr_overlap_rank=1/2; bsr_source_count=1,	 	resources={ 		steel=18 # was: 32 		chromium=1 # was: 2 		tungsten=18 # was: 34 	}
+387,STATE_387,1641,STATE_1641,split,1.000,split; province_overlap=3; tsr_overlap_rank=2/2; bsr_source_count=1,	 	resources={ 		steel=18 # was: 32 		chromium=1 # was: 2 		tungsten=18 # was: 34 	}
+388,STATE_388,388,STATE_388,split,0.941,split; province_overlap=16; tsr_overlap_rank=1/3; bsr_source_count=1, 	resources = { 		tungsten = 11 # was: 16 		coal = 7 # initial distribution = with infra 12.6 / 1280 total 	}
+388,STATE_388,1859,STATE_1859,split,1.000,split; province_overlap=4; tsr_overlap_rank=2/3; bsr_source_count=1, 	resources = { 		tungsten = 11 # was: 16 		coal = 7 # initial distribution = with infra 12.6 / 1280 total 	}
+388,STATE_388,859,STATE_859,split,1.000,split; province_overlap=3; tsr_overlap_rank=3/3; bsr_source_count=1, 	resources = { 		tungsten = 11 # was: 16 		coal = 7 # initial distribution = with infra 12.6 / 1280 total 	}
+389,STATE_389,389,STATE_389,split,1.000,split; province_overlap=5; tsr_overlap_rank=1/3; bsr_source_count=1,	resources={ 		steel=17 # was: 24 		oil=7 # was: 10 		coal = 12 # initial distribution = with infra 25.2 / 1280 total 	}
+389,STATE_389,1610,STATE_1610,split,0.800,split; province_overlap=4; tsr_overlap_rank=2/3; bsr_source_count=1,	resources={ 		steel=17 # was: 24 		oil=7 # was: 10 		coal = 12 # initial distribution = with infra 25.2 / 1280 total 	}
+389,STATE_389,1863,STATE_1863,split,1.000,split; province_overlap=3; tsr_overlap_rank=3/3; bsr_source_count=1,	resources={ 		steel=17 # was: 24 		oil=7 # was: 10 		coal = 12 # initial distribution = with infra 25.2 / 1280 total 	}
+391,STATE_391,391,STATE_391,split,1.000,split; province_overlap=11; tsr_overlap_rank=1/4; bsr_source_count=1, 	resources={ 		steel=110 # was: 208 	}
+391,STATE_391,857,STATE_857,split,1.000,split; province_overlap=6; tsr_overlap_rank=2/4; bsr_source_count=1, 	resources={ 		steel=110 # was: 208 	}
+391,STATE_391,1608,STATE_1608,split,0.667,split; province_overlap=2; tsr_overlap_rank=3/4; bsr_source_count=1, 	resources={ 		steel=110 # was: 208 	}
+391,STATE_391,1889,STATE_1889,split,1.000,split; province_overlap=1; tsr_overlap_rank=4/4; bsr_source_count=1, 	resources={ 		steel=110 # was: 208 	}
+393,STATE_393,393,STATE_393,split,1.000,split; province_overlap=19; tsr_overlap_rank=1/2; bsr_source_count=1,	resources={ 		steel=60 # was: 112.000 		oil=6 # was: 10.000 	}
+393,STATE_393,856,STATE_856,split,1.000,split; province_overlap=5; tsr_overlap_rank=2/2; bsr_source_count=1,	resources={ 		steel=60 # was: 112.000 		oil=6 # was: 10.000 	}
+402,STATE_402,402,STATE_402,merge,0.880,split+merge; province_overlap=22; tsr_overlap_rank=1/3; bsr_source_count=2,	resources={ 		chromium=15.000 	}
+402,STATE_402,999,STATE_999,split,1.000,split; province_overlap=7; tsr_overlap_rank=2/3; bsr_source_count=1,	resources={ 		chromium=15.000 	}
+402,STATE_402,1469,STATE_1469,merge,0.250,split+merge; province_overlap=3; tsr_overlap_rank=3/3; bsr_source_count=2,	resources={ 		chromium=15.000 	}
+408,STATE_408,1407,STATE_1407,split,1.000,split; province_overlap=34; tsr_overlap_rank=1/2; bsr_source_count=1,	resources = { 		chromium=20 # was: 28 	}
+408,STATE_408,408,STATE_408,split,1.000,split; province_overlap=1; tsr_overlap_rank=2/2; bsr_source_count=1,	resources = { 		chromium=20 # was: 28 	}
+409,STATE_409,409,STATE_409,split,1.000,split; province_overlap=24; tsr_overlap_rank=1/2; bsr_source_count=1,	resources = { 		chromium = 9 # was: 12 	}
+409,STATE_409,970,STATE_970,split,1.000,split; province_overlap=2; tsr_overlap_rank=2/2; bsr_source_count=1,	resources = { 		chromium = 9 # was: 12 	}
+411,Isfahan,411,STATE_411,merge,0.833,split+merge; province_overlap=5; tsr_overlap_rank=1/2; bsr_source_count=2,	resources={ 		oil=12 # was: 14 		chromium=7 		steel=2 	}
+411,Isfahan,1394,STATE_1394,merge,0.500,split+merge; province_overlap=1; tsr_overlap_rank=2/2; bsr_source_count=2,	resources={ 		oil=12 # was: 14 		chromium=7 		steel=2 	}
+412,STATE_412,412,STATE_412,merge,0.900,merge; province_overlap=9; bsr_source_count=3, 	resources = { 		oil = 10 # was: 12 	}
+413,STATE_413,413,STATE_413,split,1.000,split; province_overlap=2; tsr_overlap_rank=1/3; bsr_source_count=1,	resources={ 		oil=28 # was: 42 	}
+413,STATE_413,412,STATE_412,merge,0.250,split+merge; province_overlap=1; tsr_overlap_rank=2/3; bsr_source_count=3,	resources={ 		oil=28 # was: 42 	}
+413,STATE_413,1249,STATE_1249,split,0.500,split; province_overlap=1; tsr_overlap_rank=3/3; bsr_source_count=1,	resources={ 		oil=28 # was: 42 	}
+417,Hamadan,417,STATE_417,merge,0.667,split+merge; province_overlap=2; tsr_overlap_rank=1/3; bsr_source_count=2, 	resources = { 		steel=4 		chromium=5 	}
+417,Hamadan,1392,STATE_1392,merge,0.667,split+merge; province_overlap=2; tsr_overlap_rank=2/3; bsr_source_count=2, 	resources = { 		steel=4 		chromium=5 	}
+417,Hamadan,1394,STATE_1394,merge,0.500,split+merge; province_overlap=1; tsr_overlap_rank=3/3; bsr_source_count=2, 	resources = { 		steel=4 		chromium=5 	}
+419,STATE_419,1086,STATE_1086,split,0.750,split; province_overlap=3; tsr_overlap_rank=1/2; bsr_source_count=1,	resources = { 	}
+419,STATE_419,419,STATE_419,merge,0.200,split+merge; province_overlap=1; tsr_overlap_rank=2/2; bsr_source_count=2,	resources = { 	}
+422,STATE_422,422,STATE_422,split,1.000,split; province_overlap=5; tsr_overlap_rank=1/2; bsr_source_count=1, 	resources={ 		rubber=60 # was: 116 	}
+422,STATE_422,1817,STATE_1817,split,1.000,split; province_overlap=3; tsr_overlap_rank=2/2; bsr_source_count=1, 	resources={ 		rubber=60 # was: 116 	}
+425,Mysore,1946,Mysore,split,0.875,split; province_overlap=7; tsr_overlap_rank=1/3; bsr_source_count=1,	 	resources={ 		chromium=10 # was: 20 		steel = 12 	}
+425,Mysore,425,Mysore,split,0.600,split; province_overlap=3; tsr_overlap_rank=2/3; bsr_source_count=1,	 	resources={ 		chromium=10 # was: 20 		steel = 12 	}
+425,Mysore,1949,Mysore,split,0.500,split; province_overlap=2; tsr_overlap_rank=3/3; bsr_source_count=1,	 	resources={ 		chromium=10 # was: 20 		steel = 12 	}
+432,STATE_432,432,STATE_432,split,0.833,split; province_overlap=10; tsr_overlap_rank=1/2; bsr_source_count=1,	resources={ 		oil=5.000 		coal = 1 #initial distribution 	}
+432,STATE_432,430,STATE_430,merge,0.111,split+merge; province_overlap=1; tsr_overlap_rank=2/2; bsr_source_count=2,	resources={ 		oil=5.000 		coal = 1 #initial distribution 	}
+442,STATE_442,442,STATE_442,merge,1.000,merge; province_overlap=3; bsr_source_count=3,	resources={ 		steel=3 	}
+444,STATE_444,444,STATE_444,split,1.000,split; province_overlap=4; tsr_overlap_rank=1/2; bsr_source_count=1,	resources={ 		oil=3 	}
+444,STATE_444,1881,STATE_1881,split,1.000,split; province_overlap=1; tsr_overlap_rank=2/2; bsr_source_count=1,	resources={ 		oil=3 	}
+447,STATE_447,447,STATE_447,split,0.800,split; province_overlap=4; tsr_overlap_rank=1/2; bsr_source_count=1,	resources={ 		oil=1 # was: 2 		tungsten = 3 #maganese 		steel = 3 #Maganese 		 	}
+447,STATE_447,1274,STATE_1274,merge,0.750,split+merge; province_overlap=3; tsr_overlap_rank=2/2; bsr_source_count=2,	resources={ 		oil=1 # was: 2 		tungsten = 3 #maganese 		steel = 3 #Maganese 		 	}
+458,STATE_458,458,STATE_458,split,1.000,split; province_overlap=9; tsr_overlap_rank=1/2; bsr_source_count=1,	resources={ 		steel=31 #was 14 # was: 8 	}
+458,STATE_458,1935,STATE_1935,split,1.000,split; province_overlap=3; tsr_overlap_rank=2/2; bsr_source_count=1,	resources={ 		steel=31 #was 14 # was: 8 	}
+459,Algiers,1577,STATE_1577,merge,0.700,split+merge; province_overlap=7; tsr_overlap_rank=1/2; bsr_source_count=2,	 	resources={ 		steel=65 # was:26 was: 36 		coal = 2 #initial distribution 	}
+459,Algiers,459,STATE_459,merge,0.333,split+merge; province_overlap=3; tsr_overlap_rank=2/2; bsr_source_count=2,	 	resources={ 		steel=65 # was:26 was: 36 		coal = 2 #initial distribution 	}
+466,STATE_466,1658,STATE_1658,split,0.833,split; province_overlap=5; tsr_overlap_rank=1/3; bsr_source_count=1,	resources = { 		aluminium = 4.000 	}
+466,STATE_466,683,STATE_683,merge,0.188,split+merge; province_overlap=3; tsr_overlap_rank=2/3; bsr_source_count=2,	resources = { 		aluminium = 4.000 	}
+466,STATE_466,1687,STATE_1687,merge,0.250,split+merge; province_overlap=2; tsr_overlap_rank=3/3; bsr_source_count=3,	resources = { 		aluminium = 4.000 	}
+468,Saint Lawrence,842,STATE_842,split,1.000,split; province_overlap=11; tsr_overlap_rank=1/2; bsr_source_count=1,	 	resources = { 		aluminium = 3 # was: 4 	}
+468,Saint Lawrence,468,STATE_468,split,1.000,split; province_overlap=4; tsr_overlap_rank=2/2; bsr_source_count=1,	 	resources = { 		aluminium = 3 # was: 4 	}
+470,STATE_470,470,STATE_470,merge,1.000,merge; province_overlap=17; bsr_source_count=2, 	resources = { 		coal = 5 # initial distribution = with infra 9.6 / 36 total 	}
+473,STATE_473,473,STATE_473,merge,0.773,split+merge; province_overlap=17; tsr_overlap_rank=1/3; bsr_source_count=2,	resources={ 		oil=1 # was: 2 		coal=4 # initial distribtuion = with infra 6.4 / 36 total 	}
+473,STATE_473,1418,STATE_1418,split,1.000,split; province_overlap=3; tsr_overlap_rank=2/3; bsr_source_count=1,	resources={ 		oil=1 # was: 2 		coal=4 # initial distribtuion = with infra 6.4 / 36 total 	}
+473,STATE_473,1419,STATE_1419,merge,0.333,split+merge; province_overlap=2; tsr_overlap_rank=3/3; bsr_source_count=2,	resources={ 		oil=1 # was: 2 		coal=4 # initial distribtuion = with infra 6.4 / 36 total 	}
+476,STATE_476,1844,STATE_1844,split,1.000,split; province_overlap=3; tsr_overlap_rank=1/2; bsr_source_count=1, 	resources={ 		oil=8 	}
+476,STATE_476,476,STATE_476,split,1.000,split; province_overlap=2; tsr_overlap_rank=2/2; bsr_source_count=1, 	resources={ 		oil=8 	}
+478,Jalisco,478,Jalisco,split,1.000,split; province_overlap=5; tsr_overlap_rank=1/2; bsr_source_count=1,	 	resources={ 		tungsten=8 # was: 10 	}
+478,Jalisco,479,STATE_479,merge,0.200,split+merge; province_overlap=1; tsr_overlap_rank=2/2; bsr_source_count=4,	 	resources={ 		tungsten=8 # was: 10 	}
+479,STATE_479,1843,STATE_1843,split,1.000,split; province_overlap=5; tsr_overlap_rank=1/2; bsr_source_count=1, 	resources = { 		oil = 9 		#steel=2 moved to Guerrero 	}
+479,STATE_479,479,STATE_479,merge,0.400,split+merge; province_overlap=2; tsr_overlap_rank=2/2; bsr_source_count=4, 	resources = { 		oil = 9 		#steel=2 moved to Guerrero 	}
+480,STATE_480,480,STATE_480,split,1.000,split; province_overlap=8; tsr_overlap_rank=1/2; bsr_source_count=1,	 	resources = { 		oil = 8 		coal = 3 # initial distribution = with infra 3.6 / 4 total 		#steel=4 sent to Mexico City 	}
+480,STATE_480,479,STATE_479,merge,0.200,split+merge; province_overlap=1; tsr_overlap_rank=2/2; bsr_source_count=4,	 	resources = { 		oil = 8 		coal = 3 # initial distribution = with infra 3.6 / 4 total 		#steel=4 sent to Mexico City 	}
+481,Durango,481,Durango,split,1.000,split; province_overlap=5; tsr_overlap_rank=1/3; bsr_source_count=1,	 	resources = { 		coal = 1 # initial distribution = with infra 1.4 / 4 total - includes Sonora and Chihauha 	}
+481,Durango,1848,STATE_1848,split,1.000,split; province_overlap=3; tsr_overlap_rank=2/3; bsr_source_count=1,	 	resources = { 		coal = 1 # initial distribution = with infra 1.4 / 4 total - includes Sonora and Chihauha 	}
+481,Durango,479,STATE_479,merge,0.200,split+merge; province_overlap=1; tsr_overlap_rank=3/3; bsr_source_count=4,	 	resources = { 		coal = 1 # initial distribution = with infra 1.4 / 4 total - includes Sonora and Chihauha 	}
+485,STATE_485,485,STATE_485,split,1.000,split; province_overlap=4; tsr_overlap_rank=1/2; bsr_source_count=1, 	resources={ 		steel=4 #was 2 	}
+485,STATE_485,1846,STATE_1846,split,1.000,split; province_overlap=1; tsr_overlap_rank=2/2; bsr_source_count=1, 	resources={ 		steel=4 #was 2 	}
+489,Zulia,489,Zulia,split,1.000,split; province_overlap=5; tsr_overlap_rank=1/2; bsr_source_count=1,	 	resources={ 		oil=35 # was: 126 		coal = 1 # initial distribution = with infra 1.4 / 1 total 	}
+489,Zulia,1834,STATE_1834,split,1.000,split; province_overlap=2; tsr_overlap_rank=2/2; bsr_source_count=1,	 	resources={ 		oil=35 # was: 126 		coal = 1 # initial distribution = with infra 1.4 / 1 total 	}
+492,STATE_492,492,STATE_492,merge,0.833,merge; province_overlap=5; bsr_source_count=2, 	resources = { 		tungsten = 6 	}
+496,Minas Gerais,496,Minas Gerais,split,1.000,split; province_overlap=22; tsr_overlap_rank=1/2; bsr_source_count=1,	 	resources = { 		steel = 3 # was: 4 		aluminium = 4   	}
+496,Minas Gerais,500,STATE_500,merge,0.200,split+merge; province_overlap=1; tsr_overlap_rank=2/2; bsr_source_count=2,	 	resources = { 		steel = 3 # was: 4 		aluminium = 4   	}
+499,STATE_499,499,STATE_499,split,1.000,split; province_overlap=15; tsr_overlap_rank=1/2; bsr_source_count=1, 	resources = { 		chromium = 3 	}
+499,STATE_499,1897,STATE_1897,split,1.000,split; province_overlap=1; tsr_overlap_rank=2/2; bsr_source_count=1, 	resources = { 		chromium = 3 	}
+502,STATE_502,502,STATE_502,split,0.727,split; province_overlap=8; tsr_overlap_rank=1/3; bsr_source_count=1,	 	resources = { 		coal = 8 # initial distribution = with infra 3.2 / 3 total	#boosted by 6 to reduce US import necessity 	}
+502,STATE_502,1688,STATE_1688,split,1.000,split; province_overlap=3; tsr_overlap_rank=2/3; bsr_source_count=1,	 	resources = { 		coal = 8 # initial distribution = with infra 3.2 / 3 total	#boosted by 6 to reduce US import necessity 	}
+502,STATE_502,1900,STATE_1900,split,1.000,split; province_overlap=2; tsr_overlap_rank=3/3; bsr_source_count=1,	 	resources = { 		coal = 8 # initial distribution = with infra 3.2 / 3 total	#boosted by 6 to reduce US import necessity 	}
+503,STATE_503,1578,STATE_1578,merge,0.750,split+merge; province_overlap=3; tsr_overlap_rank=1/2; bsr_source_count=2,	  	resources = { 		coal = 1 # initial distribution = with infra 1.4 / 3 total 	}
+503,STATE_503,1481,STATE_1481,split,1.000,split; province_overlap=1; tsr_overlap_rank=2/2; bsr_source_count=1,	  	resources = { 		coal = 1 # initial distribution = with infra 1.4 / 3 total 	}
+505,STATE_505,505,STATE_505,split,1.000,split; province_overlap=5; tsr_overlap_rank=1/2; bsr_source_count=1, 	resources = { 		aluminium = 3 		chromium = 3 	}
+505,STATE_505,280,STATE_280,merge,0.167,split+merge; province_overlap=1; tsr_overlap_rank=2/2; bsr_source_count=3, 	resources = { 		aluminium = 3 		chromium = 3 	}
+506,Antofagasta,916,STATE_916,merge,0.500,split+merge; province_overlap=2; tsr_overlap_rank=1/2; bsr_source_count=2, 	resources = { 		tungsten = 42 # In replacement of Nitrate 		coal = 1 # initial distribution = with infra 1.6 / 6 total 	}
+506,Antofagasta,1579,STATE_1579,merge,0.333,split+merge; province_overlap=1; tsr_overlap_rank=2/2; bsr_source_count=2, 	resources = { 		tungsten = 42 # In replacement of Nitrate 		coal = 1 # initial distribution = with infra 1.6 / 6 total 	}
+507,Magallanes,1829,Magallanes,split,1.000,split; province_overlap=3; tsr_overlap_rank=1/2; bsr_source_count=1, 	resources = { 		oil = 2 		coal = 4 #initial distribution = with infra 5 / 6 total 	}
+507,Magallanes,507,Magallanes,merge,0.200,split+merge; province_overlap=1; tsr_overlap_rank=2/2; bsr_source_count=2, 	resources = { 		oil = 2 		coal = 4 #initial distribution = with infra 5 / 6 total 	}
+509,Chaco Australis,509,Chaco Australis,merge,1.000,merge; province_overlap=8; bsr_source_count=2,"	 	resources = { 		tungsten = 30 # was: 46, then 35 		steel = 4 # was: 8, then 6 	}"
+510,STATE_510,1796,STATE_1796,split,1.000,split; province_overlap=3; tsr_overlap_rank=1/4; bsr_source_count=1, 	resources = { 		oil = 2 		rubber = 3 	}
+510,STATE_510,510,STATE_510,split,1.000,split; province_overlap=3; tsr_overlap_rank=2/4; bsr_source_count=1, 	resources = { 		oil = 2 		rubber = 3 	}
+510,STATE_510,1300,STATE_1300,merge,0.333,split+merge; province_overlap=1; tsr_overlap_rank=3/4; bsr_source_count=2, 	resources = { 		oil = 2 		rubber = 3 	}
+510,STATE_510,1797,STATE_1797,split,1.000,split; province_overlap=1; tsr_overlap_rank=4/4; bsr_source_count=1, 	resources = { 		oil = 2 		rubber = 3 	}
+512,STATE_512,1907,STATE_1907,merge,0.571,split+merge; province_overlap=4; tsr_overlap_rank=1/3; bsr_source_count=2,	 	resources = { 		oil = 3 	}
+512,STATE_512,1906,STATE_1906,split,1.000,split; province_overlap=3; tsr_overlap_rank=2/3; bsr_source_count=1,	 	resources = { 		oil = 3 	}
+512,STATE_512,511,Mendoza,merge,0.222,split+merge; province_overlap=2; tsr_overlap_rank=3/3; bsr_source_count=3,	 	resources = { 		oil = 3 	}
+521,STATE_521,521,STATE_521,merge,1.000,merge; province_overlap=31; bsr_source_count=3,	resources={ 		tungsten=24.000 		coal = 4 #initial distribution 	}
+525,STATE_525,525,STATE_525,split,1.000,split; province_overlap=3; tsr_overlap_rank=1/2; bsr_source_count=1, 	resources = { 	}
+525,STATE_525,903,STATE_903,merge,0.250,split+merge; province_overlap=1; tsr_overlap_rank=2/2; bsr_source_count=2, 	resources = { 	}
+526,STATE_526,526,STATE_526,split,1.000,split; province_overlap=2; tsr_overlap_rank=1/2; bsr_source_count=1, 	resources = { 		coal = 4 # Represents the Iriomote and Utara coal mines (and quite a few more) 	}
+526,STATE_526,971,STATE_971,split,1.000,split; province_overlap=2; tsr_overlap_rank=2/2; bsr_source_count=1, 	resources = { 		coal = 4 # Represents the Iriomote and Utara coal mines (and quite a few more) 	}
+527,STATE_527,527,STATE_527,merge,0.667,split+merge; province_overlap=12; tsr_overlap_rank=1/3; bsr_source_count=2, 	resources = { 		steel = 8 # was: 30 		tungsten = 8 # was: 52 - moved 10 to South Korea and the Sangdong province 	}
+527,STATE_527,908,STATE_908,split,1.000,split; province_overlap=4; tsr_overlap_rank=2/3; bsr_source_count=1, 	resources = { 		steel = 8 # was: 30 		tungsten = 8 # was: 52 - moved 10 to South Korea and the Sangdong province 	}
+527,STATE_527,907,STATE_907,merge,0.333,split+merge; province_overlap=1; tsr_overlap_rank=3/3; bsr_source_count=2, 	resources = { 		steel = 8 # was: 30 		tungsten = 8 # was: 52 - moved 10 to South Korea and the Sangdong province 	}
+528,North Kyushu,528,STATE_528,split,1.000,split; province_overlap=7; tsr_overlap_rank=1/3; bsr_source_count=1," 	resources = { 		chromium = 32 # was: 88, then 52 		coal = 15 # initial distribution 	}"
+528,North Kyushu,967,STATE_967,merge,0.400,split+merge; province_overlap=2; tsr_overlap_rank=2/3; bsr_source_count=2," 	resources = { 		chromium = 32 # was: 88, then 52 		coal = 15 # initial distribution 	}"
+528,North Kyushu,962,STATE_962,split,1.000,split; province_overlap=1; tsr_overlap_rank=3/3; bsr_source_count=1," 	resources = { 		chromium = 32 # was: 88, then 52 		coal = 15 # initial distribution 	}"
+531,Kansai,531,STATE_531,split,1.000,split; province_overlap=9; tsr_overlap_rank=1/2; bsr_source_count=1,	resources = { 		aluminium = 3 # was: 6 	}
+531,Kansai,965,STATE_965,split,1.000,split; province_overlap=2; tsr_overlap_rank=2/2; bsr_source_count=1,	resources = { 		aluminium = 3 # was: 6 	}
+533,North Tohoku,533,STATE_533,merge,1.000,merge; province_overlap=11; bsr_source_count=2,"	resources = { 		steel = 10 # was: 35, then 15 		oil = 3 #Should be located in the northern state after the split 		coal = 2 #initial distribution 	}"
+534,"was Hokuriku, is actually Kōshin'etsu",534,Hokuriku,split,1.000,split; province_overlap=6; tsr_overlap_rank=1/2; bsr_source_count=1,	resources = { 		oil = 3 	}
+534,"was Hokuriku, is actually Kōshin'etsu",535,Koshinetsu,merge,0.200,split+merge; province_overlap=1; tsr_overlap_rank=2/2; bsr_source_count=2,	resources = { 		oil = 3 	}
+535,"was Koshinetsu, is actually Hokuriku",535,Koshinetsu,merge,1.000,merge; province_overlap=4; bsr_source_count=2,	 	resources = { 		steel = 27 # was: 35 		tungsten = 8 # was: 10 	}
+538,STATE_538,538,STATE_538,merge,0.714,split+merge; province_overlap=5; tsr_overlap_rank=1/2; bsr_source_count=3,	resources = { 		rubber = 5.000 	}
+538,STATE_538,1137,STATE_1137,split,1.000,split; province_overlap=4; tsr_overlap_rank=2/2; bsr_source_count=1,	resources = { 		rubber = 5.000 	}
+542,STATE_542,542,STATE_542,split,1.000,split; province_overlap=2; tsr_overlap_rank=1/4; bsr_source_count=1,	 	resources={ 		chromium=90 # was: 168 	}
+542,STATE_542,1534,STATE_1534,split,0.500,split; province_overlap=1; tsr_overlap_rank=2/4; bsr_source_count=1,	 	resources={ 		chromium=90 # was: 168 	}
+542,STATE_542,1537,STATE_1537,split,1.000,split; province_overlap=1; tsr_overlap_rank=3/4; bsr_source_count=1,	 	resources={ 		chromium=90 # was: 168 	}
+542,STATE_542,1536,STATE_1536,split,1.000,split; province_overlap=1; tsr_overlap_rank=4/4; bsr_source_count=1,	 	resources={ 		chromium=90 # was: 168 	}
+546,STATE_546,546,STATE_546,split,1.000,split; province_overlap=11; tsr_overlap_rank=1/3; bsr_source_count=1,	resources={ 		rubber=2 # was: 2 	}
+546,STATE_546,1525,STATE_1525,split,1.000,split; province_overlap=5; tsr_overlap_rank=2/3; bsr_source_count=1,	resources={ 		rubber=2 # was: 2 	}
+546,STATE_546,1526,STATE_1526,split,1.000,split; province_overlap=2; tsr_overlap_rank=3/3; bsr_source_count=1,	resources={ 		rubber=2 # was: 2 	}
+548,STATE_548,548,STATE_548,split,1.000,split; province_overlap=5; tsr_overlap_rank=1/2; bsr_source_count=1,	resources={ 		rubber=3 # was: 4 	}
+548,STATE_548,1197,STATE_1197,split,1.000,split; province_overlap=1; tsr_overlap_rank=2/2; bsr_source_count=1,	resources={ 		rubber=3 # was: 4 	}
+558,STATE_558,1110,STATE_1110,split,1.000,split; province_overlap=4; tsr_overlap_rank=1/2; bsr_source_count=1, 	resources = { 		rubber = 2.000 	}
+558,STATE_558,558,STATE_558,merge,0.200,split+merge; province_overlap=1; tsr_overlap_rank=2/2; bsr_source_count=4, 	resources = { 		rubber = 2.000 	}
+559,STATE_559,559,STATE_559,split,1.000,split; province_overlap=8; tsr_overlap_rank=1/2; bsr_source_count=1,	resources = { 		steel = 1 	}
+559,STATE_559,1088,STATE_1088,split,1.000,split; province_overlap=4; tsr_overlap_rank=2/2; bsr_source_count=1,	resources = { 		steel = 1 	}
+560,Nikolayevsk,560,STATE_560,split,1.000,split; province_overlap=11; tsr_overlap_rank=1/2; bsr_source_count=1,	resources={ 		steel=18 # was: 24 	}
+560,Nikolayevsk,1090,STATE_1090,split,1.000,split; province_overlap=5; tsr_overlap_rank=2/2; bsr_source_count=1,	resources={ 		steel=18 # was: 24 	}
+563,Chita,563,STATE_563,merge,1.000,merge; province_overlap=21; bsr_source_count=2,	resources = { 		steel=9 # was: 12 		chromium=8 # was: 10 	}
+581,STATE_581,581,STATE_581,split,0.600,split; province_overlap=3; tsr_overlap_rank=1/2; bsr_source_count=1,	 	resources = { 		chromium = 40 # was: 44 		aluminium = 27 # was: 30 	}
+581,STATE_581,397,STATE_397,merge,0.400,split+merge; province_overlap=2; tsr_overlap_rank=2/2; bsr_source_count=3,	 	resources = { 		chromium = 40 # was: 44 		aluminium = 27 # was: 30 	}
+586,STATE_586,586,STATE_586,merge,1.000,merge; province_overlap=10; bsr_source_count=2,	resources={ 		steel=20.000 		chromium=12.000 		tungsten=4.000 		aluminium=10.000 	}
+588,Semipalatinsk,588,STATE_588,merge,0.550,split+merge; province_overlap=11; tsr_overlap_rank=1/4; bsr_source_count=2,	 	resources = { 		chromium = 10  	}
+588,Semipalatinsk,1250,STATE_1250,split,1.000,split; province_overlap=5; tsr_overlap_rank=2/4; bsr_source_count=1,	 	resources = { 		chromium = 10  	}
+588,Semipalatinsk,589,STATE_589,merge,0.250,split+merge; province_overlap=2; tsr_overlap_rank=3/4; bsr_source_count=2,	 	resources = { 		chromium = 10  	}
+588,Semipalatinsk,1477,STATE_1477,split,1.000,split; province_overlap=1; tsr_overlap_rank=4/4; bsr_source_count=1,	 	resources = { 		chromium = 10  	}
+592,STATE_592,592,STATE_592,merge,0.889,split+merge; province_overlap=8; tsr_overlap_rank=1/3; bsr_source_count=2,	resources={ 		tungsten=8 # was: 10 		steel= 15 # was: 20 		chromium = 3 # was: 4 	}
+592,STATE_592,1202,STATE_1202,merge,0.250,split+merge; province_overlap=2; tsr_overlap_rank=2/3; bsr_source_count=2,	resources={ 		tungsten=8 # was: 10 		steel= 15 # was: 20 		chromium = 3 # was: 4 	}
+592,STATE_592,1344,STATE_1344,split,1.000,split; province_overlap=1; tsr_overlap_rank=3/3; bsr_source_count=1,	resources={ 		tungsten=8 # was: 10 		steel= 15 # was: 20 		chromium = 3 # was: 4 	}
+593,STATE_593,593,STATE_593,split,1.000,split; province_overlap=13; tsr_overlap_rank=1/2; bsr_source_count=1, 	resources = { 		tungsten = 15 # was: 20 		steel = 15 # was: 20 		chromium = 3 # was: 4 	}
+593,STATE_593,1202,STATE_1202,merge,0.750,split+merge; province_overlap=6; tsr_overlap_rank=2/2; bsr_source_count=2, 	resources = { 		tungsten = 15 # was: 20 		steel = 15 # was: 20 		chromium = 3 # was: 4 	}
+594,STATE_594,599,STATE_599,split,0.929,split; province_overlap=13; tsr_overlap_rank=1/2; bsr_source_count=1,	resources = { 		tungsten = 11 # was: 14 		steel = 8 # was: 10 		chromium = 3 # was: 4 	}
+594,STATE_594,1315,STATE_1315,split,0.750,split; province_overlap=3; tsr_overlap_rank=2/2; bsr_source_count=1,	resources = { 		tungsten = 11 # was: 14 		steel = 8 # was: 10 		chromium = 3 # was: 4 	}
+599,STATE_599,1316,STATE_1316,split,1.000,split; province_overlap=9; tsr_overlap_rank=1/2; bsr_source_count=1,	resources={ 		tungsten=15 # was: 20 		steel= 15 # was: 20 		chromium = 3 # was: 4 	}
+599,STATE_599,1317,STATE_1317,split,0.750,split; province_overlap=3; tsr_overlap_rank=2/2; bsr_source_count=1,	resources={ 		tungsten=15 # was: 20 		steel= 15 # was: 20 		chromium = 3 # was: 4 	}
+601,STATE_601,601,STATE_601,split,1.000,split; province_overlap=3; tsr_overlap_rank=1/3; bsr_source_count=1,	resources={ 		oil=2.000 	}
+601,STATE_601,757,STATE_757,merge,0.375,split+merge; province_overlap=3; tsr_overlap_rank=2/3; bsr_source_count=2,	resources={ 		oil=2.000 	}
+601,STATE_601,2013,STATE_2013,split,1.000,split; province_overlap=2; tsr_overlap_rank=3/3; bsr_source_count=1,	resources={ 		oil=2.000 	}
+610,Jehol,1978,STATE_1978,merge,0.524,split+merge; province_overlap=11; tsr_overlap_rank=1/3; bsr_source_count=2, 	resources = { 		oil = 1 		coal = 1 	}
+610,Jehol,610,STATE_610,merge,0.889,split+merge; province_overlap=8; tsr_overlap_rank=2/3; bsr_source_count=2, 	resources = { 		oil = 1 		coal = 1 	}
+610,Jehol,2023,STATE_2023,split,0.700,split; province_overlap=7; tsr_overlap_rank=3/3; bsr_source_count=1, 	resources = { 		oil = 1 		coal = 1 	}
+612,STATE_612,612,STATE_612,merge,0.786,split+merge; province_overlap=11; tsr_overlap_rank=1/2; bsr_source_count=2, 	resources = { 		coal = 3 # The coal of the Chahar遯ｶ驩еiyuan mines. 	}
+612,STATE_612,1921,STATE_1921,split,1.000,split; province_overlap=1; tsr_overlap_rank=2/2; bsr_source_count=1, 	resources = { 		coal = 3 # The coal of the Chahar遯ｶ驩еiyuan mines. 	}
+615,STATE_615,615,STATE_615,merge,1.000,merge; province_overlap=22; bsr_source_count=2, 	resources = { 		coal = 19 #initial distribution 	}
+616,STATE_616,616,STATE_616,merge,0.750,split+merge; province_overlap=6; tsr_overlap_rank=1/2; bsr_source_count=2, 	resources = { 		coal = 2 	}
+616,STATE_616,1753,STATE_1753,split,0.500,split; province_overlap=1; tsr_overlap_rank=2/2; bsr_source_count=1, 	resources = { 		coal = 2 	}
+619,Yarkand,619,STATE_619,split,1.000,split; province_overlap=4; tsr_overlap_rank=1/2; bsr_source_count=1,	 	resources={ 		aluminium=2 # was: 2 		chromium=2 # was: 3 	}
+619,Yarkand,617,STATE_617,merge,0.333,split+merge; province_overlap=2; tsr_overlap_rank=2/2; bsr_source_count=5,	 	resources={ 		aluminium=2 # was: 2 		chromium=2 # was: 3 	}
+621,STATE_621,621,STATE_621,split,1.000,split; province_overlap=8; tsr_overlap_rank=1/2; bsr_source_count=1, 	resources = { 		coal = 7 #initial distribution 	}
+621,STATE_621,615,STATE_615,merge,0.111,split+merge; province_overlap=1; tsr_overlap_rank=2/2; bsr_source_count=2, 	resources = { 		coal = 7 #initial distribution 	}
+623,Luzon,623,STATE_623,merge,1.000,merge; province_overlap=11; bsr_source_count=3,	 	resources = { 		rubber = 1 # was: 2 	}
+624,Central Islands,624,STATE_624,merge,1.000,merge; province_overlap=6; bsr_source_count=2, 	resources={ 		steel=7 # was: 0 	}
+640,STATE_640,640,STATE_640,merge,0.500,split+merge; province_overlap=3; tsr_overlap_rank=1/3; bsr_source_count=3," 	resources = { 		tungsten = 50 # was 120, 70 was moved to Shan 	}"
+640,STATE_640,1330,STATE_1330,merge,0.333,split+merge; province_overlap=2; tsr_overlap_rank=2/3; bsr_source_count=2," 	resources = { 		tungsten = 50 # was 120, 70 was moved to Shan 	}"
+640,STATE_640,288,STATE_288,merge,0.167,split+merge; province_overlap=1; tsr_overlap_rank=3/3; bsr_source_count=6," 	resources = { 		tungsten = 50 # was 120, 70 was moved to Shan 	}"
+660,STATE_660,660,STATE_660,split,1.000,split; province_overlap=7; tsr_overlap_rank=1/2; bsr_source_count=1,	resources={ 		rubber=3 # was: 4 	}
+660,STATE_660,899,STATE_899,split,1.000,split; province_overlap=1; tsr_overlap_rank=2/2; bsr_source_count=1,	resources={ 		rubber=3 # was: 4 	}
+664,STATE_664,664,STATE_664,split,1.000,split; province_overlap=4; tsr_overlap_rank=1/2; bsr_source_count=1, 	resources = { 		steel = 13 # was: 20 		chromium = 3 # was: 4 	}
+664,STATE_664,1376,STATE_1376,split,1.000,split; province_overlap=2; tsr_overlap_rank=2/2; bsr_source_count=1, 	resources = { 		steel = 13 # was: 20 		chromium = 3 # was: 4 	}
+666,STATE_666,666,STATE_666,split,1.000,split; province_overlap=23; tsr_overlap_rank=1/2; bsr_source_count=1, 	resources = { 		tungsten = 44 		steel = 50 		chromium = 25 	}
+666,STATE_666,1362,STATE_1362,split,1.000,split; province_overlap=8; tsr_overlap_rank=2/2; bsr_source_count=1, 	resources = { 		tungsten = 44 		steel = 50 		chromium = 25 	}
+667,STATE_667,667,STATE_667,merge,0.417,merge; province_overlap=5; bsr_source_count=3,	resources={ 		rubber=12 # was: 16 	}
+671,STATE_671,1078,STATE_1078,split,1.000,split; province_overlap=10; tsr_overlap_rank=1/3; bsr_source_count=1,"	 	resources = { 		chromium = 2 # was: 8, then 6 		tungsten = 20 # was: 38, then 27 		coal = 3 	}"
+671,STATE_671,671,STATE_671,split,1.000,split; province_overlap=4; tsr_overlap_rank=2/3; bsr_source_count=1,"	 	resources = { 		chromium = 2 # was: 8, then 6 		tungsten = 20 # was: 38, then 27 		coal = 3 	}"
+671,STATE_671,1938,STATE_1938,split,0.800,split; province_overlap=4; tsr_overlap_rank=3/3; bsr_source_count=1,"	 	resources = { 		chromium = 2 # was: 8, then 6 		tungsten = 20 # was: 38, then 27 		coal = 3 	}"
+672,STATE_672,1915,STATE_1915,merge,0.692,split+merge; province_overlap=9; tsr_overlap_rank=1/3; bsr_source_count=3,	 	resources = { 		rubber = 150 # was: 268 		oil = 12 # was: 24 		aluminium = 28 # was: 50 		coal = 4 # initial distribution 	}
+672,STATE_672,1914,STATE_1914,split,1.000,split; province_overlap=6; tsr_overlap_rank=2/3; bsr_source_count=1,	 	resources = { 		rubber = 150 # was: 268 		oil = 12 # was: 24 		aluminium = 28 # was: 50 		coal = 4 # initial distribution 	}
+672,STATE_672,1911,STATE_1911,merge,0.667,split+merge; province_overlap=4; tsr_overlap_rank=3/3; bsr_source_count=2,	 	resources = { 		rubber = 150 # was: 268 		oil = 12 # was: 24 		aluminium = 28 # was: 50 		coal = 4 # initial distribution 	}
+676,STATE_676,1264,STATE_1264,split,0.800,split; province_overlap=4; tsr_overlap_rank=1/5; bsr_source_count=1,	 	resources={ 		oil = 8 # was: 10 	}
+676,STATE_676,1244,STATE_1244,merge,0.400,split+merge; province_overlap=2; tsr_overlap_rank=2/5; bsr_source_count=2,	 	resources={ 		oil = 8 # was: 10 	}
+676,STATE_676,1246,STATE_1246,split,0.667,split; province_overlap=2; tsr_overlap_rank=3/5; bsr_source_count=1,	 	resources={ 		oil = 8 # was: 10 	}
+676,STATE_676,1245,STATE_1245,split,0.500,split; province_overlap=1; tsr_overlap_rank=4/5; bsr_source_count=1,	 	resources={ 		oil = 8 # was: 10 	}
+676,STATE_676,676,STATE_676,split,0.500,split; province_overlap=1; tsr_overlap_rank=5/5; bsr_source_count=1,	 	resources={ 		oil = 8 # was: 10 	}
+682,STATE_682,1686,STATE_1686,split,1.000,split; province_overlap=12; tsr_overlap_rank=1/4; bsr_source_count=1,	 	resources = { 		steel = 8 # was: 12.000 		aluminium = 9 # was: 14.000 		coal = 2 # initial distribution = with infra 3.2 / 36 total 	}
+682,STATE_682,682,STATE_682,split,1.000,split; province_overlap=9; tsr_overlap_rank=2/4; bsr_source_count=1,	 	resources = { 		steel = 8 # was: 12.000 		aluminium = 9 # was: 14.000 		coal = 2 # initial distribution = with infra 3.2 / 36 total 	}
+682,STATE_682,1672,STATE_1672,merge,0.250,split+merge; province_overlap=1; tsr_overlap_rank=3/4; bsr_source_count=2,	 	resources = { 		steel = 8 # was: 12.000 		aluminium = 9 # was: 14.000 		coal = 2 # initial distribution = with infra 3.2 / 36 total 	}
+682,STATE_682,1607,STATE_1607,split,1.000,split; province_overlap=1; tsr_overlap_rank=4/4; bsr_source_count=1,	 	resources = { 		steel = 8 # was: 12.000 		aluminium = 9 # was: 14.000 		coal = 2 # initial distribution = with infra 3.2 / 36 total 	}
+683,STATE_683,683,STATE_683,merge,0.333,merge; province_overlap=2; bsr_source_count=2,	resources={ 		aluminium=7.000 	}
+687,STATE_687,1853,STATE_1853,split,1.000,split; province_overlap=1; tsr_overlap_rank=1/3; bsr_source_count=1,	 	resources={ 		aluminium=64 # was: 112 	}
+687,STATE_687,1644,STATE_1644,split,1.000,split; province_overlap=1; tsr_overlap_rank=2/3; bsr_source_count=1,	 	resources={ 		aluminium=64 # was: 112 	}
+687,STATE_687,687,STATE_687,split,0.500,split; province_overlap=1; tsr_overlap_rank=3/3; bsr_source_count=1,	 	resources={ 		aluminium=64 # was: 112 	}
+688,STATE_688,688,STATE_688,split,1.000,split; province_overlap=3; tsr_overlap_rank=1/2; bsr_source_count=1,	 	resources = { 		tungsten = 3 # was: 4 		steel = 2 # was: 2 	}
+688,STATE_688,1323,STATE_1323,split,1.000,split; province_overlap=2; tsr_overlap_rank=2/2; bsr_source_count=1,	 	resources = { 		tungsten = 3 # was: 4 		steel = 2 # was: 2 	}
+716,STATE_716,716,STATE_716,split,1.000,split; province_overlap=14; tsr_overlap_rank=1/4; bsr_source_count=1,	resources={ 		steel=27.000 		chromium = 4 		tungsten = 4 		oil = 3 #Japan extracted 1m barrels annually from Manhuria 		coal = 11 	}
+716,STATE_716,1023,STATE_1023,split,1.000,split; province_overlap=6; tsr_overlap_rank=2/4; bsr_source_count=1,	resources={ 		steel=27.000 		chromium = 4 		tungsten = 4 		oil = 3 #Japan extracted 1m barrels annually from Manhuria 		coal = 11 	}
+716,STATE_716,1025,STATE_1025,merge,0.667,split+merge; province_overlap=4; tsr_overlap_rank=3/4; bsr_source_count=2,	resources={ 		steel=27.000 		chromium = 4 		tungsten = 4 		oil = 3 #Japan extracted 1m barrels annually from Manhuria 		coal = 11 	}
+716,STATE_716,610,STATE_610,merge,0.111,split+merge; province_overlap=1; tsr_overlap_rank=4/4; bsr_source_count=2,	resources={ 		steel=27.000 		chromium = 4 		tungsten = 4 		oil = 3 #Japan extracted 1m barrels annually from Manhuria 		coal = 11 	}
+718,STATE_718,1540,STATE_1540,split,1.000,split; province_overlap=6; tsr_overlap_rank=1/2; bsr_source_count=1, 	resources = { 		rubber = 3.000 	}
+718,STATE_718,718,STATE_718,merge,0.250,split+merge; province_overlap=2; tsr_overlap_rank=2/2; bsr_source_count=2, 	resources = { 		rubber = 3.000 	}
+719,Natal,1213,STATE_1213,merge,0.750,split+merge; province_overlap=3; tsr_overlap_rank=1/4; bsr_source_count=2,	resources={ 		chromium=60 # was: 116 		coal = 4 #initial distribution 	}
+719,Natal,719,STATE_719,split,0.667,split; province_overlap=2; tsr_overlap_rank=2/4; bsr_source_count=1,	resources={ 		chromium=60 # was: 116 		coal = 4 #initial distribution 	}
+719,Natal,1211,STATE_1211,merge,0.333,split+merge; province_overlap=1; tsr_overlap_rank=3/4; bsr_source_count=2,	resources={ 		chromium=60 # was: 116 		coal = 4 #initial distribution 	}
+719,Natal,1218,STATE_1218,split,0.500,split; province_overlap=1; tsr_overlap_rank=4/4; bsr_source_count=1,	resources={ 		chromium=60 # was: 116 		coal = 4 #initial distribution 	}
+723,STATE_723,723,STATE_723,merge,1.000,merge; province_overlap=6; bsr_source_count=3,	resources={ 		tungsten=4 # was: 6 		coal = 2 #initial distribution 	}
+724,STATE_724,724,STATE_724,split,1.000,split; province_overlap=15; tsr_overlap_rank=1/2; bsr_source_count=1,	 	resources={ 		rubber=40 # was: 70 	}
+724,STATE_724,1099,STATE_1099,split,1.000,split; province_overlap=5; tsr_overlap_rank=2/2; bsr_source_count=1,	 	resources={ 		rubber=40 # was: 70 	}
+731,STATE_731,1159,STATE_1159,split,1.000,split; province_overlap=2; tsr_overlap_rank=1/6; bsr_source_count=1, 	resources = { 		coal = 1 # initial distribution / 1 total 	}
+731,STATE_731,1428,STATE_1428,split,1.000,split; province_overlap=2; tsr_overlap_rank=2/6; bsr_source_count=1, 	resources = { 		coal = 1 # initial distribution / 1 total 	}
+731,STATE_731,731,STATE_731,merge,0.667,split+merge; province_overlap=2; tsr_overlap_rank=3/6; bsr_source_count=2, 	resources = { 		coal = 1 # initial distribution / 1 total 	}
+731,STATE_731,1160,STATE_1160,split,1.000,split; province_overlap=1; tsr_overlap_rank=4/6; bsr_source_count=1, 	resources = { 		coal = 1 # initial distribution / 1 total 	}
+731,STATE_731,1063,STATE_1063,merge,0.333,split+merge; province_overlap=1; tsr_overlap_rank=5/6; bsr_source_count=2, 	resources = { 		coal = 1 # initial distribution / 1 total 	}
+731,STATE_731,1139,STATE_1139,split,0.500,split; province_overlap=1; tsr_overlap_rank=6/6; bsr_source_count=1, 	resources = { 		coal = 1 # initial distribution / 1 total 	}
+742,STATE_742,742,STATE_742,split,1.000,split; province_overlap=7; tsr_overlap_rank=1/3; bsr_source_count=1, 	resources = { 		steel = 3.000 	}
+742,STATE_742,1468,STATE_1468,split,1.000,split; province_overlap=4; tsr_overlap_rank=2/3; bsr_source_count=1, 	resources = { 		steel = 3.000 	}
+742,STATE_742,1273,STATE_1273,split,1.000,split; province_overlap=1; tsr_overlap_rank=3/3; bsr_source_count=1, 	resources = { 		steel = 3.000 	}
+771,Zambia,1527,STATE_1527,split,1.000,split; province_overlap=2; tsr_overlap_rank=1/4; bsr_source_count=1," 	resources = { 		chromium = 18 # was: 64.000, then 35 		tungsten = 4 # was: 16.000, then 8 	}"
+771,Zambia,771,Zambia,split,1.000,split; province_overlap=2; tsr_overlap_rank=2/4; bsr_source_count=1," 	resources = { 		chromium = 18 # was: 64.000, then 35 		tungsten = 4 # was: 16.000, then 8 	}"
+771,Zambia,1530,Zambia,split,1.000,split; province_overlap=1; tsr_overlap_rank=3/4; bsr_source_count=1," 	resources = { 		chromium = 18 # was: 64.000, then 35 		tungsten = 4 # was: 16.000, then 8 	}"
+771,Zambia,1944,STATE_1944,split,1.000,split; province_overlap=1; tsr_overlap_rank=4/4; bsr_source_count=1," 	resources = { 		chromium = 18 # was: 64.000, then 35 		tungsten = 4 # was: 16.000, then 8 	}"
+772,Middle Congo (Brazzaville),772,STATE_772,split,1.000,split; province_overlap=4; tsr_overlap_rank=1/2; bsr_source_count=1,	resources = { 		rubber = 2 	}
+772,Middle Congo (Brazzaville),896,STATE_896,split,0.500,split; province_overlap=1; tsr_overlap_rank=2/2; bsr_source_count=1,	resources = { 		rubber = 2 	}
+785,STATE_785,1877,STATE_1877,split,1.000,split; province_overlap=3; tsr_overlap_rank=1/3; bsr_source_count=1,	resources={ 		steel=12 #was:20 was: 112 		aluminium=4 # was: 22 	}
+785,STATE_785,785,STATE_785,split,0.667,split; province_overlap=2; tsr_overlap_rank=2/3; bsr_source_count=1,	resources={ 		steel=12 #was:20 was: 112 		aluminium=4 # was: 22 	}
+785,STATE_785,1582,STATE_1582,split,0.667,split; province_overlap=2; tsr_overlap_rank=3/3; bsr_source_count=1,	resources={ 		steel=12 #was:20 was: 112 		aluminium=4 # was: 22 	}
+790,STATE_790,1052,STATE_1052,split,1.000,split; province_overlap=4; tsr_overlap_rank=1/4; bsr_source_count=1, 	resources = { 		coal = 6 # initial distribution 	}
+790,STATE_790,1722,STATE_1722,split,1.000,split; province_overlap=3; tsr_overlap_rank=2/4; bsr_source_count=1, 	resources = { 		coal = 6 # initial distribution 	}
+790,STATE_790,171,STATE_171,merge,0.111,split+merge; province_overlap=1; tsr_overlap_rank=3/4; bsr_source_count=2, 	resources = { 		coal = 6 # initial distribution 	}
+790,STATE_790,1725,STATE_1725,split,1.000,split; province_overlap=1; tsr_overlap_rank=4/4; bsr_source_count=1, 	resources = { 		coal = 6 # initial distribution 	}
+795,STATE_795,1134,STATE_1134,split,1.000,split; province_overlap=7; tsr_overlap_rank=1/2; bsr_source_count=1,	resources={ 		chromium=20.000 #added due to portugal setup 	}
+795,STATE_795,1501,STATE_1501,split,1.000,split; province_overlap=1; tsr_overlap_rank=2/2; bsr_source_count=1,	resources={ 		chromium=20.000 #added due to portugal setup 	}
+802,STATE_802,108,STATE_108,merge,0.667,split+merge; province_overlap=2; tsr_overlap_rank=1/3; bsr_source_count=2,	resources = { 		steel = 2.000 	}
+802,STATE_802,878,STATE_878,merge,0.500,split+merge; province_overlap=1; tsr_overlap_rank=2/3; bsr_source_count=2,	resources = { 		steel = 2.000 	}
+802,STATE_802,941,STATE_941,split,1.000,split; province_overlap=1; tsr_overlap_rank=3/3; bsr_source_count=1,	resources = { 		steel = 2.000 	}
+804,STATE_804,1046,STATE_1046,split,1.000,split; province_overlap=3; tsr_overlap_rank=1/2; bsr_source_count=1,	 	resources={ 		aluminium=7 # was: 10 	}
+804,STATE_804,2003,STATE_2003,merge,0.500,split+merge; province_overlap=1; tsr_overlap_rank=2/2; bsr_source_count=2,	 	resources={ 		aluminium=7 # was: 10 	}
+808,STATE_808,1454,STATE_1454,merge,0.667,split+merge; province_overlap=2; tsr_overlap_rank=1/2; bsr_source_count=3,	resources={ 		steel=1.000 	}
+808,STATE_808,12,STATE_12,split,1.000,split; province_overlap=1; tsr_overlap_rank=2/2; bsr_source_count=1,	resources={ 		steel=1.000 	}
+835,STATE_835,1111,STATE_1111,merge,0.500,split+merge; province_overlap=3; tsr_overlap_rank=1/2; bsr_source_count=2,	resources = { 	}
+835,STATE_835,271,STATE_271,merge,0.167,split+merge; province_overlap=1; tsr_overlap_rank=2/2; bsr_source_count=9,	resources = { 	}
+836,STATE_836,1111,STATE_1111,merge,0.333,split+merge; province_overlap=1; tsr_overlap_rank=1/2; bsr_source_count=2,	resources = { 	}
+836,STATE_836,271,STATE_271,merge,0.333,split+merge; province_overlap=1; tsr_overlap_rank=2/2; bsr_source_count=9,	resources = { 	}
+841,STATE_841,1979,STATE_1979,merge,0.333,split+merge; province_overlap=1; tsr_overlap_rank=1/2; bsr_source_count=3,	resources = { 	}
+841,STATE_841,271,STATE_271,merge,0.250,split+merge; province_overlap=1; tsr_overlap_rank=2/2; bsr_source_count=9,	resources = { 	}
+845,STATE_845,892,STATE_892,merge,0.667,split+merge; province_overlap=2; tsr_overlap_rank=1/3; bsr_source_count=2,	resources={ 		aluminium=18 # was: 28 #CarloTODO 		coal = 1 #initial distribution 	}
+845,STATE_845,3,STATE_3,merge,0.200,split+merge; province_overlap=1; tsr_overlap_rank=2/3; bsr_source_count=3,	resources={ 		aluminium=18 # was: 28 #CarloTODO 		coal = 1 #initial distribution 	}
+845,STATE_845,1515,STATE_1515,split,1.000,split; province_overlap=1; tsr_overlap_rank=3/3; bsr_source_count=1,	resources={ 		aluminium=18 # was: 28 #CarloTODO 		coal = 1 #initial distribution 	}
+846,STATE_846,893,STATE_893,merge,1.000,merge; province_overlap=2; bsr_source_count=2,	resources={ 		aluminium=15 # was: 24  	}
+847,STATE_847,3,STATE_3,merge,0.500,split+merge; province_overlap=2; tsr_overlap_rank=1/3; bsr_source_count=3,	resources={ 	}
+847,STATE_847,1439,STATE_1439,split,1.000,split; province_overlap=1; tsr_overlap_rank=2/3; bsr_source_count=1,	resources={ 	}
+847,STATE_847,1304,STATE_1304,split,1.000,split; province_overlap=1; tsr_overlap_rank=3/3; bsr_source_count=1,	resources={ 	}
+852,Dalmatia,1066,STATE_1066,split,1.000,split; province_overlap=1; tsr_overlap_rank=1/2; bsr_source_count=1, 	resources = { 		coal = 2 #initial distribution 	}
+852,Dalmatia,736,STATE_736,split,1.000,split; province_overlap=1; tsr_overlap_rank=2/2; bsr_source_count=1, 	resources = { 		coal = 2 #initial distribution 	}
+859,STATE_859,944,STATE_944,split,1.000,split; province_overlap=2; tsr_overlap_rank=1/3; bsr_source_count=1, 	resources = { 		oil = 3.000 	}
+859,STATE_859,292,STATE_292,merge,0.250,split+merge; province_overlap=1; tsr_overlap_rank=2/3; bsr_source_count=6, 	resources = { 		oil = 3.000 	}
+859,STATE_859,1488,STATE_1488,split,0.500,split; province_overlap=1; tsr_overlap_rank=3/3; bsr_source_count=1, 	resources = { 		oil = 3.000 	}
+881,Karagandy,404,STATE_404,merge,0.864,split+merge; province_overlap=19; tsr_overlap_rank=1/3; bsr_source_count=3, 	resources = { 		coal = 6 # initial distribution 	}
+881,Karagandy,590,Akmolinsk,merge,0.091,split+merge; province_overlap=2; tsr_overlap_rank=2/3; bsr_source_count=2, 	resources = { 		coal = 6 # initial distribution 	}
+881,Karagandy,1148,STATE_1148,merge,0.083,split+merge; province_overlap=1; tsr_overlap_rank=3/3; bsr_source_count=2, 	resources = { 		coal = 6 # initial distribution 	}
+882,Pavlodar,588,STATE_588,merge,1.000,merge; province_overlap=9; bsr_source_count=2,	 	resources = { 		chromium = 6  	}
+888,STATE_888,295,STATE_295,merge,0.750,split+merge; province_overlap=6; tsr_overlap_rank=1/3; bsr_source_count=2, 	resources = { 		coal = 2 	}
+888,STATE_888,1136,STATE_1136,merge,0.250,split+merge; province_overlap=1; tsr_overlap_rank=2/3; bsr_source_count=2, 	resources = { 		coal = 2 	}
+888,STATE_888,538,STATE_538,merge,0.143,split+merge; province_overlap=1; tsr_overlap_rank=3/3; bsr_source_count=3, 	resources = { 		coal = 2 	}
+889,STATE_889,1539,STATE_1539,split,0.600,split; province_overlap=3; tsr_overlap_rank=1/3; bsr_source_count=1, 	resources = { 		tungsten = 2 		coal = 4 	}
+889,STATE_889,1136,STATE_1136,merge,0.750,split+merge; province_overlap=3; tsr_overlap_rank=2/3; bsr_source_count=2, 	resources = { 		tungsten = 2 		coal = 4 	}
+889,STATE_889,1135,STATE_1135,split,1.000,split; province_overlap=1; tsr_overlap_rank=3/3; bsr_source_count=1, 	resources = { 		tungsten = 2 		coal = 4 	}
+890,STATE_890,718,STATE_718,merge,1.000,merge; province_overlap=7; bsr_source_count=2,	 	resources = { 		rubber = 3.000 	}
+891,STATE_891,1959,STATE_1959,split,1.000,split; province_overlap=2; tsr_overlap_rank=1/3; bsr_source_count=1,	 	resources = { 		rubber = 1.000 	}
+891,STATE_891,540,STATE_540,merge,0.200,split+merge; province_overlap=1; tsr_overlap_rank=2/3; bsr_source_count=3,	 	resources = { 		rubber = 1.000 	}
+891,STATE_891,1357,STATE_1357,split,0.500,split; province_overlap=1; tsr_overlap_rank=3/3; bsr_source_count=1,	 	resources = { 		rubber = 1.000 	}
+900,STATE_900,1492,STATE_1492,split,1.000,split; province_overlap=3; tsr_overlap_rank=1/3; bsr_source_count=1, 	resources = { 		coal = 2 #initial distribution 	}
+900,STATE_900,901,STATE_901,split,0.500,split; province_overlap=1; tsr_overlap_rank=2/3; bsr_source_count=1, 	resources = { 		coal = 2 #initial distribution 	}
+900,STATE_900,558,STATE_558,merge,0.200,split+merge; province_overlap=1; tsr_overlap_rank=3/3; bsr_source_count=4, 	resources = { 		coal = 2 #initial distribution 	}
+916,STATE_916,1008,STATE_1008,merge,0.529,split+merge; province_overlap=9; tsr_overlap_rank=1/3; bsr_source_count=2, 	resources = { 		steel = 20 	}
+916,STATE_916,1009,STATE_1009,merge,0.333,split+merge; province_overlap=6; tsr_overlap_rank=2/3; bsr_source_count=2, 	resources = { 		steel = 20 	}
+916,STATE_916,1007,STATE_1007,merge,0.222,split+merge; province_overlap=2; tsr_overlap_rank=3/3; bsr_source_count=2, 	resources = { 		steel = 20 	}
+917,STATE_917,1009,STATE_1009,merge,0.789,split+merge; province_overlap=15; tsr_overlap_rank=1/2; bsr_source_count=2, 	resources = { 		steel = 20 	}
+917,STATE_917,1114,STATE_1114,merge,0.188,split+merge; province_overlap=3; tsr_overlap_rank=2/2; bsr_source_count=2, 	resources = { 		steel = 20 	}
+918,Västerbotten,38,STATE_38,merge,1.000,merge; province_overlap=34; bsr_source_count=2,	resources = { 		tungsten = 35 		steel = 39 		chromium = 15 	}
+919,STATE_919,1657,STATE_1657,merge,1.000,merge; province_overlap=10; bsr_source_count=2,	resources = { 		steel = 4 	}
+920,STATE_920,1011,STATE_1011,split,1.000,split; province_overlap=11; tsr_overlap_rank=1/4; bsr_source_count=1,	resources = { 		aluminium = 5.000 	}
+920,STATE_920,1012,STATE_1012,merge,0.667,split+merge; province_overlap=6; tsr_overlap_rank=2/4; bsr_source_count=2,	resources = { 		aluminium = 5.000 	}
+920,STATE_920,1638,STATE_1638,merge,0.800,split+merge; province_overlap=4; tsr_overlap_rank=3/4; bsr_source_count=2,	resources = { 		aluminium = 5.000 	}
+920,STATE_920,1637,STATE_1637,merge,0.100,split+merge; province_overlap=1; tsr_overlap_rank=4/4; bsr_source_count=4,	resources = { 		aluminium = 5.000 	}
+922,STATE_922,1010,STATE_1010,merge,0.556,split+merge; province_overlap=5; tsr_overlap_rank=1/3; bsr_source_count=2,	resources = { 		aluminium = 5 	}
+922,STATE_922,142,STATE_142,merge,0.222,split+merge; province_overlap=2; tsr_overlap_rank=2/3; bsr_source_count=2,	resources = { 		aluminium = 5 	}
+922,STATE_922,1637,STATE_1637,merge,0.222,split+merge; province_overlap=2; tsr_overlap_rank=3/3; bsr_source_count=4,	resources = { 		aluminium = 5 	}
+923,STATE_923,143,STATE_143,merge,0.625,split+merge; province_overlap=5; tsr_overlap_rank=1/2; bsr_source_count=3,	 	resources = { 		steel = 3  		tungsten = 5 	}
+923,STATE_923,1013,STATE_1013,merge,0.750,split+merge; province_overlap=3; tsr_overlap_rank=2/2; bsr_source_count=2,	 	resources = { 		steel = 3  		tungsten = 5 	}
+924,STATE_924,1014,STATE_1014,merge,0.778,split+merge; province_overlap=7; tsr_overlap_rank=1/2; bsr_source_count=2,	 	resources = { 		tungsten = 5 	}
+924,STATE_924,144,STATE_144,merge,0.222,split+merge; province_overlap=2; tsr_overlap_rank=2/2; bsr_source_count=2,	 	resources = { 		tungsten = 5 	}
+925,STATE_925,144,STATE_144,merge,0.882,split+merge; province_overlap=15; tsr_overlap_rank=1/2; bsr_source_count=2,	 	resources = { 		tungsten = 5 	}
+925,STATE_925,1762,STATE_1762,split,1.000,split; province_overlap=5; tsr_overlap_rank=2/2; bsr_source_count=1,	 	resources = { 		tungsten = 5 	}
+929,OULU,1628,Savo / Tavastland / Tavastia,merge,0.818,split+merge; province_overlap=9; tsr_overlap_rank=1/3; bsr_source_count=3,	 	resources = { 	}
+929,OULU,1629,Savo / Tavastland / Tavastia,merge,0.889,split+merge; province_overlap=8; tsr_overlap_rank=2/3; bsr_source_count=2,	 	resources = { 	}
+929,OULU,1630,Savo / Tavastland / Tavastia,merge,0.467,split+merge; province_overlap=7; tsr_overlap_rank=3/3; bsr_source_count=2,	 	resources = { 	}
+931,STATE_931,2025,STATE_2025,split,1.000,split; province_overlap=2; tsr_overlap_rank=1/2; bsr_source_count=1,	resources = { 		steel = 20  		aluminium = 5 	}
+931,STATE_931,2026,STATE_2026,split,1.000,split; province_overlap=2; tsr_overlap_rank=2/2; bsr_source_count=1,	resources = { 		steel = 20  		aluminium = 5 	}
+934,STATE_934,1228,STATE_1228,split,1.000,split; province_overlap=2; tsr_overlap_rank=1/2; bsr_source_count=1,	resources = { 		aluminium = 1.000         chromium = 1.000         coal = 1 # initial distribution = with infra 1.4 / 1 total 	}
+934,STATE_934,1229,STATE_1229,split,1.000,split; province_overlap=1; tsr_overlap_rank=2/2; bsr_source_count=1,	resources = { 		aluminium = 1.000         chromium = 1.000         coal = 1 # initial distribution = with infra 1.4 / 1 total 	}
+938,STATE_938,497,STATE_497,split,1.000,split; province_overlap=4; tsr_overlap_rank=1/3; bsr_source_count=1,	resources={ 		rubber=10.000 	}
+938,STATE_938,1901,STATE_1901,merge,0.500,split+merge; province_overlap=1; tsr_overlap_rank=2/3; bsr_source_count=2,	resources={ 		rubber=10.000 	}
+938,STATE_938,1902,STATE_1902,merge,0.250,split+merge; province_overlap=1; tsr_overlap_rank=3/3; bsr_source_count=4,	resources={ 		rubber=10.000 	}
+945,STATE_945,300,STATE_300,merge,1.000,merge; province_overlap=4; bsr_source_count=3,	 	resources = { 		steel = 2 	}
+946,STATE_946,300,STATE_300,merge,1.000,merge; province_overlap=5; bsr_source_count=3,	 	resources = { 		oil = 3  	}
+949,Aysen,507,Magallanes,merge,0.833,merge; province_overlap=5; bsr_source_count=2, 	resources = { 		aluminium = 1 	} | 	resources = { 		oil = 1 	}
+950,STATE_950,1576,STATE_1576,merge,0.800,merge; province_overlap=4; bsr_source_count=2,	 	resources = { 		steel = 24 # Steel + replacement of copper 	}
+951,STATE_951,916,STATE_916,merge,0.500,split+merge; province_overlap=2; tsr_overlap_rank=1/2; bsr_source_count=2, 	resources = { 		tungsten = 14 # In replacement of Nitrate 	}
+951,STATE_951,915,STATE_915,split,1.000,split; province_overlap=1; tsr_overlap_rank=2/2; bsr_source_count=1, 	resources = { 		tungsten = 14 # In replacement of Nitrate 	}
+954,STATE_954,512,STATE_512,merge,0.800,merge; province_overlap=4; bsr_source_count=2,	 	resources = { 		oil = 3 		coal = 2 # initial distribution = with infra 2.4 / 2 total 	}
+955,STATE_955,512,STATE_512,merge,0.429,split+merge; province_overlap=3; tsr_overlap_rank=1/2; bsr_source_count=2,	 	resources = { 		oil = 4 	}
+955,STATE_955,1907,STATE_1907,merge,0.143,split+merge; province_overlap=1; tsr_overlap_rank=2/2; bsr_source_count=2,	 	resources = { 		oil = 4 	}
+956,STATE_956,1806,STATE_1806,merge,0.833,split+merge; province_overlap=5; tsr_overlap_rank=1/3; bsr_source_count=2, 	resources = { 		oil = 6 	}
+956,STATE_956,509,Chaco Australis,merge,0.143,split+merge; province_overlap=1; tsr_overlap_rank=2/3; bsr_source_count=2, 	resources = { 		oil = 6 	}
+956,STATE_956,1300,STATE_1300,merge,0.333,split+merge; province_overlap=1; tsr_overlap_rank=3/3; bsr_source_count=2, 	resources = { 		oil = 6 	}
+957,STATE_957,1260,STATE_1260,split,1.000,split; province_overlap=2; tsr_overlap_rank=1/2; bsr_source_count=1,	 	resources = { 		tungsten = 5 		steel = 2 	}
+957,STATE_957,1574,STATE_1574,merge,0.500,split+merge; province_overlap=1; tsr_overlap_rank=2/2; bsr_source_count=2,	 	resources = { 		tungsten = 5 		steel = 2 	}
+970,STATE_970,871,STATE_871,split,0.667,split; province_overlap=2; tsr_overlap_rank=1/2; bsr_source_count=1,	resources = { 		chromium = 20.000 		aluminium = 6.000 	}
+970,STATE_970,1230,STATE_1230,merge,0.500,split+merge; province_overlap=1; tsr_overlap_rank=2/2; bsr_source_count=2,	resources = { 		chromium = 20.000 		aluminium = 6.000 	}
+971,Northern Dobruja,832,STATE_832,merge,0.750,split+merge; province_overlap=3; tsr_overlap_rank=1/2; bsr_source_count=2,	resources = { 	}
+971,Northern Dobruja,1423,STATE_1423,split,1.000,split; province_overlap=1; tsr_overlap_rank=2/2; bsr_source_count=1,	resources = { 	}
+972,STATE_972,888,STATE_888,split,1.000,split; province_overlap=3; tsr_overlap_rank=1/2; bsr_source_count=1,	 	resources = { 		steel = 2 	}
+972,STATE_972,886,STATE_886,split,1.000,split; province_overlap=2; tsr_overlap_rank=2/2; bsr_source_count=1,	 	resources = { 		steel = 2 	}
+974,South Transdanubia,808,STATE_808,merge,0.750,split+merge; province_overlap=3; tsr_overlap_rank=1/2; bsr_source_count=2, 	resources = { 		oil = 1 		aluminium = 20 		coal = 2 # initial distribution 	}
+974,South Transdanubia,1985,STATE_1985,split,1.000,split; province_overlap=3; tsr_overlap_rank=2/2; bsr_source_count=1, 	resources = { 		oil = 1 		aluminium = 20 		coal = 2 # initial distribution 	}
+975,STATE_975,810,STATE_810,split,0.667,split; province_overlap=2; tsr_overlap_rank=1/2; bsr_source_count=1, 	resources = { 	}
+975,STATE_975,1431,STATE_1431,merge,0.500,split+merge; province_overlap=1; tsr_overlap_rank=2/2; bsr_source_count=2, 	resources = { 	}
+976,STATE_976,1149,STATE_1149,merge,0.857,split+merge; province_overlap=6; tsr_overlap_rank=1/3; bsr_source_count=2,	 	resources = { 		steel = 15 # was: 8 		aluminium = 1 # was: 1 		coal = 1 #initial distribution /5 total 	}
+976,STATE_976,1107,STATE_1107,merge,0.500,split+merge; province_overlap=2; tsr_overlap_rank=2/3; bsr_source_count=2,	 	resources = { 		steel = 15 # was: 8 		aluminium = 1 # was: 1 		coal = 1 #initial distribution /5 total 	}
+976,STATE_976,1554,STATE_1554,split,1.000,split; province_overlap=1; tsr_overlap_rank=3/3; bsr_source_count=1,	 	resources = { 		steel = 15 # was: 8 		aluminium = 1 # was: 1 		coal = 1 #initial distribution /5 total 	}
+977,Antwerpen,1808,STATE_1808,split,1.000,split; province_overlap=2; tsr_overlap_rank=1/3; bsr_source_count=1,	 	resources={ 		coal = 2  	}
+977,Antwerpen,1807,STATE_1807,split,1.000,split; province_overlap=1; tsr_overlap_rank=2/3; bsr_source_count=1,	 	resources={ 		coal = 2  	}
+977,Antwerpen,6,Flanders,merge,0.250,split+merge; province_overlap=1; tsr_overlap_rank=3/3; bsr_source_count=2,	 	resources={ 		coal = 2  	}
+978,Baden,28,STATE_28,merge,0.750,split+merge; province_overlap=3; tsr_overlap_rank=1/4; bsr_source_count=2, 	resources = { 		aluminium = 6 # was: 10.000 	}
+978,Baden,1965,STATE_1965,split,1.000,split; province_overlap=2; tsr_overlap_rank=2/4; bsr_source_count=1, 	resources = { 		aluminium = 6 # was: 10.000 	}
+978,Baden,791,STATE_791,merge,0.500,split+merge; province_overlap=1; tsr_overlap_rank=3/4; bsr_source_count=2, 	resources = { 		aluminium = 6 # was: 10.000 	}
+978,Baden,799,STATE_799,merge,0.500,split+merge; province_overlap=1; tsr_overlap_rank=4/4; bsr_source_count=2, 	resources = { 		aluminium = 6 # was: 10.000 	}
+980,STATE_980,1182,STATE_1182,split,1.000,split; province_overlap=2; tsr_overlap_rank=1/3; bsr_source_count=1,	resources={ 		steel=9 # was: 0 		coal = 7 # initial distribution / 84 total 	}
+980,STATE_980,1990,STATE_1990,split,1.000,split; province_overlap=1; tsr_overlap_rank=2/3; bsr_source_count=1,	resources={ 		steel=9 # was: 0 		coal = 7 # initial distribution / 84 total 	}
+980,STATE_980,1989,STATE_1989,split,1.000,split; province_overlap=1; tsr_overlap_rank=3/3; bsr_source_count=1,	resources={ 		steel=9 # was: 0 		coal = 7 # initial distribution / 84 total 	}
+981,Barotseland,1528,STATE_1528,split,1.000,split; province_overlap=3; tsr_overlap_rank=1/2; bsr_source_count=1, 	resources = { 		chromium = 16 		tungsten = 4 	}
+981,Barotseland,1529,STATE_1529,split,1.000,split; province_overlap=1; tsr_overlap_rank=2/2; bsr_source_count=1, 	resources = { 		chromium = 16 		tungsten = 4 	}
+987,manpower = 217974,442,STATE_442,merge,1.000,merge; province_overlap=4; bsr_source_count=3,	 	resources={  	}
+997,STATE_997,288,STATE_288,merge,1.000,merge; province_overlap=10; bsr_source_count=6, 	resources = { 		rubber = 3 	}
+999,STATE_999,1330,STATE_1330,merge,0.800,split+merge; province_overlap=8; tsr_overlap_rank=1/3; bsr_source_count=2, 	resources = { 		tungsten = 70 		coal = 4 #Kalewa mines near the Chindwin River 	}
+999,STATE_999,1041,STATE_1041,merge,0.333,split+merge; province_overlap=2; tsr_overlap_rank=2/3; bsr_source_count=2, 	resources = { 		tungsten = 70 		coal = 4 #Kalewa mines near the Chindwin River 	}
+999,STATE_999,640,STATE_640,merge,0.091,split+merge; province_overlap=1; tsr_overlap_rank=3/3; bsr_source_count=3, 	resources = { 		tungsten = 70 		coal = 4 #Kalewa mines near the Chindwin River 	}
+1000,STATE_1000,419,STATE_419,merge,1.000,merge; province_overlap=5; bsr_source_count=2,	resources = { 		steel = 6 	}
+1002,STATE_1002,411,STATE_411,merge,1.000,merge; province_overlap=3; bsr_source_count=2,	resources={ 	}
+1005,STATE_1005,1818,STATE_1818,merge,0.600,split+merge; province_overlap=3; tsr_overlap_rank=1/3; bsr_source_count=3, 	resources = { 		chromium = 3 	}
+1005,STATE_1005,1821,STATE_1821,merge,0.500,split+merge; province_overlap=1; tsr_overlap_rank=2/3; bsr_source_count=2, 	resources = { 		chromium = 3 	}
+1005,STATE_1005,1129,STATE_1129,split,1.000,split; province_overlap=1; tsr_overlap_rank=3/3; bsr_source_count=1, 	resources = { 		chromium = 3 	}
+1007,STATE_1007,1130,STATE_1130,merge,0.600,split+merge; province_overlap=3; tsr_overlap_rank=1/2; bsr_source_count=3, 	resources = { 		steel = 2 	}
+1007,STATE_1007,1818,STATE_1818,merge,0.400,split+merge; province_overlap=2; tsr_overlap_rank=2/2; bsr_source_count=3, 	resources = { 		steel = 2 	}
+1009,STATE_1009,415,STATE_415,merge,0.800,split+merge; province_overlap=4; tsr_overlap_rank=1/2; bsr_source_count=2, 	resources = { 		chromium = 7 	}
+1009,STATE_1009,1131,STATE_1131,merge,0.200,split+merge; province_overlap=1; tsr_overlap_rank=2/2; bsr_source_count=2, 	resources = { 		chromium = 7 	}
+1010,STATE_1010,945,STATE_945,split,1.000,split; province_overlap=2; tsr_overlap_rank=1/2; bsr_source_count=1, 	resources = { 		oil = 3 	}
+1010,STATE_1010,1244,STATE_1244,merge,0.400,split+merge; province_overlap=2; tsr_overlap_rank=2/2; bsr_source_count=2, 	resources = { 		oil = 3 	}
+1011,STATE_1011,291,STATE_291,merge,0.600,split+merge; province_overlap=3; tsr_overlap_rank=1/3; bsr_source_count=2, 	resources = { 		steel = 4 		aluminium = 7 	}
+1011,STATE_1011,946,STATE_946,merge,0.400,split+merge; province_overlap=2; tsr_overlap_rank=2/3; bsr_source_count=2, 	resources = { 		steel = 4 		aluminium = 7 	}
+1011,STATE_1011,1247,STATE_1247,merge,0.333,split+merge; province_overlap=1; tsr_overlap_rank=3/3; bsr_source_count=2, 	resources = { 		steel = 4 		aluminium = 7 	}
+1015,STATE_1015,1299,STATE_1299,merge,1.000,merge; province_overlap=2; bsr_source_count=2,	 	resources = { 		oil = 2 	}
+1017,STATE_1017,1080,STATE_1080,split,1.000,split; province_overlap=8; tsr_overlap_rank=1/2; bsr_source_count=1,	 	resources = { 		chromium = 4 # was: 8 		tungsten = 7 	}
+1017,STATE_1017,1079,STATE_1079,split,1.000,split; province_overlap=7; tsr_overlap_rank=2/2; bsr_source_count=1,	 	resources = { 		chromium = 4 # was: 8 		tungsten = 7 	}
+1018,South Kyushu,968,STATE_968,split,1.000,split; province_overlap=4; tsr_overlap_rank=1/3; bsr_source_count=1, 	resources = { 		chromium = 20 	}
+1018,South Kyushu,967,STATE_967,merge,0.600,split+merge; province_overlap=3; tsr_overlap_rank=2/3; bsr_source_count=2, 	resources = { 		chromium = 20 	}
+1018,South Kyushu,966,STATE_966,split,1.000,split; province_overlap=1; tsr_overlap_rank=3/3; bsr_source_count=1, 	resources = { 		chromium = 20 	}
+1019,South Tohoku,963,STATE_963,split,1.000,split; province_overlap=4; tsr_overlap_rank=1/2; bsr_source_count=1,	resources = { 		steel = 5 		coal = 1 #initial distribution 	}
+1019,South Tohoku,533,STATE_533,merge,0.333,split+merge; province_overlap=2; tsr_overlap_rank=2/2; bsr_source_count=2,	resources = { 		steel = 5 		coal = 1 #initial distribution 	}
+1022,STATE_1022,1928,STATE_1928,merge,0.500,split+merge; province_overlap=5; tsr_overlap_rank=1/3; bsr_source_count=2, 	resources = { 	}
+1022,STATE_1022,1929,STATE_1929,merge,0.300,split+merge; province_overlap=3; tsr_overlap_rank=2/3; bsr_source_count=3, 	resources = { 	}
+1022,STATE_1022,334,STATE_334,merge,0.200,split+merge; province_overlap=2; tsr_overlap_rank=3/3; bsr_source_count=2, 	resources = { 	}
+1023,STATE_1023,333,STATE_333,merge,0.500,split+merge; province_overlap=1; tsr_overlap_rank=1/2; bsr_source_count=3, 	resources = { 		oil = 12 # was: 18 	}
+1023,STATE_1023,982,STATE_982,split,1.000,split; province_overlap=1; tsr_overlap_rank=2/2; bsr_source_count=1, 	resources = { 		oil = 12 # was: 18 	}
+1025,STATE_1025,627,STATE_627,merge,0.833,merge; province_overlap=5; bsr_source_count=3, 	resources = { 		coal = 2  	}
+1027,Bataan,623,STATE_623,merge,0.571,split+merge; province_overlap=4; tsr_overlap_rank=1/2; bsr_source_count=3, 	resources={ 		chromium=23 # was: 0 	}
+1027,Bataan,327,Luzon,merge,0.429,split+merge; province_overlap=3; tsr_overlap_rank=2/2; bsr_source_count=2, 	resources={ 		chromium=23 # was: 0 	}
+1028,STATE_1028,909,STATE_909,split,0.933,split; province_overlap=14; tsr_overlap_rank=1/2; bsr_source_count=1," 	resources = { 		steel = 10 # was: 30 		tungsten = 10 # was: 52 - moved 10 to South Korea and the Sangdong province 		coal = 4 # Chosen Sekitan KK at Eian was a small low temperature carbonization plant which was processed about 600 tons of coal per day. This plant yielded from 15,000 to 20,000 tons per annum of coal tar. 	}"
+1028,STATE_1028,527,STATE_527,merge,0.333,split+merge; province_overlap=6; tsr_overlap_rank=2/2; bsr_source_count=2," 	resources = { 		steel = 10 # was: 30 		tungsten = 10 # was: 52 - moved 10 to South Korea and the Sangdong province 		coal = 4 # Chosen Sekitan KK at Eian was a small low temperature carbonization plant which was processed about 600 tons of coal per day. This plant yielded from 15,000 to 20,000 tons per annum of coal tar. 	}"
+1029,STATE_1029,906,STATE_906,split,0.800,split; province_overlap=4; tsr_overlap_rank=1/3; bsr_source_count=1, 	resources = { 		tungsten = 10 #This number is made up and needs further research into. These resources should also be moved to correspond to the current Sangdong province in S Korea when split up 	}
+1029,STATE_1029,907,STATE_907,merge,0.667,split+merge; province_overlap=2; tsr_overlap_rank=2/3; bsr_source_count=2, 	resources = { 		tungsten = 10 #This number is made up and needs further research into. These resources should also be moved to correspond to the current Sangdong province in S Korea when split up 	}
+1029,STATE_1029,905,STATE_905,merge,0.250,split+merge; province_overlap=2; tsr_overlap_rank=3/3; bsr_source_count=3, 	resources = { 		tungsten = 10 #This number is made up and needs further research into. These resources should also be moved to correspond to the current Sangdong province in S Korea when split up 	}
+1030,STATE_1030,905,STATE_905,merge,1.000,merge; province_overlap=8; bsr_source_count=3, 	resources = { 	}
+1031,STATE_1031,904,STATE_904,split,0.833,split; province_overlap=5; tsr_overlap_rank=1/4; bsr_source_count=1, 	resources = { 	}
+1031,STATE_1031,903,STATE_903,merge,0.600,split+merge; province_overlap=3; tsr_overlap_rank=2/4; bsr_source_count=2, 	resources = { 	}
+1031,STATE_1031,905,STATE_905,merge,0.100,split+merge; province_overlap=1; tsr_overlap_rank=3/4; bsr_source_count=3, 	resources = { 	}
+1031,STATE_1031,911,STATE_911,split,1.000,split; province_overlap=1; tsr_overlap_rank=4/4; bsr_source_count=1, 	resources = { 	}
+1033,STATE_1033,594,STATE_594,split,1.000,split; province_overlap=5; tsr_overlap_rank=1/3; bsr_source_count=1,	resources = {  	}
+1033,STATE_1033,2027,STATE_2027,split,1.000,split; province_overlap=2; tsr_overlap_rank=2/3; bsr_source_count=1,	resources = {  	}
+1033,STATE_1033,592,STATE_592,merge,0.125,split+merge; province_overlap=1; tsr_overlap_rank=3/3; bsr_source_count=2,	resources = {  	}
+1041,STATE_1041,1041,STATE_1041,merge,0.000,merge; province_overlap=0; bsr_source_count=2,	resources = { 		steel = 4 	}
+1055,STATE_1055,340,STATE_340,merge,0.750,split+merge; province_overlap=3; tsr_overlap_rank=1/3; bsr_source_count=2,	resources={ 		chromium=22 		steel=1 		coal=1 	}
+1055,STATE_1055,950,STATE_950,split,1.000,split; province_overlap=2; tsr_overlap_rank=2/3; bsr_source_count=1,	resources={ 		chromium=22 		steel=1 		coal=1 	}
+1055,STATE_1055,1291,STATE_1291,split,1.000,split; province_overlap=2; tsr_overlap_rank=3/3; bsr_source_count=1,	resources={ 		chromium=22 		steel=1 		coal=1 	}
+1069,STATE_1069,1915,STATE_1915,merge,1.000,merge; province_overlap=3; bsr_source_count=3,	resources={ 		aluminium = 4 		steel = 7 	}
+1070,STATE_1070,672,STATE_672,split,1.000,split; province_overlap=8; tsr_overlap_rank=1/4; bsr_source_count=1,	resources={ 		rubber = 7 		oil = 9 		coal = 7 	}
+1070,STATE_1070,1911,STATE_1911,merge,0.333,split+merge; province_overlap=2; tsr_overlap_rank=2/4; bsr_source_count=2,	resources={ 		rubber = 7 		oil = 9 		coal = 7 	}
+1070,STATE_1070,1913,STATE_1913,merge,0.154,split+merge; province_overlap=2; tsr_overlap_rank=3/4; bsr_source_count=3,	resources={ 		rubber = 7 		oil = 9 		coal = 7 	}
+1070,STATE_1070,1912,STATE_1912,merge,0.333,split+merge; province_overlap=2; tsr_overlap_rank=4/4; bsr_source_count=2,	resources={ 		rubber = 7 		oil = 9 		coal = 7 	}
+1071,STATE_1071,1913,STATE_1913,merge,0.769,split+merge; province_overlap=10; tsr_overlap_rank=1/4; bsr_source_count=3,	resources={ 		rubber = 102 #was 224 #26-02-03: was:171 		oil = 24 #was:12 #26-02-03: was:20 	}
+1071,STATE_1071,1912,STATE_1912,merge,0.667,split+merge; province_overlap=4; tsr_overlap_rank=2/4; bsr_source_count=2,	resources={ 		rubber = 102 #was 224 #26-02-03: was:171 		oil = 24 #was:12 #26-02-03: was:20 	}
+1071,STATE_1071,1915,STATE_1915,merge,0.077,split+merge; province_overlap=1; tsr_overlap_rank=3/4; bsr_source_count=3,	resources={ 		rubber = 102 #was 224 #26-02-03: was:171 		oil = 24 #was:12 #26-02-03: was:20 	}
+1071,STATE_1071,1093,STATE_1093,split,1.000,split; province_overlap=1; tsr_overlap_rank=4/4; bsr_source_count=1,	resources={ 		rubber = 102 #was 224 #26-02-03: was:171 		oil = 24 #was:12 #26-02-03: was:20 	}
+1072,STATE_1072,1910,STATE_1910,split,1.000,split; province_overlap=3; tsr_overlap_rank=1/2; bsr_source_count=1,	resources={ 		rubber = 3 	}
+1072,STATE_1072,1913,STATE_1913,merge,0.125,split+merge; province_overlap=1; tsr_overlap_rank=2/2; bsr_source_count=3,	resources={ 		rubber = 3 	}
+1073,STATE_1073,1919,STATE_1919,split,1.000,split; province_overlap=8; tsr_overlap_rank=1/2; bsr_source_count=1,	resources={ 		rubber = 12 #was: 36 #26-02-03: was:19 		oil = 29 #was: 14 #26-02-03: was:36 	}
+1073,STATE_1073,1918,STATE_1918,merge,0.833,split+merge; province_overlap=5; tsr_overlap_rank=2/2; bsr_source_count=2,	resources={ 		rubber = 12 #was: 36 #26-02-03: was:19 		oil = 29 #was: 14 #26-02-03: was:36 	}
+1077,STATE_1077,334,STATE_334,merge,0.875,split+merge; province_overlap=14; tsr_overlap_rank=1/2; bsr_source_count=2,"	resources={ 		oil = 29 #was: 17 #2025-12-12: was: 15 #2026-02-03: was: 54 		rubber = 16 #was: 39, 2026-02-03: was: 25 		coal = 11 	}"
+1077,STATE_1077,1929,STATE_1929,merge,0.600,split+merge; province_overlap=9; tsr_overlap_rank=2/2; bsr_source_count=3,"	resources={ 		oil = 29 #was: 17 #2025-12-12: was: 15 #2026-02-03: was: 54 		rubber = 16 #was: 39, 2026-02-03: was: 25 		coal = 11 	}"
+1079,STATE_1079,669,STATE_669,merge,0.857,split+merge; province_overlap=6; tsr_overlap_rank=1/2; bsr_source_count=2,	resources={ 		 	}
+1079,STATE_1079,1314,STATE_1314,split,1.000,split; province_overlap=2; tsr_overlap_rank=2/2; bsr_source_count=1,	resources={ 		 	}
+1080,Batavia/Jakarta,335,STATE_335,merge,0.667,split+merge; province_overlap=2; tsr_overlap_rank=1/2; bsr_source_count=2,	 	resources={ 		 	}
+1080,Batavia/Jakarta,1917,STATE_1917,split,1.000,split; province_overlap=1; tsr_overlap_rank=2/2; bsr_source_count=1,	 	resources={ 		 	}
+1083,STATE_1083,981,STATE_981,split,1.000,split; province_overlap=2; tsr_overlap_rank=1/2; bsr_source_count=1,	 	resources = { 		rubber = 25 	}
+1083,STATE_1083,336,STATE_336,merge,0.333,split+merge; province_overlap=1; tsr_overlap_rank=2/2; bsr_source_count=6,	 	resources = { 		rubber = 25 	}
+1084,STATE_1084,1094,STATE_1094,split,1.000,split; province_overlap=4; tsr_overlap_rank=1/2; bsr_source_count=1,	 	resources = { 		tungsten = 30  		aluminium = 4  		rubber = 77  	}
+1084,STATE_1084,336,STATE_336,merge,0.167,split+merge; province_overlap=1; tsr_overlap_rank=2/2; bsr_source_count=6,	 	resources = { 		tungsten = 30  		aluminium = 4  		rubber = 77  	}
+1085,STATE_1085,336,STATE_336,merge,1.000,merge; province_overlap=5; bsr_source_count=6,	 	resources = { 		tungsten = 30  		rubber = 85  	}
+1086,STATE_1086,336,STATE_336,merge,1.000,merge; province_overlap=5; bsr_source_count=6,	 	resources = { 		tungsten = 60  		rubber = 115  		aluminium = 3 		steel = 6 	}
+1088,STATE_1088,286,STATE_286,split,0.875,split; province_overlap=7; tsr_overlap_rank=1/2; bsr_source_count=1,	resources = { 		rubber = 33 # was: 94.000 	}
+1088,STATE_1088,1081,STATE_1081,split,1.000,split; province_overlap=6; tsr_overlap_rank=2/2; bsr_source_count=1,	resources = { 		rubber = 33 # was: 94.000 	}
+1099,STATE_1099,289,STATE_289,merge,1.000,merge; province_overlap=7; bsr_source_count=3,	resources={ 	}
+1101,Auckland,284,North Island,merge,1.000,merge; province_overlap=16; bsr_source_count=2,	 	resources = { 		coal = 1 	}
+1102,Marlborough,723,STATE_723,merge,1.000,merge; province_overlap=5; bsr_source_count=3,	resources = { 		tungsten = 2 	}
+1103,Otago,723,STATE_723,merge,1.000,merge; province_overlap=5; bsr_source_count=3,	resources = { 		tungsten = 1 	}

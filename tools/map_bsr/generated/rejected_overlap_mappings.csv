@@ -1,0 +1,463 @@
+tsr_state_id,tsr_state_name,bsr_state_id,bsr_state_name,mapping_type,confidence,notes
+2,Latium,906,STATE_906,manual,0.200,incompatible province overlap rejected for automatic overlay; province_overlap=1; tsr_tags=ITA PAP; bsr_tags=JAP KOR
+8,STATE_8,1200,STATE_1200,manual,0.500,incompatible province overlap rejected for automatic overlay; province_overlap=1; tsr_tags=GER LUX; bsr_tags=USA
+18,STATE_18,1754,STATE_1754,manual,0.333,incompatible province overlap rejected for automatic overlay; province_overlap=1; tsr_tags=FRA; bsr_tags=BEL GER WLL
+37,STATE_37,900,STATE_900,manual,1.000,incompatible province overlap rejected for automatic overlay; province_overlap=1; tsr_tags=DEN; bsr_tags=ENG NGA
+99,STATE_99,1131,STATE_1131,manual,0.400,incompatible province overlap rejected for automatic overlay; province_overlap=2; tsr_tags=DEN; bsr_tags=AFG BAL
+99,STATE_99,874,STATE_874,manual,1.000,incompatible province overlap rejected for automatic overlay; province_overlap=1; tsr_tags=DEN; bsr_tags=EGY
+100,STATE_100,884,STATE_884,manual,1.000,incompatible province overlap rejected for automatic overlay; province_overlap=1; tsr_tags=ICE; bsr_tags=CZE GER MRV SIL
+100,STATE_100,889,STATE_889,manual,0.500,incompatible province overlap rejected for automatic overlay; province_overlap=1; tsr_tags=ICE; bsr_tags=CZE SLO
+100,STATE_100,891,STATE_891,manual,1.000,incompatible province overlap rejected for automatic overlay; province_overlap=1; tsr_tags=ICE; bsr_tags=LAT LIV SOV
+100,STATE_100,897,STATE_897,manual,0.500,incompatible province overlap rejected for automatic overlay; province_overlap=1; tsr_tags=ICE; bsr_tags=FRA GAB
+103,Dalmatia,472,STATE_472,manual,0.091,incompatible province overlap rejected for automatic overlay; province_overlap=1; tsr_tags=CRO YUG; bsr_tags=CAN
+120,STATE_120,163,STATE_163,manual,1.000,incompatible province overlap rejected for automatic overlay; province_overlap=1; tsr_tags=ENG SCO; bsr_tags=CRO ITA YUG
+120,STATE_120,895,STATE_895,manual,1.000,incompatible province overlap rejected for automatic overlay; province_overlap=1; tsr_tags=ENG SCO; bsr_tags=FRA RCG
+195,STATE_195,1639,STATE_1639,manual,0.400,incompatible province overlap rejected for automatic overlay; province_overlap=2; tsr_tags=RUS; bsr_tags=SOV
+195,STATE_195,1685,STATE_1685,manual,1.000,incompatible province overlap rejected for automatic overlay; province_overlap=1; tsr_tags=RUS; bsr_tags=SOV
+201,STATE_201,194,Mozyr,manual,0.143,incompatible province overlap rejected for automatic overlay; province_overlap=1; tsr_tags=RUS UKR; bsr_tags=BLR SOV
+202,STATE_202,194,Mozyr,manual,0.143,incompatible province overlap rejected for automatic overlay; province_overlap=1; tsr_tags=RUS UKR; bsr_tags=BLR SOV
+208,Luga,1639,STATE_1639,manual,0.600,incompatible province overlap rejected for automatic overlay; province_overlap=3; tsr_tags=RUS; bsr_tags=SOV
+208,Luga,883,STATE_883,manual,1.000,incompatible province overlap rejected for automatic overlay; province_overlap=1; tsr_tags=RUS; bsr_tags=EST SOV
+209,Pskov,890,STATE_890,manual,1.000,incompatible province overlap rejected for automatic overlay; province_overlap=1; tsr_tags=RUS; bsr_tags=EST LIV SOV
+210,Nevel,209,STATE_209,manual,0.231,incompatible province overlap rejected for automatic overlay; province_overlap=3; tsr_tags=RUS; bsr_tags=SOV
+210,Nevel,263,STATE_263,manual,0.250,incompatible province overlap rejected for automatic overlay; province_overlap=3; tsr_tags=RUS; bsr_tags=SOV
+213,STATE_213,1382,STATE_1382,manual,0.889,incompatible province overlap rejected for automatic overlay; province_overlap=8; tsr_tags=RUS SMI; bsr_tags=SOV
+213,STATE_213,928,STATE_928,manual,0.125,incompatible province overlap rejected for automatic overlay; province_overlap=2; tsr_tags=RUS SMI; bsr_tags=KAR SOV
+213,STATE_213,1068,STATE_1068,manual,1.000,incompatible province overlap rejected for automatic overlay; province_overlap=1; tsr_tags=RUS SMI; bsr_tags=FIN
+213,STATE_213,1067,STATE_1067,manual,1.000,incompatible province overlap rejected for automatic overlay; province_overlap=1; tsr_tags=RUS SMI; bsr_tags=FIN
+213,STATE_213,929,STATE_929,manual,0.077,incompatible province overlap rejected for automatic overlay; province_overlap=1; tsr_tags=RUS SMI; bsr_tags=KAR SOV
+214,STATE_214,1255,STATE_1255,manual,0.733,incompatible province overlap rejected for automatic overlay; province_overlap=11; tsr_tags=RUS; bsr_tags=SOV
+217,STATE_217,930,STATE_930,manual,0.600,incompatible province overlap rejected for automatic overlay; province_overlap=6; tsr_tags=RUS; bsr_tags=SOV
+217,STATE_217,238,STATE_238,manual,0.133,incompatible province overlap rejected for automatic overlay; province_overlap=2; tsr_tags=RUS; bsr_tags=DON SOV
+217,STATE_217,237,STATE_237,manual,0.133,incompatible province overlap rejected for automatic overlay; province_overlap=2; tsr_tags=RUS; bsr_tags=KLY SOV
+218,STATE_218,234,STATE_234,manual,0.250,incompatible province overlap rejected for automatic overlay; province_overlap=2; tsr_tags=RUS; bsr_tags=KUB SOV
+224,STATE_224,927,STATE_927,manual,0.833,incompatible province overlap rejected for automatic overlay; province_overlap=5; tsr_tags=RUS; bsr_tags=MUS SOV
+224,STATE_224,219,STATE_219,manual,0.059,incompatible province overlap rejected for automatic overlay; province_overlap=1; tsr_tags=RUS; bsr_tags=MUS SOV
+224,STATE_224,1598,STATE_1598,manual,1.000,incompatible province overlap rejected for automatic overlay; province_overlap=1; tsr_tags=RUS; bsr_tags=MUS SOV
+230,STATE_230,1004,STATE_1004,manual,1.000,incompatible province overlap rejected for automatic overlay; province_overlap=1; tsr_tags=ARM RUS; bsr_tags=AZR SOV
+233,STATE_233,1002,STATE_1002,manual,0.400,incompatible province overlap rejected for automatic overlay; province_overlap=2; tsr_tags=RUS; bsr_tags=ABH GEO SOV
+233,STATE_233,1326,STATE_1326,manual,0.250,incompatible province overlap rejected for automatic overlay; province_overlap=1; tsr_tags=RUS; bsr_tags=CIR KBR SOV
+234,STATE_234,1320,STATE_1320,manual,1.000,incompatible province overlap rejected for automatic overlay; province_overlap=13; tsr_tags=RUS; bsr_tags=CIR KUB SOV
+236,STATE_236,1121,STATE_1121,manual,0.444,incompatible province overlap rejected for automatic overlay; province_overlap=4; tsr_tags=RUS; bsr_tags=KLY SOV
+237,STATE_237,1121,STATE_1121,manual,0.556,incompatible province overlap rejected for automatic overlay; province_overlap=5; tsr_tags=KAL RUS; bsr_tags=KLY SOV
+237,STATE_237,235,STATE_235,manual,0.087,incompatible province overlap rejected for automatic overlay; province_overlap=2; tsr_tags=KAL RUS; bsr_tags=KLY SOV
+237,STATE_237,238,STATE_238,manual,0.050,incompatible province overlap rejected for automatic overlay; province_overlap=1; tsr_tags=KAL RUS; bsr_tags=DON SOV
+239,STATE_239,401,STATE_401,manual,0.208,incompatible province overlap rejected for automatic overlay; province_overlap=5; tsr_tags=RUS; bsr_tags=SOV
+240,Belgorod,1653,STATE_1653,manual,0.111,incompatible province overlap rejected for automatic overlay; province_overlap=1; tsr_tags=RUS; bsr_tags=DON SOV
+241,Gomel,1452,STATE_1452,manual,0.500,incompatible province overlap rejected for automatic overlay; province_overlap=1; tsr_tags=BLR RUS; bsr_tags=MUS SOV
+242,STATE_242,243,STATE_243,manual,0.500,incompatible province overlap rejected for automatic overlay; province_overlap=4; tsr_tags=RUS; bsr_tags=MUS SOV
+242,STATE_242,1162,STATE_1162,manual,1.000,incompatible province overlap rejected for automatic overlay; province_overlap=2; tsr_tags=RUS; bsr_tags=MUS SOV
+243,STATE_243,242,STATE_242,manual,0.444,incompatible province overlap rejected for automatic overlay; province_overlap=4; tsr_tags=RUS; bsr_tags=MUS SOV
+243,STATE_243,1452,STATE_1452,manual,0.500,incompatible province overlap rejected for automatic overlay; province_overlap=1; tsr_tags=RUS; bsr_tags=MUS SOV
+244,Volkhov,208,STATE_208,manual,0.125,incompatible province overlap rejected for automatic overlay; province_overlap=1; tsr_tags=RUS; bsr_tags=SOV
+245,Millerovo,1653,STATE_1653,manual,0.556,incompatible province overlap rejected for automatic overlay; province_overlap=5; tsr_tags=RUS; bsr_tags=DON SOV
+245,Millerovo,218,STATE_218,manual,0.333,incompatible province overlap rejected for automatic overlay; province_overlap=3; tsr_tags=RUS; bsr_tags=DON SOV
+246,STATE_246,1164,STATE_1164,manual,1.000,incompatible province overlap rejected for automatic overlay; province_overlap=4; tsr_tags=RUS; bsr_tags=MUS SOV
+249,STATE_249,256,STATE_256,manual,0.120,incompatible province overlap rejected for automatic overlay; province_overlap=3; tsr_tags=RUS TAT; bsr_tags=SOV
+250,STATE_250,255,STATE_255,manual,0.400,incompatible province overlap rejected for automatic overlay; province_overlap=8; tsr_tags=RUS; bsr_tags=SOV
+251,STATE_251,250,STATE_250,manual,0.077,incompatible province overlap rejected for automatic overlay; province_overlap=1; tsr_tags=RUS; bsr_tags=IDL SOV
+252,STATE_252,256,STATE_256,manual,0.040,incompatible province overlap rejected for automatic overlay; province_overlap=1; tsr_tags=RUS; bsr_tags=SOV
+256,STATE_256,252,STATE_252,manual,0.444,incompatible province overlap rejected for automatic overlay; province_overlap=4; tsr_tags=CHU RUS; bsr_tags=SOV
+260,Voronezh,1653,STATE_1653,manual,0.222,incompatible province overlap rejected for automatic overlay; province_overlap=2; tsr_tags=RUS; bsr_tags=DON SOV
+262,Pechora,214,STATE_214,manual,0.222,incompatible province overlap rejected for automatic overlay; province_overlap=2; tsr_tags=KOM RUS; bsr_tags=SOV
+263,STATE_263,1161,STATE_1161,manual,0.889,incompatible province overlap rejected for automatic overlay; province_overlap=8; tsr_tags=RUS; bsr_tags=SOV
+265,STATE_265,245,STATE_245,manual,0.083,incompatible province overlap rejected for automatic overlay; province_overlap=1; tsr_tags=RUS; bsr_tags=DON SOV
+265,STATE_265,1653,STATE_1653,manual,0.111,incompatible province overlap rejected for automatic overlay; province_overlap=1; tsr_tags=RUS; bsr_tags=DON SOV
+271,STATE_271,1795,STATE_1795,manual,1.000,incompatible province overlap rejected for automatic overlay; province_overlap=1; tsr_tags=ETH ITA ORO; bsr_tags=GER POL
+283,STATE_283,1308,STATE_1308,manual,0.833,incompatible province overlap rejected for automatic overlay; province_overlap=5; tsr_tags=XIC; bsr_tags=CHI NEA PRC
+283,STATE_283,1520,STATE_1520,manual,0.750,incompatible province overlap rejected for automatic overlay; province_overlap=3; tsr_tags=XIC; bsr_tags=CHI NEA PRC
+283,STATE_283,2022,STATE_2022,manual,0.250,incompatible province overlap rejected for automatic overlay; province_overlap=1; tsr_tags=XIC; bsr_tags=CHI PRC
+283,STATE_283,1780,STATE_1780,manual,1.000,incompatible province overlap rejected for automatic overlay; province_overlap=1; tsr_tags=XIC; bsr_tags=CHI PRC XSM
+286,STATE_286,1084,STATE_1084,manual,0.167,incompatible province overlap rejected for automatic overlay; province_overlap=1; tsr_tags=CHM DAS VIN; bsr_tags=CAM FRA
+290,STATE_290,1336,STATE_1336,manual,1.000,incompatible province overlap rejected for automatic overlay; province_overlap=1; tsr_tags=RIF; bsr_tags=MOR SPR TNG
+290,STATE_290,1044,STATE_1044,manual,1.000,incompatible province overlap rejected for automatic overlay; province_overlap=1; tsr_tags=RIF; bsr_tags=MOR SPR
+290,STATE_290,1043,STATE_1043,manual,1.000,incompatible province overlap rejected for automatic overlay; province_overlap=1; tsr_tags=RIF; bsr_tags=MOR SPR
+295,STATE_295,1176,STATE_1176,manual,1.000,incompatible province overlap rejected for automatic overlay; province_overlap=1; tsr_tags=BEL COG; bsr_tags=ITA LBA
+295,STATE_295,1195,STATE_1195,manual,0.250,incompatible province overlap rejected for automatic overlay; province_overlap=1; tsr_tags=BEL COG; bsr_tags=USA
+299,STATE_299,64,STATE_64,manual,1.000,incompatible province overlap rejected for automatic overlay; province_overlap=1; tsr_tags=ENG; bsr_tags=GER PRE
+334,STATE_334,1111,STATE_1111,manual,0.143,incompatible province overlap rejected for automatic overlay; province_overlap=1; tsr_tags=INS; bsr_tags=ETH ITA SOM
+335,Java,2006,STATE_2006,manual,0.500,incompatible province overlap rejected for automatic overlay; province_overlap=1; tsr_tags=INS; bsr_tags=TUR
+336,STATE_336,1773,STATE_1773,manual,0.333,incompatible province overlap rejected for automatic overlay; province_overlap=1; tsr_tags=DAS MAL; bsr_tags=GGO POL
+340,STATE_340,1206,STATE_1206,manual,0.333,incompatible province overlap rejected for automatic overlay; province_overlap=1; tsr_tags=TUR; bsr_tags=SAF
+340,STATE_340,681,STATE_681,manual,0.333,incompatible province overlap rejected for automatic overlay; province_overlap=1; tsr_tags=TUR; bsr_tags=SAF
+341,STATE_341,1207,STATE_1207,manual,0.200,incompatible province overlap rejected for automatic overlay; province_overlap=1; tsr_tags=GRE TUR; bsr_tags=SAF
+341,STATE_341,1211,STATE_1211,manual,0.333,incompatible province overlap rejected for automatic overlay; province_overlap=1; tsr_tags=GRE TUR; bsr_tags=SAF
+344,STATE_344,1214,STATE_1214,manual,0.500,incompatible province overlap rejected for automatic overlay; province_overlap=1; tsr_tags=TUR; bsr_tags=SAF
+347,STATE_347,1206,STATE_1206,manual,0.333,incompatible province overlap rejected for automatic overlay; province_overlap=1; tsr_tags=TUR; bsr_tags=SAF
+350,STATE_350,719,STATE_719,manual,0.333,incompatible province overlap rejected for automatic overlay; province_overlap=1; tsr_tags=KUR TUR; bsr_tags=SAF TRV
+350,STATE_350,1210,STATE_1210,manual,0.250,incompatible province overlap rejected for automatic overlay; province_overlap=1; tsr_tags=KUR TUR; bsr_tags=SAF
+350,STATE_350,1207,STATE_1207,manual,0.200,incompatible province overlap rejected for automatic overlay; province_overlap=1; tsr_tags=KUR TUR; bsr_tags=SAF
+351,Vologda,1371,STATE_1371,manual,0.960,incompatible province overlap rejected for automatic overlay; province_overlap=24; tsr_tags=RUS; bsr_tags=SOV
+351,Vologda,1255,STATE_1255,manual,0.080,incompatible province overlap rejected for automatic overlay; province_overlap=2; tsr_tags=RUS; bsr_tags=SOV
+351,Vologda,17,STATE_17,manual,0.200,incompatible province overlap rejected for automatic overlay; province_overlap=1; tsr_tags=RUS; bsr_tags=BGN FRA GER
+353,STATE_353,1208,STATE_1208,manual,0.250,incompatible province overlap rejected for automatic overlay; province_overlap=1; tsr_tags=KUR TUR; bsr_tags=SAF
+354,STATE_354,1218,STATE_1218,manual,0.500,incompatible province overlap rejected for automatic overlay; province_overlap=1; tsr_tags=ARM TUR; bsr_tags=SAF TRV
+397,STATE_397,214,STATE_214,manual,0.231,incompatible province overlap rejected for automatic overlay; province_overlap=3; tsr_tags=KOM RUS; bsr_tags=SOV
+398,STATE_398,1360,STATE_1360,manual,0.429,incompatible province overlap rejected for automatic overlay; province_overlap=3; tsr_tags=RUS; bsr_tags=KOM SOV
+398,STATE_398,581,STATE_581,manual,0.200,incompatible province overlap rejected for automatic overlay; province_overlap=1; tsr_tags=RUS; bsr_tags=KOM SOV
+400,STATE_400,399,STATE_399,manual,0.600,incompatible province overlap rejected for automatic overlay; province_overlap=24; tsr_tags=RUS; bsr_tags=KOM SOV
+400,STATE_400,785,STATE_785,manual,0.333,incompatible province overlap rejected for automatic overlay; province_overlap=1; tsr_tags=RUS; bsr_tags=FRA GER
+402,STATE_402,1120,STATE_1120,manual,0.250,incompatible province overlap rejected for automatic overlay; province_overlap=1; tsr_tags=KAZ RUS; bsr_tags=IDL SOV
+405,Tashkent,1469,STATE_1469,manual,0.200,incompatible province overlap rejected for automatic overlay; province_overlap=1; tsr_tags=RUS UZB; bsr_tags=KAZ SOV
+408,STATE_408,717,STATE_717,manual,0.043,incompatible province overlap rejected for automatic overlay; province_overlap=1; tsr_tags=FER RUS VLA; bsr_tags=CHI MAN PRC
+412,STATE_412,829,STATE_829,manual,0.333,incompatible province overlap rejected for automatic overlay; province_overlap=1; tsr_tags=PER; bsr_tags=MOL SOV UKR
+423,STATE_423,425,Mysore,manual,0.400,incompatible province overlap rejected for automatic overlay; province_overlap=2; tsr_tags=DRV; bsr_tags=RAJ
+426,Orissa,1947,Madras,manual,1.000,incompatible province overlap rejected for automatic overlay; province_overlap=3; tsr_tags=IND; bsr_tags=RAJ
+427,STATE_427,424,Madras,manual,0.176,incompatible province overlap rejected for automatic overlay; province_overlap=3; tsr_tags=HYD; bsr_tags=RAJ
+427,STATE_427,429,STATE_429,manual,0.118,incompatible province overlap rejected for automatic overlay; province_overlap=2; tsr_tags=HYD; bsr_tags=RAJ
+429,Bombay,428,STATE_428,manual,0.188,incompatible province overlap rejected for automatic overlay; province_overlap=3; tsr_tags=IND MRA; bsr_tags=RAJ
+429,Bombay,427,STATE_427,manual,0.062,incompatible province overlap rejected for automatic overlay; province_overlap=1; tsr_tags=IND MRA; bsr_tags=HYD RAJ
+431,STATE_431,1272,STATE_1272,manual,1.000,incompatible province overlap rejected for automatic overlay; province_overlap=4; tsr_tags=BAN IND; bsr_tags=RAJ
+431,STATE_431,1869,STATE_1869,manual,1.000,incompatible province overlap rejected for automatic overlay; province_overlap=1; tsr_tags=BAN IND; bsr_tags=RAJ
+432,STATE_432,1812,STATE_1812,manual,1.000,incompatible province overlap rejected for automatic overlay; province_overlap=1; tsr_tags=BAN; bsr_tags=RAJ
+435,STATE_435,438,STATE_438,manual,0.118,incompatible province overlap rejected for automatic overlay; province_overlap=2; tsr_tags=IND; bsr_tags=RAJ
+436,"Central provinces, was Jabalpur",427,STATE_427,manual,0.176,incompatible province overlap rejected for automatic overlay; province_overlap=3; tsr_tags=IND; bsr_tags=HYD RAJ
+438,STATE_438,1342,STATE_1342,manual,0.800,incompatible province overlap rejected for automatic overlay; province_overlap=4; tsr_tags=IND; bsr_tags=RAJ
+439,STATE_439,438,STATE_438,manual,0.500,incompatible province overlap rejected for automatic overlay; province_overlap=2; tsr_tags=IND; bsr_tags=RAJ
+440,STATE_440,1343,STATE_1343,manual,0.667,incompatible province overlap rejected for automatic overlay; province_overlap=2; tsr_tags=KHL PAK; bsr_tags=PUN RAJ
+441,STATE_441,984,STATE_984,manual,1.000,incompatible province overlap rejected for automatic overlay; province_overlap=1; tsr_tags=KAS KHL; bsr_tags=KSH RAJ TIB
+455,STATE_455,1238,STATE_1238,manual,0.500,incompatible province overlap rejected for automatic overlay; province_overlap=1; tsr_tags=SYR; bsr_tags=ENG JOR
+466,STATE_466,1984,STATE_1984,manual,1.000,incompatible province overlap rejected for automatic overlay; province_overlap=1; tsr_tags=CAN QUE; bsr_tags=GAL GER POL
+488,STATE_488,1174,STATE_1174,manual,1.000,incompatible province overlap rejected for automatic overlay; province_overlap=1; tsr_tags=VEN; bsr_tags=CHA FRA
+490,STATE_490,787,STATE_787,manual,0.250,incompatible province overlap rejected for automatic overlay; province_overlap=1; tsr_tags=ECU PRU; bsr_tags=KSH PAK RAJ
+490,STATE_490,759,STATE_759,manual,0.250,incompatible province overlap rejected for automatic overlay; province_overlap=1; tsr_tags=ECU PRU; bsr_tags=CHI PRC SIK TUG
+491,STATE_491,1069,STATE_1069,manual,1.000,incompatible province overlap rejected for automatic overlay; province_overlap=1; tsr_tags=PRU; bsr_tags=ITA LBA
+492,STATE_492,974,STATE_974,manual,0.500,incompatible province overlap rejected for automatic overlay; province_overlap=1; tsr_tags=PRU; bsr_tags=ENG
+492,STATE_492,1056,STATE_1056,manual,1.000,incompatible province overlap rejected for automatic overlay; province_overlap=1; tsr_tags=PRU; bsr_tags=NMB SAF
+494,STATE_494,1063,STATE_1063,manual,0.333,incompatible province overlap rejected for automatic overlay; province_overlap=1; tsr_tags=PRU; bsr_tags=BUL GRE
+495,STATE_495,263,STATE_263,manual,0.250,incompatible province overlap rejected for automatic overlay; province_overlap=3; tsr_tags=BRA; bsr_tags=SOV
+495,STATE_495,821,STATE_821,manual,0.667,incompatible province overlap rejected for automatic overlay; province_overlap=2; tsr_tags=BRA; bsr_tags=FRA OCC SRD
+495,STATE_495,1132,STATE_1132,manual,0.500,incompatible province overlap rejected for automatic overlay; province_overlap=2; tsr_tags=BRA; bsr_tags=FRA SRD
+495,STATE_495,1155,STATE_1155,manual,0.667,incompatible province overlap rejected for automatic overlay; province_overlap=2; tsr_tags=BRA; bsr_tags=HEJ SAU
+495,STATE_495,679,STATE_679,manual,0.400,incompatible province overlap rejected for automatic overlay; province_overlap=2; tsr_tags=BRA; bsr_tags=HEJ SAU
+495,STATE_495,1163,Karma,manual,0.167,incompatible province overlap rejected for automatic overlay; province_overlap=2; tsr_tags=BRA; bsr_tags=BLR SOV
+495,STATE_495,1173,STATE_1173,manual,0.400,incompatible province overlap rejected for automatic overlay; province_overlap=2; tsr_tags=BRA; bsr_tags=FRA MRT
+495,STATE_495,1549,STATE_1549,manual,1.000,incompatible province overlap rejected for automatic overlay; province_overlap=1; tsr_tags=BRA; bsr_tags=BUL GRE THR
+495,STATE_495,1141,STATE_1141,manual,1.000,incompatible province overlap rejected for automatic overlay; province_overlap=1; tsr_tags=BRA; bsr_tags=BUL THR
+495,STATE_495,1429,STATE_1429,manual,0.500,incompatible province overlap rejected for automatic overlay; province_overlap=1; tsr_tags=BRA; bsr_tags=GER GRE THR
+495,STATE_495,1142,STATE_1142,manual,0.333,incompatible province overlap rejected for automatic overlay; province_overlap=1; tsr_tags=BRA; bsr_tags=BUL THR
+495,STATE_495,1116,STATE_1116,manual,0.333,incompatible province overlap rejected for automatic overlay; province_overlap=1; tsr_tags=BRA; bsr_tags=THR TUR
+495,STATE_495,1938,STATE_1938,manual,0.200,incompatible province overlap rejected for automatic overlay; province_overlap=1; tsr_tags=BRA; bsr_tags=FRA JAP TON VIN
+495,STATE_495,1071,STATE_1071,manual,0.200,incompatible province overlap rejected for automatic overlay; province_overlap=1; tsr_tags=BRA; bsr_tags=ITA LBA
+495,STATE_495,1144,STATE_1144,manual,0.200,incompatible province overlap rejected for automatic overlay; province_overlap=1; tsr_tags=BRA; bsr_tags=ITA LBA
+495,STATE_495,1980,STATE_1980,manual,1.000,incompatible province overlap rejected for automatic overlay; province_overlap=1; tsr_tags=BRA; bsr_tags=ERI ITA
+495,STATE_495,101,STATE_101,manual,0.167,incompatible province overlap rejected for automatic overlay; province_overlap=1; tsr_tags=BRA; bsr_tags=DEN GRL
+495,STATE_495,547,STATE_547,manual,0.100,incompatible province overlap rejected for automatic overlay; province_overlap=1; tsr_tags=BRA; bsr_tags=ENG KEN
+495,STATE_495,18,STATE_18,manual,0.250,incompatible province overlap rejected for automatic overlay; province_overlap=1; tsr_tags=BRA; bsr_tags=BGN FRA GER
+495,STATE_495,1498,STATE_1498,manual,0.333,incompatible province overlap rejected for automatic overlay; province_overlap=1; tsr_tags=BRA; bsr_tags=HEJ SAU
+495,STATE_495,1271,STATE_1271,manual,1.000,incompatible province overlap rejected for automatic overlay; province_overlap=1; tsr_tags=BRA; bsr_tags=SWI
+495,STATE_495,1847,STATE_1847,manual,0.143,incompatible province overlap rejected for automatic overlay; province_overlap=1; tsr_tags=BRA; bsr_tags=HEJ SAU
+495,STATE_495,1568,STATE_1568,manual,0.250,incompatible province overlap rejected for automatic overlay; province_overlap=1; tsr_tags=BRA; bsr_tags=HEJ SAU
+495,STATE_495,1154,STATE_1154,manual,0.333,incompatible province overlap rejected for automatic overlay; province_overlap=1; tsr_tags=BRA; bsr_tags=ENG IRQ JBS
+495,STATE_495,1153,STATE_1153,manual,1.000,incompatible province overlap rejected for automatic overlay; province_overlap=1; tsr_tags=BRA; bsr_tags=FRA JBS SYR
+495,STATE_495,1139,STATE_1139,manual,0.500,incompatible province overlap rejected for automatic overlay; province_overlap=1; tsr_tags=BRA; bsr_tags=GER GRE
+495,STATE_495,975,STATE_975,manual,0.500,incompatible province overlap rejected for automatic overlay; province_overlap=1; tsr_tags=BRA; bsr_tags=GER GRE
+495,STATE_495,1161,STATE_1161,manual,0.111,incompatible province overlap rejected for automatic overlay; province_overlap=1; tsr_tags=BRA; bsr_tags=SOV
+495,STATE_495,1165,STATE_1165,manual,1.000,incompatible province overlap rejected for automatic overlay; province_overlap=1; tsr_tags=BRA; bsr_tags=BLR SOV
+495,STATE_495,98,STATE_98,manual,0.333,incompatible province overlap rejected for automatic overlay; province_overlap=1; tsr_tags=BRA; bsr_tags=GER POL
+495,STATE_495,804,STATE_804,manual,0.250,incompatible province overlap rejected for automatic overlay; province_overlap=1; tsr_tags=BRA; bsr_tags=DEN GER SHL
+495,STATE_495,1612,STATE_1612,manual,1.000,incompatible province overlap rejected for automatic overlay; province_overlap=1; tsr_tags=BRA; bsr_tags=CZE MRV PBM
+495,STATE_495,1172,STATE_1172,manual,0.200,incompatible province overlap rejected for automatic overlay; province_overlap=1; tsr_tags=BRA; bsr_tags=ALG FRA
+498,STATE_498,896,STATE_896,manual,0.500,incompatible province overlap rejected for automatic overlay; province_overlap=1; tsr_tags=BRA; bsr_tags=FRA RCG
+506,Antofagasta,9,STATE_9,manual,0.167,incompatible province overlap rejected for automatic overlay; province_overlap=1; tsr_tags=CHL; bsr_tags=CZE PBM
+506,Antofagasta,432,STATE_432,manual,0.167,incompatible province overlap rejected for automatic overlay; province_overlap=1; tsr_tags=CHL; bsr_tags=RAJ
+506,Antofagasta,290,STATE_290,manual,0.250,incompatible province overlap rejected for automatic overlay; province_overlap=1; tsr_tags=CHL; bsr_tags=MOR SPR
+508,Tucuman,825,STATE_825,manual,1.000,incompatible province overlap rejected for automatic overlay; province_overlap=1; tsr_tags=ARG; bsr_tags=MCO
+508,Tucuman,827,STATE_827,manual,1.000,incompatible province overlap rejected for automatic overlay; province_overlap=1; tsr_tags=ARG; bsr_tags=SMR
+514,Algerian Desert,1128,STATE_1128,manual,0.286,incompatible province overlap rejected for automatic overlay; province_overlap=2; tsr_tags=ALG; bsr_tags=MZB POR
+514,Algerian Desert,295,STATE_295,manual,0.077,incompatible province overlap rejected for automatic overlay; province_overlap=1; tsr_tags=ALG; bsr_tags=BEL COG
+514,Algerian Desert,1550,STATE_1550,manual,1.000,incompatible province overlap rejected for automatic overlay; province_overlap=1; tsr_tags=ALG; bsr_tags=FRA TAH
+514,Algerian Desert,1106,STATE_1106,manual,0.500,incompatible province overlap rejected for automatic overlay; province_overlap=1; tsr_tags=ALG; bsr_tags=MOR SPR
+514,Algerian Desert,495,STATE_495,manual,0.143,incompatible province overlap rejected for automatic overlay; province_overlap=1; tsr_tags=ALG; bsr_tags=BRA
+514,Algerian Desert,1118,STATE_1118,manual,1.000,incompatible province overlap rejected for automatic overlay; province_overlap=1; tsr_tags=ALG; bsr_tags=ENG ISR PAL
+514,Algerian Desert,1539,STATE_1539,manual,0.200,incompatible province overlap rejected for automatic overlay; province_overlap=1; tsr_tags=ALG; bsr_tags=BEL COG KTG
+515,STATE_515,1941,STATE_1941,manual,1.000,incompatible province overlap rejected for automatic overlay; province_overlap=1; tsr_tags=AOC NGR; bsr_tags=SAF TRV
+516,Taymyria / Dudinka,1169,STATE_1169,manual,0.250,incompatible province overlap rejected for automatic overlay; province_overlap=3; tsr_tags=RUS TAY; bsr_tags=SIB SOV
+516,Taymyria / Dudinka,1420,STATE_1420,manual,0.600,incompatible province overlap rejected for automatic overlay; province_overlap=3; tsr_tags=RUS TAY; bsr_tags=SIB SOV
+527,STATE_527,1315,STATE_1315,manual,0.250,incompatible province overlap rejected for automatic overlay; province_overlap=1; tsr_tags=KOR; bsr_tags=CHI GXC PRC
+527,STATE_527,599,STATE_599,manual,0.071,incompatible province overlap rejected for automatic overlay; province_overlap=1; tsr_tags=KOR; bsr_tags=CHI GXC PRC
+540,STATE_540,1195,STATE_1195,manual,0.250,incompatible province overlap rejected for automatic overlay; province_overlap=1; tsr_tags=ANG POR; bsr_tags=USA
+540,STATE_540,1064,STATE_1064,manual,0.333,incompatible province overlap rejected for automatic overlay; province_overlap=1; tsr_tags=ANG POR; bsr_tags=USA
+550,STATE_550,1668,STATE_1668,manual,0.667,incompatible province overlap rejected for automatic overlay; province_overlap=2; tsr_tags=ERI; bsr_tags=CAN
+552,STATE_552,1565,STATE_1565,manual,1.000,incompatible province overlap rejected for automatic overlay; province_overlap=1; tsr_tags=EGY; bsr_tags=CAN
+552,STATE_552,1251,STATE_1251,manual,1.000,incompatible province overlap rejected for automatic overlay; province_overlap=1; tsr_tags=EGY; bsr_tags=BEL GER WLL
+561,Amur,574,STATE_574,manual,0.357,incompatible province overlap rejected for automatic overlay; province_overlap=5; tsr_tags=FER RUS; bsr_tags=SIB SOV YAK
+564,Ulan Ude,565,Bodaybo,manual,0.556,incompatible province overlap rejected for automatic overlay; province_overlap=5; tsr_tags=BYA RUS; bsr_tags=BRY FER SIB SOV
+564,Ulan Ude,563,STATE_563,manual,0.056,incompatible province overlap rejected for automatic overlay; province_overlap=1; tsr_tags=BYA RUS; bsr_tags=FER SIB SOV
+564,Ulan Ude,566,Irktusk,manual,0.100,incompatible province overlap rejected for automatic overlay; province_overlap=1; tsr_tags=BYA RUS; bsr_tags=SIB SOV
+565,Bodaybo,563,STATE_563,manual,0.300,incompatible province overlap rejected for automatic overlay; province_overlap=3; tsr_tags=EVE RUS; bsr_tags=FER SIB SOV
+565,Bodaybo,575,Kirensk,manual,0.200,incompatible province overlap rejected for automatic overlay; province_overlap=2; tsr_tags=EVE RUS; bsr_tags=SIB SOV
+565,Bodaybo,574,STATE_574,manual,0.100,incompatible province overlap rejected for automatic overlay; province_overlap=1; tsr_tags=EVE RUS; bsr_tags=SIB SOV YAK
+566,Irktusk,564,Ulan Ude,manual,0.182,incompatible province overlap rejected for automatic overlay; province_overlap=2; tsr_tags=RUS; bsr_tags=BRY FER SIB SOV
+567,Bratsk,329,STATE_329,manual,0.077,incompatible province overlap rejected for automatic overlay; province_overlap=1; tsr_tags=RUS; bsr_tags=SIB SOV TAN
+568,Krasnoyarsk,1167,STATE_1167,manual,1.000,incompatible province overlap rejected for automatic overlay; province_overlap=10; tsr_tags=RUS; bsr_tags=SIB SOV
+572,Chelyabinsk,653,Sverdlovsk,manual,0.778,incompatible province overlap rejected for automatic overlay; province_overlap=7; tsr_tags=RUS; bsr_tags=SIB SOV
+573,Zlatoust,1360,STATE_1360,manual,0.571,incompatible province overlap rejected for automatic overlay; province_overlap=4; tsr_tags=RUS; bsr_tags=KOM SOV
+576,Yeniseisk,1168,STATE_1168,manual,1.000,incompatible province overlap rejected for automatic overlay; province_overlap=9; tsr_tags=EVE RUS; bsr_tags=SIB SOV
+579,Salekhard,581,STATE_581,manual,0.200,incompatible province overlap rejected for automatic overlay; province_overlap=1; tsr_tags=RUS YAM; bsr_tags=KOM SOV
+582,STATE_582,1000,STATE_1000,manual,0.692,incompatible province overlap rejected for automatic overlay; province_overlap=9; tsr_tags=RUS; bsr_tags=IDL SOV
+583,STATE_583,1000,STATE_1000,manual,0.308,incompatible province overlap rejected for automatic overlay; province_overlap=4; tsr_tags=KAZ RUS; bsr_tags=IDL SOV
+585,Navoiy,1469,STATE_1469,manual,0.333,incompatible province overlap rejected for automatic overlay; province_overlap=2; tsr_tags=RUS UZB; bsr_tags=KAZ SOV
+596,STATE_596,1219,STATE_1219,manual,0.250,incompatible province overlap rejected for automatic overlay; province_overlap=1; tsr_tags=KMT; bsr_tags=CHI PRC
+597,STATE_597,1253,STATE_1253,manual,1.000,incompatible province overlap rejected for automatic overlay; province_overlap=6; tsr_tags=BYG; bsr_tags=CHI PRC
+598,STATE_598,1331,STATE_1331,manual,0.571,incompatible province overlap rejected for automatic overlay; province_overlap=8; tsr_tags=BYG; bsr_tags=CHI PRC
+598,STATE_598,597,STATE_597,manual,0.053,incompatible province overlap rejected for automatic overlay; province_overlap=1; tsr_tags=BYG; bsr_tags=CHI PGR PRC
+599,STATE_599,602,STATE_602,manual,0.077,incompatible province overlap rejected for automatic overlay; province_overlap=1; tsr_tags=GXC; bsr_tags=CHI PRC
+600,STATE_600,1031,STATE_1031,manual,0.250,incompatible province overlap rejected for automatic overlay; province_overlap=1; tsr_tags=KMT; bsr_tags=CHI PRC
+602,STATE_602,1031,STATE_1031,manual,0.500,incompatible province overlap rejected for automatic overlay; province_overlap=2; tsr_tags=KMT; bsr_tags=CHI PRC
+602,STATE_602,600,STATE_600,manual,0.087,incompatible province overlap rejected for automatic overlay; province_overlap=2; tsr_tags=KMT; bsr_tags=CHI PRC
+603,STATE_603,748,STATE_748,manual,0.750,incompatible province overlap rejected for automatic overlay; province_overlap=3; tsr_tags=GUI; bsr_tags=CHI PRC
+605,STATE_605,1311,STATE_1311,manual,1.000,incompatible province overlap rejected for automatic overlay; province_overlap=6; tsr_tags=KMT SIC; bsr_tags=CHI PRC SZH
+605,STATE_605,1763,STATE_1763,manual,0.429,incompatible province overlap rejected for automatic overlay; province_overlap=3; tsr_tags=KMT SIC; bsr_tags=CHI PRC
+605,STATE_605,1793,STATE_1793,manual,0.500,incompatible province overlap rejected for automatic overlay; province_overlap=2; tsr_tags=KMT SIC; bsr_tags=CHI PRC SZH
+605,STATE_605,1792,STATE_1792,manual,0.200,incompatible province overlap rejected for automatic overlay; province_overlap=1; tsr_tags=KMT SIC; bsr_tags=CHI PRC SZH
+606,STATE_606,1331,STATE_1331,manual,0.214,incompatible province overlap rejected for automatic overlay; province_overlap=3; tsr_tags=BYG; bsr_tags=CHI PRC
+606,STATE_606,1030,STATE_1030,manual,0.250,incompatible province overlap rejected for automatic overlay; province_overlap=2; tsr_tags=BYG; bsr_tags=CHI PRC
+607,STATE_607,1029,STATE_1029,manual,1.000,incompatible province overlap rejected for automatic overlay; province_overlap=3; tsr_tags=BYG; bsr_tags=CHI JAP PRC
+607,STATE_607,1331,STATE_1331,manual,0.143,incompatible province overlap rejected for automatic overlay; province_overlap=2; tsr_tags=BYG; bsr_tags=CHI PRC
+607,STATE_607,1027,STATE_1027,manual,0.125,incompatible province overlap rejected for automatic overlay; province_overlap=1; tsr_tags=BYG; bsr_tags=CHI PRC
+607,STATE_607,614,Hebei,manual,0.056,incompatible province overlap rejected for automatic overlay; province_overlap=1; tsr_tags=BYG; bsr_tags=CHI PRC
+608,STATE_608,609,STATE_609,manual,0.333,incompatible province overlap rejected for automatic overlay; province_overlap=3; tsr_tags=BYG; bsr_tags=CHI JAP PGR PRC
+609,East Hebei,2023,STATE_2023,manual,0.143,incompatible province overlap rejected for automatic overlay; province_overlap=1; tsr_tags=BYG HBC; bsr_tags=CHI MAN PRC
+610,Jehol,609,STATE_609,manual,0.100,incompatible province overlap rejected for automatic overlay; province_overlap=1; tsr_tags=BYG MAN; bsr_tags=CHI JAP PGR PRC
+611,South Chahar,1756,STATE_1756,manual,0.333,incompatible province overlap rejected for automatic overlay; province_overlap=1; tsr_tags=HBC MEN MON; bsr_tags=ITA PRM
+611,South Chahar,1978,STATE_1978,manual,0.100,incompatible province overlap rejected for automatic overlay; province_overlap=1; tsr_tags=HBC MEN MON; bsr_tags=CHI MAN PRC
+611,South Chahar,2023,STATE_2023,manual,0.100,incompatible province overlap rejected for automatic overlay; province_overlap=1; tsr_tags=HBC MEN MON; bsr_tags=CHI MAN PRC
+612,STATE_612,1978,STATE_1978,manual,0.143,incompatible province overlap rejected for automatic overlay; province_overlap=2; tsr_tags=HBC MEN MON; bsr_tags=CHI MAN PRC
+613,Shanghai,1219,STATE_1219,manual,0.500,incompatible province overlap rejected for automatic overlay; province_overlap=2; tsr_tags=JAP KMT; bsr_tags=CHI PRC
+614,Hebei,597,STATE_597,manual,0.071,incompatible province overlap rejected for automatic overlay; province_overlap=1; tsr_tags=BYG; bsr_tags=CHI PGR PRC
+616,STATE_616,2022,STATE_2022,manual,0.250,incompatible province overlap rejected for automatic overlay; province_overlap=1; tsr_tags=XSM; bsr_tags=CHI PRC
+620,STATE_620,1030,STATE_1030,manual,0.625,incompatible province overlap rejected for automatic overlay; province_overlap=5; tsr_tags=BYG; bsr_tags=CHI PRC
+622,STATE_622,2022,STATE_2022,manual,0.333,incompatible province overlap rejected for automatic overlay; province_overlap=1; tsr_tags=XIC; bsr_tags=CHI PRC
+651,Ufa,573,Zlatoust,manual,0.250,incompatible province overlap rejected for automatic overlay; province_overlap=2; tsr_tags=BSK RUS; bsr_tags=IDL SOV
+651,Ufa,582,STATE_582,manual,0.111,incompatible province overlap rejected for automatic overlay; province_overlap=1; tsr_tags=BSK RUS; bsr_tags=IDL SOV
+652,STATE_652,1120,STATE_1120,manual,0.750,incompatible province overlap rejected for automatic overlay; province_overlap=3; tsr_tags=RUS; bsr_tags=IDL SOV
+653,Sverdlovsk,1514,STATE_1514,manual,1.000,incompatible province overlap rejected for automatic overlay; province_overlap=14; tsr_tags=RUS; bsr_tags=SIB SOV
+653,Sverdlovsk,580,Tobolsk,manual,0.100,incompatible province overlap rejected for automatic overlay; province_overlap=2; tsr_tags=RUS; bsr_tags=SIB SOV
+653,Sverdlovsk,572,Chelyabinsk,manual,0.200,incompatible province overlap rejected for automatic overlay; province_overlap=2; tsr_tags=RUS; bsr_tags=SIB SOV
+656,STATE_656,1177,STATE_1177,manual,1.000,incompatible province overlap rejected for automatic overlay; province_overlap=1; tsr_tags=IRQ KUW; bsr_tags=ITA LBA
+656,STATE_656,17,STATE_17,manual,0.333,incompatible province overlap rejected for automatic overlay; province_overlap=1; tsr_tags=IRQ KUW; bsr_tags=BGN FRA GER
+667,STATE_667,1233,STATE_1233,manual,0.200,incompatible province overlap rejected for automatic overlay; province_overlap=1; tsr_tags=INS; bsr_tags=ENG ISR PAL
+667,STATE_667,1584,STATE_1584,manual,1.000,incompatible province overlap rejected for automatic overlay; province_overlap=1; tsr_tags=INS; bsr_tags=ENG ISR PAL
+667,STATE_667,1585,STATE_1585,manual,1.000,incompatible province overlap rejected for automatic overlay; province_overlap=1; tsr_tags=INS; bsr_tags=ENG ISR PAL
+667,STATE_667,1235,STATE_1235,manual,1.000,incompatible province overlap rejected for automatic overlay; province_overlap=1; tsr_tags=INS; bsr_tags=ENG ISR PAL
+667,STATE_667,1001,STATE_1001,manual,0.500,incompatible province overlap rejected for automatic overlay; province_overlap=1; tsr_tags=INS; bsr_tags=TUR
+667,STATE_667,44,STATE_44,manual,0.200,incompatible province overlap rejected for automatic overlay; province_overlap=1; tsr_tags=INS; bsr_tags=ALB
+667,STATE_667,1231,STATE_1231,manual,1.000,incompatible province overlap rejected for automatic overlay; province_overlap=1; tsr_tags=INS; bsr_tags=ALB KOS SER YUG
+669,STATE_669,1034,STATE_1034,manual,0.500,incompatible province overlap rejected for automatic overlay; province_overlap=1; tsr_tags=INS WPG; bsr_tags=BRA
+675,STATE_675,1732,STATE_1732,manual,0.500,incompatible province overlap rejected for automatic overlay; province_overlap=1; tsr_tags=SAU; bsr_tags=BGN FRA GER
+678,STATE_678,1117,STATE_1117,manual,1.000,incompatible province overlap rejected for automatic overlay; province_overlap=1; tsr_tags=SAU; bsr_tags=ENG ISR PAL
+717,STATE_717,909,STATE_909,manual,0.067,incompatible province overlap rejected for automatic overlay; province_overlap=1; tsr_tags=MAN; bsr_tags=JAP KOR
+719,Natal,1037,STATE_1037,manual,1.000,incompatible province overlap rejected for automatic overlay; province_overlap=1; tsr_tags=SAF; bsr_tags=ENG SWA
+719,Natal,1038,STATE_1038,manual,1.000,incompatible province overlap rejected for automatic overlay; province_overlap=1; tsr_tags=SAF; bsr_tags=ENG LES
+726,STATE_726,814,STATE_814,manual,0.500,incompatible province overlap rejected for automatic overlay; province_overlap=1; tsr_tags=DAS SAM; bsr_tags=BGN FRA GER
+732,STATE_732,1489,STATE_1489,manual,0.667,incompatible province overlap rejected for automatic overlay; province_overlap=2; tsr_tags=KYR RUS; bsr_tags=KOK SOV UZB
+738,STATE_738,804,STATE_804,manual,0.500,incompatible province overlap rejected for automatic overlay; province_overlap=1; tsr_tags=INS; bsr_tags=DEN GER SHL
+741,STATE_741,286,STATE_286,manual,0.125,incompatible province overlap rejected for automatic overlay; province_overlap=1; tsr_tags=CAM DAS; bsr_tags=COC FRA VIN
+744,STATE_744,1309,STATE_1309,manual,1.000,incompatible province overlap rejected for automatic overlay; province_overlap=3; tsr_tags=XIC; bsr_tags=CHI NEA PRC
+748,STATE_748,1312,STATE_1312,manual,0.667,incompatible province overlap rejected for automatic overlay; province_overlap=2; tsr_tags=GUI; bsr_tags=CHI PRC
+748,STATE_748,603,STATE_603,manual,0.250,incompatible province overlap rejected for automatic overlay; province_overlap=1; tsr_tags=GUI; bsr_tags=CHI PRC
+749,STATE_749,1021,STATE_1021,manual,0.286,incompatible province overlap rejected for automatic overlay; province_overlap=2; tsr_tags=JAP KMT; bsr_tags=CHI PRC RGR
+749,STATE_749,606,STATE_606,manual,0.100,incompatible province overlap rejected for automatic overlay; province_overlap=1; tsr_tags=JAP KMT; bsr_tags=CHI PRC
+750,STATE_750,1763,STATE_1763,manual,0.571,incompatible province overlap rejected for automatic overlay; province_overlap=4; tsr_tags=KMT; bsr_tags=CHI PRC
+751,STATE_751,753,STATE_753,manual,0.250,incompatible province overlap rejected for automatic overlay; province_overlap=1; tsr_tags=KMT SIC; bsr_tags=CHI PRC SZH
+751,STATE_751,1746,STATE_1746,manual,0.500,incompatible province overlap rejected for automatic overlay; province_overlap=1; tsr_tags=KMT SIC; bsr_tags=CHI HSI PRC
+752,STATE_752,1790,STATE_1790,manual,0.667,incompatible province overlap rejected for automatic overlay; province_overlap=2; tsr_tags=KMT SIC; bsr_tags=CHI HSI PRC
+752,STATE_752,1744,STATE_1744,manual,1.000,incompatible province overlap rejected for automatic overlay; province_overlap=1; tsr_tags=KMT SIC; bsr_tags=CHI HSI PRC
+752,STATE_752,1746,STATE_1746,manual,0.500,incompatible province overlap rejected for automatic overlay; province_overlap=1; tsr_tags=KMT SIC; bsr_tags=CHI HSI PRC
+752,STATE_752,1788,STATE_1788,manual,1.000,incompatible province overlap rejected for automatic overlay; province_overlap=1; tsr_tags=KMT SIC; bsr_tags=CHI HSI PRC
+752,STATE_752,1789,STATE_1789,manual,1.000,incompatible province overlap rejected for automatic overlay; province_overlap=1; tsr_tags=KMT SIC; bsr_tags=CHI HSI PRC
+753,STATE_753,1310,STATE_1310,manual,1.000,incompatible province overlap rejected for automatic overlay; province_overlap=2; tsr_tags=KMT SIC XSM; bsr_tags=CHI PRC SZH
+753,STATE_753,1745,STATE_1745,manual,1.000,incompatible province overlap rejected for automatic overlay; province_overlap=1; tsr_tags=KMT SIC XSM; bsr_tags=CHI PRC SZH
+753,STATE_753,1787,STATE_1787,manual,1.000,incompatible province overlap rejected for automatic overlay; province_overlap=1; tsr_tags=KMT SIC XSM; bsr_tags=CHI HSI PRC
+753,STATE_753,1308,STATE_1308,manual,0.167,incompatible province overlap rejected for automatic overlay; province_overlap=1; tsr_tags=KMT SIC XSM; bsr_tags=CHI NEA PRC
+753,STATE_753,1791,STATE_1791,manual,1.000,incompatible province overlap rejected for automatic overlay; province_overlap=1; tsr_tags=KMT SIC XSM; bsr_tags=CHI PRC SZH
+753,STATE_753,1792,STATE_1792,manual,0.200,incompatible province overlap rejected for automatic overlay; province_overlap=1; tsr_tags=KMT SIC XSM; bsr_tags=CHI PRC SZH
+754,STATE_754,1383,STATE_1383,manual,0.250,incompatible province overlap rejected for automatic overlay; province_overlap=1; tsr_tags=XSM; bsr_tags=POL SOV
+755,STATE_755,1383,STATE_1383,manual,0.250,incompatible province overlap rejected for automatic overlay; province_overlap=1; tsr_tags=XSM; bsr_tags=POL SOV
+761,STATE_761,1019,STATE_1019,manual,0.091,incompatible province overlap rejected for automatic overlay; province_overlap=1; tsr_tags=MAN; bsr_tags=MON
+768,Rwanda,552,STATE_552,manual,0.500,incompatible province overlap rejected for automatic overlay; province_overlap=1; tsr_tags=BEL RWA; bsr_tags=EGY
+769,Burundi,1277,STATE_1277,manual,0.500,incompatible province overlap rejected for automatic overlay; province_overlap=1; tsr_tags=BEL BRD; bsr_tags=EGY
+775,BET - Borkou-Ennedi-Tibesti region,2000,STATE_2000,manual,1.000,incompatible province overlap rejected for automatic overlay; province_overlap=1; tsr_tags=CHA DWA; bsr_tags=KSH RAJ
+786,Mauritanian Desert,1908,STATE_1908,manual,1.000,incompatible province overlap rejected for automatic overlay; province_overlap=1; tsr_tags=AOC MRT; bsr_tags=PAR
+787,Northern Kashmir,441,STATE_441,manual,0.250,incompatible province overlap rejected for automatic overlay; province_overlap=1; tsr_tags=KAS KHL PAK; bsr_tags=KSH RAJ
+800,Van,1217,STATE_1217,manual,0.500,incompatible province overlap rejected for automatic overlay; province_overlap=1; tsr_tags=ARM KUR TUR; bsr_tags=SAF TRV
+805,STATE_805,829,STATE_829,manual,0.667,incompatible province overlap rejected for automatic overlay; province_overlap=2; tsr_tags=ALB ITA; bsr_tags=MOL SOV UKR
+821,STATE_821,232,STATE_232,manual,0.600,incompatible province overlap rejected for automatic overlay; province_overlap=3; tsr_tags=CIN RUS; bsr_tags=CHE SOV
+821,STATE_821,931,STATE_931,manual,0.167,incompatible province overlap rejected for automatic overlay; province_overlap=1; tsr_tags=CIN RUS; bsr_tags=DAG SOV
+821,STATE_821,2009,STATE_2009,manual,0.333,incompatible province overlap rejected for automatic overlay; province_overlap=1; tsr_tags=CIN RUS; bsr_tags=DAG SOV
+821,STATE_821,1092,STATE_1092,manual,0.167,incompatible province overlap rejected for automatic overlay; province_overlap=1; tsr_tags=CIN RUS; bsr_tags=GEO SOV
+822,Chukotka,644,STATE_644,manual,1.000,incompatible province overlap rejected for automatic overlay; province_overlap=4; tsr_tags=CKK FER RUS; bsr_tags=SIB SOV YAK
+823,Karakalpakstan,1469,STATE_1469,manual,0.083,incompatible province overlap rejected for automatic overlay; province_overlap=1; tsr_tags=KKP RUS UZB; bsr_tags=KAZ SOV
+824,Yamalia,1169,STATE_1169,manual,1.000,incompatible province overlap rejected for automatic overlay; province_overlap=10; tsr_tags=RUS YAM; bsr_tags=SIB SOV
+825,Nenets,262,STATE_262,manual,1.000,incompatible province overlap rejected for automatic overlay; province_overlap=9; tsr_tags=NEN RUS; bsr_tags=SOV
+825,Nenets,1252,STATE_1252,manual,1.000,incompatible province overlap rejected for automatic overlay; province_overlap=1; tsr_tags=NEN RUS; bsr_tags=SOV
+827,STATE_827,1091,STATE_1091,manual,0.500,incompatible province overlap rejected for automatic overlay; province_overlap=1; tsr_tags=KBK RUS; bsr_tags=GEO SOT SOV
+827,STATE_827,1226,STATE_1226,manual,0.250,incompatible province overlap rejected for automatic overlay; province_overlap=1; tsr_tags=KBK RUS; bsr_tags=GEO SOV
+827,STATE_827,1326,STATE_1326,manual,0.250,incompatible province overlap rejected for automatic overlay; province_overlap=1; tsr_tags=KBK RUS; bsr_tags=CIR KBR SOV
+827,STATE_827,1968,STATE_1968,manual,1.000,incompatible province overlap rejected for automatic overlay; province_overlap=1; tsr_tags=KBK RUS; bsr_tags=CIR KBR SOV
+828,STATE_828,1326,STATE_1326,manual,0.667,incompatible province overlap rejected for automatic overlay; province_overlap=2; tsr_tags=NOA RUS; bsr_tags=CIR KBR SOV
+828,STATE_828,1092,STATE_1092,manual,0.333,incompatible province overlap rejected for automatic overlay; province_overlap=1; tsr_tags=NOA RUS; bsr_tags=GEO SOV
+829,Volga Germany,930,STATE_930,manual,0.400,incompatible province overlap rejected for automatic overlay; province_overlap=4; tsr_tags=RUS VGE; bsr_tags=SOV
+829,Volga Germany,265,STATE_265,manual,0.250,incompatible province overlap rejected for automatic overlay; province_overlap=3; tsr_tags=RUS VGE; bsr_tags=DON SOV
+829,Volga Germany,239,STATE_239,manual,0.250,incompatible province overlap rejected for automatic overlay; province_overlap=3; tsr_tags=RUS VGE; bsr_tags=SOV
+829,Volga Germany,401,STATE_401,manual,0.167,incompatible province overlap rejected for automatic overlay; province_overlap=2; tsr_tags=RUS VGE; bsr_tags=SOV
+831,Khiva,1465,STATE_1465,manual,0.250,incompatible province overlap rejected for automatic overlay; province_overlap=1; tsr_tags=KHI KKP RUS UZB; bsr_tags=SOV TMS
+833,STATE_833,256,STATE_256,manual,0.941,incompatible province overlap rejected for automatic overlay; province_overlap=16; tsr_tags=MEL RUS; bsr_tags=SOV
+833,STATE_833,252,STATE_252,manual,0.059,incompatible province overlap rejected for automatic overlay; province_overlap=1; tsr_tags=MEL RUS; bsr_tags=SOV
+835,STATE_835,1419,STATE_1419,manual,0.167,incompatible province overlap rejected for automatic overlay; province_overlap=1; tsr_tags=ETH HAR ITA SOM; bsr_tags=CAN
+837,STATE_837,861,STATE_861,manual,1.000,incompatible province overlap rejected for automatic overlay; province_overlap=1; tsr_tags=ETH ITA ORO SID; bsr_tags=ENG SCO
+837,STATE_837,834,STATE_834,manual,1.000,incompatible province overlap rejected for automatic overlay; province_overlap=1; tsr_tags=ETH ITA ORO SID; bsr_tags=CAN QUE
+838,STATE_838,1683,STATE_1683,manual,0.333,incompatible province overlap rejected for automatic overlay; province_overlap=1; tsr_tags=ETH GBA ITA; bsr_tags=USA
+839,STATE_839,381,STATE_381,manual,0.333,incompatible province overlap rejected for automatic overlay; province_overlap=1; tsr_tags=BEG ETH ITA ORO; bsr_tags=USA
+840,STATE_840,381,STATE_381,manual,0.500,incompatible province overlap rejected for automatic overlay; province_overlap=1; tsr_tags=BEG ETH ITA; bsr_tags=USA
+841,STATE_841,839,STATE_839,manual,0.250,incompatible province overlap rejected for automatic overlay; province_overlap=1; tsr_tags=ETH ITA QEM; bsr_tags=NEE USA
+842,STATE_842,813,STATE_813,manual,0.333,incompatible province overlap rejected for automatic overlay; province_overlap=1; tsr_tags=ETH ITA TIG; bsr_tags=BEL GER WLL
+842,STATE_842,1632,STATE_1632,manual,0.333,incompatible province overlap rejected for automatic overlay; province_overlap=1; tsr_tags=ETH ITA TIG; bsr_tags=USA
+858,STATE_858,876,STATE_876,manual,1.000,incompatible province overlap rejected for automatic overlay; province_overlap=1; tsr_tags=SAU; bsr_tags=OMA
+858,STATE_858,875,STATE_875,manual,1.000,incompatible province overlap rejected for automatic overlay; province_overlap=1; tsr_tags=SAU; bsr_tags=BHR ENG
+860,STATE_860,1109,STATE_1109,manual,0.500,incompatible province overlap rejected for automatic overlay; province_overlap=1; tsr_tags=CAN QUE; bsr_tags=JAP KOR
+866,STATE_866,1204,STATE_1204,manual,0.500,incompatible province overlap rejected for automatic overlay; province_overlap=1; tsr_tags=CAN; bsr_tags=BUL MAC YUG
+875,Chukchi Peninsula,644,STATE_644,manual,0.500,incompatible province overlap rejected for automatic overlay; province_overlap=1; tsr_tags=CKK FER RUS; bsr_tags=SIB SOV YAK
+876,Udachny,516,STATE_516,manual,0.400,incompatible province overlap rejected for automatic overlay; province_overlap=2; tsr_tags=RUS YAK; bsr_tags=SIB SOV
+878,Khatangsky,516,STATE_516,manual,0.833,incompatible province overlap rejected for automatic overlay; province_overlap=5; tsr_tags=RUS TAY; bsr_tags=SIB SOV
+878,Khatangsky,1420,STATE_1420,manual,0.200,incompatible province overlap rejected for automatic overlay; province_overlap=1; tsr_tags=RUS TAY; bsr_tags=SIB SOV
+879,Kargopol,1255,STATE_1255,manual,0.588,incompatible province overlap rejected for automatic overlay; province_overlap=10; tsr_tags=RUS; bsr_tags=SOV
+879,Kargopol,215,STATE_215,manual,0.364,incompatible province overlap rejected for automatic overlay; province_overlap=4; tsr_tags=RUS; bsr_tags=KAR SOV
+879,Kargopol,351,STATE_351,manual,0.118,incompatible province overlap rejected for automatic overlay; province_overlap=2; tsr_tags=RUS; bsr_tags=SOV
+879,Kargopol,1371,STATE_1371,manual,0.059,incompatible province overlap rejected for automatic overlay; province_overlap=1; tsr_tags=RUS; bsr_tags=SOV
+880,Kotlas,351,STATE_351,manual,0.684,incompatible province overlap rejected for automatic overlay; province_overlap=13; tsr_tags=RUS; bsr_tags=SOV
+880,Kotlas,214,STATE_214,manual,0.308,incompatible province overlap rejected for automatic overlay; province_overlap=4; tsr_tags=RUS; bsr_tags=SOV
+880,Kotlas,1255,STATE_1255,manual,0.105,incompatible province overlap rejected for automatic overlay; province_overlap=2; tsr_tags=RUS; bsr_tags=SOV
+891,STATE_891,1196,STATE_1196,manual,1.000,incompatible province overlap rejected for automatic overlay; province_overlap=1; tsr_tags=ANG POR; bsr_tags=ENG SSU SUD
+908,STATE_908,846,STATE_846,manual,0.500,incompatible province overlap rejected for automatic overlay; province_overlap=1; tsr_tags=AFA ETH; bsr_tags=USA
+908,STATE_908,792,STATE_792,manual,0.333,incompatible province overlap rejected for automatic overlay; province_overlap=1; tsr_tags=AFA ETH; bsr_tags=GER PRE RHI
+911,STATE_911,873,STATE_873,manual,1.000,incompatible province overlap rejected for automatic overlay; province_overlap=1; tsr_tags=DEN; bsr_tags=ENG SUD
+912,STATE_912,551,STATE_551,manual,0.333,incompatible province overlap rejected for automatic overlay; province_overlap=1; tsr_tags=DEN GER; bsr_tags=ENG SUD
+913,STATE_913,910,STATE_910,manual,1.000,incompatible province overlap rejected for automatic overlay; province_overlap=1; tsr_tags=SWE; bsr_tags=JAP KOR
+913,STATE_913,902,STATE_902,manual,1.000,incompatible province overlap rejected for automatic overlay; province_overlap=1; tsr_tags=SWE; bsr_tags=CHI PRC
+914,STATE_914,897,STATE_897,manual,1.000,incompatible province overlap rejected for automatic overlay; province_overlap=1; tsr_tags=NOR; bsr_tags=FRA GAB
+938,STATE_938,901,STATE_901,manual,0.500,incompatible province overlap rejected for automatic overlay; province_overlap=1; tsr_tags=BRA; bsr_tags=ENG NGA
+938,STATE_938,927,STATE_927,manual,0.167,incompatible province overlap rejected for automatic overlay; province_overlap=1; tsr_tags=BRA; bsr_tags=MUS SOV
+940,STATE_940,946,STATE_946,manual,0.333,incompatible province overlap rejected for automatic overlay; province_overlap=1; tsr_tags=BRA; bsr_tags=ENG IRQ
+940,STATE_940,938,STATE_938,manual,1.000,incompatible province overlap rejected for automatic overlay; province_overlap=1; tsr_tags=BRA; bsr_tags=BOS CRO HRZ YUG
+940,STATE_940,1488,STATE_1488,manual,0.500,incompatible province overlap rejected for automatic overlay; province_overlap=1; tsr_tags=BRA; bsr_tags=SAU
+941,STATE_941,946,STATE_946,manual,0.250,incompatible province overlap rejected for automatic overlay; province_overlap=1; tsr_tags=BRA; bsr_tags=ENG IRQ
+941,STATE_941,1154,STATE_1154,manual,0.333,incompatible province overlap rejected for automatic overlay; province_overlap=1; tsr_tags=BRA; bsr_tags=ENG IRQ JBS
+942,STATE_942,973,STATE_973,manual,1.000,incompatible province overlap rejected for automatic overlay; province_overlap=1; tsr_tags=BRA; bsr_tags=ENG
+942,STATE_942,1154,STATE_1154,manual,0.333,incompatible province overlap rejected for automatic overlay; province_overlap=1; tsr_tags=BRA; bsr_tags=ENG IRQ JBS
+947,STATE_947,994,STATE_994,manual,1.000,incompatible province overlap rejected for automatic overlay; province_overlap=1; tsr_tags=PRU; bsr_tags=HUN
+948,STATE_948,1109,STATE_1109,manual,1.000,incompatible province overlap rejected for automatic overlay; province_overlap=1; tsr_tags=CHL RAP; bsr_tags=JAP KOR
+949,Aysen,1108,STATE_1108,manual,0.500,incompatible province overlap rejected for automatic overlay; province_overlap=1; tsr_tags=CHL; bsr_tags=JAP KOR
+950,STATE_950,1111,STATE_1111,manual,0.200,incompatible province overlap rejected for automatic overlay; province_overlap=1; tsr_tags=CHL; bsr_tags=ETH ITA SOM
+951,STATE_951,860,STATE_860,manual,1.000,incompatible province overlap rejected for automatic overlay; province_overlap=1; tsr_tags=CHL; bsr_tags=CUB USA
+953,STATE_953,1703,STATE_1703,manual,1.000,incompatible province overlap rejected for automatic overlay; province_overlap=1; tsr_tags=ARG WLA; bsr_tags=GER PRE
+953,STATE_953,1111,STATE_1111,manual,0.333,incompatible province overlap rejected for automatic overlay; province_overlap=1; tsr_tags=ARG WLA; bsr_tags=ETH ITA SOM
+954,STATE_954,904,STATE_904,manual,0.200,incompatible province overlap rejected for automatic overlay; province_overlap=1; tsr_tags=ARG WLA; bsr_tags=JAP KOR
+955,STATE_955,1108,STATE_1108,manual,0.500,incompatible province overlap rejected for automatic overlay; province_overlap=1; tsr_tags=ARG WLA; bsr_tags=JAP KOR
+955,STATE_955,903,STATE_903,manual,0.200,incompatible province overlap rejected for automatic overlay; province_overlap=1; tsr_tags=ARG WLA; bsr_tags=JAP KOR
+955,STATE_955,828,STATE_828,manual,1.000,incompatible province overlap rejected for automatic overlay; province_overlap=1; tsr_tags=ARG WLA; bsr_tags=VCT
+959,STATE_959,824,STATE_824,manual,0.500,incompatible province overlap rejected for automatic overlay; province_overlap=1; tsr_tags=ARG; bsr_tags=ADR
+959,STATE_959,831,STATE_831,manual,1.000,incompatible province overlap rejected for automatic overlay; province_overlap=1; tsr_tags=ARG; bsr_tags=ROM
+962,STATE_962,1147,STATE_1147,manual,1.000,incompatible province overlap rejected for automatic overlay; province_overlap=1; tsr_tags=BRA; bsr_tags=CHE SOV
+967,STATE_967,974,STATE_974,manual,1.000,incompatible province overlap rejected for automatic overlay; province_overlap=1; tsr_tags=BRA; bsr_tags=ENG
+968,STATE_968,1847,STATE_1847,manual,0.333,incompatible province overlap rejected for automatic overlay; province_overlap=1; tsr_tags=BRA; bsr_tags=HEJ SAU
+969,STATE_969,1173,STATE_1173,manual,0.333,incompatible province overlap rejected for automatic overlay; province_overlap=1; tsr_tags=BRA; bsr_tags=FRA MRT
+969,STATE_969,1498,STATE_1498,manual,0.333,incompatible province overlap rejected for automatic overlay; province_overlap=1; tsr_tags=BRA; bsr_tags=HEJ SAU
+982,STATE_982,423,Madurai,manual,1.000,incompatible province overlap rejected for automatic overlay; province_overlap=5; tsr_tags=DRV RAS; bsr_tags=RAJ
+983,manpower = 1697161,429,STATE_429,manual,0.444,incompatible province overlap rejected for automatic overlay; province_overlap=4; tsr_tags=KOL MRA; bsr_tags=RAJ
+983,manpower = 1697161,1948,Mysore,manual,1.000,incompatible province overlap rejected for automatic overlay; province_overlap=2; tsr_tags=KOL MRA; bsr_tags=RAJ
+983,manpower = 1697161,1949,Mysore,manual,0.500,incompatible province overlap rejected for automatic overlay; province_overlap=2; tsr_tags=KOL MRA; bsr_tags=RAJ
+983,manpower = 1697161,427,STATE_427,manual,0.111,incompatible province overlap rejected for automatic overlay; province_overlap=1; tsr_tags=KOL MRA; bsr_tags=HYD RAJ
+984,manpower = 30650,436,Jabalpur,manual,0.625,incompatible province overlap rejected for automatic overlay; province_overlap=5; tsr_tags=IND; bsr_tags=RAJ
+984,manpower = 30650,426,Orissa,manual,0.375,incompatible province overlap rejected for automatic overlay; province_overlap=3; tsr_tags=IND; bsr_tags=RAJ
+985,manpower = 109808,983,STATE_983,manual,1.000,incompatible province overlap rejected for automatic overlay; province_overlap=1; tsr_tags=IND SKK TIB; bsr_tags=RAJ SKM
+986,manpower = 16959758,985,STATE_985,manual,1.000,incompatible province overlap rejected for automatic overlay; province_overlap=4; tsr_tags=IND KHL; bsr_tags=RAJ
+986,manpower = 16959758,439,STATE_439,manual,0.500,incompatible province overlap rejected for automatic overlay; province_overlap=2; tsr_tags=IND KHL; bsr_tags=RAJ
+986,manpower = 16959758,1343,STATE_1343,manual,0.333,incompatible province overlap rejected for automatic overlay; province_overlap=1; tsr_tags=IND KHL; bsr_tags=PUN RAJ
+986,manpower = 16959758,1342,STATE_1342,manual,0.200,incompatible province overlap rejected for automatic overlay; province_overlap=1; tsr_tags=IND KHL; bsr_tags=RAJ
+989,STATE_989,433,STATE_433,manual,0.667,incompatible province overlap rejected for automatic overlay; province_overlap=4; tsr_tags=IND RJP; bsr_tags=RAJ
+989,STATE_989,440,STATE_440,manual,0.333,incompatible province overlap rejected for automatic overlay; province_overlap=2; tsr_tags=IND RJP; bsr_tags=PAK PUN RAJ
+990,STATE_990,432,STATE_432,manual,1.000,incompatible province overlap rejected for automatic overlay; province_overlap=3; tsr_tags=BAN MPU; bsr_tags=RAJ
+991,STATE_991,437,Indore,manual,1.000,incompatible province overlap rejected for automatic overlay; province_overlap=3; tsr_tags=CIP IND; bsr_tags=RAJ
+992,STATE_992,1200,STATE_1200,manual,0.500,incompatible province overlap rejected for automatic overlay; province_overlap=1; tsr_tags=FSA YEM; bsr_tags=USA
+998,STATE_998,1748,STATE_1748,manual,1.000,incompatible province overlap rejected for automatic overlay; province_overlap=2; tsr_tags=BRM; bsr_tags=CHI PRC YUN
+1010,STATE_1010,1208,STATE_1208,manual,0.250,incompatible province overlap rejected for automatic overlay; province_overlap=1; tsr_tags=IRQ; bsr_tags=SAF
+1011,STATE_1011,1217,STATE_1217,manual,0.500,incompatible province overlap rejected for automatic overlay; province_overlap=1; tsr_tags=IRQ; bsr_tags=SAF TRV
+1013,STATE_1013,1191,STATE_1191,manual,1.000,incompatible province overlap rejected for automatic overlay; province_overlap=1; tsr_tags=OMA; bsr_tags=LIT POL SOV
+1014,STATE_1014,826,STATE_826,manual,1.000,incompatible province overlap rejected for automatic overlay; province_overlap=1; tsr_tags=BHR; bsr_tags=LIE
+1025,STATE_1025,1928,STATE_1928,manual,0.167,incompatible province overlap rejected for automatic overlay; province_overlap=1; tsr_tags=PHI; bsr_tags=INS SBS
+1032,STATE_1032,1307,STATE_1307,manual,1.000,incompatible province overlap rejected for automatic overlay; province_overlap=5; tsr_tags=XIC; bsr_tags=CHI NEA PRC
+1032,STATE_1032,622,STATE_622,manual,0.250,incompatible province overlap rejected for automatic overlay; province_overlap=1; tsr_tags=XIC; bsr_tags=CHI PRC
+1034,STATE_1034,1021,STATE_1021,manual,0.429,incompatible province overlap rejected for automatic overlay; province_overlap=3; tsr_tags=JAP KMT; bsr_tags=CHI PRC RGR
+1034,STATE_1034,598,STATE_598,manual,0.250,incompatible province overlap rejected for automatic overlay; province_overlap=2; tsr_tags=JAP KMT; bsr_tags=CHI PRC
+1034,STATE_1034,1028,STATE_1028,manual,1.000,incompatible province overlap rejected for automatic overlay; province_overlap=1; tsr_tags=JAP KMT; bsr_tags=CHI PRC RGR
+1034,STATE_1034,1219,STATE_1219,manual,0.250,incompatible province overlap rejected for automatic overlay; province_overlap=1; tsr_tags=JAP KMT; bsr_tags=CHI PRC
+1035,STATE_1035,1021,STATE_1021,manual,0.500,incompatible province overlap rejected for automatic overlay; province_overlap=2; tsr_tags=JAP KMT; bsr_tags=CHI PRC RGR
+1035,STATE_1035,606,STATE_606,manual,0.250,incompatible province overlap rejected for automatic overlay; province_overlap=1; tsr_tags=JAP KMT; bsr_tags=CHI PRC
+1035,STATE_1035,598,STATE_598,manual,0.250,incompatible province overlap rejected for automatic overlay; province_overlap=1; tsr_tags=JAP KMT; bsr_tags=CHI PRC
+1036,STATE_1036,1031,STATE_1031,manual,0.333,incompatible province overlap rejected for automatic overlay; province_overlap=1; tsr_tags=KMT; bsr_tags=CHI PRC
+1036,STATE_1036,620,STATE_620,manual,0.333,incompatible province overlap rejected for automatic overlay; province_overlap=1; tsr_tags=KMT; bsr_tags=CHI PRC
+1036,STATE_1036,1030,STATE_1030,manual,0.333,incompatible province overlap rejected for automatic overlay; province_overlap=1; tsr_tags=KMT; bsr_tags=CHI PRC
+1037,STATE_1037,605,STATE_605,manual,0.750,incompatible province overlap rejected for automatic overlay; province_overlap=3; tsr_tags=KMT SIC; bsr_tags=CHI PRC SZH
+1037,STATE_1037,753,STATE_753,manual,0.250,incompatible province overlap rejected for automatic overlay; province_overlap=1; tsr_tags=KMT SIC; bsr_tags=CHI PRC SZH
+1037,STATE_1037,1312,STATE_1312,manual,0.333,incompatible province overlap rejected for automatic overlay; province_overlap=1; tsr_tags=KMT SIC; bsr_tags=CHI PRC
+1038,STATE_1038,597,STATE_597,manual,0.625,incompatible province overlap rejected for automatic overlay; province_overlap=15; tsr_tags=BYG; bsr_tags=CHI PGR PRC
+1038,STATE_1038,1027,STATE_1027,manual,0.875,incompatible province overlap rejected for automatic overlay; province_overlap=7; tsr_tags=BYG; bsr_tags=CHI PRC
+1038,STATE_1038,614,Hebei,manual,0.222,incompatible province overlap rejected for automatic overlay; province_overlap=4; tsr_tags=BYG; bsr_tags=CHI PRC
+1038,STATE_1038,1331,STATE_1331,manual,0.071,incompatible province overlap rejected for automatic overlay; province_overlap=1; tsr_tags=BYG; bsr_tags=CHI PRC
+1039,South Chahar,1752,STATE_1752,manual,1.000,incompatible province overlap rejected for automatic overlay; province_overlap=1; tsr_tags=BYG MEN; bsr_tags=CHI JAP PRC
+1039,South Chahar,2023,STATE_2023,manual,0.250,incompatible province overlap rejected for automatic overlay; province_overlap=1; tsr_tags=BYG MEN; bsr_tags=CHI MAN PRC
+1041,STATE_1041,1792,STATE_1792,manual,0.600,incompatible province overlap rejected for automatic overlay; province_overlap=3; tsr_tags=KMT SIC; bsr_tags=CHI PRC SZH
+1041,STATE_1041,753,STATE_753,manual,0.500,incompatible province overlap rejected for automatic overlay; province_overlap=2; tsr_tags=KMT SIC; bsr_tags=CHI PRC SZH
+1041,STATE_1041,1793,STATE_1793,manual,0.500,incompatible province overlap rejected for automatic overlay; province_overlap=2; tsr_tags=KMT SIC; bsr_tags=CHI PRC SZH
+1041,STATE_1041,751,STATE_751,manual,0.333,incompatible province overlap rejected for automatic overlay; province_overlap=1; tsr_tags=KMT SIC; bsr_tags=CHI PRC SZH
+1044,STATE_1044,1520,STATE_1520,manual,0.250,incompatible province overlap rejected for automatic overlay; province_overlap=1; tsr_tags=XSM; bsr_tags=CHI NEA PRC
+1045,STATE_1045,283,STATE_283,manual,1.000,incompatible province overlap rejected for automatic overlay; province_overlap=2; tsr_tags=XIC; bsr_tags=CHI NSI PRC XSM
+1045,STATE_1045,1753,STATE_1753,manual,0.500,incompatible province overlap rejected for automatic overlay; province_overlap=1; tsr_tags=XIC; bsr_tags=CHI NSI PRC XSM
+1045,STATE_1045,2022,STATE_2022,manual,0.250,incompatible province overlap rejected for automatic overlay; province_overlap=1; tsr_tags=XIC; bsr_tags=CHI PRC
+1046,STATE_1046,1751,STATE_1751,manual,1.000,incompatible province overlap rejected for automatic overlay; province_overlap=2; tsr_tags=XIC; bsr_tags=CHI PRC
+1046,STATE_1046,622,STATE_622,manual,0.333,incompatible province overlap rejected for automatic overlay; province_overlap=1; tsr_tags=XIC; bsr_tags=CHI PRC
+1050,STATE_1050,1295,STATE_1295,manual,1.000,incompatible province overlap rejected for automatic overlay; province_overlap=2; tsr_tags=SAU; bsr_tags=ENG JBS JOR
+1051,STATE_1051,947,STATE_947,manual,1.000,incompatible province overlap rejected for automatic overlay; province_overlap=2; tsr_tags=SAU; bsr_tags=ENG JBS JOR
+1052,STATE_1052,675,STATE_675,manual,0.667,incompatible province overlap rejected for automatic overlay; province_overlap=2; tsr_tags=SAU; bsr_tags=ENG IRQ JBS
+1052,STATE_1052,1220,STATE_1220,manual,0.333,incompatible province overlap rejected for automatic overlay; province_overlap=1; tsr_tags=SAU; bsr_tags=SAF TRV
+1053,STATE_1053,1243,STATE_1243,manual,1.000,incompatible province overlap rejected for automatic overlay; province_overlap=3; tsr_tags=IRQ; bsr_tags=FRA SYR
+1053,STATE_1053,1257,STATE_1257,manual,0.750,incompatible province overlap rejected for automatic overlay; province_overlap=3; tsr_tags=IRQ; bsr_tags=FRA SYR
+1053,STATE_1053,1040,STATE_1040,manual,1.000,incompatible province overlap rejected for automatic overlay; province_overlap=1; tsr_tags=IRQ; bsr_tags=FRA KUR SYR
+1058,STATE_1058,2005,STATE_2005,manual,1.000,incompatible province overlap rejected for automatic overlay; province_overlap=1; tsr_tags=ARM RUS; bsr_tags=TUR
+1058,STATE_1058,1001,STATE_1001,manual,0.500,incompatible province overlap rejected for automatic overlay; province_overlap=1; tsr_tags=ARM RUS; bsr_tags=TUR
+1058,STATE_1058,1207,STATE_1207,manual,0.200,incompatible province overlap rejected for automatic overlay; province_overlap=1; tsr_tags=ARM RUS; bsr_tags=SAF
+1058,STATE_1058,1210,STATE_1210,manual,0.250,incompatible province overlap rejected for automatic overlay; province_overlap=1; tsr_tags=ARM RUS; bsr_tags=SAF
+1058,STATE_1058,1214,STATE_1214,manual,0.500,incompatible province overlap rejected for automatic overlay; province_overlap=1; tsr_tags=ARM RUS; bsr_tags=SAF
+1058,STATE_1058,1224,STATE_1224,manual,1.000,incompatible province overlap rejected for automatic overlay; province_overlap=1; tsr_tags=ARM RUS; bsr_tags=TUR
+1059,STATE_1059,961,STATE_961,manual,1.000,incompatible province overlap rejected for automatic overlay; province_overlap=3; tsr_tags=SYR; bsr_tags=TUR
+1066,STATE_1066,735,STATE_735,manual,1.000,incompatible province overlap rejected for automatic overlay; province_overlap=3; tsr_tags=ITA; bsr_tags=FRA SRD
+1066,STATE_1066,1132,STATE_1132,manual,0.500,incompatible province overlap rejected for automatic overlay; province_overlap=2; tsr_tags=ITA; bsr_tags=FRA SRD
+1067,STATE_1067,821,STATE_821,manual,0.500,incompatible province overlap rejected for automatic overlay; province_overlap=1; tsr_tags=ITA; bsr_tags=FRA OCC SRD
+1067,STATE_1067,813,STATE_813,manual,0.500,incompatible province overlap rejected for automatic overlay; province_overlap=1; tsr_tags=ITA; bsr_tags=BEL GER WLL
+1068,STATE_1068,1220,STATE_1220,manual,1.000,incompatible province overlap rejected for automatic overlay; province_overlap=1; tsr_tags=BAY; bsr_tags=SAF TRV
+1070,STATE_1070,1238,STATE_1238,manual,0.500,incompatible province overlap rejected for automatic overlay; province_overlap=1; tsr_tags=INS; bsr_tags=ENG JOR
+1070,STATE_1070,1241,STATE_1241,manual,0.250,incompatible province overlap rejected for automatic overlay; province_overlap=1; tsr_tags=INS; bsr_tags=FRA SYR
+1071,STATE_1071,813,STATE_813,manual,0.333,incompatible province overlap rejected for automatic overlay; province_overlap=1; tsr_tags=INS SSI; bsr_tags=BEL GER WLL
+1072,STATE_1072,1241,STATE_1241,manual,0.250,incompatible province overlap rejected for automatic overlay; province_overlap=1; tsr_tags=ATJ INS; bsr_tags=FRA SYR
+1072,STATE_1072,1245,STATE_1245,manual,0.500,incompatible province overlap rejected for automatic overlay; province_overlap=1; tsr_tags=ATJ INS; bsr_tags=ENG IRQ KUR
+1072,STATE_1072,88,STATE_88,manual,0.250,incompatible province overlap rejected for automatic overlay; province_overlap=1; tsr_tags=ATJ INS; bsr_tags=GAL GGO POL
+1072,STATE_1072,1390,STATE_1390,manual,0.500,incompatible province overlap rejected for automatic overlay; province_overlap=1; tsr_tags=ATJ INS; bsr_tags=FRA ITA SRD
+1073,STATE_1073,1059,STATE_1059,manual,0.500,incompatible province overlap rejected for automatic overlay; province_overlap=2; tsr_tags=INS; bsr_tags=GEL GER HOL
+1073,STATE_1073,2006,STATE_2006,manual,0.500,incompatible province overlap rejected for automatic overlay; province_overlap=1; tsr_tags=INS; bsr_tags=TUR
+1073,STATE_1073,1755,STATE_1755,manual,0.333,incompatible province overlap rejected for automatic overlay; province_overlap=1; tsr_tags=INS; bsr_tags=ITA
+1073,STATE_1073,1193,STATE_1193,manual,0.200,incompatible province overlap rejected for automatic overlay; province_overlap=1; tsr_tags=INS; bsr_tags=ITA KTS
+1073,STATE_1073,1773,STATE_1773,manual,0.250,incompatible province overlap rejected for automatic overlay; province_overlap=1; tsr_tags=INS; bsr_tags=GGO POL
+1074,STATE_1074,1666,STATE_1666,manual,1.000,incompatible province overlap rejected for automatic overlay; province_overlap=1; tsr_tags=BLI INS; bsr_tags=TUR
+1074,STATE_1074,44,STATE_44,manual,0.333,incompatible province overlap rejected for automatic overlay; province_overlap=1; tsr_tags=BLI INS; bsr_tags=ALB
+1075,STATE_1075,454,STATE_454,manual,0.333,incompatible province overlap rejected for automatic overlay; province_overlap=1; tsr_tags=INS; bsr_tags=ENG ISR PAL
+1075,STATE_1075,1234,STATE_1234,manual,1.000,incompatible province overlap rejected for automatic overlay; province_overlap=1; tsr_tags=INS; bsr_tags=ENG ISR PAL
+1079,STATE_1079,1606,STATE_1606,manual,1.000,incompatible province overlap rejected for automatic overlay; province_overlap=1; tsr_tags=INS PNG WPG; bsr_tags=BRA
+1081,STATE_1081,76,STATE_76,manual,0.333,incompatible province overlap rejected for automatic overlay; province_overlap=1; tsr_tags=BRN DAS MAL SAR; bsr_tags=HUN ROM TRA
+1081,STATE_1081,1201,STATE_1201,manual,0.333,incompatible province overlap rejected for automatic overlay; province_overlap=1; tsr_tags=BRN DAS MAL SAR; bsr_tags=HUN ROM TRA
+1082,STATE_1082,76,STATE_76,manual,0.250,incompatible province overlap rejected for automatic overlay; province_overlap=1; tsr_tags=DAS MAL; bsr_tags=HUN ROM TRA
+1087,STATE_1087,1773,STATE_1773,manual,1.000,incompatible province overlap rejected for automatic overlay; province_overlap=1; tsr_tags=DAS MAL; bsr_tags=GGO POL
+1095,STATE_1095,1032,STATE_1032,manual,1.000,incompatible province overlap rejected for automatic overlay; province_overlap=1; tsr_tags=AST PNG; bsr_tags=ENG GYA
+1095,STATE_1095,1034,STATE_1034,manual,0.500,incompatible province overlap rejected for automatic overlay; province_overlap=1; tsr_tags=AST PNG; bsr_tags=BRA
+1095,STATE_1095,1033,STATE_1033,manual,1.000,incompatible province overlap rejected for automatic overlay; province_overlap=1; tsr_tags=AST PNG; bsr_tags=BRA

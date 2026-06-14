@@ -1,0 +1,25 @@
+state={
+	id=1187
+	name="STATE_1187" # STATE_1187
+	# TSR2_OVERLAY none (BSR-only state)
+
+		state_category = rural
+
+	manpower=721239
+
+	history={
+		owner = ENG
+		victory_points = {
+			2096 1 
+		}
+		buildings = {
+			infrastructure = 3
+		}
+		add_core_of = SSU
+		add_core_of = SUD
+	}
+
+		provinces={
+			1953 2096 4033 7996 10764 10857 10859 10877 10908 12744 12800 12887 
+		}
+}

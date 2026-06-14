@@ -1,0 +1,33 @@
+state={
+	id=20
+	name="STATE_20" # STATE_20
+	# TSR2_OVERLAY tsr_state_id=20 ratio=1.000 split=False
+
+		state_category=city
+
+	manpower=2973200
+
+	resources={
+		steel = 32
+		aluminium = 35
+	}
+
+	history={
+		owner = FRA
+		victory_points = {
+			3770 5 
+		}
+		buildings = {
+			air_base = 4
+			infrastructure = 4
+			arms_factory = 1
+			industrial_complex = 2
+		}
+		add_core_of = FRA
+		add_core_of = OCC
+	}
+
+		provinces={
+			3770 6786 9728 9732 11713 11716
+		}
+}

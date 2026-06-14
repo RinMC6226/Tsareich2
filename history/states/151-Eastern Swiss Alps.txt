@@ -1,23 +1,29 @@
-
 state={
 	id=151
-	name="STATE_151"
-	manpower = 598920
-	state_category = rural
+	name="STATE_151" # STATE_151
+	# TSR2_OVERLAY tsr_state_id=151 ratio=1.000 split=False
+
+		state_category=large_town
+
+	manpower=598920
+
 	resources={
-		aluminium=15 # was: 24
+		aluminium = 15
 	}
+
 	history={
 		owner = SWI
-		victory_points = { 658 1 }
+		victory_points = {
+			663 10 
+		}
 		buildings = {
-			infrastructure = 1 
+			infrastructure = 1
 			industrial_complex = 1
 		}
 		add_core_of = SWI
 	}
-	provinces={
-		658 661 3660 3662 11601 
-	}
-	local_supplies=0.0 
+
+		provinces={
+			661 663 11601 11623 
+		}
 }

@@ -6,17 +6,13 @@ country_event = {
     desc = rus_tsar_death.1.d
     picture = GFX_report_event_PLACEHOLDER 
 
-    is_triggered_only = no
-    
+    is_triggered_only = yes
+
+    # on_startup から days=12 (1936.1.13) で遅延発火する。
+    # 毎日ポーリング(MTTH=1日)を廃止し eventmanager の "Event is set to trigger every day" 警告を解消。
     trigger = {
-        date > 1936.1.13
-        NOT = { date > 1936.1.15 }
         tag = RUS
-        NOT = { has_country_flag = rus_tsar_death_1_fired } 
-    }
-    
-    mean_time_to_happen = {
-        days = 1 
+        NOT = { has_country_flag = rus_tsar_death_1_fired }
     }
 
     option = {

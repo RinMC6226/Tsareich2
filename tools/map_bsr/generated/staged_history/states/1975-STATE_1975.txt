@@ -1,0 +1,22 @@
+state={
+	id=1975
+	name="STATE_1975" # STATE_1975
+	# TSR2_OVERLAY none (BSR-only state)
+
+		state_category=wasteland
+
+	manpower=42230
+
+	history={
+		owner = HOL
+		buildings = {
+			infrastructure = 6
+		}
+		add_core_of = GEL
+		add_core_of = HOL
+	}
+
+		provinces={
+			9309 
+		}
+}

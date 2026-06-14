@@ -1,0 +1,36 @@
+state={
+	id=934
+	name="STATE_934" # STATE_934
+	# TSR2_OVERLAY tsr_state_id=934 ratio=1.000 split=False
+
+		state_category=rural
+
+	manpower=246933
+
+	resources={
+		aluminium = 1
+		chromium = 1
+		coal = 1
+	}
+
+	history={
+		owner = ALB
+		controller = ITA
+				add_claim_by = ITA
+				    remove_claim_by = ITA
+		victory_points = {
+			9596 1 
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+		}
+		add_core_of = ALB
+		add_core_of = SLV
+		add_core_of = YUG
+	}
+
+		provinces={
+			3654 9596 
+		}
+}

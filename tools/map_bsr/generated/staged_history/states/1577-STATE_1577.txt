@@ -1,0 +1,30 @@
+state={
+	id=1577
+	name="STATE_1577" # STATE_1577
+	# TSR2_OVERLAY none (BSR-only state)
+
+		state_category=town
+
+	manpower=1053160
+
+	resources={
+		steel = 10
+	}
+
+	history={
+		owner = FRA
+		victory_points = {
+			1145 5 
+		}
+		buildings = {
+			air_base = 3
+			infrastructure = 5
+		1145 = {naval_base = 2}
+		}
+		add_core_of = ALG
+	}
+
+		provinces={
+			11939 4131 7033 1128 4146 1145 9964 7040 12760 1013
+		}
+}

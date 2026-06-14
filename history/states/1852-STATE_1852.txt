@@ -1,0 +1,29 @@
+state={
+	id=1852
+	name="STATE_1852" # STATE_1852
+	# TSR2_OVERLAY none (BSR-only state)
+
+		
+		state_category = rural
+
+	manpower=57261
+
+	resources={
+		chromium = 1
+	}
+
+	history={
+		owner = GUA
+		victory_points = {
+			7460 1
+		}
+		buildings = {
+			infrastructure = 3
+		}
+		add_core_of = GUA
+	}
+
+		provinces={
+			7460
+		}
+}

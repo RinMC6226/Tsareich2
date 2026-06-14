@@ -1,0 +1,26 @@
+state={
+	id=1678
+	name="STATE_1678" # STATE_1678
+	# TSR2_OVERLAY none (BSR-only state)
+
+		state_category=pastoral
+
+	manpower=71205
+
+	history={
+		owner = TUR
+		victory_points = {
+			6995 2
+		}
+		buildings = {
+			infrastructure = 4
+		6995 = {naval_base = 1}
+		}
+		add_core_of = PON
+		add_core_of = TUR
+	}
+
+		provinces={
+			6995 3967
+		}
+}

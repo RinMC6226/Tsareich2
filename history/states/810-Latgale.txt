@@ -1,0 +1,30 @@
+state={
+	id=810
+	name="STATE_810" # STATE_810
+	# TSR2_OVERLAY tsr_state_id=810 ratio=1.000 split=False
+
+		state_category=pastoral
+
+	manpower=600250
+
+	history={
+		owner = RUS
+		controller = GER
+		victory_points = {
+			9661 1
+		}
+		buildings = {
+			air_base = 3
+			infrastructure = 2
+			arms_factory = 1
+			industrial_complex = 1
+		}
+		add_core_of = AUS
+		add_core_of = GER
+		add_core_of = LAT
+	}
+
+		provinces={
+			13882 3700 9661 
+		}
+}

@@ -1,0 +1,24 @@
+state={
+	id=1930
+	name="STATE_1930" # STATE_1930
+	# TSR2_OVERLAY none (BSR-only state)
+
+		state_category=pastoral
+
+	manpower=353251
+
+	history={
+		owner = INS
+		buildings = {
+			infrastructure = 3
+		1574 = {naval_base = 1}
+		}
+		add_core_of = GEA
+		add_core_of = INS
+		add_core_of = SML
+	}
+
+		provinces={
+			1574 7557 10409 
+		}
+}

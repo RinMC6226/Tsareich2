@@ -1,0 +1,38 @@
+state={
+	id=558
+	name="STATE_558" # STATE_558
+	# TSR2_OVERLAY tsr_state_id=558 ratio=1.000 split=False
+
+		state_category=rural
+
+	manpower=19757000
+
+	resources={
+		rubber = 2
+	}
+
+	history={
+		owner = DWA
+		controller = DWA
+		victory_points = {
+			1891 3
+		}
+		victory_points = {
+			1969 1
+		}
+		victory_points = {
+			2025 5
+		}
+		buildings = {
+			infrastructure = 2
+			arms_factory = 0
+			industrial_complex = 1
+		}
+		add_core_of = NGA
+		add_core_of = SOK
+	}
+
+		provinces={
+			1891 1932 1969 2025 4889 4938 4972 4997 5028 8021 8109 10820 12817 
+		}
+}

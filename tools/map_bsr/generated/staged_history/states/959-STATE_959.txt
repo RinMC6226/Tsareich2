@@ -1,0 +1,25 @@
+state={
+	id=959
+	name="STATE_959" # STATE_959
+	# TSR2_OVERLAY tsr_state_id=959 ratio=1.000 split=False
+
+		state_category=rural
+
+	manpower=781311
+
+	history={
+		owner = ARG
+				add_claim_by = BOL
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 1
+		}
+		add_core_of = ARG
+		add_core_of = KUR
+		add_core_of = TUR
+	}
+
+		provinces={
+			876 9858 9860 9954 10399 10497 11739 11797 
+		}
+}

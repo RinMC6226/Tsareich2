@@ -1,0 +1,26 @@
+state={
+	id=952
+	name="STATE_952" # STATE_952
+	# TSR2_OVERLAY tsr_state_id=952 ratio=1.000 split=False
+
+		state_category=pastoral
+
+	manpower=283605
+
+	history={
+		owner = CHL
+		victory_points = {
+			11984 5 
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+		}
+		add_core_of = CHL
+		add_core_of = CYP
+	}
+
+		provinces={
+			11984 
+		}
+}

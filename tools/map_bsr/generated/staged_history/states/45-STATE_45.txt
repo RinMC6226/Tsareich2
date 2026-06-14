@@ -1,0 +1,27 @@
+state={
+	id=45
+	name="STATE_45" # STATE_45
+	# TSR2_OVERLAY tsr_state_id=45 ratio=1.000 split=False
+
+		state_category=rural
+
+	manpower=838621
+
+	history={
+		owner = HUN
+		controller = HUN
+		victory_points = {
+			619 3 
+		}
+		buildings = {
+			infrastructure = 3
+		}
+		add_core_of = SER
+		add_core_of = VOJ
+		add_core_of = YUG
+	}
+
+		provinces={
+			619 3617
+		}
+}

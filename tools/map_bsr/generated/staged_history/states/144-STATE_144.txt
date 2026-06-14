@@ -1,0 +1,44 @@
+state={
+	id=144
+	name="STATE_144" # STATE_144
+	# TSR2_OVERLAY tsr_state_id=144 ratio=1.000 split=False
+
+		state_category=rural
+
+	manpower=142100
+
+	resources={
+		steel = 6
+	}
+
+	history={
+		owner = NOR
+		controller = GER
+		victory_points = {
+			9089 1 
+		}
+		victory_points = {
+			3016 1 
+		}
+		victory_points = {
+			9042 1 
+		}
+		victory_points = {
+			6015 3 
+		}
+		victory_points = {
+			11104 2
+		}
+		buildings = {
+			air_base = 1
+			infrastructure = 2
+		9089 = {naval_base = 3}
+		}
+		add_core_of = NOR
+		add_core_of = SMI
+	}
+
+		provinces={
+			22 76 128 2995 3016 3040 6015 6079 6107 9042 9064 9089 9128 9191 11077 11104 11169 
+		}
+}

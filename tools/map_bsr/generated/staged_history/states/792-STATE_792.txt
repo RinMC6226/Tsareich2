@@ -1,0 +1,35 @@
+state={
+	id=792
+	name="STATE_792" # STATE_792
+	# TSR2_OVERLAY tsr_state_id=792 ratio=1.000 split=False
+
+		state_category=pastoral
+
+	manpower=928094
+
+	resources={
+		steel = 8
+	}
+
+	history={
+		owner = SPR
+		victory_points = {
+			11560 10
+		}
+		buildings = {
+			air_base = 1
+			infrastructure = 3
+			arms_factory = 1
+			industrial_complex = 1
+		}
+		add_core_of = GER
+		add_core_of = NAV
+		add_core_of = PRE
+		add_core_of = RHI
+		add_core_of = SPR
+	}
+
+		provinces={
+			3423 13236 11560 
+		}
+}

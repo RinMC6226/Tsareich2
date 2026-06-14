@@ -1,0 +1,25 @@
+state={
+	id=1922
+	name="STATE_1922" # STATE_1922
+	# TSR2_OVERLAY none (BSR-only state)
+
+		state_category=wasteland
+
+	manpower=1346
+
+	history={
+		owner = SHX
+		controller = MEN
+		buildings = {
+			infrastructure = 0
+		}
+		add_core_of = CHI
+		add_core_of = MON
+		add_core_of = PRC
+		add_core_of = SHX
+	}
+
+		provinces={
+			13898 
+		}
+}

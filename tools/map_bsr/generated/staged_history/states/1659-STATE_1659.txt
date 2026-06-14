@@ -1,0 +1,26 @@
+state={
+	id=1659
+	name="STATE_1659" # STATE_1659
+	# TSR2_OVERLAY none (BSR-only state)
+
+		
+		state_category = wasteland
+
+
+	 	impassable = yes
+
+	manpower=7021
+
+	history={
+		owner = ENG
+		buildings = {
+			infrastructure = 1
+		}
+		add_core_of = CAN
+		add_core_of = NFL
+	}
+
+		provinces={
+			1426
+		}
+}

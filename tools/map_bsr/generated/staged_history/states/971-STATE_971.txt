@@ -1,0 +1,27 @@
+state={
+	id=971
+	name="STATE_971" # STATE_971
+	# TSR2_OVERLAY tsr_state_id=971 ratio=1.000 split=False
+
+		state_category=enclave
+
+	manpower=490000
+
+	history={
+		owner = ROM
+				add_claim_by = BUL
+		buildings = {
+			infrastructure = 2
+			dockyard = 1
+			arms_factory = 1
+		}
+		add_core_of = CHI
+		add_core_of = JAP
+		add_core_of = PRC
+		add_core_of = ROM
+	}
+
+		provinces={
+			1123 7115 
+		}
+}

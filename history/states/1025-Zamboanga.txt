@@ -1,0 +1,28 @@
+state={
+	id=1025
+	name="STATE_1025" # STATE_1025
+	# TSR2_OVERLAY tsr_state_id=1025 ratio=1.000 split=False
+
+		state_category=rural
+
+	manpower=295467
+
+	resources={
+		coal = 2
+	}
+
+	history={
+		owner = PHI
+		buildings = {
+			infrastructure = 1
+		}
+		add_core_of = CHI
+		add_core_of = MAN
+		add_core_of = PHI
+		add_core_of = PRC
+	}
+
+		provinces={
+			846 6893 6951 9831 9835 11815 
+		}
+}

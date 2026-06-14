@@ -1,0 +1,31 @@
+state={
+	id=1715
+	name="STATE_1715" # STATE_1715
+	# TSR2_OVERLAY none (BSR-only state)
+
+		state_category=rural
+
+	manpower=370520
+
+	resources={
+		tungsten = 1
+	}
+
+	history={
+		owner = SPR
+		victory_points = {
+			13230 2
+		}
+		victory_points = {
+			11756 5
+		}
+		buildings = {
+			infrastructure = 6
+		}
+		add_core_of = SPR
+	}
+
+		provinces={
+			9877 13230 9839 9917 11756 
+		}
+}

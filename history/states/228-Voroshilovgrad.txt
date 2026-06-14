@@ -1,0 +1,27 @@
+state={
+	id=228
+	name="STATE_228" # Voroshilovgrad
+	# TSR2_OVERLAY tsr_state_id=228 ratio=1.000 split=False
+
+		
+		state_category = town
+
+	manpower=2167411
+
+	history={
+		owner = RUS
+		victory_points = {
+			9461 1
+		}
+		buildings = {
+			infrastructure = 3
+		}
+		add_core_of = RUS
+		add_core_of = SOV
+		add_core_of = UKR
+	}
+
+		provinces={
+			523 547 570 6505 6519 9461 11487 11513 13895
+		}
+}

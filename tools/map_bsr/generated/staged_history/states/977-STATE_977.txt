@@ -1,0 +1,33 @@
+state={
+	id=977
+	name="STATE_977" # STATE_977
+	# TSR2_OVERLAY tsr_state_id=977 ratio=1.000 split=False
+
+		state_category=small_island
+
+	manpower=1800000
+
+	resources={
+		coal = 2
+	}
+
+	history={
+		owner = BEL
+		controller = ITA
+		victory_points = {
+			10203 1 
+		}
+		buildings = {
+			air_base = 1
+			infrastructure = 3
+			arms_factory = 2
+			industrial_complex = 3
+		}
+		add_core_of = BEL
+		add_core_of = GRE
+	}
+
+		provinces={
+			10203 
+		}
+}

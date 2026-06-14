@@ -1,0 +1,27 @@
+state={
+	id=1755
+	name="STATE_1755" # STATE_1755
+	# TSR2_OVERLAY none (BSR-only state)
+
+		state_category=large_town
+
+	manpower=717780
+
+	history={
+		owner = ITA
+		victory_points = {
+			11790 3
+		}
+		victory_points = {
+			6926 5
+		}
+		buildings = {
+			infrastructure = 4
+		}
+		add_core_of = ITA
+	}
+
+		provinces={
+			 6926 11790 13424 
+		}
+}

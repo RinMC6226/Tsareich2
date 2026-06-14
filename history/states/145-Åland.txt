@@ -1,0 +1,25 @@
+state={
+	id=145
+	name="STATE_145" # STATE_145
+	# TSR2_OVERLAY tsr_state_id=145 ratio=1.000 split=False
+
+		
+		state_category = small_island
+
+	manpower=28139
+
+	history={
+		owner = RUS
+		victory_points = { 9228 1 }
+		buildings = {
+			infrastructure = 2
+		9228 = {naval_base = 1}
+		}
+		add_core_of = ALN
+		add_core_of = FIN
+	}
+
+		provinces=	{
+			9228
+		}
+}

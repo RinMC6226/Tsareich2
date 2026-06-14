@@ -1,0 +1,40 @@
+state={
+	id=44
+	name="STATE_44" # STATE_44
+	# TSR2_OVERLAY tsr_state_id=44 ratio=1.000 split=False
+
+		state_category=town
+
+	manpower=493867
+
+	resources={
+		aluminium = 1
+		chromium = 1
+		oil = 4
+	}
+
+	history={
+		owner = ALB
+		controller = ITA
+				add_claim_by = ITA
+					remove_claim_by = ITA
+		victory_points = {
+			9914 5 
+		}
+		victory_points = {
+			11767 1 
+		}
+		buildings = {
+			air_base = 3
+			infrastructure = 2
+			arms_factory = 1
+			industrial_complex = 1
+		11767 = {naval_base = 4}
+		}
+		add_core_of = ALB
+	}
+
+		provinces={
+			3884 9914 11767 13405 13406 
+		}
+}

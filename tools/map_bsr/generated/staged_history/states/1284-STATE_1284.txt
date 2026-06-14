@@ -1,0 +1,25 @@
+state={
+	id=1284
+	name="STATE_1284" # STATE_1284
+	# TSR2_OVERLAY none (BSR-only state)
+
+		state_category=rural
+
+	manpower=392000
+
+	history={
+		owner = POL
+		controller = SLO
+		buildings = {
+			infrastructure = 3
+		}
+		add_core_of = CZE
+		add_core_of = GAL
+		add_core_of = POL
+		add_core_of = SLO
+	}
+
+		provinces={
+			13765 13766 
+		}
+}

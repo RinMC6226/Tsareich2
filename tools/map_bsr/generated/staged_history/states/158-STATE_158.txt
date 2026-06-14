@@ -1,0 +1,35 @@
+state={
+	id=158
+	name="STATE_158" # STATE_158
+	# TSR2_OVERLAY tsr_state_id=158 ratio=1.000 split=False
+
+		state_category=city
+
+	manpower=4765476
+
+	resources={
+		steel = 24
+		aluminium = 16
+		chromium = 2
+		tungsten = 1
+		coal = 1
+	}
+
+	history={
+		owner = ITA
+		buildings = {
+			air_base = 8
+			infrastructure = 4
+			dockyard = 2
+			arms_factory = 7
+			industrial_complex = 1
+		}
+		add_core_of = ITA
+		add_core_of = SPM
+		add_core_of = SRD
+	}
+
+		provinces={
+			776 3782 6635 11570 
+		}
+}

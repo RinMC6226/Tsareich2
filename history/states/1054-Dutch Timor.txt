@@ -1,0 +1,32 @@
+state={
+	id=1054
+	name="STATE_1054" # STATE_1054
+	# TSR2_OVERLAY tsr_state_id=1054 ratio=1.000 split=False
+
+		state_category=town
+
+	manpower=690000
+
+	resources={
+		steel = 8
+	}
+
+	history={
+		owner = HUN
+		controller = HUN
+		victory_points = {
+			740 10
+		}
+		buildings = {
+			infrastructure = 2
+		740 = {naval_base = 1}
+		}
+		add_core_of = HUN
+		add_core_of = NAV
+		add_core_of = SPR
+	}
+
+		provinces={
+			740 3735 6756 13233 
+		}
+}

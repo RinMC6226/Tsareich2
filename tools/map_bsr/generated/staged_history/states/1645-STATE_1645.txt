@@ -1,0 +1,24 @@
+state={
+	id=1645
+	name="STATE_1645" # STATE_1645
+	# TSR2_OVERLAY none (BSR-only state)
+
+		state_category=wasteland
+
+
+		impassable = yes
+
+	manpower=21581
+
+	history={
+		owner = CAN
+		buildings = {
+			infrastructure = 2
+		}
+		add_core_of = CAN
+	}
+
+		provinces={
+			13613 13668
+		}
+}

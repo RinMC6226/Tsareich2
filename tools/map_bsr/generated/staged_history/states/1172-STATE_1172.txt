@@ -1,0 +1,21 @@
+state={
+	id=1172
+	name="STATE_1172" # STATE_1172
+	# TSR2_OVERLAY none (BSR-only state)
+
+		state_category=wasteland
+
+	manpower=33891
+
+	history={
+		owner = FRA
+		buildings = {
+			infrastructure = 0
+		}
+		add_core_of = ALG
+	}
+
+		provinces={
+			13358 13640 13615 13654 13533
+		}
+}

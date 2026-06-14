@@ -1,0 +1,28 @@
+state={
+	id=1398
+	name="STATE_1398" # STATE_1398
+	# TSR2_OVERLAY none (BSR-only state)
+
+		state_category="large_town"
+
+	manpower=261400
+
+	resources={
+		aluminium = 2
+	}
+
+	history={
+		owner = ENG
+		buildings = {
+			air_base = 1
+			infrastructure = 8
+		}
+		add_core_of = ENG
+		add_core_of = IRE
+		add_core_of = NIR
+	}
+
+		provinces={
+			3242
+		}
+}

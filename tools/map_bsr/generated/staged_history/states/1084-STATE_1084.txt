@@ -1,0 +1,31 @@
+state={
+	id=1084
+	name="STATE_1084" # STATE_1084
+	# TSR2_OVERLAY tsr_state_id=1084 ratio=1.000 split=False
+
+		state_category=pastoral
+
+	manpower=546200
+
+	resources={
+		tungsten = 30
+		aluminium = 4
+		rubber = 77
+	}
+
+	history={
+		owner = DAS
+		controller = DAS
+		buildings = {
+			infrastructure = 1
+			dockyard = 1
+			arms_factory = 1
+		}
+		add_core_of = CAM
+		add_core_of = MAL
+	}
+
+		provinces={
+			1620 4330 7645 10204 12150 12260 
+		}
+}

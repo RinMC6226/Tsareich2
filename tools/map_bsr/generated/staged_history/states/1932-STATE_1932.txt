@@ -1,0 +1,24 @@
+state={
+	id=1932
+	name="STATE_1932" # STATE_1932
+	# TSR2_OVERLAY none (BSR-only state)
+
+		state_category=pastoral
+
+	manpower=27679
+
+	history={
+		owner = FRA
+		controller = GER
+		buildings = {
+			infrastructure = 5
+		8362 = {bunker = 5}
+		}
+		add_core_of = BGN
+		add_core_of = FRA
+	}
+
+		provinces={
+			8362 
+		}
+}

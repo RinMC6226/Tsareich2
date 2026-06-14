@@ -1,0 +1,33 @@
+state={
+	id=653
+	name="STATE_653" # Sverdlovsk
+	# TSR2_OVERLAY tsr_state_id=653 ratio=1.000 split=False
+
+		
+		state_category = city
+
+	manpower=2161650
+
+	history={
+		owner = RUS
+		victory_points = {
+			1821 5
+		}
+		victory_points = {
+			9292 5
+		}
+		buildings = {
+			air_base = 1
+			infrastructure = 3
+			arms_factory = 2
+			industrial_complex = 1
+		}
+		add_core_of = RUS
+		add_core_of = SIB
+		add_core_of = SOV
+	}
+
+		provinces={
+			 12287 1233 12157 10213 9292 7285 12584 1821 10133 
+		}
+}

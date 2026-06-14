@@ -1,0 +1,22 @@
+state={
+	id=1929
+	name="STATE_1929" # STATE_1929
+	# TSR2_OVERLAY none (BSR-only state)
+
+		state_category=rural
+
+	manpower=628894
+
+	history={
+		owner = INS
+		buildings = {
+			infrastructure = 2
+		}
+		add_core_of = BNJ
+		add_core_of = INS
+	}
+
+		provinces={
+			1225 1416 2184 5176 7227 7296 8221 10138 10178 10266 10310 12110 12252 12280 12955 
+		}
+}

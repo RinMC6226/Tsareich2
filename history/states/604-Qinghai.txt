@@ -1,0 +1,36 @@
+state={
+	id=604
+	name="STATE_604" # STATE_604
+	# TSR2_OVERLAY tsr_state_id=604 ratio=1.000 split=False
+
+		state_category=town
+
+	manpower=1196100
+
+	history={
+		owner = XSM
+					1936.1.1 = {
+					IF = {
+						limit = {
+							NOT = {
+								has_dlc = "Waking the Tiger" 
+							}
+						}
+						KMT = {
+							transfer_state = PREV
+						}
+					}
+					}
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 2
+		}
+		add_core_of = CHI
+		add_core_of = PRC
+		add_core_of = XSM
+	}
+
+		provinces={
+			4914 8037 12899 
+		}
+}

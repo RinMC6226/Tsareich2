@@ -1,0 +1,26 @@
+state={
+	id=1020
+	name="STATE_1020" # STATE_1020
+	# TSR2_OVERLAY tsr_state_id=1020 ratio=1.000 split=False
+
+		state_category=pastoral
+
+
+		impassable = yes
+
+	manpower=1111000
+
+	history={
+		owner = JAP
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+		}
+		add_core_of = JAP
+		add_core_of = MON
+	}
+
+		provinces={
+			1723 1787 1853 4856 10632 12539 
+		}
+}

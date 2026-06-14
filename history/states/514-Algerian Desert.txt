@@ -1,0 +1,25 @@
+state={
+	id=514
+	name="STATE_514" # STATE_514
+	# TSR2_OVERLAY tsr_state_id=514 ratio=1.000 split=False
+
+		state_category=wasteland
+
+
+		impassable = yes
+
+	manpower=207733
+
+	history={
+		owner = ALG
+		controller = ALG
+		buildings = {
+			infrastructure = 0
+		}
+		add_core_of = ALG
+	}
+
+		provinces={
+			1043 8088 12849 
+		}
+}

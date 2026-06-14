@@ -1,0 +1,30 @@
+state={
+	id=37
+	name="STATE_37" # STATE_37
+	# TSR2_OVERLAY tsr_state_id=37 ratio=1.000 split=False
+
+		state_category=large_city
+
+	manpower=1491222
+
+	history={
+		owner = DEN
+		controller = GER
+		victory_points = {
+			6287 30 
+		}
+		buildings = {
+			air_base = 6
+			infrastructure = 3
+			dockyard = 2
+			arms_factory = 2
+			industrial_complex = 3
+		6287 = {naval_base = 8}
+		}
+		add_core_of = DEN
+	}
+
+		provinces={
+			3260 3305 6287 6393 
+		}
+}

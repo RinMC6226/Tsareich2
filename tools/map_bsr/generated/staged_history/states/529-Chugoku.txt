@@ -1,0 +1,35 @@
+state={
+	id=529
+	name="STATE_529" # Chugoku
+	# TSR2_OVERLAY tsr_state_id=529 ratio=1.000 split=False
+
+		state_category = large_city
+
+	manpower=4431000
+
+	history={
+		owner = JAP
+		victory_points = {
+			1092 30
+		}
+		victory_points = {
+			10055 5
+		}
+		victory_points = {
+			7145 3
+		}
+		buildings = {
+			air_base = 3
+			infrastructure = 4
+			dockyard = 2
+			arms_factory = 2
+			industrial_complex = 1
+		1092 = {naval_base = 10}
+		}
+		add_core_of = JAP
+	}
+
+		provinces={
+			1092 1167 1191 4197 7050 7145 7212 9968 10052 10055 11946 11985 
+		}
+}

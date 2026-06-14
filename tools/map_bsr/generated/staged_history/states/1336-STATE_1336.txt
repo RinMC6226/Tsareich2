@@ -1,0 +1,23 @@
+state={
+	id=1336
+	name="STATE_1336" # STATE_1336
+	# TSR2_OVERLAY none (BSR-only state)
+
+		state_category=enclave
+
+	manpower=11986
+
+	history={
+		owner = TNG
+		controller = SPR
+		buildings = {
+			infrastructure = 4
+		}
+		add_core_of = MOR
+		add_core_of = TNG
+	}
+
+		provinces={
+			10113 
+		}
+}

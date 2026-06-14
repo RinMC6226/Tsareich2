@@ -1,0 +1,25 @@
+state={
+	id=1292
+	name="STATE_1292" # STATE_1292
+	# TSR2_OVERLAY none (BSR-only state)
+
+		state_category=wasteland
+
+	manpower=150075
+
+	history={
+		owner = TUR
+		victory_points = {
+			849 1 
+		}
+		buildings = {
+			infrastructure = 2
+		}
+		add_core_of = THR
+		add_core_of = TUR
+	}
+
+		provinces={
+			849
+		}
+}

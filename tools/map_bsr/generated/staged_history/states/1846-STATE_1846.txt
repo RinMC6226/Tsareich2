@@ -1,0 +1,30 @@
+state={
+	id=1846
+	name="STATE_1846" # STATE_1846
+	# TSR2_OVERLAY none (BSR-only state)
+
+		
+		state_category = rural
+
+	manpower=627612
+
+	resources={
+		steel = 1
+	}
+
+	history={
+		owner = MEX
+		victory_points = {
+			10730 5
+		}
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 1
+		}
+		add_core_of = MEX
+	}
+
+		provinces={
+			10730
+		}
+}

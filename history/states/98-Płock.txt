@@ -1,0 +1,25 @@
+state={
+	id=98
+	name="STATE_98" # STATE_98
+	# TSR2_OVERLAY tsr_state_id=98 ratio=1.000 split=False
+
+		state_category=rural
+
+	manpower=1412100
+
+	history={
+		owner = RUS
+		controller = GER
+		victory_points = {
+			13355 1 
+		}
+		buildings = {
+			infrastructure = 3
+		}
+		add_core_of = POL
+	}
+
+		provinces={
+			 6259 6567 13355 
+		}
+}

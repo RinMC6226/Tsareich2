@@ -1,0 +1,30 @@
+state={
+	id=1024
+	name="STATE_1024" # STATE_1024
+	# TSR2_OVERLAY tsr_state_id=1024 ratio=1.000 split=False
+
+		state_category=rural
+
+	manpower=329800
+
+	resources={
+		rubber = 20
+	}
+
+	history={
+		owner = DAS
+		controller = DAS
+		buildings = {
+			infrastructure = 2
+		}
+		add_core_of = CHI
+		add_core_of = MAL
+		add_core_of = MAN
+		add_core_of = PRC
+		add_core_of = SAB
+	}
+
+		provinces={
+			783 861 927 944 973 3929 3947 6806 6964 9766 9841 9883 9897 11823 11850 11862 
+		}
+}

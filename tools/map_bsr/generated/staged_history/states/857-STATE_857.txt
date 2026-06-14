@@ -1,0 +1,22 @@
+state={
+	id=857
+	name="STATE_857" # STATE_857
+	# TSR2_OVERLAY tsr_state_id=857 ratio=1.000 split=False
+
+		state_category=rural
+
+	manpower=5000
+
+	history={
+		owner = SAU
+		buildings = {
+			infrastructure = 5
+		}
+		add_core_of = SAU
+		add_core_of = USA
+	}
+
+		provinces={
+			1719 1734 6827 7896 12550 12588 
+		}
+}

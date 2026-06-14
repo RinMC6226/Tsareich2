@@ -1,0 +1,25 @@
+state={
+	id=103
+	name="STATE_103" # STATE_103
+	# TSR2_OVERLAY tsr_state_id=103 ratio=1.000 split=False
+
+		state_category=rural
+
+	manpower=1431700
+
+	history={
+		owner = YUG
+		controller = CRO
+		buildings = {
+			infrastructure = 3
+			dockyard = 1
+			industrial_complex = 3
+		}
+		add_core_of = CRO
+		add_core_of = YUG
+	}
+
+		provinces={
+			 3974 11816 
+		}
+}

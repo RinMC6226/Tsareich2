@@ -1,0 +1,23 @@
+state={
+	id=1356
+	name="STATE_1356" # STATE_1356
+	# TSR2_OVERLAY none (BSR-only state)
+
+		state_category=small_island
+
+	manpower=105786
+
+	history={
+		owner = FRA
+		buildings = {
+			air_base = 1
+			infrastructure = 3
+		12148 = {naval_base = 1}
+		}
+		add_core_of = TAH
+	}
+
+		provinces={
+			12148 13853 
+		}
+}

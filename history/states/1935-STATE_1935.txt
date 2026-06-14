@@ -1,0 +1,29 @@
+state={
+	id=1935
+	name="STATE_1935" # STATE_1935
+	# TSR2_OVERLAY none (BSR-only state)
+
+		state_category=large_town
+
+	manpower=219578
+
+	resources={
+		steel = 1
+	}
+
+	history={
+		owner = FRA
+		victory_points = {
+			11969 10 
+		}
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 1
+		}
+		add_core_of = TUN
+	}
+
+		provinces={
+			7180 10091 11969 
+		}
+}

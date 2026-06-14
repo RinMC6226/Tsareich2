@@ -1,0 +1,38 @@
+state={
+	id=13
+	name="STATE_13" # STATE_13
+	# TSR2_OVERLAY tsr_state_id=13 ratio=1.000 split=False
+
+		state_category=town
+
+	manpower=423070
+
+	resources={
+		steel = 2
+	}
+
+	history={
+		owner = RUS
+		controller = SOV
+		victory_points = {
+			3152 30
+		}
+		victory_points = {
+			11127 5
+		}
+		buildings = {
+			air_base = 2
+			infrastructure = 3
+			arms_factory = 1
+			industrial_complex = 1
+		3152 = {naval_base = 3
+						coastal_bunker = 1}
+		4640 = {naval_base = 1}
+		}
+		add_core_of = EST
+	}
+
+		provinces={
+			83 496 567 3074 3152 4640 9079 11057 11127 11426 11443
+		}
+}

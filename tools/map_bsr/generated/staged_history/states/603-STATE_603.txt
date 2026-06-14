@@ -1,0 +1,30 @@
+state={
+	id=603
+	name="STATE_603" # STATE_603
+	# TSR2_OVERLAY tsr_state_id=603 ratio=1.000 split=False
+
+		state_category=metropolis
+
+	manpower=7543200
+
+	resources={
+		coal = 3
+	}
+
+	history={
+		owner = GUI
+		controller = GUI
+		buildings = {
+			infrastructure = 1
+			arms_factory = 2
+			industrial_complex = 1
+		}
+		add_core_of = CHI
+		add_core_of = GUI
+		add_core_of = PRC
+	}
+
+		provinces={
+			1474 4325 4532 7521 7549 7577 8095 10616 
+		}
+}

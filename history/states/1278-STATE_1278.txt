@@ -1,0 +1,21 @@
+state={
+	id=1278
+	name="STATE_1278" # STATE_1278
+	# TSR2_OVERLAY none (BSR-only state)
+
+		state_category=rural
+
+	manpower=1159832
+
+	history={
+		owner = EGY
+		buildings = {
+			infrastructure = 4
+		}
+		add_core_of = EGY
+	}
+
+		provinces={
+			1151 7030 10028 13466 13468 13470 
+		}
+}

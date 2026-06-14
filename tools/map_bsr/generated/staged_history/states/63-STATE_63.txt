@@ -1,0 +1,31 @@
+state={
+	id=63
+	name="STATE_63" # STATE_63
+	# TSR2_OVERLAY tsr_state_id=63 ratio=1.000 split=False
+
+		state_category=rural
+
+	manpower=1124417
+
+	resources={
+		steel = 7
+		aluminium = 6
+	}
+
+	history={
+		owner = GER
+		buildings = {
+			air_base = 3
+			infrastructure = 3
+			industrial_complex = 1
+		9334 = {naval_base = 1}
+		}
+		add_core_of = GER
+		add_core_of = KSH
+		add_core_of = PRE
+	}
+
+		provinces={
+			6309 9334 
+		}
+}

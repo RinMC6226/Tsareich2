@@ -1,0 +1,25 @@
+state={
+	id=446
+	name="STATE_446" # STATE_446
+	# TSR2_OVERLAY tsr_state_id=446 ratio=1.000 split=False
+
+		state_category=town
+
+	manpower=131732
+
+	history={
+		owner = EGY
+		controller = EGY
+		victory_points = {
+			7011 20 
+		}
+		buildings = {
+			infrastructure = 3
+		}
+		add_core_of = EGY
+	}
+
+		provinces={
+			4143 7011 7188 12004 13471 13472 13473 
+		}
+}

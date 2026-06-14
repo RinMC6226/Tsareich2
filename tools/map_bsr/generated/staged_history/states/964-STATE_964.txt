@@ -1,0 +1,23 @@
+state={
+	id=964
+	name="STATE_964" # STATE_964
+	# TSR2_OVERLAY tsr_state_id=964 ratio=1.000 split=False
+
+		state_category=city
+
+	manpower=13541
+
+	history={
+		owner = BRA
+		buildings = {
+			infrastructure = 8
+			industrial_complex = 2
+		}
+		add_core_of = BRA
+		add_core_of = JAP
+	}
+
+		provinces={
+			993 1113 4000 4100 7016 11908 
+		}
+}

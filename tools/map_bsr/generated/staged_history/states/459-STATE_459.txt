@@ -1,0 +1,32 @@
+state={
+	id=459
+	name="STATE_459" # STATE_459
+	# TSR2_OVERLAY tsr_state_id=459 ratio=1.000 split=False
+
+		state_category=town
+
+	manpower=3089944
+
+	resources={
+		steel = 65
+		coal = 2
+	}
+
+	history={
+		owner = ALG
+		controller = ALG
+		victory_points = {
+			7132 5 
+		}
+		buildings = {
+			air_base = 5
+			infrastructure = 2
+		7132 = {naval_base = 6}
+		}
+		add_core_of = ALG
+	}
+
+		provinces={
+			3991 4018 4116 4150 7008 7132 10045 11923 12020 
+		}
+}

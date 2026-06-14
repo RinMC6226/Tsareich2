@@ -1,0 +1,24 @@
+state={
+	id=1704
+	name="STATE_1704" # STATE_1704
+	# TSR2_OVERLAY none (BSR-only state)
+
+		state_category=rural
+
+	manpower=54093
+
+	history={
+		owner = TUR
+		victory_points = {
+			921 3 
+		}
+		buildings = {
+			infrastructure = 3
+		}
+		add_core_of = TUR
+	}
+
+		provinces={
+			921 6977 6888 3921
+		}
+}

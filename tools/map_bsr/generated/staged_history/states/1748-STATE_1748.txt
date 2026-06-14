@@ -1,0 +1,26 @@
+state={
+	id=1748
+	name="STATE_1748" # STATE_1748
+	# TSR2_OVERLAY none (BSR-only state)
+
+		state_category=pastoral
+
+	manpower=240000
+
+	history={
+		owner = YUN
+		victory_points = {
+			4425 1 
+		}
+		buildings = {
+			infrastructure = 3
+		}
+		add_core_of = CHI
+		add_core_of = PRC
+		add_core_of = YUN
+	}
+
+		provinces={
+			4425 4996 
+		}
+}

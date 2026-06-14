@@ -1,0 +1,30 @@
+state={
+	id=79
+	name="STATE_79" # STATE_79
+	# TSR2_OVERLAY tsr_state_id=79 ratio=1.000 split=False
+
+		state_category=rural
+
+	manpower=2806400
+
+	resources={
+		coal = 1
+	}
+
+	history={
+		owner = ROM
+		victory_points = {
+			9716 1 
+		}
+		buildings = {
+			air_base = 2
+			infrastructure = 3
+			industrial_complex = 1
+		}
+		add_core_of = ROM
+	}
+
+		provinces={
+			723 744 3728 3741 6584 6729 6747 9701 9716 11534 11655 11672 
+		}
+}

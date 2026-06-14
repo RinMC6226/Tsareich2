@@ -1,0 +1,25 @@
+state={
+	id=580
+	name="STATE_580" # Tobolsk
+	# TSR2_OVERLAY tsr_state_id=580 ratio=1.000 split=False
+
+		
+		state_category = wasteland
+
+	manpower=88126
+
+	history={
+		owner = RUS
+		buildings = {
+			infrastructure = 1
+		}
+		add_core_of = OVO
+		add_core_of = RUS
+		add_core_of = SIB
+		add_core_of = SOV
+	}
+
+		provinces={
+			1659 1744 1812 4710 4715 4746 4774 4846 7733 7768 7796 7867 7895 10592 10604 10620 12602 12630 12700 1841 1771
+		}
+}

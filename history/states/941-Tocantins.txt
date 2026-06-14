@@ -1,0 +1,28 @@
+state={
+	id=941
+	name="STATE_941" # STATE_941
+	# TSR2_OVERLAY tsr_state_id=941 ratio=1.000 split=False
+
+		state_category=pastoral
+
+	manpower=1662200
+
+	history={
+		owner = BRA
+		controller = SER
+		victory_points = {
+			9874 1 
+		}
+		buildings = {
+			infrastructure = 0
+		}
+		add_core_of = BRA
+		add_core_of = KOS
+		add_core_of = SER
+		add_core_of = YUG
+	}
+
+		provinces={
+			9874 
+		}
+}

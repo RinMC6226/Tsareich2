@@ -1,0 +1,27 @@
+state={
+	id=589
+	name="STATE_589" # STATE_589
+	# TSR2_OVERLAY tsr_state_id=589 ratio=1.000 split=False
+
+		state_category=pastoral
+
+	manpower=535191
+
+	history={
+		owner = RUS
+		victory_points = {
+			1668 1 
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+		}
+		add_core_of = KAZ
+		add_core_of = RUS
+		add_core_of = SOV
+	}
+
+		provinces={
+			1239 1668 4764 7332 7405 10290 10653 12635
+		}
+}

@@ -1,0 +1,32 @@
+state={
+	id=460
+	name="STATE_460" # STATE_460
+	# TSR2_OVERLAY tsr_state_id=460 ratio=1.000 split=False
+
+		state_category=town
+
+	manpower=2343837
+
+	history={
+		owner = ALG
+		controller = ALG
+		victory_points = {
+			7081 1 
+		}
+		victory_points = {
+			12051 3 
+		}
+		victory_points = {
+			12034 1 
+		}
+		buildings = {
+			infrastructure = 2
+		7081 = {naval_base = 1}
+		}
+		add_core_of = ALG
+	}
+
+		provinces={
+			1058 1141 1160 4046 7065 7081 7166 9976 10059 10078 11953 12034 12051 13077 
+		}
+}

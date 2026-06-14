@@ -1,0 +1,22 @@
+state={
+	id=1190
+	name="STATE_1190" # STATE_1190
+	# TSR2_OVERLAY none (BSR-only state)
+
+		state_category=town
+
+	manpower=870500
+
+	history={
+		owner = YUG
+		buildings = {
+			infrastructure = 4
+		}
+		add_core_of = SER
+		add_core_of = YUG
+	}
+
+		provinces={
+			3922 
+		}
+}

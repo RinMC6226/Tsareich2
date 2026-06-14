@@ -1,0 +1,25 @@
+state={
+	id=823
+	name="STATE_823" # STATE_823
+	# TSR2_OVERLAY tsr_state_id=823 ratio=1.000 split=False
+
+		state_category=rural
+
+	manpower=258430
+
+	history={
+		owner = RUS
+		buildings = {
+			infrastructure = 2
+		}
+		add_core_of = FRA
+		add_core_of = KKP
+		add_core_of = OCC
+		add_core_of = RUS
+		add_core_of = UZB
+	}
+
+		provinces={
+			764 3764 3961 6975 9736 
+		}
+}

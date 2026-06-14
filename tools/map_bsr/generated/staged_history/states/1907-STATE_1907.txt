@@ -1,0 +1,39 @@
+state={
+	id=1907
+	name="STATE_1907" # STATE_1907
+	# TSR2_OVERLAY none (BSR-only state)
+
+		
+		state_category = rural
+
+	manpower=117526
+
+	resources={
+		oil = 2
+	}
+
+	history={
+		owner = ARG
+		victory_points = {
+			12349 10 
+		}
+		victory_points = {
+			10981 10 
+		}
+		victory_points = {
+			12982 5 
+		}
+		victory_points = {
+			9010 5 
+		}
+		buildings = {
+			infrastructure = 6
+		12349 = {naval_base = 1}
+		}
+		add_core_of = ARG
+	}
+
+		provinces={
+			12982 12321 10981 12349 11005 9010 8641
+		}
+}

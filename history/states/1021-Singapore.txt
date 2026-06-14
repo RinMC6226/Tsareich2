@@ -1,0 +1,37 @@
+state={
+	id=1021
+	name="STATE_1021" # STATE_1021
+	# TSR2_OVERLAY tsr_state_id=1021 ratio=1.000 split=False
+
+		state_category=large_city
+
+	manpower=557745
+
+	resources={
+		steel = 10
+		tungsten = 29
+		aluminium = 5
+	}
+
+	history={
+		owner = DAS
+		controller = DAS
+		victory_points = {
+			11913 20 
+		}
+		buildings = {
+			air_base = 6
+			infrastructure = 2
+			industrial_complex = 1
+		}
+		add_core_of = CHI
+		add_core_of = MAL
+		add_core_of = PRC
+		add_core_of = RGR
+		add_core_of = SNG
+	}
+
+		provinces={
+			996 1099 1171 4105 7120 11913 11982 
+		}
+}

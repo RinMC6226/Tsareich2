@@ -1,0 +1,34 @@
+state={
+	id=1014
+	name="STATE_1014" # STATE_1014
+	# TSR2_OVERLAY tsr_state_id=1014 ratio=1.000 split=False
+
+		state_category=pastoral
+
+	manpower=89970
+
+	history={
+		owner = BHR
+		controller = GER
+		victory_points = {
+			192 1 
+		}
+		victory_points = {
+			11050 2 
+		}
+		victory_points = {
+			9126 2 
+		}
+		buildings = {
+			infrastructure = 1
+		192 = {naval_base = 3}
+		11050 = {naval_base = 2}
+		}
+		add_core_of = BHR
+		add_core_of = NOR
+	}
+
+		provinces={
+			38 44 91 192 3034 3058 3082 3132 3145 6130 9126 11050 11090 11157 
+		}
+}

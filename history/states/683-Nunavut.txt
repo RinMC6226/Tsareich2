@@ -1,0 +1,28 @@
+state={
+	id=683
+	name="STATE_683" # STATE_683
+	# TSR2_OVERLAY tsr_state_id=683 ratio=1.000 split=False
+
+		state_category=wasteland
+
+
+	    impassable = yes
+
+	manpower=46135
+
+	resources={
+		aluminium = 7
+	}
+
+	history={
+		owner = CAN
+		buildings = {
+			infrastructure = 1
+		}
+		add_core_of = CAN
+	}
+
+		provinces={
+			1712 2947 3691 7813 10721 13532 13543 13548 13550 13552 13553 13555 13557 5315 5556 3792 4894 5789 5815 8868 
+		}
+}

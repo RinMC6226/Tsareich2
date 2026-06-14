@@ -1,0 +1,21 @@
+state={
+	id=1240
+	name="STATE_1240" # STATE_1240
+	# TSR2_OVERLAY none (BSR-only state)
+
+		state_category = rural
+
+	manpower=1101594
+
+	history={
+		owner = FRA
+		buildings = {
+			infrastructure = 4
+		}
+		add_core_of = SYR
+	}
+
+		provinces={
+			1074
+		}
+}

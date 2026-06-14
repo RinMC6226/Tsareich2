@@ -1,0 +1,28 @@
+state={
+	id=601
+	name="STATE_601" # STATE_601
+	# TSR2_OVERLAY tsr_state_id=601 ratio=1.000 split=False
+
+		state_category=wasteland
+
+	manpower=368200
+
+	resources={
+		oil = 2
+	}
+
+	history={
+		owner = TIB
+		buildings = {
+			infrastructure = 1
+		}
+		add_core_of = CHI
+		add_core_of = TIB
+		add_core_of = PRC
+		add_core_of = TIB
+	}
+
+		provinces={
+			5102 8041 8059 
+		}
+}

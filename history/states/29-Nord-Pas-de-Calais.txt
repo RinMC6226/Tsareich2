@@ -1,0 +1,36 @@
+state={
+	id=29
+	name="STATE_29" # STATE_29
+	# TSR2_OVERLAY tsr_state_id=29 ratio=1.000 split=False
+
+		state_category=town
+
+	manpower=2976400
+
+	resources={
+		steel = 24
+		aluminium = 8
+		coal = 30
+	}
+
+	history={
+		owner = BEL
+		controller = GER
+				add_dynamic_modifier = {
+					modifier = GER_west_bunker
+				}
+		victory_points = {
+			3476 5 
+		}
+		buildings = {
+			air_base = 10
+			infrastructure = 4
+			industrial_complex = 3
+		}
+		add_core_of = FRA
+	}
+
+		provinces={
+			3476 9500 11606 
+		}
+}

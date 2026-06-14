@@ -1,0 +1,27 @@
+state={
+	id=108
+	name="STATE_108" # STATE_108
+	# TSR2_OVERLAY tsr_state_id=108 ratio=1.000 split=False
+
+		state_category=town
+
+	manpower=707000
+
+	resources={
+		steel = 3
+	}
+
+	history={
+		owner = YUG
+		controller = SER
+		buildings = {
+			infrastructure = 2
+		}
+		add_core_of = SER
+		add_core_of = YUG
+	}
+
+		provinces={
+			6940 9890 9906 
+		}
+}

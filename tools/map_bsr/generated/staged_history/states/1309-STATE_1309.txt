@@ -1,0 +1,27 @@
+state={
+	id=1309
+	name="STATE_1309" # STATE_1309
+	# TSR2_OVERLAY none (BSR-only state)
+
+		state_category=town
+
+	manpower=189000
+
+	history={
+		owner = NEA
+		controller = CHI
+		victory_points = {
+			7418 1 
+		}
+		buildings = {
+			infrastructure = 3
+		}
+		add_core_of = CHI
+		add_core_of = NEA
+		add_core_of = PRC
+	}
+
+		provinces={
+			4167 4295 7418 
+		}
+}

@@ -1,0 +1,36 @@
+state={
+	id=511
+	name="STATE_511" # Mendoza
+	# TSR2_OVERLAY tsr_state_id=511 ratio=1.000 split=False
+
+		
+		state_category = rural
+
+	manpower=1090274
+
+	history={
+		owner = ARG
+		victory_points = {
+			10992 10 
+		}
+		victory_points = {
+			11021 5 
+		}
+		victory_points = {
+			12970 3 
+		}
+		victory_points = {
+			10964 3 
+		}
+		buildings = {
+			air_base = 1
+			infrastructure = 2
+			industrial_complex = 1
+		}
+		add_core_of = ARG
+	}
+
+		provinces={
+			2158 2179 2215 5152 5184 5219 7550 8215 10964 10992 11021 11022 12970 2149 10935
+		}
+}

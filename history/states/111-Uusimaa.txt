@@ -1,0 +1,31 @@
+state={
+	id=111
+	name="STATE_111" # Uusimaa
+	# TSR2_OVERLAY tsr_state_id=111 ratio=1.000 split=False
+
+		
+		state_category = city
+
+	manpower=559000
+
+	history={
+		owner = RUS
+		controller = RUS
+		victory_points = {
+			11105 30
+		}
+		buildings = {
+			air_base = 3
+			infrastructure = 2
+			arms_factory = 2
+			industrial_complex = 1
+		11105 = {naval_base = 5
+						coastal_bunker = 2}
+		}
+		add_core_of = FIN
+	}
+
+		provinces={
+			11105 6009 204 3161 9129 6108 
+		}
+}

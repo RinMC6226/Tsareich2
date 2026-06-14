@@ -1,0 +1,25 @@
+state={
+	id=1095
+	name="STATE_1095" # STATE_1095
+	# TSR2_OVERLAY tsr_state_id=1095 ratio=1.000 split=False
+
+		state_category=rural
+
+	manpower=325000
+
+	history={
+		owner = AST
+		victory_points = {
+			1488 1 
+		}
+		buildings = {
+			infrastructure = 0
+		}
+		add_core_of = PNG
+		add_core_of = SIA
+	}
+
+		provinces={
+			1253 1488 1990 4496 7492 7531 7675 8045 10371 
+		}
+}

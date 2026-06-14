@@ -1,0 +1,29 @@
+state={
+	id=1799
+	name="STATE_1799" # STATE_1799
+	# TSR2_OVERLAY none (BSR-only state)
+
+		state_category=rural
+
+	manpower=172052
+
+	resources={
+		steel = 13
+		aluminium = 5
+	}
+
+	history={
+		owner = FRA
+		victory_points = {
+			11794 3 
+		}
+		buildings = {
+			infrastructure = 5
+		}
+		add_core_of = FRA
+	}
+
+		provinces={
+			11794 648 817
+		}
+}

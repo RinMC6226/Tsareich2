@@ -1,0 +1,40 @@
+state={
+	id=723
+	name="STATE_723" # STATE_723
+	# TSR2_OVERLAY tsr_state_id=723 ratio=1.000 split=False
+
+
+		state_category = rural
+
+	manpower=547198
+
+	resources={
+		tungsten = 4
+		coal = 2
+	}
+
+	history={
+		owner = AST
+		controller = AST
+		victory_points = {
+			2197 1 
+		}
+		victory_points = {
+			8241 3 
+		}
+		victory_points = {
+			2211 1 
+		}
+		buildings = {
+			air_base = 1
+			infrastructure = 3
+		2197 = {naval_base = 1}
+		}
+		add_core_of = AST
+		add_core_of = NZL
+	}
+
+		provinces={
+			2197 2203 2211 4819 5195 7839 8204 8212 8232 8241 10650 12632 12966 12974 12980 12988 
+		}
+}

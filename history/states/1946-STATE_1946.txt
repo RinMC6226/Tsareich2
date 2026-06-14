@@ -1,0 +1,32 @@
+state={
+	id=1946
+	name="STATE_1946" # Mysore
+	# TSR2_OVERLAY none (BSR-only state)
+
+		
+		state_category = town
+
+	manpower=7408920
+
+	resources={
+		chromium = 10
+	}
+
+	history={
+		owner = RAJ
+		victory_points = {
+			8011 10
+		}
+		victory_points = {
+			4315 10
+		}
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 1
+		}
+	}
+
+		provinces={
+		10208 1412 8100 6433 12734 8011 12146 4315 
+		}
+}

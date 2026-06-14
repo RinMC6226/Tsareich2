@@ -1,0 +1,25 @@
+state={
+	id=933
+	name="STATE_933" # STATE_933
+	# TSR2_OVERLAY tsr_state_id=933 ratio=1.000 split=False
+
+		state_category=pastoral
+
+	manpower=18000
+
+	history={
+		owner = ENG
+		controller = SOV
+		buildings = {
+			infrastructure = 1
+		}
+		add_core_of = BLR
+		add_core_of = ENG
+		add_core_of = POL
+		add_core_of = SCO
+	}
+
+		provinces={
+			318 13206
+		}
+}

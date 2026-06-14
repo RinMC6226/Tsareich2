@@ -1,0 +1,25 @@
+state={
+	id=2016
+	name="STATE_2016" # STATE_2016
+	# TSR2_OVERLAY none (BSR-only state)
+
+		state_category=town
+
+	manpower=36821
+
+	history={
+		owner = ITA
+		victory_points = {
+			3776 1
+		}
+		buildings = {
+			infrastructure = 7
+		}
+		add_core_of = ITA
+		add_core_of = VEC
+	}
+
+		provinces={
+			3776
+		}
+}

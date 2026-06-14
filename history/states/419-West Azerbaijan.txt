@@ -1,0 +1,26 @@
+state={
+	id=419
+	name="STATE_419" # STATE_419
+	# TSR2_OVERLAY tsr_state_id=419 ratio=1.000 split=False
+
+		state_category=rural
+
+	manpower=715857
+
+	history={
+		owner = PER
+		victory_points = {
+			1896 3 
+		}
+		buildings = {
+			infrastructure = 1
+		}
+		add_core_of = AZR
+		add_core_of = KUR
+		add_core_of = PER
+	}
+
+		provinces={
+			1896 2071 4755 4825 12793 12861 
+		}
+}

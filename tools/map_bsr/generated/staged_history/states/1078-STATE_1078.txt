@@ -1,0 +1,31 @@
+state={
+	id=1078
+	name="STATE_1078" # STATE_1078
+	# TSR2_OVERLAY tsr_state_id=1078 ratio=1.000 split=False
+
+		state_category=rural
+
+	manpower=1241754
+
+	resources={
+		rubber = 5
+	}
+
+	history={
+		owner = INS
+		controller = JAP
+				set_resistance = 0
+				set_compliance = 40
+		buildings = {
+			infrastructure = 1
+		}
+		add_core_of = GOW
+		add_core_of = TNE
+		add_core_of = TON
+		add_core_of = VIN
+	}
+
+		provinces={
+			1073 1157 4119 7015 7093 7518 9948 12008 12048 12065 
+		}
+}

@@ -1,0 +1,22 @@
+state={
+	id=1882
+	name="STATE_1882" # STATE_1882
+	# TSR2_OVERLAY none (BSR-only state)
+
+		state_category=wasteland
+
+	manpower=145836
+
+	history={
+		owner = RAJ
+		buildings = {
+			infrastructure = 3
+		}
+		add_core_of = BAL
+		add_core_of = PAK
+	}
+
+		provinces={
+			13984 
+		}
+}

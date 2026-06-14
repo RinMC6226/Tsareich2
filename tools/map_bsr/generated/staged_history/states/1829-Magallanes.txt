@@ -1,0 +1,28 @@
+state={
+	id=1829
+	name="STATE_1829" # Magallanes
+	# TSR2_OVERLAY none (BSR-only state)
+
+		
+		state_category = pastoral
+
+	manpower=73251
+
+	history={
+		owner = CHL
+		victory_points = {
+			5215 3 
+		}
+		victory_points = {
+			5201 1
+		}
+		buildings = {
+			infrastructure = 3
+		}
+		add_core_of = CHL
+	}
+
+		provinces={
+			5201 5209 5215 
+		}
+}

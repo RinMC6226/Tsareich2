@@ -1,0 +1,23 @@
+state={
+	id=1947
+	name="STATE_1947" # Madras
+	# TSR2_OVERLAY none (BSR-only state)
+
+		state_category = rural
+
+	manpower=246321
+
+	history={
+		owner = RAJ
+		victory_points = {
+			10255 10 
+		}
+		buildings = {
+			infrastructure = 5
+		}
+	}
+
+		provinces={
+			10255 4237 10001
+		}
+}

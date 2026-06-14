@@ -1,0 +1,25 @@
+state={
+	id=1979
+	name="STATE_1979" # STATE_1979
+	# TSR2_OVERLAY none (BSR-only state)
+
+		state_category=pastoral
+
+	manpower=275000
+
+	history={
+		owner = ETH
+		controller = ENG
+		victory_points = {
+      1984 1
+    }
+		buildings = {
+			infrastructure = 3
+		}
+		add_core_of = ETH
+	}
+
+		provinces={
+			1984 5041 7944
+		}
+}

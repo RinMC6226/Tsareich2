@@ -1,0 +1,39 @@
+state={
+	id=716
+	name="STATE_716" # STATE_716
+	# TSR2_OVERLAY tsr_state_id=716 ratio=1.000 split=False
+
+		state_category=city
+
+	manpower=10264620
+
+	resources={
+		steel = 27
+		chromium = 4
+		tungsten = 4
+		oil = 3
+		coal = 11
+	}
+
+	history={
+		owner = MAN
+		controller = MAN
+		victory_points = {
+			11771 15
+		}
+		buildings = {
+			air_base = 5
+			infrastructure = 2
+			arms_factory = 2
+			industrial_complex = 1
+		964 = {naval_base = 3}
+		}
+		add_core_of = CHI
+		add_core_of = MAN
+		add_core_of = PRC
+	}
+
+		provinces={
+			836 892 964 987 3783 3849 3895 6918 9781 9854 9885 11764 11771 11808 
+		}
+}

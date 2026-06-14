@@ -1,0 +1,25 @@
+state={
+	id=1312
+	name="STATE_1312" # STATE_1312
+	# TSR2_OVERLAY none (BSR-only state)
+
+		state_category=city
+
+	manpower=4926000
+
+	history={
+		owner = CHI
+		victory_points = {
+			1010 3 
+		}
+		buildings = {
+			infrastructure = 3
+		}
+		add_core_of = CHI
+		add_core_of = PRC
+	}
+
+		provinces={
+			1010 9939 11972 
+		}
+}

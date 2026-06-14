@@ -1,0 +1,39 @@
+state={
+	id=261
+	name="STATE_261" # STATE_261
+	# TSR2_OVERLAY tsr_state_id=261 ratio=1.000 split=False
+
+		
+		state_category = large_city
+
+	manpower=6646694
+
+	resources={
+		steel = 28
+		aluminium = 9
+		coal = 13
+	}
+
+	history={
+		owner = USA
+		victory_points = {
+			6855 10
+		}
+		victory_points = {
+			4601 5 
+		}
+		victory_points = {
+			11791 1 
+		}
+		buildings = {
+			infrastructure = 4
+			arms_factory = 1
+			industrial_complex = 6
+		}
+		add_core_of = USA
+	}
+
+		provinces={
+			659 689 827 831 971 3685 3829 3853 3872 4601 6855 6874 7528 9760 9775 9808 9825 11760 11776 11791 11890 
+		}
+}

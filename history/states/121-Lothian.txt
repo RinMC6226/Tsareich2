@@ -1,0 +1,29 @@
+state={
+	id=121
+	name="STATE_121" # Lothian
+	# TSR2_OVERLAY tsr_state_id=121 ratio=1.000 split=False
+
+		
+		state_category = city
+
+	manpower=1431624
+
+	history={
+		owner = ENG
+		victory_points = { 9392 10 }
+		victory_points = { 6300 1 }
+		buildings = {
+			air_base = 3
+			infrastructure = 4
+			dockyard = 1
+			industrial_complex = 1
+		6300 = {naval_base = 5}
+		}
+		add_core_of = ENG
+		add_core_of = SCO
+	}
+
+		provinces={
+			159 6300 9314 9383 9392 11378 
+		}
+}

@@ -1,0 +1,36 @@
+state={
+	id=666
+	name="STATE_666" # STATE_666
+	# TSR2_OVERLAY tsr_state_id=666 ratio=1.000 split=False
+
+		state_category=rural
+
+	manpower=100222
+
+	resources={
+		tungsten = 44
+		steel = 50
+		chromium = 25
+	}
+
+	history={
+		owner = SWE
+		victory_points = {
+			9108 3
+		}
+		victory_points = {
+			101 2
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+		9108 = {naval_base = 2}
+		}
+		add_core_of = SMI
+		add_core_of = SWE
+	}
+
+		provinces={
+			58 101 148 190 3054 3095 3104 3179 6055 6074 6125 6155 6165 6206 9083 9108 9178 9186 9226 11073 11102 11155 11208 
+		}
+}

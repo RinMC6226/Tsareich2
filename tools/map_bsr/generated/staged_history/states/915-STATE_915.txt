@@ -1,0 +1,22 @@
+state={
+	id=915
+	name="STATE_915" # STATE_915
+	# TSR2_OVERLAY tsr_state_id=915 ratio=1.000 split=False
+
+		state_category=pastoral
+
+	manpower=96212
+
+	history={
+		owner = SWE
+		buildings = {
+			infrastructure = 3
+		}
+		add_core_of = CHL
+		add_core_of = SWE
+	}
+
+		provinces={
+			5131 
+		}
+}

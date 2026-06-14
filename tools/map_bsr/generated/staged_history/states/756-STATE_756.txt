@@ -1,0 +1,43 @@
+state={
+	id=756
+	name="STATE_756" # STATE_756
+	# TSR2_OVERLAY tsr_state_id=756 ratio=1.000 split=False
+
+		state_category=wasteland
+
+	manpower=550000
+
+	history={
+		owner = XSM
+					IF = {
+						limit = {
+							has_dlc = "No Compromise, No Surrender" 
+						}
+						add_core_of = XSM
+					}
+					IF = {
+						limit = {
+							NOT = {
+								has_dlc = "Waking the Tiger" 
+							}
+						}
+						KMT = {
+							transfer_state = PREV
+		
+						}
+					}
+		victory_points = {
+			5057 3
+		}
+		buildings = {
+			infrastructure = 1
+		}
+		add_core_of = CHI
+		add_core_of = PRC
+		add_core_of = XSM
+	}
+
+		provinces={
+			5057 12327 12776 
+		}
+}

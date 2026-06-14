@@ -1,0 +1,24 @@
+state={
+	id=939
+	name="STATE_939" # STATE_939
+	# TSR2_OVERLAY tsr_state_id=939 ratio=1.000 split=False
+
+		state_category=town
+
+	manpower=350000
+
+	history={
+		owner = BRA
+		controller = CRO
+		buildings = {
+			infrastructure = 1
+		}
+		add_core_of = BRA
+		add_core_of = CRO
+		add_core_of = YUG
+	}
+
+		provinces={
+			591 3601 6611 11901 984
+		}
+}

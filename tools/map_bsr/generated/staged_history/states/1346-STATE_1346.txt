@@ -1,0 +1,27 @@
+state={
+	id=1346
+	name="STATE_1346" # STATE_1346
+	# TSR2_OVERLAY none (BSR-only state)
+
+		state_category=city
+
+	manpower=200600
+
+	history={
+		owner = LAT
+		controller = SOV
+		victory_points = {
+			13776 1 
+		}
+		buildings = {
+			infrastructure = 9
+		13776 = {bunker = 2}
+		}
+		add_core_of = COU
+		add_core_of = LAT
+	}
+
+		provinces={
+			13776
+		}
+}

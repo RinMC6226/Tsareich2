@@ -1,0 +1,37 @@
+state={
+	id=492
+	name="STATE_492" # STATE_492
+	# TSR2_OVERLAY tsr_state_id=492 ratio=1.000 split=False
+
+		
+		state_category = rural
+
+	manpower=1601278
+
+	resources={
+		tungsten = 6
+	}
+
+	history={
+		owner = PRU
+		victory_points = {
+			2210 3
+		}
+		victory_points = {
+			12953 1 
+		}
+		victory_points = {
+			2225 1 
+		}
+		buildings = {
+			air_base = 1
+			infrastructure = 2
+			industrial_complex = 1
+		}
+		add_core_of = PRU
+	}
+
+		provinces={
+			2182 2210 2225 5202 12953 13086 
+		}
+}

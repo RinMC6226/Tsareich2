@@ -1,0 +1,42 @@
+state={
+	id=835
+	name="STATE_835" # STATE_835
+	# TSR2_OVERLAY tsr_state_id=835 ratio=1.000 split=False
+
+		state_category=pastoral
+
+	manpower=1500000
+
+	history={
+		owner = ETH
+		controller = ITA
+		
+				set_variable = { ETH_state_development_production_speed = -0.3 }
+				set_variable = { ETH_state_development_local_building_slots_factor = -0.3 }
+				set_variable = { ETH_text_chitet_var = 3 }
+				
+				
+				
+		
+				add_dynamic_modifier = {
+					modifier = ETH_state_development_dynamic_modifier
+				}
+				add_dynamic_modifier = {
+					modifier = ETH_state_decentralization_dynamic_modifier
+					scope = ETH
+				}
+		buildings = {
+			air_base = 1
+			industrial_complex = 1
+		}
+		add_core_of = ETH
+		add_core_of = HAR
+		add_core_of = NEE
+		add_core_of = SOM
+		add_core_of = USA
+	}
+
+		provinces={
+			1282 1338 1619 4287 12221 
+		}
+}

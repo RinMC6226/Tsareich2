@@ -1,0 +1,31 @@
+state={
+	id=982
+	name="STATE_982" # STATE_982
+	# TSR2_OVERLAY tsr_state_id=982 ratio=1.000 split=False
+
+		state_category=rural
+
+	manpower=7600000
+
+	resources={
+		rubber = 2
+	}
+
+	history={
+		owner = DRV
+		controller = DRV
+		victory_points = {
+			7387 1 
+		}
+		buildings = {
+			infrastructure = 1
+		}
+		add_core_of = BRU
+		add_core_of = DRV
+		add_core_of = RAS
+	}
+
+		provinces={
+			7387 
+		}
+}

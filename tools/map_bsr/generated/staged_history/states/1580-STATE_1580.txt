@@ -1,0 +1,29 @@
+state={
+	id=1580
+	name="STATE_1580" # STATE_1580
+	# TSR2_OVERLAY none (BSR-only state)
+
+		
+		state_category = pastoral
+
+	manpower=20240
+
+	resources={
+		tungsten = 1
+	}
+
+	history={
+		owner = ARG
+		victory_points = {
+			11001 1 
+		}
+		buildings = {
+			infrastructure = 2
+		}
+		add_core_of = ARG
+	}
+
+		provinces={
+			11001
+		}
+}
