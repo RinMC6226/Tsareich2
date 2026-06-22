@@ -14,6 +14,7 @@ state = {
 	history = {
 
 		owner = DAS
+		controller = DAS
 		add_core_of = MAL
 		add_core_of = BRN
 

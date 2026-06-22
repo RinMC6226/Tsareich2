@@ -10,25 +10,31 @@ state={
 		add_core_of = INS
 		buildings = {
 			infrastructure = 2
-			1355 = {
+12234 = {
 				naval_base = 1
 
 			}
-			10175 = {
+			13403 = {
 				naval_base = 1
-
 			}
-			12234 = {
+			13406 = {
 				naval_base = 1
-
 			}
 
+		}
+
+		victory_points = {
+			13406 1
+		}
+
+		victory_points = {
+			13410 1
 		}
 
 	}
 
 	provinces={
-		1298 1339 1355 4273 4301 4358 7293 7321 10175 10191 10219 12151 12162 12219 12234 
+		7293 10191 12162 12219 12234 13403 13406 13407 13408 13409 13410 13411 
 	}
 	manpower=3460200
 	buildings_max_level_factor=1

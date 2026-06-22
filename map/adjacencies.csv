@@ -240,6 +240,16 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
 1421;10184;sea;2899;-1;-1;-1;-1;;Sulu-Mindanao
 12118;1224;sea;8751;-1;-1;-1;-1;;Cebu-Samar
 5864;5838;;-1;-1;-1;-1;-1;OTRANTO_STRAIT;Otranto Strait
+7290;13431;sea;9081;-1;-1;-1;-1;;NZ Samoa 
+12126;13416;sea;812;-1;-1;-1;-1;;Tanahbala-Other Island 
+7293;13405;sea;2239;-1;-1;-1;-1;;Bali-Lombok
+7293;13407;sea;2239;-1;-1;-1;-1;;Lombok-W.Nusa Tenggara
+13410;1298;sea;2124;-1;-1;-1;-1;;West Nusa Tenggara-East Nusa Tenggara
+13412;10219;sea;5414;-1;-1;-1;-1;;East Nusa Tenggara-Pulau Alor
+13412;12151;sea;5414;-1;-1;-1;-1;;East Nusa Tenggara-Pulau Alor 2 
+13413;10219;sea;5414;-1;-1;-1;-1;;East Nusa Tenggara-Pulau Alor 3 
+13420;13415;sea;436;-1;-1;-1;-1;;Aceh-Islands
+1428;13414;sea;812;-1;-1;-1;-1;;Padang-Islands
 -1;-1;;-1;-1;-1;-1;-1;-1 
 #Start province ID;End province ID;Adjacency type;Through province ID;Starting X position;Starting Y position;Ending X position;Ending Y position;Adjacency rule;Comment
 

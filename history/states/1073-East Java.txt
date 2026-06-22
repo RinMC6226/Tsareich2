@@ -1,0 +1,53 @@
+state={
+	id=1073
+	name="STATE_1073"
+	resources={
+		rubber = 12 #was: 36 #26-02-03: was:19
+		oil = 29 #was: 14 #26-02-03: was:36
+	}
+
+	history={
+		owner = INS
+		add_core_of = INS
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			arms_factory = 1
+			air_base = 2
+			13422 = {
+				naval_base = 3
+			}
+			13425 = {
+				naval_base = 1
+			}
+		}
+
+		victory_points = {
+			13423 1 #Purwokerto
+		}
+
+		victory_points = {
+			13424 15 #Semarang
+		}
+
+		victory_points = {
+			13425 10 #Yogyakarta
+		}
+
+		victory_points = {
+			13426 3 #Surakarta
+		}
+
+		victory_points = {
+			13422 10 #Surabaya
+		}
+	}
+
+	provinces={
+		1209 1413 4306 4390 4608 7642 7654 10135 10479 10491 12277 12293 12472 13402 13424 13422 13423 13425 13426
+	}
+	manpower = 27368215
+	state_category = large_town
+
+	local_supplies=0.0 
+}
