@@ -94,6 +94,15 @@ Rules:
 - Keep state, strategic region, province, and localisation changes grouped carefully.
 - Record any manual game validation that was not possible.
 
+## Worldbuilding / Prehistory
+
+The mod's alternate-history prehistory (the story up to the 1936.1.1 start) lives in `docs/prehistory/`. Before adding or revising a country, focus, event, idea, or decision, read the relevant prehistory so the narrative and implementation stay consistent.
+
+- Start at `docs/prehistory/README.md` (format, point of divergence, how to read), then `TIMELINE.md`, `ENTITIES.md`, and the relevant `nations/<TAG>.md`.
+- Respect each file's `canon` field; do not implement `proposed` lore as established fact.
+- After implementing, update the `implements:` field of the prehistory file that justifies it.
+- `docs/prehistory/` is documentation only and is not loaded by the game. It is distinct from `documents/` (technical scripting references) and `docs/plan/` (design plans).
+
 ## External References
 
 Use `bsm_test` and `SSW_mod` as reference repositories only for general HOI4 and AI-agent workflow patterns. Do not copy their mod-specific systems, tags, IDs, worldbuilding, or naval rules into Tsareich2 unless the user explicitly asks.

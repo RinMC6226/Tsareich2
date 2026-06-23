@@ -118,7 +118,7 @@ GUI参照:
 
 ## GUI設計
 
-HTMLモックアップ: `.plan/parliament_mockup.html`
+HTMLモックアップ: `docs/plan/parliament_mockup.html`
 
 ### 全体レイアウト
 

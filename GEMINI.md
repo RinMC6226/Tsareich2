@@ -49,6 +49,14 @@ See `docs/gitflow.md` for details.
 - Preserve existing key naming and encoding patterns.
 - Use `[?variable_name]` for variable display.
 
+## Worldbuilding / Prehistory
+
+The mod's alternate-history prehistory (up to the 1936.1.1 start) lives in `docs/prehistory/`. Before adding or revising a country, focus, event, idea, or decision, read the relevant prehistory so narrative and implementation stay consistent.
+
+- Start at `docs/prehistory/README.md`, then `TIMELINE.md`, `ENTITIES.md`, and the relevant `nations/<TAG>.md`.
+- Respect each file's `canon` field; do not implement `proposed` lore as established fact.
+- `docs/prehistory/` is documentation only and is not loaded by the game. It is distinct from `documents/` (technical references) and `docs/plan/` (design plans).
+
 ## Validation
 
 Use the smallest relevant validation:
