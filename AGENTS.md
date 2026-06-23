@@ -105,6 +105,52 @@ Use `documents/README.md` as the entrypoint when you need HOI4 scripting context
 - Test/debug files should be clearly marked with `_test`, `_debug`, or an existing local convention.
 - New IDs should be unique and should not shadow vanilla or existing mod IDs.
 
+### ID Conventions by Object Type
+
+| Object | Pattern | Example |
+|---|---|---|
+| National Focus | `TAG_<concise_english_name>` | `GER_colonial_budget_review` |
+| Event namespace | `tsr_<tag>_<theme>` | `tsr_ger_depression` |
+| Event ID | `tsr_<tag>_<theme>.<number>` | `tsr_ger_depression.11` |
+| Event file | `TR_<TAG>_<theme>_events.txt` | `TR_GER_depression_events.txt` |
+| National Spirit | `TAG_<concise_english_name>` | `GER_great_depression` |
+| Scripted Effect | `TAG_<system>_<action>` or `tsr_<tag>_<action>_effect` | `GER_depression_shift_support_fiscal_balance` |
+| Scripted Trigger | `TAG_<system>_<condition>` or `tsr_<tag>_<condition>_trigger` | `GER_parliament_is_initialized` |
+
+Existing IDs that predate these conventions are kept as-is unless explicitly instructed to rename.
+
+## File Comments
+
+HOI4 is a narrative-driven history game. Comments should help developers understand **where each element sits in the story and what design intent it serves**.
+
+### Section headers
+
+Mark logical blocks with divider comments that state the block's scope and key design notes:
+
+```
+# ── 恐慌対策ツリー（y=0~y=5）─────────────────────
+# 選挙前フェーズ。与党側NFは実効果あり、野党側は公約のみ。
+# y=4 宰相府協議 → tsr_ger_depression.11 で3分岐確定。
+```
+
+### Per-element comments
+
+Add one line before a focus, event, or idea explaining its **narrative role and design intent**:
+
+```
+# 与党の緊縮政策。恐慌を部分緩和するが安定度を削る。
+focus = {
+  id = den_haushaltsausgleich_wahren
+  ...
+}
+```
+
+### What NOT to comment
+
+- Effect values or mechanics already readable in the code (e.g. `# add 50 PP`).
+- Translations of localisation keys (the `.yml` is the source of truth).
+- Change history or ticket references (those belong in commit messages).
+
 ## Localisation
 
 - Primary localisation path: `localisation/japanese/*.yml`.

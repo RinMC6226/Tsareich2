@@ -16,7 +16,7 @@ focus_tree = {
 	}
 
 	focus = {
-		id = die_nachwirkungen_der_weltwirtschaftskrise
+		id = GER_die_nachwirkungen_der_weltwirtschaftskrise
 		icon = GFX_focus_generic_economic_recovery
 		x = 10
 		y = 0
@@ -34,10 +34,10 @@ focus_tree = {
 	}
 
 	focus = {
-		id = den_haushaltsausgleich_wahren
+		id = GER_den_haushaltsausgleich_wahren
 		icon = GFX_focus_generic_reduce_unneccessary_expenditure
-		prerequisite = { focus = die_nachwirkungen_der_weltwirtschaftskrise }
-		mutually_exclusive = { focus = reichsarbeitsbeschaffung }
+		prerequisite = { focus = GER_die_nachwirkungen_der_weltwirtschaftskrise }
+		mutually_exclusive = { focus = GER_reichsarbeitsbeschaffung }
 		x = 7
 		y = 1
 		cost = 5
@@ -55,10 +55,10 @@ focus_tree = {
 	}
 
 	focus = {
-		id = reichsarbeitsbeschaffung
+		id = GER_reichsarbeitsbeschaffung
 		icon = GFX_focus_generic_full_employment
-		prerequisite = { focus = die_nachwirkungen_der_weltwirtschaftskrise }
-		mutually_exclusive = { focus = den_haushaltsausgleich_wahren }
+		prerequisite = { focus = GER_die_nachwirkungen_der_weltwirtschaftskrise }
+		mutually_exclusive = { focus = GER_den_haushaltsausgleich_wahren }
 		x = 13
 		y = 1
 		cost = 5
@@ -85,9 +85,9 @@ focus_tree = {
 	}
 
 	focus = {
-		id = ueberpruefung_des_kolonialetats
+		id = GER_ueberpruefung_des_kolonialetats
 		icon = GFX_focus_JAP_ministry_of_colonial_affairs
-		prerequisite = { focus = den_haushaltsausgleich_wahren }
+		prerequisite = { focus = GER_den_haushaltsausgleich_wahren }
 		x = 6
 		y = 2
 		cost = 5
@@ -104,9 +104,9 @@ focus_tree = {
 	}
 
 	focus = {
-		id = reichssparkommission
+		id = GER_reichssparkommission
 		icon = GFX_focus_generic_commission
-		prerequisite = { focus = den_haushaltsausgleich_wahren }
+		prerequisite = { focus = GER_den_haushaltsausgleich_wahren }
 		x = 8
 		y = 2
 		cost = 5
@@ -123,9 +123,9 @@ focus_tree = {
 	}
 
 	focus = {
-		id = osthilfe
+		id = GER_osthilfe
 		icon = GFX_focus_generic_agricultural_subsidies
-		prerequisite = { focus = reichsarbeitsbeschaffung }
+		prerequisite = { focus = GER_reichsarbeitsbeschaffung }
 		x = 12
 		y = 2
 		cost = 5
@@ -141,9 +141,9 @@ focus_tree = {
 	}
 
 	focus = {
-		id = reform_der_arbeitslosenversicherung
+		id = GER_reform_der_arbeitslosenversicherung
 		icon = GFX_focus_generic_welfare
-		prerequisite = { focus = reichsarbeitsbeschaffung }
+		prerequisite = { focus = GER_reichsarbeitsbeschaffung }
 		x = 14
 		y = 2
 		cost = 5
@@ -160,9 +160,9 @@ focus_tree = {
 	}
 
 	focus = {
-		id = reichsordnungsgesetz
+		id = GER_reichsordnungsgesetz
 		icon = GFX_focus_LIT_restore_order
-		prerequisite = { focus = ueberpruefung_des_kolonialetats focus = reichssparkommission }
+		prerequisite = { focus = GER_ueberpruefung_des_kolonialetats focus = GER_reichssparkommission }
 		x = 7
 		y = 3
 		cost = 5
@@ -179,9 +179,9 @@ focus_tree = {
 	}
 
 	focus = {
-		id = der_geist_der_juliresolution
+		id = GER_der_geist_der_juliresolution
 		icon = GFX_focus_generic_support_the_left_right
-		prerequisite = { focus = reform_der_arbeitslosenversicherung focus = osthilfe }
+		prerequisite = { focus = GER_reform_der_arbeitslosenversicherung focus = GER_osthilfe }
 		x = 13
 		y = 3
 		cost = 5
@@ -198,9 +198,9 @@ focus_tree = {
 	}
 
 	focus = {
-		id = reichswirtschaftsrat
+		id = GER_reichswirtschaftsrat
 		icon = GFX_focus_generic_industrialists
-		prerequisite = { focus = ueberpruefung_des_kolonialetats focus = reichssparkommission focus = osthilfe }
+		prerequisite = { focus = GER_ueberpruefung_des_kolonialetats focus = GER_reichssparkommission focus = GER_osthilfe }
 		x = 10
 		y = 3
 		cost = 5
@@ -217,10 +217,10 @@ focus_tree = {
 	}
 
 	focus = {
-		id = kanzleramtsbesprechungen
+		id = GER_kanzleramtsbesprechungen
 		icon = GFX_focus_generic_conference
-		prerequisite = { focus = reichsordnungsgesetz focus = der_geist_der_juliresolution }
-		prerequisite = { focus = reichswirtschaftsrat }
+		prerequisite = { focus = GER_reichsordnungsgesetz focus = GER_der_geist_der_juliresolution }
+		prerequisite = { focus = GER_reichswirtschaftsrat }
 		x = 10
 		y = 4
 		cost = 5
@@ -234,11 +234,11 @@ focus_tree = {
 	}
 
 	focus = {
-		id = schwarz_weiss_rot_abkommen
+		id = GER_schwarz_weiss_rot_abkommen
 		icon = GFX_focus_GER_monarchy_compromise
-		prerequisite = { focus = kanzleramtsbesprechungen }
-		prerequisite = { focus = reichsordnungsgesetz }
-		mutually_exclusive = { focus = reichstagsmehrheit focus = nationale_versoehnung }
+		prerequisite = { focus = GER_kanzleramtsbesprechungen }
+		prerequisite = { focus = GER_reichsordnungsgesetz }
+		mutually_exclusive = { focus = GER_reichstagsmehrheit focus = GER_nationale_versoehnung }
 		x = 7
 		y = 5
 		cost = 5
@@ -259,10 +259,10 @@ focus_tree = {
 	}
 
 	focus = {
-		id = reichstagsmehrheit
+		id = GER_reichstagsmehrheit
 		icon = GFX_focus_ETH_re-convene_the_parliament
-		prerequisite = { focus = kanzleramtsbesprechungen }
-		mutually_exclusive = { focus = schwarz_weiss_rot_abkommen focus = nationale_versoehnung }
+		prerequisite = { focus = GER_kanzleramtsbesprechungen }
+		mutually_exclusive = { focus = GER_schwarz_weiss_rot_abkommen focus = GER_nationale_versoehnung }
 		x = 10
 		y = 5
 		cost = 5
@@ -283,11 +283,11 @@ focus_tree = {
 	}
 
 	focus = {
-		id = nationale_versoehnung
+		id = GER_nationale_versoehnung
 		icon = GFX_goal_generic_national_unity
-		prerequisite = { focus = kanzleramtsbesprechungen }
-		prerequisite = { focus = der_geist_der_juliresolution }
-		mutually_exclusive = { focus = schwarz_weiss_rot_abkommen focus = reichstagsmehrheit }
+		prerequisite = { focus = GER_kanzleramtsbesprechungen }
+		prerequisite = { focus = GER_der_geist_der_juliresolution }
+		mutually_exclusive = { focus = GER_schwarz_weiss_rot_abkommen focus = GER_reichstagsmehrheit }
 		x = 13
 		y = 5
 		cost = 5

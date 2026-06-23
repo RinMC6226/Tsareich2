@@ -1,45 +1,45 @@
 ﻿l_japanese:
-  die_nachwirkungen_der_weltwirtschaftskrise: "世界恐慌の余波"
-  die_nachwirkungen_der_weltwirtschaftskrise_desc: "1927年から続く世界恐慌は、ドイツ帝国経済にも深い傷を残している。失業率の上昇、輸出の低下、植民地維持費の増大は帝国議会の全党派を揺さぶり、1936年選挙へ向けて恐慌対策は最大の争点となった。SPD、保守派、中央党はそれぞれ異なる処方箋を掲げている。"
+  GER_die_nachwirkungen_der_weltwirtschaftskrise: "世界恐慌の余波"
+  GER_die_nachwirkungen_der_weltwirtschaftskrise_desc: "1927年から続く世界恐慌は、ドイツ帝国経済にも深い傷を残している。失業率の上昇、輸出の低下、植民地維持費の増大は帝国議会の全党派を揺さぶり、1936年選挙へ向けて恐慌対策は最大の争点となった。SPD、保守派、中央党はそれぞれ異なる処方箋を掲げている。"
 
-  den_haushaltsausgleich_wahren: "財政均衡を守れ"
-  den_haushaltsausgleich_wahren_desc: "保守官僚、財界、帝国銀行は通貨価値と均衡財政を帝国安定の柱とみなしている。国家支出を抑え、信用を守ることこそ恐慌下の最善策であるという彼らの主張は、ブリューニング型緊縮政策に近い。"
+  GER_den_haushaltsausgleich_wahren: "財政均衡を守れ"
+  GER_den_haushaltsausgleich_wahren_desc: "保守官僚、財界、帝国銀行は通貨価値と均衡財政を帝国安定の柱とみなしている。国家支出を抑え、信用を守ることこそ恐慌下の最善策であるという彼らの主張は、ブリューニング型緊縮政策に近い。"
 
-  ueberpruefung_des_kolonialetats: "植民地予算の見直し"
-  ueberpruefung_des_kolonialetats_desc: "アフリカ・中東植民地の維持費は、恐慌下の帝国財政に重くのしかかっている。帝国植民地庁予算を再点検し、民間委託と現地税制改革を進めることで、海外権益と財政均衡の両立を図る。"
+  GER_ueberpruefung_des_kolonialetats: "植民地予算の見直し"
+  GER_ueberpruefung_des_kolonialetats_desc: "アフリカ・中東植民地の維持費は、恐慌下の帝国財政に重くのしかかっている。帝国植民地庁予算を再点検し、民間委託と現地税制改革を進めることで、海外権益と財政均衡の両立を図る。"
 
-  reichsordnungsgesetz: "帝国秩序法"
-  reichsordnungsgesetz_desc: "急進左派と革命派組織の活動は、恐慌による社会不安と結びつきつつある。帝国秩序法は社会主義者鎮圧法の後継的な反革命・治安維持法として、KPDや過激労組への監視と規制を合法化する。"
+  GER_reichsordnungsgesetz: "帝国秩序法"
+  GER_reichsordnungsgesetz_desc: "急進左派と革命派組織の活動は、恐慌による社会不安と結びつきつつある。帝国秩序法は社会主義者鎮圧法の後継的な反革命・治安維持法として、KPDや過激労組への監視と規制を合法化する。"
 
-  reichswirtschaftsrat: "帝国経済会議"
-  reichswirtschaftsrat_desc: "財界、農業団体、労組、官僚を一堂に集める経済協議機関を設け、恐慌克服へ向けた国家的調整を行う。史実ワイマール共和国の帝国経済会議を下敷きにしつつ、帝国体制内で中央党が仲介役として影響力を強める。"
+  GER_reichswirtschaftsrat: "帝国経済会議"
+  GER_reichswirtschaftsrat_desc: "財界、農業団体、労組、官僚を一堂に集める経済協議機関を設け、恐慌克服へ向けた国家的調整を行う。史実ワイマール共和国の帝国経済会議を下敷きにしつつ、帝国体制内で中央党が仲介役として影響力を強める。"
 
-  reichssparkommission: "帝国節約委員会"
-  reichssparkommission_desc: "帝国政府主導の歳出削減委員会を設置し、官僚機構、軍事予算、行政支出を監査する。保守派と財界はこれを支持するが、削減の痛みは労働者層と地方にも及ぶだろう。"
+  GER_reichssparkommission: "帝国節約委員会"
+  GER_reichssparkommission_desc: "帝国政府主導の歳出削減委員会を設置し、官僚機構、軍事予算、行政支出を監査する。保守派と財界はこれを支持するが、削減の痛みは労働者層と地方にも及ぶだろう。"
 
-  reichsarbeitsbeschaffung: "帝国雇用創出"
-  reichsarbeitsbeschaffung_desc: "国家による雇用創出と公共事業を推進し、失業者の不満と革命思想の拡大を抑える。中央党、SPD穏健派、労組は、財政均衡だけでは帝国社会を保てないと主張している。"
+  GER_reichsarbeitsbeschaffung: "帝国雇用創出"
+  GER_reichsarbeitsbeschaffung_desc: "国家による雇用創出と公共事業を推進し、失業者の不満と革命思想の拡大を抑える。中央党、SPD穏健派、労組は、財政均衡だけでは帝国社会を保てないと主張している。"
 
-  osthilfe: "東部農業救済"
-  osthilfe_desc: "東プロイセンをはじめとする東部農業地帯の危機は、ユンカー層、保守党、農業団体、軍部の利害と直結している。史実のオストヒルフェを参照し、農村の破綻を防ぐ救済策を実施する。"
+  GER_osthilfe: "東部農業救済"
+  GER_osthilfe_desc: "東プロイセンをはじめとする東部農業地帯の危機は、ユンカー層、保守党、農業団体、軍部の利害と直結している。史実のオストヒルフェを参照し、農村の破綻を防ぐ救済策を実施する。"
 
-  reform_der_arbeitslosenversicherung: "失業保険法改正"
-  reform_der_arbeitslosenversicherung_desc: "1927年失業保険法を改正し、失業給付と職業紹介制度を強化する。SPD穏健派と中央党左派は、都市労働者層の不満を抑えるには制度的な保護が必要だと訴えている。"
+  GER_reform_der_arbeitslosenversicherung: "失業保険法改正"
+  GER_reform_der_arbeitslosenversicherung_desc: "1927年失業保険法を改正し、失業給付と職業紹介制度を強化する。SPD穏健派と中央党左派は、都市労働者層の不満を抑えるには制度的な保護が必要だと訴えている。"
 
-  der_geist_der_juliresolution: "七月決議の精神"
-  der_geist_der_juliresolution_desc: "1917年帝国議会平和決議の記憶は、議会協調と責任政治の象徴であり続けている。中央党、SPD、進歩派の協力を再び掲げ、軍部政治と保守強硬派への牽制を強める。"
+  GER_der_geist_der_juliresolution: "七月決議の精神"
+  GER_der_geist_der_juliresolution_desc: "1917年帝国議会平和決議の記憶は、議会協調と責任政治の象徴であり続けている。中央党、SPD、進歩派の協力を再び掲げ、軍部政治と保守強硬派への牽制を強める。"
 
-  kanzleramtsbesprechungen: "宰相府協議"
-  kanzleramtsbesprechungen_desc: "宰相府に各政党、財界、軍部の代表を招き、1936年選挙前の最終政治調整を行う。帝国秩序法、七月決議、帝国経済会議を総合し、将来の政権構想を決定する。"
+  GER_kanzleramtsbesprechungen: "宰相府協議"
+  GER_kanzleramtsbesprechungen_desc: "宰相府に各政党、財界、軍部の代表を招き、1936年選挙前の最終政治調整を行う。帝国秩序法、七月決議、帝国経済会議を総合し、将来の政権構想を決定する。"
 
-  schwarz_weiss_rot_abkommen: "黒白赤協定"
-  schwarz_weiss_rot_abkommen_desc: "保守党、帝国党、自由保守党、中央党右派は、帝政ドイツ国旗の色に由来する黒白赤の旗の下で協定を結ぶ。皇帝制、軍部、国家秩序を重視し、反共・反革命統一戦線を形成する。"
+  GER_schwarz_weiss_rot_abkommen: "黒白赤協定"
+  GER_schwarz_weiss_rot_abkommen_desc: "保守党、帝国党、自由保守党、中央党右派は、帝政ドイツ国旗の色に由来する黒白赤の旗の下で協定を結ぶ。皇帝制、軍部、国家秩序を重視し、反共・反革命統一戦線を形成する。"
 
-  reichstagsmehrheit: "帝国議会多数派"
-  reichstagsmehrheit_desc: "SPD、中央党、進歩派による議会協力を再建し、1917年帝国議会多数派の精神を現代に呼び戻す。責任内閣制と議会改革を推進し、軍部と保守強硬派に対抗する。"
+  GER_reichstagsmehrheit: "帝国議会多数派"
+  GER_reichstagsmehrheit_desc: "SPD、中央党、進歩派による議会協力を再建し、1917年帝国議会多数派の精神を現代に呼び戻す。責任内閣制と議会改革を推進し、軍部と保守強硬派に対抗する。"
 
-  nationale_versoehnung: "国民和解"
-  nationale_versoehnung_desc: "中央党主導の妥協政治により、左右対立を抑えながら帝国統合を維持する。カトリック社会思想に基づく協調路線は、革命と反革命の双方を回避する第三の道である。"
+  GER_nationale_versoehnung: "国民和解"
+  GER_nationale_versoehnung_desc: "中央党主導の妥協政治により、左右対立を抑えながら帝国統合を維持する。カトリック社会思想に基づく協調路線は、革命と反革命の双方を回避する第三の道である。"
 
   tsr_ger_depression.11.t: "宰相府協議"
   tsr_ger_depression.11.d: "宰相府には各政党、財界、軍部の代表が集められた。世界恐慌の余波は帝国政治の均衡を崩し、1936年帝国議会選挙を前に、もはや曖昧な妥協だけでは政権構想を保てない。保守派は黒白赤の旗の下に秩序を求め、議会派は1917年の多数派を再建しようとし、中央党は左右対立を抑える国民和解を唱えている。帝国の次なる政治路線は、この協議で決定される。"

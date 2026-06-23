@@ -174,9 +174,9 @@ SPD、中央党、進歩派が1917年の協調を復活させる。責任内閣�
 
 選択肢:
 
-- 「黒白赤協定を成立させる」 → `schwarz_weiss_rot_abkommen`
-- 「帝国議会多数派を形成する」 → `reichstagsmehrheit`
-- 「国民和解を掲げる」 → `nationale_versoehnung`
+- 「黒白赤協定を成立させる」 → `GER_schwarz_weiss_rot_abkommen`
+- 「帝国議会多数派を形成する」 → `GER_reichstagsmehrheit`
+- 「国民和解を掲げる」 → `GER_nationale_versoehnung`
 
 ## ゲーム上の推奨表現
 
