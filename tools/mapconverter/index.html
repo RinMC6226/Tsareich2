@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Historical Map Converter</title>
+  <script type="module" crossorigin src="/assets/index-ClaZtSwC.js"></script>
+  <link rel="stylesheet" crossorigin href="/assets/index-DkbZeJTg.css">
+</head>
+<body>
+  <div id="app">
+    <header id="toolbar">
+      <span id="logo">🗺 Historical Map Converter</span>
+      <span class="sep"></span>
+      <button id="btn-load-image" title="変換したい地図の画像を読み込みます">画像を開く</button>
+      <button id="btn-fit" title="画像全体が見えるように表示を戻す">全体表示</button>
+      <span class="sep"></span>
+      <div id="mode-group">
+        <button id="btn-mode-gcp" class="mode active" title="画像と現代地図で同じ場所をクリックして対応点を登録">対応点 (GCP)</button>
+        <button id="btn-mode-trace" class="mode" title="画像上で国境線などをクリックしてなぞる">線をトレース</button>
+      </div>
+      <span class="sep"></span>
+      <label for="sel-transform">変換:</label>
+      <select id="sel-transform" title="アフィン=全体の傾向 / TPS=対応点を正確に通る補間">
+        <option value="auto" selected>自動 (4点以上でTPS)</option>
+        <option value="affine">アフィン</option>
+        <option value="tps">Thin Plate Spline</option>
+      </select>
+      <span class="sep"></span>
+      <button id="btn-undo" title="元に戻す (Ctrl+Z)">↩ 戻す</button>
+      <button id="btn-redo" title="やり直す (Ctrl+Y)">↪ やり直す</button>
+      <span class="sep"></span>
+      <button id="btn-reproject" class="primary" title="ジオリファレンス結果を使って任意の図法へ画像を変換します">🗺 再投影…</button>
+      <span class="sep"></span>
+      <button id="btn-export" title="トレースした線・面をWGS84のGeoJSONとして保存">GeoJSON書き出し</button>
+      <button id="btn-save" title="画像・対応点・トレースをまとめてファイルに保存">保存</button>
+      <button id="btn-open" title="保存したプロジェクトを開く">開く</button>
+      <input type="file" id="file-image" accept="image/*" hidden />
+      <input type="file" id="file-project" accept=".hmc.json,.json" hidden />
+    </header>
+
+    <main id="content">
+      <div id="viewer-pane">
+        <canvas id="image-canvas"></canvas>
+        <div id="drop-hint">
+          <p>ここに地図の画像をドラッグ&ドロップ<br />または「画像を開く」</p>
+        </div>
+        <div id="cursor-geo"></div>
+      </div>
+      <div id="map-pane">
+        <div id="map"></div>
+        <div id="map-tools">
+          <div id="geo-search">
+            <input id="geo-search-input" type="text" placeholder="地名を検索して地図を移動 (Enter)"
+                   title="OpenStreetMap Nominatim による地名検索" />
+            <div id="geo-results" class="hidden"></div>
+          </div>
+          <div id="overlay-ctl" title="現在の対応点で画像をワープし、半透明で地図に重ねて表示します (ズレの確認用)">
+            <label><input type="checkbox" id="chk-overlay" /> 変換画像を重ねる</label>
+            <input type="range" id="overlay-opacity" min="0.1" max="1" step="0.05" value="0.6"
+                   title="オーバーレイの不透明度" />
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <section id="bottom">
+      <div class="panel">
+        <h3>対応点 (GCP) <span id="gcp-count"></span> <span class="hint">行クリックで両画面ジャンプ / 緯度・経度は直接編集可 / マーカーはドラッグで修正</span></h3>
+        <table id="gcp-table">
+          <thead>
+            <tr><th>#</th><th>画像 X</th><th>画像 Y</th><th>緯度</th><th>経度</th><th>残差</th><th></th></tr>
+          </thead>
+          <tbody></tbody>
+        </table>
+      </div>
+      <div class="panel">
+        <h3>トレースした線・面 <span id="trace-count"></span> <span class="hint">ダブルクリック/Enter=線で確定, C=閉じて面で確定</span></h3>
+        <ul id="trace-list"></ul>
+      </div>
+    </section>
+
+    <footer id="status-bar">
+      <span id="status">画像を読み込んでください</span>
+      <span id="transform-info"></span>
+    </footer>
+  </div>
+
+  <div id="reproject-modal" class="hidden">
+    <div id="reproject-dialog">
+      <header>
+        <h2>任意図法への再投影</h2>
+        <button id="rp-close" class="del-btn" title="閉じる">✕</button>
+      </header>
+      <div id="rp-controls">
+        <label>出力図法: <select id="rp-projection"></select></label>
+        <label>幅: <select id="rp-width">
+          <option value="900">900px</option>
+          <option value="1400" selected>1400px</option>
+          <option value="2000">2000px</option>
+        </select></label>
+        <label><input type="checkbox" id="rp-graticule" checked /> 経緯線</label>
+        <label><input type="checkbox" id="rp-coast" checked /> 現代の海岸線 (照合用)</label>
+        <label><input type="checkbox" id="rp-traces" checked /> トレース</label>
+        <button id="rp-render" class="primary">再描画</button>
+        <span class="sep"></span>
+        <button id="rp-save-png">PNG保存</button>
+        <button id="rp-save-jpeg">JPEG保存</button>
+        <button id="rp-save-svg">SVG保存</button>
+      </div>
+      <div id="rp-status"></div>
+      <div id="rp-canvas-wrap"></div>
+    </div>
+  </div>
+
+</body>
+</html>
